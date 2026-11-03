@@ -1,0 +1,35 @@
+# Cloudflare Pages static redirects: legacy Shopify URLs -> static locale paths.
+# Targets use the canonical trailing-slash convention (trailingSlash: 'always').
+/collections/all?view=about /en/about/ 301
+/collections/all?view=manufacturing /en/factory/ 301
+/collections/all?view=oem /en/oem/ 301
+/collections/all?view=blog /en/blog/ 301
+/collections/all?view=applications /en/applications/ 301
+/collections/all?view=contact /en/contact/ 301
+/collections/all?view=privacy /en/privacy/ 301
+/collections/all?view=request-a-quote /en/quote/ 301
+/collections/all?view=article-choose-sanding-disc-backing /en/blog/choose-sanding-disc-backing/ 301
+/collections/all?view=article-abrasive-belt-order-checklist /en/blog/abrasive-belt-order-checklist/ 301
+/collections/all?view=article-plan-your-grit-sequence /en/blog/plan-your-grit-sequence/ 301
+/collections/all?view=article-dust-collection-and-pad-compatibility /en/blog/dust-collection-and-pad-compatibility/ 301
+/collections/all?view=article-oem-labels-and-packaging-requirements /en/blog/oem-labels-and-packaging-requirements/ 301
+/collections/all?view=article-grit-standards-fepa-ansi /en/blog/grit-standards-fepa-ansi/ 301
+/collections/all?view=model-y399 /en/model/y399/ 301
+/collections/all?view=model-mt-32 /en/model/mt-32/ 301
+/collections/all?view=model-gpc71 /en/model/gpc71/ 301
+/collections/all?view=model-y999 /en/model/y999/ 301
+/collections/all?view=model-gxk-51 /en/model/gxk-51/ 301
+/collections/all?view=model-xz-330 /en/model/xz-330/ 301
+/collections/all?view=model-kx-167 /en/model/kx-167/ 301
+/collections/all?view=model-scy728 /en/model/scy728/ 301
+/collections/all?view=model-rcy97 /en/model/rcy97/ 301
+/collections/all?view=model-gxk56 /en/model/gxk56/ 301
+/collections/all?view=model-ax-168 /en/model/ax-168/ 301
+/collections/all?view=disc-gold8 /en/disc/gold8/ 301
+/collections/all?view=disc-gold17 /en/disc/gold17/ 301
+/collections/all?view=disc-ceramic15 /en/disc/ceramic15/ 301
+/collections/all?view=disc-red8 /en/disc/red8/ 301
+/collections/all?view=disc-gray8 /en/disc/gray8/ 301
+/collections/all?view=flap-plastic /en/flap/plastic/ 301
+/collections/all?view=flap-steel /en/flap/steel/ 301
+/collections/all?view=flap-fiberglass /en/flap/fiberglass/ 301
