@@ -126,19 +126,19 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 .motai-contact-left a:hover { color: #fff; }
 .motai-contact-left svg { color: #fff; flex-shrink: 0; }
 
-/* ============ Language sub-site switcher (sticky nav row) ============ */
+/* ============ Language sub-site switcher (top contact bar) ============ */
 .lang-switch { position: relative; }
 .lang-switch summary { list-style: none; }
 .lang-switch summary::-webkit-details-marker { display: none; }
 .lang-trigger {
   display: inline-flex; align-items: center; gap: 7px;
-  border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg);
-  padding: 6px 12px; font-size: 12.5px; font-weight: 600; color: var(--ink-soft);
+  border: 1px solid #3a3d44; border-radius: var(--radius); background: transparent;
+  padding: 5px 11px; font-size: 12px; font-weight: 600; color: #d7d9de;
   cursor: pointer;
 }
 .lang-trigger svg { width: 15px; height: 15px; flex: 0 0 auto; }
-.lang-trigger:hover { color: var(--ink); border-color: var(--ink); }
-.lang-switch[open] .lang-trigger { color: var(--ink); border-color: var(--ink); }
+.lang-trigger:hover { color: #fff; border-color: #fff; }
+.lang-switch[open] .lang-trigger { color: #fff; border-color: #fff; }
 .lang-panel {
   position: absolute; top: calc(100% + 8px); inset-inline-end: 0; z-index: 60;
   min-width: 190px; padding: 8px 0;
