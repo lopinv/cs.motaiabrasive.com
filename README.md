@@ -156,9 +156,9 @@ node .zcode-check\sync-flap.mjs
   Merchant Center 数据源填 `<SITE_URL>/products.csv`。
 - **robots / sitemap**：`scripts/gen-seo.mjs` 同钩子生成 `dist/robots.txt`（指向 sitemap）
   与全量 `dist/sitemap.xml`（639 URL = 根 `/` + 11 语种 × 58，含 /terms，域名跟随 `SITE_URL`）。
-  sitemap 带 **Google 图片地图命名空间**：产品/型号/砂纸片/百叶片/博客页（36 条 × 11 语种
-  = 396 条 `image:loc`）输出该页主图（原站 CDN 远程地址，与页面 OGP 图同形），
-  让 Google 图片搜索可收录商品图；集合页与其余路由为纯 `<loc>` 条目。
+  sitemap 为**纯标准 sitemaps.org urlset**（只含 `<loc>`）——GSC 现行解析器拒收 Google 图片
+  sitemap 扩展命名空间（报 `Failed to parse QName 'image:'`，图片 sitemap 扩展已被 Google
+  弃用）；商品图收录改走两条现行通道：Merchant feed 的 `image_link` 列 + 页面 `og:image`。
 
 上线步骤（不在代码内）：
 1. Google Merchant Center 建账户 → 数据源 → 选「静态文件 / CSV」，URL 填 `<SITE_URL>/products.csv`。
@@ -173,11 +173,12 @@ node .zcode-check\sync-flap.mjs
   以及 sitemap/robots/feed 里的绝对地址——`gen-seo.mjs`/`gen-feed.mjs` 都读 `SITE_URL`）。
 - **Google Search Console**：验证 `<SITE_URL>` 域名（DNS 或 HTML 标签）→ 依次提交：
   1. 站点地图：Sitemaps → 添加 `<SITE_URL>/sitemap.xml`（构建期已生成，
-     含 639 URL + 396 条图片 `image:loc`，Google 会自动识别图片地图）；
+     纯标准 urlset 共 639 URL，无 `image:` 扩展命名空间——GSC 拒收图片
+     sitemap 扩展，图片收录走 Merchant feed `image_link` + 页面 `og:image`）；
   2. 网址检查（URL Inspection）抽查 1-2 个产品页，确认 canonical 与 11 条 hreflang 被接受；
   3. 之后每次部署含新增页面时，GSC 会按 robots 里的 `Sitemap:` 声明自动抓取更新，无需重新提交。
 - **Bing Webmaster Tools**：添加站点后同样提交 `<SITE_URL>/sitemap.xml`
-  （Bing 支持 Google 图片地图的 `image:` 命名空间）。
+  （纯标准 urlset，Bing 直接接受；图片收录同样走 feed `image_link` + 页面 `og:image`）。
 - 非 en/zh 的 9 种语种翻译建议母语审校后再对外上线。
 
 ## 校验门禁（构建后回归）

@@ -79,11 +79,10 @@ $sm = Get-Content .\dist\sitemap.xml -Raw
 '=== SITEMAP ==='
 'urls: ' + ([regex]::Matches($sm,'<loc>').Count)
 'first url: ' + ([regex]::Match($sm,'<loc>([^<]+)</loc>').Groups[1].Value)
-'image entries: ' + ([regex]::Matches($sm,'<image:loc>').Count)
-'image ns: ' + [bool]($sm -match 'xmlns:image="http://www.google.com/schemas/sitemap-image/1.0"')
-'img tag balance: ' + ([regex]::Matches($sm,'<image:>').Count -eq [regex]::Matches($sm,'</image:>').Count)
-$smImgs = [regex]::Matches($sm, '<image:loc>([^<]+)</image:loc>') | ForEach-Object { $_.Groups[1].Value }
-'sm imgs on remote CDN: ' + [bool]((-not $smImgs) -or (($smImgs | Where-Object { $_ -notmatch 'motaiabrasive\.com/cdn/shop' }).Count -eq 0))
+# GSC rejects the Google image-sitemap extension ("Failed to parse QName
+# 'image:'"), so the sitemap must stay a plain sitemaps.org urlset.
+'no image ns: ' + [bool](-not ($sm -match 'xmlns:image'))
+'standard ns: ' + [bool]($sm -match 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"')
 
 $rb = Get-Content .\dist\robots.txt -Raw
 '=== ROBOTS ==='
