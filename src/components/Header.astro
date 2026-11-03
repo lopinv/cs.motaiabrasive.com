@@ -1,7 +1,7 @@
 ---
 import { TRANSLATIONS, LANGS } from '../lib/i18n.js'
 import { site, localizedUrl } from '../lib/utils.js'
-const { lang } = Astro.props
+const { lang, routePath = '' } = Astro.props
 const tr = TRANSLATIONS[lang]
 const navItems = [
   { key: 'nav.home', href: `/` },
@@ -24,6 +24,15 @@ const l = {
   ...tr.nav,
   ...Object.fromEntries(products.map((p) => [p.key, tr.colt[p.key.replace('colt.', '')].label]))
 }
+// Language-switcher targets: same route, other locale (keeps the user on
+// the equivalent page, matching hreflang semantics). Home route ('') -> /.
+const langOpts = LANGS.map((code) => ({
+  code,
+  codeLabel: TRANSLATIONS[code].codeLabel,
+  name: TRANSLATIONS[code].name,
+  href: localizedUrl(code, routePath),
+  selected: code === lang
+}))
 ---
 
 <div class="motai-contact-bar">
@@ -34,25 +43,6 @@ const l = {
         <span>{site.phone}</span>
       </a>
       <a href={`mailto:${site.email}`}><span>{site.email}</span></a>
-    </div>
-    <div class="motai-contact-right">
-      <button class="language-trigger" type="button" aria-expanded="false">
-        <span class="language-name">{tr.name}</span>
-      </button>
-      <details class="language-menu-wrap">
-        <summary class="visually-hidden">{tr.name}</summary>
-        <div class="language-menu" onclick="this.parentElement.open=false" aria-label="Select language">
-          <div class="language-menu-heading">SELECT LANGUAGE</div>
-          {LANGS.map((code) => (
-            <a class={`language-option ${code === lang ? 'selected' : ''}`}
-               href={code === lang ? '' : `/${code}/`}
-               onclick={code === lang ? 'event.stopPropagation()' : ''}>
-              <span class="language-option-code">{TRANSLATIONS[code].codeLabel}</span>
-              <span>{TRANSLATIONS[code].name}</span>
-            </a>
-          ))}
-        </div>
-      </details>
     </div>
   </div>
 </div>
@@ -78,6 +68,21 @@ const l = {
         </div>
       </div>
     </nav>
+    <details class="lang-switch" aria-label="Language sub-site switcher">
+      <summary class="lang-trigger">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M2.8 12h18.4M12 2.8c2.5 2.6 3.8 5.7 3.8 9.2s-1.3 6.6-3.8 9.2M12 2.8C9.5 5.4 8.2 8.5 8.2 12s1.3 6.6 3.8 9.2"/></svg>
+        <span class="lang-current">{tr.nav.language} · {TRANSLATIONS[lang].codeLabel}</span>
+      </summary>
+      <div class="lang-panel" onclick="this.parentElement.open=false" role="menu">
+        <div class="lang-panel-heading">{tr.nav.language}</div>
+        {langOpts.map((o) => (
+          <a class={`lang-option ${o.selected ? 'selected' : ''}`} href={o.href}>
+            <span class="lang-code">{o.codeLabel}</span>
+            <span>{o.name}</span>
+          </a>
+        ))}
+      </div>
+    </details>
     <details class="mobile-menu" aria-label="Mobile menu">
       <summary class="menu-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
@@ -93,6 +98,17 @@ const l = {
           ))}
           <a class="sub-link" href={localizedUrl(lang, '/collections/all')}>{tr.colt.all.title}</a>
         </nav>
+        <div class="lang-mobile">
+          <div class="sub-label">{tr.nav.language}</div>
+          <div class="lang-mobile-grid">
+            {langOpts.map((o) => (
+              <a class={`lang-chip ${o.selected ? 'selected' : ''}`} href={o.href}>
+                <span class="lang-code">{o.codeLabel}</span>
+                <span>{o.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
         <div class="motai-nav-actions">
           <a class="motai-feedback" href={localizedUrl(lang, '/quote')}>{tr.cta.quote}</a>
         </div>

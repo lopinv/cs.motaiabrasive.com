@@ -125,27 +125,46 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 .motai-contact-left a { display: inline-flex; align-items: center; gap: 6px; color: #d7d9de; }
 .motai-contact-left a:hover { color: #fff; }
 .motai-contact-left svg { color: #fff; flex-shrink: 0; }
-.motai-contact-right { position: relative; }
-.language-trigger {
-  background: transparent; border: 1px solid #3a3d44; color: #d7d9de;
-  border-radius: var(--radius); padding: 5px 10px; font-size: 12px; cursor: pointer;
-  display: inline-flex; align-items: center; gap: 6px;
+
+/* ============ Language sub-site switcher (sticky nav row) ============ */
+.lang-switch { position: relative; }
+.lang-switch summary { list-style: none; }
+.lang-switch summary::-webkit-details-marker { display: none; }
+.lang-trigger {
+  display: inline-flex; align-items: center; gap: 7px;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg);
+  padding: 6px 12px; font-size: 12.5px; font-weight: 600; color: var(--ink-soft);
+  cursor: pointer;
 }
-.language-trigger:hover { border-color: #fff; color: #fff; }
-.language-menu-wrap { position: static; }
-.language-menu-wrap summary { list-style: none; }
-.language-menu {
+.lang-trigger svg { width: 15px; height: 15px; flex: 0 0 auto; }
+.lang-trigger:hover { color: var(--ink); border-color: var(--ink); }
+.lang-switch[open] .lang-trigger { color: var(--ink); border-color: var(--ink); }
+.lang-panel {
   position: absolute; top: calc(100% + 8px); inset-inline-end: 0; z-index: 60;
+  min-width: 190px; padding: 8px 0;
   background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
-  min-width: 190px; padding: 10px 0; box-shadow: 0 12px 32px rgba(0,0,0,.14); display: none;
+  box-shadow: 0 12px 32px rgba(0,0,0,.14);
+  display: none;
 }
-.language-menu-wrap[open] .language-menu { display: block; }
-.language-menu-heading { font-size: 10px; letter-spacing: .16em; color: var(--muted); padding: 4px 14px 8px; }
-.language-option { display: flex; gap: 10px; align-items: center; padding: 7px 14px; font-size: 13px; color: var(--ink); }
-.language-option:hover { background: var(--bg-soft); }
-.language-option.selected { color: var(--accent); font-weight: 600; }
-.language-option-code { font-size: 10px; font-weight: 700; color: var(--muted); width: 34px; }
-.language-option.selected .language-option-code { color: var(--accent); }
+.lang-switch[open] .lang-panel { display: block; }
+.lang-panel-heading { font-size: 10px; letter-spacing: .16em; color: var(--muted); padding: 4px 14px 8px; }
+.lang-option { display: flex; gap: 10px; align-items: center; padding: 7px 14px; font-size: 13px; color: var(--ink); }
+.lang-option:hover { background: var(--bg-soft); color: var(--accent); }
+.lang-option.selected { color: var(--accent); font-weight: 600; }
+.lang-code { font-size: 10px; font-weight: 700; color: var(--muted); width: 30px; flex: 0 0 auto; }
+.lang-option.selected .lang-code { color: var(--accent); }
+.lang-chip.selected .lang-code { color: var(--accent); }
+
+/* Mobile language grid (inside hamburger panel; hidden on desktop) */
+.lang-mobile { display: none; }
+.lang-mobile-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 6px 0 4px; }
+.lang-chip {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 8px 4px; border: 1px solid var(--line); border-radius: var(--radius);
+  font-size: 12px; color: var(--ink-soft); background: var(--bg);
+}
+.lang-chip:hover { color: var(--accent); border-color: var(--accent); }
+.lang-chip .lang-code { width: auto; }
 
 /* ============ Header ============ */
 .header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
@@ -403,6 +422,9 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
   .motai-nav-row > .motai-nav-actions { display: none; }
   .mobile-menu { display: flex; flex-wrap: wrap; align-items: center; flex: 1 1 auto; justify-content: flex-end; }
   .menu-toggle { display: inline-flex; }
+  /* language switcher: desktop dropdown off, panel grid on */
+  .lang-switch { display: none; }
+  .lang-mobile { display: block; }
   .mobile-menu-panel { flex: 1 1 100%; }
   .mobile-menu-panel .mobile-nav { border: 0; padding: 0; display: block; }
 }

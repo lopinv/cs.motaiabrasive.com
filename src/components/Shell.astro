@@ -26,7 +26,7 @@ const dir = TRANSLATIONS[lang]?.rtl ? 'rtl' : 'ltr'
     <SeoMeta lang={lang} {...seo} />
   </head>
   <body>
-    <Header lang={lang} />
+    <Header lang={lang} routePath={seo.canonicalPath ?? ''} />
     <main id="MainContent">
       <slot />
     </main>
