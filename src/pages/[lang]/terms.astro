@@ -1,0 +1,42 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd, termsPageJsonLd } from '../../lib/tdk.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu } = usePage(lang)
+const p = pick('terms')
+const seo = buildSeo(lang, 'terms', {}, [
+  termsPageJsonLd(lang),
+  breadcrumbJsonLd(lang, [{ name: p.h1, path: `/${lang}/terms` }])
+])
+const sections = ['s1', 's2', 's3', 's4', 's5']
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{p.h1}</span></div>
+
+  <section class="section wrap">
+    <span class="eyebrow">TERMS OF USE</span>
+    <h1>{p.h1}</h1>
+    <p class="lead">{p.sub}</p>
+  </section>
+
+  <div class="section wrap section--flush-top">
+    <div class="prose">
+      {sections.map((s, i) => (
+        <section>
+          <h2>{i + 1}. {pick(`terms.${s}t`)}</h2>
+          <p>{pick(`terms.${s}b`)}</p>
+        </section>
+      ))}
+      <p class="small-note">{p.updated}</p>
+    </div>
+  </div>
+</Shell>

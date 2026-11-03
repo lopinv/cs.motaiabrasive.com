@@ -9,7 +9,7 @@ motai-static/
 │  ├─ i18n/*.json      11 语种翻译（en/zh/es/de/fr/ar/pt/ru/it/ja/ko）
 │  ├─ lib/             i18n、数据、TDK、WhatsApp 链接、路径工具
 │  ├─ components/      Shell/Header/Footer/FloatingContact/ProductCard/CtaBand/Faq/SectionHeading/YouTubeEmbed/SeoMeta
-│  ├─ pages/           55 路由模板（[lang] 动态参数 × 11 语种）+ index.astro（SITE_LANG 根页）+ 404
+│  ├─ pages/           56 路由模板（[lang] 动态参数 × 11 语种）+ index.astro（SITE_LANG 根页）+ 404
 │  └─ styles/global.css
 ├─ public/_redirects    旧 Shopify URL 301 兼容（纯静态重定向）
 ├─ scripts/gen-feed.mjs 构建后生成 dist/products.csv（Merchant Center b2b feed）
@@ -30,7 +30,7 @@ set SITE_LANG=zh && npm run build # Windows cmd
 ```
 
 说明：
-- 一次构建输出全部 11 个语种的静态路由（`/en/...`、`/zh/...`、`/ar/...` 等），共 629 页。
+- 一次构建输出全部 11 个语种的静态路由（`/en/...`、`/zh/...`、`/ar/...` 等），共 640 页（含 /terms 条款页）。
 - `SITE_LANG` 只影响**根路径 `/` 的默认落地语种**，不影响其余语种路由（它们始终全部生成）。
 - `astro build` 成功后自动运行两个纯 Node 脚本（零依赖）：
   `scripts/gen-feed.mjs`（生成 `dist/products.csv`，Merchant Center b2b feed）与
@@ -104,10 +104,17 @@ set SITE_LANG=zh && npm run build # Windows cmd
 
 - 每个页面统一输出：`<title>`（三层优先级：页面级 > 类别级 > 站点默认）、`description`、`keywords`、
   `canonical`（指向对应语种路径，x-default 指向英语版）、11 个 hreflang、OGP、Twitter Card。
-- JSON-LD 按页类型：`Organization`（全站）、`WebSite`（根首页）、`Product`（产品/型号/变体/百叶片，
+- JSON-LD 按页类型：`Organization`（全站，带 `@id` 供其他节点引用）、`WebSite`（根首页）、`Product`（产品/型号/变体/百叶片，
   additionalProperty 规格 + B2B `offers`：`PreSale`/`New`/seller，**始终无 price 字段**，见「Google 购物」节）、
-  `BreadcrumbList`（全部）、`FAQPage`（FAQ 区）、`Article`（博客）、
-  `ItemList`（术语表 + 4 个集合页商品列表）、`VideoObject`（视频区块）。
+  `AboutPage`（about 页，mainEntity 指向 Organization `@id`）、`ContactPage` + `ContactPoint`（contact 页，
+  邮箱/电话/WhatsApp，areaServed: Worldwide）、`WebPage`（terms 页，about 指向 Organization）、
+  `BreadcrumbList`（全部）、`FAQPage`（FAQ 区）、`Article`（博客，author/publisher 引用 Organization `@id`，
+  带 `datePublished`/`dateModified`/`mainEntityOfPage`）、`ItemList`（术语表 + 4 个集合页商品列表）、
+  `VideoObject`（视频区块）。
+- **E-E-A-T 信号**：博客页 byline（「Reviewed by the MoTai Abrasives technical team」+ 本地化「Last reviewed」日期，
+  构建期 `Intl.DateTimeFormat(lang)` 生成）、术语表「最近审阅」注记行、/terms 使用条款页（11 语种，报价 consent 引用
+  Privacy + Terms）；作者署名一律公司口径（不点名个人，避免虚构专家身份）。
+- OGP 全页输出 `og:url`（含根首页），`twitter:image` 无产品图时回退 logo。
 - AEO/GEO：全部事实内容、规格表、FAQ 问答均落在纯静态 HTML 中（无 JS 渲染依赖），
   语义化 H1/H2/H3 + `<table><th scope>`，答案引擎可直接引用。
 
@@ -148,7 +155,7 @@ node .zcode-check\sync-flap.mjs
   UTF-8 带 BOM，`availability=preorder`，随 Pages 发布为静态文件）。
   Merchant Center 数据源填 `<SITE_URL>/products.csv`。
 - **robots / sitemap**：`scripts/gen-seo.mjs` 同钩子生成 `dist/robots.txt`（指向 sitemap）
-  与全量 `dist/sitemap.xml`（628 URL = 根 `/` + 11 语种 × 57，域名跟随 `SITE_URL`）。
+  与全量 `dist/sitemap.xml`（639 URL = 根 `/` + 11 语种 × 58，含 /terms，域名跟随 `SITE_URL`）。
   sitemap 带 **Google 图片地图命名空间**：产品/型号/砂纸片/百叶片/博客页（36 条 × 11 语种
   = 396 条 `image:loc`）输出该页主图（原站 CDN 远程地址，与页面 OGP 图同形），
   让 Google 图片搜索可收录商品图；集合页与其余路由为纯 `<loc>` 条目。
@@ -166,7 +173,7 @@ node .zcode-check\sync-flap.mjs
   以及 sitemap/robots/feed 里的绝对地址——`gen-seo.mjs`/`gen-feed.mjs` 都读 `SITE_URL`）。
 - **Google Search Console**：验证 `<SITE_URL>` 域名（DNS 或 HTML 标签）→ 依次提交：
   1. 站点地图：Sitemaps → 添加 `<SITE_URL>/sitemap.xml`（构建期已生成，
-     含 628 URL + 396 条图片 `image:loc`，Google 会自动识别图片地图）；
+     含 639 URL + 396 条图片 `image:loc`，Google 会自动识别图片地图）；
   2. 网址检查（URL Inspection）抽查 1-2 个产品页，确认 canonical 与 11 条 hreflang 被接受；
   3. 之后每次部署含新增页面时，GSC 会按 robots 里的 `Sitemap:` 声明自动抓取更新，无需重新提交。
 - **Bing Webmaster Tools**：添加站点后同样提交 `<SITE_URL>/sitemap.xml`

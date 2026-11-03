@@ -284,7 +284,9 @@
     "catSelection": "Selection guide",
     "catBuyer": "Buyer resources",
     "catNotes": "Application notes",
-    "catOem": "OEM guide"
+    "catOem": "OEM guide",
+    "reviewedBy": "Reviewed by the MoTai Abrasives technical team",
+    "lastReviewed": "Last reviewed {date}"
   },
   "contact": {
     "h1": "Start a wholesale conversation",
@@ -314,6 +316,21 @@
     "s5b": "The browser stores enquiry-list management data. No advertising pixels or analytics trackers are enabled in this version. External WhatsApp, map and social links are governed by their own privacy policies.",
     "updated": "Last updated 12 October 2026"
   },
+  "terms": {
+    "h1": "Terms of Use",
+    "sub": "The conditions that apply when you use this site and send MoTai an enquiry.",
+    "s1t": "Use of this site",
+    "s1b": "This site is a B2B information and enquiry service operated by Hubei MoTai Abrasives Materials Co., Ltd. Content — product specifications, guides, glossary and blog — is provided in good faith for general information. Using the site means you accept these terms; if you do not, do not submit an enquiry.",
+    "s2t": "Enquiries are not offers",
+    "s2b": "An enquiry-form submission is an invitation to negotiate, not a binding order. MoTai is not obliged to respond to every enquiry, and no purchase is committed until a quotation is confirmed in writing by both parties.",
+    "s3t": "Quotations and pricing",
+    "s3b": "All prices are quote-based. Quotations list sizes, grits, packaging, trade terms and validity periods; final figures are settled at the confirmed specification and are subject to raw-material and freight movement.",
+    "s4t": "Intellectual property",
+    "s4b": "Site content, product descriptions, graphics and the MoTai brand are the property of MoTai Abrasives and may not be reproduced commercially. Third-party references (e.g. model sources) are for buyer orientation only and do not imply endorsement.",
+    "s5t": "Liability and governing law",
+    "s5b": "MoTai is not liable for decisions made in reliance on general information in this site. These terms are governed by the laws of the People's Republic of China; disputes are settled under the sales contract between the parties.",
+    "updated": "Last updated 3 November 2026"
+  },
   "quotePage": {
     "h1": "Start a wholesale conversation",
     "sub": "Get factory-direct wholesale prices for abrasive products.",
@@ -342,7 +359,7 @@
     "f14": "Destination country *",
     "f15": "OEM requirements",
     "f16": "Additional message *",
-    "consent": "I agree to the Privacy Policy and the use of my details to respond to this enquiry. *",
+    "consent": "I agree to the Privacy Policy, the Terms of Use, and the use of my details to respond to this enquiry. *",
     "btn1": "Request a Wholesale Quote",
     "btn2": "Send enquiry via WhatsApp",
     "goNote": "The form opens in our wholesale enquiry system with your product context pre-filled."
@@ -358,7 +375,8 @@
   "glossary": {
     "h1": "Abrasives glossary",
     "sub": "The terms behind every belt, disc and flap specification.",
-    "note": "Standard industry definitions for abrasive consumables; grade and backing details for an order are settled with the quotation."
+    "note": "Standard industry definitions for abrasive consumables; grade and backing details for an order are settled with the quotation.",
+    "reviewNote": "Terms are reviewed by the MoTai Abrasives technical team — last reviewed 3 November 2026."
   },
   "trust": {
     "regions": "Destination regions",
@@ -689,6 +707,7 @@
     "oemPl": "OEM & Private Label",
     "newsB": "News & Blog",
     "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
     "contactUs": "Contact Us"
   },
   "tdk": {
@@ -731,6 +750,15 @@
       "title": "Privacy Policy",
       "description": "How MoTai Abrasives uses enquiry information: collection, purpose, storage, your choices and cookie handling.",
       "keywords": "privacy policy, MoTai"
+    },
+    "terms": {
+      "title": "Terms of Use — MoTai Abrasives",
+      "description": "Terms for this B2B abrasive site: enquiry handling, quote-based pricing, intellectual property and governing law.",
+      "keywords": [
+        "terms of use",
+        "MoTai",
+        "B2B abrasive supplier"
+      ]
     },
     "quote": {
       "title": "Request a Wholesale Quote",

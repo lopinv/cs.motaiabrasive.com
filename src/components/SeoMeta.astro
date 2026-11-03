@@ -47,11 +47,11 @@ const defaultOg = site.logo
 <meta property="og:locale" content={ogLocale} />
 <meta property="og:title" content={title} />
 {description && <meta property="og:description" content={description} />}
-{canonicalPath && <meta property="og:url" content={canonical} />}
 <meta property="og:image" content={ogImage || defaultOg} />
 <meta property="og:image:alt" content={title} />
+<meta property="og:url" content={canonical} />
 <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
 <meta name="twitter:title" content={title} />
 {description && <meta name="twitter:description" content={description} />}
-{ogImage && <meta name="twitter:image" content={ogImage} />}
+<meta name="twitter:image" content={ogImage || defaultOg} />
 {jsonld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}

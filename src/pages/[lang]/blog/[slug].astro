@@ -1,6 +1,7 @@
 ---
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
+import { TRANSLATIONS } from '../../../lib/i18n.js'
 import Shell from '../../../components/Shell.astro'
 import { breadcrumbJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
@@ -20,7 +21,12 @@ const article = blogData.find((x) => x.slug === ctx.slug)
 const t = pick('article')
 const title = pick(article.titleKey)
 const intro = pick(article.introKey)
-const seo = buildSeo(lang, 'article', { article: { title, intro, slug: a.slug, image: a.image } }, [
+// Freshness byline: review date localized to the page language at build time.
+// Use the 2-letter lang code (not ogLocale like `ar_SA`/`pt_PT`) — Node's
+// small-icu rejects BCP47 region tags ("Invalid language tag"), but always
+// accepts bare language codes.
+const reviewed = new Intl.DateTimeFormat(lang, { dateStyle: 'long' }).format(new Date(article.dateModified ?? article.datePublished))
+const seo = buildSeo(lang, 'article', { article: { title, intro, slug: a.slug, image: a.image, datePublished: article.datePublished, dateModified: article.dateModified } }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.news'), path: `/${lang}/blog` },
     { name: title, path: `/${lang}/blog/${a.slug}` }
@@ -37,6 +43,11 @@ const relatedVideos = videosData.videos.filter((v) => v.youtubeId && v.links.som
     <span class="eyebrow">{pick(`article.${catKey[article.categoryKey]}`)}</span>
     <h1>{title}</h1>
     <p class="lead">{intro}</p>
+    <p class="byline">
+      <span>{pick('article.reviewedBy')}</span>
+      <span aria-hidden="true">·</span>
+      <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+    </p>
   </section>
 
   <div class="section wrap section--flush-top">

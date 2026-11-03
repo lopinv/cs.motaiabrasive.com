@@ -65,6 +65,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'blog':
     case 'contact':
     case 'privacy':
+    case 'terms':
     case 'quote':
     case 'clients':
     case 'glossary':
@@ -162,10 +163,19 @@ export function tdkFor(lang, pageId, ctx = {}) {
 }
 
 /** Standard JSON-LD objects shared by all pages. */
+
+/**
+ * Stable @id so other JSON-LD nodes (Article author/publisher, AboutPage,
+ * ContactPage) can reference the canonical Organization instead of re-declaring
+ * a bare, unlinked copy. Resolves to the site root (#organization).
+ */
+export const ORG_ID = `${SITE_BASE}/#organization`
+
 export function orgJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': ORG_ID,
     name: 'Hubei MoTai Abrasives Materials Co., Ltd.',
     url: 'https://www.motaiabrasive.com',
     logo: 'https://www.motaiabrasive.com/cdn/shop/t/23/assets/logo-charcoal-v18.webp',
@@ -328,8 +338,59 @@ function buildArticleJsonLd(lang, a) {
     headline: a.title,
     description: a.intro,
     image: [media(a.image)],
-    author: { '@type': 'Organization', name: 'MoTai Abrasives' },
-    publisher: { '@type': 'Organization', name: 'MoTai Abrasives' }
+    author: { '@id': ORG_ID, '@type': 'Organization', name: 'MoTai Abrasives' },
+    publisher: { '@id': ORG_ID, '@type': 'Organization', name: 'MoTai Abrasives' },
+    ...(a.datePublished && { datePublished: a.datePublished }),
+    ...(a.dateModified && { dateModified: a.dateModified }),
+    mainEntityOfPage: absUrl(lang, `/blog/${a.slug}`)
+  }
+}
+
+/**
+ * AboutPage JSON-LD: the about page describes the company, so link its
+ * mainEntity back to the canonical Organization node (trust / E-E-A-T).
+ */
+export function aboutPageJsonLd(lang) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    mainEntity: { '@id': ORG_ID, '@type': 'Organization', name: 'MoTai Abrasives' },
+    url: absUrl(lang, '/about')
+  }
+}
+
+/**
+ * ContactPage + ContactPoint JSON-LD: surfaces real contact channels
+ * (email / phone / WhatsApp, worldwide) so Google shows a rich contact box.
+ * All values come from site.json (via orgJsonLd constants).
+ */
+export function contactPageJsonLd(lang) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    url: absUrl(lang, '/contact'),
+    name: 'MoTai Abrasives — contact',
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        contactType: 'sales or support',
+        email: 'motai-01@motaiabrasive.com',
+        telephone: '+8618118635597',
+        availableLanguage: ['en'],
+        areaServed: 'Worldwide'
+      }
+    ]
+  }
+}
+
+/** Terms / legal-notice page (no extra type; Organization + Breadcrumb suffice). */
+export function termsPageJsonLd(lang) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Terms of Use — MoTai Abrasives',
+    url: absUrl(lang, '/terms'),
+    about: { '@id': ORG_ID }
   }
 }
 

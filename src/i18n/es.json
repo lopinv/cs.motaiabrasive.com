@@ -284,7 +284,9 @@
     "catSelection": "Guía de selección",
     "catBuyer": "Recursos para compradores",
     "catNotes": "Notas de aplicación",
-    "catOem": "Guía OEM"
+    "catOem": "Guía OEM",
+    "reviewedBy": "Revisado por el equipo técnico de MoTai Abrasives",
+    "lastReviewed": "Última revisión: {date}"
   },
   "contact": {
     "h1": "Abra una conversación mayorista",
@@ -314,6 +316,21 @@
     "s5b": "El navegador almacena datos de gestión de la lista de consultas. No hay píxeles publicitarios ni rastreadores de analítica en esta versión. Los enlaces externos a WhatsApp, mapas y redes sociales están sujetos a sus propias políticas.",
     "updated": "Última actualización 12 de octubre de 2026"
   },
+  "terms": {
+    "h1": "Términos de uso",
+    "sub": "Las condiciones aplicables al uso de este sitio y al envío de una consulta a MoTai.",
+    "s1t": "Uso de este sitio",
+    "s1b": "Este sitio es un servicio B2B de información y consultas operado por Hubei MoTai Abrasives Materials Co., Ltd. El contenido (especificaciones, guías, glosario, blog) se ofrece de buena fe con fines informativos. Al usar el sitio acepta estos términos; si no, no envíe consultas.",
+    "s2t": "Las consultas no son ofertas",
+    "s2b": "El formulario es una invitación a negociar, no un pedido vinculante. MoTai no está obligado a responder todas las consultas y ninguna compra queda comprometida hasta que ambas partes confirmen un presupuesto por escrito.",
+    "s3t": "Presupuestos y precios",
+    "s3b": "Todos los precios son por presupuesto. El presupuesto indica tamaños, granos, embalaje, términos comerciales y validez; las cifras finales se fijan sobre la especificación confirmada y pueden variar con la materia prima y el flete.",
+    "s4t": "Propiedad intelectual",
+    "s4b": "El contenido, las descripciones, los gráficos y la marca MoTai pertenecen a MoTai Abrasives y no pueden reproducirse con fines comerciales. Las referencias de terceros sirven de orientación y no implican recomendación.",
+    "s5t": "Responsabilidad y ley aplicable",
+    "s5b": "MoTai no se responsabiliza de decisiones tomadas sobre información general de este sitio. Estos términos rigen por la ley de la República Popular China; las disputas se resuelven según el contrato de venta entre las partes.",
+    "updated": "Última actualización 3 de noviembre de 2026"
+  },
   "quotePage": {
     "h1": "Abra una conversación mayorista",
     "sub": "Precios mayoristas directos de fábrica.",
@@ -342,7 +359,7 @@
     "f14": "País de destino *",
     "f15": "Requisitos OEM",
     "f16": "Mensaje adicional *",
-    "consent": "Acepto la Política de Privacidad y el uso de mis datos para responder a esta consulta. *",
+    "consent": "Acepto la Política de Privacidad, los Términos de Uso y el uso de mis datos para responder a esta consulta. *",
     "btn1": "Solicitar cotización mayorista",
     "btn2": "Enviar consulta por WhatsApp",
     "goNote": "El formulario se abre en nuestro sistema de consultas mayoristas con su contexto de producto precargado."
@@ -358,7 +375,8 @@
   "glossary": {
     "h1": "Glosario de abrasivos",
     "sub": "Los términos detrás de cada especificación de cinta, disco y aleta.",
-    "note": "Definiciones estándar de la industria. El detalle de gradación y respaldo de cualquier pedido se confirma en la cotización."
+    "note": "Definiciones estándar de la industria. El detalle de gradación y respaldo de cualquier pedido se confirma en la cotización.",
+    "reviewNote": "Términos revisados por el equipo técnico de MoTai — última revisión 3 de noviembre de 2026."
   },
   "trust": {
     "regions": "Regiones de destino",
@@ -689,6 +707,7 @@
     "oemPl": "OEM y marca propia",
     "newsB": "Noticias y blog",
     "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
     "contactUs": "Contacto"
   },
   "tdk": {
@@ -731,6 +750,15 @@
       "title": "Política de privacidad",
       "description": "Cómo MoTai usa la información de consultas: recolección, propósito, almacenamiento, sus opciones y cookies.",
       "keywords": "política de privacidad, MoTai"
+    },
+    "terms": {
+      "title": "Términos de uso — MoTai Abrasives",
+      "description": "Términos de este sitio B2B: consultas, precios por presupuesto, propiedad intelectual y ley aplicable.",
+      "keywords": [
+        "términos de uso",
+        "MoTai",
+        "abrasivos B2B"
+      ]
     },
     "quote": {
       "title": "Solicitar cotización mayorista",

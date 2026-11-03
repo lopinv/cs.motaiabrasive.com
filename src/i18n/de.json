@@ -284,7 +284,9 @@
     "catSelection": "Auswahl­leitfaden",
     "catBuyer": "Ressourcen für Einkäufer",
     "catNotes": "Anwendungs­hinweise",
-    "catOem": "OEM-Leitfaden"
+    "catOem": "OEM-Leitfaden",
+    "reviewedBy": "Geprüft vom MoTai Abrasives Technikteam",
+    "lastReviewed": "Zuletzt überarbeitet am {date}"
   },
   "contact": {
     "h1": "Großhandelsgespräch starten",
@@ -314,6 +316,21 @@
     "s5b": "Der Browser speichert Verwaltungsdaten der Anfrageliste. In dieser Version sind keine Werbekontexte oder Analyse-Tracker aktiviert. Externe WhatsApp-, Karten- und Social-Media-Links unterliegen ihren eigenen Datenschutzerklärungen.",
     "updated": "Zuletzt aktualisiert am 12. Oktober 2026"
   },
+  "terms": {
+    "h1": "Nutzungsbedingungen",
+    "sub": "Die Bedingungen für die Nutzung dieser Website und das Senden einer Anfrage an MoTai.",
+    "s1t": "Nutzung der Website",
+    "s1b": "Diese Website ist ein B2B-Informations- und Anfrage-Dienst von Hubei MoTai Abrasives Materials Co., Ltd. Inhalte (Spezifikationen, Leitfäden, Glossar, Blog) werden in gutem Glauben zur allgemeinen Information bereitgestellt. Mit der Nutzung akzeptieren Sie diese Bedingungen; andernfalls stellen Sie keine Anfrage.",
+    "s2t": "Anfragen sind keine Angebote",
+    "s2b": "Eine per Formular übermittelte Anfrage ist eine Verhandlungseinladung, keine verbindliche Bestellung. MoTai ist nicht verpflichtet, jede Anfrage zu beantworten; ein Kauf ist erst mit schriftlich bestätigtem Angebot beider Seiten verbindlich.",
+    "s3t": "Angebote und Preise",
+    "s3b": "Alle Preise sind Angebotspreise. Angebote nennen Maße, Körnungen, Verpackung, Incoterms und Gültigkeit; Endwerte werden mit der bestätigten Spezifikation festgelegt und können sich mit Rohmaterial und Fracht bewegen.",
+    "s4t": "Geistiges Eigentum",
+    "s4b": "Inhalte, Produktbeschreibungen, Grafiken und die Marke MoTai gehören MoTai Abrasives und dürfen nicht kommerziell kopiert werden. Drittreferenzen dienen nur der Orientierung und stellen keine Empfehlung dar.",
+    "s5t": "Haftung und anwendbares Recht",
+    "s5b": "MoTai haftet nicht für Entscheidungen, die auf allgemeinen Informationen dieser Website beruhen. Maßgeblich ist das Recht der Volksrepublik China; Streitigkeiten werden nach dem Kaufvertrag der Parteien geregelt.",
+    "updated": "Zuletzt aktualisiert am 3. November 2026"
+  },
   "quotePage": {
     "h1": "Großhandelsgespräch starten",
     "sub": "Fordern Sie Großhandelspreise direkt ab Werk für Abriebsmittel an.",
@@ -342,7 +359,7 @@
     "f14": "Zielland *",
     "f15": "OEM-Anforderungen",
     "f16": "Zusätzliche Nachricht *",
-    "consent": "Ich stimme der Datenschutzerklärung und der Verwendung meiner Angaben zur Beantwortung dieser Anfrage zu. *",
+    "consent": "Ich stimme der Datenschutzerklärung, den Nutzungsbedingungen und der Verwendung meiner Angaben zur Beantwortung dieser Anfrage zu. *",
     "btn1": "Großhandelsangebot anfragen",
     "btn2": "Anfrage per WhatsApp senden",
     "goNote": "Das Formular öffnet sich in unserem Großhandelsanfragesystem mit Ihrem Produkt­kontext vorausgefüllt."
@@ -358,7 +375,8 @@
   "glossary": {
     "h1": "Glossar der Abriebsmittel",
     "sub": "Die Begriffe hinter jeder Band-, Scheiben- und Flapspezifikation.",
-    "note": "Standard­definitionen der Branche für Abriebsmittel-Verbrauchsmaterialien. Körnungs- und Träger­details für eine konkrete Bestellung werden im Angebot bestätigt."
+    "note": "Standard­definitionen der Branche für Abriebsmittel-Verbrauchsmaterialien. Körnungs- und Träger­details für eine konkrete Bestellung werden im Angebot bestätigt.",
+    "reviewNote": "Begriffe geprüft vom MoTai-Technikteam — zuletzt überarbeitet am 3. November 2026."
   },
   "trust": {
     "regions": "Zielregionen",
@@ -689,6 +707,7 @@
     "oemPl": "OEM & Eigenmarke",
     "newsB": "News & Blog",
     "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
     "contactUs": "Kontakt"
   },
   "tdk": {
@@ -731,6 +750,15 @@
       "title": "Datenschutzerklärung",
       "description": "Wie MoTai Abrasives Anfragedaten verwendet: Erhebung, Zweck, Speicherung, Ihre Möglichkeiten und Cookie-Verarbeitung.",
       "keywords": "Datenschutzerklärung, MoTai"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen — MoTai Abrasives",
+      "description": "Bedingungen für diese B2B-Schleifmittelseite: Anfragen, Angebotspreise, geistiges Eigentum und anwendbares Recht.",
+      "keywords": [
+        "Nutzungsbedingungen",
+        "MoTai",
+        "B2B-Schleifmittel"
+      ]
     },
     "quote": {
       "title": "Großhandelsangebot anfragen",

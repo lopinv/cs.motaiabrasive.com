@@ -42,7 +42,7 @@ const langs = readdirSync(i18nDir)
 const media = (key) => `${site.mediaBase}/${key}.webp?v=183101063718712166531793254213`
 
 // Static per-lang routes
-const staticRoutes = ['', '/about', '/factory', '/oem', '/applications', '/blog', '/contact', '/privacy', '/quote', '/clients', '/glossary']
+const staticRoutes = ['', '/about', '/factory', '/oem', '/applications', '/blog', '/contact', '/privacy', '/terms', '/quote', '/clients', '/glossary']
 const collections = ['abrasive-belts', 'sanding-discs', 'flap-discs', 'all']
 
 // Data-driven routes

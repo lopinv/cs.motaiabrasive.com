@@ -9,7 +9,9 @@
       { "key": "compat", "titleKey": "blog.chooseBacking.compat.title", "bodyKey": "blog.chooseBacking.compat.body" },
       { "key": "enquiry", "titleKey": "blog.chooseBacking.enquiry.title", "bodyKey": "blog.chooseBacking.enquiry.body" }
     ],
-    "image": "discs"
+    "image": "discs",
+    "datePublished": "2026-11-03",
+    "dateModified": "2026-11-03"
   },
   {
     "slug": "abrasive-belt-order-checklist",
@@ -21,7 +23,9 @@
       { "key": "compat", "titleKey": "blog.beltChecklist.compat.title", "bodyKey": "blog.beltChecklist.compat.body" },
       { "key": "enquiry", "titleKey": "blog.beltChecklist.enquiry.title", "bodyKey": "blog.beltChecklist.enquiry.body" }
     ],
-    "image": "belt-533-75"
+    "image": "belt-533-75",
+    "datePublished": "2026-11-03",
+    "dateModified": "2026-11-03"
   },
   {
     "slug": "plan-your-grit-sequence",
@@ -33,7 +37,9 @@
       { "key": "compat", "titleKey": "blog.gritSequence.compat.title", "bodyKey": "blog.gritSequence.compat.body" },
       { "key": "enquiry", "titleKey": "blog.gritSequence.enquiry.title", "bodyKey": "blog.gritSequence.enquiry.body" }
     ],
-    "image": "belt-610-100"
+    "image": "belt-610-100",
+    "datePublished": "2026-11-03",
+    "dateModified": "2026-11-03"
   },
   {
     "slug": "dust-collection-and-pad-compatibility",
@@ -45,7 +51,9 @@
       { "key": "compat", "titleKey": "blog.dustCollection.compat.title", "bodyKey": "blog.dustCollection.compat.body" },
       { "key": "enquiry", "titleKey": "blog.dustCollection.enquiry.title", "bodyKey": "blog.dustCollection.enquiry.body" }
     ],
-    "image": "mesh-5"
+    "image": "mesh-5",
+    "datePublished": "2026-11-03",
+    "dateModified": "2026-11-03"
   },
   {
     "slug": "oem-labels-and-packaging-requirements",
@@ -57,7 +65,9 @@
       { "key": "compat", "titleKey": "blog.oemPackaging.compat.title", "bodyKey": "blog.oemPackaging.compat.body" },
       { "key": "enquiry", "titleKey": "blog.oemPackaging.enquiry.title", "bodyKey": "blog.oemPackaging.enquiry.body" }
     ],
-    "image": "disc-6-solid"
+    "image": "disc-6-solid",
+    "datePublished": "2026-11-03",
+    "dateModified": "2026-11-03"
   },
   {
     "slug": "grit-standards-fepa-ansi",
@@ -69,6 +79,8 @@
       { "key": "compat", "titleKey": "blog.gritStandards.compat.title", "bodyKey": "blog.gritStandards.compat.body" },
       { "key": "enquiry", "titleKey": "blog.gritStandards.enquiry.title", "bodyKey": "blog.gritStandards.enquiry.body" }
     ],
-    "image": "belt-1520-630"
+    "image": "belt-1520-630",
+    "datePublished": "2026-11-03",
+    "dateModified": "2026-11-03"
   }
 ]
