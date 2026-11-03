@@ -1,4 +1,4 @@
 # MoTai Abrasives — static showcase site
 User-agent: *
 Allow: /
-Sitemap: https://motai-abrasives.pages.dev/sitemap.xml
+Sitemap: https://cs.motaiabrasive.com/sitemap.xml
