@@ -1,0 +1,11 @@
+---
+/** Numbered section heading in the original site's "01/02" style. */
+const { no, eyebrow, title, sub } = Astro.props
+---
+
+<div class="section-head">
+  {no && <span class="section-head-no">{no}</span>}
+  {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+  {title && <h2>{title}</h2>}
+  {sub && <p class="section-head-sub">{sub}</p>}
+</div>

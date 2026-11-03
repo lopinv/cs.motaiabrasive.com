@@ -1,0 +1,16 @@
+{
+  "faq": [
+    { "qKey": "faq.moq.q", "aKey": "faq.moq.a" },
+    { "qKey": "faq.oem.q", "aKey": "faq.oem.a" },
+    { "qKey": "faq.sizes.q", "aKey": "faq.sizes.a" },
+    { "qKey": "faq.samples.q", "aKey": "faq.samples.a" },
+    { "qKey": "faq.lead.q", "aKey": "faq.lead.a" },
+    { "qKey": "faq.packaging.q", "aKey": "faq.packaging.a" },
+    { "qKey": "faq.payment.q", "aKey": "faq.payment.a" }
+  ],
+  "productPageFaq": [
+    { "qKey": "pfq.specs.q", "aKey": "pfq.specs.a" },
+    { "qKey": "pfq.oem.q", "aKey": "pfq.oem.a" },
+    { "qKey": "pfq.order.q", "aKey": "pfq.order.a" }
+  ]
+}

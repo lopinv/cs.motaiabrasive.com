@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output (the built static site is published on the gh-pages branch,
+# so it must not be tracked on the source branch)
+dist/
+
+# Astro cache
+.astro/
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db

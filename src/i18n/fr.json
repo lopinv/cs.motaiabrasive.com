@@ -1,0 +1,793 @@
+{
+  "code": "fr",
+  "name": "français",
+  "codeLabel": "FR",
+  "htmlLang": "fr",
+  "ogLocale": "fr_FR",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Demandes de gros",
+    "oemNote": "Demandes de conditionnement OEM",
+    "size": "Taille",
+    "grit": "Grain",
+    "quantity": "Quantité demandée",
+    "requirements": "Exigences de spécification et de conditionnement",
+    "requirementsPh": "Décrivez-nous votre application, vos spécifications et vos exigences de livraison.",
+    "material": "Matériau abrasif",
+    "backing": "Support / fixation",
+    "availability": "Disponibilité, quantité minimum de commande et conditions commerciales à confirmer dans le devis.",
+    "sampleNote": "Indiquez-nous quels produits et grains vous souhaitez évaluer. Notre équipe commerciale confirmera la disponibilité des échantillons, les frais d'échantillons et les modalités d'expédition.",
+    "gritsRange": "Gamme de grains",
+    "holes": "Perforations",
+    "diameter": "Diamètre / dimension nominale",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "manufacturing": "Fabrication",
+    "oem": "Services OEM",
+    "news": "Actualités",
+    "knowledge": "Savoir",
+    "contact": "Contactez-nous",
+    "products": "Produits"
+  },
+  "colt": {
+    "belts": {
+      "title": "Courrois abrasifs — Grossiste & OEM",
+      "desc": "Courrois abrasifs rouges en dimensions documentées de 533 × 75 mm à 2200 × 1330 mm. Grain 40–800. Modèles de référence disponibles. Demande de gros et OEM bienvenues.",
+      "label": "Courrois abrasifs"
+    },
+    "discs": {
+      "title": "Disques de ponçage — Grossiste & OEM",
+      "desc": "Disques de ponçage PSA, velcro, treillis ouverts et sans trou, de 3 à 6 pouces. Grain 60–5000. Demande de gros et OEM bienvenues.",
+      "label": "Disques de ponçage"
+    },
+    "flap": {
+      "title": "Disques à ailettes MOTAI",
+      "desc": "Disques à ailettes avec support plastique, acier ou fibre de verre, pour rectification, jointure et finition des métaux. Spécifications, approvisionnement en volume et conditionnement OEM à confirmer dans le devis.",
+      "label": "Disques à ailettes"
+    },
+    "all": {
+      "title": "Tous les produits",
+      "desc": "Le catalogue abrasif complet de MoTai : courrois abrasifs, disques de ponçage et disques à ailettes pour acheteurs industriels, distributeurs et marques de private label.",
+      "label": "Tous les produits"
+    }
+  },
+  "cta": {
+    "quote": "Demander un devis de gros",
+    "quoteArrow": "↗",
+    "sample": "Demander un échantillon",
+    "whatsapp": "Demande WhatsApp",
+    "waChat": "Contact via WhatsApp",
+    "explore": "Voir la gamme de disques à ailettes",
+    "viewAll": "Voir tous les produits",
+    "discuss": "Discuter de votre spécification",
+    "oemQuote": "Demander un devis OEM"
+  },
+  "home": {
+    "eyebrow": "Des abrasifs de l'usine MoTai, Hubei",
+    "heroTitle": "Un résultat pour chaque surface",
+    "heroSub": "Courrois abrasifs, disques de ponçage et disques à ailettes à prix usine, pour acheteurs industriels, distributeurs et marques de private label — de Hubei, Chine, jusqu'à votre marché.",
+    "cta1": "Demander un devis de gros",
+    "cta2": "Discuter avec notre équipe sur WhatsApp",
+    "builtTitle": "Choisissez l'application. Choisissez l'abrasif.",
+    "builtSub": "Choisissez l'application, puis l'abrasif correspondant : courrois, disques ou disques à ailettes.",
+    "featuredTitle": "Dans le catalogue",
+    "featuredSub": "Dimensions et grains documentés. Disponibilité et MOQ confirmés dans le devis.",
+    "partnerTitle": "Le côté approvisionnement de votre commande d'abrasifs",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. fournit des abrasifs de consommation pour le travail du bois, de la métallurgie et l'automobile — avec programmes OEM et private label pour distributeurs et acheteurs industriels dans le monde.",
+    "partnerCta": "En savoir plus sur MoTai",
+    "valuesTitle": "Six façons de travailler avec des acheteurs B2B",
+    "valuesSub": "Six raisons pour lesquelles les importateurs et les marques OEM travaillent avec nous.",
+    "v1t": "Prix usine",
+    "v1b": "Prix et délais côté fournisseur, sans intermédiaire.",
+    "v2t": "OEM & Private Label",
+    "v2b": "Votre logo, étiquettes et conditionnement sur spécification confirmée.",
+    "v3t": "Tailles & grains sur mesure",
+    "v3b": "Dimensions et grains documentés 40–800 pour les courrois, 60–5000 pour les disques.",
+    "v4t": "Contrôle des échantillons & QC",
+    "v4b": "Évaluez surface, support et calage sur échantillon avant la commande.",
+    "v5t": "Livraison en volume",
+    "v5b": "Quantités par carton constantes et liste de colisage détaillée.",
+    "v6t": "Programme export",
+    "v6b": "Marquage des cartons, étiquettes et documentation de destination.",
+    "processTitle": "Les étapes entre votre spécification et la commande",
+    "processSub": "Quatre étapes entre votre demande et une commande confirmée.",
+    "p1t": "Découpe & mise en forme",
+    "p1b": "Confirmez la forme, les dimensions et le grain requis avant d'organiser la mise en forme.",
+    "p2t": "Contrôle des échantillons",
+    "p2b": "Évaluez la surface abrasive, le support et le calage d'un échantillon avant de valider la spécification de commande.",
+    "p3t": "OEM & emballage",
+    "p3b": "Confirmez quantités d'emballage, étiquettes, marquage des cartons et éléments graphiques de private label avec le devis.",
+    "p4t": "Préparation de l'expédition",
+    "p4b": "Validez la liste de colisage, les exigences de palettisation et les détails de destination avant expédition.",
+    "oemTitle": "Votre marque sur le carton",
+    "oemSub": "Partagez les exigences produit, conditionnement et marque pour votre prochaine gamme d'abrasifs.",
+    "oemCta": "Découvrir les services OEM",
+    "faqTitle": "Avant de commencer",
+    "faqSub": "Réponses aux questions les plus posées par les acheteurs.",
+    "regionsTitle": "De Hubei à votre marché",
+    "regionsSub": "Approvisionnement mondial organisé par région de destination.",
+    "regionsNote": "MOQ et délai sont confirmés dans votre devis. Les itinéraires sont indicatifs ; la disponibilité et les conditions sont confirmées par le devis.",
+    "factoryTitle": "Trouvez-nous à Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Chine. Organisez une visite d'usine et confirmez le lieu de rendez-vous avec notre équipe.",
+    "finalTitle": "À la recherche d'un fournisseur d'abrasifs fiable ?",
+    "finalBody": "Partagez votre produit, votre quantité et votre application — nous étudierons vos besoins et préparerons un devis adapté.",
+    "finalCta1": "Demander un devis de gros",
+    "finalCta2": "Contact via WhatsApp",
+    "beltsShowTitle": "Courrois abrasifs, par modèle",
+    "beltsShowSub": "Modèles de référence pour discussion avec notre équipe.",
+    "prepTitle": "Préparez votre demande de gros",
+    "prepSub": "Dimensions, grain et quantité font le reste.",
+    "prepDim": "Dimensions",
+    "prepDimText": "Taille ou référence de modèle en millimètres.",
+    "prepGrit": "Grain",
+    "prepGritText": "Qualité ou finition requise.",
+    "prepQty": "Quantité",
+    "prepQtyText": "Volume estimé et conditionnement."
+  },
+  "purchasing": {
+    "eyebrow1": "Aide à l'achat",
+    "title1": "Préparez votre demande de gros",
+    "body1": "Indiquez les dimensions, le grain, la pièce à usiner, la machine et la finition souhaitée. Utilisez les options documentées ci-dessus quand elles existent ; les autres exigences seront étudiées avec notre équipe.",
+    "dl1t": "Quantité & destination",
+    "dl1b": "Indiquez la quantité, les besoins de conditionnement et la destination de livraison.",
+    "dl2t": "Approvisionnement & conditions",
+    "dl2b": "Disponibilité, quantité minimum de commande et conditions commerciales à confirmer dans le devis.",
+    "dl3t": "Demandes de conditionnement OEM",
+    "dl3b": "Marque, étiquettes, taille ou conditionnement sur mesure.",
+    "eyebrow2": "Comment faire une demande",
+    "title2": "De la sélection au devis",
+    "s1t": "Sélectionnez votre produit",
+    "s1b": "Choisissez le produit ou le modèle et la spécification requise.",
+    "s2t": "Partagez vos besoins",
+    "s2b": "Partagez quantité, application et exigences de conditionnement.",
+    "s3t": "Étudiez votre devis",
+    "s3b": "Confirmez la spécification finale et les conditions commerciales avec notre équipe."
+  },
+  "modelPage": {
+    "eyebrow": "Courrois abrasifs · Modèle de référence",
+    "refLabel": "Référence du modèle",
+    "familyLabel": "Catégorie",
+    "dimsLabel": "Dimensions du courrois fini — indiquez largeur × longueur en mm",
+    "dimsPlaceholder": "ex. 533 × 75 mm",
+    "gritLabel": "Grain requis — indiquez la qualité ou la finition voulue",
+    "gritPlaceholder": "ex. P60",
+    "qtyLabel": "Quantité demandée",
+    "specLabel": "Exigences de spécification et de conditionnement",
+    "discussion": "Discutez de ce modèle avec notre équipe selon votre pièce, votre machine et la finition souhaitée.",
+    "grainBacking": "Grain et support — confirmez le fabricant de la matière première et la qualité exacte.",
+    "disclaimer": "Les informations publiées sur les familles de modèles sont fournies à titre de référence de sélection. Les spécifications d'approvisionnement, la disponibilité et l'adéquation de MoTai sont confirmées dans le devis."
+  },
+  "discPage": {
+    "eyebrow": "Disques de ponçage · Variante documentée",
+    "gritsNote": "Options de grain pour cette variante"
+  },
+  "flapPage": {
+    "eyebrow": "Disques à ailettes · Variante de support",
+    "color": "Couleur",
+    "gritNote": "P40–P60 et P80–P120 sont des exemples de sélection générale, pas une gamme de fourniture MoTai confirmée."
+  },
+  "productPage": {
+    "specTitle": "Spécifications",
+    "howTitle": "Comment spécifier votre commande",
+    "howBody": "Indiquez la taille du courrois ou du disque, la liste des grains, le modèle de machine, le matériau de la pièce et la quantité. Une spécification claire nous aide à vérifier l'adéquation et à préparer un devis utile — évitez de choisir un produit uniquement sur sa couleur.",
+    "faqTitle": "Questions d'acheteurs"
+  },
+  "about": {
+    "h1": "L'entreprise derrière la gamme d'abrasifs",
+    "sub": "Une approche réfléchie de l'approvisionnement en abrasifs.",
+    "bizTitle": "Notre activité",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. fournit des abrasifs de consommation pour le travail du bois, de la métallurgie et l'automobile. Les gammes documentées incluent les disques de ponçage sans trou, les disques de ponçage treillis et les courrois abrasifs rouges. Nous accueillons les demandes des importateurs, distributeurs, grossistes et acheteurs industriels — produit, support, taille, qualité, quantité et exigences de livraison.",
+    "matTitle": "Documents de l'entreprise",
+    "matBody": "Découvrez l'historique de l'entreprise et les contacts dans notre brochure.",
+    "globalTitle": "De Hubei à votre marché",
+    "globalSub": "Approvisionnement mondial organisé par région de destination.",
+    "facTitle": "Trouvez-nous à Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Chine. Organisez une visite d'usine avec notre équipe et confirmez le lieu de rendez-vous avant le déplacement.",
+    "ctaTitle": "À la recherche d'un fournisseur d'abrasifs fiable ?",
+    "cta1": "Demander un devis de gros",
+    "cta2": "Contact via WhatsApp"
+  },
+  "factory": {
+    "h1": "Dans l'atelier MoTai",
+    "sub": "Les détails comptent. À chaque étape.",
+    "intro": "Étudiez les détails de découpe, de contrôle des échantillons et de conditionnement pour votre commande. Les vidéos produits sont présentées à côté des illustrations de processus.",
+    "videoLabel": "Voir les vidéos produits",
+    "stepsTitle": "Fabrication & préparation de commande",
+    "stepsIntro": "De votre besoin à une commande confirmée.",
+    "st1t": "Découpe & mise en forme",
+    "st1b": "Confirmez la forme, les dimensions et le grain requis avant d'organiser la mise en forme.",
+    "st2t": "Contrôle des échantillons",
+    "st2b": "Évaluez la surface abrasive, le support et le calage d'un échantillon avant de valider la spécification de commande.",
+    "st3t": "OEM & emballage",
+    "st3b": "Confirmez quantités d'emballage, étiquettes, marquage des cartons et éléments graphiques de private label avec le devis.",
+    "st4t": "Préparation de l'expédition",
+    "st4b": "Validez la liste de colisage, les exigences de palettisation et les détails de destination avant expédition.",
+    "imgNote": "Les images de découpe et d'échantillons sont extraites des vidéos produits fournies. Les images d'emballage et d'expédition sont des photos d'illustration issues de banques d'images.",
+    "qcTitle": "Points de contrôle qualité",
+    "qcIntro": "Ce que nous vérifions avant qu'une commande quitte l'atelier.",
+    "qc1t": "Surface & grain",
+    "qc1b": "Cohérence de la surface abrasive par rapport à la qualité confirmée.",
+    "qc2t": "Support & calage",
+    "qc2b": "Type de support, poids et tolérance dimensionnelle des courrois et disques finis.",
+    "qc3t": "Emballage & marquage",
+    "qc3b": "Les quantités d'emballage, étiquettes, marquage des cartons et éléments graphiques de private label correspondent à la commande confirmée.",
+    "certNote": "Les marques de certification affichées sont des éléments provisoires en attente des certificats publiés.",
+    "ctaTitle": "Vous préférez en discuter ?",
+    "ctaSub": "À la recherche d'un fournisseur d'abrasifs fiable ?",
+    "cta1": "Demander un devis de gros",
+    "cta2": "Contact via WhatsApp"
+  },
+  "oem": {
+    "h1": "Votre marque sur le carton",
+    "sub": "Transmettez vos exigences produit, conditionnement et marque ; nous revenons vers vous avec une étude de faisabilité OEM.",
+    "briefTitle": "Construisez une demande autour de votre marque",
+    "briefEyebrow": "Apportez votre cahier des charges",
+    "briefBody": "Discutez de vos maquettes de logo et d'étiquettes, du format de conditionnement, des tailles de produit, des qualités de grain et de l'usage prévu. La disponibilité OEM, les quantités minimales, les exigences graphiques et les délais sont soumis à une étude de faisabilité et au devis confirmé.",
+    "itemsTitle": "Un cahier des charges clair obtient une réponse utile",
+    "i1": "Produit & spécification",
+    "i2": "Taille & mélange de grains",
+    "i3": "Maquettes & étiquettes",
+    "i4": "Format de conditionnement",
+    "i5": "Quantités cibles",
+    "i6": "Destination & calendrier",
+    "itemNote": "Joignez vos exigences et fichiers de référence à la demande.",
+    "procTitle": "De la demande à l'approvisionnement",
+    "pr1t": "Votre demande",
+    "pr1b": "Indiquez-nous votre application et vos besoins.",
+    "pr2t": "Vérification de la spécification",
+    "pr2b": "Étude des tailles, qualités, supports et conditionnement.",
+    "pr3t": "Offre",
+    "pr3b": "Confirmation des conditions commerciales et du calendrier.",
+    "pr4t": "Validation de l'échantillon",
+    "pr4b": "Évaluation des échantillons convenus avant approbation.",
+    "pr5t": "Production",
+    "pr5b": "Démarrage selon la spécification confirmée.",
+    "pr6t": "Expédition",
+    "pr6b": "Coordination du conditionnement et de la destination.",
+    "cta1": "Demander un devis de gros",
+    "cta2": "Contact via WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrasifs pour votre industrie",
+    "sub": "La surface définit la spécification.",
+    "intro": "Six domaines d'application. Spécifiez le matériau, la machine et la finition souhaitée — nous choisirons l'abrasif.",
+    "ctaNote": "Certaines images sont des illustrations d'applications générées par IA, et non des photos de l'usine MoTai ou de clients.",
+    "sampleNote": "Indiquez votre secteur, votre pays, la spécification du produit et le volume estimé de la commande lors de la demande de devis.",
+    "reqTitle": "Produits recommandés",
+    "reqNote": "Familles de produits indicatives pour ce domaine. Les tailles, grains et quantités sont confirmés avec le devis.",
+    "specTitle": "Conseils de spécification",
+    "faqTitle": "Questions fréquentes",
+    "faqs": [
+      {
+        "q": "Avec quel grain dois-je commencer ?",
+        "a": "Partez du matériau de la pièce, de la profondeur du défaut et de la finition souhaitée — un grain grossier enlève la matière rapidement, puis passez à des grains plus fins et contrôlez la surface à chaque étape."
+      },
+      {
+        "q": "Puis-je mélanger des grains dans une même commande ?",
+        "a": "Oui. Incluez la liste des grains et la quantité par qualité dans votre demande ; la disponibilité et le délai sont confirmés dans le devis."
+      }
+    ],
+    "ctaTitle": "Vous spécifiez pour votre domaine ?",
+    "cta1": "Demander un devis de gros",
+    "cta2": "Contact via WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Mieux informer. Mieux choisir.",
+    "sub": "Ressources pratiques pour les acheteurs afin de discuter de spécifications abrasives."
+  },
+  "article": {
+    "watchTitle": "Voir",
+    "discuss": "Discuter de votre spécification",
+    "catSelection": "Guide de sélection",
+    "catBuyer": "Ressources acheteur",
+    "catNotes": "Notes d'application",
+    "catOem": "Guide OEM"
+  },
+  "contact": {
+    "h1": "Ouvrir une conversation grossiste",
+    "sub": "Obtenez des prix de gros directs usine pour les produits abrasifs.",
+    "directTitle": "Une conversation. Une meilleure spécification.",
+    "directBody": "Partagez votre produit, votre quantité et votre application. Nous étudierons vos besoins et vous aiderons à passer à l'étape suivante.",
+    "facTitle": "Trouvez-nous à Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Chine.",
+    "facNote": "Confirmez l'adresse exacte de visite avec notre équipe avant de vous déplacer.",
+    "visit": "Organiser une visite d'usine",
+    "formTitle": "Demande de gros / OEM",
+    "formNote": "Ce formulaire demande un devis et ne passe pas une commande. Les demandes sont traitées et envoyées à notre boîte commerciale ; les spécifications et les conditions commerciales sont confirmées dans le devis.",
+    "btn": "Ouvrir le formulaire de demande ↗"
+  },
+  "privacy": {
+    "h1": "Vos informations de demande",
+    "sub": "Comment ce site utilise les informations que vous choisissez de partager.",
+    "s1t": "Informations collectées",
+    "s1b": "Coordonnées, informations d'entreprise, exigences produit et pièces jointes soumises avec une demande. Un identifiant de connexion haché limite les soumissions abusives.",
+    "s2t": "Finalité et accès",
+    "s2b": "Les informations servent à étudier et à répondre aux demandes, à préparer les devis et à coordonner les discussions commerciales demandées. L'accès est limité aux administrateurs autorisés.",
+    "s3t": "Stockage et conservation",
+    "s3b": "Les enregistrements sont conservés chez notre hébergeur. Les données peuvent être traitées en dehors de votre pays. La conservation suit les obligations de suivi commercial et de conservation des registres ; vous pouvez demander une conservation ou une suppression spécifiques.",
+    "s4t": "Vos choix",
+    "s4b": "Contactez motai-01@motaiabrasive.com pour demander l'accès, la rectification ou la suppression. Veuillez ne pas soumettre de données personnelles sensibles ni de fichiers confidentiels sans rapport avec votre demande.",
+    "s5t": "Cookies, liens et analyse",
+    "s5b": "Le navigateur stocke les données de gestion de la liste des demandes. Aucun pixel publicitaire ni traceur d'analyse n'est activé dans cette version. Les liens externes WhatsApp, cartes et réseaux sociaux sont régis par leurs propres politiques de confidentialité.",
+    "updated": "Dernière mise à jour le 12 octobre 2026"
+  },
+  "quotePage": {
+    "h1": "Ouvrir une conversation grossiste",
+    "sub": "Obtenez des prix de gros directs usine pour les produits abrasifs.",
+    "note": "Ce formulaire demande un devis et ne passe pas une commande. Les champs marqués * sont obligatoires.",
+    "sec1": "Votre entreprise",
+    "f1": "Nom complet *",
+    "f2": "Nom de l'entreprise *",
+    "f3": "Pays *",
+    "f4": "E-mail professionnel *",
+    "f5": "Numéro WhatsApp",
+    "f6": "Type d'entreprise *",
+    "opt1": "Importateur",
+    "opt2": "Distributeur",
+    "opt3": "Grossiste",
+    "opt4": "Marque OEM",
+    "opt5": "Acheteur industriel",
+    "opt6": "Autre",
+    "sec2": "Exigences produit",
+    "f7": "Catégorie de produit",
+    "f8": "Modèle / référence produit",
+    "f9": "Taille",
+    "f10": "Grain",
+    "f11": "Matériau",
+    "f12": "Quantité",
+    "f13": "Conditionnement",
+    "f14": "Pays de destination *",
+    "f15": "Exigences OEM",
+    "f16": "Message complémentaire *",
+    "consent": "J'accepte la Politique de confidentialité et l'utilisation de mes coordonnées pour répondre à cette demande. *",
+    "btn1": "Demander un devis de gros",
+    "btn2": "Envoyer la demande via WhatsApp",
+    "goNote": "Le formulaire s'ouvre dans notre système de demandes de gros avec votre contexte produit pré-rempli."
+  },
+  "clients": {
+    "h1": "Où partent les expéditions MoTai",
+    "sub": "De Hubei vers sept régions de destination.",
+    "note": "Les logos clients et témoignages ci-dessous sont des emplacements provisoires — remplacez src/data/trust.json par des documents publiés.",
+    "placeholderBadge": "Emplacement provisoire d'illustration",
+    "statsTitle": "L'approvisionnement en un coup d'œil",
+    "statsNote": "Les certifications affichées sont provisoires en attente des certificats publiés."
+  },
+  "glossary": {
+    "h1": "Glossaire des abrasifs",
+    "sub": "Les termes derrière chaque spécification de courrois, disque ou ailette.",
+    "note": "Définitions standard du secteur pour les abrasifs de consommation. Les détails de grain et de support pour une commande spécifique sont confirmés dans le devis."
+  },
+  "trust": {
+    "regions": "Régions de destination",
+    "productLines": "Familles de produits",
+    "gritRange": "Couverture de grains"
+  },
+  "video": {
+    "title": "Voir",
+    "cutting": {
+      "title": "Images de découpe et de mise en forme",
+      "desc": "Images produit fournies : découpage et mise en forme des feuilles abrasives."
+    },
+    "sample": {
+      "title": "Images de contrôle des échantillons",
+      "desc": "Images produit fournies : vérification de surface, support et calage d'un échantillon."
+    },
+    "oem": {
+      "title": "Images d'emballage OEM",
+      "desc": "Quantités d'emballage, étiquettes, marquage des cartons et éléments graphiques de private label."
+    },
+    "flap": {
+      "title": "Images de la gamme de disques à ailettes",
+      "desc": "Disques à ailettes avec support plastique, acier et fibre de verre en utilisation."
+    }
+  },
+  "wa": {
+    "generic": "Bonjour MoTai, je souhaite un devis de gros pour des produits abrasifs.",
+    "product": "Bonjour MoTai, je souhaite un devis de gros pour {name} ({grits}).",
+    "model": "Bonjour MoTai, je souhaite un devis de gros pour le modèle de courrois abrasif {model}.",
+    "disc": "Bonjour MoTai, je souhaite un devis de gros pour {title}.",
+    "sample": "Bonjour MoTai, je souhaite demander un échantillon de {name} pour évaluation.",
+    "factory": "Bonjour MoTai, je souhaite discuter des détails de fabrication et de qualité avec votre équipe.",
+    "oem": "Bonjour MoTai, je souhaite discuter d'un programme OEM / private label d'abrasifs.",
+    "contact": "Bonjour MoTai, je souhaite construire ma prochaine commande d'abrasifs avec votre équipe."
+  },
+  "faq": {
+    "faqTitle": "Avant de commencer",
+    "moq": {
+      "q": "Quelle est la quantité minimum de commande ?",
+      "a": "Le MOQ est confirmé dans le devis, avec la disponibilité et les conditions commerciales."
+    },
+    "oem": {
+      "q": "Soutenez-vous l'OEM et le private label ?",
+      "a": "Oui. Logo, étiquettes, tailles sur mesure et conditionnement sont étudiés pour la faisabilité et confirmés dans le devis."
+    },
+    "sizes": {
+      "q": "Quelles tailles et quels grains fournissez-vous ?",
+      "a": "Courrois en dimensions documentées de 533 × 75 à 2200 × 1330 mm (grains 40–800) ; disques de 3 à 6 pouces (grains 60–5000). Les exigences sur mesure sont étudiées avec notre équipe."
+    },
+    "samples": {
+      "q": "Puis-je obtenir un échantillon d'abord ?",
+      "a": "Oui. Demandez un échantillon et notre équipe commerciale confirmera la disponibilité, les frais et les modalités d'expédition."
+    },
+    "lead": {
+      "q": "Quels sont les délais de livraison ?",
+      "a": "Le délai dépend de la spécification et de la quantité, et est confirmé dans votre devis."
+    },
+    "packaging": {
+      "q": "Comment les produits sont-ils emballés ?",
+      "a": "Les quantités d'emballage, étiquettes, marquage des cartons et éléments graphiques de private label sont confirmés avec le devis."
+    },
+    "payment": {
+      "q": "Quelles conditions de paiement proposez-vous ?",
+      "a": "Les conditions de paiement font partie du devis confirmé et de la discussion commerciale."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Quelles spécifications dois-je fournir ?",
+      "a": "Indiquez les dimensions, le grain, la pièce, la machine et la finition souhaitée. Utilisez les options documentées quand elles existent ; les autres exigences seront étudiées avec notre équipe."
+    },
+    "oem": {
+      "q": "Comment demander du conditionnement OEM ?",
+      "a": "Incluez vos exigences de marque et de conditionnement dans la demande. Les détails seront étudiés et confirmés avec votre devis."
+    },
+    "order": {
+      "q": "Demander un devis place-t-il une commande ?",
+      "a": "Non. Le formulaire initie une demande de gros. Les spécifications produit, la disponibilité et les conditions commerciales sont confirmées avant qu'une commande ne soit accordée."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europe",
+      "body": "Notez taille, grain, support et fiches produit ; indiquez le port de destination et la langue des étiquettes."
+    },
+    "na": {
+      "title": "Amérique du Nord",
+      "body": "Précisez cotation en pouces ou métrique, type de fixation et quantités d'emballage ; code postal ou port de destination et mode de transport."
+    },
+    "sa": {
+      "title": "Amérique du Sud",
+      "body": "Taille, quantités à grain mélangé et langue des étiquettes de carton ; port de destination et documents de l'importateur."
+    },
+    "me": {
+      "title": "Moyen-Orient",
+      "body": "Matériau, grain et conditionnement résistant à l'humidité ; port de destination et conditions du devis."
+    },
+    "africa": {
+      "title": "Afrique",
+      "body": "Compatibilité machine, tailles requises et quantités d'emballage ; port de destination, marquage des cartons et préférence de transport."
+    },
+    "oceania": {
+      "title": "Océanie",
+      "body": "Taille, support, conditionnement et code postal ou port de destination ; exigences d'importation et de conditionnement."
+    },
+    "asia": {
+      "title": "Asie",
+      "body": "Spécification machine, gamme de grains et composition de la commande ; ville ou port de livraison et étiquettes en langue locale."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Métallurgie",
+      "intro": "Jointure de soudures, déburage et préparation des surfaces métalliques.",
+      "uses": "Jointure de soudures · Déburage · Préparation de surface",
+      "products": "Courrois abrasifs"
+    },
+    "wood": {
+      "title": "Bois & Menuiserie",
+      "intro": "Panneaux, fabrication de meubles et préparation de surface avant laque.",
+      "uses": "Panneaux · Meubles · Préparation avant laque",
+      "products": "Courrois abrasifs · Disques de ponçage"
+    },
+    "auto": {
+      "title": "Réparation automobile",
+      "intro": "Ponçage des mastics, préparation avant pulvérisation et finition automobile.",
+      "uses": "Mastic · Avant pulvérisation · Refinition",
+      "products": "Disques de ponçage"
+    },
+    "stainless": {
+      "title": "Finition de l'acier inoxydable",
+      "intro": "Finitions brossées, transitions de surface et fabrication de l'acier inoxydable.",
+      "uses": "Brossage · Transitions · Fabrication",
+      "products": "Courrois abrasifs"
+    },
+    "ship": {
+      "title": "Construction navale & Réparation",
+      "intro": "Rectification du métal, élimination de la rouille et préparation des surfaces de maintenance maritime.",
+      "uses": "Rectification · Antirouille · Préparation marine",
+      "products": "Courrois abrasifs"
+    },
+    "surface": {
+      "title": "Préparation de surfaces industrielles",
+      "intro": "Traitement de surfaces industriel et travaux de maintenance.",
+      "uses": "Traitement de surface · Maintenance",
+      "products": "Disques de ponçage"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Velcro ou PSA : choisir le bon support",
+      "intro": "Le système de fixation est aussi important que le grain. Adaptez-le au pad avant de commander.",
+      "start": {
+        "title": "Commencez par l'exigence",
+        "body": "Les disques velcro se montent sur un pad compatible à surface crochets et conviennent aux opérations où le grain change souvent. Les disques PSA reposent sur une colle sensible à la pression et nécessitent un pad propre et plat. Les deux systèmes ne sont pas interchangeables."
+      },
+      "compat": {
+        "title": "Confirmez la compatibilité",
+        "body": "Confirmez le diamètre du pad, le type de support et l'agencement de l'extraction de poussière. Un disque sans trou ne se connecte pas à un système d'extraction à trous, et les disques treillis ont besoin d'un pad et d'un système d'extraction compatibles."
+      },
+      "enquiry": {
+        "title": "Préparez votre demande",
+        "body": "Incluez le diamètre du disque, le support, la liste des grains, la quantité par grain et le matériau de la pièce. Demandez une évaluation d'échantillon avant d'approuver une commande de production."
+      }
+    },
+    "beltChecklist": {
+      "title": "Ce qu'il faut inclure dans une demande de courrois abrasif",
+      "intro": "Une spécification claire aide votre fournisseur à vérifier l'adéquation et à préparer un devis utile.",
+      "start": {
+        "title": "Commencez par l'exigence",
+        "body": "Donnez la longueur et la largeur du courrois en millimètres. Indiquez le modèle de machine — une fiche technique machine ou une photo d'une ancienne étiquette de courrois est utile."
+      },
+      "compat": {
+        "title": "Confirmez la compatibilité",
+        "body": "Ajoutez le matériau de la pièce, l'abrasif préféré, le grain, l'exigence de support et les exigences de recouvrement. Évitez de choisir un produit uniquement sur la couleur du courrois."
+      },
+      "enquiry": {
+        "title": "Préparez votre demande",
+        "body": "Listez les quantités par taille et par grain, les préférences de conditionnement, la destination et la date de livraison souhaitée. Le devis final confirme la spécification, la disponibilité, les conditions de paiement et les modalités de transport."
+      }
+    },
+    "gritSequence": {
+      "title": "Planifier une séquence de grains pour la préparation de surface",
+      "intro": "Commencez par la pièce et la finition requise, puis évaluez une séquence sur échantillon.",
+      "start": {
+        "title": "Commencez par l'exigence",
+        "body": "Les grains grossiers enlèvent la matière rapidement et laissent des rayures profondes ; les grains fins affinent la surface. Le point de départ dépend du support, de la profondeur du défaut et de l'ablation requise."
+      },
+      "compat": {
+        "title": "Confirmez la compatibilité",
+        "body": "Passez aux grains plus fins dans l'ordre et inspectez la pièce à chaque étape. Sauter un grain laisse des rayures difficiles à retirer, et le nettoyage entre les étapes évite la contamination par le grain grossier."
+      },
+      "enquiry": {
+        "title": "Préparez votre demande",
+        "body": "Le numérotage des grains n'est pas interchangeable entre les systèmes d'échelles. Confirmez le standard de gradation, le type d'abrasif et la disponibilité dans le devis, et respectez les consignes de sécurité machine et abrasif."
+      }
+    },
+    "dustCollection": {
+      "title": "Aspiration de poussière et compatibilité du pad, expliqué",
+      "intro": "Motifs de trous, disques treillis et pads support doivent correspondre à votre installation d'aspiration.",
+      "start": {
+        "title": "Commencez par l'exigence",
+        "body": "Identifiez votre pad : nombre de trous, diamètre et s'il est utilisé avec aspiration de poussière. Les disques sans trou et les disques treillis se comportent différemment des disques à multi-trous."
+      },
+      "compat": {
+        "title": "Confirmez la compatibilité",
+        "body": "Alignez le motif de trous du disque sur les orifices du pad. Les disques treillis ont besoin d'un pad et d'un système d'aspiration fonctionnels ; les disques PSA ont besoin d'une face de pad propre."
+      },
+      "enquiry": {
+        "title": "Préparez votre demande",
+        "body": "Listez le modèle du pad, le nombre de trous, la taille du disque et la liste des grains, ainsi que votre installation d'aspiration. Confirmez le comportement de l'échantillon avant une commande de production."
+      }
+    },
+    "oemPackaging": {
+      "title": "Étiquettes & conditionnement OEM : ce qu'il faut préparer",
+      "intro": "Un cahier des charges complet maintient maquettes, étiquettes et cartons dans les délais.",
+      "start": {
+        "title": "Commencez par l'exigence",
+        "body": "Préparez vos maquettes de logo et d'étiquettes, le format d'emballage cible (sachets internes, cartons), la langue des étiquettes et les règles d'étiquetage du pays de destination."
+      },
+      "compat": {
+        "title": "Confirmez la compatibilité",
+        "body": "La disponibilité OEM, les quantités minimales, les exigences graphiques et les délais sont soumis à une étude de faisabilité et au devis confirmé."
+      },
+      "enquiry": {
+        "title": "Préparez votre demande",
+        "body": "Joignez les maquettes, précisez les quantités d'emballage et le marquage des cartons, et indiquez la destination et le calendrier. L'approbation de l'échantillon précède la production."
+      }
+    },
+    "gritStandards": {
+      "title": "Normes de grain : FEPA, ANSI et ce que signifie votre liste",
+      "intro": "Les systèmes de gradation ne sont pas interchangeables — citez la norme dans chaque demande.",
+      "start": {
+        "title": "Commencez par l'exigence",
+        "body": "FEPA (ISO 848) et l'échelle ANSI plus ancienne numérotent des tailles similaires différemment ; un P120 et un grain 120 ne sont pas toujours identiques. Citez la norme que vous adoptez pour acheter."
+      },
+      "compat": {
+        "title": "Confirmez la compatibilité",
+        "body": "Confirmez le standard de gradation, le type d'abrasif et la disponibilité par qualité dans le devis. Ne mélangez pas de systèmes de gradation dans une même liste de grains."
+      },
+      "enquiry": {
+        "title": "Préparez votre demande",
+        "body": "Indiquez la norme (p. ex. FEPA P60–P800), la quantité par qualité et la destination. Confirmez la liste finale des qualités avec le devis avant la commande."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Le grain abrasif le plus courant pour les courrois et disques : tenace, facile à travailler, adapté au métal, au bois et à la finition générale."
+    },
+    "ansi": {
+      "def": "Numérotation des grains nord-américaine historique. Des grains de taille similaire diffèrent de l'échelle FEPA — citez la norme dans chaque demande."
+    },
+    "backing-cloth": {
+      "def": "Une toile de coton/support qui porte le grain abrasif sur les courrois. Le grammage (p. ex. grammage X) détermine la flexibilité et la charge admissible."
+    },
+    "backing-poly": {
+      "def": "Support en toile poly-coton : équilibre solidité et flexibilité pour les courrois d'usage général."
+    },
+    "belt": {
+      "def": "Une boucle continue de grain abrasif sur un support en toile, utilisée sur les machines à courrois pour la rectification, la finition et le déburage."
+    },
+    "blend": {
+      "def": "Lisser une soudure pour qu'elle se fonde dans le métal environnant — généralement un premier passage au disque à ailettes ou au courrois, puis des grains plus fins."
+    },
+    "closed": {
+      "def": "Un agencement de grain étanche avec peu d'espace ouvert ; le courrois résiste à l'encrassement sur des travaux plus durs."
+    },
+    "debur": {
+      "def": "Retrait des éclats et petites protubérances laissées par la coupe, le sciage ou le meulage."
+    },
+    "dust": {
+      "def": "Retrait de la poussière abrasive à la pièce — via les orifices du pad, les disques treillis ou l'aspiration locale."
+    },
+    "flap": {
+      "def": "Un disque de lamelles abrasives superposées, flexible, pour la rectification, la jointure et la finition sur meuleuses."
+    },
+    "fepa": {
+      "def": "L'échelle de gradation ISO 848 (FEPA) en notation P (p. ex. P120). L'échelle de référence dans la plupart des échanges européens et internationaux."
+    },
+    "grit": {
+      "def": "La taille nominale du grain abrasif : les numéros élevés sont plus fins. Courrois 40–800 ; disques 60–5000."
+    },
+    "hookloop": {
+      "def": "Le système de fixation velcro (crochet et boucle) pour disques : le disque se clipsé sur un pad à face crochets."
+    },
+    "mesh": {
+      "def": "Les disques treillis ont des fenêtres découpées pour laisser passer la poussière, nécessitant un pad et une aspiration compatibles."
+    },
+    "moq": {
+      "def": "Quantité minimum de commande — confirmée dans le devis avec la disponibilité et les conditions."
+    },
+    "oem": {
+      "def": "Fabrication pour compte d'origine / private label : nos produits sous votre marque, étiquettes et conditionnement."
+    },
+    "psa": {
+      "def": "Support adhésif sensible à la pression (PSA) : le disque colle directement sur un pad compatible."
+    },
+    "disc": {
+      "def": "Un disque abrasif plat ou à ailettes monté sur un pad pour ponçage et finition."
+    },
+    "sic": {
+      "def": "Grain de carbure de silicium : très dur et tranchant, adapté au verre, à la céramique et aux métaux non ferreux."
+    },
+    "prep": {
+      "def": "Préparer une surface pour revêtement ou finition : retrait de rouille, mastic ou finition ancienne jusqu'à un profil régulier."
+    },
+    "wetdry": {
+      "def": "Qualités qui restent fraîches et résistantes à l'encrassement en usage sec/mouillé ; confirmez la compatibilité dans le devis."
+    },
+    "xweight": {
+      "def": "Un support toile de grammage moyen pour les courrois d'usage général : solide et flexible."
+    },
+    "zirconia": {
+      "def": "Grain d'oxyde de zirconium et alumine : tenace et agressif pour la rectification, le déburage et la finition de l'acier."
+    },
+    "pad": {
+      "def": "La plaque de support sur laquelle le disque repose : diamètre du pad, face (crochet) et agencement des orifices doivent correspondre au disque."
+    }
+  },
+  "footer": {
+    "blurb": "Abrasifs de consommation pour acheteurs industriels, distributeurs et marques de private label.",
+    "products": "Produits",
+    "explore": "Découvrir MoTai",
+    "connect": "Connectez-vous",
+    "aboutUs": "À propos de nous",
+    "mfgQ": "Fabrication & Qualité",
+    "oemPl": "OEM & Private Label",
+    "newsB": "Actualités & Blog",
+    "privacy": "Politique de confidentialité",
+    "contactUs": "Contact"
+  },
+  "tdk": {
+    "home": {
+      "title": "MoTai Abrasives — courrois, disques et ailettes depuis Hubei, Chine",
+      "description": "Gammes de courrois abrasifs, disques et ailettes de l'usine MoTai de Hubei : courrois à l'oxyde d'aluminium, disques PSA / crochet-boucle / maille et ailettes, pour l'approvisionnement B2B et marque propre.",
+      "keywords": "courrois abrasifs, disques de ponçage, disques à ailettes, abrasifs OEM, fournisseur d'abrasifs en gros, MoTai"
+    },
+    "about": {
+      "title": "À propos de MoTai — l'usine d'abrasifs à Xianning, Hubei",
+      "description": "Ce que fabrique Hubei MoTai Abrasives Materials Co., Ltd. et comment elle expédie : l'entreprise, ses gammes et son approvisionnement par région.",
+      "keywords": "MoTai Abrasives, fabricant d'abrasifs Hubei, fournisseur d'abrasifs B2B"
+    },
+    "factory": {
+      "title": "Dans l’atelier MoTai — découpe, contrôles, conditionnement",
+      "description": "Comment sont traités les commandes MoTai : découpe et conversion, contrôle des échantillons, conditionnement OEM et préparation de l'expédition.",
+      "keywords": "fabrication d'abrasifs, contrôle qualité abrasifs, processus de découpe, conditionnement OEM"
+    },
+    "oem": {
+      "title": "OEM et marque propre chez MoTai — votre marque, notre gamme",
+      "description": "Apportez votre logo, étiquettes, tailles et conditionnement à MoTai : étude de faisabilité et offre selon la spécification confirmée.",
+      "keywords": "abrasifs OEM, disques de ponçage private label, conditionnement d'abrasifs sur mesure"
+    },
+    "applications": {
+      "title": "Abrasifs pour votre industrie — Applications",
+      "description": "Sélection d'abrasifs pour la métallurgie, le bois, l'automobile, l'acier inoxydable, la construction navale et la préparation de surfaces industrielles.",
+      "keywords": "applications abrasives, métallurgie, abrasifs bois, préparation de surface"
+    },
+    "blog": {
+      "title": "Actualités & Ressources acheteur",
+      "description": "Ressources pratiques pour acheteurs : choix du support de disque, listes de vérification de demande de courrois, séquences de grains et normes de gradation.",
+      "keywords": "guide acheteur abrasifs, séquence de grains, velcro vs PSA"
+    },
+    "contact": {
+      "title": "Parler avec MoTai — gros et OEM",
+      "description": "Joignez l'équipe commerciale MoTai à Xianning, Hubei pour les courrois, disques et ailettes : téléphone, e-mail, WhatsApp et visite d'usine.",
+      "keywords": "contact MoTai, demande de gros d'abrasifs, fournisseur d'abrasifs"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "description": "Comment MoTai Abrasives utilise les informations de demande : collecte, finalité, stockage, vos choix et gestion des cookies.",
+      "keywords": "politique de confidentialité, MoTai"
+    },
+    "quote": {
+      "title": "Demander un devis de gros",
+      "description": "Préparez votre demande de gros ou OEM MoTai : informations professionnelles plus produit, taille, grain, quantité et destination.",
+      "keywords": "devis de gros d'abrasifs, demande d'abrasifs OEM"
+    },
+    "clients": {
+      "title": "Approvisionnement mondial — De Hubei à votre marché",
+      "description": "MoTai approvisionne sept régions de destination : Europe, Amériques, Moyen-Orient, Afrique, Océanie et Asie.",
+      "keywords": "approvisionnement mondial d'abrasifs, export d'abrasifs, régions MoTai"
+    },
+    "glossary": {
+      "title": "Glossaire des abrasifs — Grain, Support, Termes de disque",
+      "description": "24 termes abrasifs définis : grain FEPA, supports, velcro, PSA, treillis, déburage et plus encore.",
+      "keywords": "glossaire des abrasifs, normes de grain, termes abrasifs"
+    },
+    "product": {
+      "title": "MoTai {name} — approvisionnement B2B",
+      "description": "MoTai {name} : {desc} Tailles de la gamme : {sizes}. Grains : {grits}. L'offre, le MOQ et les conditions arrivent avec le devis de votre commande.",
+      "keywords": "{name}, abrasif MoTai, abrasifs en gros, abrasifs OEM"
+    },
+    "model": {
+      "title": "Courrois MoTai de référence {model}",
+      "description": "Modèle de référence {model} de la gamme MoTai — parlez dimensions, grain et support avec l’équipe ; la spécification se fixe au devis.",
+      "keywords": "courrois abrasif {model}, référence de modèle de courrois, courrois abrasifs en gros"
+    },
+    "disc": {
+      "title": "Variante de disque MoTai : {title}",
+      "description": "Variante documentée de disque MoTai {title} : grains, diamètre et fixation se confirment au devis.",
+      "keywords": "disque de ponçage, disque velcro, disque PSA, MoTai"
+    },
+    "flap": {
+      "title": "Disque à ailettes MoTai {name}",
+      "description": "MoTai {name} : disque à ailettes à support {backing} pour l’ébavurage, la transition et la finition du métal.",
+      "keywords": "disque à ailettes, disque à ailettes {backing} support, MoTai"
+    },
+    "colt": {
+      "belts": {
+        "title": "Courrois — gamme MoTai",
+        "description": "Courrois abrasifs rouges de 533×75 à 2200×1330 mm, grains 40–800, avec modèles de référence. Gros & OEM.",
+        "keywords": "courrois abrasifs, courrois abrasifs en gros, courrois OEM"
+      },
+      "discs": {
+        "title": "Disques de ponçage — gamme MoTai",
+        "description": "Disques de ponçage PSA, velcro, treillis et sans trou, 3–6 pouces, grains 60–5000. Gros & OEM.",
+        "keywords": "disques de ponçage, disques PSA, disques velcro, gros"
+      },
+      "flap": {
+        "title": "Disques à ailettes — gamme MoTai",
+        "description": "Disques à ailettes MOTAI avec support plastique, acier et fibre de verre pour rectification et finition.",
+        "keywords": "disques à ailettes, disque à ailettes de rectification, MoTai"
+      },
+      "all": {
+        "title": "Catalogue d'abrasifs MoTai",
+        "description": "Le catalogue abrasif complet de MoTai : courrois, disques et disques à ailettes pour acheteurs B2B.",
+        "keywords": "produits abrasifs, catalogue MoTai"
+      }
+    }
+  }
+}

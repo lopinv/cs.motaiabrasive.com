@@ -1,0 +1,21 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import Home from '../../components/pages/Home.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { org } = usePage(lang)
+const seo = buildSeo(lang, 'home')
+const jsonld = seo.jsonld ? [...seo.jsonld, breadcrumbJsonLd(lang, [])] : []
+---
+
+<Shell lang={lang} seo={{ ...seo, jsonld }}>
+  <Home lang={lang} />
+</Shell>

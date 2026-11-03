@@ -1,0 +1,14 @@
+{
+  "name": "motai-static",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/gen-feed.mjs && node scripts/gen-seo.mjs",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.7.10"
+  }
+}

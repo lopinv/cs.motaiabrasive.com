@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "choose-sanding-disc-backing",
+    "categoryKey": "selection-guide",
+    "titleKey": "blog.chooseBacking.title",
+    "introKey": "blog.chooseBacking.intro",
+    "sections": [
+      { "key": "start", "titleKey": "blog.chooseBacking.start.title", "bodyKey": "blog.chooseBacking.start.body" },
+      { "key": "compat", "titleKey": "blog.chooseBacking.compat.title", "bodyKey": "blog.chooseBacking.compat.body" },
+      { "key": "enquiry", "titleKey": "blog.chooseBacking.enquiry.title", "bodyKey": "blog.chooseBacking.enquiry.body" }
+    ],
+    "image": "discs"
+  },
+  {
+    "slug": "abrasive-belt-order-checklist",
+    "categoryKey": "buyer-resources",
+    "titleKey": "blog.beltChecklist.title",
+    "introKey": "blog.beltChecklist.intro",
+    "sections": [
+      { "key": "start", "titleKey": "blog.beltChecklist.start.title", "bodyKey": "blog.beltChecklist.start.body" },
+      { "key": "compat", "titleKey": "blog.beltChecklist.compat.title", "bodyKey": "blog.beltChecklist.compat.body" },
+      { "key": "enquiry", "titleKey": "blog.beltChecklist.enquiry.title", "bodyKey": "blog.beltChecklist.enquiry.body" }
+    ],
+    "image": "belt-533-75"
+  },
+  {
+    "slug": "plan-your-grit-sequence",
+    "categoryKey": "application-notes",
+    "titleKey": "blog.gritSequence.title",
+    "introKey": "blog.gritSequence.intro",
+    "sections": [
+      { "key": "start", "titleKey": "blog.gritSequence.start.title", "bodyKey": "blog.gritSequence.start.body" },
+      { "key": "compat", "titleKey": "blog.gritSequence.compat.title", "bodyKey": "blog.gritSequence.compat.body" },
+      { "key": "enquiry", "titleKey": "blog.gritSequence.enquiry.title", "bodyKey": "blog.gritSequence.enquiry.body" }
+    ],
+    "image": "belt-610-100"
+  },
+  {
+    "slug": "dust-collection-and-pad-compatibility",
+    "categoryKey": "selection-guide",
+    "titleKey": "blog.dustCollection.title",
+    "introKey": "blog.dustCollection.intro",
+    "sections": [
+      { "key": "start", "titleKey": "blog.dustCollection.start.title", "bodyKey": "blog.dustCollection.start.body" },
+      { "key": "compat", "titleKey": "blog.dustCollection.compat.title", "bodyKey": "blog.dustCollection.compat.body" },
+      { "key": "enquiry", "titleKey": "blog.dustCollection.enquiry.title", "bodyKey": "blog.dustCollection.enquiry.body" }
+    ],
+    "image": "mesh-5"
+  },
+  {
+    "slug": "oem-labels-and-packaging-requirements",
+    "categoryKey": "oem-guide",
+    "titleKey": "blog.oemPackaging.title",
+    "introKey": "blog.oemPackaging.intro",
+    "sections": [
+      { "key": "start", "titleKey": "blog.oemPackaging.start.title", "bodyKey": "blog.oemPackaging.start.body" },
+      { "key": "compat", "titleKey": "blog.oemPackaging.compat.title", "bodyKey": "blog.oemPackaging.compat.body" },
+      { "key": "enquiry", "titleKey": "blog.oemPackaging.enquiry.title", "bodyKey": "blog.oemPackaging.enquiry.body" }
+    ],
+    "image": "disc-6-solid"
+  },
+  {
+    "slug": "grit-standards-fepa-ansi",
+    "categoryKey": "selection-guide",
+    "titleKey": "blog.gritStandards.title",
+    "introKey": "blog.gritStandards.intro",
+    "sections": [
+      { "key": "start", "titleKey": "blog.gritStandards.start.title", "bodyKey": "blog.gritStandards.start.body" },
+      { "key": "compat", "titleKey": "blog.gritStandards.compat.title", "bodyKey": "blog.gritStandards.compat.body" },
+      { "key": "enquiry", "titleKey": "blog.gritStandards.enquiry.title", "bodyKey": "blog.gritStandards.enquiry.body" }
+    ],
+    "image": "belt-1520-630"
+  }
+]

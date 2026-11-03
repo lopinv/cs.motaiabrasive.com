@@ -1,0 +1,125 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
+import CtaBand from '../../../components/CtaBand.astro'
+import { products, media, faq as faqData } from '../../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths(products.map((p) => ({ handle: p.handle })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, wa, productByHandle, quoteUrlRaw } = usePage(lang)
+const p = productByHandle(ctx.handle)
+const t = pick('meta')
+const pp = pick('productPage')
+const pr = pick('purchasing')
+const q = faqData.productPageFaq
+const goQuote = quoteUrlRaw({ product: p.handle })
+const goSample = quoteUrlRaw({ product: p.handle, request_type: 'sample' })
+const seo = buildSeo(lang, 'product', { handle: p.handle }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('nav.products'), path: `/${lang}/collections/all` },
+    { name: p.name, path: `/${lang}/products/${p.handle}` }
+  ]),
+  faqJsonLd(lang, q)
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/all')}>{pick('nav.products')}</a><span>/</span><span>{p.name}</span></div>
+
+  <section class="section wrap product-detail">
+    <div>
+      <div class="gallery">
+        <div class="gallery-main">
+          <img src={media(p.image)} alt={p.name} loading="eager" />
+        </div>
+        {(p.gallery ?? []).filter((g) => g !== p.image).slice(0, 4).map((g) => (
+          <div class="gallery-thumbs">
+            <img src={media(g)} alt="" loading="lazy" onerror="this.remove()" />
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="product-purchase">
+      <span class="eyebrow">{p.category} · WHOLESALE</span>
+      <h1>{p.name}</h1>
+      <div class="product-tags">
+        <span>{t.wholesale}</span>
+        <span>{t.oemNote}</span>
+      </div>
+      <div class="product-description">
+        <p>{p.summary}</p>
+        {(p.applications ?? []).length > 0 && (
+          <div class="grit-chips">{(p.applications ?? []).map((a) => <span>{a}</span>)}</div>
+        )}
+      </div>
+
+      <details class="motai-product-specs" open>
+        <summary>{pp.specTitle}</summary>
+        <table class="spec-table">
+          <tbody>
+            <tr><th scope="row">{t.size}</th><td>{(p.sizes ?? []).join(', ')}</td></tr>
+            <tr><th scope="row">{t.grit}</th><td>{(p.grits ?? []).join(', ')}</td></tr>
+            <tr><th scope="row">{t.material}</th><td>{p.material}</td></tr>
+            <tr><th scope="row">{t.backing}</th><td>{p.backing}</td></tr>
+          </tbody>
+        </table>
+        {p.note && <p class="small-note">{p.note}</p>}
+        <p class="small-note">{t.availability}</p>
+      </details>
+
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener">
+        {pick('cta.quote')} <span aria-hidden="true">↗</span>
+      </a>
+
+      <div class="motai-b2b-secondary-actions">
+        <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener">{pick('cta.sample')}</a>
+        <a class="button outline dark-outline wide" href={wa('sample', { name: p.name, grits: (p.grits ?? []).join('–') })} target="_blank" rel="noopener noreferrer">{pick('cta.whatsapp')}</a>
+        <p class="small-note">{t.sampleNote}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <div class="grid grid-2 grid--36">
+      <div>
+        <span class="eyebrow">{pr.eyebrow1}</span>
+        <h2>{pr.title1}</h2>
+        <p class="text-soft">{pr.body1}</p>
+      </div>
+      <div>
+        <span class="eyebrow">{pr.eyebrow2}</span>
+        <h2>{pr.title2}</h2>
+        <ol class="purchase-steps">
+          {['s1','s2','s3'].map((k, i) => (
+            <li>
+              <b>0{i + 1}</b>
+              <div><strong>{pick(`purchasing.${k}t`)}</strong> <span class="s">{pick(`purchasing.${k}b`)}</span></div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2>{pp.howTitle}</h2>
+    <p class="body-narrow">{pp.howBody}</p>
+    <div class="faq-list mt-24">
+      {q.map((item) => (
+        <div class="faq-item">
+          <h3 class="faq-q">{pick(item.qKey)}</h3>
+          <p class="faq-a">{pick(item.aKey)}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand lang={lang} waContext="product" waVars={{ name: p.name, grits: (p.grits ?? []).slice(0, 2).join('–') }} ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

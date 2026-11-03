@@ -1,0 +1,34 @@
+---
+/** CTA band: quote (jumps to original-site form) + WhatsApp contact button. */
+import { TRANSLATIONS } from '../lib/i18n.js'
+import { quoteUrl, waLink, localizedUrl } from '../lib/utils.js'
+
+const {
+  lang,
+  title,
+  body,
+  waContext = 'generic',
+  waVars = {},
+  quoteParams = {},
+  ctaKey1 = 'cta.quote',
+  ctaKey2 = 'cta.waChat',
+  align = 'left'
+} = Astro.props
+const tr = TRANSLATIONS[lang]
+const pick = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+---
+
+<section class={`cta-band cta-band-${align}`}>
+  <div class="wrap">
+    {title && <h2>{title}</h2>}
+    {body && <p>{body}</p>}
+    <div class="cta-band-actions">
+      <a class="button wide" href={quoteUrl(quoteParams)} target="_blank" rel="noopener">
+        {pick(ctaKey1) ?? tr.cta.quote} <span aria-hidden="true">↗</span>
+      </a>
+      <a class="button outline dark-outline wide" href={waLink(lang, waContext, waVars)} target="_blank" rel="noopener noreferrer">
+        {pick(ctaKey2) ?? tr.cta.waChat}
+      </a>
+    </div>
+  </div>
+</section>

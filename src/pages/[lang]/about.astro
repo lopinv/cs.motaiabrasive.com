@@ -1,0 +1,61 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { faqJsonLd, breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+import Faq from '../../components/Faq.astro'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, media, wa, regions, faq, org } = usePage(lang)
+const a = pick('about')
+const seo = buildSeo(lang, 'about', {}, [
+  faqJsonLd(lang, faq.faq),
+  breadcrumbJsonLd(lang, [{ name: pick('nav.about'), path: `/${lang}/about` }])
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/about')}>{pick('nav.about')}</a></div>
+  <section class="section wrap">
+    <span class="eyebrow">ABOUT MOTAI</span>
+    <h1>{a.h1}</h1>
+    <p class="lead">{a.sub}</p>
+  </section>
+
+  <section class="section wrap section--soft">
+    <div class="hero-grid">
+      <div>
+        <SectionHeading eyebrow={a.bizTitle} title={a.bizTitle} />
+        <p class="soft-body">{a.bizBody}</p>
+      </div>
+      <div class="hero-figure"><img src={media('belt-1520-630')} alt={a.matTitle} loading="lazy" /></div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={a.globalTitle} sub={a.globalSub} />
+    <div class="grid grid-3">
+      {regions.map((r) => (
+        <div class="region-card">
+          <h3>{pick(r.titleKey)}</h3>
+          <p>{pick(r.bodyKey)}</p>
+        </div>
+      ))}
+    </div>
+    <p class="small-note mt-14">{pick('home.regionsNote')}</p>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading title={a.facTitle} />
+    <p class="body-narrow">{a.facBody}</p>
+  </section>
+
+  <CtaBand lang={lang} title={a.ctaTitle} waContext="contact" ctaKey1="about.cta1" ctaKey2="about.cta2" />
+</Shell>

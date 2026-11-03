@@ -1,0 +1,83 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
+import SectionHeading from '../../../components/SectionHeading.astro'
+import CtaBand from '../../../components/CtaBand.astro'
+import applicationsData from '../../../data/applications.json'
+
+export function getStaticPaths() {
+  return langPaths(applicationsData.map((a) => ({ slug: a.slug })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, media, applications: appData, faq: faqData, applicationBySlug, products, collections } = usePage(lang)
+const a = applicationBySlug(ctx.slug)
+const t = pick('applications')
+const app = appData.find((x) => x.slug === ctx.slug)
+const seo = buildSeo(lang, 'applications', {}, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('nav.knowledge'), path: `/${lang}/applications` },
+    { name: pick(app.titleKey), path: `/${lang}/applications/${app.slug}` }
+  ])
+])
+const rec = pick(app.productsKey)
+const recProducts = rec.split('·').map((s) => s.trim())
+const matched = recProducts.flatMap((label) => {
+  if (/belt/i.test(label)) return products.filter((p) => p.category === 'Abrasive Belts')
+  if (/disc/i.test(label)) return products.filter((p) => p.category === 'Sanding Discs')
+  return []
+}).slice(0, 4)
+const faqItems = t.faqs.map((q) => ({ q: q.q, a: q.a }))
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/applications')}>{pick('nav.knowledge')}</a><span>/</span><span>{pick(app.titleKey)}</span></div>
+
+  <section class="section wrap">
+    <span class="eyebrow">{app.no}</span>
+    <h1>{pick(app.titleKey)}</h1>
+    <p class="lead">{pick(app.introKey)}</p>
+    <p class="uses-line">{pick(app.usesKey)}</p>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading title={t.reqTitle} sub={t.reqNote} />
+    <p class="rec-line">{rec}</p>
+    <div class="grid grid-4">
+      {matched.map((p) => (
+        <a class="model-card" href={lu(`/products/${p.handle}`)}>
+          <span class="mno">{p.category}</span>
+          <h3>{p.name}</h3>
+          <p>{(p.sizes ?? []).join(' · ')}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={t.specTitle} />
+    <p class="body-narrow">{pick(app.introKey)} — {pick('home.prepSub')}</p>
+    <div class="grid grid-3 mt-20">
+      <div class="value-card"><h3>{pick('home.prepDim')}</h3><p>{pick('home.prepDimText')}</p></div>
+      <div class="value-card"><h3>{pick('home.prepGrit')}</h3><p>{pick('home.prepGritText')}</p></div>
+      <div class="value-card"><h3>{pick('home.prepQty')}</h3><p>{pick('home.prepQtyText')}</p></div>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading title={t.faqTitle} />
+    <div class="faq-list">
+      {faqItems.map((q) => (
+        <div class="faq-item">
+          <h3 class="faq-q">{q.q}</h3>
+          <p class="faq-a">{q.a}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand lang={lang} title={t.ctaTitle} body={t.sampleNote} waContext="contact" ctaKey1="applications.cta1" ctaKey2="applications.cta2" />
+</Shell>

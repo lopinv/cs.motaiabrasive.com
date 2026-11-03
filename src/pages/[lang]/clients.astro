@@ -1,0 +1,77 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+import { regions, trust, faq as faqData } from '../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, wa } = usePage(lang)
+const c = pick('clients')
+const t = pick('trust')
+const seo = buildSeo(lang, 'clients', {}, [
+  breadcrumbJsonLd(lang, [{ name: c.h1, path: `/${lang}/clients` }])
+])
+const clients = trust.clients.filter((x) => x.status === 'placeholder')
+const stats = trust.stats.filter((x) => x.status === 'published')
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{c.h1}</span></div>
+
+  <section class="section wrap">
+    <span class="eyebrow">GLOBAL SUPPLY</span>
+    <h1>{c.h1}</h1>
+    <p class="lead">{c.sub}</p>
+  </section>
+
+  <section class="section wrap section--soft-tight">
+    <SectionHeading title={c.statsTitle} />
+    <div class="stats-grid">
+      {stats.map((s) => (
+        <div class="value-card value-card--center">
+          <div class="stat-value">{s.value}</div>
+          <div class="stat-label">{pick(s.labelKey)}</div>
+        </div>
+      ))}
+    </div>
+    <p class="small-note mt-14">{c.statsNote}</p>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={pick('home.regionsTitle')} sub={pick('home.regionsSub')} />
+    <div class="grid grid-3">
+      {regions.map((r) => (
+        <div class="region-card">
+          <h3>{pick(r.titleKey)}</h3>
+          <p>{pick(r.bodyKey)}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading title="Partners & references" />
+    <p class="small-note">{c.note}</p>
+    <div class="grid grid-4 mt-18">
+      {clients.map((cl) => (
+        <div class="logo-slot">
+          <div>
+            <span class="placeholder-badge">{c.placeholderBadge}</span>
+            <p>{cl.name}</p>
+            <p class="small-note">{cl.region}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

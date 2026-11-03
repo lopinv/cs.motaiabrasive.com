@@ -1,0 +1,78 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+import YouTubeEmbed from '../../components/YouTubeEmbed.astro'
+import { videosData } from '../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, media, wa, site, trust } = usePage(lang)
+const f = pick('factory')
+const seo = buildSeo(lang, 'factory', {}, [
+  breadcrumbJsonLd(lang, [{ name: pick('nav.manufacturing'), path: `/${lang}/factory` }])
+])
+const processVideos = videosData.videos.filter((v) => v.category === 'process')
+const video = processVideos[0]
+const vTitle = video?.youtubeId ? pick(video.titleKey) : ''
+const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/factory')}>{pick('nav.manufacturing')}</a></div>
+  <section class="section wrap">
+    <span class="eyebrow">MANUFACTURING &amp; QUALITY</span>
+    <h1>{f.h1}</h1>
+    <p class="lead">{f.sub}</p>
+    <p class="body-narrow mt-12">{f.intro}</p>
+    <a class="button outline dark-outline mt-18" href={lu('/quote')}>{f.videoLabel} <span aria-hidden="true">↗</span></a>
+  </section>
+
+  {video && (
+    <section class="section wrap section--soft-tight">
+      <div class="narrow">
+        <YouTubeEmbed video={video} title={vTitle} description={vDesc} />
+      </div>
+    </section>
+  )}
+
+  <section class="section wrap">
+    <SectionHeading title={f.stepsTitle} sub={f.stepsIntro} />
+    <div class="steps">
+      <div class="step"><b>01</b><div><h3>{f.st1t}</h3><p>{f.st1b}</p></div></div>
+      <div class="step"><b>02</b><div><h3>{f.st2t}</h3><p>{f.st2b}</p></div></div>
+      <div class="step"><b>03</b><div><h3>{f.st3t}</h3><p>{f.st3b}</p></div></div>
+      <div class="step"><b>04</b><div><h3>{f.st4t}</h3><p>{f.st4b}</p></div></div>
+    </div>
+    <p class="small-note">{f.imgNote}</p>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading title={f.qcTitle} sub={f.qcIntro} />
+    <div class="grid grid-3">
+      <div class="value-card"><span class="vno">QC-1</span><h3>{f.qc1t}</h3><p>{f.qc1b}</p></div>
+      <div class="value-card"><span class="vno">QC-2</span><h3>{f.qc2t}</h3><p>{f.qc2b}</p></div>
+      <div class="value-card"><span class="vno">QC-3</span><h3>{f.qc3t}</h3><p>{f.qc3b}</p></div>
+    </div>
+    <p class="small-note mt-16">{f.certNote}</p>
+    <div class="grid grid-3 mt-24">
+      {trust.certifications.filter((c) => c.status === 'placeholder').map((c) => (
+        <div class="logo-slot">
+          <div>
+            <span class="placeholder-badge">{pick('clients.placeholderBadge')}</span>
+            <p>{c.label}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand lang={lang} title={f.ctaTitle} body={f.ctaSub} waContext="factory" ctaKey1="factory.cta1" ctaKey2="factory.cta2" />
+</Shell>

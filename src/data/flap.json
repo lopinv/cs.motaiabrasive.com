@@ -1,0 +1,26 @@
+[
+  {
+    "key": "plastic",
+    "name": "MOTAI Plastic Backing Flap Disc",
+    "backing": "Plastic",
+    "color": "Reddish Brown",
+    "image": "flap-plastic",
+    "summary": "Flap disc with plastic backing for general metal grinding, blending and finishing. Confirm grit, size and packaging with the quotation."
+  },
+  {
+    "key": "steel",
+    "name": "MOTAI Steel Backing Flap Disc",
+    "backing": "Steel",
+    "color": "Reddish Brown",
+    "image": "flap-steel",
+    "summary": "Flap disc with steel backing for demanding metal grinding and deburring applications. Confirm grit, size and packaging with the quotation."
+  },
+  {
+    "key": "fiberglass",
+    "name": "MOTAI Fiberglass Backing Flap Disc",
+    "backing": "Fiberglass",
+    "color": "Blue",
+    "image": "flap-fiberglass",
+    "summary": "Flap disc with fiberglass backing for durability under high-speed use. Confirm grit, size and packaging with the quotation."
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "slug": "europe", "titleKey": "regions.europe.title", "bodyKey": "regions.europe.body" },
+  { "slug": "north-america", "titleKey": "regions.na.title", "bodyKey": "regions.na.body" },
+  { "slug": "south-america", "titleKey": "regions.sa.title", "bodyKey": "regions.sa.body" },
+  { "slug": "middle-east", "titleKey": "regions.me.title", "bodyKey": "regions.me.body" },
+  { "slug": "africa", "titleKey": "regions.africa.title", "bodyKey": "regions.africa.body" },
+  { "slug": "oceania", "titleKey": "regions.oceania.title", "bodyKey": "regions.oceania.body" },
+  { "slug": "asia", "titleKey": "regions.asia.title", "bodyKey": "regions.asia.body" }
+]

@@ -1,0 +1,793 @@
+{
+  "code": "it",
+  "name": "Italiano",
+  "codeLabel": "IT",
+  "htmlLang": "it",
+  "ogLocale": "it_IT",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Richieste all'ingrosso",
+    "oemNote": "Richieste di imballaggio OEM",
+    "size": "Misura",
+    "grit": "Grana",
+    "quantity": "Quantità richiesta",
+    "requirements": "Requisiti di specifica e imballaggio",
+    "requirementsPh": "Descrivi la tua applicazione, le specifiche e i requisiti di consegna.",
+    "material": "Materiale abrasivo",
+    "backing": "Supporto / fissaggio",
+    "availability": "Disponibilità, ordine minimo e condizioni commerciali sono soggette a conferma nel preventivo.",
+    "sampleNote": "Indica quali prodotti e quali granature vorresti valutare. Il nostro team commerciale confermerà disponibilità, costi e spedizione dei campioni.",
+    "gritsRange": "Range di grana",
+    "holes": "Fori",
+    "diameter": "Diametro / misura nominale",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "manufacturing": "Produzione",
+    "oem": "Servizi OEM",
+    "news": "News",
+    "knowledge": "Knowledge",
+    "contact": "Contattaci",
+    "products": "Prodotti"
+  },
+  "colt": {
+    "belts": {
+      "title": "Nastri abrasivi — Ingrosso & OEM",
+      "desc": "Nastri abrasivi rossi in misure documentate da 533 × 75 mm a 2200 × 1330 mm. Grane da 40 a 800. Modelli di riferimento disponibili. Accogliamo richieste di ingrosso e OEM.",
+      "label": "Nastri abrasivi"
+    },
+    "discs": {
+      "title": "Dischi di levigatura — Ingrosso & OEM",
+      "desc": "Dischi di levigatura in versione adesiva PSA, a gancetto, a rete aperta e senza fori, da 3 a 6 pollici. Grane da 60 a 5000. Accogliamo richieste di ingrosso e OEM.",
+      "label": "Dischi di levigatura"
+    },
+    "flap": {
+      "title": "Dischi a patta MOTAI",
+      "desc": "Dischi a patta con supporto in plastica, acciaio o fibra di vetro per levigatura, transizione e finitura del metallo. Specifiche, fornitura in blocco e imballaggio OEM da confermare nel preventivo.",
+      "label": "Dischi a patta"
+    },
+    "all": {
+      "title": "Tutti i prodotti",
+      "desc": "Il catalogo abrasivo completo MoTai: nastri abrasivi, dischi di levigatura e dischi a patta per acquirenti industriali, distributori e marchi private label.",
+      "label": "Tutti i prodotti"
+    }
+  },
+  "cta": {
+    "quote": "Richiedi un preventivo all'ingrosso",
+    "quoteArrow": "↗",
+    "sample": "Richiedi un campione",
+    "whatsapp": "Richiesta su WhatsApp",
+    "waChat": "Contattaci su WhatsApp",
+    "explore": "Vedi la gamma di dischi a patta",
+    "viewAll": "Vedi tutti i prodotti",
+    "discuss": "Discuti la tua specifica",
+    "oemQuote": "Richiedi preventivo OEM"
+  },
+  "home": {
+    "eyebrow": "Abrasivi dallo stabilimento MoTai, Hubei",
+    "heroTitle": "Una finitura per ogni superficie",
+    "heroSub": "Nastri abrasivi, dischi di levigatura e dischi a patta direttamente dalla fabbrica per acquirenti industriali, distributori e marchi private label — dalla provincia di Hubei, Cina, al tuo mercato.",
+    "cta1": "Richiedi un preventivo all'ingrosso",
+    "cta2": "Parla con il nostro team su WhatsApp",
+    "builtTitle": "Scegli l'applicazione. Scegli l'abrasivo.",
+    "builtSub": "Scegli l'applicazione, poi abbina l'abrasivo: nastri, dischi o dischi a patta.",
+    "featuredTitle": "Nel catalogo",
+    "featuredSub": "Misure e grane documentate. Disponibilità e MOQ confermati nel preventivo.",
+    "partnerTitle": "Il lato fornitura del tuo ordine di abrasivi",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. fornisce consumabili abrasivi per legno, metallo e settore automotive — con programmi OEM e private label per distributori e acquirenti industriali in tutto il mondo.",
+    "partnerCta": "Scopri MoTai",
+    "valuesTitle": "Sei modi di lavorare con i buyer B2B",
+    "valuesSub": "Sei motivi per cui importatori e marchi OEM lavorano con noi.",
+    "v1t": "Dalla fabbrica",
+    "v1b": "Prezzi e tempi di consegna dal fornitore, senza intermediari.",
+    "v2t": "OEM e Private Label",
+    "v2b": "Il tuo logo, le tue etichette e il tuo packaging su specifiche confermate.",
+    "v3t": "Misure e grane su misura",
+    "v3b": "Misure e grane documentate: 40–800 per i nastri, 60–5000 per i dischi.",
+    "v4t": "Controllo campioni e QC",
+    "v4b": "Valuta superficie, supporto e adattabilità su un campione prima dell'ordine.",
+    "v5t": "Forniture in blocco",
+    "v5b": "Quantità in cartone coerenti e dettaglio della lista imballo.",
+    "v6t": "Programma export",
+    "v6b": "Marchiatura cartoni, etichette e documentazione per la destinazione.",
+    "processTitle": "I passaggi tra la tua specifica e l'ordine",
+    "processSub": "Quattro fasi tra il tuo requisito e l'ordine confermato.",
+    "p1t": "Taglio e conversione",
+    "p1b": "Conferma forma, dimensioni e grana richieste prima di organizzare la conversione.",
+    "p2t": "Controllo campioni",
+    "p2b": "Valuta superficie abrasiva, supporto e adattabilità del campione prima di concordare la specifica dell'ordine.",
+    "p3t": "OEM e imballaggio",
+    "p3b": "Conferma quantità di imballo, etichette, marchiatura cartoni e grafica private label nel preventivo.",
+    "p4t": "Preparazione alla spedizione",
+    "p4b": "Concorda lista imballo, requisiti di pallettizzazione e dettagli della destinazione prima della spedizione.",
+    "oemTitle": "Il tuo marchio sulla scatola",
+    "oemSub": "Condividi i requisiti di prodotto, packaging e brand per la tua prossima gamma di abrasivi.",
+    "oemCta": "Scopri i servizi OEM",
+    "faqTitle": "Prima di iniziare",
+    "faqSub": "Risposte alle domande che gli acquirenti fanno più spesso.",
+    "regionsTitle": "Da Hubei al tuo mercato",
+    "regionsSub": "Forniture globali organizzate per area di destinazione.",
+    "regionsNote": "MOQ e tempi di consegna sono confermati nel preventivo. Le rotte sono indicative; disponibilità e condizioni sono confermate nel preventivo.",
+    "factoryTitle": "Trovaci a Hubei",
+    "factoryBody": "N. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Cina. Organizza una visita alla fabbrica e conferma il punto d'incontro con il nostro team.",
+    "finalTitle": "Cerchi un fornitore di abrasivi affidabile?",
+    "finalBody": "Condividi prodotto, quantità e applicazione: valuteremo i tuoi requisiti e prepareremo un preventivo su misura.",
+    "finalCta1": "Richiedi un preventivo all'ingrosso",
+    "finalCta2": "Contattaci su WhatsApp",
+    "beltsShowTitle": "Nastri abrasivi, per modello",
+    "beltsShowSub": "Modelli di riferimento da discutere con il nostro team.",
+    "prepTitle": "Prepara la tua richiesta all'ingrosso",
+    "prepSub": "Dimensioni, grana e quantità fanno il resto.",
+    "prepDim": "Dimensioni",
+    "prepDimText": "Misura o riferimento del modello in millimetri.",
+    "prepGrit": "Grana",
+    "prepGritText": "Grado o finitura richiesta.",
+    "prepQty": "Quantità",
+    "prepQtyText": "Volume stimato e imballaggio."
+  },
+  "purchasing": {
+    "eyebrow1": "Guida all'acquisto",
+    "title1": "Prepara la tua richiesta all'ingrosso",
+    "body1": "Indica dimensioni, grana, pezzo da lavorare, macchina e finitura desiderate. Usa le opzioni documentate sopra dove disponibili; gli altri requisiti saranno valutati con il nostro team.",
+    "dl1t": "Quantità e destinazione",
+    "dl1b": "Indica la quantità, le esigenze di imballaggio e la destinazione di consegna.",
+    "dl2t": "Fornitura e condizioni",
+    "dl2b": "Disponibilità, ordine minimo e condizioni commerciali sono soggette a conferma nel preventivo.",
+    "dl3t": "Richieste di imballaggio OEM",
+    "dl3b": "Branding, etichette, misure o requisiti di imballaggio personalizzati.",
+    "eyebrow2": "Come fare richiesta",
+    "title2": "Dalla scelta del prodotto al preventivo",
+    "s1t": "Scegli il tuo prodotto",
+    "s1b": "Seleziona il prodotto o il modello e la specifica richiesta.",
+    "s2t": "Condividi i tuoi requisiti",
+    "s2b": "Condividi quantità, applicazione e requisiti di imballaggio.",
+    "s3t": "Verifica il preventivo",
+    "s3b": "Conferma la specifica finale e le condizioni commerciali con il nostro team."
+  },
+  "modelPage": {
+    "eyebrow": "Nastri abrasivi · Modello di riferimento",
+    "refLabel": "Riferimento modello",
+    "familyLabel": "Categoria",
+    "dimsLabel": "Dimensioni nastro finito — indicare larghezza × lunghezza in mm",
+    "dimsPlaceholder": "es. 533 × 75 mm",
+    "gritLabel": "Grana richiesta — indicare il grado o la finitura",
+    "gritPlaceholder": "es. P60",
+    "qtyLabel": "Quantità richiesta",
+    "specLabel": "Requisiti di specifica e imballaggio",
+    "discussion": "Discuti questo modello con il nostro team indicando pezzo da lavorare, macchina e finitura richiesta.",
+    "grainBacking": "Grana e supporto — confermare il produttore della materia prima e il grado esatto.",
+    "disclaimer": "Le informazioni pubblicate sulla famiglia di modelli sono fornite a scopo di selezione. Specifiche di fornitura, disponibilità e idoneità MoTai sono confermate nel preventivo."
+  },
+  "discPage": {
+    "eyebrow": "Dischi di levigatura · Variante documentata",
+    "gritsNote": "Opzioni di grana per questa variante"
+  },
+  "flapPage": {
+    "eyebrow": "Dischi a patta · Variante di supporto",
+    "color": "Colore",
+    "gritNote": "P40–P60 e P80–P120 sono esempi di selezione generali, non una gamma di fornitura MoTai confermata."
+  },
+  "productPage": {
+    "specTitle": "Specifiche",
+    "howTitle": "Come specificare il tuo ordine",
+    "howBody": "Includi la misura del nastro o del disco, l'elenco delle grane, il modello di macchina, il materiale del pezzo e la quantità. Una specifica chiara ci aiuta a verificare l'adattabilità e preparare un preventivo utile — evita di scegliere il prodotto basandoti solo sul colore.",
+    "faqTitle": "Domande degli acquirenti"
+  },
+  "about": {
+    "h1": "L'azienda dietro la gamma di abrasivi",
+    "sub": "Un approccio ragionato alla fornitura di abrasivi.",
+    "bizTitle": "Il nostro business",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. fornisce consumabili abrasivi per legno, metallo e settore automotive. Le gamme documentate includono dischi di levigatura senza fori, dischi a rete e nastri abrasivi rossi. Accogliamo richieste da importatori, distributori, grossisti e acquirenti industriali — su prodotto, supporto, misura, grado, quantità e requisiti di consegna.",
+    "matTitle": "Materiali aziendali",
+    "matBody": "Scopri la storia aziendale e i contatti nel nostro dossier.",
+    "globalTitle": "Da Hubei al tuo mercato",
+    "globalSub": "Forniture globali organizzate per area di destinazione.",
+    "facTitle": "Trovaci a Hubei",
+    "facBody": "N. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Cina. Organizza una visita alla fabbrica con il nostro team e conferma il punto d'incontro prima del viaggio.",
+    "ctaTitle": "Cerchi un fornitore di abrasivi affidabile?",
+    "cta1": "Richiedi un preventivo all'ingrosso",
+    "cta2": "Contattaci su WhatsApp"
+  },
+  "factory": {
+    "h1": "Dentro lo stabilimento MoTai",
+    "sub": "I dettagli contano. In ogni fase.",
+    "intro": "Rivedi taglio, controllo campioni e dettagli di imballaggio per il tuo ordine. Le riprese di prodotto sono affiancate da illustrazioni dei processi.",
+    "videoLabel": "Guarda le riprese di prodotto",
+    "stepsTitle": "Produzione e preparazione dell'ordine",
+    "stepsIntro": "Dal tuo requisito all'ordine confermato.",
+    "st1t": "Taglio e conversione",
+    "st1b": "Conferma forma, dimensioni e grana richieste prima di organizzare la conversione.",
+    "st2t": "Controllo campioni",
+    "st2b": "Valuta superficie abrasiva, supporto e adattabilità del campione prima di concordare la specifica dell'ordine.",
+    "st3t": "OEM e imballaggio",
+    "st3b": "Conferma quantità di imballo, etichette, marchiatura cartoni e grafica private label nel preventivo.",
+    "st4t": "Preparazione alla spedizione",
+    "st4b": "Concorda lista imballo, requisiti di pallettizzazione e dettagli della destinazione prima della spedizione.",
+    "imgNote": "Le immagini di taglio e campioni sono estratte dalle riprese di prodotto fornite. Le immagini di imballaggio e spedizione sono fotografie stock illustrative.",
+    "qcTitle": "Punti di controllo qualità",
+    "qcIntro": "Cosa verifichiamo prima che un ordine lasci la fabbrica.",
+    "qc1t": "Superficie e grana",
+    "qc1b": "Uniformità della superficie abrasiva rispetto al grado confermato.",
+    "qc2t": "Supporto e adattabilità",
+    "qc2b": "Tipo di supporto, peso e tolleranza dimensionale di nastri e dischi finiti.",
+    "qc3t": "Imballo e marchiatura",
+    "qc3b": "Quantità di imballo, etichette, marchiatura cartoni e grafica private label coerenti con l'ordine confermato.",
+    "certNote": "I marchi di certificazione mostrati sono segnaposto in attesa di certificati pubblicati.",
+    "ctaTitle": "Preferisci parlarne?",
+    "ctaSub": "Cerchi un fornitore di abrasivi affidabile?",
+    "cta1": "Richiedi un preventivo all'ingrosso",
+    "cta2": "Contattaci su WhatsApp"
+  },
+  "oem": {
+    "h1": "Il tuo marchio sulla scatola",
+    "sub": "Invia i requisiti di prodotto, packaging e brand; ti rispondiamo con una verifica di fattibilità OEM.",
+    "briefTitle": "Costruisci la richiesta attorno al tuo brand",
+    "briefEyebrow": "Porta il tuo brief",
+    "briefBody": "Discuti grafica di logo ed etichette, formato di packaging, misure dei prodotti, grane e uso previsto. Disponibilità OEM, quantità minime, requisiti di grafica e tempi sono soggetti a verifica di fattibilità e preventivo confermato.",
+    "itemsTitle": "Un brief chiaro, una risposta utile",
+    "i1": "Prodotto e specifica",
+    "i2": "Combinazione misure e grane",
+    "i3": "Grafiche ed etichette",
+    "i4": "Formato di packaging",
+    "i5": "Quantità obiettivo",
+    "i6": "Destinazione e tempistiche",
+    "itemNote": "Includi i tuoi requisiti e i file di riferimento nella richiesta.",
+    "procTitle": "Dalla richiesta alla fornitura",
+    "pr1t": "La tua richiesta",
+    "pr1b": "Descrivi la tua applicazione e i tuoi requisiti.",
+    "pr2t": "Check della specifica",
+    "pr2b": "Verifica misure, gradi, supporto e imballaggio.",
+    "pr3t": "Offerta",
+    "pr3b": "Conferma condizioni commerciali e pianificazione.",
+    "pr4t": "Approvazione campione",
+    "pr4b": "Valuta i campioni concordati prima dell'approvazione.",
+    "pr5t": "Produzione",
+    "pr5b": "Procedi secondo la specifica confermata.",
+    "pr6t": "Consegna",
+    "pr6b": "Coordina imballo e destinazione.",
+    "cta1": "Richiedi un preventivo all'ingrosso",
+    "cta2": "Contattaci su WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrasivi per il tuo settore",
+    "sub": "La superficie definisce la specifica.",
+    "intro": "Sei ambiti applicativi. Specifica materiale, macchina e finitura richiesta — noi abbiniamo l'abrasivo.",
+    "ctaNote": "Alcune immagini sono illustrazioni di applicazione generate dall'IA, non fotografie della fabbrica MoTai o dei suoi clienti.",
+    "sampleNote": "Quando richiedi un preventivo, indica settore, paese, specifica di prodotto e volume di ordine stimato.",
+    "reqTitle": "Prodotti consigliati",
+    "reqNote": "Famiglie di prodotto indicative per questo ambito. Conferma misure, grane e quantità nel preventivo.",
+    "specTitle": "Suggerimenti di specifica",
+    "faqTitle": "Domande frequenti",
+    "faqs": [
+      {
+        "q": "Da quale grana devo iniziare?",
+        "a": "Parti dal materiale del pezzo, dalla profondità dei difetti e dalla finitura richiesta — una grana grossa toglie materiale in fretta, poi scendi di grana e controlla la superficie a ogni passaggio."
+      },
+      {
+        "q": "Posso mescolare grane diverse in un ordine?",
+        "a": "Sì. Includi l'elenco delle grane e la quantità per grado nella richiesta; disponibilità e tempi di consegna sono confermati nel preventivo."
+      }
+    ],
+    "ctaTitle": "Stai specificando per il tuo ambito?",
+    "cta1": "Richiedi un preventivo all'ingrosso",
+    "cta2": "Contattaci su WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Migliori informazioni. Migliore selezione.",
+    "sub": "Risorse pratiche per acquirenti per discutere le specifiche degli abrasivi."
+  },
+  "article": {
+    "watchTitle": "Guarda",
+    "discuss": "Discuti la tua specifica",
+    "catSelection": "Guida alla selezione",
+    "catBuyer": "Risorse per acquirenti",
+    "catNotes": "Note applicative",
+    "catOem": "Guida OEM"
+  },
+  "contact": {
+    "h1": "Apri una conversazione all'ingrosso",
+    "sub": "Prezzi all'ingrosso diretti dalla fabbrica per prodotti abrasivi.",
+    "directTitle": "Una conversazione. Una specifica migliore.",
+    "directBody": "Condividi prodotto, quantità e applicazione. Valuteremo i tuoi requisiti e ti aiuteremo a fare il passo successivo.",
+    "facTitle": "Trovaci a Hubei",
+    "facBody": "N. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Cina.",
+    "facNote": "Conferma l'indirizzo esatto della visita con il nostro team prima del viaggio.",
+    "visit": "Organizza una visita alla fabbrica",
+    "formTitle": "Richiesta all'ingrosso / OEM",
+    "formNote": "Questo modulo richiede un preventivo e non effettua un ordine. Le richieste sono elaborate e inviate alla nostra casella di vendita; specifiche e condizioni commerciali sono confermate nel preventivo.",
+    "btn": "Apri il modulo di richiesta ↗"
+  },
+  "privacy": {
+    "h1": "Le informazioni della tua richiesta",
+    "sub": "Come questo sito utilizza i dettagli che scegli di condividere.",
+    "s1t": "Informazioni raccolte",
+    "s1b": "Dati di contatto, informazioni aziendali, requisiti di prodotto e allegati inviati con la richiesta. Un identificatore di connessione crittografato limita le invii abusive.",
+    "s2t": "Finalità e accesso",
+    "s2b": "I dati sono utilizzati per esaminare e rispondere alle richieste, preparare preventivi e coordinare le discussioni commerciali richieste. L'accesso è limitato agli amministratori autorizzati.",
+    "s3t": "Conservazione e trattenimento",
+    "s3b": "I record sono custoditi presso il nostro provider di hosting. I dati possono essere elaborati al di fuori del tuo paese. La conservazione segue gli obblighi di follow-up commerciale e di conservazione dei registri; puoi richiedere trattenimento o cancellazione specifici.",
+    "s4t": "Le tue scelte",
+    "s4b": "Contatta motai-01@motaiabrasive.com per richiedere accesso, correzione o cancellazione. Ti preghiamo di non inviare dati personali sensibili o file riservati non relativi alla tua richiesta.",
+    "s5t": "Cookie, link e analisi",
+    "s5b": "Il browser memorizza i dati di gestione dell'elenco richieste. In questa versione non sono abilitati pixel pubblicitari né tracciatori di analytics. I link esterni a WhatsApp, mappe e social sono regolati dalle proprie policy di privacy.",
+    "updated": "Ultimo aggiornamento 12 ottobre 2026"
+  },
+  "quotePage": {
+    "h1": "Apri una conversazione all'ingrosso",
+    "sub": "Prezzi all'ingrosso diretti dalla fabbrica per prodotti abrasivi.",
+    "note": "Questo modulo richiede un preventivo e non effettua un ordine. I campi contrassegnati con * sono obbligatori.",
+    "sec1": "La tua azienda",
+    "f1": "Nome e cognome *",
+    "f2": "Ragione sociale *",
+    "f3": "Paese *",
+    "f4": "Email aziendale *",
+    "f5": "Numero WhatsApp",
+    "f6": "Tipo di azienda *",
+    "opt1": "Importatore",
+    "opt2": "Distributore",
+    "opt3": "Grossista",
+    "opt4": "Marchio OEM",
+    "opt5": "Acquirente industriale",
+    "opt6": "Altro",
+    "sec2": "Requisiti di prodotto",
+    "f7": "Categoria di prodotto",
+    "f8": "Modello / riferimento prodotto",
+    "f9": "Misura",
+    "f10": "Grana",
+    "f11": "Materiale",
+    "f12": "Quantità",
+    "f13": "Imballaggio",
+    "f14": "Paese di destinazione *",
+    "f15": "Requisiti OEM",
+    "f16": "Messaggio aggiuntivo *",
+    "consent": "Accetto la Privacy Policy e l'uso dei miei dati per rispondere a questa richiesta. *",
+    "btn1": "Richiedi un preventivo all'ingrosso",
+    "btn2": "Invia la richiesta via WhatsApp",
+    "goNote": "Il modulo si apre nel nostro sistema di richieste all'ingrosso con il contesto di prodotto già compilato."
+  },
+  "clients": {
+    "h1": "Dove vanno le spedizioni MoTai",
+    "sub": "Da Hubei a sette aree di destinazione.",
+    "note": "I loghi dei clienti e le testimonianze sottostanti sono segnaposto — sostituire src/data/trust.json con materiali pubblicati.",
+    "placeholderBadge": "Segnaposto illustrativo",
+    "statsTitle": "La fornitura in breve",
+    "statsNote": "Le certificazioni mostrate sono segnaposto in attesa di certificati pubblicati."
+  },
+  "glossary": {
+    "h1": "Glossario degli abrasivi",
+    "sub": "I termini dietro ogni specifica di nastro, disco e patta.",
+    "note": "Definizioni standard di settore per i consumabili abrasivi. Gradi e dettagli del supporto per un ordine specifico sono confermati nel preventivo."
+  },
+  "trust": {
+    "regions": "Aree di destinazione",
+    "productLines": "Linee di prodotto",
+    "gritRange": "Copertura di grana"
+  },
+  "video": {
+    "title": "Guarda",
+    "cutting": {
+      "title": "Riprese di taglio e conversione",
+      "desc": "Riprese di prodotto fornite: taglio e conversione del foglio abrasivo."
+    },
+    "sample": {
+      "title": "Riprese di controllo campioni",
+      "desc": "Riprese di prodotto fornite: verifiche di superficie, supporto e adattabilità su un campione."
+    },
+    "oem": {
+      "title": "Riprese di imballaggio OEM",
+      "desc": "Quantità di imballo, etichette, marchiatura cartoni e grafica private label."
+    },
+    "flap": {
+      "title": "Riprese della gamma di dischi a patta",
+      "desc": "Dischi a patta con supporto in plastica, acciaio e fibra di vetro in uso."
+    }
+  },
+  "wa": {
+    "generic": "Ciao MoTai, vorrei un preventivo all'ingrosso per prodotti abrasivi.",
+    "product": "Ciao MoTai, vorrei un preventivo all'ingrosso per {name} ({grits}).",
+    "model": "Ciao MoTai, vorrei un preventivo all'ingrosso per il nastro abrasivo di modello {model}.",
+    "disc": "Ciao MoTai, vorrei un preventivo all'ingrosso per {title}.",
+    "sample": "Ciao MoTai, vorrei richiedere un campione di {name} per la valutazione.",
+    "factory": "Ciao MoTai, vorrei discutere con il vostro team i dettagli di produzione e qualità.",
+    "oem": "Ciao MoTai, vorrei discutere di un programma abrasivo OEM / private label.",
+    "contact": "Ciao MoTai, vorrei costruire il mio prossimo ordine di abrasivi con il vostro team."
+  },
+  "faq": {
+    "faqTitle": "Prima di iniziare",
+    "moq": {
+      "q": "Qual è il quantitativo minimo d'ordine?",
+      "a": "Il MOQ è confermato nel preventivo, insieme a disponibilità e condizioni commerciali."
+    },
+    "oem": {
+      "q": "Supportate OEM e private label?",
+      "a": "Sì. Logo, etichette, misure personalizzate e imballo sono valutati per fattibilità e confermati nel preventivo."
+    },
+    "sizes": {
+      "q": "Quali misure e grane fornite?",
+      "a": "Nastri in misure documentate da 533 × 75 a 2200 × 1330 mm (grane 40–800); dischi da 3 a 6 pollici (grane 60–5000). I requisiti speciali sono valutati con il nostro team."
+    },
+    "samples": {
+      "q": "Posso ricevere prima un campione?",
+      "a": "Sì. Richiedi un campione e il nostro team commerciale confermerà disponibilità, costi e modalità di spedizione."
+    },
+    "lead": {
+      "q": "Quali sono i tempi di consegna?",
+      "a": "I tempi di consegna dipendono da specifica e quantità e sono confermati nel tuo preventivo."
+    },
+    "packaging": {
+      "q": "Come sono imballati i prodotti?",
+      "a": "Quantità di imballo, etichette, marchiatura cartoni e grafica private label sono confermate insieme al preventivo."
+    },
+    "payment": {
+      "q": "Quali termini di pagamento offrite?",
+      "a": "I termini di pagamento fanno parte del preventivo confermato e della discussione commerciale."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Quali specifiche devo fornire?",
+      "a": "Indica dimensioni, grana, pezzo da lavorare, macchina e finitura richieste. Usa le opzioni documentate dove disponibili; gli altri requisiti saranno valutati con il nostro team."
+    },
+    "oem": {
+      "q": "Come richiedo l'imballaggio OEM?",
+      "a": "Includi i tuoi requisiti di branding e packaging nella richiesta. I dettagli saranno valutati e confermati insieme al preventivo."
+    },
+    "order": {
+      "q": "Richiedere un preventivo equivale a un ordine?",
+      "a": "No. Il modulo avvia una richiesta all'ingrosso. Specifiche del prodotto, disponibilità e condizioni commerciali sono confermate prima della conferma dell'ordine."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Indica misura, grana, supporto e file del prodotto; fornisci il porto di destinazione e la lingua delle etichette."
+    },
+    "na": {
+      "title": "Nord America",
+      "body": "Indica misure in pollici o metriche, tipo di fissaggio e quantità di imballo; ZIP o porto di destinazione e modalità di trasporto."
+    },
+    "sa": {
+      "title": "Sud America",
+      "body": "Misura, quantità miste di grana e lingua delle etichette di cartone; porto di destinazione e documenti dell'importatore."
+    },
+    "me": {
+      "title": "Medio Oriente",
+      "body": "Materiale, grana e imballaggio protegito dall'umidità; porto di destinazione e condizioni del preventivo."
+    },
+    "africa": {
+      "title": "Africa",
+      "body": "Compatibilità con la macchina, misure richieste e quantità di imballo; porto di destinazione, marchiatura cartoni e preferenza di trasporto."
+    },
+    "oceania": {
+      "title": "Oceania",
+      "body": "Misura, supporto, imballaggio e ZIP o porto di destinazione; requisiti di importazione e imballo."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Specifica della macchina, gamma di grane e composizione dell'ordine; città o porto di consegna ed etichette nella lingua locale."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Lamierismo",
+      "intro": "Transizione dei cordoni di saldatura, sbrasatura e preparazione della superficie metallica.",
+      "uses": "Transizione saldature · Sbrasatura · Preparazione superficie",
+      "products": "Nastri abrasivi"
+    },
+    "wood": {
+      "title": "Legno e Arredo",
+      "intro": "Pannelli, produzione di arredo e preparazione della superficie prima della laccatura.",
+      "uses": "Pannelli · Arredo · Prep. alla laccatura",
+      "products": "Nastri abrasivi · Dischi di levigatura"
+    },
+    "auto": {
+      "title": "Riparazioni Automotive",
+      "intro": "Levigatura di stucco per carrozzerie, preparazione pre-spruzzo e rifinitura automotive.",
+      "uses": "Stucco · Pre-spruzzo · Rifinitura",
+      "products": "Dischi di levigatura"
+    },
+    "stainless": {
+      "title": "Finitura dell'Acciaio Inossidabile",
+      "intro": "Finiture hairline, transizioni di superficie e lavorazione dell'acciaio inox.",
+      "uses": "Hairline · Transizioni · Lavorazione",
+      "products": "Nastri abrasivi"
+    },
+    "ship": {
+      "title": "Cantieristica e Riparazioni Navali",
+      "intro": "Levigatura del metallo, rimozione della ruggine e preparazione delle superfici per manutenzione navale.",
+      "uses": "Levigatura · Antiruggine · Prep. navale",
+      "products": "Nastri abrasivi"
+    },
+    "surface": {
+      "title": "Preparazione Superfici Industriali",
+      "intro": "Trattamento e manutenzione delle superfici industriali.",
+      "uses": "Trattamento superficie · Manutenzione",
+      "products": "Dischi di levigatura"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Gancetto o PSA: scegliere il supporto giusto",
+      "intro": "Il sistema di fissaggio è importante quanto la grana. Abbinalo al supporto prima dell'ordine.",
+      "start": {
+        "title": "Parti dal requisito",
+        "body": "I dischi a gancetto si montano su un supporto con ganci compatibile e sono ideali per lavorazioni in cui la grana cambia spesso. I dischi PSA si basano su un adesivo sensibile alla pressione e richiedono un supporto pulito e piano. I due sistemi non sono intercambiabili."
+      },
+      "compat": {
+        "title": "Conferma la compatibilità",
+        "body": "Conferma diametro del supporto, tipo di supporto e layout di aspirazione. Un disco senza fori non si collega a un'aspirazione basata sui fori e i dischi a rete richiedono un supporto e un sistema di aspirazione compatibili."
+      },
+      "enquiry": {
+        "title": "Prepara la richiesta",
+        "body": "Includi diametro del disco, supporto, elenco grane, quantità per grana e materiale del pezzo. Richiedi una valutazione del campione prima di approvare un ordine di produzione."
+      }
+    },
+    "beltChecklist": {
+      "title": "Cosa includere in una richiesta di nastri abrasivi",
+      "intro": "Una specifica chiara aiuta il fornitore a verificare l'adattabilità e preparare un preventivo utile.",
+      "start": {
+        "title": "Parti dal requisito",
+        "body": "Indica lunghezza e larghezza del nastro in millimetri. Citare il modello della macchina — una scheda tecnica o una foto dell'etichetta del vecchio nastro aiutano."
+      },
+      "compat": {
+        "title": "Conferma la compatibilità",
+        "body": "Aggiungi materiale del pezzo, abrasivo preferito, grana, requisito di supporto e requisiti di giunzione. Evita di scegliere il prodotto basandoti solo sul colore del nastro."
+      },
+      "enquiry": {
+        "title": "Prepara la richiesta",
+        "body": "Elenca le quantità per misura e grana, preferenze di imballaggio, destinazione e data di consegna richiesta. Il preventivo finale conferma specifica, disponibilità, condizioni di pagamento e trasporto."
+      }
+    },
+    "gritSequence": {
+      "title": "Pianificare una sequenza di grane per la preparazione della superficie",
+      "intro": "Parti dal pezzo e dalla finitura richiesta, poi valuta una sequenza su un campione.",
+      "start": {
+        "title": "Parti dal requisito",
+        "body": "Le grane grossa tolgono materiale in fretta e lasciano graffi profondi; le grane fini affinano la superficie. Il punto di partenza dipende dal sottostante, dalla profondità del difetto e dal requisito di rimozione."
+      },
+      "compat": {
+        "title": "Conferma la compatibilità",
+        "body": "Scendi di grana in ordine e ispeziona il pezzo a ogni passaggio. Saltare grane lascia graffi difficili da rimuovere, e la pulizia tra i passaggi evita l'inquinamento con grana grossa."
+      },
+      "enquiry": {
+        "title": "Prepara la richiesta",
+        "body": "La numerazione delle grane non è intercambiabile tra i diversi sistemi di classificazione. Conferma nel preventivo lo standard di classificazione, il tipo di abrasivo e la disponibilità per grado, e rispetta le istruzioni di sicurezza su macchina e abrasivo."
+      }
+    },
+    "dustCollection": {
+      "title": "Aspirazione e compatibilità dei supporti: spiegazione",
+      "intro": "Schemi di foratura, dischi a rete e supporti devono corrispondere al tuo impianto di aspirazione.",
+      "start": {
+        "title": "Parti dal requisito",
+        "body": "Identifica il tuo supporto: numero di fori, diametro e se viene usato con aspirazione. I dischi senza fori e quelli a rete si comportano diversamente dai dischi multi-fori."
+      },
+      "compat": {
+        "title": "Conferma la compatibilità",
+        "body": "Abbina il layout dei fori del disco ai fori del supporto. I dischi a rete richiedono un supporto compatibile e un impianto di aspirazione funzionante; i dischi PSA richiedono una faccia di supporto pulita."
+      },
+      "enquiry": {
+        "title": "Prepara la richiesta",
+        "body": "Elenca modello del supporto, numero di fori, misura del disco ed elenco grane, oltre alla tua configurazione di aspirazione. Conferma il comportamento del campione prima di un ordine di produzione."
+      }
+    },
+    "oemPackaging": {
+      "title": "Etichette e packaging OEM: cosa preparare",
+      "intro": "Un brief completo tiene grafiche, etichette e cartoni in tempo.",
+      "start": {
+        "title": "Parti dal requisito",
+        "body": "Prepara le grafiche di logo ed etichette, il formato di imballo di destinazione (sacchetti interni, cartoni), la lingua delle etichette e le regole di etichettatura del paese di destinazione."
+      },
+      "compat": {
+        "title": "Conferma la compatibilità",
+        "body": "Disponibilità OEM, quantità minime, requisiti di grafica e tempi sono soggetti a verifica di fattibilità e preventivo confermato."
+      },
+      "enquiry": {
+        "title": "Prepara la richiesta",
+        "body": "Allega le grafiche, specifica le quantità di imballo e la marchiatura dei cartoni, e indica destinazione e tempistiche. L'approvazione del campione precede la produzione."
+      }
+    },
+    "gritStandards": {
+      "title": "Standard di grana: FEPA, ANSI e cosa significa il tuo elenco",
+      "intro": "I sistemi di classificazione non sono intercambiabili — cita lo standard in ogni richiesta.",
+      "start": {
+        "title": "Parti dal requisito",
+        "body": "FEPA (ISO 848) e la scala ANSI più vecchia numerano in modo diverso misure simili; un P120 e un grana 120 non sono sempre la stessa cosa. Cita lo standard con cui acquisti."
+      },
+      "compat": {
+        "title": "Conferma la compatibilità",
+        "body": "Conferma nel preventivo lo standard di classificazione, il tipo di abrasivo e la disponibilità per grado. Non mescolare sistemi di classificazione in un unico elenco di grane."
+      },
+      "enquiry": {
+        "title": "Prepara la richiesta",
+        "body": "Indica lo standard (es. FEPA P60–P800), la quantità per grado e la destinazione. Conferma l'elenco finale dei gradi nel preventivo prima dell'ordine."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "La grana abrasiva più comune per nastri e dischi: tenace, lavorabile, adatta a metallo, legno e finitura generale."
+    },
+    "ansi": {
+      "def": "La vecchia numerazione delle grane nordamericana. Grane di misura simile differiscono dalla scala FEPA — cita lo standard in ogni richiesta."
+    },
+    "backing-cloth": {
+      "def": "Telaio in cotone/tessuto che porta la grana abrasiva sui nastri. La pezzatura (es. X-weight) determina flessibilità e capacità di carico."
+    },
+    "backing-poly": {
+      "def": "Supporto in telaino poliestere-cotone: equilibrio tra resistenza e flessibilità per nastri ad uso generale."
+    },
+    "belt": {
+      "def": "Un anello continuo di grana abrasiva su un supporto in tessuto, usato su macchine a nastro per levigatura, finitura e sbrasatura."
+    },
+    "blend": {
+      "def": "Smussare una saldatura finché non si fonde con il metallo circostante — tipicamente una prima passata con disco a patta o nastro, poi grane più fini."
+    },
+    "closed": {
+      "def": "Disposizione della grana a ricopertura continua con poco spazio aperto; il nastro resiste all'intasamento su lavorazioni più dure."
+    },
+    "debur": {
+      "def": "Rimozione delle sbavature e delle piccole sporgenze lasciate da taglio, seghetto o levigatura."
+    },
+    "dust": {
+      "def": "Rimozione della polvere abrasiva dal pezzo — tramite fori del supporto, dischi a rete o aspirazione locale."
+    },
+    "flap": {
+      "def": "Un disco di pattine abrasive sovrapposte, flessibile, per levigatura, transizioni e finitura su smerigliatrici angolari."
+    },
+    "fepa": {
+      "def": "La scala di classificazione ISO 848 (FEPA) in notazione P (es. P120). La scala di riferimento nella maggior parte del commercio europeo e internazionale."
+    },
+    "grit": {
+      "def": "La dimensione nominale della grana abrasiva: numeri più alti indicano grane più fini. Nastri 40–800; dischi 60–5000."
+    },
+    "hookloop": {
+      "def": "Il sistema di fissaggio gancio-petto per i dischi: il disco si aggancia a un supporto con faccia a ganci."
+    },
+    "mesh": {
+      "def": "I dischi a rete hanno finestre di taglio per far passare la polvere, e richiedono un supporto e un'aspirazione compatibili."
+    },
+    "moq": {
+      "def": "Quantitativo minimo d'ordine — confermato nel preventivo insieme a disponibilità e condizioni."
+    },
+    "oem": {
+      "def": "Produzione per conto terzi / private label: i nostri prodotti con il tuo marchio, le tue etichette e il tuo packaging."
+    },
+    "psa": {
+      "def": "Supporto adesivo sensibile alla pressione: il disco aderisce direttamente a un supporto compatibile."
+    },
+    "disc": {
+      "def": "Un disco abrasivo piano o a patta montato su un supporto per levigatura e finitura."
+    },
+    "sic": {
+      "def": "Grana di carburo di silicio: molto dura e tagliente, adatta a vetro, ceramica e metalli non ferrosi."
+    },
+    "prep": {
+      "def": "Preparare una superficie a un rivestimento o a una finitura: rimozione di ruggine, stucco o vecchia finitura fino a un profilo uniforme."
+    },
+    "wetdry": {
+      "def": "Grane che restano fresche e resistenti all'intasamento in uso a umido o umido/asciutto; confermare l'idoneità nel preventivo."
+    },
+    "xweight": {
+      "def": "Un supporto in tessuto a pezzatura media per nastri ad uso generale: resistente e allo stesso tempo flessibile."
+    },
+    "zirconia": {
+      "def": "Grana di alluminato di zirconio: tenace e aggressiva, per levigatura, sbrasatura e finitura dell'acciaio."
+    },
+    "pad": {
+      "def": "Il piatto di supporto su cui poggia il disco: diametro del supporto, faccia (ganci) e layout dei fori devono corrispondere al disco."
+    }
+  },
+  "footer": {
+    "blurb": "Consumabili abrasivi per acquirenti industriali, distributori e marchi private label.",
+    "products": "Prodotti",
+    "explore": "Scopri MoTai",
+    "connect": "Mettiamoci in contatto",
+    "aboutUs": "Chi siamo",
+    "mfgQ": "Produzione e Qualità",
+    "oemPl": "OEM e Private Label",
+    "newsB": "News e Blog",
+    "privacy": "Informativa Privacy",
+    "contactUs": "Contattaci"
+  },
+  "tdk": {
+    "home": {
+      "title": "MoTai Abrasives — nastri, dischi e patta da Hubei, Cina",
+      "description": "Gamma di nastri abrasivi, dischi e patta dallo stabilimento MoTai in Hubei: nastri in ossido di alluminio, dischi PSA / hook-loop / rete e patta, per fornitura B2B e private label.",
+      "keywords": "nastri abrasivi, dischi di levigatura, dischi a patta, abrasivi OEM, fornitore abrasivi all'ingrosso, MoTai"
+    },
+    "about": {
+      "title": "Chi è MoTai — lo stabilimento di abrasivi a Xianning, Hubei",
+      "description": "Cosa produce Hubei MoTai Abrasives Materials Co., Ltd. e come spedisce: l'azienda, le sue linee e la fornitura per regione.",
+      "keywords": "MoTai Abrasives, produttore abrasivi Hubei, fornitore abrasivi B2B"
+    },
+    "factory": {
+      "title": "Dentro lo stabilimento MoTai — taglio, controlli, imballo",
+      "description": "Come si gestiscono gli ordini MoTai: taglio e conversione, controllo campioni, imballo OEM e preparazione della spedizione.",
+      "keywords": "produzione abrasivi, QC abrasivi, processo di taglio, imballo OEM"
+    },
+    "oem": {
+      "title": "OEM e private label da MoTai — il tuo marchio, la nostra gamma",
+      "description": "Porta a MoTai il tuo logo, etichette, misure e packaging: verifica di fattibilità e offerta sulla specifica confermata.",
+      "keywords": "abrasivi OEM, dischi di levigatura private label, packaging abrasivi personalizzato"
+    },
+    "applications": {
+      "title": "Abrasivi per il Tuo Settore — Applicazioni",
+      "description": "Selezione di abrasivi per lamierismo, legno, automotive, acciaio inox, cantieristica e preparazione di superfici industriali.",
+      "keywords": "applicazioni abrasivi, lamierismo, abrasivi per legno, preparazione superfici"
+    },
+    "blog": {
+      "title": "News e Risorse per Acquirenti",
+      "description": "Risorse pratiche per acquirenti: selezione del supporto dei dischi, check-list richieste per nastri, sequenze di grane e standard di classificazione.",
+      "keywords": "guida acquisto abrasivi, sequenza di grane, gancetto vs PSA"
+    },
+    "contact": {
+      "title": "Contattare MoTai — ingrosso e OEM",
+      "description": "Parla con il team commerciale MoTai a Xianning, Hubei su nastri, dischi e patta: telefono, e-mail, WhatsApp e visite in fabbrica.",
+      "keywords": "contatti MoTai, richiesta abrasivi all'ingrosso, fornitore abrasivi"
+    },
+    "privacy": {
+      "title": "Informativa Privacy",
+      "description": "Come MoTai Abrasives utilizza le informazioni delle richieste: raccolta, finalità, conservazione, le tue scelte e gestione dei cookie.",
+      "keywords": "informativa privacy, MoTai"
+    },
+    "quote": {
+      "title": "Richiedi un Preventivo all'Ingrosso",
+      "description": "Prepara la tua richiesta all'ingrosso o OEM MoTai: dati aziendali più prodotto, misura, grana, quantità e destinazione.",
+      "keywords": "preventivo abrasivi all'ingrosso, richiesta abrasivi OEM"
+    },
+    "clients": {
+      "title": "Forniture Globali — Da Hubei al Tuo Mercato",
+      "description": "MoTai fornisce sette aree di destinazione: Europa, Americhe, Medio Oriente, Africa, Oceania e Asia.",
+      "keywords": "forniture abrasive globali, export abrasivi, aree MoTai"
+    },
+    "glossary": {
+      "title": "Glossario degli Abrasivi — Grana, Supporti, Termini dei Dischi",
+      "description": "24 termini abrasivi definiti: grana FEPA, supporti, gancetto, PSA, rete aperta, sbrasatura e altro.",
+      "keywords": "glossario abrasivi, standard di grana, termini abrasivi"
+    },
+    "product": {
+      "title": "MoTai {name} — fornitura B2B",
+      "description": "MoTai {name}: {desc} Misure nella gamma: {sizes}. Grane: {grits}. Offerta, MOQ e condizioni arrivano con il preventivo del tuo ordine.",
+      "keywords": "{name}, MoTai abrasivo, abrasivi all'ingrosso, abrasivi OEM"
+    },
+    "model": {
+      "title": "Nastro MoTai di riferimento {model}",
+      "description": "Modello di riferimento {model} della gamma MoTai — confronta larghezza, lunghezza, grana e supporto con il team; la specifica si chiude sul preventivo.",
+      "keywords": "{model} nastro abrasivo, modello di riferimento nastro, nastri abrasivi all'ingrosso"
+    },
+    "disc": {
+      "title": "Variante di disco MoTai: {title}",
+      "description": "Variante documentata di disco MoTai {title}: grane, diametro e fissaggio si confermano col preventivo.",
+      "keywords": "disco di levigatura, disco a gancetto, disco PSA, MoTai"
+    },
+    "flap": {
+      "title": "Disco a patta MoTai {name}",
+      "description": "MoTai {name}: disco a patta con supporto in {backing} per sgrenavatura, transizioni e finitura del metallo.",
+      "keywords": "disco a patta, disco a patta con supporto in {backing}, MoTai"
+    },
+    "colt": {
+      "belts": {
+        "title": "Nastri — gamma MoTai",
+        "description": "Nastri abrasivi rossi da 533×75 a 2200×1330 mm, grane 40–800, con modelli di riferimento. Ingrosso & OEM.",
+        "keywords": "nastri abrasivi, nastri abrasivi all'ingrosso, nastri OEM"
+      },
+      "discs": {
+        "title": "Dischi di levigatura — gamma MoTai",
+        "description": "Dischi di levigatura PSA, a gancetto, a rete aperta e senza fori, da 3 a 6 pollici, grane 60–5000. Ingrosso & OEM.",
+        "keywords": "dischi di levigatura, dischi PSA, dischi a gancetto, ingrosso"
+      },
+      "flap": {
+        "title": "Dischi a patta — gamma MoTai",
+        "description": "Dischi a patta MOTAI con supporto in plastica, acciaio e fibra di vetro per levigatura e finitura.",
+        "keywords": "dischi a patta, disco a patta per levigatura, MoTai"
+      },
+      "all": {
+        "title": "Catalogo abrasivi MoTai",
+        "description": "Il catalogo abrasivo completo MoTai: nastri, dischi e dischi a patta per acquirenti B2B.",
+        "keywords": "prodotti abrasivi, catalogo MoTai"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, media, applications } = usePage(lang)
+const a = pick('applications')
+const seo = buildSeo(lang, 'applications', {}, [
+  breadcrumbJsonLd(lang, [{ name: pick('nav.knowledge'), path: `/${lang}/applications` }])
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/applications')}>{pick('nav.knowledge')}</a></div>
+  <section class="section wrap">
+    <span class="eyebrow">APPLICATIONS</span>
+    <h1>{a.h1}</h1>
+    <p class="lead">{a.sub}</p>
+    <p class="body-narrow">{a.intro}</p>
+  </section>
+
+  <div class="section wrap section--flush-top">
+    <div class="grid grid-3">
+      {applications.map((it) => (
+        <a class="product-card" href={lu(`/applications/${it.slug}`)}>
+          <div class="product-card-media">
+            <img src={media(it.image)} alt={pick(it.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <span class="img-fallback-text" aria-hidden="true">{it.no}</span>
+          </div>
+          <div class="product-card-body">
+            <span class="eyebrow">{it.no}</span>
+            <h3 class="product-card-title">{pick(it.titleKey)}</h3>
+            <p>{pick(it.introKey)}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+    <p class="small-note mt-18">{a.ctaNote}</p>
+  </div>
+
+  <CtaBand lang={lang} title={a.ctaTitle} waContext="contact" ctaKey1="applications.cta1" ctaKey2="applications.cta2" />
+</Shell>

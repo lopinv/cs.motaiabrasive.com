@@ -1,0 +1,34 @@
+---
+/**
+ * Product card: remote CDN image (lazy, onerror fallback to gradient placeholder)
+ * + quote / model / disc / flap context links.
+ */
+import { media, quoteUrl, waLink, localizedUrl } from '../lib/utils.js'
+import { TRANSLATIONS } from '../lib/i18n.js'
+
+const { lang, title, imageKey, subtitle = '', link, waContext = 'generic', waVars = {}, accent = '#b02a1f' } = Astro.props
+const tr = TRANSLATIONS[lang]
+---
+
+<article class="product-card" style={`--accent:${accent}`}>
+  <a class="product-card-media" href={link} aria-label={title}>
+    <img
+      src={media(imageKey)}
+      alt={title}
+      loading="lazy"
+      width="700"
+      height="500"
+      onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')"
+    />
+    <span class="img-fallback-text" aria-hidden="true">{title}</span>
+  </a>
+  <div class="product-card-body">
+    <span class="eyebrow">{subtitle}</span>
+    <h3 class="product-card-title"><a href={link}>{title}</a></h3>
+    <div class="product-card-actions">
+      <a class="button small" href={quoteUrl({})} target="_blank" rel="noopener">
+        {tr.cta.quote} <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+</article>

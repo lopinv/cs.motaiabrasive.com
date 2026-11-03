@@ -1,0 +1,20 @@
+---
+import { defaultLang } from '../lib/i18n.js'
+import Shell from '../components/Shell.astro'
+import Home from '../components/pages/Home.astro'
+import { buildSeo } from '../lib/page.js'
+
+const lang = defaultLang()
+const seo = buildSeo(lang, 'home')
+const webSite = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'MoTai Abrasives',
+  url: String(Astro.site ?? 'https://motai-abrasives.pages.dev')
+}
+seo.jsonld = [...(seo.jsonld ?? []), webSite]
+---
+
+<Shell lang={lang} seo={seo}>
+  <Home lang={lang} />
+</Shell>

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "allowJsonImport": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "noEmit": true
+  },
+  "include": ["src/**/*", "scripts/**/*", "astro.config.mjs"]
+}

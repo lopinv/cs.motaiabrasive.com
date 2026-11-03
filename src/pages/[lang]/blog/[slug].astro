@@ -1,0 +1,63 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../../lib/tdk.js'
+import SectionHeading from '../../../components/SectionHeading.astro'
+import CtaBand from '../../../components/CtaBand.astro'
+import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
+import { blog as blogData, media, videosData } from '../../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths(blogData.map((b) => ({ slug: b.slug })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, articleBySlug } = usePage(lang)
+const a = articleBySlug(ctx.slug)
+const article = blogData.find((x) => x.slug === ctx.slug)
+const t = pick('article')
+const title = pick(article.titleKey)
+const intro = pick(article.introKey)
+const seo = buildSeo(lang, 'article', { article: { title, intro, slug: a.slug, image: a.image } }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('nav.news'), path: `/${lang}/blog` },
+    { name: title, path: `/${lang}/blog/${a.slug}` }
+  ])
+])
+const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
+const relatedVideos = videosData.videos.filter((v) => v.youtubeId && v.links.some((l) => l.includes('blog') || l === a.slug)).slice(0, 1)
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{title}</span></div>
+
+  <section class="section wrap">
+    <span class="eyebrow">{pick(`article.${catKey[article.categoryKey]}`)}</span>
+    <h1>{title}</h1>
+    <p class="lead">{intro}</p>
+  </section>
+
+  <div class="section wrap section--flush-top">
+    <div class="prose">
+      {a.sections.map((s) => (
+        <section>
+          <h2>{pick(s.titleKey)}</h2>
+          <p>{pick(s.bodyKey)}</p>
+        </section>
+      ))}
+    </div>
+  </div>
+
+  {relatedVideos.map((v) => (
+    <section class="section wrap section--soft-tight">
+      <div class="narrow">
+        <SectionHeading title={t.watchTitle} />
+        <YouTubeEmbed video={v} title={pick(v.titleKey)} description={pick(v.descriptionKey)} />
+      </div>
+    </section>
+  ))}
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="article.discuss" ctaKey2="cta.waChat" />
+</Shell>

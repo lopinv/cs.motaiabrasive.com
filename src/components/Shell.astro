@@ -1,0 +1,36 @@
+---
+/**
+ * Full-document shell used by every page:
+ * <Shell lang="en" seo={{...}}> ...page content... </Shell>
+ * seo = props passed to SeoMeta (title, description, keywords, canonicalPath, ogImage, jsonld, robots)
+ */
+import Header from './Header.astro'
+import Footer from './Footer.astro'
+import FloatingContact from './FloatingContact.astro'
+import GoogleAnalytics from './GoogleAnalytics.astro'
+import SeoMeta from './SeoMeta.astro'
+import { TRANSLATIONS } from '../lib/i18n.js'
+import { site } from '../lib/utils.js'
+import '../styles/global.css'
+
+const { lang, seo = {}, bodyClass = '' } = Astro.props
+const htmlLang = TRANSLATIONS[lang]?.htmlLang ?? 'en'
+const dir = TRANSLATIONS[lang]?.rtl ? 'rtl' : 'ltr'
+---
+
+<html lang={htmlLang} dir={dir} class={`lang-${lang} ${bodyClass}`}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <GoogleAnalytics trackingId={site.ga4Id} />
+    <SeoMeta lang={lang} {...seo} />
+  </head>
+  <body>
+    <Header lang={lang} />
+    <main id="MainContent">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+    <FloatingContact lang={lang} />
+  </body>
+</html>

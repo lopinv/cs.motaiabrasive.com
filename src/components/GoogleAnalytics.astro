@@ -1,0 +1,28 @@
+---
+/**
+ * GA4 (gtag.js) tag. Static external script in <head> — no Worker, no
+ * server code (fits the zero-Worker / zero-form / remote-only hard
+ * constraints). Prop-driven: pass trackingId (site.ga4Id). Renders
+ * nothing when trackingId is empty, so toggling is a one-line data switch.
+ *
+ * The inline snippet is assembled as a string and emitted via set:html,
+ * because `is:inline` script bodies are passed through verbatim (Astro
+ * does NOT interpolate {…} inside them).
+ */
+const trackingId = Astro.props.trackingId || ''
+const inline = trackingId
+  ? `\nwindow.dataLayer = window.dataLayer || [];\n` +
+    `function gtag(){dataLayer.push(arguments);}\n` +
+    `gtag('js', new Date());\n` +
+    `gtag('config', '${trackingId}');\n`
+  : ''
+---
+
+{
+  trackingId && (
+    <>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}></script>
+      <script is:inline set:html={inline} />
+    </>
+  )
+}

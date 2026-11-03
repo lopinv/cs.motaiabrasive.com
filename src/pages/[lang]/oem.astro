@@ -1,0 +1,69 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+import YouTubeEmbed from '../../components/YouTubeEmbed.astro'
+import { videosData } from '../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, media } = usePage(lang)
+const o = pick('oem')
+const seo = buildSeo(lang, 'oem', {}, [
+  breadcrumbJsonLd(lang, [{ name: pick('nav.oem'), path: `/${lang}/oem` }])
+])
+const oemVideo = videosData.videos.find((v) => v.category === 'oem')
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/oem')}>{pick('nav.oem')}</a></div>
+  <section class="section wrap">
+    <span class="eyebrow">OEM &amp; PRIVATE LABEL</span>
+    <h1>{o.h1}</h1>
+    <p class="lead">{o.sub}</p>
+    <a class="button outline dark-outline mt-18" href={lu('/quote')}>{pick('cta.oemQuote')} <span aria-hidden="true">↗</span></a>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow={o.briefEyebrow} title={o.briefTitle} />
+    <p class="body-narrow">{o.briefBody}</p>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={o.itemsTitle} />
+    <div class="grid grid-3">
+      {['i1','i2','i3','i4','i5','i6'].map((k) => (
+        <div class="value-card">
+          <h3>{pick(`oem.${k}`)}</h3>
+          <p>{o.itemNote}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  {oemVideo && oemVideo.youtubeId && (
+    <section class="section wrap section--soft-tight">
+      <div class="narrow">
+        <YouTubeEmbed video={oemVideo} title={pick(oemVideo.titleKey)} description={pick(oemVideo.descriptionKey)} />
+      </div>
+    </section>
+  )}
+
+  <section class="section wrap">
+    <SectionHeading title={o.procTitle} />
+    <div class="steps">
+      {['pr1','pr2','pr3','pr4','pr5','pr6'].map((k, i) => (
+        <div class="step"><b>0{i + 1}</b><div><h3>{pick(`oem.${k}t`)}</h3><p>{pick(`oem.${k}b`)}</p></div></div>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand lang={lang} waContext="oem" ctaKey1="oem.cta1" ctaKey2="oem.cta2" />
+</Shell>

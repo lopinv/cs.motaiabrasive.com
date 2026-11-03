@@ -1,0 +1,77 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../../lib/tdk.js'
+import CtaBand from '../../../components/CtaBand.astro'
+import { discViews, media, quoteUrlRaw } from '../../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths(discViews.map((d) => ({ key: d.key })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, wa, discByKey } = usePage(lang)
+const d = discByKey(ctx.key)
+const t = pick('meta')
+const dp = pick('discPage')
+const goQuote = quoteUrlRaw({ disc_key: d.key })
+const goSample = quoteUrlRaw({ disc_key: d.key, request_type: 'sample' })
+const seo = buildSeo(lang, 'disc', { key: d.key }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('colt.discs.label'), path: `/${lang}/collections/sanding-discs` },
+    { name: d.title, path: `/${lang}/disc/${d.key}` }
+  ])
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/sanding-discs')}>{pick('colt.discs.label')}</a><span>/</span><span>{d.title}</span></div>
+
+  <section class="section wrap product-detail">
+    <div>
+      <div class="gallery">
+        <div class="gallery-main">
+          <img src={media(d.image)} alt={d.title} loading="eager" />
+        </div>
+      </div>
+    </div>
+
+    <div class="product-purchase">
+      <span class="eyebrow">{dp.eyebrow}</span>
+      <h1>{d.title}</h1>
+      <div class="product-tags">
+        <span>{t.wholesale}</span>
+        <span>{t.oemNote}</span>
+      </div>
+
+      <details class="motai-product-specs" open>
+        <summary>{pick('productPage.specTitle')}</summary>
+        <table class="spec-table">
+          <tbody>
+            <tr><th scope="row">{t.holes}</th><td>{d.holes}</td></tr>
+            <tr><th scope="row">{t.diameter}</th><td>{d.diameter}</td></tr>
+            <tr><th scope="row">{t.material}</th><td>{d.abrasive}</td></tr>
+            <tr><th scope="row">{t.backing}</th><td>{d.attachment}</td></tr>
+          </tbody>
+        </table>
+        {(d.grits ?? []).length > 0 && (
+          <div class="grit-chips">{d.grits.map((g) => <span>{g}</span>)}</div>
+        )}
+        {d.pendingNote && <p class="small-note">{d.pendingNote}</p>}
+        <p class="small-note">{t.availability}</p>
+      </details>
+
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener">
+        {pick('cta.quote')} <span aria-hidden="true">↗</span>
+      </a>
+      <div class="motai-b2b-secondary-actions">
+        <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener">{pick('cta.sample')}</a>
+        <a class="button outline dark-outline wide" href={wa('disc', { title: d.title })} target="_blank" rel="noopener noreferrer">{pick('cta.whatsapp')}</a>
+      </div>
+    </div>
+  </section>
+
+  <CtaBand lang={lang} waContext="disc" waVars={{ title: d.title }} ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

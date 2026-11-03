@@ -1,0 +1,95 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../../lib/tdk.js'
+import CtaBand from '../../../components/CtaBand.astro'
+import { models, media, quoteUrlRaw } from '../../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths(models.map((m) => ({ slug: m.slug })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, wa, modelBySlug } = usePage(lang)
+const m = modelBySlug(ctx.slug)
+const t = pick('meta')
+const mp = pick('modelPage')
+const goQuote = quoteUrlRaw({ model: m.model })
+const goSample = quoteUrlRaw({ model: m.model, request_type: 'sample' })
+const seo = buildSeo(lang, 'model', { slug: m.slug }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('colt.belts.label'), path: `/${lang}/collections/abrasive-belts` },
+    { name: m.model, path: `/${lang}/model/${m.slug}` }
+  ])
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/abrasive-belts')}>{pick('colt.belts.label')}</a><span>/</span><span>{m.model}</span></div>
+
+  <section class="section wrap product-detail">
+    <div>
+      <div class="gallery">
+        <div class="gallery-main">
+          <img src={media('belt-533-75')} alt={`${m.model} ${pick('modelPage.eyebrow')}`} loading="eager" />
+        </div>
+      </div>
+    </div>
+
+    <div class="product-purchase">
+      <span class="eyebrow">{mp.eyebrow}</span>
+      <h1>{m.model}</h1>
+      <div class="product-tags">
+        <span>{mp.refLabel}: {m.model}</span>
+        <span>{mp.familyLabel}: {m.family}</span>
+      </div>
+
+      {m.source && (
+        <div class="product-description">
+          <p>{m.source}</p>
+          {m.sourceUrl && <p class="small-note"><a href={m.sourceUrl} target="_blank" rel="noopener noreferrer">Source reference ↗</a></p>}
+        </div>
+      )}
+
+      <details class="motai-product-specs" open>
+        <summary>{pick('productPage.specTitle')}</summary>
+        <table class="spec-table">
+          <tbody>
+            <tr><th scope="row">{mp.dimsLabel}</th><td>{pick('modelPage.dimsPlaceholder')}</td></tr>
+            <tr><th scope="row">{mp.gritLabel}</th><td>{pick('modelPage.gritPlaceholder')}</td></tr>
+            <tr><th scope="row">{mp.grainBacking}</th><td>{pick('modelPage.disclaimer').split('.')[0]}.</td></tr>
+          </tbody>
+        </table>
+        <p class="small-note">{mp.disclaimer}</p>
+      </details>
+
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener">
+        {pick('cta.quote')} <span aria-hidden="true">↗</span>
+      </a>
+
+      <div class="motai-b2b-secondary-actions">
+        <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener">{pick('cta.sample')}</a>
+        <a class="button outline dark-outline wide" href={wa('model', { model: m.model })} target="_blank" rel="noopener noreferrer">{pick('cta.whatsapp')}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <span class="eyebrow">DISCUSS</span>
+    <h2>{pick('home.beltsShowTitle')}</h2>
+    <p class="soft-body">{mp.discussion}</p>
+    <div class="grid grid-3 mt-24">
+      {models.slice(0, 6).map((x) => (
+        <a class="model-card" href={lu(`/model/${x.slug}`)}>
+          <span class="mno">{x.model}</span>
+          <h3>{x.model}</h3>
+          <p>{x.family}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand lang={lang} waContext="model" waVars={{ model: m.model }} ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

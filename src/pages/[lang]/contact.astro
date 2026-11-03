@@ -1,0 +1,60 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, wa, site } = usePage(lang)
+const c = pick('contact')
+const seo = buildSeo(lang, 'contact', {}, [
+  breadcrumbJsonLd(lang, [{ name: pick('nav.contact'), path: `/${lang}/contact` }])
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/contact')}>{pick('nav.contact')}</a></div>
+
+  <section class="section wrap">
+    <h1>{c.h1}</h1>
+    <p class="lead">{c.sub}</p>
+  </section>
+
+  <section class="section wrap section--soft-tight">
+    <SectionHeading eyebrow="DIRECT TO OUR TEAM" title={c.directTitle} />
+    <p class="soft-body">{c.directBody}</p>
+    <div class="grid grid-3 mt-24">
+      <div class="value-card"><h3>Email</h3><p><a href={`mailto:${site.email}`}>{site.email}</a></p></div>
+      <div class="value-card"><h3>WhatsApp / Phone</h3><p><a href={wa('contact')} target="_blank" rel="noopener noreferrer">{site.phoneDisplay}</a></p></div>
+      <div class="value-card"><h3>Location</h3><p>{site.addressShort}</p></div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={c.facTitle} />
+    <p class="soft-body">{c.facBody}</p>
+    <p class="small-note">{c.facNote}</p>
+    <a class="button outline dark-outline mt-16" href={wa('contact')}>{c.visit}</a>
+    <div class="socials mt-24">
+      <a class="social-link" href={site.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="social-link" href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a class="social-link" href={site.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading title={c.formTitle} />
+    <p class="small-note">{c.formNote}</p>
+    <div class="cta-band-actions cta-band-actions--auto">
+      <a class="button" href={lu('/quote')}>{c.btn}</a>
+      <a class="button outline dark-outline" href={wa('contact')} target="_blank" rel="noopener noreferrer">{pick('cta.waChat')}</a>
+    </div>
+  </section>
+</Shell>

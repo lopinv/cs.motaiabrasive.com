@@ -1,0 +1,793 @@
+{
+  "code": "es",
+  "name": "Español",
+  "codeLabel": "ES",
+  "htmlLang": "es",
+  "ogLocale": "es_ES",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Consultas mayoristas",
+    "oemNote": "Consultas de embalaje OEM",
+    "size": "Tamaño",
+    "grit": "Grano",
+    "quantity": "Cantidad solicitada",
+    "requirements": "Requisitos de especificación y embalaje",
+    "requirementsPh": "Indíquenos su aplicación, especificaciones y requisitos de entrega.",
+    "material": "Material abrasivo",
+    "backing": "Respaldo / sujeción",
+    "availability": "Disponibilidad, pedido mínimo y condiciones comerciales sujetos a confirmación en la cotización.",
+    "sampleNote": "Indíquenos qué productos y granos desea evaluar. Nuestro equipo de ventas confirmará disponibilidad, costos y envío de muestras.",
+    "gritsRange": "Rango de grano",
+    "holes": "Agujeros",
+    "diameter": "Diámetro / tamaño nominal",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "manufacturing": "Fabricación",
+    "oem": "Servicios OEM",
+    "news": "Noticias",
+    "knowledge": "Conocimiento",
+    "contact": "Contacto",
+    "products": "Productos"
+  },
+  "colt": {
+    "belts": {
+      "title": "Cintas abrasivas — Mayorista y OEM",
+      "desc": "Cintas rojas en tamaños documentados de 533 × 75 mm a 2200 × 1330 mm. Grano 40–800. Modelos de referencia disponibles. Consultas mayoristas y OEM bienvenidas.",
+      "label": "Cintas abrasivas"
+    },
+    "discs": {
+      "title": "Discos de lijado — Mayorista y OEM",
+      "desc": "Discos PSA, autoadhesivos, de malla y sin agujeros de 3 a 6 pulgadas. Grano 60–5000. Consultas mayoristas y OEM bienvenidas.",
+      "label": "Discos de lijado"
+    },
+    "flap": {
+      "title": "Discos de aleta MOTAI",
+      "desc": "Discos de aleta con respaldo de plástico, acero y fibra de vidrio para pulido, mezcla y acabado metálico. Especificaciones y embalaje OEM confirmados en la cotización.",
+      "label": "Discos de aleta"
+    },
+    "all": {
+      "title": "Todos los productos",
+      "desc": "Catálogo completo de abrasivos MoTai: cintas, discos y aletas para compradores industriales, distribuidores y marcas propias.",
+      "label": "Todos los productos"
+    }
+  },
+  "cta": {
+    "quote": "Solicitar cotización mayorista",
+    "quoteArrow": "↗",
+    "sample": "Solicitar muestra",
+    "whatsapp": "Consulta por WhatsApp",
+    "waChat": "Contacto por WhatsApp",
+    "explore": "Ver la gama de discos de aleta",
+    "viewAll": "Ver todos los productos",
+    "discuss": "Discutir su especificación",
+    "oemQuote": "Solicitar cotización OEM"
+  },
+  "home": {
+    "eyebrow": "Abrasivos de la fábrica MoTai en Hubei",
+    "heroTitle": "Un acabado para cada superficie",
+    "heroSub": "Cintas, discos y aletas abrasivas de fábrica para compradores industriales, distribuidores y marcas propias — desde Hubei, China hasta su mercado.",
+    "cta1": "Solicitar cotización mayorista",
+    "cta2": "Hable con nuestro equipo por WhatsApp",
+    "builtTitle": "Elija la aplicación. Elija el abrasivo.",
+    "builtSub": "Elija la aplicación y combine el abrasivo: cintas, discos o aletas.",
+    "featuredTitle": "En el catálogo",
+    "featuredSub": "Tamaños y granos documentados. Disponibilidad y MOQ confirmados en la cotización.",
+    "partnerTitle": "El lado de suministro de su pedido de abrasivos",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. suministra consumibles abrasivos para carpintería, metal y automotriz, con programas OEM y marca propia para distribuidores y compradores de todo el mundo.",
+    "partnerCta": "Conozca MoTai",
+    "valuesTitle": "Seis maneras de trabajar con compradores B2B",
+    "valuesSub": "Seis razones por las que importadores y marcas OEM trabajan con nosotros.",
+    "v1t": "Directo de fábrica",
+    "v1b": "Precios y plazos del lado del proveedor, sin intermediarios.",
+    "v2t": "OEM y marca propia",
+    "v2b": "Su logo, etiquetas y embalaje sobre especificaciones confirmadas.",
+    "v3t": "Tamaños y granos a medida",
+    "v3b": "Granos documentados 40–800 en cintas y 60–5000 en discos.",
+    "v4t": "Muestras y control de calidad",
+    "v4b": "Revise superficie, respaldo y ajuste en una muestra antes del pedido.",
+    "v5t": "Suministro al por mayor",
+    "v5b": "Cantidad por caja y lista de empaque consistentes.",
+    "v6t": "Programa de exportación",
+    "v6b": "Marcas de cartón, etiquetas y documentación de destino.",
+    "processTitle": "Los pasos entre su especificación y el pedido",
+    "processSub": "Cuatro etapas entre su requisito y un pedido confirmado.",
+    "p1t": "Corte y conversión",
+    "p1b": "Confirme forma, dimensiones y grano antes de programar el proceso de conversión.",
+    "p2t": "Verificación de muestras",
+    "p2b": "Revise superficie, respaldo y ajuste de una muestra antes de confirmar la especificación.",
+    "p3t": "OEM y embalaje",
+    "p3b": "Confirme cantidades por envase, etiquetas, marcas de cartón y arte de marca propia con la cotización.",
+    "p4t": "Preparación del envío",
+    "p4b": "De acuerdo la lista de empaque, requisitos de paletizado y detalles de destino antes del despacho.",
+    "oemTitle": "Su marca en la caja",
+    "oemSub": "Comparta los requisitos de producto, embalaje y marca de su próxima línea abrasiva.",
+    "oemCta": "Explorar servicios OEM",
+    "faqTitle": "Antes de comenzar",
+    "faqSub": "Respuestas a las preguntas más frecuentes de los compradores.",
+    "regionsTitle": "De Hubei a su mercado",
+    "regionsSub": "Suministro global organizado por región de destino.",
+    "regionsNote": "El MOQ y el plazo se confirman en su cotización. Las rutas son indicativas; disponibilidad y condiciones por cotización.",
+    "factoryTitle": "Encuéntranos en Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Organice una visita a la fábrica y confirme el punto de encuentro con nuestro equipo.",
+    "finalTitle": "¿Busca un proveedor confiable de abrasivos?",
+    "finalBody": "Comparta producto, cantidad y aplicación: revisaremos sus requisitos y prepararemos una cotización a la medida.",
+    "finalCta1": "Solicitar cotización mayorista",
+    "finalCta2": "Contacto por WhatsApp",
+    "beltsShowTitle": "Cintas abrasivas por modelo",
+    "beltsShowSub": "Modelos de referencia para discutir con nuestro equipo.",
+    "prepTitle": "Prepare su consulta mayorista",
+    "prepSub": "Dimensiones, grano y cantidad hacen el resto del trabajo.",
+    "prepDim": "Dimensiones",
+    "prepDimText": "Tamaño o modelo de referencia en milímetros.",
+    "prepGrit": "Grano",
+    "prepGritText": "Grado o acabado requerido.",
+    "prepQty": "Cantidad",
+    "prepQtyText": "Volumen estimado y embalaje."
+  },
+  "purchasing": {
+    "eyebrow1": "Guía de compra",
+    "title1": "Prepare su consulta mayorista",
+    "body1": "Comparta dimensiones, grano, pieza, máquina y acabado requerido. Use las opciones documentadas donde existan; otros requisitos se revisan con nuestro equipo.",
+    "dl1t": "Cantidad y destino",
+    "dl1b": "Indique cantidad, necesidades de embalaje y destino de entrega.",
+    "dl2t": "Suministro y condiciones",
+    "dl2b": "Disponibilidad, pedido mínimo y condiciones comerciales sujetos a confirmación en la cotización.",
+    "dl3t": "Consultas de embalaje OEM",
+    "dl3b": "Marca, etiquetas, tamaño o embalaje personalizados.",
+    "eyebrow2": "Cómo consultar",
+    "title2": "De la selección de producto a la cotización",
+    "s1t": "Seleccione su producto",
+    "s1b": "Elija el producto o modelo y la especificación requerida.",
+    "s2t": "Comparta sus requisitos",
+    "s2b": "Comparta cantidad, aplicación y requisitos de embalaje.",
+    "s3t": "Revise su cotización",
+    "s3b": "Confirme la especificación final y condiciones comerciales con nuestro equipo."
+  },
+  "modelPage": {
+    "eyebrow": "Cintas abrasivas · Modelo de referencia",
+    "refLabel": "Referencia de modelo",
+    "familyLabel": "Categoría",
+    "dimsLabel": "Dimensiones de cinta terminada — indique ancho × largo en mm",
+    "dimsPlaceholder": "p. ej. 533 × 75 mm",
+    "gritLabel": "Grano requerido — indique grado o acabado",
+    "gritPlaceholder": "p. ej. P60",
+    "qtyLabel": "Cantidad solicitada",
+    "specLabel": "Requisitos de especificación y embalaje",
+    "discussion": "Discuta este modelo con nuestro equipo usando su pieza, máquina y acabado requerido.",
+    "grainBacking": "Grano y respaldo — confirme el fabricante de la materia prima y el grado exacto.",
+    "disclaimer": "La información pública de familias de modelos es de referencia para la selección. Las especificaciones, disponibilidad y aptitud de suministro de MoTai se confirman en la cotización."
+  },
+  "discPage": {
+    "eyebrow": "Discos de lijado · Variante documentada",
+    "gritsNote": "Opciones de grano de esta variante"
+  },
+  "flapPage": {
+    "eyebrow": "Discos de aleta · Variante de respaldo",
+    "gritNote": "P40–P60 y P80–P120 son ejemplos generales de selección, no un rango de suministro confirmado de MoTai.",
+    "color": "Color"
+  },
+  "productPage": {
+    "specTitle": "Especificaciones",
+    "howTitle": "Cómo especificar su pedido",
+    "howBody": "Incluya el tamaño de la cinta o disco, lista de granos, modelo de máquina, material de la pieza y cantidad. Una especificación clara ayuda a revisar compatibilidad y preparar una cotización útil — no elija un producto solo por color.",
+    "faqTitle": "Preguntas de compradores"
+  },
+  "about": {
+    "h1": "La empresa detrás de la gama abrasiva",
+    "sub": "Un enfoque cuidadoso del suministro de abrasivos.",
+    "bizTitle": "Nuestro negocio",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. suministra consumibles abrasivos para carpintería, metal y automotriz. Líneas documentadas: discos sin agujeros, discos de malla y cintas rojas. Aceptamos consultas de importadores, distribuidores, mayoristas y compradores industriales: producto, respaldo, tamaño, grado, cantidad y entrega.",
+    "matTitle": "Material corporativo",
+    "matBody": "Explore el trasfondo de la empresa y los contactos en nuestro folleto.",
+    "globalTitle": "De Hubei a su mercado",
+    "globalSub": "Suministro global organizado por región de destino.",
+    "facTitle": "Encuéntranos en Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Organice una visita y confirme el punto de encuentro antes de viajar.",
+    "ctaTitle": "¿Busca un proveedor confiable de abrasivos?",
+    "cta1": "Solicitar cotización mayorista",
+    "cta2": "Contacto por WhatsApp"
+  },
+  "factory": {
+    "h1": "Dentro del taller MoTai",
+    "sub": "Los detalles importan. En cada etapa.",
+    "intro": "Revise los detalles de corte, verificación de muestras y empaque de su pedido. El metraje de producto se muestra junto con ilustraciones del proceso.",
+    "videoLabel": "Ver metraje del producto",
+    "stepsTitle": "Fabricación y preparación del pedido",
+    "stepsIntro": "De su requisito a un pedido confirmado.",
+    "st1t": "Corte y conversión",
+    "st1b": "Confirme forma, dimensiones y grano antes de programar el proceso de conversión.",
+    "st2t": "Verificación de muestras",
+    "st2b": "Revise superficie, respaldo y ajuste de una muestra antes de confirmar la especificación.",
+    "st3t": "OEM y embalaje",
+    "st3b": "Confirme cantidades por envase, etiquetas, marcas de cartón y arte de marca propia con la cotización.",
+    "st4t": "Preparación del envío",
+    "st4b": "De acuerdo la lista de empaque, paletizado y detalles de destino antes del despacho.",
+    "imgNote": "Las imágenes de corte y muestras se extraen de los videos de producto suministrados. Las imágenes de empaque y envío son fotografías de stock ilustrativas.",
+    "qcTitle": "Puntos de control de calidad",
+    "qcIntro": "Lo que verificamos antes de que un pedido salga de la fábrica.",
+    "qc1t": "Superficie y grano",
+    "qc1b": "Consistencia de la superficie contra el grado confirmado.",
+    "qc2t": "Respaldo y ajuste",
+    "qc2b": "Tipo de respaldo, gramaje y tolerancia dimensional de cintas y discos terminados.",
+    "qc3t": "Embalaje y marcas",
+    "qc3b": "Cantidades por envase, etiquetas, marcas de cartón y arte coinciden con el pedido confirmado.",
+    "certNote": "Los sellos de certificación mostrados son marcadores de posición hasta publicar los certificados.",
+    "ctaTitle": "¿Prefiere comentarlo?",
+    "ctaSub": "¿Busca un proveedor confiable de abrasivos?",
+    "cta1": "Solicitar cotización mayorista",
+    "cta2": "Contacto por WhatsApp"
+  },
+  "oem": {
+    "h1": "Su marca en la caja",
+    "sub": "Envíe sus requisitos de producto, embalaje y marca; le responderemos con un análisis de viabilidad OEM.",
+    "briefTitle": "Construya una consulta en torno a su marca",
+    "briefEyebrow": "Traiga su briefing",
+    "briefBody": "Discuta su logo y arte de etiquetas, formato de embalaje, tamaños, grados y uso previsto. Disponibilidad OEM, cantidades mínimas, requisitos de arte y plazos sujetos a revisión de viabilidad y cotización confirmada.",
+    "itemsTitle": "Un briefing claro obtiene una respuesta útil",
+    "i1": "Producto y especificación",
+    "i2": "Mezcla de tamaños y granos",
+    "i3": "Arte y etiquetas",
+    "i4": "Formato de embalaje",
+    "i5": "Cantidades objetivo",
+    "i6": "Destino y plazos",
+    "itemNote": "Incluya sus requisitos y archivos de referencia en la consulta.",
+    "procTitle": "De la consulta al suministro",
+    "pr1t": "Su consulta",
+    "pr1b": "Cuéntenos su aplicación y requisitos.",
+    "pr2t": "Revisión de especificación",
+    "pr2b": "Revise tamaños, grados, respaldo y embalaje.",
+    "pr3t": "Oferta",
+    "pr3b": "Confirme condiciones comerciales y calendario.",
+    "pr4t": "Aprobación de muestra",
+    "pr4b": "Evalúe muestras acordadas antes de aprobar.",
+    "pr5t": "Producción",
+    "pr5b": "Avance contra la especificación confirmada.",
+    "pr6t": "Envío",
+    "pr6b": "Coordine embalaje y destino.",
+    "cta1": "Solicitar cotización mayorista",
+    "cta2": "Contacto por WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrasivos para su industria",
+    "sub": "La superficie define la especificación.",
+    "intro": "Seis campos de aplicación. Indique material, máquina y acabado requerido: nosotros combinamos el abrasivo.",
+    "ctaNote": "Algunas imágenes son ilustraciones generadas por IA, no fotografías de la fábrica o clientes de MoTai.",
+    "sampleNote": "Indíquenos su industria, país, especificación y volumen estimado al solicitar cotización.",
+    "reqTitle": "Productos recomendados",
+    "reqNote": "Familias de producto indicativas para este campo. Confirme tamaños, granos y cantidades en la cotización.",
+    "specTitle": "Consejos de especificación",
+    "faqTitle": "Preguntas frecuentes",
+    "faqs": [
+      {
+        "q": "¿Con qué grano debo empezar?",
+        "a": "Parta del material, profundidad del defecto y acabado requerido: un grano grueso quita material rápido, luego baje de grano y revise la superficie en cada etapa."
+      },
+      {
+        "q": "¿Puedo mezclar granos en un pedido?",
+        "a": "Sí. Incluya la lista de granos y cantidad por grado en su consulta; disponibilidad y plazos se confirman en la cotización."
+      }
+    ],
+    "ctaTitle": "¿Especificando para su campo?",
+    "cta1": "Solicitar cotización mayorista",
+    "cta2": "Contacto por WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Mejor información. Mejor selección.",
+    "sub": "Recursos prácticos para discutir especificaciones de abrasivos."
+  },
+  "article": {
+    "watchTitle": "Ver",
+    "discuss": "Discutir su especificación",
+    "catSelection": "Guía de selección",
+    "catBuyer": "Recursos para compradores",
+    "catNotes": "Notas de aplicación",
+    "catOem": "Guía OEM"
+  },
+  "contact": {
+    "h1": "Abra una conversación mayorista",
+    "sub": "Precios mayoristas directos de fábrica.",
+    "directTitle": "Una conversación. Una mejor especificación.",
+    "directBody": "Comparta producto, cantidad y aplicación. Revisaremos sus requisitos y le ayudaremos a dar el siguiente paso.",
+    "facTitle": "Encuéntranos en Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Confirme la dirección exacta de visita con nuestro equipo antes de viajar.",
+    "visit": "Organizar visita a la fábrica",
+    "formTitle": "Consulta mayorista / OEM",
+    "formNote": "Este formulario solicita una cotización y no realiza un pedido. Las consultas se envían a nuestra bandeja de ventas; especificaciones y condiciones se confirman en la cotización.",
+    "btn": "Abrir el formulario de consulta ↗"
+  },
+  "privacy": {
+    "h1": "Su información de consulta",
+    "sub": "Cómo este sitio usa los datos que elige compartir.",
+    "s1t": "Información recopilada",
+    "s1b": "Datos de contacto, información empresarial, requisitos de producto y adjuntos enviados con una consulta. Un identificador de conexión hasheado limita envíos abusivos.",
+    "s2t": "Propósito y acceso",
+    "s2b": "Los datos se usan para revisar y responder consultas, preparar cotizaciones y coordinar discusiones comerciales solicitadas. Acceso limitado a administradores autorizados.",
+    "s3t": "Almacenamiento y retención",
+    "s3b": "Los registros se guardan con nuestro proveedor de alojamiento. Los datos pueden procesarse fuera de su país. La retención sigue obligaciones de seguimiento y archivo; puede solicitar retención o borrado específicos.",
+    "s4t": "Sus opciones",
+    "s4b": "Escriba a motai-01@motaiabrasive.com para solicitar acceso, corrección o borrado. No envíe datos personales sensibles ni archivos confidenciales ajenos a su consulta.",
+    "s5t": "Cookies, enlaces y analítica",
+    "s5b": "El navegador almacena datos de gestión de la lista de consultas. No hay píxeles publicitarios ni rastreadores de analítica en esta versión. Los enlaces externos a WhatsApp, mapas y redes sociales están sujetos a sus propias políticas.",
+    "updated": "Última actualización 12 de octubre de 2026"
+  },
+  "quotePage": {
+    "h1": "Abra una conversación mayorista",
+    "sub": "Precios mayoristas directos de fábrica.",
+    "note": "Este formulario solicita una cotización y no realiza un pedido. Los campos con * son obligatorios.",
+    "sec1": "Su empresa",
+    "f1": "Nombre completo *",
+    "f2": "Nombre de empresa *",
+    "f3": "País *",
+    "f4": "Correo electrónico *",
+    "f5": "Número de WhatsApp",
+    "f6": "Tipo de empresa *",
+    "opt1": "Importador",
+    "opt2": "Distribuidor",
+    "opt3": "Mayorista",
+    "opt4": "Marca OEM",
+    "opt5": "Comprador industrial",
+    "opt6": "Otro",
+    "sec2": "Requisitos del producto",
+    "f7": "Categoría de producto",
+    "f8": "Modelo / referencia",
+    "f9": "Tamaño",
+    "f10": "Grano",
+    "f11": "Material",
+    "f12": "Cantidad",
+    "f13": "Embalaje",
+    "f14": "País de destino *",
+    "f15": "Requisitos OEM",
+    "f16": "Mensaje adicional *",
+    "consent": "Acepto la Política de Privacidad y el uso de mis datos para responder a esta consulta. *",
+    "btn1": "Solicitar cotización mayorista",
+    "btn2": "Enviar consulta por WhatsApp",
+    "goNote": "El formulario se abre en nuestro sistema de consultas mayoristas con su contexto de producto precargado."
+  },
+  "clients": {
+    "h1": "Hacia dónde van los envíos de MoTai",
+    "sub": "De Hubei a siete regiones de destino.",
+    "note": "Los logotipos y testimonios son marcadores de posición: reemplace src/data/trust.json con material publicado.",
+    "placeholderBadge": "Marcador ilustrativo",
+    "statsTitle": "Suministro de un vistazo",
+    "statsNote": "Las certificaciones mostradas son marcadores de posición hasta publicar certificados."
+  },
+  "glossary": {
+    "h1": "Glosario de abrasivos",
+    "sub": "Los términos detrás de cada especificación de cinta, disco y aleta.",
+    "note": "Definiciones estándar de la industria. El detalle de gradación y respaldo de cualquier pedido se confirma en la cotización."
+  },
+  "trust": {
+    "regions": "Regiones de destino",
+    "productLines": "Líneas de producto",
+    "gritRange": "Cobertura de grano"
+  },
+  "video": {
+    "title": "Ver",
+    "cutting": {
+      "title": "Metraje de corte y conversión",
+      "desc": "Metraje suministrado: corte y conversión de hoja abrasiva."
+    },
+    "sample": {
+      "title": "Metraje de verificación de muestras",
+      "desc": "Metraje suministrado: revisión de superficie, respaldo y ajuste."
+    },
+    "oem": {
+      "title": "Metraje de embalaje OEM",
+      "desc": "Cantidades por envase, etiquetas, marcas de cartón y arte de marca propia."
+    },
+    "flap": {
+      "title": "Metraje de la línea de aletas",
+      "desc": "Discos de aleta con respaldo de plástico, acero y fibra de vidrio en uso."
+    }
+  },
+  "wa": {
+    "generic": "Hola MoTai, desearía una cotización mayorista de productos abrasivos.",
+    "product": "Hola MoTai, desearía una cotización mayorista de {name} (grano {grits}).",
+    "model": "Hola MoTai, desearía una cotización mayorista de la cinta de referencia {model}.",
+    "disc": "Hola MoTai, desearía una cotización mayorista de {title}.",
+    "sample": "Hola MoTai, desearía solicitar una muestra de {name} para evaluación.",
+    "factory": "Hola MoTai, quisiera discutir detalles de fabricación y calidad con su equipo.",
+    "oem": "Hola MoTai, quisiera discutir un programa OEM / marca propia de abrasivos.",
+    "contact": "Hola MoTai, quisiera construir mi próximo pedido con su equipo."
+  },
+  "faq": {
+    "faqTitle": "Antes de comenzar",
+    "moq": {
+      "q": "¿Cuál es el pedido mínimo?",
+      "a": "El MOQ se confirma en la cotización, junto con disponibilidad y condiciones."
+    },
+    "oem": {
+      "q": "¿Ofrecen OEM y marca propia?",
+      "a": "Sí. Logo, etiquetas, tamaños y embalaje se revisan por viabilidad y se confirman en la cotización."
+    },
+    "sizes": {
+      "q": "¿Qué tamaños y granos suministran?",
+      "a": "Cintas de 533 × 75 a 2200 × 1330 mm (granos 40–800); discos de 3 a 6 pulg. (granos 60–5000). Requisitos especiales se revisan con nuestro equipo."
+    },
+    "samples": {
+      "q": "¿Puedo pedir una muestra primero?",
+      "a": "Sí. Solicite una muestra y nuestro equipo confirmará disponibilidad, costos y envío."
+    },
+    "lead": {
+      "q": "¿Cuáles son los plazos?",
+      "a": "El plazo depende de la especificación y cantidad; se confirma en la cotización."
+    },
+    "packaging": {
+      "q": "¿Cómo se empaquetan los productos?",
+      "a": "Cantidades por envase, etiquetas, marcas y arte de marca se confirman en la cotización."
+    },
+    "payment": {
+      "q": "¿Qué condiciones de pago ofrecen?",
+      "a": "Las condiciones de pago forman parte de la cotización y la discusión comercial confirmadas."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "¿Qué especificaciones debo aportar?",
+      "a": "Comparta dimensiones, grano, pieza, máquina y acabado. Use las opciones documentadas donde existan; lo demás se revisa con nuestro equipo."
+    },
+    "oem": {
+      "q": "¿Cómo solicito embalaje OEM?",
+      "a": "Incluya sus requisitos de marca y embalaje en la consulta. Se revisan y confirman con la cotización."
+    },
+    "order": {
+      "q": "¿Solicitar cotización implica un pedido?",
+      "a": "No. El formulario inicia una consulta mayorista. Especificaciones, disponibilidad y condiciones se confirman antes de acordar un pedido."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Indique tamaño, grano, respaldo y archivos de producto; puerto de destino y idioma de etiquetas."
+    },
+    "na": {
+      "title": "Norteamérica",
+      "body": "Tamaño en pulgadas o métrico, tipo de sujeción y cantidades; ZIP o puerto y modo de transporte."
+    },
+    "sa": {
+      "title": "Sudamérica",
+      "body": "Tamaño, granos mixtos y cantidades e idioma de etiquetas; puerto y documentos del importador."
+    },
+    "me": {
+      "title": "Medio Oriente",
+      "body": "Material, grano y embalaje seguro a la humedad; puerto y condiciones de cotización."
+    },
+    "africa": {
+      "title": "África",
+      "body": "Compatibilidad de máquina, tamaños y cantidades; puerto, marcas de cartón y preferencia de transporte."
+    },
+    "oceania": {
+      "title": "Oceanía",
+      "body": "Tamaño, respaldo, embalaje y ZIP o puerto; requisitos de importación y empaque."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Especificación de máquina, rango de granos y mezcla del pedido; ciudad o puerto y etiquetas en idioma local."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Fabricación metálica",
+      "intro": "Mezcla de soldaduras, desbarbado y preparación de superficies metálicas.",
+      "uses": "Mezcla de soldaduras · Desbarbado · Preparación",
+      "products": "Cintas abrasivas"
+    },
+    "wood": {
+      "title": "Carpintería y mueble",
+      "intro": "Paneles, fabricación de muebles y preparación previa a barnizar.",
+      "uses": "Paneles · Mueble · Pre-barnizado",
+      "products": "Cintas · Discos de lijado"
+    },
+    "auto": {
+      "title": "Reparación automotriz",
+      "intro": "Lijado de masilla, preparación pre-spray y refinado automotriz.",
+      "uses": "Masilla · Pre-spray · Refinado",
+      "products": "Discos de lijado"
+    },
+    "stainless": {
+      "title": "Acabado de acero inoxidable",
+      "intro": "Acabado cepillado, transiciones de superficie y fabricación en inox.",
+      "uses": "Cepillado · Transiciones · Fabricación",
+      "products": "Cintas abrasivas"
+    },
+    "ship": {
+      "title": "Construcción y reparación naval",
+      "intro": "Pulido metálico, desoxidación y preparación de superficies de mantenimiento marino.",
+      "uses": "Pulido · Desoxidación · Prep. marino",
+      "products": "Cintas abrasivas"
+    },
+    "surface": {
+      "title": "Preparación de superficies industriales",
+      "intro": "Tratamiento de superficies industriales y mantenimiento.",
+      "uses": "Tratamiento de superficie · Mantenimiento",
+      "products": "Discos de lijado"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Velcro o PSA: elija el respaldo correcto",
+      "intro": "El sistema de sujeción es tan importante como el grano. Cámbielo al pad antes de pedir.",
+      "start": {
+        "title": "Parta del requisito",
+        "body": "Los discos de velcro se montan en un pad compatible y sirven para cambiar de grano con frecuencia. Los PSA usan adhesivo de presión sensible y requieren un pad limpio y liso. Ambos sistemas no son intercambiables."
+      },
+      "compat": {
+        "title": "Confirme compatibilidad",
+        "body": "Confirme diámetro del pad, tipo de respaldo y layout de extracción. Un disco sin agujeros no conecta con un patrón de extracción con agujeros, y los discos de malla abierta necesitan pad y sistema compatibles."
+      },
+      "enquiry": {
+        "title": "Prepare su consulta",
+        "body": "Incluya diámetro, respaldo, lista de granos, cantidad por grano y material de la pieza. Solicite evaluación de muestra antes de aprobar un pedido."
+      }
+    },
+    "beltChecklist": {
+      "title": "Qué incluir en una consulta de cintas",
+      "intro": "Una especificación clara ayuda al proveedor a revisar compatibilidad y preparar una cotización útil.",
+      "start": {
+        "title": "Parta del requisito",
+        "body": "Indique largo y ancho de la cinta en milímetros. Nombre el modelo de máquina: una ficha técnica o una foto de la etiqueta de una cinta antigua ayuda."
+      },
+      "compat": {
+        "title": "Confirme compatibilidad",
+        "body": "Agregue material de la pieza, abrasivo preferido, grano, respaldo y requisitos de empalme. No elija un producto solo por el color de la cinta."
+      },
+      "enquiry": {
+        "title": "Prepare su consulta",
+        "body": "Liste cantidades por tamaño y grano, preferencias de embalaje, destino y fecha de entrega. La cotización final confirma especificación, disponibilidad, pago y transporte."
+      }
+    },
+    "gritSequence": {
+      "title": "Planificar una secuencia de granos para preparación de superficie",
+      "intro": "Parta de la pieza y el acabado requerido, luego evalúe la secuencia en una muestra.",
+      "start": {
+        "title": "Parta del requisito",
+        "body": "Los granos gruesos quitan material rápido y dejan rayas profundas; los finos refinen la superficie. El punto de partida depende del sustrato, profundidad y remoción."
+      },
+      "compat": {
+        "title": "Confirme compatibilidad",
+        "body": "Descienda de grano en orden e inspeccione la pieza en cada etapa. Saltar granos deja rayas difíciles de quitar; limpie entre etapas para evitar contaminación."
+      },
+      "enquiry": {
+        "title": "Prepare su consulta",
+        "body": "La numeración de granos no es intercambiable entre sistemas. Confirme el estándar, el tipo de abrasivo y disponibilidad en la cotización, y siga las instrucciones de seguridad."
+      }
+    },
+    "dustCollection": {
+      "title": "Extracción de polvo y compatibilidad de pads",
+      "intro": "Patrones de agujeros, discos de malla y pads deben coincidir con su sistema de extracción.",
+      "start": {
+        "title": "Parta del requisito",
+        "body": "Identifique su pad: agujeros, diámetro y si usa extracción. Discos sin agujero y de malla se comportan distinto que los multi-agujero."
+      },
+      "compat": {
+        "title": "Confirme compatibilidad",
+        "body": "Cruce el patrón de agujeros del disco con los puertos del pad. La malla abierta necesita pad y extracción compatibles; los PSA requieren cara de pad limpia."
+      },
+      "enquiry": {
+        "title": "Prepare su consulta",
+        "body": "Liste modelo de pad, agujeros, tamaño y granos, más su sistema de extracción. Verifique el comportamiento en muestra antes del pedido de producción."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM: etiquetas y embalaje — qué preparar",
+      "intro": "Un briefing completo mantiene arte, etiquetas y cajas en plazo.",
+      "start": {
+        "title": "Parta del requisito",
+        "body": "Prepare su logo y arte de etiquetas, formato de envase (bolsas internas, cajas), idioma de etiquetas y normas de etiquetado del país de destino."
+      },
+      "compat": {
+        "title": "Confirme compatibilidad",
+        "body": "Disponibilidad OEM, cantidades mínimas, requisitos de arte y plazos sujetos a revisión de viabilidad y cotización confirmada."
+      },
+      "enquiry": {
+        "title": "Prepare su consulta",
+        "body": "Adjunte arte, especifique cantidades y marcas de cartón, indique destino y plazo. La aprobación de muestra precede a la producción."
+      }
+    },
+    "gritStandards": {
+      "title": "Estándares de grano: FEPA, ANSI y qué significa su lista",
+      "intro": "Los sistemas de gradación no son intercambiables — indique el estándar en cada consulta.",
+      "start": {
+        "title": "Parta del requisito",
+        "body": "FEPA (ISO 848) y la escala ANSI antigua numeran tamaños similares distinto; P120 y 120-grit no siempre son lo mismo. Indique el estándar que compra."
+      },
+      "compat": {
+        "title": "Confirme compatibilidad",
+        "body": "Confirme el estándar de gradación, el tipo de abrasivo y disponibilidad por grado en la cotización. No mezcle sistemas en una lista."
+      },
+      "enquiry": {
+        "title": "Prepare su consulta",
+        "body": "Indique el estándar (p. ej. FEPA P60–P800), cantidad por grado y destino. Confirme la lista final de granos en la cotización antes de pedir."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "El grano abrasivo más común en cintas y discos: resistente, trabajable, apto para metal, madera y acabado general."
+    },
+    "ansi": {
+      "def": "Sistema de numeración norteamericano antiguo. Granos de tamaño similar difieren de FEPA — indique el estándar."
+    },
+    "backing-cloth": {
+      "def": "Telas de algodón/tela que llevan el grano en cintas. El gramaje (p. ej. peso X) define flexibilidad y carga."
+    },
+    "backing-poly": {
+      "def": "Telas de poli-algodón: equilibrio de fuerza y flexibilidad para cintas de uso general."
+    },
+    "belt": {
+      "def": "Bucle continuo de grano sobre tela, usado en máquinas de cinta para pulir, terminar y desbarbar."
+    },
+    "blend": {
+      "def": "Suavizar una soldadura hasta igualar la superficie: primero aleta o cinta gruesa, luego granos finos."
+    },
+    "closed": {
+      "def": "Recubrimiento cerrado: poco espacio abierto; la cinta resiste el obstrucción sobre metales duros."
+    },
+    "debur": {
+      "def": "Quitar rebabas y salientes pequeños dejados por corte, sierra o pulido."
+    },
+    "dust": {
+      "def": "Expulsar polvo abrasivo en la pieza: por puertos del pad, discos de malla o extracción local."
+    },
+    "flap": {
+      "def": "Disco de aletas superpuestas, flexible, para pulir, mezclar y terminar en amoladoras."
+    },
+    "fepa": {
+      "def": "Escala de gradación ISO 848 (FEPA) en notación P (p. ej. P120). Estándar por defecto en Europa y el comercio internacional."
+    },
+    "grit": {
+      "def": "Tamaño nominal del grano: mayor número, más fino. Cintas 40–800; discos 60–5000."
+    },
+    "hookloop": {
+      "def": "Sistema de sujeción de discos tipo velcro: el disco se engancha a un pad de gancho."
+    },
+    "mesh": {
+      "def": "Discos de malla con recortes para pasar el polvo; requieren pad y extracción compatibles."
+    },
+    "moq": {
+      "def": "Cantidad mínima de pedido — confirmada con disponibilidad y condiciones en la cotización."
+    },
+    "oem": {
+      "def": "Manufactura OEM / marca propia: nuestros productos bajo su marca, etiquetas y embalaje."
+    },
+    "psa": {
+      "def": "Respaldo de adhesivo de presión sensible: el disco se pega a un pad compatible."
+    },
+    "disc": {
+      "def": "Círculo de abrasivo plano o de aleta montado en un pad para lijar y terminar."
+    },
+    "sic": {
+      "def": "Grano de carburo de silicio: muy duro y afilado, apto para vidrio, cerámica y metales no ferrosos."
+    },
+    "prep": {
+      "def": "Preparar una superficie para revestir o terminar: quitar óxido, masilla o pintura vieja hasta perfil uniforme."
+    },
+    "wetdry": {
+      "def": "Grados que se mantienen frescos y resistentes a la obstrucción en uso húmedo; confirme aptitud en la cotización."
+    },
+    "xweight": {
+      "def": "Tela de peso medio para cintas de uso general: fuerte y flexible."
+    },
+    "zirconia": {
+      "def": "Grano de zirconio: tenaz y agresivo para pulir, desbarbar y terminar aceros."
+    },
+    "pad": {
+      "def": "Placa sobre la que se monta un disco: diámetro, cara (gancho) y layout de puertos deben coincidir."
+    }
+  },
+  "footer": {
+    "blurb": "Consumibles abrasivos para compradores industriales, distribuidores y marcas propias.",
+    "products": "Productos",
+    "explore": "Explore MoTai",
+    "connect": "Hablemos",
+    "aboutUs": "Nosotros",
+    "mfgQ": "Fabricación y calidad",
+    "oemPl": "OEM y marca propia",
+    "newsB": "Noticias y blog",
+    "privacy": "Política de privacidad",
+    "contactUs": "Contacto"
+  },
+  "tdk": {
+    "home": {
+      "title": "MoTai Abrasives — cintas, discos y aletas desde Hubei, China",
+      "description": "Gamas de cintas abrasivas, discos y aletas desde la fábrica MoTai de Hubei: cintas de óxido de aluminio, discos PSA / gancho-bucle / malla y aletas, para suministro B2B y de marca propia.",
+      "keywords": "cintas abrasivas, discos de lijado, discos de aleta, abrasivos OEM, proveedor mayorista, MoTai"
+    },
+    "about": {
+      "title": "Sobre MoTai — la fábrica de abrasivos en Xianning, Hubei",
+      "description": "Qué fabrica Hubei MoTai Abrasives Materials Co., Ltd. y cómo lo envía: la empresa, sus líneas de producto y su suministro regional.",
+      "keywords": "MoTai, fabricante de abrasivos Hubei, proveedor B2B"
+    },
+    "factory": {
+      "title": "Dentro del taller MoTai — corte, revisiones y empaque",
+      "description": "Cómo se gestionan los pedidos MoTai: corte y conversión, revisión de muestras, empaque OEM y preparación del envío.",
+      "keywords": "fabricación de abrasivos, QC, proceso de corte, empaque OEM"
+    },
+    "oem": {
+      "title": "OEM y marca propia en MoTai — su marca, nuestra gama",
+      "description": "Traiga su logo, etiquetas, tamaños y embalaje a MoTai: análisis de viabilidad y oferta contra la especificación confirmada.",
+      "keywords": "abrasivos OEM, discos de marca propia, embalaje a medida"
+    },
+    "applications": {
+      "title": "Abrasivos para su industria — Aplicaciones",
+      "description": "Selección de abrasivos para fabricación metálica, carpintería, automotriz, inox, naval y preparación de superficies.",
+      "keywords": "aplicaciones de abrasivos, metal, carpintería, preparación de superficies"
+    },
+    "blog": {
+      "title": "Noticias y recursos para compradores",
+      "description": "Recursos prácticos: sujeción de discos, listas de consulta de cintas, secuencias de granos y estándares.",
+      "keywords": "guía de comprador, secuencia de granos, velcro vs PSA"
+    },
+    "contact": {
+      "title": "Hablando con MoTai — mayorista y OEM",
+      "description": "Hable con el equipo de ventas MoTai en Xianning, Hubei sobre cintas, discos y aletas: teléfonos, e-mail, WhatsApp y visitas a fábrica.",
+      "keywords": "contacto MoTai, consulta mayorista"
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "description": "Cómo MoTai usa la información de consultas: recolección, propósito, almacenamiento, sus opciones y cookies.",
+      "keywords": "política de privacidad, MoTai"
+    },
+    "quote": {
+      "title": "Solicitar cotización mayorista",
+      "description": "Prepare su consulta mayorista u OEM: datos de empresa y producto, tamaño, grano, cantidad y destino.",
+      "keywords": "cotización mayorista, consulta OEM"
+    },
+    "clients": {
+      "title": "Suministro global — De Hubei a su mercado",
+      "description": "MoTai abastece siete regiones de destino: Europa, Américas, Medio Oriente, África, Oceanía y Asia.",
+      "keywords": "suministro global de abrasivos, exportación, regiones MoTai"
+    },
+    "glossary": {
+      "title": "Glosario de abrasivos — Grano, respaldo, términos",
+      "description": "24 términos abrasivos definidos: grano FEPA, respaldos, velcro, PSA, malla, desbarbado y más.",
+      "keywords": "glosario de abrasivos, estándares de grano, términos"
+    },
+    "product": {
+      "title": "MoTai {name} — suministro B2B",
+      "description": "MoTai {name}: {desc} Tamaños en la gama: {sizes}. Granos: {grits}. La oferta, el MOQ y las condiciones llegan con la cotización de su pedido.",
+      "keywords": "{name}, abrasivo MoTai, mayorista, OEM"
+    },
+    "model": {
+      "title": "Cinta MoTai de referencia {model}",
+      "description": "Modelo de referencia {model} de la gama MoTai — hable de ancho, largo, grano y respaldo con el equipo; la especificación se cierra con la cotización.",
+      "keywords": "cinta {model}, referencia de modelo, mayorista"
+    },
+    "disc": {
+      "title": "Variante de disco MoTai: {title}",
+      "description": "Variante documentada de disco MoTai {title}: granos, diámetro y sujeción se confirman con la cotización.",
+      "keywords": "disco de lijado, velcro, PSA, MoTai"
+    },
+    "flap": {
+      "title": "Disco de aleta MoTai {name}",
+      "description": "MoTai {name}: disco de aleta con respaldo de {backing} para desbaste, transición y acabado del metal.",
+      "keywords": "disco de aleta, {backing}, MoTai"
+    },
+    "colt": {
+      "belts": {
+        "title": "Cintas — gama MoTai",
+        "description": "Cintas rojas de 533×75 a 2200×1330 mm, granos 40–800, con modelos de referencia. Mayorista y OEM.",
+        "keywords": "cintas abrasivas, mayorista, OEM"
+      },
+      "discs": {
+        "title": "Discos de lijado — gama MoTai",
+        "description": "Discos PSA, velcro, malla y sin agujero, 3–6 pulg., granos 60–5000. Mayorista y OEM.",
+        "keywords": "discos de lijado, PSA, velcro, mayorista"
+      },
+      "flap": {
+        "title": "Discos de aleta — gama MoTai",
+        "description": "Discos de aleta MOTAI con respaldo de plástico, acero y fibra de vidrio.",
+        "keywords": "discos de aleta, pulido, MoTai"
+      },
+      "all": {
+        "title": "Catálogo de abrasivos MoTai",
+        "description": "Catálogo completo de MoTai: cintas, discos y aletas para compradores B2B.",
+        "keywords": "productos abrasivos, catálogo MoTai"
+      }
+    }
+  }
+}

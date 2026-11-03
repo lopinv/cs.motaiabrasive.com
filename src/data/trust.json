@@ -1,0 +1,18 @@
+{
+  "note": "All entries below are PLACEHOLDER slots (status=placeholder). Replace with real customer logos, testimonials and certifications; the code renders only entries with status=published.",
+  "clients": [
+    { "id": "c1", "status": "placeholder", "name": "European distribution partner", "region": "Europe", "note": "Replace with a real customer name, logo and testimonial." },
+    { "id": "c2", "status": "placeholder", "name": "North American importer", "region": "North America", "note": "Replace with a real customer name, logo and testimonial." },
+    { "id": "c3", "status": "placeholder", "name": "Middle East industrial buyer", "region": "Middle East", "note": "Replace with a real customer name, logo and testimonial." },
+    { "id": "c4", "status": "placeholder", "name": "Asian OEM brand", "region": "Asia", "note": "Replace with a real customer name, logo and testimonial." }
+  ],
+  "certifications": [
+    { "id": "iso", "status": "placeholder", "label": "ISO 9001 (add year / body on publication)" },
+    { "id": "export", "status": "placeholder", "label": "Export packing & QC programme (add details on publication)" }
+  ],
+  "stats": [
+    { "id": "regions", "status": "published", "value": "7", "labelKey": "trust.regions" },
+    { "id": "product-lines", "status": "published", "value": "3", "labelKey": "trust.productLines" },
+    { "id": "grits", "status": "published", "value": "40–5000", "labelKey": "trust.gritRange" }
+  ]
+}

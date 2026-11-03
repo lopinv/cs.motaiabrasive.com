@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "metal-fabrication",
+    "no": "01",
+    "titleKey": "apps.metal.title",
+    "introKey": "apps.metal.intro",
+    "usesKey": "apps.metal.uses",
+    "productsKey": "apps.metal.products",
+    "image": "belt-2200-1330"
+  },
+  {
+    "slug": "woodworking",
+    "no": "02",
+    "titleKey": "apps.wood.title",
+    "introKey": "apps.wood.intro",
+    "usesKey": "apps.wood.uses",
+    "productsKey": "apps.wood.products",
+    "image": "belt-1520-630"
+  },
+  {
+    "slug": "automotive",
+    "no": "03",
+    "titleKey": "apps.auto.title",
+    "introKey": "apps.auto.intro",
+    "usesKey": "apps.auto.uses",
+    "productsKey": "apps.auto.products",
+    "image": "discs"
+  },
+  {
+    "slug": "stainless-steel",
+    "no": "04",
+    "titleKey": "apps.stainless.title",
+    "introKey": "apps.stainless.intro",
+    "usesKey": "apps.stainless.uses",
+    "productsKey": "apps.stainless.products",
+    "image": "belt-533-75"
+  },
+  {
+    "slug": "shipbuilding",
+    "no": "05",
+    "titleKey": "apps.ship.title",
+    "introKey": "apps.ship.intro",
+    "usesKey": "apps.ship.uses",
+    "productsKey": "apps.ship.products",
+    "image": "belt-2200-1330"
+  },
+  {
+    "slug": "surface-preparation",
+    "no": "06",
+    "titleKey": "apps.surface.title",
+    "introKey": "apps.surface.intro",
+    "usesKey": "apps.surface.uses",
+    "productsKey": "apps.surface.products",
+    "image": "mesh-6"
+  }
+]

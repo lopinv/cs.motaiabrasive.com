@@ -1,0 +1,57 @@
+---
+/**
+ * Unified SEO head: TDK + canonical + hreflang + OGP/Twitter + JSON-LD.
+ * props: lang, title, description, keywords[], canonicalPath (path without lang, e.g. /products/x),
+ *        ogImage (optional url), jsonld (array of objects), robots (default "index,follow")
+ */
+import { site, localizedUrl } from '../lib/utils.js'
+import { LANGS, TRANSLATIONS } from '../lib/i18n.js'
+
+const {
+  lang = 'en',
+  title,
+  description = '',
+  keywords = [],
+  canonicalPath = '',
+  ogImage = '',
+  ogType = '',
+  jsonld = [],
+  robots = 'index,follow'
+} = Astro.props
+
+const meta = TRANSLATIONS[lang]?.meta ?? TRANSLATIONS.en.meta
+const siteName = meta.titleSuffix ?? meta.siteName ?? 'MoTai Abrasives'
+const htmlLang = TRANSLATIONS[lang]?.htmlLang ?? 'en'
+const ogLocale = TRANSLATIONS[lang]?.ogLocale ?? 'en_US'
+const path = localizedUrl(lang, canonicalPath)
+const canonical = new URL(path, Astro.site ?? 'https://example.com').toString()
+const defaultOg = site.logo
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+{keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
+<meta name="robots" content={robots} />
+<link rel="canonical" href={canonical} />
+{LANGS.map((l) => (
+  <link
+    rel="alternate"
+    hreflang={TRANSLATIONS[l].htmlLang}
+    href={new URL(localizedUrl(l, canonicalPath), Astro.site ?? 'https://example.com').toString()}
+  />
+))}
+<link rel="alternate" hreflang="x-default" href={new URL(localizedUrl('en', canonicalPath), Astro.site ?? 'https://example.com').toString()} />
+
+<meta property="og:type" content={ogType || (ogImage ? 'product' : 'website')} />
+<meta property="og:site_name" content={meta.titleSuffix} />
+<meta property="og:locale" content={ogLocale} />
+<meta property="og:title" content={title} />
+{description && <meta property="og:description" content={description} />}
+{canonicalPath && <meta property="og:url" content={canonical} />}
+<meta property="og:image" content={ogImage || defaultOg} />
+<meta property="og:image:alt" content={title} />
+<meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+<meta name="twitter:title" content={title} />
+{description && <meta name="twitter:description" content={description} />}
+{ogImage && <meta name="twitter:image" content={ogImage} />}
+{jsonld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}

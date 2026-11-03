@@ -1,0 +1,18 @@
+---
+/** FAQ block: visible Q + A (AEO-friendly, conclusion-first) rendered from i18n keys. */
+import { TRANSLATIONS } from '../lib/i18n.js'
+
+const { lang, items, title } = Astro.props
+const tr = TRANSLATIONS[lang]
+const pick = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+---
+
+{title && <h2 class="faq-title">{title}</h2>}
+<div class="faq-list">
+  {items.map((item) => (
+    <div class="faq-item">
+      <h3 class="faq-q">{pick(item.qKey) ?? item.q}</h3>
+      <p class="faq-a">{pick(item.aKey) ?? item.a}</p>
+    </div>
+  ))}
+</div>

@@ -1,0 +1,169 @@
+---
+/** Home page body. */
+import { TRANSLATIONS } from '../../lib/i18n.js'
+import { products, applications as appData, regions, faq as faqData, models, media, quoteUrl, waLink, localizedUrl } from '../../lib/utils.js'
+import ProductCard from '../ProductCard.astro'
+import CtaBand from '../CtaBand.astro'
+import Faq from '../Faq.astro'
+import SectionHeading from '../SectionHeading.astro'
+
+const { lang } = Astro.props
+const tr = TRANSLATIONS[lang]
+const h = tr.home
+const featured = products.slice(0, 8)
+const belts = models.slice(0, 6)
+const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+const wa = (ctx, vars) => waLink(lang, ctx, vars)
+---
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">{h.eyebrow}</span>
+      <h1>{h.heroTitle}</h1>
+      <p class="hero-sub">{h.heroSub}</p>
+      <div class="hero-cta">
+        <a class="button" href={localizedUrl(lang, '/quote')}>{h.cta1} <span aria-hidden="true">↗</span></a>
+        <a class="button outline dark-outline" href={wa('generic')} target="_blank" rel="noopener noreferrer">{h.cta2}</a>
+      </div>
+    </div>
+    <div class="hero-figure">
+      <img src={media('belt-533-75')} alt={tr.colt.belts.label} loading="eager" />
+    </div>  </div>
+</section>
+
+<!-- APPLICATIONS CAROUSEL -->
+<section class="section wrap">
+  <SectionHeading no="01" eyebrow={h.builtTitle} title={h.builtTitle} sub={h.builtSub} />
+  <div class="grid grid-3">
+    {appData.map((a) => (
+      <a class="value-card" href={localizedUrl(lang, `/applications/${a.slug}`)}>
+        <span class="vno">{a.no}</span>
+        <h3>{pick(a.titleKey)}</h3>
+        <p>{pick(a.introKey)}</p>
+      </a>
+    ))}
+  </div>
+</section>
+
+<!-- BELT MODELS SHOWCASE -->
+<section class="section wrap section--soft">
+  <SectionHeading no="02" eyebrow={h.beltsShowTitle} title={h.beltsShowTitle} sub={h.beltsShowSub} />
+  <div class="grid grid-3">
+    {belts.map((m) => (
+      <div class="model-card">
+        <span class="mno">{m.model}</span>
+        <h3>{m.model}</h3>
+        <p>{m.family}</p>
+        <a href={localizedUrl(lang, `/model/${m.slug}`)}>{pick('cta.discuss')} ↗</a>
+      </div>
+    ))}
+  </div>
+</section>
+
+<!-- PREP YOUR ENQUIRY -->
+<section class="section wrap">
+  <SectionHeading no="03" title={h.prepTitle} sub={h.prepSub} />
+  <div class="grid grid-3">
+    <div class="value-card"><span class="vno">A</span><h3>{h.prepDim}</h3><p>{h.prepDimText}</p></div>
+    <div class="value-card"><span class="vno">B</span><h3>{h.prepGrit}</h3><p>{h.prepGritText}</p></div>
+    <div class="value-card"><span class="vno">C</span><h3>{h.prepQty}</h3><p>{h.prepQtyText}</p></div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="section wrap">
+  <SectionHeading title={h.featuredTitle} sub={h.featuredSub} />
+  <div class="grid grid-4">
+    {featured.map((p) => (
+      <ProductCard
+        lang={lang}
+        title={p.name}
+        subtitle={p.category}
+        imageKey={p.image}
+        link={localizedUrl(lang, `/products/${p.handle}`)}
+      />
+    ))}
+  </div>
+</section>
+
+<!-- PARTNER -->
+<section class="section wrap">
+  <div class="hero-grid hero-grid--tight">
+    <div>
+      <h2>{h.partnerTitle}</h2>
+      <p class="partner-body">{h.partnerBody}</p>
+      <a class="button outline dark-outline mt-16" href={localizedUrl(lang, '/about')}>{h.partnerCta}</a>
+    </div>
+    <div class="hero-figure"><img src={media('discs')} alt={tr.colt.discs.label} loading="lazy" /></div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section wrap section--soft">
+  <SectionHeading title={h.valuesTitle} sub={h.valuesSub} />
+  <div class="grid grid-3">
+    <div class="value-card"><span class="vno">01</span><h3>{h.v1t}</h3><p>{h.v1b}</p></div>
+    <div class="value-card"><span class="vno">02</span><h3>{h.v2t}</h3><p>{h.v2b}</p></div>
+    <div class="value-card"><span class="vno">03</span><h3>{h.v3t}</h3><p>{h.v3b}</p></div>
+    <div class="value-card"><span class="vno">04</span><h3>{h.v4t}</h3><p>{h.v4b}</p></div>
+    <div class="value-card"><span class="vno">05</span><h3>{h.v5t}</h3><p>{h.v5b}</p></div>
+    <div class="value-card"><span class="vno">06</span><h3>{h.v6t}</h3><p>{h.v6b}</p></div>
+  </div>
+</section>
+
+<!-- MANUFACTURING PROCESS -->
+<section class="section wrap">
+  <SectionHeading title={h.processTitle} sub={h.processSub} />
+  <div class="steps">
+    <div class="step"><b>01</b><div><h3>{h.p1t}</h3><p>{h.p1b}</p></div></div>
+    <div class="step"><b>02</b><div><h3>{h.p2t}</h3><p>{h.p2b}</p></div></div>
+    <div class="step"><b>03</b><div><h3>{h.p3t}</h3><p>{h.p3b}</p></div></div>
+    <div class="step"><b>04</b><div><h3>{h.p4t}</h3><p>{h.p4b}</p></div></div>
+  </div>
+</section>
+
+<!-- OEM CTA -->
+<section class="section wrap">
+  <SectionHeading title={h.oemTitle} sub={h.oemSub} />
+  <a class="button outline dark-outline" href={localizedUrl(lang, '/oem')}>{h.oemCta}</a>
+</section>
+
+<!-- FAQ -->
+<section class="section wrap section--soft">
+  <SectionHeading title={h.faqTitle} sub={h.faqSub} />
+  <Faq lang={lang} items={faqData.faq} />
+</section>
+
+<!-- GLOBAL SUPPLY REGIONS -->
+<section class="section wrap">
+  <SectionHeading title={h.regionsTitle} sub={h.regionsSub} />
+  <div class="grid grid-3">
+    {regions.map((r) => (
+      <div class="region-card">
+        <h3>{pick(r.titleKey)}</h3>
+        <p>{pick(r.bodyKey)}</p>
+      </div>
+    ))}
+  </div>
+  <p class="small-note mt-14">{h.regionsNote}</p>
+</section>
+
+<!-- FACTORY -->
+<section class="section wrap">
+  <SectionHeading title={h.factoryTitle} />
+  <p class="cta-note">{h.factoryBody}</p>
+  <a class="button outline dark-outline mt-14" href={wa('contact')}>{pick('cta.waChat')}</a>
+</section>
+
+<!-- FINAL CTA -->
+<CtaBand
+  lang={lang}
+  title={h.finalTitle}
+  body={h.finalBody}
+  waContext="contact"
+  align="left"
+  ctaKey1="home.finalCta1"
+  ctaKey2="home.finalCta2"
+/>

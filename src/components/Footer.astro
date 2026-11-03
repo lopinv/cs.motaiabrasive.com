@@ -1,0 +1,56 @@
+---
+import { TRANSLATIONS } from '../lib/i18n.js'
+import { site, localizedUrl, media } from '../lib/utils.js'
+const { lang } = Astro.props
+const tr = TRANSLATIONS[lang]
+const f = tr.footer
+const productLinks = [
+  { key: 'belts', href: '/collections/abrasive-belts' },
+  { key: 'discs', href: '/collections/sanding-discs' },
+  { key: 'flap', href: '/collections/flap-discs' }
+]
+const exploreLinks = [
+  { key: 'aboutUs', href: '/about', labelKey: 'footer.aboutUs' },
+  { key: 'mfgQ', href: '/factory', labelKey: 'footer.mfgQ' },
+  { key: 'oemPl', href: '/oem', labelKey: 'footer.oemPl' },
+  { key: 'newsB', href: '/blog', labelKey: 'footer.newsB' }
+]
+---
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href={localizedUrl(lang, '')}>
+        <img alt="MoTai original logo" src={site.logo} loading="lazy" onerror="this.style.display='none'" />
+        <span>MoTai<span class="brand-sub">ABRASIVES</span></span>
+      </a>
+      <p>{tr.footer.blurb}</p>
+      <div class="socials">
+        <a class="social-link" href={site.facebook} aria-label="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a class="social-link" href={site.instagram} aria-label="Instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="social-link" href={site.whatsapp} aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </div>
+    <div>
+      <h3>{f.products}</h3>
+      {productLinks.map((p) => <a href={localizedUrl(lang, p.href)}>{tr.colt[p.key].title}</a>)}
+      <a href={localizedUrl(lang, '/collections/all')}>{tr.colt.all.title}</a>
+      <a href={localizedUrl(lang, '/quote')}>{tr.cta.quote}</a>
+    </div>
+    <div>
+      <h3>{f.explore}</h3>
+      {exploreLinks.map((e) => <a href={localizedUrl(lang, e.href)}>{f[e.labelKey.replace('footer.', '')]}</a>)}
+    </div>
+    <div>
+      <h3>{f.connect}</h3>
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+      <a href={site.whatsapp} rel="noopener noreferrer" target="_blank">{site.phoneDisplay}</a>
+      <p>{site.company}<br />{site.addressShort}</p>
+      <a href={localizedUrl(lang, '/contact')}>{f.contactUs}</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>{site.copyright}</span>
+    <div><a href={localizedUrl(lang, '/privacy')}>{f.privacy}</a></div>
+  </div>
+</footer>

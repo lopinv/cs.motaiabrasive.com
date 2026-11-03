@@ -1,0 +1,45 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { itemlistJsonLd, breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import { glossary } from '../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, tr } = usePage(lang)
+const g = pick('glossary')
+const seo = buildSeo(lang, 'glossary', {}, [
+  itemlistJsonLd(lang, glossary),
+  breadcrumbJsonLd(lang, [{ name: g.h1, path: `/${lang}/glossary` }])
+])
+const sorted = [...glossary].sort((a, b) => a.term.localeCompare(b.term))
+const pickKey = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{g.h1}</span></div>
+
+  <section class="section wrap">
+    <span class="eyebrow">KNOWLEDGE</span>
+    <h1>{g.h1}</h1>
+    <p class="lead">{g.sub}</p>
+    <p class="small-note">{g.note}</p>
+  </section>
+
+  <div class="section wrap section--flush-top">
+    <dl class="glossary-dl">
+      {sorted.map((item) => (
+        <div>
+          <dt>{item.term}</dt>
+          <dd>{pickKey(item.defKey) ?? item.defKey}</dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</Shell>

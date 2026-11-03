@@ -1,0 +1,51 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+import { blog as blogData, media } from '../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu } = usePage(lang)
+const t = pick('blogIndex')
+const seo = buildSeo(lang, 'blog', {}, [
+  breadcrumbJsonLd(lang, [{ name: pick('nav.news'), path: `/${lang}/blog` }])
+])
+const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a></div>
+  <section class="section wrap">
+    <span class="eyebrow">NEWS &amp; BUYER RESOURCES</span>
+    <h1>{t.h1}</h1>
+    <p class="lead">{t.sub}</p>
+  </section>
+
+  <div class="section wrap section--flush-top">
+    <div class="grid grid-3">
+      {blogData.map((b) => (
+        <a class="product-card" href={lu(`/blog/${b.slug}`)}>
+          <div class="product-card-media">
+            <img src={media(b.image)} alt={pick(b.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
+          </div>
+          <div class="product-card-body">
+            <span class="eyebrow">{pick(`article.${catKey[b.categoryKey]}`)}</span>
+            <h3 class="product-card-title">{pick(b.titleKey)}</h3>
+            <p>{pick(b.introKey)}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="article.discuss" ctaKey2="cta.waChat" />
+</Shell>

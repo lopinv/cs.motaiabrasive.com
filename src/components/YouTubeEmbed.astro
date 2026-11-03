@@ -1,0 +1,54 @@
+---
+/**
+ * Click-to-load YouTube embed (youtube-nocookie.com, no autostart).
+ * Renders a thumbnail poster (i.ytimg.com) until clicked, then swaps to the iframe.
+ * Emits VideoObject JSON-LD. Hidden entirely when youtubeId is empty.
+ */
+import { TRANSLATIONS } from '../lib/i18n.js'
+
+const { video, title, description, lang = 'en' } = Astro.props
+const id = video.youtubeId
+
+const thumb = id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : ''
+const videoObject = id
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'VideoObject',
+      name: title,
+      description,
+      embedUrl: `https://www.youtube.com/embed/${id}`,
+      thumbnailUrl: thumb
+    }
+  : null
+---
+
+{
+  id && (
+    <>
+      <figure class="yt-embed" data-yt-id={id}>
+        <button class="yt-poster" type="button" aria-label={`Play: ${title}`}>
+          <img src={thumb} alt={title} loading="lazy" width="480" height="270" />
+          <span class="yt-play" aria-hidden="true">▶</span>
+        </button>
+        <figcaption>{title}</figcaption>
+      </figure>
+      {videoObject && <script type="application/ld+json" set:html={JSON.stringify(videoObject)} />}
+      <script>
+        document.querySelectorAll('.yt-poster').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const fig = btn.closest('.yt-embed')
+            const id = fig.dataset.ytId
+            const iframe = document.createElement('iframe')
+            iframe.src = `https://www.youtube-nocookie.com/embed/${id}?rel=0`
+            iframe.title = fig.querySelector('figcaption')?.textContent ?? 'Video'
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            iframe.allowFullscreen = true
+            iframe.style.width = '100%'
+            iframe.style.aspectRatio = '16/9'
+            fig.replaceChild(iframe, btn)
+          })
+        })
+      </script>
+    </>
+  )
+}

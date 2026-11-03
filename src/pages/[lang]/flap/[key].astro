@@ -1,0 +1,83 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../../lib/tdk.js'
+import CtaBand from '../../../components/CtaBand.astro'
+import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
+import { flaps, media, videosData } from '../../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths(flaps.map((f) => ({ key: f.key })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, wa, flapByKey } = usePage(lang)
+const f = flapByKey(ctx.key)
+const t = pick('meta')
+const fp = pick('flapPage')
+const seo = buildSeo(lang, 'flap', { key: f.key }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('colt.flap.label'), path: `/${lang}/collections/flap-discs` },
+    { name: f.name, path: `/${lang}/flap/${f.key}` }
+  ])
+])
+const flapVideo = videosData.videos.find((v) => v.youtubeId && v.category === 'product')
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/flap-discs')}>{pick('colt.flap.label')}</a><span>/</span><span>{f.name}</span></div>
+
+  <section class="section wrap product-detail">
+    <div>
+      <div class="gallery">
+        <div class="gallery-main">
+          <img src={media(f.image)} alt={f.name} loading="eager" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
+        </div>
+      </div>
+    </div>
+
+    <div class="product-purchase">
+      <span class="eyebrow">{fp.eyebrow}</span>
+      <h1>{f.name}</h1>
+      <div class="product-tags">
+        <span>{f.color}</span>
+        <span>{f.backing} {t.backing.toLowerCase()}</span>
+        <span>{t.wholesale}</span>
+      </div>
+      <div class="product-description">
+        <p>{f.summary}</p>
+        <p class="small-note">{fp.gritNote}</p>
+      </div>
+
+      <details class="motai-product-specs" open>
+        <summary>{pick('productPage.specTitle')}</summary>
+        <table class="spec-table">
+          <tbody>
+            <tr><th scope="row">{t.backing}</th><td>{f.backing}</td></tr>
+            <tr><th scope="row">Color</th><td>{f.color}</td></tr>
+          </tbody>
+        </table>
+        <p class="small-note">{t.availability}</p>
+      </details>
+
+      <a class="button wide" href={lu('/quote')} target="_blank" rel="noopener">
+        {pick('cta.quote')} <span aria-hidden="true">↗</span>
+      </a>
+      <div class="motai-b2b-secondary-actions">
+        <a class="button outline dark-outline wide" href={wa('disc', { title: f.name })} target="_blank" rel="noopener noreferrer">{pick('cta.whatsapp')}</a>
+      </div>
+    </div>
+  </section>
+
+  {flapVideo && (
+    <section class="section wrap section--soft-tight">
+      <div class="narrow">
+        <YouTubeEmbed video={flapVideo} title={pick(flapVideo.titleKey)} description={pick(flapVideo.descriptionKey)} />
+      </div>
+    </section>
+  )}
+
+  <CtaBand lang={lang} waContext="disc" waVars={{ title: f.name }} ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

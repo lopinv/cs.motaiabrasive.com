@@ -1,0 +1,37 @@
+{
+  "note": "Add real youtubeId values to enable video blocks; empty ids hide the blocks. Update titles/descriptions per language in src/i18n/<lang>.json under the video.<id> keys.",
+  "videos": [
+    {
+      "id": "cutting-process",
+      "youtubeId": "",
+      "titleKey": "video.cutting.title",
+      "descriptionKey": "video.cutting.desc",
+      "category": "process",
+      "links": ["factory", "533x75-abrasive-belt", "610x100-abrasive-belt", "1520x630-abrasive-belt", "2200x1330-abrasive-belt"]
+    },
+    {
+      "id": "sample-checks",
+      "youtubeId": "",
+      "titleKey": "video.sample.title",
+      "descriptionKey": "video.sample.desc",
+      "category": "process",
+      "links": ["factory"]
+    },
+    {
+      "id": "oem-packaging",
+      "youtubeId": "",
+      "titleKey": "video.oem.title",
+      "descriptionKey": "video.oem.desc",
+      "category": "oem",
+      "links": ["oem", "blog.oem-labels-and-packaging-requirements"]
+    },
+    {
+      "id": "flap-discs",
+      "youtubeId": "",
+      "titleKey": "video.flap.title",
+      "descriptionKey": "video.flap.desc",
+      "category": "product",
+      "links": ["flap-discs", "flap.plastic", "flap.steel", "flap.fiberglass"]
+    }
+  ]
+}

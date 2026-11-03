@@ -1,0 +1,26 @@
+{
+  "abrasive-belts": {
+    "titleKey": "colt.belts.title",
+    "descKey": "colt.belts.desc",
+    "image": "belt-533-75",
+    "products": ["533x75-abrasive-belt", "610x100-abrasive-belt", "1520x630-abrasive-belt", "2200x1330-abrasive-belt"],
+    "models": ["y399", "mt-32", "gpc71", "y999", "gxk-51", "xz-330", "kx-167", "scy728", "rcy97", "gxk56", "ax-168"]
+  },
+  "sanding-discs": {
+    "titleKey": "colt.discs.title",
+    "descKey": "colt.discs.desc",
+    "image": "discs",
+    "products": ["hook-loop-sanding-discs", "3-inch-psa-sanding-disc", "4-inch-psa-sanding-disc", "5-inch-psa-sanding-disc", "5-inch-mesh-sanding-disc", "6-inch-mesh-sanding-disc", "6-inch-solid-sanding-disc"],
+    "discViews": ["gold8", "gold17", "ceramic15", "red8", "gray8"]
+  },
+  "flap-discs": {
+    "titleKey": "colt.flap.title",
+    "descKey": "colt.flap.desc",
+    "image": "flap-fiberglass",
+    "flaps": ["plastic", "steel", "fiberglass"]
+  },
+  "all": {
+    "titleKey": "colt.all.title",
+    "descKey": "colt.all.desc"
+  }
+}

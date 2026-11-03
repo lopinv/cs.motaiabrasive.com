@@ -1,0 +1,793 @@
+{
+  "code": "de",
+  "name": "Deutsch",
+  "codeLabel": "DE",
+  "htmlLang": "de",
+  "ogLocale": "de_DE",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Großhandelsanfragen",
+    "oemNote": "Anfragen zu OEM-Verpackung",
+    "size": "Größe",
+    "grit": "Körnung",
+    "quantity": "Gewünschte Menge",
+    "requirements": "Anforderungen an Spezifikation und Verpackung",
+    "requirementsPh": "Beschreiben Sie Ihre Anwendung, Spezifikation und Lieferanforderungen.",
+    "material": "Abriebsmittelmaterial",
+    "backing": "Träger / Befestigung",
+    "availability": "Verfügbarkeit, Mindestbestellmenge und Konditionen werden im Angebot bestätigt.",
+    "sampleNote": "Nennen Sie uns, welche Produkte und Körnungen Sie bewerten möchten. Unser Vertriebsteam bestätigt die Musterverfügbarkeit, Musterkosten und Versandmodalitäten.",
+    "gritsRange": "Körnungsbereich",
+    "holes": "Löcher",
+    "diameter": "Durchmesser / Nenngröße",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "manufacturing": "Produktion",
+    "oem": "OEM-Leistungen",
+    "news": "News",
+    "knowledge": "Wissen",
+    "contact": "Kontakt",
+    "products": "Produkte"
+  },
+  "colt": {
+    "belts": {
+      "title": "Schleifbänder — Großhandel & OEM",
+      "desc": "Rote Schleifbänder in dokumentierten Breiten von 533 × 75 mm bis 2200 × 1330 mm. Körnungen 40–800. Referenzmodelle verfügbar. Anfragen aus Großhandel und OEM willkommen.",
+      "label": "Abrasivschleifbänder"
+    },
+    "discs": {
+      "title": "Schleifscheiben — Großhandel & OEM",
+      "desc": "PSA-, Klett-, offenmaschige und lochlose Schleifscheiben von 3 bis 6 Zoll. Körnungen 60–5000. Anfragen aus Großhandel und OEM willkommen.",
+      "label": "Schleifscheiben"
+    },
+    "flap": {
+      "title": "MOTAI Flapscheiben",
+      "desc": "Flapscheiben mit Kunststoff-, Stahl- und Glasfaser-Träger zum Schleifen, Aufheben und Finishen von Metall. Spezifikationen, Großlieferung und OEM-Verpackung werden im Angebot bestätigt.",
+      "label": "Flapscheiben"
+    },
+    "all": {
+      "title": "Alle Produkte",
+      "desc": "Das komplette MoTai Abriebsmittelsortiment: Schleifbänder, Schleifscheiben und Flapscheiben für industrielle Käufer, Distributoren und Eigenmarken.",
+      "label": "Alle Produkte"
+    }
+  },
+  "cta": {
+    "quote": "Großhandelsangebot anfragen",
+    "quoteArrow": "↗",
+    "sample": "Muster anfragen",
+    "whatsapp": "WhatsApp-Anfrage",
+    "waChat": "Per WhatsApp kontaktieren",
+    "explore": "Die Flapscheiben-Serie ansehen",
+    "viewAll": "Alle Produkte ansehen",
+    "discuss": "Ihre Spezifikation besprechen",
+    "oemQuote": "OEM-Angebot anfragen"
+  },
+  "home": {
+    "eyebrow": "Abriebsmittel vom MoTai-Werk, Hubei",
+    "heroTitle": "Ein Finish für jede Oberfläche",
+    "heroSub": "Direkt ab Werk: Schleifbänder, Schleifscheiben und Flapscheiben für industrielle Käufer, Distributoren und Eigenmarken — von Hubei, China zu Ihrem Markt.",
+    "cta1": "Großhandelsangebot anfragen",
+    "cta2": "Mit unserem Team auf WhatsApp sprechen",
+    "builtTitle": "Anwendung wählen. Abriebsmittel wählen.",
+    "builtSub": "Wählen Sie die Anwendung und passen Sie das Abriebsmittel an: Bänder, Scheiben oder Flapscheiben.",
+    "featuredTitle": "Im Katalog",
+    "featuredSub": "Dokumentierte Größen und Körnungen. Verfügbarkeit und MOQ werden im Angebot bestätigt.",
+    "partnerTitle": "Die Lieferseite Ihrer Abriebsmittel-Order",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. beliefert mit Abriebsmittel-Verbrauchsmaterialien für Holzverarbeitung, Metallbearbeitung und Automobilanwendungen — mit OEM- und Eigenmarken-Programmen für Distributoren und industrielle Käufer weltweit.",
+    "partnerCta": "Mehr über MoTai erfahren",
+    "valuesTitle": "Sechs Wege, mit B2B-Käufern zusammenzuarbeiten",
+    "valuesSub": "Sechs Gründe, warum Importeure und OEM-Marken mit uns zusammenarbeiten.",
+    "v1t": "Direkt ab Werk",
+    "v1b": "Preise und Lieferzeiten auf Anbieterseite, ohne Zwischenhändler.",
+    "v2t": "OEM & Eigenmarke",
+    "v2b": "Ihr Logo, Etiketten und Verpackung auf bestätigter Spezifikation.",
+    "v3t": "Individual-Größen & Körnungen",
+    "v3b": "Dokumentierte Größen und Körnungen 40–800 bei Bändern, 60–5000 bei Scheiben.",
+    "v4t": "Musterprüfung & QC",
+    "v4b": "Oberfläche, Träger und Passform an einem Muster prüfen, bevor die Bestellung erfolgt.",
+    "v5t": "Großlieferung",
+    "v5b": "Konsistente Kartonmengen und detaillierte Packlisten.",
+    "v6t": "Export-Programm",
+    "v6b": "Kartonmarkierungen, Etiketten und Ziel-Land-Dokumente.",
+    "processTitle": "Die Schritte zwischen Spezifikation und Auftrag",
+    "processSub": "Vier Etappen zwischen Ihrer Anforderung und einer bestätigten Bestellung.",
+    "p1t": "Schnitt & Umformung",
+    "p1b": "Bestätigen Sie die gewünschte Form, Maße und Körnung, bevor der Umformprozess gestartet wird.",
+    "p2t": "Musterprüfung",
+    "p2b": "Prüfen Sie Abriebsmitteloberfläche, Träger und Passform eines Musters, bevor die Bestellungsspezifikation festgelegt wird.",
+    "p3t": "OEM & Verpackung",
+    "p3b": "Bestätigen Sie Packmengen, Etiketten, Kartonmarkierungen und Eigenmarken-Layouts mit dem Angebot.",
+    "p4t": "Versandvorbereitung",
+    "p4b": "Packliste, Palettenanforderungen und Ziel-Details werden vor dem Versand abgestimmt.",
+    "oemTitle": "Ihre Marke auf dem Karton",
+    "oemSub": "Machen Sie uns Ihre Produkt-, Verpackungs- und Markenanforderungen für Ihr nächstes Abriebsmittel-Programm bekannt.",
+    "oemCta": "OEM-Leistungen entdecken",
+    "faqTitle": "Bevor wir beginnen",
+    "faqSub": "Antworten auf die häufigsten Fragen von Käufern.",
+    "regionsTitle": "Von Hubei zu Ihrem Markt",
+    "regionsSub": "Weltweite Belieferung, organisiert nach Zielregion.",
+    "regionsNote": "MOQ und Lieferzeit werden in Ihrem Angebot bestätigt. Routen sind Richtwerte; Verfügbarkeit und Konditionen werden per Angebot bestätigt.",
+    "factoryTitle": "Finden Sie uns in Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Organisieren Sie einen Werksbesuch und bestätigen Sie den Treffpunkt mit unserem Team.",
+    "finalTitle": "Auf der Suche nach einem zuverlässigen Abriebsmittel-Lieferanten?",
+    "finalBody": "Machen Sie uns Ihr Produkt, Ihre Menge und Ihre Anwendung bekannt — wir prüfen Ihre Anforderungen und bereiten ein passendes Angebot vor.",
+    "finalCta1": "Großhandelsangebot anfragen",
+    "finalCta2": "Per WhatsApp kontaktieren",
+    "beltsShowTitle": "Schleifbänder nach Modell",
+    "beltsShowSub": "Referenzmodelle zur Diskussion mit unserem Team.",
+    "prepTitle": "Bereiten Sie Ihre Großhandelsanfrage vor",
+    "prepSub": "Maße, Körnung und Menge erledigen den Rest.",
+    "prepDim": "Maße",
+    "prepDimText": "Größe oder Modellreferenz in Millimetern.",
+    "prepGrit": "Körnung",
+    "prepGritText": "Erforderliche Qualität oder Oberfläche.",
+    "prepQty": "Menge",
+    "prepQtyText": "Geschätztes Volumen und Verpackung."
+  },
+  "purchasing": {
+    "eyebrow1": "Einkaufsleitung",
+    "title1": "Bereiten Sie Ihre Großhandelsanfrage vor",
+    "body1": "Machen Sie uns Ihre gewünschten Maße, Körnung, Werkstück, Maschine und gewünschte Oberfläche bekannt. Nutzen Sie die oben dokumentierten Optionen, soweit vorhanden; andere Anforderungen werden mit unserem Team geprüft.",
+    "dl1t": "Menge & Bestimmungsort",
+    "dl1b": "Nennen Sie uns Menge, Verpackungsbedarf und Lieferziel.",
+    "dl2t": "Belieferung & Konditionen",
+    "dl2b": "Verfügbarkeit, Mindestbestellmenge und Konditionen werden im Angebot bestätigt.",
+    "dl3t": "Anfragen zu OEM-Verpackung",
+    "dl3b": "Branding, Etiketten, individuelle Größen oder Verpackungsanforderungen.",
+    "eyebrow2": "So stellen Sie eine Anfrage",
+    "title2": "Von der Produktwahl zum Angebot",
+    "s1t": "Wählen Sie Ihr Produkt",
+    "s1b": "Wählen Sie Produkt oder Modell und die gewünschte Spezifikation.",
+    "s2t": "Machen Sie Ihre Anforderungen bekannt",
+    "s2b": "Machen Sie Menge, Anwendung und Verpackungsanforderungen bekannt.",
+    "s3t": "Prüfen Sie Ihr Angebot",
+    "s3b": "Bestätigen Sie die endgültige Spezifikation und Konditionen mit unserem Team."
+  },
+  "modelPage": {
+    "eyebrow": "Schleifbänder · Referenzmodell",
+    "refLabel": "Modellreferenz",
+    "familyLabel": "Kategorie",
+    "dimsLabel": "Fertige Bandmaße — geben Sie Breite × Länge in mm an",
+    "dimsPlaceholder": "z. B. 533 × 75 mm",
+    "gritLabel": "Gewünschte Körnung — geben Sie die erforderliche Qualität oder Oberfläche an",
+    "gritPlaceholder": "z. B. P60",
+    "qtyLabel": "Gewünschte Menge",
+    "specLabel": "Anforderungen an Spezifikation und Verpackung",
+    "discussion": "Besprechen Sie dieses Modell mit unserem Team anhand Ihres Werkstücks, Ihrer Maschine und der gewünschten Oberfläche.",
+    "grainBacking": "Korn und Träger — bestätigen Sie den Rohstoffhersteller und die exakte Qualität.",
+    "disclaimer": "Die veröffentlichten Modellfamilieninformationen dienen als Auswahlhilfe. Die MoTai-Lieverspezifikationen, Verfügbarkeit und Eignung werden im Angebot bestätigt."
+  },
+  "discPage": {
+    "eyebrow": "Schleifscheiben · Dokumentierte Variante",
+    "gritsNote": "Körnungsoptionen für diese Variante"
+  },
+  "flapPage": {
+    "eyebrow": "Flapscheiben · Träger-Variante",
+    "color": "Farbe",
+    "gritNote": "P40–P60 und P80–P120 sind allgemeine Auswahlbeispiele, kein bestätigter MoTai-Lieferumfang."
+  },
+  "productPage": {
+    "specTitle": "Spezifikationen",
+    "howTitle": "So spezifizieren Sie Ihre Bestellung",
+    "howBody": "Geben Sie die Band- oder Scheibengröße, die Körnungsliste, das Maschinenmodell, das Werkstückmaterial und die Menge an. Eine klare Spezifikation hilft uns, die Passform zu prüfen und ein nützliches Angebot vorzubereiten — wählen Sie nicht ausschließlich anhand der Farbe.",
+    "faqTitle": "Fragen von Käufern"
+  },
+  "about": {
+    "h1": "Das Unternehmen hinter der Abriebsmittel-Range",
+    "sub": "Ein überlegter Ansatz in der Abriebsmittelversorgung.",
+    "bizTitle": "Unser Geschäft",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. beliefert mit Abriebsmittel-Verbrauchsmaterialien für Holzverarbeitung, Metallbearbeitung und Automobilanwendungen. Dokumentierte Serien umfassen lochlose Schleifscheiben, Maschen-Schleifscheiben und rote Schleifbänder. Wir nehmen Anfragen von Importeuren, Distributoren, Großhändlern und industriellen Käufern entgegen — Produkt, Träger, Größe, Qualität, Menge und Lieferanforderungen.",
+    "matTitle": "Unternehmensunterlagen",
+    "matBody": "Stöbern Sie Unternehmensvorstellung und Kontakte in unserer Broschüre.",
+    "globalTitle": "Von Hubei zu Ihrem Markt",
+    "globalSub": "Weltweite Belieferung, organisiert nach Zielregion.",
+    "facTitle": "Finden Sie uns in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Organisieren Sie einen Werksbesuch mit unserem Team und bestätigen Sie den Treffpunkt vor der Anreise.",
+    "ctaTitle": "Auf der Suche nach einem zuverlässigen Abriebsmittel-Lieferanten?",
+    "cta1": "Großhandelsangebot anfragen",
+    "cta2": "Per WhatsApp kontaktieren"
+  },
+  "factory": {
+    "h1": "Im MoTai-Werk",
+    "sub": "Details sind entscheidend. In jeder Phase.",
+    "intro": "Prüfen Sie Schnitt, Musterprüfung und Verpackungs­details Ihrer Bestellung. Produkt­aufnahmen werden neben Prozess­illustrationen gezeigt.",
+    "videoLabel": "Produktaufnahmen ansehen",
+    "stepsTitle": "Produktion & Bestellaufbereitung",
+    "stepsIntro": "Von Ihrer Anforderung bis zur bestätigten Bestellung.",
+    "st1t": "Schnitt & Umformung",
+    "st1b": "Bestätigen Sie die gewünschte Form, Maße und Körnung, bevor der Umformprozess gestartet wird.",
+    "st2t": "Musterprüfung",
+    "st2b": "Prüfen Sie Abriebsmitteloberfläche, Träger und Passform eines Musters, bevor die Bestellungsspezifikation festgelegt wird.",
+    "st3t": "OEM & Verpackung",
+    "st3b": "Bestätigen Sie Packmengen, Etiketten, Kartonmarkierungen und Eigenmarken-Layouts mit dem Angebot.",
+    "st4t": "Versandvorbereitung",
+    "st4b": "Packliste, Palettenanforderungen und Ziel-Details werden vor dem Versand abgestimmt.",
+    "imgNote": "Schnitt- und Musteraufnahmen wurden aus den gelieferten Produktvideos entnommen. Verpackungs- und Versandbilder sind exemplarische Stockfotos.",
+    "qcTitle": "Qualitäts­kontrolle",
+    "qcIntro": "Was wir prüfen, bevor eine Bestellung die Werkshalle verlässt.",
+    "qc1t": "Oberfläche & Körnung",
+    "qc1b": "Konsistenz der Abriebsmitteloberfläche gegenüber der bestätigten Qualität.",
+    "qc2t": "Träger & Passform",
+    "qc2b": "Trägertyp, Gewicht und Maßtoleranz fertiger Bänder und Scheiben.",
+    "qc3t": "Verpackung & Markierung",
+    "qc3b": "Packmengen, Etiketten, Kartonmarkierungen und Eigenmarken-Layouts entsprechen der bestätigten Bestellung.",
+    "certNote": "Gezeigte Zertifizierungs­marken sind Platzhalter bis zum Vorliegen veröffentlichter Zertifikate.",
+    "ctaTitle": "Raten Sie lieber direkt?",
+    "ctaSub": "Auf der Suche nach einem zuverlässigen Abriebsmittel-Lieferanten?",
+    "cta1": "Großhandelsangebot anfragen",
+    "cta2": "Per WhatsApp kontaktieren"
+  },
+  "oem": {
+    "h1": "Ihre Marke auf dem Karton",
+    "sub": "Senden Sie Produkt-, Verpackungs- und Markenwünsche; wir antworten mit einer OEM-Prüfung.",
+    "briefTitle": "Bauen Sie eine Anfrage um Ihre Marke auf",
+    "briefEyebrow": "Bringen Sie Ihr Briefing mit",
+    "briefBody": "Besprechen Sie Ihr Logo- und Etikettenlayout, Verpackungsformat, Produktgrößen, Körnungs­qualitäten und Verwendungszweck. OEM-Verfügbarkeit, Mindestmengen, Layoutanforderungen und Zeitpläne sind einer Durchführbarkeitsprüfung und dem bestätigten Angebot unterworfen.",
+    "itemsTitle": "Ein klares Briefing bringt eine nützliche Antwort",
+    "i1": "Produkt & Spezifikation",
+    "i2": "Größe & Körnungsmix",
+    "i3": "Layout & Etiketten",
+    "i4": "Verpackungsformat",
+    "i5": "Zielmengen",
+    "i6": "Ziel & Zeitplan",
+    "itemNote": "Nehmen Sie Ihre Anforderungen und Referenzdateien in die Anfrage auf.",
+    "procTitle": "Von der Anfrage zur Lieferung",
+    "pr1t": "Ihre Anfrage",
+    "pr1b": "Machen Sie uns Ihre Anwendung und Anforderungen bekannt.",
+    "pr2t": "Spezifikations-Check",
+    "pr2b": "Prüfung von Größen, Qualitäten, Träger und Verpackung.",
+    "pr3t": "Angebot",
+    "pr3b": "Bestätigung von Konditionen und Zeitplan.",
+    "pr4t": "Musterabnahme",
+    "pr4b": "Bewertung der vereinbarten Muster vor der Freigabe.",
+    "pr5t": "Lauf",
+    "pr5b": "Fertigung nach bestätigter Spezifikation.",
+    "pr6t": "Versand",
+    "pr6b": "Abstimmung von Verpackung und Ziel.",
+    "cta1": "Großhandelsangebot anfragen",
+    "cta2": "Per WhatsApp kontaktieren"
+  },
+  "applications": {
+    "h1": "Abriebsmittel für Ihre Branche",
+    "sub": "Die Oberfläche bestimmt die Spezifikation.",
+    "intro": "Sechs Anwendungsfelder. Geben Sie Material, Maschine und gewünschte Oberfläche an — wir passen das Abriebsmittel an.",
+    "ctaNote": "Einige Bilder sind KI-erzeugte Anwendungsillustrationen, keine MoTai-Werks- oder Kundenfotos.",
+    "sampleNote": "Nennen Sie uns bei der Angebotsanfrage Ihre Branche, Ihr Land, Ihre Produktspezifikation und den geschätzten Bestellumsatz.",
+    "reqTitle": "Empfohlene Produkte",
+    "reqNote": "Richtwerte für Produktfamilien in diesem Feld. Größen, Körnungen und Mengen werden mit dem Angebot bestätigt.",
+    "specTitle": "Tipps zur Spezifikation",
+    "faqTitle": "Häufige Fragen",
+    "faqs": [
+      {
+        "q": "Mit welcher Körnung sollte ich beginnen?",
+        "a": "Gehen Sie vom Werkstückmaterial, der Defekttiefe und der gewünschten Oberfläche aus — eine grobe Körnung entfernt Material schnell, dann die Körnung verfeinern und die Oberfläche in jeder Stufe prüfen."
+      },
+      {
+        "q": "Kann ich Körnungen in einer Bestellung mischen?",
+        "a": "Ja. Nennen Sie in Ihrer Anfrage die Körnungsliste und die Menge je Qualität; Verfügbarkeit und Lieferzeit werden im Angebot bestätigt."
+      }
+    ],
+    "ctaTitle": "Spezifikation für Ihr Fachgebiet?",
+    "cta1": "Großhandelsangebot anfragen",
+    "cta2": "Per WhatsApp kontaktieren"
+  },
+  "blogIndex": {
+    "h1": "Bessere Informationen. Bessere Auswahl.",
+    "sub": "Praktische Ressourcen für Einkäufer, um Abriebsmittelspezifikationen zu besprechen."
+  },
+  "article": {
+    "watchTitle": "Ansehen",
+    "discuss": "Ihre Spezifikation besprechen",
+    "catSelection": "Auswahl­leitfaden",
+    "catBuyer": "Ressourcen für Einkäufer",
+    "catNotes": "Anwendungs­hinweise",
+    "catOem": "OEM-Leitfaden"
+  },
+  "contact": {
+    "h1": "Großhandelsgespräch starten",
+    "sub": "Fordern Sie Großhandelspreise direkt ab Werk für Abriebsmittel an.",
+    "directTitle": "Ein Gespräch. Eine bessere Spezifikation.",
+    "directBody": "Machen Sie uns Ihr Produkt, Ihre Menge und Ihre Anwendung bekannt. Wir prüfen Ihre Anforderungen und helfen Ihnen, den nächsten Schritt zu gehen.",
+    "facTitle": "Finden Sie uns in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Bestätigen Sie die genaue Besuchadresse vor der Anreise mit unserem Team.",
+    "visit": "Werksbesuch vereinbaren",
+    "formTitle": "Großhandel- / OEM-Anfrage",
+    "formNote": "Dieses Formular fordert ein Angebot an und gibt keine Bestellung auf. Anfragen werden bearbeitet und in unser Vertriebspostfach weitergeleitet; Spezifikationen und Konditionen werden im Angebot bestätigt.",
+    "btn": "Anfrageformular öffnen ↗"
+  },
+  "privacy": {
+    "h1": "Ihre Anfragedaten",
+    "sub": "Wie diese Website die von Ihnen geteilten Angaben verwendet.",
+    "s1t": "Erhobene Informationen",
+    "s1b": "Kontaktdaten, Unternehmensinformationen, Produktanforderungen und Anhängen, die mit einer Anfrage übermittelt werden. Ein gehashte Verbindungs­kennzeichnung begrenzt Missbrauchseinsendungen.",
+    "s2t": "Zweck und Zugriff",
+    "s2b": "Die Angaben werden verwendet, um Anfragen zu prüfen und zu beantworten, Angebote zu erstellen und gewünschte geschäftliche Gespräche abzustimmen. Der Zugriff ist auf autorisierte Administratoren beschränkt.",
+    "s3t": "Speicherung und Aufbewahrung",
+    "s3b": "Die Aufzeichnungen werden bei unserem Hosting-Anbieter aufbewahrt. Daten können außerhalb Ihres Landes verarbeitet werden. Die Aufbewahrung richtet sich nach geschäftlichen Nachverfolgungs- und Aufbewahrungspflichten; Sie können eine bestimmte Aufbewahrung oder Löschung verlangen.",
+    "s4t": "Ihre Möglichkeiten",
+    "s4b": "Kontaktieren Sie motai-01@motaiabrasive.com, um Zugriff, Berichtigung oder Löschung zu verlangen. Übermitteln Sie bitte keine sensiblen Personendaten oder vertraulichen Dateien, die nicht mit Ihrer Anfrage zusammenhängen.",
+    "s5t": "Cookies, Links und Analysen",
+    "s5b": "Der Browser speichert Verwaltungsdaten der Anfrageliste. In dieser Version sind keine Werbekontexte oder Analyse-Tracker aktiviert. Externe WhatsApp-, Karten- und Social-Media-Links unterliegen ihren eigenen Datenschutzerklärungen.",
+    "updated": "Zuletzt aktualisiert am 12. Oktober 2026"
+  },
+  "quotePage": {
+    "h1": "Großhandelsgespräch starten",
+    "sub": "Fordern Sie Großhandelspreise direkt ab Werk für Abriebsmittel an.",
+    "note": "Dieses Formular fordert ein Angebot an und gibt keine Bestellung auf. Felder mit * sind Pflichtfelder.",
+    "sec1": "Ihr Unternehmen",
+    "f1": "Vollständiger Name *",
+    "f2": "Firmenbezeichnung *",
+    "f3": "Land *",
+    "f4": "Geschäftliche E-Mail-Adresse *",
+    "f5": "WhatsApp-Nummer",
+    "f6": "Unternehmensart *",
+    "opt1": "Importeur",
+    "opt2": "Distributor",
+    "opt3": "Großhändler",
+    "opt4": "OEM-Marke",
+    "opt5": "Industriekäufer",
+    "opt6": "Sonstiges",
+    "sec2": "Produktanforderungen",
+    "f7": "Produktkategorie",
+    "f8": "Produkt­modell / Referenz",
+    "f9": "Größe",
+    "f10": "Körnung",
+    "f11": "Material",
+    "f12": "Menge",
+    "f13": "Verpackung",
+    "f14": "Zielland *",
+    "f15": "OEM-Anforderungen",
+    "f16": "Zusätzliche Nachricht *",
+    "consent": "Ich stimme der Datenschutzerklärung und der Verwendung meiner Angaben zur Beantwortung dieser Anfrage zu. *",
+    "btn1": "Großhandelsangebot anfragen",
+    "btn2": "Anfrage per WhatsApp senden",
+    "goNote": "Das Formular öffnet sich in unserem Großhandelsanfragesystem mit Ihrem Produkt­kontext vorausgefüllt."
+  },
+  "clients": {
+    "h1": "Wohin MoTai-Lieferungen gehen",
+    "sub": "Von Hubei in sieben Zielregionen.",
+    "note": "Die Kundenlogos und Referenzen unten sind Platzhalter — ersetzen Sie src/data/trust.json durch veröffentlichte Unterlagen.",
+    "placeholderBadge": "Exemplarischer Platzhalter",
+    "statsTitle": "Belieferung auf einen Blick",
+    "statsNote": "Gezeigte Zertifizierungen sind Platzhalter bis zum Vorliegen veröffentlichter Zertifikate."
+  },
+  "glossary": {
+    "h1": "Glossar der Abriebsmittel",
+    "sub": "Die Begriffe hinter jeder Band-, Scheiben- und Flapspezifikation.",
+    "note": "Standard­definitionen der Branche für Abriebsmittel-Verbrauchsmaterialien. Körnungs- und Träger­details für eine konkrete Bestellung werden im Angebot bestätigt."
+  },
+  "trust": {
+    "regions": "Zielregionen",
+    "productLines": "Produktlinien",
+    "gritRange": "Körnungs­abdeckung"
+  },
+  "video": {
+    "title": "Ansehen",
+    "cutting": {
+      "title": "Schnitt- und Umform­aufnahmen",
+      "desc": "Gelieferte Produktaufnahmen: Schnitt und Umformung von Abriebsmittelblättern."
+    },
+    "sample": {
+      "title": "Musterprüf­aufnahmen",
+      "desc": "Gelieferte Produktaufnahmen: Prüfung von Oberfläche, Träger und Passform an einem Muster."
+    },
+    "oem": {
+      "title": "OEM-Verpackung­aufnahmen",
+      "desc": "Packmengen, Etiketten, Kartonmarkierungen und Eigenmarken-Layouts."
+    },
+    "flap": {
+      "title": "Flapscheiben-Sortiment­aufnahmen",
+      "desc": "Flapscheiben mit Kunststoff-, Stahl- und Glasfaser-Träger im Einsatz."
+    }
+  },
+  "wa": {
+    "generic": "Hallo MoTai, ich möchte ein Großhandelsangebot für Abriebsmittel.",
+    "product": "Hallo MoTai, ich möchte ein Großhandelsangebot für {name} ({grits}).",
+    "model": "Hallo MoTai, ich möchte ein Großhandelsangebot für das Schleifband-Modell {model}.",
+    "disc": "Hallo MoTai, ich möchte ein Großhandelsangebot für {title}.",
+    "sample": "Hallo MoTai, ich möchte ein Muster von {name} zur Bewertung anfordern.",
+    "factory": "Hallo MoTai, ich möchte Produktions- und Qualitäts­details mit Ihrem Team besprechen.",
+    "oem": "Hallo MoTai, ich möchte ein OEM- / Eigenmarken-Programm für Abriebsmittel besprechen.",
+    "contact": "Hallo MoTai, ich möchte meine nächste Abriebsmittel­bestellung mit Ihrem Team aufbauen."
+  },
+  "faq": {
+    "faqTitle": "Bevor wir beginnen",
+    "moq": {
+      "q": "Wie hoch ist die Mindestbestellmenge?",
+      "a": "Die MOQ wird zusammen mit Verfügbarkeit und Konditionen im Angebot bestätigt."
+    },
+    "oem": {
+      "q": "Unterstützen Sie OEM und Eigenmarke?",
+      "a": "Ja. Logo, Etiketten, individuelle Größen und Verpackung werden auf Durchführbarkeit geprüft und im Angebot bestätigt."
+    },
+    "sizes": {
+      "q": "Welche Größen und Körnungen liefern Sie?",
+      "a": "Bänder in dokumentierten Größen von 533 × 75 bis 2200 × 1330 mm (Körnungen 40–800); Scheiben 3–6 Zoll (Körnungen 60–5000). Individuelle Anforderungen werden mit unserem Team geprüft."
+    },
+    "samples": {
+      "q": "Kann ich zuerst ein Muster bekommen?",
+      "a": "Ja. Fordern Sie ein Muster an — unser Vertriebsteam bestätigt Verfügbarkeit, Kosten und Versandmodalitäten."
+    },
+    "lead": {
+      "q": "Wie hoch sind die Lieferzeiten?",
+      "a": "Die Lieferzeit richtet sich nach Spezifikation und Menge und wird in Ihrem Angebot bestätigt."
+    },
+    "packaging": {
+      "q": "Wie werden die Produkte verpackt?",
+      "a": "Packmengen, Etiketten, Kartonmarkierungen und Eigenmarken-Layouts werden mit dem Angebot bestätigt."
+    },
+    "payment": {
+      "q": "Welche Zahlungsbedingungen bieten Sie?",
+      "a": "Zahlungsbedingungen sind Teil des bestätigten Angebots und der geschäftlichen Verhandlung."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Welche Spezifikationen sollte ich angeben?",
+      "a": "Machen Sie uns Ihre gewünschten Maße, Körnung, Werkstück, Maschine und gewünschte Oberfläche bekannt. Nutzen Sie die dokumentierten Optionen, soweit vorhanden; andere Anforderungen werden mit unserem Team geprüft."
+    },
+    "oem": {
+      "q": "Wie bestelle ich OEM-Verpackung?",
+      "a": "Nehmen Sie Ihre Branding- und Verpackungsanforderungen in die Anfrage auf. Die Details werden geprüft und mit Ihrem Angebot bestätigt."
+    },
+    "order": {
+      "q": "Bedeutet die Angebotsanfrage eine Bestellung?",
+      "a": "Nein. Das Formular leitet eine Großhandelsanfrage ein. Produktspezifikationen, Verfügbarkeit und Konditionen werden bestätigt, bevor eine Bestellung vereinbart wird."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Notieren Sie Größe, Körnung, Träger und Produktdateien; geben Sie Zielhafen und Etikettensprache an."
+    },
+    "na": {
+      "title": "Nordamerika",
+      "body": "Geben Sie Zoll- oder Metrikgröße, Befestigungstyp und Packmengen an; Ziel-Zipcode oder -hafen und Transportart."
+    },
+    "sa": {
+      "title": "Südamerika",
+      "body": "Größe, Mengen in gemischten Körnungen und Sprache der Karton­etiketten; Zielhafen und Import­dokumente."
+    },
+    "me": {
+      "title": "Naher Osten",
+      "body": "Material, Körnung und feuchtigkeits­schonende Verpackung; Zielhafen und Angebots­konditionen."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Maschinen­kompatibilität, gewünschte Größen und Packmengen; Zielhafen, Karton­markierungen und Transport­präferenz."
+    },
+    "oceania": {
+      "title": "Ozeanien",
+      "body": "Größe, Träger, Verpackung und Ziel-Zipcode oder -hafen; Einfuhr- und Verpackungsanforderungen."
+    },
+    "asia": {
+      "title": "Asien",
+      "body": "Maschinen­spezifikation, Körnungsbereich und Bestelmix; Lieferstadt oder -hafen und Etiketten in Landessprache."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metallbearbeitung",
+      "intro": "Schweißnaht­aufheben, Entgraten und Vorbereitung von Metalloberflächen.",
+      "uses": "Schweißnaht­aufheben · Entgraten · Oberflächen­vorbereitung",
+      "products": "Schleifbänder"
+    },
+    "wood": {
+      "title": "Holzverarbeitung & Möbel",
+      "intro": "Panels, Möbelfertigung und Oberflächen­vorbereitung vor dem Lackieren.",
+      "uses": "Panels · Möbel · Vor­lackier­vorbereitung",
+      "products": "Schleifbänder · Schleifscheiben"
+    },
+    "auto": {
+      "title": "Kfz-Reparatur",
+      "intro": "Schleifen von Füllmasse, Vorbereitung vor dem Spritzen und Lackier­instandsetzung im Kfz-Bereich.",
+      "uses": "Füllmasse · Vor­spritzung · Lackier­instandsetzung",
+      "products": "Schleifscheiben"
+    },
+    "stainless": {
+      "title": "Edelstahl-Finish",
+      "intro": "Bürst­finish, Oberflächen­übergänge und Edelstahl­verarbeitung.",
+      "uses": "Bürst­finish · Übergänge · Verarbeitung",
+      "products": "Schleifbänder"
+    },
+    "ship": {
+      "title": "Schiffs­bau & Reparatur",
+      "intro": "Metall­schleifen, Rostentfernung und Oberflächen­vorbereitung im Schiffsbetrieb.",
+      "uses": "Schleifen · Rostentfernung · Marine­vorbereitung",
+      "products": "Schleifbänder"
+    },
+    "surface": {
+      "title": "Industrielle Oberflächen­vorbereitung",
+      "intro": "Industrielle Oberflächen­behandlung und Wartungs­arbeiten.",
+      "uses": "Oberflächen­behandlung · Wartung",
+      "products": "Schleifscheiben"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Klett- oder PSA-Befestigung: Der richtige Träger",
+      "intro": "Das Befestigungssystem ist genauso wichtig wie die Körnung. Passen Sie es vor der Bestellung an den Scheiben­anleger an.",
+      "start": {
+        "title": "Von der Anforderung aus starten",
+        "body": "Klett-Scheiben werden auf einen kompatiblen Klett­anleger aufgebracht und eignen sich für Abläufe mit häufigem Körnungswechsel. PSA-Scheiben beruhen auf selbstklebendem Kleber und benötigen einen sauberen, ebenen Anleger. Die beiden Systeme sind nicht austauschbar."
+      },
+      "compat": {
+        "title": "Kompatibilität bestätigen",
+        "body": "Bestätigen Sie Anlegerdurchmesser, Trägertyp und Staub­absaug­layout. Eine lochlose Scheibe passt nicht auf ein lochbasiertes Absauge­muster; offenmaschige Scheiben brauchen einen kompatiblen Anleger und ein Absaugsystem."
+      },
+      "enquiry": {
+        "title": "Bereiten Sie Ihre Anfrage vor",
+        "body": "Nehmen Sie Scheibendurchmesser, Träger, Körnungsliste, Menge je Körnung und Werkstückmaterial auf. Fordern Sie vor der Freigabe einer Produktions­bestellung eine Musterbewertung an."
+      }
+    },
+    "beltChecklist": {
+      "title": "Was gehört in eine Schleifband­anfrage?",
+      "intro": "Eine klare Spezifikation hilft Ihrem Lieferanten, die Passform zu prüfen und ein nützliches Angebot vorzubereiten.",
+      "start": {
+        "title": "Von der Anforderung aus starten",
+        "body": "Geben Sie Band­länge und -breite in Millimetern an. Nennen Sie das Maschinen­modell — ein Maschinenspezifikations­blatt oder ein Foto eines alten Band­etiketts hilft."
+      },
+      "compat": {
+        "title": "Kompatibilität bestätigen",
+        "body": "Ergänzen Sie Werkstückmaterial, bevorzugtes Abriebsmittel, Körnung, Träger­anforderung und Nahtanforderungen. Wählen Sie das Produkt nicht ausschließlich nach der Band­farbe."
+      },
+      "enquiry": {
+        "title": "Bereiten Sie Ihre Anfrage vor",
+        "body": "Listen Sie die Mengen nach Größe und Körnung, Verpackungs­präferenzen, Bestimmungsort und das gewünschte Lieferdatum auf. Das endgültige Angebot bestätigt Spezifikation, Verfügbarkeit, Zahlungsbedingungen und Transportanordnung."
+      }
+    },
+    "gritSequence": {
+      "title": "Eine Körnungs­folge für die Oberflächen­vorbereitung planen",
+      "intro": "Beginnen Sie mit Werkstück und gewünschter Oberfläche, bewerten Sie dann eine Folge an einem Muster.",
+      "start": {
+        "title": "Von der Anforderung aus starten",
+        "body": "Grobe Körnungen entfernen Material schnell und hinterlassen tiefe Riefen; feine Körnungen verfeinern die Oberfläche. Der Ausgangspunkt hängt vom Untergrund, der Defekttiefe und der Abtragsanforderung ab."
+      },
+      "compat": {
+        "title": "Kompatibilität bestätigen",
+        "body": "Körnungen in Reihenfolge verfeinern und das Werkstück in jeder Stufe inspizieren. Körnungen zu überspringen hinterlässt Riefen, die schwer zu entfernen sind; die Zwischenreinigung der Stufen vermeidet Verunreinigungen durch grobe Körnung."
+      },
+      "enquiry": {
+        "title": "Bereiten Sie Ihre Anfrage vor",
+        "body": "Die Körnungs­nummern sind zwischen Körnungs­systemen nicht austauschbar. Bestätigen Sie Körnungs­standard, Abriebsmittel­typ und Verfügbarkeit im Angebot und beachten Sie die Sicherheits­anweisungen für Maschine und Abriebsmittel."
+      }
+    },
+    "dustCollection": {
+      "title": "Staub­absaugung & Anlegerkompatibilität, erklärt",
+      "intro": "Lochmuster, offenmaschige Scheiben und Scheiben­anleger müssen zu Ihrer Absauganlage passen.",
+      "start": {
+        "title": "Von der Anforderung aus starten",
+        "body": "Identifizieren Sie Ihren Anleger: Anzahl der Löcher, Durchmesser und ob er mit Staubabsaugung verwendet wird. Lochlose und offenmaschige Scheiben verhalten sich anders als Scheiben mit mehreren Löchern."
+      },
+      "compat": {
+        "title": "Kompatibilität bestätigen",
+        "body": "Passen Sie das Lochlayout der Scheibe auf die Anlegeraustritte an. Offenmaschige Scheiben brauchen einen kompatiblen Anleger und ein funktionierendes Absaugsystem; PSA-Scheiben benötigen eine saubere Anlegeroberfläche."
+      },
+      "enquiry": {
+        "title": "Bereiten Sie Ihre Anfrage vor",
+        "body": "Listen Sie Anlegertyp, Lochanzahl, Scheibengröße und Körnungsliste sowie Ihre Staubabsaug­anordnung auf. Bestätigen Sie das Musterverhalten vor einer Produktions­bestellung."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM-Etiketten & -Verpackung: Was vorzubereiten ist",
+      "intro": "Ein vollständiges Briefing hält Layout, Etiketten und Kartons im Zeitplan.",
+      "start": {
+        "title": "Von der Anforderung aus starten",
+        "body": "Bereiten Sie Ihr Logo- und Etikettenlayout, das Zielverpackungs­format (Innentaschen, Kartons), die Etikettensprache und die Beschriftungsvorschriften des Ziellandes vor."
+      },
+      "compat": {
+        "title": "Kompatibilität bestätigen",
+        "body": "OEM-Verfügbarkeit, Mindestmengen, Layoutanforderungen und Zeitpläne sind einer Durchführbarkeitsprüfung und dem bestätigten Angebot unterworfen."
+      },
+      "enquiry": {
+        "title": "Bereiten Sie Ihre Anfrage vor",
+        "body": "Fügen Sie Layout bei, spezifizieren Sie Packmengen und Kartonmarkierungen und geben Sie Bestimmungsort und Zeitplan an. Die Musterfreigabe erfolgt vor der Produktion."
+      }
+    },
+    "gritStandards": {
+      "title": "Körnungs­standards: FEPA, ANSI und was Ihre Liste bedeutet",
+      "intro": "Körnungs­systeme sind nicht austauschbar — nennen Sie in jeder Anfrage den Standard.",
+      "start": {
+        "title": "Von der Anforderung aus starten",
+        "body": "FEPA (ISO 848) und die ältere ANSI-Skala nummerieren ähnliche Größen unterschiedlich; P120 und Körnung 120 sind nicht immer identisch. Nennen Sie den Standard, nach dem Sie kaufen."
+      },
+      "compat": {
+        "title": "Kompatibilität bestätigen",
+        "body": "Bestätigen Sie Körnungs­standard, Abriebsmittel­typ und Verfügbarkeit je Qualität im Angebot. Mischen Sie keine Körnungs­systeme in einer Körnungsliste."
+      },
+      "enquiry": {
+        "title": "Bereiten Sie Ihre Anfrage vor",
+        "body": "Geben Sie den Standard an (z. B. FEPA P60–P800), die Menge je Qualität und den Bestimmungsort. Bestätigen Sie die endgültige Qualitätsliste mit dem Angebot, bevor Sie bestellen."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Das gängigste Abriebsmittel­korn für Bänder und Scheiben: zäh, gut schneidig, geeignet für Metall, Holz und generelles Finish."
+    },
+    "ansi": {
+      "def": "Alte nordamerikanische Körnungs­nummern. Körnungen ähnlicher Größe weichen von der FEPA-Skala ab — nennen Sie den Standard in jeder Anfrage."
+    },
+    "backing-cloth": {
+      "def": "Ein Baumwoll-/Gewebe­träger, der das Abriebsmittel­korn in Bändern trägt. Das Gewicht (z. B. X-Weight) bestimmt Flexibilität und Tragfähigkeit."
+    },
+    "backing-poly": {
+      "def": "Poly-Baumwoll-Gewebe­träger: ein Kompromiss aus Festigkeit und Flexibilität für Allzweck­bänder."
+    },
+    "belt": {
+      "def": "Eine durchgehende Schleifkorn­schleife auf einem Gewebe­träger, für Schleifmaschinen verwendet zum Schleifen, Finish und Entgraten."
+    },
+    "blend": {
+      "def": "Eine Schweißnaht glätten, damit sie sich in das umgebende Metall einfügt — typischerweise ein erster Durchgang mit Flapscheibe oder Band, dann feinere Körnungen."
+    },
+    "closed": {
+      "def": "Ein engschliffenes Kornlayout mit wenig freiem Raum; das Band widersteht dem Verharzen bei härterem Material."
+    },
+    "debur": {
+      "def": "Entfernen von Graten und kleinen Vorsprüngen, die durch Schnitte, Sägen oder Schleifen bleiben."
+    },
+    "dust": {
+      "def": "Abriebsstoff­staub am Werkstück entfernen — über Anlegeraustritte, offenmaschige Scheiben oder lokale Absaugung."
+    },
+    "flap": {
+      "def": "Eine Scheibe aus überlappenden Schleifflaps, flexibel, für Schleifen, Aufheben und Finish auf Winkelschleifern."
+    },
+    "fepa": {
+      "def": "Die ISO 848 (FEPA)-Körnungs­skala in P-Notation (z. B. P120). Die Standard­skala in den meisten europäischen und internationalen Handels­geschäften."
+    },
+    "grit": {
+      "def": "Die Nenngröße des Abriebsmittel­korns: höhere Zahlen sind feiner. Bänder 40–800; Scheiben 60–5000."
+    },
+    "hookloop": {
+      "def": "Das Klett-Befestigungssystem für Scheiben: die Scheibe wird auf einen Klett­anleger aufgesetzt."
+    },
+    "mesh": {
+      "def": "Offenmaschige Scheiben haben Ausschnitte, durch die Staub austreten kann, und benötigen einen kompatiblen Anleger und eine Absaugung."
+    },
+    "moq": {
+      "def": "Mindestbestellmenge — wird zusammen mit Verfügbarkeit und Konditionen im Angebot bestätigt."
+    },
+    "oem": {
+      "def": "Original-Equipment-Herstellung / Eigenmarke: unsere Produkte unter Ihrer Marke, Ihren Etiketten und Ihrer Verpackung."
+    },
+    "psa": {
+      "def": "Selbstklebender Träger (PSA): die Scheibe haftet direkt auf einem kompatiblen Anleger."
+    },
+    "disc": {
+      "def": "Ein flacher oder geflapter Abriebsmittel­kreis, der auf einem Anleger montiert wird zum Schleifen und Finish."
+    },
+    "sic": {
+      "def": "Karniv­korn (Silizium­karbid): sehr hart und scharf, geeignet für Glas, Keramik und Nichteisen­metalle."
+    },
+    "prep": {
+      "def": "Eine Oberfläche für Beschichtung oder Finish vorbereiten: Rost, Füllmasse oder altes Finish bis zu einem gleichmäßigen Profil entfernen."
+    },
+    "wetdry": {
+      "def": "Qualitäten, die bei Nass- oder Nass-Trocken­einsatz kühl und verharzungs­fest bleiben; Eignung wird im Angebot bestätigt."
+    },
+    "xweight": {
+      "def": "Ein mittel­schwerer Gewebe­träger für Allzweck­bänder: fest und zugleich flexibel."
+    },
+    "zirconia": {
+      "def": "Zirkon­oxidalumini­umkorn: zäh und aggressiv für Metall­schleifen, Entgraten und Finish an Stahl."
+    },
+    "pad": {
+      "def": "Die Unterlage (Platte), auf der eine Scheibe liegt: Anlegerdurchmesser, Fläche (Klett) und Austritts­layout müssen zur Scheibe passen."
+    }
+  },
+  "footer": {
+    "blurb": "Abriebsmittel-Verbrauchsmaterialien für industrielle Käufer, Distributoren und Eigenmarken.",
+    "products": "Produkte",
+    "explore": "MoTai entdecken",
+    "connect": "Kontakt aufnehmen",
+    "aboutUs": "Über uns",
+    "mfgQ": "Produktion & Qualität",
+    "oemPl": "OEM & Eigenmarke",
+    "newsB": "News & Blog",
+    "privacy": "Datenschutzerklärung",
+    "contactUs": "Kontakt"
+  },
+  "tdk": {
+    "home": {
+      "title": "MoTai Abrasives — Bänder, Scheiben und Flapscheiben aus Hubei, China",
+      "description": "Bänder-, Scheiben- und Flapscheiben-Reihen vom MoTai-Werk in Hubei: Aluminiumoxid-Bänder, PSA- / Klett- / offene-Mesh-Scheiben und Flapscheiben, für B2B- und Eigenmarken-Versorgung.",
+      "keywords": "Schleifbänder, Schleifscheiben, Flapscheiben, OEM-Abriebsmittel, Abriebsmittel-Großhandelslieferant, MoTai"
+    },
+    "about": {
+      "title": "Über MoTai — das Abriebsmittel-Werk in Xianning, Hubei",
+      "description": "Was Hubei MoTai Abrasives Materials Co., Ltd. fertigt und wie es liefert: das Unternehmen, seine Produktreihen und die regionale Versorgung.",
+      "keywords": "MoTai Abrasives, Abriebsmittelhersteller Hubei, B2B Abriebsmittel-Lieferant"
+    },
+    "factory": {
+      "title": "Im MoTai-Werk — Schnitt, Prüfung, Verpackung",
+      "description": "So laufen MoTai-Bestellungen: Zuschnitt und Konvertierung, Musterprüfung, OEM-Verpackung und Versandvorbereitung.",
+      "keywords": "Abriebsmittelproduktion, Abriebsmittel QC, Schnittleistung, OEM-Verpackung"
+    },
+    "oem": {
+      "title": "OEM und Eigenmarke bei MoTai — Ihre Marke, unsere Reihe",
+      "description": "Bringen Sie Logo, Etiketten, Maße und Verpackung zu MoTai: Machbarkeitsprüfung und Angebot zur bestätigten Spezifikation.",
+      "keywords": "OEM-Abriebsmittel, Eigenmarke Schleifscheiben, individuelle Abriebsmittelverpackung"
+    },
+    "applications": {
+      "title": "Abriebsmittel für Ihre Branche — Anwendungen",
+      "description": "Abriebsmittel­auswahl für Metallbearbeitung, Holzverarbeitung, Automobil, Edelstahl, Schiffsbau und industrielle Oberflächen­vorbereitung.",
+      "keywords": "Abriebsmittelanwendungen, Metallbearbeitung, Holzverarbeitungsabrasives, Oberflächen­vorbereitung"
+    },
+    "blog": {
+      "title": "News & Ressourcen für Einkäufer",
+      "description": "Praktische Ressourcen für Einkäufer: Scheiben­träger­auswahl, Schleifband­anfrage-Checklisten, Körnungs­folgen und Körnungs­standards.",
+      "keywords": "Abriebsmittelkäuferleitfaden, Körnungs­folge, Klett vs. PSA"
+    },
+    "contact": {
+      "title": "Mit MoTai sprechen — Großhandel und OEM",
+      "description": "Sprechen Sie mit dem MoTai-Vertrieb in Xianning, Hubei über Bänder, Scheiben und Flapscheiben: Telefon, E-Mail, WhatsApp und Werkbesuche.",
+      "keywords": "MoTai Kontakt, Abriebsmittel Großhandelsanfrage, Abriebsmittel-Lieferant"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "description": "Wie MoTai Abrasives Anfragedaten verwendet: Erhebung, Zweck, Speicherung, Ihre Möglichkeiten und Cookie-Verarbeitung.",
+      "keywords": "Datenschutzerklärung, MoTai"
+    },
+    "quote": {
+      "title": "Großhandelsangebot anfragen",
+      "description": "Bereiten Sie Ihre MoTai-Großhandels- oder OEM-Anfrage vor: Firmendetails plus Produkt, Größe, Körnung, Menge und Bestimmungsort.",
+      "keywords": "Abriebsmittel Großhandelsangebot, OEM Abriebsmittelanfrage"
+    },
+    "clients": {
+      "title": "Weltweite Belieferung — Von Hubei zu Ihrem Markt",
+      "description": "MoTai beliefert sieben Zielregionen: Europa, die Amerikas, den Nahen Osten, Afrika, Ozeanien und Asien.",
+      "keywords": "Abriebsmittel Welt-Lieferant, Export-Abriebsmittel, MoTai Regionen"
+    },
+    "glossary": {
+      "title": "Glossar der Abriebsmittel — Körnung, Träger, Scheiben­begriffe",
+      "description": "24 Abriebsmittel­begriffe erklärt: FEPA-Körnung, Träger, Klett, PSA, offenmaschig, Entgraten und mehr.",
+      "keywords": "Abriebsmittelglossar, Körnungs­standards, Abriebsmittel­begriffe"
+    },
+    "product": {
+      "title": "MoTai {name} — B2B-Versorgung",
+      "description": "MoTai {name}: {desc} Größen der Reihe: {sizes}. Körnungen: {grits}. Angebot, MOQ und Konditionen kommen mit der Offerte für Ihre Bestellung.",
+      "keywords": "{name}, MoTai Abriebsmittel, Abriebsmittel Großhandel, OEM Abriebsmittel"
+    },
+    "model": {
+      "title": "MoTai-Bandreferenz {model}",
+      "description": "Referenzmodell {model} der MoTai-Bänder — Maße, Körnung, Korn und Träger mit dem Team besprechen; die Spezifikation steht im Angebot.",
+      "keywords": "{model} Schleifband, Band­modell Referenz, Schleifbänder Großhandel"
+    },
+    "disc": {
+      "title": "Scheibenvariante MoTai: {title}",
+      "description": "Dokumentierte MoTai-Scheibenvariante {title}: Körnungen, Durchmesser und Befestigung stehen im Angebot.",
+      "keywords": "Schleif­Scheibe, Klett­Scheibe, PSA Scheibe, MoTai"
+    },
+    "flap": {
+      "title": "MoTai-Flapscheibe {name}",
+      "description": "MoTai {name}: Flapscheibe mit {backing}-Träger für Entgraten, Übergänge und Finish von Metallen.",
+      "keywords": "Flap­Scheibe, {backing}-Träger Flap­Scheibe, MoTai"
+    },
+    "colt": {
+      "belts": {
+        "title": "Bänder — MoTai-Reihe",
+        "description": "Rote Schleifbänder 533×75 bis 2200×1330 mm, Körnungen 40–800, mit Referenz­modellen. Großhandel & OEM.",
+        "keywords": "Schleifbänder, Schleifbänder Großhandel, OEM Bänder"
+      },
+      "discs": {
+        "title": "Schleifscheiben — MoTai-Reihe",
+        "description": "PSA-, Klett-, offenmaschige und lochlose Schleifscheiben, 3–6 Zoll, Körnungen 60–5000. Großhandel & OEM.",
+        "keywords": "Schleifscheiben, PSA Scheiben, Klett Scheiben, Großhandel"
+      },
+      "flap": {
+        "title": "Flapscheiben — MoTai-Reihe",
+        "description": "MOTAI Flap­Scheiben mit Kunststoff-, Stahl- und Glasfaser­träger für Schleifen und Finish.",
+        "keywords": "Flap­Scheiben, Schleif Flap­Scheibe, MoTai"
+      },
+      "all": {
+        "title": "MoTai-Abriebsmittel-Katalog",
+        "description": "Das komplette MoTai Abriebsmittelsortiment: Bänder, Scheiben und Flap­Scheiben für B2B-Käufer.",
+        "keywords": "Abriebsmittelprodukte, MoTai Sortiment"
+      }
+    }
+  }
+}
