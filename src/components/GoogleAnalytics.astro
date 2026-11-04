@@ -32,6 +32,9 @@ const inline = trackingId
     `    var u = new URL(a.href);\n` +
     `    var host = u.hostname.toLowerCase();\n` +
     `    var base = { link_url: a.href, link_domain: host };\n` +
+    // The rail's WA trigger toggles the in-page chat window (no navigation);
+    // its Send button fires the navigation event itself (source=chat-window).
+    `    if (a.classList && a.classList.contains('wa-trigger')) return;\n` +
     `    if (host.indexOf('motaiabrasive.com') !== -1 && host !== location.hostname) {\n` +
     `      gtag('event', 'outbound_quote', base);\n` + // quote form on the original Shopify store
     `    } else if (host === 'wa.me') {\n` +

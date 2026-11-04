@@ -413,6 +413,23 @@
     "oem": "MoTai様、OEM／プライベートラベル研削材プログラムの相談をしたいです。",
     "contact": "MoTai様、次回の研削材発注をチームと進めたいです。"
   },
+  "floatChat": {
+    "trigger": "チャット",
+    "open": "チャットを開く",
+    "close": "閉じる",
+    "title": "MoTai — ライブチャット",
+    "status": "WhatsApp で返信いたします（通常 24 時間以内）。",
+    "greeting": "こんにちは！耐材の注文で何かお手伝いできることはありますか？— MoTai 営業チーム",
+    "placeholder": "メッセージを入力…",
+    "send": "WhatsApp で送信",
+    "note": "このプレビューにはライブサーバーはありません。送信すると、メッセージが事前に入力された状態で WhatsApp が開きます。返信は WhatsApp のチャットで続きます。"
+  },
+  "location": {
+    "imgAlt": "湖北省咸寧市のMoTai工場建物",
+    "imgCaption": "MoTai工場——湖北省咸寧市、中国",
+    "mapTitle": "Googleマップ上のMoTai工場所在地",
+    "openInMaps": "Googleマップで開く"
+  },
   "faq": {
     "faqTitle": "始める前に",
     "moq": {

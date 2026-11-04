@@ -5,6 +5,7 @@ import Shell from '../../components/Shell.astro'
 import { breadcrumbJsonLd, contactPageJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
+import LocationBlock from '../../components/LocationBlock.astro'
 
 export function getStaticPaths() {
   return langPaths()
@@ -48,6 +49,10 @@ const seo = buildSeo(lang, 'contact', {}, [
       <a class="social-link" href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
       <a class="social-link" href={site.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp</a>
     </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <LocationBlock lang={lang} />
   </section>
 
   <section class="section wrap section--soft">

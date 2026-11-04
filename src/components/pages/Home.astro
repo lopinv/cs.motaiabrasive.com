@@ -6,6 +6,7 @@ import ProductCard from '../ProductCard.astro'
 import CtaBand from '../CtaBand.astro'
 import Faq from '../Faq.astro'
 import SectionHeading from '../SectionHeading.astro'
+import LocationBlock from '../LocationBlock.astro'
 
 const { lang } = Astro.props
 const tr = TRANSLATIONS[lang]
@@ -155,6 +156,11 @@ const wa = (ctx, vars) => waLink(lang, ctx, vars)
   <SectionHeading title={h.factoryTitle} />
   <p class="cta-note">{h.factoryBody}</p>
   <a class="button outline dark-outline mt-14" href={wa('contact')}>{pick('cta.waChat')}</a>
+</section>
+
+<!-- LOCATION: factory photo + Google Map -->
+<section class="section wrap">
+  <LocationBlock lang={lang} />
 </section>
 
 <!-- FINAL CTA -->

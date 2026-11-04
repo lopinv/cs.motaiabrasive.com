@@ -417,6 +417,23 @@
     "oem": "Hi MoTai, I would like to discuss an OEM / private-label abrasive programme.",
     "contact": "Hi MoTai, I would like to build my next abrasive order with your team."
   },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Open chat",
+    "close": "Close",
+    "title": "MoTai — Live chat",
+    "status": "We reply on WhatsApp, usually within 24 hours.",
+    "greeting": "Hi! How can we help with your abrasive order? — MoTai sales team",
+    "placeholder": "Type your message…",
+    "send": "Send via WhatsApp",
+    "note": "This preview has no live server: sending opens WhatsApp with your message pre-filled. Replies continue in the WhatsApp conversation."
+  },
+  "location": {
+    "imgAlt": "MoTai factory building in Xianning, Hubei",
+    "imgCaption": "MoTai factory — Xianning, Hubei, China",
+    "mapTitle": "MoTai factory location on Google Maps",
+    "openInMaps": "Open in Google Maps"
+  },
   "faq": {
     "faqTitle": "Before we start",
     "moq": {

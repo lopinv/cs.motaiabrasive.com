@@ -413,6 +413,23 @@
     "oem": "您好墨泰，我想讨论 OEM / 贴牌磨料计划。",
     "contact": "您好墨泰，我想与团队共建下一单磨料订单。"
   },
+  "floatChat": {
+    "trigger": "在线对话",
+    "open": "打开对话",
+    "close": "关闭",
+    "title": "墨泰 — 在线对话",
+    "status": "我们通过 WhatsApp 回复，通常 24 小时内。",
+    "greeting": "您好！关于您的磨料订单有什么可以帮您的吗？—— 墨泰销售团队",
+    "placeholder": "输入您的信息…",
+    "send": "通过 WhatsApp 发送",
+    "note": "本预览无实时服务器：发送将打开 WhatsApp 并预填您的信息，后续回复将在 WhatsApp 对话中继续。"
+  },
+  "location": {
+    "imgAlt": "湖北咸宁的墨泰工厂建筑",
+    "imgCaption": "墨泰工厂 —— 中国湖北咸宁",
+    "mapTitle": "墨泰工厂在 Google 地图上的位置",
+    "openInMaps": "在 Google 地图中打开"
+  },
   "faq": {
     "faqTitle": "合作之前",
     "moq": {

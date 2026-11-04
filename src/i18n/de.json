@@ -413,6 +413,23 @@
     "oem": "Hallo MoTai, ich möchte ein OEM- / Eigenmarken-Programm für Abriebsmittel besprechen.",
     "contact": "Hallo MoTai, ich möchte meine nächste Abriebsmittel­bestellung mit Ihrem Team aufbauen."
   },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Chat öffnen",
+    "close": "Schließen",
+    "title": "MoTai — Live-Chat",
+    "status": "Wir antworten über WhatsApp, in der Regel innerhalb von 24 Stunden.",
+    "greeting": "Hallo! Wie können wir Ihnen mit Ihrem Schleifmittel-Auftrag helfen? — MoTai-Vertriebsteam",
+    "placeholder": "Nachricht eingeben…",
+    "send": "Per WhatsApp senden",
+    "note": "Diese Vorschau hat keinen Live-Server: Beim Senden wird WhatsApp mit Ihrer vorformulierten Nachricht geöffnet. Antworten laufen im WhatsApp-Dialog weiter."
+  },
+  "location": {
+    "imgAlt": "MoTai-Fabrikgebäude in Xianning, Hubei",
+    "imgCaption": "MoTai-Werk — Xianning, Hubei, China",
+    "mapTitle": "Standort des MoTai-Werks in Google Maps",
+    "openInMaps": "In Google Maps öffnen"
+  },
   "faq": {
     "faqTitle": "Bevor wir beginnen",
     "moq": {

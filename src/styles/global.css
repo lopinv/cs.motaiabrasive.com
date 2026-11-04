@@ -350,6 +350,57 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .floating a:hover { background: var(--accent); }
 .floating .back-to-top { background: var(--bg); color: var(--ink); border: 1px solid var(--line); }
 
+/* WhatsApp chat trigger — green so it reads as chat, not as the rail's
+   default ink buttons; open state gets a focus ring. */
+.floating .wa-trigger { background: #1da851; }
+.floating .wa-trigger:hover { background: #178f44; }
+.floating .wa-trigger[aria-expanded="true"] { outline: 2px solid #1da851; outline-offset: 2px; }
+
+/* ============ In-page WhatsApp chat window ============
+   A fake chat: no server behind it, so "Send" hands the typed message to
+   wa.me (new tab). Inert without JS — the trigger anchor is the fallback. */
+.wa-window {
+  position: absolute; bottom: calc(100% + 12px); inset-inline-end: 0;
+  width: min(320px, calc(100vw - 40px));
+  z-index: 90;
+}
+.wa-window[open] { display: block; }
+.wa-window summary { display: none; }
+.wa-panel {
+  background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: 0 18px 48px rgba(0,0,0,.22); overflow: hidden;
+  font-size: 14px;
+}
+.wa-head {
+  display: flex; align-items: center; gap: 9px;
+  background: var(--ink); color: #fff; padding: 11px 13px;
+}
+.wa-head strong { display: block; font-size: 13.5px; }
+.wa-dot { width: 9px; height: 9px; border-radius: 50%; background: #25d366; flex: none; }
+.wa-status { display: block; font-size: 11px; color: rgba(255,255,255,.65); }
+.wa-close {
+  margin-inline-start: auto; background: none; border: none; color: rgba(255,255,255,.75);
+  font-size: 15px; cursor: pointer; padding: 2px 4px;
+}
+.wa-close:hover { color: #fff; }
+.wa-body { background: var(--bg-soft); padding: 14px; }
+.wa-greet {
+  margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 8px;
+  padding: 9px 11px; color: var(--ink-soft); line-height: 1.45; max-width: 92%;
+}
+.wa-form { display: flex; flex-direction: column; gap: 8px; padding: 12px; }
+.wa-input {
+  border: 1px solid var(--line); border-radius: 18px; padding: 9px 14px;
+  font-size: 14px; color: var(--ink); background: #fff;
+}
+.wa-input:focus { outline: 2px solid #1da851; outline-offset: 1px; }
+.wa-send {
+  align-self: flex-end; background: #1da851; color: #fff; border: none;
+  border-radius: 16px; padding: 8px 16px; font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.wa-send:hover { background: #178f44; }
+.wa-note { margin: 0; padding: 0 12px 10px; font-size: 10.5px; line-height: 1.5; color: var(--muted); }
+
 /* ============ Value cards / steps ============ */
 .value-card { border: 1px solid var(--line); border-radius: 6px; padding: 22px; background: var(--bg); }
 .value-card .vno { font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: .1em; }
@@ -397,6 +448,23 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .logo-slot p { margin: 6px 0 0; font-size: 13px; }
 .logo-slot .small-note { margin: 2px 0 0; }
 
+/* ============ Company location block (photo + map) ============ */
+.location-block { margin-top: 4px; }
+.location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: stretch; }
+.location-photo { margin: 0; }
+.location-photo img {
+  width: 100%; aspect-ratio: 16/9; object-fit: cover;
+  border: 1px solid var(--line); border-radius: 6px; display: block;
+}
+.location-photo figcaption { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+.location-map { display: flex; flex-direction: column; }
+.location-map iframe {
+  width: 100%; flex: 1; min-height: 260px; border: 1px solid var(--line);
+  border-radius: 6px; background: var(--bg-soft);
+}
+.location-map-foot { margin-top: 12px; }
+.location-address { margin: 0 0 10px; font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
+
 /* ============ Misc page bits ============ */
 .page-intro { max-width: 720px; }
 .page-intro p { color: var(--ink-soft); font-size: 17px; }
@@ -414,6 +482,8 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 @media (width <= 900px) {
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+  .location-grid { grid-template-columns: 1fr; gap: 20px; }
+  .location-map iframe { min-height: 220px; }
   .product-detail { grid-template-columns: 1fr; gap: 32px; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .glossary-dl { grid-template-columns: 1fr; }

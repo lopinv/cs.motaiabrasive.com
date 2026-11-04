@@ -6,6 +6,7 @@ import { faqJsonLd, breadcrumbJsonLd, aboutPageJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import Faq from '../../components/Faq.astro'
+import LocationBlock from '../../components/LocationBlock.astro'
 import { trust } from '../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -58,6 +59,10 @@ const seo = buildSeo(lang, 'about', {}, [
   <section class="section wrap section--soft">
     <SectionHeading title={a.facTitle} />
     <p class="body-narrow">{a.facBody}</p>
+  </section>
+
+  <section class="section wrap">
+    <LocationBlock lang={lang} />
   </section>
 
   <section class="section wrap">

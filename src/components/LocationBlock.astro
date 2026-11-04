@@ -1,0 +1,37 @@
+---
+/**
+ * Company location block: factory photo + Google Maps embed + address +
+ * "Open in Google Maps" link. Used on Home, About and Contact so the
+ * physical location is a consistent trust signal on every key page.
+ * Both assets come from site.json (remote-only, per the hard constraints);
+ * the embed is a cross-origin <iframe> (the same pattern as the YouTube
+ * embed), no Worker / no server.
+ */
+import { TRANSLATIONS } from '../lib/i18n.js'
+import { site } from '../lib/utils.js'
+
+const { lang } = Astro.props
+const t = TRANSLATIONS[lang]?.location ?? TRANSLATIONS.en.location
+---
+
+<div class="location-block">
+  <div class="location-grid">
+    <figure class="location-photo">
+      <img src={site.factoryImage} alt={t.imgAlt} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+      <figcaption>{t.imgCaption}</figcaption>
+    </figure>
+    <div class="location-map">
+      <iframe
+        src={site.mapEmbedUrl}
+        title={t.mapTitle}
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen
+      ></iframe>
+      <div class="location-map-foot">
+        <p class="location-address">{site.address}</p>
+        <a class="button small" href={site.mapOpenUrl} target="_blank" rel="noopener noreferrer">{t.openInMaps}</a>
+      </div>
+    </div>
+  </div>
+</div>
