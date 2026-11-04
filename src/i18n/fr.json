@@ -730,39 +730,71 @@
   },
   "tdk": {
     "home": {
-      "title": "MoTai Abrasives — courrois, disques et ailettes depuis Hubei, Chine",
-      "description": "Gammes de courrois abrasifs, disques et ailettes de l'usine MoTai de Hubei : courrois à l'oxyde d'aluminium, disques PSA / crochet-boucle / maille et ailettes, pour l'approvisionnement B2B et marque propre.",
-      "keywords": "courrois abrasifs, disques de ponçage, disques à ailettes, abrasifs OEM, fournisseur d'abrasifs en gros, MoTai"
+      "title": "Fabricant d'abrasifs et fournisseur d'abrasifs industriels | MoTai",
+      "description": "Fabricant professionnel d'abrasifs en Chine : bandes, disques et disques à lamelles. Direct usine — gros, personnalisation OEM et solutions d'abrasifs industriels pour distributeurs et acheteurs du monde entier.",
+      "keywords": "fabricant d'abrasifs, fournisseur d'abrasifs, abrasifs industriels, bandes abrasives, disques de ponçage, disques à lamelles"
     },
     "about": {
-      "title": "À propos de MoTai — l'usine d'abrasifs à Xianning, Hubei",
-      "description": "Ce que fabrique Hubei MoTai Abrasives Materials Co., Ltd. et comment elle expédie : l'entreprise, ses gammes et son approvisionnement par région.",
-      "keywords": "MoTai Abrasives, fabricant d'abrasifs Hubei, fournisseur d'abrasifs B2B"
+      "title": "À propos de MoTai — Fabricant d'abrasifs et usine en Hubei, Chine",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. est un fabricant d'abrasifs recouverts à Xianning, Hubei : bandes abrasives, disques de ponçage et disques à lamelles avec OEM, dimensions sur mesure, approvisionnement en vrac et exportation.",
+      "keywords": "fabricant d'abrasifs Chine, usine d'abrasifs, fabricant d'abrasifs recouverts, fournisseur d'abrasifs B2B"
     },
     "factory": {
-      "title": "Dans l’atelier MoTai — découpe, contrôles, conditionnement",
-      "description": "Comment sont traités les commandes MoTai : découpe et conversion, contrôle des échantillons, conditionnement OEM et préparation de l'expédition.",
-      "keywords": "fabrication d'abrasifs, contrôle qualité abrasifs, processus de découpe, conditionnement OEM"
+      "title": "Fabrication et contrôle qualité d'abrasifs — Usine MoTai en Hubei",
+      "description": "Dans l'atelier abrasif MoTai : conversion et coupe, contrôles d'échantillons, contrôle qualité et emballage OEM pour bandes, disques et disques à lamelles.",
+      "keywords": "fabrication d'abrasifs, contrôle qualité d'usine, conversion d'abrasifs, emballage OEM"
     },
     "oem": {
-      "title": "OEM et marque propre chez MoTai — votre marque, notre gamme",
-      "description": "Apportez votre logo, étiquettes, tailles et conditionnement à MoTai : étude de faisabilité et offre selon la spécification confirmée.",
-      "keywords": "abrasifs OEM, disques de ponçage private label, conditionnement d'abrasifs sur mesure"
+      "title": "Fabricant OEM d'abrasifs et marque de commerce | MoTai",
+      "description": "Fabrication d'abrasifs OEM et de marque de commerce : votre logo, étiquettes, tailles et emballage sur bandes, disques et disques à lamelles MoTai, chiffré selon votre spécification confirmée.",
+      "keywords": "fabricant OEM d'abrasifs, abrasifs de marque de commerce, produits abrasifs personnalisés, fournisseur OEM d'abrasifs"
     },
     "applications": {
-      "title": "Abrasifs pour votre industrie — Applications",
-      "description": "Sélection d'abrasifs pour la métallurgie, le bois, l'automobile, l'acier inoxydable, la construction navale et la préparation de surfaces industrielles.",
-      "keywords": "applications abrasives, métallurgie, abrasifs bois, préparation de surface"
+      "title": "Abrasifs industriels par application — Métal, bois, automobile et plus",
+      "description": "Adaptez bandes, disques et disques à lamelles MoTai à votre application : meulage du métal, ponçage du bois, tôle de caisse, finition inox, construction navale et préparation des surfaces.",
+      "keywords": "applications d'abrasifs, meulage du métal, ponçage du bois, préparation des surfaces, préparation industrielle des surfaces"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Abrasifs pour la fabrication métallique — Meulage et dégratage | MoTai",
+        "description": "Abrasifs pour la fabrication métallique : meulage du métal, dégratage et meulage de soudures avec bandes, maille et disques à lamelles MoTai.",
+        "keywords": "abrasifs pour fabrication métallique, meulage du métal, dégratage du métal, meulage de soudures"
+      },
+      "woodworking": {
+        "title": "Abrasifs pour le travail du bois et le ponçage à bande large | MoTai",
+        "description": "Abrasifs pour le travail du bois et l'ameublement : ponçage à bande large, panneaux de bois et MDF avec bandes et disques de ponçage MoTai.",
+        "keywords": "abrasifs pour bois, ponçage à bande large, ponçage du bois, ponçage d'ameublement"
+      },
+      "automotive": {
+        "title": "Ponçage de réparation automobile — Tôle et peinture | MoTai",
+        "description": "Abrasifs pour la réparation automobile : ponçage de tôles, ponçage de peinture et de primaire avec disques PSA et Velcro MoTai.",
+        "keywords": "abrasifs automobiles, ponçage de tôles, ponçage de peinture, ponçage de primaire"
+      },
+      "stainless-steel": {
+        "title": "Finition et polissage de l'acier inoxydable | MoTai",
+        "description": "Abrasifs pour l'acier inoxydable : polissage du métal, meulage et finition de surface avec disques à lamelles et bandes MoTai.",
+        "keywords": "finition de l'acier inoxydable, polissage du métal, meulage de surface, abrasif en acier inoxydable"
+      },
+      "shipbuilding": {
+        "title": "Abrasifs pour la construction navale — Plaque d'acier et élimination de la rouille | MoTai",
+        "description": "Abrasifs haute capacité pour la construction navale : meulage de la plaque d'acier, élimination de la rouille et préparation industrielle des surfaces avec bandes et disques à lamelles MoTai.",
+        "keywords": "abrasifs de construction navale, meulage de plaque d'acier, élimination de la rouille, meulage haute capacité"
+      },
+      "surface-preparation": {
+        "title": "Préparation de surface industrielle et abrasifs de meulage | MoTai",
+        "description": "Solutions d'abrasifs industriels pour la préparation de surface, la finition de surface et le meulage de haute capacité sur bandes, disques et disques à lamelles MoTai.",
+        "keywords": "préparation de surface, finition de surface, meulage industriel, solutions d'abrasifs"
+      }
     },
     "blog": {
-      "title": "Actualités & Ressources acheteur",
-      "description": "Ressources pratiques pour acheteurs : choix du support de disque, listes de vérification de demande de courrois, séquences de grains et normes de gradation.",
-      "keywords": "guide acheteur abrasifs, séquence de grains, velcro vs PSA"
+      "title": "Guides d'achat d'abrasifs et normes de grain | MoTai",
+      "description": "Ressources pratiques pour l'acheteur : choix du montage de disque, listes de contrôle des bandes, séquences de grain, collecte de la poussière et normes de grain (FEPA/ANSI).",
+      "keywords": "guide d'achat d'abrasifs, choix du grain, glossaire des abrasifs, normes de grain FEPA ANSI"
     },
     "contact": {
-      "title": "Parler avec MoTai — gros et OEM",
-      "description": "Joignez l'équipe commerciale MoTai à Xianning, Hubei pour les courrois, disques et ailettes : téléphone, e-mail, WhatsApp et visite d'usine.",
-      "keywords": "contact MoTai, demande de gros d'abrasifs, fournisseur d'abrasifs"
+      "title": "Contacter MoTai — Fournisseur d'abrasifs en Chine",
+      "description": "Joignez le fournisseur MoTai à Xianning, Hubei : téléphone, e-mail et WhatsApp pour les demandes d'abrasifs en gros et OEM, et visites d'usine.",
+      "keywords": "contact fournisseur d'abrasifs, demande d'achat en gros d'abrasifs, fabricant d'abrasifs Chine"
     },
     "privacy": {
       "title": "Politique de confidentialité",
@@ -771,68 +803,68 @@
     },
     "terms": {
       "title": "Conditions d'utilisation — MoTai Abrasives",
-      "description": "Conditions de ce site B2B : traitement des demandes, prix sur devis, propriété intellectuelle et droit applicable.",
+      "description": "Conditions pour ce site B2B d'abrasifs : traitement des demandes, prix sur devis, propriété intellectuelle et loi applicable.",
       "keywords": [
         "conditions d'utilisation",
         "MoTai",
-        "abrasifs B2B"
+        "fournisseur d'abrasifs B2B"
       ]
     },
     "quote": {
-      "title": "Demander un devis de gros",
-      "description": "Préparez votre demande de gros ou OEM MoTai : informations professionnelles plus produit, taille, grain, quantité et destination.",
-      "keywords": "devis de gros d'abrasifs, demande d'abrasifs OEM"
+      "title": "Demander un devis d'abrasifs en gros | MoTai",
+      "description": "Préparez votre demande d'abrasifs en gros ou OEM : coordonnées de l'entreprise plus produit, taille, grain, quantité et destination. Les fournitures en vrac sont chiffrées directement usine.",
+      "keywords": "devis d'abrasifs en gros, fournitures d'abrasifs en vrac, demande d'abrasifs OEM, achat en gros d'abrasifs"
     },
     "clients": {
-      "title": "Approvisionnement mondial — De Hubei à votre marché",
-      "description": "MoTai approvisionne sept régions de destination : Europe, Amériques, Moyen-Orient, Afrique, Océanie et Asie.",
-      "keywords": "approvisionnement mondial d'abrasifs, export d'abrasifs, régions MoTai"
+      "title": "Exportateur de produits d'abrasifs — Approvisionnement mondial depuis Hubei, Chine | MoTai",
+      "description": "MoTai exporte bandes, disques et disques à lamelles vers sept régions de destination : Europe, Amériques, Moyen-Orient, Afrique, Océanie et Asie.",
+      "keywords": "exportateur de produits d'abrasifs, exportation d'abrasifs, approvisionnement mondial d'abrasifs, fournisseur d'abrasifs industriels"
     },
     "glossary": {
-      "title": "Glossaire des abrasifs — Grain, Support, Termes de disque",
-      "description": "24 termes abrasifs définis : grain FEPA, supports, velcro, PSA, treillis, déburage et plus encore.",
-      "keywords": "glossaire des abrasifs, normes de grain, termes abrasifs"
+      "title": "Glossaire des abrasifs — Grain, support, termes de disque",
+      "description": "24 termes d'abrasifs définis : grain FEPA, supports, Velcro, PSA, maille ouverte, dégratage et plus.",
+      "keywords": "glossaire des abrasifs, normes de grain, termes des abrasifs"
     },
     "product": {
-      "title": "MoTai {name} — approvisionnement B2B",
-      "description": "MoTai {name} : {desc} Tailles de la gamme : {sizes}. Grains : {grits}. L'offre, le MOQ et les conditions arrivent avec le devis de votre commande.",
-      "keywords": "{name}, abrasif MoTai, abrasifs en gros, abrasifs OEM"
+      "title": "MoTai {name} — Abrasifs en gros et OEM",
+      "description": "MoTai {name} ({material}, {category}) : {desc} Tailles : {sizes}. Grains : {grits}. Fourniture en gros et OEM directe usine.",
+      "keywords": "{name}, fabricant {category}, abrasif {material}, abrasif en gros, abrasif OEM"
     },
     "model": {
-      "title": "Courrois MoTai de référence {model}",
-      "description": "Modèle de référence {model} de la gamme MoTai — parlez dimensions, grain et support avec l’équipe ; la spécification se fixe au devis.",
-      "keywords": "courrois abrasif {model}, référence de modèle de courrois, courrois abrasifs en gros"
+      "title": "Bande abrasive {model} — MoTai",
+      "description": "Modèle de référence de bande abrasive {model} de la gamme MoTai — largeur, longueur, grain et support sont définis avec le devis. Fourniture en gros et OEM.",
+      "keywords": "bande abrasive {model}, référence de modèle de bande, bandes abrasives en gros"
     },
     "disc": {
-      "title": "Variante de disque MoTai : {title}",
-      "description": "Variante documentée de disque MoTai {title} : grains, diamètre et fixation se confirment au devis.",
-      "keywords": "disque de ponçage, disque velcro, disque PSA, MoTai"
+      "title": "MoTai {title} — Gros et OEM",
+      "description": "Variante de disque MoTai {title} : plage de grains, diamètre et fixation sont définis avec le devis. Gros et OEM directs usine.",
+      "keywords": "disque de ponçage, disque Velcro, disque PSA, disque en maille, disques de ponçage en gros"
     },
     "flap": {
-      "title": "Disque à ailettes MoTai {name}",
-      "description": "MoTai {name} : disque à ailettes à support {backing} pour l’ébavurage, la transition et la finition du métal.",
-      "keywords": "disque à ailettes, disque à ailettes {backing} support, MoTai"
+      "title": "MoTai {name} — Fabricant de disques à lamelles",
+      "description": "MoTai {name} : disque abrasif à lamelles support {backing} pour meulage, transition et finition du métal. Fourniture en gros et OEM.",
+      "keywords": "disque à lamelles, disque à lamelles support {backing}, disque à lamelles en zircone, fabricant de disques à lamelles, disques à lamelles en gros"
     },
     "colt": {
       "belts": {
-        "title": "Courrois — gamme MoTai",
-        "description": "Courrois abrasifs rouges de 533×75 à 2200×1330 mm, grains 40–800, avec modèles de référence. Gros & OEM.",
-        "keywords": "courrois abrasifs, courrois abrasifs en gros, courrois OEM"
+        "title": "Fabricant et fournisseur en gros de bandes abrasives | MoTai",
+        "description": "Bandes abrasives de grande largeur et industrielles de 533×75 à 2200×1330 mm, grains 40–800, en alumine, zircone et carbure de silicium — avec modèles de référence GXK-51, XZ-330, GPC71 et plus. Gros et OEM directs usine.",
+        "keywords": "bandes abrasives, bandes de ponçage, bandes abrasives de grande largeur, bandes abrasives en alumine, bandes abrasives en zircone, bandes abrasives en carbure de silicium, fabricant de bandes abrasives, fournisseur de bandes abrasives, bandes abrasives en gros"
       },
       "discs": {
-        "title": "Disques de ponçage — gamme MoTai",
-        "description": "Disques de ponçage PSA, velcro, treillis et sans trou, 3–6 pouces, grains 60–5000. Gros & OEM.",
-        "keywords": "disques de ponçage, disques PSA, disques velcro, gros"
+        "title": "Fabricant de disques de ponçage — PSA, Velcro et maille | MoTai",
+        "description": "Disques Velcro, PSA, maille et non perforés de 3 à 6 pouces, grains 60–5000, pour tôles, bois et finition du métal. Gros et OEM directs usine.",
+        "keywords": "disques de ponçage, disques de ponçage abrasifs, disques de ponçage Velcro, disques de ponçage PSA, disques de ponçage en maille, disques de ponçage non tissés, disques de ponçage 5 pouces, disques de ponçage 6 pouces, fabricant de disques de ponçage, disques de ponçage en gros"
       },
       "flap": {
-        "title": "Disques à ailettes — gamme MoTai",
-        "description": "Disques à ailettes MOTAI avec support plastique, acier et fibre de verre pour rectification et finition.",
-        "keywords": "disques à ailettes, disque à ailettes de rectification, MoTai"
+        "title": "Fabricant de disques à lamelles — Zircone et alumine | MoTai",
+        "description": "Disques abrasifs à lamelles MoTai à support en plastique, acier et fibre de verre, en zircone et alumine, pour meulage, dégratage et finition du métal. Fourniture en gros et OEM.",
+        "keywords": "disques à lamelles, disques à lamelles abrasifs, disques à lamelles en zircone, disques à lamelles en alumine, disques à lamelles support fibre de verre, disques à lamelles support plastique, disques à lamelles support acier, disques à lamelles 100 mm, disques à lamelles 115 mm, disques à lamelles 125 mm, disques à lamelles 150 mm, disques à lamelles 180 mm, fabricant de disques à lamelles, fournisseur de disques à lamelles, disques à lamelles en gros"
       },
       "all": {
-        "title": "Catalogue d'abrasifs MoTai",
-        "description": "Le catalogue abrasif complet de MoTai : courrois, disques et disques à ailettes pour acheteurs B2B.",
-        "keywords": "produits abrasifs, catalogue MoTai"
+        "title": "Abrasifs en gros — Bandes, disques et disques à lamelles | MoTai",
+        "description": "Le catalogue complet MoTai : bandes abrasives industrielles, disques de ponçage et disques à lamelles pour distributeurs, importateurs, grossistes et marques OEM. Gros direct, personnalisation et exportation depuis Hubei, Chine.",
+        "keywords": "produits d'abrasifs, produits d'abrasifs en gros, abrasifs industriels, abrasifs recouverts, achat en gros d'abrasifs, usine de produits d'abrasifs, exportateur de produits d'abrasifs"
       }
     }
   }

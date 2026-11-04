@@ -730,109 +730,141 @@
   },
   "tdk": {
     "home": {
-      "title": "MoTai Abrasives — nastri, dischi e patta da Hubei, Cina",
-      "description": "Gamma di nastri abrasivi, dischi e patta dallo stabilimento MoTai in Hubei: nastri in ossido di alluminio, dischi PSA / hook-loop / rete e patta, per fornitura B2B e private label.",
-      "keywords": "nastri abrasivi, dischi di levigatura, dischi a patta, abrasivi OEM, fornitore abrasivi all'ingrosso, MoTai"
+      "title": "Produttore di abrasivi e fornitore di abrasivi industriali | MoTai",
+      "description": "Produttore professionale di abrasivi in Cina: nastri, dischi e dischi lamellari. Diretto da fabbrica — all'ingrosso, personalizzazione OEM e soluzioni di abrasivi industriali per distributori e acquirenti di tutto il mondo.",
+      "keywords": "produttore di abrasivi, fornitore di abrasivi, abrasivi industriali, nastri abrasivi, dischi di carteggiatura, dischi lamellari"
     },
     "about": {
-      "title": "Chi è MoTai — lo stabilimento di abrasivi a Xianning, Hubei",
-      "description": "Cosa produce Hubei MoTai Abrasives Materials Co., Ltd. e come spedisce: l'azienda, le sue linee e la fornitura per regione.",
-      "keywords": "MoTai Abrasives, produttore abrasivi Hubei, fornitore abrasivi B2B"
+      "title": "Su MoTai — Produttore e fabbrica di abrasivi in Hubei, Cina",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. è un produttore di abrasivi rivestiti a Xianning, Hubei: nastri, dischi e dischi lamellari con OEM, dimensioni personalizzate, fornitura in massa ed export.",
+      "keywords": "produttore di abrasivi Cina, fabbrica di abrasivi, produttore di abrasivi rivestiti, fornitore B2B di abrasivi"
     },
     "factory": {
-      "title": "Dentro lo stabilimento MoTai — taglio, controlli, imballo",
-      "description": "Come si gestiscono gli ordini MoTai: taglio e conversione, controllo campioni, imballo OEM e preparazione della spedizione.",
-      "keywords": "produzione abrasivi, QC abrasivi, processo di taglio, imballo OEM"
+      "title": "Produzione e controllo qualità degli abrasivi — Fabbrica MoTai in Hubei",
+      "description": "All'interno del laboratorio MoTai: conversione e taglio, controlli campioni, controllo qualità e confezionamento OEM per nastri, dischi e dischi lamellari.",
+      "keywords": "produzione di abrasivi, controllo qualità di fabbrica, conversione di abrasivi, confezionamento OEM"
     },
     "oem": {
-      "title": "OEM e private label da MoTai — il tuo marchio, la nostra gamma",
-      "description": "Porta a MoTai il tuo logo, etichette, misure e packaging: verifica di fattibilità e offerta sulla specifica confermata.",
-      "keywords": "abrasivi OEM, dischi di levigatura private label, packaging abrasivi personalizzato"
+      "title": "Produttore OEM di abrasivi e marchio privato | MoTai",
+      "description": "Produzione di abrasivi OEM e di marchio privato: il vostro logo, etichette, dimensioni e confezione su nastri, dischi e dischi lamellari MoTai, preventivato sulla vostra specifica confermata.",
+      "keywords": "produttore OEM di abrasivi, abrasivi di marchio privato, prodotti di abrasivi personalizzati, fornitore OEM di abrasivi"
     },
     "applications": {
-      "title": "Abrasivi per il Tuo Settore — Applicazioni",
-      "description": "Selezione di abrasivi per lamierismo, legno, automotive, acciaio inox, cantieristica e preparazione di superfici industriali.",
-      "keywords": "applicazioni abrasivi, lamierismo, abrasivi per legno, preparazione superfici"
+      "title": "Abrasivi industriali per applicazione — Metallo, legno, automotive e altro",
+      "description": "Adatta i nastri, i dischi e i dischi lamellari MoTai alla tua applicazione: rettifica del metallo, carteggiatura del legno, carrozzeria, finitura inox, cantieristica e preparazione delle superfici.",
+      "keywords": "applicazioni degli abrasivi, rettifica del metallo, carteggiatura del legno, preparazione delle superfici, preparazione industriale delle superfici"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Abrasivi per la carpenteria metallica — Rettifica e sbrunitura | MoTai",
+        "description": "Abrasivi per la carpenteria metallica: rettifica del metallo, sbrunitura e rettifica di saldature con nastri, rete e dischi lamellari MoTai.",
+        "keywords": "abrasivi per carpenteria metallica, rettifica del metallo, sbrunitura del metallo, rettifica di saldature"
+      },
+      "woodworking": {
+        "title": "Abrasivi per il legno e carteggiatura a banda larga | MoTai",
+        "description": "Abrasivi per il legno e l'arredamento: carteggiatura a banda larga, pannelli in legno e MDF con nastri e dischi MoTai.",
+        "keywords": "abrasivi per il legno, carteggiatura a banda larga, carteggiatura del legno, carteggiatura del mobile"
+      },
+      "automotive": {
+        "title": "Carteggiatura per la riparazione automotive — Carrozzeria e vernice | MoTai",
+        "description": "Abrasivi per la riparazione automotive: carteggiatura della carrozzeria, della vernice e del primer con dischi PSA e a velcro MoTai.",
+        "keywords": "abrasivi automotive, carteggiatura della carrozzeria, carteggiatura della vernice, carteggiatura del primer"
+      },
+      "stainless-steel": {
+        "title": "Finitura e lucidatura dell'acciaio inox | MoTai",
+        "description": "Abrasivi per l'acciaio inox: lucidatura del metallo, rettifica e finitura delle superfici con dischi lamellari e nastri MoTai.",
+        "keywords": "finitura dell'acciaio inox, lucidatura del metallo, rettifica delle superfici, abrasivo inox"
+      },
+      "shipbuilding": {
+        "title": "Abrasivi per la cantieristica — Lamiera d'acciaio e rimozione della ruggine | MoTai",
+        "description": "Abrasivi di alta capacità per la cantieristica: rettifica della lamiera d'acciaio, rimozione della ruggine e preparazione industriale delle superfici con nastri e dischi lamellari MoTai.",
+        "keywords": "abrasivi per la cantieristica, rettifica della lamiera d'acciaio, rimozione della ruggine, rettifica di alta capacità"
+      },
+      "surface-preparation": {
+        "title": "Preparazione delle superfici industriale e abrasivi di rettifica | MoTai",
+        "description": "Soluzioni di abrasivi industriali per la preparazione delle superfici, la finitura e la rettifica di alta capacità sui nastri, i dischi e i dischi lamellari MoTai.",
+        "keywords": "preparazione delle superfici, finitura delle superfici, rettifica industriale, soluzioni di abrasivi"
+      }
     },
     "blog": {
-      "title": "News e Risorse per Acquirenti",
-      "description": "Risorse pratiche per acquirenti: selezione del supporto dei dischi, check-list richieste per nastri, sequenze di grane e standard di classificazione.",
-      "keywords": "guida acquisto abrasivi, sequenza di grane, gancetto vs PSA"
+      "title": "Guide per l'acquirente di abrasivi e norme sui gradi | MoTai",
+      "description": "Risorse pratiche per l'acquirente: scelta dell'attacco del disco, check list dei nastri, sequenze dei gradi, raccolta della polvere e norme sui gradi (FEPA/ANSI).",
+      "keywords": "guida per l'acquisto di abrasivi, scelta del grado, glossario degli abrasivi, norme sui gradi FEPA ANSI"
     },
     "contact": {
-      "title": "Contattare MoTai — ingrosso e OEM",
-      "description": "Parla con il team commerciale MoTai a Xianning, Hubei su nastri, dischi e patta: telefono, e-mail, WhatsApp e visite in fabbrica.",
-      "keywords": "contatti MoTai, richiesta abrasivi all'ingrosso, fornitore abrasivi"
+      "title": "Contatta MoTai — Fornitore di abrasivi in Cina",
+      "description": "Raggiungi il fornitore MoTai a Xianning, Hubei: telefono, e-mail e WhatsApp per le richieste di abrasivi all'ingrosso e OEM, più visite in fabbrica.",
+      "keywords": "contatto con il fornitore di abrasivi, richiesta di abrasivi all'ingrosso, produttore di abrasivi Cina"
     },
     "privacy": {
-      "title": "Informativa Privacy",
-      "description": "Come MoTai Abrasives utilizza le informazioni delle richieste: raccolta, finalità, conservazione, le tue scelte e gestione dei cookie.",
-      "keywords": "informativa privacy, MoTai"
+      "title": "Informativa sulla privacy",
+      "description": "Come MoTai Abrasives utilizza le informazioni della richiesta: raccolta, finalità, conservazione, le tue scelte e gestione dei cookie.",
+      "keywords": "informativa sulla privacy, MoTai"
     },
     "terms": {
       "title": "Termini di utilizzo — MoTai Abrasives",
-      "description": "Termini di questo sito B2B: richieste, prezzi su preventivo, proprietà intellettuale e legge applicabile.",
+      "description": "Termini per questo sito B2B di abrasivi: gestione delle richieste, prezzi su preventivo, proprietà intellettuale e legge applicabile.",
       "keywords": [
         "termini di utilizzo",
         "MoTai",
-        "abrasivi B2B"
+        "fornitore B2B di abrasivi"
       ]
     },
     "quote": {
-      "title": "Richiedi un Preventivo all'Ingrosso",
-      "description": "Prepara la tua richiesta all'ingrosso o OEM MoTai: dati aziendali più prodotto, misura, grana, quantità e destinazione.",
-      "keywords": "preventivo abrasivi all'ingrosso, richiesta abrasivi OEM"
+      "title": "Richiedi un preventivo di abrasivi all'ingrosso | MoTai",
+      "description": "Prepara la tua richiesta di abrasivi all'ingrosso o OEM: dati aziendali oltre a prodotto, dimensione, grado, quantità e destinazione. I fornimenti in massa sono preventivati direttamente dalla fabbrica.",
+      "keywords": "preventivo di abrasivi all'ingrosso, fornimenti in massa di abrasivi, richiesta di abrasivi OEM, ingrosso di abrasivi"
     },
     "clients": {
-      "title": "Forniture Globali — Da Hubei al Tuo Mercato",
-      "description": "MoTai fornisce sette aree di destinazione: Europa, Americhe, Medio Oriente, Africa, Oceania e Asia.",
-      "keywords": "forniture abrasive globali, export abrasivi, aree MoTai"
+      "title": "Esportatore di prodotti di abrasivi — Fornimento globale dalla Hubei, Cina | MoTai",
+      "description": "MoTai esporta nastri, dischi e dischi lamellari verso sette aree di destinazione: Europa, Americhe, Medio Oriente, Africa, Oceania e Asia.",
+      "keywords": "esportatore di prodotti di abrasivi, export di abrasivi, fornitura globale di abrasivi, fornitore industriale di abrasivi"
     },
     "glossary": {
-      "title": "Glossario degli Abrasivi — Grana, Supporti, Termini dei Dischi",
-      "description": "24 termini abrasivi definiti: grana FEPA, supporti, gancetto, PSA, rete aperta, sbrasatura e altro.",
-      "keywords": "glossario abrasivi, standard di grana, termini abrasivi"
+      "title": "Glossario degli abrasivi — Grado, supporto, termini dei dischi",
+      "description": "24 termini di abrasivi definiti: grado FEPA, supporti, velcro, PSA, rete aperta, sbrunitura e altro.",
+      "keywords": "glossario degli abrasivi, norme sui gradi, termini di abrasivi"
     },
     "product": {
-      "title": "MoTai {name} — fornitura B2B",
-      "description": "MoTai {name}: {desc} Misure nella gamma: {sizes}. Grane: {grits}. Offerta, MOQ e condizioni arrivano con il preventivo del tuo ordine.",
-      "keywords": "{name}, MoTai abrasivo, abrasivi all'ingrosso, abrasivi OEM"
+      "title": "MoTai {name} — Abrasivi all'ingrosso e OEM",
+      "description": "MoTai {name} ({material}, {category}): {desc} Dimensioni: {sizes}. Gradi: {grits}. Fornitura all'ingrosso e OEM diretta da fabbrica.",
+      "keywords": "{name}, produttore {category}, abrasivo {material}, abrasivo all'ingrosso, abrasivo OEM"
     },
     "model": {
-      "title": "Nastro MoTai di riferimento {model}",
-      "description": "Modello di riferimento {model} della gamma MoTai — confronta larghezza, lunghezza, grana e supporto con il team; la specifica si chiude sul preventivo.",
-      "keywords": "{model} nastro abrasivo, modello di riferimento nastro, nastri abrasivi all'ingrosso"
+      "title": "Nastro abrasivo {model} — MoTai",
+      "description": "Modello di riferimento di nastro abrasivo {model} della gamma MoTai — larghezza, lunghezza, grado e supporto sono definiti con il preventivo. Fornitura all'ingrosso e OEM.",
+      "keywords": "nastro abrasivo {model}, modello di riferimento di nastro, nastri abrasivi all'ingrosso"
     },
     "disc": {
-      "title": "Variante di disco MoTai: {title}",
-      "description": "Variante documentata di disco MoTai {title}: grane, diametro e fissaggio si confermano col preventivo.",
-      "keywords": "disco di levigatura, disco a gancetto, disco PSA, MoTai"
+      "title": "MoTai {title} — All'ingrosso e OEM",
+      "description": "Variante di disco MoTai {title}: intervallo di gradi, diametro e attacco sono definiti con il preventivo. All'ingrosso e OEM diretti da fabbrica.",
+      "keywords": "disco di carteggiatura, disco a velcro, disco PSA, disco in rete, dischi di carteggiatura all'ingrosso"
     },
     "flap": {
-      "title": "Disco a patta MoTai {name}",
-      "description": "MoTai {name}: disco a patta con supporto in {backing} per sgrenavatura, transizioni e finitura del metallo.",
-      "keywords": "disco a patta, disco a patta con supporto in {backing}, MoTai"
+      "title": "MoTai {name} — Produttore di dischi lamellari",
+      "description": "MoTai {name}: disco abrasivo lamellare con supporto {backing} per la rettifica, la transizione e la finitura del metallo. Fornitura all'ingrosso e OEM.",
+      "keywords": "disco lamellare, disco lamellare a supporto {backing}, disco lamellare in zirconia, produttore di dischi lamellari, dischi lamellari all'ingrosso"
     },
     "colt": {
       "belts": {
-        "title": "Nastri — gamma MoTai",
-        "description": "Nastri abrasivi rossi da 533×75 a 2200×1330 mm, grane 40–800, con modelli di riferimento. Ingrosso & OEM.",
-        "keywords": "nastri abrasivi, nastri abrasivi all'ingrosso, nastri OEM"
+        "title": "Produttore e fornitore all'ingrosso di nastri abrasivi | MoTai",
+        "description": "Nastri abrasivi di grande larghezza e industriali da 533×75 a 2200×1330 mm, gradi 40–800, in allumina, zirconia e carburo di silicio — con modelli di riferimento GXK-51, XZ-330, GPC71 e altro. All'ingrosso e OEM diretti da fabbrica.",
+        "keywords": "nastri abrasivi, nastri di carteggiatura, nastri abrasivi di grande larghezza, nastri abrasivi in allumina, nastri abrasivi in zirconia, nastri abrasivi in carburo di silicio, produttore di nastri abrasivi, fornitore di nastri abrasivi, nastri abrasivi all'ingrosso"
       },
       "discs": {
-        "title": "Dischi di levigatura — gamma MoTai",
-        "description": "Dischi di levigatura PSA, a gancetto, a rete aperta e senza fori, da 3 a 6 pollici, grane 60–5000. Ingrosso & OEM.",
-        "keywords": "dischi di levigatura, dischi PSA, dischi a gancetto, ingrosso"
+        "title": "Produttore di dischi di carteggiatura — PSA, velcro e rete | MoTai",
+        "description": "Dischi a velcro, PSA, rete e non perforati da 3 a 6 pollici, gradi 60–5000, per carrozzeria, legno e finitura del metallo. All'ingrosso e OEM diretti da fabbrica.",
+        "keywords": "dischi di carteggiatura, dischi di carteggiatura in abrasivo, dischi di carteggiatura a velcro, dischi di carteggiatura PSA, dischi di carteggiatura in rete, dischi di carteggiatura non tessuti, dischi di carteggiatura da 5 pollici, dischi di carteggiatura da 6 pollici, produttore di dischi di carteggiatura, dischi di carteggiatura all'ingrosso"
       },
       "flap": {
-        "title": "Dischi a patta — gamma MoTai",
-        "description": "Dischi a patta MOTAI con supporto in plastica, acciaio e fibra di vetro per levigatura e finitura.",
-        "keywords": "dischi a patta, disco a patta per levigatura, MoTai"
+        "title": "Produttore di dischi lamellari — Zirconia e allumina | MoTai",
+        "description": "Dischi abrasivi lamellari MoTai con supporto in plastica, acciaio e vetroresina, in zirconia e allumina, per la rettifica, la sbrunitura e la finitura del metallo. Fornitura all'ingrosso e OEM.",
+        "keywords": "dischi lamellari, dischi lamellari abrasivi, dischi lamellari in zirconia, dischi lamellari in allumina, dischi lamellari a supporto in vetroresina, dischi lamellari a supporto in plastica, dischi lamellari a supporto in acciaio, dischi lamellari da 100 mm, dischi lamellari da 115 mm, dischi lamellari da 125 mm, dischi lamellari da 150 mm, dischi lamellari da 180 mm, produttore di dischi lamellari, fornitore di dischi lamellari, dischi lamellari all'ingrosso"
       },
       "all": {
-        "title": "Catalogo abrasivi MoTai",
-        "description": "Il catalogo abrasivo completo MoTai: nastri, dischi e dischi a patta per acquirenti B2B.",
-        "keywords": "prodotti abrasivi, catalogo MoTai"
+        "title": "Abrasivi all'ingrosso — Nastri, dischi e dischi lamellari | MoTai",
+        "description": "Il catalogo completo MoTai: nastri abrasivi industriali, dischi di carteggiatura e dischi lamellari per distributori, importatori, grossisti e marchi OEM. All'ingrosso diretto, personalizzazione ed export dalla Hubei, Cina.",
+        "keywords": "prodotti di abrasivi, prodotti di abrasivi all'ingrosso, abrasivi industriali, abrasivi rivestiti, ingrosso di abrasivi, fabbrica di prodotti di abrasivi, esportatore di prodotti di abrasivi"
       }
     }
   }

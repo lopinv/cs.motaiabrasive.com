@@ -730,109 +730,141 @@
   },
   "tdk": {
     "home": {
-      "title": "MoTai Abrasives — Bänder, Scheiben und Flapscheiben aus Hubei, China",
-      "description": "Bänder-, Scheiben- und Flapscheiben-Reihen vom MoTai-Werk in Hubei: Aluminiumoxid-Bänder, PSA- / Klett- / offene-Mesh-Scheiben und Flapscheiben, für B2B- und Eigenmarken-Versorgung.",
-      "keywords": "Schleifbänder, Schleifscheiben, Flapscheiben, OEM-Abriebsmittel, Abriebsmittel-Großhandelslieferant, MoTai"
+      "title": "Schleifmittelhersteller & industrieller Schleifmittellieferant | MoTai",
+      "description": "Professioneller Schleifmittelhersteller in China: Schleifbänder, Schleifscheiben und Flap-Scheiben. Direkte Lieferung ab Werk — Großhandel, OEM-Anpassung und industrielle Schleiflösungen für weltweite Händler und Einkäufer.",
+      "keywords": "Schleifmittelhersteller, Schleifmittellieferant, industrielle Schleifmittel, Schleifbänder, Schleifscheiben, Flap-Scheiben"
     },
     "about": {
-      "title": "Über MoTai — das Abriebsmittel-Werk in Xianning, Hubei",
-      "description": "Was Hubei MoTai Abrasives Materials Co., Ltd. fertigt und wie es liefert: das Unternehmen, seine Produktreihen und die regionale Versorgung.",
-      "keywords": "MoTai Abrasives, Abriebsmittelhersteller Hubei, B2B Abriebsmittel-Lieferant"
+      "title": "Über MoTai — Schleifmittelhersteller & Fabrik in Hubei, China",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. ist ein Hersteller beschichteter Schleifmittel in Xianning, Hubei: Schleifbänder, Schleifscheiben und Flap-Scheiben mit OEM, Sondermaßen, Großlieferung und Export.",
+      "keywords": "Schleifmittelhersteller China, Schleifmittelfabrik, Hersteller beschichteter Schleifmittel, B2B-Schleifmittellieferant"
     },
     "factory": {
-      "title": "Im MoTai-Werk — Schnitt, Prüfung, Verpackung",
-      "description": "So laufen MoTai-Bestellungen: Zuschnitt und Konvertierung, Musterprüfung, OEM-Verpackung und Versandvorbereitung.",
-      "keywords": "Abriebsmittelproduktion, Abriebsmittel QC, Schnittleistung, OEM-Verpackung"
+      "title": "Fertigung & QC von Schleifmitteln — MoTai-Fabrik in Hubei",
+      "description": "In der MoTai-Schleifwerkstatt: Umformung und Zuschnitt, Musterkontrollen, Qualitätsprüfung und OEM-Verpackung für Schleifbänder, Schleifscheiben und Flap-Scheiben.",
+      "keywords": "Schleifmittelfertigung, Schleifmittelfabrik QC, Umformung von Schleifmitteln, OEM-Schleifmittelverpackung"
     },
     "oem": {
-      "title": "OEM und Eigenmarke bei MoTai — Ihre Marke, unsere Reihe",
-      "description": "Bringen Sie Logo, Etiketten, Maße und Verpackung zu MoTai: Machbarkeitsprüfung und Angebot zur bestätigten Spezifikation.",
-      "keywords": "OEM-Abriebsmittel, Eigenmarke Schleifscheiben, individuelle Abriebsmittelverpackung"
+      "title": "OEM-Schleifmittelhersteller & Eigenmarke | MoTai",
+      "description": "OEM- und Eigenmarken-Fertigung von Schleifmitteln: Ihr Logo, Ihre Etiketten, Maße und Verpackung auf MoTai-Bändern, -Scheiben und Flap-Scheiben, kalkuliert nach Ihrer bestätigten Spezifikation.",
+      "keywords": "OEM-Schleifmittelhersteller, Eigenmarken-Schleifmittel, kundenspezifische Schleifmittel, OEM-Schleifmittellieferant"
     },
     "applications": {
-      "title": "Abriebsmittel für Ihre Branche — Anwendungen",
-      "description": "Abriebsmittel­auswahl für Metallbearbeitung, Holzverarbeitung, Automobil, Edelstahl, Schiffsbau und industrielle Oberflächen­vorbereitung.",
-      "keywords": "Abriebsmittelanwendungen, Metallbearbeitung, Holzverarbeitungsabrasives, Oberflächen­vorbereitung"
+      "title": "Industrielle Schleifmittel nach Anwendung — Metall, Holz, Automotive & mehr",
+      "description": "Passen Sie MoTai-Schleifbänder, -Scheiben und Flap-Scheiben an Ihre Anwendung an: Metallschleifen, Holzschleifen, Karosserie, Edelstahl-Finish, Schiffbau und Oberflächenvorbereitung.",
+      "keywords": "Schleifmittelanwendungen, Metallschleifen, Holzschleifen, Oberflächenvorbereitung, industrielle Oberflächenvorbereitung"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Schleifmittel für die Metallbearbeitung — Schleifen & Entgraten | MoTai",
+        "description": "Schleifmittel für die Metallbearbeitung: Metallschleifen, Entgraten und Schweißnaht-Schleifen mit MoTai-Schleifbändern, Gewebeschleifscheiben und Flap-Scheiben.",
+        "keywords": "Schleifmittel für Metallbearbeitung, Metallschleifen, Metall-Entgraten, Schweißnaht-Schleifen"
+      },
+      "woodworking": {
+        "title": "Schleifmittel für Holzbearbeitung & Breitenbandschleifen | MoTai",
+        "description": "Schleifmittel für Holzbearbeitung und Möbeltischlerei: Breitenbandschleifen, Schleifen von Holzplatten und MDF mit MoTai-Schleifbändern und -Scheiben.",
+        "keywords": "Holzschleifmittel, Breitenbandschleifen, Holzschleifen, Möbelschleifen"
+      },
+      "automotive": {
+        "title": "Lack- und Karosserieschleifen — Autoreparatur | MoTai",
+        "description": "Schleifmittel für die Autoreparatur: Karosserie, Lack und Grundanstrich schleifen mit MoTai-PSA- und Klettverschluss-Scheiben.",
+        "keywords": "Autoreparatur-Schleifmittel, Karosserieschleifen, Lack Schleifen, Grundanstrich Schleifen"
+      },
+      "stainless-steel": {
+        "title": "Edelstahl-Finish & Polieren von Schleifmitteln | MoTai",
+        "description": "Schleifmittel für Edelstahl: Metalle polieren, Oberflächen schleifen und Finish mit MoTai-Flap-Scheiben und -Bändern.",
+        "keywords": "Edelstahl-Finish, Metalle polieren, Oberflächen schleifen, Edelstahl-Schleifmittel"
+      },
+      "shipbuilding": {
+        "title": "Schleifmittel für Schiffbau — Stahlplatten & Rostentfernung | MoTai",
+        "description": "Schwere Schleifmittel für den Schiffbau: Stahlplatten schleifen, Rostentfernung und industrielle Oberflächenvorbereitung mit MoTai-Bändern und Flap-Scheiben.",
+        "keywords": "Schiffbau-Schleifmittel, Stahlplatten schleifen, Rostentfernung, Schwerlast-Schleifen"
+      },
+      "surface-preparation": {
+        "title": "Industrielle Oberflächenvorbereitung & Schleifmittel | MoTai",
+        "description": "Industrielle Schleiflösungen für Oberflächenvorbereitung, Oberflächen-Finish und Schwerlast-Schleifen auf MoTai-Bändern, -Scheiben und Flap-Scheiben.",
+        "keywords": "Oberflächenvorbereitung, Oberflächen-Finish, industrielles Schleifen, Schleiflösungen"
+      }
     },
     "blog": {
-      "title": "News & Ressourcen für Einkäufer",
-      "description": "Praktische Ressourcen für Einkäufer: Scheiben­träger­auswahl, Schleifband­anfrage-Checklisten, Körnungs­folgen und Körnungs­standards.",
-      "keywords": "Abriebsmittelkäuferleitfaden, Körnungs­folge, Klett vs. PSA"
+      "title": "Schleifmittel-Einkaufsratgeber & Körnungsstandards | MoTai-Wissen",
+      "description": "Praktische Einkäufer-Ressourcen für Schleifmittel: Auswahl der Scheibenverbindung, Schleifband-Anfragechecklisten, Körnungsfolge, Staubabsaugung und Körnungsstandards (FEPA/ANSI).",
+      "keywords": "Schleifmittel-Einkaufsratgeber, Körnungsfolge, Schleifmittel-Lexikon, Körnungsstandards FEPA ANSI"
     },
     "contact": {
-      "title": "Mit MoTai sprechen — Großhandel und OEM",
-      "description": "Sprechen Sie mit dem MoTai-Vertrieb in Xianning, Hubei über Bänder, Scheiben und Flapscheiben: Telefon, E-Mail, WhatsApp und Werkbesuche.",
-      "keywords": "MoTai Kontakt, Abriebsmittel Großhandelsanfrage, Abriebsmittel-Lieferant"
+      "title": "MoTai kontaktieren — Schleifmittellieferant in China",
+      "description": "Erreichen Sie den MoTai-Schleifmittellieferanten in Xianning, Hubei: Telefon, E-Mail und WhatsApp für Großhandels- und OEM-Schleifmittelanfragen sowie Werksbesuche.",
+      "keywords": "Kontakt zum Schleifmittellieferanten, Schleifmittel-Großhandelsanfrage, Schleifmittelhersteller China"
     },
     "privacy": {
-      "title": "Datenschutzerklärung",
-      "description": "Wie MoTai Abrasives Anfragedaten verwendet: Erhebung, Zweck, Speicherung, Ihre Möglichkeiten und Cookie-Verarbeitung.",
-      "keywords": "Datenschutzerklärung, MoTai"
+      "title": "Datenschutzrichtlinie",
+      "description": "Wie MoTai Abrasives mit den Daten Ihrer Anfrage umgeht: Erhebung, Zweck, Speicherung, Ihre Rechte und Cookies.",
+      "keywords": "Datenschutzrichtlinie, MoTai"
     },
     "terms": {
       "title": "Nutzungsbedingungen — MoTai Abrasives",
-      "description": "Bedingungen für diese B2B-Schleifmittelseite: Anfragen, Angebotspreise, geistiges Eigentum und anwendbares Recht.",
+      "description": "Bedingungen für diesen B2B-Schleifmittel-Webauftritt: Bearbeitung von Anfragen, Preise nach Angebot, geistiges Eigentum und anwendbares Recht.",
       "keywords": [
         "Nutzungsbedingungen",
         "MoTai",
-        "B2B-Schleifmittel"
+        "B2B-Schleifmittellieferant"
       ]
     },
     "quote": {
-      "title": "Großhandelsangebot anfragen",
-      "description": "Bereiten Sie Ihre MoTai-Großhandels- oder OEM-Anfrage vor: Firmendetails plus Produkt, Größe, Körnung, Menge und Bestimmungsort.",
-      "keywords": "Abriebsmittel Großhandelsangebot, OEM Abriebsmittelanfrage"
+      "title": "Großhandels-Angebot für Schleifmittel anfordern | MoTai",
+      "description": "Bereiten Sie Ihre Großhandels- oder OEM-Anfrage vor: Unternehmensangaben plus Produkt, Größe, Körnung, Menge und Bestimmungsort. Großmengen an Schleifmitteln werden direkt ab Werk kalkuliert.",
+      "keywords": "Großhandelsangebot für Schleifmittel, Großmengen an Schleifmitteln, OEM-Schleifmittelanfrage, Schleifmittel-Großhandel"
     },
     "clients": {
-      "title": "Weltweite Belieferung — Von Hubei zu Ihrem Markt",
-      "description": "MoTai beliefert sieben Zielregionen: Europa, die Amerikas, den Nahen Osten, Afrika, Ozeanien und Asien.",
-      "keywords": "Abriebsmittel Welt-Lieferant, Export-Abriebsmittel, MoTai Regionen"
+      "title": "Exporteur von Schleifmitteln — weltweite Lieferung aus Hubei, China | MoTai",
+      "description": "MoTai exportiert Schleifbänder, Schleifscheiben und Flap-Scheiben in sieben Zielregionen: Europa, die Amerikas, den Nahen Osten, Afrika, Ozeanien und Asien.",
+      "keywords": "Schleifmittel-Exporteur, Schleifmittel-Export, weltweite Schleifmittelbelieferung, industrieller Schleifmittellieferant"
     },
     "glossary": {
-      "title": "Glossar der Abriebsmittel — Körnung, Träger, Scheiben­begriffe",
-      "description": "24 Abriebsmittel­begriffe erklärt: FEPA-Körnung, Träger, Klett, PSA, offenmaschig, Entgraten und mehr.",
-      "keywords": "Abriebsmittelglossar, Körnungs­standards, Abriebsmittel­begriffe"
+      "title": "Schleifmittel-Lexikon — Körnung, Unterlage, Scheibenbegriffe",
+      "description": "24 Schleifmittelbegriffe erklärt: FEPA-Körnung, Unterlagen, Klettverschluss, PSA, offenes Gewebe, Entgraten und mehr.",
+      "keywords": "Schleifmittel-Lexikon, Körnungsstandards, Schleifmittelbegriffe"
     },
     "product": {
-      "title": "MoTai {name} — B2B-Versorgung",
-      "description": "MoTai {name}: {desc} Größen der Reihe: {sizes}. Körnungen: {grits}. Angebot, MOQ und Konditionen kommen mit der Offerte für Ihre Bestellung.",
-      "keywords": "{name}, MoTai Abriebsmittel, Abriebsmittel Großhandel, OEM Abriebsmittel"
+      "title": "MoTai {name} — Schleifmittel für Großhandel & OEM",
+      "description": "MoTai {name} ({material}, {category}): {desc} Größen: {sizes}. Körnungen: {grits}. Direkter Großhandel und OEM-Lieferung ab Werk.",
+      "keywords": "{name}, {category}-Hersteller, {material}-Schleifmittel, Schleifmittel-Großhandel, OEM-Schleifmittel"
     },
     "model": {
-      "title": "MoTai-Bandreferenz {model}",
-      "description": "Referenzmodell {model} der MoTai-Bänder — Maße, Körnung, Korn und Träger mit dem Team besprechen; die Spezifikation steht im Angebot.",
-      "keywords": "{model} Schleifband, Band­modell Referenz, Schleifbänder Großhandel"
+      "title": "Schleifband {model} — MoTai",
+      "description": "Referenzmodell für Schleifband {model} aus dem MoTai-Sortiment — Breite, Länge, Körnung und Unterlage werden mit dem Angebot festgelegt. Großhandels- und OEM-Lieferung.",
+      "keywords": "{model} Schleifband, Referenzmodell Schleifband, Schleifbänder Großhandel"
     },
     "disc": {
-      "title": "Scheibenvariante MoTai: {title}",
-      "description": "Dokumentierte MoTai-Scheibenvariante {title}: Körnungen, Durchmesser und Befestigung stehen im Angebot.",
-      "keywords": "Schleif­Scheibe, Klett­Scheibe, PSA Scheibe, MoTai"
+      "title": "MoTai {title} — Großhandel & OEM",
+      "description": "MoTai-Scheibenvariante {title}: Körnungsband, Durchmesser und Befestigung werden mit dem Angebot festgelegt. Direkter Großhandel und OEM ab Werk.",
+      "keywords": "Schleifscheibe, Klettverschluss-Scheibe, PSA-Scheibe, Gewebescheibe, Schleifscheiben Großhandel"
     },
     "flap": {
-      "title": "MoTai-Flapscheibe {name}",
-      "description": "MoTai {name}: Flapscheibe mit {backing}-Träger für Entgraten, Übergänge und Finish von Metallen.",
-      "keywords": "Flap­Scheibe, {backing}-Träger Flap­Scheibe, MoTai"
+      "title": "MoTai {name} — Flap-Scheiben-Hersteller",
+      "description": "MoTai {name}: Flap-Scheibe auf {backing}-Unterlage zum Schleifen, Bearbeiten und Finishen von Metall. Großhandels- und OEM-Lieferung.",
+      "keywords": "Flap-Scheibe, {backing}-Unterlage-Flap-Scheibe, Zirkonia-Flap-Scheibe, Flap-Scheiben-Hersteller, Flap-Scheiben Großhandel"
     },
     "colt": {
       "belts": {
-        "title": "Bänder — MoTai-Reihe",
-        "description": "Rote Schleifbänder 533×75 bis 2200×1330 mm, Körnungen 40–800, mit Referenz­modellen. Großhandel & OEM.",
-        "keywords": "Schleifbänder, Schleifbänder Großhandel, OEM Bänder"
+        "title": "Schleifbandhersteller & Großhandelslieferant | MoTai",
+        "description": "Breite und industrielle Schleifbänder von 533×75 bis 2200×1330 mm, Körnungen 40–800, aus Aluminiumoxid, Zirkonoxid und Siliziumkarbid — mit Referenzmodellen GXK-51, XZ-330, GPC71 u. a. Direkter Großhandel und OEM ab Werk.",
+        "keywords": "Schleifbänder, Schleifbänder, breite Schleifbänder, Aluminiumoxid-Schleifbänder, Zirkonia-Schleifbänder, Siliziumkarbid-Schleifbänder, Schleifbandhersteller, Schleifbandlieferant, Schleifbänder Großhandel"
       },
       "discs": {
-        "title": "Schleifscheiben — MoTai-Reihe",
-        "description": "PSA-, Klett-, offenmaschige und lochlose Schleifscheiben, 3–6 Zoll, Körnungen 60–5000. Großhandel & OEM.",
-        "keywords": "Schleifscheiben, PSA Scheiben, Klett Scheiben, Großhandel"
+        "title": "Schleifscheibenhersteller — PSA, Klettverschluss & Gewebe | MoTai",
+        "description": "Klettverschluss-, PSA-, Gewebe- und Voll-Schleifscheiben von 3 bis 6 Zoll, Körnungen 60–5000, für Karosserie, Holz und Metall-Finish. Direkter Großhandel und OEM ab Werk.",
+        "keywords": "Schleifscheiben, Schleifmittel-Schleifscheiben, Klettverschluss-Schleifscheiben, PSA-Schleifscheiben, Gewebescheiben, Vlies-Schleifscheiben, 5-Zoll-Schleifscheiben, 6-Zoll-Schleifscheiben, Schleifscheibenhersteller, Schleifscheiben Großhandel"
       },
       "flap": {
-        "title": "Flapscheiben — MoTai-Reihe",
-        "description": "MOTAI Flap­Scheiben mit Kunststoff-, Stahl- und Glasfaser­träger für Schleifen und Finish.",
-        "keywords": "Flap­Scheiben, Schleif Flap­Scheibe, MoTai"
+        "title": "Flap-Scheibenhersteller — Zirkonoxid & Aluminiumoxid | MoTai",
+        "description": "MoTai-Flap-Scheiben mit Kunststoff-, Stahl- und GFK-Unterlage, aus Zirkonoxid und Aluminiumoxid, zum Schleifen, Entgraten und Finishen von Metall. Großhandels- und OEM-Lieferung.",
+        "keywords": "Flap-Scheiben, Schleif-Flap-Scheiben, Zirkonia-Flap-Scheiben, Aluminiumoxid-Flap-Scheiben, GFK-Unterlage-Flap-Scheiben, Kunststoff-Unterlage-Flap-Scheiben, Stahl-Unterlage-Flap-Scheiben, 100-mm-Flap-Scheiben, 115-mm-Flap-Scheiben, 125-mm-Flap-Scheiben, 150-mm-Flap-Scheiben, 180-mm-Flap-Scheiben, Flap-Scheibenhersteller, Flap-Scheibenlieferant, Flap-Scheiben Großhandel"
       },
       "all": {
-        "title": "MoTai-Abriebsmittel-Katalog",
-        "description": "Das komplette MoTai Abriebsmittelsortiment: Bänder, Scheiben und Flap­Scheiben für B2B-Käufer.",
-        "keywords": "Abriebsmittelprodukte, MoTai Sortiment"
+        "title": "Schleifmittel Großhandel — Bänder, Scheiben & Flap-Scheiben | MoTai",
+        "description": "Das komplette MoTai-Schleifmittel-Sortiment: industrielle Schleifbänder, Schleifscheiben und Flap-Scheiben für Händler, Importeure, Großhändler und OEM-Marken. Direkter Großhandel, Anpassung und Export aus Hubei, China.",
+        "keywords": "Schleifmittel, Schleifmittel Großhandel, industrielle Schleifmittel, beschichtete Schleifmittel, Schleifmittel Großhandel, Schleifmittelfabrik, Schleifmittel-Exporteur"
       }
     }
   }

@@ -730,109 +730,141 @@
   },
   "tdk": {
     "home": {
-      "title": "MoTai Abrasives — cintas, discos y aletas desde Hubei, China",
-      "description": "Gamas de cintas abrasivas, discos y aletas desde la fábrica MoTai de Hubei: cintas de óxido de aluminio, discos PSA / gancho-bucle / malla y aletas, para suministro B2B y de marca propia.",
-      "keywords": "cintas abrasivas, discos de lijado, discos de aleta, abrasivos OEM, proveedor mayorista, MoTai"
+      "title": "Fabricante de abrasivos y proveedor industrial de abrasivos | MoTai",
+      "description": "Fabricante profesional de abrasivos en China: cintas, discos y discos de solapamiento. Directo de fábrica: mayorista, personalización OEM y soluciones industriales para distribuidores y compradores de todo el mundo.",
+      "keywords": "fabricante de abrasivos, proveedor de abrasivos, abrasivos industriales, cintas abrasivas, discos de lija, discos de solapamiento"
     },
     "about": {
-      "title": "Sobre MoTai — la fábrica de abrasivos en Xianning, Hubei",
-      "description": "Qué fabrica Hubei MoTai Abrasives Materials Co., Ltd. y cómo lo envía: la empresa, sus líneas de producto y su suministro regional.",
-      "keywords": "MoTai, fabricante de abrasivos Hubei, proveedor B2B"
+      "title": "Acerca de MoTai — Fabricante y fábrica de abrasivos en Hubei, China",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. es un fabricante de abrasivos recubiertos en Xianning, Hubei: cintas abrasivas, discos de lija y discos de solapamiento con OEM, tamaños a medida, suministro en volumen y exportación.",
+      "keywords": "fabricante de abrasivos China, fábrica de abrasivos, fabricante de abrasivos recubiertos, proveedor B2B de abrasivos"
     },
     "factory": {
-      "title": "Dentro del taller MoTai — corte, revisiones y empaque",
-      "description": "Cómo se gestionan los pedidos MoTai: corte y conversión, revisión de muestras, empaque OEM y preparación del envío.",
-      "keywords": "fabricación de abrasivos, QC, proceso de corte, empaque OEM"
+      "title": "Fabricación y control de calidad de abrasivos — Fábrica MoTai en Hubei",
+      "description": "Dentro del taller de MoTai: conversión y corte, comprobación de muestras, control de calidad y embalaje OEM para cintas, discos y discos de solapamiento.",
+      "keywords": "fabricación de abrasivos, control de calidad de fábrica, conversión de abrasivos, embalaje OEM"
     },
     "oem": {
-      "title": "OEM y marca propia en MoTai — su marca, nuestra gama",
-      "description": "Traiga su logo, etiquetas, tamaños y embalaje a MoTai: análisis de viabilidad y oferta contra la especificación confirmada.",
-      "keywords": "abrasivos OEM, discos de marca propia, embalaje a medida"
+      "title": "Fabricante OEM y marca privada | MoTai",
+      "description": "Fabricación OEM y de marca privada de abrasivos: su logotipo, etiquetas, tallas y embalaje sobre cintas, discos y discos de solapamiento MoTai, presupuestado según su especificación confirmada.",
+      "keywords": "fabricante OEM de abrasivos, abrasivos de marca privada, productos de abrasivos personalizados, proveedor OEM de abrasivos"
     },
     "applications": {
-      "title": "Abrasivos para su industria — Aplicaciones",
-      "description": "Selección de abrasivos para fabricación metálica, carpintería, automotriz, inox, naval y preparación de superficies.",
-      "keywords": "aplicaciones de abrasivos, metal, carpintería, preparación de superficies"
+      "title": "Abrasivos industriales por aplicación — Metal, madera, automoción y más",
+      "description": "Adapte las cintas, discos y discos de solapamiento de MoTai a su aplicación: pulido de metal, lijado de madera, carrocería, acabado de acero inoxidable, construcción naval y preparación de superficies.",
+      "keywords": "aplicaciones de abrasivos, pulido de metal, lijado de madera, preparación de superficies, preparación industrial de superficies"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Abrasivos para fabricación de metal — Pulido y desbarbado | MoTai",
+        "description": "Abrasivos para fabricación de metal: pulido, desbarbado y pulido de soldaduras con cintas, malla y discos de solapamiento MoTai.",
+        "keywords": "abrasivos para fabricación de metal, pulido de metal, desbarbado de metal, pulido de soldaduras"
+      },
+      "woodworking": {
+        "title": "Abrasivos para ebanistería y lijado de banda ancha | MoTai",
+        "description": "Abrasivos para ebanistería y mobiliario: lijado de banda ancha, paneles de madera y MDF con cintas y discos de lijado MoTai.",
+        "keywords": "abrasivos para ebanistería, lijado de banda ancha, lijado de madera, lijado de mobiliario"
+      },
+      "automotive": {
+        "title": "Lijado de reparación automotriz — Carrocería y pintura | MoTai",
+        "description": "Abrasivos para reparación automotriz: lijado de carrocería, pintura y primario con discos PSA y de velcro de MoTai.",
+        "keywords": "abrasivos para automoción, lijado de carrocería, lijado de pintura, lijado de primario"
+      },
+      "stainless-steel": {
+        "title": "Acabado y pulido de acero inoxidable | MoTai",
+        "description": "Abrasivos para acero inoxidable: pulido, rectificado y acabado de metal con discos de solapamiento y cintas MoTai.",
+        "keywords": "acabado de acero inoxidable, pulido de metal, rectificado de superficie, abrasivo de acero inoxidable"
+      },
+      "shipbuilding": {
+        "title": "Abrasivos para construcción naval — Plancha de acero y eliminación de óxido | MoTai",
+        "description": "Abrasivos de alta resistencia para construcción naval: rectificado de plancha de acero, eliminación de óxido y preparación industrial de superficies con cintas y discos de solapamiento MoTai.",
+        "keywords": "abrasivos para construcción naval, rectificado de plancha de acero, eliminación de óxido, rectificado de gran resistencia"
+      },
+      "surface-preparation": {
+        "title": "Preparación de superficies industrial y abrasivos de rectificado | MoTai",
+        "description": "Soluciones de abrasivos industriales para preparación de superficies, acabado de superficies y rectificado de gran resistencia en cintas, discos y discos de solapamiento MoTai.",
+        "keywords": "preparación de superficies, acabado de superficies, rectificado industrial, soluciones de abrasivos"
+      }
     },
     "blog": {
-      "title": "Noticias y recursos para compradores",
-      "description": "Recursos prácticos: sujeción de discos, listas de consulta de cintas, secuencias de granos y estándares.",
-      "keywords": "guía de comprador, secuencia de granos, velcro vs PSA"
+      "title": "Guías para compradores y normas de grano | MoTai",
+      "description": "Recursos prácticos para compradores de abrasivos: selección de sujeción de discos, listas de comprobación de cintas, secuencias de grano, recolección de polvo y normas de grano (FEPA/ANSI).",
+      "keywords": "guía de compra de abrasivos, selección de grano, glosario de abrasivos, normas de grano FEPA ANSI"
     },
     "contact": {
-      "title": "Hablando con MoTai — mayorista y OEM",
-      "description": "Hable con el equipo de ventas MoTai en Xianning, Hubei sobre cintas, discos y aletas: teléfonos, e-mail, WhatsApp y visitas a fábrica.",
-      "keywords": "contacto MoTai, consulta mayorista"
+      "title": "Contactar con MoTai — Proveedor de abrasivos en China",
+      "description": "Localice al proveedor de MoTai en Xianning, Hubei: teléfono, correo electrónico y WhatsApp para consultas mayoristas y OEM de abrasivos, además de visitas a fábrica.",
+      "keywords": "contacto con proveedor de abrasivos, consulta mayorista de abrasivos, fabricante de abrasivos China"
     },
     "privacy": {
       "title": "Política de privacidad",
-      "description": "Cómo MoTai usa la información de consultas: recolección, propósito, almacenamiento, sus opciones y cookies.",
+      "description": "Cómo MoTai Abrasives utiliza la información de la consulta: recopilación, finalidad, almacenamiento, sus opciones y gestión de cookies.",
       "keywords": "política de privacidad, MoTai"
     },
     "terms": {
       "title": "Términos de uso — MoTai Abrasives",
-      "description": "Términos de este sitio B2B: consultas, precios por presupuesto, propiedad intelectual y ley aplicable.",
+      "description": "Términos para este sitio B2B de abrasivos: tratamiento de consultas, precios según presupuesto, propiedad intelectual y ley aplicable.",
       "keywords": [
         "términos de uso",
         "MoTai",
-        "abrasivos B2B"
+        "proveedor B2B de abrasivos"
       ]
     },
     "quote": {
-      "title": "Solicitar cotización mayorista",
-      "description": "Prepare su consulta mayorista u OEM: datos de empresa y producto, tamaño, grano, cantidad y destino.",
-      "keywords": "cotización mayorista, consulta OEM"
+      "title": "Solicitar un presupuesto mayorista de abrasivos | MoTai",
+      "description": "Prepare su consulta mayorista o OEM de abrasivos: datos de empresa más producto, talla, grano, cantidad y destino. El suministro en volumen se presupuesta directamente de fábrica.",
+      "keywords": "presupuesto mayorista de abrasivos, suministro en volumen de abrasivos, consulta OEM de abrasivos, mayorista de abrasivos"
     },
     "clients": {
-      "title": "Suministro global — De Hubei a su mercado",
-      "description": "MoTai abastece siete regiones de destino: Europa, Américas, Medio Oriente, África, Oceanía y Asia.",
-      "keywords": "suministro global de abrasivos, exportación, regiones MoTai"
+      "title": "Exportador de productos de abrasivos — Suministro mundial desde Hubei, China | MoTai",
+      "description": "MoTai exporta cintas, discos y discos de solapamiento a siete regiones de destino: Europa, América, Oriente Medio, África, Oceanía y Asia.",
+      "keywords": "exportador de productos de abrasivos, exportación de abrasivos, suministro mundial de abrasivos, proveedor industrial de abrasivos"
     },
     "glossary": {
-      "title": "Glosario de abrasivos — Grano, respaldo, términos",
-      "description": "24 términos abrasivos definidos: grano FEPA, respaldos, velcro, PSA, malla, desbarbado y más.",
-      "keywords": "glosario de abrasivos, estándares de grano, términos"
+      "title": "Glosario de abrasivos — Grano, sujeción, términos de discos",
+      "description": "24 términos de abrasivos definidos: grano FEPA, sujeciones, velcro, PSA, malla abierta, desbarbado y más.",
+      "keywords": "glosario de abrasivos, normas de grano, términos de abrasivos"
     },
     "product": {
-      "title": "MoTai {name} — suministro B2B",
-      "description": "MoTai {name}: {desc} Tamaños en la gama: {sizes}. Granos: {grits}. La oferta, el MOQ y las condiciones llegan con la cotización de su pedido.",
-      "keywords": "{name}, abrasivo MoTai, mayorista, OEM"
+      "title": "MoTai {name} — Abrasivos de mayorista y OEM",
+      "description": "MoTai {name} ({material}, {category}): {desc} Tallas: {sizes}. Granos: {grits}. Suministro mayorista y OEM directo de fábrica.",
+      "keywords": "{name}, fabricante {category}, abrasivo {material}, abrasivo de mayorista, abrasivo OEM"
     },
     "model": {
-      "title": "Cinta MoTai de referencia {model}",
-      "description": "Modelo de referencia {model} de la gama MoTai — hable de ancho, largo, grano y respaldo con el equipo; la especificación se cierra con la cotización.",
-      "keywords": "cinta {model}, referencia de modelo, mayorista"
+      "title": "Cinta de {model} — MoTai",
+      "description": "Modelo de referencia de cinta {model} de la gama MoTai — ancho, largo, grano y sujeción se fijan con el presupuesto. Suministro mayorista y OEM.",
+      "keywords": "cinta de {model}, referencia de modelo de cinta, cintas de abrasivo de mayorista"
     },
     "disc": {
-      "title": "Variante de disco MoTai: {title}",
-      "description": "Variante documentada de disco MoTai {title}: granos, diámetro y sujeción se confirman con la cotización.",
-      "keywords": "disco de lijado, velcro, PSA, MoTai"
+      "title": "MoTai {title} — Mayorista y OEM",
+      "description": "Variante de disco MoTai {title}: rango de grano, diámetro y sujeción se fijan con el presupuesto. Mayorista y OEM directos de fábrica.",
+      "keywords": "disco de lija, disco de velcro, disco PSA, disco de malla, discos de lija de mayorista"
     },
     "flap": {
-      "title": "Disco de aleta MoTai {name}",
-      "description": "MoTai {name}: disco de aleta con respaldo de {backing} para desbaste, transición y acabado del metal.",
-      "keywords": "disco de aleta, {backing}, MoTai"
+      "title": "MoTai {name} — Fabricante de discos de solapamiento",
+      "description": "MoTai {name}: disco de solapamiento de sujeción {backing} para rectificado, transición y acabado de metal. Suministro mayorista y OEM.",
+      "keywords": "disco de solapamiento, disco de solapamiento de sujeción {backing}, disco de solapamiento de circonia, fabricante de discos de solapamiento, discos de solapamiento de mayorista"
     },
     "colt": {
       "belts": {
-        "title": "Cintas — gama MoTai",
-        "description": "Cintas rojas de 533×75 a 2200×1330 mm, granos 40–800, con modelos de referencia. Mayorista y OEM.",
-        "keywords": "cintas abrasivas, mayorista, OEM"
+        "title": "Fabricante y proveedor mayorista de cintas | MoTai",
+        "description": "Cintas de gran ancho e industriales de 533×75 a 2200×1330 mm, granos 40–800, en alúmina, circonia y carburo de silicio — con modelos de referencia GXK-51, XZ-330, GPC71 y más. Mayorista y OEM directos de fábrica.",
+        "keywords": "cintas de abrasivo, cintas de lijado, cintas de gran ancho, cintas de alúmina, cintas de circonia, cintas de carburo de silicio, fabricante de cintas de abrasivo, proveedor de cintas de abrasivo, cintas de abrasivo de mayorista"
       },
       "discs": {
-        "title": "Discos de lijado — gama MoTai",
-        "description": "Discos PSA, velcro, malla y sin agujero, 3–6 pulg., granos 60–5000. Mayorista y OEM.",
-        "keywords": "discos de lijado, PSA, velcro, mayorista"
+        "title": "Fabricante de discos de lija — PSA, velcro y malla | MoTai",
+        "description": "Discos de velcro, PSA, malla y sin agujero de 3 a 6 pulgadas, granos 60–5000, para carrocería, madera y acabado de metal. Mayorista y OEM directos de fábrica.",
+        "keywords": "discos de lija, discos de lija de abrasivo, discos de lija de velcro, discos de lija PSA, discos de lija de malla, discos de lija de no tejidos, discos de lija de 5 pulgadas, discos de lija de 6 pulgadas, fabricante de discos de lija, discos de lija de mayorista"
       },
       "flap": {
-        "title": "Discos de aleta — gama MoTai",
-        "description": "Discos de aleta MOTAI con respaldo de plástico, acero y fibra de vidrio.",
-        "keywords": "discos de aleta, pulido, MoTai"
+        "title": "Fabricante de discos de solapamiento — Circonia y alúmina | MoTai",
+        "description": "Discos de solapamiento de sujeción de plástico, acero y fibra de vidrio MoTai, en circonia y alúmina, para rectificado, desbarbado y acabado de metal. Suministro mayorista y OEM.",
+        "keywords": "discos de solapamiento, discos de solapamiento de abrasivo, discos de solapamiento de circonia, discos de solapamiento de alúmina, discos de solapamiento de sujeción de fibra de vidrio, discos de solapamiento de sujeción de plástico, discos de solapamiento de sujeción de acero, discos de solapamiento de 100 mm, discos de solapamiento de 115 mm, discos de solapamiento de 125 mm, discos de solapamiento de 150 mm, discos de solapamiento de 180 mm, fabricante de discos de solapamiento, proveedor de discos de solapamiento, discos de solapamiento de mayorista"
       },
       "all": {
-        "title": "Catálogo de abrasivos MoTai",
-        "description": "Catálogo completo de MoTai: cintas, discos y aletas para compradores B2B.",
-        "keywords": "productos abrasivos, catálogo MoTai"
+        "title": "Abrasivos de mayorista — Cintas, discos y discos de solapamiento | MoTai",
+        "description": "El catálogo completo de MoTai: cintas de gran ancho, discos de lija y discos de solapamiento para distribuidores, importadores, mayoristas y marcas OEM. Mayorista directo, personalización y exportación desde Hubei, China.",
+        "keywords": "productos de abrasivos, productos de abrasivos de mayorista, abrasivos industriales, abrasivos recubiertos, mayorista de abrasivos, fábrica de productos de abrasivos, exportador de productos de abrasivos"
       }
     }
   }

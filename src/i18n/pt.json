@@ -730,109 +730,141 @@
   },
   "tdk": {
     "home": {
-      "title": "MoTai Abrasives — fitas, discos e leque a partir de Hubei, China",
-      "description": "Gamas de fitas abrasivas, discos e leque da fábrica MoTai em Hubei: fitas de óxido de alumínio, discos PSA / gancho-bucle / malha e leque, para fornecimento B2B e marca própria.",
-      "keywords": "fitas abrasivas, discos de lixamento, discos de leque, abrasivos OEM, fornecedor de abrasivos por grosso, MoTai"
+      "title": "Fabricante de abrasivos e fornecedor de abrasivos industriais | MoTai",
+      "description": "Fabricante profissional de abrasivos na China: fitas, discos e discos de flange. Direto de fábrica — no atacado, personalização OEM e soluções de abrasivos industriais para distribuidores e compradores de todo o mundo.",
+      "keywords": "fabricante de abrasivos, fornecedor de abrasivos, abrasivos industriais, fitas abrasivas, discos de lixar, discos de flange"
     },
     "about": {
-      "title": "Sobre a MoTai — a fábrica de abrasivos em Xianning, Hubei",
-      "description": "O que a Hubei MoTai Abrasives Materials Co., Ltd. fabrica e como envia: a empresa, as suas linhas e o fornecimento por região.",
-      "keywords": "MoTai Abrasives, fabricante de abrasivos Hubei, fornecedor de abrasivos B2B"
+      "title": "Sobre a MoTai — Fabricante e fábrica de abrasivos em Hubei, China",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. é um fabricante de abrasivos revestidos em Xianning, Hubei: fitas, discos e discos de flange com OEM, tamanhos sob medida, fornecimento em volume e exportação.",
+      "keywords": "fabricante de abrasivos China, fábrica de abrasivos, fabricante de abrasivos revestidos, fornecedor B2B de abrasivos"
     },
     "factory": {
-      "title": "Dentro da oficina MoTai — corte, verificações, embalagem",
-      "description": "Como os pedidos MoTai são tratados: corte e conversão, verificação de amostras, embalagem OEM e preparação da remessa.",
-      "keywords": "fabricação de abrasivos, QC de abrasivos, processo de corte, embalagem OEM"
+      "title": "Fabricação e controle de qualidade de abrasivos — Fábrica MoTai em Hubei",
+      "description": "No interior da oficina de abrasivos MoTai: conversão e corte, verificações de amostra, controle de qualidade e embalagem OEM para fitas, discos e discos de flange.",
+      "keywords": "fabricação de abrasivos, controle de qualidade de fábrica, conversão de abrasivos, embalagem OEM"
     },
     "oem": {
-      "title": "OEM e marca própria na MoTai — a sua marca, a nossa gama",
-      "description": "Traga o seu logótipo, etiquetas, dimensões e embalagem à MoTai: análise de viabilidade e proposta sobre a especificação confirmada.",
-      "keywords": "abrasivos OEM, discos de lixamento de marca própria, embalagem abrasiva personalizada"
+      "title": "Fabricante OEM de abrasivos e marca própria | MoTai",
+      "description": "Fabricação de abrasivos OEM e de marca própria: a sua logomarca, etiquetas, tamanhos e embalagem sobre fitas, discos e discos de flange MoTai, orçamentado conforme a sua especificação confirmada.",
+      "keywords": "fabricante OEM de abrasivos, abrasivos de marca própria, produtos de abrasivos personalizados, fornecedor OEM de abrasivos"
     },
     "applications": {
-      "title": "Abrasivos para a sua indústria — Aplicações",
-      "description": "Seleção abrasiva para fabrico de metais, carpintaria, automóvel, aço inoxidável, construção naval e preparação industrial de superfícies.",
-      "keywords": "aplicações abrasivas, fabrico de metais, abrasivos de carpintaria, preparação de superfície"
+      "title": "Abrasivos industriais por aplicação — Metal, madeira, automóvel e mais",
+      "description": "Adapte fitas, discos e discos de flange MoTai à sua aplicação: usinagem de metal, lixamento de madeira, lataria, acabamento de inox, construção naval e preparação de superfícies.",
+      "keywords": "aplicações de abrasivos, usinagem de metal, lixamento de madeira, preparação de superfícies, preparação industrial de superfícies"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Abrasivos para a serralheria — Usinagem e desbaste | MoTai",
+        "description": "Abrasivos para a serralheria: usinagem de metal, desbaste e usinagem de soldas com fitas, malha e discos de flange MoTai.",
+        "keywords": "abrasivos para serralheria, usinagem de metal, desbaste de metal, usinagem de soldas"
+      },
+      "woodworking": {
+        "title": "Abrasivos para o trabalho em madeira e lixamento de faixa larga | MoTai",
+        "description": "Abrasivos para o trabalho em madeira e mobiliário: lixamento de faixa larga, painéis de madeira e MDF com fitas e discos MoTai.",
+        "keywords": "abrasivos para madeira, lixamento de faixa larga, lixamento de madeira, lixamento de mobiliário"
+      },
+      "automotive": {
+        "title": "Lixamento de reparação automóvel — Lataria e tinta | MoTai",
+        "description": "Abrasivos para a reparação automóvel: lixamento de lataria, tinta e primário com discos PSA e de velcro MoTai.",
+        "keywords": "abrasivos para automotores, lixamento de lataria, lixamento de tinta, lixamento de primário"
+      },
+      "stainless-steel": {
+        "title": "Acabamento e polimento de aço inoxidável | MoTai",
+        "description": "Abrasivos para o aço inoxidável: polimento de metal, usinagem e acabamento de superfícies com discos de flange e fitas MoTai.",
+        "keywords": "acabamento de aço inoxidável, polimento de metal, usinagem de superfícies, abrasivo inox"
+      },
+      "shipbuilding": {
+        "title": "Abrasivos para a construção naval — Chapas de aço e remoção de ferrugem | MoTai",
+        "description": "Abrasivos de alta capacidade para a construção naval: usinagem de chapas de aço, remoção de ferrugem e preparação industrial de superfícies com fitas e discos de flange MoTai.",
+        "keywords": "abrasivos para construção naval, usinagem de chapas de aço, remoção de ferrugem, usinagem de alta capacidade"
+      },
+      "surface-preparation": {
+        "title": "Preparação de superfícies industrial e abrasivos de usinagem | MoTai",
+        "description": "Soluções de abrasivos industriais para a preparação de superfícies, o acabamento e a usinagem de alta capacidade sobre fitas, discos e discos de flange MoTai.",
+        "keywords": "preparação de superfícies, acabamento de superfícies, usinagem industrial, soluções de abrasivos"
+      }
     },
     "blog": {
-      "title": "Notícias e Recursos para Compradores",
-      "description": "Recursos práticos para compradores: seleção de suporte de disco, checklists de consulta de fitas, sequência de grãos e padrões de classificação.",
-      "keywords": "guia do comprador de abrasivos, sequência de grãos, fecho auto-agarrante vs PSA"
+      "title": "Guias para compradores de abrasivos e normas de grão | MoTai",
+      "description": "Recursos práticos para o comprador: escolha do suporte de disco, listas de verificação de fitas, sequência de grão, recolha de pó e normas de grão (FEPA/ANSI).",
+      "keywords": "guia de compra de abrasivos, escolha de grão, glossário de abrasivos, normas de grão FEPA ANSI"
     },
     "contact": {
-      "title": "Falar com a MoTai — grosso e OEM",
-      "description": "Fale com a equipa comercial MoTai em Xianning, Hubei sobre fitas, discos e leque: telefones, e-mail, WhatsApp e visitas à fábrica.",
-      "keywords": "contacto MoTai, consulta de grosso de abrasivos, fornecedor de abrasivos"
+      "title": "Contacte a MoTai — Fornecedor de abrasivos na China",
+      "description": "Atinja o fornecedor MoTai em Xianning, Hubei: telefone, e-mail e WhatsApp para consultas de abrasivos no atacado e OEM, bem como visitas à fábrica.",
+      "keywords": "contacto com fornecedor de abrasivos, consulta de atacado de abrasivos, fabricante de abrasivos China"
     },
     "privacy": {
-      "title": "Política de Privacidade",
-      "description": "Como a MoTai Abrasives utiliza informações de consulta: recolha, finalidade, armazenamento, as suas opções e tratamento de cookies.",
+      "title": "Política de privacidade",
+      "description": "Como a MoTai Abrasives utiliza a informação da consulta: recolha, finalidade, armazenamento, as suas escolhas e tratamento de cookies.",
       "keywords": "política de privacidade, MoTai"
     },
     "terms": {
       "title": "Termos de utilização — MoTai Abrasives",
-      "description": "Termos deste site B2B: consultas, preços por orçamento, propriedade intelectual e lei aplicável.",
+      "description": "Termos para este site B2B de abrasivos: tratamento de consultas, preços por orçamentação, propriedade intelectual e lei aplicável.",
       "keywords": [
         "termos de utilização",
         "MoTai",
-        "abrasivos B2B"
+        "fornecedor B2B de abrasivos"
       ]
     },
     "quote": {
-      "title": "Pedir orçamento de grosso",
-      "description": "Prepare a sua consulta de grosso ou OEM da MoTai: dados da empresa mais produto, dimensão, grão, quantidade e destino.",
-      "keywords": "orçamento de grosso de abrasivos, consulta de abrasivos OEM"
+      "title": "Solicitar um orçamentação de atacado de abrasivos | MoTai",
+      "description": "Prepare a sua consulta de atacado ou OEM de abrasivos: dados empresariais mais produto, tamanho, grão, quantidade e destino. Fornecimentos em massa são orçamentados diretamente de fábrica.",
+      "keywords": "orçamentação de atacado de abrasivos, fornecimentos em massa de abrasivos, consulta de abrasivos OEM, atacado de abrasivos"
     },
     "clients": {
-      "title": "Fornecimento Global — De Hubei ao seu Mercado",
-      "description": "A MoTai fornece sete regiões de destino: Europa, Américas, Oriente Médio, África, Oceânia e Ásia.",
-      "keywords": "fornecimento global de abrasivos, exportação de abrasivos, regiões MoTai"
+      "title": "Exportador de produtos de abrasivos — Fornecimento global de Hubei, China | MoTai",
+      "description": "A MoTai exporta fitas, discos e discos de flange para sete áreas de destino: Europa, Américas, Médio Oriente, África, Oceânia e Ásia.",
+      "keywords": "exportador de produtos de abrasivos, exportação de abrasivos, fornecimento global de abrasivos, fornecedor industrial de abrasivos"
     },
     "glossary": {
-      "title": "Glossário de Abrasivos — Grão, Suporte, Termos de Disco",
-      "description": "24 termos abrasivos definidos: grão FEPA, suportes, fecho auto-agarrante, PSA, malha aberta, desbarramento e mais.",
-      "keywords": "glossário de abrasivos, padrões de grão, termos de abrasivos"
+      "title": "Glossário de abrasivos — Grão, suporte, termos de discos",
+      "description": "24 termos de abrasivos definidos: grão FEPA, suportes, velcro, PSA, malha aberta, desbaste e mais.",
+      "keywords": "glossário de abrasivos, normas de grão, termos de abrasivos"
     },
     "product": {
-      "title": "MoTai {name} — fornecimento B2B",
-      "description": "MoTai {name}: {desc} Dimensões da gama: {sizes}. Grãos: {grits}. Proposta, MOQ e condições chegam com o orçamento do seu pedido.",
-      "keywords": "{name}, abrasivo MoTai, abrasivos por grosso, abrasivos OEM"
+      "title": "MoTai {name} — Abrasivos no atacado e OEM",
+      "description": "MoTai {name} ({material}, {category}): {desc} Tamanhos: {sizes}. Grãos: {grits}. Fornecimento no atacado e OEM direto de fábrica.",
+      "keywords": "{name}, fabricante {category}, abrasivo {material}, abrasivo no atacado, abrasivo OEM"
     },
     "model": {
-      "title": "Fita MoTai de referência {model}",
-      "description": "Modelo de referência {model} da gama MoTai — discuta largura, comprimento, grão e suporte com a equipa; a especificação fecha-se no orçamento.",
-      "keywords": "{model} fita abrasiva, referência de modelo de fita, fitas abrasivas por grosso"
+      "title": "Fita {model} — MoTai",
+      "description": "Modelo de referência da fita {model} da gama MoTai — largura, comprimento, grão e suporte são definidos com a orçamentação. Fornecimento no atacado e OEM.",
+      "keywords": "fita {model}, referência de modelo de fita, fitas de abrasivo no atacado"
     },
     "disc": {
-      "title": "Variante de disco MoTai: {title}",
-      "description": "Variante documentada de disco MoTai {title}: grãos, diâmetro e fixação confirmados no orçamento.",
-      "keywords": "disco de lixamento, disco com fecho auto-agarrante, disco PSA, MoTai"
+      "title": "MoTai {title} — Atacado e OEM",
+      "description": "Variante de disco MoTai {title}: faixas de grão, diâmetro e fixação são definidos com a orçamentação. Atacado e OEM diretos de fábrica.",
+      "keywords": "disco de lixar, disco de velcro, disco PSA, disco de malha, discos de lixar no atacado"
     },
     "flap": {
-      "title": "Disco de leque MoTai {name}",
-      "description": "MoTai {name}: disco de leque com suporte de {backing} para desbaste, transição e acabamento de metais.",
-      "keywords": "disco de leque, disco de leque com suporte de {backing}, MoTai"
+      "title": "MoTai {name} — Fabricante de discos de flange",
+      "description": "MoTai {name}: disco abrasivo de flange com suporte {backing} para usinagem, transição e acabamento de metal. Fornecimento no atacado e OEM.",
+      "keywords": "disco de flange, disco de flange a suporte {backing}, disco de flange de zircónia, fabricante de discos de flange, discos de flange no atacado"
     },
     "colt": {
       "belts": {
-        "title": "Fitas — gama MoTai",
-        "description": "Fitas abrasivas vermelhas 533×75 a 2200×1330 mm, grãos 40–800, com modelos de referência. Grosso & OEM.",
-        "keywords": "fitas abrasivas, fitas abrasivas por grosso, fitas OEM"
+        "title": "Fabricante e fornecedor no atacado de fitas | MoTai",
+        "description": "Fitas de grande largura e industriais de 533×75 a 2200×1330 mm, grãos 40–800, em alumina, zircónia e carbureto de silício — com modelos de referência GXK-51, XZ-330, GPC71 e mais. Atacado e OEM diretos de fábrica.",
+        "keywords": "fitas de abrasivo, fitas de lixar, fitas de abrasivo de grande largura, fitas de abrasivo de alumina, fitas de abrasivo de zircónia, fitas de abrasivo de carbureto de silício, fabricante de fitas de abrasivo, fornecedor de fitas de abrasivo, fitas de abrasivo no atacado"
       },
       "discs": {
-        "title": "Discos de lixamento — gama MoTai",
-        "description": "Discos de lixamento PSA, com fecho auto-agarrante, de malha aberta e sem furos, 3–6 polegadas, grãos 60–5000. Grosso & OEM.",
-        "keywords": "discos de lixamento, discos PSA, discos com fecho auto-agarrante, grosso"
+        "title": "Fabricante de discos de lixar — PSA, velcro e malha | MoTai",
+        "description": "Discos de velcro, PSA, malha e sem orifício de 3 a 6 polegadas, grãos 60–5000, para lataria, madeira e acabamento de metal. Atacado e OEM diretos de fábrica.",
+        "keywords": "discos de lixar, discos de lixar em abrasivo, discos de lixar de velcro, discos de lixar PSA, discos de lixar de malha, discos de lixar não tecidos, discos de lixar de 5 polegadas, discos de lixar de 6 polegadas, fabricante de discos de lixar, discos de lixar no atacado"
       },
       "flap": {
-        "title": "Discos de leque — gama MoTai",
-        "description": "Discos de leque MOTAI com suporte de plástico, aço e fibra de vidro para retífica e acabamento.",
-        "keywords": "discos de leque, disco de leque de retífica, MoTai"
+        "title": "Fabricante de discos de flange — Zircónia e alumina | MoTai",
+        "description": "Discos abrasivos de flange MoTai com suporte em plástico, aço e fibra de vidro, em zircónia e alumina, para usinagem, desbaste e acabamento de metal. Fornecimento no atacado e OEM.",
+        "keywords": "discos de flange, discos de flange em abrasivo, discos de flange de zircónia, discos de flange de alumina, discos de flange a suporte de fibra de vidro, discos de flange a suporte de plástico, discos de flange a suporte de aço, discos de flange de 100 mm, discos de flange de 115 mm, discos de flange de 125 mm, discos de flange de 150 mm, discos de flange de 180 mm, fabricante de discos de flange, fornecedor de discos de flange, discos de flange no atacado"
       },
       "all": {
-        "title": "Catálogo de abrasivos MoTai",
-        "description": "O catálogo abrasivo completo da MoTai: fitas, discos e discos de leque para compradores B2B.",
-        "keywords": "produtos abrasivos, catálogo MoTai"
+        "title": "Abrasivos no atacado — Fitas, discos e discos de flange | MoTai",
+        "description": "O catálogo completo MoTai: fitas industriais, discos de lixar e discos de flange para distribuidores, importadores, grossistas e marcas OEM. Atacado direto, personalização e exportação de Hubei, China.",
+        "keywords": "produtos de abrasivos, produtos de abrasivos no atacado, abrasivos industriais, abrasivos revestidos, atacado de abrasivos, fábrica de produtos de abrasivos, exportador de produtos de abrasivos"
       }
     }
   }
