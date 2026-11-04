@@ -8,13 +8,41 @@
  * The inline snippet is assembled as a string and emitted via set:html,
  * because `is:inline` script bodies are passed through verbatim (Astro
  * does NOT interpolate {…} inside them).
+ *
+ * Also emits outbound e-commerce / social click tracking: a single
+ * delegated listener covers every external target on the site —
+ *   outbound_quote : original-site quote form (motaiabrasive.com)
+ *   whatsapp_click : wa.me links (has_message = carries ?text= template)
+ *   social_click   : facebook / instagram (param platform)
+ * All links across the site (Header, CtaBand, quote/contact pages,
+ * FloatingContact, Footer) are target=_blank anchors, so capture-phase
+ * delegation from <head> sees them without touching each component.
  */
 const trackingId = Astro.props.trackingId || ''
 const inline = trackingId
   ? `\nwindow.dataLayer = window.dataLayer || [];\n` +
     `function gtag(){dataLayer.push(arguments);}\n` +
     `gtag('js', new Date());\n` +
-    `gtag('config', '${trackingId}');\n`
+    `gtag('config', '${trackingId}');\n` +
+    // Outbound commerce + social tracking (delegated, capture phase).
+    `document.addEventListener('click', function (e) {\n` +
+    `  var a = e.target && e.target.closest ? e.target.closest('a') : null;\n` +
+    `  if (!a || !a.href) return;\n` +
+    `  try {\n` +
+    `    var u = new URL(a.href);\n` +
+    `    var host = u.hostname.toLowerCase();\n` +
+    `    var base = { link_url: a.href, link_domain: host };\n` +
+    `    if (host.indexOf('motaiabrasive.com') !== -1 && host !== location.hostname) {\n` +
+    `      gtag('event', 'outbound_quote', base);\n` + // quote form on the original Shopify store
+    `    } else if (host === 'wa.me') {\n` +
+    `      gtag('event', 'whatsapp_click', Object.assign({ has_message: !!u.searchParams.get('text') }, base));\n` +
+    `    } else if (host.indexOf('facebook.com') !== -1) {\n` +
+    `      gtag('event', 'social_click', Object.assign({ platform: 'facebook' }, base));\n` +
+    `    } else if (host.indexOf('instagram.com') !== -1) {\n` +
+    `      gtag('event', 'social_click', Object.assign({ platform: 'instagram' }, base));\n` +
+    `    }\n` +
+    `  } catch (err) {}\n` +
+    `}, true);\n`
   : ''
 ---
 
