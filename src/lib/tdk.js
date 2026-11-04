@@ -381,6 +381,18 @@ export function aboutPageJsonLd(lang) {
   }
 }
 
+/** WebSite JSON-LD: names the site and ties it to the Organization node.
+ * No SearchAction — the static site has no search feature. */
+export function websiteJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'MoTai Abrasives',
+    url: SITE_BASE + '/',
+    publisher: { '@id': ORG_ID, '@type': 'Organization', name: 'MoTai Abrasives' }
+  }
+}
+
 /**
  * ContactPage + ContactPoint JSON-LD: surfaces real contact channels
  * (email / phone / WhatsApp, worldwide) so Google shows a rich contact box.

@@ -26,6 +26,7 @@ const ogLocale = TRANSLATIONS[lang]?.ogLocale ?? 'en_US'
 const path = localizedUrl(lang, canonicalPath)
 const canonical = new URL(path, Astro.site ?? 'https://example.com').toString()
 const defaultOg = site.logo
+const ogLocaleAlternates = LANGS.filter((l) => l !== lang).map((l) => TRANSLATIONS[l]?.ogLocale ?? l)
 ---
 
 <title>{title}</title>
@@ -45,6 +46,7 @@ const defaultOg = site.logo
 <meta property="og:type" content={ogType || (ogImage ? 'product' : 'website')} />
 <meta property="og:site_name" content={meta.titleSuffix} />
 <meta property="og:locale" content={ogLocale} />
+{ogLocaleAlternates.map((alt) => <meta property="og:locale:alternate" content={alt} />)}
 <meta property="og:title" content={title} />
 {description && <meta property="og:description" content={description} />}
 <meta property="og:image" content={ogImage || defaultOg} />

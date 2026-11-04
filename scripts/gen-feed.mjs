@@ -40,6 +40,7 @@ const cell = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`
 const COLS = [
   'id', 'title', 'description', 'link', 'image_link',
   'availability', 'item_condition', 'offer_condition', 'brand', 'product_type',
+  'google_product_category', 'content_language', 'locale',
   'additional_item_attribute(sku)'
 ]
 
@@ -56,6 +57,11 @@ function row(p) {
     cell('new'),
     cell('MoTai Abrasives'),
     cell(p.category),
+    // Google category ID for "Tools > Tool Accessories" — verify against the
+    // Merchant Center category picker (IDs change occasionally).
+    cell('222'),
+    cell('en'),
+    cell('en'),
     cell(id)
   ].join(',')
 }
