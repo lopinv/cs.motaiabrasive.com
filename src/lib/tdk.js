@@ -85,6 +85,18 @@ export function tdkFor(lang, pageId, ctx = {}) {
         canonicalPath: `/collections/${ctx.key}`
       }
     }
+    case 'application': {
+      // Per-slug TDK for /applications/<slug>; falls back to the hub copy
+      // when a locale file has no tdk.application entry (deepMerge inherits
+      // the en values, so en is always present).
+      const a = tdk.application?.[ctx.slug] ?? tdk.applications
+      return {
+        title: a.title,
+        description: a.description,
+        keywords: kws(a.keywords),
+        canonicalPath: `/applications/${ctx.slug}`
+      }
+    }
     case 'product': {
       const p = products.find((x) => x.handle === ctx.handle)
       const tpl = tdk.product
@@ -96,7 +108,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
           .replace('{desc}', p?.summary ?? '')
           .replace('{sizes}', (p?.sizes ?? []).join(', '))
           .replace('{grits}', (p?.grits ?? []).join(', ')),
-        keywords: kws(tpl.keywords, { name }),
+        keywords: kws(tpl.keywords, { name, category: p?.category ?? 'abrasive', material: p?.material ?? 'abrasive' }),
         canonicalPath: `/products/${ctx.handle}`,
         ogImage: p?.ogImage ? media(p.image) : media('belt-533-75'),
         jsonldExtra: buildProductJsonLd(lang, p)

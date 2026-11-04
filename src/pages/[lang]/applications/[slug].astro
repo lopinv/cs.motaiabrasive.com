@@ -17,7 +17,7 @@ const { pick, lu, media, applications: appData, faq: faqData, applicationBySlug,
 const a = applicationBySlug(ctx.slug)
 const t = pick('applications')
 const app = appData.find((x) => x.slug === ctx.slug)
-const seo = buildSeo(lang, 'applications', {}, [
+const seo = buildSeo(lang, 'application', { slug: app.slug }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.knowledge'), path: `/${lang}/applications` },
     { name: pick(app.titleKey), path: `/${lang}/applications/${app.slug}` }

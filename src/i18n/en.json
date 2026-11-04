@@ -68,7 +68,7 @@
   },
   "home": {
     "eyebrow": "Abrasives from the MoTai factory in Hubei",
-    "heroTitle": "Surface finishes, from our factory",
+    "heroTitle": "Professional Abrasive Manufacturer & Supplier",
     "heroSub": "Factory-direct abrasive belts, sanding discs and flap discs for industrial buyers, distributors and private-label brands — from Hubei, China to your market.",
     "cta1": "Request a Wholesale Quote",
     "cta2": "Talk to our team on WhatsApp",
@@ -713,39 +713,71 @@
   },
   "tdk": {
     "home": {
-      "title": "MoTai Abrasives — belts, sanding discs and flap discs from Hubei, China",
-      "description": "Belt, disc and flap abrasive ranges from the MoTai factory in Hubei: aluminium-oxide belts, PSA / hook-and-loop / open-mesh discs and flap discs, for B2B and private-label supply.",
-      "keywords": "abrasive belts, sanding discs, flap discs, OEM abrasives, wholesale abrasive supplier, MoTai"
+      "title": "Abrasive Manufacturer & Industrial Abrasive Supplier | MoTai",
+      "description": "Professional abrasive manufacturer in China supplying abrasive belts, sanding discs and flap discs. Factory-direct wholesale, OEM customization and industrial abrasive solutions for global distributors and buyers.",
+      "keywords": "abrasive manufacturer, abrasive supplier, industrial abrasives, abrasive belts, sanding discs, flap discs"
     },
     "about": {
-      "title": "About MoTai — the abrasive factory in Xianning, Hubei",
-      "description": "What Hubei MoTai Abrasives Materials Co., Ltd. makes and how it ships: the company, its product lines and its regional supply.",
-      "keywords": "MoTai Abrasives, abrasive manufacturer Hubei, B2B abrasive supplier"
+      "title": "About MoTai — Abrasive Manufacturer & Factory in Hubei, China",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. is a coated abrasives manufacturer in Xianning, Hubei: abrasive belts, sanding discs and flap discs with OEM, custom sizing, bulk supply and export.",
+      "keywords": "abrasive manufacturer China, abrasive factory, coated abrasives manufacturer, B2B abrasive supplier"
     },
     "factory": {
-      "title": "Inside the MoTai workshop — cutting, checks and packing",
-      "description": "How MoTai abrasive orders are handled: converting and cutting, sample checks, OEM packing and dispatch preparation.",
-      "keywords": "abrasive manufacturing, abrasive QC, cutting process, OEM packing"
+      "title": "Abrasive Manufacturing & QC — MoTai Factory in Hubei",
+      "description": "Inside the MoTai abrasive workshop: converting and cutting, sample checks, QC and OEM packing for abrasive belts, sanding discs and flap discs.",
+      "keywords": "abrasive manufacturing, abrasive factory QC, abrasive converting, OEM abrasive packing"
     },
     "oem": {
-      "title": "OEM and private label at MoTai — your brand, our abrasive range",
-      "description": "Bring your logo, labels, sizes and packaging to MoTai: a feasibility check, then a quotation against your confirmed spec.",
-      "keywords": "OEM abrasives, private label sanding discs, custom abrasive packaging"
+      "title": "Abrasive OEM Manufacturer & Private Label | MoTai",
+      "description": "Abrasive OEM and private-label manufacturing: your logo, labels, sizes and packaging on MoTai belts, discs and flap discs, quoted against your confirmed spec.",
+      "keywords": "abrasive OEM manufacturer, private label abrasives, custom abrasive products, OEM abrasive supplier"
     },
     "applications": {
-      "title": "Abrasives for Your Industry — Applications",
-      "description": "Abrasive selection for metal fabrication, woodworking, automotive, stainless steel, shipbuilding and industrial surface preparation.",
-      "keywords": "abrasive applications, metal fabrication, woodworking abrasives, surface preparation"
+      "title": "Industrial Abrasives by Application — Metal, Wood, Automotive & More",
+      "description": "Match MoTai abrasive belts, sanding discs and flap discs to your application: metal grinding, wood sanding, auto body, stainless finishing, shipbuilding and surface preparation.",
+      "keywords": "abrasive applications, metal grinding, wood sanding, surface preparation, industrial surface preparation"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Metal Fabrication Abrasives — Grinding & Deburring | MoTai",
+        "description": "Abrasives for metal fabrication: metal grinding, deburring and weld seam grinding with MoTai abrasive belts, mesh and flap discs.",
+        "keywords": "metal fabrication abrasives, metal grinding, metal deburring, weld seam grinding"
+      },
+      "woodworking": {
+        "title": "Woodworking & Wide Belt Sanding Abrasives | MoTai",
+        "description": "Abrasives for woodworking and furniture: wide belt sanding, wood panel and MDF sanding with MoTai sanding belts and discs.",
+        "keywords": "woodworking abrasives, wide belt sanding, wood sanding, furniture sanding"
+      },
+      "automotive": {
+        "title": "Automotive Repair Sanding — Auto Body & Paint | MoTai",
+        "description": "Abrasives for automotive repair: auto body sanding, car paint and primer sanding with MoTai PSA and hook & loop discs.",
+        "keywords": "automotive abrasives, auto body sanding, car paint sanding, primer sanding"
+      },
+      "stainless-steel": {
+        "title": "Stainless Steel Finishing & Polishing Abrasives | MoTai",
+        "description": "Abrasives for stainless steel: metal polishing, surface grinding and finishing with MoTai flap discs and belts.",
+        "keywords": "stainless steel finishing, metal polishing, surface grinding, stainless abrasive"
+      },
+      "shipbuilding": {
+        "title": "Shipbuilding Abrasives — Steel Plate & Rust Removal | MoTai",
+        "description": "Heavy-duty abrasives for shipbuilding: steel plate grinding, rust removal and industrial surface preparation with MoTai belts and flap discs.",
+        "keywords": "shipbuilding abrasives, steel plate grinding, rust removal, heavy duty grinding"
+      },
+      "surface-preparation": {
+        "title": "Industrial Surface Preparation & Grinding Abrasives | MoTai",
+        "description": "Industrial abrasive solutions for surface preparation, surface finishing and heavy-duty grinding across MoTai belts, discs and flap discs.",
+        "keywords": "surface preparation, surface finishing, industrial grinding, abrasive solutions"
+      }
     },
     "blog": {
-      "title": "News & Buyer Resources",
-      "description": "Practical buyer resources: disc backing selection, belt enquiry checklists, grit sequencing and grading standards.",
-      "keywords": "abrasive buyer guide, grit sequence, hook loop vs PSA"
+      "title": "Abrasive Buyer Guides & Grit Standards | MoTai Knowledge",
+      "description": "Practical abrasive buyer resources: disc backing selection, belt enquiry checklists, grit sequencing, dust collection and grit standards (FEPA/ANSI).",
+      "keywords": "abrasive buyer guide, grit selection, abrasive glossary, grit standards FEPA ANSI"
     },
     "contact": {
-      "title": "Talking to MoTai — wholesale and OEM",
-      "description": "Reach the MoTai sales desk in Xianning, Hubei about belt, disc and flap supply: numbers, e-mail, WhatsApp and factory visits.",
-      "keywords": "MoTai contact, abrasive wholesale enquiry, abrasive supplier"
+      "title": "Contact MoTai — Abrasive Supplier in China",
+      "description": "Reach the MoTai abrasive supplier in Xianning, Hubei: phone, e-mail and WhatsApp for wholesale and OEM abrasive enquiries, plus factory visits.",
+      "keywords": "abrasive supplier contact, abrasive wholesale enquiry, abrasive manufacturer China"
     },
     "privacy": {
       "title": "Privacy Policy",
@@ -762,14 +794,14 @@
       ]
     },
     "quote": {
-      "title": "Request a Wholesale Quote",
-      "description": "Prepare your MoTai wholesale or OEM enquiry: business details plus product, size, grit, quantity and destination.",
-      "keywords": "wholesale abrasive quote, OEM abrasive enquiry"
+      "title": "Request a Wholesale Abrasive Quote | MoTai",
+      "description": "Prepare your wholesale or OEM abrasive enquiry: business details plus product, size, grit, quantity and destination. Bulk abrasive supplies quoted factory-direct.",
+      "keywords": "wholesale abrasive quote, bulk abrasive supplies, OEM abrasive enquiry, abrasive wholesale"
     },
     "clients": {
-      "title": "Global Supply — From Hubei to Your Market",
-      "description": "MoTai supplies seven destination regions: Europe, the Americas, the Middle East, Africa, Oceania and Asia.",
-      "keywords": "global abrasive supply, export abrasive, MoTai regions"
+      "title": "Abrasive Products Exporter — Global Supply from Hubei, China | MoTai",
+      "description": "MoTai exports abrasive belts, sanding discs and flap discs to seven destination regions: Europe, the Americas, the Middle East, Africa, Oceania and Asia.",
+      "keywords": "abrasive products exporter, abrasive export, global abrasive supply, industrial abrasive supplier"
     },
     "glossary": {
       "title": "Abrasives Glossary — Grit, Backing, Disc Terms",
@@ -777,45 +809,45 @@
       "keywords": "abrasive glossary, grit standards, abrasive terms"
     },
     "product": {
-      "title": "MoTai {name} — B2B supply",
-      "description": "MoTai {name}: {desc} Sizes in the range: {sizes}. Grits: {grits}. Quote, MOQ and terms come with the offer for your order.",
-      "keywords": "{name}, MoTai abrasive, wholesale abrasive, OEM abrasive"
+      "title": "MoTai {name} — Wholesale & OEM Abrasives",
+      "description": "MoTai {name} ({material}, {category}): {desc} Sizes: {sizes}. Grits: {grits}. Factory-direct wholesale and OEM supply.",
+      "keywords": "{name}, {category} manufacturer, {material} abrasive, wholesale abrasive, OEM abrasive"
     },
     "model": {
-      "title": "MoTai belt reference {model}",
-      "description": "Reference belt model {model} from the MoTai range — talk through width, length, grit and backing with the team; the spec is settled with the quote.",
-      "keywords": "{model} abrasive belt, belt model reference, wholesale abrasive belts"
+      "title": "{model} Abrasive Belt — MoTai",
+      "description": "Reference abrasive belt model {model} from the MoTai range — width, length, grit and backing are settled with the quotation. Wholesale and OEM supply.",
+      "keywords": "{model} abrasive belt, abrasive belt model reference, wholesale abrasive belts"
     },
     "disc": {
-      "title": "MoTai disc variant: {title}",
-      "description": "Documented MoTai disc variant {title}: grits, diameter and attachment are settled with the quotation.",
-      "keywords": "sanding disc, hook loop disc, PSA disc, MoTai"
+      "title": "MoTai {title} — Wholesale & OEM",
+      "description": "MoTai disc variant {title}: grit range, diameter and attachment are settled with the quotation. Factory-direct wholesale and OEM.",
+      "keywords": "sanding disc, hook and loop disc, PSA disc, mesh disc, sanding discs wholesale"
     },
     "flap": {
-      "title": "MoTai {name} flap disc",
-      "description": "MoTai {name}: a {backing}-backed flap disc for grinding, blending and finishing metal.",
-      "keywords": "flap disc, {backing} backing flap disc, MoTai"
+      "title": "MoTai {name} — Flap Disc Manufacturer",
+      "description": "MoTai {name}: a {backing}-backed abrasive flap disc for grinding, blending and finishing metal. Wholesale and OEM supply.",
+      "keywords": "flap disc, {backing} backing flap disc, zirconia flap disc, flap disc manufacturer, flap discs wholesale"
     },
     "colt": {
       "belts": {
-        "title": "Belts — MoTai abrasive range",
-        "description": "Red abrasive belts 533×75 to 2200×1330 mm, grits 40–800, with reference models. Wholesale & OEM.",
-        "keywords": "abrasive belts, wholesale abrasive belts, OEM belts"
+        "title": "Abrasive Belts Manufacturer & Wholesale Supplier | MoTai",
+        "description": "Wide and industrial abrasive belts 533×75 to 2200×1330 mm, grits 40–800, in aluminum oxide, zirconia and silicon carbide — with reference models GXK-51, XZ-330, GPC71 and more. Factory-direct wholesale and OEM.",
+        "keywords": "abrasive belts, sanding belts, wide abrasive belts, aluminum oxide abrasive belts, zirconia abrasive belts, silicon carbide abrasive belts, abrasive belt manufacturer, abrasive belt supplier, abrasive belts wholesale"
       },
       "discs": {
-        "title": "Sanding discs — MoTai abrasive range",
-        "description": "PSA, hook & loop, open-mesh and non-hole sanding discs, 3–6 inch, grits 60–5000. Wholesale & OEM.",
-        "keywords": "sanding discs, PSA discs, hook loop discs, wholesale"
+        "title": "Sanding Discs Manufacturer — PSA, Hook & Loop & Mesh | MoTai",
+        "description": "Hook & loop, PSA, mesh and non-hole sanding discs from 3 to 6 inch, grits 60–5000, for auto body, wood and metal finishing. Factory-direct wholesale and OEM.",
+        "keywords": "sanding discs, abrasive sanding discs, hook and loop sanding discs, PSA sanding discs, mesh sanding discs, non-woven sanding discs, 5 inch sanding discs, 6 inch sanding discs, sanding disc manufacturer, sanding discs wholesale"
       },
       "flap": {
-        "title": "Flap discs — MoTai abrasive range",
-        "description": "MOTAI flap discs with plastic, steel and fiberglass backing for grinding and finishing.",
-        "keywords": "flap discs, grinding flap disc, MoTai"
+        "title": "Flap Disc Manufacturer — Zirconia & Aluminum Oxide | MoTai",
+        "description": "MoTai abrasive flap discs with plastic, steel and fiberglass backing, in zirconia and aluminum oxide, for grinding, deburring and finishing metal. Wholesale and OEM supply.",
+        "keywords": "flap discs, abrasive flap discs, zirconia flap discs, aluminum oxide flap discs, fiberglass backing flap discs, plastic backing flap discs, steel backing flap discs, 100mm flap discs, 115mm flap discs, 125mm flap discs, 150mm flap discs, 180mm flap discs, flap disc manufacturer, flap disc supplier, flap discs wholesale"
       },
       "all": {
-        "title": "MoTai abrasive catalogue",
-        "description": "The full MoTai abrasive catalogue: belts, discs and flap discs for B2B buyers.",
-        "keywords": "abrasive products, MoTai catalogue"
+        "title": "Abrasive Products Wholesale — Belts, Discs & Flap Discs | MoTai",
+        "description": "The full MoTai abrasive catalogue: industrial abrasive belts, sanding discs and flap discs for distributors, importers, wholesalers and OEM brands. Factory-direct wholesale, customization and export from Hubei, China.",
+        "keywords": "abrasive products, abrasive products wholesale, industrial abrasives, coated abrasives, abrasive wholesale, abrasive products factory, abrasive products exporter"
       }
     }
   }

@@ -17,7 +17,6 @@ t('/ja/index.html', 'title', /<title>([^<]+)</)
 // fingerprint scan across all pages: old patterns must be gone
 const dir = 'D:\\Code\\shopify\\motai-static\\dist'
 const pats = [
-  'Professional Abrasive Manufacturer',
   'A partner behind every surface',
   "Let's build your next order",
   'Your Brand. Our Abrasive Solutions',

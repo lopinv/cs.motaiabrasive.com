@@ -11,7 +11,8 @@
     "backing": "Hook & loop",
     "summary": "Non-perforated, hook-and-loop discs on a cloth base for random-orbit and finishing machines; suits wood, metal and automotive workpieces.",
     "applications": ["Woodworking", "Automotive Repair", "Metal Fabrication"],
-    "note": "Grit ranges vary by source material; confirm the exact grades and backing with your quotation."
+    "note": "Grit ranges vary by source material; confirm the exact grades and backing with your quotation.",
+    "metaDescription": "Hook & loop sanding discs in 3–6 inch, grits 60–5000, on a cloth base for random-orbit and finishing pads. Aluminum oxide, non-perforated, for woodworking, automotive and metal work. Factory-direct wholesale and OEM."
   },
   {
     "handle": "3-inch-psa-sanding-disc",
@@ -24,7 +25,8 @@
     "material": "Aluminum oxide",
     "backing": "Pressure-sensitive adhesive (PSA)",
     "summary": "Peel-and-stick 3-inch (75 mm) discs for palm and die-grinder pads; fine-grit grades available for final finishing.",
-    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"]
+    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"],
+    "metaDescription": "3-inch (75 mm) PSA sanding discs, aluminum oxide, grits 60–5000 for palm and die-grinder pads — fine grades for auto body and final finishing. Factory-direct wholesale and OEM."
   },
   {
     "handle": "4-inch-psa-sanding-disc",
@@ -37,7 +39,8 @@
     "material": "Aluminum oxide",
     "backing": "Pressure-sensitive adhesive (PSA)",
     "summary": "4-inch (100 mm) PSA discs for bench and palm sanders; a fine-grit range for smooth, low-dusting finishing work.",
-    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"]
+    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"],
+    "metaDescription": "4-inch (100 mm) PSA sanding discs, aluminum oxide, grits 60–5000 for bench and palm sanders — smooth, low-dusting finish for wood and auto body. Factory-direct wholesale and OEM."
   },
   {
     "handle": "5-inch-psa-sanding-disc",
@@ -50,7 +53,8 @@
     "material": "Aluminum oxide",
     "backing": "Pressure-sensitive adhesive (PSA)",
     "summary": "5-inch (125 mm) PSA discs for 125 mm random-orbit and finishing pads; peel-and-stick adhesive holds for faster changing.",
-    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"]
+    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"],
+    "metaDescription": "5-inch (125 mm) PSA sanding discs, aluminum oxide, grits 60–5000 for 125 mm random-orbit and finishing pads. Peel-and-stick, for woodworking, auto body and surface prep. Factory-direct wholesale and OEM."
   },
   {
     "handle": "5-inch-mesh-sanding-disc",
@@ -63,7 +67,8 @@
     "material": "Aluminum oxide",
     "backing": "Hook & loop",
     "summary": "5-inch (125 mm) open-mesh discs for random-orbit pads; the perforations pull dust through for a cleaner, cooler cut.",
-    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"]
+    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"],
+    "metaDescription": "5-inch (125 mm) mesh sanding discs, aluminum oxide, grits 80–800 — open-mesh perforations pull dust through for a cooler, clog-resistant cut on random-orbit pads. Factory-direct wholesale and OEM."
   },
   {
     "handle": "6-inch-mesh-sanding-disc",
@@ -76,7 +81,8 @@
     "material": "Confirm with sales",
     "backing": "Confirm with sales",
     "summary": "6-inch (150 mm) open-mesh discs for 150 mm pads; dust-extracting holes keep the cut cooler and resist clogging on soft wood.",
-    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"]
+    "applications": ["Woodworking", "Automotive Repair", "Surface Preparation"],
+    "metaDescription": "6-inch (150 mm) mesh sanding discs with dust-extracting perforations — cooler, clog-resistant cutting on soft wood and large panels for 150 mm pads. Factory-direct wholesale and OEM."
   },
   {
     "handle": "533x75-abrasive-belt",
@@ -90,7 +96,8 @@
     "backing": "Cloth backing — confirm grade",
     "summary": "533 × 75 mm cloth-backed abrasive belts for bench and drum sanders; grits 40–800 cover stock removal through smoothing.",
     "applications": ["Woodworking", "Metal Fabrication", "Furniture Manufacturing"],
-    "ogImage": "motai-belt-533-75-main_649b8a3c-9993-4382-928b-18eb80c5cfc9.webp"
+    "ogImage": "motai-belt-533-75-main_649b8a3c-9993-4382-928b-18eb80c5cfc9.webp",
+    "metaDescription": "533 × 75 mm cloth-backed abrasive belts, aluminum oxide, grits 40–800 for bench and drum sanders — stock removal through smoothing on wood and metal. Factory-direct wholesale and OEM."
   },
   {
     "handle": "610x100-abrasive-belt",
@@ -103,7 +110,8 @@
     "material": "Aluminum oxide",
     "backing": "Cloth backing — confirm grade",
     "summary": "610 × 100 mm cloth-backed belts for larger bench and floor sanders; grits 40–800 for material removal and finishing.",
-    "applications": ["Woodworking", "Metal Fabrication", "Furniture Manufacturing"]
+    "applications": ["Woodworking", "Metal Fabrication", "Furniture Manufacturing"],
+    "metaDescription": "610 × 100 mm cloth-backed abrasive belts, aluminum oxide, grits 40–800 for bench and floor sanders — industrial sanding belt for wood and metal. Factory-direct wholesale and OEM."
   },
   {
     "handle": "1520x630-abrasive-belt",
@@ -116,7 +124,8 @@
     "material": "Aluminum oxide",
     "backing": "Cloth backing — confirm grade",
     "summary": "1520 × 630 mm abrasive belts for floor-sanding machines; grits 40–320 for coarse stock removal and intermediate smoothing.",
-    "applications": ["Woodworking", "Metal Fabrication", "Furniture Manufacturing"]
+    "applications": ["Woodworking", "Metal Fabrication", "Furniture Manufacturing"],
+    "metaDescription": "1520 × 630 mm wide abrasive belts, aluminum oxide, grits 40–320 for floor-sanding machines — wide sanding belts for coarse stock removal and intermediate smoothing. Factory-direct wholesale and OEM."
   },
   {
     "handle": "2200x1330-abrasive-belt",
@@ -129,7 +138,8 @@
     "material": "Aluminum oxide",
     "backing": "Cloth backing — confirm grade",
     "summary": "2200 × 1330 mm abrasive belts for heavy floor sanders; grits 40–320 for fast material removal on large surfaces.",
-    "applications": ["Woodworking", "Metal Fabrication", "Furniture Manufacturing"]
+    "applications": ["Woodworking", "Metal Fabrication", "Furniture Manufacturing"],
+    "metaDescription": "2200 × 1330 mm wide abrasive belts, aluminum oxide, grits 40–320 for heavy-duty floor sanders — fast material removal on large wood and metal surfaces. Factory-direct wholesale and OEM."
   },
   {
     "handle": "6-inch-solid-sanding-disc",
@@ -143,6 +153,7 @@
     "backing": "Confirm with sales",
     "summary": "6-inch (150 mm) non-perforated discs for 150 mm random-orbit and finishing pads; grits 60–5000 including fine finishing grades.",
     "applications": ["Woodworking", "Automotive Repair", "Metal Fabrication"],
-    "note": "Grit ranges vary by source material; confirm the exact grades and backing with your quotation."
+    "note": "Grit ranges vary by source material; confirm the exact grades and backing with your quotation.",
+    "metaDescription": "6-inch (150 mm) non-hole sanding discs, aluminum oxide, grits 60–5000 with fine finishing grades for 150 mm random-orbit and finishing pads. Factory-direct wholesale and OEM."
   }
 ]
