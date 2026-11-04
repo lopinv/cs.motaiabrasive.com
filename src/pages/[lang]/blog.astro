@@ -19,6 +19,10 @@ const seo = buildSeo(lang, 'blog', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.news'), path: `/${lang}/blog` }])
 ])
 const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
+// Freshness label per card: build-time localized date (bare 2-letter lang
+// code, not ogLocale, so Node small-icu accepts it — same as the byline in
+// the article template).
+const updated = (iso) => new Intl.DateTimeFormat(lang, { dateStyle: 'long' }).format(new Date(iso))
 ---
 
 <Shell lang={lang} seo={seo}>
@@ -41,10 +45,12 @@ const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer
             <span class="eyebrow">{pick(`article.${catKey[b.categoryKey]}`)}</span>
             <h3 class="product-card-title">{pick(b.titleKey)}</h3>
             <p>{pick(b.introKey)}</p>
+            {b.dateModified && <p class="card-updated"><span>{t.updatedLabel}</span> {updated(b.dateModified)}</p>}
           </div>
         </a>
       ))}
     </div>
+    <p class="small-note mt-16">{t.governance}</p>
   </div>
 
   <CtaBand lang={lang} waContext="contact" ctaKey1="article.discuss" ctaKey2="cta.waChat" />

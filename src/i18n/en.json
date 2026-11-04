@@ -187,6 +187,8 @@
     "globalSub": "Global supply organised by destination region.",
     "facTitle": "Find us in Hubei",
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit with our team and confirm the meeting point before travelling.",
+    "profileName": "At a glance",
+    "profileBody": "Coated abrasives manufacturer in Xianning, Hubei: three product lines supplied to seven destination regions, with grit coverage from 40 to 5000.",
     "ctaTitle": "Looking for a reliable abrasive supplier?",
     "cta1": "Request a Wholesale Quote",
     "cta2": "Contact via WhatsApp"
@@ -277,7 +279,9 @@
   },
   "blogIndex": {
     "h1": "Better information. Better selection.",
-    "sub": "Practical buyer resources for discussing abrasive specifications."
+    "sub": "Practical buyer resources for discussing abrasive specifications.",
+    "updatedLabel": "Updated",
+    "governance": "Guides are written and reviewed by the MoTai Abrasives technical team and re-reviewed when product specifications change."
   },
   "article": {
     "watchTitle": "Watch",
@@ -314,8 +318,8 @@
     "s4t": "Your choices",
     "s4b": "Contact motai-01@motaiabrasive.com to request access, correction or deletion. Please do not submit sensitive personal data or confidential files unrelated to your enquiry.",
     "s5t": "Cookies, links and analytics",
-    "s5b": "The browser stores enquiry-list management data. No advertising pixels or analytics trackers are enabled in this version. External WhatsApp, map and social links are governed by their own privacy policies.",
-    "updated": "Last updated 12 October 2026"
+    "s5b": "The browser stores enquiry-list management data. This site uses Google Analytics (gtag.js) for anonymised usage statistics; Google sets a cookie and processes data under its data-processing terms — you can opt out at https://support.google.com/analytics/answer/3452785. External WhatsApp, map and social links are governed by their own privacy policies.",
+    "updated": "Last updated 4 November 2026"
   },
   "terms": {
     "h1": "Terms of Use",

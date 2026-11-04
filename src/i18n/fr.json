@@ -314,8 +314,8 @@
     "s4t": "Vos choix",
     "s4b": "Contactez motai-01@motaiabrasive.com pour demander l'accès, la rectification ou la suppression. Veuillez ne pas soumettre de données personnelles sensibles ni de fichiers confidentiels sans rapport avec votre demande.",
     "s5t": "Cookies, liens et analyse",
-    "s5b": "Le navigateur stocke les données de gestion de la liste des demandes. Aucun pixel publicitaire ni traceur d'analyse n'est activé dans cette version. Les liens externes WhatsApp, cartes et réseaux sociaux sont régis par leurs propres politiques de confidentialité.",
-    "updated": "Dernière mise à jour le 12 octobre 2026"
+    "s5b": "Le navigateur stocke les données de gestion de la liste des demandes. Ce site utilise Google Analytics (gtag.js) pour des statistiques d'utilisation anonymisées ; Google dépose un cookie et traite les données selon ses conditions de traitement des données — vous pouvez vous y opposer sur https://support.google.com/analytics/answer/3452785. Les liens externes WhatsApp, cartes et réseaux sociaux sont régis par leurs propres politiques de confidentialité.",
+    "updated": "Dernière mise à jour le 4 novembre 2026"
   },
   "terms": {
     "h1": "Conditions d'utilisation",

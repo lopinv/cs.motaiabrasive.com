@@ -68,21 +68,28 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'terms':
     case 'quote':
     case 'clients':
-    case 'glossary':
+    case 'glossary': {
+      // Brand-default OG image so social cards don't fall back to the small
+      // logo (and twitter:card can be summary_large_image). Remote CDN only.
+      const og = { about: 'belt-1520-630', factory: 'belt-1520-630', oem: 'belt-1520-630', contact: 'belt-533-75', clients: 'belt-533-75', quote: 'belt-533-75', applications: 'belt-533-75' }[pageId]
       return {
         title: pick(tdk[pageId]),
         description: tdk[pageId].description,
         keywords: kws(tdk[pageId].keywords),
-        canonicalPath: `/${pageId}`
+        canonicalPath: `/${pageId}`,
+        ...(og ? { ogImage: media(og) } : {})
       }
+    }
     case 'collection': {
       const coltKey = { 'abrasive-belts': 'belts', 'sanding-discs': 'discs', 'flap-discs': 'flap', all: 'all' }[ctx.key]
       const c = tdk.colt[coltKey]
+      const colOg = { 'abrasive-belts': 'belt-533-75', 'sanding-discs': 'discs', 'flap-discs': 'flap-fiberglass', all: 'belt-533-75' }[ctx.key]
       return {
         title: c.title,
         description: c.description,
         keywords: kws(c.keywords),
-        canonicalPath: `/collections/${ctx.key}`
+        canonicalPath: `/collections/${ctx.key}`,
+        ...(colOg ? { ogImage: media(colOg) } : {})
       }
     }
     case 'application': {
@@ -344,14 +351,17 @@ export function collectionItemListJsonLd(lang, items) {
 }
 
 function buildArticleJsonLd(lang, a) {
+  // Author/publisher link the Organization node to the /about entity (org
+  // credentials page) so the byline is an E-E-A-T signal, not a bare copy.
+  const org = { '@id': ORG_ID, '@type': 'Organization', name: 'MoTai Abrasives', url: absUrl(lang, '/about') }
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: a.title,
     description: a.intro,
     image: [media(a.image)],
-    author: { '@id': ORG_ID, '@type': 'Organization', name: 'MoTai Abrasives' },
-    publisher: { '@id': ORG_ID, '@type': 'Organization', name: 'MoTai Abrasives' },
+    author: org,
+    publisher: org,
     ...(a.datePublished && { datePublished: a.datePublished }),
     ...(a.dateModified && { dateModified: a.dateModified }),
     mainEntityOfPage: absUrl(lang, `/blog/${a.slug}`)

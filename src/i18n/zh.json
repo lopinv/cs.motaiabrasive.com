@@ -314,8 +314,8 @@
     "s4t": "您的选择",
     "s4b": "致信 motai-01@motaiabrasive.com 请求访问、更正或删除。请勿提交与询盘无关的敏感个人信息或机密文件。",
     "s5t": "Cookie、外链与分析",
-    "s5b": "浏览器存储询盘列表管理数据。本版本未启用广告像素或分析追踪器。外部 WhatsApp、地图与社媒链接受各自隐私政策约束。",
-    "updated": "最后更新：2026 年 10 月 12 日"
+    "s5b": "浏览器存储询盘列表管理数据。本站使用 Google Analytics（gtag.js）进行匿名使用统计；Google 会设置 Cookie 并依据其数据处理条款处理数据，您可在此选择退出：https://support.google.com/analytics/answer/3452785。外部 WhatsApp、地图与社媒链接受各自隐私政策约束。",
+    "updated": "最后更新：2026 年 11 月 4 日"
   },
   "terms": {
     "h1": "使用条款",

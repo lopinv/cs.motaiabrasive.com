@@ -6,6 +6,7 @@ import { faqJsonLd, breadcrumbJsonLd, aboutPageJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import Faq from '../../components/Faq.astro'
+import { trust } from '../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths()
@@ -15,6 +16,7 @@ const { lang } = Astro.params
 const ctx = Astro.params
 const { pick, lu, media, wa, regions, faq, org } = usePage(lang)
 const a = pick('about')
+const stats = trust.stats.filter((x) => x.status === 'published')
 const seo = buildSeo(lang, 'about', {}, [
   aboutPageJsonLd(lang),
   faqJsonLd(lang, faq.faq),
@@ -56,6 +58,22 @@ const seo = buildSeo(lang, 'about', {}, [
   <section class="section wrap section--soft">
     <SectionHeading title={a.facTitle} />
     <p class="body-narrow">{a.facBody}</p>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={a.profileName} sub={a.profileBody} />
+    <div class="grid grid-3">
+      {stats.map((s) => (
+        <div class="value-card value-card--center">
+          <div class="stat-value">{s.value}</div>
+          <div class="stat-label">{pick(s.labelKey)}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <Faq lang={lang} title={pick('faq.faqTitle')} items={faq.faq} />
   </section>
 
   <CtaBand lang={lang} title={a.ctaTitle} waContext="contact" ctaKey1="about.cta1" ctaKey2="about.cta2" />

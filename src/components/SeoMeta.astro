@@ -54,4 +54,5 @@ const defaultOg = site.logo
 <meta name="twitter:title" content={title} />
 {description && <meta name="twitter:description" content={description} />}
 <meta name="twitter:image" content={ogImage || defaultOg} />
+<meta name="twitter:image:alt" content={title} />
 {jsonld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
