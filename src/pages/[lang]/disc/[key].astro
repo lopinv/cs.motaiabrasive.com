@@ -63,12 +63,12 @@ const seo = buildSeo(lang, 'disc', { key: d.key }, [
         <p class="small-note">{t.availability}</p>
       </details>
 
-      <a class="button wide" href={goQuote} target="_blank" rel="noopener">
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">
         {pick('cta.quote')} <span aria-hidden="true">↗</span>
       </a>
       <div class="motai-b2b-secondary-actions">
-        <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener">{pick('cta.sample')}</a>
-        <a class="button outline dark-outline wide" href={wa('disc', { title: d.title })} target="_blank" rel="noopener noreferrer">{pick('cta.whatsapp')}</a>
+        <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener nofollow">{pick('cta.sample')}</a>
+        <a class="button outline dark-outline wide" href={wa('disc', { title: d.title })} target="_blank" rel="noopener nofollow">{pick('cta.whatsapp')}</a>
       </div>
     </div>
   </section>

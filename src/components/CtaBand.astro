@@ -23,10 +23,10 @@ const pick = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), 
     {title && <h2>{title}</h2>}
     {body && <p>{body}</p>}
     <div class="cta-band-actions">
-      <a class="button wide" href={quoteUrl(quoteParams)} target="_blank" rel="noopener">
+      <a class="button wide" href={quoteUrl(quoteParams)} target="_blank" rel="noopener nofollow">
         {pick(ctaKey1) ?? tr.cta.quote} <span aria-hidden="true">↗</span>
       </a>
-      <a class="button outline dark-outline wide" href={waLink(lang, waContext, waVars)} target="_blank" rel="noopener noreferrer">
+      <a class="button outline dark-outline wide" href={waLink(lang, waContext, waVars)} target="_blank" rel="noopener nofollow">
         {pick(ctaKey2) ?? tr.cta.waChat}
       </a>
     </div>

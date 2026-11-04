@@ -49,7 +49,7 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
       {m.source && (
         <div class="product-description">
           <p>{m.source}</p>
-          {m.sourceUrl && <p class="small-note"><a href={m.sourceUrl} target="_blank" rel="noopener noreferrer">Source reference ↗</a></p>}
+          {m.sourceUrl && <p class="small-note"><a href={m.sourceUrl} target="_blank" rel="noopener nofollow">Source reference ↗</a></p>}
         </div>
       )}
 
@@ -65,13 +65,13 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
         <p class="small-note">{mp.disclaimer}</p>
       </details>
 
-      <a class="button wide" href={goQuote} target="_blank" rel="noopener">
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">
         {pick('cta.quote')} <span aria-hidden="true">↗</span>
       </a>
 
       <div class="motai-b2b-secondary-actions">
-        <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener">{pick('cta.sample')}</a>
-        <a class="button outline dark-outline wide" href={wa('model', { model: m.model })} target="_blank" rel="noopener noreferrer">{pick('cta.whatsapp')}</a>
+        <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener nofollow">{pick('cta.sample')}</a>
+        <a class="button outline dark-outline wide" href={wa('model', { model: m.model })} target="_blank" rel="noopener nofollow">{pick('cta.whatsapp')}</a>
       </div>
     </div>
   </section>

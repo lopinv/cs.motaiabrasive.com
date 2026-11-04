@@ -34,7 +34,7 @@ const seo = buildSeo(lang, 'contact', {}, [
     <p class="soft-body">{c.directBody}</p>
     <div class="grid grid-3 mt-24">
       <div class="value-card"><h3>Email</h3><p><a href={`mailto:${site.email}`}>{site.email}</a></p></div>
-      <div class="value-card"><h3>WhatsApp / Phone</h3><p><a href={wa('contact')} target="_blank" rel="noopener noreferrer">{site.phoneDisplay}</a></p></div>
+      <div class="value-card"><h3>WhatsApp / Phone</h3><p><a href={wa('contact')} target="_blank" rel="noopener nofollow">{site.phoneDisplay}</a></p></div>
       <div class="value-card"><h3>Location</h3><p>{site.addressShort}</p></div>
     </div>
   </section>
@@ -45,9 +45,9 @@ const seo = buildSeo(lang, 'contact', {}, [
     <p class="small-note">{c.facNote}</p>
     <a class="button outline dark-outline mt-16" href={wa('contact')}>{c.visit}</a>
     <div class="socials mt-24">
-      <a class="social-link" href={site.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
-      <a class="social-link" href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
-      <a class="social-link" href={site.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a class="social-link" href={site.facebook} target="_blank" rel="noopener nofollow">Facebook</a>
+      <a class="social-link" href={site.instagram} target="_blank" rel="noopener nofollow">Instagram</a>
+      <a class="social-link" href={site.whatsapp} target="_blank" rel="noopener nofollow">WhatsApp</a>
     </div>
   </section>
 
@@ -60,7 +60,7 @@ const seo = buildSeo(lang, 'contact', {}, [
     <p class="small-note">{c.formNote}</p>
     <div class="cta-band-actions cta-band-actions--auto">
       <a class="button" href={lu('/quote')}>{c.btn}</a>
-      <a class="button outline dark-outline" href={wa('contact')} target="_blank" rel="noopener noreferrer">{pick('cta.waChat')}</a>
+      <a class="button outline dark-outline" href={wa('contact')} target="_blank" rel="noopener nofollow">{pick('cta.waChat')}</a>
     </div>
   </section>
 </Shell>
