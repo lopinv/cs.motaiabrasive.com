@@ -51,12 +51,14 @@ const langOpts = LANGS.map((code) => ({
       </summary>
       <div class="lang-panel" onclick="this.parentElement.open=false" role="menu">
         <div class="lang-panel-heading">{tr.nav.language}</div>
-        {langOpts.map((o) => (
-          <a class={`lang-option ${o.selected ? 'selected' : ''}`} href={o.href}>
-            <span class="lang-code">{o.codeLabel}</span>
-            <span>{o.name}</span>
-          </a>
-        ))}
+        <div class="lang-options">
+          {langOpts.map((o) => (
+            <a class={`lang-option ${o.selected ? 'selected' : ''}`} href={o.href}>
+              <span class="lang-code">{o.codeLabel}</span>
+              <span>{o.name}</span>
+            </a>
+          ))}
+        </div>
       </div>
     </details>
   </div>
