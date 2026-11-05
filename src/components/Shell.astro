@@ -17,12 +17,24 @@ import '../styles/global.css'
 const { lang, seo = {}, bodyClass = '' } = Astro.props
 const htmlLang = TRANSLATIONS[lang]?.htmlLang ?? 'en'
 const dir = TRANSLATIONS[lang]?.rtl ? 'rtl' : 'ltr'
+// Perf: preconnect the two third-party origins whose first resource
+// (image CDN / GA gtag) would otherwise wait for the full parse before its
+// TCP+TLS handshake starts.
+const cdnOrigin = new URL(site.mediaBase).origin
+// LCP preload: home (canonicalPath '') and product-like pages (ogType
+// 'product') have a known above-the-fold image worth fetching early;
+// static pages skip it to avoid wasted bandwidth. No `type` attr — the
+// CDN serves .webp-named assets as jpeg, so an explicit type could lie.
+const lcpPreload = (seo.ogType === 'product' || seo.canonicalPath === '') && seo.ogImage ? seo.ogImage : ''
 ---
 
 <html lang={htmlLang} dir={dir} class={`lang-${lang} ${bodyClass}`}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href={cdnOrigin} />
+    {site.ga4Id && <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />}
+    {lcpPreload && <link rel="preload" as="image" href={lcpPreload} />}
     {site.favicon && <link rel="icon" type="image/png" href={site.favicon} />}
     <GoogleAnalytics trackingId={site.ga4Id} />
     <SeoMeta lang={lang} {...seo} />
