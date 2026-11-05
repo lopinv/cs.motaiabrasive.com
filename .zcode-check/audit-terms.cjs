@@ -50,8 +50,10 @@ const WRONG = {
     ['kovalné', 'garbled non-word', 'broušení'],
     ['Vědění', 'archaic/coined: knowledge', 'Znalosti'],
     ['Odrizivost', 'wrong word; grit = zrnitost', 'Zrnitost'],
-    ['úlož,', 'truncated: úložiště', 'úložiště'],
-    ['vlastnictv', 'truncated: vlastnictví', 'vlastnictví']
+    // truncated word: must not be followed by a diacritic ("vlastnictví" is correct)
+    [/vlastnictv(?!í)/, 'truncated: vlastnictví', 'vlastnictví'],
+    [/úlož(?!i)/, 'truncated: úložiště', 'úložiště'],
+    [/vlastnictv(?!í)/, 'truncated: vlastnictví', 'vlastnictví']
   ],
   sk: [
     ['Uvnittri', 'coined; = Uvnitri', 'Uvnitri'],
@@ -147,16 +149,33 @@ const count = (s, needle) => s.split(needle).length - 1
 const nonAscii = (s) => /[^ -~]/.test(s)
 
 let totalIssues = 0
-for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json')).sort()) {
-  const code = f.replace(/\.json$/, '')
-  const raw = fs.readFileSync(path.join(DIR, f), 'utf8')
+const PAYLOADS = fs.readdirSync(DIR).filter((x) => x.endsWith('.json')).sort()
+// Audit both the merged locale payloads AND any translated tail files that
+// have not been merged yet (tails/<code>.tail.out.json).
+const targets = PAYLOADS.map((f) => ({ file: f, code: f.replace(/\.json$/, ''), dir: DIR }))
+const TAILDIR = path.join(__dirname, 'tails')
+if (fs.existsSync(TAILDIR)) {
+  for (const f of fs.readdirSync(TAILDIR).filter((x) => x.endsWith('.tail.out.json')).sort()) {
+    targets.push({ file: f, code: f.replace(/\.tail\.out\.json$/, ''), dir: TAILDIR })
+  }
+}
+
+for (const { file, code, dir } of targets) {
+  const raw = fs.readFileSync(path.join(dir, file), 'utf8')
   const obj = JSON.parse(raw)
   const flat = Object.keys(obj)
   const issues = []
 
-  // 1) wrong/invented terms
+  // 1) wrong/invented terms (string patterns count literal occurrences;
+  //    RegExp patterns use a global match so word boundaries work)
   for (const [pat, why, fix] of (WRONG[code] || [])) {
-    const n = count(raw, pat)
+    let n = 0
+    if (pat instanceof RegExp) {
+      const re = new RegExp(pat.source, pat.flags.includes('g') ? pat.flags : pat.flags + 'g')
+      n = (raw.match(re) || []).length
+    } else {
+      n = count(raw, pat)
+    }
     if (n) issues.push(`TERM  "${pat}" x${n} — ${why} → "${fix}"`)
   }
   // 2) placeholder loss (only for keys present in the payload)
@@ -177,14 +196,14 @@ for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json')).sort()) {
   // by reading sample sentences instead — see .zcode-check/audit-th-th.md.
   // 6) Nordic letters sanity (must contain some å/ä/ö/æ/ø in Latin locales)
   if (['sv', 'da', 'no'].includes(code) && !/[åäöæø]/i.test(raw)) issues.push('SCRIPT no Scandinavian letters found (fully anglicised?)')
-  // 7) FULL-locale completeness
+  // 7) FULL-locale completeness (payloads only; a tail file is partial by design)
   const leaves = (() => { let n = 0; (function w(x) { for (const v of Object.values(x)) { if (typeof v === 'object' && v !== null && !Array.isArray(v)) w(v); else n++ } })(obj); return n })()
-  if (leaves >= 579 && !flat.every((k) => enSet.has(k) || ['code', 'name', 'codeLabel', 'htmlLang', 'ogLocale', 'rtl'].includes(k))) {
+  if (dir === DIR && leaves >= 579 && !flat.every((k) => enSet.has(k) || ['code', 'name', 'codeLabel', 'htmlLang', 'ogLocale', 'rtl'].includes(k))) {
     issues.push('SHAPE FULL payload has keys not present in en.json')
   }
 
   totalIssues += issues.length
-  console.log(`\n### ${code} (${leaves} leaves, ${flat.length} flat keys)`)
+  console.log(`\n### ${code} (${leaves} leaves, ${flat.length} flat keys)${dir === DIR ? '' : ' [tail]'}`)
   console.log(issues.length ? issues.map((i) => '  - ' + i).join('\n') : '  - clean')
 }
 console.log(`\n=== ${totalIssues} issue(s) total ===`)

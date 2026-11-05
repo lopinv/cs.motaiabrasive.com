@@ -72,340 +72,340 @@
     "heroSub": "Hiontalankat, hiontapaperit ja hiontapalat suoraan tehdaselta teollisuuskäyttäjille, jakelijoille ja oman merkin brändeille — Hubeista, Kiinasta markkinallesi.",
     "cta1": "Pyydä tukkuhinta",
     "cta2": "Puhuta tiimiimme WhatsAppissa",
-    "builtTitle": "Pick the application. Match the abrasive.",
-    "builtSub": "Choose the application, then match the abrasive: belts, discs or flap discs.",
-    "featuredTitle": "In the catalogue",
-    "featuredSub": "Sizes and grits are documented in the catalogue; MOQ and availability come with the offer.",
-    "partnerTitle": "The supply side of your abrasive order",
-    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications — with OEM and private-label programmes for distributors and industrial buyers worldwide.",
-    "partnerCta": "Learn about MoTai",
-    "valuesTitle": "Six ways B2B buyers work with us",
-    "valuesSub": "Six reasons importers and OEM brands work with us.",
-    "v1t": "Factory Direct",
-    "v1b": "Supplier-side pricing and lead times, without middlemen.",
-    "v2t": "OEM & Private Label",
-    "v2b": "Your logo, labels and packaging on confirmed specifications.",
-    "v3t": "Custom Sizes & Grits",
-    "v3b": "Documented sizes and grits 40–800 on belts, 60–5000 on discs.",
-    "v4t": "Sample Checks & QC",
-    "v4b": "Review surface, backing and fit on a sample before the order.",
-    "v5t": "Bulk Supply",
-    "v5b": "Consistent carton quantities and packing list detail.",
-    "v6t": "Export Programme",
-    "v6b": "Carton marks, labels and destination documentation.",
-    "processTitle": "The steps between your spec and the order",
-    "processSub": "Four stages between your requirement and a confirmed order.",
-    "p1t": "Cutting & converting",
-    "p1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
-    "p2t": "Sample checks",
-    "p2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
-    "p3t": "OEM & packing",
-    "p3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
-    "p4t": "Shipment preparation",
-    "p4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
-    "oemTitle": "Your name on the carton",
-    "oemSub": "Share the product, packaging and brand requirements for your next abrasive range.",
-    "oemCta": "Explore OEM services",
-    "faqTitle": "Before we start",
-    "faqSub": "Answers to the questions buyers ask most.",
-    "regionsTitle": "From Hubei to your market",
-    "regionsSub": "Global supply organised by destination region.",
-    "regionsNote": "MOQ and lead time are confirmed in your quotation. Routes are indicative; availability and terms are confirmed by quotation.",
-    "factoryTitle": "Find us in Hubei",
-    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit and confirm the meeting point with our team.",
-    "finalTitle": "Looking for a reliable abrasive supplier?",
-    "finalBody": "Share your product, quantity and application — we'll review your requirements and prepare a matched quotation.",
-    "finalCta1": "Request a Wholesale Quote",
-    "finalCta2": "Contact via WhatsApp",
-    "beltsShowTitle": "Abrasive belts, by model",
-    "beltsShowSub": "Reference models for discussion with our team.",
-    "prepTitle": "Prepare your wholesale enquiry",
-    "prepSub": "Dimensions, grit and quantity do the rest of the work.",
-    "prepDim": "Dimensions",
-    "prepDimText": "Size or model reference in millimetres.",
-    "prepGrit": "Grit",
-    "prepGritText": "Grade or finish required.",
-    "prepQty": "Quantity",
-    "prepQtyText": "Estimated volume and packaging."
+    "builtTitle": "Valitse sovellus. Sovitkaa hiomamateriaali.",
+    "builtSub": "Valitse sovellus ja sovitkaa hiomamateriaali: hiomahihnat, hiomapaperit tai hiomapalat.",
+    "featuredTitle": "Luettelossa",
+    "featuredSub": "Koot ja karkeukset on dokumentoitu luettelossa; MOQ ja saatavuus ilmoitetaan tarjouksen yhteydessä.",
+    "partnerTitle": "Hiomatilauksenne toimituspuoli",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. toimittaa hiomatuotteita puu-, metalli- ja autoteollisuuden sovelluksiin — OEM- ja oma brändi -ohjelmilla jakelijoille ja teollisuusostajille ympäri maailmaa.",
+    "partnerCta": "Tutustukaa MoTaihin",
+    "valuesTitle": "Kuusi tapaa, joilla B2B-ostajat toimivat kanssamme",
+    "valuesSub": "Kuusi syytä, miksi tuojat ja OEM-brändit toimivat kanssamme.",
+    "v1t": "Suoraan tehtaasta",
+    "v1b": "Toimittajan hintatasot ja toimitusajat ilman välikäsiä.",
+    "v2t": "OEM & oma brändi",
+    "v2b": "Teidän logonne, etikettinne ja pakkauksenne vahvistettujen spesifikaatioiden mukaan.",
+    "v3t": "Mukautetut koot ja karkeukset",
+    "v3b": "Dokumentoidut koot ja karkeukset hiomahihnoissa 40–800, hiomapapereissa 60–5000.",
+    "v4t": "Näytteiden tarkastus & QC",
+    "v4b": "Tarkastakaa pinta, pohja ja sopivuus näytteellä ennen tilausta.",
+    "v5t": "Tukkutoimitukset",
+    "v5b": "Yhdenmukaiset laatikkomäärät ja tarkat pakkausluettelon tiedot.",
+    "v6t": "Vientiohjelma",
+    "v6b": "Laatikkomerkinnät, etiketit ja kohdemaan dokumentaatio.",
+    "processTitle": "Vaiheet spesifikaatiosta tilaukseen",
+    "processSub": "Neljä vaihetta tarpeestanne vahvistettuun tilaukseen.",
+    "p1t": "Leikkaus ja muokkaus",
+    "p1b": "Vahvistakaa vaadittu muoto, mitat ja karkeus ennen muokkausprosessin järjestämistä.",
+    "p2t": "Näytteiden tarkastus",
+    "p2b": "Tarkastakaa näytteen hiomapinta, pohja ja sopivuus ennen tilauksen erittelyn hyväksymistä.",
+    "p3t": "OEM ja pakkaus",
+    "p3b": "Vahvistakaa pakkausmäärät, etiketit, laatikkomerkinnät ja oma brändi -graafiset materiaalit tarjouksen yhteydessä.",
+    "p4t": "Lähetyksen valmistelu",
+    "p4b": "Sopikaa pakkausluettelo, kuormalaattojen vaatimukset ja kohdemaan tiedot ennen lähetystä.",
+    "oemTitle": "Teidän nimenne laatikossa",
+    "oemSub": "Ilmoittakaa tuotteen, pakkauksen ja brändin vaatimukset seuraavaa hiomatuotesarjaanne varten.",
+    "oemCta": "Tutustukaa OEM-palveluihin",
+    "faqTitle": "Ennen aloitamme",
+    "faqSub": "Vastaukset ostajien useimmitin esittämiin kysymyksiin.",
+    "regionsTitle": "Hubeista markkinoillenne",
+    "regionsSub": "Maailmanlaajuinen toimitus järjestetty kohdealueen mukaan.",
+    "regionsNote": "MOQ ja toimitusaika vahvistetaan tarjouksessanne. Reitit ovat suuntaa antavia; saatavuus ja ehdot vahvistetaan tarjouksella.",
+    "factoryTitle": "Löydät meidät Hubeista",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kiina. Sopikaa tehdaskäynti tiimimme kanssa ja vahvistakaa tapaamispaikka.",
+    "finalTitle": "Etsittekö luotettavaa hiomatuotteiden toimittajaa?",
+    "finalBody": "Ilmoittakaa tuote, määrä ja sovellus — tarkastelemme vaatimustanne ja valmistelemme vastaavan tarjouksen.",
+    "finalCta1": "Pyytäkää tukkutarjous",
+    "finalCta2": "Ottakaa yhteyttä WhatsAppilla",
+    "beltsShowTitle": "Hiomahihnat malleittain",
+    "beltsShowSub": "Malliviitteet keskustelua varten tiimimme kanssa.",
+    "prepTitle": "Valmistelkaa tukkutiedustuksenne",
+    "prepSub": "Mitat, karkeus ja määrä hoitavat loput.",
+    "prepDim": "Mitat",
+    "prepDimText": "Koko- tai malliviite millimetreinä.",
+    "prepGrit": "Karkeus",
+    "prepGritText": "Vaadittu luokka tai viimeistelytaso.",
+    "prepQty": "Määrä",
+    "prepQtyText": "Arvioitu volyymi ja pakkaus."
   },
   "purchasing": {
-    "eyebrow1": "Purchasing guidance",
-    "title1": "Prepare your wholesale enquiry",
-    "body1": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options above where available; other requirements will be reviewed with our team.",
-    "dl1t": "Quantity & destination",
-    "dl1b": "Tell us the quantity, packaging needs and delivery destination.",
-    "dl2t": "Supply & terms",
-    "dl2b": "Availability, minimum order quantity and commercial terms are subject to confirmation in the quotation.",
-    "dl3t": "OEM packaging enquiries",
-    "dl3b": "Branding, labels, custom size or packing requirements.",
-    "eyebrow2": "How to enquire",
-    "title2": "From product selection to quotation",
-    "s1t": "Select your product",
-    "s1b": "Choose the product or model and the required specification.",
-    "s2t": "Share your requirements",
-    "s2b": "Share quantity, application and packaging requirements.",
-    "s3t": "Review your quotation",
-    "s3b": "Confirm the final specification and commercial terms with our team."
+    "eyebrow1": "Hankintaohje",
+    "title1": "Valmistele tukkutiedustuksenne",
+    "body1": "Ilmoittakaa tarvitsemanne mitat, karkeus, työkappale, kone ja haluttu lopputulos. Käyttäkä yllä kuvattuja valinnanmahdollisuuksia niiden ollessa käytettävissä; muut vaatimukset käydään läpi tiimimme kanssa.",
+    "dl1t": "Määrä ja toimituspaikka",
+    "dl1b": "Ilmoittakaa määrä, pakkaustarpeet ja toimituspaikka.",
+    "dl2t": "Toimitus ja ehdot",
+    "dl2b": "Saatavuus, vähimmistilausmäärä ja kaupalliset ehdot vahvistetaan tarjouksessa.",
+    "dl3t": "OEM-pakkauksen tiedustelut",
+    "dl3b": "Brändäys, etiketit, erikoismitat tai pakkausvaatimukset.",
+    "eyebrow2": "Näin tiedustatte",
+    "title2": "Tuotevalinnasta tarjoukseen",
+    "s1t": "Valitse tuote",
+    "s1b": "Valitse tuote tai malli sekä tarvittavat tekniset tiedot.",
+    "s2t": "Ilmoittakaa vaatimukset",
+    "s2b": "Ilmoittakaa määrä, käyttökohteet ja pakkausvaatimukset.",
+    "s3t": "Tarkastakaa tarjouksenne",
+    "s3b": "Vahvistakaa lopulliset tekniset tiedot ja kaupalliset ehdot tiimimme kanssa."
   },
   "modelPage": {
-    "eyebrow": "Abrasive belts · Reference model",
-    "refLabel": "Model reference",
-    "familyLabel": "Category",
-    "dimsLabel": "Finished belt dimensions — specify width × length in mm",
-    "dimsPlaceholder": "e.g. 533 × 75 mm",
-    "gritLabel": "Required grit — specify the grade or finish required",
-    "gritPlaceholder": "e.g. P60",
-    "qtyLabel": "Requested quantity",
-    "specLabel": "Specification and packaging requirements",
-    "discussion": "Discuss this model with our team using your workpiece, machine and required finish.",
-    "grainBacking": "Grain and backing — confirm the raw-material manufacturer and exact grade.",
-    "disclaimer": "Model-family details are for selection reference; MoTai supply specs, availability and fit are settled with your quotation."
+    "eyebrow": "Hiomahihnat · Vertailumalli",
+    "refLabel": "Mallitunnus",
+    "familyLabel": "Tuoteluokka",
+    "dimsLabel": "Valmiin hihnan mitat — ilmoittakaa leveys × pituus millimetreinä",
+    "dimsPlaceholder": "esim. 533 × 75 mm",
+    "gritLabel": "Vaadittu karkeus — ilmoittakaa tarvittava luokka tai viimeistely",
+    "gritPlaceholder": "esim. P60",
+    "qtyLabel": "Pyydetty määrä",
+    "specLabel": "Tekniset vaatimukset ja pakkausvaatimukset",
+    "discussion": "Keskustelkaa tästä mallista tiimimme kanssa ja ilmoittakaa työkappale, kone sekä vaadittu viimeistely.",
+    "grainBacking": "Hiontarake ja pohja — vahvistakaa raaka-aineen valmistaja ja tarkka luokka.",
+    "disclaimer": "Malliperheen tiedot ovat valintaa varten; MoTain toimitusspecifikaatio, saatavuus ja soveltuvuus vahvistetaan tarjouksen yhteydessä."
   },
   "discPage": {
-    "eyebrow": "Sanding discs · Documented variant",
-    "gritsNote": "Grit options for this variant"
+    "eyebrow": "Hiomapaperit · Dokumentoitu variantti",
+    "gritsNote": "Karkeusvaihtoehdot tälle variantille"
   },
   "flapPage": {
-    "eyebrow": "Flap discs · Backing variant",
-    "color": "Color",
-    "gritNote": "P40–P60 and P80–P120 are general selection examples, not a confirmed MoTai supply range."
+    "eyebrow": "Hiomapalat · Pohjavariantti",
+    "color": "Väri",
+    "gritNote": "P40–P60 ja P80–P120 ovat yleisiä valintavaihtoehtoja, eivät vahvistettu MoTain toimitusvalikoima."
   },
   "productPage": {
-    "specTitle": "Specifications",
-    "howTitle": "How to specify your order",
-    "howBody": "Include the belt or disc size, grit list, machine model, workpiece material and quantity. A clear specification helps us review fit and prepare a useful quotation — avoid selecting a product using colour alone.",
-    "faqTitle": "Buyer questions"
+    "specTitle": "Tekniset tiedot",
+    "howTitle": "Miten tilaus määritellään",
+    "howBody": "Ilmoittakaa hihnan tai levyn koko, karkeuslista, koneen malli, työstettävän materiaali ja määrä. Selkeä määritys auttaa meitä arvioimaan sopivuutta ja valmistelemaan hyödyllisen tarjouksen — älkää valitse tuotetta ainoastaan värin perusteella.",
+    "faqTitle": "Ostajien kysymyksiä"
   },
   "about": {
-    "h1": "The company behind the abrasive range",
-    "sub": "A considered approach to abrasive supply.",
-    "bizTitle": "Our business",
-    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications. Documented ranges include non-hole sanding discs, mesh sanding discs and red abrasive belts. We accept enquiries from importers, distributors, wholesalers and industrial buyers — product, backing, size, grade, quantity and delivery requirements.",
-    "matTitle": "Company materials",
-    "matBody": "Explore the company background and contacts in our brochure.",
-    "globalTitle": "From Hubei to your market",
-    "globalSub": "Global supply organised by destination region.",
-    "facTitle": "Find us in Hubei",
-    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit with our team and confirm the meeting point before travelling.",
-    "profileName": "At a glance",
-    "profileBody": "Coated abrasives manufacturer in Xianning, Hubei: three product lines supplied to seven destination regions, with grit coverage from 40 to 5000.",
-    "ctaTitle": "Looking for a reliable abrasive supplier?",
-    "cta1": "Request a Wholesale Quote",
-    "cta2": "Contact via WhatsApp"
+    "h1": "Hiomatuotevalikoiman takana oleva yritys",
+    "sub": "Harkittu tapa toimittaa hiomatuotteita.",
+    "bizTitle": "Toimintamme",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. toimittaa hiomatuotteita puuntyöstöön, metallityöstöön ja autoteollisuuden sovelluksiin. Dokumentoidut valikoimat sisältävät reittömät hiomapaperit, verkkopohjaiset hiomapaperit ja punaiset hiomahihnat. Otamme vastaan tiedusteluja tuojiilta, jakelijoilta, tukkureilta ja teollisuusostajilta — tuote, pohja, koko, laatu, määrä ja toimitusvaatimukset.",
+    "matTitle": "Yrityksen aineistot",
+    "matBody": "Tutustukaa yrityksen taustatietoihin ja yhteystietoihin esitteessämme.",
+    "globalTitle": "Hubeista markkinoillenne",
+    "globalSub": "Maailmanlaajuinen toimitus järjestettynä kohdealueen mukaan.",
+    "facTitle": "Tehtaan sijainti Hubeissa",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Sopikaa tehtaanvierailu tiimimme kanssa ja vahvistakaa tapaamispaikka ennen matkaa.",
+    "profileName": "Lyhyesti",
+    "profileBody": "Päällystettyjen hiomatuotteiden valmistaja Xianningissa, Hubeissa: kolme tuotelinjaa seitsemälle kohdealueelle, karkeusvalikoima 40–5000.",
+    "ctaTitle": "Etsitkö luotettavaa hiomatuotteiden toimittajaa?",
+    "cta1": "Pyytäkää tukkutarjous",
+    "cta2": "Ottakaa yhteyttä WhatsApilla"
   },
   "factory": {
-    "h1": "Inside the MoTai workshop",
-    "sub": "Details matter. At every stage.",
-    "intro": "Review the cutting, sample checks and packing details for your order. Product footage is shown alongside process illustrations.",
-    "videoLabel": "View product footage",
-    "stepsTitle": "Manufacturing & order preparation",
-    "stepsIntro": "From your requirement to a confirmed order.",
-    "st1t": "Cutting & converting",
-    "st1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
-    "st2t": "Sample checks",
-    "st2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
-    "st3t": "OEM & packing",
-    "st3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
-    "st4t": "Shipment preparation",
-    "st4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
-    "imgNote": "Cutting and sample images are extracted from the supplied product videos. Packing and shipment images are illustrative stock photographs.",
-    "qcTitle": "Quality checkpoints",
-    "qcIntro": "What we verify before an order leaves the factory floor.",
-    "qc1t": "Surface & grit",
-    "qc1b": "Abrasive surface consistency against the confirmed grade.",
-    "qc2t": "Backing & fit",
-    "qc2b": "Backing type, weight and dimensional tolerance of finished belts and discs.",
-    "qc3t": "Packing & marks",
-    "qc3b": "Pack quantities, labels, carton marks and private-label artwork match the confirmed order.",
-    "certNote": "Certification marks shown are placeholders pending published certificates.",
-    "ctaTitle": "Prefer to talk it through?",
-    "ctaSub": "Looking for a reliable abrasive supplier?",
-    "cta1": "Request a Wholesale Quote",
-    "cta2": "Contact via WhatsApp"
+    "h1": "MoTain työpajassa",
+    "sub": "Yksityiskohdat ratkaisevat. Jokaisessa vaiheessa.",
+    "intro": "Tarkastakaa tilauksenne leikkaus-, näyttö- ja pakkaustiedot. Tuotevideo esitetään prosessikuvastusten rinnalla.",
+    "videoLabel": "Katso tuotevideo",
+    "stepsTitle": "Valmistus ja tilauksen valmistelu",
+    "stepsIntro": "Tarpeistanne vahvistettuun tilaukseen.",
+    "st1t": "Leikkaus ja muuntaminen",
+    "st1b": "Vahvistakaa vaadittu muoto, mitat ja karkeus ennen muuntamisen järjestämistä.",
+    "st2t": "Näyttötarkastukset",
+    "st2b": "Tarkastakaa näytteen hiontapinta, pohja ja sovittuvuus ennen tilauksen teknisten vaatimuksien sopimista.",
+    "st3t": "OEM ja pakkaus",
+    "st3b": "Vahvistakaa pakkausmäärät, etiketit, kartonkimerkinnät ja oman brändin painokuvat tarjouksen yhteydessä.",
+    "st4t": "Lähetyksen valmistelu",
+    "st4b": "Sopikaa pakkausluettelo, kuormankoon vaatimukset ja toimituskohteen tiedot ennen lähetystä.",
+    "imgNote": "Leikkaus- ja näytekuvat on poimittu toimitetuista tuotevideoista. Pakkaus- ja lähetyskuvat ovat havainnollistavia varastokuvia.",
+    "qcTitle": "Laadun tarkastuspisteet",
+    "qcIntro": "Mitä tarkistamme ennen kuin tilaus lähtee tehtaalta.",
+    "qc1t": "Pinta ja karkeus",
+    "qc1b": "Hiontapinnan yhdenmukaisuus suhteessa vahvistettuun luokkaan.",
+    "qc2t": "Pohja ja sovittuvuus",
+    "qc2b": "Valmiiden hiomahihnojen ja hiomapaperien pohjat tyyppi, paino ja mittatoleranssi.",
+    "qc3t": "Pakkaus ja merkinnät",
+    "qc3b": "Pakkausmäärät, etiketit, kartonkimerkinnät ja oman brändin painokuvat vastaavat vahvistettua tilausta.",
+    "certNote": "Näkyvät sertifiointimerkinnät ovat paikkamerkkejä, kunnes sertifikaatit on julkaistu.",
+    "ctaTitle": "Haluatteko käydä keskustelua?",
+    "ctaSub": "Etsittekö luotettavaa hiomamateriaalin toimittajaa?",
+    "cta1": "Pyydät tukkutarjousta",
+    "cta2": "Ottakaa yhteyttä WhatsAppilla"
   },
   "oem": {
-    "h1": "Your name on the carton",
-    "sub": "Send your product, packaging and brand requirements; we'll come back with an OEM feasibility check.",
-    "briefTitle": "Build an enquiry around your brand",
-    "briefEyebrow": "Bring your brief",
-    "briefBody": "Discuss your logo and label artwork, packaging format, product sizes, grit grades and intended use. OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation.",
-    "itemsTitle": "A clear brief gets a useful response",
-    "i1": "Product & specification",
-    "i2": "Size & grit mix",
-    "i3": "Artwork & labels",
-    "i4": "Packaging format",
-    "i5": "Target quantities",
-    "i6": "Destination & timing",
-    "itemNote": "Include your requirements and reference files in the enquiry.",
-    "procTitle": "From enquiry to supply",
-    "pr1t": "Your enquiry",
-    "pr1b": "Tell us your application and requirements.",
-    "pr2t": "Spec check",
-    "pr2b": "Review sizes, grades, backing and packaging.",
-    "pr3t": "Offer",
-    "pr3b": "Confirm commercial terms and schedule.",
-    "pr4t": "Sample sign-off",
-    "pr4b": "Evaluate agreed samples before approval.",
-    "pr5t": "Run",
-    "pr5b": "Proceed against the confirmed specification.",
-    "pr6t": "Dispatch",
-    "pr6b": "Coordinate packing and destination.",
-    "cta1": "Request a Wholesale Quote",
-    "cta2": "Contact via WhatsApp"
+    "h1": "Nimenne pakkauksessa",
+    "sub": "Lähettäkää tuote-, pakkaus- ja brändivaatimuksenne; tarkistamme OEM-toteutettavuuden ja palaamme teille.",
+    "briefTitle": "Laatikaa tiedustus brändinne pohjalta",
+    "briefEyebrow": "Tuokaa vaatimuksenne mukaan",
+    "briefBody": "Käsitelkää logon ja etikettien suunnittelua, pakkausmuotoa, tuotteiden kokoja, hiontarakeita ja suunniteltua käyttöä. OEM-saatavuus, vähimmäismäärät, suunnitteluvaatimukset ja aikataulut käydään läpi toteutettavuusarvioinnissa ja vahvistetaan tarjouksessa.",
+    "itemsTitle": "Selkeät vaatimukset tuottavat hyödyllisen vastauksen",
+    "i1": "Tuote ja tekniset tiedot",
+    "i2": "Koko- ja hiontarakejakauma",
+    "i3": "Graafinen suunnittelu ja etiketit",
+    "i4": "Pakkausmuoto",
+    "i5": "Tavoitemäärät",
+    "i6": "Toimituspaikka ja aikataulu",
+    "itemNote": "Liittäkää tiedustukseen vaatimuksenne ja referenssitiedostot.",
+    "procTitle": "Tiedustuksesta toimitukseen",
+    "pr1t": "Tiedustuksenne",
+    "pr1b": "Ilmoittakaa käyttökohteesta ja vaatimuksista.",
+    "pr2t": "Tekninen tarkistus",
+    "pr2b": "Tarkastamme kokoja, hiontarakeita, pohjia ja pakkausta.",
+    "pr3t": "Tarjous",
+    "pr3b": "Vahvistamme kaupalliset ehdot ja aikataulun.",
+    "pr4t": "Näytteen hyväksyntä",
+    "pr4b": "Arvioimme sovitut näytteet ennen hyväksyntää.",
+    "pr5t": "Sarjatuotanto",
+    "pr5b": "Tuotamme vahvistettujen teknisten tietojen mukaisesti.",
+    "pr6t": "Lähetys",
+    "pr6b": "Koordinoimme pakkauksen ja toimituksen.",
+    "cta1": "Pyytäkää tukkutarjous",
+    "cta2": "Ottakaa yhteyttä WhatsAppilla"
   },
   "applications": {
-    "h1": "Abrasives for your industry",
-    "sub": "The surface sets the specification.",
-    "intro": "Six application fields. Specify the material, machine and required finish — we'll match the abrasive.",
-    "ctaNote": "Some images are AI-generated application illustrations, not MoTai factory or customer photographs.",
-    "sampleNote": "Tell us your industry, country, product specification and estimated order volume when requesting a quote.",
-    "reqTitle": "Recommended products",
-    "reqNote": "Indicative product families for this field. Confirm sizes, grits and quantities with the quotation.",
-    "specTitle": "Specification tips",
-    "faqTitle": "Frequently asked",
+    "h1": "Hiomatuotteet teollisuudenalueellenne",
+    "sub": "Pinta määrää määrityksen.",
+    "intro": "Kuusi sovelluskenttää. Ilmoittakaa materiaali, kone ja vaadittu viimeistely — sovitamme hiomatuotteen.",
+    "ctaNote": "Jotkut kuvat ovat tekoälyllä generoituja sovelluspiirroksia, eivätkä MoTain tehtaan tai asiakkaiden valokuvia.",
+    "sampleNote": "Ilmoittakaa toimialanne, maa, tuotteen määritys ja arvioitu tilausmäärä pyytäessänne tarjousta.",
+    "reqTitle": "Suositellut tuotteet",
+    "reqNote": "Suuntaa antavat tuoteryhmät tälle alalle. Vahvistakaa koot, karkeukset ja määrät tarjouksen yhteydessä.",
+    "specTitle": "Vinkkejä määritykseen",
+    "faqTitle": "Usein kysytyt kysymykset",
     "faqs": [
       {
-        "q": "Which grit should I start with?",
-        "a": "Start from the workpiece material, defect depth and required finish — a coarse grade removes material fast, then step down in grits and check the surface at each stage."
+        "q": "Millä karkeuksella kannattaa aloittaa?",
+        "a": "Aloittakaa työstettävän materiaalin, vikojen syvyyden ja vaaditun viimeistelyn mukaan — karkea karkeus poistaa materiaalia nopeasti, minkä jälkeen siirtykää hienompiin karkeuksiin ja tarkistakaa pinta jokaisessa vaiheessa."
       },
       {
-        "q": "Can I mix grits in one order?",
-        "a": "Yes — list the grits and quantity per grade; availability and lead time come back with the offer."
+        "q": "Voinko yhdistää eri karkeuksia yhteen tilaukseen?",
+        "a": "Kyllä — luetelkaa karkeukset ja kunkin karkeuden määrä; saatavuus ja toimitusaika ilmoitetaan tarjouksen yhteydessä."
       }
     ],
-    "ctaTitle": "Specifying for your field?",
-    "cta1": "Request a Wholesale Quote",
-    "cta2": "Contact via WhatsApp"
+    "ctaTitle": "Määritelläänkö tuotteita alanne osalta?",
+    "cta1": "Pyytäkää tukkutarjous",
+    "cta2": "Ottakaa yhteyttä WhatsApilla"
   },
   "blogIndex": {
-    "h1": "Better information. Better selection.",
-    "sub": "Practical buyer resources for discussing abrasive specifications.",
-    "updatedLabel": "Updated",
-    "governance": "Guides are written and reviewed by the MoTai Abrasives technical team and re-reviewed when product specifications change."
+    "h1": "Parempi tieto. Parempi valinta.",
+    "sub": "Käytännöllisiä ostoresursseja hiomatuotteiden määritysten käsittelyyn.",
+    "updatedLabel": "Päivitetty",
+    "governance": "Oppaat kirjoittaa ja tarkastaa MoTai Abrasivesin tekninen tiimi, ja ne tarkistetaan uudelleen, kun tuotemääritykset muuttuvat."
   },
   "article": {
-    "watchTitle": "Watch",
-    "discuss": "Discuss Your Specification",
-    "catSelection": "Selection guide",
-    "catBuyer": "Buyer resources",
-    "catNotes": "Application notes",
-    "catOem": "OEM guide",
-    "reviewedBy": "Reviewed by the MoTai Abrasives technical team",
-    "lastReviewed": "Last reviewed {date}",
-    "tocTitle": "On this page"
+    "watchTitle": "Katso",
+    "discuss": "Keskustelkaa teknisistä vaatimuksistanne",
+    "catSelection": "Valintaopas",
+    "catBuyer": "Ostajien aineistot",
+    "catNotes": "Sovellusohjeet",
+    "catOem": "OEM-opas",
+    "reviewedBy": "Tarkastettu MoTai Abrasivesin teknisen tiimin toimesta",
+    "lastReviewed": "Viimeksi tarkastettu {date}",
+    "tocTitle": "Sivulla"
   },
   "contact": {
-    "h1": "Start a wholesale conversation",
-    "sub": "Get factory-direct wholesale prices for abrasive products.",
-    "directTitle": "A conversation. A better specification.",
-    "directBody": "Share your product, quantity and application. We'll review your requirements and help you take the next step.",
-    "facTitle": "Find us in Hubei",
+    "h1": "Aloittakaa tukkukeskustelu",
+    "sub": "Saatte hiomatuotteiden hinnat suoraan tehtaalta tukkuhintoina.",
+    "directTitle": "Keskustelu. Parempi määritys.",
+    "directBody": "Ilmoittakaa tuotteenne, määrä ja käyttökohte. Arvioimme vaatimuksenne ja autamme seuraavaan vaiheeseen.",
+    "facTitle": "Tehtaan sijainti Hubeissa",
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
-    "facNote": "Confirm the exact visit address with our team before travelling.",
-    "visit": "Arrange a factory visit",
-    "formTitle": "Wholesale / OEM enquiry",
-    "formNote": "This form requests an offer and does not place an order. Enquiries go to our sales inbox; specs and commercial terms are settled with the offer.",
-    "btn": "Open the enquiry form ↗"
+    "facNote": "Vahvistakaa tarkka vierailuosoite tiimimme kanssa ennen matkaa.",
+    "visit": "Sopikaa tehtaanvierailu",
+    "formTitle": "Tukku- / OEM-tiedustelu",
+    "formNote": "Tällä lomakkeella pyydetään tarjousta, eikä se tee tilausta. Tiedustelut välittyvät myyntitiimimme postilaatikkaan; määritykset ja kauppuehdot sovitaan tarjouksen yhteydessä.",
+    "btn": "Avaa tiedustelulomake ↗"
   },
   "privacy": {
-    "h1": "Your enquiry information",
-    "sub": "How this website uses the details you choose to share.",
-    "s1t": "Information collected",
-    "s1b": "Contact details, company information, product requirements and attachments submitted with an enquiry. A hashed connection identifier limits abusive submissions.",
-    "s2t": "Purpose and access",
-    "s2b": "Details are used to review and respond to enquiries, prepare quotations and coordinate requested commercial discussions. Access is limited to authorised administrators.",
-    "s3t": "Storage and retention",
-    "s3b": "Records are held with our hosting provider. Data may be processed outside your country. Retention follows business follow-up and record-keeping obligations; you may request specific retention or deletion.",
-    "s4t": "Your choices",
-    "s4b": "Contact motai-01@motaiabrasive.com to request access, correction or deletion. Please do not submit sensitive personal data or confidential files unrelated to your enquiry.",
-    "s5t": "Cookies, links and analytics",
-    "s5b": "The browser stores enquiry-list management data. This site uses Google Analytics (gtag.js) for anonymised usage statistics; Google sets a cookie and processes data under its data-processing terms — you can opt out at https://support.google.com/analytics/answer/3452785. External WhatsApp, map and social links are governed by their own privacy policies.",
-    "updated": "Last updated 4 November 2026"
+    "h1": "Tiedustuksenne tiedot",
+    "sub": "Näin tämä verkkosivusto käyttää ilmoittamianne tietoja.",
+    "s1t": "Kerättävät tiedot",
+    "s1b": "Yhteystiedot, yritystiedot, tuotevaatimukset ja tiedustuksen mukana lähetetyt liitteet. Tiivistetty yhteyskoon tunniste rajoittaa väärinkäytöksiä.",
+    "s2t": "Käyttötarkoitus ja tiedonsaanti",
+    "s2b": "Tietoja käytetään tiedustusten käsittelyyn ja vastaamiseen, tarjousten valmisteluun sekä pyydettyjen kaupallisten neuvottelujen järjestämiseen. Tiedonsaanti on rajoitettu valtuutetuille ylläpitäjille.",
+    "s3t": "Tallennus ja säilytysaika",
+    "s3b": "Tiedot säilytetään palveluntarjoajamme palvelimilla. Tietoja voidaan käsitellä maanne ulkopuolella. Säilytysaika noudattaa liiketoiminnan seurantaa ja kirjanpitovelvoitteita; voitte pyytää tiettyä säilytysaikaa tai tietojen poistamista.",
+    "s4t": "Tehtävänne valinnat",
+    "s4b": "Pyytäkää tiedonsaantia, oikaisua tai poistamista sähköpostilla motai-01@motaiabrasive.com. Älkää lähettäkä tiedustukseen liittymätöntä sensitiivistä henkilötietoa tai luottamuksellisia tiedostoja.",
+    "s5t": "Evästeet, linkit ja analytiikka",
+    "s5b": "Selain tallentaa tiedustuslistojen hallinnointiin liittyvät tiedot. Sivusto käyttää Google Analyticsia (gtag.js) anonymisoituihin käyttötilastoihin; Google asettaa evästeen ja käsittelee tietoja oman tietosuojakäytäntönsä mukaisesti — voitte jättää sen ulkopuolelle osoitteessa https://support.google.com/analytics/answer/3452785. Ulkoisiin WhatsApp-, kartta- ja some-linkkeihin sovelluvat niiden omat tietosuojakäytännöt.",
+    "updated": "Viimeksi päivitetty 4. marraskuuta 2026"
   },
   "terms": {
-    "h1": "Terms of Use",
-    "sub": "The conditions that apply when you use this site and send MoTai an enquiry.",
-    "s1t": "Use of this site",
-    "s1b": "This site is a B2B information and enquiry service operated by Hubei MoTai Abrasives Materials Co., Ltd. Content — product specifications, guides, glossary and blog — is provided in good faith for general information. Using the site means you accept these terms; if you do not, do not submit an enquiry.",
-    "s2t": "Enquiries are not offers",
-    "s2b": "An enquiry-form submission is an invitation to negotiate, not a binding order. MoTai is not obliged to respond to every enquiry, and no purchase is committed until a quotation is confirmed in writing by both parties.",
-    "s3t": "Quotations and pricing",
-    "s3b": "All prices are quote-based. Quotations list sizes, grits, packaging, trade terms and validity periods; final figures are settled at the confirmed specification and are subject to raw-material and freight movement.",
-    "s4t": "Intellectual property",
-    "s4b": "Site content, product descriptions, graphics and the MoTai brand are the property of MoTai Abrasives and may not be reproduced commercially. Third-party references (e.g. model sources) are for buyer orientation only and do not imply endorsement.",
-    "s5t": "Liability and governing law",
-    "s5b": "MoTai is not liable for decisions made in reliance on general information in this site. These terms are governed by the laws of the People's Republic of China; disputes are settled under the sales contract between the parties.",
-    "updated": "Last updated 3 November 2026"
+    "h1": "Käyttöehdot",
+    "sub": "Ehdot, joita sovelletaan sivustoa käyttäessänne ja tiedustelun lähettäessänne MoTaille.",
+    "s1t": "Sivuston käyttö",
+    "s1b": "Tämä sivusto on Hubei MoTai Abrasives Materials Co., Ltd:n ylläpitämä B2B-tieto- ja tiedustelupalvelu. Sisältö — tuotetiedot, oppaat, sanasto ja blogi — toimitetaan hyvässä uskossa yleistä tietoa varten. Sivuston käyttäminen tarkoittaa, että hyväksytte nämä ehdot; jos ette hyväksy niitä, älkää lähettäkään tiedustelua.",
+    "s2t": "Tiedustelut eivät ole tarjouksia",
+    "s2b": "Tiedustelulomakkeen lähettäminen on kutsu neuvotteluihin, ei sitova tilaus. MoTai ei ole velvollinen vastaamaan jokaiseen tiedusteluun, eikä kauppaa synny ennen kuin molemmat osapuolet vahvistavat tarjouksen kirjallisesti.",
+    "s3t": "Tarjoukset ja hinnoittelu",
+    "s3b": "Kaikki hinnat perustuvat tarjoushintoihin. Tarjouksissa luetellaan koot, karkeusluokat, pakkaus, kauppaehdot ja voimassaoloajat; lopulliset summat vahvistetaan sovitun teknisen määrityksen mukaan, ja ne ovat raaka-aine- ja rahtikustannusten muutosten alaisia.",
+    "s4t": "Immateriaalioikeudet",
+    "s4b": "Sivuston sisältö, tuotekuvaukset, kuvakkeet ja MoTai-brändi ovat MoTai Abrasivesin omaisuutta, eikä niitä saa käyttää kaupallisesti. Kolmansien osapuolten viittaukset (esim. mallien lähteet) on tarkoitettu vain ostajien ohjaamiseen eivätkä ne tarkoita suositusta.",
+    "s5t": "Vastuu ja sovellettava oikeus",
+    "s5b": "MoTai ei vastaa päätöksistä, jotka on tehty tämän sivuston yleisen tiedon perusteella. Näihin ehtoihin sovelletaan Kiinan kansantasvallon lakua; riidat ratkaistaan osapuolten välisen myyntisopimuksen mukaisesti.",
+    "updated": "Viimeksi päivitetty 3. marraskuuta 2026"
   },
   "quotePage": {
-    "h1": "Start a wholesale conversation",
-    "sub": "Get factory-direct wholesale prices for abrasive products.",
-    "note": "This form requests a quotation and does not place an order. Fields marked * are required.",
-    "sec1": "Your business",
-    "f1": "Full name *",
-    "f2": "Company name *",
-    "f3": "Country *",
-    "f4": "Business email *",
-    "f5": "WhatsApp number",
-    "f6": "Business type *",
-    "opt1": "Importer",
-    "opt2": "Distributor",
-    "opt3": "Wholesaler",
-    "opt4": "OEM brand",
-    "opt5": "Industrial buyer",
-    "opt6": "Other",
-    "sec2": "Product requirements",
-    "f7": "Product category",
-    "f8": "Product model / reference",
-    "f9": "Size",
-    "f10": "Grit size",
-    "f11": "Material",
-    "f12": "Quantity",
-    "f13": "Packaging",
-    "f14": "Destination country *",
-    "f15": "OEM requirements",
-    "f16": "Additional message *",
-    "consent": "I agree to the Privacy Policy, the Terms of Use, and the use of my details to respond to this enquiry. *",
-    "btn1": "Request a Wholesale Quote",
-    "btn2": "Send enquiry via WhatsApp",
-    "goNote": "The form opens in our wholesale enquiry system with your product context pre-filled."
+    "h1": "Aloittakaa tukkukeskustelu",
+    "sub": "Saatte hiomatuotteiden hinnat suoraan tehtaalta tukkuhintoina.",
+    "note": "Tällä lomakkeella pyydetään tarjous, eikä se tee tilausta. Tähdellä * merkityt kentät ovat pakollisia.",
+    "sec1": "Yrityksenne",
+    "f1": "Koko nimi *",
+    "f2": "Yrityksen nimi *",
+    "f3": "Maa *",
+    "f4": "Työsähköposti *",
+    "f5": "WhatsApp-numero",
+    "f6": "Toimintatyyppi *",
+    "opt1": "Tuoja",
+    "opt2": "Jakelija",
+    "opt3": "Tukkuri",
+    "opt4": "OEM-brändi",
+    "opt5": "Teollisuusostaja",
+    "opt6": "Muu",
+    "sec2": "Tuotevaatimukset",
+    "f7": "Tuoteryhmä",
+    "f8": "Tuotteen malli / viitetoiminto",
+    "f9": "Koko",
+    "f10": "Karkeus",
+    "f11": "Materiaali",
+    "f12": "Määrä",
+    "f13": "Pakkaus",
+    "f14": "Kohdemaa *",
+    "f15": "OEM-vaatimukset",
+    "f16": "Lisätiedot *",
+    "consent": "Hyväksyn tietosuojakäytännön, käyttöehdot sekä tietojeni käsittelyn tähän tiedusteluun vastaamiseksi. *",
+    "btn1": "Pyytäkää tukkutarjous",
+    "btn2": "Lähettäkää tiedustelu WhatsApilla",
+    "goNote": "Lomake avautuu tukkutiedustelujärjestelmään, jolloin tuotetiedot on esitäytetty."
   },
   "clients": {
-    "h1": "Where MoTai shipments go",
-    "sub": "From Hubei to seven destination regions.",
-    "note": "Customer logos and testimonials below are placeholder slots — replace src/data/trust.json with published materials.",
-    "placeholderBadge": "Illustrative placeholder",
-    "statsTitle": "Supply at a glance",
-    "statsNote": "Certifications shown are placeholders pending published certificates."
+    "h1": "Minne MoTaiin lähetykset menevät",
+    "sub": "Hubeista seitsemään kohdealueeseen.",
+    "note": "Alla olevat asiakaslogot ja arviot ovat paikkamerkintöjä — korvaa src/data/trust.json julkaistuilla aineistoilla.",
+    "placeholderBadge": "Esimerkkinä oleva paikkamerkintä",
+    "statsTitle": "Toimitukset yhdessä silmäyksessä",
+    "statsNote": "Näytetyt sertifikaatit ovat paikkamerkintöjä, kunnes sertifikaatit julkaistaan."
   },
   "glossary": {
-    "h1": "Abrasives glossary",
-    "sub": "The terms behind every belt, disc and flap specification.",
-    "note": "Standard industry definitions for abrasive consumables; grade and backing details for an order are settled with the quotation.",
-    "reviewNote": "Terms are reviewed by the MoTai Abrasives technical team — last reviewed 3 November 2026."
+    "h1": "Hiomatuotteiden sanasto",
+    "sub": "Käsitteet, jotka määrittelevät jokaisen hihnan, hiomapaperin ja hiomapalan tekniset tiedot.",
+    "note": "Hiomakulutustuotteiden alan standardimääritelmät; tilauksen hiontarake- ja pohjatiedot sovitaan tarjouksessa.",
+    "reviewNote": "MoTai Abrasives -tiimi tarkistaa käsitteet — viimeisin tarkistus 3. marraskuuta 2026."
   },
   "trust": {
-    "regions": "Destination regions",
-    "productLines": "Product lines",
-    "gritRange": "Grit coverage"
+    "regions": "Kohdealueet",
+    "productLines": "Tuotelinjat",
+    "gritRange": "Karkeuksien valikoima"
   },
   "video": {
-    "title": "Watch",
+    "title": "Katso",
     "cutting": {
-      "title": "Cutting & converting footage",
-      "desc": "Supplied product footage: abrasive sheet cutting and converting."
+      "title": "Leikkaus- ja muokkausvideo",
+      "desc": "Toimitettu tuotevideo: hiomapaperin leikkaus ja muokkaus."
     },
     "sample": {
-      "title": "Sample checks footage",
-      "desc": "Supplied product footage: surface, backing and fit checks on a sample."
+      "title": "Näyttötarkistusvideo",
+      "desc": "Toimitettu tuotevideo: näytteen pinnan, pohjan ja sopivuuden tarkistukset."
     },
     "oem": {
-      "title": "OEM packing footage",
-      "desc": "Pack quantities, labels, carton marks and private-label artwork."
+      "title": "OEM-pakkausvideo",
+      "desc": "Pakkausmäärät, etiketit, laatikkomerkinnät ja oman brändin suunnittelutyöt."
     },
     "flap": {
-      "title": "Flap disc range footage",
-      "desc": "Plastic, steel and fiberglass backing flap discs in use."
+      "title": "Hiomapalasarjan video",
+      "desc": "Muovi-, teräs- ja lasikuitupohjaiset hiomapalat käytössä."
     }
   },
   "wa": {
@@ -420,303 +420,303 @@
   },
   "floatChat": {
     "trigger": "Chat",
-    "open": "Open chat",
-    "close": "Close",
-    "title": "MoTai — Live chat",
-    "status": "We reply on WhatsApp, usually within 24 hours.",
-    "greeting": "Hi! How can we help with your abrasive order? — MoTai sales team",
-    "placeholder": "Type your message…",
-    "send": "Send via WhatsApp",
-    "note": "This preview has no live server: sending opens WhatsApp with your message pre-filled. Replies continue in the WhatsApp conversation."
+    "open": "Avaa chat",
+    "close": "Sulje",
+    "title": "MoTai — live-chat",
+    "status": "Vastaamme WhatsAppilla, yleensä 24 tunnin kuluessa.",
+    "greeting": "Hei! Miten voimme auttaa hiomatuotetilauksenne kanssa? — MoTain myyntitiimi",
+    "placeholder": "Kirjoita viestisi…",
+    "send": "Lähetä WhatsApilla",
+    "note": "Tässä esikatselussa ei ole live-palvelinta: lähettäminen avaa WhatsApin, jossa viestisi on valmiiksi täytetty. Vastaus jatkuu WhatsApp-keskustelussa."
   },
   "location": {
-    "imgAlt": "MoTai factory building in Xianning, Hubei",
-    "imgCaption": "MoTai factory — Xianning, Hubei, China",
-    "mapTitle": "MoTai factory location on Google Maps"
+    "imgAlt": "MoTai-tehtaan rakennus Xianningissa, Hubei",
+    "imgCaption": "MoTai-tehdas — Xianning, Hubei, Kiina",
+    "mapTitle": "MoTai-tehtaan sijainti Google Mapsissa"
   },
   "faq": {
-    "faqTitle": "Before we start",
+    "faqTitle": "Ennen aloitamme",
     "moq": {
-      "q": "What is the minimum order quantity?",
-      "a": "MOQ comes back with the offer, alongside availability and terms."
+      "q": "Mikä on vähimmäistilausmäärä?",
+      "a": "MOQ ilmoitetaan tarjouksen yhteydessä samoin kuin saatavuus ja ehdot."
     },
     "oem": {
-      "q": "Do you support OEM and private label?",
-      "a": "Yes. Logo, labels, custom sizes and packing are checked for feasibility, then confirmed with your offer."
+      "q": "Tarjoatteko OEM-tuotteita ja omia brändejä?",
+      "a": "Kyllä. Logo, etiketit, mukautetut koot ja pakkaus tarkistetaan toteutusmahdollisuuden kannalta ja vahvistetaan sitten tarjouksessanne."
     },
     "sizes": {
-      "q": "Which sizes and grits do you supply?",
-      "a": "Belts in documented sizes from 533 × 75 to 2200 × 1330 mm (grits 40–800); discs 3–6 inch (grits 60–5000). Custom requirements are reviewed with our team."
+      "q": "Millaisia kokoja ja karkeuksia toimitatte?",
+      "a": "Hiomahihnat dokumentoiduissa koossa 533 × 75–2200 × 1330 mm (karkeukset 40–800); hiomapaperit 3–6 tuumaa (karkeukset 60–5000). Mukautetut vaatimukset käydään läpi tiimimme kanssa."
     },
     "samples": {
-      "q": "Can I get a sample first?",
-      "a": "Yes. Request a sample, and our sales team will confirm availability, charges and shipping arrangements."
+      "q": "Voinko saada ensin näytteen?",
+      "a": "Kyllä. Pyytäkää näyte, niin myyntitiimimme vahvistaa saatavuuden, kustannukset ja toimitusjärjestelyt."
     },
     "lead": {
-      "q": "What are the lead times?",
-      "a": "Lead time depends on specification and quantity, and is confirmed in your quotation."
+      "q": "Millaiset ovat toimitusajat?",
+      "a": "Toimitusaika riippuu spesifikaatiosta ja määrästä ja vahvistetaan tarjouksessanne."
     },
     "packaging": {
-      "q": "How are products packed?",
-      "a": "Pack quantities, labels, carton marks and private-label artwork are confirmed with the quotation."
+      "q": "Miten tuotteet pakataan?",
+      "a": "Pakkausmäärät, etiketit, laatikkomerkinnät ja oma brändi -graafiset materiaalit vahvistetaan tarjouksen yhteydessä."
     },
     "payment": {
-      "q": "Which payment terms do you offer?",
-      "a": "Payment terms are part of the confirmed quotation and commercial discussion."
+      "q": "Millaisia maksuehtoja tarjoatte?",
+      "a": "Maksuehdot ovat osa vahvistettua tarjousta ja kaupallista neuvottelua."
     }
   },
   "pfq": {
     "specs": {
-      "q": "Which specifications should I provide?",
-      "a": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options where available; other requirements will be reviewed with our team."
+      "q": "Mitä teknisiä tietoja minun tulee antaa?",
+      "a": "Ilmoittakaa tarvitsemanne mitat, karkeus, työkappale, kone ja haluttu lopputulos. Käyttäkä kuvattuja valinnanmahdollisuuksia niiden ollessa käytettävissä; muut vaatimukset käydään läpi tiimimme kanssa."
     },
     "oem": {
-      "q": "How do I request OEM packaging?",
-      "a": "Include your branding and packaging requirements in the enquiry. Details will be reviewed and confirmed with your quotation."
+      "q": "Miten pyydän OEM-pakkausta?",
+      "a": "Liittäkää tiedustukseen brändi- ja pakkausvaatimuksenne. Tiedot käydään läpi ja vahvistetaan tarjouksen yhteydessä."
     },
     "order": {
-      "q": "Does requesting a quote place an order?",
-      "a": "No. The form starts a wholesale enquiry. Product specifications, availability and commercial terms are confirmed before an order is agreed."
+      "q": "Muodostaako tarjouspyyntö tilauksen?",
+      "a": "Ei. Lomake aloittaa tukkutiedustuksen. Tuotteen tekniset tiedot, saatavuus ja kaupalliset ehdot vahvistetaan ennen tilauksen sopimista."
     }
   },
   "regions": {
     "europe": {
-      "title": "Europe",
-      "body": "Note size, grit, backing and product files; provide destination port and label language."
+      "title": "Eurooppa",
+      "body": "Ilmoittakaa koko, karkeus, pohja ja tuotetiedostot; toimitakaa määränsatama ja etikettien kieli."
     },
     "na": {
-      "title": "North America",
-      "body": "State inch or metric sizing, attachment type and pack quantities; destination ZIP or port and transport mode."
+      "title": "Pohjois-Amerikka",
+      "body": "Ilmoittakaa, käytetäänkö tuuma- vai metrimitoitusta, kiinnitystyyppi ja pakkausmäärät; toimituskohteen postinumero tai satama ja kuljetustapa."
     },
     "sa": {
-      "title": "South America",
-      "body": "Size, mixed-grit quantities and carton label language; destination port and importer documents."
+      "title": "Etelä-Amerikka",
+      "body": "Koko, sekakarkeusmäärät ja kartonkien etikettikieli; toimituskohteen satama ja tuojan asiakirjat."
     },
     "me": {
-      "title": "Middle East",
-      "body": "Material, grit and moisture-safe packaging; destination port and quotation terms."
+      "title": "Lähi-Itä",
+      "body": "Materiaali, karkeus ja kosteudelta suojattu pakkaus; toimituskohteen satama ja tarjouksen toimitusehdot."
     },
     "africa": {
-      "title": "Africa",
-      "body": "Machine compatibility, required sizes and pack quantities; destination port, carton marks and transport preference."
+      "title": "Afrikka",
+      "body": "Koneiden soveltuvuus, vaaditut koot ja pakkausmäärät; toimituskohteen satama, kartonkimerkinnät ja toivottu kuljetustapa."
     },
     "oceania": {
-      "title": "Oceania",
-      "body": "Size, backing, packaging and destination ZIP or port; import and packing requirements."
+      "title": "Oseania",
+      "body": "Koko, pohja, pakkaus ja toimituskohteen postinumero tai satama; tuonti- ja pakkausvaatimukset."
     },
     "asia": {
-      "title": "Asia",
-      "body": "Machine specification, grit range and order mix; delivery city or port and local-language labels."
+      "title": "Aasia",
+      "body": "Koneen tekniset tiedot, karkeusvalikoima ja tilausten koostumus; toimituskaupunki tai satama ja paikallisten kielten etiketit."
     }
   },
   "apps": {
     "metal": {
-      "title": "Metal Fabrication",
-      "intro": "Weld blending, deburring and metal surface preparation.",
-      "uses": "Weld blending · Deburring · Surface preparation",
-      "products": "Abrasive belts"
+      "title": "Metalliteollisuus",
+      "intro": "Hitsin saumaus, särmänpoisto ja metallipinnan esikäsittely.",
+      "uses": "Hitsin saumaus · Särmänpoisto · Pinnan esikäsittely",
+      "products": "Hiomahihnat"
     },
     "wood": {
-      "title": "Woodworking & Furniture",
-      "intro": "Panels, furniture manufacturing and pre-lacquer surface preparation.",
-      "uses": "Panels · Furniture · Pre-lacquer prep",
-      "products": "Abrasive belts · Sanding discs"
+      "title": "Puutyö ja huonekalut",
+      "intro": "Levytykset, huonekaluvalmistus ja pinnan esikäsittely ennen lakkausta.",
+      "uses": "Levytykset · Huonekalut · Esikäsittely ennen lakkausta",
+      "products": "Hiomahihnat · Hiomapaperit"
     },
     "auto": {
-      "title": "Automotive Repair",
-      "intro": "Body-filler sanding, pre-spray preparation and automotive refinishing.",
-      "uses": "Body filler · Pre-spray · Refinishing",
-      "products": "Sanding discs"
+      "title": "Autonkorjaus",
+      "intro": "Pohjamassan hionta, pinnan esikäsittely ennen maalausta ja auton korien viimeistely.",
+      "uses": "Pohjamassa · Ennen maalausta · Viimeistely",
+      "products": "Hiomapaperit"
     },
     "stainless": {
-      "title": "Stainless Steel Finishing",
-      "intro": "Hairline finishes, surface transitions and stainless steel fabrication.",
-      "uses": "Hairline · Transitions · Fabrication",
-      "products": "Abrasive belts"
+      "title": "Ruostumattoman teräksen viimeistely",
+      "intro": "Hienopiirtoiset pinnat, pintojen siirtymät ja ruostumattoman teräksen valmistus.",
+      "uses": "Hienopiirto · Siirtymät · Valmistus",
+      "products": "Hiomahihnat"
     },
     "ship": {
-      "title": "Shipbuilding & Repair",
-      "intro": "Metal grinding, rust removal and marine maintenance surface preparation.",
-      "uses": "Grinding · Rust removal · Marine prep",
-      "products": "Abrasive belts"
+      "title": "Laivanrakennus ja korjaus",
+      "intro": "Metallin hionta, ruosteenpoisto ja merikoneiston ylläpidon pinnan esikäsittely.",
+      "uses": "Hionta · Ruosteenpoisto · Merikoneiston esikäsittely",
+      "products": "Hiomahihnat"
     },
     "surface": {
-      "title": "Industrial Surface Preparation",
-      "intro": "Industrial surface treatment and maintenance work.",
-      "uses": "Surface treatment · Maintenance",
-      "products": "Sanding discs"
+      "title": "Teollisuuden pinnan esikäsittely",
+      "intro": "Teollisuuden pinnankäsittely ja ylläpitotyöt.",
+      "uses": "Pinnankäsittely · Ylläpito",
+      "products": "Hiomapaperit"
     }
   },
   "blog": {
     "chooseBacking": {
-      "title": "Hook & loop or PSA: choose the right backing",
-      "intro": "The attachment system is as important as the grit. Match it to the pad before you order.",
+      "title": "Hook & loop vai PSA: valitse oikea pohja",
+      "intro": "Kiinnitysjärjestelmä on yhtä tärkeä kuin karkeus. Sovittakaa se alustaan ennen tilausta.",
       "start": {
-        "title": "Start with the requirement",
-        "body": "Hook & loop discs mount onto a compatible hook-faced pad and suit operations where grit is changed often. PSA discs rely on pressure-sensitive adhesive and need a clean, flat pad. The two systems are not interchangeable."
+        "title": "Aloittakaa vaatimuksesta",
+        "body": "Hook & loop -hiomapaperit kiinnitetään yhteensopivaan tarranauhapintaiseen alustaan ja sopivat työhön, jossa karkeus vaihtuu usein. PSA-hiomapaperit perustuvat paineherkään liimaan ja vaativat puhtaan, tasaisen alustan. Järjestelmät eivät ole vaihtokelpoisia."
       },
       "compat": {
-        "title": "Confirm compatibility",
-        "body": "Confirm pad diameter, backing type and dust-extraction layout. A non-hole disc does not connect to a hole-based extraction pattern, and open-mesh discs need a compatible pad and extraction system."
+        "title": "Vahvistakaa yhteensopivuus",
+        "body": "Vahvistakaa alustan halkaisija, pohjan tyyppi ja pölynpoiston layout. Reittömä hiomapaperi ei sovi reikäpohjaiseen poistoon, ja avoverkkoiset hiomapaperit vaativat yhteensopivan alustan ja poistojärjestelmän."
       },
       "enquiry": {
-        "title": "Prepare your enquiry",
-        "body": "Include disc diameter, backing, grit list, quantity per grit and workpiece material. Ask for a sample evaluation before approving a production order."
+        "title": "Valmistelkaa tiedustelunne",
+        "body": "Ilmoittakaa hiomapaperin halkaisija, pohja, karkeusluettelo, määrä karkeutta kohti ja työkappaleen materiaali. Pyytäkää näytteen arvio ennen tuotantotilauksen hyväksymistä."
       }
     },
     "beltChecklist": {
-      "title": "What to include in an abrasive belt enquiry",
-      "intro": "A clear specification helps your supplier review fit and prepare a useful quotation.",
+      "title": "Mitä hiomahihnatiedusteluun kannattaa sisällyttää",
+      "intro": "Selkeä spesifikaatio auttaa toimittajaanne arvioimaan sopivuuden ja valmistelemaan hyödyllisen tarjouksen.",
       "start": {
-        "title": "Start with the requirement",
-        "body": "Give the belt length and width in millimetres. Name the machine model — a machine specification sheet or a photo of an old belt label helps."
+        "title": "Aloittakaa vaatimuksesta",
+        "body": "Ilmoittakaa hihnan pituus ja leveys millimetreinä. Nimetkää koneen malli — koneen tiedot tai valokuva vanhan hihnan etiketistä auttavat."
       },
       "compat": {
-        "title": "Confirm compatibility",
-        "body": "Add workpiece material, preferred abrasive, grit, backing requirement and joint requirements. Avoid selecting a product using belt colour alone."
+        "title": "Vahvistakaa yhteensopivuus",
+        "body": "Lisätkää työkappaleen materiaali, haluamanne hiomamateriaali, karkeus, pohjan vaatimus ja liitosten vaatimukset. Älkää valitse tuotetta pelkän hihnan värin perusteella."
       },
       "enquiry": {
-        "title": "Prepare your enquiry",
-        "body": "List quantities by size and grit, packaging preferences, destination and the required delivery date. The final quotation confirms specification, availability, payment terms and transport arrangements."
+        "title": "Valmistelkaa tiedustelunne",
+        "body": "Luettele määrät koon ja karkeuksen mukaan, pakkaustoiveet, kohdemaa ja vaadittu toimituspäivä. Lopullinen tarjous vahvistaa spesifikaation, saatavuuden, maksuehdot ja kuljetusjärjestelyt."
       }
     },
     "gritSequence": {
-      "title": "Planning a grit sequence for surface preparation",
-      "intro": "Start with the workpiece and required finish, then evaluate a sequence on a sample.",
+      "title": "Karkeusjärjestyksen suunnittelu pinnan esikäsittelyyn",
+      "intro": "Aloittakaa työkappaleesta ja vaaditusta lopputuloksesta ja arvioikaa sitten järjestystä näytteellä.",
       "start": {
-        "title": "Start with the requirement",
-        "body": "Coarse grits remove material quickly and leave deep scratches; fine grits refine the surface. The starting point depends on the substrate, defect depth and removal requirement."
+        "title": "Aloittakaa vaatimuksesta",
+        "body": "Karkeat karkeukset poistavat materiaalia nopeasti ja jättävät syviä naarmuja; hienot karkeukset viimeistelevät pinnan. Aloituskohdan määräävät pohjamateriaali, vikojen syvyys ja poistovaatimus."
       },
       "compat": {
-        "title": "Confirm compatibility",
-        "body": "Step down grits in order and inspect the workpiece at each stage. Skipping grits leaves scratches that are hard to remove, and cleaning between stages avoids coarse-grit contamination."
+        "title": "Vahvistakaa yhteensopivuus",
+        "body": "Siirtykää karkeuksissa asteittain hienompiin ja tarkastakaa työkappale jokaisessa vaiheessa. Karkeuksien ohittaminen jättää vaikeasti poistettavia naarmuja, ja puhdistus vaiheiden välissä estää karkean karkeuksen aiheuttaman saastumisen."
       },
       "enquiry": {
-        "title": "Prepare your enquiry",
-        "body": "Grit numbering is not interchangeable between grading systems. Confirm the grading standard, abrasive type and availability in the quotation, and follow machine and abrasive safety instructions."
+        "title": "Valmistelkaa tiedustelunne",
+        "body": "Karkeusnumerointi ei ole eri luokitusjärjestelmien välillä vaihtokelpoinen. Vahvistakaa luokitusstandardi, hiomamateriaalin tyyppi ja saatavuus tarjouksessa ja noudattakaa koneen sekä hiomatuotteen turvaohjeita."
       }
     },
     "dustCollection": {
-      "title": "Dust collection & pad compatibility, explained",
-      "intro": "Hole patterns, open-mesh discs and backer pads must match your extraction setup.",
+      "title": "Pölynpoisto ja alustan yhteensopivuus selitettynä",
+      "intro": "Reikäkuviot, avoverkkoiset hiomapaperit ja taustalevyt on sovittava poistojärjestelmäänne.",
       "start": {
-        "title": "Start with the requirement",
-        "body": "Identify your pad: number of holes, diameter and whether it is used with dust extraction. Non-hole discs and open-mesh discs behave differently from multi-hole discs."
+        "title": "Aloittakaa vaatimuksesta",
+        "body": "Tunnistakaa alustanne: reikämäärä, halkaisija ja se, käytetäänkö sitä pölynpoistoon. Reittömät ja avoverkkoiset hiomapaperit toimivat eri tavalla kuin monireikäiset hiomapaperit."
       },
       "compat": {
-        "title": "Confirm compatibility",
-        "body": "Match disc hole layout to pad ports. Open-mesh discs need a compatible pad and a working extraction system; PSA discs need a clean pad face."
+        "title": "Vahvistakaa yhteensopivuus",
+        "body": "Sovittakaa hiomapaperin reikäkuvio alustan liitäntöihin. Avoverkkoiset hiomapaperit vaativat yhteensopivan alustan ja toimivan poistojärjestelmän; PSA-hiomapaperit vaativat puhdasta alustan pintaa."
       },
       "enquiry": {
-        "title": "Prepare your enquiry",
-        "body": "List pad model, hole count, disc size and grit list, plus your dust-extraction arrangement. Confirm sample behaviour before a production order."
+        "title": "Valmistelkaa tiedustelunne",
+        "body": "Luettele alustan malli, reikämäärä, hiomapaperin koko ja karkeusluettelo sekä pölynpoistojärjestelmänne. Vahvistakaa näytteen toiminta ennen tuotantotilausta."
       }
     },
     "oemPackaging": {
-      "title": "OEM labels & packaging: what to prepare",
-      "intro": "A complete brief keeps artwork, labels and cartons on schedule.",
+      "title": "OEM-etiketit ja pakkaus: valmisteltavat asiat",
+      "intro": "Täydellinen toimeksiantopyyntö pitää graafiset materiaalit, etiketit ja laatikot aikataulussa.",
       "start": {
-        "title": "Start with the requirement",
-        "body": "Prepare your logo and label artwork, target pack format (inner bags, cartons), label language and destination-country labelling rules."
+        "title": "Aloittakaa vaatimuksesta",
+        "body": "Valmistelkaa logonne ja etikettien graafiset materiaalit, haluamanne pakkausmuoto (sisäpussit, laatikot), etikettien kieli ja kohdemaan merkintäsäännöt."
       },
       "compat": {
-        "title": "Confirm compatibility",
-        "body": "OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation."
+        "title": "Vahvistakaa toteutusmahdollisuus",
+        "body": "OEM-saatavuus, vähimmäismäärät, graafisten materiaalien vaatimukset ja aikataulut käyvät läpi toteutusmahdollisuuden arvioinnin ja vahvistetaan tarjouksessa."
       },
       "enquiry": {
-        "title": "Prepare your enquiry",
-        "body": "Attach artwork, specify pack quantities and carton marks, and state destination and timing. Sample approval comes before production."
+        "title": "Valmistelkaa tiedustelunne",
+        "body": "Liittäkää graafiset materiaalit, ilmoittakaa pakkausmäärät ja laatikkomerkinnät sekä kohdemaa ja aikataulu. Näytteen hyväksyntä tapahtuu ennen tuotantoa."
       }
     },
     "gritStandards": {
-      "title": "Grit standards: FEPA, ANSI and what your list means",
-      "intro": "Grading systems are not interchangeable — name the standard in every enquiry.",
+      "title": "Karkeusstandardit: FEPA, ANSI ja mitä luettelonne tarkoittaa",
+      "intro": "Luokitusjärjestelmät eivät ole vaihtokelpoisia — ilmoittakaa standardi jokaisessa tiedustelussa.",
       "start": {
-        "title": "Start with the requirement",
-        "body": "FEPA (ISO 848) and the older ANSI scale number similar sizes differently; a P120 and a 120-grit are not always the same. Name the standard you buy to."
+        "title": "Aloittakaa vaatimuksesta",
+        "body": "FEPA (ISO 848) ja vanhempi ANSI-asteikko numerovat samankaltaiset koot eri tavalla; P120 ja 120-karkeus eivät aina tarkoita samaa. Ilmoittakaa standardi, jota ostatte."
       },
       "compat": {
-        "title": "Confirm compatibility",
-        "body": "Confirm grading standard, abrasive type and availability per grade in the quotation. Do not mix grading systems in one grit list."
+        "title": "Vahvistakaa yhteensopivuus",
+        "body": "Vahvistakaa luokitusstandardi, hiomamateriaalin tyyppi ja kunkin luokan saatavuus tarjouksessa. Älkää sekoittaneet luokitusjärjestelmiä samassa karkeusluettelossa."
       },
       "enquiry": {
-        "title": "Prepare your enquiry",
-        "body": "State the standard (e.g. FEPA P60–P800), quantity per grade and destination. Confirm the final grade list with the quotation before ordering."
+        "title": "Valmistelkaa tiedustelunne",
+        "body": "Ilmoittakaa standardi (esim. FEPA P60–P800), määrä luokkaa kohti ja kohdemaa. Vahvistakaa lopullinen karkeusluettelo tarjouksen yhteydessä ennen tilaamista."
       }
     }
   },
   "gloss": {
     "alum": {
-      "def": "The most common abrasive grain for belts and discs: tough, workable, suited to metal, wood and general finishing."
+      "def": "Yleisin hiomarakeiden materiaali hihnoissa ja levyissä: sitkeä, helposti työstettävä ja sopii metalliin, puuhun ja yleiseen viimeistelyyn."
     },
     "ansi": {
-      "def": "Legacy North American grit numbering. Similar-size grains differ from the FEPA scale — name the standard in every enquiry."
+      "def": "Vanhempi pohjoisamerikkalainen karkeusnumerointi. Samankokoiset rakeet poikkeavat FEPA-asteikosta — mainitkaa standardi jokaisessa tiedustelussa."
     },
     "backing-cloth": {
-      "def": "A cotton/cloth web that carries the abrasive grain on belts. Weight (e.g. X-weight) sets flexibility and load capacity."
+      "def": "Puuvillasta tai kankaasta valmistettu verkkopohja, joka kantaa hihnoissa hiomarakeet. Paino (esim. X-weight) määrää joustavuuden ja kuormituskyvyn."
     },
     "backing-poly": {
-      "def": "Poly-cotton web backing: a balance of strength and flexibility for general-purpose belts."
+      "def": "Polyesteri-puuvillainen verkkopohja: tasapaino lujuuden ja joustavuuden välillä yleiskäyttöisiin hihnoihin."
     },
     "belt": {
-      "def": "A continuous loop of abrasive grain on a web backing, used on belt machines for grinding, finishing and deburring."
+      "def": "Jatkuvasta lenkistä hiomarakeita verkkopohjalla, jota käytetään hihnakoneissa hiontaan, viimeistelyyn ja särmänpoistoon."
     },
     "blend": {
-      "def": "Smoothing a weld so it blends into the surrounding metal — typically a first pass on a flap disc or belt, then finer grits."
+      "def": "Hitsin saumaus niin, että se sulautuu ympäröivään metalliin — tyypillisesti ensimmäinen käsittely hiomapalalla tai hiomahihnalla, minkä jälkeen siirrytään hienompiin karkeuksiin."
     },
     "closed": {
-      "def": "A close-coated grain layout with little open space; the belt resists clogging on harder work."
+      "def": "Tiiviisti sirotettu rakeiden asetus, jossa on vähän avointa tilaa; hihna pysyy tukkeutumattomana vaativassa työssä."
     },
     "debur": {
-      "def": "Removing burrs and small protrusions left by cutting, sawing or grinding."
+      "def": "Särmien ja pienten epätasaisuuksien poistaminen leikkauksen, sahaamisen tai hionnan jälkeen."
     },
     "dust": {
-      "def": "Removing abrasive dust at the workpiece — via pad ports, open-mesh discs or local extraction."
+      "def": "Hiomapölyn poistaminen työstettävän kohteen läheisyydestä — tyynyn porttien, avoverkkolevyjen tai paikallisen imuvuodon avulla."
     },
     "flap": {
-      "def": "A disc of overlapping abrasive flaps, flexible, for grinding, blending and finishing on angle grinders."
+      "def": "Päällekkäin sijoitettuista hiomapalikoista koostuva joustava levy hiontaan, hitsin saumaukseen ja viimeistelyyn kulmasuhomimilla."
     },
     "fepa": {
-      "def": "The ISO 848 (FEPA) grading scale in P-notation (e.g. P120). The default scale in most European and international trade."
+      "def": "ISO 848 (FEPA) -asteikko P-notaatiossa (esim. P120). Oletusasteikko useimmilla Euroopan ja kansainvälisten kaupankäynnin markkinoilla."
     },
     "grit": {
-      "def": "The nominal grain size of an abrasive: higher numbers are finer. Belts 40–800; discs 60–5000."
+      "def": "Hiomatuotteen nimellinen raekoko: suurempi luku tarkoittaa hienompaa rakeita. Hihnat 40–800; levyt 60–5000."
     },
     "hookloop": {
-      "def": "The hook-and-loop attachment system for discs: the disc snaps onto a hook-faced pad."
+      "def": "Levyjen hook & loop -kiinnitysjärjestelmä: levy napsautetaan tarrapinnaiseen tyynyn."
     },
     "mesh": {
-      "def": "Open-mesh discs have cut-out windows for dust to pass through, needing a compatible pad and extraction."
+      "def": "Avoverkkolevyissä on pölyn läpäisemiseksi avatut ikkunat, mikä vaatii yhteensopivan tyynyn ja imuvuodon."
     },
     "moq": {
-      "def": "Minimum order quantity — comes with the offer, alongside availability and terms."
+      "def": "Vähimmäistilausmäärä (MOQ) — ilmoitetaan tarjouksen yhteydessä saatavuuden ja ehtojen ohella."
     },
     "oem": {
-      "def": "Original equipment manufacturing / private label: our products under your brand, labels and packaging."
+      "def": "OEM / oma brändi: tuotteemme teidän brändillanne, etiketeillanne ja pakkauksillanne."
     },
     "psa": {
-      "def": "Pressure-sensitive adhesive backing: the disc sticks directly onto a compatible pad."
+      "def": "Painetekeliimipohja (PSA): levy kiinnittyy suoraan yhteensopivaan tyynyn."
     },
     "disc": {
-      "def": "A flat or flapped abrasive circle mounted on a pad for sanding and finishing."
+      "def": "Tasainen tai palikoista koostuva hiomakevyy, joka asennetaan tyynylle hiontaan ja viimeistelyyn."
     },
     "sic": {
-      "def": "Silicon carbide grain: very hard, sharp, suited to glass, ceramics and non-ferrous metals."
+      "def": "Piikarbidirakeet: erittäin kovia ja teräviä, sopivat lasille, keramiikalle ja ei-ferrisiin metalleille."
     },
     "prep": {
-      "def": "Getting a surface ready for coating or finishing: removing rust, filler or old finish to a consistent profile."
+      "def": "Pinnan valmistelu pinnoitusta tai viimeistelyä varten: ruosteen, täyteaineen tai vanhan pintakäsittelyn poistaminen yhtenäiseen profiiliin."
     },
     "wetdry": {
-      "def": "Grades that stay cool and clog-resistant in wet or wet/dry use; confirm suitability with the quotation."
+      "def": "Laadut, jotka pysyvät viileinä ja tukkeutumattomina märissä tai märkä/kuiva -käytössä; vahvistakaa soveltuvuus tarjouksen yhteydessä."
     },
     "xweight": {
-      "def": "A mid-weight cloth backing for general-purpose belts: strong yet flexible."
+      "def": "Keskikokoinen kangaspohja yleiskäyttöisiin hihnoihin: luja mutta joustava."
     },
     "zirconia": {
-      "def": "Zirconia alumina grain: tough and aggressive for metal grinding, deburring and finishing on steel."
+      "def": "Tsirkoni-alumiinioksidirakeet: sitkeitä ja tehokkaita metallin hiontaan, särmänpoistoon ja teräksen viimeistelyyn."
     },
     "pad": {
-      "def": "The backing plate a disc sits on: pad diameter, face (hook) and port layout must match the disc."
+      "def": "Levyalusta, jolle levy asennetaan: tyynyn halkaisijan, pinnan (tarran) ja porttien sijainnin on vastattava levyä."
     }
   },
   "footer": {

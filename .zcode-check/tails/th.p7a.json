@@ -1,0 +1,53 @@
+{
+  "flapPage.eyebrow": "Flap discs · Backing variant",
+  "flapPage.color": "Color",
+  "flapPage.gritNote": "P40–P60 and P80–P120 are general selection examples, not a confirmed MoTai supply range.",
+  "applications.h1": "Abrasives for your industry",
+  "applications.sub": "The surface sets the specification.",
+  "applications.intro": "Six application fields. Specify the material, machine and required finish — we'll match the abrasive.",
+  "applications.ctaNote": "Some images are AI-generated application illustrations, not MoTai factory or customer photographs.",
+  "applications.sampleNote": "Tell us your industry, country, product specification and estimated order volume when requesting a quote.",
+  "applications.reqTitle": "Recommended products",
+  "applications.reqNote": "Indicative product families for this field. Confirm sizes, grits and quantities with the quotation.",
+  "applications.specTitle": "Specification tips",
+  "applications.faqTitle": "Frequently asked",
+  "applications.faqs": [
+    {
+      "q": "Which grit should I start with?",
+      "a": "Start from the workpiece material, defect depth and required finish — a coarse grade removes material fast, then step down in grits and check the surface at each stage."
+    },
+    {
+      "q": "Can I mix grits in one order?",
+      "a": "Yes — list the grits and quantity per grade; availability and lead time come back with the offer."
+    }
+  ],
+  "applications.ctaTitle": "Specifying for your field?",
+  "applications.cta1": "Request a Wholesale Quote",
+  "applications.cta2": "Contact via WhatsApp",
+  "terms.h1": "Terms of Use",
+  "terms.sub": "The conditions that apply when you use this site and send MoTai an enquiry.",
+  "terms.s1t": "Use of this site",
+  "terms.s1b": "This site is a B2B information and enquiry service operated by Hubei MoTai Abrasives Materials Co., Ltd. Content — product specifications, guides, glossary and blog — is provided in good faith for general information. Using the site means you accept these terms; if you do not, do not submit an enquiry.",
+  "terms.s2t": "Enquiries are not offers",
+  "terms.s2b": "An enquiry-form submission is an invitation to negotiate, not a binding order. MoTai is not obliged to respond to every enquiry, and no purchase is committed until a quotation is confirmed in writing by both parties.",
+  "terms.s3t": "Quotations and pricing",
+  "terms.s3b": "All prices are quote-based. Quotations list sizes, grits, packaging, trade terms and validity periods; final figures are settled at the confirmed specification and are subject to raw-material and freight movement.",
+  "terms.s4t": "Intellectual property",
+  "terms.s4b": "Site content, product descriptions, graphics and the MoTai brand are the property of MoTai Abrasives and may not be reproduced commercially. Third-party references (e.g. model sources) are for buyer orientation only and do not imply endorsement.",
+  "terms.s5t": "Liability and governing law",
+  "terms.s5b": "MoTai is not liable for decisions made in reliance on general information in this site. These terms are governed by the laws of the People's Republic of China; disputes are settled under the sales contract between the parties.",
+  "terms.updated": "Last updated 3 November 2026",
+  "pfq.specs.q": "Which specifications should I provide?",
+  "pfq.specs.a": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options where available; other requirements will be reviewed with our team.",
+  "pfq.oem.q": "How do I request OEM packaging?",
+  "pfq.oem.a": "Include your branding and packaging requirements in the enquiry. Details will be reviewed and confirmed with your quotation.",
+  "pfq.order.q": "Does requesting a quote place an order?",
+  "pfq.order.a": "No. The form starts a wholesale enquiry. Product specifications, availability and commercial terms are confirmed before an order is agreed.",
+  "blog.chooseBacking.title": "Hook & loop or PSA: choose the right backing",
+  "blog.chooseBacking.intro": "The attachment system is as important as the grit. Match it to the pad before you order.",
+  "blog.chooseBacking.start.title": "Start with the requirement",
+  "blog.chooseBacking.start.body": "Hook & loop discs mount onto a compatible hook-faced pad and suit operations where grit is changed often. PSA discs rely on pressure-sensitive adhesive and need a clean, flat pad. The two systems are not interchangeable.",
+  "blog.chooseBacking.compat.title": "Confirm compatibility",
+  "blog.chooseBacking.compat.body": "Confirm pad diameter, backing type and dust-extraction layout. A non-hole disc does not connect to a hole-based extraction pattern, and open-mesh discs need a compatible pad and extraction system.",
+  "blog.chooseBacking.enquiry.title": "Prepare your enquiry"
+}
