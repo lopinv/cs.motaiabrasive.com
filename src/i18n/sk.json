@@ -118,7 +118,7 @@
     "finalCta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
     "finalCta2": "Kontakt cez WhatsApp",
     "beltsShowTitle": "Brúsne pásy podľa modelu",
-    "beltsShowSub": "Referenčné modely na prezer s naším tímom.",
+    "beltsShowSub": "Referenčné modely na preskúmanie s naším tímom.",
     "prepTitle": "Pripraviť si veľkoobchodný dopyt",
     "prepSub": "Rozmery, zrnitosť a množstvo urobia zvyšok práce.",
     "prepDim": "Rozmery",
@@ -653,7 +653,7 @@
       "def": "Staršie číslovanie zrnitosti v Severnej Amerike. Zrná podobnej veľkosti sa od FEPA stupnice líšia — v každom dopyte uveďte normu."
     },
     "backing-cloth": {
-      "def": "Bavlnený/tekutý plát, ktorý nesie brúsne zrno v pásoch. Hmotnosť (napr. X-weight) určuje flexibilitu a nosnosť."
+      "def": "Bavlnený/tkaninový plát, ktorý nesie brúsne zrno v pásoch. Hmotnosť (napr. X-weight) určuje flexibilitu a nosnosť."
     },
     "backing-poly": {
       "def": "Polybavlnený plát: vyváženie pevnosti a flexibility pre univerzálne pásy."
@@ -668,7 +668,7 @@
       "def": "Hustý rozvrh zrna s málo otvoreným priestorom; pás odoláva zanášaniu pri tvrdšej práci."
     },
     "debur": {
-      "def": "Odstránenie drsien a malých vyneľujúcich častí po krájaní, púlení a brúsení."
+      "def": "Odstránenie drsien a malých vyčnievajúcich častí po krájaní, púlení a brúsení."
     },
     "dust": {
       "def": "Odstraňovanie brúsneho prachu na predmete — cez porty podložky, kotúče s otvorenou sieťkou alebo lokálne odsávanie."
@@ -728,7 +728,7 @@
     "mfgQ": "Výroba a kvalita",
     "oemPl": "OEM a vlastná značka",
     "newsB": "Novinky a blog",
-    "privacy": "Základné zásady ochrany súkromia",
+    "privacy": "Zásady ochrany súkromia",
     "terms": "Podmienky použitia",
     "contactUs": "Kontaktujte nás"
   },
@@ -745,7 +745,7 @@
     },
     "factory": {
       "title": "Výroba a kontrola kvality brúsnych materiálov — MoTai závod v Hubei",
-      "description": "Uvnittri brúsnej dielne MoTai: prevádzkové a rezné práce, kontrola vzoriek, kontrola kvality a OEM balenie pre brúsne pásy, brúsne kotúče a kotúče typu flap.",
+      "description": "Uvnitri brúsnej dielne MoTai: prevádzkové a rezné práce, kontrola vzoriek, kontrola kvality a OEM balenie pre brúsne pásy, brúsne kotúče a kotúče typu flap.",
       "keywords": "výroba brúsnych materiálov, kontrola kvality brúsnych materiálov v závodu, prevádzka brúsnych materiálov, OEM balenie brúsnych materiálov"
     },
     "oem": {
@@ -755,7 +755,7 @@
     },
     "applications": {
       "title": "Priemyselné brúsne materiály podľa aplikácie — kov, drev, automobil a ďalšie",
-      "description": "Súpte brúsne pásy, brúsne kotúče a kotúče typu flap MoTai s aplikáciou: brúsenie kovov, brúsenie dreva, karosérie áut, dokončovanie nerezovky, stavba lodí a príprava povrchov.",
+      "description": "Prispôsobte brúsne pásy, brúsne kotúče a kotúče typu flap MoTai s aplikáciou: brúsenie kovov, brúsenie dreva, karosérie áut, dokončovanie nerezovej oceli, stavba lodí a príprava povrchov.",
       "keywords": "aplikácie brúsnych materiálov, brúsenie kovov, brúsenie dreva, príprava povrchov, priemyselná príprava povrchov"
     },
     "application": {
@@ -786,7 +786,7 @@
       },
       "surface-preparation": {
         "title": "Priemyselná príprava povrchov a brúsenie, brúsne materiály | MoTai",
-        "description": "Priemyselné riešenia brúsnych materiálov pre prípravu povrchov, dokončovanie povrchov a ťažké brúsenie v pásov, kotúčov a kotúčov typu flap MoTai.",
+        "description": "Priemyselné riešenia brúsnych materiálov pre prípravu povrchov, dokončovanie povrchov a ťažké brúsenie v pásoch, kotúčoch a kotúčov typu flap MoTai.",
         "keywords": "príprava povrchov, dokončovanie povrchov, priemyselné brúsenie, brúsne riešenia"
       }
     },
@@ -801,7 +801,7 @@
       "keywords": "kontakt dodávateľa brúsnych materiálov, veľkoobchodný dopyt na brúsne materiály, výrobca brúsnych materiálov Čína"
     },
     "privacy": {
-      "title": "Základné zásady ochrany súkromia",
+      "title": "Zásady ochrany súkromia",
       "description": "Ako MoTai Abrasives využíva informácie z dopytov: zbieranie, účel, uloženie, vaše možnosti a spracovanie cookies.",
       "keywords": "zásady ochrany súkromia, MoTai"
     },

@@ -22,7 +22,7 @@
   "cta.viewAll": "Zobacz wszystkie produkty",
   "cta.discuss": "Omów swoją specyfikację",
   "cta.oemQuote": "Poproś o wycenę OEM",
-  "footer.blurb": "Materiały ścierna dla kupców przemysłowych, dystrybutorów i marek własnych.",
+  "footer.blurb": "Materiały ścierne dla kupców przemysłowych, dystrybutorów i marek własnych.",
   "footer.products": "Produkty",
   "footer.explore": "Poznaj MoTai",
   "footer.connect": "Skontaktuj się",
@@ -110,7 +110,7 @@
   "tdk.application.surface-preparation.description": "Przemysłowe rozwiązania z materiałów ściernych do przygotowania powierzchni, wykańczania i ciężkiego szlifowania w pełnej gamie pasków, tarcz i tarcz flap MoTai.",
   "tdk.application.surface-preparation.keywords": "przygotowanie powierzchni, wykańczanie powierzchni, szlifowanie przemysłowe, rozwiązania materiałowo-ścierne",
   "tdk.blog.title": "Poradniki dla kupujących i normy gradacji | Wiedza MoTai",
-  "tdk.blog.description": "Praktyczne zasoby dla kupujących materiały ścierne: dobór podkładu tarcz, check-listy zapytań o paski, sekwencjonowanie gradacji, odsysanie pyłu i normy gradacji (FEPA/ANSI).",
+  "tdk.blog.description": "Praktyczne zasoby dla kupujących materiały ścierne: dobór podkładu tarcz, listy kontrolne zapytań o paski, sekwencjonowanie gradacji, odsysanie pyłu i normy gradacji (FEPA/ANSI).",
   "tdk.blog.keywords": "poradnik kupującego materiały ścierne, dobór gradacji, słownik materiałów ściernych, normy gradacji FEPA ANSI",
   "tdk.contact.title": "Kontakt z MoTai — dostawca materiałów ściernych w Chinach",
   "tdk.contact.description": "Skontaktuj się z dostawcą materiałów ściernych MoTai w Xianning, Hubei: telefon, e-mail i WhatsApp do zapytań hurtowych i OEM oraz wizyt fabrycznych.",
@@ -120,7 +120,11 @@
   "tdk.privacy.keywords": "polityka prywatności, MoTai",
   "tdk.terms.title": "Zasady korzystania — MoTai Abrasives",
   "tdk.terms.description": "Zasady dotyczące tego serwisu B2B dla materiałów ściernych: obsługa zapytań, wycena cen, własność intelektualna i obowiązujące prawo.",
-  "tdk.terms.keywords": ["zasady korzystania", "MoTai", "dostawca B2B materiałów ściernych"],
+  "tdk.terms.keywords": [
+    "zasady korzystania",
+    "MoTai",
+    "dostawca B2B materiałów ściernych"
+  ],
   "tdk.quote.title": "Poproś o wycenę hurtową materiałów ściernych | MoTai",
   "tdk.quote.description": "Przygotuj zapytanie hurtowe lub OEM o materiały ścierne: dane firmy oraz produkt, rozmiar, gradacja, ilość i miejsce dostawy. Dostawy hurtowe wyceniane bezpośrednio z fabryki.",
   "tdk.quote.keywords": "wycena hurtowa materiałów ściernych, dostawy hurtowe materiałów ściernych, zapytanie OEM o materiały ścierne, materiały ścierne hurtowo",
@@ -144,14 +148,14 @@
   "tdk.flap.keywords": "tarcza flap, tarcza flap o podkładzie {backing}, tarcza flap z cyrkonii, producent tarcz flap, tarcze flap hurtowo",
   "tdk.colt.belts.title": "Producent i dostawca hurtowy pasków ściernych | MoTai",
   "tdk.colt.belts.description": "Szerokie i przemysłowe paski ścierne 533×75 do 2200×1330 mm, gradacje 40–800, z tlenkiem glinu, cyrkonią i karbidem krzemu — z typami referencyjnymi GXK-51, XZ-330, GPC71 i innymi. Hurt bezpośrednio z fabryki i OEM.",
-  "tdk.colt.belts.keywords": "paski ścierne, paski do szlifowania, przemysłowe paski do szlifowania, szerokie paski ścierne, szerokie paski do szlifowania, paski do szlifowania drewna, paski do szlifowania metalu, paski ścierne tlenek glinu, paski ścierne cyrkonowa, paski ścierne karbid krzemu, producent pasków ściernych, dostawca pasków ściernych, paski ścierne hurtowo, paski ścierny GXK-51, paski ścierny XZ-330, paski ścierny GPC71, paski ścierny Y399, paski ścierny Y999, paski ścierny 533x75, paski ścierny 610x100, paski ścierny 1520x630, paski ścierny 2200x1330",
+  "tdk.colt.belts.keywords": "paski ścierne, paski do szlifowania, przemysłowe paski do szlifowania, szerokie paski ścierne, szerokie paski do szlifowania, paski do szlifowania drewna, paski do szlifowania metalu, paski ścierne tlenek glinu, paski ścierne z cyrkonii, paski ścierne z karbidu krzemu, producent pasków ściernych, dostawca pasków ściernych, paski ścierne hurtowo, pasek ścierny GXK-51, pasek ścierny XZ-330, pasek ścierny GPC71, pasek ścierny Y399, pasek ścierny Y999, pasek ścierny 533x75, pasek ścierny 610x100, pasek ścierny 1520x630, pasek ścierny 2200x1330",
   "tdk.colt.discs.title": "Producent tarcz ściernych — PSA, hook & loop i siatka | MoTai",
   "tdk.colt.discs.description": "Tarcze ścierne hook & loop, PSA, siatkowe i pełne od 3 do 6 cali, gradacje 60–5000, do karoserii, drewna i wykańczania metali. Hurt bezpośrednio z fabryki i OEM.",
-  "tdk.colt.discs.keywords": "tarcze ścierne, tarcze ścierne do szlifowania, tarcze ścierne hook and loop, tarcze ścierne PSA, tarcze ścierne siatkowe, tarcze ścierne niedbione, tarcze ścierne bezpyłowe, tarcze ścierne perforowane, tarcze ścierne pełne, tarcze ścierne 5 cali, tarcze ścierne 6 cali, producent tarcz ściernych, tarcze ścierne hurtowo",
+  "tdk.colt.discs.keywords": "tarcze ścierne, tarcze ścierne do szlifowania, tarcze ścierne hook and loop, tarcze ścierne PSA, tarcze ścierne siatkowe, tarcze ścierne z włókniny, tarcze ścierne bezpyłowe, tarcze ścierne perforowane, tarcze ścierne pełne, tarcze ścierne 5 cali, tarcze ścierne 6 cali, producent tarcz ściernych, tarcze ścierne hurtowo",
   "tdk.colt.flap.title": "Producent tarcz flap — cyrkon i tlenek glinu | MoTai",
   "tdk.colt.flap.description": "Tarcze flap ścierne MoTai z podkładem z tworzywa, stali i włókna szklanego, w cyrkoni i tlenku glinu, do szlifowania, odpylania i wykańczania metali. Dostawa hurtowa i OEM.",
   "tdk.colt.flap.keywords": "tarcze flap, tarcze flap ścierne, tarcze flap z cyrkonii, tarcze flap tlenek glinu, tarcze flap z podkładem z włókna szklanego, tarcze flap z podkładem plastikowym, tarcze flap z podkładem stalowym, tarcze flap 100 mm, tarcze flap 115 mm, tarcze flap 125 mm, tarcze flap 150 mm, tarcze flap 180 mm, producent tarcz flap, dostawca tarcz flap, tarcze flap hurtowo",
   "tdk.colt.all.title": "Materiały ścierne hurtowo — paski, tarcze i tarcze flap | MoTai",
   "tdk.colt.all.description": "Pełen katalog materiałów ściernych MoTai: przemysłowe paski ścierne, tarcze i tarcze flap dla dystrybutorów, importerów, hurtowni i marek OEM. Hurt bezpośrednio z fabryki, dostosowania i eksport z Hubei, Chiny.",
-  "tdk.colt.all.keywords": "materiały ścierne, materiały ścierne hurtowo, materiały ścierne przemysłowe, materiały ścierne z powłoką, materiały ścierne hurtowo, fabryka materiałów ściernych, eksporter materiałów ściernych, dostawca materiałów ściernych Chiny, producent materiałów ściernych OEM, materiały ścierne marki własnej, materiały ścierne na zamówienie, dostawy hurtowe materiałów ściernych, fabryka materiałów ściernych, narzędzia ścierne, materiały ścierne, produkty do szlifowania, produkty wykańczania powierzchni, papier ścierny, arkusze papieru ściernego, papier ścierny okrągły, papier ścierny hurtowo, podkładka do szlifowania, podkładka do szlifowania hook and loop, podkładka do szlifowania 5 cali, podkładka do szlifowania 6 cali, szlifierka nietkana, płótno ścierne, szczotka rolkowa przemysłowa"
+  "tdk.colt.all.keywords": "materiały ścierne, materiały ścierne hurtowo, materiały ścierne przemysłowe, materiały ścierne z powłoką, materiały ścierne hurtowo, fabryka materiałów ściernych, eksporter materiałów ściernych, dostawca materiałów ściernych Chiny, producent materiałów ściernych OEM, materiały ścierne marki własnej, materiały ścierne na zamówienie, dostawy hurtowe materiałów ściernych, fabryka materiałów ściernych, narzędzia ścierne, materiały ścierne, produkty do szlifowania, produkty wykańczania powierzchni, papier ścierny, arkusze papieru ściernego, papier ścierny okrągły, papier ścierny hurtowo, podkładka do szlifowania, podkładka do szlifowania hook and loop, podkładka do szlifowania 5 cali, podkładka do szlifowania 6 cali, tarcza typu flap z włókniny, płótno ścierne, szczotka rolkowa przemysłowa"
 }

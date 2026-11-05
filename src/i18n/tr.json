@@ -41,7 +41,7 @@
     },
     "discs": {
       "title": "Zımpara Diskleri — Toptan & OEM",
-      "desc": "PSA, kelepçe-tasma, açık ızgara ve deliksiz zımpara diskleri, 3'ten 6 inçe kadar. Grit 60–5000. Toptan alım ve OEM talepleri memnuniyetle kabul edilir.",
+      "desc": "PSA, keklik kancası, açık ızgara ve deliksiz zımpara diskleri, 3'ten 6 inçe kadar. Grit 60–5000. Toptan alım ve OEM talepleri memnuniyetle kabul edilir.",
       "label": "Zımpara Diskleri"
     },
     "flap": {
@@ -770,8 +770,8 @@
         "keywords": "ahşap işleri aşındırıcıları, geniş bant zımparalaması, ahşap zımparalaması, mobilya zımparalaması"
       },
       "automotive": {
-        "title": "Otomotir Tamir Zımparalaması — Kaporta ve Boya | MoTai",
-        "description": "Otomotiv tamir için aşındırıcılar: MoTai PSA ve kelepçe-tasma diskleriyle oto kaporta zımparalaması, otomobil boyası ve astar zımparalaması.",
+        "title": "Otomotiv Tamir Zımparalaması — Kaporta ve Boya | MoTai",
+        "description": "Otomotiv tamir için aşındırıcılar: MoTai PSA ve keklik kancası diskleriyle oto kaporta zımparalaması, otomobil boyası ve astar zımparalaması.",
         "keywords": "otomotiv aşındırıcıları, kaporta zımparalaması, otomobil boyası zımparalaması, astar zımparalaması"
       },
       "stainless-steel": {
@@ -791,7 +791,7 @@
       }
     },
     "blog": {
-      "title": "Aşındırıcı Alıcı Kılavuzları ve Grit Standartları | MoTai Knowledge",
+      "title": "Aşındırıcı Alıcı Kılavuzları ve Grit Standartları | MoTai Bilgi",
       "description": "Pratik aşındırıcı alıcı kaynakları: disk taban seçimi, bant istek kontrol listeleri, grit dizilimi, toz toplama ve grit standartları (FEPA/ANSI).",
       "keywords": "aşındırıcı alıcı kılavuzu, grit seçimi, aşındırıcı sözlüğü, FEPA ANSI grit standartları"
     },
@@ -821,12 +821,12 @@
     },
     "clients": {
       "title": "Aşındırıcı Ürünleri İhracatçısı — Hubei, Çin'den Global Tedarik | MoTai",
-      "description": "MoTai, zımpara bantlarını, zımpara disklerini ve flap disklerini yedi varış bölgesine ihraç eder: Avrupa, Amerika, Orta Doğu, Afrika, Oşanya ve Asya.",
+      "description": "MoTai, zımpara bantlarını, zımpara disklerini ve flap disklerini yedi varış bölgesine ihraç eder: Avrupa, Amerika, Orta Doğu, Afrika, Okyanusya ve Asya.",
       "keywords": "aşındırıcı ürünleri ihracatçısı, aşındırıcı ihracatı, küresel aşındırıcı tedariki, endüstriyel aşındırıcı tedarikçisi"
     },
     "glossary": {
       "title": "Aşındırıcı Sözlüğü — Grit, Taban, Disk Terimleri",
-      "description": "24 aşındırıcı terimi tanımlanır: FEPA grit, tabanlar, kelepçe-tasma, PSA, açık ızgara, talaş kaldırma ve daha fazlası.",
+      "description": "24 aşındırıcı terimi tanımlanır: FEPA grit, tabanlar, keklik kancası, PSA, açık ızgara, talaş kaldırma ve daha fazlası.",
       "keywords": "aşındırıcı sözlüğü, grit standartları, aşındırıcı terimler"
     },
     "product": {
@@ -842,7 +842,7 @@
     "disc": {
       "title": "MoTai {title} — Toptan Alım & OEM",
       "description": "MoTai disk varyantı {title}: grit aralığı, çap ve bağlantı teklifle belirlenir. Fabrikadan doğrudan toptan alım ve OEM.",
-      "keywords": "zımpara diski, kelepçe-tasma disk, PSA disk, ızgara disk, zımpara diskleri toptan alım"
+      "keywords": "zımpara diski, keklik kancası disk, PSA disk, ızgara disk, zımpara diskleri toptan alım"
     },
     "flap": {
       "title": "MoTai {name} — Flap Disk Üreticisi",
@@ -853,12 +853,12 @@
       "belts": {
         "title": "Zımpara Bandı Üreticisi & Toptan Alım Tedarikçisi | MoTai",
         "description": "533×75'ten 2200×1330 mm'ye kadar geniş ve endüstriyel zımpara bantları, grit 40–800, alüminyum oksit, zirkonya ve silisyum karbid ile — referans modeller GXK-51, XZ-330, GPC71 ve diğerleri. Fabrikadan doğrudan toptan alım ve OEM.",
-        "keywords": "zımpara bantları, zımparalanma bantları, endüstriyel zımparalanma bantları, geniş zımpara bantları, geniş zımparalanma bantları, ahşap zımparalanma bantları, metal zımparalanma bantları, alüminyum oksit zımpara bantları, zirkonya zımpara bantları, silisyum karbid zımpara bantları, zımpara bandı üreticisi, zımpara bandı tedarikçisi, zımpara bantları toptan alım, GXK-51 zımpara bandı, XZ-330 zımpara bandı, GPC71 zımpara bandı, Y399 zımpara bandı, Y999 zımpara bandı, 533x75 zımpara bandı, 610x100 zımpara bandı, 1520x630 zımpara bandı, 2200x1330 zımpara bandı"
+        "keywords": "zımpara bantları, zımpara bantları, endüstriyel zımpara bantları, geniş zımpara bantları, geniş zımpara bantları, ahşap zımpara bantları, metal zımpara bantları, alüminyum oksit zımpara bantları, zirkonya zımpara bantları, silisyum karbid zımpara bantları, zımpara bandı üreticisi, zımpara bandı tedarikçisi, zımpara bantları toptan alım, GXK-51 zımpara bandı, XZ-330 zımpara bandı, GPC71 zımpara bandı, Y399 zımpara bandı, Y999 zımpara bandı, 533x75 zımpara bandı, 610x100 zımpara bandı, 1520x630 zımpara bandı, 2200x1330 zımpara bandı"
       },
       "discs": {
         "title": "Zımpara Diski Üreticisi — PSA, Kelepçe-Tasma & Izgara | MoTai",
-        "description": "3'ten 6 inçe kadar kelepçe-tasma, PSA, ızgara ve deliksiz zımpara diskleri, grit 60–5000, oto kaporta, ahşap ve metal bitirme işlemleri için. Fabrikadan doğrudan toptan alım ve OEM.",
-        "keywords": "zımpara diskleri, aşındırıcı zımpara diskleri, kelepçe-tasma zımpara diskleri, PSA zımpara diskleri, ızgara zımpara diskleri, dokunmamış zımpara diskleri, tozsuz zımpara diskleri, delikli zımpara diskleri, delik zımpara diskleri, 5 inç zımpara diskleri, 6 inç zımpara diskleri, zımpara diski üreticisi, zımpara diskleri toptan alım"
+        "description": "3'ten 6 inçe kadar keklik kancası, PSA, ızgara ve deliksiz zımpara diskleri, grit 60–5000, oto kaporta, ahşap ve metal bitirme işlemleri için. Fabrikadan doğrudan toptan alım ve OEM.",
+        "keywords": "zımpara diskleri, aşındırıcı zımpara diskleri, keklik kancası zımpara diskleri, PSA zımpara diskleri, ızgara zımpara diskleri, dokunmamış zımpara diskleri, tozsuz zımpara diskleri, delikli zımpara diskleri, delikli zımpara diskleri, 5 inç zımpara diskleri, 6 inç zımpara diskleri, zımpara diski üreticisi, zımpara diskleri toptan alım"
       },
       "flap": {
         "title": "Flap Disk Üreticisi — Zirkonya ve Alüminyum Oksit | MoTai",
@@ -868,7 +868,7 @@
       "all": {
         "title": "Aşındırıcı Ürünleri Toptan Alım — Bantlar, Diskler & Flap Diskleri | MoTai",
         "description": "MoTai aşındırıcı kataloğunun tamamı: dağıtıcılar, ithalatçılar, toptancılar ve OEM markaları için endüstriyel zımpara bantları, zımpara diskleri ve flap diskleri. Fabrikadan doğrudan toptan alım, özelleştirme ve Hubei, Çin'den ihracat.",
-        "keywords": "aşındırıcı ürünleri, aşındırıcı ürünleri toptan alım, endüstriyel aşındırıcılar, kaplı aşındırıcılar, aşındırıcı toptan alım, aşındırıcı ürünleri fabrikası, aşındırıcı ürünleri ihracatçısı, Çin'de aşındırıcı tedarikçisi, aşındırıcı OEM üretici, özel etiket aşındırıcılar, özel aşındırıcı ürünler, toplu aşındırıcı tedariki, aşındırıcı fabrikası, aşındırıcı araçlar, aşındırıcı malzemeler, zımparalanma ürünleri, yüzey bitirme ürünleri, zımpara kâğıdı, zımpara kâğıdı yaprakları, yuvarlak zımpara kâğıdı, zımpara kâğıdı toptan alım, zımpara yastığı, kelepçe-tasma zımpara yastığı, 5 inç zımpara yastığı, 6 inç zımpara yastığı, dokunmamış flap tekeri, aşındırıcı bez, endüstriyel rulo fırça"
+        "keywords": "aşındırıcı ürünleri, aşındırıcı ürünleri toptan alım, endüstriyel aşındırıcılar, kaplı aşındırıcılar, aşındırıcı toptan alım, aşındırıcı ürünleri fabrikası, aşındırıcı ürünleri ihracatçısı, Çin'de aşındırıcı tedarikçisi, aşındırıcı OEM üretici, özel etiket aşındırıcılar, özel aşındırıcı ürünler, toplu aşındırıcı tedariki, aşındırıcı fabrikası, aşındırıcı araçlar, aşındırıcı malzemeler, zımpara ürünleri, yüzey bitirme ürünleri, zımpara kâğıdı, zımpara kâğıdı levhaları, yuvarlak zımpara kâğıdı, zımpara kâğıdı toptan alım, zımpara yastığı, keklik kancası zımpara yastığı, 5 inç zımpara yastığı, 6 inç zımpara yastığı, dokunmamış flap tekeri, aşındırıcı bez, endüstriyel rulo fırça"
       }
     }
   },

@@ -9,11 +9,11 @@
     "wholesale": "Velkoobchodní dotazy",
     "oemNote": "Dotazy k OEM obalování",
     "size": "Velikost",
-    "grit": "Odrizivost (gradace)",
+    "grit": "Zrnitost (gradace)",
     "quantity": "Požadované množství",
     "requirements": "Specifikace a požadavky na balení",
     "requirementsPh": "Popište své použití, specifikace a požadavky na dodání.",
-    "material": "Brsné materiály",
+    "material": "Brusné materiály",
     "backing": "Podklad / upevnění",
     "availability": "Dostupnost, minimální množství objednávky a obchodní podmínky se potvrzují v nabídce.",
     "sampleNote": "Řekněte nám, které produkty a gradace chcete vyhodnotit. Naše prodejní tým potvrdí dostupnost vzorků, poplatky a uspořádání dopravy.",
@@ -29,29 +29,29 @@
     "manufacturing": "Výroba",
     "oem": "OEM služby",
     "news": "Zprávy",
-    "knowledge": "Vědění",
+    "knowledge": "Znalosti",
     "contact": "Kontaktujte nás",
     "products": "Produkty"
   },
   "colt": {
     "belts": {
-      "title": "Brsné pásky — Velkoobchod a OEM",
-      "desc": "Červené brsné pásky v zdokumentovaných velikostech od 533 × 75 mm do 2200 × 1330 mm. Gradace 40–800. Dostupné referenční modely. Velkoobchodní a OEM dotazy vítány.",
-      "label": "Brsné pásky"
+      "title": "Brusné pásky — Velkoobchod a OEM",
+      "desc": "Červené brusné pásky v zdokumentovaných velikostech od 533 × 75 mm do 2200 × 1330 mm. Gradace 40–800. Dostupné referenční modely. Velkoobchodní a OEM dotazy vítány.",
+      "label": "Brusné pásky"
     },
     "discs": {
-      "title": "Brsné kotvy — Velkoobchod a OEM",
-      "desc": "Kotvy PSA, hook & loop, síťové a bezdírové brsné kotvy od 3 do 6 palce. Gradace 60–5000. Velkoobchodní a OEM dotazy vítány.",
-      "label": "Brsné kotvy"
+      "title": "Brusné kotouče — Velkoobchod a OEM",
+      "desc": "Kotouče PSA, hook & loop, síťové a bezdírové brusné kotouče od 3 do 6 palce. Gradace 60–5000. Velkoobchodní a OEM dotazy vítány.",
+      "label": "Brusné kotouče"
     },
     "flap": {
-      "title": "Brsné plechovky MoTai",
-      "desc": "Brsné plechovky s plastovým, ocelovým a skelným podkladem pro broušení, hladké a dokončování kovů. Potvrďte specifikace, hromadnou dodávku a OEM obalování v nabídce.",
-      "label": "Brsné plechovky"
+      "title": "Brusné flapy MoTai",
+      "desc": "Brusné flapy s plastovým, ocelovým a skelným podkladem pro broušení, hladké a dokončování kovů. Potvrďte specifikace, hromadnou dodávku a OEM obalování v nabídce.",
+      "label": "Brusné flapy"
     },
     "all": {
       "title": "Všechny produkty",
-      "desc": "Úplný katalog brsných materiálů MoTai: brsné pásky, kotvy a plechovky pro průmyslové kupce, distributory a vlastní značky.",
+      "desc": "Úplný katalog brusných materiálů MoTai: brusné pásky, kotouče a flapy pro průmyslové kupce, distributory a vlastní značky.",
       "label": "Všechny produkty"
     }
   },
@@ -61,15 +61,15 @@
     "sample": "Vyžádat vzorek",
     "whatsapp": "Dotaz přes WhatsApp",
     "waChat": "Kontakt přes WhatsApp",
-    "explore": "Podívat se na sortiment brusných kotvů",
+    "explore": "Podívat se na sortiment brusných kotoučů",
     "viewAll": "Zobrazit všechny produkty",
     "discuss": "Proberete svou specifikaci",
     "oemQuote": "Vyžádat OEM nabídku"
   },
   "home": {
-    "eyebrow": "Brsné materiály z továrny MoTai v Hubei",
-    "heroTitle": "Profesionální výrobce a dodavatel brsných materiálů",
-    "heroSub": "Brsné pásky, brsné kotvy a brsné plechovky přímo z továrny pro průmyslové kupce, distributory a vlastní značky — z Hubei, Čína na Vaše trhy.",
+    "eyebrow": "Brusné materiály z továrny MoTai v Hubei",
+    "heroTitle": "Profesionální výrobce a dodavatel brusných materiálů",
+    "heroSub": "Brusné pásky, brusné kotouče a brusné flapy přímo z továrny pro průmyslové kupce, distributory a vlastní značky — z Hubei, Čína na Vaše trhy.",
     "cta1": "Vyžádat velkoobchodní nabídku",
     "cta2": "Domluvte se s naším týmem přes WhatsApp",
     "builtTitle": "Pick the application. Match the abrasive.",
@@ -409,14 +409,14 @@
     }
   },
   "wa": {
-    "generic": "Dobrý den MoTai, chci velkoobchodní nabídku na brsné materiály.",
+    "generic": "Dobrý den MoTai, chci velkoobchodní nabídku na brusné materiály.",
     "product": "Dobrý den MoTai, chci velkoobchodní nabídku na {name} ({grits}).",
-    "model": "Dobrý den MoTai, chci velkoobchodní nabídku na brsný pás modelu {model}.",
+    "model": "Dobrý den MoTai, chci velkoobchodní nabídku na brusný pás modelu {model}.",
     "disc": "Dobrý den MoTai, chci velkoobchodní nabídku na {title}.",
     "sample": "Dobrý den MoTai, prosím o vzorek {name} k vyhodnocení.",
     "factory": "Dobrý den MoTai, chci s Vaším týmem probrat podrobnosti výroby a kvality.",
-    "oem": "Dobrý den MoTai, chci probrat OEM / program brsných materiálů pod vlastní značkou.",
-    "contact": "Dobrý den MoTai, chci s Vaším týmem připravit další objednávku brsných materiálů."
+    "oem": "Dobrý den MoTai, chci probrat OEM / program brusných materiálů pod vlastní značkou.",
+    "contact": "Dobrý den MoTai, chci s Vaším týmem připravit další objednávku brusných materiálů."
   },
   "floatChat": {
     "trigger": "Chat",
@@ -720,7 +720,7 @@
     }
   },
   "footer": {
-    "blurb": "Brsno pro průmyslové kupce, distributory a vlastní značky.",
+    "blurb": "Brusno pro průmyslové kupce, distributory a vlastní značky.",
     "products": "Produkty",
     "explore": "Prozkoumat MoTai",
     "connect": "Spojte se s námi",
@@ -734,141 +734,141 @@
   },
   "tdk": {
     "home": {
-      "title": "Výrobce a dodavatel průmyslových brsných materiálů | MoTai",
-      "description": "Profesionální výrobce brsných materiálů v Číně dodávající brsné pásky, kotvy a plechovky. Velkoobchod přímo z továrny, OEM přizpůsobení a průmyslová řešení pro globální distributory a kupce.",
-      "keywords": "výrobce brsných materiálů, dodavatel brsných materiálů, průmyslové brsné materiály, brsné pásky, brsné kotvy, brsné plechovky, výrobce brsných pásů, velkoobchod brsných materiálů"
+      "title": "Výrobce a dodavatel průmyslových brusných materiálů | MoTai",
+      "description": "Profesionální výrobce brusných materiálů v Číně dodávající brusné pásky, kotouče a flapy. Velkoobchod přímo z továrny, OEM přizpůsobení a průmyslová řešení pro globální distributory a kupce.",
+      "keywords": "výrobce brusných materiálů, dodavatel brusných materiálů, průmyslové brusné materiály, brusné pásky, brusné kotouče, brusné flapy, výrobce brusných pásů, velkoobchod brusných materiálů"
     },
     "about": {
-      "title": "O MoTai — výrobce a továrna brsných materiálů v Hubei, Čína",
-      "description": "Hubei MoTai Abrasives Materials Co., Ltd. je výrobce povlakovaných brsných materiálů v Xianning, Hubei: brsné pásky, kotvy a plechovky s OEM, přizpůsobením velikostí, hromadnou dodávkou a exportem.",
-      "keywords": "výrobce brsných materiálů Čína, dodavatel brsných materiálů Čína, továrna brsných materiálů, výrobce povlakovaných brsných materiálů, exportér brsných materiálů, B2B dodavatel brsných materiálů"
+      "title": "O MoTai — výrobce a továrna brusných materiálů v Hubei, Čína",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. je výrobce povlakovaných brusných materiálů v Xianning, Hubei: brusné pásky, kotouče a flapy s OEM, přizpůsobením velikostí, hromadnou dodávkou a exportem.",
+      "keywords": "výrobce brusných materiálů Čína, dodavatel brusných materiálů Čína, továrna brusných materiálů, výrobce povlakovaných brusných materiálů, exportér brusných materiálů, B2B dodavatel brusných materiálů"
     },
     "factory": {
-      "title": "Výroba a kontrola kvality brsných materiálů — továrna MoTai v Hubei",
-      "description": "Uvnitř brsné dílny MoTai: konverzní a řezání, vzorkové zkoušky, kontrola kvality a OEM obalování brsných pásů, kotvů a plechovek.",
-      "keywords": "výroba brsných materiálů, kontrola kvality továrny brsných materiálů, konverzní brsných materiálů, OEM obalování brsných materiálů"
+      "title": "Výroba a kontrola kvality brusných materiálů — továrna MoTai v Hubei",
+      "description": "Uvnitř brusné dílny MoTai: konverzní a řezání, vzorkové zkoušky, kontrola kvality a OEM obalování brusných pásů, kotoučů a flapů.",
+      "keywords": "výroba brusných materiálů, kontrola kvality továrny brusných materiálů, konverzní brusných materiálů, OEM obalování brusných materiálů"
     },
     "oem": {
-      "title": "Výrobce brsných materiálů OEM a vlastní značka | MoTai",
-      "description": "Výroba brsných materiálů OEM a pod vlastní značkou: Váš logotyp, štítky, velikosti a obalování na brsných pásech, kotvách a plechovkách MoTai, odhadnuté podle Vaše potvrzené specifikace.",
-      "keywords": "výrobce brsných materiálů OEM, brsné materiály pod vlastní značkou, přizpůsobené brsné materiály, dodavatel brsných materiálů OEM"
+      "title": "Výrobce brusných materiálů OEM a vlastní značka | MoTai",
+      "description": "Výroba brusných materiálů OEM a pod vlastní značkou: Váš logotyp, štítky, velikosti a obalování na brusných pásech, kotoučeách a flapů MoTai, odhadnuté podle Vaše potvrzené specifikace.",
+      "keywords": "výrobce brusných materiálů OEM, brusné materiály pod vlastní značkou, přizpůsobené brusné materiály, dodavatel brusných materiálů OEM"
     },
     "applications": {
-      "title": "Průmyslové brsné materiály dle použití — kov, dřevo, automobilový a další",
-      "description": "Skladejte brsné pásky, kotvy a plechovky MoTai s Vaším použitím: broušení kovu, broušení dřeva, karoserie, hotové kovalné nerezové, lodní stavba a příprava povrchu.",
-      "keywords": "použití brsných materiálů, broušení kovu, broušení dřeva, příprava povrchu, průmyslová příprava povrchu"
+      "title": "Průmyslové brusné materiály dle použití — kov, dřevo, automobilový a další",
+      "description": "Přizpůsobte brusné pásky, kotouče a flapy MoTai s Vaším použitím: broušení kovu, broušení dřeva, karoserie, broušení nerezové oceli, lodní stavba a příprava povrchu.",
+      "keywords": "použití brusných materiálů, broušení kovu, broušení dřeva, příprava povrchu, průmyslová příprava povrchu"
     },
     "application": {
       "metal-fabrication": {
-        "title": "Brsné materiály pro kovové zpracování — broušení a opělování | MoTai",
-        "description": "Brsné materiály pro kovové zpracování: broušení kovu, opělování a broušení svařovacích švů brsnými pásy, sítky a plechovky MoTai.",
-        "keywords": "brsné materiály pro kovové zpracování, broušení kovu, opělování kovu, broušení svařovacích švů"
+        "title": "Brusné materiály pro kovové zpracování — broušení a odstraňování otřepů | MoTai",
+        "description": "Brusné materiály pro kovové zpracování: broušení kovu, odstraňování otřepů a broušení svařovacích švů brusnými pásy, sítky a flapy MoTai.",
+        "keywords": "brusné materiály pro kovové zpracování, broušení kovu, odstraňování otřepů, broušení svařovacích švů"
       },
       "woodworking": {
-        "title": "Brsné materiály pro dřevo a široké pásovou broušení | MoTai",
-        "description": "Brsné materiály pro dřevařské a nábytkářské: široké pásovou broušení, dřevo a MDF broušení brsnými pásy a kotvami MoTai.",
-        "keywords": "brsné materiály pro dřevo, široké pásovou broušení, broušení dřeva, broušení nábytku"
+        "title": "Brusné materiály pro dřevo a široké pásy | MoTai",
+        "description": "Brusné materiály pro dřevařské a nábytkářské: široké pásy, dřevo a MDF broušení brusnými pásy a kotouči MoTai.",
+        "keywords": "brusné materiály pro dřevo, široké pásy, broušení dřeva, broušení nábytku"
       },
       "automotive": {
         "title": "Broušení nápravy automobilů — karoserie a barvy | MoTai",
-        "description": "Brsné materiály pro nápravu automobilů: broušení karoserie, barvy a podkladu brsnými kotvami PSA a hook & loop MoTai.",
-        "keywords": "brsné materiály pro automobily, broušení karoserie, broušení barvy, broušení podkladu"
+        "description": "Brusné materiály pro nápravu automobilů: broušení karoserie, barvy a podkladu brusnými kotouči PSA a hook & loop MoTai.",
+        "keywords": "brusné materiály pro automobily, broušení karoserie, broušení barvy, broušení podkladu"
       },
       "stainless-steel": {
-        "title": "Brsné materiály pro hotové a polirování nerezové kovali | MoTai",
-        "description": "Brsné materiály pro nerezovou kov: polirování kovu, broušení povrchu a hotové broušení plechovými kotvami a pásy MoTai.",
-        "keywords": "hotové nerezové kovali, polirování kovu, broušení povrchu, brsné materiály pro nerez"
+        "title": "Brusné materiály pro hotové a polirování nerezové kovali | MoTai",
+        "description": "Brusné materiály pro nerezovou kov: polirování kovu, broušení povrchu a koncové broušení kotouči kotouči a pásy MoTai.",
+        "keywords": "hotové nerezové kovali, polirování kovu, broušení povrchu, brusné materiály pro nerez"
       },
       "shipbuilding": {
-        "title": "Brsné materiály pro lodní stavbu — kovové plechy a odstranění kůry | MoTai",
-        "description": "Těžké brsné materiály pro lodní stavbu: broušení kovových plechů, odstranění kůry a průmyslová příprava povrchu brsnými pásy a plechovky MoTai.",
-        "keywords": "brsné materiály pro lodní stavbu, broušení kovových plechů, odstranění kůry, těžké broušení"
+        "title": "Brusné materiály pro lodní stavbu — kovové plechy a odstranění rzi | MoTai",
+        "description": "Těžké brusné materiály pro lodní stavbu: broušení kovových plechů, odstranění rzi a průmyslová příprava povrchu brusnými pásy a flapy MoTai.",
+        "keywords": "brusné materiály pro lodní stavbu, broušení kovových plechů, odstranění rzi, těžké broušení"
       },
       "surface-preparation": {
-        "title": "Brsné materiály pro průmyslovou přípravu a broušení povrchu | MoTai",
-        "description": "Průmyslová řešení brsných materiálů pro přípravu povrchu, hotové broušení a těžké broušení v pásech, kotvách a plechovkách MoTai.",
-        "keywords": "příprava povrchu, hotové broušení, průmyslové broušení, brsné materiály řešení"
+        "title": "Brusné materiály pro průmyslovou přípravu a broušení povrchu | MoTai",
+        "description": "Průmyslová řešení brusných materiálů pro přípravu povrchu, hotové broušení a těžké broušení v pásech, kotoučeách a flapů MoTai.",
+        "keywords": "příprava povrchu, hotové broušení, průmyslové broušení, brusné materiály řešení"
       }
     },
     "blog": {
-      "title": "Průvodce pro kupce brsných materiálů a standardy gradací | MoTai vědění",
-      "description": "Praktické zdroje pro kupce brsných materiálů: volba podkladu kotvy, kontrolní seznam brsných pásů, sekvence gradace, odsávání a standardy gradace (FEPA/ANSI).",
-      "keywords": "průvodce pro kupce brsných materiálů, volba gradace, slovník brsných materiálů, standardy gradace FEPA ANSI"
+      "title": "Průvodce pro kupce brusných materiálů a standardy gradací | MoTai vědění",
+      "description": "Praktické zdroje pro kupce brusných materiálů: volba podkladu kotouče, kontrolní seznam brusných pásů, sekvence gradace, odsávání a standardy gradace (FEPA/ANSI).",
+      "keywords": "průvodce pro kupce brusných materiálů, volba gradace, slovník brusných materiálů, standardy gradace FEPA ANSI"
     },
     "contact": {
-      "title": "Kontaktujte MoTai — dodavatel brsných materiálů v Číně",
-      "description": "Kontaktujte dodavatele brsných materiálů MoTai v Xianning, Hubei: telefon, e-mail a WhatsApp pro velkoobchodní a OEM dotazy a návštevu továrny.",
-      "keywords": "kontakt dodavatele brsných materiálů, velkoobchodní dotazy na brsné materiály, výrobce brsných materiálů v Číně"
+      "title": "Kontaktujte MoTai — dodavatel brusných materiálů v Číně",
+      "description": "Kontaktujte dodavatele brusných materiálů MoTai v Xianning, Hubei: telefon, e-mail a WhatsApp pro velkoobchodní a OEM dotazy a návštevu továrny.",
+      "keywords": "kontakt dodavatele brusných materiálů, velkoobchodní dotazy na brusné materiály, výrobce brusných materiálů v Číně"
     },
     "privacy": {
       "title": "Zásady ochrany soukromí",
-      "description": "Jak MoTai Abrasives používá údaje z dotazu: sběr, účel, úlož, Váše volby a zpracování cookies.",
+      "description": "Jak MoTai Abrasives používá údaje z dotazu: sběr, účel, úložiště, Váše volby a zpracování cookies.",
       "keywords": "zásady ochrany soukromí, MoTai"
     },
     "terms": {
       "title": "Podmínky použití — MoTai Abrasives",
-      "description": "Podmínky pro tento B2B web brsných materiálů: zpracování dotazů, odhadová cena, duševní vlastníctví a právní úprava.",
+      "description": "Podmínky pro tento B2B web brusných materiálů: zpracování dotazů, odhadová cena, duševní vlastníctví a právní úprava.",
       "keywords": [
         "podmínky použití",
         "MoTai",
-        "B2B dodavatel brsných materiálů"
+        "B2B dodavatel brusných materiálů"
       ]
     },
     "quote": {
-      "title": "Vyžádat velkoobchodní nabídku na brsné materiály | MoTai",
-      "description": "Připravte velkoobchodní nebo OEM dotaz na brsné materiály: obchodní údaje plus produkt, velikost, gradace, množství a místo určení. Hromadná dodávka odhadnuta přímo z továrny.",
-      "keywords": "velkoobchodní nabídku na brsné materiály, hromadná dodávka brsných materiálů, OEM dotazy na brsné materiály, velkoobchod brsných materiálů"
+      "title": "Vyžádat velkoobchodní nabídku na brusné materiály | MoTai",
+      "description": "Připravte velkoobchodní nebo OEM dotaz na brusné materiály: obchodní údaje plus produkt, velikost, gradace, množství a místo určení. Hromadná dodávka odhadnuta přímo z továrny.",
+      "keywords": "velkoobchodní nabídku na brusné materiály, hromadná dodávka brusných materiálů, OEM dotazy na brusné materiály, velkoobchod brusných materiálů"
     },
     "clients": {
-      "title": "Exportér brsných produktů — globální dodávka z Hubei, Čína | MoTai",
-      "description": "MoTai exportuje brsné pásky, kotvy a plechovky do sedmi destinací: Evropa, Ameriky, Střední východ, Afrika, Okeánie a Asie.",
-      "keywords": "exportér brsných produktů, export brsných materiálů, globální dodávka brsných materiálů, průmyslový dodavatel brsných materiálů"
+      "title": "Exportér brusných produktů — globální dodávka z Hubei, Čína | MoTai",
+      "description": "MoTai exportuje brusné pásky, kotouče a flapy do sedmi destinací: Evropa, Ameriky, Střední východ, Afrika, Okeánie a Asie.",
+      "keywords": "exportér brusných produktů, export brusných materiálů, globální dodávka brusných materiálů, průmyslový dodavatel brusných materiálů"
     },
     "glossary": {
-      "title": "Slovník brsných materiálů — gradace, podklad, kotvy terminy",
-      "description": "24 definovaných pojmů brsných materiálů: FEPA gradace, podklady, hook & loop, PSA, síťové, opělování a další.",
-      "keywords": "slovník brsných materiálů, standardy gradace, pojmy brsných materiálů"
+      "title": "Slovník brusných materiálů — gradace, podklad, kotouče terminy",
+      "description": "24 definovaných pojmů brusných materiálů: FEPA gradace, podklady, hook & loop, PSA, síťové, odstraňování otřepů a další.",
+      "keywords": "slovník brusných materiálů, standardy gradace, pojmy brusných materiálů"
     },
     "product": {
-      "title": "MoTai {name} — Velkoobchod a OEM brsné materiály",
+      "title": "MoTai {name} — Velkoobchod a OEM brusné materiály",
       "description": "MoTai {name} ({material}, {category}): {desc} Velikosti: {sizes}. Gradace: {grits}. Velkoobchod přímo z továrny a OEM dodávka.",
-      "keywords": "{name}, výrobce {category}, brsné materiály {material}, velkoobchod brsných materiálů, brsné materiály OEM"
+      "keywords": "{name}, výrobce {category}, brusné materiály {material}, velkoobchod brusných materiálů, brusné materiály OEM"
     },
     "model": {
-      "title": "{model} brsný pás — MoTai",
-      "description": "Referenční brsný pás {model} z řady MoTai — šířka, délka, gradace a podklad se určí v nabídce. Velkoobchod a OEM dodávka.",
-      "keywords": "{model} brsný pás, referenční brsný pás, velkoobchod brsných pásů"
+      "title": "{model} brusný pás — MoTai",
+      "description": "Referenční brusný pás {model} z řady MoTai — šířka, délka, gradace a podklad se určí v nabídce. Velkoobchod a OEM dodávka.",
+      "keywords": "{model} brusný pás, referenční brusný pás, velkoobchod brusných pásů"
     },
     "disc": {
       "title": "MoTai {title} — Velkoobchod a OEM",
-      "description": "MoTai kotva {title}: rozsah gradace, průměr a upevnění se určí v nabídce. Velkoobchod přímo z továrny a OEM.",
-      "keywords": "brsná kotva, hook and loop kotva, PSA kotva, síťová kotva, brsné kotvy velkoobchod"
+      "description": "MoTai kotoučea {title}: rozsah gradace, průměr a upevnění se určí v nabídce. Velkoobchod přímo z továrny a OEM.",
+      "keywords": "brusná kotoučea, hook and loop kotoučea, PSA kotoučea, síťová kotoučea, brusné kotouče velkoobchod"
     },
     "flap": {
-      "title": "MoTai {name} — Výrobce brsných plechovek",
-      "description": "MoTai {name}: brsná plechovka s podkladem {backing} pro broušení, hladké a hotové broušení kovu. Velkoobchod a OEM dodávka.",
-      "keywords": "brsná plechovka, brsná plechovka s podkladem {backing}, zirkonová plechovka, výrobce brsných plechovek, brsné plechovky velkoobchod"
+      "title": "MoTai {name} — Výrobce brusných flapů",
+      "description": "MoTai {name}: brusná flap s podkladem {backing} pro broušení, hladké a hotové broušení kovu. Velkoobchod a OEM dodávka.",
+      "keywords": "brusná flap, brusná flap s podkladem {backing}, zirkonová flap, výrobce brusných flapů, brusné flapy velkoobchod"
     },
     "colt": {
       "belts": {
-        "title": "Výrobce a velkoobchodní dodavatel brsných pásů | MoTai",
-        "description": "Široké a průmyslové brsné pásky 533×75 až 2200×1330 mm, gradace 40–800, v křemíku, cirkoniu a křemičitém karbidu — s referenčními modely GXK-51, XZ-330, GPC71 a dalším. Velkoobchod přímo z továrny a OEM.",
-        "keywords": "brsné pásky, pásovou broušení, průmyslové pásovou broušení, široké brsné pásky, široké pásovou broušení, dřevoplastové pásovou broušení, kovové pásovou broušení, pásky z křemíku, pásky z cirkoniu, pásky z křemičitého karbidu, výrobce brsných pásů, dodavatel brsných pásů, velkoobchod brsných pásů, brsný pás GXK-51, brsný pás XZ-330, brsný pás GPC71, brsný pás Y399, brsný pás Y999, brsný pás 533x75, brsný pás 610x100, brsný pás 1520x630, brsný pás 2200x1330"
+        "title": "Výrobce a velkoobchodní dodavatel brusných pásů | MoTai",
+        "description": "Široké a průmyslové brusné pásky 533×75 až 2200×1330 mm, gradace 40–800, v křemíku, cirkoniu a křemičitém karbidu — s referenčními modely GXK-51, XZ-330, GPC71 a dalším. Velkoobchod přímo z továrny a OEM.",
+        "keywords": "brusné pásky, pásy, průmyslové pásy, široké brusné pásky, široké pásy, dřevěné pásy, kovové pásy, pásky z křemíku, pásky z cirkoniu, pásky z křemičitého karbidu, výrobce brusných pásů, dodavatel brusných pásů, velkoobchod brusných pásů, brusný pás GXK-51, brusný pás XZ-330, brusný pás GPC71, brusný pás Y399, brusný pás Y999, brusný pás 533x75, brusný pás 610x100, brusný pás 1520x630, brusný pás 2200x1330"
       },
       "discs": {
-        "title": "Výrobce brsných kotvů — PSA, hook & loop a síto | MoTai",
-        "description": "Kotvy hook & loop, PSA, síto a bezdírové brsné kotvy od 3 do 6 palce, gradace 60–5000, pro karoserie, dřevo a hotové broušení kovů. Velkoobchod přímo z továrny a OEM.",
-        "keywords": "brsné kotvy, brsné pásovou broušení, brsné kotvy hook and loop, brsné kotvy PSA, brsné síto kotvy, ne-tekutelné brsné kotvy, suché brsné kotvy, perforované brsné kotvy, kotvy s dírami, brsné kotvy 5 palce, brsné kotvy 6 palce, výrobce brsných kotvů, velkoobchod brsných kotvů"
+        "title": "Výrobce brusných kotoučů — PSA, hook & loop a síťové | MoTai",
+        "description": "Kotouče hook & loop, PSA, síťové a bezdírové brusné kotouče od 3 do 6 palce, gradace 60–5000, pro karoserie, dřevo a hotové broušení kovů. Velkoobchod přímo z továrny a OEM.",
+        "keywords": "brusné kotouče, brusné pásy, brusné kotouče hook and loop, brusné kotouče PSA, brusné síťové kotouče, netkané brusné kotouče, suché brusné kotouče, perforované brusné kotouče, kotouče s dírami, brusné kotouče 5 palce, brusné kotouče 6 palce, výrobce brusných kotoučů, velkoobchod brusných kotoučů"
       },
       "flap": {
-        "title": "Výrobce brsných plechovek — cirkon a křemík | MoTai",
-        "description": "Brsné plechovky MoTai s plastovým, kovovým a skelným podkladem, z cirkoniu a křemíku, pro broušení, opělování a hotové broušení kovů. Velkoobchod a OEM dodávka.",
-        "keywords": "brsné plechovky, brsné plechovky, cirkonové plechovky, plechovky z křemíku, plechovky s podkladem ze skla, plechovky s plastovým podkladem, plechovky s kovovým podkladem, plechovky 100mm, plechovky 115mm, plechovky 125mm, plechovky 150mm, plechovky 180mm, výrobce brsných plechovek, dodavatel brsných plechovek, velkoobchod brsných plechovek"
+        "title": "Výrobce brusných flapů — cirkon a diamant | MoTai",
+        "description": "Brusné flapy MoTai s plastovým, kovovým a skelným podkladem, z cirkoniu a diamantu, pro broušení, odstraňování otřepů a hotové broušení kovů. Velkoobchod a OEM dodávka.",
+        "keywords": "brusné flapy, brusné flapy, cirkonové flapy, flapy z diamantu, flapy s podkladem ze skla, flapy s plastovým podkladem, flapy s kovovým podkladem, flapy 100mm, flapy 115mm, flapy 125mm, flapy 150mm, flapy 180mm, výrobce brusných flapů, dodavatel brusných flapů, velkoobchod brusných flapů"
       },
       "all": {
-        "title": "Brsné produkty velkoobchodně — pásky, kotvy a plechovky | MoTai",
-        "description": "Úplný katalog brsných materiálů MoTai: průmyslové brsné pásky, kotvy a plechovky pro distributory, importéry, obchodníky a OEM značky. Velkoobchod přímo z továrny, přizpůsobení a export z Hubei, Čína.",
-        "keywords": "brsné materiály, brsné materiály velkoobchodně, průmyslové brsné materiály, povlakované brsné materiály, brsné materiály velkoobchodně, továrna brsných produktů, exportér brsných produktů, dodavatel brsných materiálů Čína, výrobce brsných materiálů OEM, brsné materiály pod vlastní značkou, přizpůsobené brsné materiály, hromadná dodávka brsných materiálů, továrna brsných materiálů, brsné nářadí, brsné látky, produkty na broušení, produkty na hotové broušení, brusný papír, listy brusného papíru, kruhový brusný papír, brusný papír velkoobchodně, brsný podložka, hook and loop brsný podložka, brsný podložka 5 palce, brsný podložka 6 palce, ne-tekutelný brsný kužel, brsné textilie, průmyslový válečkový štětec"
+        "title": "Brusné produkty velkoobchodně — pásky, kotouče a flapy | MoTai",
+        "description": "Úplný katalog brusných materiálů MoTai: průmyslové brusné pásky, kotouče a flapy pro distributory, importéry, obchodníky a OEM značky. Velkoobchod přímo z továrny, přizpůsobení a export z Hubei, Čína.",
+        "keywords": "brusné materiály, brusné materiály velkoobchodně, průmyslové brusné materiály, povlakované brusné materiály, brusné materiály velkoobchodně, továrna brusných produktů, exportér brusných produktů, dodavatel brusných materiálů Čína, výrobce brusných materiálů OEM, brusné materiály pod vlastní značkou, přizpůsobené brusné materiály, hromadná dodávka brusných materiálů, továrna brusných materiálů, brusné nářadí, brusné látky, produkty na broušení, produkty na hotové broušení, brusný papír, listy brusného papíru, kruhový brusný papír, brusný papír velkoobchodně, brusný podložka, hook and loop brusný podložka, brusný podložka 5 palce, brusný podložka 6 palce, ne-tekutelný brusný kužel, brusné textilie, průmyslový válečkový štětec"
       }
     }
   },
