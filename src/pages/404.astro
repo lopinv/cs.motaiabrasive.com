@@ -3,12 +3,24 @@ import { defaultLang } from '../lib/i18n.js'
 import { TRANSLATIONS } from '../lib/i18n.js'
 import Shell from '../components/Shell.astro'
 import { buildSeo } from '../lib/page.js'
-import { localizedUrl } from '../lib/utils.js'
+import { localizedUrl, products } from '../lib/utils.js'
+import ProductCard from '../components/ProductCard.astro'
 
 const lang = defaultLang()
 const tr = TRANSLATIONS[lang]
 const base = buildSeo(lang, 'home')
 const seo = { ...base, title: '404 — Page not found', description: `${tr.meta.siteName} — page not found`, canonicalPath: '', jsonld: [] }
+
+// Recommended products: one representative SKU per product line, straight
+// from products.json (remote CDN images) so the dead-end 404 becomes a
+// useful navigation/recovery point instead of a dead end. Subtitles reuse
+// the collection labels (tr.colt.*) so they stay localized to defaultLang.
+const featured = [
+  { p: products.find((x) => x.handle === '533x75-abrasive-belt'), colt: 'belts' },
+  { p: products.find((x) => x.handle === 'hook-loop-sanding-discs'), colt: 'discs' },
+  { p: products.find((x) => x.handle === '5-inch-mesh-sanding-disc'), colt: 'discs' },
+  { p: products.find((x) => x.handle === '2200x1330-abrasive-belt'), colt: 'belts' }
+].filter((f) => f.p)
 ---
 
 <Shell lang={lang} seo={seo}>
@@ -19,5 +31,25 @@ const seo = { ...base, title: '404 — Page not found', description: `${tr.meta.
       The page you were looking for does not exist in this language. The default language home is at {localizedUrl(lang, '')}.
     </p>
     <a class="button" href={localizedUrl(lang, '')}>{tr.nav.home}</a>
+  </section>
+
+  <section class="section wrap">
+    <h2>Popular products</h2>
+    <div class="grid grid-4">
+      {featured.map(({ p, colt }) => (
+        <ProductCard
+          lang={lang}
+          title={p.name}
+          subtitle={tr.colt[colt].label}
+          imageKey={p.image}
+          link={localizedUrl(lang, `/products/${p.handle}`)}
+          waContext="product"
+          waVars={{ name: p.name, grits: (p.grits ?? []).join('–') }}
+        />
+      ))}
+    </div>
+    <p class="small-note mt-16">
+      <a href={localizedUrl(lang, '/collections/all')}>{tr.colt.all.title} ↗</a>
+    </p>
   </section>
 </Shell>
