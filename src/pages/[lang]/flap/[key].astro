@@ -33,7 +33,7 @@ const flapVideo = videosData.videos.find((v) => v.youtubeId && v.category === 'p
     <div>
       <div class="gallery">
         <div class="gallery-main">
-          <img src={media(f.image)} alt={f.name} loading="eager" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
+          <img src={media(f.image)} alt={f.name} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
         </div>
       </div>
     </div>

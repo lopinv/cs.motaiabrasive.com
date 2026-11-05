@@ -34,7 +34,7 @@ const lcpPreload = (seo.ogType === 'product' || seo.canonicalPath === '') && seo
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href={cdnOrigin} />
     {site.ga4Id && <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />}
-    {lcpPreload && <link rel="preload" as="image" href={lcpPreload} />}
+    {lcpPreload && <link rel="preload" as="image" fetchpriority="high" href={lcpPreload} />}
     {site.favicon && <link rel="icon" type="image/png" href={site.favicon} />}
     <GoogleAnalytics trackingId={site.ga4Id} />
     <SeoMeta lang={lang} {...seo} />

@@ -33,7 +33,7 @@ const seo = buildSeo(lang, 'disc', { key: d.key }, [
     <div>
       <div class="gallery">
         <div class="gallery-main">
-          <img src={media(d.image)} alt={d.title} loading="eager" />
+          <img src={media(d.image)} alt={d.title} loading="eager" fetchpriority="high" />
         </div>
       </div>
     </div>

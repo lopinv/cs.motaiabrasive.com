@@ -18,26 +18,16 @@ function absUrl(lang, path) {
 }
 
 /**
- * B2B "request-a-quote" offer. The static site does not publish prices
- * (quote-driven wholesale), so the offer carries no price/priceCurrency —
- * a $0.00 or free badge must never render. PreSale signals a pre-order /
- * quote-request state. Merchant Center (b2b data source) reads the same
- * items from products.csv with availability=preorder.
- */
-function b2bOffer(lang, path) {
-  return {
-    '@type': 'Offer',
-    url: absUrl(lang, path),
-    availability: 'https://schema.org/PreSale',
-    itemCondition: 'https://schema.org/NewCondition',
-    seller: { '@type': 'Organization', name: 'MoTai Abrasives' }
-  }
-}
-
-/**
  * TDK resolution with three-tier priority: page-level > collection-level > site default,
  * per the plan. Every tdk entry lives in i18n/<lang>.json under the "tdk" key;
  * fill-in placeholders are localized where useful.
+ *
+ * No on-page Product/Offer JSON-LD is emitted (GSC Product structured-data
+ * validation requires price/priceCurrency or review/aggregateRating; this
+ * B2B quote-driven site intentionally publishes neither — a $0.00 or free
+ * badge must never render). Google shopping coverage comes from the
+ * Merchant Center feed (dist/products.csv, availability=preorder, b2b tag),
+ * not from page markup. Collection ItemList items use @type WebPage.
  */
 /** Normalize keywords (array or comma string) to an array. */
 function kws(v, fill = {}) {
@@ -117,8 +107,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
           .replace('{grits}', (p?.grits ?? []).join(', ')),
         keywords: kws(tpl.keywords, { name, category: p?.category ?? 'abrasive', material: p?.material ?? 'abrasive' }),
         canonicalPath: `/products/${ctx.handle}`,
-        ogImage: p?.ogImage ? media(p.image) : media('belt-533-75'),
-        jsonldExtra: buildProductJsonLd(lang, p)
+        ogImage: p?.ogImage ? media(p.image) : media('belt-533-75')
       }
     }
     case 'model': {
@@ -129,8 +118,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
         description: tpl.description.replace('{model}', m?.model ?? ctx.slug),
         keywords: kws(tpl.keywords, { model: m?.model ?? ctx.slug }),
         canonicalPath: `/model/${ctx.slug}`,
-        ogImage: media('belt-533-75'),
-        jsonldExtra: buildModelJsonLd(lang, m)
+        ogImage: media('belt-533-75')
       }
     }
     case 'disc': {
@@ -141,8 +129,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
         description: tpl.description.replace('{title}', d?.title ?? ctx.key),
         keywords: kws(tpl.keywords),
         canonicalPath: `/disc/${ctx.key}`,
-        ogImage: media(d?.image ?? 'discs'),
-        jsonldExtra: buildDiscJsonLd(lang, d)
+        ogImage: media(d?.image ?? 'discs')
       }
     }
     case 'flap': {
@@ -155,8 +142,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
           .replace('{backing}', f?.backing ?? ''),
         keywords: kws(tpl.keywords, { backing: f?.backing ?? '' }),
         canonicalPath: `/flap/${ctx.key}`,
-        ogImage: media(f?.image ?? 'flap-fiberglass'),
-        jsonldExtra: buildFlapJsonLd(lang, f)
+        ogImage: media(f?.image ?? 'flap-fiberglass')
       }
     }
     case 'article': {
@@ -244,89 +230,12 @@ export function breadcrumbJsonLd(lang, items) {
   }
 }
 
-function buildProductJsonLd(lang, p) {
-  if (!p) return null
-  const props = [
-    { '@type': 'PropertyValue', name: 'Sizes', value: (p.sizes ?? []).join(', ') },
-    { '@type': 'PropertyValue', name: 'Grits', value: (p.grits ?? []).join(', ') },
-    { '@type': 'PropertyValue', name: 'Abrasive material', value: p.material ?? '' },
-    { '@type': 'PropertyValue', name: 'Backing / attachment', value: p.backing ?? '' }
-  ]
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: p.name,
-    image: [media(p.image)],
-    description: p.summary,
-    brand: { '@type': 'Brand', name: 'MoTai Abrasives' },
-    category: p.category,
-    sku: p.handle,
-    offers: b2bOffer(lang, `/products/${p.handle}`),
-    additionalProperty: props
-  }
-}
-
-function buildModelJsonLd(lang, m) {
-  if (!m) return null
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: `Abrasive belt model ${m.model}`,
-    image: [media('belt-533-75')],
-    description: m.source || `Reference belt model ${m.model} from the MoTai range; dimensions, grit and backing are settled with the quotation.`,
-    brand: { '@type': 'Brand', name: 'MoTai Abrasives' },
-    category: 'Abrasive Belts',
-    sku: m.model,
-    offers: b2bOffer(lang, `/model/${m.slug}`)
-  }
-}
-
-function buildDiscJsonLd(lang, d) {
-  if (!d) return null
-  const props = [
-    { '@type': 'PropertyValue', name: 'Holes', value: d.holes ?? '' },
-    { '@type': 'PropertyValue', name: 'Diameter', value: d.diameter ?? '' },
-    { '@type': 'PropertyValue', name: 'Abrasive', value: d.abrasive ?? '' },
-    { '@type': 'PropertyValue', name: 'Attachment', value: d.attachment ?? '' },
-    { '@type': 'PropertyValue', name: 'Grits', value: (d.grits ?? []).join(', ') }
-  ]
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: d.title,
-    image: [media(d.image)],
-    description: d.title,
-    brand: { '@type': 'Brand', name: 'MoTai Abrasives' },
-    category: 'Sanding Discs',
-    sku: d.key,
-    offers: b2bOffer(lang, `/disc/${d.key}`),
-    additionalProperty: props
-  }
-}
-
-function buildFlapJsonLd(lang, f) {
-  if (!f) return null
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: f.name,
-    image: [media(f.image)],
-    description: f.summary,
-    brand: { '@type': 'Brand', name: 'MoTai Abrasives' },
-    category: 'Flap Discs',
-    sku: f.key,
-    offers: b2bOffer(lang, `/flap/${f.key}`),
-    additionalProperty: [
-      { '@type': 'PropertyValue', name: 'Backing', value: f.backing },
-      { '@type': 'PropertyValue', name: 'Color', value: f.color }
-    ]
-  }
-}
-
 /**
- * Product ItemList for collection pages: one ListItem per product shown on the
- * page, each linking to its localized detail URL. Google reads these as the
- * on-page product set (feeds the collection's rich result).
+ * Collection ItemList: one ListItem per page shown on the collection.
+ * Items are @type WebPage — not Product. Google's Product rich result
+ * requires price or review data on-page (see the note above); linking
+ * the page set as WebPage keeps the ItemList valid without claiming
+ * product structured data the page can't back up.
  */
 export function collectionItemListJsonLd(lang, items) {
   if (!items?.length) return null
@@ -338,13 +247,10 @@ export function collectionItemListJsonLd(lang, items) {
       '@type': 'ListItem',
       position: i + 1,
       item: {
-        '@type': 'Product',
+        '@type': 'WebPage',
         name: it.name,
         image: [media(it.image)],
-        url: absUrl(lang, it.path),
-        sku: it.sku,
-        brand: { '@type': 'Brand', name: 'MoTai Abrasives' },
-        category: it.category
+        url: absUrl(lang, it.path)
       }
     }))
   }

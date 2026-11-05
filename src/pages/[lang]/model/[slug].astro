@@ -33,7 +33,7 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
     <div>
       <div class="gallery">
         <div class="gallery-main">
-          <img src={media('belt-533-75')} alt={`${m.model} ${pick('modelPage.eyebrow')}`} loading="eager" />
+          <img src={media('belt-533-75')} alt={`${m.model} ${pick('modelPage.eyebrow')}`} loading="eager" fetchpriority="high" />
         </div>
       </div>
     </div>

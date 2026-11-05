@@ -18,18 +18,22 @@ $p = Get-Content $prod -Raw
 'og tags: ' + ([regex]::Matches($p,'property="og:').Count)
 'twitter tags: ' + ([regex]::Matches($p,'name="twitter:').Count)
 'remote cdn imgs: ' + ([regex]::Matches($p,'motaiabrasive\.com/cdn/shop').Count)
-'B2B offer ld: ' + [bool]($p -match '"@type":\s*"Offer"')
-'PreSale ld: ' + [bool]($p -match 'PreSale')
+# On-page Product/Offer JSON-LD was intentionally removed (GSC Product
+# structured data is invalid without price/priceCurrency or reviews — B2B
+# quote-driven site). Google shopping coverage now comes from the Merchant
+# feed only, so assert the absence on the product page.
+'no on-page Product ld: ' + [bool](-not ($p -match '"@type":\s*"Product"'))
+'no on-page Offer ld: ' + [bool](-not ($p -match '"@type":\s*"Offer"'))
 'no real price in ld: ' + (-not ($p -match '"price"'))
 $canon = [regex]::Match($p, '<link rel="canonical" href="([^"]+)"').Groups[1].Value
 'canonical (slash-terminated): ' + $canon
 'canonical ends /: ' + [bool]$canon.EndsWith('/')
-$offerUrl = [regex]::Match($p, '"@type":"Offer","url":"([^"]+)"').Groups[1].Value
-'offer url: ' + $offerUrl
-'offer url ends /: ' + [bool]$offerUrl.EndsWith('/')
 
 $col = Resolve 'en\collections\all'
-'collection ItemList ld: ' + [bool]((Get-Content $col -Raw) -match '"ItemList"')
+$colRaw = Get-Content $col -Raw
+'collection ItemList ld: ' + [bool]($colRaw -match '"ItemList"')
+'collection ItemList items WebPage: ' + [bool]($colRaw -match '"@type":\s*"WebPage"')
+'collection no on-page Product ld: ' + [bool](-not ($colRaw -match '"@type":\s*"Product"'))
 
 $ar = Get-Content (Resolve 'ar') -Raw
 '=== AR HOME ==='

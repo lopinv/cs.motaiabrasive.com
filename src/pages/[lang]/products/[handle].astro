@@ -36,7 +36,7 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
     <div>
       <div class="gallery">
         <div class="gallery-main">
-          <img src={media(p.image)} alt={p.name} loading="eager" />
+          <img src={media(p.image)} alt={p.name} loading="eager" fetchpriority="high" />
         </div>
         {(p.gallery ?? []).filter((g) => g !== p.image).slice(0, 4).map((g) => (
           <div class="gallery-thumbs">
