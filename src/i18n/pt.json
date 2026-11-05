@@ -427,9 +427,7 @@
   },
   "location": {
     "imgAlt": "Edifício da fábrica MoTai em Xianning, Hubei",
-    "imgCaption": "Fábrica MoTai — Xianning, Hubei, China",
-    "mapTitle": "Localização da fábrica MoTai no Google Maps",
-    "openInMaps": "Abrir no Google Maps"
+    "imgCaption": "Fábrica MoTai — Xianning, Hubei, China"
   },
   "faq": {
     "faqTitle": "Antes de começar",
@@ -868,5 +866,10 @@
         "keywords": "produtos de abrasivos, produtos de abrasivos no atacado, abrasivos industriais, abrasivos revestidos, abrasivos no atacado, fábrica de produtos de abrasivos, exportador de produtos de abrasivos, fornecedor de abrasivos China, fabricante OEM de abrasivos, abrasivos de marca própria, produtos de abrasivos personalizados, suprimentos de abrasivos em massa, fábrica de abrasivos, ferramentas de abrasivo, materiais de abrasivo, produtos de lixar, produtos de acabamento de superfície, lixa, folhas de lixa, lixa redonda, lixa no atacado, base de lixar, base de velcro, base 5 polegadas, base 6 polegadas, disco de flange não tecido, pano de lixar, rolo de escova industrial"
       }
     }
+  },
+  "quickBar": {
+    "label": "Contacto rápido",
+    "whatsapp": "WhatsApp",
+    "quote": "Pedir orçamento"
   }
 }

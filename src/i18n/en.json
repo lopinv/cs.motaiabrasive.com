@@ -431,9 +431,7 @@
   },
   "location": {
     "imgAlt": "MoTai factory building in Xianning, Hubei",
-    "imgCaption": "MoTai factory — Xianning, Hubei, China",
-    "mapTitle": "MoTai factory location on Google Maps",
-    "openInMaps": "Open in Google Maps"
+    "imgCaption": "MoTai factory — Xianning, Hubei, China"
   },
   "faq": {
     "faqTitle": "Before we start",
@@ -872,5 +870,10 @@
         "keywords": "abrasive products, abrasive products wholesale, industrial abrasives, coated abrasives, abrasive wholesale, abrasive products factory, abrasive products exporter, abrasive supplier China, abrasive OEM manufacturer, private label abrasives, custom abrasive products, bulk abrasive supplies, abrasive factory, abrasive tools, abrasive materials, sanding products, surface finishing products, sandpaper, sandpaper sheets, round sandpaper, sandpaper wholesale, sanding pad, hook and loop sanding pad, 5 inch sanding pad, 6 inch sanding pad, non-woven flap wheel, abrasive cloth, industrial roller brush"
       }
     }
+  },
+  "quickBar": {
+    "label": "Quick contact",
+    "whatsapp": "WhatsApp",
+    "quote": "Request a quote"
   }
 }

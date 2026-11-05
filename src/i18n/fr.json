@@ -427,9 +427,7 @@
   },
   "location": {
     "imgAlt": "Bâtiment de l'usine MoTai à Xianning, Hubei",
-    "imgCaption": "Usine MoTai — Xianning, Hubei, Chine",
-    "mapTitle": "Localisation de l'usine MoTai sur Google Maps",
-    "openInMaps": "Ouvrir dans Google Maps"
+    "imgCaption": "Usine MoTai — Xianning, Hubei, Chine"
   },
   "faq": {
     "faqTitle": "Avant de commencer",
@@ -868,5 +866,10 @@
         "keywords": "produits d'abrasifs, produits d'abrasifs en gros, abrasifs industriels, abrasifs recouverts, abrasifs en gros, usine de produits d'abrasifs, exportateur de produits d'abrasifs, fournisseur d'abrasifs Chine, fabricant OEM d'abrasifs, abrasifs de marque de commerce, produits d'abrasifs sur mesure, approvisionnements d'abrasifs en vrac, usine d'abrasifs, outils d'abrasifs, matériaux d'abrasifs, produits de ponçage, produits de finition de surface, papier de ponçage, feuilles de papier de ponçage, papier de ponçage rond, papier de ponçage en gros, disque de ponçage, disque Velcro, disque 5 pouces, disque 6 pouces, disque à lamelles non tissé, tissu de ponçage, rouleau de brosse industriel"
       }
     }
+  },
+  "quickBar": {
+    "label": "Contact rapide",
+    "whatsapp": "WhatsApp",
+    "quote": "Demander un devis"
   }
 }

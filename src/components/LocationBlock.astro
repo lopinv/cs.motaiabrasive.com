@@ -1,11 +1,9 @@
 ---
 /**
- * Company location block: factory photo + Google Maps embed + address +
- * "Open in Google Maps" link. Used on Home, About and Contact so the
- * physical location is a consistent trust signal on every key page.
- * Both assets come from site.json (remote-only, per the hard constraints);
- * the embed is a cross-origin <iframe> (the same pattern as the YouTube
- * embed), no Worker / no server.
+ * Company location block: factory photo + address text. Used on Home, About
+ * and Contact so the physical location is a consistent trust signal on every
+ * key page. The photo is remote-only (site.json, per the hard constraints) —
+ * no map iframe, no external links.
  */
 import { TRANSLATIONS } from '../lib/i18n.js'
 import { site } from '../lib/utils.js'
@@ -20,18 +18,8 @@ const t = TRANSLATIONS[lang]?.location ?? TRANSLATIONS.en.location
       <img src={site.factoryImage} alt={t.imgAlt} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
       <figcaption>{t.imgCaption}</figcaption>
     </figure>
-    <div class="location-map">
-      <iframe
-        src={site.mapEmbedUrl}
-        title={t.mapTitle}
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        allowfullscreen
-      ></iframe>
-      <div class="location-map-foot">
-        <p class="location-address">{site.address}</p>
-        <a class="button small" href={site.mapOpenUrl} target="_blank" rel="noopener nofollow">{t.openInMaps}</a>
-      </div>
+    <div class="location-info">
+      <p class="location-address">{site.address}</p>
     </div>
   </div>
 </div>

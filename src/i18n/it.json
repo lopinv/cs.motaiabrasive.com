@@ -427,9 +427,7 @@
   },
   "location": {
     "imgAlt": "Edificio della fabbrica MoTai a Xianning, Hubei",
-    "imgCaption": "Fabbrica MoTai — Xianning, Hubei, Cina",
-    "mapTitle": "Posizione della fabbrica MoTai su Google Maps",
-    "openInMaps": "Apri su Google Maps"
+    "imgCaption": "Fabbrica MoTai — Xianning, Hubei, Cina"
   },
   "faq": {
     "faqTitle": "Prima di iniziare",
@@ -868,5 +866,10 @@
         "keywords": "prodotti di abrasivi, prodotti di abrasivi all'ingrosso, abrasivi industriali, abrasivi rivestiti, abrasivi all'ingrosso, fabbrica di prodotti di abrasivi, esportatore di prodotti di abrasivi, fornitore di abrasivi Cina, produttore OEM di abrasivi, abrasivi di marca propria, prodotti di abrasivi personalizzati, forniture di abrasivi in massa, fabbrica di abrasivi, utensili di abrasivo, materiali di abrasivo, prodotti di carteggiatura, prodotti di finitura superficiale, carta abrasiva, fogli di carta abrasiva, carta abrasiva rotonda, carta abrasiva all'ingrosso, base di carteggiatura, base a velcro, base 5 pollici, base 6 pollici, disco lamellare non tessuto, panno abrasivo, rullo di spazzola industriale"
       }
     }
+  },
+  "quickBar": {
+    "label": "Contatto rapido",
+    "whatsapp": "WhatsApp",
+    "quote": "Richiedi un preventivo"
   }
 }

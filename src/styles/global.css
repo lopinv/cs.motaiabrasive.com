@@ -13,6 +13,7 @@
   --gap: 20px;
   --gap-lg: 36px;
   --pad-x: 24px;
+  --quickbar-h: 56px;
   --pad-x-sm: 16px;
   /* documented breakpoints (used literally in the media blocks below): --bp-lg 900px, --bp-md 640px */
   --font: "Inter", "Helvetica Neue", "PingFang SC", "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", Arial, sans-serif;
@@ -355,9 +356,10 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 .footer-bottom a { display: inline !important; }
 
-/* ============ Floating contact rail ============ */
+/* ============ Floating contact rail ============
+   Sits above the bottom-pinned quick bar (--quickbar-h). */
 .floating {
-  position: fixed; bottom: 20px; inset-inline-end: 20px; z-index: 80;
+  position: fixed; bottom: calc(var(--quickbar-h) + 16px); inset-inline-end: 20px; z-index: 80;
   display: flex; flex-direction: column; gap: 10px;
 }
 .floating a, .floating button {
@@ -374,6 +376,31 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .floating .wa-trigger { background: #1da851; }
 .floating .wa-trigger:hover { background: #178f44; }
 .floating .wa-trigger[aria-expanded="true"] { outline: 2px solid #1da851; outline-offset: 2px; }
+
+/* ============ Bottom-pinned quick-contact bar ============
+   Always-on one-tap row: WhatsApp (outbound) + Request a quote (in-site).
+   Rendered on every page; the rail above it is offset by --quickbar-h. */
+.quickbar {
+  position: fixed; bottom: 0; inset-inline: 0; z-index: 90;
+  height: var(--quickbar-h);
+  display: flex; align-items: center; justify-content: center; gap: 12px;
+  background: var(--ink); padding: 0 16px;
+  box-shadow: 0 -6px 20px rgba(0,0,0,.22);
+}
+/* Reserve page-bottom space so the fixed bar never covers footer content. */
+body { padding-bottom: var(--quickbar-h); }
+.quickbar-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-width: 148px; justify-content: center;
+  padding: 9px 18px; border-radius: 999px;
+  font-size: 14px; font-weight: 600; color: #fff; text-decoration: none;
+  cursor: pointer; border: 1px solid transparent;
+}
+.quickbar-wa { background: #1da851; }
+.quickbar-wa:hover { background: #178f44; }
+.quickbar-quote { background: var(--accent); }
+.quickbar-quote:hover { background: var(--accent-dark); }
+.quickbar-quote > span[aria-hidden] { font-weight: 400; }
 
 /* ============ In-page WhatsApp chat window ============
    A fake chat: no server behind it, so "Send" hands the typed message to
@@ -469,22 +496,17 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .logo-slot p { margin: 6px 0 0; font-size: 13px; }
 .logo-slot .small-note { margin: 2px 0 0; }
 
-/* ============ Company location block (photo + map) ============ */
+/* ============ Company location block (photo + address) ============ */
 .location-block { margin-top: 4px; }
-.location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: stretch; }
+.location-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; align-items: center; }
 .location-photo { margin: 0; }
 .location-photo img {
   width: 100%; aspect-ratio: 16/9; object-fit: cover;
   border: 1px solid var(--line); border-radius: 6px; display: block;
 }
 .location-photo figcaption { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
-.location-map { display: flex; flex-direction: column; }
-.location-map iframe {
-  width: 100%; flex: 1; min-height: 260px; border: 1px solid var(--line);
-  border-radius: 6px; background: var(--bg-soft);
-}
-.location-map-foot { margin-top: 12px; }
-.location-address { margin: 0 0 10px; font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
+.location-info { display: grid; gap: 4px; align-content: center; }
+.location-address { margin: 0; font-size: 14px; color: var(--ink-soft); line-height: 1.6; }
 
 /* ============ Misc page bits ============ */
 .page-intro { max-width: 720px; }
@@ -504,7 +526,6 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
   .location-grid { grid-template-columns: 1fr; gap: 20px; }
-  .location-map iframe { min-height: 220px; }
   .product-detail { grid-template-columns: 1fr; gap: 32px; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .glossary-dl { grid-template-columns: 1fr; }
@@ -564,6 +585,10 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
   .cta-band-actions { flex-direction: column; }
   .cta-band-actions .button, .cta-band-actions--auto .button { width: 100%; }
 
-  .floating { bottom: 14px; inset-inline-end: 14px; gap: 8px; }
+  .floating { bottom: calc(var(--quickbar-h) + 10px); inset-inline-end: 14px; gap: 8px; }
   .floating a, .floating button { width: 40px; height: 40px; }
+
+  /* Quick bar fills the width on small screens; buttons grow to fit labels. */
+  .quickbar { gap: 8px; padding: 0 10px; }
+  .quickbar-link { flex: 1 1 0; min-width: 0; padding: 9px 12px; font-size: 13px; }
 }

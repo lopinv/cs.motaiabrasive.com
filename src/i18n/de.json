@@ -427,9 +427,7 @@
   },
   "location": {
     "imgAlt": "MoTai-Fabrikgebäude in Xianning, Hubei",
-    "imgCaption": "MoTai-Werk — Xianning, Hubei, China",
-    "mapTitle": "Standort des MoTai-Werks in Google Maps",
-    "openInMaps": "In Google Maps öffnen"
+    "imgCaption": "MoTai-Werk — Xianning, Hubei, China"
   },
   "faq": {
     "faqTitle": "Bevor wir beginnen",
@@ -868,5 +866,10 @@
         "keywords": "Schleifmittel, Schleifmittel Großhandel, industrielle Schleifmittel, beschichtete Schleifmittel, Schleifmittel Großhandel, Schleifmittelfabrik, Schleifmittel-Exporteur, Schleifmittellieferant China, OEM-Schleifmittelhersteller, Eigenmarken-Schleifmittel, kundenspezifische Schleifmittel, Großmengen an Schleifmitteln, Schleifmittelfabrik, Schleifwerkzeuge, Schleifmittel, Schleifprodukte, Produkte für Oberflächenbearbeitung, Schleifpapier, Schleifpapier-Blätter, rundes Schleifpapier, Schleifpapier Großhandel, Schleifunterlage, Klettverschluss-Schleifunterlage, 5-Zoll-Schleifunterlage, 6-Zoll-Schleifunterlage, Vlies-Flapscheibe, Schleifleinwand, industrielle Rollenbürste"
       }
     }
+  },
+  "quickBar": {
+    "label": "Schnellkontakt",
+    "whatsapp": "WhatsApp",
+    "quote": "Angebot anfordern"
   }
 }

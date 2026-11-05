@@ -427,9 +427,7 @@
   },
   "location": {
     "imgAlt": "Edificio de la fábrica MoTai en Xianning, Hubei",
-    "imgCaption": "Fábrica MoTai — Xianning, Hubei, China",
-    "mapTitle": "Ubicación de la fábrica MoTai en Google Maps",
-    "openInMaps": "Abrir en Google Maps"
+    "imgCaption": "Fábrica MoTai — Xianning, Hubei, China"
   },
   "faq": {
     "faqTitle": "Antes de comenzar",
@@ -868,5 +866,10 @@
         "keywords": "productos de abrasivos, productos de abrasivos al por mayor, abrasivos industriales, abrasivos recubiertos, abrasivos al por mayor, fábrica de productos de abrasivos, exportador de productos de abrasivos, proveedor de abrasivos China, fabricante OEM de abrasivos, abrasivos de marca privada, productos de abrasivos personalizados, suministros de abrasivos a granel, fábrica de abrasivos, herramientas de abrasivo, materiales de abrasivo, productos de lijado, productos de acabado de superficie, papel de lija, hojas de papel de lija, papel de lija redondo, papel de lija al por mayor, base de lijado, base de lijado de velcro, base de lijado de 5 pulgadas, base de lijado de 6 pulgadas, disco de solapamiento de no tejido, tela de lija, rodillo industrial de cepillo"
       }
     }
+  },
+  "quickBar": {
+    "label": "Contacto rápido",
+    "whatsapp": "WhatsApp",
+    "quote": "Solicitar presupuesto"
   }
 }
