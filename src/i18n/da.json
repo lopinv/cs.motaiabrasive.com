@@ -7,20 +7,20 @@
   "rtl": false,
   "meta": {
     "wholesale": "Engrosforespørgsler",
-    "oemNote": "Forespørgsler om OEM-emballage",
+    "oemNote": "Henvendelser om OEM-forpakning",
     "size": "Størrelse",
     "grit": "Kornstørrelse",
     "quantity": "Ønsket mængde",
-    "requirements": "Krav til specifikation og emballage",
-    "requirementsPh": "Beskriv jeres anvendelse, specifikationer og leveringskrav.",
-    "material": "Slidemateriale",
-    "backing": "Bagside / fastgørelse",
-    "availability": "Tilgængelighed, minimumsordre og kommercielle vilkår fastsættes i tilbuddet.",
-    "sampleNote": "Angiv, hvilke produkter og kornstørrelser I ønsker at vurdere. Vores salgshold bekræfter tilgængelighed af prøver, prøvegebyrer og forsendelsesordninger.",
+    "requirements": "Specifikations- og forpakningskrav",
+    "requirementsPh": "Fortæl os om din anvendelse, specifikation og leveringskrav.",
+    "material": "Slibemateriale",
+    "backing": "Bærerem / fastgørelse",
+    "availability": "Tilgængelighed, minimumsbestilling og handelsvilkår bekræftes i tilbuddet.",
+    "sampleNote": "Angiv, hvilke produkter og kornstørrelser du ønsker at vurdere. Vores salgsafdeling bekræfter tilgængelighed af prøver, prøvegebyrer og forsendelsesvilkår.",
     "gritsRange": "Kornområde",
     "holes": "Huller",
     "diameter": "Diameter / nominel størrelse",
-    "titleSuffix": "MoTai Abrasives"
+    "titleSuffix": "MoTai Slibemidler"
   },
   "nav": {
     "language": "Sprog",
@@ -35,34 +35,846 @@
   },
   "colt": {
     "belts": {
-      "title": "Slibebånd — engros & OEM",
-      "desc": "Røde slibebånd i dokumenterede størrelser fra 533 × 75 mm til 2200 × 1330 mm. Korn 40–800. Referencemodeller tilgængelige. Engros- og OEM-forespørgsler er velkomne.",
+      "title": "Slibebånd — Engros & OEM",
+      "desc": "Røde slibebånd i dokumenterede størrelser fra 533 × 75 mm til 2200 × 1330 mm. Korn 40–800. Referencemodeller tilgængelige. Engros- og OEM-henvendelser velkomne.",
       "label": "Slibebånd"
     },
     "discs": {
-      "title": "Slibeskrive — engros & OEM",
-      "desc": "PSA-, kile-lås-, mesh- og skiver uden huller fra 3 til 6 tommer. Korn 60–5000. Engros- og OEM-forespørgsler er velkomne.",
-      "label": "Slibeskrive"
+      "title": "Slipeplader — Engros & OEM",
+      "desc": "PSA-, krog- & loop-, åben-mesh- og hul-fri slipeplader fra 3 til 6 tommer. Korn 60–5000. Engros- og OEM-henvendelser velkomne.",
+      "label": "Slipeplader"
     },
     "flap": {
       "title": "MOTAI Flap-skiver",
-      "desc": "Flap-skiver med plast-, stål- og glasfiberbagside til slibning, udligning og finishing af metal. Bekræft specifikationer, masselevering og OEM-emballage i tilbuddet.",
+      "desc": "Flap-skiver med plast-, stål- og glasfiberbærer til slibning, svejsslibning og efterbehandling af metal. Bekræft specifikationer, store leverancer og OEM-forpakning i tilbuddet.",
       "label": "Flap-skiver"
     },
     "all": {
       "title": "Alle produkter",
-      "desc": "Det komplette MoTai-slibemiddelkatalog: slibebånd, slibeskrive og flap-skiver til industrielle købere, distributører og egenmærke-erhverv.",
+      "desc": "Det komplette MoTai-katalog af slibemidler: slibebånd, slipeplader og flap-skiver til industrielle købere, distributører og private-label-mærker.",
       "label": "Alle produkter"
     }
   },
   "cta": {
-    "quote": "Anmod om engrosudbud",
+    "quote": "Bestil et engros-tilbud",
     "quoteArrow": "↗",
-    "sample": "Anmod om prøve",
-    "whatsapp": "WhatsApp-forespørgsel",
+    "sample": "Bestil en prøve",
+    "whatsapp": "WhatsApp-henvendelse",
     "waChat": "Kontakt via WhatsApp",
-    "explore": "Se flap-skiveserien",
-    "viewAll": "Vis alle produkter",
-    "discuss": "Drøft jeres specifikation",
-    "oemQuote": "Anmod om OEM-tilbud"
+    "explore": "Se sortimentet af flap-skiver",
+    "viewAll": "Se alle produkter",
+    "discuss": "Diskuter din specifikation",
+    "oemQuote": "Bestil et OEM-tilbud"
   },
+  "home": {
+    "eyebrow": "Slibemidler fra MoTais fabrik i Hubei",
+    "heroTitle": "Professionel producent og leverandør af slibemidler",
+    "heroSub": "Slibebånd, slipeplader og flap-skiver direkte fra fabrikken til industrielle købere, distributører og private-label-mærker — fra Hubei, Kina, til dit marked.",
+    "cta1": "Bestil et engros-tilbud",
+    "cta2": "Tal med vores team på WhatsApp",
+    "builtTitle": "Vælg anvendelsen. Match slibemidlet.",
+    "builtSub": "Vælg anvendelsen, og match slibemidlet: bånd, plader eller flap-skiver.",
+    "featuredTitle": "I kataloget",
+    "featuredSub": "Størrelser og korn er dokumenteret i kataloget; MOQ og tilgængelighed følger med tilbuddet.",
+    "partnerTitle": "Leverandørsiden af din slibemiddelordre",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. leverer slibemidler til træbearbejdning, metalbearbejdning og automobile anvendelser — med OEM- og private-label-programmer for distributører og industrielle købere over hele verden.",
+    "partnerCta": "Læs mere om MoTai",
+    "valuesTitle": "Seks måder, B2B-købere arbejder med os",
+    "valuesSub": "Seks årsager til, at importører og OEM-mærker arbejder med os.",
+    "v1t": "Direkte fra fabrikken",
+    "v1b": "Leverandørpriser og leveringstider uden mellemmænd.",
+    "v2t": "OEM & private label",
+    "v2b": "Dit logo, dine etiketter og din forpakning på bekræftede specifikationer.",
+    "v3t": "Tilpassede størrelser & korn",
+    "v3b": "Dokumenterede størrelser og korn 40–800 på bånd, 60–5000 på plader.",
+    "v4t": "Prøveundersøgelser & QC",
+    "v4b": "Prøv overflade, bærerem og pasning på en prøve før ordren.",
+    "v5t": "Store leverancer",
+    "v5b": "Konsistente kassemængder og detaljeret pakkeliste.",
+    "v6t": "Eksportprogram",
+    "v6b": "Kassemarkeringer, etiketter og destinationsdokumentation.",
+    "processTitle": "Trinene mellem din specifikation og ordren",
+    "processSub": "Fire faser mellem dit krav og en bekræftet ordre.",
+    "p1t": "Skæring & konvertering",
+    "p1b": "Bekræft den ønskede form, mål og korn, før konverteringsprocessen planlægges.",
+    "p2t": "Prøveundersøgelser",
+    "p2b": "Prøv slibefladen, bæreremmet og pasningen på en prøve, før ordrenes specifikation aftales.",
+    "p3t": "OEM & pakning",
+    "p3b": "Bekræft pakningsmængder, etiketter, kassemarkeringer og private-label-materiel i tilbuddet.",
+    "p4t": "Forsendelsesforberedelse",
+    "p4b": "Aftal pakkeliste, pallekrav og destinationsoplysninger før afsendelse.",
+    "oemTitle": "Dit navn på kassen",
+    "oemSub": "Del dine krav til produkt, forpakning og mærke for dit næste slibemiddelsortiment.",
+    "oemCta": "Udforsk OEM-tjenester",
+    "faqTitle": "Før vi går i gang",
+    "faqSub": "Svar på de spørgsmål, købere stiller oftest.",
+    "regionsTitle": "Fra Hubei til dit marked",
+    "regionsSub": "Global levering organiseret efter destinationsregioner.",
+    "regionsNote": "MOQ og leveringstid bekræftes i dit tilbud. Ruter er vejledende; tilgængelighed og vilkår bekræftes i tilbuddet.",
+    "factoryTitle": "Find os i Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kina. Arranger et fabriksbesøg og bekræft mødestedet med vores team.",
+    "finalTitle": "Leder du efter en pålidelig leverandør af slibemidler?",
+    "finalBody": "Del dit produkt, mængde og anvendelse — vi gennemser dine krav og udarbejder et matchende tilbud.",
+    "finalCta1": "Bestil et engros-tilbud",
+    "finalCta2": "Kontakt via WhatsApp",
+    "beltsShowTitle": "Slibebånd efter model",
+    "beltsShowSub": "Referencemodeller til samtale med vores team.",
+    "prepTitle": "Forbered din engrosforespørgsel",
+    "prepSub": "Mål, korn og mængde gør resten af arbejdet.",
+    "prepDim": "Mål",
+    "prepDimText": "Størrelse eller modelreference i millimeter.",
+    "prepGrit": "Korn",
+    "prepGritText": "Den ønskede kvalitet eller finish.",
+    "prepQty": "Mængde",
+    "prepQtyText": "Estimeret volumen og forpakning."
+  },
+  "purchasing": {
+    "eyebrow1": "Købsvejledning",
+    "title1": "Forbered din engrosforespørgsel",
+    "body1": "Del dine ønskede mål, korn, arbejdsstykke, maskine og den ønskede finish. Brug de dokumenterede muligheder ovenfor, hvor de findes; andre krav gennemses med vores team.",
+    "dl1t": "Mængde & destination",
+    "dl1b": "Fortæl os mængde, forpakningsbehov og leveringsadresse.",
+    "dl2t": "Levering & vilkår",
+    "dl2b": "Tilgængelighed, minimumsbestilling og handelsvilkår bekræftes i tilbuddet.",
+    "dl3t": "Henvendelser om OEM-forpakning",
+    "dl3b": "Mærkeopbygning, etiketter, tilpassede størrelser eller pakningskrav.",
+    "eyebrow2": "Sådan søger du et tilbud",
+    "title2": "Fra produktvalg til tilbud",
+    "s1t": "Vælg dit produkt",
+    "s1b": "Vælg produkt eller model og den ønskede specifikation.",
+    "s2t": "Del dine krav",
+    "s2b": "Del mængde, anvendelse og forpakningskrav.",
+    "s3t": "Gennemse dit tilbud",
+    "s3b": "Bekræft den endelige specifikation og handelsvilkårene med vores team."
+  },
+  "modelPage": {
+    "eyebrow": "Slibebånd · Referencemodel",
+    "refLabel": "Modelreference",
+    "familyLabel": "Kategori",
+    "dimsLabel": "Færdige båndmål — angiv bredde × længde i mm",
+    "dimsPlaceholder": "f.eks. 533 × 75 mm",
+    "gritLabel": "Ønsket korn — angiv den ønskede kvalitet eller finish",
+    "gritPlaceholder": "f.eks. P60",
+    "qtyLabel": "Ønsket mængde",
+    "specLabel": "Specifikations- og forpakningskrav",
+    "discussion": "Diskutér denne model med vores team ud fra dit arbejdsstykke, din maskine og den ønskede finish.",
+    "grainBacking": "Korn og bærerem — bekræft råvareproducenten og den præcise kvalitet.",
+    "disclaimer": "Oplysninger om modelfamilien er til valg-reference; MoTais leveringsdetaljer, tilgængelighed og pasning aftales i tilbuddet."
+  },
+  "discPage": {
+    "eyebrow": "Slipeplader · Dokumenteret variant",
+    "gritsNote": "Kornmuligheder for denne variant"
+  },
+  "flapPage": {
+    "eyebrow": "Flap-skiver · Bærervariant",
+    "color": "Farve",
+    "gritNote": "P40–P60 og P80–P120 er generelle valg-eksempler, ikke et bekræftet MoTai-leveringsområde."
+  },
+  "productPage": {
+    "specTitle": "Specifikationer",
+    "howTitle": "Sådan specificerer du din ordre",
+    "howBody": "Angiv bånd- eller pladestørrelse, kornliste, maskinmodel, arbejdsstykkets materiale og mængde. En klar specifikation hjælper os med at vurdere pasningen og udarbejde et nyttigt tilbud — undgå at vælge et produkt ud fra farve alene.",
+    "faqTitle": "Køberspørgsmål"
+  },
+  "about": {
+    "h1": "Selskabet bag slibemiddelsortimentet",
+    "sub": "En omhyggelig tilgang til slibemiddellevering.",
+    "bizTitle": "Vores forretning",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. leverer slibemidler til træbearbejdning, metalbearbejdning og automobile anvendelser. Dokumenterede sortimenter omfatter hul-fri slipeplader, åben-mesh-slipeplader og røde slibebånd. Vi modtager forespørgsler fra importører, distributører, engrosforhandlere og industrielle købere — produkt, bærerem, størrelse, kvalitet, mængde og leveringskrav.",
+    "matTitle": "Virksomhedsmateriel",
+    "matBody": "Læs om selskabets baggrund og kontakter i vores brochure.",
+    "globalTitle": "Fra Hubei til dit marked",
+    "globalSub": "Global levering organiseret efter destinationsregioner.",
+    "facTitle": "Find os i Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kina. Arranger et fabriksbesøg med vores team og bekræft mødestedet, før du rejser.",
+    "profileName": "I et hjulkast",
+    "profileBody": "Producent af belagte slibemidler i Xianning, Hubei: tre produktlinjer leveret til syv destinationsregioner, med kornområde fra 40 til 5000.",
+    "ctaTitle": "Leder du efter en pålidelig leverandør af slibemidler?",
+    "cta1": "Bestil et engros-tilbud",
+    "cta2": "Kontakt via WhatsApp"
+  },
+  "factory": {
+    "h1": "Inden i MoTais værksted",
+    "sub": "Detaljer betyder noget. I hver fase.",
+    "intro": "Gennemse skæring, prøveundersøgelser og pakningsdetaljer for din ordre. Produktvideoer vises sammen med procesillustrationer.",
+    "videoLabel": "Se produktvideoer",
+    "stepsTitle": "Produktion & ordreforberedelse",
+    "stepsIntro": "Fra dit krav til en bekræftet ordre.",
+    "st1t": "Skæring & konvertering",
+    "st1b": "Bekræft den ønskede form, mål og korn, før konverteringsprocessen planlægges.",
+    "st2t": "Prøveundersøgelser",
+    "st2b": "Prøv slibefladen, bæreremmet og pasningen på en prøve, før ordrenes specifikation aftales.",
+    "st3t": "OEM & pakning",
+    "st3b": "Bekræft pakningsmængder, etiketter, kassemarkeringer og private-label-materiel i tilbuddet.",
+    "st4t": "Forsendelsesforberedelse",
+    "st4b": "Aftal pakkeliste, pallekrav og destinationsoplysninger før afsendelse.",
+    "imgNote": "Billeder af skæring og prøver er udtaget fra de leverede produktvideoer. Billeder af pakning og forsendelse er illustrative billedbankfotos.",
+    "qcTitle": "Kvalitetskontroller",
+    "qcIntro": "Hvad vi verificerer, før en ordre forlader fabriksgulvet.",
+    "qc1t": "Overflade & korn",
+    "qc1b": "Konsistens i slibefladen i forhold til den bekræftede kvalitet.",
+    "qc2t": "Bærerem & pasning",
+    "qc2b": "Bæreremtype, vægt og måltolerance på færdige bånd og plader.",
+    "qc3t": "Pakning & markeringer",
+    "qc3b": "Pakningsmængder, etiketter, kassemarkeringer og private-label-materiel stemmer med den bekræftede ordre.",
+    "certNote": "Viste certificeringsmærker er pladsholdere, indtil certificeringer er offentliggjort.",
+    "ctaTitle": "Foretrækker du at tale det igennem?",
+    "ctaSub": "Leder du efter en pålidelig leverandør af slibemidler?",
+    "cta1": "Bestil et engros-tilbud",
+    "cta2": "Kontakt via WhatsApp"
+  },
+  "oem": {
+    "h1": "Dit navn på kassen",
+    "sub": "Send dine krav til produkt, forpakning og mærke; vi vender tilbage med en vurdering af OEM-gennemførbarhed.",
+    "briefTitle": "Byg en forespørgsel op omkring dit mærke",
+    "briefEyebrow": "Medbring dit brief",
+    "briefBody": "Diskutér dit logo og etiketmaterialet, forpakningsformat, produktstørrelser, kornkvaliteter og den tilsigtede anvendelse. OEM-tilgængelighed, minimumsmængder, designkrav og tidsplaner afhænger af en gennemførbarhedsvurdering og bekræftet tilbud.",
+    "itemsTitle": "Et klart brief giver et nyttigt svar",
+    "i1": "Produkt & specifikation",
+    "i2": "Størrelse & kornmix",
+    "i3": "Materiel & etiketter",
+    "i4": "Forpakningsformat",
+    "i5": "Mål-mængder",
+    "i6": "Destination & timing",
+    "itemNote": "Tag dine krav og referencematerialer med i forespørgslen.",
+    "procTitle": "Fra forespørgsel til levering",
+    "pr1t": "Din forespørgsel",
+    "pr1b": "Fortæl os din anvendelse og dine krav.",
+    "pr2t": "Specifikationstjek",
+    "pr2b": "Gennemse størrelser, kvaliteter, bærerem og forpakning.",
+    "pr3t": "Tilbud",
+    "pr3b": "Bekræft handelsvilkår og tidsplan.",
+    "pr4t": "Prøvegodkendelse",
+    "pr4b": "Vurder de aftalede prøver, før godkendelse.",
+    "pr5t": "Produktionsgang",
+    "pr5b": "Fortsæt i henhold til den bekræftede specifikation.",
+    "pr6t": "Afsendelse",
+    "pr6b": "Koordinér pakning og destination.",
+    "cta1": "Bestil et engros-tilbud",
+    "cta2": "Kontakt via WhatsApp"
+  },
+  "applications": {
+    "h1": "Slibemidler til din branche",
+    "sub": "Overfladen sætter specifikationen.",
+    "intro": "Seks anvendelsesområder. Angiv materiale, maskine og den ønskede finish — vi matcher slibemidlet.",
+    "ctaNote": "Nogle billeder er AI-genererede illustrationer af anvendelser, ikke fotos af MoTais fabrik eller kunder.",
+    "sampleNote": "Nævn din branche, dit land, produktspecifikation og anslået ordremængde, når du søger et tilbud.",
+    "reqTitle": "Anbefalede produkter",
+    "reqNote": "Vejledende produktfamilier for dette område. Bekræft størrelser, korn og mængder i tilbuddet.",
+    "specTitle": "Tips til specifikation",
+    "faqTitle": "Ofte stillede",
+    "faqs": [
+      {
+        "q": "Hvilket korn skal jeg starte med?",
+        "a": "Start ud fra arbejdsstykkets materiale, defektens dybde og den ønskede finish — et groft korn fjerner materiale hurtigt, nedtræd derefter i korn og tjek overfladen i hvert trin."
+      },
+      {
+        "q": "Kan jeg blande korn i én ordre?",
+        "a": "Ja — oplist korn og mængde pr. kvalitet; tilgængelighed og leveringstid følger med tilbuddet."
+      }
+    ],
+    "ctaTitle": "Specificerer til dit fagområde?",
+    "cta1": "Bestil et engros-tilbud",
+    "cta2": "Kontakt via WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Bedre information. Bedre valg.",
+    "sub": "Praktiske ressourcer for købere til at diskutere slibemiddelspecifikationer.",
+    "updatedLabel": "Opdateret",
+    "governance": "Guider skrives og gennemses af MoTai Abrasives' tekniske team og gen-gennemses, når produktspecifikationerne ændres."
+  },
+  "article": {
+    "watchTitle": "Se video",
+    "discuss": "Diskuter din specifikation",
+    "catSelection": "Vejledning i valg",
+    "catBuyer": "Købers ressourcer",
+    "catNotes": "Anvendelsesnoter",
+    "catOem": "OEM-guide",
+    "reviewedBy": "Gennemset af MoTai Abrasives' tekniske team",
+    "lastReviewed": "Sidst gennemset {date}",
+    "tocTitle": "På denne side"
+  },
+  "contact": {
+    "h1": "Start en samtale om engros",
+    "sub": "Få engrospriser direkte fra fabrikken på slibemidler.",
+    "directTitle": "En samtale. En bedre specifikation.",
+    "directBody": "Del dit produkt, mængde og anvendelse. Vi gennemser dine krav og hjælper dig med næste skridt.",
+    "facTitle": "Find os i Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kina.",
+    "facNote": "Bekræft den præcise besøgsadresse med vores team, før du rejser.",
+    "visit": "Arranger et fabriksbesøg",
+    "formTitle": "Engros / OEM-forespørgsel",
+    "formNote": "Dette formular beder om et tilbud og afgiver ikke en ordre. Forespørgsler går til vores salgsafdelingen; specifikationer og handelsvilkår aftales med tilbuddet.",
+    "btn": "Åbn forespørgselsformularen ↗"
+  },
+  "privacy": {
+    "h1": "Dine oplysninger om forespørgslen",
+    "sub": "Sådan bruger denne hjemmeside de oplysninger, du vælger at dele.",
+    "s1t": "Indsamlede oplysninger",
+    "s1b": "Kontaktoplysninger, virksomhedsinformation, produktkrav og vedhæftninger, der indsendes sammen med en forespørgsel. Et hashet forbindelses-ID begrænser spam og misbrug.",
+    "s2t": "Formål og adgang",
+    "s2b": "Oplysningerne bruges til at gennemse og besvare forespørgsler, udarbejde tilbud og koordinere ønskede forretningsmæssige samtaler. Adgang er begrænset til autoriserede administratorer.",
+    "s3t": "Lagring og opbevaring",
+    "s3b": "Registrene opbevares hos vores hostingudbyder. Data kan behandles uden for dit land. Opbevaringen følger forretningsmæssig opfølgning og opbevaringspligter; du kan anmode om specifik opbevaring eller sletning.",
+    "s4t": "Dine valg",
+    "s4b": "Kontakt motai-01@motaiabrasive.com for at anmode om adgang, rettelse eller sletning. Undlad venligst at indsende følsomme persondata eller fortrolige filer, der ikke har med din forespørgsel at gøre.",
+    "s5t": "Cookies, links og analyser",
+    "s5b": "Browseren gemmer administrationsdata for forespørgselslisten. Denne side bruger Google Analytics (gtag.js) til anonymiserede brugsstatistikker; Google sætter en cookie og behandler data efter databehandlingsvilkårene — du kan fravælge dette på https://support.google.com/analytics/answer/3452785. Eksterne links til WhatsApp, korter og sociale medier styres efter deres egne privatlivspolitikker.",
+    "updated": "Sidst opdateret 4. november 2026"
+  },
+  "terms": {
+    "h1": "Brugsbetingelser",
+    "sub": "De betingelser, der gælder, når du bruger denne side og sender MoTai en forespørgsel.",
+    "s1t": "Brug af denne side",
+    "s1b": "Denne side er en B2B-informations- og forespørgselstjeneste drevet af Hubei MoTai Abrasives Materials Co., Ltd. Indhold — produktspecifikationer, guider, ordbog og blog — fremsættes i god tro til almen information. Ved at bruge siden accepterer du disse betingelser; hvis du ikke gør det, så indsend ikke en forespørgsel.",
+    "s2t": "Forespørgsler er ikke tilbud",
+    "s2b": "En indsendt forespørgsel er et forhandlingsudbud, ikke en bindende ordre. MoTai er ikke forpligtet til at besvare hver forespørgsel, og ingen køb indgås, før et tilbud er bekræftet skriftligt af begge parter.",
+    "s3t": "Tilbud og priser",
+    "s3b": "Alle priser er tilbudsbaserede. Tilbud opfatter størrelser, korn, forpakning, handelsbetingelser og gyldighedsfrister; endelige tal fastsættes i den bekræftede specifikation og er underlagt udvikling i råvarer og frakt.",
+    "s4t": "Immaterielle rettigheder",
+    "s4b": "Sidens indhold, produktbeskrivelser, grafik og MoTai-mærket tilhører MoTai Abrasives og må ikke reproduceres kommercielt. Referencer til tredjeparter (f.eks. kilden til modeller) er kun til køberorientering og indebærer ikke anbefaling.",
+    "s5t": "Ansvarsbegrænsning og gældende lov",
+    "s5b": "MoTai er ikke ansvarlig for beslutninger truffet ud fra almen information på denne side. Disse betingelser styres af Folkerepublikken Kinas love; tvistigheder afgøres i henhold til salgsaftalen mellem parterne.",
+    "updated": "Sidst opdateret 3. november 2026"
+  },
+  "quotePage": {
+    "h1": "Start en samtale om engros",
+    "sub": "Få engrospriser direkte fra fabrikken på slibemidler.",
+    "note": "Dette formular beder om et tilbud og afgiver ikke en ordre. Felter markeret med * er påkrævede.",
+    "sec1": "Din virksomhed",
+    "f1": "Fulde navn *",
+    "f2": "Virksomhedsnavn *",
+    "f3": "Land *",
+    "f4": "Forretnings-e-mail *",
+    "f5": "WhatsApp-nummer",
+    "f6": "Virksomhedstype *",
+    "opt1": "Importør",
+    "opt2": "Distributør",
+    "opt3": "Engrosforhandler",
+    "opt4": "OEM-mærke",
+    "opt5": "Industriel køber",
+    "opt6": "Anden",
+    "sec2": "Produktkrav",
+    "f7": "Produktkategori",
+    "f8": "Produktmodel / reference",
+    "f9": "Størrelse",
+    "f10": "Kornstørrelse",
+    "f11": "Materiale",
+    "f12": "Mængde",
+    "f13": "Forpakning",
+    "f14": "Destinationsland *",
+    "f15": "OEM-krav",
+    "f16": "Yderligere besked *",
+    "consent": "Jeg accepterer privatlivspolitikken, brugsbetingelserne og, at mine oplysninger bruges til at besvare denne forespørgsel. *",
+    "btn1": "Bestil et engros-tilbud",
+    "btn2": "Send forespørgsel via WhatsApp",
+    "goNote": "Formularen åbnes i vores engros-forespørgselssystem med din produktkontekst forudfyldt."
+  },
+  "clients": {
+    "h1": "Hvor MoTais forsendelser går hen",
+    "sub": "Fra Hubei til syv destinationsregioner.",
+    "note": "Kundelogoer og kundeanmeldelser nedenfor er pladsholdere — erstat src/data/trust.json med offentliggjort materiale.",
+    "placeholderBadge": "Illustrativ pladsholder",
+    "statsTitle": "Levering i et hjulkast",
+    "statsNote": "Viste certificeringer er pladsholdere, indtil certificeringer er offentliggjort."
+  },
+  "glossary": {
+    "h1": "Ordbog over slibemidler",
+    "sub": "Termerne bag hver bånd-, plade- og flap-specifikation.",
+    "note": "Standardbrannedefinitioner for slibemidler; detaljer om kvalitet og bærerem for en ordre aftales i tilbuddet.",
+    "reviewNote": "Termerne gennemses af MoTai Abrasives' tekniske team — sidst gennemset 3. november 2026."
+  },
+  "trust": {
+    "regions": "Destinationsregioner",
+    "productLines": "Produktlinjer",
+    "gritRange": "Kornområde"
+  },
+  "video": {
+    "title": "Se video",
+    "cutting": {
+      "title": "Optagelser af skæring & konvertering",
+      "desc": "Leverede produktvideoer: skæring og konvertering af slibeplader."
+    },
+    "sample": {
+      "title": "Optagelser af prøveundersøgelser",
+      "desc": "Leverede produktvideoer: kontrol af overflade, bærerem og pasning på en prøve."
+    },
+    "oem": {
+      "title": "Optagelser af OEM-pakning",
+      "desc": "Pakningsmængder, etiketter, kassemarkeringer og private-label-materiel."
+    },
+    "flap": {
+      "title": "Video af flap-skive-sortimentet",
+      "desc": "Flap-skiver med plast-, stål- og glasfiberbærer i brug."
+    }
+  },
+  "wa": {
+    "generic": "Hej MoTai, jeg vil gerne have et engros-tilbud på slibemidler.",
+    "product": "Hej MoTai, jeg vil gerne have et engros-tilbud på {name} ({grits}).",
+    "model": "Hej MoTai, jeg vil gerne have et engros-tilbud på slibebåndmodel {model}.",
+    "disc": "Hej MoTai, jeg vil gerne have et engros-tilbud på {title}.",
+    "sample": "Hej MoTai, jeg vil gerne anmode om en prøve af {name} til evaluering.",
+    "factory": "Hej MoTai, jeg vil gerne diskutere produktions- og kvalitetsdetaljer med jeres team.",
+    "oem": "Hej MoTai, jeg vil gerne diskutere et OEM / private-label slibemiddel-program.",
+    "contact": "Hej MoTai, jeg vil gerne bygge min næste slibemiddelordre med jeres team."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Åbn chat",
+    "close": "Luk",
+    "title": "MoTai — Live chat",
+    "status": "Vi svarer på WhatsApp, normalt inden for 24 timer.",
+    "greeting": "Hej! Hvordan kan vi hjælpe med din slibemiddelordre? — MoTais salgsafdeling",
+    "placeholder": "Skriv din besked…",
+    "send": "Send via WhatsApp",
+    "note": "Denne forudsynsvisning har ingen live-server: ved at sende åbnes WhatsApp med din besked forudfyldt. Svar fortsætter i WhatsApp-samtalen."
+  },
+  "location": {
+    "imgAlt": "MoTais fabriksbygning i Xianning, Hubei",
+    "imgCaption": "MoTais fabrik — Xianning, Hubei, Kina",
+    "mapTitle": "MoTais fabrikslokation på Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Før vi går i gang",
+    "moq": {
+      "q": "Hvad er minimumsbestillingen?",
+      "a": "MOQ følger med tilbuddet sammen med tilgængelighed og vilkår."
+    },
+    "oem": {
+      "q": "Understøtter I OEM og private label?",
+      "a": "Ja. Logo, etiketter, tilpassede størrelser og pakning gennemses for gennemførbarhed og bekræftes derefter i dit tilbud."
+    },
+    "sizes": {
+      "q": "Hvilke størrelser og korn leverer I?",
+      "a": "Bånd i dokumenterede størrelser fra 533 × 75 til 2200 × 1330 mm (korn 40–800); plader 3–6 tommer (korn 60–5000). Særlige krav gennemses med vores team."
+    },
+    "samples": {
+      "q": "Kan jeg få en prøve først?",
+      "a": "Ja. Bestil en prøve, og vores salgsafdeling bekræfter tilgængelighed, gebyrer og forsendelsesvilkår."
+    },
+    "lead": {
+      "q": "Hvad er leveringstiderne?",
+      "a": "Leveringstiden afhænger af specifikation og mængde og bekræftes i dit tilbud."
+    },
+    "packaging": {
+      "q": "Hvordan pakkes produkterne?",
+      "a": "Pakningsmængder, etiketter, kassemarkeringer og private-label-materiel bekræftes i tilbuddet."
+    },
+    "payment": {
+      "q": "Hvilke betalingsvilkår tilbyder I?",
+      "a": "Betalingsvilkårene er en del af det bekræftede tilbud og forretningsforhandling."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Hvilke specifikationer skal jeg angive?",
+      "a": "Del dine ønskede mål, korn, arbejdsstykke, maskine og den ønskede finish. Brug de dokumenterede muligheder, hvor de findes; andre krav gennemses med vores team."
+    },
+    "oem": {
+      "q": "Hvordan anmoder jeg om OEM-forpakning?",
+      "a": "Angiv dit branding og forpakningskrav i forespørgslen. Detaljer gennemses og bekræftes i dit tilbud."
+    },
+    "order": {
+      "q": "Betyder det at anmode om et tilbud at afgive en ordre?",
+      "a": "Nej. Formularen starter en engrosforespørgsel. Produktspecifikationer, tilgængelighed og handelsvilkår bekræftes, før en ordre aftales."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Angiv størrelse, korn, bærerem og produktfiler; angiv destinationshavn og etiketsprog."
+    },
+    "na": {
+      "title": "Nordamerika",
+      "body": "Angiv tommers- eller metrisk målestok, fastgørelsestype og pakningsmængder; destinations-POST-nummer eller havn og transportform."
+    },
+    "sa": {
+      "title": "Sydamerika",
+      "body": "Størrelse, mængder med blandede korn og sprog på kasseetiketter; destinationshavn og importørens dokumenter."
+    },
+    "me": {
+      "title": "Mellemøsten",
+      "body": "Materiale, korn og fugtsikre forpakning; destinationshavn og tilbudsvilkår."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Maskinkompatibilitet, ønskede størrelser og pakningsmængder; destinationshavn, kassemarkeringer og transportpreferens."
+    },
+    "oceania": {
+      "title": "Oceanien",
+      "body": "Størrelse, bærerem, forpakning og destinations-POST-nummer eller havn; import- og pakningskrav."
+    },
+    "asia": {
+      "title": "Asien",
+      "body": "Maskinspecifikation, kornområde og ordremix; leveringsby eller havn og etiketter på det lokale sprog."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metalbearbejdning",
+      "intro": "Svejsningsudligning, afgratning og forberedelse af metaloverflader.",
+      "uses": "Svejsningsudligning · Afgratning · Overfladeforberedelse",
+      "products": "Slibebånd"
+    },
+    "wood": {
+      "title": "Træbearbejdning & møbler",
+      "intro": "Paneler, møbelproduktion og overfladeforberedelse før lakering.",
+      "uses": "Paneler · Møbler · Forberedelse før lakering",
+      "products": "Slibebånd · Slipeplader"
+    },
+    "auto": {
+      "title": "Automobile reparation",
+      "intro": "Slibning af udfyldningsmasse, forberedelse før maling og automobile efterbehandling.",
+      "uses": "Udfyldningsmasse · Før maling · Efterbehandling",
+      "products": "Slipeplader"
+    },
+    "stainless": {
+      "title": "Efterbehandling af rustfrit stål",
+      "intro": "Børstet finish, overfladeovergange og bearbejdning af rustfrit stål.",
+      "uses": "Børstet finish · Overgange · Bearbejdning",
+      "products": "Slibebånd"
+    },
+    "ship": {
+      "title": "Skibsbyggeri & reparation",
+      "intro": "Slibning af metal, fjernelse af rust og overfladeforberedelse til maritime vedligeholdelsesarbejder.",
+      "uses": "Slibning · Rostfjernelse · Maritim forberedelse",
+      "products": "Slibebånd"
+    },
+    "surface": {
+      "title": "Industriel overfladeforberedelse",
+      "intro": "Industriel overfladebehandling og vedligeholdelsesarbejde.",
+      "uses": "Overfladebehandling · Vedligeholdelse",
+      "products": "Slipeplader"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Krog- og loop eller PSA: vælg den rigtige bærerem",
+      "intro": "Fastsættelsessystemet er lige så vigtigt som kornet. Match det med underlaget, før du bestiller.",
+      "start": {
+        "title": "Start med kravet",
+        "body": "Krog- og loop-plader monteres på et kompatibelt underlæg med krogflade og passer til arbejdsforløb, hvor korn ofte skiftes. PSA-plader hviler på en selvklæbende lim og kræver et rent, fladt underlag. De to systemer er ikke udskiftelige."
+      },
+      "compat": {
+        "title": "Bekræft kompatibilitet",
+        "body": "Bekræft underlagets diameter, bæreremtype og støvsugnings-layout. En hul-fri plade forbinder ikke med et hulbaseret sugemønster, og åben-mesh-plader kræver et kompatibelt underlag og et støvsugsystem."
+      },
+      "enquiry": {
+        "title": "Forbered din forespørgsel",
+        "body": "Angiv pladens diameter, bærerem, kornliste, mængde pr. korn og arbejdsstykkets materiale. Anmod om en prøvevurdering, før en produktionsordre godkendes."
+      }
+    },
+    "beltChecklist": {
+      "title": "Hvad der skal indgå i en forespørgsel på slibebånd",
+      "intro": "En klar specifikation hjælper din leverandør med at vurdere pasningen og udarbejde et nyttigt tilbud.",
+      "start": {
+        "title": "Start med kravet",
+        "body": "Angiv båndets længde og bredde i millimeter. Nævn maskinmodellen — et maskinspecifikationsark eller et foto af et gammelt båndetiket hjælper."
+      },
+      "compat": {
+        "title": "Bekræft kompatibilitet",
+        "body": "Tilføj arbejdsstykkets materiale, foretrukket slibemateriale, korn, bæreremkrav og fugekrav. Undgå at vælge et produkt ud fra båndets farve alene."
+      },
+      "enquiry": {
+        "title": "Forbered din forespørgsel",
+        "body": "Oplist mængder pr. størrelse og korn, forpakningspreferencer, destination og den ønskede leveringsdato. Det endelige tilbud bekræfter specifikation, tilgængelighed, betalingsvilkår og transportarrangementer."
+      }
+    },
+    "gritSequence": {
+      "title": "Planlægning af en kornsekvens til overfladeforberedelse",
+      "intro": "Start med arbejdsstykket og den ønskede finish, og evaluer derefter en sekvens på en prøve.",
+      "start": {
+        "title": "Start med kravet",
+        "body": "Groft korn fjerner materiale hurtigt og efterlader dybe ridser; fint korn forfiner overfladen. Startpunktet afhænger af underlaget, defektens dybde og fjernelsens omfang."
+      },
+      "compat": {
+        "title": "Bekræft kompatibilitet",
+        "body": "Træd gradvist ned i korn i rækkefølge og inspicer arbejdsstykket i hvert trin. At springe korn over efterlader ridser, der er svære at fjerne, og rengøring mellem trin undgår forurening fra groft korn."
+      },
+      "enquiry": {
+        "title": "Forbered din forespørgsel",
+        "body": "Kornnumre er ikke udskiftelige mellem kornsystemer. Bekræft kornstandarden, slibemiddeltypen og tilgængeligheden i tilbuddet, og følg sikkerhedsanvisninger for maskine og slibemidler."
+      }
+    },
+    "dustCollection": {
+      "title": "Støvsugning & underlægs-kompatibilitet, forklaret",
+      "intro": "Hulmønstre, åben-mesh-plader og underlag skal matche dit støvsugningsanlæg.",
+      "start": {
+        "title": "Start med kravet",
+        "body": "Identificér dit underlag: antal huller, diameter og om det bruges med støvsugning. Hul-fri plader og åben-mesh-plader opfører sig anderledes end plader med mange huller."
+      },
+      "compat": {
+        "title": "Bekræft kompatibilitet",
+        "body": "Match pladens hulelayout med underlagets udtag. Åben-mesh-plader kræver et kompatibelt underlag og et fungerende støvsugsystem; PSA-plader kræver en ren underlagsflade."
+      },
+      "enquiry": {
+        "title": "Forbered din forespørgsel",
+        "body": "Oplist underlagsmodel, antal huller, pladestørrelse og kornliste samt din støvsugningsanlæg. Bekræft prøvens adfærd, før en produktionsordre."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM-etiketter & -forpakning: hvad der skal forberedes",
+      "intro": "Et komplet brief holder design, etiketter og kasser i takt med tidsplanen.",
+      "start": {
+        "title": "Start med kravet",
+        "body": "Forbered dit logo og etiketmateriel, det tilsigtede pakformat (indre poser, kasser), etiketsproget og destinationslandets etiketregler."
+      },
+      "compat": {
+        "title": "Bekræft kompatibilitet",
+        "body": "OEM-tilgængelighed, minimumsmængder, designkrav og tidsplaner afhænger af en gennemførbarhedsvurdering og bekræftet tilbud."
+      },
+      "enquiry": {
+        "title": "Forbered din forespørgsel",
+        "body": "Vedhæft designmaterialet, angiv pakningsmængder og kassemarkeringer samt destination og timing. Prøvegodkendelse sker før produktion."
+      }
+    },
+    "gritStandards": {
+      "title": "Kornstandarder: FEPA, ANSI og hvad din liste betyder",
+      "intro": "Kornsystemer er ikke udskiftelige — nævn standarden i hver forespørgsel.",
+      "start": {
+        "title": "Start med kravet",
+        "body": "FEPA (ISO 848) og den ældre ANSI-skala nummererer ensartede størrelser forskelligt; P120 og 120-korn er ikke altid det samme. Nævn den standard, du køber efter."
+      },
+      "compat": {
+        "title": "Bekræft kompatibilitet",
+        "body": "Bekræft kornstandarden, slibemiddeltypen og tilgængelighed pr. kvalitet i tilbuddet. Bland ikke kornsystemer i en kornliste."
+      },
+      "enquiry": {
+        "title": "Forbered din forespørgsel",
+        "body": "Angiv standarden (f.eks. FEPA P60–P800), mængde pr. kvalitet og destination. Bekræft den endelige kvalitelist i tilbuddet, før du bestiller."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Det mest almindelige slibekorn til bånd og plader: sejt, let at arbejde med, velegnet til metal, træ og almen efterbehandling."
+    },
+    "ansi": {
+      "def": "Den tidligere nordamerikanske kornnumrering. Korn i ensartede størrelser afviger fra FEPA-skalaen — nævn standarden i hver forespørgsel."
+    },
+    "backing-cloth": {
+      "def": "Et bomuld-/stoft baseret bærerem, der bærer slibekornet i bånd. Vægten (f.eks. X-vægt) fastsætter fleksibilitet og belastningsevne."
+    },
+    "backing-poly": {
+      "def": "Poly-bomuld bærerem: en balance mellem styrke og fleksibilitet til all-purpose bånd."
+    },
+    "belt": {
+      "def": "En uafbrudt slibekornsløkke på et baseret bærerem, der bruges på båndmaskiner til slibning, efterbehandling og afgratning."
+    },
+    "blend": {
+      "def": "At glatte en svejsning, så den går i overgang til det omkringliggende metal — typisk et første pass med en flap-skive eller et bånd, derefter finere korn."
+    },
+    "closed": {
+      "def": "Et tæt kornlayout med lidt åbent rum; båndet modstår tilstopning ved hårdere arbejde."
+    },
+    "debur": {
+      "def": "Fjernelse af grater og små fremspring, der er tilbage efter skæring, savning eller slibning."
+    },
+    "dust": {
+      "def": "Fjernelse af slibemiddelstøv ved arbejdsstykket — via underlagsudtag, åben-mesh-plader eller lokal støvsugning."
+    },
+    "flap": {
+      "def": "En skive af overlappende slibeflap, fleksibel, til slibning, udligning af svejsninger og efterbehandling på skiveslibere."
+    },
+    "fepa": {
+      "def": "Den ISO 848 (FEPA) kornskala i P-notation (f.eks. P120). Den standard-skala i de fleste europæiske og internationale handele."
+    },
+    "grit": {
+      "def": "Slibemidlets nominelle kornstørrelse: højere tal er finere. Bånd 40–800; plader 60–5000."
+    },
+    "hookloop": {
+      "def": "Krog- og loop-fastgørelsessystemet til plader: pladen klikker fast på et underlæg med krogflade."
+    },
+    "mesh": {
+      "def": "Åben-mesh-plader har udskårne vinduer, så støv kan passere igennem, og kræver et kompatibelt underlag og støvsugning."
+    },
+    "moq": {
+      "def": "Minimumsbestilling — følger med tilbuddet sammen med tilgængelighed og vilkår."
+    },
+    "oem": {
+      "def": "Original equipment-manufacturing / private label: vores produkter under dit mærke, dine etiketter og din forpakning."
+    },
+    "psa": {
+      "def": "Trykfølsom klæbe-bærerem: pladen klæber direkte på et kompatibelt underlag."
+    },
+    "disc": {
+      "def": "En flad eller flappe slibemiddel-skive monteret på et underlag til slibning og efterbehandling."
+    },
+    "sic": {
+      "def": "Siliciumkarbidkorn: meget hårdt og skarpt, velegnet til glas, keramik og ikke-jernholdige metaller."
+    },
+    "prep": {
+      "def": "At forberede en overflade til belægning eller efterbehandling: fjernelse af rust, udfyldningsmasse eller gammel finish til en ensartet profil."
+    },
+    "wetdry": {
+      "def": "Kvaliteter, der forbliver kølige og modstår tilstopning ved våd eller vådt/tørt brug; bekræft egnethed i tilbuddet."
+    },
+    "xweight": {
+      "def": "Et mellemvægtigt stoft baseret bærerem til all-purpose bånd: stærkt, men dog fleksibelt."
+    },
+    "zirconia": {
+      "def": "Zirkonoksid-aluminiumkorn: sejt og aggressivt til metalslibning, afgratning og efterbehandling af stål."
+    },
+    "pad": {
+      "def": "Den underlagsplade, som en plade hviler på: underlagets diameter, flade (krog) og udtag-layout skal matche pladen."
+    }
+  },
+  "footer": {
+    "blurb": "Slibemidler til industrielle købere, distributører og private-label-mærker.",
+    "products": "Produkter",
+    "explore": "Udforsk MoTai",
+    "connect": "Lad os komme i kontakt",
+    "aboutUs": "Om os",
+    "mfgQ": "Produktion & kvalitet",
+    "oemPl": "OEM & private label",
+    "newsB": "Nyheder & blog",
+    "privacy": "Privatlivspolitik",
+    "terms": "Brugsbetingelser",
+    "contactUs": "Kontakt os"
+  },
+  "tdk": {
+    "home": {
+      "title": "Slibemiddelproducent & industriel slibemiddelleverandør | MoTai",
+      "description": "Professionel slibemiddelproducent i Kina, der leverer slibebånd, slipeplader og flap-skiver. Engros direkte fra fabrikken, OEM-tilpasning og industrielle slibemiddelløsninger for globale distributører og købere.",
+      "keywords": "slibemiddelproducent, slibemiddelleverandør, industrielle slibemidler, slibebånd, slipeplader, flap-skiver, slibebåndproducent, slibemidler engros"
+    },
+    "about": {
+      "title": "Om MoTai — slibemiddelproducent & fabrik i Hubei, Kina",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. er producent af belagte slibemidler i Xianning, Hubei: slibebånd, slipeplader og flap-skiver med OEM, tilpassede mål, store leverancer og eksport.",
+      "keywords": "slibemiddelproducent Kina, slibemiddelleverandør Kina, slibemiddelfabrik, producent af belagte slibemidler, slibemiddelforhandler, B2B slibemiddelleverandør"
+    },
+    "factory": {
+      "title": "Slibemiddelproduktion & QC — MoTai-fabrikken i Hubei",
+      "description": "Inden i MoTais slibemiddel-værksted: konvertering og skæring, prøvekontroller, QC og OEM-pakning af slibebånd, slipeplader og flap-skiver.",
+      "keywords": "slibemiddelproduktion, slibemiddelfabrik QC, slibemiddelkonvertering, OEM slibemiddelpakning"
+    },
+    "oem": {
+      "title": "OEM-slibemiddelproducent & private label | MoTai",
+      "description": "OEM- og private-label-produktion af slibemidler: dit logo, dine etiketter, størrelser og forpakning på MoTais bånd, plader og flap-skiver, tilbudsbaseret på din bekræftede specifikation.",
+      "keywords": "OEM-slibemiddelproducent, private label slibemidler, tilpassede slibemiddelprodukter, OEM-slibemiddelleverandør"
+    },
+    "applications": {
+      "title": "Industrielle slibemidler efter anvendelse — metal, træ, automobile og mere",
+      "description": "Match MoTais slibebånd, slipeplader og flap-skiver med din anvendelse: metalslibning, træslibning, bilkarosseri, rustfri finish, skibsbyggeri og overfladeforberedelse.",
+      "keywords": "slibemiddelanvendelser, metalslibning, træslibning, overfladeforberedelse, industriel overfladeforberedelse"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Slibemidler til metalbearbejdning — slibning & afgratning | MoTai",
+        "description": "Slibemidler til metalbearbejdning: metalslibning, afgratning og svejnslibning med MoTais slibebånd, mesh- og flap-skiver.",
+        "keywords": "slibemidler til metalbearbejdning, metalslibning, afgratning af metal, svejnslibning"
+      },
+      "woodworking": {
+        "title": "Slibemidler til træbearbejdning & bredbåndslibning | MoTai",
+        "description": "Slibemidler til træbearbejdning og møbler: bredbåndslibning, slibning af træpaneler og MDF med MoTais slibebånd og plader.",
+        "keywords": "slibemidler til træbearbejdning, bredbåndslibning, træslibning, møbelslibning"
+      },
+      "automotive": {
+        "title": "Slibning af automobile — karosseri & maling | MoTai",
+        "description": "Slibemidler til automobile reparation: slibning af karosseri, bilmaling og primer med MoTais PSA- og krog- og loop-plader.",
+        "keywords": "slibemidler til automobile, slibning af karosseri, slibning af bilmaling, slibning af primer"
+      },
+      "stainless-steel": {
+        "title": "Slibemidler til rustfri finish & polering | MoTai",
+        "description": "Slibemidler til rustfrit stål: polering af metal, overfladeslibning og efterbehandling med MoTais flap-skiver og bånd.",
+        "keywords": "rustfri finish, polering af metal, overfladeslibning, slibemidler til rustfrit stål"
+      },
+      "shipbuilding": {
+        "title": "Slibemidler til skibsbyggeri — stålplader & rustfjernelse | MoTai",
+        "description": "Tunge slibemidler til skibsbyggeri: slibning af stålplader, rustfjernelse og industriel overfladeforberedelse med MoTais bånd og flap-skiver.",
+        "keywords": "slibemidler til skibsbyggeri, slibning af stålplader, rustfjernelse, tung slibning"
+      },
+      "surface-preparation": {
+        "title": "Industriel overfladeforberedelse & slibemidler til slibning | MoTai",
+        "description": "Industrielle slibemiddelløsninger til overfladeforberedelse, overfladeefterbehandling og tung slibning på MoTais bånd, plader og flap-skiver.",
+        "keywords": "overfladeforberedelse, overfladeefterbehandling, industriel slibning, slibemiddelløsninger"
+      }
+    },
+    "blog": {
+      "title": "Guider for slibemiddelkøbere & kornstandarder | MoTais viden",
+      "description": "Praktiske ressourcer for slibemiddelkøbere: valg af pladebærer, tjekliste til båndforespørgsler, kornsekvenser, støvsugning og kornstandarder (FEPA/ANSI).",
+      "keywords": "guide for slibemiddelkøbere, valg af korn, slibemiddelordbog, kornstandarder FEPA ANSI"
+    },
+    "contact": {
+      "title": "Kontakt MoTai — slibemiddelleverandør i Kina",
+      "description": "Kontakt MoTais slibemiddelleverandør i Xianning, Hubei: telefon, e-mail og WhatsApp til engros- og OEM-slibemiddelforespørgsler samt fabriksbesøg.",
+      "keywords": "kontakt til slibemiddelleverandør, engrosforespørgsel på slibemidler, slibemiddelproducent i Kina"
+    },
+    "privacy": {
+      "title": "Privatlivspolitik",
+      "description": "Sådan bruger MoTai Abrasives oplysninger fra forespørgsler: indsamling, formål, opbevaring, dine valg og cookiehåndtering.",
+      "keywords": "privatlivspolitik, MoTai"
+    },
+    "terms": {
+      "title": "Brugsbetingelser — MoTai Abrasives",
+      "description": "Betingelser for denne B2B-slibemiddelside: håndtering af forespørgsler, tilbudspriser, immaterielle rettigheder og gældende lov.",
+      "keywords": [
+        "brugsbetingelser",
+        "MoTai",
+        "B2B-slibemiddelleverandør"
+      ]
+    },
+    "quote": {
+      "title": "Anmod om et engros-tilbud på slibemidler | MoTai",
+      "description": "Forbered din engros- eller OEM-forespørgsel på slibemidler: forretningsdetaljer samt produkt, størrelse, korn, mængde og destination. Store leveringer af slibemidler udarbejdes direkte fra fabrikken.",
+      "keywords": "engros-tilbud på slibemidler, store leveringer af slibemidler, OEM-slibemiddelforespørgsel, slibemidler engros"
+    },
+    "clients": {
+      "title": "Slibemiddelforhandler — global levering fra Hubei, Kina | MoTai",
+      "description": "MoTai eksporterer slibebånd, slipeplader og flap-skiver til syv destinationsregioner: Europa, Amerika, Mellemøsten, Afrika, Oceanien og Asien.",
+      "keywords": "slibemiddelforhandler, eksport af slibemidler, global slibemiddel-levering, industriel slibemiddelleverandør"
+    },
+    "glossary": {
+      "title": "Slibemiddel-ordbog — korn, bærerem, pladetermer",
+      "description": "24 slibemiddel-termer defineret: FEPA-korn, bæreremmer, krog- og loop, PSA, åben mesh, afgratning og mere.",
+      "keywords": "slibemiddel-ordbog, kornstandarder, slibemiddel-termer"
+    },
+    "product": {
+      "title": "MoTai {name} — engros & OEM slibemidler",
+      "description": "MoTai {name} ({material}, {category}): {desc} Størrelser: {sizes}. Korn: {grits}. Engros direkte fra fabrikken og OEM-levering.",
+      "keywords": "{name}, {category}-producent, {material}-slibemateriale, slibemidler engros, OEM-slibemidler"
+    },
+    "model": {
+      "title": "{model} slibebånd — MoTai",
+      "description": "Referencemodel for slibebånd {model} fra MoTais sortiment — bredde, længde, korn og bærerem fastsættes i tilbuddet. Engros- og OEM-levering.",
+      "keywords": "{model} slibebånd, slibebånd modelreference, slibebånd engros"
+    },
+    "disc": {
+      "title": "MoTai {title} — engros & OEM",
+      "description": "MoTai pladevariant {title}: kornområde, diameter og fastgørelse fastsættes i tilbuddet. Engros direkte fra fabrikken og OEM.",
+      "keywords": "slipeplader, krog- og loop-plader, PSA-plader, mesh-plader, slipeplader engros"
+    },
+    "flap": {
+      "title": "MoTai {name} — flap-skiveproducent",
+      "description": "MoTai {name}: en {backing}-baseret flap-skive til slibning, udligning af svejsninger og efterbehandling af metal. Engros- og OEM-levering.",
+      "keywords": "flap-skiver, {backing}-baseret flap-skive, zirkonia flap-skive, flap-skiveproducent, flap-skiver engros"
+    },
+    "colt": {
+      "belts": {
+        "title": "Slibebåndproducent & engrosleverandør | MoTai",
+        "description": "Brede og industrielle slibebånd fra 533×75 til 2200×1330 mm, korn 40–800, i aluminiumoxid, zirkonoksid og siliciumkarbid — med referencemodeller GXK-51, XZ-330, GPC71 og flere. Engros direkte fra fabrikken og OEM.",
+        "keywords": "slibebånd, slibebånd, industrielle slibebånd, brede slibebånd, brede slibebånd, slibebånd til træ, slibebånd til metal, aluminiumoxid slibebånd, zirkonia slibebånd, siliciumkarbid slibebånd, slibebåndproducent, slibebåndleverandør, slibebånd engros, GXK-51 slibebånd, XZ-330 slibebånd, GPC71 slibebånd, Y399 slibebånd, Y999 slibebånd, 533x75 slibebånd, 610x100 slibebånd, 1520x630 slibebånd, 2200x1330 slibebånd"
+      },
+      "discs": {
+        "title": "Slipepladeproducent — PSA, krog-/loop-fastgørelse & åben mesh | MoTai",
+        "description": "Krog- og loop-, PSA-, åben-mesh- og hul-fri slipeplader fra 3 til 6 tommer, korn 60–5000, til bilkarosseri, træ og metalefterbehandling. Engros direkte fra fabrikken og OEM.",
+        "keywords": "slipeplader, slibeplader, krog- og loop-slipeplader, PSA slipeplader, mesh-slipeplader, vliesslipeplader, støvfrie slipeplader, perforerede slipeplader, slipeplader med huller, 5 tommers slipeplader, 6 tommers slipeplader, slipepladeproducent, slipeplader engros"
+      },
+      "flap": {
+        "title": "Flap-skiveproducent — zirkonoksid & aluminiumoxid | MoTai",
+        "description": "MoTais slibeflap-skiver med plast-, stål- og glasfiberbærer, i zirkonoksid og aluminiumoxid, til slibning, afgratning og efterbehandling af metal. Engros- og OEM-levering.",
+        "keywords": "flap-skiver, slibeflap-skiver, zirkonia flap-skiver, aluminiumoxid flap-skiver, glasfiberbærer flap-skiver, plastbærer flap-skiver, stål-bærer flap-skiver, 100mm flap-skiver, 115mm flap-skiver, 125mm flap-skiver, 150mm flap-skiver, 180mm flap-skiver, flap-skiveproducent, flap-skiveleverandør, flap-skiver engros"
+      },
+      "all": {
+        "title": "Slibemiddelprodukter engros — bånd, plader & flap-skiver | MoTai",
+        "description": "Det komplette MoTai-katalog af slibemidler: industrielle slibebånd, slipeplader og flap-skiver til distributører, importører, engrosforhandlere og OEM-mærker. Engros direkte fra fabrikken, tilpasning og eksport fra Hubei, Kina.",
+        "keywords": "slibemiddelprodukter, slibemiddelprodukter engros, industrielle slibemidler, belagte slibemidler, slibemidler engros, slibemiddel-fabrik, slibemiddelforhandler, slibemiddelleverandør Kina, OEM-slibemiddelproducent, private label slibemidler, tilpassede slibemiddelprodukter, store leveringer af slibemidler, slibemiddelfabrik, slibemiddelredskaber, slibemateriale, slibeprodukter, overfladeefterbehandlingprodukter, slibepapir, slibepapirark, rundt slibepapir, slibepapir engros, slipeunderlag, krog- og loop-slipeunderlag, 5 tommers slipeunderlag, 6 tommers slipeunderlag, vliezflaghjul, slibeklam, industriel rullebørste"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Hurtig kontakt",
+    "whatsapp": "WhatsApp",
+    "quote": "Anmod om et tilbud"
+  }
+}

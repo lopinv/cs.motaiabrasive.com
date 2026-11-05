@@ -42,7 +42,7 @@ const walk = (o, p = '') => {
 }
 walk(en)
 const tokFail = []
-const get = (o, pth) => pth.split('.').reduce((c, k) => (c ? c[k] : undefined), o)
+const get = (o, pth) => (o[pth] !== undefined ? o[pth] : pth.split('.').reduce((c, k) => (c ? c[k] : undefined), o))
 for (const [np, toks] of Object.entries(enMap)) {
   const lv = get(obj, np)
   if (typeof lv !== 'string' || toks.some((t) => !lv.includes(t))) tokFail.push(np + ' (en:' + toks.join(',') + ' got:' + JSON.stringify(lv)?.slice(0, 60) + ')')
