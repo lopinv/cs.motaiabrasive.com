@@ -291,7 +291,8 @@
     "catNotes": "Application notes",
     "catOem": "OEM guide",
     "reviewedBy": "Reviewed by the MoTai Abrasives technical team",
-    "lastReviewed": "Last reviewed {date}"
+    "lastReviewed": "Last reviewed {date}",
+    "tocTitle": "On this page"
   },
   "contact": {
     "h1": "Start a wholesale conversation",

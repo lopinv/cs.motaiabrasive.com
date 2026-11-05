@@ -287,7 +287,8 @@
     "catNotes": "ملاحظات التطبيق",
     "catOem": "دليل OEM",
     "reviewedBy": "راجعها الفريق التقني في MoTai Abrasives",
-    "lastReviewed": "آخر مراجعة: {date}"
+    "lastReviewed": "آخر مراجعة: {date}",
+    "tocTitle": "في هذه الصفحة"
   },
   "contact": {
     "h1": "ابدأ محادثة الجملة",

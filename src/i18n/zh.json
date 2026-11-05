@@ -287,7 +287,8 @@
     "catNotes": "应用笔记",
     "catOem": "OEM 指南",
     "reviewedBy": "由墨泰磨料技术团队审阅",
-    "lastReviewed": "最近审阅日期：{date}"
+    "lastReviewed": "最近审阅日期：{date}",
+    "tocTitle": "本页目录"
   },
   "contact": {
     "h1": "开启批发洽谈",

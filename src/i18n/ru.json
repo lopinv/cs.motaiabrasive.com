@@ -287,7 +287,8 @@
     "catNotes": "Приложения по применению",
     "catOem": "Гид по OEM",
     "reviewedBy": "Проверено техническим отделом MoTai Abrasives",
-    "lastReviewed": "Последняя проверка: {date}"
+    "lastReviewed": "Последняя проверка: {date}",
+    "tocTitle": "На этой странице"
   },
   "contact": {
     "h1": "Начните оптовый диалог",

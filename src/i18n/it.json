@@ -287,7 +287,8 @@
     "catNotes": "Note applicative",
     "catOem": "Guida OEM",
     "reviewedBy": "Riveduto dal team tecnico MoTai Abrasives",
-    "lastReviewed": "Ultima revisione: {date}"
+    "lastReviewed": "Ultima revisione: {date}",
+    "tocTitle": "In questa pagina"
   },
   "contact": {
     "h1": "Apri una conversazione all'ingrosso",

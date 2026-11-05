@@ -34,6 +34,22 @@ const seo = buildSeo(lang, 'article', { article: { title, intro, slug: a.slug, i
 ])
 const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
 const relatedVideos = videosData.videos.filter((v) => v.youtubeId && v.links.some((l) => l.includes('blog') || l === a.slug)).slice(0, 1)
+
+// Long-form support: sections may carry a `subsections` array (H3) and each
+// subsection may carry `h4` items (H4). Existing short articles (fixed
+// start/compat/enquiry, no subsections) render exactly as before — the
+// nested blocks simply render nothing when absent.
+// Per-section anchor ids for the TOC; TOC only shows with >=3 H2 sections
+// (5000-word long articles), so short 3-section pages still get one.
+const secTitle = (s) => pick(s.titleKey)
+const secId = (s) => String(secTitle(s) ?? s.key).trim().toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]+/g, '-').replace(/^-+|-+$/g, '') || s.key
+const toc = (a.sections ?? []).filter((s) => secTitle(s)).slice(0, 40)
+// TOC is a long-form affordance: only show it when the article actually has
+// deep structure (nested subsections, or >=5 top-level sections). The 6
+// existing short articles (3 flat sections, no subsections) therefore render
+// exactly as before — no TOC card, body markup unchanged.
+const hasSubs = (a.sections ?? []).some((s) => (s.subsections ?? []).length)
+const showToc = hasSubs || toc.length >= 5
 ---
 
 <Shell lang={lang} seo={seo}>
@@ -51,13 +67,41 @@ const relatedVideos = videosData.videos.filter((v) => v.youtubeId && v.links.som
   </section>
 
   <div class="section wrap section--flush-top">
+    {showToc && (
+      <nav class="toc" aria-label="On this page">
+        <p class="toc-title">{pick('article.tocTitle')}</p>
+        <ol class="toc-list">
+          {toc.map((s) => (
+            <li><a href={`#${secId(s)}`}>{secTitle(s)}</a></li>
+          ))}
+        </ol>
+      </nav>
+    )}
     <div class="prose">
-      {a.sections.map((s) => (
-        <section>
-          <h2>{pick(s.titleKey)}</h2>
-          <p>{pick(s.bodyKey)}</p>
-        </section>
-      ))}
+      {a.sections.map((s) => {
+        const subs = s.subsections ?? []
+        return (
+          <section class={subs.length ? 'prose-sec prose-sec--nested' : 'prose-sec'} id={secId(s)}>
+            <h2>{pick(s.titleKey)}</h2>
+            {s.bodyKey && pick(s.bodyKey) && <p>{pick(s.bodyKey)}</p>}
+            {subs.map((u) => {
+              const h4 = u.h4 ?? []
+              return (
+                <section class="prose-sub">
+                  <h3>{pick(u.titleKey)}</h3>
+                  {u.bodyKey && pick(u.bodyKey) && <p>{pick(u.bodyKey)}</p>}
+                  {h4.map((h) => (
+                    <section class="prose-h4">
+                      <h4>{pick(h.titleKey)}</h4>
+                      {h.bodyKey && pick(h.bodyKey) && <p>{pick(h.bodyKey)}</p>}
+                    </section>
+                  ))}
+                </section>
+              )
+            })}
+          </section>
+        )
+      })}
     </div>
   </div>
 
