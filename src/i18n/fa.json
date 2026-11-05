@@ -1,0 +1,880 @@
+{
+  "code": "fa",
+  "name": "فارسی",
+  "codeLabel": "FA",
+  "htmlLang": "fa",
+  "ogLocale": "fa_IR",
+  "rtl": true,
+  "meta": {
+    "wholesale": "استعلام‌های عمده",
+    "oemNote": "استعلام‌های بسته‌بندی OEM",
+    "size": "اندازه",
+    "grit": "درجه زبر",
+    "quantity": "مقدار درخواستی",
+    "requirements": "تلاش مشخصات و بسته‌بندی",
+    "requirementsPh": "به ما درباره کاربرد، مشخصات و نیازهای تحویل خود بگویید.",
+    "material": "ماده ساینده",
+    "backing": "پشت / اتصال",
+    "availability": "رسایی، مقدار سفارش حداقلی و شرایط تجاری بستگی به تأیید در پیش‌نویس دارد.",
+    "sampleNote": "به ما بگویید چه محصول‌ها و درجه‌های زبری را می‌خواهید بررسی کنید. تیم فروش ما رسایی نمونه، هزینه نمونه و تنظیمات حمل‌ونقل را تأیید می‌کند.",
+    "gritsRange": "محدوده زبری",
+    "holes": "سوراخ‌ها",
+    "diameter": "قطر / ابعاد اسمی",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "زبان",
+    "home": "خانه",
+    "about": "درباره ما",
+    "manufacturing": "تولید",
+    "oem": "خدمات OEM",
+    "news": "اخبار",
+    "knowledge": "دانش",
+    "contact": "تماس با ما",
+    "products": "محصولات"
+  },
+  "colt": {
+    "belts": {
+      "title": "نوارهای ساینده — عمده و OEM",
+      "desc": "نوارهای ساینده قرمز در ابعاد مستند از 533 × 75 میلی‌متر تا 2200 × 1330 میلی‌متر. زبری 40–800. مدل‌های مرجع در دسترس است. استعلام‌های عمده و OEM خوش‌آمد است.",
+      "label": "نوارهای ساینده"
+    },
+    "discs": {
+      "title": "دیسک‌های سنباده — عمده و OEM",
+      "desc": "دیسک‌های سنباده PSA، چنگک‌دار و حلقه‌دار، مشبک و بدون سوراخ از ۳ تا ۶ اینچ. زبری 60–5000. استعلام‌های عمده و OEM خوش‌آمد است.",
+      "label": "دیسک‌های سنباده"
+    },
+    "flap": {
+      "title": "دیسک‌های فلپ MoTai",
+      "desc": "دیسک‌های فلپ با پشت پلاستیکی، فولادی و شیشه‌‌پلاستیک برای سایش، پُرکردن و تمیزی فلز. مشخصات، ارائه عمده و بسته‌بندی OEM در پیش‌نویس تأیید می‌شود.",
+      "label": "دیسک‌های فلپ"
+    },
+    "all": {
+      "title": "همه محصولات",
+      "desc": "کاتالوگ کامل مواد ساینده MoTai: نوارهای ساینده، دیسک‌های سنباده و دیسک‌های فلپ برای خریداران صنعتی، توزیع‌کنندگان و برندهای اختصاصی.",
+      "label": "همه محصولات"
+    }
+  },
+  "cta": {
+    "quote": "درخواست استعلام عمده",
+    "quoteArrow": "↗",
+    "sample": "درخواست نمونه",
+    "whatsapp": "پرسش واتس‌اپ",
+    "waChat": "تماس از طریق واتس‌اپ",
+    "explore": "دیدن محدوده دیسک‌های فلپ",
+    "viewAll": "دیدن همه محصولات",
+    "discuss": "مذاکره درباره مشخصات شما",
+    "oemQuote": "درخواست استعلام OEM"
+  },
+  "home": {
+    "eyebrow": "مواد ساینده از کارخانه MoTai در هوبئی",
+    "heroTitle": "تولیدکننده و تأمین‌کننده حرفه‌ای ساینده",
+    "heroSub": "نوارهای ساینده، دیسک‌های سنباده و دیسک‌های فلپ مستقیماً از کارخانه برای خریداران صنعتی، توزیع‌کنندگان و برندهای اختصاصی — از هوبئی، چین به بازار شما.",
+    "cta1": "درخواست استعلام عمده",
+    "cta2": "با تیم ما در واتس‌اپ گفتگو کنید",
+    "builtTitle": "Pick the application. Match the abrasive.",
+    "builtSub": "Choose the application, then match the abrasive: belts, discs or flap discs.",
+    "featuredTitle": "In the catalogue",
+    "featuredSub": "Sizes and grits are documented in the catalogue; MOQ and availability come with the offer.",
+    "partnerTitle": "The supply side of your abrasive order",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications — with OEM and private-label programmes for distributors and industrial buyers worldwide.",
+    "partnerCta": "Learn about MoTai",
+    "valuesTitle": "Six ways B2B buyers work with us",
+    "valuesSub": "Six reasons importers and OEM brands work with us.",
+    "v1t": "Factory Direct",
+    "v1b": "Supplier-side pricing and lead times, without middlemen.",
+    "v2t": "OEM & Private Label",
+    "v2b": "Your logo, labels and packaging on confirmed specifications.",
+    "v3t": "Custom Sizes & Grits",
+    "v3b": "Documented sizes and grits 40–800 on belts, 60–5000 on discs.",
+    "v4t": "Sample Checks & QC",
+    "v4b": "Review surface, backing and fit on a sample before the order.",
+    "v5t": "Bulk Supply",
+    "v5b": "Consistent carton quantities and packing list detail.",
+    "v6t": "Export Programme",
+    "v6b": "Carton marks, labels and destination documentation.",
+    "processTitle": "The steps between your spec and the order",
+    "processSub": "Four stages between your requirement and a confirmed order.",
+    "p1t": "Cutting & converting",
+    "p1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
+    "p2t": "Sample checks",
+    "p2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
+    "p3t": "OEM & packing",
+    "p3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
+    "p4t": "Shipment preparation",
+    "p4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
+    "oemTitle": "Your name on the carton",
+    "oemSub": "Share the product, packaging and brand requirements for your next abrasive range.",
+    "oemCta": "Explore OEM services",
+    "faqTitle": "Before we start",
+    "faqSub": "Answers to the questions buyers ask most.",
+    "regionsTitle": "From Hubei to your market",
+    "regionsSub": "Global supply organised by destination region.",
+    "regionsNote": "MOQ and lead time are confirmed in your quotation. Routes are indicative; availability and terms are confirmed by quotation.",
+    "factoryTitle": "Find us in Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit and confirm the meeting point with our team.",
+    "finalTitle": "Looking for a reliable abrasive supplier?",
+    "finalBody": "Share your product, quantity and application — we'll review your requirements and prepare a matched quotation.",
+    "finalCta1": "Request a Wholesale Quote",
+    "finalCta2": "Contact via WhatsApp",
+    "beltsShowTitle": "Abrasive belts, by model",
+    "beltsShowSub": "Reference models for discussion with our team.",
+    "prepTitle": "Prepare your wholesale enquiry",
+    "prepSub": "Dimensions, grit and quantity do the rest of the work.",
+    "prepDim": "Dimensions",
+    "prepDimText": "Size or model reference in millimetres.",
+    "prepGrit": "Grit",
+    "prepGritText": "Grade or finish required.",
+    "prepQty": "Quantity",
+    "prepQtyText": "Estimated volume and packaging."
+  },
+  "purchasing": {
+    "eyebrow1": "Purchasing guidance",
+    "title1": "Prepare your wholesale enquiry",
+    "body1": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options above where available; other requirements will be reviewed with our team.",
+    "dl1t": "Quantity & destination",
+    "dl1b": "Tell us the quantity, packaging needs and delivery destination.",
+    "dl2t": "Supply & terms",
+    "dl2b": "Availability, minimum order quantity and commercial terms are subject to confirmation in the quotation.",
+    "dl3t": "OEM packaging enquiries",
+    "dl3b": "Branding, labels, custom size or packing requirements.",
+    "eyebrow2": "How to enquire",
+    "title2": "From product selection to quotation",
+    "s1t": "Select your product",
+    "s1b": "Choose the product or model and the required specification.",
+    "s2t": "Share your requirements",
+    "s2b": "Share quantity, application and packaging requirements.",
+    "s3t": "Review your quotation",
+    "s3b": "Confirm the final specification and commercial terms with our team."
+  },
+  "modelPage": {
+    "eyebrow": "Abrasive belts · Reference model",
+    "refLabel": "Model reference",
+    "familyLabel": "Category",
+    "dimsLabel": "Finished belt dimensions — specify width × length in mm",
+    "dimsPlaceholder": "e.g. 533 × 75 mm",
+    "gritLabel": "Required grit — specify the grade or finish required",
+    "gritPlaceholder": "e.g. P60",
+    "qtyLabel": "Requested quantity",
+    "specLabel": "Specification and packaging requirements",
+    "discussion": "Discuss this model with our team using your workpiece, machine and required finish.",
+    "grainBacking": "Grain and backing — confirm the raw-material manufacturer and exact grade.",
+    "disclaimer": "Model-family details are for selection reference; MoTai supply specs, availability and fit are settled with your quotation."
+  },
+  "discPage": {
+    "eyebrow": "Sanding discs · Documented variant",
+    "gritsNote": "Grit options for this variant"
+  },
+  "flapPage": {
+    "eyebrow": "Flap discs · Backing variant",
+    "color": "Color",
+    "gritNote": "P40–P60 and P80–P120 are general selection examples, not a confirmed MoTai supply range."
+  },
+  "productPage": {
+    "specTitle": "Specifications",
+    "howTitle": "How to specify your order",
+    "howBody": "Include the belt or disc size, grit list, machine model, workpiece material and quantity. A clear specification helps us review fit and prepare a useful quotation — avoid selecting a product using colour alone.",
+    "faqTitle": "Buyer questions"
+  },
+  "about": {
+    "h1": "The company behind the abrasive range",
+    "sub": "A considered approach to abrasive supply.",
+    "bizTitle": "Our business",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications. Documented ranges include non-hole sanding discs, mesh sanding discs and red abrasive belts. We accept enquiries from importers, distributors, wholesalers and industrial buyers — product, backing, size, grade, quantity and delivery requirements.",
+    "matTitle": "Company materials",
+    "matBody": "Explore the company background and contacts in our brochure.",
+    "globalTitle": "From Hubei to your market",
+    "globalSub": "Global supply organised by destination region.",
+    "facTitle": "Find us in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit with our team and confirm the meeting point before travelling.",
+    "profileName": "At a glance",
+    "profileBody": "Coated abrasives manufacturer in Xianning, Hubei: three product lines supplied to seven destination regions, with grit coverage from 40 to 5000.",
+    "ctaTitle": "Looking for a reliable abrasive supplier?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "factory": {
+    "h1": "Inside the MoTai workshop",
+    "sub": "Details matter. At every stage.",
+    "intro": "Review the cutting, sample checks and packing details for your order. Product footage is shown alongside process illustrations.",
+    "videoLabel": "View product footage",
+    "stepsTitle": "Manufacturing & order preparation",
+    "stepsIntro": "From your requirement to a confirmed order.",
+    "st1t": "Cutting & converting",
+    "st1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
+    "st2t": "Sample checks",
+    "st2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
+    "st3t": "OEM & packing",
+    "st3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
+    "st4t": "Shipment preparation",
+    "st4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
+    "imgNote": "Cutting and sample images are extracted from the supplied product videos. Packing and shipment images are illustrative stock photographs.",
+    "qcTitle": "Quality checkpoints",
+    "qcIntro": "What we verify before an order leaves the factory floor.",
+    "qc1t": "Surface & grit",
+    "qc1b": "Abrasive surface consistency against the confirmed grade.",
+    "qc2t": "Backing & fit",
+    "qc2b": "Backing type, weight and dimensional tolerance of finished belts and discs.",
+    "qc3t": "Packing & marks",
+    "qc3b": "Pack quantities, labels, carton marks and private-label artwork match the confirmed order.",
+    "certNote": "Certification marks shown are placeholders pending published certificates.",
+    "ctaTitle": "Prefer to talk it through?",
+    "ctaSub": "Looking for a reliable abrasive supplier?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "oem": {
+    "h1": "Your name on the carton",
+    "sub": "Send your product, packaging and brand requirements; we'll come back with an OEM feasibility check.",
+    "briefTitle": "Build an enquiry around your brand",
+    "briefEyebrow": "Bring your brief",
+    "briefBody": "Discuss your logo and label artwork, packaging format, product sizes, grit grades and intended use. OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation.",
+    "itemsTitle": "A clear brief gets a useful response",
+    "i1": "Product & specification",
+    "i2": "Size & grit mix",
+    "i3": "Artwork & labels",
+    "i4": "Packaging format",
+    "i5": "Target quantities",
+    "i6": "Destination & timing",
+    "itemNote": "Include your requirements and reference files in the enquiry.",
+    "procTitle": "From enquiry to supply",
+    "pr1t": "Your enquiry",
+    "pr1b": "Tell us your application and requirements.",
+    "pr2t": "Spec check",
+    "pr2b": "Review sizes, grades, backing and packaging.",
+    "pr3t": "Offer",
+    "pr3b": "Confirm commercial terms and schedule.",
+    "pr4t": "Sample sign-off",
+    "pr4b": "Evaluate agreed samples before approval.",
+    "pr5t": "Run",
+    "pr5b": "Proceed against the confirmed specification.",
+    "pr6t": "Dispatch",
+    "pr6b": "Coordinate packing and destination.",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrasives for your industry",
+    "sub": "The surface sets the specification.",
+    "intro": "Six application fields. Specify the material, machine and required finish — we'll match the abrasive.",
+    "ctaNote": "Some images are AI-generated application illustrations, not MoTai factory or customer photographs.",
+    "sampleNote": "Tell us your industry, country, product specification and estimated order volume when requesting a quote.",
+    "reqTitle": "Recommended products",
+    "reqNote": "Indicative product families for this field. Confirm sizes, grits and quantities with the quotation.",
+    "specTitle": "Specification tips",
+    "faqTitle": "Frequently asked",
+    "faqs": [
+      {
+        "q": "Which grit should I start with?",
+        "a": "Start from the workpiece material, defect depth and required finish — a coarse grade removes material fast, then step down in grits and check the surface at each stage."
+      },
+      {
+        "q": "Can I mix grits in one order?",
+        "a": "Yes — list the grits and quantity per grade; availability and lead time come back with the offer."
+      }
+    ],
+    "ctaTitle": "Specifying for your field?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Better information. Better selection.",
+    "sub": "Practical buyer resources for discussing abrasive specifications.",
+    "updatedLabel": "Updated",
+    "governance": "Guides are written and reviewed by the MoTai Abrasives technical team and re-reviewed when product specifications change."
+  },
+  "article": {
+    "watchTitle": "Watch",
+    "discuss": "Discuss Your Specification",
+    "catSelection": "Selection guide",
+    "catBuyer": "Buyer resources",
+    "catNotes": "Application notes",
+    "catOem": "OEM guide",
+    "reviewedBy": "Reviewed by the MoTai Abrasives technical team",
+    "lastReviewed": "Last reviewed {date}",
+    "tocTitle": "On this page"
+  },
+  "contact": {
+    "h1": "Start a wholesale conversation",
+    "sub": "Get factory-direct wholesale prices for abrasive products.",
+    "directTitle": "A conversation. A better specification.",
+    "directBody": "Share your product, quantity and application. We'll review your requirements and help you take the next step.",
+    "facTitle": "Find us in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Confirm the exact visit address with our team before travelling.",
+    "visit": "Arrange a factory visit",
+    "formTitle": "Wholesale / OEM enquiry",
+    "formNote": "This form requests an offer and does not place an order. Enquiries go to our sales inbox; specs and commercial terms are settled with the offer.",
+    "btn": "Open the enquiry form ↗"
+  },
+  "privacy": {
+    "h1": "Your enquiry information",
+    "sub": "How this website uses the details you choose to share.",
+    "s1t": "Information collected",
+    "s1b": "Contact details, company information, product requirements and attachments submitted with an enquiry. A hashed connection identifier limits abusive submissions.",
+    "s2t": "Purpose and access",
+    "s2b": "Details are used to review and respond to enquiries, prepare quotations and coordinate requested commercial discussions. Access is limited to authorised administrators.",
+    "s3t": "Storage and retention",
+    "s3b": "Records are held with our hosting provider. Data may be processed outside your country. Retention follows business follow-up and record-keeping obligations; you may request specific retention or deletion.",
+    "s4t": "Your choices",
+    "s4b": "Contact motai-01@motaiabrasive.com to request access, correction or deletion. Please do not submit sensitive personal data or confidential files unrelated to your enquiry.",
+    "s5t": "Cookies, links and analytics",
+    "s5b": "The browser stores enquiry-list management data. This site uses Google Analytics (gtag.js) for anonymised usage statistics; Google sets a cookie and processes data under its data-processing terms — you can opt out at https://support.google.com/analytics/answer/3452785. External WhatsApp, map and social links are governed by their own privacy policies.",
+    "updated": "Last updated 4 November 2026"
+  },
+  "terms": {
+    "h1": "Terms of Use",
+    "sub": "The conditions that apply when you use this site and send MoTai an enquiry.",
+    "s1t": "Use of this site",
+    "s1b": "This site is a B2B information and enquiry service operated by Hubei MoTai Abrasives Materials Co., Ltd. Content — product specifications, guides, glossary and blog — is provided in good faith for general information. Using the site means you accept these terms; if you do not, do not submit an enquiry.",
+    "s2t": "Enquiries are not offers",
+    "s2b": "An enquiry-form submission is an invitation to negotiate, not a binding order. MoTai is not obliged to respond to every enquiry, and no purchase is committed until a quotation is confirmed in writing by both parties.",
+    "s3t": "Quotations and pricing",
+    "s3b": "All prices are quote-based. Quotations list sizes, grits, packaging, trade terms and validity periods; final figures are settled at the confirmed specification and are subject to raw-material and freight movement.",
+    "s4t": "Intellectual property",
+    "s4b": "Site content, product descriptions, graphics and the MoTai brand are the property of MoTai Abrasives and may not be reproduced commercially. Third-party references (e.g. model sources) are for buyer orientation only and do not imply endorsement.",
+    "s5t": "Liability and governing law",
+    "s5b": "MoTai is not liable for decisions made in reliance on general information in this site. These terms are governed by the laws of the People's Republic of China; disputes are settled under the sales contract between the parties.",
+    "updated": "Last updated 3 November 2026"
+  },
+  "quotePage": {
+    "h1": "Start a wholesale conversation",
+    "sub": "Get factory-direct wholesale prices for abrasive products.",
+    "note": "This form requests a quotation and does not place an order. Fields marked * are required.",
+    "sec1": "Your business",
+    "f1": "Full name *",
+    "f2": "Company name *",
+    "f3": "Country *",
+    "f4": "Business email *",
+    "f5": "WhatsApp number",
+    "f6": "Business type *",
+    "opt1": "Importer",
+    "opt2": "Distributor",
+    "opt3": "Wholesaler",
+    "opt4": "OEM brand",
+    "opt5": "Industrial buyer",
+    "opt6": "Other",
+    "sec2": "Product requirements",
+    "f7": "Product category",
+    "f8": "Product model / reference",
+    "f9": "Size",
+    "f10": "Grit size",
+    "f11": "Material",
+    "f12": "Quantity",
+    "f13": "Packaging",
+    "f14": "Destination country *",
+    "f15": "OEM requirements",
+    "f16": "Additional message *",
+    "consent": "I agree to the Privacy Policy, the Terms of Use, and the use of my details to respond to this enquiry. *",
+    "btn1": "Request a Wholesale Quote",
+    "btn2": "Send enquiry via WhatsApp",
+    "goNote": "The form opens in our wholesale enquiry system with your product context pre-filled."
+  },
+  "clients": {
+    "h1": "Where MoTai shipments go",
+    "sub": "From Hubei to seven destination regions.",
+    "note": "Customer logos and testimonials below are placeholder slots — replace src/data/trust.json with published materials.",
+    "placeholderBadge": "Illustrative placeholder",
+    "statsTitle": "Supply at a glance",
+    "statsNote": "Certifications shown are placeholders pending published certificates."
+  },
+  "glossary": {
+    "h1": "Abrasives glossary",
+    "sub": "The terms behind every belt, disc and flap specification.",
+    "note": "Standard industry definitions for abrasive consumables; grade and backing details for an order are settled with the quotation.",
+    "reviewNote": "Terms are reviewed by the MoTai Abrasives technical team — last reviewed 3 November 2026."
+  },
+  "trust": {
+    "regions": "Destination regions",
+    "productLines": "Product lines",
+    "gritRange": "Grit coverage"
+  },
+  "video": {
+    "title": "Watch",
+    "cutting": {
+      "title": "Cutting & converting footage",
+      "desc": "Supplied product footage: abrasive sheet cutting and converting."
+    },
+    "sample": {
+      "title": "Sample checks footage",
+      "desc": "Supplied product footage: surface, backing and fit checks on a sample."
+    },
+    "oem": {
+      "title": "OEM packing footage",
+      "desc": "Pack quantities, labels, carton marks and private-label artwork."
+    },
+    "flap": {
+      "title": "Flap disc range footage",
+      "desc": "Plastic, steel and fiberglass backing flap discs in use."
+    }
+  },
+  "wa": {
+    "generic": "سلام MoTai، می‌خواهم استعلام عمده برای مواد ساینده داشته باشم.",
+    "product": "سلام MoTai، می‌خواهم استعلام عمده برای {name} ({grits}) داشته باشم.",
+    "model": "سلام MoTai، می‌خواهم استعلام عمده برای نوار ساینده مدل {model} داشته باشم.",
+    "disc": "سلام MoTai، می‌خواهم استعلام عمده برای {title} داشته باشم.",
+    "sample": "سلام MoTai، می‌خواهم یک نمونه {name} برای ارزیابی بخواهم.",
+    "factory": "سلام MoTai، می‌خواهم درباره جزئیات تولید و کیفیت با تیم شما گفتگو کنم.",
+    "oem": "سلام MoTai، می‌خواهم درباره یک برنامه ساینده OEM / برند اختصاصی گفتگو کنم.",
+    "contact": "سلام MoTai، می‌خواهم سفارش ساینده بعدی‌ام را با تیم شما بسازم."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Open chat",
+    "close": "Close",
+    "title": "MoTai — Live chat",
+    "status": "We reply on WhatsApp, usually within 24 hours.",
+    "greeting": "Hi! How can we help with your abrasive order? — MoTai sales team",
+    "placeholder": "Type your message…",
+    "send": "Send via WhatsApp",
+    "note": "This preview has no live server: sending opens WhatsApp with your message pre-filled. Replies continue in the WhatsApp conversation."
+  },
+  "location": {
+    "imgAlt": "MoTai factory building in Xianning, Hubei",
+    "imgCaption": "MoTai factory — Xianning, Hubei, China",
+    "mapTitle": "MoTai factory location on Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Before we start",
+    "moq": {
+      "q": "What is the minimum order quantity?",
+      "a": "MOQ comes back with the offer, alongside availability and terms."
+    },
+    "oem": {
+      "q": "Do you support OEM and private label?",
+      "a": "Yes. Logo, labels, custom sizes and packing are checked for feasibility, then confirmed with your offer."
+    },
+    "sizes": {
+      "q": "Which sizes and grits do you supply?",
+      "a": "Belts in documented sizes from 533 × 75 to 2200 × 1330 mm (grits 40–800); discs 3–6 inch (grits 60–5000). Custom requirements are reviewed with our team."
+    },
+    "samples": {
+      "q": "Can I get a sample first?",
+      "a": "Yes. Request a sample, and our sales team will confirm availability, charges and shipping arrangements."
+    },
+    "lead": {
+      "q": "What are the lead times?",
+      "a": "Lead time depends on specification and quantity, and is confirmed in your quotation."
+    },
+    "packaging": {
+      "q": "How are products packed?",
+      "a": "Pack quantities, labels, carton marks and private-label artwork are confirmed with the quotation."
+    },
+    "payment": {
+      "q": "Which payment terms do you offer?",
+      "a": "Payment terms are part of the confirmed quotation and commercial discussion."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Which specifications should I provide?",
+      "a": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options where available; other requirements will be reviewed with our team."
+    },
+    "oem": {
+      "q": "How do I request OEM packaging?",
+      "a": "Include your branding and packaging requirements in the enquiry. Details will be reviewed and confirmed with your quotation."
+    },
+    "order": {
+      "q": "Does requesting a quote place an order?",
+      "a": "No. The form starts a wholesale enquiry. Product specifications, availability and commercial terms are confirmed before an order is agreed."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europe",
+      "body": "Note size, grit, backing and product files; provide destination port and label language."
+    },
+    "na": {
+      "title": "North America",
+      "body": "State inch or metric sizing, attachment type and pack quantities; destination ZIP or port and transport mode."
+    },
+    "sa": {
+      "title": "South America",
+      "body": "Size, mixed-grit quantities and carton label language; destination port and importer documents."
+    },
+    "me": {
+      "title": "Middle East",
+      "body": "Material, grit and moisture-safe packaging; destination port and quotation terms."
+    },
+    "africa": {
+      "title": "Africa",
+      "body": "Machine compatibility, required sizes and pack quantities; destination port, carton marks and transport preference."
+    },
+    "oceania": {
+      "title": "Oceania",
+      "body": "Size, backing, packaging and destination ZIP or port; import and packing requirements."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Machine specification, grit range and order mix; delivery city or port and local-language labels."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metal Fabrication",
+      "intro": "Weld blending, deburring and metal surface preparation.",
+      "uses": "Weld blending · Deburring · Surface preparation",
+      "products": "Abrasive belts"
+    },
+    "wood": {
+      "title": "Woodworking & Furniture",
+      "intro": "Panels, furniture manufacturing and pre-lacquer surface preparation.",
+      "uses": "Panels · Furniture · Pre-lacquer prep",
+      "products": "Abrasive belts · Sanding discs"
+    },
+    "auto": {
+      "title": "Automotive Repair",
+      "intro": "Body-filler sanding, pre-spray preparation and automotive refinishing.",
+      "uses": "Body filler · Pre-spray · Refinishing",
+      "products": "Sanding discs"
+    },
+    "stainless": {
+      "title": "Stainless Steel Finishing",
+      "intro": "Hairline finishes, surface transitions and stainless steel fabrication.",
+      "uses": "Hairline · Transitions · Fabrication",
+      "products": "Abrasive belts"
+    },
+    "ship": {
+      "title": "Shipbuilding & Repair",
+      "intro": "Metal grinding, rust removal and marine maintenance surface preparation.",
+      "uses": "Grinding · Rust removal · Marine prep",
+      "products": "Abrasive belts"
+    },
+    "surface": {
+      "title": "Industrial Surface Preparation",
+      "intro": "Industrial surface treatment and maintenance work.",
+      "uses": "Surface treatment · Maintenance",
+      "products": "Sanding discs"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop or PSA: choose the right backing",
+      "intro": "The attachment system is as important as the grit. Match it to the pad before you order.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Hook & loop discs mount onto a compatible hook-faced pad and suit operations where grit is changed often. PSA discs rely on pressure-sensitive adhesive and need a clean, flat pad. The two systems are not interchangeable."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Confirm pad diameter, backing type and dust-extraction layout. A non-hole disc does not connect to a hole-based extraction pattern, and open-mesh discs need a compatible pad and extraction system."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Include disc diameter, backing, grit list, quantity per grit and workpiece material. Ask for a sample evaluation before approving a production order."
+      }
+    },
+    "beltChecklist": {
+      "title": "What to include in an abrasive belt enquiry",
+      "intro": "A clear specification helps your supplier review fit and prepare a useful quotation.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Give the belt length and width in millimetres. Name the machine model — a machine specification sheet or a photo of an old belt label helps."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Add workpiece material, preferred abrasive, grit, backing requirement and joint requirements. Avoid selecting a product using belt colour alone."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "List quantities by size and grit, packaging preferences, destination and the required delivery date. The final quotation confirms specification, availability, payment terms and transport arrangements."
+      }
+    },
+    "gritSequence": {
+      "title": "Planning a grit sequence for surface preparation",
+      "intro": "Start with the workpiece and required finish, then evaluate a sequence on a sample.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Coarse grits remove material quickly and leave deep scratches; fine grits refine the surface. The starting point depends on the substrate, defect depth and removal requirement."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Step down grits in order and inspect the workpiece at each stage. Skipping grits leaves scratches that are hard to remove, and cleaning between stages avoids coarse-grit contamination."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Grit numbering is not interchangeable between grading systems. Confirm the grading standard, abrasive type and availability in the quotation, and follow machine and abrasive safety instructions."
+      }
+    },
+    "dustCollection": {
+      "title": "Dust collection & pad compatibility, explained",
+      "intro": "Hole patterns, open-mesh discs and backer pads must match your extraction setup.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Identify your pad: number of holes, diameter and whether it is used with dust extraction. Non-hole discs and open-mesh discs behave differently from multi-hole discs."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Match disc hole layout to pad ports. Open-mesh discs need a compatible pad and a working extraction system; PSA discs need a clean pad face."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "List pad model, hole count, disc size and grit list, plus your dust-extraction arrangement. Confirm sample behaviour before a production order."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM labels & packaging: what to prepare",
+      "intro": "A complete brief keeps artwork, labels and cartons on schedule.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Prepare your logo and label artwork, target pack format (inner bags, cartons), label language and destination-country labelling rules."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Attach artwork, specify pack quantities and carton marks, and state destination and timing. Sample approval comes before production."
+      }
+    },
+    "gritStandards": {
+      "title": "Grit standards: FEPA, ANSI and what your list means",
+      "intro": "Grading systems are not interchangeable — name the standard in every enquiry.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "FEPA (ISO 848) and the older ANSI scale number similar sizes differently; a P120 and a 120-grit are not always the same. Name the standard you buy to."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Confirm grading standard, abrasive type and availability per grade in the quotation. Do not mix grading systems in one grit list."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "State the standard (e.g. FEPA P60–P800), quantity per grade and destination. Confirm the final grade list with the quotation before ordering."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "The most common abrasive grain for belts and discs: tough, workable, suited to metal, wood and general finishing."
+    },
+    "ansi": {
+      "def": "Legacy North American grit numbering. Similar-size grains differ from the FEPA scale — name the standard in every enquiry."
+    },
+    "backing-cloth": {
+      "def": "A cotton/cloth web that carries the abrasive grain on belts. Weight (e.g. X-weight) sets flexibility and load capacity."
+    },
+    "backing-poly": {
+      "def": "Poly-cotton web backing: a balance of strength and flexibility for general-purpose belts."
+    },
+    "belt": {
+      "def": "A continuous loop of abrasive grain on a web backing, used on belt machines for grinding, finishing and deburring."
+    },
+    "blend": {
+      "def": "Smoothing a weld so it blends into the surrounding metal — typically a first pass on a flap disc or belt, then finer grits."
+    },
+    "closed": {
+      "def": "A close-coated grain layout with little open space; the belt resists clogging on harder work."
+    },
+    "debur": {
+      "def": "Removing burrs and small protrusions left by cutting, sawing or grinding."
+    },
+    "dust": {
+      "def": "Removing abrasive dust at the workpiece — via pad ports, open-mesh discs or local extraction."
+    },
+    "flap": {
+      "def": "A disc of overlapping abrasive flaps, flexible, for grinding, blending and finishing on angle grinders."
+    },
+    "fepa": {
+      "def": "The ISO 848 (FEPA) grading scale in P-notation (e.g. P120). The default scale in most European and international trade."
+    },
+    "grit": {
+      "def": "The nominal grain size of an abrasive: higher numbers are finer. Belts 40–800; discs 60–5000."
+    },
+    "hookloop": {
+      "def": "The hook-and-loop attachment system for discs: the disc snaps onto a hook-faced pad."
+    },
+    "mesh": {
+      "def": "Open-mesh discs have cut-out windows for dust to pass through, needing a compatible pad and extraction."
+    },
+    "moq": {
+      "def": "Minimum order quantity — comes with the offer, alongside availability and terms."
+    },
+    "oem": {
+      "def": "Original equipment manufacturing / private label: our products under your brand, labels and packaging."
+    },
+    "psa": {
+      "def": "Pressure-sensitive adhesive backing: the disc sticks directly onto a compatible pad."
+    },
+    "disc": {
+      "def": "A flat or flapped abrasive circle mounted on a pad for sanding and finishing."
+    },
+    "sic": {
+      "def": "Silicon carbide grain: very hard, sharp, suited to glass, ceramics and non-ferrous metals."
+    },
+    "prep": {
+      "def": "Getting a surface ready for coating or finishing: removing rust, filler or old finish to a consistent profile."
+    },
+    "wetdry": {
+      "def": "Grades that stay cool and clog-resistant in wet or wet/dry use; confirm suitability with the quotation."
+    },
+    "xweight": {
+      "def": "A mid-weight cloth backing for general-purpose belts: strong yet flexible."
+    },
+    "zirconia": {
+      "def": "Zirconia alumina grain: tough and aggressive for metal grinding, deburring and finishing on steel."
+    },
+    "pad": {
+      "def": "The backing plate a disc sits on: pad diameter, face (hook) and port layout must match the disc."
+    }
+  },
+  "footer": {
+    "blurb": "مواد مصرفی ساینده برای خریداران صنعتی، توزیع‌کنندگان و برندهای اختصاصی.",
+    "products": "محصولات",
+    "explore": "کاوش MoTai",
+    "connect": "راه‌گسیاری ما",
+    "aboutUs": "درباره ما",
+    "mfgQ": "تولید و کیفیت",
+    "oemPl": "OEM و برند اختصاصی",
+    "newsB": "اخبار و وبلاگ",
+    "privacy": "سیاست حفظ حریم",
+    "terms": "شرایط استفاده",
+    "contactUs": "تماس با ما"
+  },
+  "tdk": {
+    "home": {
+      "title": "تولیدکننده ساینده و تأمین‌کننده ساینده صنعتی | MoTai",
+      "description": "تولیدکننده حرفه‌ای ساینده در چین، ارائه‌دهنده نوارهای ساینده، دیسک‌های سنباده و دیسک‌های فلپ. عمده مستقیماً از کارخانه، سفارشی‌سازی OEM و راه‌حل‌های ساینده صنعتی برای توزیع‌کنندگان و خریداران جهانی.",
+      "keywords": "تولیدکننده ساینده, تأمین‌کننده ساینده, ساینده صنعتی, نوارهای ساینده, دیسک‌های سنباده, دیسک‌های فلپ, تولیدکننده نوار ساینده, عمده ساینده"
+    },
+    "about": {
+      "title": "درباره MoTai — تولیدکننده و کارخانه ساینده در هوبئی، چین",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. یک تولیدکننده ساینده پوششی در شیانیانگ، هوبئی است: نوارهای ساینده، دیسک‌های سنباده و دیسک‌های فلپ با OEM، اندازه‌سازی سفارشی، ارائه عمده و صادرات.",
+      "keywords": "تولیدکننده ساینده چین, تأمین‌کننده ساینده چین, کارخانه ساینده, تولیدکننده ساینده پوششی, صادرکننده مواد ساینده, تأمین‌کننده B2B ساینده"
+    },
+    "factory": {
+      "title": "تولید ساینده و کنترل کیفیت — کارخانه MoTai در هوبئی",
+      "description": "در داخل کارگاه ساینده MoTai: تبدیل و برش، بررسی نمونه‌ها، کنترل کیفیت و بسته‌بندی OEM برای نوارهای ساینده، دیسک‌های سنباده و دیسک‌های فلپ.",
+      "keywords": "تولید ساینده, کنترل کیفیت کارخانه ساینده, تبدیل ساینده, بسته‌بندی OEM ساینده"
+    },
+    "oem": {
+      "title": "تولیدکننده OEM ساینده و برند اختصاصی | MoTai",
+      "description": "تولید ساینده OEM و برند اختصاصی: لوگو، برچسب‌ها، ابعاد و بسته‌بندی شما روی نوارها، دیسک‌ها و دیسک‌های فلپ MoTai، تخمین‌شده بر اساس مشخصات تأییدشده.",
+      "keywords": "تولیدکننده OEM ساینده, ساینده برند اختصاصی, محصولات ساینده سفارشی, تأمین‌کننده OEM ساینده"
+    },
+    "applications": {
+      "title": "ساینده صنعتی بر اساس کاربرد — فلز، چوب، خودرو و غیره",
+      "description": "نوارهای ساینده، دیسک‌های سنباده و دیسک‌های فلپ MoTai را با کاربرد خود هماهنگ کنید: سایش فلز، سنباده زنی چوب، بدنه خودرو، تمیزی فلزات ضدزنگ، کشتیسازی و آماده‌سازی سطح.",
+      "keywords": "کاربرد ساینده, سایش فلز, سنباده زنی چوب, آماده‌سازی سطح, آماده‌سازی سطح صنعتی"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "ساینده ساخت فلز — سایش و حاشیه‌زدایی | MoTai",
+        "description": "ساینده برای ساخت فلز: سایش فلز، حاشیه‌زدایی و سایش درز جوش با نوارهای ساینده، مش و دیسک‌های فلپ MoTai.",
+        "keywords": "ساینده ساخت فلز, سایش فلز, حاشیه‌زدایی فلز, سایش درز جوش"
+      },
+      "woodworking": {
+        "title": "ساینده کار چوب و سنباده زنی نوار پهن | MoTai",
+        "description": "ساینده برای کار چوب و مبلمان: سنباده زنی نوار پهن، تخته چوبی و MDF با نوارهای ساینده و دیسک‌های MoTai.",
+        "keywords": "ساینده چوب, سنباده زنی نوار پهن, سنباده زنی چوب, سنباده زنی مبلمان"
+      },
+      "automotive": {
+        "title": "سنباده زنی تعمیر خودرو — بدنه و رنگ | MoTai",
+        "description": "ساینده برای تعمیر خودرو: سنباده زنی بدنه، رنگ و پرایمر خودرو با دیسک‌های PSA و چنگک‌دار و حلقه‌دار MoTai.",
+        "keywords": "ساینده خودرو, سنباده زنی بدنه, سنباده زنی رنگ, سنباده زنی پرایمر"
+      },
+      "stainless-steel": {
+        "title": "ساینده تمیزی و پالش فولاد ضدزنگ | MoTai",
+        "description": "ساینده برای فولاد ضدزنگ: پالش فلز، سایش سطح و تمیزی با دیسک‌های فلپ و نوارهای MoTai.",
+        "keywords": "تمیزی فولاد ضدزنگ, پالش فلز, سایش سطح, ساینده ضدزنگ"
+      },
+      "shipbuilding": {
+        "title": "ساینده کشتیسازی — ورق فولادی و زنگ‌زدایی | MoTai",
+        "description": "سایندهسنگین برای کشتیسازی: سایش ورق فولادی، زنگ‌زدایی و آماده‌سازی سطح صنعتی با نوارها و دیسک‌های فلپ MoTai.",
+        "keywords": "ساینده کشتیسازی, سایش ورق فولادی, زنگ‌زدایی, سایشسنگین"
+      },
+      "surface-preparation": {
+        "title": "ساینده آماده‌سازی سطح صنعتی و سایش | MoTai",
+        "description": "راه‌حل‌های ساینده صنعتی برای آماده‌سازی سطح، تمیزی سطح و سایشسنگین در نوارها، دیسک‌ها و دیسک‌های فلپ MoTai.",
+        "keywords": "آماده‌سازی سطح, تمیزی سطح, سایش صنعتی, راه‌حل‌های ساینده"
+      }
+    },
+    "blog": {
+      "title": "راهنمای خرید ساینده و استانداردهای زبری | دانش MoTai",
+      "description": "منابع عملی برای خریداران ساینده: انتخاب پشت دیسک، چک‌لیست استعلام نوار، توالی زبری، گردگیری و استانداردهای زبری (FEPA/ANSI).",
+      "keywords": "راهنمای خرید ساینده, انتخاب زبری, واژه‌نامه ساینده, استانداردهای زبری FEPA ANSI"
+    },
+    "contact": {
+      "title": "تماس با MoTai — تأمین‌کننده ساینده در چین",
+      "description": "با تأمین‌کننده ساینده MoTai در شیانیانگ، هوبئی تماس بگیرید: تلفن، رایانامه و واتس‌اپ برای استعلام‌های عمده و OEM ساینده، به‌علاوه بازدید از کارخانه.",
+      "keywords": "تماس با تأمین‌کننده ساینده, استعلام عمده ساینده, تولیدکننده ساینده چین"
+    },
+    "privacy": {
+      "title": "سیاست حفظ حریم",
+      "description": "MoTai Abrasives اطلاعات استعلام را چگونه استفاده می‌کند: جمع‌آوری، هدف، ذخیره، انتخاب‌های شما و مدیریت کوکی.",
+      "keywords": "سیاست حفظ حریم, MoTai"
+    },
+    "terms": {
+      "title": "شرایط استفاده — MoTai Abrasives",
+      "description": "شرایط این وب‌سایت B2B ساینده: پردازش استعلام، قیمت‌گذاری بر اساس پیش‌نویس، مالکیت فکری و قانون حاکم.",
+      "keywords": [
+        "شرایط استفاده",
+        "MoTai",
+        "تأمین‌کننده B2B ساینده"
+      ]
+    },
+    "quote": {
+      "title": "درخواست پیش‌نویس عمده ساینده | MoTai",
+      "description": "استعلام عمده یا OEM ساینده خود را آماده کنید: جزئیات کسب‌وکار به‌علاوه محصول، اندازه، زبری، مقدار و مقصد. تأمین عمده ساینده مستقیم از کارخانه.",
+      "keywords": "پیش‌نویس عمده ساینده, تأمین عمده ساینده, استعلام OEM ساینده, عمده ساینده"
+    },
+    "clients": {
+      "title": "صادرکننده محصولات ساینده — تأمین جهانی از هوبئی، چین | MoTai",
+      "description": "MoTai نوارهای ساینده، دیسک‌های سنباده و دیسک‌های فلپ را به هفت منطقه مقصد صادر می‌کند: اروپا، قاره آمریکا، خاورمیانه، آفریقا، اقیانوسیه و آسیا.",
+      "keywords": "صادرکننده محصولات ساینده, صادرات ساینده, تأمین جهانی ساینده, تأمین‌کننده ساینده صنعتی"
+    },
+    "glossary": {
+      "title": "واژه‌نامه ساینده — زبری، پشت، اصطلاحات دیسک",
+      "description": "۲۴ اصطلاح ساینده تعریف‌شده: زبری FEPA، پشت‌ها، چنگک‌دار و حلقه‌دار، PSA، مشبک، حاشیه‌زدایی و غیره.",
+      "keywords": "واژه‌نامه ساینده, استانداردهای زبری, اصطلاحات ساینده"
+    },
+    "product": {
+      "title": "MoTai {name} — عمده و OEM ساینده",
+      "description": "MoTai {name} ({material}, {category}): {desc} ابعاد: {sizes}. زبری: {grits}. عمده مستقیم از کارخانه و تأمین OEM.",
+      "keywords": "{name}, تولیدکننده {category}, ساینده {material}, عمده ساینده, ساینده OEM"
+    },
+    "model": {
+      "title": "نوار ساینده {model} — MoTai",
+      "description": "نوار ساینده مرجع {model} از مجموعه MoTai — عرض، طول، زبری و پشت در پیش‌نویس تعیین می‌شود. عمده و تأمین OEM.",
+      "keywords": "نوار ساینده {model}, مرجع مدل نوار ساینده, نوارهای ساینده عمده"
+    },
+    "disc": {
+      "title": "MoTai {title} — عمده و OEM",
+      "description": "نسخه دیسک MoTai {title}: محدوده زبری، قطر و اتصال در پیش‌نویس تعیین می‌شود. عمده مستقیم از کارخانه و OEM.",
+      "keywords": "دیسک سنباده, دیسک چنگک‌دار و حلقه‌دار, دیسک PSA, دیسک مشبک, دیسک‌های سنباده عمده"
+    },
+    "flap": {
+      "title": "MoTai {name} — تولیدکننده دیسک فلپ",
+      "description": "MoTai {name}: یک دیسک ساینده فلپ با پشت {backing} برای سایش، پُرکردن و تمیزی فلز. عمده و تأمین OEM.",
+      "keywords": "دیسک فلپ, دیسک فلپ با پشت {backing}, دیسک فلپ زیرکونیا, تولیدکننده دیسک فلپ, دیسک‌های فلپ عمده"
+    },
+    "colt": {
+      "belts": {
+        "title": "تولیدکننده و تأمین‌کننده عمده نوارهای ساینده | MoTai",
+        "description": "نوارهای ساینده پهن و صنعتی 533×75 تا 2200×1330 میلی‌متر، زبری 40–800، از اکسید آلومینیوم، زیرکونیا و کاربید سیلیسیم — همراه با مدل‌های مرجع GXK-51، XZ-330، GPC71 و غیره. عمده مستقیم از کارخانه و OEM.",
+        "keywords": "نوارهای ساینده, نوارهای سنباده, نوارهای سنباده صنعتی, نوارهای ساینده پهن, نوارهای سنباده پهن, نوارهای سنباده چوب, نوارهای سنباده فلز, نوارهای ساینده اکسید آلومینیوم, نوارهای ساینده زیرکونیا, نوارهای ساینده کاربید سیلیسیم, تولیدکننده نوار ساینده, تأمین‌کننده نوار ساینده, نوارهای ساینده عمده, نوار ساینده GXK-51, نوار ساینده XZ-330, نوار ساینده GPC71, نوار ساینده Y399, نوار ساینده Y999, نوار ساینده 533x75, نوار ساینده 610x100, نوار ساینده 1520x630, نوار ساینده 2200x1330"
+      },
+      "discs": {
+        "title": "تولیدکننده دیسک سنباده — PSA، چنگک‌دار و مشبک | MoTai",
+        "description": "دیسک‌های سنباده چنگک‌دار، PSA، مشبک و بدون سوراخ از ۳ تا ۶ اینچ، زبری 60–5000، برای بدنه خودرو، چوب و تمیزی فلز. عمده مستقیم از کارخانه و OEM.",
+        "keywords": "دیسک‌های سنباده, دیسک‌های ساینده سنباده, دیسک‌های سنباده چنگک‌دار و حلقه‌دار, دیسک‌های سنباده PSA, دیسک‌های سنباده مشبک, دیسک‌های سنباده بدون بافت, دیسک‌های سنباده بدون گردو, دیسک‌های سنباده با حفره, دیسک‌های سنباده ۵ اینچ, دیسک‌های سنباده ۶ اینچ, تولیدکننده دیسک سنباده, دیسک‌های سنباده عمده"
+      },
+      "flap": {
+        "title": "تولیدکننده دیسک فلپ — زیرکونیا و اکسید آلومینیوم | MoTai",
+        "description": "دیسک‌های فلپ ساینده MoTai با پشت پلاستیکی، فولادی و شیشه‌‌پلاستیک، در زیرکونیا و اکسید آلومینیوم، برای سایش، حاشیه‌زدایی و تمیزی فلز. عمده و تأمین OEM.",
+        "keywords": "دیسک‌های فلپ, دیسک‌های ساینده فلپ, دیسک‌های فلپ زیرکونیا, دیسک‌های فلپ اکسید آلومینیوم, دیسک‌های فلپ پشت شیشه‌‌پلاستیک, دیسک‌های فلپ پشت پلاستیکی, دیسک‌های فلپ پشت فولادی, دیسک‌های فلپ 100 میلی‌متر, دیسک‌های فلپ 115 میلی‌متر, دیسک‌های فلپ 125 میلی‌متر, دیسک‌های فلپ 150 میلی‌متر, دیسک‌های فلپ 180 میلی‌متر, تولیدکننده دیسک فلپ, تأمین‌کننده دیسک فلپ, دیسک‌های فلپ عمده"
+      },
+      "all": {
+        "title": "محصولات ساینده عمده — نوارها، دیسک‌ها و دیسک‌های فلپ | MoTai",
+        "description": "کاتالوگ کامل مواد ساینده MoTai: نوارهای ساینده صنعتی، دیسک‌های سنباده و دیسک‌های فلپ برای توزیع‌کنندگان، واردکنندگان، عمده‌فروشان و برندهای OEM. عمده مستقیم از کارخانه، سفارشی‌سازی و صادرات از هوبئی، چین.",
+        "keywords": "محصولات ساینده, محصولات ساینده عمده, ساینده صنعتی, ساینده پوششی, عمده ساینده, کارخانه محصولات ساینده, صادرکننده محصولات ساینده, تأمین‌کننده ساینده چین, تولیدکننده OEM ساینده, ساینده برند اختصاصی, محصولات ساینده سفارشی, تأمین عمده ساینده, کارخانه ساینده, ابزار ساینده, مواد ساینده, محصولات سنباده زنی, محصولات تمیزی سطح, کاغذ سنباده, برگه‌های کاغذ سنباده, کاغذ سنباده گرد, کاغذ سنباده عمده, پایه سنباده, پایه سنباده چنگک‌دار و حلقه‌دار, پایه سنباده ۵ اینچ, پایه سنباده ۶ اینچ, پره فلپ بدون بافت, پارچه ساینده, برس رول صنعتی"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "تماس سریع",
+    "whatsapp": "واتس‌اپ",
+    "quote": "درخواست پیش‌نویس"
+  }
+}

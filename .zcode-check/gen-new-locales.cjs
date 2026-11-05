@@ -27,7 +27,7 @@ const I18N = path.join(root, 'src', 'i18n')
 const DATA = path.join(__dirname, 'locales-v2')
 const en = JSON.parse(fs.readFileSync(path.join(I18N, 'en.json'), 'utf8'))
 
-const CODES = ['hi', 'zh-Hant', 'sv', 'da', 'no', 'fi', 'th', 'vi', 'id', 'ms', 'pl', 'cs', 'sk']
+const CODES = ['hi', 'zh-Hant', 'sv', 'da', 'no', 'fi', 'th', 'vi', 'id', 'ms', 'pl', 'cs', 'sk', 'he', 'tr', 'fa']
 const ID_KEYS = ['code', 'name', 'codeLabel', 'htmlLang', 'ogLocale', 'rtl']
 
 // Recursively apply a payload (either flat dotted-key or nested-block JSON)
