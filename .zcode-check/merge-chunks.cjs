@@ -57,15 +57,27 @@ for (const code of codes) {
   const files = fs.readdirSync(TAILS).filter((f) => new RegExp('^' + code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\.p[0-9a-z]+\\.out\\.json$').test(f)).sort()
   const missing = []
   const mergedTail = {}
+  const conflicts = []
   for (const f of files) {
     const o = JSON.parse(fs.readFileSync(path.join(TAILS, f), 'utf8'))
     for (const [k, v] of Object.entries(o)) {
-      if (mergedTail[k] !== undefined) continue
+      if (mergedTail[k] !== undefined) {
+        // Same key translated twice with different wording — silently taking
+        // the first would ship whichever chunk happened to sort earlier.
+        if (mergedTail[k] !== v) conflicts.push(`${k} (${f})`)
+        continue
+      }
       mergedTail[k] = v
     }
   }
   // which worklist keys are still uncovered
   for (const k of Object.keys(work)) if (!(k in mergedTail)) missing.push(k)
+
+  if (conflicts.length) {
+    console.log(`${code}: CONFLICT — ${conflicts.length} key(s) translated differently in two chunks: ${conflicts.slice(0, 5).join(', ')}`)
+    console.log(`${code}: resolve the conflicting chunks (delete the stale one) and re-run`)
+    continue
+  }
 
   if (missing.length) {
     console.log(`${code}: INCOMPLETE — ${Object.keys(mergedTail).length}/${Object.keys(work).length} keys (${files.length} chunk files); still missing e.g. ${missing.slice(0, 4).join(', ')}`)

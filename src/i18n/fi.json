@@ -162,36 +162,36 @@
     "disclaimer": "Malliperheen tiedot ovat valintaa varten; MoTain toimitusspecifikaatio, saatavuus ja soveltuvuus vahvistetaan tarjouksen yhteydessä."
   },
   "discPage": {
-    "eyebrow": "Hiomapaperit · Dokumentoitu variantti",
-    "gritsNote": "Karkeusvaihtoehdot tälle variantille"
+    "eyebrow": "Hiomapaperit · Dokumentoitu versio",
+    "gritsNote": "Karkeusvaihtoehdot tälle versiolle"
   },
   "flapPage": {
-    "eyebrow": "Hiomapalat · Pohjavariantti",
+    "eyebrow": "Hiomapalat · Pohjaversio",
     "color": "Väri",
-    "gritNote": "P40–P60 ja P80–P120 ovat yleisiä valintavaihtoehtoja, eivät vahvistettu MoTain toimitusvalikoima."
+    "gritNote": "P40–P60 ja P80–P120 ovat yleisiä valintatapoja, eivät vahvistettu MoTain toimitusvalikoima."
   },
   "productPage": {
     "specTitle": "Tekniset tiedot",
-    "howTitle": "Miten tilaus määritellään",
-    "howBody": "Ilmoittakaa hihnan tai levyn koko, karkeuslista, koneen malli, työstettävän materiaali ja määrä. Selkeä määritys auttaa meitä arvioimaan sopivuutta ja valmistelemaan hyödyllisen tarjouksen — älkää valitse tuotetta ainoastaan värin perusteella.",
+    "howTitle": "Tilauksen määrittely",
+    "howBody": "Ilmoittakaa hihnan tai levyn koko, karkeusluettelo, koneen malli, työstettävän materiaali ja määrä. Selkeä erittely helpottaa soveltuvuuden tarkistamista ja hyödyllisen tarjouksen laatimista — välttäkää tuotteen valintaa ainoastaan värin perusteella.",
     "faqTitle": "Ostajien kysymyksiä"
   },
   "about": {
-    "h1": "Hiomatuotevalikoiman takana oleva yritys",
-    "sub": "Harkittu tapa toimittaa hiomatuotteita.",
+    "h1": "Hiomatuotteiden takana oleva yritys",
+    "sub": "Huolellinen lähestymistapa hioma-ainetoimitukseen.",
     "bizTitle": "Toimintamme",
-    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. toimittaa hiomatuotteita puuntyöstöön, metallityöstöön ja autoteollisuuden sovelluksiin. Dokumentoidut valikoimat sisältävät reittömät hiomapaperit, verkkopohjaiset hiomapaperit ja punaiset hiomahihnat. Otamme vastaan tiedusteluja tuojiilta, jakelijoilta, tukkureilta ja teollisuusostajilta — tuote, pohja, koko, laatu, määrä ja toimitusvaatimukset.",
-    "matTitle": "Yrityksen aineistot",
-    "matBody": "Tutustukaa yrityksen taustatietoihin ja yhteystietoihin esitteessämme.",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. toimittaa hioma-aineita puu-, metalli- ja autoteollisuuden sovelluksiin. Dokumentoituihin valikoimiin kuuluvat reittömät hiomapaperit, verkkopohjaiset hiomapaperit ja punaiset hiomahihnat. Otamme vastaan tiedusteluja maahantuojilta, jakelijoilta, tukkukauppiailta ja teollisuusostajilta — tuote-, pohja-, koko-, karkeus-, määrä- ja toimitusvaatimukset.",
+    "matTitle": "Yritysmateriaalit",
+    "matBody": "Tutustukaa yrityksen taustaan ja yhteystietoihin esitteessämme.",
     "globalTitle": "Hubeista markkinoillenne",
-    "globalSub": "Maailmanlaajuinen toimitus järjestettynä kohdealueen mukaan.",
+    "globalSub": "Maailmanlaajuinen toimitus järjestetty kohdealueen mukaan.",
     "facTitle": "Tehtaan sijainti Hubeissa",
-    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Sopikaa tehtaanvierailu tiimimme kanssa ja vahvistakaa tapaamispaikka ennen matkaa.",
-    "profileName": "Lyhyesti",
-    "profileBody": "Päällystettyjen hiomatuotteiden valmistaja Xianningissa, Hubeissa: kolme tuotelinjaa seitsemälle kohdealueelle, karkeusvalikoima 40–5000.",
-    "ctaTitle": "Etsitkö luotettavaa hiomatuotteiden toimittajaa?",
-    "cta1": "Pyytäkää tukkutarjous",
-    "cta2": "Ottakaa yhteyttä WhatsApilla"
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Sopikaa tiimimme kanssa tehtasikäynti ja varmistakaa tapaamispaikka ennen matkustamista.",
+    "profileName": "Yhdellä silmäyksellä",
+    "profileBody": "Päällystettyjen hioma-aineiden valmistaja Xianningissa, Hubeissa: kolme tuotelinjaa toimitetaan seitsemään kohdealueelle, karkeusvalikoima 40–5000.",
+    "ctaTitle": "Etsitkö luotettavaa hioma-ainetoimittajaa?",
+    "cta1": "Pyydä tukkutarjous",
+    "cta2": "Ota yhteyttä WhatsApilla"
   },
   "factory": {
     "h1": "MoTain työpajassa",
@@ -254,34 +254,34 @@
     "cta2": "Ottakaa yhteyttä WhatsAppilla"
   },
   "applications": {
-    "h1": "Hiomatuotteet teollisuudenalueellenne",
-    "sub": "Pinta määrää määrityksen.",
-    "intro": "Kuusi sovelluskenttää. Ilmoittakaa materiaali, kone ja vaadittu viimeistely — sovitamme hiomatuotteen.",
-    "ctaNote": "Jotkut kuvat ovat tekoälyllä generoituja sovelluspiirroksia, eivätkä MoTain tehtaan tai asiakkaiden valokuvia.",
-    "sampleNote": "Ilmoittakaa toimialanne, maa, tuotteen määritys ja arvioitu tilausmäärä pyytäessänne tarjousta.",
-    "reqTitle": "Suositellut tuotteet",
-    "reqNote": "Suuntaa antavat tuoteryhmät tälle alalle. Vahvistakaa koot, karkeukset ja määrät tarjouksen yhteydessä.",
-    "specTitle": "Vinkkejä määritykseen",
+    "h1": "Hioma-aineet teollisuusalallenne",
+    "sub": "Pinta määrää erittelyn.",
+    "intro": "Kuusi sovellusalaa. Ilmoittakaa materiaali, kone ja haluttu lopputulos — sovitamme oikean hioma-aineen.",
+    "ctaNote": "Jotkut kuvat ovat tekoälyllä generoituja sovelluskuvia, eivät MoTain tehtaan tai asiakkaiden valokuvia.",
+    "sampleNote": "Ilmoittakaa toimiala, maa, tuotteen erittely ja arvioitu tilamäärä pyytäessänne tarjousta.",
+    "reqTitle": "Suositeltavat tuotteet",
+    "reqNote": "Ohjeelliset tuoteryhmät tälle alalle. Vahvistakaa koot, karkeukset ja määrät tarjouksen yhteydessä.",
+    "specTitle": "Erittelyvinkit",
     "faqTitle": "Usein kysytyt kysymykset",
     "faqs": [
       {
-        "q": "Millä karkeuksella kannattaa aloittaa?",
-        "a": "Aloittakaa työstettävän materiaalin, vikojen syvyyden ja vaaditun viimeistelyn mukaan — karkea karkeus poistaa materiaalia nopeasti, minkä jälkeen siirtykää hienompiin karkeuksiin ja tarkistakaa pinta jokaisessa vaiheessa."
+        "q": "Millä karkeuksella aloitan?",
+        "a": "Aloittakaa työstettävän materiaalin, virheiden syvyyden ja halutun lopputulon perusteella — karkea laatu poistaa materiaalia nopeasti, minkä jälkeen siirtykää hienompiin karkeuksiin ja tarkistakaa pinta jokaisessa vaiheessa."
       },
       {
         "q": "Voinko yhdistää eri karkeuksia yhteen tilaukseen?",
-        "a": "Kyllä — luetelkaa karkeukset ja kunkin karkeuden määrä; saatavuus ja toimitusaika ilmoitetaan tarjouksen yhteydessä."
+        "a": "Kyllä — luettele karkeukset ja kunkin laadun määrät; saatavuus ja toimitusaika ilmoitetaan tarjouksen mukana."
       }
     ],
-    "ctaTitle": "Määritelläänkö tuotteita alanne osalta?",
-    "cta1": "Pyytäkää tukkutarjous",
-    "cta2": "Ottakaa yhteyttä WhatsApilla"
+    "ctaTitle": "Eritteletkö tuotteita alanne osalta?",
+    "cta1": "Pyydä tukkutarjous",
+    "cta2": "Ota yhteyttä WhatsApilla"
   },
   "blogIndex": {
     "h1": "Parempi tieto. Parempi valinta.",
-    "sub": "Käytännöllisiä ostoresursseja hiomatuotteiden määritysten käsittelyyn.",
+    "sub": "Käytännönläheisiä ostoresursseja hioma-aineiden erittelyjen käsittelyyn.",
     "updatedLabel": "Päivitetty",
-    "governance": "Oppaat kirjoittaa ja tarkastaa MoTai Abrasivesin tekninen tiimi, ja ne tarkistetaan uudelleen, kun tuotemääritykset muuttuvat."
+    "governance": "Oppaat kirjoittaa ja tarkastaa MoTai Abrasives -tekninen tiimi, ja ne tarkastetaan uudelleen, kun tuotteen erittelyt muuttuvat."
   },
   "article": {
     "watchTitle": "Katso",
@@ -295,16 +295,16 @@
     "tocTitle": "Sivulla"
   },
   "contact": {
-    "h1": "Aloittakaa tukkukeskustelu",
-    "sub": "Saatte hiomatuotteiden hinnat suoraan tehtaalta tukkuhintoina.",
-    "directTitle": "Keskustelu. Parempi määritys.",
-    "directBody": "Ilmoittakaa tuotteenne, määrä ja käyttökohte. Arvioimme vaatimuksenne ja autamme seuraavaan vaiheeseen.",
+    "h1": "Aloittakaa tukkukauppakeskustelu",
+    "sub": "Hiomatuotteiden tukkuhinnat suoraan tehtaasta.",
+    "directTitle": "Keskustelu. Tarkempi erittely.",
+    "directBody": "Kerrotaan tuotteesta, määrästä ja sovelluksesta. Tarkastamme vaatimuksenne ja autamme teitä seuraavassa vaiheessa.",
     "facTitle": "Tehtaan sijainti Hubeissa",
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
-    "facNote": "Vahvistakaa tarkka vierailuosoite tiimimme kanssa ennen matkaa.",
-    "visit": "Sopikaa tehtaanvierailu",
+    "facNote": "Varmistakaa tarkka käyntiosoite tiimimme kanssa ennen matkustamista.",
+    "visit": "Järjestä tehtasikäynti",
     "formTitle": "Tukku- / OEM-tiedustelu",
-    "formNote": "Tällä lomakkeella pyydetään tarjousta, eikä se tee tilausta. Tiedustelut välittyvät myyntitiimimme postilaatikkaan; määritykset ja kauppuehdot sovitaan tarjouksen yhteydessä.",
+    "formNote": "Tämä lomake pyytää tarjouksen eikä tee tilausta. Tiedustelut välittyvät myynnin postilaatikolle; erittelyt ja kaupalliset ehdot vahvistetaan tarjouksen yhteydessä.",
     "btn": "Avaa tiedustelulomake ↗"
   },
   "privacy": {
@@ -338,25 +338,25 @@
     "updated": "Viimeksi päivitetty 3. marraskuuta 2026"
   },
   "quotePage": {
-    "h1": "Aloittakaa tukkukeskustelu",
-    "sub": "Saatte hiomatuotteiden hinnat suoraan tehtaalta tukkuhintoina.",
-    "note": "Tällä lomakkeella pyydetään tarjous, eikä se tee tilausta. Tähdellä * merkityt kentät ovat pakollisia.",
-    "sec1": "Yrityksenne",
+    "h1": "Aloittakaa tukkukauppakeskustelu",
+    "sub": "Hiomatuotteiden tukkuhinnat suoraan tehtaasta.",
+    "note": "Tämä lomake pyytää tarjouksen eikä tee tilausta. Tähdellä * merkityt kentät ovat pakollisia.",
+    "sec1": "Liikkeenne",
     "f1": "Koko nimi *",
     "f2": "Yrityksen nimi *",
     "f3": "Maa *",
     "f4": "Työsähköposti *",
     "f5": "WhatsApp-numero",
     "f6": "Toimintatyyppi *",
-    "opt1": "Tuoja",
+    "opt1": "Maahantuoja",
     "opt2": "Jakelija",
-    "opt3": "Tukkuri",
+    "opt3": "Tukkukauppias",
     "opt4": "OEM-brändi",
     "opt5": "Teollisuusostaja",
     "opt6": "Muu",
     "sec2": "Tuotevaatimukset",
-    "f7": "Tuoteryhmä",
-    "f8": "Tuotteen malli / viitetoiminto",
+    "f7": "Tuoteluokka",
+    "f8": "Tuotteen malli / viite",
     "f9": "Koko",
     "f10": "Karkeus",
     "f11": "Materiaali",
@@ -365,10 +365,10 @@
     "f14": "Kohdemaa *",
     "f15": "OEM-vaatimukset",
     "f16": "Lisätiedot *",
-    "consent": "Hyväksyn tietosuojakäytännön, käyttöehdot sekä tietojeni käsittelyn tähän tiedusteluun vastaamiseksi. *",
-    "btn1": "Pyytäkää tukkutarjous",
-    "btn2": "Lähettäkää tiedustelu WhatsApilla",
-    "goNote": "Lomake avautuu tukkutiedustelujärjestelmään, jolloin tuotetiedot on esitäytetty."
+    "consent": "Hyväksyn tietosuojakäytännön, käyttöehdot sekä tietojeni käytön tähän tiedusteluun vastaamiseksi. *",
+    "btn1": "Pyydä tukkutarjous",
+    "btn2": "Lähetä tiedustelu WhatsApilla",
+    "goNote": "Lomake avautuu tukkutiedustelujärjestelmään, jolloin tuotetietojanne on esitäytettynä."
   },
   "clients": {
     "h1": "Minne MoTaiin lähetykset menevät",
@@ -549,11 +549,11 @@
   },
   "blog": {
     "chooseBacking": {
-      "title": "Hook & loop vai PSA: valitse oikea pohja",
+      "title": "hook & loop vai PSA: valitse oikea pohja",
       "intro": "Kiinnitysjärjestelmä on yhtä tärkeä kuin karkeus. Sovittakaa se alustaan ennen tilausta.",
       "start": {
         "title": "Aloittakaa vaatimuksesta",
-        "body": "Hook & loop -hiomapaperit kiinnitetään yhteensopivaan tarranauhapintaiseen alustaan ja sopivat työhön, jossa karkeus vaihtuu usein. PSA-hiomapaperit perustuvat paineherkään liimaan ja vaativat puhtaan, tasaisen alustan. Järjestelmät eivät ole vaihtokelpoisia."
+        "body": "hook & loop -hiomapaperit kiinnitetään yhteensopivaan tarranauhapintaiseen alustaan ja sopivat työhön, jossa karkeus vaihtuu usein. PSA-hiomapaperit perustuvat paineherkään liimaan ja vaativat puhtaan, tasaisen alustan. Järjestelmät eivät ole vaihtokelpoisia."
       },
       "compat": {
         "title": "Vahvistakaa yhteensopivuus",
@@ -647,76 +647,76 @@
   },
   "gloss": {
     "alum": {
-      "def": "Yleisin hiomarakeiden materiaali hihnoissa ja levyissä: sitkeä, helposti työstettävä ja sopii metalliin, puuhun ja yleiseen viimeistelyyn."
+      "def": "Hihnoille ja levyille yleisin hiontarake: luja, helposti työstettävä, sopii metallille, puulle ja yleiseen viimeistelyyn."
     },
     "ansi": {
-      "def": "Vanhempi pohjoisamerikkalainen karkeusnumerointi. Samankokoiset rakeet poikkeavat FEPA-asteikosta — mainitkaa standardi jokaisessa tiedustelussa."
+      "def": "Vanha pohjoisamerikkalainen karkeusnumerointi. Samankokoiset rakeet poikkeavat FEPA-asteikosta — ilmoittakaa standardi jokaisessa tiedustelussa."
     },
     "backing-cloth": {
-      "def": "Puuvillasta tai kankaasta valmistettu verkkopohja, joka kantaa hihnoissa hiomarakeet. Paino (esim. X-weight) määrää joustavuuden ja kuormituskyvyn."
+      "def": "Puuvillinen tai kankainen verkkopohja, joka kantaa hiontarakettä hihnoissa. Paino (esim. X-weight) määrää joustavuuden ja kuormituskyvyn."
     },
     "backing-poly": {
-      "def": "Polyesteri-puuvillainen verkkopohja: tasapaino lujuuden ja joustavuuden välillä yleiskäyttöisiin hihnoihin."
+      "def": "Polyesteri-puuvillainen verkkopohja: hyvä tasapaino lujuuden ja joustavuuden välillä yleiskäyttöisille hihnoille."
     },
     "belt": {
-      "def": "Jatkuvasta lenkistä hiomarakeita verkkopohjalla, jota käytetään hihnakoneissa hiontaan, viimeistelyyn ja särmänpoistoon."
+      "def": "Verkkopohjalle valmistettu jatkuva hiomahihna, jonka hiontarake on sidottu lenkkiin; käytetään hihnakoneissa hiontaan, viimeistelyyn ja särmänpoistoon."
     },
     "blend": {
-      "def": "Hitsin saumaus niin, että se sulautuu ympäröivään metalliin — tyypillisesti ensimmäinen käsittely hiomapalalla tai hiomahihnalla, minkä jälkeen siirrytään hienompiin karkeuksiin."
+      "def": "Hitsin saumaus niin, että se sulautuu ympäröivään metalliin — tyypillisesti ensimmäinen vaihe hiomapalalla tai hihnalla, minkä jälkeen siirrytään hienompiin karkeuksiin."
     },
     "closed": {
-      "def": "Tiiviisti sirotettu rakeiden asetus, jossa on vähän avointa tilaa; hihna pysyy tukkeutumattomana vaativassa työssä."
+      "def": "Tiivis hiontarakeasetus, jossa on vähän avointa tilaa; hihna kestää tukkeutumista vaativissa töissä."
     },
     "debur": {
-      "def": "Särmien ja pienten epätasaisuuksien poistaminen leikkauksen, sahaamisen tai hionnan jälkeen."
+      "def": "Särmien ja pienten kohoumien poistaminen leikkaamisen, sahaamisen tai hionnan jälkeen."
     },
     "dust": {
-      "def": "Hiomapölyn poistaminen työstettävän kohteen läheisyydestä — tyynyn porttien, avoverkkolevyjen tai paikallisen imuvuodon avulla."
+      "def": "Hiomajauhon poistaminen työstettävän kappaleen lähellä — tyynyn aukkojen, avoverkkolevyjen tai paikallisen imurin avulla."
     },
     "flap": {
-      "def": "Päällekkäin sijoitettuista hiomapalikoista koostuva joustava levy hiontaan, hitsin saumaukseen ja viimeistelyyn kulmasuhomimilla."
+      "def": "Kulmahiomakoneessa käytettävä joustava levy, joka koostuu päällekkäisistä hiomapaloista; soveltuu hiontaan, hitsin saumaamiseen ja viimeistelyyn."
     },
     "fepa": {
-      "def": "ISO 848 (FEPA) -asteikko P-notaatiossa (esim. P120). Oletusasteikko useimmilla Euroopan ja kansainvälisten kaupankäynnin markkinoilla."
+      "def": "ISO 848 (FEPA) -luokitusasteikko P-merkinnöillä (esim. P120). Oletusasteikko useimmilla Euroopan ja kansainvälisen kaupan markkinoilla."
     },
     "grit": {
-      "def": "Hiomatuotteen nimellinen raekoko: suurempi luku tarkoittaa hienompaa rakeita. Hihnat 40–800; levyt 60–5000."
+      "def": "Hioma-aineen nimellinen raekoko: suuremmat luvut tarkoittavat hienompaa rakeen. Hihnat 40–800; levyt 60–5000."
     },
     "hookloop": {
-      "def": "Levyjen hook & loop -kiinnitysjärjestelmä: levy napsautetaan tarrapinnaiseen tyynyn."
+      "def": "Levyjen tarranauhakiinnitys (hook & loop): levy kiinnittyy suoraan tarrapinnalla varustettuun tyynyn."
     },
     "mesh": {
-      "def": "Avoverkkolevyissä on pölyn läpäisemiseksi avatut ikkunat, mikä vaatii yhteensopivan tyynyn ja imuvuodon."
+      "def": "Avoverkkolevyissä on leikattuja ikkunoita, joiden läpi pöly pääsee kulkemaan; vaatii yhteensopivan tyynyn ja imurin."
     },
     "moq": {
-      "def": "Vähimmäistilausmäärä (MOQ) — ilmoitetaan tarjouksen yhteydessä saatavuuden ja ehtojen ohella."
+      "def": "Vähimmäistilausmäärä (MOQ) — ilmoitetaan tarjouksen mukana saatavuuden ja ehtojen ohella."
     },
     "oem": {
-      "def": "OEM / oma brändi: tuotteemme teidän brändillanne, etiketeillanne ja pakkauksillanne."
+      "def": "OEM / oma brändi: tuotteemme teidän brändillä, tarroilla ja pakkauksilla."
     },
     "psa": {
-      "def": "Painetekeliimipohja (PSA): levy kiinnittyy suoraan yhteensopivaan tyynyn."
+      "def": "Paineherkä liimapohja (PSA): levy kiinnittyy suoraan yhteensopivaan tyynyn."
     },
     "disc": {
-      "def": "Tasainen tai palikoista koostuva hiomakevyy, joka asennetaan tyynylle hiontaan ja viimeistelyyn."
+      "def": "Tasa tai hiomapaloista koostuva hiomalevy, joka asennetaan tyynyn hiontaan ja viimeistelyyn."
     },
     "sic": {
-      "def": "Piikarbidirakeet: erittäin kovia ja teräviä, sopivat lasille, keramiikalle ja ei-ferrisiin metalleille."
+      "def": "Piikarbidirake: erittäin kova ja terävä, soveltuu lasille, keramiikalle ja ei-rautametalleille."
     },
     "prep": {
-      "def": "Pinnan valmistelu pinnoitusta tai viimeistelyä varten: ruosteen, täyteaineen tai vanhan pintakäsittelyn poistaminen yhtenäiseen profiiliin."
+      "def": "Pinnan valmistelu pinnoitusta tai viimeistelyä varten: ruosteen, täyteaineen tai vanhan maalipinnan poistaminen yhtenäiseen profiiliin."
     },
     "wetdry": {
-      "def": "Laadut, jotka pysyvät viileinä ja tukkeutumattomina märissä tai märkä/kuiva -käytössä; vahvistakaa soveltuvuus tarjouksen yhteydessä."
+      "def": "Laadut, jotka pysyvät viileinä ja tukkeutumattomina märkä- tai märkä/kuivakäytössä; vahvistakaa soveltuvuus tarjouksen yhteydessä."
     },
     "xweight": {
-      "def": "Keskikokoinen kangaspohja yleiskäyttöisiin hihnoihin: luja mutta joustava."
+      "def": "Keskikokoinen kankainen pohja yleiskäyttöisille hihnoille: luja mutta joustava."
     },
     "zirconia": {
-      "def": "Tsirkoni-alumiinioksidirakeet: sitkeitä ja tehokkaita metallin hiontaan, särmänpoistoon ja teräksen viimeistelyyn."
+      "def": "Tsirkoni-alumiinioksidirake: luja ja aggressiivinen teräksen hiontaan, särmänpoistoon ja viimeistelyyn."
     },
     "pad": {
-      "def": "Levyalusta, jolle levy asennetaan: tyynyn halkaisijan, pinnan (tarran) ja porttien sijainnin on vastattava levyä."
+      "def": "Levyn alla oleva taustalevy: tyynyn halkaisijan, pinnan (tarranauha) ja aukkojen sijainnin on vastattava levyä."
     }
   },
   "footer": {
