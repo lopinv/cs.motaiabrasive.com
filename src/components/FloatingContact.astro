@@ -103,7 +103,9 @@ const script =
       </div>
       <form class="wa-form">
         <input class="wa-input" type="text" placeholder={t.placeholder} autocomplete="off" />
-        <button class="wa-send" type="submit">{t.send}</button>
+        <button class="wa-send" type="submit" aria-label={t.send} title={t.send}>
+          <svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="18"><path d="M14.536 21.686a.5.5 0 0 0 .935-.481V2.795a.5.5 0 0 0-.75-.431L2.5 9.914a1.2 1.2 0 0 0 0 2.172Z"/><path d="M14.5 14 21.5 21.5"/></svg>
+        </button>
       </form>
       <p class="wa-note">{t.note}</p>
     </div>

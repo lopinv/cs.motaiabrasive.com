@@ -395,9 +395,11 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 }
 .wa-input:focus { outline: 2px solid #1da851; outline-offset: 1px; }
 .wa-send {
-  align-self: flex-end; background: #1da851; color: #fff; border: none;
-  border-radius: 16px; padding: 8px 16px; font-size: 13px; font-weight: 600; cursor: pointer;
+  align-self: flex-end; width: 34px; height: 34px; padding: 0; border: none;
+  border-radius: 50%; background: #1da851; color: #fff; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
 }
+.wa-send svg { display: block; }
 .wa-send:hover { background: #178f44; }
 .wa-note { margin: 0; padding: 0 12px 10px; font-size: 10.5px; line-height: 1.5; color: var(--muted); }
 
