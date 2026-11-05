@@ -20,6 +20,7 @@
   "quoteFormUrl": "https://www.motaiabrasive.com/collections/all?view=request-a-quote",
   "logo": "https://www.motaiabrasive.com/cdn/shop/t/23/assets/logo-charcoal-v18.webp?v=148838984406859227571793254219",
   "mediaBase": "https://www.motaiabrasive.com/cdn/shop/t/23/assets",
+  "favicon": "https://www.motaiabrasive.com/cdn/shop/t/23/assets/motai-favicon-v18.png",
   "nav": [
     { "key": "nav.home", "href": "/" },
     { "key": "nav.about", "href": "/about" },
