@@ -427,7 +427,8 @@
   },
   "location": {
     "imgAlt": "Здание завода MoTai в Сианьне, провинция Хубэй",
-    "imgCaption": "Завод MoTai — Сианьнь, Хубэй, Китай"
+    "imgCaption": "Завод MoTai — Сианьнь, Хубэй, Китай",
+    "mapTitle": "Местоположение завода MoTai на Google Maps"
   },
   "faq": {
     "faqTitle": "Прежде чем начать",

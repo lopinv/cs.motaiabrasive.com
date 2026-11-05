@@ -419,7 +419,8 @@
   },
   "location": {
     "imgAlt": "후베이성 선닝의 MoTai 공장 건물",
-    "imgCaption": "MoTai 공장 — 후베이성 선닝, 중국"
+    "imgCaption": "MoTai 공장 — 후베이성 선닝, 중국",
+    "mapTitle": "Google 지도의 MoTai 공장 위치"
   },
   "faq": {
     "moq.q": "최소 주문 수량이 어떻게 되나요?",

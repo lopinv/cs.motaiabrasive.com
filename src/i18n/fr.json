@@ -427,7 +427,8 @@
   },
   "location": {
     "imgAlt": "Bâtiment de l'usine MoTai à Xianning, Hubei",
-    "imgCaption": "Usine MoTai — Xianning, Hubei, Chine"
+    "imgCaption": "Usine MoTai — Xianning, Hubei, Chine",
+    "mapTitle": "Localisation de l'usine MoTai sur Google Maps"
   },
   "faq": {
     "faqTitle": "Avant de commencer",
