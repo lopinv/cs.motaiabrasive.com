@@ -21,8 +21,8 @@ let bad = 0;
       'chatTrigger (want 1)': c('class="fchat-trigger"'),
       'chatWindow (want 1)': c('class="fchat-window"'),
       'quickbar   (want 1)': c('class="quickbar"'),
-      'quickWa    (want 1)': c('class="quickbar-wa"'),
-      'quickQuote (want 1)': c('class="quickbar-quote"'),
+      'quickWa    (want 1)': c('class="quickbar-link quickbar-wa"'),
+      'quickQuote (want 1)': c('class="quickbar-link quickbar-quote"'),
       'locationBlock (>=0)': c('class="location-block"')
     };
     if (h.includes('location-block')) row['mapIframe (want 1)'] = c('maps.google.com/maps?q=%E6%B9%96');
