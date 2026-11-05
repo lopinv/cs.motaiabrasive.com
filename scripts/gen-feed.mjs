@@ -16,7 +16,7 @@
  *
  * Run via `npm run build` (postbuild) or `node scripts/gen-feed.mjs` directly.
  */
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
@@ -30,7 +30,12 @@ const flaps = read('flap.json')
 const site = read('site.json')
 
 const base = (process.env.SITE_URL || 'https://motai-abrasives.pages.dev').replace(/\/$/, '')
-const lang = process.env.FEED_LANG || 'en'
+const mainLang = process.env.FEED_LANG || 'en'
+// Every locale the site builds (mirrors src/lib/i18n.js glob + gen-seo).
+const i18nDir = path.join(root, 'src/i18n')
+const allLangs = readdirSync(i18nDir).map((f) => f.replace(/\.json$/, '')).filter(Boolean)
+// Google's content_language / locale columns want a bare language code.
+const short = (code) => code.slice(0, 2) // 'zh-Hant' -> 'zh', 'hi' -> 'hi'
 // Shopify CDN cache-buster constant kept in lockstep with src/lib/utils.js media()
 const media = (key) => `${site.mediaBase}/${key}.webp?v=183101063718712166531793254213`
 
@@ -44,74 +49,65 @@ const COLS = [
   'additional_item_attribute(sku)'
 ]
 
-function row(p) {
-  const id = p.id
-  return [
+/** Build the 30-item row set for one language (link + language columns localized). */
+function rowsFor(lang) {
+  const contentLang = short(lang)
+  const make = (id, title, description, itemPath, image, category) => [
     cell(id),
-    cell(p.title),
-    cell(p.description),
-    cell(`${base}/${lang}${p.path}/`),
-    cell(media(p.image)),
+    cell(title),
+    cell(description),
+    cell(`${base}/${lang}${itemPath}/`),
+    cell(media(image)),
     cell('preorder'),
     cell('new'),
     cell('new'),
     cell('MoTai Abrasives'),
-    cell(p.category),
+    cell(category),
     // Google category ID for "Tools > Tool Accessories" — verify against the
     // Merchant Center category picker (IDs change occasionally).
     cell('222'),
-    cell('en'),
-    cell('en'),
+    cell(contentLang),
+    cell(contentLang),
     cell(id)
   ].join(',')
+
+  const rows = []
+  for (const p of products) {
+    rows.push(make(p.handle, p.name, p.summary, `/products/${p.handle}`, p.image, p.category))
+  }
+  for (const m of models) {
+    rows.push(make(m.model, `Abrasive belt model ${m.model}`, m.source || `Reference belt model ${m.model} from the MoTai abrasive range; dimensions, grit and backing are confirmed with the quotation.`, `/model/${m.slug}`, 'belt-533-75', 'Abrasive Belts'))
+  }
+  for (const d of discViews) {
+    const spec = [d.diameter, d.abrasive, d.attachment, d.grits?.length ? `grits ${d.grits.join('/').replace(/^P/g, '')}` : ''].filter(Boolean).join(', ')
+    rows.push(make(d.key, d.title, `${d.title}. ${spec}. Confirm grit, size and packaging with the quotation.`, `/disc/${d.key}`, d.image, 'Sanding Discs'))
+  }
+  for (const f of flaps) {
+    rows.push(make(f.key, f.name, f.summary, `/flap/${f.key}`, f.image, 'Flap Discs'))
+  }
+  return rows
 }
 
-const rows = []
-for (const p of products) {
-  rows.push(row({
-    id: p.handle,
-    title: p.name,
-    description: p.summary,
-    path: `/products/${p.handle}`,
-    image: p.image,
-    category: p.category
-  }))
-}
-for (const m of models) {
-  rows.push(row({
-    id: m.model,
-    title: `Abrasive belt model ${m.model}`,
-    description: m.source || `Reference belt model ${m.model} from the MoTai abrasive range; dimensions, grit and backing are confirmed with the quotation.`,
-    path: `/model/${m.slug}`,
-    image: 'belt-533-75',
-    category: 'Abrasive Belts'
-  }))
-}
-for (const d of discViews) {
-  const spec = [d.diameter, d.abrasive, d.attachment, d.grits?.length ? `grits ${d.grits.join('/').replace(/^P/g, '')}` : ''].filter(Boolean).join(', ')
-  rows.push(row({
-    id: d.key,
-    title: d.title,
-    description: `${d.title}. ${spec}. Confirm grit, size and packaging with the quotation.`,
-    path: `/disc/${d.key}`,
-    image: d.image,
-    category: 'Sanding Discs'
-  }))
-}
-for (const f of flaps) {
-  rows.push(row({
-    id: f.key,
-    title: f.name,
-    description: f.summary,
-    path: `/flap/${f.key}`,
-    image: f.image,
-    category: 'Flap Discs'
-  }))
-}
-
-const csv = COLS.join(',') + '\n' + rows.join('\n') + '\n'
+const csvOf = (rows) => COLS.join(',') + '\n' + rows.join('\n') + '\n'
 const outDir = path.join(root, 'dist')
 if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true })
 // 0xFEFF = BOM; Google's CSV parser requires a BOM to detect UTF-8.
-writeFileSync(path.join(outDir, 'products.csv'), '\uFEFF' + csv)
-console.log(`[gen-feed] wrote dist/products.csv — ${rows.length} items (availability=preorder, b2b)`)
+// csvOf prepends the header row and joins the item rows with newlines —
+// passing the raw array here (previously) let JS join() it comma-separated,
+// collapsing all 30 items onto one line (broke the line count).
+const emit = (file, rows) => writeFileSync(path.join(outDir, file), '\uFEFF' + csvOf(rows), 'utf8')
+
+// Primary feed (the Merchant b2b data source): products.csv, language = mainLang.
+const primaryRows = rowsFor(mainLang)
+emit('products.csv', primaryRows)
+console.log(`[gen-feed] wrote dist/products.csv — ${primaryRows.length} items (availability=preorder, b2b, lang=${mainLang})`)
+
+// Per-language feeds (products.<lang>.csv) for every other locale, so
+// Merchant region-specific data sources can point at the matching file.
+let extra = 0
+for (const l of allLangs) {
+  if (l === mainLang) continue
+  emit(`products.${l}.csv`, rowsFor(l))
+  extra++
+}
+console.log(`[gen-feed] wrote ${extra} per-language feeds (products.<lang>.csv, one per locale)`)

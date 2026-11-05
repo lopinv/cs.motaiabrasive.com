@@ -26,7 +26,12 @@ const ogLocale = TRANSLATIONS[lang]?.ogLocale ?? 'en_US'
 const path = localizedUrl(lang, canonicalPath)
 const canonical = new URL(path, Astro.site ?? 'https://example.com').toString()
 const defaultOg = site.logo
-const ogLocaleAlternates = LANGS.filter((l) => l !== lang).map((l) => TRANSLATIONS[l]?.ogLocale ?? l)
+// ogLocale fallback must stay BCP47 (xx_XX): use the locale's htmlLang when
+// ogLocale is absent, never a bare route code.
+const ogLocaleAlternates = LANGS.filter((l) => l !== lang).map((l) => TRANSLATIONS[l]?.ogLocale ?? (TRANSLATIONS[l]?.htmlLang ?? l))
+// Regional hreflang variants: Google's es-MX / pt-BR region signals point at
+// the existing /es/ and /pt/ sub-sites (no separate localized sub-site).
+const regionVariants = Object.entries({ 'pt-BR': 'pt', 'es-MX': 'es' })
 ---
 
 <title>{title}</title>
@@ -39,6 +44,13 @@ const ogLocaleAlternates = LANGS.filter((l) => l !== lang).map((l) => TRANSLATIO
     rel="alternate"
     hreflang={TRANSLATIONS[l].htmlLang}
     href={new URL(localizedUrl(l, canonicalPath), Astro.site ?? 'https://example.com').toString()}
+  />
+))}
+{regionVariants.map(([tag, target]) => (
+  <link
+    rel="alternate"
+    hreflang={tag}
+    href={new URL(localizedUrl(target, canonicalPath), Astro.site ?? 'https://example.com').toString()}
   />
 ))}
 <link rel="alternate" hreflang="x-default" href={new URL(localizedUrl('en', canonicalPath), Astro.site ?? 'https://example.com').toString()} />

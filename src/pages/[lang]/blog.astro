@@ -21,8 +21,10 @@ const seo = buildSeo(lang, 'blog', {}, [
 const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
 // Freshness label per card: build-time localized date (bare 2-letter lang
 // code, not ogLocale, so Node small-icu accepts it — same as the byline in
-// the article template).
-const updated = (iso) => new Intl.DateTimeFormat(lang, { dateStyle: 'long' }).format(new Date(iso))
+// the article template). zh-Hant is a 4-letter route code: strip the
+// -Hant/-HanS suffix so Node's small-icu gets a bare 2-letter "zh" (the long
+// form throws "Invalid language tag").
+const updated = (iso) => new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(iso))
 ---
 
 <Shell lang={lang} seo={seo}>

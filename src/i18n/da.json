@@ -1,0 +1,68 @@
+{
+  "code": "da",
+  "name": "Dansk",
+  "codeLabel": "DA",
+  "htmlLang": "da",
+  "ogLocale": "da_DK",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Engrosforespørgsler",
+    "oemNote": "Forespørgsler om OEM-emballage",
+    "size": "Størrelse",
+    "grit": "Kornstørrelse",
+    "quantity": "Ønsket mængde",
+    "requirements": "Krav til specifikation og emballage",
+    "requirementsPh": "Beskriv jeres anvendelse, specifikationer og leveringskrav.",
+    "material": "Slidemateriale",
+    "backing": "Bagside / fastgørelse",
+    "availability": "Tilgængelighed, minimumsordre og kommercielle vilkår fastsættes i tilbuddet.",
+    "sampleNote": "Angiv, hvilke produkter og kornstørrelser I ønsker at vurdere. Vores salgshold bekræfter tilgængelighed af prøver, prøvegebyrer og forsendelsesordninger.",
+    "gritsRange": "Kornområde",
+    "holes": "Huller",
+    "diameter": "Diameter / nominel størrelse",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Sprog",
+    "home": "Forside",
+    "about": "Om os",
+    "manufacturing": "Produktion",
+    "oem": "OEM-tjenester",
+    "news": "Nyheder",
+    "knowledge": "Viden",
+    "contact": "Kontakt os",
+    "products": "Produkter"
+  },
+  "colt": {
+    "belts": {
+      "title": "Slibebånd — engros & OEM",
+      "desc": "Røde slibebånd i dokumenterede størrelser fra 533 × 75 mm til 2200 × 1330 mm. Korn 40–800. Referencemodeller tilgængelige. Engros- og OEM-forespørgsler er velkomne.",
+      "label": "Slibebånd"
+    },
+    "discs": {
+      "title": "Slibeskrive — engros & OEM",
+      "desc": "PSA-, kile-lås-, mesh- og skiver uden huller fra 3 til 6 tommer. Korn 60–5000. Engros- og OEM-forespørgsler er velkomne.",
+      "label": "Slibeskrive"
+    },
+    "flap": {
+      "title": "MOTAI Flap-skiver",
+      "desc": "Flap-skiver med plast-, stål- og glasfiberbagside til slibning, udligning og finishing af metal. Bekræft specifikationer, masselevering og OEM-emballage i tilbuddet.",
+      "label": "Flap-skiver"
+    },
+    "all": {
+      "title": "Alle produkter",
+      "desc": "Det komplette MoTai-slibemiddelkatalog: slibebånd, slibeskrive og flap-skiver til industrielle købere, distributører og egenmærke-erhverv.",
+      "label": "Alle produkter"
+    }
+  },
+  "cta": {
+    "quote": "Anmod om engrosudbud",
+    "quoteArrow": "↗",
+    "sample": "Anmod om prøve",
+    "whatsapp": "WhatsApp-forespørgsel",
+    "waChat": "Kontakt via WhatsApp",
+    "explore": "Se flap-skiveserien",
+    "viewAll": "Vis alle produkter",
+    "discuss": "Drøft jeres specifikation",
+    "oemQuote": "Anmod om OEM-tilbud"
+  },

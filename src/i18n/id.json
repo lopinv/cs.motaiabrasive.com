@@ -1,0 +1,880 @@
+{
+  "code": "id",
+  "name": "Bahasa Indonesia",
+  "codeLabel": "ID",
+  "htmlLang": "id",
+  "ogLocale": "id_ID",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Permintaan grosir",
+    "oemNote": "Permintaan kemasan OEM",
+    "size": "Ukuran",
+    "grit": "Ukuran grit",
+    "quantity": "Jumlah yang diminta",
+    "requirements": "Kebutuhan spesifikasi dan kemasan",
+    "requirementsPh": "Sampaikan aplikasi, spesifikasi, dan kebutuhan pengiriman Anda kepada kami.",
+    "material": "Bahan abrasif",
+    "backing": "Backing / sistem pemasangan",
+    "availability": "Ketersediaan, minimum order quantity, dan syarat komersial ditetapkan melalui penawaran.",
+    "sampleNote": "Sampaikan produk dan ukuran grit mana yang ingin dievaluasi. Tim penjualan kami akan mengonfirmasi ketersediaan sampel, biaya sampel, dan pengaturan pengiriman.",
+    "gritsRange": "Rentang grit",
+    "holes": "Lubang",
+    "diameter": "Diameter / ukuran nominal",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Bahasa",
+    "home": "Beranda",
+    "about": "Tentang kami",
+    "manufacturing": "Manufaktur",
+    "oem": "Layanan OEM",
+    "news": "Berita",
+    "knowledge": "Pengetahuan",
+    "contact": "Hubungi kami",
+    "products": "Produk"
+  },
+  "colt": {
+    "belts": {
+      "title": "Sabuk Abrasif — Grosir & OEM",
+      "desc": "Sabuk abrasif merah dalam ukuran terdokumentasi mulai 533 × 75 mm hingga 2200 × 1330 mm. Grit 40–800. Model referensi tersedia. Permintaan grosir dan OEM disambut baik.",
+      "label": "Sabuk Abrasif"
+    },
+    "discs": {
+      "title": "Piringan Amplas — Grosir & OEM",
+      "desc": "Piringan amplas PSA, hook & loop, jaring terbuka (open-mesh), dan tanpa lubang dari 3 hingga 6 inci. Grit 60–5000. Permintaan grosir dan OEM disambut baik.",
+      "label": "Piringan Amplas"
+    },
+    "flap": {
+      "title": "Piringan Flap MOTAI",
+      "desc": "Piringan flap dengan backing plastik, baja, dan faser kaca untuk penggerindaan, blending, dan finising logam. Spesifikasi, pasokan jumlah besar, dan kemasan OEM ditetapkan melalui penawaran.",
+      "label": "Piringan Flap"
+    },
+    "all": {
+      "title": "Semua Produk",
+      "desc": "Katalog bahan abrasif MoTai secara lengkap: sabuk abrasif, piringan amplas, dan piringan flap untuk pembeli industri, distributor, dan merek private label.",
+      "label": "Semua Produk"
+    }
+  },
+  "cta": {
+    "quote": "Minta Penawaran Grosir",
+    "quoteArrow": "↗",
+    "sample": "Minta Sampel",
+    "whatsapp": "Tanya via WhatsApp",
+    "waChat": "Hubungi via WhatsApp",
+    "explore": "Lihat rangkaian piringan flap",
+    "viewAll": "Lihat semua produk",
+    "discuss": "Diskusikan Spesifikasi Anda",
+    "oemQuote": "Minta Penawaran OEM"
+  },
+  "home": {
+    "eyebrow": "Bahan abrasif dari pabrik MoTai di Hubei",
+    "heroTitle": "Pabrikan & Pemasok Bahan Abrasif Profesional",
+    "heroSub": "Sabuk abrasif, piringan amplas, dan piringan flap langsung dari pabrik untuk pembeli industri, distributor, dan merek private label — dari Hubei, Tiongkok ke pasar Anda.",
+    "cta1": "Minta Penawaran Grosir",
+    "cta2": "Ngobrol dengan tim kami via WhatsApp",
+    "builtTitle": "Pilih aplikasinya. Cocokkan abrasifnya.",
+    "builtSub": "Pilih aplikasinya, lalu cocokkan bahan abrasifnya: sabuk, piringan, atau piringan flap.",
+    "featuredTitle": "Dalam katalog",
+    "featuredSub": "Ukuran dan grit terdokumentasi dalam katalog; MOQ dan ketersediaan disertakan bersama penawaran.",
+    "partnerTitle": "Sisi pasokan dari pesanan abrasif Anda",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. memasok barang habis pakai abrasif untuk aplikasi perkayuan, pemrosesan logam, dan otomotif — dengan program OEM dan private label untuk distributor serta pembeli industri di seluruh dunia.",
+    "partnerCta": "Kenali MoTai",
+    "valuesTitle": "Enam cara pembeli B2B bekerja sama dengan kami",
+    "valuesSub": "Enam alasan importir dan merek OEM bekerja sama dengan kami.",
+    "v1t": "Langsung dari Pabrik",
+    "v1b": "Harga dan waktu pengiriman dari sisi pemasok, tanpa perantara.",
+    "v2t": "OEM & Private Label",
+    "v2b": "Logo, label, dan kemasan Anda di atas spesifikasi yang telah disetujui.",
+    "v3t": "Ukuran & Grit Kustom",
+    "v3b": "Ukuran terdokumentasi dan grit 40–800 untuk sabuk, 60–5000 untuk piringan.",
+    "v4t": "Pemeriksaan Sampel & QC",
+    "v4b": "Periksa permukaan, backing, dan kecocokan pada sampel sebelum order.",
+    "v5t": "Pasokan Jumlah Besar",
+    "v5b": "Jumlah karton konsisten dan detail packing list yang teliti.",
+    "v6t": "Program Ekspor",
+    "v6b": "Kode etiket karton, label, dan dokumen tujuan.",
+    "processTitle": "Langkah antara spesifikasi Anda dan order",
+    "processSub": "Empat tahap dari kebutuhan Anda hingga order yang ditetapkan.",
+    "p1t": "Pemotongan & konversi",
+    "p1b": "Tetapkan bentuk, dimensi, dan grit yang dibutuhkan sebelum mengatur proses konversi.",
+    "p2t": "Pemeriksaan sampel",
+    "p2b": "Periksa permukaan abrasif, backing, dan kecocokan sampel sebelum menyetujui spesifikasi order.",
+    "p3t": "OEM & pengemasan",
+    "p3b": "Tetapkan jumlah per kemasan, label, kode etiket karton, dan artwork private label bersama penawaran.",
+    "p4t": "Persiapan pengiriman",
+    "p4b": "Sepakati packing list, kebutuhan pallet, dan detail tujuan sebelum barang diberangkatkan.",
+    "oemTitle": "Merek Anda di karton",
+    "oemSub": "Bagikan kebutuhan produk, kemasan, dan merek untuk rangkaian abrasif Anda berikutnya.",
+    "oemCta": "Jelajahi layanan OEM",
+    "faqTitle": "Sebelum kami memulai",
+    "faqSub": "Jawaban atas pertanyaan yang paling sering diajukan pembeli.",
+    "regionsTitle": "Dari Hubei ke pasar Anda",
+    "regionsSub": "Pasokan global yang diatur berdasarkan wilayah tujuan.",
+    "regionsNote": "MOQ dan lead time ditetapkan melalui penawaran Anda. Rute bersifat indikatif; ketersediaan dan syarat ditetapkan melalui penawaran.",
+    "factoryTitle": "Temukan kami di Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Tiongkok. Atur kunjungan pabrik dan tetapkan titik temu bersama tim kami.",
+    "finalTitle": "Mencari pemasok bahan abrasif yang bisa diandalkan?",
+    "finalBody": "Bagikan produk, jumlah, dan aplikasi Anda — kami akan meninjau kebutuhan Anda dan menyiapkan penawaran yang sesuai.",
+    "finalCta1": "Minta Penawaran Grosir",
+    "finalCta2": "Hubungi via WhatsApp",
+    "beltsShowTitle": "Sabuk abrasif, berdasarkan model",
+    "beltsShowSub": "Model referensi untuk didiskusikan bersama tim kami.",
+    "prepTitle": "Siapkan permintaan grosir Anda",
+    "prepSub": "Dimensi, grit, dan jumlah akan menangani sisanya.",
+    "prepDim": "Dimensi",
+    "prepDimText": "Ukuran atau referensi model dalam milimeter.",
+    "prepGrit": "Grit",
+    "prepGritText": "Grade atau hasil akhir yang dibutuhkan.",
+    "prepQty": "Jumlah",
+    "prepQtyText": "Estimasi volume dan kemasan."
+  },
+  "purchasing": {
+    "eyebrow1": "Panduan pengadaan",
+    "title1": "Siapkan permintaan grosir Anda",
+    "body1": "Sampaikan dimensi, grit, benda kerja, mesin, dan hasil akhir yang Anda butuhkan. Gunakan opsi terdokumentasi di atas bila tersedia; kebutuhan lainnya akan ditinjau bersama tim kami.",
+    "dl1t": "Jumlah & tujuan",
+    "dl1b": "Sampaikan jumlah, kebutuhan kemasan, dan tujuan pengiriman.",
+    "dl2t": "Pasokan & syarat",
+    "dl2b": "Ketersediaan, minimum order quantity, dan syarat komersial ditetapkan melalui penawaran.",
+    "dl3t": "Permintaan kemasan OEM",
+    "dl3b": "Branding, label, ukuran kustom, atau kebutuhan pengemasan.",
+    "eyebrow2": "Cara membuat permintaan",
+    "title2": "Dari pemilihan produk ke penawaran",
+    "s1t": "Pilih produk Anda",
+    "s1b": "Pilih produk atau model serta spesifikasi yang dibutuhkan.",
+    "s2t": "Bagikan kebutuhan Anda",
+    "s2b": "Bagikan jumlah, aplikasi, dan kebutuhan kemasan.",
+    "s3t": "Tinjau penawaran Anda",
+    "s3b": "Tetapkan spesifikasi akhir dan syarat komersial bersama tim kami."
+  },
+  "modelPage": {
+    "eyebrow": "Sabuk abrasif · Model referensi",
+    "refLabel": "Referensi model",
+    "familyLabel": "Kategori",
+    "dimsLabel": "Dimensi sabuk jadi — tentukan lebar × panjang dalam mm",
+    "dimsPlaceholder": "mis. 533 × 75 mm",
+    "gritLabel": "Grit yang dibutuhkan — tentukan grade atau hasil akhir yang diperlukan",
+    "gritPlaceholder": "mis. P60",
+    "qtyLabel": "Jumlah yang diminta",
+    "specLabel": "Kebutuhan spesifikasi dan kemasan",
+    "discussion": "Diskusikan model ini bersama tim kami menggunakan benda kerja, mesin, dan hasil akhir yang Anda butuhkan.",
+    "grainBacking": "Butiran & backing — tetapkan produsen bahan baku dan grade yang pasti.",
+    "disclaimer": "Detail keluarga model bersifat referensi pemilihan; spesifikasi pasokan, ketersediaan, dan kecocokan MoTai ditetapkan melalui penawaran Anda."
+  },
+  "discPage": {
+    "eyebrow": "Piringan amplas · Varian terdokumentasi",
+    "gritsNote": "Opsi grit untuk varian ini"
+  },
+  "flapPage": {
+    "eyebrow": "Piringan flap · Varian backing",
+    "color": "Warna",
+    "gritNote": "P40–P60 dan P80–P120 adalah contoh pemilihan umum, bukan rentang pasokan MoTai yang sudah ditetapkan."
+  },
+  "productPage": {
+    "specTitle": "Spesifikasi",
+    "howTitle": "Cara menentukan spesifikasi order Anda",
+    "howBody": "Sertakan ukuran sabuk atau piringan, daftar grit, model mesin, material benda kerja, dan jumlah. Spesifikasi yang jelas membantu kami meninjau kecocokan dan menyiapkan penawaran yang berguna — hindari memilih produk hanya berdasarkan warna.",
+    "faqTitle": "Pertanyaan pembeli"
+  },
+  "about": {
+    "h1": "Perusahaan di balik rangkaian abrasif",
+    "sub": "Pendekatan yang matang untuk pasokan bahan abrasif.",
+    "bizTitle": "Bisnis kami",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. memasok barang habis pakai abrasif untuk aplikasi perkayuan, pemrosesan logam, dan otomotif. Rangkaian terdokumentasi mencakup piringan amplas tanpa lubang, piringan amplas jaring (mesh), dan sabuk abrasif merah. Kami menerima permintaan dari importir, distributor, pedagang grosir, dan pembeli industri — kebutuhan produk, backing, ukuran, grade, jumlah, dan pengiriman.",
+    "matTitle": "Materi perusahaan",
+    "matBody": "Jelajahi profil perusahaan dan kontak kami dalam brosur.",
+    "globalTitle": "Dari Hubei ke pasar Anda",
+    "globalSub": "Pasokan global yang diatur berdasarkan wilayah tujuan.",
+    "facTitle": "Temukan kami di Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Tiongkok. Atur kunjungan pabrik bersama tim kami dan tetapkan titik temu sebelum bepergian.",
+    "profileName": "Sekilas",
+    "profileBody": "Pabrikan abrasif berlapis di Xianning, Hubei: tiga lini produk yang disuplai ke tujuh wilayah tujuan, dengan cakupan grit dari 40 hingga 5000.",
+    "ctaTitle": "Mencari pemasok bahan abrasif yang bisa diandalkan?",
+    "cta1": "Minta Penawaran Grosir",
+    "cta2": "Hubungi via WhatsApp"
+  },
+  "factory": {
+    "h1": "Sekilas ke bengkel MoTai",
+    "sub": "Detail itu penting. Di setiap tahap.",
+    "intro": "Tinjau detail pemotongan, pemeriksaan sampel, dan pengemasan untuk order Anda. Rekaman video produk ditampilkan bersama ilustrasi proses.",
+    "videoLabel": "Lihat rekaman video produk",
+    "stepsTitle": "Manufaktur & persiapan order",
+    "stepsIntro": "Dari kebutuhan Anda hingga order yang ditetapkan.",
+    "st1t": "Pemotongan & konversi",
+    "st1b": "Tetapkan bentuk, dimensi, dan grit yang dibutuhkan sebelum mengatur proses konversi.",
+    "st2t": "Pemeriksaan sampel",
+    "st2b": "Periksa permukaan abrasif, backing, dan kecocokan sampel sebelum menyetujui spesifikasi order.",
+    "st3t": "OEM & pengemasan",
+    "st3b": "Tetapkan jumlah per kemasan, label, kode etiket karton, dan artwork private label bersama penawaran.",
+    "st4t": "Persiapan pengiriman",
+    "st4b": "Sepakati packing list, kebutuhan pallet, dan detail tujuan sebelum barang diberangkatkan.",
+    "imgNote": "Gambar pemotongan dan sampel diambil dari video produk yang disuplai. Gambar pengemasan dan pengiriman adalah foto stok ilustratif.",
+    "qcTitle": "Titik pemeriksaan kualitas",
+    "qcIntro": "Yang kami verifikasi sebelum order meninggalkan lantai pabrik.",
+    "qc1t": "Permukaan & grit",
+    "qc1b": "Konsistensi permukaan abrasif terhadap grade yang telah ditetapkan.",
+    "qc2t": "Backing & kecocokan",
+    "qc2b": "Tipe backing, bobot, dan toleransi dimensi sabuk dan piringan jadi.",
+    "qc3t": "Kemasan & kode etiket",
+    "qc3b": "Jumlah per kemasan, label, kode etiket karton, dan artwork private label sesuai order yang telah ditetapkan.",
+    "certNote": "Tanda sertifikasi yang ditampilkan bersifat placeholder hingga sertifikat resmi dipublikasikan.",
+    "ctaTitle": "Ingin mendiskusikannya dulu?",
+    "ctaSub": "Mencari pemasok bahan abrasif yang bisa diandalkan?",
+    "cta1": "Minta Penawaran Grosir",
+    "cta2": "Hubungi via WhatsApp"
+  },
+  "oem": {
+    "h1": "Merek Anda di karton",
+    "sub": "Kirim kebutuhan produk, kemasan, dan merek Anda; kami akan membalas dengan pemeriksaan kelayakan OEM.",
+    "briefTitle": "Susun permintaan berdasarkan merek Anda",
+    "briefEyebrow": "Bawa brief Anda",
+    "briefBody": "Diskusikan logo dan artwork label, format kemasan, ukuran produk, grade grit, dan penggunaan yang direncanakan. Ketersediaan OEM, jumlah minimum, kebutuhan artwork, dan jadwal ditetapkan melalui peninjauan kelayakan dan penawaran yang dikonfirmasi.",
+    "itemsTitle": "Brief yang jelas mendapat respons yang berguna",
+    "i1": "Produk & spesifikasi",
+    "i2": "Kombinasi ukuran & grit",
+    "i3": "Artwork & label",
+    "i4": "Format kemasan",
+    "i5": "Jumlah sasaran",
+    "i6": "Tujuan & waktu",
+    "itemNote": "Sertakan kebutuhan Anda dan file referensi dalam permintaan.",
+    "procTitle": "Dari permintaan hingga pasokan",
+    "pr1t": "Permintaan Anda",
+    "pr1b": "Sampaikan aplikasi dan kebutuhan Anda kepada kami.",
+    "pr2t": "Pemeriksaan spesifikasi",
+    "pr2b": "Tinjau ukuran, grade, backing, dan kemasan.",
+    "pr3t": "Penawaran",
+    "pr3b": "Tetapkan syarat komersial dan jadwal.",
+    "pr4t": "Persetujuan sampel",
+    "pr4b": "Evaluasi sampel yang disepakati sebelum persetujuan produksi.",
+    "pr5t": "Produksi",
+    "pr5b": "Lanjutkan berdasarkan spesifikasi yang telah ditetapkan.",
+    "pr6t": "Pengiriman",
+    "pr6b": "Koordinasikan pengemasan dan tujuan.",
+    "cta1": "Minta Penawaran Grosir",
+    "cta2": "Hubungi via WhatsApp"
+  },
+  "applications": {
+    "h1": "Bahan abrasif untuk industri Anda",
+    "sub": "Permukaan menentukan spesifikasinya.",
+    "intro": "Enam bidang aplikasi. Tentukan material, mesin, dan hasil akhir yang dibutuhkan — kami akan mencocokkan bahan abrasifnya.",
+    "ctaNote": "Sebagian gambar adalah ilustrasi aplikasi yang dibuat dengan AI, bukan foto pabrik atau pelanggan MoTai.",
+    "sampleNote": "Sampaikan industri, negara, spesifikasi produk, dan estimasi volume order Anda saat meminta penawaran.",
+    "reqTitle": "Produk yang direkomendasikan",
+    "reqNote": "Keluarga produk indikatif untuk bidang ini. Tetapkan ukuran, grit, dan jumlah melalui penawaran.",
+    "specTitle": "Tips spesifikasi",
+    "faqTitle": "Sering ditanyakan",
+    "faqs": [
+      {
+        "q": "Grit berapa yang sebaiknya saya mulai?",
+        "a": "Mulailah dari material benda kerja, kedalaman cacat, dan hasil akhir yang dibutuhkan — grade kasar melepas material dengan cepat, lalu turunkan grit secara bertahap dan periksa permukaan di setiap tahap."
+      },
+      {
+        "q": "Bisakah mencampur grit dalam satu order?",
+        "a": "Bisa — cantumkan daftar grit dan jumlah per grade; ketersediaan dan lead time akan dikembalikan bersama penawaran."
+      }
+    ],
+    "ctaTitle": "Menentukan spesifikasi untuk bidang Anda?",
+    "cta1": "Minta Penawaran Grosir",
+    "cta2": "Hubungi via WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Informasi lebih baik. Pemilihan lebih tepat.",
+    "sub": "Sumber daya praktis untuk pembeli dalam membahas spesifikasi bahan abrasif.",
+    "updatedLabel": "Diperbarui",
+    "governance": "Panduan ditulis dan ditinjau oleh tim teknis MoTai Abrasives, serta ditinjau ulang saat spesifikasi produk berubah."
+  },
+  "article": {
+    "watchTitle": "Tonton",
+    "discuss": "Diskusikan Spesifikasi Anda",
+    "catSelection": "Panduan pemilihan",
+    "catBuyer": "Sumber daya pembeli",
+    "catNotes": "Catatan aplikasi",
+    "catOem": "Panduan OEM",
+    "reviewedBy": "Ditinjau oleh tim teknis MoTai Abrasives",
+    "lastReviewed": "Terakhir ditinjau {date}",
+    "tocTitle": "Di halaman ini"
+  },
+  "contact": {
+    "h1": "Mulai percakapan grosir",
+    "sub": "Dapatkan harga grosir langsung dari pabrik untuk produk abrasif.",
+    "directTitle": "Satu percakapan. Spesifikasi yang lebih baik.",
+    "directBody": "Bagikan produk, jumlah, dan aplikasi Anda. Kami akan meninjau kebutuhan Anda dan membantu Anda melangkah ke langkah berikutnya.",
+    "facTitle": "Temukan kami di Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Tiongkok.",
+    "facNote": "Tetapkan alamat kunjungan yang pasti bersama tim kami sebelum bepergian.",
+    "visit": "Atur kunjungan pabrik",
+    "formTitle": "Permintaan grosir / OEM",
+    "formNote": "Formulir ini meminta penawaran dan tidak menyelesaikan order. Permintaan masuk ke kotak surat penjualan kami; spesifikasi dan syarat komersial ditetapkan bersama penawaran.",
+    "btn": "Buka formulir permintaan ↗"
+  },
+  "privacy": {
+    "h1": "Informasi permintaan Anda",
+    "sub": "Cara situs ini menggunakan detail yang Anda pilih untuk dibagikan.",
+    "s1t": "Informasi yang dikumpulkan",
+    "s1b": "Detail kontak, informasi perusahaan, kebutuhan produk, dan lampiran yang diajukan bersama permintaan. Pengidentifikasi koneksi ber-hash membatasi pengiriman yang merugikan.",
+    "s2t": "Tujuan dan akses",
+    "s2b": "Detail digunakan untuk meninjau dan menjawab permintaan, menyiapkan penawaran, dan mengoordinasikan diskusi komersial yang diminta. Akses dibatasi untuk administrator yang berwenang.",
+    "s3t": "Penyimpanan dan retensi",
+    "s3b": "Data disimpan bersama penyedia hosting kami. Data dapat diproses di luar negara Anda. Retensi mengikuti kewajiban tindak lanjut bisnis dan pemeliharaan catatan; Anda dapat meminta retensi atau penghapusan data tertentu.",
+    "s4t": "Pilihan Anda",
+    "s4b": "Hubungi motai-01@motaiabrasive.com untuk meminta akses, koreksi, atau penghapusan. Jangan submit data pribadi yang sensitif atau file rahasia yang tidak berkaitan dengan permintaan Anda.",
+    "s5t": "Cookie, tautan, dan analitik",
+    "s5b": "Browser menyimpan data pengelolaan daftar permintaan. Situs ini menggunakan Google Analytics (gtag.js) untuk statistik penggunaan yang dianonimkan; Google menetapkan cookie dan memproses data di bawah ketentuan pemrosesan datanya — Anda dapat memilih keluar melalui https://support.google.com/analytics/answer/3452785. Tautan WhatsApp, peta, dan media sosial eksternal tunduk pada kebijakan privasi masing-masing.",
+    "updated": "Terakhir diperbarui 4 November 2026"
+  },
+  "terms": {
+    "h1": "Syarat Penggunaan",
+    "sub": "Syarat yang berlaku ketika Anda menggunakan situs ini dan mengirim permintaan ke MoTai.",
+    "s1t": "Penggunaan situs ini",
+    "s1b": "Situs ini adalah layanan informasi dan permintaan B2B yang dioperasikan oleh Hubei MoTai Abrasives Materials Co., Ltd. Konten — spesifikasi produk, panduan, glosarium, dan blog — disajikan dengan itikad baik untuk informasi umum. Menggunakan situs berarti Anda menyetujui syarat ini; jika tidak, jangan submit permintaan.",
+    "s2t": "Permintaan bukan penawaran mengikat",
+    "s2b": "Pengajuan formulir permintaan adalah undangan untuk bernegosiasi, bukan order yang mengikat. MoTai tidak berkewajiban menjawab setiap permintaan, dan tidak ada pembelian yang terikat hingga penawaran dikonfirmasi secara tertulis oleh kedua belah pihak.",
+    "s3t": "Penawaran dan harga",
+    "s3b": "Semua harga berbasis penawaran. Penawaran mencantumkan ukuran, grit, kemasan, syarat dagang, dan periode berlaku; angka akhir ditetapkan pada spesifikasi yang dikonfirmasi dan tunduk pada pergerakan bahan baku dan biaya pengiriman.",
+    "s4t": "Hak kekayaan intelektual",
+    "s4b": "Konten situs, deskripsi produk, grafik, dan merek MoTai adalah milik MoTai Abrasives dan tidak boleh direproduksi secara komersial. Referensi pihak ketiga (mis. sumber model) hanya untuk orientasi pembeli dan tidak menyiratkan pengesahan.",
+    "s5t": "Tanggung jawab dan hukum yang berlaku",
+    "s5b": "MoTai tidak bertanggung jawab atas keputusan yang dibuat berdasarkan informasi umum di situs ini. Syarat ini diatur oleh hukum Republik Rakyat Tiongkok; sengketa diselesaikan di bawah kontrak penjualan antara kedua belah pihak.",
+    "updated": "Terakhir diperbarui 3 November 2026"
+  },
+  "quotePage": {
+    "h1": "Mulai percakapan grosir",
+    "sub": "Dapatkan harga grosir langsung dari pabrik untuk produk abrasif.",
+    "note": "Formulir ini meminta penawaran dan tidak menyelesaikan order. Kolom bertanda * wajib diisi.",
+    "sec1": "Perusahaan Anda",
+    "f1": "Nama lengkap *",
+    "f2": "Nama perusahaan *",
+    "f3": "Negara *",
+    "f4": "Email bisnis *",
+    "f5": "Nomor WhatsApp",
+    "f6": "Jenis usaha *",
+    "opt1": "Importir",
+    "opt2": "Distributor",
+    "opt3": "Pedagang grosir",
+    "opt4": "Merek OEM",
+    "opt5": "Pembeli industri",
+    "opt6": "Lainnya",
+    "sec2": "Kebutuhan produk",
+    "f7": "Kategori produk",
+    "f8": "Model / referensi produk",
+    "f9": "Ukuran",
+    "f10": "Ukuran grit",
+    "f11": "Material",
+    "f12": "Jumlah",
+    "f13": "Kemasan",
+    "f14": "Negara tujuan *",
+    "f15": "Kebutuhan OEM",
+    "f16": "Pesan tambahan *",
+    "consent": "Saya menyetujui Kebijakan Privasi, Syarat Penggunaan, dan penggunaan detail saya untuk merespons permintaan ini. *",
+    "btn1": "Minta Penawaran Grosir",
+    "btn2": "Kirim permintaan via WhatsApp",
+    "goNote": "Formulir dibuka di sistem permintaan grosir kami dengan konteks produk Anda terisi sebelumnya."
+  },
+  "clients": {
+    "h1": "Kemana kiriman MoTai pergi",
+    "sub": "Dari Hubei ke tujuh wilayah tujuan.",
+    "note": "Logo pelanggan dan testimoni di bawah ini adalah slot placeholder — ganti src/data/trust.json dengan materi yang dipublikasikan.",
+    "placeholderBadge": "Placeholder ilustratif",
+    "statsTitle": "Pasokan sekilas",
+    "statsNote": "Sertifikasi yang ditampilkan bersifat placeholder hingga sertifikat resmi dipublikasikan."
+  },
+  "glossary": {
+    "h1": "Glosarium bahan abrasif",
+    "sub": "Istilah di balik setiap spesifikasi sabuk, piringan, dan piringan flap.",
+    "note": "Definisi standar industri untuk barang habis pakai abrasif; detail grade dan backing untuk order ditetapkan melalui penawaran.",
+    "reviewNote": "Istilah ditinjau oleh tim teknis MoTai Abrasives — terakhir ditinjau 3 November 2026."
+  },
+  "trust": {
+    "regions": "Wilayah tujuan",
+    "productLines": "Lini produk",
+    "gritRange": "Cakupan grit"
+  },
+  "video": {
+    "title": "Tonton",
+    "cutting": {
+      "title": "Rekaman pemotongan & konversi",
+      "desc": "Rekaman produk yang disuplai: pemotongan dan konversi lembaran abrasif."
+    },
+    "sample": {
+      "title": "Rekaman pemeriksaan sampel",
+      "desc": "Rekaman produk yang disuplai: pemeriksaan permukaan, backing, dan kecocokan pada sampel."
+    },
+    "oem": {
+      "title": "Rekaman pengemasan OEM",
+      "desc": "Jumlah per kemasan, label, kode etiket karton, dan artwork private label."
+    },
+    "flap": {
+      "title": "Rekaman rangkaian piringan flap",
+      "desc": "Piringan flap dengan backing plastik, baja, dan faser kaca saat digunakan."
+    }
+  },
+  "wa": {
+    "generic": "Halo MoTai, saya ingin mendapatkan penawaran grosir untuk produk abrasif.",
+    "product": "Halo MoTai, saya ingin mendapatkan penawaran grosir untuk {name} ({grits}).",
+    "model": "Halo MoTai, saya ingin mendapatkan penawaran grosir untuk model sabuk abrasif {model}.",
+    "disc": "Halo MoTai, saya ingin mendapatkan penawaran grosir untuk {title}.",
+    "sample": "Halo MoTai, saya ingin meminta sampel {name} untuk dievaluasi.",
+    "factory": "Halo MoTai, saya ingin mendiskusikan detail manufaktur dan kualitas bersama tim Anda.",
+    "oem": "Halo MoTai, saya ingin mendiskusikan program abrasif OEM / private label.",
+    "contact": "Halo MoTai, saya ingin membangun order abrasif saya berikutnya bersama tim Anda."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Buka chat",
+    "close": "Tutup",
+    "title": "MoTai — Live chat",
+    "status": "Kami membalas di WhatsApp, biasanya dalam 24 jam.",
+    "greeting": "Halo! Bagaimana kami bisa membantu order abrasif Anda? — Tim penjualan MoTai",
+    "placeholder": "Ketik pesan Anda…",
+    "send": "Kirim via WhatsApp",
+    "note": "Pratinjau ini tidak memiliki server langsung: mengirim akan membuka WhatsApp dengan pesan Anda terisi sebelumnya. Balasan dilanjutkan dalam percakapan WhatsApp."
+  },
+  "location": {
+    "imgAlt": "Gedung pabrik MoTai di Xianning, Hubei",
+    "imgCaption": "Pabrik MoTai — Xianning, Hubei, Tiongkok",
+    "mapTitle": "Lokasi pabrik MoTai di Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Sebelum kami memulai",
+    "moq": {
+      "q": "Berapa minimum order quantity (MOQ)?",
+      "a": "MOQ dikembalikan bersama penawaran, disertai ketersediaan dan syarat."
+    },
+    "oem": {
+      "q": "Apakah Anda mendukung OEM dan private label?",
+      "a": "Ya. Logo, label, ukuran kustom, dan pengemasan diperiksa kelayakannya, lalu ditetapkan bersama penawaran Anda."
+    },
+    "sizes": {
+      "q": "Ukuran dan grit apa yang Anda pasok?",
+      "a": "Sabuk dalam ukuran terdokumentasi mulai 533 × 75 hingga 2200 × 1330 mm (grit 40–800); piringan 3–6 inci (grit 60–5000). Kebutuhan kustom ditinjau bersama tim kami."
+    },
+    "samples": {
+      "q": "Bisakah saya mendapat sampel dulu?",
+      "a": "Bisa. Minta sampel, dan tim penjualan kami akan mengonfirmasi ketersediaan, biaya, dan pengaturan pengiriman."
+    },
+    "lead": {
+      "q": "Berapa lead time-nya?",
+      "a": "Lead time bergantung pada spesifikasi dan jumlah, serta ditetapkan dalam penawaran Anda."
+    },
+    "packaging": {
+      "q": "Bagaimana cara pengemasan produk?",
+      "a": "Jumlah per kemasan, label, kode etiket karton, dan artwork private label ditetapkan bersama penawaran."
+    },
+    "payment": {
+      "q": "Syarat pembayaran seperti apa yang Anda tawarkan?",
+      "a": "Syarat pembayaran merupakan bagian dari penawaran yang dikonfirmasi dan diskusi komersial."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Spesifikasi apa yang sebaiknya saya berikan?",
+      "a": "Sampaikan dimensi, grit, benda kerja, mesin, dan hasil akhir yang Anda butuhkan. Gunakan opsi terdokumentasi bila tersedia; kebutuhan lainnya akan ditinjau bersama tim kami."
+    },
+    "oem": {
+      "q": "Bagaimana cara meminta kemasan OEM?",
+      "a": "Sertakan kebutuhan branding dan kemasan Anda dalam permintaan. Detail akan ditinjau dan ditetapkan bersama penawaran Anda."
+    },
+    "order": {
+      "q": "Apakah meminta penawaran berarti melakukan order?",
+      "a": "Tidak. Formulir memulai permintaan grosir. Spesifikasi produk, ketersediaan, dan syarat komersial ditetapkan sebelum order disepakati."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Eropa",
+      "body": "Cantumkan ukuran, grit, backing, dan file produk; berikan pelabuhan tujuan dan bahasa label."
+    },
+    "na": {
+      "title": "Amerika Utara",
+      "body": "Tentukan ukuran inci atau metrik, tipe pemasangan, dan jumlah per kemasan; ZIP atau pelabuhan tujuan serta mode transportasi."
+    },
+    "sa": {
+      "title": "Amerika Selatan",
+      "body": "Ukuran, jumlah campuran grit, dan bahasa label karton; pelabuhan tujuan dan dokumen importir."
+    },
+    "me": {
+      "title": "Timur Tengah",
+      "body": "Material, grit, dan pengemasan aman lembap; pelabuhan tujuan dan syarat penawaran."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Kecocokan mesin, ukuran yang dibutuhkan, dan jumlah per kemasan; pelabuhan tujuan, kode etiket karton, dan preferensi transportasi."
+    },
+    "oceania": {
+      "title": "Oseania",
+      "body": "Ukuran, backing, pengemasan, dan ZIP atau pelabuhan tujuan; kebutuhan impor dan pengemasan."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Spesifikasi mesin, rentang grit, dan komposisi order; kota atau pelabuhan pengiriman serta label dalam bahasa setempat."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Fabrikasi Logam",
+      "intro": "Blending las, penghilangan burr (deburring), dan persiapan permukaan logam.",
+      "uses": "Blending las · Penghilangan burr · Persiapan permukaan",
+      "products": "Sabuk abrasif"
+    },
+    "wood": {
+      "title": "Perkayuan & Furnitur",
+      "intro": "Panel, pembuatan furnitur, dan persiapan permukaan sebelum pelapisan (pre-lacquer).",
+      "uses": "Panel · Furnitur · Persiapan pre-lacquer",
+      "products": "Sabuk abrasif · Piringan amplas"
+    },
+    "auto": {
+      "title": "Perbaikan Otomotif",
+      "intro": "Pengamplasan body filler, persiapan sebelum pengecatan, dan refinishing otomotif.",
+      "uses": "Body filler · Pre-spray · Refinishing",
+      "products": "Piringan amplas"
+    },
+    "stainless": {
+      "title": "Finising Baja Tahan Karat",
+      "intro": "Hasil akhir hairline, transisi permukaan, dan fabrikasi baja tahan karat.",
+      "uses": "Hairline · Transisi · Fabrikasi",
+      "products": "Sabuk abrasif"
+    },
+    "ship": {
+      "title": "Pembangunan & Perbaikan Kapal",
+      "intro": "Penggerindaan logam, penghilangan karat, dan persiapan permukaan untuk perawatan marine.",
+      "uses": "Penggerindaan · Penghilangan karat · Persiapan marine",
+      "products": "Sabuk abrasif"
+    },
+    "surface": {
+      "title": "Persiapan Permukaan Industri",
+      "intro": "Perawatan permukaan industri dan pekerjaan pemeliharaan.",
+      "uses": "Perawatan permukaan · Pemeliharaan",
+      "products": "Piringan amplas"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop atau PSA: pilih backing yang tepat",
+      "intro": "Sistem pemasangan sama pentingnya dengan grit. Cocokkan dengan pad sebelum memesan.",
+      "start": {
+        "title": "Mulai dari kebutuhannya",
+        "body": "Piringan hook & loop dipasang pada pad dengan permukaan hook yang kompatibel dan cocok untuk operasi dengan pergantian grit yang sering. Piringan PSA mengandalkan perekat sensitif tekanan dan membutuhkan pad yang bersih dan rata. Kedua sistem ini tidak dapat saling menggantikan."
+      },
+      "compat": {
+        "title": "Pastikan kompatibilitas",
+        "body": "Tetapkan diameter pad, tipe backing, dan tata letak ekstraksi debu. Piringan tanpa lubang tidak terhubung ke pola ekstraksi berbasis lubang, dan piringan jaring terbuka (open-mesh) membutuhkan pad dan sistem ekstraksi yang kompatibel."
+      },
+      "enquiry": {
+        "title": "Siapkan permintaan Anda",
+        "body": "Sertakan diameter piringan, backing, daftar grit, jumlah per grit, dan material benda kerja. Minta evaluasi sampel sebelum menyetujui order produksi."
+      }
+    },
+    "beltChecklist": {
+      "title": "Yang perlu dicantumkan dalam permintaan sabuk abrasif",
+      "intro": "Spesifikasi yang jelas membantu pemasok meninjau kecocokan dan menyiapkan penawaran yang berguna.",
+      "start": {
+        "title": "Mulai dari kebutuhannya",
+        "body": "Sertakan panjang dan lebar sabuk dalam milimeter. Sebutkan model mesin — lembar spesifikasi mesin atau foto label sabuk lama akan sangat membantu."
+      },
+      "compat": {
+        "title": "Pastikan kompatibilitas",
+        "body": "Tambahkan material benda kerja, abrasif yang disukai, grit, kebutuhan backing, dan kebutuhan sambungan. Hindari memilih produk hanya berdasarkan warna sabuk."
+      },
+      "enquiry": {
+        "title": "Siapkan permintaan Anda",
+        "body": "Cantumkan jumlah per ukuran dan grit, preferensi kemasan, tujuan, dan tanggal pengiriman yang dibutuhkan. Penawaran akhir menetapkan spesifikasi, ketersediaan, syarat pembayaran, dan pengaturan transportasi."
+      }
+    },
+    "gritSequence": {
+      "title": "Merencanakan urutan grit untuk persiapan permukaan",
+      "intro": "Mulai dari benda kerja dan hasil akhir yang dibutuhkan, lalu evaluasi urutan pada sampel.",
+      "start": {
+        "title": "Mulai dari kebutuhannya",
+        "body": "Grit kasar melepas material dengan cepat dan meninggalkan goresan dalam; grit halus menyempurnakan permukaan. Titik awal bergantung pada material dasar, kedalaman cacat, dan kebutuhan pelepasan."
+      },
+      "compat": {
+        "title": "Pastikan kompatibilitas",
+        "body": "Turunkan grit secara berurutan dan periksa benda kerja di setiap tahap. Menyelip grit meninggalkan goresan yang sulit dihilangkan, dan pembersihan antar tahap mencegah kontaminasi grit kasar."
+      },
+      "enquiry": {
+        "title": "Siapkan permintaan Anda",
+        "body": "Penomoran grit tidak dapat saling ditukarkan antar sistem gradasi. Tetapkan standar gradasi, tipe abrasif, dan ketersediaan dalam penawaran, serta ikuti instruksi keselamatan mesin dan abrasif."
+      }
+    },
+    "dustCollection": {
+      "title": "Ekstraksi debu & kompatibilitas pad, dijelaskan",
+      "intro": "Pola lubang, piringan jaring terbuka, dan pad backing harus cocok dengan setup ekstraksi Anda.",
+      "start": {
+        "title": "Mulai dari kebutuhannya",
+        "body": "Kenali pad Anda: jumlah lubang, diameter, dan apakah digunakan bersama ekstraksi debu. Piringan tanpa lubang dan piringan jaring terbuka berperilaku berbeda dari piringan berlubang ganda."
+      },
+      "compat": {
+        "title": "Pastikan kompatibilitas",
+        "body": "Cocokkan tata letak lubang piringan dengan port pad. Piringan jaring terbuka membutuhkan pad dan sistem ekstraksi yang berfungsi; piringan PSA membutuhkan permukaan pad yang bersih."
+      },
+      "enquiry": {
+        "title": "Siapkan permintaan Anda",
+        "body": "Cantumkan model pad, jumlah lubang, ukuran piringan, daftar grit, serta pengaturan ekstraksi debu Anda. Pastikan perilaku sampel sebelum order produksi."
+      }
+    },
+    "oemPackaging": {
+      "title": "Label & kemasan OEM: yang perlu disiapkan",
+      "intro": "Brief yang lengkap menjaga artwork, label, dan karton tetap sesuai jadwal.",
+      "start": {
+        "title": "Mulai dari kebutuhannya",
+        "body": "Siapkan logo dan artwork label, format kemasan target (kantong dalam, karton), bahasa label, dan aturan pelabelan negara tujuan."
+      },
+      "compat": {
+        "title": "Pastikan kompatibilitas",
+        "body": "Ketersediaan OEM, jumlah minimum, kebutuhan artwork, dan jadwal ditetapkan melalui peninjauan kelayakan dan penawaran yang dikonfirmasi."
+      },
+      "enquiry": {
+        "title": "Siapkan permintaan Anda",
+        "body": "Lampirkan artwork, tetapkan jumlah per kemasan dan kode etiket karton, serta nyatakan tujuan dan waktunya. Persetujuan sampel mendahului produksi."
+      }
+    },
+    "gritStandards": {
+      "title": "Standar grit: FEPA, ANSI, dan arti daftar Anda",
+      "intro": "Sistem gradasi tidak dapat saling ditukarkan — nyatakan standarnya di setiap permintaan.",
+      "start": {
+        "title": "Mulai dari kebutuhannya",
+        "body": "FEPA (ISO 848) dan skala ANSI lama memperlakukan ukuran serupa dengan penomoran berbeda; P120 dan grit 120 belum tentu sama. Nyatakan standar yang Anda gunakan untuk pembelian."
+      },
+      "compat": {
+        "title": "Pastikan kompatibilitas",
+        "body": "Tetapkan standar gradasi, tipe abrasif, dan ketersediaan per grade dalam penawaran. Jangan mencampur sistem gradasi dalam satu daftar grit."
+      },
+      "enquiry": {
+        "title": "Siapkan permintaan Anda",
+        "body": "Nyatakan standarnya (mis. FEPA P60–P800), jumlah per grade, dan tujuannya. Tetapkan daftar grade akhir melalui penawaran sebelum memesan."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Butiran abrasif paling umum untuk sabuk dan piringan: tangguh, mudah dikerjakan, cocok untuk logam, kayu, dan finising umum."
+    },
+    "ansi": {
+      "def": "Penomoran grit Amerika Utara lama. Butiran berukuran serupa berbeda dari skala FEPA — nyatakan standarnya di setiap permintaan."
+    },
+    "backing-cloth": {
+      "def": "Kain berbasis katun yang menopang butiran abrasif pada sabuk. Bobot (mis. berat X) menentukan kelenturan dan kapasitas beban."
+    },
+    "backing-poly": {
+      "def": "Backing web poly-katun: keseimbangan kekuatan dan kelenturan untuk sabuk serbaguna."
+    },
+    "belt": {
+      "def": "Lingkar butiran abrasif yang tidak putus-putus pada backing web, digunakan pada mesin sabuk untuk penggerindaan, finising, dan penghilangan burr."
+    },
+    "blend": {
+      "def": "Melicinkan las agar menyatu dengan logam sekitarnya — biasanya jalur pertama dengan piringan flap atau sabuk, lalu grit yang lebih halus."
+    },
+    "closed": {
+      "def": "Tata letak butiran tertutup rapat dengan ruang terbuka sedikit; sabuk tahan menyumbat pada pekerjaan yang lebih keras."
+    },
+    "debur": {
+      "def": "Menghilangkan burr dan tonjolan kecil yang ditinggalkan oleh pemotongan, pemotongan gergaji, atau penggerindaan."
+    },
+    "dust": {
+      "def": "Menghilangkan debu abrasif pada benda kerja — melalui port pad, piringan jaring terbuka, atau ekstraksi lokal."
+    },
+    "flap": {
+      "def": "Piringan dari tumpukan lipatan abrasif yang saling tumpang tindih, lentur, untuk penggerindaan, blending, dan finising pada gerinda sudut."
+    },
+    "fepa": {
+      "def": "Skala gradasi ISO 848 (FEPA) dalam notasi P (mis. P120). Skala baku di sebagian besar perdagangan Eropa dan internasional."
+    },
+    "grit": {
+      "def": "Ukuran nominal butiran abrasif: angka lebih tinggi berarti lebih halus. Sabuk 40–800; piringan 60–5000."
+    },
+    "hookloop": {
+      "def": "Sistem pemasangan hook-and-loop untuk piringan: piringan terpasang pada pad dengan permukaan hook."
+    },
+    "mesh": {
+      "def": "Piringan jaring terbuka memiliki jendela potongan agar debu dapat melewati, dan membutuhkan pad serta ekstraksi yang kompatibel."
+    },
+    "moq": {
+      "def": "Minimum order quantity (MOQ) — disertakan bersama penawaran, disertai ketersediaan dan syarat."
+    },
+    "oem": {
+      "def": "Pembuatan alat asli (OEM) / private label: produk kami dengan merek, label, dan kemasan Anda."
+    },
+    "psa": {
+      "def": "Backing perekat sensitif tekanan: piringan menempel langsung pada pad yang kompatibel."
+    },
+    "disc": {
+      "def": "Lingkaran abrasif datar atau berflap yang dipasang pada pad untuk pengamplasan dan finising."
+    },
+    "sic": {
+      "def": "Butiran karbida silikon: sangat keras dan tajam, cocok untuk kaca, keramik, dan logam non-ferrous."
+    },
+    "prep": {
+      "def": "Menyiapkan permukaan untuk pelapisan atau finishing: menghilangkan karat, filler, atau lapisan lama hingga profil yang konsisten."
+    },
+    "wetdry": {
+      "def": "Grade yang tetap dingin dan tahan menyumbat untuk penggunaan basah atau basah/kering; tetapkan kesesuaiannya melalui penawaran."
+    },
+    "xweight": {
+      "def": "Backing kain berat menengah untuk sabuk serbaguna: kuat namun lentur."
+    },
+    "zirconia": {
+      "def": "Butiran zirkonia alumina: tangguh dan agresif untuk penggerindaan, penghilangan burr, dan finising logam."
+    },
+    "pad": {
+      "def": "Pelat backing tempat piringan duduk: diameter pad, permukaan (hook), dan tata letak port harus cocok dengan piringan."
+    }
+  },
+  "footer": {
+    "blurb": "Barang habis pakai abrasif untuk pembeli industri, distributor, dan merek private label.",
+    "products": "Produk",
+    "explore": "Jelajahi MoTai",
+    "connect": "Terhubung dengan Kami",
+    "aboutUs": "Tentang Kami",
+    "mfgQ": "Manufaktur & Kualitas",
+    "oemPl": "OEM & Private Label",
+    "newsB": "Berita & Blog",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Penggunaan",
+    "contactUs": "Hubungi Kami"
+  },
+  "tdk": {
+    "home": {
+      "title": "Pabrikan & Pemasok Bahan Abrasif Industri | MoTai",
+      "description": "Pabrikan bahan abrasif profesional di Tiongkok yang memasok sabuk abrasif, piringan amplas, dan piringan flap. Grosir langsung dari pabrik, kustomisasi OEM, dan solusi bahan abrasif industri untuk distributor dan pembeli global.",
+      "keywords": "pabrikan bahan abrasif, pemasok bahan abrasif, bahan abrasif industri, sabuk abrasif, piringan amplas, piringan flap, pabrikan sabuk abrasif, grosir produk abrasif"
+    },
+    "about": {
+      "title": "Tentang MoTai — Pabrikan & Pabrik Bahan Abrasif di Hubei, Tiongkok",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. adalah pabrikan abrasif berlapis di Xianning, Hubei: sabuk abrasif, piringan amplas, dan piringan flap dengan layanan OEM, ukuran kustom, pasokan jumlah besar, dan ekspor.",
+      "keywords": "pabrikan bahan abrasif Tiongkok, pemasok bahan abrasif Tiongkok, pabrik bahan abrasif, pabrikan abrasif berlapis, eksportir produk abrasif, pemasok bahan abrasif B2B"
+    },
+    "factory": {
+      "title": "Manufaktur & QC Bahan Abrasif — Pabrik MoTai di Hubei",
+      "description": "Sekilas ke bengkel abrasif MoTai: konversi dan pemotongan, pemeriksaan sampel, QC, dan pengemasan OEM untuk sabuk abrasif, piringan amplas, dan piringan flap.",
+      "keywords": "manufaktur bahan abrasif, QC pabrik bahan abrasif, konversi bahan abrasif, pengemasan OEM bahan abrasif"
+    },
+    "oem": {
+      "title": "Pabrikan OEM & Private Label Bahan Abrasif | MoTai",
+      "description": "Manufaktur OEM dan private label bahan abrasif: logo, label, ukuran, dan kemasan Anda pada sabuk, piringan, dan piringan flap MoTai, ditawarkan berdasarkan spesifikasi yang Anda tetapkan.",
+      "keywords": "pabrikan OEM bahan abrasif, private label bahan abrasif, produk abrasif kustom, pemasok OEM bahan abrasif"
+    },
+    "applications": {
+      "title": "Bahan Abrasif Industri per Aplikasi — Logam, Kayu, Otomotif & Lainnya",
+      "description": "Cocokkan sabuk abrasif, piringan amplas, dan piringan flap MoTai dengan aplikasi Anda: penggerindaan logam, pengamplasan kayu, perbaikan bodi mobil, finising stainless, pembuatan kapal, dan persiapan permukaan.",
+      "keywords": "aplikasi bahan abrasif, penggerindaan logam, pengamplasan kayu, persiapan permukaan, persiapan permukaan industri"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Bahan Abrasif Fabrikasi Logam — Penggerindaan & Penghilangan Burr | MoTai",
+        "description": "Bahan abrasif untuk fabrikasi logam: penggerindaan logam, penghilangan burr, dan penggerindaan jalur las dengan sabuk abrasif MoTai, piringan jaring (mesh), dan piringan flap.",
+        "keywords": "bahan abrasif fabrikasi logam, penggerindaan logam, penghilangan burr logam, penggerindaan jalur las"
+      },
+      "woodworking": {
+        "title": "Bahan Abrasif Perkayuan & Amplasan Sabuk Lebar | MoTai",
+        "description": "Bahan abrasif untuk perkayuan dan furnitur: pengamplasan sabuk lebar, pengamplasan panel kayu dan MDF dengan sabuk dan piringan amplas MoTai.",
+        "keywords": "bahan abrasif perkayuan, pengamplasan sabuk lebar, pengamplasan kayu, pengamplasan furnitur"
+      },
+      "automotive": {
+        "title": "Pengamplasan Perbaikan Otomotif — Bodi & Cat Mobil | MoTai",
+        "description": "Bahan abrasif untuk perbaikan otomotif: pengamplasan bodi mobil, pengamplasan cat dan primer mobil dengan piringan PSA dan hook & loop MoTai.",
+        "keywords": "bahan abrasif otomotif, pengamplasan bodi mobil, pengamplasan cat mobil, pengamplasan primer"
+      },
+      "stainless-steel": {
+        "title": "Bahan Abrasif Finising & Poles Baja Tahan Karat | MoTai",
+        "description": "Bahan abrasif untuk baja tahan karat: poles logam, penggerindaan permukaan, dan finising dengan piringan flap dan sabuk MoTai.",
+        "keywords": "finising baja tahan karat, poles logam, penggerindaan permukaan, abrasif stainless"
+      },
+      "shipbuilding": {
+        "title": "Bahan Abrasif Pembuatan Kapal — Pelat Baja & Penghilangan Karat | MoTai",
+        "description": "Bahan abrasif berat untuk pembuatan kapal: penggerindaan pelat baja, penghilangan karat, dan persiapan permukaan industri dengan sabuk dan piringan flap MoTai.",
+        "keywords": "bahan abrasif pembuatan kapal, penggerindaan pelat baja, penghilangan karat, penggerindaan beban berat"
+      },
+      "surface-preparation": {
+        "title": "Bahan Abrasif Persiapan Permukaan & Penggerindaan Industri | MoTai",
+        "description": "Solusi bahan abrasif industri untuk persiapan permukaan, finising permukaan, dan penggerindaan beban berat pada sabuk, piringan, dan piringan flap MoTai.",
+        "keywords": "persiapan permukaan, finising permukaan, penggerindaan industri, solusi bahan abrasif"
+      }
+    },
+    "blog": {
+      "title": "Panduan Pembeli & Standar Grit Bahan Abrasif | Pengetahuan MoTai",
+      "description": "Sumber daya praktis untuk pembeli bahan abrasif: pemilihan backing piringan, checklist permintaan sabuk, urutan grit, ekstraksi debu, dan standar grit (FEPA/ANSI).",
+      "keywords": "panduan pembeli bahan abrasif, pemilihan grit, glosarium bahan abrasif, standar grit FEPA ANSI"
+    },
+    "contact": {
+      "title": "Hubungi MoTai — Pemasok Bahan Abrasif di Tiongkok",
+      "description": "Sampaikan permintaan grosir dan OEM bahan abrasif ke pemasok MoTai di Xianning, Hubei melalui telepon, email, dan WhatsApp, termasuk kunjungan pabrik.",
+      "keywords": "kontak pemasok bahan abrasif, permintaan grosir bahan abrasif, pabrikan bahan abrasif Tiongkok"
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "description": "Cara MoTai Abrasives menggunakan informasi permintaan: pengumpulan, tujuan, penyimpanan, pilihan Anda, dan penanganan cookie.",
+      "keywords": "kebijakan privasi, MoTai"
+    },
+    "terms": {
+      "title": "Syarat Penggunaan — MoTai Abrasives",
+      "description": "Syarat untuk situs bahan abrasif B2B ini: penanganan permintaan, harga berbasis penawaran, hak kekayaan intelektual, dan hukum yang berlaku.",
+      "keywords": [
+        "syarat penggunaan",
+        "MoTai",
+        "pemasok bahan abrasif B2B"
+      ]
+    },
+    "quote": {
+      "title": "Minta Penawaran Grosir Bahan Abrasif | MoTai",
+      "description": "Siapkan permintaan grosir atau OEM bahan abrasif Anda: detail perusahaan serta produk, ukuran, grit, jumlah, dan tujuan. Pasokan bahan abrasif jumlah besar ditawarkan langsung dari pabrik.",
+      "keywords": "penawaran grosir bahan abrasif, pasokan bahan abrasif jumlah besar, permintaan OEM bahan abrasif, grosir bahan abrasif"
+    },
+    "clients": {
+      "title": "Eksportir Produk Abrasif — Pasokan Global dari Hubei, Tiongkok | MoTai",
+      "description": "MoTai mengekspor sabuk abrasif, piringan amplas, dan piringan flap ke tujuh wilayah tujuan: Eropa, Amerika, Timur Tengah, Afrika, Oseania, dan Asia.",
+      "keywords": "eksportir produk abrasif, ekspor bahan abrasif, pasokan bahan abrasif global, pemasok bahan abrasif industri"
+    },
+    "glossary": {
+      "title": "Glosarium Bahan Abrasif — Grit, Backing, Istilah Piringan",
+      "description": "24 istilah abrasif yang didefinisikan: grit FEPA, backing, hook & loop, PSA, jaring terbuka, penghilangan burr, dan lainnya.",
+      "keywords": "glosarium bahan abrasif, standar grit, istilah bahan abrasif"
+    },
+    "product": {
+      "title": "MoTai {name} — Grosir & OEM Bahan Abrasif",
+      "description": "MoTai {name} ({material}, {category}): {desc} Ukuran: {sizes}. Grit: {grits}. Grosir langsung dari pabrik dan pasokan OEM.",
+      "keywords": "{name}, pabrikan {category}, abrasif {material}, grosir bahan abrasif, OEM bahan abrasif"
+    },
+    "model": {
+      "title": "Sabuk Abrasif {model} — MoTai",
+      "description": "Model sabuk abrasif referensi {model} dari rangkaian MoTai — lebar, panjang, grit, dan backing ditetapkan melalui penawaran. Pasokan grosir dan OEM.",
+      "keywords": "sabuk abrasif {model}, referensi model sabuk abrasif, grosir sabuk abrasif"
+    },
+    "disc": {
+      "title": "MoTai {title} — Grosir & OEM",
+      "description": "Varian piringan MoTai {title}: rentang grit, diameter, dan pemasangan ditetapkan melalui penawaran. Grosir langsung dari pabrik dan OEM.",
+      "keywords": "piringan amplas, piringan amplas hook and loop, piringan amplas PSA, piringan amplas mesh, grosir piringan amplas"
+    },
+    "flap": {
+      "title": "MoTai {name} — Pabrikan Piringan Flap",
+      "description": "MoTai {name}: piringan flap abrasif dengan backing {backing} untuk penggerindaan, blending, dan finising logam. Pasokan grosir dan OEM.",
+      "keywords": "piringan flap, piringan flap backing {backing}, piringan flap zirkonia, pabrikan piringan flap, grosir piringan flap"
+    },
+    "colt": {
+      "belts": {
+        "title": "Pabrikan & Pemasok Grosir Sabuk Abrasif | MoTai",
+        "description": "Sabuk abrasif lebar dan industri 533×75 hingga 2200×1330 mm, grit 40–800, dalam oksida aluminium, zirkonia, dan karbida silikon — dengan model referensi GXK-51, XZ-330, GPC71, dan lainnya. Grosir langsung dari pabrik dan OEM.",
+        "keywords": "sabuk abrasif, sabuk amplas, sabuk amplas industri, sabuk abrasif lebar, sabuk amplas lebar, sabuk amplas kayu, sabuk amplas logam, sabuk abrasif oksida aluminium, sabuk abrasif zirkonia, sabuk abrasif karbida silikon, pabrikan sabuk abrasif, pemasok sabuk abrasif, grosir sabuk abrasif, sabuk abrasif GXK-51, sabuk abrasif XZ-330, sabuk abrasif GPC71, sabuk abrasif Y399, sabuk abrasif Y999, sabuk abrasif 533x75, sabuk abrasif 610x100, sabuk abrasif 1520x630, sabuk abrasif 2200x1330"
+      },
+      "discs": {
+        "title": "Pabrikan Piringan Amplas — PSA, Hook & Loop, & Mesh | MoTai",
+        "description": "Piringan amplas hook & loop, PSA, jaring (mesh), dan tanpa lubang dari 3 hingga 6 inci, grit 60–5000, untuk bodi mobil, kayu, dan finising logam. Grosir langsung dari pabrik dan OEM.",
+        "keywords": "piringan amplas, piringan amplas abrasif, piringan amplas hook and loop, piringan amplas PSA, piringan amplas mesh, piringan amplas non-woven, piringan amplas bebas debu, piringan amplas berlubang, piringan amplas lubang, piringan amplas 5 inci, piringan amplas 6 inci, pabrikan piringan amplas, grosir piringan amplas"
+      },
+      "flap": {
+        "title": "Pabrikan Piringan Flap — Zirkonia & Oksida Aluminium | MoTai",
+        "description": "Piringan flap abrasif MoTai dengan backing plastik, baja, dan faser kaca, dalam zirkonia dan oksida aluminium, untuk penggerindaan, penghilangan burr, dan finising logam. Pasokan grosir dan OEM.",
+        "keywords": "piringan flap, piringan flap abrasif, piringan flap zirkonia, piringan flap oksida aluminium, piringan flap backing faser kaca, piringan flap backing plastik, piringan flap backing baja, piringan flap 100mm, piringan flap 115mm, piringan flap 125mm, piringan flap 150mm, piringan flap 180mm, pabrikan piringan flap, pemasok piringan flap, grosir piringan flap"
+      },
+      "all": {
+        "title": "Produk Abrasif Grosir — Sabuk, Piringan & Piringan Flap | MoTai",
+        "description": "Katalog bahan abrasif MoTai secara lengkap: sabuk abrasif industri, piringan amplas, dan piringan flap untuk distributor, importir, pedagang grosir, dan merek OEM. Grosir langsung dari pabrik, kustomisasi, dan ekspor dari Hubei, Tiongkok.",
+        "keywords": "produk abrasif, grosir produk abrasif, bahan abrasif industri, abrasif berlapis, grosir bahan abrasif, pabrik produk abrasif, eksportir produk abrasif, pemasok bahan abrasif Tiongkok, pabrikan OEM bahan abrasif, private label bahan abrasif, produk abrasif kustom, pasokan bahan abrasif jumlah besar, pabrik bahan abrasif, alat abrasif, material abrasif, produk amplas, produk finising permukaan, amplas, lembaran amplas, amplas bundar, grosir amplas, bantalan amplas, bantalan amplas hook and loop, bantalan amplas 5 inci, bantalan amplas 6 inci, roda flap non-woven, kain abrasif, sikat rol industri"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Kontak cepat",
+    "whatsapp": "WhatsApp",
+    "quote": "Minta penawaran"
+  }
+}

@@ -24,8 +24,10 @@ const intro = pick(article.introKey)
 // Freshness byline: review date localized to the page language at build time.
 // Use the 2-letter lang code (not ogLocale like `ar_SA`/`pt_PT`) — Node's
 // small-icu rejects BCP47 region tags ("Invalid language tag"), but always
-// accepts bare language codes.
-const reviewed = new Intl.DateTimeFormat(lang, { dateStyle: 'long' }).format(new Date(article.dateModified ?? article.datePublished))
+// accepts bare language codes. zh-Hant is a 4-letter route code: strip the
+// -Hant/-HanS suffix so Intl gets the bare "zh" (long forms throw
+// "Invalid language tag").
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(article.dateModified ?? article.datePublished))
 const seo = buildSeo(lang, 'article', { article: { title, intro, slug: a.slug, image: a.image, datePublished: article.datePublished, dateModified: article.dateModified } }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.news'), path: `/${lang}/blog` },

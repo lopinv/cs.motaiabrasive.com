@@ -189,7 +189,9 @@
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Chine. Organisez une visite d'usine avec notre équipe et confirmez le lieu de rendez-vous avant le déplacement.",
     "ctaTitle": "À la recherche d'un fournisseur d'abrasifs fiable ?",
     "cta1": "Demander un devis de gros",
-    "cta2": "Contact via WhatsApp"
+    "cta2": "Contact via WhatsApp",
+    "profileName": "En bref",
+    "profileBody": "Fabricant d'abrasifs enrevêtus à Xianning, Hubei : trois gammes de produits livrées vers sept régions de destination, avec une granulométrie de 40 à 5000."
   },
   "factory": {
     "h1": "Dans l'atelier MoTai",
@@ -277,7 +279,9 @@
   },
   "blogIndex": {
     "h1": "Mieux informer. Mieux choisir.",
-    "sub": "Ressources pratiques pour les acheteurs afin de discuter de spécifications abrasives."
+    "sub": "Ressources pratiques pour les acheteurs afin de discuter de spécifications abrasives.",
+    "updatedLabel": "Mis à jour",
+    "governance": "Les guides sont rédigés et relus par l'équipe technique MoTai Abrasives et re-examinés lorsque les spécifications des produits changent."
   },
   "article": {
     "watchTitle": "Voir",

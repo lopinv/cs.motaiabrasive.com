@@ -11,11 +11,11 @@ const read = (rel) => fs.readFileSync(path.join(dist, 'dist', rel), 'utf8')
 let failures = 0
 const fail = (msg) => { failures++; console.log('  FAIL ' + msg) }
 
-/** True when u is an absolute locale URL (https://host/en/...) that lacks a trailing slash. */
+/** True when u is an absolute locale URL (https://host/en/..., /zh-Hant/...) that lacks a trailing slash. */
 function isLeak(u) {
   const p = u.replace(/^https:\/\/[^/]+/, '')
   const first = p.slice(1).split('/')[0]
-  if (!/^[a-z]{2}$/.test(first)) return false // root or asset (products.csv, sitemap.xml, ...)
+  if (!/^[a-z]{2}(-[A-Za-z]+)?$/.test(first)) return false // root or asset (products.csv, sitemap.xml, ...)
   return !u.endsWith('/')
 }
 
@@ -29,7 +29,8 @@ function audit(name, text, urlRegex) {
 // when the build is published under a custom SITE_URL domain.
 const prod0 = read('en/products/533x75-abrasive-belt/index.html')
 const host = prod0.match(/<link rel="canonical" href="https:\/\/([^/]+)/)[1]
-const urlPat = () => new RegExp(`"(https://${host.replace(/\./g, '\\.')}/[a-z]{2}[^"]*)"`, 'g')
+// [a-z]{2}(-[A-Za-z]+)? admits hyphenated route codes like zh-Hant.
+const urlPat = () => new RegExp(`"(https://${host.replace(/\./g, '\\.')}/[a-z]{2}(-[A-Za-z]+)?[^"]*)"`, 'g')
 
 console.log('=== canonical / hreflang / JSON-LD (en product page) ===')
 const prod = prod0
@@ -47,7 +48,7 @@ audit('en/collections/all', col, urlPat())
 
 console.log('=== sitemap.xml ===')
 const sm = read('sitemap.xml')
-audit('sitemap', sm, new RegExp(`<loc>(https://${host.replace(/\./g, '\\.')}/[a-z]{2}[^<]*)</loc>`, 'g'))
+audit('sitemap', sm, new RegExp(`<loc>(https://${host.replace(/\./g, '\\.')}/[a-z]{2}(-[A-Za-z]+)?[^<]*)</loc>`, 'g'))
 const smCount = (sm.match(/<loc>/g) || []).length
 console.log(`  total sitemap urls: ${smCount}`)
 

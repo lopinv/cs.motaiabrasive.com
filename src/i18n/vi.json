@@ -1,0 +1,880 @@
+{
+  "code": "vi",
+  "name": "Tiếng Việt",
+  "codeLabel": "VI",
+  "htmlLang": "vi",
+  "ogLocale": "vi_VN",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Yêu cầu báo giá bán buôn",
+    "oemNote": "Yêu cầu bao bì OEM",
+    "size": "Kích thước",
+    "grit": "Cỡ hạt",
+    "quantity": "Số lượng yêu cầu",
+    "requirements": "Yêu cầu kỹ thuật và đóng gói",
+    "requirementsPh": "Đã cho chúng tôi biết về ứng dụng, thông số kỹ thuật và yêu cầu giao hàng của quý khách.",
+    "material": "Vật liệu mài",
+    "backing": "Đế / hệ gắn",
+    "availability": "Khả năng cung ứng, số lượng đặt hàng tối thiểu và các điều khoản thương mại được xác nhận trong báo giá.",
+    "sampleNote": "Đã cho chúng tôi biết quý khách muốn đánh giá sản phẩm nào và cỡ hạt nào. Đội ngũ kinh doanh của chúng tôi sẽ xác nhận khả năng cung cấp mẫu, chi phí mẫu và phương thức vận chuyển.",
+    "gritsRange": "Dải cỡ hạt",
+    "holes": "Lỗ",
+    "diameter": "Đường kính / kích thước danh nghĩa",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Ngôn ngữ",
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "manufacturing": "Sản xuất",
+    "oem": "Dịch vụ OEM",
+    "news": "Tin tức",
+    "knowledge": "Kiến thức",
+    "contact": "Liên hệ",
+    "products": "Sản phẩm"
+  },
+  "colt": {
+    "belts": {
+      "title": "Dây băng mài — Bán buôn & OEM",
+      "desc": "Dây băng mài màu đỏ với các kích thước có tài liệu từ 533 × 75 mm đến 2200 × 1330 mm. Cỡ hạt 40–800. Có sẵn các mã tham chiếu. Xin mời gửi yêu cầu bán buôn và OEM.",
+      "label": "Dây băng mài"
+    },
+    "discs": {
+      "title": "Đĩa mài — Bán buôn & OEM",
+      "desc": "Đĩa mài keo tự dính (PSA), hook & loop, lưới hở và không lỗ từ 3 đến 6 inch. Cỡ hạt 60–5000. Xin mời gửi yêu cầu bán buôn và OEM.",
+      "label": "Đĩa mài"
+    },
+    "flap": {
+      "title": "Đĩa mài nhiều lớp MOTAI",
+      "desc": "Đĩa mài nhiều lớp với đế nhựa, thép và sợi thủy tinh (fiberglass) dùng cho mài kim loại, xóa mối hàn và hoàn thiện. Xác nhận thông số, cung ứng số lượng lớn và bao bì OEM theo báo giá.",
+      "label": "Đĩa mài nhiều lớp"
+    },
+    "all": {
+      "title": "Tất cả sản phẩm",
+      "desc": "Danh mục vật liệu mài đầy đủ của MoTai: dây băng mài, đĩa mài và đĩa mài nhiều lớp dành cho nhà mua hàng công nghiệp, nhà phân phối và thương hiệu riêng.",
+      "label": "Tất cả sản phẩm"
+    }
+  },
+  "cta": {
+    "quote": "Yêu cầu báo giá bán buôn",
+    "quoteArrow": "↗",
+    "sample": "Yêu cầu mẫu",
+    "whatsapp": "Hỏi giá qua WhatsApp",
+    "waChat": "Liên hệ qua WhatsApp",
+    "explore": "Xem dải đĩa mài nhiều lớp",
+    "viewAll": "Xem tất cả sản phẩm",
+    "discuss": "Thảo luận thông số kỹ thuật của bạn",
+    "oemQuote": "Yêu cầu báo giá OEM"
+  },
+  "home": {
+    "eyebrow": "Vật liệu mài từ nhà máy MoTai ở Hubei",
+    "heroTitle": "Nhà sản xuất & nhà cung cấp vật liệu mài chuyên nghiệp",
+    "heroSub": "Dây băng mài, đĩa mài và đĩa mài nhiều lớp trực tiếp từ nhà máy dành cho nhà mua hàng công nghiệp, nhà phân phối và thương hiệu riêng — từ Hubei, Trung Quốc đến thị trường của bạn.",
+    "cta1": "Yêu cầu báo giá bán buôn",
+    "cta2": "Trò chuyện với đội ngũ của chúng tôi qua WhatsApp",
+    "builtTitle": "Chọn ứng dụng. Chọn vật liệu mài phù hợp.",
+    "builtSub": "Chọn ứng dụng, sau đó chọn vật liệu mài phù hợp: dây băng, đĩa mài hoặc đĩa mài nhiều lớp.",
+    "featuredTitle": "Trong danh mục",
+    "featuredSub": "Kích thước và cỡ hạt được ghi trong danh mục; MOQ và khả năng cung ứng đi kèm báo giá.",
+    "partnerTitle": "Phía cung ứng của đơn hàng vật liệu mài",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. cung cấp vật liệu mài tiêu hao cho ngành gỗ, gia công kim loại và ô tô — kèm chương trình OEM và thương hiệu riêng dành cho nhà phân phối và nhà mua hàng công nghiệp trên toàn thế giới.",
+    "partnerCta": "Tìm hiểu về MoTai",
+    "valuesTitle": "Sáu cách nhà mua hàng B2B hợp tác với chúng tôi",
+    "valuesSub": "Sáu lý do khiến nhà nhập khẩu và thương hiệu OEM hợp tác với chúng tôi.",
+    "v1t": "Trực tiếp từ nhà máy",
+    "v1b": "Giá và thời gian giao hàng phía nhà cung cấp, không qua trung gian.",
+    "v2t": "OEM & Thương hiệu riêng",
+    "v2b": "Logo, nhãn và bao bì của bạn theo thông số kỹ thuật đã xác nhận.",
+    "v3t": "Kích thước & Cỡ hạt đặt theo yêu cầu",
+    "v3b": "Kích thước và cỡ hạt có tài liệu: 40–800 cho dây băng, 60–5000 cho đĩa mài.",
+    "v4t": "Kiểm tra mẫu & kiểm soát chất lượng",
+    "v4b": "Đánh giá bề mặt, đế và độ vừa khít của mẫu trước khi đặt hàng.",
+    "v5t": "Cung ứng số lượng lớn",
+    "v5b": "Số lượng đóng kiện đều đặn và chi tiết phiếu đóng gói rõ ràng.",
+    "v6t": "Chương trình xuất khẩu",
+    "v6b": "Dấu kiện hàng, nhãn và hồ sơ cho điểm đến.",
+    "processTitle": "Các bước giữa thông số của bạn và đơn hàng",
+    "processSub": "Bốn giai đoạn giữa yêu cầu và đơn hàng được xác nhận.",
+    "p1t": "Cắt & gia công",
+    "p1b": "Xác nhận hình dạng, kích thước và cỡ hạt cần thiết trước khi sắp xếp quy trình gia công.",
+    "p2t": "Kiểm tra mẫu",
+    "p2b": "Đánh giá bề mặt mài, đế và độ vừa khít của mẫu trước khi thống nhất thông số kỹ thuật đơn hàng.",
+    "p3t": "OEM & đóng gói",
+    "p3b": "Xác nhận số lượng đóng gói, nhãn, dấu kiện hàng và thiết kế thương hiệu riêng theo báo giá.",
+    "p4t": "Chuẩn bị vận chuyển",
+    "p4b": "Thống nhất phiếu đóng gói, yêu cầu pallet và thông tin điểm đến trước khi xuất hàng.",
+    "oemTitle": "Tên bạn trên kiện hàng",
+    "oemSub": "Chia sẻ yêu cầu sản phẩm, bao bì và thương hiệu cho dòng vật liệu mài tiếp theo của bạn.",
+    "oemCta": "Khám phá dịch vụ OEM",
+    "faqTitle": "Trước khi bắt đầu",
+    "faqSub": "Câu trả lời cho những câu hỏi khách mua đặt nhiều nhất.",
+    "regionsTitle": "Từ Hubei đến thị trường của bạn",
+    "regionsSub": "Cung ứng toàn cầu theo khu vực điểm đến.",
+    "regionsNote": "MOQ và thời gian giao hàng được xác nhận trong báo giá của bạn. Tuyến đường chỉ mang tính tham khảo; khả năng cung ứng và điều khoản được xác nhận bằng báo giá.",
+    "factoryTitle": "Tìm chúng tôi ở Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Sắp xếp chuyến tham quan nhà máy và xác nhận điểm hẹn với đội ngũ của chúng tôi.",
+    "finalTitle": "Đang tìm nhà cung cấp vật liệu mài đáng tin cậy?",
+    "finalBody": "Chia sẻ sản phẩm, số lượng và ứng dụng của bạn — chúng tôi sẽ xem xét yêu cầu và chuẩn bị báo giá phù hợp.",
+    "finalCta1": "Yêu cầu báo giá bán buôn",
+    "finalCta2": "Liên hệ qua WhatsApp",
+    "beltsShowTitle": "Dây băng mài theo mã",
+    "beltsShowSub": "Các mã tham chiếu để thảo luận với đội ngũ của chúng tôi.",
+    "prepTitle": "Chuẩn bị yêu cầu bán buôn của bạn",
+    "prepSub": "Kích thước, cỡ hạt và số lượng lo phần còn lại.",
+    "prepDim": "Kích thước",
+    "prepDimText": "Kích thước hoặc mã tham chiếu tính bằng mm.",
+    "prepGrit": "Cỡ hạt",
+    "prepGritText": "Độ mịn hoặc mức hoàn thiện cần thiết.",
+    "prepQty": "Số lượng",
+    "prepQtyText": "Sản lượng dự kiến và đóng gói."
+  },
+  "purchasing": {
+    "eyebrow1": "Hướng dẫn mua hàng",
+    "title1": "Chuẩn bị yêu cầu bán buôn của bạn",
+    "body1": "Chia sẻ kích thước, cỡ hạt, chi tiết gia công, máy và mức hoàn thiện mong muốn. Sử dụng các lựa chọn có tài liệu ở trên nếu có; các yêu cầu khác sẽ được xem xét cùng đội ngũ của chúng tôi.",
+    "dl1t": "Số lượng & điểm đến",
+    "dl1b": "Nêu cho chúng tôi biết số lượng, nhu cầu đóng gói và điểm giao hàng.",
+    "dl2t": "Cung ứng & điều khoản",
+    "dl2b": "Khả năng cung ứng, số lượng đặt hàng tối thiểu và các điều khoản thương mại được xác nhận trong báo giá.",
+    "dl3t": "Yêu cầu bao bì OEM",
+    "dl3b": "Thương hiệu, nhãn, kích thước tùy chỉnh hoặc yêu cầu đóng gói.",
+    "eyebrow2": "Cách gửi yêu cầu",
+    "title2": "Từ chọn sản phẩm đến báo giá",
+    "s1t": "Chọn sản phẩm",
+    "s1b": "Chọn sản phẩm hoặc mã và thông số kỹ thuật cần thiết.",
+    "s2t": "Chia sẻ yêu cầu",
+    "s2b": "Chia sẻ số lượng, ứng dụng và yêu cầu đóng gói.",
+    "s3t": "Xem báo giá",
+    "s3b": "Xác nhận thông số kỹ thuật cuối cùng và điều khoản thương mại với đội ngũ của chúng tôi."
+  },
+  "modelPage": {
+    "eyebrow": "Dây băng mài · Mã tham chiếu",
+    "refLabel": "Mã tham chiếu",
+    "familyLabel": "Danh mục",
+    "dimsLabel": "Kích thước dây băng thành phẩm — nêu chiều rộng × chiều dài theo mm",
+    "dimsPlaceholder": "vd. 533 × 75 mm",
+    "gritLabel": "Cỡ hạt cần thiết — nêu độ mịn hoặc mức hoàn thiện mong muốn",
+    "gritPlaceholder": "vd. P60",
+    "qtyLabel": "Số lượng yêu cầu",
+    "specLabel": "Yêu cầu kỹ thuật và đóng gói",
+    "discussion": "Thảo luận mã này với đội ngũ của chúng tôi theo chi tiết gia công, máy và mức hoàn thiện mong muốn.",
+    "grainBacking": "Hạt mài và đế — xác nhận nhà sản xuất nguyên liệu thô và độ mịn chính xác.",
+    "disclaimer": "Chi tiết mã dòng sản phẩm chỉ để tham khảo khi lựa chọn; thông số kỹ thuật, khả năng cung ứng và độ vừa khít của MoTai được thống nhất theo báo giá."
+  },
+  "discPage": {
+    "eyebrow": "Đĩa mài · Biến thể có tài liệu",
+    "gritsNote": "Lựa chọn cỡ hạt cho biến thể này"
+  },
+  "flapPage": {
+    "eyebrow": "Đĩa mài nhiều lớp · Biến thể theo đế",
+    "color": "Màu",
+    "gritNote": "P40–P60 và P80–P120 là ví dụ tham khảo khi lựa chọn nói chung, không phải dải cung ứng đã xác nhận của MoTai."
+  },
+  "productPage": {
+    "specTitle": "Thông số kỹ thuật",
+    "howTitle": "Cách nêu đơn hàng của bạn",
+    "howBody": "Đưa vào kích thước dây băng hoặc đĩa, danh sách cỡ hạt, mã máy, vật liệu chi tiết gia công và số lượng. Thông số kỹ thuật rõ ràng giúp chúng tôi xem xét độ phù hợp và chuẩn bị báo giá hữu ích — tránh chọn sản phẩm chỉ dựa vào màu sắc.",
+    "faqTitle": "Câu hỏi của khách mua"
+  },
+  "about": {
+    "h1": "Công ty đứng sau dòng vật liệu mài",
+    "sub": "Cách tiếp cận có chủ đích trong cung ứng vật liệu mài.",
+    "bizTitle": "Kinh doanh của chúng tôi",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. cung cấp vật liệu mài tiêu hao cho ngành gỗ, gia công kim loại và ô tô. Các dải sản phẩm có tài liệu bao gồm đĩa mài không lỗ, đĩa mài lưới và dây băng mài màu đỏ. Chúng tôi tiếp nhận yêu cầu từ nhà nhập khẩu, nhà phân phối, nhà bán buôn và nhà mua hàng công nghiệp — sản phẩm, đế, kích thước, độ mịn, số lượng và yêu cầu giao hàng.",
+    "matTitle": "Tài liệu công ty",
+    "matBody": "Tìm hiểu về lịch sử công ty và thông tin liên hệ trong brochure của chúng tôi.",
+    "globalTitle": "Từ Hubei đến thị trường của bạn",
+    "globalSub": "Cung ứng toàn cầu theo khu vực điểm đến.",
+    "facTitle": "Tìm chúng tôi ở Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Sắp xếp chuyến tham quan nhà máy với đội ngũ của chúng tôi và xác nhận điểm hẹn trước khi di chuyển.",
+    "profileName": "Tóm tắt",
+    "profileBody": "Nhà sản xuất vật liệu mài phủ lớp tại Xianning, Hubei: ba dòng sản phẩm cung ứng tới bảy khu vực điểm đến, phủ dải cỡ hạt từ 40 đến 5000.",
+    "ctaTitle": "Đang tìm nhà cung cấp vật liệu mài đáng tin cậy?",
+    "cta1": "Yêu cầu báo giá bán buôn",
+    "cta2": "Liên hệ qua WhatsApp"
+  },
+  "factory": {
+    "h1": "Bên trong xưởng MoTai",
+    "sub": "Chi tiết quan trọng. Ở mọi giai đoạn.",
+    "intro": "Xem xét chi tiết cắt, kiểm tra mẫu và đóng gói cho đơn hàng của bạn. Video sản phẩm được hiển thị cùng hình minh họa quy trình.",
+    "videoLabel": "Xem video sản phẩm",
+    "stepsTitle": "Sản xuất & chuẩn bị đơn hàng",
+    "stepsIntro": "Từ yêu cầu của bạn đến đơn hàng được xác nhận.",
+    "st1t": "Cắt & gia công",
+    "st1b": "Xác nhận hình dạng, kích thước và cỡ hạt cần thiết trước khi sắp xếp quy trình gia công.",
+    "st2t": "Kiểm tra mẫu",
+    "st2b": "Đánh giá bề mặt mài, đế và độ vừa khít của mẫu trước khi thống nhất thông số kỹ thuật đơn hàng.",
+    "st3t": "OEM & đóng gói",
+    "st3b": "Xác nhận số lượng đóng gói, nhãn, dấu kiện hàng và thiết kế thương hiệu riêng theo báo giá.",
+    "st4t": "Chuẩn bị vận chuyển",
+    "st4b": "Thống nhất phiếu đóng gói, yêu cầu pallet và thông tin điểm đến trước khi xuất hàng.",
+    "imgNote": "Hình cắt và mẫu được trích từ video sản phẩm do khách cung cấp. Hình đóng gói và vận chuyển là ảnh stock minh họa.",
+    "qcTitle": "Điểm kiểm tra chất lượng",
+    "qcIntro": "Những gì chúng tôi xác nhận trước khi đơn hàng rời khỏi nhà máy.",
+    "qc1t": "Bề mặt & cỡ hạt",
+    "qc1b": "Độ đồng nhất của bề mặt mài so với độ mịn đã xác nhận.",
+    "qc2t": "Đế & độ vừa khít",
+    "qc2b": "Loại đế, trọng lượng và dung sai kích thước của dây băng và đĩa mài thành phẩm.",
+    "qc3t": "Đóng gói & nhãn kiện",
+    "qc3b": "Số lượng đóng gói, nhãn, dấu kiện hàng và thiết kế thương hiệu riêng khớp với đơn hàng đã xác nhận.",
+    "certNote": "Các dấu chứng chỉ hiển thị là phần giữ chỗ, chờ công bố chứng chỉ chính thức.",
+    "ctaTitle": "Thích thảo luận trực tiếp hơn?",
+    "ctaSub": "Đang tìm nhà cung cấp vật liệu mài đáng tin cậy?",
+    "cta1": "Yêu cầu báo giá bán buôn",
+    "cta2": "Liên hệ qua WhatsApp"
+  },
+  "oem": {
+    "h1": "Tên bạn trên kiện hàng",
+    "sub": "Gửi yêu cầu sản phẩm, bao bì và thương hiệu của bạn; chúng tôi sẽ phản hồi bằng đánh giá khả thi OEM.",
+    "briefTitle": "Xây dựng yêu cầu xoay quanh thương hiệu của bạn",
+    "briefEyebrow": "Mang yêu cầu của bạn tới",
+    "briefBody": "Thảo luận về artwork logo và nhãn, định dạng bao bì, kích thước sản phẩm, độ mịn và mục đích sử dụng. Khả năng cung ứng OEM, số lượng tối thiểu, yêu cầu artwork và thời gian biểu phụ thuộc vào đánh giá khả thi và báo giá xác nhận.",
+    "itemsTitle": "Yêu cầu rõ ràng nhận được phản hồi hữu ích",
+    "i1": "Sản phẩm & thông số kỹ thuật",
+    "i2": "Tổ hợp kích thước & cỡ hạt",
+    "i3": "Artwork & nhãn",
+    "i4": "Định dạng bao bì",
+    "i5": "Số lượng mục tiêu",
+    "i6": "Điểm đến & thời gian biểu",
+    "itemNote": "Đưa yêu cầu và tệp tham chiếu của bạn vào nội dung yêu cầu.",
+    "procTitle": "Từ yêu cầu đến cung ứng",
+    "pr1t": "Yêu cầu của bạn",
+    "pr1b": "Nêu cho chúng tôi biết ứng dụng và yêu cầu của bạn.",
+    "pr2t": "Kiểm tra thông số",
+    "pr2b": "Xem xét kích thước, độ mịn, đế và bao bì.",
+    "pr3t": "Báo giá",
+    "pr3b": "Xác nhận điều khoản thương mại và lịch trình.",
+    "pr4t": "Duyệt mẫu",
+    "pr4b": "Đánh giá mẫu đã thống nhất trước khi phê duyệt.",
+    "pr5t": "Sản xuất",
+    "pr5b": "Thực hiện theo thông số kỹ thuật đã xác nhận.",
+    "pr6t": "Xuất hàng",
+    "pr6b": "Điều phối đóng gói và điểm đến.",
+    "cta1": "Yêu cầu báo giá bán buôn",
+    "cta2": "Liên hệ qua WhatsApp"
+  },
+  "applications": {
+    "h1": "Vật liệu mài cho ngành của bạn",
+    "sub": "Bề mặt quyết định thông số kỹ thuật.",
+    "intro": "Sáu lĩnh vực ứng dụng. Nêu vật liệu, máy và mức hoàn thiện cần thiết — chúng tôi sẽ chọn vật liệu mài phù hợp.",
+    "ctaNote": "Một số hình ảnh là minh họa ứng dụng do AI tạo, không phải ảnh nhà máy hay khách hàng của MoTai.",
+    "sampleNote": "Khi yêu cầu báo giá, hãy nêu ngành, quốc gia, thông số sản phẩm và sản lượng đơn hàng dự kiến.",
+    "reqTitle": "Sản phẩm khuyến nghị",
+    "reqNote": "Các dòng sản phẩm tham khảo cho lĩnh vực này. Xác nhận kích thước, cỡ hạt và số lượng theo báo giá.",
+    "specTitle": "Mẹo về thông số kỹ thuật",
+    "faqTitle": "Hỏi thường gặp",
+    "faqs": [
+      {
+        "q": "Nên bắt đầu với cỡ hạt nào?",
+        "a": "Bắt đầu từ vật liệu chi tiết gia công, độ sâu khuyết tật và mức hoàn thiện cần thiết — độ thô mài mòn nhanh, sau đó giảm dần cỡ hạt và kiểm tra bề mặt ở từng giai đoạn."
+      },
+      {
+        "q": "Tôi có thể trộn các cỡ hạt trong một đơn hàng không?",
+        "a": "Được — liệt kê cỡ hạt và số lượng theo từng độ mịn; khả năng cung ứng và thời gian giao hàng được gửi kèm báo giá."
+      }
+    ],
+    "ctaTitle": "Đang đặt thông số cho lĩnh vực của bạn?",
+    "cta1": "Yêu cầu báo giá bán buôn",
+    "cta2": "Liên hệ qua WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Thông tin tốt hơn. Lựa chọn tốt hơn.",
+    "sub": "Tài nguyên thực tiễn cho người mua khi thảo luận thông số vật liệu mài.",
+    "updatedLabel": "Cập nhật",
+    "governance": "Các hướng dẫn được viết và xem xét bởi đội ngũ kỹ thuật MoTai Abrasives, và được xem xét lại khi thông số sản phẩm thay đổi."
+  },
+  "article": {
+    "watchTitle": "Xem",
+    "discuss": "Thảo luận thông số kỹ thuật của bạn",
+    "catSelection": "Hướng dẫn lựa chọn",
+    "catBuyer": "Tài nguyên cho người mua",
+    "catNotes": "Ghi chú ứng dụng",
+    "catOem": "Hướng dẫn OEM",
+    "reviewedBy": "Được xem xét bởi đội ngũ kỹ thuật MoTai Abrasives",
+    "lastReviewed": "Xem xét lần cuối {date}",
+    "tocTitle": "Trên trang này"
+  },
+  "contact": {
+    "h1": "Bắt đầu cuộc trò chuyện bán buôn",
+    "sub": "Nhận giá bán buôn trực tiếp từ nhà máy cho sản phẩm vật liệu mài.",
+    "directTitle": "Một cuộc trò chuyện. Một thông số kỹ thuật tốt hơn.",
+    "directBody": "Chia sẻ sản phẩm, số lượng và ứng dụng của bạn. Chúng tôi sẽ xem xét yêu cầu và hỗ trợ bạn bước tiếp.",
+    "facTitle": "Tìm chúng tôi ở Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Xác nhận địa chỉ tham quan chính xác với đội ngũ của chúng tôi trước khi di chuyển.",
+    "visit": "Sắp xếp tham quan nhà máy",
+    "formTitle": "Yêu cầu bán buôn / OEM",
+    "formNote": "Biểu mẫu này yêu cầu báo giá và không đặt hàng. Yêu cầu được gửi tới hộp thư kinh doanh của chúng tôi; thông số kỹ thuật và điều khoản thương mại được thống nhất với báo giá.",
+    "btn": "Mở biểu mẫu yêu cầu ↗"
+  },
+  "privacy": {
+    "h1": "Thông tin yêu cầu của bạn",
+    "sub": "Cách trang web này sử dụng những chi tiết bạn chủ động chia sẻ.",
+    "s1t": "Thông tin thu thập",
+    "s1b": "Thông tin liên hệ, thông tin công ty, yêu cầu sản phẩm và tệp đính kèm gửi cùng yêu cầu. Định danh kết nối đã băm (hashed) giới hạn các lượt gửi lạm dụng.",
+    "s2t": "Mục đích và quyền truy cập",
+    "s2b": "Thông tin được dùng để xem xét và phản hồi yêu cầu, chuẩn bị báo giá và điều phối các cuộc thảo luận thương mại theo yêu cầu. Quyền truy cập giới hạn với quản trị viên được ủy quyền.",
+    "s3t": "Lưu trữ và thời hạn giữ",
+    "s3b": "Ghi được lưu trữ cùng nhà cung cấp hosting. Dữ liệu có thể được xử lý bên ngoài quốc gia của bạn. Thời hạn giữ theo nghĩa vụ theo dõi kinh doanh và lưu trữ hồ sơ; bạn có thể yêu cầu giữ hoặc xóa cụ thể.",
+    "s4t": "Lựa chọn của bạn",
+    "s4b": "Liên hệ motai-01@motaiabrasive.com để yêu cầu truy cập, sửa đổi hoặc xóa. Vui lòng không gửi dữ liệu cá nhân nhạy cảm hoặc tệp mật không liên quan đến yêu cầu.",
+    "s5t": "Cookie, liên kết và phân tích",
+    "s5b": "Trình duyệt lưu trữ dữ liệu quản lý danh sách yêu cầu. Trang web này sử dụng Google Analytics (gtag.js) cho thống kê sử dụng ẩn danh; Google đặt cookie và xử lý dữ liệu theo điều khoản xử lý dữ liệu của mình — bạn có thể từ chối tại https://support.google.com/analytics/answer/3452785. Các liên kết WhatsApp, bản đồ và mạng xã hội bên ngoài tuân theo chính sách riêng tư của từng bên.",
+    "updated": "Cập nhật lần cuối ngày 04 tháng 11 năm 2026"
+  },
+  "terms": {
+    "h1": "Điều khoản sử dụng",
+    "sub": "Các điều kiện áp dụng khi bạn sử dụng trang web này và gửi yêu cầu đến MoTai.",
+    "s1t": "Sử dụng trang web này",
+    "s1b": "Trang web này là dịch vụ thông tin và yêu cầu B2B do Hubei MoTai Abrasives Materials Co., Ltd. vận hành. Nội dung — thông số sản phẩm, hướng dẫn, từ vựng và blog — được cung cấp thiện chí cho mục đích thông tin chung. Sử dụng trang web nghĩa là bạn chấp nhận các điều khoản này; nếu không, xin đừng gửi yêu cầu.",
+    "s2t": "Yêu cầu không phải là đề nghị",
+    "s2b": "Việc gửi biểu mẫu yêu cầu là lời mời thương lượng, không phải đơn hàng ràng buộc. MoTai không có nghĩa vụ phản hồi mọi yêu cầu, và không có giao dịch nào được cam kết cho đến khi báo giá được xác nhận bằng văn bản bởi cả hai bên.",
+    "s3t": "Báo giá và giá cả",
+    "s3b": "Mọi giá đều dựa trên báo giá. Báo giá liệt kê kích thước, cỡ hạt, đóng gói, điều khoản thương mại và thời hạn hiệu lực; con số cuối cùng được thống nhất tại thông số kỹ thuật xác nhận và chịu tác động của biến động nguyên liệu và cước vận tải.",
+    "s4t": "Sở hữu trí tuệ",
+    "s4b": "Nội dung trang web, mô tả sản phẩm, đồ họa và thương hiệu MoTai thuộc sở hữu của MoTai Abrasives và không được tái chế thương mại. Tham chiếu bên thứ ba (vd. nguồn mã sản phẩm) chỉ để định hướng cho người mua và không hàm ý bảo trợ.",
+    "s5t": "Trách nhiệm và pháp luật chi phối",
+    "s5b": "MoTai không chịu trách nhiệm cho các quyết định dựa trên thông tin chung trong trang web này. Các điều khoản này tuân theo pháp luật nước Cộng hòa Nhân dân Trung Hoa; tranh chấp được giải quyết theo hợp đồng mua bán giữa các bên.",
+    "updated": "Cập nhật lần cuối ngày 03 tháng 11 năm 2026"
+  },
+  "quotePage": {
+    "h1": "Bắt đầu cuộc trò chuyện bán buôn",
+    "sub": "Nhận giá bán buôn trực tiếp từ nhà máy cho sản phẩm vật liệu mài.",
+    "note": "Biểu mẫu này yêu cầu báo giá và không đặt hàng. Các trường đánh dấu * là bắt buộc.",
+    "sec1": "Doanh nghiệp của bạn",
+    "f1": "Họ và tên *",
+    "f2": "Tên công ty *",
+    "f3": "Quốc gia *",
+    "f4": "Email công sở *",
+    "f5": "Số WhatsApp",
+    "f6": "Loại doanh nghiệp *",
+    "opt1": "Nhà nhập khẩu",
+    "opt2": "Nhà phân phối",
+    "opt3": "Nhà bán buôn",
+    "opt4": "Thương hiệu OEM",
+    "opt5": "Nhà mua hàng công nghiệp",
+    "opt6": "Khác",
+    "sec2": "Yêu cầu sản phẩm",
+    "f7": "Danh mục sản phẩm",
+    "f8": "Mã / tham chiếu sản phẩm",
+    "f9": "Kích thước",
+    "f10": "Cỡ hạt",
+    "f11": "Vật liệu",
+    "f12": "Số lượng",
+    "f13": "Đóng gói",
+    "f14": "Quốc gia điểm đến *",
+    "f15": "Yêu cầu OEM",
+    "f16": "Tin nhắn bổ sung *",
+    "consent": "Tôi đồng ý với Chính sách riêng tư, Điều khoản sử dụng và việc sử dụng thông tin của tôi để phản hồi yêu cầu này. *",
+    "btn1": "Yêu cầu báo giá bán buôn",
+    "btn2": "Gửi yêu cầu qua WhatsApp",
+    "goNote": "Biểu mẫu được mở trong hệ thống yêu cầu bán buôn của chúng tôi với ngữ cảnh sản phẩm của bạn được điền sẵn."
+  },
+  "clients": {
+    "h1": "Điểm đến của các lô hàng MoTai",
+    "sub": "Từ Hubei đến bảy khu vực điểm đến.",
+    "note": "Logo khách hàng và lời chứng thực bên dưới là vị trí giữ chỗ — thay thế src/data/trust.json bằng tài liệu đã công bố.",
+    "placeholderBadge": "Vị trí giữ chỗ minh họa",
+    "statsTitle": "Tóm tắt cung ứng",
+    "statsNote": "Chứng chỉ hiển thị là giữ chỗ, chờ công bố chứng chỉ chính thức."
+  },
+  "glossary": {
+    "h1": "Từ vựng vật liệu mài",
+    "sub": "Những thuật ngữ đằng sau mọi thông số dây băng, đĩa và đĩa mài nhiều lớp.",
+    "note": "Định nghĩa ngành chuẩn cho vật liệu mài tiêu hao; chi tiết độ mịn và đế của đơn hàng được thống nhất theo báo giá.",
+    "reviewNote": "Các thuật ngữ được xem xét bởi đội ngũ kỹ thuật MoTai Abrasives — xem xét lần cuối ngày 03 tháng 11 năm 2026."
+  },
+  "trust": {
+    "regions": "Khu vực điểm đến",
+    "productLines": "Dòng sản phẩm",
+    "gritRange": "Phủ cỡ hạt"
+  },
+  "video": {
+    "title": "Xem",
+    "cutting": {
+      "title": "Video cắt & gia công",
+      "desc": "Video sản phẩm do khách cung cấp: cắt và gia công tấm vật liệu mài."
+    },
+    "sample": {
+      "title": "Video kiểm tra mẫu",
+      "desc": "Video sản phẩm do khách cung cấp: kiểm tra bề mặt, đế và độ vừa khít của mẫu."
+    },
+    "oem": {
+      "title": "Video đóng gói OEM",
+      "desc": "Số lượng đóng gói, nhãn, dấu kiện hàng và thiết kế thương hiệu riêng."
+    },
+    "flap": {
+      "title": "Video dải đĩa mài nhiều lớp",
+      "desc": "Đĩa mài nhiều lớp đế nhựa, thép và sợi thủy tinh (fiberglass) trong sử dụng."
+    }
+  },
+  "wa": {
+    "generic": "Xin chào MoTai, tôi muốn nhận báo giá bán buôn cho sản phẩm vật liệu mài.",
+    "product": "Xin chào MoTai, tôi muốn nhận báo giá bán buôn cho {name} ({grits}).",
+    "model": "Xin chào MoTai, tôi muốn nhận báo giá bán buôn cho mã dây băng mài {model}.",
+    "disc": "Xin chào MoTai, tôi muốn nhận báo giá bán buôn cho {title}.",
+    "sample": "Xin chào MoTai, tôi muốn đặt mẫu {name} để đánh giá.",
+    "factory": "Xin chào MoTai, tôi muốn thảo luận chi tiết sản xuất và chất lượng với đội ngũ của bạn.",
+    "oem": "Xin chào MoTai, tôi muốn thảo luận chương trình vật liệu mài OEM / thương hiệu riêng.",
+    "contact": "Xin chào MoTai, tôi muốn xây dựng đơn hàng vật liệu mài tiếp theo cùng đội ngũ của bạn."
+  },
+  "floatChat": {
+    "trigger": "Nhắn",
+    "open": "Mở chat",
+    "close": "Đóng",
+    "title": "MoTai — Chat trực tiếp",
+    "status": "Chúng tôi phản hồi qua WhatsApp, thường trong vòng 24 giờ.",
+    "greeting": "Xin chào! Chúng tôi có thể hỗ trợ gì cho đơn hàng vật liệu mài của bạn? — Đội kinh doanh MoTai",
+    "placeholder": "Nhập tin nhắn của bạn…",
+    "send": "Gửi qua WhatsApp",
+    "note": "Bản xem trước này không có máy chủ trực: khi gửi sẽ mở WhatsApp với tin nhắn được điền sẵn. Phản hồi tiếp tục trong hội thoại WhatsApp."
+  },
+  "location": {
+    "imgAlt": "Tòa nhà nhà máy MoTai tại Xianning, Hubei",
+    "imgCaption": "Nhà máy MoTai — Xianning, Hubei, Trung Quốc",
+    "mapTitle": "Vị trí nhà máy MoTai trên Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Trước khi bắt đầu",
+    "moq": {
+      "q": "Số lượng đặt hàng tối thiểu là bao nhiêu?",
+      "a": "MOQ được gửi kèm báo giá, cùng khả năng cung ứng và điều khoản."
+    },
+    "oem": {
+      "q": "Các bạn có hỗ trợ OEM và thương hiệu riêng không?",
+      "a": "Có. Logo, nhãn, kích thước tùy chỉnh và đóng gói được kiểm tra khả thi, sau đó xác nhận kèm báo giá của bạn."
+    },
+    "sizes": {
+      "q": "Các bạn cung cấp những kích thước và cỡ hạt nào?",
+      "a": "Dây băng có kích thước có tài liệu từ 533 × 75 đến 2200 × 1330 mm (cỡ hạt 40–800); đĩa 3–6 inch (cỡ hạt 60–5000). Yêu cầu tùy chỉnh được xem xét cùng đội ngũ của chúng tôi."
+    },
+    "samples": {
+      "q": "Tôi có thể lấy mẫu trước không?",
+      "a": "Được. Hãy yêu cầu mẫu và đội ngũ kinh doanh của chúng tôi sẽ xác nhận khả năng cung cấp, chi phí và phương thức vận chuyển."
+    },
+    "lead": {
+      "q": "Thời gian giao hàng là bao lâu?",
+      "a": "Thời gian giao hàng phụ thuộc vào thông số kỹ thuật và số lượng, được xác nhận trong báo giá của bạn."
+    },
+    "packaging": {
+      "q": "Sản phẩm được đóng gói như thế nào?",
+      "a": "Số lượng đóng gói, nhãn, dấu kiện hàng và thiết kế thương hiệu riêng được xác nhận theo báo giá."
+    },
+    "payment": {
+      "q": "Các bạn có điều khoản thanh toán nào?",
+      "a": "Điều khoản thanh toán là một phần của báo giá xác nhận và cuộc thảo luận thương mại."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Tôi nên cung cấp những thông số nào?",
+      "a": "Chia sẻ kích thước, cỡ hạt, chi tiết gia công, máy và mức hoàn thiện mong muốn. Sử dụng các lựa chọn có tài liệu nếu có; yêu cầu khác được xem xét cùng đội ngũ của chúng tôi."
+    },
+    "oem": {
+      "q": "Làm sao để yêu cầu đóng gói OEM?",
+      "a": "Đưa yêu cầu thương hiệu và bao bì của bạn vào nội dung yêu cầu. Chi tiết sẽ được xem xét và xác nhận kèm báo giá."
+    },
+    "order": {
+      "q": "Yêu cầu báo giá có phải đặt hàng không?",
+      "a": "Không. Biểu mẫu bắt đầu một yêu cầu bán buôn. Thông số sản phẩm, khả năng cung ứng và điều khoản thương mại được xác nhận trước khi thống nhất đơn hàng."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Châu Âu",
+      "body": "Ghi kích thước, cỡ hạt, đế và tệp sản phẩm; cung cấp cảng điểm đến và ngôn ngữ nhãn."
+    },
+    "na": {
+      "title": "Bắc Mỹ",
+      "body": "Nêu quy inch hay mét, loại gắn và số lượng đóng gói; ZIP hoặc cảng điểm đến và phương thức vận tải."
+    },
+    "sa": {
+      "title": "Nam Mỹ",
+      "body": "Kích thước, số lượng trộn cỡ hạt và ngôn ngữ nhãn kiện; cảng điểm đến và hồ sơ nhà nhập khẩu."
+    },
+    "me": {
+      "title": "Trung Đông",
+      "body": "Vật liệu, cỡ hạt và đóng gói chống ẩm; cảng điểm đến và điều khoản báo giá."
+    },
+    "africa": {
+      "title": "Châu Phi",
+      "body": "Tương thích máy, kích thước cần thiết và số lượng đóng gói; cảng điểm đến, dấu kiện hàng và ưu tiên vận tải."
+    },
+    "oceania": {
+      "title": "Châu Đại Dương",
+      "body": "Kích thước, đế, đóng gói và ZIP hoặc cảng điểm đến; yêu cầu nhập khẩu và đóng gói."
+    },
+    "asia": {
+      "title": "Châu Á",
+      "body": "Thông số máy, dải cỡ hạt và tổ hợp đơn hàng; thành phố hoặc cảng giao hàng và nhãn ngôn ngữ địa phương."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Gia công kim loại",
+      "intro": "Xóa mối hàn, gọt ba-via và chuẩn bị bề mặt kim loại.",
+      "uses": "Xóa mối hàn · Gọt ba-via · Chuẩn bị bề mặt",
+      "products": "Dây băng mài"
+    },
+    "wood": {
+      "title": "Mộc & Nội thất",
+      "intro": "Tấm ván, sản xuất nội thất và chuẩn bị bề mặt trước sơn phủ.",
+      "uses": "Tấm ván · Nội thất · Chuẩn bị trước sơn",
+      "products": "Dây băng mài · Đĩa mài"
+    },
+    "auto": {
+      "title": "Sửa chữa ô tô",
+      "intro": "Mài bột bả thân xe, chuẩn bị trước phun sơn và hoàn thiện lại ô tô.",
+      "uses": "Bột bả thân xe · Trước phun sơn · Hoàn thiện lại",
+      "products": "Đĩa mài"
+    },
+    "stainless": {
+      "title": "Hoàn thiện thép không gỉ",
+      "intro": "Hoàn thiện vân tóc, chuyển tiếp bề mặt và gia công thép không gỉ.",
+      "uses": "Vân tóc · Chuyển tiếp · Gia công",
+      "products": "Dây băng mài"
+    },
+    "ship": {
+      "title": "Đóng tàu & Sửa chữa",
+      "intro": "Mài kim loại, khử gỉ và chuẩn bị bề mặt bảo trì hàng hải.",
+      "uses": "Mài · Khử gỉ · Chuẩn bị hàng hải",
+      "products": "Dây băng mài"
+    },
+    "surface": {
+      "title": "Chuẩn bị bề mặt công nghiệp",
+      "intro": "Xử lý bề mặt công nghiệp và công việc bảo trì.",
+      "uses": "Xử lý bề mặt · Bảo trì",
+      "products": "Đĩa mài"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop hay PSA: chọn đế đúng",
+      "intro": "Hệ thống gắn cũng quan trọng như cỡ hạt. Phù hợp với đĩa đế trước khi đặt hàng.",
+      "start": {
+        "title": "Bắt đầu từ yêu cầu",
+        "body": "Đĩa hook & loop gắn lên đĩa đế có mặt khóa tương thích và phù hợp các công đoạn thay cỡ hạt thường xuyên. Đĩa PSA dựa vào keo tự dính nhạy áp và cần đĩa đế sạch, phẳng. Hai hệ thống không thay thế được nhau."
+      },
+      "compat": {
+        "title": "Xác nhận tương thích",
+        "body": "Xác nhận đường kính đĩa đế, loại đế và bố trí hút bụi. Đĩa không lỗ không kết nối với bố trí hút qua lỗ, và đĩa lưới hở cần đĩa đế và hệ thống hút tương thích."
+      },
+      "enquiry": {
+        "title": "Chuẩn bị yêu cầu",
+        "body": "Đưa vào đường kính đĩa, đế, danh sách cỡ hạt, số lượng theo cỡ hạt và vật liệu chi tiết gia công. Yêu cầu đánh giá mẫu trước khi phê duyệt đơn hàng sản xuất."
+      }
+    },
+    "beltChecklist": {
+      "title": "Những gì cần đưa vào yêu cầu dây băng mài",
+      "intro": "Thông số kỹ thuật rõ ràng giúp nhà cung cấp xem xét độ phù hợp và chuẩn bị báo giá hữu ích.",
+      "start": {
+        "title": "Bắt đầu từ yêu cầu",
+        "body": "Đưa chiều dài và chiều rộng dây băng theo mm. Nêu tên mã máy — bảng thông số kỹ thuật máy hoặc ảnh nhãn dây băng cũ sẽ rất hữu ích."
+      },
+      "compat": {
+        "title": "Xác nhận tương thích",
+        "body": "Bổ sung vật liệu chi tiết gia công, vật liệu mài ưu tiên, cỡ hạt, yêu cầu đế và yêu cầu mối nối. Tránh chọn sản phẩm chỉ dựa vào màu dây băng."
+      },
+      "enquiry": {
+        "title": "Chuẩn bị yêu cầu",
+        "body": "Liệt kê số lượng theo kích thước và cỡ hạt, ưu tiên đóng gói, điểm đến và ngày giao hàng cần thiết. Báo giá cuối cùng xác nhận thông số kỹ thuật, khả năng cung ứng, điều khoản thanh toán và phương thức vận chuyển."
+      }
+    },
+    "gritSequence": {
+      "title": "Lập kế hoạch trình tự cỡ hạt cho chuẩn bị bề mặt",
+      "intro": "Bắt đầu từ chi tiết gia công và mức hoàn thiện cần thiết, sau đó đánh giá trình tự trên mẫu.",
+      "start": {
+        "title": "Bắt đầu từ yêu cầu",
+        "body": "Cỡ hạt thô mài mòn nhanh và để lại vết xước sâu; cỡ hạt mịn làm mịn bề mặt. Điểm khởi đầu phụ thuộc vào nền, độ sâu khuyết tật và yêu cầu mài."
+      },
+      "compat": {
+        "title": "Xác nhận tương thích",
+        "body": "Giảm dần cỡ hạt theo thứ tự và kiểm tra chi tiết gia công ở mỗi giai đoạn. Bỏ qua cỡ hạt sẽ để lại vết xước khó xóa, và làm sạch giữa các giai đoạn giúp tránh nhiễm hạt thô."
+      },
+      "enquiry": {
+        "title": "Chuẩn bị yêu cầu",
+        "body": "Số hiệu cỡ hạt không thay thế được giữa các hệ thống phân cấp. Xác nhận tiêu chuẩn phân cấp, loại vật liệu mài và khả năng cung ứng theo độ mịn trong báo giá, và tuân theo hướng dẫn an toàn cho máy và vật liệu mài."
+      }
+    },
+    "dustCollection": {
+      "title": "Hút bụi & tương thích đĩa đế, giải thích",
+      "intro": "Bố trí lỗ, đĩa lưới hở và đĩa đế phải khớp với hệ thống hút của bạn.",
+      "start": {
+        "title": "Bắt đầu từ yêu cầu",
+        "body": "Xác định đĩa đế của bạn: số lỗ, đường kính và có dùng kèm hút bụi không. Đĩa không lỗ và đĩa lưới hở hoạt động khác so với đĩa nhiều lỗ."
+      },
+      "compat": {
+        "title": "Xác nhận tương thích",
+        "body": "Bố trí lỗ của đĩa phải khớp với cổng của đĩa đế. Đĩa lưới hở cần đĩa đế tương thích và hệ thống hút hoạt động; đĩa PSA cần mặt đĩa đế sạch."
+      },
+      "enquiry": {
+        "title": "Chuẩn bị yêu cầu",
+        "body": "Liệt kê mã đĩa đế, số lỗ, kích thước đĩa và danh sách cỡ hạt, kèm bố trí hút bụi của bạn. Xác nhận hành vi mẫu trước đơn hàng sản xuất."
+      }
+    },
+    "oemPackaging": {
+      "title": "Nhãn & đóng gói OEM: chuẩn bị gì",
+      "intro": "Yêu cầu đầy đủ giúp giữ artwork, nhãn và kiện hàng đúng tiến độ.",
+      "start": {
+        "title": "Bắt đầu từ yêu cầu",
+        "body": "Chuẩn bị artwork logo và nhãn, định dạng đóng gói mục tiêu (túi trong, kiện hàng), ngôn ngữ nhãn và quy tắc dán nhãn của quốc gia điểm đến."
+      },
+      "compat": {
+        "title": "Xác nhận tương thích",
+        "body": "Khả năng cung ứng OEM, số lượng tối thiểu, yêu cầu artwork và thời gian biểu phụ thuộc vào đánh giá khả thi và báo giá xác nhận."
+      },
+      "enquiry": {
+        "title": "Chuẩn bị yêu cầu",
+        "body": "Đính kèm artwork, nêu số lượng đóng gói và dấu kiện hàng, cùng điểm đến và thời gian biểu. Duyệt mẫu trước khi sản xuất."
+      }
+    },
+    "gritStandards": {
+      "title": "Tiêu chuẩn cỡ hạt: FEPA, ANSI và ý nghĩa danh sách của bạn",
+      "intro": "Các hệ thống phân cấp không thay thế được nhau — nêu rõ tiêu chuẩn trong mọi yêu cầu.",
+      "start": {
+        "title": "Bắt đầu từ yêu cầu",
+        "body": "FEPA (ISO 848) và thang ANSI cũ đánh số kích thước tương tự khác nhau; P120 và 120 không phải lúc nào cũng giống nhau. Nêu rõ tiêu chuẩn bạn mua theo."
+      },
+      "compat": {
+        "title": "Xác nhận tương thích",
+        "body": "Xác nhận tiêu chuẩn phân cấp, loại vật liệu mài và khả năng cung ứng theo độ mịn trong báo giá. Không trộn các hệ thống phân cấp trong một danh sách cỡ hạt."
+      },
+      "enquiry": {
+        "title": "Chuẩn bị yêu cầu",
+        "body": "Nêu tiêu chuẩn (vd. FEPA P60–P800), số lượng theo độ mịn và điểm đến. Xác nhận danh sách độ mịn cuối cùng theo báo giá trước khi đặt hàng."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Hạt mài phổ biến nhất cho dây băng và đĩa: bền, dễ gia công, phù hợp với kim loại, gỗ và hoàn thiện tổng quát."
+    },
+    "ansi": {
+      "def": "Hệ đánh số cỡ hạt Bắc Mỹ cũ. Hạt kích thước tương tự khác với thang FEPA — nêu rõ tiêu chuẩn trong mọi yêu cầu."
+    },
+    "backing-cloth": {
+      "def": "Dải vải cotton mang hạt mài cho dây băng. Trọng lượng (vd. hạng X) quyết định độ linh hoạt và tải trọng."
+    },
+    "backing-poly": {
+      "def": "Đế dải poly-cotton: cân bằng giữa độ bền và độ linh hoạt cho dây băng dùng tổng quát."
+    },
+    "belt": {
+      "def": "Vòng dây liên tục của hạt mài trên đế dải, dùng trên máy băng mài để mài, hoàn thiện và gọt ba-via."
+    },
+    "blend": {
+      "def": "Làm mịn mối hàn cho khớp với kim loại xung quanh — thường là đường đầu trên đĩa mài nhiều lớp hoặc dây băng, sau đó chuyển sang cỡ hạt mịn hơn."
+    },
+    "closed": {
+      "def": "Bố trí hạt phủ kín, ít khoảng hở; dây băng chống tắc trên công việc cứng hơn."
+    },
+    "debur": {
+      "def": "Loại bỏ ba-via và các gờ nhỏ để lại sau cắt, cưa hoặc mài."
+    },
+    "dust": {
+      "def": "Loại bỏ bụi mài tại chi tiết gia công — qua cổng đĩa đế, đĩa lưới hở hoặc hút cục bộ."
+    },
+    "flap": {
+      "def": "Đĩa gồm các vảy mài chồng lên nhau, linh hoạt, dùng để mài, xóa mối hàn và hoàn thiện trên máy mài góc (angle grinder)."
+    },
+    "fepa": {
+      "def": "Thang phân cấp ISO 848 (FEPA) ký hiệu P (vd. P120). Thang mặc định trong phần lớn thương mại châu Âu và quốc tế."
+    },
+    "grit": {
+      "def": "Kích thước danh nghĩa của hạt mài: số càng cao càng mịn. Dây băng 40–800; đĩa 60–5000."
+    },
+    "hookloop": {
+      "def": "Hệ gắn khóa dính hook-and-loop cho đĩa: đĩa khớp chặt lên đĩa đế có mặt khóa."
+    },
+    "mesh": {
+      "def": "Đĩa lưới hở có cửa sổ cắt để bụi thoát qua, cần đĩa đế và hệ thống hút tương thích."
+    },
+    "moq": {
+      "def": "Số lượng đặt hàng tối thiểu — gửi kèm báo giá, cùng khả năng cung ứng và điều khoản."
+    },
+    "oem": {
+      "def": "Sản xuất OEM / thương hiệu riêng: sản phẩm của chúng tôi dưới thương hiệu, nhãn và bao bì của bạn."
+    },
+    "psa": {
+      "def": "Đế keo nhạy áp: đĩa dán trực tiếp lên đĩa đế tương thích."
+    },
+    "disc": {
+      "def": "Vòng tròn vật liệu mài dạng phẳng hoặc vảy, gắn trên đĩa đế để chà nhám và hoàn thiện."
+    },
+    "sic": {
+      "def": "Hạt carbide silic: rất cứng, sắc, phù hợp với thủy tinh, gốm và kim loại màu (không ferrous)."
+    },
+    "prep": {
+      "def": "Làm bề mặt sẵn sàng cho sơn phủ hoặc hoàn thiện: loại bỏ gỉ, bột bả hoặc lớp phủ cũ về một cấu trúc bề mặt đồng nhất."
+    },
+    "wetdry": {
+      "def": "Các độ mịn giữ mát và chống tắc khi dùng ướt hoặc ướt/khô; xác nhận tính phù hợp theo báo giá."
+    },
+    "xweight": {
+      "def": "Đế vải hạng trung cho dây băng dùng tổng quát: chắc chắn nhưng linh hoạt."
+    },
+    "zirconia": {
+      "def": "Hạt ziriconi aluminat: bền và mạnh cho mài kim loại, gọt ba-via và hoàn thiện trên thép."
+    },
+    "pad": {
+      "def": "Đĩa đế mà đĩa mài đặt lên: đường kính đĩa đế, mặt (khóa dính) và bố trí cổng phải khớp với đĩa."
+    }
+  },
+  "footer": {
+    "blurb": "Vật liệu mài tiêu hao cho nhà mua hàng công nghiệp, nhà phân phối và thương hiệu riêng.",
+    "products": "Sản phẩm",
+    "explore": "Khám phá MoTai",
+    "connect": "Kết nối với chúng tôi",
+    "aboutUs": "Giới thiệu",
+    "mfgQ": "Sản xuất & Chất lượng",
+    "oemPl": "OEM & Thương hiệu riêng",
+    "newsB": "Tin tức & Blog",
+    "privacy": "Chính sách riêng tư",
+    "terms": "Điều khoản sử dụng",
+    "contactUs": "Liên hệ"
+  },
+  "tdk": {
+    "home": {
+      "title": "Nhà sản xuất & Nhà cung cấp vật liệu mài công nghiệp | MoTai",
+      "description": "Nhà sản xuất vật liệu mài chuyên nghiệp tại Trung Quốc cung cấp dây băng mài, đĩa mài và đĩa mài nhiều lớp. Bán buôn trực tiếp từ nhà máy, tùy chỉnh OEM và giải pháp vật liệu mài công nghiệp cho nhà phân phối và người mua toàn cầu.",
+      "keywords": "nhà sản xuất vật liệu mài, nhà cung cấp vật liệu mài, vật liệu mài công nghiệp, dây băng mài, đĩa mài, đĩa mài nhiều lớp, nhà sản xuất dây băng mài, bán buôn sản phẩm mài"
+    },
+    "about": {
+      "title": "Giới thiệu MoTai — Nhà sản xuất & Nhà máy vật liệu mài ở Hubei, Trung Quốc",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. là nhà sản xuất vật liệu mài phủ lớp tại Xianning, Hubei: dây băng mài, đĩa mài và đĩa mài nhiều lớp với OEM, cắt kích thước tùy chỉnh, cung ứng số lượng lớn và xuất khẩu.",
+      "keywords": "nhà sản xuất vật liệu mài Trung Quốc, nhà cung cấp vật liệu mài Trung Quốc, nhà máy vật liệu mài, nhà sản xuất vật liệu mài phủ lớp, nhà xuất khẩu sản phẩm mài, nhà cung cấp vật liệu mài B2B"
+    },
+    "factory": {
+      "title": "Sản xuất vật liệu mài & QC — Nhà máy MoTai tại Hubei",
+      "description": "Bên trong xưởng vật liệu mài MoTai: gia công cắt, kiểm tra mẫu, QC và đóng gói OEM cho dây băng mài, đĩa mài và đĩa mài nhiều lớp.",
+      "keywords": "sản xuất vật liệu mài, nhà máy vật liệu mài QC, gia công dây băng mài, đóng gói vật liệu mài OEM"
+    },
+    "oem": {
+      "title": "Nhà sản xuất vật liệu mài OEM & Thương hiệu riêng | MoTai",
+      "description": "Sản xuất vật liệu mài OEM và thương hiệu riêng: logo, nhãn, kích thước và bao bì của bạn trên dây băng, đĩa và đĩa mài nhiều lớp của MoTai, báo giá theo thông số bạn xác nhận.",
+      "keywords": "nhà sản xuất vật liệu mài OEM, vật liệu mài thương hiệu riêng, sản phẩm mài tùy chỉnh, nhà cung cấp vật liệu mài OEM"
+    },
+    "applications": {
+      "title": "Vật liệu mài công nghiệp theo ứng dụng — Kim loại, Gỗ, Ô tô & hơn thế",
+      "description": "Phù hợp dây băng mài, đĩa mài và đĩa mài nhiều lớp MoTai với ứng dụng của bạn: mài kim loại, chà nhám gỗ, thân ô tô, hoàn thiện thép không gỉ, đóng tàu và chuẩn bị bề mặt.",
+      "keywords": "ứng dụng vật liệu mài, mài kim loại, chà nhám gỗ, chuẩn bị bề mặt, chuẩn bị bề mặt công nghiệp"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Vật liệu mài cho gia công kim loại — Mài & Gọt ba-via | MoTai",
+        "description": "Vật liệu mài cho gia công kim loại: mài kim loại, gọt ba-via và mài mối hàn với dây băng mài, đĩa lưới và đĩa mài nhiều lớp MoTai.",
+        "keywords": "vật liệu mài gia công kim loại, mài kim loại, gọt ba-via kim loại, mài mối hàn"
+      },
+      "woodworking": {
+        "title": "Vật liệu mài cho ngành gỗ & Chà băng rộng | MoTai",
+        "description": "Vật liệu mài cho ngành gỗ và nội thất: chà băng rộng, chà tấm gỗ và MDF với dây băng mài và đĩa mài MoTai.",
+        "keywords": "vật liệu mài ngành gỗ, chà băng rộng, chà nhám gỗ, chà nhám nội thất"
+      },
+      "automotive": {
+        "title": "Mài sửa chữa ô tô — Thân xe & Sơn | MoTai",
+        "description": "Vật liệu mài cho sửa chữa ô tô: mài thân xe, mài sơn và sơn lót xe với đĩa PSA và hook & loop MoTai.",
+        "keywords": "vật liệu mài ô tô, mài thân xe ô tô, mài sơn xe hơi, mài sơn lót"
+      },
+      "stainless-steel": {
+        "title": "Vật liệu mài hoàn thiện & đánh bóng thép không gỉ | MoTai",
+        "description": "Vật liệu mài cho thép không gỉ: đánh bóng kim loại, mài bề mặt và hoàn thiện với đĩa mài nhiều lớp và dây băng MoTai.",
+        "keywords": "hoàn thiện thép không gỉ, đánh bóng kim loại, mài bề mặt, vật liệu mài thép không gỉ"
+      },
+      "shipbuilding": {
+        "title": "Vật liệu mài đóng tàu — Thép tấm & Khử gỉ | MoTai",
+        "description": "Vật liệu mài chịu lực cho đóng tàu: mài thép tấm, khử gỉ và chuẩn bị bề mặt công nghiệp với dây băng và đĩa mài nhiều lớp MoTai.",
+        "keywords": "vật liệu mài đóng tàu, mài thép tấm, khử gỉ, mài chịu lực"
+      },
+      "surface-preparation": {
+        "title": "Vật liệu mài chuẩn bị & mài bề mặt công nghiệp | MoTai",
+        "description": "Giải pháp vật liệu mài công nghiệp cho chuẩn bị bề mặt, hoàn thiện bề mặt và mài chịu lực trên dây băng, đĩa và đĩa mài nhiều lớp MoTai.",
+        "keywords": "chuẩn bị bề mặt, hoàn thiện bề mặt, mài công nghiệp, giải pháp vật liệu mài"
+      }
+    },
+    "blog": {
+      "title": "Hướng dẫn cho người mua vật liệu mài & Tiêu chuẩn cỡ hạt | Kiến thức MoTai",
+      "description": "Tài nguyên thực tiễn cho người mua vật liệu mài: chọn đế đĩa, danh sách kiểm tra yêu cầu dây băng, trình tự cỡ hạt, hút bụi và tiêu chuẩn cỡ hạt (FEPA/ANSI).",
+      "keywords": "hướng dẫn người mua vật liệu mài, lựa chọn cỡ hạt, từ vựng vật liệu mài, tiêu chuẩn cỡ hạt FEPA ANSI"
+    },
+    "contact": {
+      "title": "Liên hệ MoTai — Nhà cung cấp vật liệu mài tại Trung Quốc",
+      "description": "Đến với nhà cung cấp vật liệu mài MoTai tại Xianning, Hubei: điện thoại, email và WhatsApp cho yêu cầu bán buôn và OEM vật liệu mài, cùng tham quan nhà máy.",
+      "keywords": "liên hệ nhà cung cấp vật liệu mài, yêu cầu bán buôn vật liệu mài, nhà sản xuất vật liệu mài Trung Quốc"
+    },
+    "privacy": {
+      "title": "Chính sách riêng tư",
+      "description": "Cách MoTai Abrasives sử dụng thông tin yêu cầu: thu thập, mục đích, lưu trữ, lựa chọn của bạn và xử lý cookie.",
+      "keywords": "chính sách riêng tư, MoTai"
+    },
+    "terms": {
+      "title": "Điều khoản sử dụng — MoTai Abrasives",
+      "description": "Điều khoản cho trang web vật liệu mài B2B này: xử lý yêu cầu, giá theo báo giá, sở hữu trí tuệ và pháp luật chi phối.",
+      "keywords": [
+        "điều khoản sử dụng",
+        "MoTai",
+        "nhà cung cấp vật liệu mài B2B"
+      ]
+    },
+    "quote": {
+      "title": "Yêu cầu báo giá vật liệu mài bán buôn | MoTai",
+      "description": "Chuẩn bị yêu cầu bán buôn hoặc OEM vật liệu mài của bạn: thông tin doanh nghiệp cùng sản phẩm, kích thước, cỡ hạt, số lượng và điểm đến. Cung ứng vật liệu mài số lượng lớn báo giá trực tiếp từ nhà máy.",
+      "keywords": "báo giá vật liệu mài bán buôn, cung ứng vật liệu mài số lượng lớn, yêu cầu vật liệu mài OEM, vật liệu mài bán buôn"
+    },
+    "clients": {
+      "title": "Nhà xuất khẩu sản phẩm vật liệu mài — Cung ứng toàn cầu từ Hubei, Trung Quốc | MoTai",
+      "description": "MoTai xuất khẩu dây băng mài, đĩa mài và đĩa mài nhiều lớp tới bảy khu vực điểm đến: châu Âu, châu Mỹ, Trung Đông, châu Phi, châu Đại Dương và châu Á.",
+      "keywords": "nhà xuất khẩu sản phẩm vật liệu mài, xuất khẩu vật liệu mài, cung ứng vật liệu mài toàn cầu, nhà cung cấp vật liệu mài công nghiệp"
+    },
+    "glossary": {
+      "title": "Từ vựng vật liệu mài — Cỡ hạt, Đế, Thuật ngữ đĩa",
+      "description": "24 thuật ngữ vật liệu mài được định nghĩa: cỡ hạt FEPA, đế, hook & loop, PSA, lưới hở, gọt ba-via và hơn thế.",
+      "keywords": "từ vựng vật liệu mài, tiêu chuẩn cỡ hạt, thuật ngữ vật liệu mài"
+    },
+    "product": {
+      "title": "MoTai {name} — Bán buôn & OEM vật liệu mài",
+      "description": "MoTai {name} ({material}, {category}): {desc} Kích thước: {sizes}. Cỡ hạt: {grits}. Bán buôn trực tiếp từ nhà máy và cung ứng OEM.",
+      "keywords": "{name}, nhà sản xuất {category}, vật liệu mài {material}, vật liệu mài bán buôn, vật liệu mài OEM"
+    },
+    "model": {
+      "title": "Dây băng mài {model} — MoTai",
+      "description": "Mã dây băng mài tham chiếu {model} trong dải sản phẩm MoTai — chiều rộng, chiều dài, cỡ hạt và đế được thống nhất theo báo giá. Cung ứng bán buôn và OEM.",
+      "keywords": "dây băng mài {model}, mã tham chiếu dây băng mài, dây băng mài bán buôn"
+    },
+    "disc": {
+      "title": "MoTai {title} — Bán buôn & OEM",
+      "description": "Biến thể đĩa MoTai {title}: dải cỡ hạt, đường kính và phương thức gắn được thống nhất theo báo giá. Bán buôn trực tiếp từ nhà máy và OEM.",
+      "keywords": "đĩa mài, đĩa chà nhám hook & loop, đĩa chà nhám PSA, đĩa chà nhám lưới, đĩa mài bán buôn"
+    },
+    "flap": {
+      "title": "MoTai {name} — Nhà sản xuất đĩa mài nhiều lớp",
+      "description": "MoTai {name}: đĩa mài nhiều lớp với đế {backing} để mài, xóa mối hàn và hoàn thiện kim loại. Cung ứng bán buôn và OEM.",
+      "keywords": "đĩa mài nhiều lớp, đĩa mài nhiều lớp đế {backing}, đĩa mài nhiều lớp ziriconi, nhà sản xuất đĩa mài nhiều lớp, đĩa mài nhiều lớp bán buôn"
+    },
+    "colt": {
+      "belts": {
+        "title": "Nhà sản xuất & Nhà cung cấp bán buôn dây băng mài | MoTai",
+        "description": "Dây băng mài công nghiệp khổ hẹp và khổ rộng từ 533×75 đến 2200×1330 mm, cỡ hạt 40–800, oxit nhôm, ziriconi và carbide silic — kèm mã tham chiếu GXK-51, XZ-330, GPC71 và hơn thế. Bán buôn trực tiếp từ nhà máy và OEM.",
+        "keywords": "dây băng mài, dây băng chà nhám, dây băng chà nhám công nghiệp, dây băng mài khổ rộng, dây băng chà nhám khổ rộng, dây băng chà nhám gỗ, dây băng chà nhám kim loại, dây băng mài oxit nhôm, dây băng mài ziriconi, dây băng mài carbide silic, nhà sản xuất dây băng mài, nhà cung cấp dây băng mài, dây băng mài bán buôn, dây băng mài GXK-51, dây băng mài XZ-330, dây băng mài GPC71, dây băng mài Y399, dây băng mài Y999, dây băng mài 533x75, dây băng mài 610x100, dây băng mài 1520x630, dây băng mài 2200x1330"
+      },
+      "discs": {
+        "title": "Nhà sản xuất đĩa mài — PSA, Hook & Loop & Lưới | MoTai",
+        "description": "Đĩa mài hook & loop, PSA, lưới và không lỗ từ 3 đến 6 inch, cỡ hạt 60–5000, cho thân xe, gỗ và hoàn thiện kim loại. Bán buôn trực tiếp từ nhà máy và OEM.",
+        "keywords": "đĩa mài, đĩa mài chà nhám, đĩa chà nhám hook & loop, đĩa chà nhám PSA, đĩa chà nhám lưới, đĩa chà nhám vải không dệt, đĩa chà nhám không bụi, đĩa chà nhám thủng lỗ, đĩa chà nhám có lỗ, đĩa chà nhám 5 inch, đĩa chà nhám 6 inch, nhà sản xuất đĩa mài, đĩa mài bán buôn"
+      },
+      "flap": {
+        "title": "Nhà sản xuất đĩa mài nhiều lớp — Ziriconi & Oxit nhôm | MoTai",
+        "description": "Đĩa mài nhiều lớp MoTai với đế nhựa, thép và sợi thủy tinh (fiberglass), ziriconi và oxit nhôm, để mài, gọt ba-via và hoàn thiện kim loại. Cung ứng bán buôn và OEM.",
+        "keywords": "đĩa mài nhiều lớp, đĩa mài nhiều lớp vật liệu mài, đĩa mài nhiều lớp ziriconi, đĩa mài nhiều lớp oxit nhôm, đĩa mài nhiều lớp đế sợi thủy tinh, đĩa mài nhiều lớp đế nhựa, đĩa mài nhiều lớp đế thép, đĩa mài nhiều lớp 100mm, đĩa mài nhiều lớp 115mm, đĩa mài nhiều lớp 125mm, đĩa mài nhiều lớp 150mm, đĩa mài nhiều lớp 180mm, nhà sản xuất đĩa mài nhiều lớp, nhà cung cấp đĩa mài nhiều lớp, đĩa mài nhiều lớp bán buôn"
+      },
+      "all": {
+        "title": "Bán buôn sản phẩm vật liệu mài — Dây băng, Đĩa & Đĩa nhiều lớp | MoTai",
+        "description": "Danh mục vật liệu mài đầy đủ của MoTai: dây băng mài công nghiệp, đĩa mài và đĩa mài nhiều lớp cho nhà phân phối, nhà nhập khẩu, nhà bán buôn và thương hiệu OEM. Bán buôn trực tiếp từ nhà máy, tùy chỉnh và xuất khẩu từ Hubei, Trung Quốc.",
+        "keywords": "sản phẩm vật liệu mài, sản phẩm vật liệu mài bán buôn, vật liệu mài công nghiệp, vật liệu mài phủ lớp, vật liệu mài bán buôn, nhà máy sản phẩm vật liệu mài, nhà xuất khẩu sản phẩm vật liệu mài, nhà cung cấp vật liệu mài Trung Quốc, nhà sản xuất vật liệu mài OEM, vật liệu mài thương hiệu riêng, sản phẩm mài tùy chỉnh, cung ứng vật liệu mài số lượng lớn, nhà máy vật liệu mài, dụng cụ mài, vật liệu mài, sản phẩm chà nhám, sản phẩm hoàn thiện bề mặt, giấy nhám, tấm giấy nhám, giấy nhám tròn, giấy nhám bán buôn, đĩa đế chà nhám, đĩa đế chà nhám hook & loop, đĩa đế chà nhám 5 inch, đĩa đế chà nhám 6 inch, đầu chà không dệt, vải mài, chổi lăn công nghiệp"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Liên hệ nhanh",
+    "whatsapp": "WhatsApp",
+    "quote": "Yêu cầu báo giá"
+  }
+}

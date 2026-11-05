@@ -1,0 +1,880 @@
+{
+  "code": "sk",
+  "name": "Slovenčina",
+  "codeLabel": "SK",
+  "htmlLang": "sk",
+  "ogLocale": "sk_SK",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Veľkoobchodné dopyty",
+    "oemNote": "Dopyty týkajúce sa OEM balenia",
+    "size": "Rozmer",
+    "grit": "Zrnitosť",
+    "quantity": "Vyžiadané množstvo",
+    "requirements": "Požiadavky na špecifikáciu a balenie",
+    "requirementsPh": "Uveďte nám svoju aplikáciu, špecifikáciu a požiadavky na dodanie.",
+    "material": "Brúsny materiál",
+    "backing": "Podložka / uchytenie",
+    "availability": "Dostupnosť, minimálna objednávka a obchodné podmienky sa potvrdia v cenovej ponuke.",
+    "sampleNote": "Uveďte, aké produkty a zrnitosti chcete vyhodnotiť. Náš obchodný tím potvrdí dostupnosť vzoriek, poplatky za vzorky a usporiadanie dopravy.",
+    "gritsRange": "Rozsah zrnitosti",
+    "holes": "Otvary",
+    "diameter": "Priemer / nominálny rozmer",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Jazyk",
+    "home": "Úvod",
+    "about": "O nás",
+    "manufacturing": "Výroba",
+    "oem": "OEM služby",
+    "news": "Novinky",
+    "knowledge": "Znalosti",
+    "contact": "Kontaktujte nás",
+    "products": "Produkty"
+  },
+  "colt": {
+    "belts": {
+      "title": "Brúsne pásy — Veľkoobchod a OEM",
+      "desc": "Červené brúsne pásy v zdokumentovaných rozmeroch od 533 × 75 mm do 2200 × 1330 mm. Zrnitosti 40–800. K dispozícii sú referenčné modely. Veľkoobchodné a OEM dopyty sú vítané.",
+      "label": "Brúsne pásy"
+    },
+    "discs": {
+      "title": "Brúsne kotúče — Veľkoobchod a OEM",
+      "desc": "Brúsne kotúče s lepiacou podložkou (PSA), s háčik-slučkou, s otvorenou sieťkou a bez otvorov, od 3 do 6 palcov. Zrnitosti 60–5000. Veľkoobchodné a OEM dopyty sú vítané.",
+      "label": "Brúsne kotúče"
+    },
+    "flap": {
+      "title": "Kotúče typu flap MoTai",
+      "desc": "Kotúče typu flap s podložkou z plastu, ocele a sklolahviny na brúsenie, zarovnávanie a dokončovanie kovov. Špecifikácie, hromadné dodávky a OEM balenie overte v cenovej ponuke.",
+      "label": "Kotúče typu flap"
+    },
+    "all": {
+      "title": "Všetky produkty",
+      "desc": "Kompletný katalóg brúsnych materiálov MoTai: brúsne pásy, brúsne kotúče a kotúče typu flap pre priemyselných kupcov, distribútorov a značky s vlastnou značkou.",
+      "label": "Všetky produkty"
+    }
+  },
+  "cta": {
+    "quote": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "quoteArrow": "↗",
+    "sample": "Vyžiadať vzorku",
+    "whatsapp": "Dopyt cez WhatsApp",
+    "waChat": "Kontakt cez WhatsApp",
+    "explore": "Pozrieť si radu kotúčov typu flap",
+    "viewAll": "Zobraziť všetky produkty",
+    "discuss": "Prebereme vašu špecifikáciu",
+    "oemQuote": "Vyžiadať OEM cenovú ponuku"
+  },
+  "home": {
+    "eyebrow": "Brúsne materiály zo závodu MoTai v Hubei",
+    "heroTitle": "Profesionálny výrobca a dodávateľ brúsnych materiálov",
+    "heroSub": "Brúsne pásy, brúsne kotúče a kotúče typu flap priamo zo závodu pre priemyselných kupcov, distribútorov a značky s vlastnou značkou — z Hubei v Číne na váš trh.",
+    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "cta2": "Skonzultujte sa s naším tímom cez WhatsApp",
+    "builtTitle": "Vyberte si aplikáciu. Prispôsobte si brúsny materiál.",
+    "builtSub": "Vyberte aplikáciu a prispôsobte brúsny materiál: pásy, kotúče alebo kotúče typu flap.",
+    "featuredTitle": "V katalógu",
+    "featuredSub": "Rozmery a zrnitosti sú zdokumentované v katalógu; minimálna objednávka a dostupnosť prichádzajú spolu s ponukou.",
+    "partnerTitle": "Dodávateľská stránka vašej objednávky brúsnych materiálov",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. dodáva brúsny spotrebný materiál pre drevospracovanie, kovové a automobilové aplikácie — vrátane OEM a private label programov pre distribútorov a priemyselných kupcov po celom svete.",
+    "partnerCta": "Zistiť viac o MoTai",
+    "valuesTitle": "Šesť spôsobov, akými s nami pracujú B2B kupcovia",
+    "valuesSub": "Šesť dôvodov, prečo s nami pracujú importéri a OEM značky.",
+    "v1t": "Priamo zo závodu",
+    "v1b": "Ceny a dodacie lehy z dodávateľskej strany, bez sprostredkovateľov.",
+    "v2t": "OEM a vlastná značka",
+    "v2b": "Vaše logo, štítky a balenie na potvrdené špecifikácie.",
+    "v3t": "Vlastné rozmery a zrnitosti",
+    "v3b": "Zdokumentované rozmery a zrnitosti 40–800 pre pásy, 60–5000 pre kotúče.",
+    "v4t": "Kontrola vzoriek a kontrola kvality",
+    "v4b": "Preskúmanie povrchu, podložky a sedu na vzorke pred objednávkou.",
+    "v5t": "Hromadné dodávky",
+    "v5b": "Konzistentné množstvá na kartón a podrobnosti prepravného zoznamu.",
+    "v6t": "Exportný program",
+    "v6b": "Značky na kartónoch, štítky a dokumentácia pre cieľovú krajinu.",
+    "processTitle": "Kroky medzi vašou špecifikáciou a objednávkou",
+    "processSub": "Štyri fázy od vašej požiadavky po potvrdenú objednávku.",
+    "p1t": "Krájanie a pretváranie",
+    "p1b": "Potvrdenie požadovaného tvaru, rozmerov a zrnitosti pred nastavením pretváracej výroby.",
+    "p2t": "Kontrola vzoriek",
+    "p2b": "Preskúmanie brúsneho povrchu, podložky a sedu vzorky pred dohodnutím špecifikácie objednávky.",
+    "p3t": "OEM a balenie",
+    "p3b": "Potvrdenie množstiev do balenia, štítkov, značiek na kartónoch a grafiky pre vlastnú značku spolu s cenovou ponukou.",
+    "p4t": "Príprava expedície",
+    "p4b": "Dohodnutie prepravného zoznamu, požiadaviek na palety a podrobností o destinácii pred odoslaním.",
+    "oemTitle": "Vaše meno na kartóne",
+    "oemSub": "Zdieľajte požiadavky na produkt, balenie a značku pre vašu ďalšiu radu brúsnych materiálov.",
+    "oemCta": "Preskúmať OEM služby",
+    "faqTitle": "Skôr, než začneme",
+    "faqSub": "Odpovede na otázky, ktoré kupcovia najčastejšie kladú.",
+    "regionsTitle": "Z Hubei na váš trh",
+    "regionsSub": "Globálne dodávky usporadené podľa cieľovej oblasti.",
+    "regionsNote": "Minimálna objednávka a dodacia doba sa potvrdia vo vašej cenovej ponuke. Trasy sú orientačné; dostupnosť a podmienky sa potvrdia v cenovej ponuke.",
+    "factoryTitle": "Nájdite nás v Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Čína. Zorganizujte si návštevu závodu a potvrďte miesto stretnutia s naším tímom.",
+    "finalTitle": "Hľadáte spoľahlivého dodávateľa brúsnych materiálov?",
+    "finalBody": "Zdieľajte produkt, množstvo a aplikáciu — prejdeme si vaše požiadavky a pripravíme prispôsobenú cenovú ponuku.",
+    "finalCta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "finalCta2": "Kontakt cez WhatsApp",
+    "beltsShowTitle": "Brúsne pásy podľa modelu",
+    "beltsShowSub": "Referenčné modely na prezer s naším tímom.",
+    "prepTitle": "Pripraviť si veľkoobchodný dopyt",
+    "prepSub": "Rozmery, zrnitosť a množstvo urobia zvyšok práce.",
+    "prepDim": "Rozmery",
+    "prepDimText": "Rozmer alebo referenčný model v milimetroch.",
+    "prepGrit": "Zrnitosť",
+    "prepGritText": "Požadovaný stupeň alebo dokončenie.",
+    "prepQty": "Množstvo",
+    "prepQtyText": "Odhadované objemy a balenie."
+  },
+  "purchasing": {
+    "eyebrow1": "Nákupné usmernenie",
+    "title1": "Pripraviť si veľkoobchodný dopyt",
+    "body1": "Uveďte požadované rozmery, zrnitosť, predmet opracovania, stroj a zamýšľané dokončenie. Ak sú k dispozícii, použite vyššie uvedené zdokumentované možnosti; ostatné požiadavky prejdeme s naším tímom.",
+    "dl1t": "Množstvo a destinácia",
+    "dl1b": "Uveďte nám množstvo, požiadavky na balenie a miesto doručenia.",
+    "dl2t": "Dodávky a podmienky",
+    "dl2b": "Dostupnosť, minimálna objednávka a obchodné podmienky sa potvrdia v cenovej ponuke.",
+    "dl3t": "Dopyty k OEM baleniu",
+    "dl3b": "Značenie, štítky, vlastné rozmery alebo požiadavky na balenie.",
+    "eyebrow2": "Ako podať dopyt",
+    "title2": "Od výberu produktu po cenovú ponuku",
+    "s1t": "Vyberte si produkt",
+    "s1b": "Vyberte produkt alebo model a požadovanú špecifikáciu.",
+    "s2t": "Zdieľajte svoje požiadavky",
+    "s2b": "Uveďte množstvo, aplikáciu a požiadavky na balenie.",
+    "s3t": "Preskúmať cenovú ponuku",
+    "s3b": "Dohodnúť si konečnú špecifikáciu a obchodné podmienky s naším tímom."
+  },
+  "modelPage": {
+    "eyebrow": "Brúsne pásy · Referenčný model",
+    "refLabel": "Referencia modelu",
+    "familyLabel": "Kategória",
+    "dimsLabel": "Rozmery hotového pásu — uveďte šírku × dĺžku v mm",
+    "dimsPlaceholder": "napr. 533 × 75 mm",
+    "gritLabel": "Požadovaná zrnitosť — uveďte požadovaný stupeň alebo dokončenie",
+    "gritPlaceholder": "napr. P60",
+    "qtyLabel": "Vyžiadané množstvo",
+    "specLabel": "Požiadavky na špecifikáciu a balenie",
+    "discussion": "Poradíme s týmto modelom podľa vášho predmetu opracovania, stroja a požadovaného dokončenia.",
+    "grainBacking": "Zrno a podložka — potvrďte výrobcu suroviny a presný stupeň.",
+    "disclaimer": "Podrobnosti modelovej rady slúžia ako výberová referencia; dodávateľské špecifikácie, dostupnosť a sed MoTai sa dohodnú s cenovou ponukou."
+  },
+  "discPage": {
+    "eyebrow": "Brúsne kotúče · Zdokumentovaná variácia",
+    "gritsNote": "Možnosti zrnitosti pre túto variáciu"
+  },
+  "flapPage": {
+    "eyebrow": "Kotúče typu flap · Variácia podložky",
+    "color": "Farba",
+    "gritNote": "P40–P60 a P80–P120 sú všeobecné príklady výberu, nie potvrzený rozsah dodávok MoTai."
+  },
+  "productPage": {
+    "specTitle": "Špecifikácie",
+    "howTitle": "Ako špecifikovať objednávku",
+    "howBody": "Uveďte rozmer pásu alebo kotúča, zoznam zrnitosti, model stroja, materiál predmetu a množstvo. Jasná špecifikácia nám pomôže preskúmať sedenie a pripraviť užitočnú cenovú ponuku — vyhnite sa výberu produktu iba podľa farby.",
+    "faqTitle": "Otázky kupcov"
+  },
+  "about": {
+    "h1": "Spoločnosť za radom brúsnych materiálov",
+    "sub": "Premyslený prístup k dodávkam brúsnych materiálov.",
+    "bizTitle": "Naše podnikanie",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. dodáva brúsny spotrebný materiál pre drevospracovanie, kovové a automobilové aplikácie. Zdokumentované rady zahŕňajú brúsne kotúče bez otvorov, mriežkové brúsne kotúče a červené brúsne pásy. Prijímame dopyty od importérov, distribútorov, veľkoobchodníkov a priemyselných kupcov — produkt, podložka, rozmer, stupeň, množstvo a požiadavky na dodanie.",
+    "matTitle": "Materiály spoločnosti",
+    "matBody": "Zoznámte sa so zázemím a kontaktnými údajmi spoločnosti v našej brožúre.",
+    "globalTitle": "Z Hubei na váš trh",
+    "globalSub": "Globálne dodávky usporadené podľa cieľovej oblasti.",
+    "facTitle": "Nájdite nás v Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Čína. Zorganizujte si návštevu závodu s naším tímom a pred cestou potvrďte miesto stretnutia.",
+    "profileName": "Na prvý pohľad",
+    "profileBody": "Výrobca potiahnutých brúsnych materiálov v Xianning, Hubei: tri produktové rady dodávané do siedmich cieľových oblastí, s pokrytím zrnitosti od 40 do 5000.",
+    "ctaTitle": "Hľadáte spoľahlivého dodávateľa brúsnych materiálov?",
+    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontakt cez WhatsApp"
+  },
+  "factory": {
+    "h1": "Vnútornosť dielne MoTai",
+    "sub": "Detaily rozhodujú. Na každom kroku.",
+    "intro": "Prejdite si krájanie, kontrolu vzoriek a podrobnosti balenia pre vašu objednávku. Videozáznamy produktov sa zobrazujú spolu s ilustráciami procesov.",
+    "videoLabel": "Zobraziť videozáznamy produktov",
+    "stepsTitle": "Výroba a príprava objednávky",
+    "stepsIntro": "Od vašej požiadavky po potvrdenú objednávku.",
+    "st1t": "Krájanie a pretváranie",
+    "st1b": "Potvrdenie požadovaného tvaru, rozmerov a zrnitosti pred nastavením pretváracej výroby.",
+    "st2t": "Kontrola vzoriek",
+    "st2b": "Preskúmanie brúsneho povrchu, podložky a sedu vzorky pred dohodnutím špecifikácie objednávky.",
+    "st3t": "OEM a balenie",
+    "st3b": "Potvrdenie množstiev do balenia, štítkov, značiek na kartónoch a grafiky pre vlastnú značku spolu s cenovou ponukou.",
+    "st4t": "Príprava expedície",
+    "st4b": "Dohodnutie prepravného zoznamu, požiadaviek na palety a podrobností o destinácii pred odoslaním.",
+    "imgNote": "Obrázky krájania a vzoriek boli vybrané z dodaných produktových videí. Obrázky balenia a expedície sú ilustračné stock fotografie.",
+    "qcTitle": "Kontrolné body kvality",
+    "qcIntro": "Čo overujeme, kým objednávka opustí výrobnú halu.",
+    "qc1t": "Povrch a zrnitosť",
+    "qc1b": "Konzistentnosť brúsneho povrchu vzhľadom na potvrdený stupeň.",
+    "qc2t": "Podložka a sedenie",
+    "qc2b": "Typ, hmotnosť a rozmerová tolerancia podložky hotových pásov a kotúčov.",
+    "qc3t": "Balenie a značky",
+    "qc3b": "Množstvá do balenia, štítky, značky na kartónoch a grafika pre vlastnú značku zodpovedajú potvrdenú objednávku.",
+    "certNote": "Zobrazené certifikačné značky sú zástupné, pokiaľ sa nezverejnia certifikáty.",
+    "ctaTitle": "Radi by ste si to prekonzultovali?",
+    "ctaSub": "Hľadáte spoľahlivého dodávateľa brúsnych materiálov?",
+    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontakt cez WhatsApp"
+  },
+  "oem": {
+    "h1": "Vaše meno na kartóne",
+    "sub": "Zašlite požiadavky na produkt, balenie a značku; vrátime sa s hodnotením uskutočniteľnosti OEM.",
+    "briefTitle": "Postavte dopyt okolo svojej značky",
+    "briefEyebrow": "Prineste si zadanie",
+    "briefBody": "Poradíme sa o vašom logu a grafike štítkov, formáte balenia, rozmeroch produktov, stupňoch zrnitosti a zamýšľanom použití. Dostupnosť OEM, minimálne množstvá, požiadavky na grafiku a časové harmonogramy podliehajú hodnoteniu uskutočniteľnosti a potvrdením cenovej ponuky.",
+    "itemsTitle": "Jasné zadanie prináša užitočnú odpoveď",
+    "i1": "Produkt a špecifikácia",
+    "i2": "Rozmer a zmes zrnitosti",
+    "i3": "Grafika a štítky",
+    "i4": "Formát balenia",
+    "i5": "Cieľové množstvá",
+    "i6": "Destinácia a časovanie",
+    "itemNote": "Zahrňte svoje požiadavky a referenčné súbory do dopytu.",
+    "procTitle": "Od dopytu po dodávku",
+    "pr1t": "Váš dopyt",
+    "pr1b": "Uveďte nám aplikáciu a požiadavky.",
+    "pr2t": "Kontrola špecifikácie",
+    "pr2b": "Prejdeme si rozmery, stupne, podložky a balenie.",
+    "pr3t": "Ponuka",
+    "pr3b": "Potvrdenie obchodných podmienok a harmonogramu.",
+    "pr4t": "Schválenie vzorky",
+    "pr4b": "Hodnotenie dohodnutých vzoriek pred schválením.",
+    "pr5t": "Sériová výroba",
+    "pr5b": "Pokračovanie podľa potvrdenej špecifikácie.",
+    "pr6t": "Expedícia",
+    "pr6b": "Dojde sa k koordinácii balenia a destinácie.",
+    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontakt cez WhatsApp"
+  },
+  "applications": {
+    "h1": "Brúsne materiály pre vaše odvetvie",
+    "sub": "Povrch určuje špecifikáciu.",
+    "intro": "Šesť oblastí aplikácie. Uveďte materiál, stroj a požadované dokončenie — prispôsujeme brúsny materiál.",
+    "ctaNote": "Niektoré obrázky sú ilustračné ilustrácie aplikácií vygenerované AI, nie fotografie závodu MoTai alebo klientov.",
+    "sampleNote": "Pri vyžadovaní cenovej ponuky uveďte svoje odvetvie, krajinu, špecifikáciu produktu a odhadovaný objem objednávky.",
+    "reqTitle": "Odporúčané produkty",
+    "reqNote": "Orientačné produktové rady pre túto oblasť. Rozmery, zrnitosti a množstvá potvrďte v cenovej ponuke.",
+    "specTitle": "Tipy k špecifikácii",
+    "faqTitle": "Časté otázky",
+    "faqs": [
+      {
+        "q": "S akej zrnitosti začať?",
+        "a": "Začnite od materiálu predmetu, hĺbky chyby a požadovaného dokončenia — hrubší stupeň odstraňuje materiál rýchlo, potom postupne znižujte zrnitosť a po každom kroku skúmajte povrch."
+      },
+      {
+        "q": "Môžem v jednej objednávke zmiešať zrnitosti?",
+        "a": "Áno — uveďte zrnitosti a množstvo podľa stupňa; dostupnosť a dodacia doba sa vrátia spolu s ponukou."
+      }
+    ],
+    "ctaTitle": "Špecifikujete pre svoje odvetvie?",
+    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontakt cez WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Lepšie informácie. Lepšia voľba.",
+    "sub": "Praktické zdroje pre kupujúcich pri diskusii špecifikácií brúsnych materiálov.",
+    "updatedLabel": "Aktualizované",
+    "governance": "Príručky píšu a preskúma odborný tím MoTai Abrasives; znova sa preskúma, keď sa menia špecifikácie produktov."
+  },
+  "article": {
+    "watchTitle": "Zobraziť",
+    "discuss": "Prebereme vašu špecifikáciu",
+    "catSelection": "Príručka výberu",
+    "catBuyer": "Zdroje pre kupujúceho",
+    "catNotes": "Poznámky k aplikáciám",
+    "catOem": "OEM príručka",
+    "reviewedBy": "Preskúmal odborný tím MoTai Abrasives",
+    "lastReviewed": "Naposledy preskúmané {date}",
+    "tocTitle": "Na tejto stránke"
+  },
+  "contact": {
+    "h1": "Začnite veľkoobchodnú konverzáciu",
+    "sub": "Získajte veľkoobchodné ceny priamo zo závodu pre brúsne produkty.",
+    "directTitle": "Rozhovor. Lepšia špecifikácia.",
+    "directBody": "Zdieľajte produkt, množstvo a aplikáciu. Prejdeme si vaše požiadavky a pomôžeme s ďalším krokom.",
+    "facTitle": "Nájdite nás v Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Čína.",
+    "facNote": "Pred cestou potvrďte presnú adresu návštevy s naším tímom.",
+    "visit": "Zorganizovať si návštevu závodu",
+    "formTitle": "Veľkoobchodný / OEM dopyt",
+    "formNote": "Tento formulár žiada cenovú ponuku a nezadáva objednávku. Dopyty idú do obchodnej e-mailovej schránky; špecifikácie a obchodné podmienky sa dohodnú s cenovou ponukou.",
+    "btn": "Otvoriť formulár dopytu ↗"
+  },
+  "privacy": {
+    "h1": "Vaše informácie z dopytu",
+    "sub": "Ako táto webová stránka využíva údaje, ktoré sa rozhodnete zdieľať.",
+    "s1t": "Zbierané informácie",
+    "s1b": "Kontaktné údaje, informácie o spoločnosti, požiadavky na produkt a súbory priložené k dopytu. Hashovaný identifikátor pripojenia obmedzuje zneužívanie.",
+    "s2t": "Účel a prístup",
+    "s2b": "Údaje sa používajú na preskúmanie a odpovedanie na dopyty, prípravu cenových ponúk a koordináciu požadovaných obchodných diskusii. Prístup je obmedzený na poverených administrátorov.",
+    "s3t": "Úložisko a uchovávanie",
+    "s3b": "Záznamy sa ukladajú u nášho hostingového providera. Údaje sa môžu spracúvať mimo vašej krajiny. Doba uchovávania sleduje obchodný priebeh a povinnosti archívu; môžete požadovať konkrétne uchovávanie alebo vymazanie.",
+    "s4t": "Vaše možnosti",
+    "s4b": "Kontaktujte motai-01@motaiabrasive.com pre prístup, opravu alebo vymazanie. Prosíme, neposielajte citlivé osobné údaje ani dôverné súbory nesúvisiace s vašim dopytom.",
+    "s5t": "Cookies, odkazy a analýza",
+    "s5b": "Prehliadač ukladá správcovské údaje o zozname dopytov. Táto stránka používa Google Analytics (gtag.js) na anonymizovanú štatistiku používania; Google nastavuje cookie a spracúva údaje podľa svojich podmienok spracovania — môžete sa odhlásiť na https://support.google.com/analytics/answer/3452785. Externé WhatsApp, mapové a sociálne odkazy sa riadia vlastnými zásadami ochrany súkromia.",
+    "updated": "Naposledy aktualizované 4. november 2026"
+  },
+  "terms": {
+    "h1": "Podmienky použitia",
+    "sub": "Podmienky, ktoré platia pri používaní tejto stránky a pri zasielaní dopytu MoTai.",
+    "s1t": "Používanie tejto stránky",
+    "s1b": "Táto stránka je B2B informačná a dopytová služba prevádzkovaná spoločnosťou Hubei MoTai Abrasives Materials Co., Ltd. Obsah — špecifikácie produktov, príručky, slovník a blog — sa poskytuje s dobrou vierou na všeobecné informácie. Používanie stránky znamená súhlas s týmito podmienkami; ak s nimi nesúhlasíte, neposielajte dopyt.",
+    "s2t": "Dopyty nie sú ponuky",
+    "s2b": "Odoslanie dopytového formulára je pozvánka na vyjednávania, nie záväzná objednávka. MoTai nie je povinná odpovedať na každý dopyt a k žiadnej akcii nie je záväzok, kým cenovú ponuku potvrdia oboje strany písomne.",
+    "s3t": "Cenové ponuky a ceny",
+    "s3b": "Všetky ceny sú založené na ponukách. Cenové ponuky uvádzajú rozmery, zrnitosti, balenie, obchodné podmienky a lehoty platnosti; konečné sumy sa určia pri potvrdenom špecifikácii a podliehajú pohybu surovín a dopravy.",
+    "s4t": "Duševné vlastníctvo",
+    "s4b": "Obsah stránky, popisy produktov, grafiky a značka MoTai sú vlastníctvom MoTai Abrasives a nesmú sa komerčne množiť. Referencie tretích strán (napr. zdroje modelov) slúžia len na orientáciu kupujúceho a neoznamiavajú schválenie.",
+    "s5t": "Zodpovednosť a uplatniteľné právo",
+    "s5b": "MoTai nenesie zodpovednosť za rozhodnutia prijaté na základe všeobecných informácií na tejto stránke. Tieto podmienky sa riadia právom Čínskej ľudovej republiky; spory sa riešia podľa kúpnej zmlavy medzi stranami.",
+    "updated": "Naposledy aktualizované 3. november 2026"
+  },
+  "quotePage": {
+    "h1": "Začnite veľkoobchodnú konverzáciu",
+    "sub": "Získajte veľkoobchodné ceny priamo zo závodu pre brúsne produkty.",
+    "note": "Tento formulár žiada cenovú ponuku a nezadáva objednávku. Polia označené * sú povinné.",
+    "sec1": "Vaša firma",
+    "f1": "Celé meno *",
+    "f2": "Názov firmy *",
+    "f3": "Krajina *",
+    "f4": "Firemný e-mail *",
+    "f5": "Číslo WhatsApp",
+    "f6": "Typ firmy *",
+    "opt1": "Importér",
+    "opt2": "Distributor",
+    "opt3": "Veľkoobchodník",
+    "opt4": "OEM značka",
+    "opt5": "Priemyselný kupujúci",
+    "opt6": "Iné",
+    "sec2": "Požiadavky na produkt",
+    "f7": "Kategória produktu",
+    "f8": "Model / referencia produktu",
+    "f9": "Rozmer",
+    "f10": "Zrnitosť",
+    "f11": "Materiál",
+    "f12": "Množstvo",
+    "f13": "Balenie",
+    "f14": "Cieľová krajina *",
+    "f15": "OEM požiadavky",
+    "f16": "Dodatočná správa *",
+    "consent": "Súhlasím so zásadami ochrany súkromia, s podmienkami použitia a s používaním mojich údajov na odpoveď na tento dopyt. *",
+    "btn1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "btn2": "Odoslať dopyt cez WhatsApp",
+    "goNote": "Formulár sa otvorí v našom systéme veľkoobchodných dopytov s predvyplneným kontextom produktu."
+  },
+  "clients": {
+    "h1": "Kam smerujú expedície MoTai",
+    "sub": "Z Hubei do siedmich cieľových oblastí.",
+    "note": "Logá klientov a odporúčania nižšie sú zástupné miesta — nahraďte src/data/trust.json zverejnenými materiálmi.",
+    "placeholderBadge": "Ilustračné zástupné miesto",
+    "statsTitle": "Dodávky v krátkosti",
+    "statsNote": "Zobrazené certifikácie sú zástupné, pokiaľ sa nezverejnia certifikáty."
+  },
+  "glossary": {
+    "h1": "Slovník brúsnych materiálov",
+    "sub": "Pojmy za každou špecifikáciou pásu, kotúča a flap kotúča.",
+    "note": "Štandardné odvetvové definície pre brúsne spotreby; podrobnosti o stupni a podložke objednávky sa dohodnú s cenovou ponukou.",
+    "reviewNote": "Pojmy preskúma odborný tím MoTai Abrasives — naposledy preskúmané 3. november 2026."
+  },
+  "trust": {
+    "regions": "Cieľové oblasti",
+    "productLines": "Produktové rady",
+    "gritRange": "Pokrytie zrnitosti"
+  },
+  "video": {
+    "title": "Zobraziť",
+    "cutting": {
+      "title": "Video krájania a pretvárania",
+      "desc": "Dodané produktové video: krájanie a pretváranie brúsnych dosiek."
+    },
+    "sample": {
+      "title": "Video kontroly vzoriek",
+      "desc": "Dodané produktové video: kontrola povrchu, podložky a sedu vzorky."
+    },
+    "oem": {
+      "title": "Video OEM balenia",
+      "desc": "Množstvá do balenia, štítky, značky na kartónoch a grafika pre vlastnú značku."
+    },
+    "flap": {
+      "title": "Video rady kotúčov typu flap",
+      "desc": "Kotúče typu flap s podložkou z plastu, ocele a sklolahviny v používaní."
+    }
+  },
+  "wa": {
+    "generic": "Dobrý deň MoTai, chceli by sme veľkoobchodnú cenovú ponuku na brúsne produkty.",
+    "product": "Dobrý deň MoTai, chceli by sme veľkoobchodnú cenovú ponuku na {name} ({grits}).",
+    "model": "Dobrý deň MoTai, chceli by sme veľkoobchodnú cenovú ponuku na brúsny pás, model {model}.",
+    "disc": "Dobrý deň MoTai, chceli by sme veľkoobchodnú cenovú ponuku na {title}.",
+    "sample": "Dobrý deň MoTai, prosíme o vyžiadanie vzorky {name} na vyhodnotenie.",
+    "factory": "Dobrý deň MoTai, radi by sme si s vaším tímom prešli podrobnosti výroby a kvality.",
+    "oem": "Dobrý deň MoTai, radi by sme si prešli OEM / private label program brúsnych materiálov.",
+    "contact": "Dobrý deň MoTai, radi by sme pripravili ďalšiu objednávku brúsnych materiálov s vaším tímom."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Otvoriť chat",
+    "close": "Zavrieť",
+    "title": "MoTai — Živý chat",
+    "status": "Odpovedáme na WhatsApp, zvyčajne do 24 hodín.",
+    "greeting": "Ahoj! Ako vám môžeme pomôcť s vašou objednávkou brúsnych materiálov? — obchodný tím MoTai",
+    "placeholder": "Napíšte vašu správu…",
+    "send": "Odoslať cez WhatsApp",
+    "note": "Táto predvoľba nemá živý server: odoslaním sa otvorí WhatsApp s predvyplnenou správou. Odpovede pokračujú v konverzácii na WhatsApp."
+  },
+  "location": {
+    "imgAlt": "Budova závodu MoTai v Xianning, Hubei",
+    "imgCaption": "Závod MoTai — Xianning, Hubei, Čína",
+    "mapTitle": "Poloha závodu MoTai na Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Skôr, než začneme",
+    "moq": {
+      "q": "Aká je minimálna objednávka?",
+      "a": "Minimálna objednávka sa vráti spolu s ponukou spolu s dostupnosťou a podmienkami."
+    },
+    "oem": {
+      "q": "Podporujete OEM a vlastnú značku?",
+      "a": "Áno. Logo, štítky, vlastné rozmery a balenie sa overia z hľadiska uskutočniteľnosti a potom sa potvrdia s vašou ponukou."
+    },
+    "sizes": {
+      "q": "Aké rozmery a zrnitosti dodávate?",
+      "a": "Pásy v zdokumentovaných rozmeroch od 533 × 75 po 2200 × 1330 mm (zrnitosti 40–800); kotúče 3–6 palcov (zrnitosti 60–5000). Špeciálne požiadavky preskúmeáme s naším tímom."
+    },
+    "samples": {
+      "q": "Môžem najprv získať vzorku?",
+      "a": "Áno. Vyžiadajte si vzorku a náš obchodný tím potvrdí dostupnosť, poplatky a usporiadanie dopravy."
+    },
+    "lead": {
+      "q": "Aké sú dodacie lehy?",
+      "a": "Dodacia doba závisí od špecifikácie a množstva a potvrdí sa vo vašej cenovej ponuke."
+    },
+    "packaging": {
+      "q": "Ako sú produkty balené?",
+      "a": "Množstvá do balenia, štítky, značky na kartónoch a grafika pre vlastnú značku sa potvrdia s cenovou ponukou."
+    },
+    "payment": {
+      "q": "Aké platobné podmienky ponúkate?",
+      "a": "Platobné podmienky sú súčasťou potvrdené cenovej ponuky a obchodnej diskusie."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Aké špecifikácie mám uviesť?",
+      "a": "Uveďte požadované rozmery, zrnitosť, predmet opracovania, stroj a zamýšľané dokončenie. Ak sú k dispozícii, použite zdokumentované možnosti; iné požiadavky preskúmeáme s naším tímom."
+    },
+    "oem": {
+      "q": "Ako vyžadam OEM balenie?",
+      "a": "Zahrňte požiadavky na značenie a balenie do dopytu. Podrobnosti sa preskúmejú a potvrdia so vašou cenovou ponukou."
+    },
+    "order": {
+      "q": "Vyžiadaním cenovej ponuky sa zadáva objednávka?",
+      "a": "Nie. Formulár spúšťa veľkoobchodný dopyt. Špecifikácie produktov, dostupnosť a obchodné podmienky sa potvrdia pred dohodnutím objednávky."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Európa",
+      "body": "Uveďte rozmer, zrnitosť, podložku a súbory produktov; poskytnite prístav destinácie a jazyk štítkov."
+    },
+    "na": {
+      "title": "Severná Amerika",
+      "body": "Uveďte veľkosť v palcoch alebo metrickom systéme, typ uchytenia a množstvá do balenia; cieľové PSČ alebo prístav a spôsob dopravy."
+    },
+    "sa": {
+      "title": "Južná Amerika",
+      "body": "Rozmer, množstvá v zmesi zrnitosti a jazyk štítkov na kartónoch; prístav destinácie a importné dokumenty."
+    },
+    "me": {
+      "title": "Stredný východ",
+      "body": "Materiál, zrnitosť a obal odolný voči vlhkosti; prístav destinácie a podmienky cenovej ponuky."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Kompatibilita so strojmi, požadované rozmery a množstvá do balenia; prístav destinácie, značky na kartónoch a preferenčný spôsob dopravy."
+    },
+    "oceania": {
+      "title": "Oceánia",
+      "body": "Rozmer, podložka, balenie a cieľové PSČ alebo prístav; importné a baliace požiadavky."
+    },
+    "asia": {
+      "title": "Ázia",
+      "body": "Špecifikácia stroja, rozsah zrnitosti a zmes objednávky; mesto alebo prístav doručenia a štítky v lokálnom jazyku."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Kovové spracovanie",
+      "intro": "Zarovnávanie zvarov, odstraňovanie drsien a príprava kovových povrchov.",
+      "uses": "Zarovnávanie zvarov · Odstraňovanie drsien · Príprava povrchu",
+      "products": "Brúsne pásy"
+    },
+    "wood": {
+      "title": "Drevospracovanie a nábytok",
+      "intro": "Dosky, výroba nábytku a príprava povrchov pred natieraním lakom.",
+      "uses": "Dosky · Nábytok · Príprava pred lakom",
+      "products": "Brúsne pásy · Brúsne kotúče"
+    },
+    "auto": {
+      "title": "Opravy áut",
+      "intro": "Brúsenie špachtovacej hmoty, príprava pred striekaním a renovácia automobilových povrchov.",
+      "uses": "Špachtovacia hmota · Príprava pred striekaním · Renovácia",
+      "products": "Brúsne kotúče"
+    },
+    "stainless": {
+      "title": "Dokončovanie nerezovej ocele",
+      "intro": "Hairline dokončenie, prechody povrchov a výroba z nerezovej ocele.",
+      "uses": "Hairline · Prechody · Výroba",
+      "products": "Brúsne pásy"
+    },
+    "ship": {
+      "title": "Lodná výroba a opravy",
+      "intro": "Brúsenie kovov, odstraňovanie hrdze a príprava povrchov pri lodnej údržbe.",
+      "uses": "Brúsenie · Odstraňovanie hrdze · Lodná príprava",
+      "products": "Brúsne pásy"
+    },
+    "surface": {
+      "title": "Priemyselná príprava povrchov",
+      "intro": "Priemyselné ošetrenie povrchov a údržbové práce.",
+      "uses": "Ošetrenie povrchov · Údržba",
+      "products": "Brúsne kotúče"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Háčik-slučka alebo PSA: vyberte si správnu podložku",
+      "intro": "Systém uchytenia je dôležitý tak ako zrnitosť. Prispôsobte ho podložke pred objednávkou.",
+      "start": {
+        "title": "Začnite požiadavkou",
+        "body": "Kotúče s háčik-slučkou sa stoja na kompatibilnú podložku s háčikovou stranou a vyhovujú prácam, pri ktorých sa zrnitosť často mení. Kotúče PSA sa stoja na lepiaciu vrstvu citlivú na tlak a potrebujú čistú a rovnú podložku. Dva systémy nie sú vzájomne zamieňateľné."
+      },
+      "compat": {
+        "title": "Potvrďte kompatibilitu",
+        "body": "Potvrďte priemer podložky, typ podložky a usporiadanie odsávania prachu. Kotúč bez otvorov sa nepripojí na odsávací vzor s otvormi a kotúče s otvorenou sieťkou vyžadujú kompatibilnú podložku a odsávací systém."
+      },
+      "enquiry": {
+        "title": "Pripravte si dopyt",
+        "body": "Uveďte priemer kotúča, podložku, zoznam zrnitosti, množstvo podľa zrnitosti a materiál predmetu. Požiadajte o vyhodnotenie vzorky pred schválením výrobnej objednávky."
+      }
+    },
+    "beltChecklist": {
+      "title": "Čo uviesť v dopyte na brúsne pásy",
+      "intro": "Jasná špecifikácia pomáha dodávateľovi preskúmať sedenie a pripraviť užitočnú cenovú ponuku.",
+      "start": {
+        "title": "Začnite požiadavkou",
+        "body": "Uveďte dĺžku a šírku pásu v milimetroch. Uveďte model stroja — technický list stroja alebo fotka starého označenia pásu pomôže."
+      },
+      "compat": {
+        "title": "Potvrďte kompatibilitu",
+        "body": "Pridajte materiál predmetu, preferovaný brúsny materiál, zrnitosť, požiadavku na podložku a požiadavky na spoj. Vyhnite sa výberu produktu iba podľa farby pásu."
+      },
+      "enquiry": {
+        "title": "Pripravte si dopyt",
+        "body": "Uveďte množstvá podľa rozmeru a zrnitosti, preferencie balenia, destináciu a požadovaný dátum dodania. Konečná cenová ponuka potvrdí špecifikáciu, dostupnosť, platobné podmienky a usporiadanie dopravy."
+      }
+    },
+    "gritSequence": {
+      "title": "Plánovanie postupnosti zrnitosti pre prípravu povrchu",
+      "intro": "Začnite predmetom a požadovaným dokončením, potom vyhodnotte postupnosť na vzorke.",
+      "start": {
+        "title": "Začnite požiadavkou",
+        "body": "Hrubé zrnitosti odstraňujú materiál rýchlo a nechávajú hlboké škrabance; jemné zrnitosti povrch zjemňujú. Počiatočný bod závisí od podkladu, hĺbky chyby a požiadavky na odstránenie."
+      },
+      "compat": {
+        "title": "Potvrďte kompatibilitu",
+        "body": "Kroky znižujte postupne a po každej fáze skúmajte predmet. Preskočenie zrnitosti necháva ťažko odstrániteľné škrabance a čistenie medzi fázami predchádza znečisteniu hrubým zrnivom."
+      },
+      "enquiry": {
+        "title": "Pripravte si dopyt",
+        "body": "Číslovanie zrnitosti nie je premeniteľné medzi stupnicami. Potvrďte normu stupňovania, typ brúsiva a dostupnosť v cenovej ponuke a dodržiavajte bezpečnostné pokyny pre stroje a brúsivo."
+      }
+    },
+    "dustCollection": {
+      "title": "Odsávanie prachu a kompatibilita podložiek, vysvetlené",
+      "intro": "Vzory otvorov, kotúče s otvorenou sieťkou a podložky musia zodpovedať vášmu odsávacímu usporiadaniu.",
+      "start": {
+        "title": "Začnite požiadavkou",
+        "body": "Identifikujte podložku: počet otvorov, priemer a či sa používa s odsávaním prachu. Kotúče bez otvorov a s otvorenou sieťkou sa správajú inak ako viacotvorové kotúče."
+      },
+      "compat": {
+        "title": "Potvrďte kompatibilitu",
+        "body": "Prispôsobte usporiadanie otvorov kotúča portom podložky. Kotúče s otvorenou sieťkou vyžadujú kompatibilnú podložku a funkčný odsávací systém; kotúče PSA vyžadujú čistú plochu podložky."
+      },
+      "enquiry": {
+        "title": "Pripravte si dopyt",
+        "body": "Uveďte model podložky, počet otvorov, rozmer kotúča a zoznam zrnitosti, plus vaše usporiadanie odsávania prachu. Potvrďte správanie vzorky pred sériovou výrobou."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM štítky a balenie: čo pripraviť",
+      "intro": "Úplné zadanie udrží grafiku, štítky a kartóny na harmonograme.",
+      "start": {
+        "title": "Začnite požiadavkou",
+        "body": "Pripravte si logo a grafiku štítkov, cieľový formát balenia (vnútorné vrecká, kartóny), jazyk štítkov a pravidlá označovania cieľovej krajiny."
+      },
+      "compat": {
+        "title": "Potvrďte kompatibilitu",
+        "body": "Dostupnosť OEM, minimálne množstvá, požiadavky na grafiku a časové harmonogramy podliehajú hodnoteniu uskutočniteľnosti a potvrdením cenovej ponuky."
+      },
+      "enquiry": {
+        "title": "Pripravte si dopyt",
+        "body": "Pripojte grafiku, uveďte množstvá do balenia a značky na kartóne a stanovenie destinácie a časovania. Schválenie vzorky predchádza sériovej výrobe."
+      }
+    },
+    "gritStandards": {
+      "title": "Normy zrnitosti: FEPA, ANSI a čo znamená váš zoznam",
+      "intro": "Stupnice stupňovania nie sú premeniteľné — v každom dopyte uveďte normu.",
+      "start": {
+        "title": "Začnite požiadavkou",
+        "body": "FEPA (ISO 848) a staršia stupnica ANSI číslovali podobné rozmery odlišne; P120 a zrnitosť 120 nie sú vždy totožné. Uveďte normu, podľa ktorej nakupujete."
+      },
+      "compat": {
+        "title": "Potvrďte kompatibilitu",
+        "body": "Potvrďte normu stupňovania, typ brúsiva a dostupnosť podľa stupňa v cenovej ponuke. Nezmiešavajte stupnice v jednom zozname zrnitosti."
+      },
+      "enquiry": {
+        "title": "Pripravte si dopyt",
+        "body": "Uveďte normu (napr. FEPA P60–P800), množstvo podľa stupňa a destináciu. Pred objednávkou potvrďte konečný zoznam stupňov v cenovej ponuke."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Najbežnejšie brúsne zrno pre pásy a kotúče: pevné, dobre sa spracováva, vhodné pre kov, drev a všeobecné dokončovanie."
+    },
+    "ansi": {
+      "def": "Staršie číslovanie zrnitosti v Severnej Amerike. Zrná podobnej veľkosti sa od FEPA stupnice líšia — v každom dopyte uveďte normu."
+    },
+    "backing-cloth": {
+      "def": "Bavlnený/tekutý plát, ktorý nesie brúsne zrno v pásoch. Hmotnosť (napr. X-weight) určuje flexibilitu a nosnosť."
+    },
+    "backing-poly": {
+      "def": "Polybavlnený plát: vyváženie pevnosti a flexibility pre univerzálne pásy."
+    },
+    "belt": {
+      "def": "Súvislá slučka brúsneho zrna na plátnej podložke, používaná v pásových brúskach na brúsenie, dokončovanie a odstraňovanie drsien."
+    },
+    "blend": {
+      "def": "Vyhladenie zvaru tak, aby sa zlial s okolitým kovom — zvyčajne prvý prechod kotúčom typu flap alebo pásmi, potom jemnejšie zrnitosti."
+    },
+    "closed": {
+      "def": "Hustý rozvrh zrna s málo otvoreným priestorom; pás odoláva zanášaniu pri tvrdšej práci."
+    },
+    "debur": {
+      "def": "Odstránenie drsien a malých vyneľujúcich častí po krájaní, púlení a brúsení."
+    },
+    "dust": {
+      "def": "Odstraňovanie brúsneho prachu na predmete — cez porty podložky, kotúče s otvorenou sieťkou alebo lokálne odsávanie."
+    },
+    "flap": {
+      "def": "Kotúč z prekrývajúcich sa brúsnych lístkov, flexibilný, na brúsenie, zarovnávanie a dokončovanie na uholových brúskach."
+    },
+    "fepa": {
+      "def": "Stupnica stupňovania ISO 848 (FEPA) v P-označení (napr. P120). Predvolená stupnica vo väčšine európskeho a medzinárodného obchodu."
+    },
+    "grit": {
+      "def": "Nominálna veľkosť zrna brúsiva: vyššie čísla znamenajú jemnejšie zrno. Pásy 40–800; kotúče 60–5000."
+    },
+    "hookloop": {
+      "def": "Systém uchytenia háčik–slučka pre kotúče: kotúč sa pripichne na podložku s háčikovou stranou."
+    },
+    "mesh": {
+      "def": "Kotúče s otvorenou sieťkou majú výseky pre prechod prachu a vyžadujú kompatibilnú podložku a odsávanie."
+    },
+    "moq": {
+      "def": "Minimálna objednávka — prichádza spolu s ponukou, spolu s dostupnosťou a podmienkami."
+    },
+    "oem": {
+      "def": "Výroba OEM / vlastná značka (private label): naše produkty pod vašou značkou, štítkami a balením."
+    },
+    "psa": {
+      "def": "Lepná podložka citlivá na tlak (PSA): kotúč sa lepí priamo na kompatibilnú podložku."
+    },
+    "disc": {
+      "def": "Kruhové brúsivo ploché alebo typ flap, namontované na podložku na brúsenie a dokončovanie."
+    },
+    "sic": {
+      "def": "Zrno kremíkového karbidu: veľmi tvrdé a ostré, vhodné pre sklo, keramiku a neželezné kovy."
+    },
+    "prep": {
+      "def": "Príprava povrchu pre náter alebo dokončovanie: odstránenie hrdze, náteru alebo starého povrchu do jednotného profilu."
+    },
+    "wetdry": {
+      "def": "Stupne, ktoré zostávajú chladné a odolávajú zanášaniu pri mokrom alebo mokro–suchom používaní; vhodnosť potvrďte v cenovej ponuke."
+    },
+    "xweight": {
+      "def": "Stredne ťažká textilná podložka pre univerzálne pásy: pevná a zároveň flexibilná."
+    },
+    "zirconia": {
+      "def": "Zrno zirkónovej aluminia: pevné a agresívne pre brúsenie kovov, odstraňovanie drsien a dokončovanie oceľových dielov."
+    },
+    "pad": {
+      "def": "Podložná doska, na ktorej kotúč sedí: priemer podložky, povrch (háčiky) a usporiadanie portov musia zodpovedať kotúču."
+    }
+  },
+  "footer": {
+    "blurb": "Brúsny spotrebný materiál pre priemyselných kupcov, distribútorov a značky s vlastnou značkou.",
+    "products": "Produkty",
+    "explore": "Preskúmať MoTai",
+    "connect": "Spojte sa s nami",
+    "aboutUs": "O nás",
+    "mfgQ": "Výroba a kvalita",
+    "oemPl": "OEM a vlastná značka",
+    "newsB": "Novinky a blog",
+    "privacy": "Základné zásady ochrany súkromia",
+    "terms": "Podmienky použitia",
+    "contactUs": "Kontaktujte nás"
+  },
+  "tdk": {
+    "home": {
+      "title": "Výrobca a dodávateľ brúsnych materiálov a priemyselných brúsnych materiálov | MoTai",
+      "description": "Profesionálny výrobca brúsnych materiálov v Číne, dodávajúci brúsne pásy, brúsne kotúče a kotúče typu flap. Veľkoobchod priamo zo závodu, OEM prispôsobenie a priemyselné riešenia brúsnych materiálov pre globálnych distribútorov a kupcov.",
+      "keywords": "výrobca brúsnych materiálov, dodávateľ brúsnych materiálov, priemyselné brúsne materiály, brúsne pásy, brúsne kotúče, kotúče typu flap, výrobca brúsnych pásov, veľkoobchod brúsnych materiálov"
+    },
+    "about": {
+      "title": "O MoTai — Výrobca brúsnych materiálov a závod v Hubei, Čína",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. je výrobca potiahnutých brúsnych materiálov v Xianning, Hubei: brúsne pásy, brúsne kotúče a kotúče typu flap s OEM, prispôsobením rozmerov, hromadnou dodávkou a exportom.",
+      "keywords": "výrobca brúsnych materiálov Čína, dodávateľ brúsnych materiálov Čína, závod brúsnych materiálov, výrobca potiahnutých brúsnych materiálov, exportér brúsnych materiálov, B2B dodávateľ brúsnych materiálov"
+    },
+    "factory": {
+      "title": "Výroba a kontrola kvality brúsnych materiálov — MoTai závod v Hubei",
+      "description": "Uvnittri brúsnej dielne MoTai: prevádzkové a rezné práce, kontrola vzoriek, kontrola kvality a OEM balenie pre brúsne pásy, brúsne kotúče a kotúče typu flap.",
+      "keywords": "výroba brúsnych materiálov, kontrola kvality brúsnych materiálov v závodu, prevádzka brúsnych materiálov, OEM balenie brúsnych materiálov"
+    },
+    "oem": {
+      "title": "OEM výrobca a private label brúsnych materiálov | MoTai",
+      "description": "OEM a private label výroba brúsnych materiálov: vaše logo, štítky, rozmery a balenie na pásoch, kotúčoch a kotúčoch typu flap MoTai, kalkulované podľa vašej potvrdenej špecifikácie.",
+      "keywords": "OEM výrobca brúsnych materiálov, brúsne materiály pod vlastnou značkou, prispôsobené brúsne materiály, OEM dodávateľ brúsnych materiálov"
+    },
+    "applications": {
+      "title": "Priemyselné brúsne materiály podľa aplikácie — kov, drev, automobil a ďalšie",
+      "description": "Súpte brúsne pásy, brúsne kotúče a kotúče typu flap MoTai s aplikáciou: brúsenie kovov, brúsenie dreva, karosérie áut, dokončovanie nerezovky, stavba lodí a príprava povrchov.",
+      "keywords": "aplikácie brúsnych materiálov, brúsenie kovov, brúsenie dreva, príprava povrchov, priemyselná príprava povrchov"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Brúsne materiály pre kovové spracovanie — brúsenie a odstraňovanie drsien | MoTai",
+        "description": "Brúsne materiály pre kovové spracovanie: brúsenie kovov, odstraňovanie drsien a brúsenie zvarových švov pásmi, mriežkovými a flap kotúčmi MoTai.",
+        "keywords": "brúsne materiály pre kovové spracovanie, brúsenie kovov, odstraňovanie drsien kovov, brúsenie zvarových švov"
+      },
+      "woodworking": {
+        "title": "Brúsne materiály pre drevospracovanie a širokopásové brúsenie | MoTai",
+        "description": "Brúsne materiály pre drevospracovanie a nábytok: širokopásové brúsenie, brúsenie drevených dosiek a MDF brúsnymi pásmi a kotúčmi MoTai.",
+        "keywords": "brúsne materiály pre drevospracovanie, širokopásové brúsenie, brúsenie dreva, brúsenie nábytku"
+      },
+      "automotive": {
+        "title": "Brúsenie pri opravách áut — karoséria a náter | MoTai",
+        "description": "Brúsne materiály pre opravy áut: brúsenie karosérie áut, brúsenie automobilových lakov a podkladových náterov kotúčmi MoTai PSA a s háčik-slučkou.",
+        "keywords": "brúsne materiály pre automobilku, brúsenie karosérie áut, brúsenie automobilových lakov, brúsenie podkladových náterov"
+      },
+      "stainless-steel": {
+        "title": "Dokončovanie a leštenie nerezovej ocele, brúsne materiály | MoTai",
+        "description": "Brúsne materiály pre nerezovú oceľ: leštenie kovov, brúsenie a dokončovanie povrchov flap kotúčmi a pásmi MoTai.",
+        "keywords": "dokončovanie nerezovej ocele, leštenie kovov, brúsenie povrchov, brúsne materiály pre nerez"
+      },
+      "shipbuilding": {
+        "title": "Brúsne materiály pre stavbu lodí — oceľové plechy a odstraňovanie hrdze | MoTai",
+        "description": "Ťažšie brúsne materiály pre stavbu lodí: brúsenie oceľových plátov, odstraňovanie hrdze a priemyselná príprava povrchov pásmi a flap kotúčmi MoTai.",
+        "keywords": "brúsne materiály pre stavbu lodí, brúsenie oceľových plátov, odstraňovanie hrdze, ťažké brúsenie"
+      },
+      "surface-preparation": {
+        "title": "Priemyselná príprava povrchov a brúsenie, brúsne materiály | MoTai",
+        "description": "Priemyselné riešenia brúsnych materiálov pre prípravu povrchov, dokončovanie povrchov a ťažké brúsenie v pásov, kotúčov a kotúčov typu flap MoTai.",
+        "keywords": "príprava povrchov, dokončovanie povrchov, priemyselné brúsenie, brúsne riešenia"
+      }
+    },
+    "blog": {
+      "title": "Príručky pre kupcov brúsnych materiálov a normy zrnitosti | Znalosti MoTai",
+      "description": "Praktické zdroje pre kupujúceho brúsne materiály: výber podložky kotúča, zoznamy kontrolného dopytu na pásy, postupnosť zrnitosti, odsávanie prachu a normy zrnitosti (FEPA/ANSI).",
+      "keywords": "príručka pre kupujúceho brúsne materiály, výber zrnitosti, slovník brúsnych materiálov, normy zrnitosti FEPA ANSI"
+    },
+    "contact": {
+      "title": "Kontakt MoTai — dodávateľ brúsnych materiálov v Číne",
+      "description": "Kontaktujte dodávateľa brúsnych materiálov MoTai v Xianning, Hubei: telefón, e-mail a WhatsApp pre veľkoobchodné a OEM dopyty na brúsne materiály, plus návštevy závodu.",
+      "keywords": "kontakt dodávateľa brúsnych materiálov, veľkoobchodný dopyt na brúsne materiály, výrobca brúsnych materiálov Čína"
+    },
+    "privacy": {
+      "title": "Základné zásady ochrany súkromia",
+      "description": "Ako MoTai Abrasives využíva informácie z dopytov: zbieranie, účel, uloženie, vaše možnosti a spracovanie cookies.",
+      "keywords": "zásady ochrany súkromia, MoTai"
+    },
+    "terms": {
+      "title": "Podmienky použitia — MoTai Abrasives",
+      "description": "Podmienky pre tento B2B web brúsnych materiálov: spracovanie dopytov, cenníky založené na ponuke, duševné vlastníctvo a uplatniteľné právo.",
+      "keywords": [
+        "podmienky použitia",
+        "MoTai",
+        "B2B dodávateľ brúsnych materiálov"
+      ]
+    },
+    "quote": {
+      "title": "Vyžiadať veľkoobchodnú cenovú ponuku brúsnych materiálov | MoTai",
+      "description": "Pripravte si veľkoobchodný alebo OEM dopyt na brúsne materiály: firemné údaje plus produkt, rozmer, zrnitosť, množstvo a destinácia. Hromadné dodávky brúsnych materiálov s kalkuláciou priamo zo závodu.",
+      "keywords": "veľkoobchodná cenová ponuka brúsnych materiálov, hromadné dodávky brúsnych materiálov, OEM dopyt na brúsne materiály, veľkoobchod brúsnych materiálov"
+    },
+    "clients": {
+      "title": "Exportér brúsnych produktov — Globálna dodávka z Hubei, Čína | MoTai",
+      "description": "MoTai exportuje brúsne pásy, brúsne kotúče a kotúče typu flap do siedmich cieľových oblastí: Európa, Ameriky, Stredný východ, Afrika, Oceánia a Ázia.",
+      "keywords": "exportér brúsnych produktov, export brúsnych materiálov, globálna dodávka brúsnych materiálov, priemyselný dodávateľ brúsnych materiálov"
+    },
+    "glossary": {
+      "title": "Slovník brúsnych materiálov — zrnitosť, podložka, pojmy kotúčov",
+      "description": "24 vysvetlených pojmov brúsnych materiálov: zrnitosť FEPA, podložky, háčik-slučka, PSA, otvorená sieťka, odstraňovanie drsien a ďalšie.",
+      "keywords": "slovník brúsnych materiálov, normy zrnitosti, pojmy brúsnych materiálov"
+    },
+    "product": {
+      "title": "MoTai {name} — Veľkoobchod a OEM brúsne materiály",
+      "description": "MoTai {name} ({material}, {category}): {desc} Rozmery: {sizes}. Zrnitosti: {grits}. Veľkoobchod priamo zo závodu a OEM dodávka.",
+      "keywords": "{name}, výrobca {category}, {material} brúsny materiál, veľkoobchod brúsnych materiálov, OEM brúsne materiály"
+    },
+    "model": {
+      "title": "{model} brúsny pás — MoTai",
+      "description": "Referenčný model brúsneho pásu {model} z radu MoTai — šírka, dĺžka, zrnitosť a podložka sa dohodnú s cenovou ponukou. Veľkoobchod a OEM dodávka.",
+      "keywords": "{model} brúsny pás, referenčný model brúsneho pásu, veľkoobchod brúsnych pásov"
+    },
+    "disc": {
+      "title": "MoTai {title} — Veľkoobchod a OEM",
+      "description": "Varianta kotúča MoTai {title}: rozsah zrnitosti, priemer a uchytenie sa dohodnú s cenovou ponukou. Veľkoobchod priamo zo závodu a OEM.",
+      "keywords": "brúsny kotúč, kotúč s háčik-slučkou, PSA kotúč, mriežkový kotúč, brúsne kotúče veľkoobchod"
+    },
+    "flap": {
+      "title": "MoTai {name} — Výrobca kotúčov typu flap",
+      "description": "MoTai {name}: brúsny kotúč typu flap s podložkou {backing} na brúsenie, zarovnávanie a dokončovanie kovov. Veľkoobchod a OEM dodávka.",
+      "keywords": "kotúč typu flap, flap kotúč s podložkou {backing}, flap kotúč zo zirkónia, výrobca kotúčov typu flap, veľkoobchod kotúčov typu flap"
+    },
+    "colt": {
+      "belts": {
+        "title": "Výrobca a veľkoobchodný dodávateľ brúsnych pásov | MoTai",
+        "description": "Široké a priemyselné brúsne pásy 533×75 až 2200×1330 mm, zrnitosti 40–800, s oxidom hliníka, zirkónom a kremíkovým karbidom — s referenčnými modelmi GXK-51, XZ-330, GPC71 a ďalšími. Veľkoobchod priamo zo závodu a OEM.",
+        "keywords": "brúsne pásy, brúsne pásy pre brúsenie, priemyselné brúsne pásy, široké brúsne pásy, širokopásové brúsenie, brúsne pásy na drevárstvo, brúsne pásy na kov, brúsne pásy z oxidu hliníka, brúsne pásy zo zirkónia, brúsne pásy z kremíkového karbidu, výrobca brúsnych pásov, dodávateľ brúsnych pásov, veľkoobchod brúsnych pásov, brúsny pás GXK-51, brúsny pás XZ-330, brúsny pás GPC71, brúsny pás Y399, brúsny pás Y999, brúsny pás 533x75, brúsny pás 610x100, brúsny pás 1520x630, brúsny pás 2200x1330"
+      },
+      "discs": {
+        "title": "Výrobca brúsnych kotúčov — PSA, háčik-slučka a mriežka | MoTai",
+        "description": "Kotúče s háčik-slučkou, PSA, s mriežkou a bez otvorov od 3 do 6 palcov, zrnitosti 60–5000, pre karosérie áut, drev a dokončovanie kovov. Veľkoobchod priamo zo závodu a OEM.",
+        "keywords": "brúsne kotúče, brúsne kotúče pre brúsenie, brúsne kotúče s háčik-slučkou, PSA brúsne kotúče, mriežkové brúsne kotúče, netkané brúsne kotúče, bezprašné brúsne kotúče, dierované brúsne kotúče, kotúče s otvormi, brúsne kotúče 5 palcov, brúsne kotúče 6 palcov, výrobca brúsnych kotúčov, veľkoobchod brúsnych kotúčov"
+      },
+      "flap": {
+        "title": "Výrobca kotúčov typu flap — zirkón a oxid hliníka | MoTai",
+        "description": "Brúsne kotúče typu flap MoTai s podložkou z plastu, ocele a sklolahviny, so zirkónom a oxidom hliníka, na brúsenie, odstraňovanie drsien a dokončovanie kovov. Veľkoobchod a OEM dodávka.",
+        "keywords": "kotúče typu flap, brúsne kotúče typu flap, flap kotúče zo zirkónia, flap kotúče z oxidu hliníka, flap kotúče s podložkou zo sklolahviny, flap kotúče s plastovou podložkou, flap kotúče s oceľovou podložkou, flap kotúče 100mm, flap kotúče 115mm, flap kotúče 125mm, flap kotúče 150mm, flap kotúče 180mm, výrobca flap kotúčov, dodávateľ flap kotúčov, veľkoobchod flap kotúčov"
+      },
+      "all": {
+        "title": "Veľkoobchod brúsnych produktov — pásy, kotúče a flap kotúče | MoTai",
+        "description": "Kompletný katalóg brúsnych materiálov MoTai: priemyselné brúsne pásy, brúsne kotúče a kotúče typu flap pre distribútorov, importérov, veľkoobchodníkov a OEM značky. Veľkoobchod priamo zo závodu, prispôsobenie a export z Hubei v Číne.",
+        "keywords": "brúsne produkty, veľkoobchod brúsnych produktov, priemyselné brúsne materiály, potiahnuté brúsne materiály, veľkoobchod brúsnych materiálov, továreň brúsnych produktov, exportér brúsnych produktov, dodávateľ brúsnych materiálov Čína, OEM výrobca brúsnych materiálov, brúsne materiály pod vlastnou značkou, prispôsobené brúsne materiály, hromadné dodávky brúsnych materiálov, závod brúsnych materiálov, brúsne nástroje, brúsne materiály, produkty na brúsenie, produkty na dokončovanie povrchov, brúsny papier, brúsne listy, kruhový brúsny papier, veľkoobchod brúsneho papiera, podložka na brúsenie, brúsna podložka s háčik-slučkou, 5-palcová podložka na brúsenie, 6-palcová podložka na brúsenie, netkaný flap kotúč, brúsne plátno, priemyselná valcová kefa"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Rýchly kontakt",
+    "whatsapp": "WhatsApp",
+    "quote": "Vyžiadať cenovú ponuku"
+  }
+}

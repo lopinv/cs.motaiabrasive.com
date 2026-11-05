@@ -1,0 +1,880 @@
+{
+  "code": "cs",
+  "name": "Čeština",
+  "codeLabel": "CS",
+  "htmlLang": "cs",
+  "ogLocale": "cs_CZ",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Velkoobchodní dotazy",
+    "oemNote": "Dotazy k OEM obalování",
+    "size": "Velikost",
+    "grit": "Odrizivost (gradace)",
+    "quantity": "Požadované množství",
+    "requirements": "Specifikace a požadavky na balení",
+    "requirementsPh": "Popište své použití, specifikace a požadavky na dodání.",
+    "material": "Brsné materiály",
+    "backing": "Podklad / upevnění",
+    "availability": "Dostupnost, minimální množství objednávky a obchodní podmínky se potvrzují v nabídce.",
+    "sampleNote": "Řekněte nám, které produkty a gradace chcete vyhodnotit. Naše prodejní tým potvrdí dostupnost vzorků, poplatky a uspořádání dopravy.",
+    "gritsRange": "Rozsah gradací",
+    "holes": "Díry",
+    "diameter": "Průměr / nominální velikost",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Jazyk",
+    "home": "Úvod",
+    "about": "O nás",
+    "manufacturing": "Výroba",
+    "oem": "OEM služby",
+    "news": "Zprávy",
+    "knowledge": "Vědění",
+    "contact": "Kontaktujte nás",
+    "products": "Produkty"
+  },
+  "colt": {
+    "belts": {
+      "title": "Brsné pásky — Velkoobchod a OEM",
+      "desc": "Červené brsné pásky v zdokumentovaných velikostech od 533 × 75 mm do 2200 × 1330 mm. Gradace 40–800. Dostupné referenční modely. Velkoobchodní a OEM dotazy vítány.",
+      "label": "Brsné pásky"
+    },
+    "discs": {
+      "title": "Brsné kotvy — Velkoobchod a OEM",
+      "desc": "Kotvy PSA, hook & loop, síťové a bezdírové brsné kotvy od 3 do 6 palce. Gradace 60–5000. Velkoobchodní a OEM dotazy vítány.",
+      "label": "Brsné kotvy"
+    },
+    "flap": {
+      "title": "Brsné plechovky MoTai",
+      "desc": "Brsné plechovky s plastovým, ocelovým a skelným podkladem pro broušení, hladké a dokončování kovů. Potvrďte specifikace, hromadnou dodávku a OEM obalování v nabídce.",
+      "label": "Brsné plechovky"
+    },
+    "all": {
+      "title": "Všechny produkty",
+      "desc": "Úplný katalog brsných materiálů MoTai: brsné pásky, kotvy a plechovky pro průmyslové kupce, distributory a vlastní značky.",
+      "label": "Všechny produkty"
+    }
+  },
+  "cta": {
+    "quote": "Vyžádat velkoobchodní nabídku",
+    "quoteArrow": "↗",
+    "sample": "Vyžádat vzorek",
+    "whatsapp": "Dotaz přes WhatsApp",
+    "waChat": "Kontakt přes WhatsApp",
+    "explore": "Podívat se na sortiment brusných kotvů",
+    "viewAll": "Zobrazit všechny produkty",
+    "discuss": "Proberete svou specifikaci",
+    "oemQuote": "Vyžádat OEM nabídku"
+  },
+  "home": {
+    "eyebrow": "Brsné materiály z továrny MoTai v Hubei",
+    "heroTitle": "Profesionální výrobce a dodavatel brsných materiálů",
+    "heroSub": "Brsné pásky, brsné kotvy a brsné plechovky přímo z továrny pro průmyslové kupce, distributory a vlastní značky — z Hubei, Čína na Vaše trhy.",
+    "cta1": "Vyžádat velkoobchodní nabídku",
+    "cta2": "Domluvte se s naším týmem přes WhatsApp",
+    "builtTitle": "Pick the application. Match the abrasive.",
+    "builtSub": "Choose the application, then match the abrasive: belts, discs or flap discs.",
+    "featuredTitle": "In the catalogue",
+    "featuredSub": "Sizes and grits are documented in the catalogue; MOQ and availability come with the offer.",
+    "partnerTitle": "The supply side of your abrasive order",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications — with OEM and private-label programmes for distributors and industrial buyers worldwide.",
+    "partnerCta": "Learn about MoTai",
+    "valuesTitle": "Six ways B2B buyers work with us",
+    "valuesSub": "Six reasons importers and OEM brands work with us.",
+    "v1t": "Factory Direct",
+    "v1b": "Supplier-side pricing and lead times, without middlemen.",
+    "v2t": "OEM & Private Label",
+    "v2b": "Your logo, labels and packaging on confirmed specifications.",
+    "v3t": "Custom Sizes & Grits",
+    "v3b": "Documented sizes and grits 40–800 on belts, 60–5000 on discs.",
+    "v4t": "Sample Checks & QC",
+    "v4b": "Review surface, backing and fit on a sample before the order.",
+    "v5t": "Bulk Supply",
+    "v5b": "Consistent carton quantities and packing list detail.",
+    "v6t": "Export Programme",
+    "v6b": "Carton marks, labels and destination documentation.",
+    "processTitle": "The steps between your spec and the order",
+    "processSub": "Four stages between your requirement and a confirmed order.",
+    "p1t": "Cutting & converting",
+    "p1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
+    "p2t": "Sample checks",
+    "p2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
+    "p3t": "OEM & packing",
+    "p3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
+    "p4t": "Shipment preparation",
+    "p4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
+    "oemTitle": "Your name on the carton",
+    "oemSub": "Share the product, packaging and brand requirements for your next abrasive range.",
+    "oemCta": "Explore OEM services",
+    "faqTitle": "Before we start",
+    "faqSub": "Answers to the questions buyers ask most.",
+    "regionsTitle": "From Hubei to your market",
+    "regionsSub": "Global supply organised by destination region.",
+    "regionsNote": "MOQ and lead time are confirmed in your quotation. Routes are indicative; availability and terms are confirmed by quotation.",
+    "factoryTitle": "Find us in Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit and confirm the meeting point with our team.",
+    "finalTitle": "Looking for a reliable abrasive supplier?",
+    "finalBody": "Share your product, quantity and application — we'll review your requirements and prepare a matched quotation.",
+    "finalCta1": "Request a Wholesale Quote",
+    "finalCta2": "Contact via WhatsApp",
+    "beltsShowTitle": "Abrasive belts, by model",
+    "beltsShowSub": "Reference models for discussion with our team.",
+    "prepTitle": "Prepare your wholesale enquiry",
+    "prepSub": "Dimensions, grit and quantity do the rest of the work.",
+    "prepDim": "Dimensions",
+    "prepDimText": "Size or model reference in millimetres.",
+    "prepGrit": "Grit",
+    "prepGritText": "Grade or finish required.",
+    "prepQty": "Quantity",
+    "prepQtyText": "Estimated volume and packaging."
+  },
+  "purchasing": {
+    "eyebrow1": "Purchasing guidance",
+    "title1": "Prepare your wholesale enquiry",
+    "body1": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options above where available; other requirements will be reviewed with our team.",
+    "dl1t": "Quantity & destination",
+    "dl1b": "Tell us the quantity, packaging needs and delivery destination.",
+    "dl2t": "Supply & terms",
+    "dl2b": "Availability, minimum order quantity and commercial terms are subject to confirmation in the quotation.",
+    "dl3t": "OEM packaging enquiries",
+    "dl3b": "Branding, labels, custom size or packing requirements.",
+    "eyebrow2": "How to enquire",
+    "title2": "From product selection to quotation",
+    "s1t": "Select your product",
+    "s1b": "Choose the product or model and the required specification.",
+    "s2t": "Share your requirements",
+    "s2b": "Share quantity, application and packaging requirements.",
+    "s3t": "Review your quotation",
+    "s3b": "Confirm the final specification and commercial terms with our team."
+  },
+  "modelPage": {
+    "eyebrow": "Abrasive belts · Reference model",
+    "refLabel": "Model reference",
+    "familyLabel": "Category",
+    "dimsLabel": "Finished belt dimensions — specify width × length in mm",
+    "dimsPlaceholder": "e.g. 533 × 75 mm",
+    "gritLabel": "Required grit — specify the grade or finish required",
+    "gritPlaceholder": "e.g. P60",
+    "qtyLabel": "Requested quantity",
+    "specLabel": "Specification and packaging requirements",
+    "discussion": "Discuss this model with our team using your workpiece, machine and required finish.",
+    "grainBacking": "Grain and backing — confirm the raw-material manufacturer and exact grade.",
+    "disclaimer": "Model-family details are for selection reference; MoTai supply specs, availability and fit are settled with your quotation."
+  },
+  "discPage": {
+    "eyebrow": "Sanding discs · Documented variant",
+    "gritsNote": "Grit options for this variant"
+  },
+  "flapPage": {
+    "eyebrow": "Flap discs · Backing variant",
+    "color": "Color",
+    "gritNote": "P40–P60 and P80–P120 are general selection examples, not a confirmed MoTai supply range."
+  },
+  "productPage": {
+    "specTitle": "Specifications",
+    "howTitle": "How to specify your order",
+    "howBody": "Include the belt or disc size, grit list, machine model, workpiece material and quantity. A clear specification helps us review fit and prepare a useful quotation — avoid selecting a product using colour alone.",
+    "faqTitle": "Buyer questions"
+  },
+  "about": {
+    "h1": "The company behind the abrasive range",
+    "sub": "A considered approach to abrasive supply.",
+    "bizTitle": "Our business",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications. Documented ranges include non-hole sanding discs, mesh sanding discs and red abrasive belts. We accept enquiries from importers, distributors, wholesalers and industrial buyers — product, backing, size, grade, quantity and delivery requirements.",
+    "matTitle": "Company materials",
+    "matBody": "Explore the company background and contacts in our brochure.",
+    "globalTitle": "From Hubei to your market",
+    "globalSub": "Global supply organised by destination region.",
+    "facTitle": "Find us in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit with our team and confirm the meeting point before travelling.",
+    "profileName": "At a glance",
+    "profileBody": "Coated abrasives manufacturer in Xianning, Hubei: three product lines supplied to seven destination regions, with grit coverage from 40 to 5000.",
+    "ctaTitle": "Looking for a reliable abrasive supplier?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "factory": {
+    "h1": "Inside the MoTai workshop",
+    "sub": "Details matter. At every stage.",
+    "intro": "Review the cutting, sample checks and packing details for your order. Product footage is shown alongside process illustrations.",
+    "videoLabel": "View product footage",
+    "stepsTitle": "Manufacturing & order preparation",
+    "stepsIntro": "From your requirement to a confirmed order.",
+    "st1t": "Cutting & converting",
+    "st1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
+    "st2t": "Sample checks",
+    "st2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
+    "st3t": "OEM & packing",
+    "st3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
+    "st4t": "Shipment preparation",
+    "st4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
+    "imgNote": "Cutting and sample images are extracted from the supplied product videos. Packing and shipment images are illustrative stock photographs.",
+    "qcTitle": "Quality checkpoints",
+    "qcIntro": "What we verify before an order leaves the factory floor.",
+    "qc1t": "Surface & grit",
+    "qc1b": "Abrasive surface consistency against the confirmed grade.",
+    "qc2t": "Backing & fit",
+    "qc2b": "Backing type, weight and dimensional tolerance of finished belts and discs.",
+    "qc3t": "Packing & marks",
+    "qc3b": "Pack quantities, labels, carton marks and private-label artwork match the confirmed order.",
+    "certNote": "Certification marks shown are placeholders pending published certificates.",
+    "ctaTitle": "Prefer to talk it through?",
+    "ctaSub": "Looking for a reliable abrasive supplier?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "oem": {
+    "h1": "Your name on the carton",
+    "sub": "Send your product, packaging and brand requirements; we'll come back with an OEM feasibility check.",
+    "briefTitle": "Build an enquiry around your brand",
+    "briefEyebrow": "Bring your brief",
+    "briefBody": "Discuss your logo and label artwork, packaging format, product sizes, grit grades and intended use. OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation.",
+    "itemsTitle": "A clear brief gets a useful response",
+    "i1": "Product & specification",
+    "i2": "Size & grit mix",
+    "i3": "Artwork & labels",
+    "i4": "Packaging format",
+    "i5": "Target quantities",
+    "i6": "Destination & timing",
+    "itemNote": "Include your requirements and reference files in the enquiry.",
+    "procTitle": "From enquiry to supply",
+    "pr1t": "Your enquiry",
+    "pr1b": "Tell us your application and requirements.",
+    "pr2t": "Spec check",
+    "pr2b": "Review sizes, grades, backing and packaging.",
+    "pr3t": "Offer",
+    "pr3b": "Confirm commercial terms and schedule.",
+    "pr4t": "Sample sign-off",
+    "pr4b": "Evaluate agreed samples before approval.",
+    "pr5t": "Run",
+    "pr5b": "Proceed against the confirmed specification.",
+    "pr6t": "Dispatch",
+    "pr6b": "Coordinate packing and destination.",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrasives for your industry",
+    "sub": "The surface sets the specification.",
+    "intro": "Six application fields. Specify the material, machine and required finish — we'll match the abrasive.",
+    "ctaNote": "Some images are AI-generated application illustrations, not MoTai factory or customer photographs.",
+    "sampleNote": "Tell us your industry, country, product specification and estimated order volume when requesting a quote.",
+    "reqTitle": "Recommended products",
+    "reqNote": "Indicative product families for this field. Confirm sizes, grits and quantities with the quotation.",
+    "specTitle": "Specification tips",
+    "faqTitle": "Frequently asked",
+    "faqs": [
+      {
+        "q": "Which grit should I start with?",
+        "a": "Start from the workpiece material, defect depth and required finish — a coarse grade removes material fast, then step down in grits and check the surface at each stage."
+      },
+      {
+        "q": "Can I mix grits in one order?",
+        "a": "Yes — list the grits and quantity per grade; availability and lead time come back with the offer."
+      }
+    ],
+    "ctaTitle": "Specifying for your field?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Better information. Better selection.",
+    "sub": "Practical buyer resources for discussing abrasive specifications.",
+    "updatedLabel": "Updated",
+    "governance": "Guides are written and reviewed by the MoTai Abrasives technical team and re-reviewed when product specifications change."
+  },
+  "article": {
+    "watchTitle": "Watch",
+    "discuss": "Discuss Your Specification",
+    "catSelection": "Selection guide",
+    "catBuyer": "Buyer resources",
+    "catNotes": "Application notes",
+    "catOem": "OEM guide",
+    "reviewedBy": "Reviewed by the MoTai Abrasives technical team",
+    "lastReviewed": "Last reviewed {date}",
+    "tocTitle": "On this page"
+  },
+  "contact": {
+    "h1": "Start a wholesale conversation",
+    "sub": "Get factory-direct wholesale prices for abrasive products.",
+    "directTitle": "A conversation. A better specification.",
+    "directBody": "Share your product, quantity and application. We'll review your requirements and help you take the next step.",
+    "facTitle": "Find us in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Confirm the exact visit address with our team before travelling.",
+    "visit": "Arrange a factory visit",
+    "formTitle": "Wholesale / OEM enquiry",
+    "formNote": "This form requests an offer and does not place an order. Enquiries go to our sales inbox; specs and commercial terms are settled with the offer.",
+    "btn": "Open the enquiry form ↗"
+  },
+  "privacy": {
+    "h1": "Your enquiry information",
+    "sub": "How this website uses the details you choose to share.",
+    "s1t": "Information collected",
+    "s1b": "Contact details, company information, product requirements and attachments submitted with an enquiry. A hashed connection identifier limits abusive submissions.",
+    "s2t": "Purpose and access",
+    "s2b": "Details are used to review and respond to enquiries, prepare quotations and coordinate requested commercial discussions. Access is limited to authorised administrators.",
+    "s3t": "Storage and retention",
+    "s3b": "Records are held with our hosting provider. Data may be processed outside your country. Retention follows business follow-up and record-keeping obligations; you may request specific retention or deletion.",
+    "s4t": "Your choices",
+    "s4b": "Contact motai-01@motaiabrasive.com to request access, correction or deletion. Please do not submit sensitive personal data or confidential files unrelated to your enquiry.",
+    "s5t": "Cookies, links and analytics",
+    "s5b": "The browser stores enquiry-list management data. This site uses Google Analytics (gtag.js) for anonymised usage statistics; Google sets a cookie and processes data under its data-processing terms — you can opt out at https://support.google.com/analytics/answer/3452785. External WhatsApp, map and social links are governed by their own privacy policies.",
+    "updated": "Last updated 4 November 2026"
+  },
+  "terms": {
+    "h1": "Terms of Use",
+    "sub": "The conditions that apply when you use this site and send MoTai an enquiry.",
+    "s1t": "Use of this site",
+    "s1b": "This site is a B2B information and enquiry service operated by Hubei MoTai Abrasives Materials Co., Ltd. Content — product specifications, guides, glossary and blog — is provided in good faith for general information. Using the site means you accept these terms; if you do not, do not submit an enquiry.",
+    "s2t": "Enquiries are not offers",
+    "s2b": "An enquiry-form submission is an invitation to negotiate, not a binding order. MoTai is not obliged to respond to every enquiry, and no purchase is committed until a quotation is confirmed in writing by both parties.",
+    "s3t": "Quotations and pricing",
+    "s3b": "All prices are quote-based. Quotations list sizes, grits, packaging, trade terms and validity periods; final figures are settled at the confirmed specification and are subject to raw-material and freight movement.",
+    "s4t": "Intellectual property",
+    "s4b": "Site content, product descriptions, graphics and the MoTai brand are the property of MoTai Abrasives and may not be reproduced commercially. Third-party references (e.g. model sources) are for buyer orientation only and do not imply endorsement.",
+    "s5t": "Liability and governing law",
+    "s5b": "MoTai is not liable for decisions made in reliance on general information in this site. These terms are governed by the laws of the People's Republic of China; disputes are settled under the sales contract between the parties.",
+    "updated": "Last updated 3 November 2026"
+  },
+  "quotePage": {
+    "h1": "Start a wholesale conversation",
+    "sub": "Get factory-direct wholesale prices for abrasive products.",
+    "note": "This form requests a quotation and does not place an order. Fields marked * are required.",
+    "sec1": "Your business",
+    "f1": "Full name *",
+    "f2": "Company name *",
+    "f3": "Country *",
+    "f4": "Business email *",
+    "f5": "WhatsApp number",
+    "f6": "Business type *",
+    "opt1": "Importer",
+    "opt2": "Distributor",
+    "opt3": "Wholesaler",
+    "opt4": "OEM brand",
+    "opt5": "Industrial buyer",
+    "opt6": "Other",
+    "sec2": "Product requirements",
+    "f7": "Product category",
+    "f8": "Product model / reference",
+    "f9": "Size",
+    "f10": "Grit size",
+    "f11": "Material",
+    "f12": "Quantity",
+    "f13": "Packaging",
+    "f14": "Destination country *",
+    "f15": "OEM requirements",
+    "f16": "Additional message *",
+    "consent": "I agree to the Privacy Policy, the Terms of Use, and the use of my details to respond to this enquiry. *",
+    "btn1": "Request a Wholesale Quote",
+    "btn2": "Send enquiry via WhatsApp",
+    "goNote": "The form opens in our wholesale enquiry system with your product context pre-filled."
+  },
+  "clients": {
+    "h1": "Where MoTai shipments go",
+    "sub": "From Hubei to seven destination regions.",
+    "note": "Customer logos and testimonials below are placeholder slots — replace src/data/trust.json with published materials.",
+    "placeholderBadge": "Illustrative placeholder",
+    "statsTitle": "Supply at a glance",
+    "statsNote": "Certifications shown are placeholders pending published certificates."
+  },
+  "glossary": {
+    "h1": "Abrasives glossary",
+    "sub": "The terms behind every belt, disc and flap specification.",
+    "note": "Standard industry definitions for abrasive consumables; grade and backing details for an order are settled with the quotation.",
+    "reviewNote": "Terms are reviewed by the MoTai Abrasives technical team — last reviewed 3 November 2026."
+  },
+  "trust": {
+    "regions": "Destination regions",
+    "productLines": "Product lines",
+    "gritRange": "Grit coverage"
+  },
+  "video": {
+    "title": "Watch",
+    "cutting": {
+      "title": "Cutting & converting footage",
+      "desc": "Supplied product footage: abrasive sheet cutting and converting."
+    },
+    "sample": {
+      "title": "Sample checks footage",
+      "desc": "Supplied product footage: surface, backing and fit checks on a sample."
+    },
+    "oem": {
+      "title": "OEM packing footage",
+      "desc": "Pack quantities, labels, carton marks and private-label artwork."
+    },
+    "flap": {
+      "title": "Flap disc range footage",
+      "desc": "Plastic, steel and fiberglass backing flap discs in use."
+    }
+  },
+  "wa": {
+    "generic": "Dobrý den MoTai, chci velkoobchodní nabídku na brsné materiály.",
+    "product": "Dobrý den MoTai, chci velkoobchodní nabídku na {name} ({grits}).",
+    "model": "Dobrý den MoTai, chci velkoobchodní nabídku na brsný pás modelu {model}.",
+    "disc": "Dobrý den MoTai, chci velkoobchodní nabídku na {title}.",
+    "sample": "Dobrý den MoTai, prosím o vzorek {name} k vyhodnocení.",
+    "factory": "Dobrý den MoTai, chci s Vaším týmem probrat podrobnosti výroby a kvality.",
+    "oem": "Dobrý den MoTai, chci probrat OEM / program brsných materiálů pod vlastní značkou.",
+    "contact": "Dobrý den MoTai, chci s Vaším týmem připravit další objednávku brsných materiálů."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Open chat",
+    "close": "Close",
+    "title": "MoTai — Live chat",
+    "status": "We reply on WhatsApp, usually within 24 hours.",
+    "greeting": "Hi! How can we help with your abrasive order? — MoTai sales team",
+    "placeholder": "Type your message…",
+    "send": "Send via WhatsApp",
+    "note": "This preview has no live server: sending opens WhatsApp with your message pre-filled. Replies continue in the WhatsApp conversation."
+  },
+  "location": {
+    "imgAlt": "MoTai factory building in Xianning, Hubei",
+    "imgCaption": "MoTai factory — Xianning, Hubei, China",
+    "mapTitle": "MoTai factory location on Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Before we start",
+    "moq": {
+      "q": "What is the minimum order quantity?",
+      "a": "MOQ comes back with the offer, alongside availability and terms."
+    },
+    "oem": {
+      "q": "Do you support OEM and private label?",
+      "a": "Yes. Logo, labels, custom sizes and packing are checked for feasibility, then confirmed with your offer."
+    },
+    "sizes": {
+      "q": "Which sizes and grits do you supply?",
+      "a": "Belts in documented sizes from 533 × 75 to 2200 × 1330 mm (grits 40–800); discs 3–6 inch (grits 60–5000). Custom requirements are reviewed with our team."
+    },
+    "samples": {
+      "q": "Can I get a sample first?",
+      "a": "Yes. Request a sample, and our sales team will confirm availability, charges and shipping arrangements."
+    },
+    "lead": {
+      "q": "What are the lead times?",
+      "a": "Lead time depends on specification and quantity, and is confirmed in your quotation."
+    },
+    "packaging": {
+      "q": "How are products packed?",
+      "a": "Pack quantities, labels, carton marks and private-label artwork are confirmed with the quotation."
+    },
+    "payment": {
+      "q": "Which payment terms do you offer?",
+      "a": "Payment terms are part of the confirmed quotation and commercial discussion."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Which specifications should I provide?",
+      "a": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options where available; other requirements will be reviewed with our team."
+    },
+    "oem": {
+      "q": "How do I request OEM packaging?",
+      "a": "Include your branding and packaging requirements in the enquiry. Details will be reviewed and confirmed with your quotation."
+    },
+    "order": {
+      "q": "Does requesting a quote place an order?",
+      "a": "No. The form starts a wholesale enquiry. Product specifications, availability and commercial terms are confirmed before an order is agreed."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europe",
+      "body": "Note size, grit, backing and product files; provide destination port and label language."
+    },
+    "na": {
+      "title": "North America",
+      "body": "State inch or metric sizing, attachment type and pack quantities; destination ZIP or port and transport mode."
+    },
+    "sa": {
+      "title": "South America",
+      "body": "Size, mixed-grit quantities and carton label language; destination port and importer documents."
+    },
+    "me": {
+      "title": "Middle East",
+      "body": "Material, grit and moisture-safe packaging; destination port and quotation terms."
+    },
+    "africa": {
+      "title": "Africa",
+      "body": "Machine compatibility, required sizes and pack quantities; destination port, carton marks and transport preference."
+    },
+    "oceania": {
+      "title": "Oceania",
+      "body": "Size, backing, packaging and destination ZIP or port; import and packing requirements."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Machine specification, grit range and order mix; delivery city or port and local-language labels."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metal Fabrication",
+      "intro": "Weld blending, deburring and metal surface preparation.",
+      "uses": "Weld blending · Deburring · Surface preparation",
+      "products": "Abrasive belts"
+    },
+    "wood": {
+      "title": "Woodworking & Furniture",
+      "intro": "Panels, furniture manufacturing and pre-lacquer surface preparation.",
+      "uses": "Panels · Furniture · Pre-lacquer prep",
+      "products": "Abrasive belts · Sanding discs"
+    },
+    "auto": {
+      "title": "Automotive Repair",
+      "intro": "Body-filler sanding, pre-spray preparation and automotive refinishing.",
+      "uses": "Body filler · Pre-spray · Refinishing",
+      "products": "Sanding discs"
+    },
+    "stainless": {
+      "title": "Stainless Steel Finishing",
+      "intro": "Hairline finishes, surface transitions and stainless steel fabrication.",
+      "uses": "Hairline · Transitions · Fabrication",
+      "products": "Abrasive belts"
+    },
+    "ship": {
+      "title": "Shipbuilding & Repair",
+      "intro": "Metal grinding, rust removal and marine maintenance surface preparation.",
+      "uses": "Grinding · Rust removal · Marine prep",
+      "products": "Abrasive belts"
+    },
+    "surface": {
+      "title": "Industrial Surface Preparation",
+      "intro": "Industrial surface treatment and maintenance work.",
+      "uses": "Surface treatment · Maintenance",
+      "products": "Sanding discs"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop or PSA: choose the right backing",
+      "intro": "The attachment system is as important as the grit. Match it to the pad before you order.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Hook & loop discs mount onto a compatible hook-faced pad and suit operations where grit is changed often. PSA discs rely on pressure-sensitive adhesive and need a clean, flat pad. The two systems are not interchangeable."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Confirm pad diameter, backing type and dust-extraction layout. A non-hole disc does not connect to a hole-based extraction pattern, and open-mesh discs need a compatible pad and extraction system."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Include disc diameter, backing, grit list, quantity per grit and workpiece material. Ask for a sample evaluation before approving a production order."
+      }
+    },
+    "beltChecklist": {
+      "title": "What to include in an abrasive belt enquiry",
+      "intro": "A clear specification helps your supplier review fit and prepare a useful quotation.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Give the belt length and width in millimetres. Name the machine model — a machine specification sheet or a photo of an old belt label helps."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Add workpiece material, preferred abrasive, grit, backing requirement and joint requirements. Avoid selecting a product using belt colour alone."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "List quantities by size and grit, packaging preferences, destination and the required delivery date. The final quotation confirms specification, availability, payment terms and transport arrangements."
+      }
+    },
+    "gritSequence": {
+      "title": "Planning a grit sequence for surface preparation",
+      "intro": "Start with the workpiece and required finish, then evaluate a sequence on a sample.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Coarse grits remove material quickly and leave deep scratches; fine grits refine the surface. The starting point depends on the substrate, defect depth and removal requirement."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Step down grits in order and inspect the workpiece at each stage. Skipping grits leaves scratches that are hard to remove, and cleaning between stages avoids coarse-grit contamination."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Grit numbering is not interchangeable between grading systems. Confirm the grading standard, abrasive type and availability in the quotation, and follow machine and abrasive safety instructions."
+      }
+    },
+    "dustCollection": {
+      "title": "Dust collection & pad compatibility, explained",
+      "intro": "Hole patterns, open-mesh discs and backer pads must match your extraction setup.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Identify your pad: number of holes, diameter and whether it is used with dust extraction. Non-hole discs and open-mesh discs behave differently from multi-hole discs."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Match disc hole layout to pad ports. Open-mesh discs need a compatible pad and a working extraction system; PSA discs need a clean pad face."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "List pad model, hole count, disc size and grit list, plus your dust-extraction arrangement. Confirm sample behaviour before a production order."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM labels & packaging: what to prepare",
+      "intro": "A complete brief keeps artwork, labels and cartons on schedule.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Prepare your logo and label artwork, target pack format (inner bags, cartons), label language and destination-country labelling rules."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Attach artwork, specify pack quantities and carton marks, and state destination and timing. Sample approval comes before production."
+      }
+    },
+    "gritStandards": {
+      "title": "Grit standards: FEPA, ANSI and what your list means",
+      "intro": "Grading systems are not interchangeable — name the standard in every enquiry.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "FEPA (ISO 848) and the older ANSI scale number similar sizes differently; a P120 and a 120-grit are not always the same. Name the standard you buy to."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Confirm grading standard, abrasive type and availability per grade in the quotation. Do not mix grading systems in one grit list."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "State the standard (e.g. FEPA P60–P800), quantity per grade and destination. Confirm the final grade list with the quotation before ordering."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "The most common abrasive grain for belts and discs: tough, workable, suited to metal, wood and general finishing."
+    },
+    "ansi": {
+      "def": "Legacy North American grit numbering. Similar-size grains differ from the FEPA scale — name the standard in every enquiry."
+    },
+    "backing-cloth": {
+      "def": "A cotton/cloth web that carries the abrasive grain on belts. Weight (e.g. X-weight) sets flexibility and load capacity."
+    },
+    "backing-poly": {
+      "def": "Poly-cotton web backing: a balance of strength and flexibility for general-purpose belts."
+    },
+    "belt": {
+      "def": "A continuous loop of abrasive grain on a web backing, used on belt machines for grinding, finishing and deburring."
+    },
+    "blend": {
+      "def": "Smoothing a weld so it blends into the surrounding metal — typically a first pass on a flap disc or belt, then finer grits."
+    },
+    "closed": {
+      "def": "A close-coated grain layout with little open space; the belt resists clogging on harder work."
+    },
+    "debur": {
+      "def": "Removing burrs and small protrusions left by cutting, sawing or grinding."
+    },
+    "dust": {
+      "def": "Removing abrasive dust at the workpiece — via pad ports, open-mesh discs or local extraction."
+    },
+    "flap": {
+      "def": "A disc of overlapping abrasive flaps, flexible, for grinding, blending and finishing on angle grinders."
+    },
+    "fepa": {
+      "def": "The ISO 848 (FEPA) grading scale in P-notation (e.g. P120). The default scale in most European and international trade."
+    },
+    "grit": {
+      "def": "The nominal grain size of an abrasive: higher numbers are finer. Belts 40–800; discs 60–5000."
+    },
+    "hookloop": {
+      "def": "The hook-and-loop attachment system for discs: the disc snaps onto a hook-faced pad."
+    },
+    "mesh": {
+      "def": "Open-mesh discs have cut-out windows for dust to pass through, needing a compatible pad and extraction."
+    },
+    "moq": {
+      "def": "Minimum order quantity — comes with the offer, alongside availability and terms."
+    },
+    "oem": {
+      "def": "Original equipment manufacturing / private label: our products under your brand, labels and packaging."
+    },
+    "psa": {
+      "def": "Pressure-sensitive adhesive backing: the disc sticks directly onto a compatible pad."
+    },
+    "disc": {
+      "def": "A flat or flapped abrasive circle mounted on a pad for sanding and finishing."
+    },
+    "sic": {
+      "def": "Silicon carbide grain: very hard, sharp, suited to glass, ceramics and non-ferrous metals."
+    },
+    "prep": {
+      "def": "Getting a surface ready for coating or finishing: removing rust, filler or old finish to a consistent profile."
+    },
+    "wetdry": {
+      "def": "Grades that stay cool and clog-resistant in wet or wet/dry use; confirm suitability with the quotation."
+    },
+    "xweight": {
+      "def": "A mid-weight cloth backing for general-purpose belts: strong yet flexible."
+    },
+    "zirconia": {
+      "def": "Zirconia alumina grain: tough and aggressive for metal grinding, deburring and finishing on steel."
+    },
+    "pad": {
+      "def": "The backing plate a disc sits on: pad diameter, face (hook) and port layout must match the disc."
+    }
+  },
+  "footer": {
+    "blurb": "Brsno pro průmyslové kupce, distributory a vlastní značky.",
+    "products": "Produkty",
+    "explore": "Prozkoumat MoTai",
+    "connect": "Spojte se s námi",
+    "aboutUs": "O nás",
+    "mfgQ": "Výroba a kvalita",
+    "oemPl": "OEM a vlastní značka",
+    "newsB": "Zprávy a blog",
+    "privacy": "Zásady ochrany soukromí",
+    "terms": "Podmínky použití",
+    "contactUs": "Kontaktujte nás"
+  },
+  "tdk": {
+    "home": {
+      "title": "Výrobce a dodavatel průmyslových brsných materiálů | MoTai",
+      "description": "Profesionální výrobce brsných materiálů v Číně dodávající brsné pásky, kotvy a plechovky. Velkoobchod přímo z továrny, OEM přizpůsobení a průmyslová řešení pro globální distributory a kupce.",
+      "keywords": "výrobce brsných materiálů, dodavatel brsných materiálů, průmyslové brsné materiály, brsné pásky, brsné kotvy, brsné plechovky, výrobce brsných pásů, velkoobchod brsných materiálů"
+    },
+    "about": {
+      "title": "O MoTai — výrobce a továrna brsných materiálů v Hubei, Čína",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. je výrobce povlakovaných brsných materiálů v Xianning, Hubei: brsné pásky, kotvy a plechovky s OEM, přizpůsobením velikostí, hromadnou dodávkou a exportem.",
+      "keywords": "výrobce brsných materiálů Čína, dodavatel brsných materiálů Čína, továrna brsných materiálů, výrobce povlakovaných brsných materiálů, exportér brsných materiálů, B2B dodavatel brsných materiálů"
+    },
+    "factory": {
+      "title": "Výroba a kontrola kvality brsných materiálů — továrna MoTai v Hubei",
+      "description": "Uvnitř brsné dílny MoTai: konverzní a řezání, vzorkové zkoušky, kontrola kvality a OEM obalování brsných pásů, kotvů a plechovek.",
+      "keywords": "výroba brsných materiálů, kontrola kvality továrny brsných materiálů, konverzní brsných materiálů, OEM obalování brsných materiálů"
+    },
+    "oem": {
+      "title": "Výrobce brsných materiálů OEM a vlastní značka | MoTai",
+      "description": "Výroba brsných materiálů OEM a pod vlastní značkou: Váš logotyp, štítky, velikosti a obalování na brsných pásech, kotvách a plechovkách MoTai, odhadnuté podle Vaše potvrzené specifikace.",
+      "keywords": "výrobce brsných materiálů OEM, brsné materiály pod vlastní značkou, přizpůsobené brsné materiály, dodavatel brsných materiálů OEM"
+    },
+    "applications": {
+      "title": "Průmyslové brsné materiály dle použití — kov, dřevo, automobilový a další",
+      "description": "Skladejte brsné pásky, kotvy a plechovky MoTai s Vaším použitím: broušení kovu, broušení dřeva, karoserie, hotové kovalné nerezové, lodní stavba a příprava povrchu.",
+      "keywords": "použití brsných materiálů, broušení kovu, broušení dřeva, příprava povrchu, průmyslová příprava povrchu"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Brsné materiály pro kovové zpracování — broušení a opělování | MoTai",
+        "description": "Brsné materiály pro kovové zpracování: broušení kovu, opělování a broušení svařovacích švů brsnými pásy, sítky a plechovky MoTai.",
+        "keywords": "brsné materiály pro kovové zpracování, broušení kovu, opělování kovu, broušení svařovacích švů"
+      },
+      "woodworking": {
+        "title": "Brsné materiály pro dřevo a široké pásovou broušení | MoTai",
+        "description": "Brsné materiály pro dřevařské a nábytkářské: široké pásovou broušení, dřevo a MDF broušení brsnými pásy a kotvami MoTai.",
+        "keywords": "brsné materiály pro dřevo, široké pásovou broušení, broušení dřeva, broušení nábytku"
+      },
+      "automotive": {
+        "title": "Broušení nápravy automobilů — karoserie a barvy | MoTai",
+        "description": "Brsné materiály pro nápravu automobilů: broušení karoserie, barvy a podkladu brsnými kotvami PSA a hook & loop MoTai.",
+        "keywords": "brsné materiály pro automobily, broušení karoserie, broušení barvy, broušení podkladu"
+      },
+      "stainless-steel": {
+        "title": "Brsné materiály pro hotové a polirování nerezové kovali | MoTai",
+        "description": "Brsné materiály pro nerezovou kov: polirování kovu, broušení povrchu a hotové broušení plechovými kotvami a pásy MoTai.",
+        "keywords": "hotové nerezové kovali, polirování kovu, broušení povrchu, brsné materiály pro nerez"
+      },
+      "shipbuilding": {
+        "title": "Brsné materiály pro lodní stavbu — kovové plechy a odstranění kůry | MoTai",
+        "description": "Těžké brsné materiály pro lodní stavbu: broušení kovových plechů, odstranění kůry a průmyslová příprava povrchu brsnými pásy a plechovky MoTai.",
+        "keywords": "brsné materiály pro lodní stavbu, broušení kovových plechů, odstranění kůry, těžké broušení"
+      },
+      "surface-preparation": {
+        "title": "Brsné materiály pro průmyslovou přípravu a broušení povrchu | MoTai",
+        "description": "Průmyslová řešení brsných materiálů pro přípravu povrchu, hotové broušení a těžké broušení v pásech, kotvách a plechovkách MoTai.",
+        "keywords": "příprava povrchu, hotové broušení, průmyslové broušení, brsné materiály řešení"
+      }
+    },
+    "blog": {
+      "title": "Průvodce pro kupce brsných materiálů a standardy gradací | MoTai vědění",
+      "description": "Praktické zdroje pro kupce brsných materiálů: volba podkladu kotvy, kontrolní seznam brsných pásů, sekvence gradace, odsávání a standardy gradace (FEPA/ANSI).",
+      "keywords": "průvodce pro kupce brsných materiálů, volba gradace, slovník brsných materiálů, standardy gradace FEPA ANSI"
+    },
+    "contact": {
+      "title": "Kontaktujte MoTai — dodavatel brsných materiálů v Číně",
+      "description": "Kontaktujte dodavatele brsných materiálů MoTai v Xianning, Hubei: telefon, e-mail a WhatsApp pro velkoobchodní a OEM dotazy a návštevu továrny.",
+      "keywords": "kontakt dodavatele brsných materiálů, velkoobchodní dotazy na brsné materiály, výrobce brsných materiálů v Číně"
+    },
+    "privacy": {
+      "title": "Zásady ochrany soukromí",
+      "description": "Jak MoTai Abrasives používá údaje z dotazu: sběr, účel, úlož, Váše volby a zpracování cookies.",
+      "keywords": "zásady ochrany soukromí, MoTai"
+    },
+    "terms": {
+      "title": "Podmínky použití — MoTai Abrasives",
+      "description": "Podmínky pro tento B2B web brsných materiálů: zpracování dotazů, odhadová cena, duševní vlastníctví a právní úprava.",
+      "keywords": [
+        "podmínky použití",
+        "MoTai",
+        "B2B dodavatel brsných materiálů"
+      ]
+    },
+    "quote": {
+      "title": "Vyžádat velkoobchodní nabídku na brsné materiály | MoTai",
+      "description": "Připravte velkoobchodní nebo OEM dotaz na brsné materiály: obchodní údaje plus produkt, velikost, gradace, množství a místo určení. Hromadná dodávka odhadnuta přímo z továrny.",
+      "keywords": "velkoobchodní nabídku na brsné materiály, hromadná dodávka brsných materiálů, OEM dotazy na brsné materiály, velkoobchod brsných materiálů"
+    },
+    "clients": {
+      "title": "Exportér brsných produktů — globální dodávka z Hubei, Čína | MoTai",
+      "description": "MoTai exportuje brsné pásky, kotvy a plechovky do sedmi destinací: Evropa, Ameriky, Střední východ, Afrika, Okeánie a Asie.",
+      "keywords": "exportér brsných produktů, export brsných materiálů, globální dodávka brsných materiálů, průmyslový dodavatel brsných materiálů"
+    },
+    "glossary": {
+      "title": "Slovník brsných materiálů — gradace, podklad, kotvy terminy",
+      "description": "24 definovaných pojmů brsných materiálů: FEPA gradace, podklady, hook & loop, PSA, síťové, opělování a další.",
+      "keywords": "slovník brsných materiálů, standardy gradace, pojmy brsných materiálů"
+    },
+    "product": {
+      "title": "MoTai {name} — Velkoobchod a OEM brsné materiály",
+      "description": "MoTai {name} ({material}, {category}): {desc} Velikosti: {sizes}. Gradace: {grits}. Velkoobchod přímo z továrny a OEM dodávka.",
+      "keywords": "{name}, výrobce {category}, brsné materiály {material}, velkoobchod brsných materiálů, brsné materiály OEM"
+    },
+    "model": {
+      "title": "{model} brsný pás — MoTai",
+      "description": "Referenční brsný pás {model} z řady MoTai — šířka, délka, gradace a podklad se určí v nabídce. Velkoobchod a OEM dodávka.",
+      "keywords": "{model} brsný pás, referenční brsný pás, velkoobchod brsných pásů"
+    },
+    "disc": {
+      "title": "MoTai {title} — Velkoobchod a OEM",
+      "description": "MoTai kotva {title}: rozsah gradace, průměr a upevnění se určí v nabídce. Velkoobchod přímo z továrny a OEM.",
+      "keywords": "brsná kotva, hook and loop kotva, PSA kotva, síťová kotva, brsné kotvy velkoobchod"
+    },
+    "flap": {
+      "title": "MoTai {name} — Výrobce brsných plechovek",
+      "description": "MoTai {name}: brsná plechovka s podkladem {backing} pro broušení, hladké a hotové broušení kovu. Velkoobchod a OEM dodávka.",
+      "keywords": "brsná plechovka, brsná plechovka s podkladem {backing}, zirkonová plechovka, výrobce brsných plechovek, brsné plechovky velkoobchod"
+    },
+    "colt": {
+      "belts": {
+        "title": "Výrobce a velkoobchodní dodavatel brsných pásů | MoTai",
+        "description": "Široké a průmyslové brsné pásky 533×75 až 2200×1330 mm, gradace 40–800, v křemíku, cirkoniu a křemičitém karbidu — s referenčními modely GXK-51, XZ-330, GPC71 a dalším. Velkoobchod přímo z továrny a OEM.",
+        "keywords": "brsné pásky, pásovou broušení, průmyslové pásovou broušení, široké brsné pásky, široké pásovou broušení, dřevoplastové pásovou broušení, kovové pásovou broušení, pásky z křemíku, pásky z cirkoniu, pásky z křemičitého karbidu, výrobce brsných pásů, dodavatel brsných pásů, velkoobchod brsných pásů, brsný pás GXK-51, brsný pás XZ-330, brsný pás GPC71, brsný pás Y399, brsný pás Y999, brsný pás 533x75, brsný pás 610x100, brsný pás 1520x630, brsný pás 2200x1330"
+      },
+      "discs": {
+        "title": "Výrobce brsných kotvů — PSA, hook & loop a síto | MoTai",
+        "description": "Kotvy hook & loop, PSA, síto a bezdírové brsné kotvy od 3 do 6 palce, gradace 60–5000, pro karoserie, dřevo a hotové broušení kovů. Velkoobchod přímo z továrny a OEM.",
+        "keywords": "brsné kotvy, brsné pásovou broušení, brsné kotvy hook and loop, brsné kotvy PSA, brsné síto kotvy, ne-tekutelné brsné kotvy, suché brsné kotvy, perforované brsné kotvy, kotvy s dírami, brsné kotvy 5 palce, brsné kotvy 6 palce, výrobce brsných kotvů, velkoobchod brsných kotvů"
+      },
+      "flap": {
+        "title": "Výrobce brsných plechovek — cirkon a křemík | MoTai",
+        "description": "Brsné plechovky MoTai s plastovým, kovovým a skelným podkladem, z cirkoniu a křemíku, pro broušení, opělování a hotové broušení kovů. Velkoobchod a OEM dodávka.",
+        "keywords": "brsné plechovky, brsné plechovky, cirkonové plechovky, plechovky z křemíku, plechovky s podkladem ze skla, plechovky s plastovým podkladem, plechovky s kovovým podkladem, plechovky 100mm, plechovky 115mm, plechovky 125mm, plechovky 150mm, plechovky 180mm, výrobce brsných plechovek, dodavatel brsných plechovek, velkoobchod brsných plechovek"
+      },
+      "all": {
+        "title": "Brsné produkty velkoobchodně — pásky, kotvy a plechovky | MoTai",
+        "description": "Úplný katalog brsných materiálů MoTai: průmyslové brsné pásky, kotvy a plechovky pro distributory, importéry, obchodníky a OEM značky. Velkoobchod přímo z továrny, přizpůsobení a export z Hubei, Čína.",
+        "keywords": "brsné materiály, brsné materiály velkoobchodně, průmyslové brsné materiály, povlakované brsné materiály, brsné materiály velkoobchodně, továrna brsných produktů, exportér brsných produktů, dodavatel brsných materiálů Čína, výrobce brsných materiálů OEM, brsné materiály pod vlastní značkou, přizpůsobené brsné materiály, hromadná dodávka brsných materiálů, továrna brsných materiálů, brsné nářadí, brsné látky, produkty na broušení, produkty na hotové broušení, brusný papír, listy brusného papíru, kruhový brusný papír, brusný papír velkoobchodně, brsný podložka, hook and loop brsný podložka, brsný podložka 5 palce, brsný podložka 6 palce, ne-tekutelný brsný kužel, brsné textilie, průmyslový válečkový štětec"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Rychlý kontakt",
+    "whatsapp": "WhatsApp",
+    "quote": "Vyžádat nabídku"
+  }
+}

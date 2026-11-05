@@ -1,0 +1,880 @@
+{
+  "code": "fi",
+  "name": "Suomi",
+  "codeLabel": "FI",
+  "htmlLang": "fi",
+  "ogLocale": "fi_FI",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Tukkuhankintakyselyt",
+    "oemNote": "OEM-pakkauksen kyselyt",
+    "size": "Koko",
+    "grit": "Hiontarake",
+    "quantity": "Pyydetty määrä",
+    "requirements": "Määrittelyn ja pakkauksen vaatimukset",
+    "requirementsPh": "Kerro sovelluksesta, määrittäyksestä ja toimitusvaatimuksista.",
+    "material": "Hiomamateriaali",
+    "backing": "Alusta / kiinnitys",
+    "availability": "Saatavuus, vähimmäistilaus ja kaupalliset ehdot vahvistetaan tarjouksessa.",
+    "sampleNote": "Kerro, mitä tuotteita ja hiontarakeita haluat arvioida. Myyntitiimimme vahvistaa näytteen saatavuuden, kustannukset ja toimituksen.",
+    "gritsRange": "Hiontarakkojen taso",
+    "holes": "Reiät",
+    "diameter": "Halkaisija / nimelliskoko",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Kieli",
+    "home": "Etusivu",
+    "about": "Meistä",
+    "manufacturing": "Tuotanto",
+    "oem": "OEM-palvelut",
+    "news": "Uutiset",
+    "knowledge": "Tietopankki",
+    "contact": "Yhteystiedot",
+    "products": "Tuotteet"
+  },
+  "colt": {
+    "belts": {
+      "title": "Hiontalankat — Tukku & OEM",
+      "desc": "Punaiset hiontalankat dokumentoiduissa mitoissa 533 × 75 mm – 2200 × 1330 mm. Hiontarake 40–800. Viitemallit saatavilla. Tervetuloa tukku- ja OEM-kysely.",
+      "label": "Hiontalankat"
+    },
+    "discs": {
+      "title": "Hiontapaperit — Tukku & OEM",
+      "desc": "PSA-, napapihakke-, avomesh- ja reettömät hiontapaperit 3–6 tuumaa. Hiontarake 60–5000. Tervetuloa tukku- ja OEM-kysely.",
+      "label": "Hiontapaperit"
+    },
+    "flap": {
+      "title": "MoTai hiontapalat",
+      "desc": "Hiontapalat muovialustalla, teräs- ja lasikuidualustalla metallin hiontaan, siirtoon ja viimeistelyyn. Vahvista määrittely, tukku ja OEM-pakkaus tarjouksessa.",
+      "label": "Hiontapalat"
+    },
+    "all": {
+      "title": "Kaikki tuotteet",
+      "desc": "MoTain koko hiomatarpeiden katalogi: hiontalankat, hiontapaperit ja hiontapalat teollisuuskäyttäjille, jakelijoille ja oman merkin brändeille.",
+      "label": "Kaikki tuotteet"
+    }
+  },
+  "cta": {
+    "quote": "Pyydä tukkuhinta",
+    "quoteArrow": "↗",
+    "sample": "Pyydä näyte",
+    "whatsapp": "WhatsApp-kysely",
+    "waChat": "Yhteys WhatsAppin kautta",
+    "explore": "Katso hiomapalan valikoima",
+    "viewAll": "Näytä kaikki tuotteet",
+    "discuss": "Keskustele määrittäsestäsi",
+    "oemQuote": "Pyydä OEM-hinta"
+  },
+  "home": {
+    "eyebrow": "Hiomatarpeita MoTain tehtaalta Hubeissa",
+    "heroTitle": "Ammatillinen hiomamateriaalien valmistaja ja toimittaja",
+    "heroSub": "Hiontalankat, hiontapaperit ja hiontapalat suoraan tehdaselta teollisuuskäyttäjille, jakelijoille ja oman merkin brändeille — Hubeista, Kiinasta markkinallesi.",
+    "cta1": "Pyydä tukkuhinta",
+    "cta2": "Puhuta tiimiimme WhatsAppissa",
+    "builtTitle": "Pick the application. Match the abrasive.",
+    "builtSub": "Choose the application, then match the abrasive: belts, discs or flap discs.",
+    "featuredTitle": "In the catalogue",
+    "featuredSub": "Sizes and grits are documented in the catalogue; MOQ and availability come with the offer.",
+    "partnerTitle": "The supply side of your abrasive order",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications — with OEM and private-label programmes for distributors and industrial buyers worldwide.",
+    "partnerCta": "Learn about MoTai",
+    "valuesTitle": "Six ways B2B buyers work with us",
+    "valuesSub": "Six reasons importers and OEM brands work with us.",
+    "v1t": "Factory Direct",
+    "v1b": "Supplier-side pricing and lead times, without middlemen.",
+    "v2t": "OEM & Private Label",
+    "v2b": "Your logo, labels and packaging on confirmed specifications.",
+    "v3t": "Custom Sizes & Grits",
+    "v3b": "Documented sizes and grits 40–800 on belts, 60–5000 on discs.",
+    "v4t": "Sample Checks & QC",
+    "v4b": "Review surface, backing and fit on a sample before the order.",
+    "v5t": "Bulk Supply",
+    "v5b": "Consistent carton quantities and packing list detail.",
+    "v6t": "Export Programme",
+    "v6b": "Carton marks, labels and destination documentation.",
+    "processTitle": "The steps between your spec and the order",
+    "processSub": "Four stages between your requirement and a confirmed order.",
+    "p1t": "Cutting & converting",
+    "p1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
+    "p2t": "Sample checks",
+    "p2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
+    "p3t": "OEM & packing",
+    "p3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
+    "p4t": "Shipment preparation",
+    "p4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
+    "oemTitle": "Your name on the carton",
+    "oemSub": "Share the product, packaging and brand requirements for your next abrasive range.",
+    "oemCta": "Explore OEM services",
+    "faqTitle": "Before we start",
+    "faqSub": "Answers to the questions buyers ask most.",
+    "regionsTitle": "From Hubei to your market",
+    "regionsSub": "Global supply organised by destination region.",
+    "regionsNote": "MOQ and lead time are confirmed in your quotation. Routes are indicative; availability and terms are confirmed by quotation.",
+    "factoryTitle": "Find us in Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit and confirm the meeting point with our team.",
+    "finalTitle": "Looking for a reliable abrasive supplier?",
+    "finalBody": "Share your product, quantity and application — we'll review your requirements and prepare a matched quotation.",
+    "finalCta1": "Request a Wholesale Quote",
+    "finalCta2": "Contact via WhatsApp",
+    "beltsShowTitle": "Abrasive belts, by model",
+    "beltsShowSub": "Reference models for discussion with our team.",
+    "prepTitle": "Prepare your wholesale enquiry",
+    "prepSub": "Dimensions, grit and quantity do the rest of the work.",
+    "prepDim": "Dimensions",
+    "prepDimText": "Size or model reference in millimetres.",
+    "prepGrit": "Grit",
+    "prepGritText": "Grade or finish required.",
+    "prepQty": "Quantity",
+    "prepQtyText": "Estimated volume and packaging."
+  },
+  "purchasing": {
+    "eyebrow1": "Purchasing guidance",
+    "title1": "Prepare your wholesale enquiry",
+    "body1": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options above where available; other requirements will be reviewed with our team.",
+    "dl1t": "Quantity & destination",
+    "dl1b": "Tell us the quantity, packaging needs and delivery destination.",
+    "dl2t": "Supply & terms",
+    "dl2b": "Availability, minimum order quantity and commercial terms are subject to confirmation in the quotation.",
+    "dl3t": "OEM packaging enquiries",
+    "dl3b": "Branding, labels, custom size or packing requirements.",
+    "eyebrow2": "How to enquire",
+    "title2": "From product selection to quotation",
+    "s1t": "Select your product",
+    "s1b": "Choose the product or model and the required specification.",
+    "s2t": "Share your requirements",
+    "s2b": "Share quantity, application and packaging requirements.",
+    "s3t": "Review your quotation",
+    "s3b": "Confirm the final specification and commercial terms with our team."
+  },
+  "modelPage": {
+    "eyebrow": "Abrasive belts · Reference model",
+    "refLabel": "Model reference",
+    "familyLabel": "Category",
+    "dimsLabel": "Finished belt dimensions — specify width × length in mm",
+    "dimsPlaceholder": "e.g. 533 × 75 mm",
+    "gritLabel": "Required grit — specify the grade or finish required",
+    "gritPlaceholder": "e.g. P60",
+    "qtyLabel": "Requested quantity",
+    "specLabel": "Specification and packaging requirements",
+    "discussion": "Discuss this model with our team using your workpiece, machine and required finish.",
+    "grainBacking": "Grain and backing — confirm the raw-material manufacturer and exact grade.",
+    "disclaimer": "Model-family details are for selection reference; MoTai supply specs, availability and fit are settled with your quotation."
+  },
+  "discPage": {
+    "eyebrow": "Sanding discs · Documented variant",
+    "gritsNote": "Grit options for this variant"
+  },
+  "flapPage": {
+    "eyebrow": "Flap discs · Backing variant",
+    "color": "Color",
+    "gritNote": "P40–P60 and P80–P120 are general selection examples, not a confirmed MoTai supply range."
+  },
+  "productPage": {
+    "specTitle": "Specifications",
+    "howTitle": "How to specify your order",
+    "howBody": "Include the belt or disc size, grit list, machine model, workpiece material and quantity. A clear specification helps us review fit and prepare a useful quotation — avoid selecting a product using colour alone.",
+    "faqTitle": "Buyer questions"
+  },
+  "about": {
+    "h1": "The company behind the abrasive range",
+    "sub": "A considered approach to abrasive supply.",
+    "bizTitle": "Our business",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. supplies abrasive consumables for woodworking, metalworking and automotive applications. Documented ranges include non-hole sanding discs, mesh sanding discs and red abrasive belts. We accept enquiries from importers, distributors, wholesalers and industrial buyers — product, backing, size, grade, quantity and delivery requirements.",
+    "matTitle": "Company materials",
+    "matBody": "Explore the company background and contacts in our brochure.",
+    "globalTitle": "From Hubei to your market",
+    "globalSub": "Global supply organised by destination region.",
+    "facTitle": "Find us in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Arrange a factory visit with our team and confirm the meeting point before travelling.",
+    "profileName": "At a glance",
+    "profileBody": "Coated abrasives manufacturer in Xianning, Hubei: three product lines supplied to seven destination regions, with grit coverage from 40 to 5000.",
+    "ctaTitle": "Looking for a reliable abrasive supplier?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "factory": {
+    "h1": "Inside the MoTai workshop",
+    "sub": "Details matter. At every stage.",
+    "intro": "Review the cutting, sample checks and packing details for your order. Product footage is shown alongside process illustrations.",
+    "videoLabel": "View product footage",
+    "stepsTitle": "Manufacturing & order preparation",
+    "stepsIntro": "From your requirement to a confirmed order.",
+    "st1t": "Cutting & converting",
+    "st1b": "Confirm the required shape, dimensions and grit before arranging the converting process.",
+    "st2t": "Sample checks",
+    "st2b": "Review the abrasive surface, backing and fit of a sample before agreeing the order specification.",
+    "st3t": "OEM & packing",
+    "st3b": "Confirm pack quantities, labels, carton marks and private-label artwork with the quotation.",
+    "st4t": "Shipment preparation",
+    "st4b": "Agree the packing list, pallet requirements and destination details before dispatch.",
+    "imgNote": "Cutting and sample images are extracted from the supplied product videos. Packing and shipment images are illustrative stock photographs.",
+    "qcTitle": "Quality checkpoints",
+    "qcIntro": "What we verify before an order leaves the factory floor.",
+    "qc1t": "Surface & grit",
+    "qc1b": "Abrasive surface consistency against the confirmed grade.",
+    "qc2t": "Backing & fit",
+    "qc2b": "Backing type, weight and dimensional tolerance of finished belts and discs.",
+    "qc3t": "Packing & marks",
+    "qc3b": "Pack quantities, labels, carton marks and private-label artwork match the confirmed order.",
+    "certNote": "Certification marks shown are placeholders pending published certificates.",
+    "ctaTitle": "Prefer to talk it through?",
+    "ctaSub": "Looking for a reliable abrasive supplier?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "oem": {
+    "h1": "Your name on the carton",
+    "sub": "Send your product, packaging and brand requirements; we'll come back with an OEM feasibility check.",
+    "briefTitle": "Build an enquiry around your brand",
+    "briefEyebrow": "Bring your brief",
+    "briefBody": "Discuss your logo and label artwork, packaging format, product sizes, grit grades and intended use. OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation.",
+    "itemsTitle": "A clear brief gets a useful response",
+    "i1": "Product & specification",
+    "i2": "Size & grit mix",
+    "i3": "Artwork & labels",
+    "i4": "Packaging format",
+    "i5": "Target quantities",
+    "i6": "Destination & timing",
+    "itemNote": "Include your requirements and reference files in the enquiry.",
+    "procTitle": "From enquiry to supply",
+    "pr1t": "Your enquiry",
+    "pr1b": "Tell us your application and requirements.",
+    "pr2t": "Spec check",
+    "pr2b": "Review sizes, grades, backing and packaging.",
+    "pr3t": "Offer",
+    "pr3b": "Confirm commercial terms and schedule.",
+    "pr4t": "Sample sign-off",
+    "pr4b": "Evaluate agreed samples before approval.",
+    "pr5t": "Run",
+    "pr5b": "Proceed against the confirmed specification.",
+    "pr6t": "Dispatch",
+    "pr6b": "Coordinate packing and destination.",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrasives for your industry",
+    "sub": "The surface sets the specification.",
+    "intro": "Six application fields. Specify the material, machine and required finish — we'll match the abrasive.",
+    "ctaNote": "Some images are AI-generated application illustrations, not MoTai factory or customer photographs.",
+    "sampleNote": "Tell us your industry, country, product specification and estimated order volume when requesting a quote.",
+    "reqTitle": "Recommended products",
+    "reqNote": "Indicative product families for this field. Confirm sizes, grits and quantities with the quotation.",
+    "specTitle": "Specification tips",
+    "faqTitle": "Frequently asked",
+    "faqs": [
+      {
+        "q": "Which grit should I start with?",
+        "a": "Start from the workpiece material, defect depth and required finish — a coarse grade removes material fast, then step down in grits and check the surface at each stage."
+      },
+      {
+        "q": "Can I mix grits in one order?",
+        "a": "Yes — list the grits and quantity per grade; availability and lead time come back with the offer."
+      }
+    ],
+    "ctaTitle": "Specifying for your field?",
+    "cta1": "Request a Wholesale Quote",
+    "cta2": "Contact via WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Better information. Better selection.",
+    "sub": "Practical buyer resources for discussing abrasive specifications.",
+    "updatedLabel": "Updated",
+    "governance": "Guides are written and reviewed by the MoTai Abrasives technical team and re-reviewed when product specifications change."
+  },
+  "article": {
+    "watchTitle": "Watch",
+    "discuss": "Discuss Your Specification",
+    "catSelection": "Selection guide",
+    "catBuyer": "Buyer resources",
+    "catNotes": "Application notes",
+    "catOem": "OEM guide",
+    "reviewedBy": "Reviewed by the MoTai Abrasives technical team",
+    "lastReviewed": "Last reviewed {date}",
+    "tocTitle": "On this page"
+  },
+  "contact": {
+    "h1": "Start a wholesale conversation",
+    "sub": "Get factory-direct wholesale prices for abrasive products.",
+    "directTitle": "A conversation. A better specification.",
+    "directBody": "Share your product, quantity and application. We'll review your requirements and help you take the next step.",
+    "facTitle": "Find us in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Confirm the exact visit address with our team before travelling.",
+    "visit": "Arrange a factory visit",
+    "formTitle": "Wholesale / OEM enquiry",
+    "formNote": "This form requests an offer and does not place an order. Enquiries go to our sales inbox; specs and commercial terms are settled with the offer.",
+    "btn": "Open the enquiry form ↗"
+  },
+  "privacy": {
+    "h1": "Your enquiry information",
+    "sub": "How this website uses the details you choose to share.",
+    "s1t": "Information collected",
+    "s1b": "Contact details, company information, product requirements and attachments submitted with an enquiry. A hashed connection identifier limits abusive submissions.",
+    "s2t": "Purpose and access",
+    "s2b": "Details are used to review and respond to enquiries, prepare quotations and coordinate requested commercial discussions. Access is limited to authorised administrators.",
+    "s3t": "Storage and retention",
+    "s3b": "Records are held with our hosting provider. Data may be processed outside your country. Retention follows business follow-up and record-keeping obligations; you may request specific retention or deletion.",
+    "s4t": "Your choices",
+    "s4b": "Contact motai-01@motaiabrasive.com to request access, correction or deletion. Please do not submit sensitive personal data or confidential files unrelated to your enquiry.",
+    "s5t": "Cookies, links and analytics",
+    "s5b": "The browser stores enquiry-list management data. This site uses Google Analytics (gtag.js) for anonymised usage statistics; Google sets a cookie and processes data under its data-processing terms — you can opt out at https://support.google.com/analytics/answer/3452785. External WhatsApp, map and social links are governed by their own privacy policies.",
+    "updated": "Last updated 4 November 2026"
+  },
+  "terms": {
+    "h1": "Terms of Use",
+    "sub": "The conditions that apply when you use this site and send MoTai an enquiry.",
+    "s1t": "Use of this site",
+    "s1b": "This site is a B2B information and enquiry service operated by Hubei MoTai Abrasives Materials Co., Ltd. Content — product specifications, guides, glossary and blog — is provided in good faith for general information. Using the site means you accept these terms; if you do not, do not submit an enquiry.",
+    "s2t": "Enquiries are not offers",
+    "s2b": "An enquiry-form submission is an invitation to negotiate, not a binding order. MoTai is not obliged to respond to every enquiry, and no purchase is committed until a quotation is confirmed in writing by both parties.",
+    "s3t": "Quotations and pricing",
+    "s3b": "All prices are quote-based. Quotations list sizes, grits, packaging, trade terms and validity periods; final figures are settled at the confirmed specification and are subject to raw-material and freight movement.",
+    "s4t": "Intellectual property",
+    "s4b": "Site content, product descriptions, graphics and the MoTai brand are the property of MoTai Abrasives and may not be reproduced commercially. Third-party references (e.g. model sources) are for buyer orientation only and do not imply endorsement.",
+    "s5t": "Liability and governing law",
+    "s5b": "MoTai is not liable for decisions made in reliance on general information in this site. These terms are governed by the laws of the People's Republic of China; disputes are settled under the sales contract between the parties.",
+    "updated": "Last updated 3 November 2026"
+  },
+  "quotePage": {
+    "h1": "Start a wholesale conversation",
+    "sub": "Get factory-direct wholesale prices for abrasive products.",
+    "note": "This form requests a quotation and does not place an order. Fields marked * are required.",
+    "sec1": "Your business",
+    "f1": "Full name *",
+    "f2": "Company name *",
+    "f3": "Country *",
+    "f4": "Business email *",
+    "f5": "WhatsApp number",
+    "f6": "Business type *",
+    "opt1": "Importer",
+    "opt2": "Distributor",
+    "opt3": "Wholesaler",
+    "opt4": "OEM brand",
+    "opt5": "Industrial buyer",
+    "opt6": "Other",
+    "sec2": "Product requirements",
+    "f7": "Product category",
+    "f8": "Product model / reference",
+    "f9": "Size",
+    "f10": "Grit size",
+    "f11": "Material",
+    "f12": "Quantity",
+    "f13": "Packaging",
+    "f14": "Destination country *",
+    "f15": "OEM requirements",
+    "f16": "Additional message *",
+    "consent": "I agree to the Privacy Policy, the Terms of Use, and the use of my details to respond to this enquiry. *",
+    "btn1": "Request a Wholesale Quote",
+    "btn2": "Send enquiry via WhatsApp",
+    "goNote": "The form opens in our wholesale enquiry system with your product context pre-filled."
+  },
+  "clients": {
+    "h1": "Where MoTai shipments go",
+    "sub": "From Hubei to seven destination regions.",
+    "note": "Customer logos and testimonials below are placeholder slots — replace src/data/trust.json with published materials.",
+    "placeholderBadge": "Illustrative placeholder",
+    "statsTitle": "Supply at a glance",
+    "statsNote": "Certifications shown are placeholders pending published certificates."
+  },
+  "glossary": {
+    "h1": "Abrasives glossary",
+    "sub": "The terms behind every belt, disc and flap specification.",
+    "note": "Standard industry definitions for abrasive consumables; grade and backing details for an order are settled with the quotation.",
+    "reviewNote": "Terms are reviewed by the MoTai Abrasives technical team — last reviewed 3 November 2026."
+  },
+  "trust": {
+    "regions": "Destination regions",
+    "productLines": "Product lines",
+    "gritRange": "Grit coverage"
+  },
+  "video": {
+    "title": "Watch",
+    "cutting": {
+      "title": "Cutting & converting footage",
+      "desc": "Supplied product footage: abrasive sheet cutting and converting."
+    },
+    "sample": {
+      "title": "Sample checks footage",
+      "desc": "Supplied product footage: surface, backing and fit checks on a sample."
+    },
+    "oem": {
+      "title": "OEM packing footage",
+      "desc": "Pack quantities, labels, carton marks and private-label artwork."
+    },
+    "flap": {
+      "title": "Flap disc range footage",
+      "desc": "Plastic, steel and fiberglass backing flap discs in use."
+    }
+  },
+  "wa": {
+    "generic": "Hei MoTai, haluan tukkuhinnan hiomatarpeisiin.",
+    "product": "Hei MoTai, haluan tukkuhinnan tuotteeseen {name} ({grits}).",
+    "model": "Hei MoTai, haluan tukkuhinnan hiontalankaan malliin {model}.",
+    "disc": "Hei MoTai, haluan tukkuhinnan tuotteeseen {title}.",
+    "sample": "Hei MoTai, haluan tilata näytteen tuotteesta {name} arviointia varten.",
+    "factory": "Hei MoTai, haluan keskustella tuotannon ja laadun yksityiskohdista teidän tiiminne kanssa.",
+    "oem": "Hei MoTai, haluan keskustella OEM / oman merkin hiomatarpeiden ohjelmasta.",
+    "contact": "Hei MoTai, haluan kehittää seuraavan hiomatarpeiden tilauksenne kanssa."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Open chat",
+    "close": "Close",
+    "title": "MoTai — Live chat",
+    "status": "We reply on WhatsApp, usually within 24 hours.",
+    "greeting": "Hi! How can we help with your abrasive order? — MoTai sales team",
+    "placeholder": "Type your message…",
+    "send": "Send via WhatsApp",
+    "note": "This preview has no live server: sending opens WhatsApp with your message pre-filled. Replies continue in the WhatsApp conversation."
+  },
+  "location": {
+    "imgAlt": "MoTai factory building in Xianning, Hubei",
+    "imgCaption": "MoTai factory — Xianning, Hubei, China",
+    "mapTitle": "MoTai factory location on Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Before we start",
+    "moq": {
+      "q": "What is the minimum order quantity?",
+      "a": "MOQ comes back with the offer, alongside availability and terms."
+    },
+    "oem": {
+      "q": "Do you support OEM and private label?",
+      "a": "Yes. Logo, labels, custom sizes and packing are checked for feasibility, then confirmed with your offer."
+    },
+    "sizes": {
+      "q": "Which sizes and grits do you supply?",
+      "a": "Belts in documented sizes from 533 × 75 to 2200 × 1330 mm (grits 40–800); discs 3–6 inch (grits 60–5000). Custom requirements are reviewed with our team."
+    },
+    "samples": {
+      "q": "Can I get a sample first?",
+      "a": "Yes. Request a sample, and our sales team will confirm availability, charges and shipping arrangements."
+    },
+    "lead": {
+      "q": "What are the lead times?",
+      "a": "Lead time depends on specification and quantity, and is confirmed in your quotation."
+    },
+    "packaging": {
+      "q": "How are products packed?",
+      "a": "Pack quantities, labels, carton marks and private-label artwork are confirmed with the quotation."
+    },
+    "payment": {
+      "q": "Which payment terms do you offer?",
+      "a": "Payment terms are part of the confirmed quotation and commercial discussion."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Which specifications should I provide?",
+      "a": "Share your required dimensions, grit, workpiece, machine and intended finish. Use the documented options where available; other requirements will be reviewed with our team."
+    },
+    "oem": {
+      "q": "How do I request OEM packaging?",
+      "a": "Include your branding and packaging requirements in the enquiry. Details will be reviewed and confirmed with your quotation."
+    },
+    "order": {
+      "q": "Does requesting a quote place an order?",
+      "a": "No. The form starts a wholesale enquiry. Product specifications, availability and commercial terms are confirmed before an order is agreed."
+    }
+  },
+  "regions": {
+    "europe": {
+      "title": "Europe",
+      "body": "Note size, grit, backing and product files; provide destination port and label language."
+    },
+    "na": {
+      "title": "North America",
+      "body": "State inch or metric sizing, attachment type and pack quantities; destination ZIP or port and transport mode."
+    },
+    "sa": {
+      "title": "South America",
+      "body": "Size, mixed-grit quantities and carton label language; destination port and importer documents."
+    },
+    "me": {
+      "title": "Middle East",
+      "body": "Material, grit and moisture-safe packaging; destination port and quotation terms."
+    },
+    "africa": {
+      "title": "Africa",
+      "body": "Machine compatibility, required sizes and pack quantities; destination port, carton marks and transport preference."
+    },
+    "oceania": {
+      "title": "Oceania",
+      "body": "Size, backing, packaging and destination ZIP or port; import and packing requirements."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Machine specification, grit range and order mix; delivery city or port and local-language labels."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metal Fabrication",
+      "intro": "Weld blending, deburring and metal surface preparation.",
+      "uses": "Weld blending · Deburring · Surface preparation",
+      "products": "Abrasive belts"
+    },
+    "wood": {
+      "title": "Woodworking & Furniture",
+      "intro": "Panels, furniture manufacturing and pre-lacquer surface preparation.",
+      "uses": "Panels · Furniture · Pre-lacquer prep",
+      "products": "Abrasive belts · Sanding discs"
+    },
+    "auto": {
+      "title": "Automotive Repair",
+      "intro": "Body-filler sanding, pre-spray preparation and automotive refinishing.",
+      "uses": "Body filler · Pre-spray · Refinishing",
+      "products": "Sanding discs"
+    },
+    "stainless": {
+      "title": "Stainless Steel Finishing",
+      "intro": "Hairline finishes, surface transitions and stainless steel fabrication.",
+      "uses": "Hairline · Transitions · Fabrication",
+      "products": "Abrasive belts"
+    },
+    "ship": {
+      "title": "Shipbuilding & Repair",
+      "intro": "Metal grinding, rust removal and marine maintenance surface preparation.",
+      "uses": "Grinding · Rust removal · Marine prep",
+      "products": "Abrasive belts"
+    },
+    "surface": {
+      "title": "Industrial Surface Preparation",
+      "intro": "Industrial surface treatment and maintenance work.",
+      "uses": "Surface treatment · Maintenance",
+      "products": "Sanding discs"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop or PSA: choose the right backing",
+      "intro": "The attachment system is as important as the grit. Match it to the pad before you order.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Hook & loop discs mount onto a compatible hook-faced pad and suit operations where grit is changed often. PSA discs rely on pressure-sensitive adhesive and need a clean, flat pad. The two systems are not interchangeable."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Confirm pad diameter, backing type and dust-extraction layout. A non-hole disc does not connect to a hole-based extraction pattern, and open-mesh discs need a compatible pad and extraction system."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Include disc diameter, backing, grit list, quantity per grit and workpiece material. Ask for a sample evaluation before approving a production order."
+      }
+    },
+    "beltChecklist": {
+      "title": "What to include in an abrasive belt enquiry",
+      "intro": "A clear specification helps your supplier review fit and prepare a useful quotation.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Give the belt length and width in millimetres. Name the machine model — a machine specification sheet or a photo of an old belt label helps."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Add workpiece material, preferred abrasive, grit, backing requirement and joint requirements. Avoid selecting a product using belt colour alone."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "List quantities by size and grit, packaging preferences, destination and the required delivery date. The final quotation confirms specification, availability, payment terms and transport arrangements."
+      }
+    },
+    "gritSequence": {
+      "title": "Planning a grit sequence for surface preparation",
+      "intro": "Start with the workpiece and required finish, then evaluate a sequence on a sample.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Coarse grits remove material quickly and leave deep scratches; fine grits refine the surface. The starting point depends on the substrate, defect depth and removal requirement."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Step down grits in order and inspect the workpiece at each stage. Skipping grits leaves scratches that are hard to remove, and cleaning between stages avoids coarse-grit contamination."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Grit numbering is not interchangeable between grading systems. Confirm the grading standard, abrasive type and availability in the quotation, and follow machine and abrasive safety instructions."
+      }
+    },
+    "dustCollection": {
+      "title": "Dust collection & pad compatibility, explained",
+      "intro": "Hole patterns, open-mesh discs and backer pads must match your extraction setup.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Identify your pad: number of holes, diameter and whether it is used with dust extraction. Non-hole discs and open-mesh discs behave differently from multi-hole discs."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Match disc hole layout to pad ports. Open-mesh discs need a compatible pad and a working extraction system; PSA discs need a clean pad face."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "List pad model, hole count, disc size and grit list, plus your dust-extraction arrangement. Confirm sample behaviour before a production order."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM labels & packaging: what to prepare",
+      "intro": "A complete brief keeps artwork, labels and cartons on schedule.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "Prepare your logo and label artwork, target pack format (inner bags, cartons), label language and destination-country labelling rules."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "OEM availability, minimum quantities, artwork requirements and timelines are subject to a feasibility review and confirmed quotation."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "Attach artwork, specify pack quantities and carton marks, and state destination and timing. Sample approval comes before production."
+      }
+    },
+    "gritStandards": {
+      "title": "Grit standards: FEPA, ANSI and what your list means",
+      "intro": "Grading systems are not interchangeable — name the standard in every enquiry.",
+      "start": {
+        "title": "Start with the requirement",
+        "body": "FEPA (ISO 848) and the older ANSI scale number similar sizes differently; a P120 and a 120-grit are not always the same. Name the standard you buy to."
+      },
+      "compat": {
+        "title": "Confirm compatibility",
+        "body": "Confirm grading standard, abrasive type and availability per grade in the quotation. Do not mix grading systems in one grit list."
+      },
+      "enquiry": {
+        "title": "Prepare your enquiry",
+        "body": "State the standard (e.g. FEPA P60–P800), quantity per grade and destination. Confirm the final grade list with the quotation before ordering."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "The most common abrasive grain for belts and discs: tough, workable, suited to metal, wood and general finishing."
+    },
+    "ansi": {
+      "def": "Legacy North American grit numbering. Similar-size grains differ from the FEPA scale — name the standard in every enquiry."
+    },
+    "backing-cloth": {
+      "def": "A cotton/cloth web that carries the abrasive grain on belts. Weight (e.g. X-weight) sets flexibility and load capacity."
+    },
+    "backing-poly": {
+      "def": "Poly-cotton web backing: a balance of strength and flexibility for general-purpose belts."
+    },
+    "belt": {
+      "def": "A continuous loop of abrasive grain on a web backing, used on belt machines for grinding, finishing and deburring."
+    },
+    "blend": {
+      "def": "Smoothing a weld so it blends into the surrounding metal — typically a first pass on a flap disc or belt, then finer grits."
+    },
+    "closed": {
+      "def": "A close-coated grain layout with little open space; the belt resists clogging on harder work."
+    },
+    "debur": {
+      "def": "Removing burrs and small protrusions left by cutting, sawing or grinding."
+    },
+    "dust": {
+      "def": "Removing abrasive dust at the workpiece — via pad ports, open-mesh discs or local extraction."
+    },
+    "flap": {
+      "def": "A disc of overlapping abrasive flaps, flexible, for grinding, blending and finishing on angle grinders."
+    },
+    "fepa": {
+      "def": "The ISO 848 (FEPA) grading scale in P-notation (e.g. P120). The default scale in most European and international trade."
+    },
+    "grit": {
+      "def": "The nominal grain size of an abrasive: higher numbers are finer. Belts 40–800; discs 60–5000."
+    },
+    "hookloop": {
+      "def": "The hook-and-loop attachment system for discs: the disc snaps onto a hook-faced pad."
+    },
+    "mesh": {
+      "def": "Open-mesh discs have cut-out windows for dust to pass through, needing a compatible pad and extraction."
+    },
+    "moq": {
+      "def": "Minimum order quantity — comes with the offer, alongside availability and terms."
+    },
+    "oem": {
+      "def": "Original equipment manufacturing / private label: our products under your brand, labels and packaging."
+    },
+    "psa": {
+      "def": "Pressure-sensitive adhesive backing: the disc sticks directly onto a compatible pad."
+    },
+    "disc": {
+      "def": "A flat or flapped abrasive circle mounted on a pad for sanding and finishing."
+    },
+    "sic": {
+      "def": "Silicon carbide grain: very hard, sharp, suited to glass, ceramics and non-ferrous metals."
+    },
+    "prep": {
+      "def": "Getting a surface ready for coating or finishing: removing rust, filler or old finish to a consistent profile."
+    },
+    "wetdry": {
+      "def": "Grades that stay cool and clog-resistant in wet or wet/dry use; confirm suitability with the quotation."
+    },
+    "xweight": {
+      "def": "A mid-weight cloth backing for general-purpose belts: strong yet flexible."
+    },
+    "zirconia": {
+      "def": "Zirconia alumina grain: tough and aggressive for metal grinding, deburring and finishing on steel."
+    },
+    "pad": {
+      "def": "The backing plate a disc sits on: pad diameter, face (hook) and port layout must match the disc."
+    }
+  },
+  "footer": {
+    "blurb": "Hiomatarpeita teollisuuskäyttäjille, jakelijoille ja oman merkin brändeille.",
+    "products": "Tuotteet",
+    "explore": "Selaa MoTaita",
+    "connect": "Ota yhteyttä",
+    "aboutUs": "Meistä",
+    "mfgQ": "Tuotanto & laatu",
+    "oemPl": "OEM & oman merkin brändi",
+    "newsB": "Uutiset & blogi",
+    "privacy": "Tietosuoja",
+    "terms": "Käyttöehdot",
+    "contactUs": "Ota yhteyttä"
+  },
+  "tdk": {
+    "home": {
+      "title": "Hiomamateriaalien valmistaja & teollinen hiomatarpeiden toimittaja | MoTai",
+      "description": "Ammatillinen hiomamateriaalien valmistaja Kiinassa, joka toimittaa hiontalankoja, hiontapapereita ja hiontapaleja. Suoraan tehdaselta tukkukauppaan, OEM-mukautukset ja teolliset hiomatarpeiden ratkaisut maailmanlaajuisille jakelijoille ja käyttäjille.",
+      "keywords": "hiomamateriaalien valmistaja, hiomatarpeiden toimittaja, teolliset hiomatarpeet, hiontalankat, hiontapaperit, hiontapalat, hiontalankien valmistaja, hiomatarpeita tukkuun"
+    },
+    "about": {
+      "title": "Tietoja MoTasta — hiomamateriaalien valmistaja ja tehtaassa Hubeissa, Kiinassa",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. on kuumakuorotettujen hiomatarpeiden valmistaja Xianningissa, Hubeissa: hiontalankat, hiontapaperit ja hiontapalat, joita tarjotaan OEM:llä, muokattavissa mitoissa, tukkutoimituksena ja viennillä.",
+      "keywords": "hiomamateriaalien valmistaja Kiinassa, hiomatarpeiden toimittaja Kiinassa, hiomatarpeiden tehtaassa, kuumakuorotettujen hiomatarpeiden valmistaja, hiomatarpeiden viejä, B2B-hiomatarpeiden toimittaja"
+    },
+    "factory": {
+      "title": "Hiomatarpeiden valmistus ja laadunvalvonta — MoTain tehtaassa Hubeissa",
+      "description": "MoTain hiomatarpeiden ateljeessa: muunnos ja leikkaus, näytteenäytteet, laadunvalvonta ja hiontalankkien, hiontapapereiden ja hiontapalkkien OEM-pakkaus.",
+      "keywords": "hiomatarpeiden valmistus, hiomatarpeiden tehtaassa laadunvalvonta, hiomatarpeiden muunnos, OEM-hiomatarpeiden pakkaus"
+    },
+    "oem": {
+      "title": "Hiomatarpeiden OEM-valmistaja ja oman merkin brändi | MoTai",
+      "description": "OEM:n ja oman merkin hiomatarpeiden valmistus: logosi, etiketit, mitat ja pakkaukset MoTain lankoihin, paperiin ja hiontapaleihin, tarjous vahvistetun määrittelyn mukaan.",
+      "keywords": "hiomatarpeiden OEM-valmistaja, oman merkin hiomatarpeet, muokatut hiomatarpeet, OEM-hiomatarpeiden toimittaja"
+    },
+    "applications": {
+      "title": "Teolliset hiomatarpeet sovelluksen mukaan — metalli, puu, auto jne.",
+      "description": "Yhdistä MoTain hiontalankat, hiontapaperit ja hiontapalat sovellukseesi: metallihionta, puhnionta, auton kori, ruostumattoman teräksen viimeistely, laivanrakentaminen ja pinnan valmistelu.",
+      "keywords": "hiomatarpeiden sovellukset, metallihionta, puhnionta, pinnan valmistelu, teollinen pinnan valmistelu"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Hiomatarpeet metallin muokkaamiseen — hionta ja karmat | MoTai",
+        "description": "Hiomatarpeet metallin muokkaamiseen: metallihionta, karman poisto ja hitsausraon hionta MoTain hiontalankien, meshin ja hiontapalkkien avulla.",
+        "keywords": "hiomatarpeet metallin muokkaamiseen, metallihionta, karman poisto, hitsausraon hionta"
+      },
+      "woodworking": {
+        "title": "Hiomatarpeet puutyöhön ja laajan lankahiontaan | MoTai",
+        "description": "Hiomatarpeet puutyöhön ja kalusteisiin: laajan lankahionta, puulevyjen ja MDF:n hionta MoTain hiontalankkien ja hiontapapereiden avulla.",
+        "keywords": "puun hiomatarpeet, laaja lankahionta, puhnionta, kalustehionta"
+      },
+      "automotive": {
+        "title": "Auton korjaushionta — kori ja maali | MoTai",
+        "description": "Hiomatarpeet auton korjaamiseen: auton korin hionta, auton maalin ja primerin hionta MoTain PSA- ja napapihakke-papereiden avulla.",
+        "keywords": "auton hiomatarpeet, auton korin hionta, auton maalin hionta, primerin hionta"
+      },
+      "stainless-steel": {
+        "title": "Ruostumattoman teräksen viimeistelyn ja kiilaustarpeet | MoTai",
+        "description": "Hiomatarpeet ruostumattomalle teräkselle: metallin kiilaus, pinnan hionta ja viimeistely MoTain hiontapalkkien ja hiontalankkien avulla.",
+        "keywords": "ruostumattoman teräksen viimeistely, metallin kiilaus, pinnan hionta, ruostumattomat hiomatarpeet"
+      },
+      "shipbuilding": {
+        "title": "Hiomatarpeet laivanrakentamiseen — teräslaakki ja ruosteen poisto | MoTai",
+        "description": "Kevyet hiomatarpeet laivanrakentamiseen: teräslaakkihionta, ruosteen poisto ja teollinen pinnan valmistelu MoTain hiontalankkien ja hiontapalkkien avulla.",
+        "keywords": "laivanrakennuksen hiomatarpeet, teräslaakkihionta, ruosteen poisto, kevyt hionta"
+      },
+      "surface-preparation": {
+        "title": "Teollinen pinnan valmistelu ja hiontarat | MoTai",
+        "description": "Teolliset hiomatarpeiden ratkaisut pinnan valmisteluun, pinnan viimeistelyyn ja kevyt hiontaan MoTain hiontalankkien, hiontapapereiden ja hiontapalkkien kautta.",
+        "keywords": "pinnan valmistelu, pinnan viimeistely, teollinen hionta, hiomatarpeiden ratkaisut"
+      }
+    },
+    "blog": {
+      "title": "Hiomatarpeiden ostajan oppaat ja hiontarakeiden standardit | MoTain tietopankki",
+      "description": "Käytännölliset resurssit hiomatarpeiden käyttäjille: hiontapapereiden alustojen valinta, hiontalankkien kyselylistat, hiontarakkojen sekvensointi, pölyn poisto ja hiontarakeiden standardit (FEPA/ANSI).",
+      "keywords": "hiomatarpeiden ostajan opas, hiontarakeiden valinta, hiomatarpeiden sanasto, hiontarakeiden standardit FEPA ANSI"
+    },
+    "contact": {
+      "title": "Ota yhteyttä MoTaiseen — hiomatarpeiden toimittaja Kiinassa",
+      "description": "Ota yhteyttä MoTain hiomatarpeiden toimittajaan Xianningissa, Hubeissa: puhelin, sähköposti ja WhatsApp tukku- ja OEM-hiomatarpeiden kyselyille sekä tehdaskäville.",
+      "keywords": "hiomatarpeiden toimittajan yhteys, hiomatarpeiden tukkukysely, hiomamateriaalien valmistaja Kiinassa"
+    },
+    "privacy": {
+      "title": "Tietosuoja-asetukset",
+      "description": "Miten MoTai Abrasives käyttää kyselyyn liittyviä tietoja: kerääminen, tarkoitus, säilytys, valinnat ja evästeiden käsittely.",
+      "keywords": "tietosuoja-asetukset, MoTai"
+    },
+    "terms": {
+      "title": "Käyttöehdot — MoTai Abrasives",
+      "description": "Tämän B2B-hiomatarpeiden sivuston ehdot: kyselyjen käsittely, tarjouspohjainen hinnoittelu, aineettomat oikeudet ja sovellettava laki.",
+      "keywords": [
+        "käyttöehdot",
+        "MoTai",
+        "B2B-hiomatarpeiden toimittaja"
+      ]
+    },
+    "quote": {
+      "title": "Pyydä hiomatarpeiden tukkuhinta | MoTai",
+      "description": "Valmista tukku- tai OEM-hiomatarpeiden kysely: yrityksen tiedot sekä tuote, koko, hiontarake, määrä ja määränpää. Tukkutaimitus hiomatarpeita suoraan tehdas.",
+      "keywords": "hiomatarpeiden tukkuhinta, hiomatarpeiden tukkutoimitus, OEM-hiomatarpeiden kysely, hiomatarpeita tukkuun"
+    },
+    "clients": {
+      "title": "Hiomatarpeiden vienti — maailmanlaajuinen toimitus Hubeista, Kiinasta | MoTai",
+      "description": "MoTai vie hiontalankoja, hiontapapereita ja hiontapaleita seitsemään määränpäähän: Eurooppaan, Amerikkaan, Lähi-itään, Afrikkaan, Oseaniaan ja Aasiaan.",
+      "keywords": "hiomatarpeiden vienti, hiomatarpeiden vienti, maailmanlaajuinen hiomatarpeiden toimitus, teollinen hiomatarpeiden toimittaja"
+    },
+    "glossary": {
+      "title": "Hiomatarpeiden sanasto — hiontarake, alusta, hiontapapereiden termit",
+      "description": "24 hiomatarpeiden termiä määritettynä: FEPA-hiontarake, alustat, napapihakke, PSA, avomesh, karman poisto jne.",
+      "keywords": "hiomatarpeiden sanasto, hiontarakeiden standardit, hiomatarpeiden termit"
+    },
+    "product": {
+      "title": "MoTai {name} — Tukku & OEM hiomatarpeet",
+      "description": "MoTai {name} ({material}, {category}): {desc} Mitat: {sizes}. Hiontarakeet: {grits}. Suoraan tehdaselta tukkukauppaan ja OEM-toimitus.",
+      "keywords": "{name}, {category} valmistaja, {material} hiomatarpeena, hiomatarpeita tukkuun, OEM hiomatarpeena"
+    },
+    "model": {
+      "title": "{model} hiontalanka — MoTai",
+      "description": "Viitemalli {model} MoTain valikoimasta — leveys, pituus, hiontarake ja alusta vahvistetaan tarjouksessa. Tukku- ja OEM-toimitus.",
+      "keywords": "{model} hiontalanka, hiontalankien viitemalli, hiontalankat tukkuun"
+    },
+    "disc": {
+      "title": "MoTai {title} — Tukku & OEM",
+      "description": "MoTain hiontapaperi {title}: hiontarakeiden taso, halkaisija ja kiinnitys vahvistetaan tarjouksessa. Suoraan tehdaselta tukkuun ja OEM.",
+      "keywords": "hiontapaperi, napapihakke hiontapaperi, PSA hiontapaperi, mesh hiontapaperi, hiontapaperit tukkuun"
+    },
+    "flap": {
+      "title": "MoTai {name} — Hiontapalan valmistaja",
+      "description": "MoTai {name}: {backing}-alustainen hiontapala metallin hiontaan, siirtoon ja viimeistelyyn. Tukku- ja OEM-toimitus.",
+      "keywords": "hiontapala, {backing} alustainen hiontapala, zirkonia hiontapala, hiontapalan valmistaja, hiontapalat tukkuun"
+    },
+    "colt": {
+      "belts": {
+        "title": "Hiontalankkien valmistaja ja tukkutoimittaja | MoTai",
+        "description": "Laaja ja teollinen hiontalankat 533×75 – 2200×1330 mm, hiontarake 40–800, alumiinioksidia, tsiirkonia ja kide — viitemallit GXK-51, XZ-330, GPC71 jne. Suoraan tehdaselta tukkuun ja OEM.",
+        "keywords": "hiontalankat, hiontalankit, teolliset hiontalankit, laaja hiontalankat, laaja hiontalankit, puun hiontalankat, metallin hiontalankat, alumiinioksidin hiontalankat, tsiirkonian hiontalankat, kideen hiontalankat, hiontalankkien valmistaja, hiontalankkien toimittaja, hiontalankat tukkuun, GXK-51 hiontalanka, XZ-330 hiontalanka, GPC71 hiontalanka, Y399 hiontalanka, Y999 hiontalanka, 533x75 hiontalanka, 610x100 hiontalanka, 1520x630 hiontalanka, 2200x1330 hiontalanka"
+      },
+      "discs": {
+        "title": "Hiontapapereiden valmistaja — PSA, napapihakke ja mesh | MoTai",
+        "description": "Napapihakke-, PSA-, mesh- ja reettömät hiontapaperit 3–6 tuumaa, hiontarake 60–5000, auton korin, puun ja metallin viimeistelyyn. Suoraan tehdaselta tukkuun ja OEM.",
+        "keywords": "hiontapaperit, hiomatarpeiden hiontapaperit, napapihakkeen hiontapaperit, PSA hiontapaperit, mesh hiontapaperit, ei-vedettävä hiontapaperi, pölytön hiontapaperi, reiäinen hiontapaperi, reiäinen hiontapaperi, 5 tuuman hiontapaperit, 6 tuuman hiontapaperit, hiontapapereiden valmistaja, hiontapaperit tukkuun"
+      },
+      "flap": {
+        "title": "Hiontapalan valmistaja — tsiirkonia ja alumiinioksiidi | MoTai",
+        "description": "MoTain hiontapalat muovialustalla, teräs- ja lasikuidualustalla, tsiirkonia ja alumiinioksidia, metallin hiontaan, karman poistoon ja viimeistelyyn. Tukku- ja OEM-toimitus.",
+        "keywords": "hiontapalat, hiontapaloinen, tsiirkonian hiontapalat, alumiinioksidin hiontapalat, lasikuidun alustan hiontapalat, muovialustan hiontapalat, teräsalustan hiontapalat, 100 mm hiontapalat, 115 mm hiontapalat, 125 mm hiontapalat, 150 mm hiontapalat, 180 mm hiontapalat, hiontapalan valmistaja, hiontapalan toimittaja, hiontapalat tukkuun"
+      },
+      "all": {
+        "title": "Hiomatarpeiden tuotteita tukkuun — lankat, paperit ja hiontapalat | MoTai",
+        "description": "MoTain koko hiomatarpeiden katalogi: teolliset hiontalankat, hiontapaperit ja hiontapalat jakelijoille, tuojille, tukkukauppiaille ja OEM-merkeille. Suoraan tehdaselta tukkuun, muokkaus ja Hubeista, Kiinasta vienti.",
+        "keywords": "hiomatarpeet, hiomatarpeita tukkuun, teolliset hiomatarpeet, kuumakuorotetut hiomatarpeet, hiomatarpeita tukkuun, hiomatarpeiden tehtaasta, hiomatarpeiden viejä, hiomatarpeiden toimittaja Kiinassa, hiomatarpeiden OEM-valmistaja, oman merkin hiomatarpeet, muokatut hiomatarpeet, hiomatarpeiden tukkutoimitus, hiomatarpeiden tehtaassa, hiomatarpeiden työkalut, hiomamateriaalit, pinnan viimeistelyn tuotteet, hiontapaperi, hiontapaperilevyt, pyöreä hiontapaperi, hiontapaperi tukkuun, hiontapaperi, napapihakkeen hiontapaperi, 5 tuuman hiontapaperi, 6 tuuman hiontapaperi, ei-vedettävä hiomapohja, hiomakuderra, teollinen pyöräkarsta"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Pikayhteys",
+    "whatsapp": "WhatsApp",
+    "quote": "Pyydä tarjous"
+  }
+}
