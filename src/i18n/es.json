@@ -337,6 +337,37 @@
     "s5b": "MoTai no se responsabiliza de decisiones tomadas sobre información general de este sitio. Estos términos rigen por la ley de la República Popular China; las disputas se resuelven según el contrato de venta entre las partes.",
     "updated": "Última actualización 3 de noviembre de 2026"
   },
+  "shipping": {
+    "h1": "Política de envíos y devoluciones",
+    "sub": "Cómo salen los pedidos de nuestra fábrica y por qué los abrasivos fabricados según especificación no admiten devolución.",
+    "shipTitle": "Política de envíos",
+    "shipSub": "La producción, el embalaje y el despacho se confirman junto con su presupuesto.",
+    "s1t": "Producción y plazo de entrega",
+    "s1b": "Las cintas abrasivas, los discos de lijado y los discos de aletas se fabrican según la especificación de su pedido. El plazo de entrega comienza el día en que el presupuesto se confirma por escrito, no el día en que se envió la consulta. Las referencias estándar como GXK-51, XZ-330 y GPC71 son artículos de stock disponibles; los tamaños especiales, los grados de grano y el embalaje OEM se fabrican bajo pedido.",
+    "s2t": "Embalaje y marcado",
+    "s2b": "La mercancía se embala en cajas de exportación con la cantidad de embalaje acordada, etiquetas, marcas de caja y — en los programas OEM — su diseño y código de barras. La configuración del palé se confirma con la lista de embalaje. La fumigación o las marcas ISPM 15 se aplican cuando el país de destino lo exige.",
+    "s3t": "Modo de envío e Incoterms",
+    "s3b": "El envío se organiza por vía marítima (FCL o LCL) o aérea, según el volumen y el destino. El término comercial figura en su presupuesto — EXW, FOB, CIF, CFR, DAP y DDP son los habituales. Puede designar su propio transitario; MoTai facilita entonces la lista de embalaje, las marcas de caja y los documentos de envío.",
+    "s4t": "Documentos y aduana",
+    "s4b": "Cada envío se acompaña de factura comercial, lista de embalaje y documento de transporte. Los códigos HS y los certificados de origen se facilitan para su despacho aduanero. Los aranceles de importación, los impuestos y el despacho aduanero en el país de destino corren a cargo del comprador, salvo que el presupuesto indique DDP.",
+    "s5t": "Despacho y entrega",
+    "s5b": "Enviamos el aviso de embarque con el número de buque o de vuelo en cuanto se reserva el contenedor o el envío. El tiempo de entrega depende del puerto o aeropuerto de destino y del horario del transportista. Los retrasos por congestión portuaria, inspección aduanera o fuerza mayor escapan a nuestro control y se notifican en cuanto se conocen.",
+    "retTitle": "Política de devoluciones",
+    "retSub": "Nuestros productos se fabrican según la especificación acordada, por lo que las devoluciones se limitan a casos definidos.",
+    "r1t": "Mercancía fabricada según especificación",
+    "r1b": "Los productos abrasivos se fabrican según su grado de grano, tamaño, soporte y especificación de embalaje. Como no pueden revenderse como stock estándar, los pedidos personalizados confirmados no admiten devolución ni reembolso, salvo que la mercancía no corresponda a la especificación confirmada.",
+    "r2t": "Artículos de stock y daños de transporte",
+    "r2b": "Los artículos de referencia estándar que no se han usado y permanecen en su embalaje de exportación original pueden devolverse caso por caso, tras confirmar nosotros el motivo y las condiciones de devolución. La mercancía dañada en tránsito debe notificarse con fotografías dentro de los 7 días siguientes a la entrega; las reclamaciones al seguro del transportista se gestionan a través del transitario designado.",
+    "r3t": "Reclamaciones, inspección y abonos",
+    "r3b": "Toda reclamación debe indicar el número de pedido, la lista de embalaje y las marcas de caja afectadas. Si se confirma un defecto tras la inspección, sustituimos la cantidad afectada o emitimos una nota de abono contra la factura. Las reclamaciones presentadas más de 30 días después de la entrega no pueden admitirse.",
+    "r4t": "Reembolsos de pago",
+    "r4b": "Cuando se acuerda un abono, cualquier reembolso se realiza al pagador original por el mismo método con el que se pagó el pedido, una vez completada o dada de baja la devolución o sustitución. Los gastos bancarios de las transferencias internacionales corren a cargo de la parte que recibe el reembolso.",
+    "r5t": "Aduana, aranceles y normativa",
+    "r5b": "Las devoluciones motivadas por restricciones de importación, aranceles, inspección aduanera o normas locales de cumplimiento se tratan como disputas comerciales y no como reclamaciones de producto, ya que la mercancía se entregó conforme a la especificación confirmada.",
+    "updated": "Última actualización: 6 de noviembre de 2026",
+    "related": "Las condiciones de envío y devolución forman parte de cada presupuesto. Si un presupuesto establece condiciones diferentes, prevalece ese presupuesto.",
+    "contact": "Preguntas sobre un envío o una reclamación: contacte con nuestro equipo de ventas indicando su número de pedido y las marcas de caja pertinentes."
+  },
   "quotePage": {
     "h1": "Abra una conversación mayorista",
     "sub": "Precios mayoristas directos de fábrica.",
@@ -730,7 +761,8 @@
     "newsB": "Noticias y blog",
     "privacy": "Política de privacidad",
     "terms": "Términos de uso",
-    "contactUs": "Contacto"
+    "contactUs": "Contacto",
+    "shipping": "Envíos y devoluciones"
   },
   "tdk": {
     "home": {
@@ -870,6 +902,11 @@
         "description": "El catálogo completo de MoTai: cintas de gran ancho, discos de lija y discos de solapamiento para distribuidores, importadores, mayoristas y marcas OEM. Mayorista directo, personalización y exportación desde Hubei, China.",
         "keywords": "productos de abrasivos, productos de abrasivos al por mayor, abrasivos industriales, abrasivos recubiertos, abrasivos al por mayor, fábrica de productos de abrasivos, exportador de productos de abrasivos, proveedor de abrasivos China, fabricante OEM de abrasivos, abrasivos de marca privada, productos de abrasivos personalizados, suministros de abrasivos a granel, fábrica de abrasivos, herramientas de abrasivo, materiales de abrasivo, productos de lijado, productos de acabado de superficie, papel de lija, hojas de papel de lija, papel de lija redondo, papel de lija al por mayor, base de lijado, base de lijado de velcro, base de lijado de 5 pulgadas, base de lijado de 6 pulgadas, disco de solapamiento de no tejido, tela de lija, rodillo industrial de cepillo"
       }
+    },
+    "shipping": {
+      "title": "Política de envíos y devoluciones — Pedidos de abrasivos | MoTai",
+      "description": "Política de envíos y devoluciones de abrasivos de MoTai: plazo de producción, embalaje de exportación, Incoterms, documentos aduaneros, despacho y cuándo puede devolverse o abonarse la mercancía fabricada según especificación.",
+      "keywords": "política de envíos abrasivos, política de devoluciones abrasivos, entrega mayorista abrasivos, Incoterms abrasivos, embalaje de exportación, condiciones de entrega"
     }
   },
   "quickBar": {

@@ -337,6 +337,37 @@
     "s5b": "MoTai is not liable for decisions made in reliance on general information in this site. These terms are governed by the laws of the People's Republic of China; disputes are settled under the sales contract between the parties.",
     "updated": "Last updated 3 November 2026"
   },
+  "shipping": {
+    "h1": "Shipping & Returns Policy",
+    "sub": "How orders leave our factory, and why made-to-specification abrasives are not returnable.",
+    "shipTitle": "Shipping policy",
+    "shipSub": "Production, packing and dispatch are confirmed together with your quotation.",
+    "s1t": "Production and lead time",
+    "s1b": "Abrasive belts, discs and flap discs are converted to the specification in your order. Lead time starts from the date the quotation is confirmed in writing, not from the date the enquiry was sent. Standard references such as GXK-51, XZ-330 and GPC71 are ready-made stock items; custom sizes, grits and OEM packaging are made to order.",
+    "s2t": "Packing and marking",
+    "s2b": "Goods are packed in export cartons with the agreed pack quantity, labels, carton marks and — for OEM programmes — your artwork and barcode. Pallet configuration is confirmed with the packing list. Fumigation or ISPM 15 markings are applied where the destination country requires them.",
+    "s3t": "Shipping method and Incoterms",
+    "s3b": "Shipment is arranged by sea (FCL or LCL) or air, depending on volume and destination. The trade term is stated on your quotation — EXW, FOB, CIF, CFR, DAP and DDP are commonly used. You may nominate your own forwarder; MoTai then supplies the packing list, carton marks and shipping documents.",
+    "s4t": "Documents and customs",
+    "s4b": "Each shipment is accompanied by a commercial invoice, packing list and transport document. HS codes and certificates of origin are provided for your customs clearance. Import duties, taxes and customs clearance in the destination country are for the buyer's account unless the quotation states DDP.",
+    "s5t": "Dispatch and delivery",
+    "s5b": "We send the shipping advice with the vessel or flight number once the container or consignment is booked. Delivery time depends on the destination port or airport and the carrier's schedule. Delays caused by port congestion, customs inspection or force majeure are outside our control and are notified as soon as they are known.",
+    "retTitle": "Returns policy",
+    "retSub": "Our products are made to the agreed specification, which is why returns are limited to defined cases.",
+    "r1t": "Made-to-specification goods",
+    "r1b": "Abrasive products are manufactured to your grit, size, backing and packaging specification. Because they cannot be resold as standard stock, confirmed custom orders are not returnable and are not refundable, except where the goods do not match the confirmed specification.",
+    "r2t": "Stock items and transport damage",
+    "r2b": "Standard reference items that have not been used and remain in their original export packing can be returned on a case-by-case basis after we confirm the reason and the return conditions. Goods damaged in transit must be reported with photographs within 7 days of delivery, and claims on the carrier's insurance are handled through the named forwarder.",
+    "r3t": "Claims, inspection and credits",
+    "r3b": "Any claim must reference the order number, the packing list and the affected carton marks. Where a defect is confirmed after inspection, we either replace the affected quantity or issue a credit note against the invoice. Claims raised more than 30 days after delivery cannot be accepted.",
+    "r4t": "Payment refunds",
+    "r4b": "Where a credit is agreed, any refund is made to the original payer by the same method used for the order, once the return or replacement has been completed or written off. Bank charges on international transfers are borne by the party receiving the refund.",
+    "r5t": "Customs, duty and compliance",
+    "r5b": "Returns requested because of import restrictions, duties, customs inspection or local compliance rules are treated as commercial disputes rather than product claims, because the goods were delivered in accordance with the confirmed specification.",
+    "updated": "Last updated 6 November 2026",
+    "related": "Shipping and returns terms form part of every quotation. If a quotation states different terms, that quotation prevails.",
+    "contact": "Questions about a shipment or a claim: contact our sales team with your order number and the relevant carton marks."
+  },
   "quotePage": {
     "h1": "Start a wholesale conversation",
     "sub": "Get factory-direct wholesale prices for abrasive products.",
@@ -730,6 +761,7 @@
     "newsB": "News & Blog",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
+    "shipping": "Shipping & Returns",
     "contactUs": "Contact Us"
   },
   "tdk": {
@@ -813,6 +845,11 @@
         "MoTai",
         "B2B abrasive supplier"
       ]
+    },
+    "shipping": {
+      "title": "Shipping & Returns Policy — Abrasive Orders | MoTai",
+      "description": "MoTai abrasive shipping and returns policy: production lead time, export packing, Incoterms, customs documents, dispatch, and when made-to-specification goods can be returned or credited.",
+      "keywords": "abrasive shipping policy, abrasive returns policy, wholesale abrasive delivery, abrasive Incoterms, export packing, shipping terms"
     },
     "quote": {
       "title": "Request a Wholesale Abrasive Quote | MoTai",

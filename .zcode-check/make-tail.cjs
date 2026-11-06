@@ -29,11 +29,13 @@ const enLeaves = leafEntries(en)
 
 const codes = process.argv.slice(2)
 if (!codes.length) {
-  // default: every locale that is still head-only
+  // default: every locale that is still head-only OR missing any en key
   for (const f of fs.readdirSync(PAY)) {
     const code = f.replace(/\.json$/, '')
     const payload = JSON.parse(fs.readFileSync(path.join(PAY, f), 'utf8'))
-    if (Object.keys(payload).length < 500) codes.push(code)
+    const have = new Set(Object.keys(payload))
+    const missing = enLeaves.filter(([k]) => !have.has(k))
+    if (Object.keys(payload).length < 500 || missing.length) codes.push(code)
   }
 }
 

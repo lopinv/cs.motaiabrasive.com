@@ -36,9 +36,12 @@ function rnd() {
 function pick(a) { return a[Math.floor(rnd() * a.length)] }
 function pickInt(n) { return Math.floor(rnd() * n) }
 
+/* Shared link whitelist (single source of truth with validate.mjs). */
+import { INTERNAL, EXTERNAL } from './pipeline/en/links.mjs'
+
 /* ------------------------------------------------------------------ */
-/* Internal link targets (real pages in this build — verified from the */
-/* page tree). Writers MUST use these anchors; no invented slugs.      */
+/* Internal link targets — alias the shared INTERNAL whitelist so the    */
+/* plan and the validator never drift apart. No invented slugs.        */
 /* ------------------------------------------------------------------ */
 const IMAGES = [
   'belt-533-75', 'belt-610-100', 'belt-1520-630', 'belt-2200-1330',
@@ -46,83 +49,23 @@ const IMAGES = [
   'flap-plastic', 'flap-steel', 'flap-fiberglass'
 ]
 
-const COLLECT = {
-  belts: { to: '/collections/abrasive-belts', text: 'abrasive belt range' },
-  discs: { to: '/collections/sanding-discs', text: 'sanding disc range' },
-  flap: { to: '/collections/flap-discs', text: 'flap disc range' },
-  all: { to: '/collections/all', text: 'all abrasive products' }
-}
+// Alias the shared table to the short names the helpers below use.
+const COLLECT = { belts: INTERNAL.belts, discs: INTERNAL.discs, flap: INTERNAL.flap, all: INTERNAL.all }
 const PRODUCTS = {
-  '533x75': { to: '/products/533x75-abrasive-belt', text: '533 × 75 mm abrasive belt' },
-  '610x100': { to: '/products/610x100-abrasive-belt', text: '610 × 100 mm abrasive belt' },
-  '1520x630': { to: '/products/1520x630-abrasive-belt', text: '1520 × 630 mm abrasive belt' },
-  '2200x1330': { to: '/products/2200x1330-abrasive-belt', text: '2200 × 1330 mm wide abrasive belt' },
-  'hloop': { to: '/products/hook-loop-sanding-discs', text: 'hook-and-loop sanding discs' },
-  'psa3': { to: '/products/3-inch-psa-sanding-disc', text: '3-inch PSA sanding disc' },
-  'psa4': { to: '/products/4-inch-psa-sanding-disc', text: '4-inch PSA sanding disc' },
-  'psa5': { to: '/products/5-inch-psa-sanding-disc', text: '5-inch PSA sanding disc' },
-  'mesh5': { to: '/products/5-inch-mesh-sanding-disc', text: '5-inch mesh sanding discs' },
-  'mesh6': { to: '/products/6-inch-mesh-sanding-disc', text: '6-inch mesh sanding discs' },
-  'solid6': { to: '/products/6-inch-solid-sanding-disc', text: '6-inch non-hole sanding disc' }
+  '533x75': INTERNAL['533x75'], '610x100': INTERNAL['610x100'], '1520x630': INTERNAL['1520x630'], '2200x1330': INTERNAL['2200x1330'],
+  hloop: INTERNAL.hloop, psa3: INTERNAL.psa3, psa4: INTERNAL.psa4, psa5: INTERNAL.psa5,
+  mesh5: INTERNAL.mesh5, mesh6: INTERNAL.mesh6, solid6: INTERNAL.solid6
 }
 const MODELS = {
-  'gxk51': { to: '/model/gxk-51', text: 'GXK-51 abrasive belt' },
-  'y399': { to: '/model/y399', text: 'Y399 abrasive belt' },
-  'gpc71': { to: '/model/gpc71', text: 'GPC71 abrasive belt' },
-  'y999': { to: '/model/y999', text: 'Y999 abrasive belt' },
-  'xz330': { to: '/model/xz-330', text: 'XZ-330 abrasive belt' },
-  'kx167': { to: '/model/kx-167', text: 'KX-167 abrasive belt' },
-  'scy728': { to: '/model/scy728', text: 'SCY728 abrasive belt' },
-  'rcy97': { to: '/model/rcy97', text: 'RCY97 abrasive belt' },
-  'mt32': { to: '/model/mt-32', text: 'MT-32 abrasive belt' },
-  'gxk56': { to: '/model/gxk56', text: 'GXK56 abrasive belt' },
-  'ax168': { to: '/model/ax-168', text: 'AX-168 abrasive belt' }
+  gxk51: INTERNAL.gxk51, y399: INTERNAL.y399, gpc71: INTERNAL.gpc71, y999: INTERNAL.y999,
+  xz330: INTERNAL.xz330, kx167: INTERNAL.kx167, scy728: INTERNAL.scy728, rcy97: INTERNAL.rcy97,
+  mt32: INTERNAL.mt32, gxk56: INTERNAL.gxk56, ax168: INTERNAL.ax168
 }
-const DISCS = {
-  gold8: { to: '/disc/gold8', text: '5-inch 8-hole hook-and-loop sanding disc' },
-  gold17: { to: '/disc/gold17', text: '6-inch 17-hole hook-and-loop sanding disc' },
-  ceramic15: { to: '/disc/ceramic15', text: '150 mm ceramic hook-and-loop sanding disc' },
-  red8: { to: '/disc/red8', text: '8-hole red sanding disc' },
-  gray8: { to: '/disc/gray8', text: 'P3000 fine 8-hole sanding disc' }
-}
-const FLAPS = {
-  plastic: { to: '/flap/plastic', text: 'plastic-backing flap disc' },
-  steel: { to: '/flap/steel', text: 'steel-backing flap disc' },
-  fiberglass: { to: '/flap/fiberglass', text: 'fiberglass-backing flap disc' }
-}
-const APPS = {
-  metal: { to: '/applications/metal-fabrication', text: 'metal fabrication abrasives' },
-  wood: { to: '/applications/woodworking', text: 'woodworking sanding solutions' },
-  auto: { to: '/applications/automotive', text: 'automotive repair sanding' },
-  stainless: { to: '/applications/stainless-steel', text: 'stainless steel finishing' },
-  ship: { to: '/applications/shipbuilding', text: 'shipbuilding surface preparation' },
-  prep: { to: '/applications/surface-preparation', text: 'industrial surface preparation' }
-}
-const STATIC = {
-  oem: { to: '/oem', text: 'OEM & private-label abrasive services' },
-  factory: { to: '/factory', text: 'manufacturing & quality page' },
-  about: { to: '/about', text: 'about MoTai' },
-  glossary: { to: '/glossary', text: 'abrasives glossary' },
-  quote: { to: '/quote', text: 'request a quotation' }
-}
+const DISCS = { gold8: INTERNAL.gold8, gold17: INTERNAL.gold17, ceramic15: INTERNAL.ceramic15, red8: INTERNAL.red8, gray8: INTERNAL.gray8 }
+const FLAPS = { plastic: INTERNAL.plastic, steel: INTERNAL.steel, fiberglass: INTERNAL.fiberglass }
+const APPS = { metal: INTERNAL.metal, wood: INTERNAL.wood, auto: INTERNAL.auto, stainless: INTERNAL.stainless, ship: INTERNAL.ship, prep: INTERNAL.prep }
+const STATIC = { oem: INTERNAL.oem, factory: INTERNAL.factory, about: INTERNAL.about, glossary: INTERNAL.glossary, quote: INTERNAL.quote }
 
-/** Authority external links. Every URL is a real, verifiable source
- *  (government / standards body / encyclopaedia). Writers pick 1–2 that
- *  fit the topic. */
-const EXTERNAL = {
-  osha: { url: 'https://www.osha.gov/abrasives', text: 'OSHA abrasive products safety guidance' },
-  ccohs: { url: 'https://www.ccohs.ca/osh_files/osh_guides/Gard_4.pdf', text: 'CCOHS abrasives guide (Gard-4)' },
-  fepa: { url: 'https://en.wikipedia.org/wiki/FEPA', text: 'the FEPA grit standard (ISO 848)' },
-  aluox: { url: 'https://en.wikipedia.org/wiki/Aluminium_oxide', text: 'the properties of aluminium oxide' },
-  zircon: { url: 'https://en.wikipedia.org/wiki/Zirconium_oxide', text: 'the properties of zirconia alumina' },
-  sic: { url: 'https://en.wikipedia.org/wiki/Silicon_carbide', text: 'the properties of silicon carbide' },
-  carbon: { url: 'https://en.wikipedia.org/wiki/Carbon_black', text: 'carbon abrasive grain' },
-  glass: { url: 'https://en.wikipedia.org/wiki/Fiberglass', text: 'fiberglass backing' },
-  steel: { url: 'https://en.wikipedia.org/wiki/Stainless_steel', text: 'stainless steel finishing fundamentals' },
-  dust: { url: 'https://en.wikipedia.org/wiki/Dust', text: 'abrasive dust and airborne particulates' },
-  ansi: { url: 'https://www.ansixpm.org/', text: 'ANSI/PM standard bodies' },
-  iso: { url: 'https://www.iso.org/', text: 'ISO standards' }
-}
 
 /* Keyword families (from the MoTai keyword spec). `primary` keywords are
  * the ones a title must contain; `pool` fills the 3–5 extracted set. */
@@ -222,7 +165,10 @@ function internalLinksFor(fam) {
 }
 
 function externalsFor(fam, title) {
-  const set = new Set(['osha'])
+  // Always offer a safety authority (OSHA PPE or CCOHS abrasive-wheels) so
+  // every article can anchor an E-E-A-T trust link, plus topic-specific
+  // material/standard pages that are actually on-topic.
+  const set = new Set(['oshaPPE', 'ccohsWheels'])
   const t = title.toLowerCase()
   if (/grit|fepa|ansi|standard|grade|paper/.test(t)) set.add('fepa')
   if (/aluminum|alumina/.test(t)) set.add('aluox')
@@ -232,10 +178,8 @@ function externalsFor(fam, title) {
   if (/stainless|steel plate|metal/.test(t)) set.add('steel')
   if (/fiberglass|glass/.test(t)) set.add('glass')
   if (/dust|ppe|safe|risk|compliance/.test(t)) set.add('dust')
-  if (/oem|factory|export|wholesale|supplier|manufacturer/.test(t)) set.add('ansi')
-  if (set.size > 5) set.add('iso')
+  if (/oem|factory|export|wholesale|supplier|manufacturer/.test(t)) set.add('iso')
   const arr = [...set]
-  if (/abrasiv|belt|disc|flap|sanding|grind/.test(t) && !arr.includes('ccohs')) arr.push('ccohs')
   return arr.slice(0, 4).map((k) => EXTERNAL[k])
 }
 

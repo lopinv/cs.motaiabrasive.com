@@ -40,7 +40,7 @@ const langs = readdirSync(i18nDir)
   .sort() // deterministic order, en last not required — keep alphabetical
 
 // Static per-lang routes
-const staticRoutes = ['', '/about', '/factory', '/oem', '/applications', '/blog', '/contact', '/privacy', '/terms', '/quote', '/clients', '/glossary']
+const staticRoutes = ['', '/about', '/factory', '/oem', '/applications', '/blog', '/contact', '/privacy', '/terms', '/shipping', '/quote', '/clients', '/glossary']
 const collections = ['abrasive-belts', 'sanding-discs', 'flap-discs', 'all']
 
 // Data-driven routes

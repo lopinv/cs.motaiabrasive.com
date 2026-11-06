@@ -56,12 +56,13 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'contact':
     case 'privacy':
     case 'terms':
+    case 'shipping':
     case 'quote':
     case 'clients':
     case 'glossary': {
       // Brand-default OG image so social cards don't fall back to the small
       // logo (and twitter:card can be summary_large_image). Remote CDN only.
-      const og = { about: 'belt-1520-630', factory: 'belt-1520-630', oem: 'belt-1520-630', contact: 'belt-533-75', clients: 'belt-533-75', quote: 'belt-533-75', applications: 'belt-533-75' }[pageId]
+      const og = { about: 'belt-1520-630', factory: 'belt-1520-630', oem: 'belt-1520-630', contact: 'belt-533-75', clients: 'belt-533-75', quote: 'belt-533-75', applications: 'belt-533-75', shipping: 'belt-533-75' }[pageId]
       return {
         title: pick(tdk[pageId]),
         description: tdk[pageId].description,

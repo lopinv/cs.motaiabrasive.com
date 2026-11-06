@@ -337,6 +337,37 @@
     "s5b": "MoTai haftet nicht für Entscheidungen, die auf allgemeinen Informationen dieser Website beruhen. Maßgeblich ist das Recht der Volksrepublik China; Streitigkeiten werden nach dem Kaufvertrag der Parteien geregelt.",
     "updated": "Zuletzt aktualisiert am 3. November 2026"
   },
+  "shipping": {
+    "h1": "Versand- und Rückgabebedingungen",
+    "sub": "Wie Bestellungen unser Werk verlassen — und warum nach Spezifikation gefertigte Schleifmittel nicht zurückgegeben werden können.",
+    "shipTitle": "Versandbedingungen",
+    "shipSub": "Produktion, Verpackung und Versand werden gemeinsam mit Ihrem Angebot bestätigt.",
+    "s1t": "Produktion und Lieferzeit",
+    "s1b": "Schleifbänder, Scheiben und Fächerscheiben werden nach der Spezifikation Ihrer Bestellung gefertigt. Die Lieferzeit beginnt mit dem Tag der schriftlichen Bestätigung des Angebots, nicht mit dem Tag der Anfrage. Standardreferenzen wie GXK-51, XZ-330 und GPC71 sind ab Lager verfügbar; Sondergrößen, Körnungen und OEM-Verpackungen werden auftragsbezogen gefertigt.",
+    "s2t": "Verpackung und Kennzeichnung",
+    "s2b": "Die Ware wird in Exportkartons mit der vereinbarten Packmenge, Etiketten, Kartonmarkierungen und — bei OEM-Programmen — Ihrem Artwork und Barcode verpackt. Die Palettenkonfiguration wird mit der Packliste bestätigt. Rauchbegasung oder ISPM-15-Kennzeichnungen werden angebracht, wenn das Zielland dies verlangt.",
+    "s3t": "Versandart und Incoterms",
+    "s3b": "Der Versand erfolgt per Seefracht (FCL oder LCL) oder Luftfracht, je nach Volumen und Zielort. Die Handelsklausel ist in Ihrem Angebot angegeben — EXW, FOB, CIF, CFR, DAP und DDP sind gebräuchlich. Sie können Ihren eigenen Spediteur benennen; MoTai stellt dann Packliste, Kartonmarkierungen und Versanddokumente bereit.",
+    "s4t": "Dokumente und Zoll",
+    "s4b": "Jede Sendung wird von einer Handelsrechnung, Packliste und einem Transportdokument begleitet. HS-Codes und Ursprungszeugnisse stellen wir für Ihre Zollabwicklung bereit. Einfuhrabgaben, Steuern und Zollabwicklung im Zielland gehen zulasten des Käufers, sofern das Angebot nicht DDP vorsieht.",
+    "s5t": "Versand und Lieferung",
+    "s5b": "Sobald der Container oder die Sendung gebucht ist, senden wir die Versandanzeige mit Schiffs- oder Flugnummer. Die Lieferzeit hängt vom Zielhafen bzw. Zielflughafen und vom Fahrplan des Transporteurs ab. Verzögerungen durch Hafenstaus, Zollkontrollen oder höhere Gewalt liegen außerhalb unseres Einflussbereichs und werden Ihnen mitgeteilt, sobald sie bekannt sind.",
+    "retTitle": "Rückgabebedingungen",
+    "retSub": "Unsere Produkte werden nach der vereinbarten Spezifikation gefertigt — Rückgaben sind daher auf bestimmte Fälle beschränkt.",
+    "r1t": "Nach Spezifikation gefertigte Ware",
+    "r1b": "Schleifmittel werden nach Ihrer Körnung, Größe, Unterlage und Verpackung gefertigt. Da sie nicht als Standardware weiterverkauft werden können, sind bestätigte Sonderanfertigungen weder rückgabefähig noch erstattungsfähig — außer wenn die Ware nicht der bestätigten Spezifikation entspricht.",
+    "r2t": "Lagervware und Transportschäden",
+    "r2b": "Standardreferenzen, die ungebraucht sind und sich in der Original-Exportverpackung befinden, können im Einzelfall zurückgegeben werden, nachdem wir Grund und Rückgabebedingungen bestätigt haben. Transportschäden müssen mit Fotos innerhalb von 7 Tagen nach Lieferung gemeldet werden; Ansprüche aus der Versicherung des Transporteurs werden über den benannten Spediteur abgewickelt.",
+    "r3t": "Reklamationen, Prüfung und Gutschriften",
+    "r3b": "Jede Reklamation muss die Bestellnummer, die Packliste und die betroffenen Kartonmarkierungen angeben. Stellt sich nach Prüfung ein Mangel heraus, ersetzen wir die betroffene Menge oder stellen eine Gutschrift auf die Rechnung aus. Reklamationen mehr als 30 Tage nach Lieferung können nicht angenommen werden.",
+    "r4t": "Rückerstattung von Zahlungen",
+    "r4b": "Wurde eine Gutschrift vereinbart, erfolgt eine etwaige Erstattung an den ursprünglichen Zahler auf demselben Weg wie die Bestellzahlung, sobald Rückgabe oder Ersatz abgeschlossen bzw. abgeschrieben sind. Bankspesen für internationale Überweisungen trägt die Seite, die die Erstattung erhält.",
+    "r5t": "Zoll, Einfuhrabgaben und Compliance",
+    "r5b": "Rückgabewünsche aufgrund von Einfuhrbeschränkungen, Abgaben, Zollkontrollen oder lokalen Compliance-Vorgaben behandeln wir als Handelsstreitigkeiten und nicht als Produktreklamationen, da die Ware gemäß der bestätigten Spezifikation geliefert wurde.",
+    "updated": "Zuletzt aktualisiert am 6. November 2026",
+    "related": "Versand- und Rückgabebedingungen sind Bestandteil jedes Angebots. Weicht ein Angebot davon ab, hat dieses Angebot Vorrang.",
+    "contact": "Fragen zu einer Sendung oder einer Reklamation: Wenden Sie sich mit Ihrer Bestellnummer und den betreffenden Kartonmarkierungen an unser Vertriebsteam."
+  },
   "quotePage": {
     "h1": "Großhandelsgespräch starten",
     "sub": "Fordern Sie Großhandelspreise direkt ab Werk für Abriebsmittel an.",
@@ -730,7 +761,8 @@
     "newsB": "News & Blog",
     "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
-    "contactUs": "Kontakt"
+    "contactUs": "Kontakt",
+    "shipping": "Versand & Rückgabe"
   },
   "tdk": {
     "home": {
@@ -870,6 +902,11 @@
         "description": "Das komplette MoTai-Schleifmittel-Sortiment: industrielle Schleifbänder, Schleifscheiben und Flap-Scheiben für Händler, Importeure, Großhändler und OEM-Marken. Direkter Großhandel, Anpassung und Export aus Hubei, China.",
         "keywords": "Schleifmittel, Schleifmittel Großhandel, industrielle Schleifmittel, beschichtete Schleifmittel, Schleifmittel Großhandel, Schleifmittelfabrik, Schleifmittel-Exporteur, Schleifmittellieferant China, OEM-Schleifmittelhersteller, Eigenmarken-Schleifmittel, kundenspezifische Schleifmittel, Großmengen an Schleifmitteln, Schleifmittelfabrik, Schleifwerkzeuge, Schleifmittel, Schleifprodukte, Produkte für Oberflächenbearbeitung, Schleifpapier, Schleifpapier-Blätter, rundes Schleifpapier, Schleifpapier Großhandel, Schleifunterlage, Klettverschluss-Schleifunterlage, 5-Zoll-Schleifunterlage, 6-Zoll-Schleifunterlage, Vlies-Flapscheibe, Schleifleinwand, industrielle Rollenbürste"
       }
+    },
+    "shipping": {
+      "title": "Versand- und Rückgabebedingungen — Schleifmittel-Bestellungen | MoTai",
+      "description": "Versand- und Rückgabebedingungen von MoTai für Schleifmittel: Produktionslieferzeit, Exportverpackung, Incoterms, Zolldokumente, Versand — und wann nach Spezifikation gefertigte Ware zurückgegeben oder gutgeschrieben werden kann.",
+      "keywords": "Versandbedingungen Schleifmittel, Rückgabebedingungen Schleifmittel, Großhandel Lieferung Schleifmittel, Incoterms Schleifmittel, Exportverpackung, Lieferkonditionen"
     }
   },
   "quickBar": {

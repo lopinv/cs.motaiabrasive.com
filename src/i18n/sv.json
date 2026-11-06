@@ -337,6 +337,37 @@
     "s5b": "MoTai svarar inte för beslut fattade i förlitande på allmän information på sajten. Dessa villkor regleras av lagarna i Folkrepubliken Kina; tvister handläggs enligt parternas köpeavtal.",
     "updated": "Senast uppdaterad 3 november 2026"
   },
+  "shipping": {
+    "h1": "Frakt- och returpolicy",
+    "sub": "Hur beställningar lämnar vår fabrik, och varför slipmedel som tillverkas enligt specifikation inte kan returneras.",
+    "shipTitle": "Fraktpolicy",
+    "shipSub": "Produktion, förpackning och utskick bekräftas tillsammans med din offert.",
+    "s1t": "Produktion och ledtid",
+    "s1b": "Slipband, slipdiskar och slipeskivor konverteras enligt specifikationen i din beställning. Leden räknas från det datum offerten bekräftas skriftligen, inte från det datum förfrågan skickades. Standardreferenser som GXK-51, XZ-330 och GPC71 finns som lagervaror; specialmått, kornstorlekar och OEM-förpackning tillverkas på beställning.",
+    "s2t": "Förpackning och märkning",
+    "s2b": "Varorna packas i exportkartonger med överenskommet antal per förpackning, etiketter, kartongmärken och — i OEM-program — din grafik och streckkod. Pallkonfigurationen bekräftas med packlistan. Fumigering eller ISPM 15-märkning sker där destinationslandet kräver det.",
+    "s3t": "Transport och Incoterms",
+    "s3b": "Utskeppningen ordnas till sjöss (FCL eller LCL) eller med flyg beroende på volym och destination. Handelsklausulen anges i din offert — EXW, FOB, CIF, CFR, DAP och DDP är vanliga. Du kan utse egen speditör; MoTai tillhandahåller då packlista, kartongmärken och fraktdokument.",
+    "s4t": "Dokument och tull",
+    "s4b": "Varje försändelse åtföljs av handelsfaktura, packlista och transportdokument. HS-koder och ursprungscertifikat lämnas för tullclearingen. Importtullar, skatter och tullhantering i destinationslandet går på köparens kostnad om inte offerten anger DDP.",
+    "s5t": "Utskick och leverans",
+    "s5b": "Vi skickar fraktaviseringen med fartygs- eller flightnummer så snart containern eller försändelsen är bokad. Leveranstiden beror på destinationshamn eller flygplats och transportörens schema. Förseningar på grund av trängsel i hamnar, tullkontroll eller force majeure ligger utanför vår kontroll och meddelas så snart de är kända.",
+    "retTitle": "Returpolicy",
+    "retSub": "Våra produkter tillverkas enligt överenskommen specifikation, därför är returer begränsade till definierade fall.",
+    "r1t": "Varor tillverkade enligt specifikation",
+    "r1b": "Slipmedel tillverkas efter din kornstorlek, mått, rygg och förpackning. Eftersom de inte kan säljas vidare som standardlager kan bekräftade specialbeställningar inte returneras eller återbetalas, såvida varorna inte motsvarar den bekräftade specifikationen.",
+    "r2t": "Lagervaror och transportskador",
+    "r2b": "Standardreferensvaror som inte har använts och som finns i originalförpackningen kan i vissa fall returneras efter att vi bekräftat skälet och returvillkoren. Varor som skadats under transport måste anmälas med foton inom 7 dagar efter leverans, och anspråk på transportörens försäkring hanteras via utsedd speditör.",
+    "r3t": "Reklamationer, kontroll och kreditfakturor",
+    "r3b": "Varje reklamation måste ange beställningsnummer, packlista och berörda kartongmärken. Om ett fel konstateras vid kontroll byter vi ut den berörda kvantiteten eller utfärdar en kreditfaktura mot fakturan. Reklamationer som görs mer än 30 dagar efter leverans kan inte accepteras.",
+    "r4t": "Återbetalningar",
+    "r4b": "Om kreditering har avtalats görs en eventuell återbetalning till den ursprungliga betalaren med samma metod som beställningen betalades med, när retur eller utbyte har slutförts eller avskrivits. Bankavgifter för internationella överföringar bärs av den part som mottar återbetalningen.",
+    "r5t": "Tull, avgifter och regelverk",
+    "r5b": "Returer som begärs på grund av importrestriktioner, tullar, tullkontroll eller lokala regelverk behandlas som kommersiella tvister snarare än produktreklamationer, eftersom varorna levererats i enlighet med den bekräftade specifikationen.",
+    "updated": "Senast uppdaterad 6 november 2026",
+    "related": "Frakt- och returvillkor ingår i varje offert. Om en offert anger andra villkor gäller den offerten.",
+    "contact": "Frågor om en försändelse eller reklamation: kontakta vårt säljteam med ditt beställningsnummer och relevanta kartongmärken."
+  },
   "quotePage": {
     "h1": "Starta ett grossistsamtal",
     "sub": "Få grossistpriser direkt från fabriken för slipmedel.",
@@ -730,6 +761,7 @@
     "newsB": "Nyheter & bloggar",
     "privacy": "Integritetspolicy",
     "terms": "Användarvillkor",
+    "shipping": "Frakt och retur",
     "contactUs": "Kontakta oss"
   },
   "tdk": {
@@ -813,6 +845,11 @@
         "MoTai",
         "B2B-slipmedelsleverantör"
       ]
+    },
+    "shipping": {
+      "title": "Frakt- och returpolicy — slipmedelsbeställningar | MoTai",
+      "description": "MoTais frakt- och returpolicy: produktionstid, exportförpackning, Incoterms, tulldokument, utskick och när varor tillverkade enligt specifikation kan returneras eller krediteras.",
+      "keywords": "fraktpolicy slipmedel, returpolicy slipmedel, grossistleverans slipmedel, Incoterms slipmedel, exportförpackning, leveransvillkor"
     },
     "quote": {
       "title": "Begär en offert för slipmedel i grossisthandel | MoTai",

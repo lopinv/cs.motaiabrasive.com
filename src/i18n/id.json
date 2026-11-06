@@ -337,6 +337,37 @@
     "s5b": "MoTai tidak bertanggung jawab atas keputusan yang dibuat berdasarkan informasi umum di situs ini. Syarat ini diatur oleh hukum Republik Rakyat Tiongkok; sengketa diselesaikan di bawah kontrak penjualan antara kedua belah pihak.",
     "updated": "Terakhir diperbarui 3 November 2026"
   },
+  "shipping": {
+    "h1": "Kebijakan Pengiriman dan Pengembalian",
+    "sub": "Bagaimana pesanan meninggalkan pabrik kami, dan mengapa produk abrasif yang diproduksi sesuai spesifikasi tidak dapat dikembalikan.",
+    "shipTitle": "Kebijakan Pengiriman",
+    "shipSub": "Produksi, pengemasan, dan pengiriman dikonfirmasi bersama dengan penawaran Anda.",
+    "s1t": "Produksi dan waktu pengiriman",
+    "s1b": "Sabuk abrasif, piringan amplas, dan piringan flap dikonversi sesuai spesifikasi dalam pesanan Anda. Waktu pengiriman dihitung dari tanggal penawaran dikonfirmasi secara tertulis, bukan dari tanggal permintaan dikirim. Referensi standar seperti GXK-51, XZ-330, dan GPC71 adalah barang siap stok; ukuran khusus, grit khusus, dan kemasan OEM diproduksi berdasarkan pesanan.",
+    "s2t": "Pengemasan dan penandaan",
+    "s2b": "Barang dikemas dalam kardus ekspor dengan jumlah kemasan yang disepakati, label, tanda kardus, dan — untuk program OEM — artwork dan barcode Anda. Konfigurasi palet dikonfirmasi bersama packing list. Fumigasi atau tanda ISPM 15 diterapkan bila negara tujuan mewajibkannya.",
+    "s3t": "Metode pengiriman dan Incoterms",
+    "s3b": "Pengiriman diselenggarakan melalui laut (FCL atau LCL) atau udara, tergantung volume dan tujuan. Syarat perdagangan tercantum dalam penawaran Anda — EXW, FOB, CIF, CFR, DAP, dan DDP umum digunakan. Anda dapat menunjuk forwarder sendiri; MoTai kemudian menyediakan packing list, tanda kardus, dan dokumen pengiriman.",
+    "s4t": "Dokumen dan bea cukai",
+    "s4b": "Setiap kiriman disertai faktur komersial, packing list, dan dokumen transportasi. Kode HS dan sertifikat asal disediakan untuk kepabeanan Anda. Bea masuk, pajak, dan pengurusan bea cukai di negara tujuan menjadi beban pembeli kecuali penawaran menyebutkan DDP.",
+    "s5t": "Pengiriman dan penyerahan",
+    "s5b": "Kami mengirim pemberitahuan pengiriman dengan nomor kapal atau penerbangan segera setelah kontainer atau kiriman dipesan. Waktu penyerahan bergantung pada pelabuhan atau bandara tujuan dan jadwal pengangkut. Keterlambatan akibat kepadatan pelabuhan, pemeriksaan bea cukai, atau keadaan kahar di luar kendali kami dan diberitahukan segera setelah diketahui.",
+    "retTitle": "Kebijakan Pengembalian",
+    "retSub": "Produk kami diproduksi sesuai spesifikasi yang disepakati, sehingga pengembalian dibatasi pada kasus yang ditentukan.",
+    "r1t": "Barang produksi sesuai spesifikasi",
+    "r1b": "Produk abrasif diproduksi sesuai grit, ukuran, bahan penopang, dan kemasan yang Anda tentukan. Karena tidak dapat dijual kembali sebagai stok standar, pesanan khusus yang telah dikonfirmasi tidak dapat dikembalikan dan tidak dapat direfundasi, kecuali barang tidak sesuai dengan spesifikasi yang dikonfirmasi.",
+    "r2t": "Barang stok dan kerusakan pengangkutan",
+    "r2b": "Barang referensi standar yang belum digunakan dan masih dalam kemasan ekspor aslinya dapat dikembalikan secara kasus per kasus setelah kami mengonfirmasi alasannya dan syarat pengembalian. Barang yang rusak dalam pengangkutan harus dilaporkan dengan foto dalam 7 hari sejak penyerahan, dan klaim atas asuransi pengangkut ditangani melalui forwarder yang ditunjuk.",
+    "r3t": "Klaim, pemeriksaan, dan kredit nota",
+    "r3b": "Setiap klaim harus mencantumkan nomor pesanan, packing list, dan tanda kardus yang terkait. Bila cacat terkonfirmasi setelah pemeriksaan, kami mengganti jumlah yang terpengaruh atau menerbitkan kredit nota atas faktur. Klaim yang diajukan lebih dari 30 hari setelah penyerahan tidak dapat diterima.",
+    "r4t": "Pengembalian pembayaran",
+    "r4b": "Bila pemberian kredit disepakati, pengembalian dana (bila ada) dilakukan kepada pembayar asli dengan metode yang sama seperti pembayaran pesanan, setelah pengembalian atau penggantian selesai atau dihapuskan. Biaya bank atas transfer internasional ditanggung pihak yang menerima pengembalian dana.",
+    "r5t": "Bea cukai, bea masuk, dan kepatuhan",
+    "r5b": "Pengembalian yang diminta karena pembatasan impor, bea masuk, pemeriksaan bea cukai, atau aturan kepatuhan setempat diperlakukan sebagai sengketa komersial, bukan klaim produk, karena barang diserahkan sesuai spesifikasi yang dikonfirmasi.",
+    "updated": "Terakhir diperbarui 6 November 2026",
+    "related": "Syarat pengiriman dan pengembalian menjadi bagian dari setiap penawaran. Jika penawaran menyebutkan syarat yang berbeda, penawaran tersebut yang berlaku.",
+    "contact": "Pertanyaan tentang pengiriman atau klaim: hubungi tim penjualan kami dengan nomor pesanan dan tanda kardus terkait."
+  },
   "quotePage": {
     "h1": "Mulai percakapan grosir",
     "sub": "Dapatkan harga grosir langsung dari pabrik untuk produk abrasif.",
@@ -529,7 +560,7 @@
       "products": "Piringan amplas"
     },
     "stainless": {
-      "title": "Finising Baja Tahan Karat",
+      "title": "Penyelesaian Baja Tahan Karat",
       "intro": "Hasil akhir hairline, transisi permukaan, dan fabrikasi baja tahan karat.",
       "uses": "Hairline · Transisi · Fabrikasi",
       "products": "Sabuk abrasif"
@@ -730,6 +761,7 @@
     "newsB": "Berita & Blog",
     "privacy": "Kebijakan Privasi",
     "terms": "Syarat Penggunaan",
+    "shipping": "Pengiriman & Pengembalian",
     "contactUs": "Hubungi Kami"
   },
   "tdk": {
@@ -775,7 +807,7 @@
         "keywords": "bahan abrasif otomotif, pengamplasan bodi mobil, pengamplasan cat mobil, pengamplasan primer"
       },
       "stainless-steel": {
-        "title": "Bahan Abrasif Finising & Poles Baja Tahan Karat | MoTai",
+        "title": "Bahan Abrasif Penyelesaian & Poles Baja Tahan Karat | MoTai",
         "description": "Bahan abrasif untuk baja tahan karat: poles logam, penggerindaan permukaan, dan finising dengan piringan flap dan sabuk MoTai.",
         "keywords": "finising baja tahan karat, poles logam, penggerindaan permukaan, abrasif stainless"
       },
@@ -813,6 +845,11 @@
         "MoTai",
         "pemasok bahan abrasif B2B"
       ]
+    },
+    "shipping": {
+      "title": "Kebijakan Pengiriman dan Pengembalian — Pesanan Abrasif | MoTai",
+      "description": "Kebijakan pengiriman dan pengembalian abrasif MoTai: waktu produksi, kemasan ekspor, Incoterms, dokumen bea cukai, pengiriman, dan kapan barang produksi sesuai spesifikasi dapat dikembalikan atau dikreditkan.",
+      "keywords": "kebijakan pengiriman abrasif, kebijakan pengembalian abrasif, pengiriman grosir abrasif, Incoterms abrasif, kemasan ekspor, syarat pengiriman"
     },
     "quote": {
       "title": "Minta Penawaran Grosir Bahan Abrasif | MoTai",

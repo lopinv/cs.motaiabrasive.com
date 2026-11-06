@@ -70,7 +70,7 @@
     "eyebrow": "Slibemidler fra MoTai-fabrikken i Hubei",
     "heroTitle": "Profesjonell slipemiddelprodusent og leverandør",
     "heroSub": "Slibebånd, slipeplater og slipflatter direkte fra fabrikken til industrielle kjøpere, distributører og private merkenavne — fra Hubei, Kina til markedet ditt.",
-    "cta1": "Be om et detaljistentilbud",
+    "cta1": "Be om et detaljisttilbud",
     "cta2": "Prat med teamet vårt på WhatsApp",
     "builtTitle": "Velg bruksområdet. Match slibemiddelet.",
     "builtSub": "Velg bruksområdet, og match deretter slibemiddelet: bånd, slipeplater eller flapdisker.",
@@ -115,7 +115,7 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Avtale fabrikkbesøk og bekreft møtestedet med vårt team.",
     "finalTitle": "Ser dere etter en pålitelig slibeleverandør?",
     "finalBody": "Del produkt, mengde og bruksområde – vi gjennomgår kravene deres og utarbeider et tilpasset tilbud.",
-    "finalCta1": "Be om engros-tilbud",
+    "finalCta1": "Be om et detaljisttilbud",
     "finalCta2": "Kontakt via WhatsApp",
     "beltsShowTitle": "Slibebånd, etter modell",
     "beltsShowSub": "Referansemodeller for diskusjon med vårt team.",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Innkjøpsveiledning",
-    "title1": "Forbered engrosforespørselen din",
+    "title1": "Forbered engrosforespørselen",
     "body1": "Oppgi ønskede dimensjoner, korn, emne, maskin og sluttbehandling. Bruk de dokumenterte alternativene ovenfor der dette er mulig; andre krav vurderes sammen med teamet vårt.",
     "dl1t": "Antall & leveringssted",
     "dl1b": "Oppgi antall, emballasjebehov og leveringsdestinasjon.",
@@ -184,13 +184,13 @@
     "matTitle": "Selskapsmateriale",
     "matBody": "Utforsk selskapets bakgrunn og kontaktinformasjon i vår brosjyre.",
     "globalTitle": "Fra Hubei til ditt marked",
-    "globalSub": "Global leveranse organisert etter destinasjonsregion.",
+    "globalSub": "Global forsyning organisert etter destinasjonsregion.",
     "facTitle": "Finn oss i Hubei",
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Avtale et fabrikkbesøk med teamet vårt og bekreft møtestedet før du reiser.",
     "profileName": "På et blikk",
     "profileBody": "Produsent av beleggte slibemidler i Xianning, Hubei: tre produktserier levert til sju destinasjonsregioner, med korn fra 40 til 5000.",
     "ctaTitle": "Ser du etter en pålitelig leverandør av slibemidler?",
-    "cta1": "Be om engrosstilbud",
+    "cta1": "Be om et detaljisttilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "factory": {
@@ -219,8 +219,8 @@
     "qc3b": "Pakningsantall, etiketter, kartongmerking og grafisk materiale for eget merke samsvarer med den bekreftede ordren.",
     "certNote": "Sertifiseringsmerker som vises er plassholdere inntil sertifikater er publisert.",
     "ctaTitle": "Foretrekker du å snakke om det?",
-    "ctaSub": "Ser du etter en pålitelig leverandør av slibeprodukter?",
-    "cta1": "Be om engros-tilbud",
+    "ctaSub": "Ser du etter en pålitelig leverandør av slibemidler?",
+    "cta1": "Be om et detaljisttilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "oem": {
@@ -250,7 +250,7 @@
     "pr5b": "Gå videre basert på den bekreftede spesifikasjonen.",
     "pr6t": "Spedisjon",
     "pr6b": "Koordiner pakking og leveringssted.",
-    "cta1": "Be om engrosstilbud",
+    "cta1": "Be om et detaljisttilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "applications": {
@@ -274,7 +274,7 @@
       }
     ],
     "ctaTitle": "Skal du spesifisere for ditt bruksområde?",
-    "cta1": "Be om engrosstilbud",
+    "cta1": "Be om et detaljisttilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "blogIndex": {
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Se",
-    "discuss": "Drøft spesifikasjonen din",
+    "discuss": "Diskuter spesifikasjonen din",
     "catSelection": "Valguide",
     "catBuyer": "Kjøperressurser",
     "catNotes": "Bruksnotater",
@@ -337,6 +337,37 @@
     "s5b": "MoTai er ikke ansvarlig for beslutninger som er truffet med utgangspunkt i generell informasjon på dette nettstedet. Disse vilkårene er underlagt Folkerepublikkin Kinas rett; tvister løses etter salgskontrakten mellom partene.",
     "updated": "Sist oppdatert 3. november 2026"
   },
+  "shipping": {
+    "h1": "Frakt- og returpolicy",
+    "sub": "Hvordan bestillinger forlater fabrikken vår, og hvorfor slipemidler produsert etter spesifikasjon ikke kan returneres.",
+    "shipTitle": "Fraktpolicy",
+    "shipSub": "Produksjon, emballasje og utsendelse bekreftes sammen med tilbudet.",
+    "s1t": "Produksjon og leveringstid",
+    "s1b": "Slibebånd, slipeplater og slipflatter konverteres etter spesifikasjonen i din bestilling. Leveringstiden regnes fra datoen tilbudet bekreftes skriftlig, ikke fra datoen henvendelsen ble sendt. Standardreferanser som GXK-51, XZ-330 og GPC71 er lagerførte varer; spesialmål, kornstørrelser og OEM-emballasje produseres på bestilling.",
+    "s2t": "Emballasje og merking",
+    "s2b": "Varene pakkes i eksportkartonger med avtalt pakkeantall, etiketter, kartongmerker og — for OEM-programmer — din grafikk og strekkode. Pallkonfigurasjonen bekreftes med pakkelisten. Fumigering eller ISPM 15-merking brukes der destinasjonslandet krever det.",
+    "s3t": "Transportmåte og Incoterms",
+    "s3b": "Forsendelsen skjer til sjøs (FCL eller LCL) eller med fly, avhengig av volum og destinasjon. Handelsklausulen står i tilbudet — EXW, FOB, CIF, CFR, DAP og DDP er vanlige. Du kan oppgi egen speditør; MoTai leverer da pakkelist, kartongmerker og fraktdokumenter.",
+    "s4t": "Dokumenter og toll",
+    "s4b": "Hver forsendelse ledsages av handelsfaktura, pakkelist og transportdokument. HS-koder og opphavssertifikater utstedes for tollclearing. Importtoll, skatter og tollbehandling i destinasjonslandet betales av kjøperen med mindre tilbudet oppgir DDP.",
+    "s5t": "Utsendelse og levering",
+    "s5b": "Vi sender forsendelsesvarslet med skips- eller flynummer så snart containeren eller forsendelsen er booket. Leveringstiden avhenger av anløpshavn eller flyplass og transportørens ruteplan. Forsinkelser grunnet kø i havn, tollkontroll eller force majeure er utenfor vår kontroll og varsles så snart de er kjent.",
+    "retTitle": "Returpolicy",
+    "retSub": "Produktene våre produseres etter avtalt spesifikasjon, og retur er derfor begrenset til definerte tilfeller.",
+    "r1t": "Varer produsert etter spesifikasjon",
+    "r1b": "Slipemidler produseres etter din kornstørrelse, mål, rygg og emballasje. Siden de ikke kan selges videre som standardlager, kan bekreftede spesialbestillinger ikke returneres eller refunderes, med mindre varene ikke samsvarer med den bekreftede spesifikasjonen.",
+    "r2t": "Lagervarer og transportskade",
+    "r2b": "Standardreferansevarer som ikke er brukt og fortsatt er i original emballasje, kan i enkelte tilfeller returneres etter at vi har bekreftet årsak og returvilkår. Varer som er skadet under transport, må meldes med bilder innen 7 dager etter levering, og krav på transportørens forsikring behandles via oppgitt speditør.",
+    "r3t": "Reklamasjoner, kontroll og kreditnota",
+    "r3b": "Enhver reklamasjon må oppgi bestillingsnummer, pakkelist og relevante kartongmerker. Dersom en mangel bekreftes etter kontroll, erstatter vi den berørte mengden eller utsteder kreditnota på fakturaen. Reklamasjoner fremsatt mer enn 30 dager etter levering kan ikke aksepteres.",
+    "r4t": "Refusjon av betaling",
+    "r4b": "Dersom kreditering er avtalt, refunderes beløpet til opprinnelig betaler med samme metode som bestillingen ble betalt med, etter at retur eller erstatning er fullført eller avskrevet. Bankgebyrer på internasjonale overføringer bæres av parten som mottar refusjonen.",
+    "r5t": "Toll, avgifter og regelverk",
+    "r5b": "Retur ønsket grunnet importrestriksjoner, toll, tollkontroll eller lokale regelverk behandles som kommersielle tvister, ikke som produktreklamasjoner, fordi varene ble levert i samsvar med den bekreftede spesifikasjonen.",
+    "updated": "Sist oppdatert 6. november 2026",
+    "related": "Frakt- og returvilkår inngår i hvert tilbud. Dersom et tilbud oppgir andre vilkår, er det tilbudet som gjelder.",
+    "contact": "Spørsmål om en forsendelse eller reklamasjon: kontakt salgsteamet vårt med bestillingsnummer og relevante kartongmerker."
+  },
   "quotePage": {
     "h1": "Start en dialog om engros",
     "sub": "Få engrospriser direkte fra fabrikken for slibeprodukter.",
@@ -366,7 +397,7 @@
     "f15": "OEM-krav",
     "f16": "Tilleggsopplysninger *",
     "consent": "Jeg godtar personvernerklæringen, bruksvilkårene og bruken av opplysningene mine til å svare på denne forespørselen. *",
-    "btn1": "Be om engrosstilbud",
+    "btn1": "Be om et detaljisttilbud",
     "btn2": "Send forespørsel via WhatsApp",
     "goNote": "Skjemaet åpnes i systemet vårt for engrosforespørsler med produktinformasjonen din forhåndsutfylt."
   },
@@ -730,6 +761,7 @@
     "newsB": "Nyheter & blogg",
     "privacy": "Personvernpolicy",
     "terms": "Brukervilkår",
+    "shipping": "Frakt og retur",
     "contactUs": "Kontakt oss"
   },
   "tdk": {
@@ -813,6 +845,11 @@
         "MoTai",
         "B2B slibleverandør"
       ]
+    },
+    "shipping": {
+      "title": "Frakt- og returpolicy — slipemiddelbestillinger | MoTai",
+      "description": "MoTais frakt- og returpolicy: produksjonstid, eksportemballasje, Incoterms, tolldokumenter, utsendelse og når varer produsert etter spesifikasjon kan returneres eller krediteres.",
+      "keywords": "fraktpolicy slipemidler, returpolicy slipemidler, engros levering slipemidler, Incoterms slipemidler, eksportemballasje, leveringsvilkår"
     },
     "quote": {
       "title": "Be om et detaljistentilbud på slipemidler | MoTai",

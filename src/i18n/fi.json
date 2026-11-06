@@ -115,8 +115,8 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kiina. Sopikaa tehdaskäynti tiimimme kanssa ja vahvistakaa tapaamispaikka.",
     "finalTitle": "Etsittekö luotettavaa hiomatuotteiden toimittajaa?",
     "finalBody": "Ilmoittakaa tuote, määrä ja sovellus — tarkastelemme vaatimustanne ja valmistelemme vastaavan tarjouksen.",
-    "finalCta1": "Pyytäkää tukkutarjous",
-    "finalCta2": "Ottakaa yhteyttä WhatsAppilla",
+    "finalCta1": "Pyydä tukkuhinta",
+    "finalCta2": "Yhteys WhatsAppin kautta",
     "beltsShowTitle": "Hiomahihnat malleittain",
     "beltsShowSub": "Malliviitteet keskustelua varten tiimimme kanssa.",
     "prepTitle": "Valmistelkaa tukkutiedustuksenne",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Hankintaohje",
-    "title1": "Valmistele tukkutiedustuksenne",
+    "title1": "Valmistelkaa tukkutiedustuksenne",
     "body1": "Ilmoittakaa tarvitsemanne mitat, karkeus, työkappale, kone ja haluttu lopputulos. Käyttäkä yllä kuvattuja valinnanmahdollisuuksia niiden ollessa käytettävissä; muut vaatimukset käydään läpi tiimimme kanssa.",
     "dl1t": "Määrä ja toimituspaikka",
     "dl1b": "Ilmoittakaa määrä, pakkaustarpeet ja toimituspaikka.",
@@ -190,8 +190,8 @@
     "profileName": "Yhdellä silmäyksellä",
     "profileBody": "Päällystettyjen hioma-aineiden valmistaja Xianningissa, Hubeissa: kolme tuotelinjaa toimitetaan seitsemään kohdealueelle, karkeusvalikoima 40–5000.",
     "ctaTitle": "Etsitkö luotettavaa hioma-ainetoimittajaa?",
-    "cta1": "Pyydä tukkutarjous",
-    "cta2": "Ota yhteyttä WhatsApilla"
+    "cta1": "Pyydä tukkuhinta",
+    "cta2": "Yhteys WhatsAppin kautta"
   },
   "factory": {
     "h1": "MoTain työpajassa",
@@ -219,9 +219,9 @@
     "qc3b": "Pakkausmäärät, etiketit, kartonkimerkinnät ja oman brändin painokuvat vastaavat vahvistettua tilausta.",
     "certNote": "Näkyvät sertifiointimerkinnät ovat paikkamerkkejä, kunnes sertifikaatit on julkaistu.",
     "ctaTitle": "Haluatteko käydä keskustelua?",
-    "ctaSub": "Etsittekö luotettavaa hiomamateriaalin toimittajaa?",
-    "cta1": "Pyydät tukkutarjousta",
-    "cta2": "Ottakaa yhteyttä WhatsAppilla"
+    "ctaSub": "Etsitkö luotettavaa hioma-ainetoimittajaa?",
+    "cta1": "Pyydä tukkuhinta",
+    "cta2": "Yhteys WhatsAppin kautta"
   },
   "oem": {
     "h1": "Nimenne pakkauksessa",
@@ -250,8 +250,8 @@
     "pr5b": "Tuotamme vahvistettujen teknisten tietojen mukaisesti.",
     "pr6t": "Lähetys",
     "pr6b": "Koordinoimme pakkauksen ja toimituksen.",
-    "cta1": "Pyytäkää tukkutarjous",
-    "cta2": "Ottakaa yhteyttä WhatsAppilla"
+    "cta1": "Pyydä tukkuhinta",
+    "cta2": "Yhteys WhatsAppin kautta"
   },
   "applications": {
     "h1": "Hioma-aineet teollisuusalallenne",
@@ -274,8 +274,8 @@
       }
     ],
     "ctaTitle": "Eritteletkö tuotteita alanne osalta?",
-    "cta1": "Pyydä tukkutarjous",
-    "cta2": "Ota yhteyttä WhatsApilla"
+    "cta1": "Pyydä tukkuhinta",
+    "cta2": "Yhteys WhatsAppin kautta"
   },
   "blogIndex": {
     "h1": "Parempi tieto. Parempi valinta.",
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Katso",
-    "discuss": "Keskustelkaa teknisistä vaatimuksistanne",
+    "discuss": "Keskustele määrittäsestäsi",
     "catSelection": "Valintaopas",
     "catBuyer": "Ostajien aineistot",
     "catNotes": "Sovellusohjeet",
@@ -337,6 +337,37 @@
     "s5b": "MoTai ei vastaa päätöksistä, jotka on tehty tämän sivuston yleisen tiedon perusteella. Näihin ehtoihin sovelletaan Kiinan kansantasvallon lakua; riidat ratkaistaan osapuolten välisen myyntisopimuksen mukaisesti.",
     "updated": "Viimeksi päivitetty 3. marraskuuta 2026"
   },
+  "shipping": {
+    "h1": "Toimitus- ja palautusehdot",
+    "sub": "Näin tilaukset lähtevät tehtaalta ja miksi spesifikaation mukaan valmistetut hankaustuotteet eivät ole palautettavissa.",
+    "shipTitle": "Toimitusehdot",
+    "shipSub": "Valmistus, pakkaus ja lähetys vahvistetaan yhdessä tarjouksen kanssa.",
+    "s1t": "Valmistus ja toimitusaika",
+    "s1b": "Hiontalankat, hiontapaperit ja hiontapalat valmistetaan tilauksesi mukaisen spesifikaation mukaan. Toimitusaika alkaa päivästä, jona tarjous vahvistetaan kirjallisesti — ei päivästä, jona kysely lähetettiin. Vakioreferenssit kuten GXK-51, XZ-330 ja GPC71 ovat varastotuotteita; erikoiskoot, raekoot ja OEM-pakkaukset valmistetaan tilauksesta.",
+    "s2t": "Pakkaus ja merkinnät",
+    "s2b": "Tuotteet pakataan vientilaatikoihin sovitulla pakkausmäärällä, etiketeillä, laatikkomerkinnöillä ja OEM-ohjelmissa myös omalla grafiikallasi ja viivakoodillasi. Kuormalavojen kokoonpano vahvistetaan pakkauslistassa. Fumigointi tai ISPM 15 -merkinnät tehdään, jos kohdemaa vaatii niitä.",
+    "s3t": "Kuljetustapa ja Incoterms",
+    "s3b": "Lähetys järjestetään merikuljetuksena (FCL tai LCL) tai lentorahtina määrän ja kohteen mukaan. Kauppaehto mainitaan tarjouksessa — yleisimpiä ovat EXW, FOB, CIF, CFR, DAP ja DDP. Voit nimetä oman huolitsijan; MoTai toimittaa silloin pakkauslistan, laatikkomerkinnät ja kuljetusasiakirjat.",
+    "s4t": "Asiakirjat ja tulli",
+    "s4b": "Jokaisen lähetyksen mukana tulee kauppalasku, pakkauslista ja kuljetusasiakirja. HS-koodit ja alkuperätodistukset toimitetaan tulliselvitystä varten. Tuontitullit, verot ja tulliselvitys kohdemaassa kuuluvat ostajalle, ellei tarjous sisällä DDP-toimitusta.",
+    "s5t": "Lähetys ja toimitus",
+    "s5b": "Lähetämme lähetysilmoituksen laiva- tai lentonumerolla, kun kontti tai lähetys on varattu. Toimitusaika riippuu kohdesatamasta tai -lentokentästä ja kuljettajan aikataulusta. Satamien ruuhkien, tullitarkastusten tai ylivoiman aiheuttamat viivästykset eivät ole hallinnassamme, ja niistä ilmoitetaan heti, kun ne tiedetään.",
+    "retTitle": "Palautusehdot",
+    "retSub": "Tuotteemme valmistetaan sovitun spesifikaation mukaan, minkä vuoksi palautukset rajoittuvat määriteltyihin tapauksiin.",
+    "r1t": "Spesifikaation mukaan valmistetut tuotteet",
+    "r1b": "Hankaustuotteet valmistetaan ilmoittamasi raekoon, koon, pohjakankaan ja pakkauksen mukaan. Koska niitä ei voi myydä edelleen vakiovarastona, vahvistettuja mittatilaustuotteita ei voi palauttaa eikä hyvittää, ellei kyseessä ole tuote, joka ei vastaa vahvistettua spesifikaatiota.",
+    "r2t": "Varastotuotteet ja kuljetusvauriot",
+    "r2b": "Vakioreferenssituotteita, joita ei ole käytetty ja jotka ovat alkuperäisessä vientipakkauksessaan, voidaan palauttaa tapauskohtaisesti, kun olemme vahvistaneet syyn ja palautusehdot. Kuljetuksessa vaurioituneet tuotteet on ilmoitettava valokuvineen 7 päivän kuluessa toimituksesta, ja kuljettajan vakuutusvaatimukset käsitellään nimetyn huolitsijan kautta.",
+    "r3t": "Reklamaatiot, tarkastus ja hyvityslaskut",
+    "r3b": "Jokaisen reklamaation on sisällettävä tilausnumero, pakkauslista ja kyseisten laatikoiden merkinnät. Jos vika todetaan tarkastuksessa, joko korvaamme kyseisen määrän tai myönnämme hyvityslaskun laskuun. Yli 30 päivää toimituksen jälkeen tehdyt reklamaatiot eivät ole vastaanotettavissa.",
+    "r4t": "Maksujen palautukset",
+    "r4b": "Kun hyvityksestä on sovittu, mahdollinen palautus maksetaan alkuperäiselle maksajalle samalla maksutavalla kuin tilaus, kun palautus tai korvaus on valmis tai kirjattu. Kansainvälisten tilisiirtojen pankkikulut kantaa se osapuoli, joka saa palautuksen.",
+    "r5t": "Tulli, tullimaksut ja säännökset",
+    "r5b": "Palautukset, jotka johtuvat tuontirajoituksista, tulleista, tullitarkastuksista tai paikallisista säännöksistä, käsitellään kaupallisina riitoina eikä tuotevaatimuksina, koska tuotteet toimitettiin vahvistetun spesifikaation mukaisina.",
+    "updated": "Päivitetty 6. marraskuuta 2026",
+    "related": "Toimitus- ja palautusehdot kuuluvat jokaiseen tarjoukseen. Jos tarjous sisältää poikkeavia ehtoja, tarjous on ensisijainen.",
+    "contact": "Kysymykset lähetyksestä tai reklamaatiosta: ota yhteyttä myyntitiimiimme tilausnumeron ja kyseisten laatikoiden merkintöjen kanssa."
+  },
   "quotePage": {
     "h1": "Aloittakaa tukkukauppakeskustelu",
     "sub": "Hiomatuotteiden tukkuhinnat suoraan tehtaasta.",
@@ -366,7 +397,7 @@
     "f15": "OEM-vaatimukset",
     "f16": "Lisätiedot *",
     "consent": "Hyväksyn tietosuojakäytännön, käyttöehdot sekä tietojeni käytön tähän tiedusteluun vastaamiseksi. *",
-    "btn1": "Pyydä tukkutarjous",
+    "btn1": "Pyydä tukkuhinta",
     "btn2": "Lähetä tiedustelu WhatsApilla",
     "goNote": "Lomake avautuu tukkutiedustelujärjestelmään, jolloin tuotetietojanne on esitäytettynä."
   },
@@ -730,6 +761,7 @@
     "newsB": "Uutiset & blogi",
     "privacy": "Tietosuoja",
     "terms": "Käyttöehdot",
+    "shipping": "Toimitus ja palautukset",
     "contactUs": "Ota yhteyttä"
   },
   "tdk": {
@@ -813,6 +845,11 @@
         "MoTai",
         "B2B-hiomatarpeiden toimittaja"
       ]
+    },
+    "shipping": {
+      "title": "Toimitus- ja palautusehdot — hankaustilaukset | MoTai",
+      "description": "MoTain toimitus- ja palautusehdot: valmistusaika, vientipakkaus, Incoterms, tulliasiakirjat, lähetys ja se, milloin spesifikaation mukaan valmistetut tuotteet voi palauttaa tai hyvittää.",
+      "keywords": "hankaustuotteiden toimitusehdot, hankaustuotteiden palautukset, tukkutoimitukset, Incoterms, vientipakkaus, toimitusajat"
     },
     "quote": {
       "title": "Pyydä hiomatarpeiden tukkuhinta | MoTai",

@@ -337,6 +337,37 @@
     "s5b": "MoTai n'est pas responsable des décisions prises sur la base d'informations générales de ce site. Ces conditions sont soumises au droit de la République populaire de Chine ; les litiges sont réglés selon le contrat de vente entre les parties.",
     "updated": "Dernière mise à jour le 3 novembre 2026"
   },
+  "shipping": {
+    "h1": "Politique d'expédition et de retour",
+    "sub": "Comment les commandes quittent notre usine — et pourquoi les abrasifs fabriqués selon vos spécifications ne sont pas retournables.",
+    "shipTitle": "Politique d'expédition",
+    "shipSub": "La production, l'emballage et l'expédition sont confirmés conjointement avec votre devis.",
+    "s1t": "Production et délai",
+    "s1b": "Les bandes abrasives, disques de ponçage et disques à lamelles sont convertis selon les spécifications de votre commande. Le délai part de la date de confirmation écrite du devis, et non de la date d'envoi de la demande. Les références standard telles que GXK-51, XZ-330 et GPC71 sont des articles de stock : les dimensions spéciales, grains et emballages OEM sont fabriqués à la commande.",
+    "s2t": "Emballage et marquage",
+    "s2b": "Les marchandises sont emballées en cartons d'exportation, avec la quantité par colis convenue, les étiquettes, les marques de carton et — pour les programmes OEM — votre graphisme et votre code-barres. La configuration des palettes est confirmée avec la liste de colisage. La fumigation ou les marquages ISPM 15 sont appliqués lorsque le pays de destination l'exige.",
+    "s3t": "Mode d'expédition et Incoterms",
+    "s3b": "L'expédition est organisée par mer (FCL ou LCL) ou par air, selon le volume et la destination. La clause commerciale figure sur votre devis — EXW, FOB, CIF, CFR, DAP et DDP sont couramment utilisés. Vous pouvez désigner votre propre transitaire ; MoTai fournit alors la liste de colisage, les marques de carton et les documents d'expédition.",
+    "s4t": "Documents et douane",
+    "s4b": "Chaque envoi est accompagné d'une facture commerciale, d'une liste de colisage et d'un document de transport. Les codes SH et les certificats d'origine sont fournis pour votre dédouanement. Les droits d'importation, taxes et dédouanement dans le pays de destination sont à la charge de l'acheteur, sauf si le devis mentionne DDP.",
+    "s5t": "Expédition et livraison",
+    "s5b": "Nous envoyons l'avis d'expédition avec le numéro de navire ou de vol dès que le conteneur ou l'envoi est réservé. Le délai de livraison dépend du port ou de l'aéroport de destination et de l'horaire du transporteur. Les retards dus à l'encombrement portuaire, aux contrôles douaniers ou à la force majeure échappent à notre contrôle et sont notifiés dès qu'ils sont connus.",
+    "retTitle": "Politique de retour",
+    "retSub": "Nos produits sont fabriqués selon les spécifications convenues : les retours sont donc limités à des cas définis.",
+    "r1t": "Marchandises fabriquées selon vos spécifications",
+    "r1b": "Les produits abrasifs sont fabriqués selon votre grain, vos dimensions, votre support et votre emballage. Ne pouvant être écoulés comme stock standard, les commandes spéciales confirmées ne sont ni retournables ni remboursables, sauf si la marchandise ne correspond pas aux spécifications confirmées.",
+    "r2t": "Articles de stock et dommages au transport",
+    "r2b": "Les articles de référence standard non utilisés et encore dans leur emballage d'exportation d'origine peuvent être retournés au cas par cas, après confirmation par nos soins du motif et des conditions de retour. Les marchandises endommagées pendant le transport doivent être signalées avec photos dans les 7 jours suivant la livraison ; les réclamations auprès de l'assurance du transporteur passent par le transitaire désigné.",
+    "r3t": "Réclamations, inspection et avoirs",
+    "r3b": "Toute réclamation doit mentionner le numéro de commande, la liste de colisage et les marques de carton concernées. Si un défaut est confirmé après inspection, nous remplaçons la quantité concernée ou émettons un avoir sur la facture. Les réclamations formulées plus de 30 jours après la livraison ne peuvent être acceptées.",
+    "r4t": "Remboursements",
+    "r4b": "Lorsqu'un avoir est convenu, tout remboursement est effectué au payeur d'origine par le même moyen que celui utilisé pour la commande, une fois le retour ou le remplacement achevé ou annulé. Les frais bancaires des virements internationaux sont à la charge de la partie recevant le remboursement.",
+    "r5t": "Douane, droits et conformité",
+    "r5b": "Les retours demandés en raison de restrictions à l'importation, de droits, de contrôles douaniers ou de règles de conformité locales relèvent de litiges commerciaux plutôt que de réclamations produit, la marchandise ayant été livrée conformément aux spécifications confirmées.",
+    "updated": "Dernière mise à jour : 6 novembre 2026",
+    "related": "Les conditions d'expédition et de retour font partie de chaque devis. Si un devis prévoit des conditions différentes, ce devis prévaut.",
+    "contact": "Questions sur un envoi ou une réclamation : contactez notre équipe commerciale avec votre numéro de commande et les marques de carton concernées."
+  },
   "quotePage": {
     "h1": "Ouvrir une conversation grossiste",
     "sub": "Obtenez des prix de gros directs usine pour les produits abrasifs.",
@@ -730,7 +761,8 @@
     "newsB": "Actualités & Blog",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "contactUs": "Contact"
+    "contactUs": "Contact",
+    "shipping": "Expédition & retours"
   },
   "tdk": {
     "home": {
@@ -870,6 +902,11 @@
         "description": "Le catalogue complet MoTai : bandes abrasives industrielles, disques de ponçage et disques à lamelles pour distributeurs, importateurs, grossistes et marques OEM. Gros direct, personnalisation et exportation depuis Hubei, Chine.",
         "keywords": "produits d'abrasifs, produits d'abrasifs en gros, abrasifs industriels, abrasifs recouverts, abrasifs en gros, usine de produits d'abrasifs, exportateur de produits d'abrasifs, fournisseur d'abrasifs Chine, fabricant OEM d'abrasifs, abrasifs de marque de commerce, produits d'abrasifs sur mesure, approvisionnements d'abrasifs en vrac, usine d'abrasifs, outils d'abrasifs, matériaux d'abrasifs, produits de ponçage, produits de finition de surface, papier de ponçage, feuilles de papier de ponçage, papier de ponçage rond, papier de ponçage en gros, disque de ponçage, disque Velcro, disque 5 pouces, disque 6 pouces, disque à lamelles non tissé, tissu de ponçage, rouleau de brosse industriel"
       }
+    },
+    "shipping": {
+      "title": "Politique d'expédition et de retour — Commandes d'abrasifs | MoTai",
+      "description": "Politique d'expédition et de retour des abrasifs MoTai : délai de production, emballage d'exportation, Incoterms, documents douaniers, expédition et conditions de retour ou d'avoir des marchandises fabriquées selon spécifications.",
+      "keywords": "politique d'expédition abrasifs, politique de retour abrasifs, livraison en gros abrasifs, Incoterms abrasifs, emballage d'exportation, conditions de livraison"
     }
   },
   "quickBar": {

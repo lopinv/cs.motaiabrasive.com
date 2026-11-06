@@ -1,0 +1,59 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../lib/tdk.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const { pick, lu } = usePage(lang)
+const p = pick('shipping')
+const seo = buildSeo(lang, 'shipping', {}, [
+  breadcrumbJsonLd(lang, [{ name: p.h1, path: `/${lang}/shipping` }])
+])
+const shipSections = ['s1', 's2', 's3', 's4', 's5']
+const retSections = ['r1', 'r2', 'r3', 'r4', 'r5']
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{p.h1}</span></div>
+
+  <section class="section wrap">
+    <span class="eyebrow">SHIPPING & RETURNS</span>
+    <h1>{p.h1}</h1>
+    <p class="lead">{p.sub}</p>
+  </section>
+
+  <div class="section wrap section--flush-top">
+    <div class="prose">
+      <section>
+        <h2>{p.shipTitle}</h2>
+        <p>{p.shipSub}</p>
+      </section>
+      {shipSections.map((s, i) => (
+        <section>
+          <h3>{i + 1}. {pick(`shipping.${s}t`)}</h3>
+          <p>{pick(`shipping.${s}b`)}</p>
+        </section>
+      ))}
+
+      <section>
+        <h2>{p.retTitle}</h2>
+        <p>{p.retSub}</p>
+      </section>
+      {retSections.map((s, i) => (
+        <section>
+          <h3>{i + 1}. {pick(`shipping.${s}t`)}</h3>
+          <p>{pick(`shipping.${s}b`)}</p>
+        </section>
+      ))}
+
+      <p>{p.related}</p>
+      <p>{p.contact}</p>
+      <p class="small-note">{p.updated}</p>
+    </div>
+  </div>
+</Shell>

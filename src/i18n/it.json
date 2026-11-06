@@ -337,6 +337,37 @@
     "s5b": "MoTai non è responsabile di decisioni basate su informazioni generali di questo sito. I termini sono regolati dal diritto della Repubblica Popolare Cinese; le controversie si risolvono secondo il contratto di vendita tra le parti.",
     "updated": "Ultimo aggiornamento 3 novembre 2026"
   },
+  "shipping": {
+    "h1": "Politica di spedizione e resi",
+    "sub": "Come gli ordini lasciano il nostro stabilimento e perché gli abrasivi prodotti su specifica non sono restituibili.",
+    "shipTitle": "Politica di spedizione",
+    "shipSub": "Produzione, imballaggio e spedizione vengono confermati insieme al preventivo.",
+    "s1t": "Produzione e tempi di consegna",
+    "s1b": "Nastri abrasivi, dischi da smerigliatura e dischi a lamelle vengono realizzati secondo le specifiche del tuo ordine. Il tempo di consegna decorre dalla data di conferma scritta del preventivo, non dalla data di invio della richiesta. I riferimenti standard come GXK-51, XZ-330 e GPC71 sono articoli pronti a magazzino; dimensioni, granulometrie e imballi OEM speciali vengono prodotti su ordine.",
+    "s2t": "Imballaggio e marcatura",
+    "s2b": "La merce viene imballata in cartoni da esportazione con la quantità di imballo concordata, le etichette, le marcature dei cartoni e — per i programmi OEM — la tua grafica e il codice a barre. La configurazione del pallet viene confermata con la packing list. La fumigazione o le marcature ISPM 15 vengono applicate quando il paese di destinazione lo richiede.",
+    "s3t": "Modalità di spedizione e Incoterms",
+    "s3b": "La spedizione è organizzata via mare (FCL o LCL) o via aerea, in base al volume e alla destinazione. Il termine commerciale è indicato sul preventivo — EXW, FOB, CIF, CFR, DAP e DDP sono i più usati. Puoi indicare il tuo spedizioniere; MoTai fornisce allora packing list, marcature dei cartoni e documenti di spedizione.",
+    "s4t": "Documenti e dogana",
+    "s4b": "Ogni spedizione è accompagnata da fattura commerciale, packing list e documento di trasporto. I codici HS e i certificati d'origine vengono forniti per lo sdoganamento. Dazi all'importazione, imposte e sdoganamento nel paese di destinazione sono a carico dell'acquirente, salvo diversa indicazione DDP sul preventivo.",
+    "s5t": "Spedizione e consegna",
+    "s5b": "Inviamo l'avviso di spedizione con il numero del piroscafo o del volo non appena il container o la spedizione viene prenotata. Il tempo di consegna dipende dal porto o dall'aeroporto di destinazione e dalla programmazione del vettore. I ritardi dovuti a congestione portuale, controlli doganali o forza maggiore sono fuori dal nostro controllo e vengono notificati non appena noti.",
+    "retTitle": "Politica di reso",
+    "retSub": "I nostri prodotti sono fabbricati secondo le specifiche concordate: per questo i resi sono limitati a casi definiti.",
+    "r1t": "Merci prodotte su specifica",
+    "r1b": "I prodotti abrasivi vengono fabbricati secondo la granulometria, le dimensioni, il supporto e l'imballo da te indicati. Poiché non possono essere rivenduti come scorte standard, gli ordini speciali confermati non sono restituibili né rimborsabili, salvo che la merce non corrisponda alle specifiche confermate.",
+    "r2t": "Articoli a magazzino e danni da trasporto",
+    "r2b": "Gli articoli a riferimento standard non utilizzati e ancora nell'imballo da esportazione originale possono essere restituiti caso per caso, dopo che avremo confermato il motivo e le condizioni di reso. Le merci danneggiate durante il trasporto devono essere segnalate con fotografie entro 7 giorni dalla consegna; le richieste sull'assicurazione del vettore vengono gestite tramite lo spedizioniere indicato.",
+    "r3t": "Reclami, ispezione e note di credito",
+    "r3b": "Ogni reclamo deve riportare il numero d'ordine, la packing list e le marcature dei cartoni interessati. Se dopo l'ispezione viene confermato un difetto, sostituiamo la quantità interessata o emettiamo una nota di credito sulla fattura. I reclami presentati oltre 30 giorni dopo la consegna non possono essere accettati.",
+    "r4t": "Rimborsi dei pagamenti",
+    "r4b": "Quando viene concordato un credito, l'eventuale rimborso viene effettuato al pagatore originario con lo stesso metodo usato per l'ordine, una volta completati o stornati il reso o la sostituzione. Le spese bancarie sui bonifici internazionali sono a carico della parte che riceve il rimborso.",
+    "r5t": "Dogana, dazi e conformità",
+    "r5b": "I resi richiesti a causa di restrizioni all'importazione, dazi, controlli doganali o norme locali di conformità vengono trattati come controversie commerciali e non come reclami di prodotto, poiché la merce è stata consegnata secondo le specifiche confermate.",
+    "updated": "Ultimo aggiornamento: 6 novembre 2026",
+    "related": "Le condizioni di spedizione e reso fanno parte di ogni preventivo. Se un preventivo indica condizioni diverse, prevale quel preventivo.",
+    "contact": "Domande su una spedizione o un reclamo: contatta il nostro team vendite indicando il numero d'ordine e le marcature dei cartoni interessati."
+  },
   "quotePage": {
     "h1": "Apri una conversazione all'ingrosso",
     "sub": "Prezzi all'ingrosso diretti dalla fabbrica per prodotti abrasivi.",
@@ -730,7 +761,8 @@
     "newsB": "News e Blog",
     "privacy": "Informativa Privacy",
     "terms": "Termini di utilizzo",
-    "contactUs": "Contattaci"
+    "contactUs": "Contattaci",
+    "shipping": "Spedizione e resi"
   },
   "tdk": {
     "home": {
@@ -870,6 +902,11 @@
         "description": "Il catalogo completo MoTai: nastri abrasivi industriali, dischi di carteggiatura e dischi lamellari per distributori, importatori, grossisti e marchi OEM. All'ingrosso diretto, personalizzazione ed export dalla Hubei, Cina.",
         "keywords": "prodotti di abrasivi, prodotti di abrasivi all'ingrosso, abrasivi industriali, abrasivi rivestiti, abrasivi all'ingrosso, fabbrica di prodotti di abrasivi, esportatore di prodotti di abrasivi, fornitore di abrasivi Cina, produttore OEM di abrasivi, abrasivi di marca propria, prodotti di abrasivi personalizzati, forniture di abrasivi in massa, fabbrica di abrasivi, utensili di abrasivo, materiali di abrasivo, prodotti di carteggiatura, prodotti di finitura superficiale, carta abrasiva, fogli di carta abrasiva, carta abrasiva rotonda, carta abrasiva all'ingrosso, base di carteggiatura, base a velcro, base 5 pollici, base 6 pollici, disco lamellare non tessuto, panno abrasivo, rullo di spazzola industriale"
       }
+    },
+    "shipping": {
+      "title": "Politica di spedizione e resi — Ordini di abrasivi | MoTai",
+      "description": "Politica di spedizione e resi degli abrasivi MoTai: tempi di produzione, imballo da esportazione, Incoterms, documenti doganali, spedizione e quando le merci prodotte su specifica possono essere rese o accreditate.",
+      "keywords": "politica di spedizione abrasivi, politica di reso abrasivi, consegna all'ingrosso abrasivi, Incoterms abrasivi, imballo da esportazione, condizioni di consegna"
     }
   },
   "quickBar": {

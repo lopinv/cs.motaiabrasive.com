@@ -337,6 +337,37 @@
     "s5b": "MoTai không chịu trách nhiệm cho các quyết định dựa trên thông tin chung trong trang web này. Các điều khoản này tuân theo pháp luật nước Cộng hòa Nhân dân Trung Hoa; tranh chấp được giải quyết theo hợp đồng mua bán giữa các bên.",
     "updated": "Cập nhật lần cuối ngày 03 tháng 11 năm 2026"
   },
+  "shipping": {
+    "h1": "Chính sách vận chuyển và đổi trả",
+    "sub": "Đơn hàng rời nhà máy của chúng tôi như thế nào và tại sao sản phẩm mài sản xuất theo đặc tả không thể đổi trả.",
+    "shipTitle": "Chính sách vận chuyển",
+    "shipSub": "Việc sản xuất, đóng gói và gửi hàng được xác nhận cùng với báo giá của bạn.",
+    "s1t": "Sản xuất và thời gian giao hàng",
+    "s1b": "Dây băng mài, đĩa mài và đĩa mài nhiều lớp được gia công theo đặc tả trong đơn hàng của bạn. Thời gian giao hàng tính từ ngày báo giá được xác nhận bằng văn bản, không phải từ ngày gửi yêu cầu. Các mã tiêu chuẩn như GXK-51, XZ-330 và GPC71 luôn có sẵn từ kho; kích thước tùy chỉnh, hạt mài và bao bì OEM được sản xuất theo đơn đặt hàng.",
+    "s2t": "Đóng gói và đánh dấu",
+    "s2b": "Hàng được đóng trong thùng xuất khẩu với số lượng đóng gói đã thỏa thuận, nhãn, ký hiệu thùng và — đối với chương trình OEM — thiết kế và mã vạch của bạn. Cách đóng pallet được xác nhận cùng với phiếu đóng gói. Việc hun trùng hoặc ký hiệu ISPM 15 được thực hiện khi nước đến yêu cầu.",
+    "s3t": "Phương thức vận chuyển và Incoterms",
+    "s3b": "Hàng hóa được gửi bằng đường biển (FCL hoặc LCL) hoặc đường hàng không, tùy theo khối lượng và điểm đến. Điều kiện thương mại được ghi trên báo giá — EXW, FOB, CIF, CFR, DAP và DDP là phổ biến. Bạn có thể chỉ định forwarder của riêng mình; MoTai sẽ cung cấp phiếu đóng gói, ký hiệu thùng và chứng từ vận chuyển.",
+    "s4t": "Chứng từ và hải quan",
+    "s4b": "Mỗi lô hàng kèm theo hóa đơn thương mại, phiếu đóng gói và chứng từ vận chuyển. Mã HS và chứng nhận xuất xứ được cung cấp cho việc thông quan của bạn. Thuế nhập khẩu, thuế và thủ tục hải quan tại nước đến thuộc về người mua trừ khi báo giá ghi DDP.",
+    "s5t": "Gửi hàng và giao hàng",
+    "s5b": "Chúng tôi gửi thông báo vận chuyển kèm số tàu hoặc số chuyến bay ngay khi container hoặc lô hàng được booking. Thời gian giao hàng phụ thuộc vào cảng hoặc sân bay đến và lịch trình của hãng vận chuyển. Sự chậm trễ do tắc nghẽn cảng, kiểm tra hải quan hoặc bất khả kháng nằm ngoài tầm kiểm soát của chúng tôi và sẽ được thông báo ngay khi được biết.",
+    "retTitle": "Chính sách đổi trả",
+    "retSub": "Sản phẩm của chúng tôi được sản xuất theo đặc tả đã thỏa thuận, vì vậy việc đổi trả chỉ giới hạn trong các trường hợp được quy định.",
+    "r1t": "Hàng sản xuất theo đặc tả",
+    "r1b": "Sản phẩm mài được sản xuất theo hạt mài, kích thước, lớp nền và bao bì do bạn chỉ định. Vì không thể bán lại như hàng tồn chuẩn nên các đơn hàng tùy chỉnh đã xác nhận không được đổi trả hay hoàn tiền, trừ khi hàng không đúng với đặc tả đã xác nhận.",
+    "r2t": "Hàng tồn kho và hư hỏng vận chuyển",
+    "r2b": "Hàng tiêu chuẩn chưa qua sử dụng và còn trong bao bì xuất khẩu gốc có thể được đổi trả theo từng trường hợp sau khi chúng tôi xác nhận lý do và điều kiện đổi trả. Hàng bị hư hỏng trong vận chuyển phải báo kèm hình ảnh trong vòng 7 ngày kể từ khi giao hàng; khiếu nại theo bảo hiểm của hãng vận chuyển được xử lý thông qua forwarder được chỉ định.",
+    "r3t": "Khiếu nại, kiểm tra và ghi có tín dụng",
+    "r3b": "Mọi khiếu nại phải nêu số đơn hàng, phiếu đóng gói và ký hiệu thùng liên quan. Nếu lỗi được xác nhận sau kiểm tra, chúng tôi thay thế số lượng bị lỗi hoặc phát hành credit note theo hóa đơn. Khiếu nại nộp sau hơn 30 ngày kể từ khi giao hàng không được chấp nhận.",
+    "r4t": "Hoàn tiền",
+    "r4b": "Khi đã thỏa thuận ghi có tín dụng, khoản hoàn tiền (nếu có) sẽ trả cho người thanh toán ban đầu bằng phương thức đã dùng để thanh toán đơn hàng, sau khi việc đổi trả hoặc thay thế hoàn tất hoặc được xóa sổ. Phí ngân hàng chuyển khoản quốc tế do bên nhận hoàn tiền chịu.",
+    "r5t": "Hải quan, thuế và quy định",
+    "r5b": "Việc đổi trả do hạn chế nhập khẩu, thuế, kiểm tra hải quan hoặc quy định địa phương được xử lý như tranh chấp thương mại thay vì khiếu nại sản phẩm, vì hàng đã được giao đúng với đặc tả đã xác nhận.",
+    "updated": "Cập nhật lần cuối 6 tháng 11 năm 2026",
+    "related": "Điều kiện vận chuyển và đổi trả là một phần của mọi báo giá. Nếu báo giá quy định điều kiện khác, báo giá đó được ưu tiên áp dụng.",
+    "contact": "Thắc mắc về lô hàng hoặc khiếu nại: liên hệ đội ngũ bán hàng với số đơn hàng và ký hiệu thùng liên quan."
+  },
   "quotePage": {
     "h1": "Bắt đầu cuộc trò chuyện bán buôn",
     "sub": "Nhận giá bán buôn trực tiếp từ nhà máy cho sản phẩm vật liệu mài.",
@@ -730,6 +761,7 @@
     "newsB": "Tin tức & Blog",
     "privacy": "Chính sách riêng tư",
     "terms": "Điều khoản sử dụng",
+    "shipping": "Vận chuyển và đổi trả",
     "contactUs": "Liên hệ"
   },
   "tdk": {
@@ -813,6 +845,11 @@
         "MoTai",
         "nhà cung cấp vật liệu mài B2B"
       ]
+    },
+    "shipping": {
+      "title": "Chính sách vận chuyển và đổi trả — đơn hàng mài | MoTai",
+      "description": "Chính sách vận chuyển và đổi trả của MoTai: thời gian sản xuất, đóng gói xuất khẩu, Incoterms, chứng từ hải quan, gửi hàng và khi nào hàng sản xuất theo đặc tả có thể đổi trả hoặc ghi có.",
+      "keywords": "chính sách vận chuyển sản phẩm mài, chính sách đổi trả, giao hàng bán buôn, Incoterms, đóng gói xuất khẩu, điều kiện giao hàng"
     },
     "quote": {
       "title": "Yêu cầu báo giá vật liệu mài bán buôn | MoTai",

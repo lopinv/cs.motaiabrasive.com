@@ -115,8 +115,8 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Zorganizujcie wizytę w fabryce i potwierdźcie miejsce spotkania z naszym zespołem.",
     "finalTitle": "Szukacie niezawodnego dostawcy materiałów ściernych?",
     "finalBody": "Prześlijcie informacje o produkcie, ilości i zastosowaniu — przeanalizujemy wymagania i przygotujemy dopasowaną wycenę.",
-    "finalCta1": "Poproście o wycenę hurtową",
-    "finalCta2": "Skontaktujcie się przez WhatsApp",
+    "finalCta1": "Poproś o wycenę hurtową",
+    "finalCta2": "Skontaktuj się przez WhatsApp",
     "beltsShowTitle": "Paski ścierne wg modelu",
     "beltsShowSub": "Modele referencyjne do omówienia z naszym zespołem.",
     "prepTitle": "Przygotujcie zapytanie hurtowe",
@@ -184,14 +184,14 @@
     "matTitle": "Materiały firmowe",
     "matBody": "Poznajcie historię firmy i dane kontaktowe w naszej broszurze.",
     "globalTitle": "Z Hubei na wasz rynek",
-    "globalSub": "Globalne dostawy zorganizowane według regionu przeznaczenia.",
+    "globalSub": "Globalna dostawa zorganizowana według regionu przeznaczenia.",
     "facTitle": "Znajdźcie nas w Hubei",
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Chiny. Umówcie wizytę w fabryce z naszym zespołem i potwierdźcie miejsce spotkania przed podróżą.",
     "profileName": "W skrócie",
     "profileBody": "Producent materiałów ściernych powleczonych w Xianning w prowincji Hubei: trzy linie produktowe dostarczane do siedmiu regionów przeznaczenia, z zakresem gradacji od 40 do 5000.",
     "ctaTitle": "Szukacie niezawodnego dostawcy materiałów ściernych?",
-    "cta1": "Zamów wycenę hurtową",
-    "cta2": "Skontaktujcie się przez WhatsApp"
+    "cta1": "Poproś o wycenę hurtową",
+    "cta2": "Skontaktuj się przez WhatsApp"
   },
   "factory": {
     "h1": "Wewnątrz warsztatu MoTai",
@@ -219,9 +219,9 @@
     "qc3b": "Liczności opakowań, etykiety, oznaczenia kartonów i projekt marki własnej są zgodne z potwierdzonym zamówieniem.",
     "certNote": "Przedstawione oznaczenia certyfikacji są zastępcze do czasu publikacji certyfikatów.",
     "ctaTitle": "Wolą Państwo omówić szczegóły?",
-    "ctaSub": "Szukają Państwo niezawodnego dostawcy materiałów ściernych?",
-    "cta1": "Poproście o wycenę hurtową",
-    "cta2": "Kontakt przez WhatsApp"
+    "ctaSub": "Szukacie niezawodnego dostawcy materiałów ściernych?",
+    "cta1": "Poproś o wycenę hurtową",
+    "cta2": "Skontaktuj się przez WhatsApp"
   },
   "oem": {
     "h1": "Wasza marka na opakowaniu",
@@ -250,8 +250,8 @@
     "pr5b": "Realizacja zgodnie z potwierdzoną specyfikacją.",
     "pr6t": "Wysyłka",
     "pr6b": "Skoordynujcie pakowanie i miejsce dostawy.",
-    "cta1": "Poproście o wycenę hurtową",
-    "cta2": "Kontakt przez WhatsApp"
+    "cta1": "Poproś o wycenę hurtową",
+    "cta2": "Skontaktuj się przez WhatsApp"
   },
   "applications": {
     "h1": "Materiały ścierne dla waszej branży",
@@ -274,8 +274,8 @@
       }
     ],
     "ctaTitle": "Opisujecie produkty dla swojego obszaru?",
-    "cta1": "Zamów wycenę hurtową",
-    "cta2": "Skontaktujcie się przez WhatsApp"
+    "cta1": "Poproś o wycenę hurtową",
+    "cta2": "Skontaktuj się przez WhatsApp"
   },
   "blogIndex": {
     "h1": "Lepsza informacja. Lepszy dobór.",
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Obejrzyj",
-    "discuss": "Omówcie Państwa specyfikację",
+    "discuss": "Omów swoją specyfikację",
     "catSelection": "Przewodnik doboru",
     "catBuyer": "Materiały dla kupujących",
     "catNotes": "Uwagi aplikacyjne",
@@ -337,6 +337,37 @@
     "s5b": "MoTai nie ponosi odpowiedzialności za decyzje podjęte w oparciu o ogólne informacje zamieszczone w tej witrynie. Niniejsze warunki podlegają prawu Chińskiej Republiki Ludowej; spory rozstrzygane są na podstawie umowy sprzedaży zawartej między stronami.",
     "updated": "Ostatnia aktualizacja 3 listopada 2026"
   },
+  "shipping": {
+    "h1": "Polityka wysyłki i zwrotów",
+    "sub": "Jak zamówienia opuszczają naszą fabrykę i dlaczego materiały ścierne wykonywane według specyfikacji nie podlegają zwrotowi.",
+    "shipTitle": "Polityka wysyłki",
+    "shipSub": "Produkcję, pakowanie i wysyłkę potwierdzamy łącznie z wyceną.",
+    "s1t": "Produkcja i czas realizacji",
+    "s1b": "Paski ścierne, tarcze ścierne i tarcze flap wykonujemy zgodnie ze specyfikacją podaną w zamówieniu. Czas realizacji liczy się od dnia pisemnego potwierdzenia wyceny, a nie od dnia wysłania zapytania. Standardowe referencje, takie jak GXK-51, XZ-330 i GPC71, są dostępne od ręki; niestandardowe wymiary, gradacje i opakowania OEM wykonujemy na zamówienie.",
+    "s2t": "Pakowanie i oznaczanie",
+    "s2b": "Towar pakujemy w kartony eksportowe z uzgodnioną ilością w opakowaniu, etykietami, oznaczeniami kartonów, a w programach OEM — z Państwa grafiką i kodem kreskowym. Konfigurację palet potwierdzamy w liście pakowym. Fumigację lub oznaczenia ISPM 15 stosujemy tam, gdzie wymaga tego kraj przeznaczenia.",
+    "s3t": "Sposób wysyłki i Incoterms",
+    "s3b": "Wysyłkę organizujemy drogą morską (FCL lub LCL) lub lotniczą, w zależności od wolumenu i miejsca przeznaczenia. Warunek handlowy podano w wycenie — najczęściej stosujemy EXW, FOB, CIF, CFR, DAP i DDP. Mogą Państwo wskazać własnego spedytora; MoTai dostarcza wtedy list pakowy, oznaczenia kartonów i dokumenty przewozowe.",
+    "s4t": "Dokumenty i odprawa celna",
+    "s4b": "Każdą przesyłkę poprzedza faktura handlowa, list pakowy i dokument przewozowy. Kody HS i świadectwa pochodzenia dostarczamy do odprawy celnej. Cła importowe, podatki i odprawa celna w kraju przeznaczenia obciążają kupującego, chyba że wycena przewiduje DDP.",
+    "s5t": "Wysyłka i dostawa",
+    "s5b": "Zawiadomienie o wysyłce z numerem statku lub lotu wysyłamy po zarezerwowaniu kontenera lub przesyłki. Czas dostawy zależy od portu lub lotniska przeznaczenia i harmonogramu przewoźnika. Opóźnienia spowodowane kongestią portową, kontrolą celną lub siłą wyższą leżą poza naszą kontrolą i informujemy o nich, gdy tylko je stwierdzimy.",
+    "retTitle": "Polityka zwrotów",
+    "retSub": "Nasze produkty wytwarzamy według uzgodnionej specyfikacji, dlatego zwroty ograniczono do określonych przypadków.",
+    "r1t": "Towar wykonywany na zamówienie",
+    "r1b": "Wyroby ścierne produkujemy według Państwa gradacji, wymiarów, podkładu i opakowania. Ponieważ nie można ich odsprzedać jako standardowego zapasu, potwierdzone zamówienia niestandardowe nie podlegają zwrotowi ani zwrotowi wpłat — chyba że towar nie odpowiada potwierdzonej specyfikacji.",
+    "r2t": "Towary magazynowe i uszkodzenia w transporcie",
+    "r2b": "Standardowe pozycje referencyjne, które nie były używane i pozostają w oryginalnym opakowaniu eksportowym, można zwrócić w indywidualnych przypadkach po potwierdzeniu przyczyny i warunków zwrotu. Towar uszkodzony w transporcie należy zgłosić wraz ze zdjęciami w ciągu 7 dni od dostawy; roszczenia z ubezpieczenia przewoźnika załatwiane są przez wskazanego spedytora.",
+    "r3t": "Reklamacje, kontrola i nota kredytowa",
+    "r3b": "Każda reklamacja musi zawierać numer zamówienia, list pakowy i oznaczenia dotyczących kartonów. Jeśli po oględzinach potwierdzimy wadę, wymieniamy dotyczy ilość lub wystawiamy notę kredytową do faktury. Reklamacje zgłoszone po upływie 30 dni od dostawy nie mogą być przyjęte.",
+    "r4t": "Zwroty płatności",
+    "r4b": "Jeśli uzgodniono notę kredytową, ewentualny zwrot wpłaty przekazujemy pierwotnemu płatnikowi tą samą metodą, jaką opłacono zamówienie, po zakończeniu zwrotu lub wymiany albo jego umorzeniu. Koszty bankowe przelewów międzynarodowych ponosi strona otrzymująca zwrot.",
+    "r5t": "Cła, opłaty i przepisy",
+    "r5b": "Zwroty żądane z powodu ograniczeń importowych, ceł, kontroli celnej lub lokalnych przepisów traktujemy jako spory handlowe, a nie reklamacje towaru, ponieważ towar dostarczono zgodnie z potwierdzoną specyfikacją.",
+    "updated": "Ostatnia aktualizacja: 6 listopada 2026 r.",
+    "related": "Warunki wysyłki i zwrotów stanowią część każdej wyceny. Jeżeli wycena określa inne warunki, wycena ma pierwszeństwo.",
+    "contact": "Pytania dotyczące przesyłki lub reklamacji: skontaktuj się z naszym zespołem sprzedaży, podając numer zamówienia i oznaczenia kartonów."
+  },
   "quotePage": {
     "h1": "Rozpocznijcie rozmowę hurtową",
     "sub": "Uzyskajcie hurtowe ceny bezpośrednio z fabryki na produkty ścierne.",
@@ -366,7 +397,7 @@
     "f15": "Wymagania OEM",
     "f16": "Dodatkowa wiadomość *",
     "consent": "Wyrażam zgodę na Politykę prywatności, Regulamin oraz wykorzystanie moich danych w celu udzielenia odpowiedzi na to zapytanie. *",
-    "btn1": "Zamów wycenę hurtową",
+    "btn1": "Poproś o wycenę hurtową",
     "btn2": "Wyślij zapytanie przez WhatsApp",
     "goNote": "Formularz otworzy się w naszym systemie zapytań hurtowych z wstępnie uzupełnionym kontekstem produktu."
   },
@@ -730,6 +761,7 @@
     "newsB": "Nowości i blog",
     "privacy": "Polityka prywatności",
     "terms": "Zasady korzystania",
+    "shipping": "Wysyłka i zwroty",
     "contactUs": "Kontakt"
   },
   "tdk": {
@@ -813,6 +845,11 @@
         "MoTai",
         "dostawca B2B materiałów ściernych"
       ]
+    },
+    "shipping": {
+      "title": "Polityka wysyłki i zwrotów — zamówienia ścierne | MoTai",
+      "description": "Polityka wysyłki i zwrotów MoTai: czas realizacji, pakowanie eksportowe, Incoterms, dokumenty celne, wysyłka oraz kiedy towar wykonywany na zamówienie można zwrócić lub zafakturować notą kredytową.",
+      "keywords": "polityka wysyłki materiałów ściernych, polityka zwrotów materiałów ściernych, hurtowa dostawa, Incoterms, pakowanie eksportowe, warunki dostawy"
     },
     "quote": {
       "title": "Poproś o wycenę hurtową materiałów ściernych | MoTai",

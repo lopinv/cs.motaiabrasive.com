@@ -115,8 +115,8 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Fabrika ziyareti planlayın ve buluşma noktasını ekibimizle doğrulayın.",
     "finalTitle": "Güvenilir bir aşındırıcı tedarikçisi mi arıyorsunuz?",
     "finalBody": "Ürün, miktar ve uygulamanızı paylaşın — ihtiyaçlarınızı inceleyip uyumlu bir teklif hazırlayalım.",
-    "finalCta1": "Toptan Teklif Talep Edin",
-    "finalCta2": "WhatsApp Üzerinden İletişime Geçin",
+    "finalCta1": "Toplu Fiyat Teklifi İsteyin",
+    "finalCta2": "WhatsApp Üzerinden İletişim",
     "beltsShowTitle": "Model bazında zımpara bantları",
     "beltsShowSub": "Ekibimizle görüşmeler için referans modeller.",
     "prepTitle": "Toptan talebinizi hazırlayın",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Satın alma rehberi",
-    "title1": "Toptan teklif talebinizi hazırlayın",
+    "title1": "Toptan talebinizi hazırlayın",
     "body1": "Gerekli ölçüleri, grit değerini, iş parçasını, makineyi ve hedef yüzey bitişini paylaşın. Mevcut olan durumlarda yukarıdaki belgelenmiş seçenekleri kullanın; diğer gereksinimler ekibimizle birlikte değerlendirilecektir.",
     "dl1t": "Miktar ve teslim yeri",
     "dl1b": "Miktarı, ambalaj ihtiyacını ve teslimat yerini bize bildirin.",
@@ -184,14 +184,14 @@
     "matTitle": "Şirket materyalleri",
     "matBody": "Şirket arka planını ve iletişim bilgilerini broşürümüzde inceleyin.",
     "globalTitle": "Hubei'den pazarınıza",
-    "globalSub": "Hedef bölgeye göre düzenlenmiş küresel tedarik.",
+    "globalSub": "Varış bölgesine göre düzenlenmiş küresel tedarik.",
     "facTitle": "Bizi Hubei'de bulun",
     "facBody": "No. 88 Yuli Caddesi, Junshui Kasabası, Tongcheng İlçesi, Xianning, Hubei, Çin. Ekibimizle fabrika ziyareti planlayın ve seyahat öncesinde buluşma noktasını teyit edin.",
     "profileName": "Bir bakışta",
     "profileBody": "Xianning, Hubei'deki kaplamalı aşındırıcı üreticisi: yedi hedef bölgeye tedarik edilen üç ürün hattı, 40'tan 5000'e kadar grit kapsamı.",
     "ctaTitle": "Güvenilir bir aşındırıcı tedarikçisi mi arıyorsunuz?",
-    "cta1": "Toptan teklif talep edin",
-    "cta2": "WhatsApp üzerinden iletişime geçin"
+    "cta1": "Toplu Fiyat Teklifi İsteyin",
+    "cta2": "WhatsApp Üzerinden İletişim"
   },
   "factory": {
     "h1": "MoTai atölyesinin içinde",
@@ -219,9 +219,9 @@
     "qc3b": "Paket adetleri, etiketler, koli işaretleri ve özel etiket tasarımı onaylanan siparişle uyumludur.",
     "certNote": "Gösterilen belgelendirme işaretleri, belgeler yayımlanana kadar yer tutucudur.",
     "ctaTitle": "Konuyu görüşerek mi ilerlemek istersiniz?",
-    "ctaSub": "Güvenilir bir aşındırıcı tedarikçi mi arıyorsunuz?",
-    "cta1": "Toptan Teklif Talep Edin",
-    "cta2": "WhatsApp Üzerinden İletişime Geçin"
+    "ctaSub": "Güvenilir bir aşındırıcı tedarikçisi mi arıyorsunuz?",
+    "cta1": "Toplu Fiyat Teklifi İsteyin",
+    "cta2": "WhatsApp Üzerinden İletişim"
   },
   "oem": {
     "h1": "Koli üzerinde kendi adınız",
@@ -250,8 +250,8 @@
     "pr5b": "Onaylanan spesifikasyona göre ilerleyin.",
     "pr6t": "Sevkiyat",
     "pr6b": "Paketlemeyi ve teslim yerini koordine edin.",
-    "cta1": "Toptan Teklif Talep Edin",
-    "cta2": "WhatsApp Üzerinden İletişime Geçin"
+    "cta1": "Toplu Fiyat Teklifi İsteyin",
+    "cta2": "WhatsApp Üzerinden İletişim"
   },
   "applications": {
     "h1": "Sektörünüz için aşındırıcılar",
@@ -274,8 +274,8 @@
       }
     ],
     "ctaTitle": "Alanınız için teknik özellik mi belirliyorsunuz?",
-    "cta1": "Toptan teklif talep edin",
-    "cta2": "WhatsApp üzerinden iletişime geçin"
+    "cta1": "Toplu Fiyat Teklifi İsteyin",
+    "cta2": "WhatsApp Üzerinden İletişim"
   },
   "blogIndex": {
     "h1": "Daha iyi bilgi. Daha iyi seçim.",
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "İzle",
-    "discuss": "Şartnamenizi Görüşün",
+    "discuss": "Spesifikasyonunuz Hakkında Konuşalım",
     "catSelection": "Seçim rehberi",
     "catBuyer": "Alıcı kaynakları",
     "catNotes": "Uygulama notları",
@@ -337,6 +337,37 @@
     "s5b": "MoTai, bu sitedeki genel bilgilere dayanarak alınan kararlardan sorumlu değildir. Bu koşullar Çin Halk Cumhuriyeti kanunlarına tabidir; anlaşmazlıklar taraflar arasındaki satış sözleşmesi uyarınca çözülür.",
     "updated": "Son güncelleme 3 Kasım 2026"
   },
+  "shipping": {
+    "h1": "Nakliye ve İade Politikası",
+    "sub": "Siparişler fabrikamızdan nasıl çıkar ve spesifikasyona göre üretilen aşındırıcılar neden iade edilemez?",
+    "shipTitle": "Nakliye Politikası",
+    "shipSub": "Üretim, ambalajlama ve sevkiyat teklifinizle birlikte onaylanır.",
+    "s1t": "Üretim ve teslim süresi",
+    "s1b": "Zımpara bantları, zımpara diskleri ve flap diskleri siparişinizdeki spesifikasyona göre dönüştürülür. Teslim süresi, teklifin yazılı olarak onaylandığı tarihten itibaren başlar; talebin gönderildiği tarihten değil. GXK-51, XZ-330 ve GPC71 gibi standart referanslar hazır stok kalemleridir; özel ölçüler, gritler ve OEM ambalajı siparişe göre üretilir.",
+    "s2t": "Ambalajlama ve işaretleme",
+    "s2b": "Ürünler, üzerinde anlaşılan paket adedi, etiketler, koli işaretleri ve — OEM programlarında — sizin tasarımınız ve barkodunuzla birlikte ihracat kolilerinde paketlenir. Palet düzeni paketleme listesiyle onaylanır. Varış ülkesinin talep etmesi hâlinde füme işlemleri veya ISPM 15 işaretleri uygulanır.",
+    "s3t": "Sevkiyat yöntemi ve Incoterms",
+    "s3b": "Sevkiyat hacme ve varış noktasına bağlı olarak deniz yoluyla (FCL veya LCL) ya da hava yoluyla düzenlenir. Ticari teslim şartı teklifinizde belirtilir — EXW, FOB, CIF, CFR, DAP ve DDP yaygın olarak kullanılır. Kendi nakliyecinizi belirleyebilirsiniz; MoTai bu durumda paketleme listesini, koli işaretlerini ve sevkiyat belgelerini sağlar.",
+    "s4t": "Belgeler ve gümrük",
+    "s4b": "Her sevkiyata ticari fatura, paketleme listesi ve taşıma belgesi eşlik eder. HS kodları ve menşe sertifikaları gümrük işlemleriniz için sağlanır. Varış ülkesindeki ithalat vergileri, resmi ödemeler ve gümrükleme alıcıya aittir; teklifte DDP belirtilmedikçe.",
+    "s5t": "Sevkiyat ve teslimat",
+    "s5b": "Konteyner veya gönderi rezerve edildiği anda gemi ya da uçuş numarasıyla sevkiyat bildirimini göndeririz. Teslimat süresi varış limanına veya havalimanına ve taşıyıcının tarifesine bağlıdır. Liman sıkışıklığı, gümrük kontrolü veya mücbir sebep kaynaklı gecikmeler kontrolümüz dışındadır ve öğrenildikleri anda bildirilir.",
+    "retTitle": "İade Politikası",
+    "retSub": "Ürünlerimiz üzerinde anlaşılan spesifikasyona göre üretilir; bu nedenle iadeler tanımlı durumlarla sınırlıdır.",
+    "r1t": "Spesifikasyona göre üretilen ürünler",
+    "r1b": "Aşındırıcı ürünler sizin belirttiğiniz grit, ölçü, taban ve ambalaj spesifikasyonuna göre üretilir. Standart stok olarak yeniden satılamayacağı için onaylanmış özel siparişler iade edilemez ve geri ödenmez — ürünler onaylanmış spesifikasyona uymadığı durumlar hariç.",
+    "r2t": "Stok kalemleri ve taşıma hasarları",
+    "r2b": "Kullanılmamış ve orijinal ihracat ambalajında bulunan standart referans kalemleri, nedeni ve iade koşullarını teyit ettikten sonra tek tek değerlendirilerek iade edilebilir. Taşıma sırasında hasar gören ürünler teslimden itibaren 7 gün içinde fotoğraflarla bildirilmelidir; taşıyıcının sigortasına yönelik talepler belirlenen nakliyeci üzerinden yürütülür.",
+    "r3t": "Talepler, muayene ve alacak belgeleri",
+    "r3b": "Her talep sipariş numarasını, paketleme listesini ve ilgili koli işaretlerini içermelidir. Muayene sonrasında kusur teyit edilirse söz konusu miktarı değiştirir ya da faturaya karşılık alacak belgesi düzenleriz. Teslimden 30 gün sonra yapılan talepler kabul edilemez.",
+    "r4t": "Ödeme iadeleri",
+    "r4b": "Alacak yazımı üzerinde anlaşılması hâlinde varsa geri ödeme, iade veya değişim tamamlandıktan ya da kayıtlardan düşüldükten sonra siparişin ödendiği yöntemle ödeme yapan kişiye yapılır. Uluslararası havalelerin banka masrafları geri ödemeyi alan taraftadır.",
+    "r5t": "Gümrük, vergiler ve mevzuat",
+    "r5b": "İthalat kısıtlamaları, gümrük vergileri, gümrük kontrolü veya yerel mevzuat nedeniyle talep edilen iadeler ürün talebi değil ticari uyuşmazlık olarak ele alınır; çünkü ürünler onaylanmış spesifikasyona uygun teslim edilmiştir.",
+    "updated": "Son güncelleme 6 Kasım 2026",
+    "related": "Nakliye ve iade koşulları her teklifin parçasıdır. Teklif farklı koşullar belirtiyorsa o teklif geçerlidir.",
+    "contact": "Sevkiyat veya talebinizle ilgili sorular: sipariş numaranız ve ilgili koli işaretleriyle satış ekibimize ulaşın."
+  },
   "quotePage": {
     "h1": "Toptan görüşmeye başlayın",
     "sub": "Aşındırıcı ürünler için fabrikadan doğrudan toptan fiyatlar alın.",
@@ -366,7 +397,7 @@
     "f15": "OEM gereksinimleri",
     "f16": "Ek mesaj *",
     "consent": "Gizlilik Politikası'nı, Kullanım Koşulları'nı ve bu talebe yanıt vermek amacıyla bilgilerimin kullanılmasını kabul ediyorum. *",
-    "btn1": "Toptan teklif talep edin",
+    "btn1": "Toplu Fiyat Teklifi İsteyin",
     "btn2": "Talebi WhatsApp üzerinden gönderin",
     "goNote": "Form, ürün bilgileriniz önceden doldurulmuş olarak toptan talep sistemimizde açılır."
   },
@@ -730,6 +761,7 @@
     "newsB": "Haberler ve Blog",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Şartları",
+    "shipping": "Nakliye ve İade",
     "contactUs": "İletişim"
   },
   "tdk": {
@@ -813,6 +845,11 @@
         "MoTai",
         "B2B aşındırıcı tedarikçisi"
       ]
+    },
+    "shipping": {
+      "title": "Nakliye ve İade Politikası — Aşındırıcı Siparişleri | MoTai",
+      "description": "MoTai aşındırıcı nakliye ve iade politikası: üretim süresi, ihracat ambalajı, Incoterms, gümrük belgeleri, sevkiyat ve spesifikasyona göre üretilen ürünlerin ne zaman iade edilebileceği veya alacak yazımı yapılabileceği.",
+      "keywords": "aşındırıcı nakliye politikası, aşındırıcı iade politikası, toptan aşındırıcı teslimat, Incoterms, ihracat ambalajı, teslimat koşulları"
     },
     "quote": {
       "title": "Toplu Aşındırıcı Teklifi İsteyin | MoTai",
