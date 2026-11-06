@@ -1,34 +1,41 @@
 ---
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
-import { TRANSLATIONS } from '../../../lib/i18n.js'
 import Shell from '../../../components/Shell.astro'
-import { breadcrumbJsonLd } from '../../../lib/tdk.js'
+import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
+import Prose from '../../../components/Prose.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
-import { blog as blogData, media, videosData } from '../../../lib/utils.js'
+import { findArticle, allSlugs } from '../../../lib/articles.js'
+import { media, videosData } from '../../../lib/utils.js'
 
-export function getStaticPaths() {
-  return langPaths(blogData.map((b) => ({ slug: b.slug })))
+// Route surface: the union of the md corpus and the i18n short articles,
+// resolved per locale at build time.
+export async function getStaticPaths() {
+  const slugs = await allSlugs()
+  return langPaths(slugs.map((slug) => ({ slug })))
 }
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, articleBySlug } = usePage(lang)
-const a = articleBySlug(ctx.slug)
-const article = blogData.find((x) => x.slug === ctx.slug)
+const { pick, lu } = usePage(lang)
+const a = await findArticle(lang, ctx.slug)
 const t = pick('article')
-const title = pick(article.titleKey)
-const intro = pick(article.introKey)
+// The md corpus carries its own title/intro; the i18n short articles resolve
+// through pick(). Both shapes expose .title/.intro by construction.
+const title = a.title
+const intro = a.intro
+const isMd = a.source === 'md'
+
 // Freshness byline: review date localized to the page language at build time.
 // Use the 2-letter lang code (not ogLocale like `ar_SA`/`pt_PT`) — Node's
 // small-icu rejects BCP47 region tags ("Invalid language tag"), but always
 // accepts bare language codes. zh-Hant is a 4-letter route code: strip the
 // -Hant/-HanS suffix so Intl gets the bare "zh" (long forms throw
 // "Invalid language tag").
-const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(article.dateModified ?? article.datePublished))
-const seo = buildSeo(lang, 'article', { article: { title, intro, slug: a.slug, image: a.image, datePublished: article.datePublished, dateModified: article.dateModified } }, [
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(a.dateModified ?? a.datePublished))
+const seo = buildSeo(lang, 'article', { article: { title, intro, metaDescription: a.metaDescription, keywords: a.keywords, slug: a.slug, image: a.image, datePublished: a.datePublished, dateModified: a.dateModified } }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.news'), path: `/${lang}/blog` },
     { name: title, path: `/${lang}/blog/${a.slug}` }
@@ -43,7 +50,8 @@ const relatedVideos = videosData.videos.filter((v) => v.youtubeId && v.links.som
 // nested blocks simply render nothing when absent.
 // Per-section anchor ids for the TOC; TOC only shows with >=3 H2 sections
 // (5000-word long articles), so short 3-section pages still get one.
-const secTitle = (s) => pick(s.titleKey)
+const secTitle = (s) => (s.source === 'md' ? s.title : pick(s.titleKey))
+const secBody = (s) => (s.source === 'md' ? s.body : pick(s.bodyKey ?? ''))
 const secId = (s) => String(secTitle(s) ?? s.key).trim().toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]+/g, '-').replace(/^-+|-+$/g, '') || s.key
 const toc = (a.sections ?? []).filter((s) => secTitle(s)).slice(0, 40)
 // TOC is a long-form affordance: only show it when the article actually has
@@ -58,7 +66,7 @@ const showToc = hasSubs || toc.length >= 5
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{title}</span></div>
 
   <section class="section wrap">
-    <span class="eyebrow">{pick(`article.${catKey[article.categoryKey]}`)}</span>
+    <span class="eyebrow">{pick(`article.${catKey[a.categoryKey]}`)}</span>
     <h1>{title}</h1>
     <p class="lead">{intro}</p>
     <p class="byline">
@@ -80,22 +88,22 @@ const showToc = hasSubs || toc.length >= 5
       </nav>
     )}
     <div class="prose">
-      {a.sections.map((s) => {
+      {(a.sections ?? []).map((s) => {
         const subs = s.subsections ?? []
         return (
           <section class={subs.length ? 'prose-sec prose-sec--nested' : 'prose-sec'} id={secId(s)}>
-            <h2>{pick(s.titleKey)}</h2>
-            {s.bodyKey && pick(s.bodyKey) && <p>{pick(s.bodyKey)}</p>}
+            <h2>{secTitle(s)}</h2>
+            {secBody(s) && <Prose text={secBody(s)} lang={lang} />}
             {subs.map((u) => {
               const h4 = u.h4 ?? []
               return (
                 <section class="prose-sub">
                   <h3>{pick(u.titleKey)}</h3>
-                  {u.bodyKey && pick(u.bodyKey) && <p>{pick(u.bodyKey)}</p>}
+                  {u.bodyKey && pick(u.bodyKey) && <Prose text={pick(u.bodyKey)} lang={lang} />}
                   {h4.map((h) => (
                     <section class="prose-h4">
                       <h4>{pick(h.titleKey)}</h4>
-                      {h.bodyKey && pick(h.bodyKey) && <p>{pick(h.bodyKey)}</p>}
+                      {h.bodyKey && pick(h.bodyKey) && <Prose text={pick(h.bodyKey)} lang={lang} />}
                     </section>
                   ))}
                 </section>

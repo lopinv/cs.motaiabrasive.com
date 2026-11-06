@@ -10,7 +10,7 @@
  *
  * Run via `npm run build` (postbuild) or `node scripts/gen-seo.mjs`.
  */
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs'
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
@@ -52,13 +52,30 @@ const discViews = read('disc-views.json')
 const flaps = read('flap.json')
 const blog = read('blog.json')
 const applications = read('applications.json')
+// The long-form blog corpus lives in articles/<lang>/*.md and is registered
+// through Astro content collections (see src/content.config.ts). The sitemap
+// enumerates the same slug set from disk so build order doesn't matter: the
+// union of blog.json slugs and every markdown slug under articles/.
+const articlesDir = path.join(root, 'articles')
+const mdSlugs = new Set()
+if (existsSync(articlesDir)) {
+  const walk = (dir) => {
+    for (const e of readdirSync(dir, { withFileTypes: true })) {
+      const p = path.join(dir, e.name)
+      if (e.isDirectory()) { if (e.name !== '.parts') walk(p) }
+      else if (e.name.endsWith('.md')) mdSlugs.add(e.name.replace(/\.md$/, ''))
+    }
+  }
+  walk(articlesDir)
+}
+const blogSlugs = [...new Set([...blog.map((b) => b.slug), ...mdSlugs])]
 
 const dataPaths = [
   ...products.map((p) => `/products/${p.handle}`),
   ...models.map((m) => `/model/${m.slug}`),
   ...discViews.map((d) => `/disc/${d.key}`),
   ...flaps.map((f) => `/flap/${f.key}`),
-  ...blog.map((a) => `/blog/${a.slug}`),
+  ...blogSlugs.map((slug) => `/blog/${slug}`),
   ...applications.map((a) => `/applications/${a.slug}`)
 ]
 

@@ -307,6 +307,21 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 }
 .related-note a:hover { border-color: var(--ink); color: var(--ink); }
 
+/* ============ Blog index groups (zero-JS <details> grouping) ============ */
+.blog-groups { display: grid; gap: var(--gap-lg); }
+.blog-group { border: 1px solid var(--line); border-radius: 6px; padding: 4px 18px 18px; }
+.blog-group-summary {
+  display: flex; align-items: center; gap: 12px; cursor: pointer; padding: 14px 0;
+  font-weight: 600; list-style: none;
+}
+.blog-group-summary::-webkit-details-marker { display: none; }
+.blog-group-summary .eyebrow { margin: 0; }
+.blog-group-count {
+  margin-inline-start: auto; font-size: 12px; font-weight: 600; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px;
+}
+.blog-group[open] > .blog-group-summary .blog-group-count { color: var(--accent); border-color: var(--accent); }
+
 /* ============ Spec table ============ */
 .spec-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .spec-table th, .spec-table td { text-align: start; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }

@@ -151,10 +151,16 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'article': {
       const a = ctx.article
       const t = a.title
+      // Long-form articles carry a hand-written metaDescription in their
+      // frontmatter (keyword-tuned, 1 sentence); i18n short articles fall
+      // back to the intro. keywords likewise come from frontmatter when the
+      // article provides them.
+      const desc = a.metaDescription || a.intro
+      const kws = Array.isArray(a.keywords) && a.keywords.length ? a.keywords : ['abrasive guide', 'grit selection', 'MoTai']
       return {
         title: `${t} — MoTai buyer resources`,
-        description: a.intro,
-        keywords: ['abrasive guide', 'grit selection', 'MoTai'],
+        description: desc,
+        keywords: kws,
         canonicalPath: `/blog/${a.slug}`,
         ogImage: media(a.image),
         jsonldExtra: buildArticleJsonLd(lang, a)

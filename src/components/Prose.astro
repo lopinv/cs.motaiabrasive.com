@@ -1,0 +1,75 @@
+---
+/**
+ * Prose.astro — zero-dependency inline/block markdown renderer.
+ *
+ * The blog body strings live in markdown bodies (long-form articles) where
+ * authors write lightweight markdown: **bold**, *italic*, [text](url),
+ * `code`, and block-level bullet lists (`- item` lines, one per line).
+ *
+ * Locale-relative links: the article corpus is authored once in English with
+ * absolute site paths (`/en/collections/flap-discs`). On every non-en locale
+ * page those links are rewritten to the active locale prefix so a th/de/…
+ * reader stays inside their own sub-site instead of bouncing to /en/ (which
+ * would also leak link equity across locales). The `lang` prop drives it.
+ *
+ * Why not a markdown library: the site's constraint set is astro-only
+ * dependencies, and the body strings need exactly these five constructs.
+ * Links keep the same targeting rules as the rest of the site: external links
+ * get rel="noopener nofollow" + target="_blank" (outbound B2B links must not
+ * pass link equity and must not be a security hole).
+ *
+ * Unknown syntax is passed through as literal text — never dropped.
+ */
+const { text, lang = '' } = Astro.props
+
+/** Inline: **bold**, *italic*, `code`, [text](href). Runs after HTML-escaping. */
+function inline(escaped, lang) {
+  return escaped
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, label, href) => {
+      // Authoring-time locale prefix "/en/" is rewritten to the page's locale
+      // so internal links never leave the active sub-site. Non-/en/ internal
+      // paths and external URLs pass through untouched.
+      let target = href
+      if (lang && lang !== 'en' && /^\/en(\/|$)/.test(target)) target = lang + target.slice(3)
+      const external = /^https?:\/\//i.test(target)
+      const rel = external ? ' rel="noopener nofollow" target="_blank"' : ''
+      return `<a href="${target}"${rel}>${label}</a>`
+    })
+}
+
+function esc(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+
+/** Split a body string into paragraph blocks and `- ` bullet lists. */
+function blocks(raw) {
+  const lines = String(raw ?? '').split(/\r?\n/)
+  const out = []
+  let para = []
+  let list = null
+  const flushPara = () => { if (para.length) { out.push({ t: 'p', text: para.join(' ') }); para = [] } }
+  const flushList = () => { if (list) { out.push({ t: 'ul', items: list }); list = null } }
+  for (const line of lines) {
+    const li = /^\s*[-*]\s+(.*)$/.exec(line)
+    if (li) {
+      flushPara()
+      if (!list) list = []
+      list.push(li[1])
+      continue
+    }
+    flushList()
+    if (line.trim() === '') flushPara()
+    else para.push(line.trim())
+  }
+  flushPara(); flushList()
+  return out
+}
+---
+
+{blocks(text).map((b) => b.t === 'p'
+  ? <p set:html={inline(esc(b.text), lang)} />
+  : <ul>{b.items.map((it) => <li set:html={inline(esc(it), lang)} />)}</ul>
+)}

@@ -1,8 +1,4 @@
 ---
-
----
-
-<!-- Frontmatter (translate title/keywords/metaDescription/intro; keep slug/category/dates/image verbatim) ---
 slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "نحوه خواندن دیسکهای فلپ ساینده: انتخاب درجه زبر مناسب"
@@ -13,6 +9,9 @@ datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic
 ---
+
+<!-- Frontmatter (translate title/keywords/metaDescription/intro; keep slug/category/dates/image verbatim) -->
+
 
 ### پاسخ کوتاه
 
