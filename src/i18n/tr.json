@@ -508,7 +508,54 @@
     "order": {
       "q": "Teklif talep etmek sipariş verilmesi anlamına mı gelir?",
       "a": "Hayır. Form, toptan teklif talebini başlatır. Ürün spesifikasyonları, erişilebilirlik ve ticari koşullar, sipariş üzerinde anlaşılmadan önce doğrulanır."
+    },
+    "sample": {
+      "q": "Tam bir siparişten önce numune test edebilir miyim?",
+      "a": "Evet. Standart referanslara ait numuneler talep üzerine değerlendirme için sunulmaktadır; numune bulunabilirliği ve navlun koşulları teklifinizle birlikte onaylanır."
+    },
+    "lead": {
+      "q": "Üretim siparişini ne kadar önce vermeliyim?",
+      "a": "Teslim süresi, teklifin yazılı olarak onaylandığı gün başlar ve sipariş edilen ölçü, gritler ve ambalaja göre değişir. Stok referansları en hızlı şekilde sevk edilir."
+    },
+    "beltSize": {
+      "q": "Zımpara bantları standart dışı genişlik veya uzunlukta temin edilebilir mi?",
+      "a": "Belgelenmiş ölçülerin ötesindeki bant genişliği ve uzunluğu vaka bazında fiyatlandırılır; özel ölçüye dönüştürmek hem teslim süresini hem de asgari sipariş miktarını etkiler."
+    },
+    "beltJoint": {
+      "q": "Bu zımpara bantlarının ek yerinde ve kenar yapısında ne kullanılıyor?",
+      "a": "Ek türü ve kenar işlemi referansa göre belirlenir. Doğru yapının teklifte fiyatlandırılabilmesi için makineyi, yükü ve istenen yüzey kalitesini belirtin."
+    },
+    "discBacking": {
+      "q": "Kancalı, PSA ve ağ diskler arasında nasıl seçim yapmalıyım?",
+      "a": "Kancalı disk sık grit değişimi için, PSA düz ped ve uzun süreli çalışma için, ağ diskler toz emilimi için uygundur. Seçim kılavuzumuz üçünü yan yana karşılaştırır."
+    },
+    "discDust": {
+      "q": "Bu diskler toz emilim sistemiyle uyumlu mu?",
+      "a": "Ağ ve perforalı diskler emilim için tasarlanmıştır; katı diskler talep üzerine perforalı temin edilebilir. Toz emilim düzeninizi ve kullandığınız pedi belirtin."
+    },
+    "hookLoop": {
+      "q": "Kancalı diskler mevcut yedek pedime uyar mı?",
+      "a": "Çap ve delik deseni pedle uyuşmalıdır. Doğru diskin teklif edilebilmesi için zımpara makinesi modelinizi ve ped çapını talepte teyit edin."
+    },
+    "psa": {
+      "q": "PSA diskler her yedek pedle çalışır mı?",
+      "a": "PSA diskler uygun çaplı düz ve temiz bir kauçuk ped gerektirir. Teklif talebinizde ped çapını ve makine modelini teyit edin."
+    },
+    "mesh": {
+      "q": "Bir ağ zımpara diski ne kadar dayanır?",
+      "a": "Ağ diskler tozlu çalışmalarda tıkanmaya direnç gösterir ve bu da genellikle katı kâğıt disklere kıyasla daha uzun kullanım ömrü sağlar. Gerçek ömür malzemeye, baskıya ve grite bağlıdır."
+    },
+    "solid": {
+      "q": "Katı diskler toz emilimi için perforalı temin edilebilir mi?",
+      "a": "Evet — perforasyon deseni teklifle birlikte kararlaştırılır. Doğru desenin teklif edilebilmesi için ped ve toz emilim düzeninizi belirtin."
     }
+  },
+  "relArticles": {
+    "title": "İlgili makaleler",
+    "sub": "Bu ürün ailesi için MoTai teknik ekibinden alıcı rehberi.",
+    "readMore": "Makaleyi oku",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faqSub": "Alıcıların bu ürünü sipariş etmeden önce en sık sorduğu sorular."
   },
   "regions": {
     "europe": {

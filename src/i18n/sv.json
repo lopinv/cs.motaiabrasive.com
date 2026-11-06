@@ -508,7 +508,54 @@
     "order": {
       "q": "Betyder en offertbegäran en beställning?",
       "a": "Nej. Formuläret startar en grossistförfrågan. Produktspecifikationer, tillgänglighet och kommersiella villkor bekräftas innan en beställning överenskoms."
+    },
+    "sample": {
+      "q": "Kan jag prova ett prov före en hel order?",
+      "a": "Ja. Prover av standardreferenser finns för utvärdering på begäran; provets tillgänglighet och fraktvillkor bekräftas i offerten."
+    },
+    "lead": {
+      "q": "Hur långt i förväg bör jag lägga en produktionsorder?",
+      "a": "Leveranstiden räknas från det datum offerten bekräftas skriftligen och beror på beställd storlek, kornstorlek och förpackning. Referensvaror från lager skickas snabbast."
+    },
+    "beltSize": {
+      "q": "Kan slipband levereras i en icke-standard bredd eller längd?",
+      "a": "Bandbredd och -längd utöver de dokumenterade storlekarna prissätts från fall till fall; konvertering till specialmått påverkar både leveranstid och minimumorder."
+    },
+    "beltJoint": {
+      "q": "Vilken skarv- och kantutförande har dessa slipband?",
+      "a": "Skarvtyp och kantbehandling anges per referens. Ange maskin, belastning och önskat ytskikt så att rätt utförande prissätts i offerten."
+    },
+    "discBacking": {
+      "q": "Hur väljer jag mellan kardborrband, PSA och nät?",
+      "a": "Kardborrband passar för frekventa kornbyten, PSA passar för plana dynor och långa körningar, och nät passar för dammutsugning. Vår urvalsguide jämför alla tre sida vid sida."
+    },
+    "discDust": {
+      "q": "Är dessa skivor kompatibla med dammutsugning?",
+      "a": "Nät- och perforerade skivor är avsedda för utsug; solida skivor kan levereras perforerade på begäran. Ange ditt utsugningssystem och vilken dyna du använder."
+    },
+    "hookLoop": {
+      "q": "Passar kardborrbandsskivor min befintliga stöddyna?",
+      "a": "Diameter och hålmönster måste stämma med dynan. Bekräfta slipmaskinens modell och dynans diameter i förfrågan så att rätt skiva erbjuds."
+    },
+    "psa": {
+      "q": "Fungerar PSA-skivor med valfri stöddyna?",
+      "a": "PSA-skivor kräver en plan, ren gummidyna med passande diameter. Bekräfta dynans diameter och maskinens modell i din offertbegäran."
+    },
+    "mesh": {
+      "q": "Hur länge håller en nätskiva?",
+      "a": "Nätskivar tål inte att sätta igen i dammtungt arbete, vilket oftast förlänger livslängden jämfört med solida pappersskivor. Faktisk livslängd beror på material, tryck och kornstorlek."
+    },
+    "solid": {
+      "q": "Kan solida skivor levereras perforerade för dammutsugning?",
+      "a": "Ja — perforeringsmönster avtalas i offerten. Ange dyna och utsugningssystem så att rätt mönster erbjuds."
     }
+  },
+  "relArticles": {
+    "title": "Relaterade artiklar",
+    "sub": "Köpguide för denna produktfamilj från MoTais tekniska team.",
+    "readMore": "Läs artikel",
+    "faqTitle": "Vanliga frågor",
+    "faqSub": "Frågor köpare ofta ställer innan de beställer denna produkt."
   },
   "regions": {
     "europe": {

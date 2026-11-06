@@ -1,0 +1,31 @@
+{
+  "faq": [
+    { "qKey": "pfq.specs.q", "aKey": "pfq.specs.a" },
+    { "qKey": "pfq.oem.q", "aKey": "pfq.oem.a" },
+    { "qKey": "pfq.order.q", "aKey": "pfq.order.a" },
+    { "qKey": "pfq.sample.q", "aKey": "pfq.sample.a" },
+    { "qKey": "pfq.lead.q", "aKey": "pfq.lead.a" }
+  ],
+  "byCategory": {
+    "abrasive belts": [
+      { "qKey": "pfq.beltSize.q", "aKey": "pfq.beltSize.a" },
+      { "qKey": "pfq.beltJoint.q", "aKey": "pfq.beltJoint.a" }
+    ],
+    "sanding discs": [
+      { "qKey": "pfq.discBacking.q", "aKey": "pfq.discBacking.a" },
+      { "qKey": "pfq.discDust.q", "aKey": "pfq.discDust.a" }
+    ]
+  },
+  "byHandle": {
+    "hook-loop-sanding-discs": [
+      { "qKey": "pfq.hookLoop.q", "aKey": "pfq.hookLoop.a" }
+    ],
+    "3-inch-psa-sanding-disc": [{ "qKey": "pfq.psa.q", "aKey": "pfq.psa.a" }],
+    "4-inch-psa-sanding-disc": [{ "qKey": "pfq.psa.q", "aKey": "pfq.psa.a" }],
+    "5-inch-psa-sanding-disc": [{ "qKey": "pfq.psa.q", "aKey": "pfq.psa.a" }],
+    "5-inch-mesh-sanding-disc": [{ "qKey": "pfq.mesh.q", "aKey": "pfq.mesh.a" }],
+    "6-inch-mesh-sanding-disc": [{ "qKey": "pfq.mesh.q", "aKey": "pfq.mesh.a" }],
+    "6-inch-solid-sanding-disc": [{ "qKey": "pfq.solid.q", "aKey": "pfq.solid.a" }]
+  },
+  "default": []
+}

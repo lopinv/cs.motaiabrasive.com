@@ -508,6 +508,46 @@
     "order": {
       "q": "Solicitar um orçamento faz um pedido?",
       "a": "Não. O formulário inicia uma consulta de grosso. As especificações do produto, a disponibilidade e as condições comerciais são confirmadas antes de um pedido ser acordado."
+    },
+    "sample": {
+      "q": "Posso testar uma amostra antes de assumir um pedido completo?",
+      "a": "Sim. Amostras das referências padrão estão disponíveis para avaliação a pedido; a disponibilidade da amostra e as condições de transporte são confirmadas com o seu orçamento."
+    },
+    "lead": {
+      "q": "Com quanta antecedência devo fazer um pedido de produção?",
+      "a": "O prazo de entrega conta a partir do dia em que o orçamento é confirmado por escrito e depende das dimensões, grão e embalagem encomendados. As referências em stock são as mais rápidas."
+    },
+    "beltSize": {
+      "q": "As fitas abrasivas podem ser fornecidas com largura ou comprimento fora do padrão?",
+      "a": "Largura e comprimento da fita além das dimensões documentadas são cotadas caso a caso; passar para uma medida especial afeta tanto o prazo de entrega como a quantidade mínima de encomenda."
+    },
+    "beltJoint": {
+      "q": "Que tipo de emenda e construção de bordo têm estas fitas abrasivas?",
+      "a": "O tipo de emenda e o tratamento do bordo são definidos por referência. Indique a máquina, a carga e o acabamento pretendido para que a construção correta seja cotada no orçamento."
+    },
+    "discBacking": {
+      "q": "Como escolher entre discos de velcro, PSA e de rede?",
+      "a": "O velcro serve para trocas frequentes de grão, o PSA para bases planas e corridas longas, e os discos de rede para aspiração de poeira. O nosso guia de seleção compara os três lado a lado."
+    },
+    "discDust": {
+      "q": "Estes discos são compatíveis com um sistema de aspiração de poeira?",
+      "a": "Os discos de rede e perfurados foram concebidos para aspiração; os discos maciços podem ser fornecidos perfurados a pedido. Indique o seu dispositivo de aspiração e a base que está a usar."
+    },
+    "hookLoop": {
+      "q": "Os discos de velcro adaptam-se à minha base atual?",
+      "a": "O diâmetro e o padrão de furos têm de corresponder à base. Confirme o modelo da lixadora e o diâmetro da base no pedido para que o disco correto seja proposto."
+    },
+    "psa": {
+      "q": "Os discos PSA funcionam com qualquer base?",
+      "a": "Os discos PSA precisam de uma base de borracha plana e limpa com o diâmetro correspondente. Confirme o diâmetro da base e o modelo da máquina no seu pedido de orçamento."
+    },
+    "mesh": {
+      "q": "Quanto tempo dura um disco abrasivo de rede?",
+      "a": "Os discos de rede resistem ao carregamento em trabalhos com muita poeira, o que costuma prolongar a vida útil face aos discos maciços de papel. A vida real depende do material, pressão e grão."
+    },
+    "solid": {
+      "q": "Os discos maciços podem ser fornecidos perfurados para aspiração de poeira?",
+      "a": "Sim — o padrão de perfuração é acordado com o orçamento. Indique a base e o dispositivo de aspiração para que o padrão correto seja proposto."
     }
   },
   "regions": {
@@ -913,5 +953,12 @@
     "label": "Contacto rápido",
     "whatsapp": "WhatsApp",
     "quote": "Pedir orçamento"
+  },
+  "relArticles": {
+    "title": "Artigos relacionados",
+    "sub": "Guia de compra para esta família de produtos, da equipa técnica da MoTai.",
+    "readMore": "Ler artigo",
+    "faqTitle": "Perguntas frequentes",
+    "faqSub": "Perguntas que os compradores costumam fazer antes de encomendar este produto."
   }
 }

@@ -508,6 +508,46 @@
     "order": {
       "q": "Bedeutet die Angebotsanfrage eine Bestellung?",
       "a": "Nein. Das Formular leitet eine Großhandelsanfrage ein. Produktspezifikationen, Verfügbarkeit und Konditionen werden bestätigt, bevor eine Bestellung vereinbart wird."
+    },
+    "sample": {
+      "q": "Kann ich ein Muster prüfen, bevor ich eine vollständige Bestellung aufgebe?",
+      "a": "Ja. Muster der Standardreferenzen sind auf Anfrage zur Beurteilung erhältlich; Verfügbarkeit und Frachtkonditionen werden mit Ihrem Angebot bestätigt."
+    },
+    "lead": {
+      "q": "Wie lange im Voraus sollte ich einen Produktionsauftrag erteilen?",
+      "a": "Die Lieferzeit beginnt mit dem Tag der schriftlichen Bestätigung des Angebots und richtet sich nach bestellter Größe, Körnung und Verpackung. Lagerreferenzen werden am schnellsten versandt."
+    },
+    "beltSize": {
+      "q": "Können Schleifbänder in nicht standardisierter Breite oder Länge geliefert werden?",
+      "a": "Bandbreite und -länge jenseits der dokumentierten Maße werden von Fall zu Fall kalkuliert; die Umstellung auf ein Sondermaß beeinflusst sowohl Lieferzeit als auch Mindestbestellmenge."
+    },
+    "beltJoint": {
+      "q": "Welche Verbindungs- und Kantenkonstruktion weisen diese Schleifbänder auf?",
+      "a": "Verbindungstyp und Kantenbehandlung sind je Referenz festgelegt. Nennen Sie Maschine, Belastung und gewünschten Finisch, damit die passende Konstruktion im Angebot bepreist wird."
+    },
+    "discBacking": {
+      "q": "Wie wähle ich zwischen Klett-, PSA- und Netzscheiben?",
+      "a": "Klett eignet sich für häufige Körnungswechsel, PSA für flache Stützteller und lange Läufe, Netzscheiben für die Staubabsaugung. Unser Leitfaden vergleicht alle drei nebeneinander."
+    },
+    "discDust": {
+      "q": "Sind diese Scheiben mit einer Staubabsaugung kompatibel?",
+      "a": "Netz- und Lochscheiben sind für die Absaugung ausgelegt; Vollscheiben können auf Wunsch geliefert und gelocht geliefert werden. Nennen Sie Ihre Absauganlage und den verwendeten Stützteller."
+    },
+    "hookLoop": {
+      "q": "Passen Klettscheiben auf meinen vorhandenen Stützteller?",
+      "a": "Durchmesser und Lochmuster müssen zum Stützteller passen. Bestätigen Sie Schleifmaschinenmodell und Stütztellerdurchmesser in der Anfrage, damit die passende Scheibe angeboten wird."
+    },
+    "psa": {
+      "q": "Funktionieren PSA-Scheiben mit jedem Stützteller?",
+      "a": "PSA-Scheiben benötigen einen flachen, sauberen Gummistützteller mit passendem Durchmesser. Bestätigen Sie Stütztellerdurchmesser und Maschinenmodell in Ihrer Angebotsanfrage."
+    },
+    "mesh": {
+      "q": "Wie lange hält eine Netzschleifscheibe?",
+      "a": "Netzscheiben widerstehen dem Zusetzen bei staubigen Arbeiten, was die Nutzungsdauer gegenüber Vollscheiben aus Papier in der Regel verlängert. Die tatsächliche Lebensdauer hängt von Material, Druck und Körnung ab."
+    },
+    "solid": {
+      "q": "Können Vollscheiben zur Staubabsaugung gelocht geliefert werden?",
+      "a": "Ja — das Lochmuster wird mit dem Angebot vereinbart. Nennen Sie Stützteller und Absauganlage, damit das passende Muster angeboten wird."
     }
   },
   "regions": {
@@ -913,5 +953,12 @@
     "label": "Schnellkontakt",
     "whatsapp": "WhatsApp",
     "quote": "Angebot anfordern"
+  },
+  "relArticles": {
+    "title": "Zugehörige Artikel",
+    "sub": "Einkaufsleitfaden für diese Produktfamilie, vom technischen Team von MoTai.",
+    "readMore": "Artikel lesen",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqSub": "Fragen, die Käufer vor der Bestellung dieses Produkts häufig stellen."
   }
 }

@@ -10,6 +10,10 @@ export const blog = (await import('../data/blog.json')).default
 export const applications = (await import('../data/applications.json')).default
 export const regions = (await import('../data/regions.json')).default
 export const faq = (await import('../data/faq.json')).default
+// Related-article routes and per-product FAQ assembly for the product page
+// (content aggregation: articles + FAQ), keyed by handle / product family.
+export const relatedMap = (await import('../data/product-related.json')).default
+export const faqMap = (await import('../data/product-faq.json')).default
 export const glossary = (await import('../data/glossary.json')).default
 export const trust = (await import('../data/trust.json')).default
 export const videosData = (await import('../data/videos.json')).default

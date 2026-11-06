@@ -508,6 +508,46 @@
     "order": {
       "q": "¿Solicitar cotización implica un pedido?",
       "a": "No. El formulario inicia una consulta mayorista. Especificaciones, disponibilidad y condiciones se confirman antes de acordar un pedido."
+    },
+    "sample": {
+      "q": "¿Puedo probar una muestra antes de comprometerme con un pedido completo?",
+      "a": "Sí. Las muestras de las referencias estándar están disponibles para su evaluación a petición; la disponibilidad de la muestra y las condiciones de transporte se confirman con su presupuesto."
+    },
+    "lead": {
+      "q": "¿Con cuánta antelación debo realizar un pedido de producción?",
+      "a": "El plazo de entrega empieza el día en que el presupuesto se confirma por escrito y depende de la medidas, el grano y el embalaje pedidos. Las referencias de stock se envían más rápido."
+    },
+    "beltSize": {
+      "q": "¿Se pueden suministrar cintas abrasivas en una anchura o longitud no estándar?",
+      "a": "La anchura y longitud de la cinta más allá de las medidas documentadas se cotizan caso por caso; convertir a una medida especial influye tanto en el plazo de entrega como en la cantidad mínima de pedido."
+    },
+    "beltJoint": {
+      "q": "¿Qué tipo de unión y construcción de borde tienen estas cintas abrasivas?",
+      "a": "El tipo de unión y el tratamiento del borde se definen por referencia. Indique la máquina, la carga y el acabado deseados para que la construcción correcta se cotice en el presupuesto."
+    },
+    "discBacking": {
+      "q": "¿Cómo elegir entre discos de velcro, PSA y de malla?",
+      "a": "El velcro conviene para cambios frecuentes de grano, el PSA para platos lisos y tiradas largas, y los discos de malla para la extracción de polvo. Nuestra guía de selección compara los tres lado a lado."
+    },
+    "discDust": {
+      "q": "¿Son compatibles estos discos con un sistema de extracción de polvo?",
+      "a": "Los discos de malla y perforados están diseñados para la extracción; los discos macizos pueden suministrarse perforados a petición. Indique su equipo de extracción y el plato que utiliza."
+    },
+    "hookLoop": {
+      "q": "¿Encajarán los discos de velcro en mi plato actual?",
+      "a": "El diámetro y el patrón de agujeros deben ajustarse al plato. Confirme el modelo de lijadora y el diámetro del plato en la consulta para poder ofrecer el disco correcto."
+    },
+    "psa": {
+      "q": "¿Funcionan los discos PSA con cualquier plato?",
+      "a": "Los discos PSA necesitan un plato de goma plano y limpio del diámetro correspondiente. Confirme el diámetro del plato y el modelo de máquina en su solicitud de presupuesto."
+    },
+    "mesh": {
+      "q": "¿Cuánto dura un disco de malla abrasivo?",
+      "a": "Los discos de malla resisten la obstrucción en trabajos con mucho polvo, lo que suele alargar su vida útil en comparación con los discos macizos de papel. La vida real depende del material, la presión y el grano."
+    },
+    "solid": {
+      "q": "¿Pueden suministrarse discos macizos perforados para la extracción de polvo?",
+      "a": "Sí — el patrón de perforación se acuerda con el presupuesto. Indique el plato y el equipo de extracción para poder ofrecer el patrón correcto."
     }
   },
   "regions": {
@@ -913,5 +953,12 @@
     "label": "Contacto rápido",
     "whatsapp": "WhatsApp",
     "quote": "Solicitar presupuesto"
+  },
+  "relArticles": {
+    "title": "Artículos relacionados",
+    "sub": "Guía de compra para esta familia de productos, del equipo técnico de MoTai.",
+    "readMore": "Leer artículo",
+    "faqTitle": "Preguntas frecuentes",
+    "faqSub": "Preguntas que los compradores suelen hacer antes de pedir este producto."
   }
 }

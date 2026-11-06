@@ -1,0 +1,20 @@
+{
+  "byHandle": {
+    "hook-loop-sanding-discs": ["choose-sanding-disc-backing", "grit-standards-fepa-ansi", "dust-collection-and-pad-compatibility"],
+    "3-inch-psa-sanding-disc": ["choose-sanding-disc-backing", "plan-your-grit-sequence", "dust-collection-and-pad-compatibility"],
+    "4-inch-psa-sanding-disc": ["choose-sanding-disc-backing", "plan-your-grit-sequence", "dust-collection-and-pad-compatibility"],
+    "5-inch-psa-sanding-disc": ["choose-sanding-disc-backing", "plan-your-grit-sequence", "dust-collection-and-pad-compatibility"],
+    "5-inch-mesh-sanding-disc": ["dust-collection-and-pad-compatibility", "grit-standards-fepa-ansi", "choose-sanding-disc-backing"],
+    "6-inch-mesh-sanding-disc": ["dust-collection-and-pad-compatibility", "grit-standards-fepa-ansi", "choose-sanding-disc-backing"],
+    "6-inch-solid-sanding-disc": ["plan-your-grit-sequence", "choose-sanding-disc-backing", "grit-standards-fepa-ansi"],
+    "533x75-abrasive-belt": ["abrasive-belt-order-checklist", "plan-your-grit-sequence", "grit-standards-fepa-ansi"],
+    "610x100-abrasive-belt": ["abrasive-belt-order-checklist", "plan-your-grit-sequence", "grit-standards-fepa-ansi"],
+    "1520x630-abrasive-belt": ["abrasive-belt-order-checklist", "plan-your-grit-sequence", "grit-standards-fepa-ansi"],
+    "2200x1330-abrasive-belt": ["abrasive-belt-order-checklist", "plan-your-grit-sequence", "grit-standards-fepa-ansi"]
+  },
+  "byCategory": {
+    "abrasive belts": ["abrasive-belt-order-checklist", "plan-your-grit-sequence", "grit-standards-fepa-ansi"],
+    "sanding discs": ["choose-sanding-disc-backing", "plan-your-grit-sequence", "grit-standards-fepa-ansi"]
+  },
+  "default": ["abrasive-belt-order-checklist", "choose-sanding-disc-backing", "plan-your-grit-sequence"]
+}

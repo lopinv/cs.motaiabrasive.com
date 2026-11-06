@@ -4,7 +4,7 @@ import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import CtaBand from '../../../components/CtaBand.astro'
-import { products, media, faq as faqData } from '../../../lib/utils.js'
+import { products, media, faq as faqData, blog as blogData, relatedMap, faqMap } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths(products.map((p) => ({ handle: p.handle })))
@@ -17,13 +17,27 @@ const p = productByHandle(ctx.handle)
 const t = pick('meta')
 const pp = pick('productPage')
 const pr = pick('purchasing')
-const q = faqData.productPageFaq
+const ra = pick('relArticles')
+// Product FAQ: 5 universal questions + 2 category questions + any handle-specific
+// ones (from src/data/product-faq.json). FAQPage JSON-LD is emitted from the
+// same resolved list so the visible block and the structured data agree.
+const q = [...faqMap.faq, ...(faqMap.byCategory[(p.category ?? '').toLowerCase()] ?? []), ...(faqMap.byHandle[p.handle] ?? faqMap.default)]
 const goQuote = quoteUrlRaw({ product: p.handle })
 const goSample = quoteUrlRaw({ product: p.handle, request_type: 'sample' })
+
+// Related articles: handle mapping wins, then the product-category mapping,
+// then a middle-of-the-road default. The category match is lower-cased
+// because products.json stores "Abrasive Belts"/"Sanding Discs".
+const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
+const relatedSlugs = relatedMap.byHandle[p.handle] ?? relatedMap.byCategory[(p.category ?? '').toLowerCase()] ?? relatedMap.default
+const related = relatedSlugs.map((s) => blogData.find((b) => b.slug === s)).filter(Boolean)
+const alsoLike = products.filter((x) => x.handle !== p.handle && x.category === p.category).slice(0, 3)
+
 const seo = buildSeo(lang, 'product', { handle: p.handle }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.products'), path: `/${lang}/collections/all` },
-    { name: p.name, path: `/${lang}/products/${p.handle}` }
+    { name: p.name, path: `/${lang}/products/${p.handle}`
+    }
   ]),
   faqJsonLd(lang, q)
 ])
@@ -108,10 +122,35 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
     </div>
   </section>
 
-  <section class="section wrap">
-    <h2>{pp.howTitle}</h2>
-    <p class="body-narrow">{pp.howBody}</p>
-    <div class="faq-list mt-24">
+  /* ---------- Related articles ---------- */
+  <section class="section wrap section--flush-top">
+    <span class="eyebrow">{pick('nav.news')}</span>
+    <h2>{ra.title}</h2>
+    <p class="text-soft">{ra.sub}</p>
+    <div class="grid grid-3 mt-24">
+      {related.map((b) => (
+        <a class="product-card" href={lu(`/blog/${b.slug}`)}>
+          <div class="product-card-media">
+            <img src={media(b.image)} alt={pick(b.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
+          </div>
+          <div class="product-card-body">
+            <span class="eyebrow">{pick(`article.${catKey[b.categoryKey]}`)}</span>
+            <h3 class="product-card-title">{pick(b.titleKey)}</h3>
+            <p>{pick(b.introKey)}</p>
+            <span class="card-link">{ra.readMore} <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  /* ---------- FAQ (visible block + matching FAQPage JSON-LD) ---------- */
+  <section class="section wrap section--soft">
+    <span class="eyebrow">FAQ</span>
+    <h2>{ra.faqTitle}</h2>
+    <p class="text-soft">{ra.faqSub}</p>
+    <div class="faq-list faq-list--2col mt-24">
       {q.map((item) => (
         <div class="faq-item">
           <h3 class="faq-q">{pick(item.qKey)}</h3>
@@ -119,6 +158,21 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
         </div>
       ))}
     </div>
+  </section>
+
+  <section class="section wrap">
+    <h2>{pp.howTitle}</h2>
+    <p class="body-narrow">{pp.howBody}</p>
+    {alsoLike.length > 0 && (
+      <>
+        <h3 class="mt-24">{pick('colt.all.title')}</h3>
+        <div class="related-note">
+          {alsoLike.map((x) => (
+            <a href={lu(`/products/${x.handle}`)}>{x.name}</a>
+          ))}
+        </div>
+      </>
+    )}
   </section>
 
   <CtaBand lang={lang} waContext="product" waVars={{ name: p.name, grits: (p.grits ?? []).slice(0, 2).join('–') }} ctaKey1="cta.quote" ctaKey2="cta.waChat" />

@@ -2,9 +2,9 @@
 slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Sådan læser du flap-skiver: den rigtige kornstørrelse"
-keywords: [Flap-skiver, Rustfrit stål, Støvudsugetning, Respiratorisk]
+keywords: [Flap-skiver, Rustfrit stål, Støvudsugetning, Respiratoriske]
 metaDescription: "Lær at læse flap-skiver. Kornstørrelse, bærerem, størrelse, centerhul og sikkerhed forklaret med eksempler, så du kan spec den rigtige skive og købe med tryghed."
-intro: "En hurtig feltguide til at afkode flap-skiver — kornstørrelse, bærerem, størrelse og centerhul — med gennemarbejdede eksempler og en før-køb sikkerhedstjekliste."
+intro: "En hurtig feltguide til at afkode flap-skiver — kornstørrelse, bærerem, størrelse og centerhul — med eksempler og en før-køb tjekliste."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic

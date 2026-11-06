@@ -508,7 +508,54 @@
     "order": {
       "q": "Muodostaako tarjouspyyntö tilauksen?",
       "a": "Ei. Lomake aloittaa tukkutiedustuksen. Tuotteen tekniset tiedot, saatavuus ja kaupalliset ehdot vahvistetaan ennen tilauksen sopimista."
+    },
+    "sample": {
+      "q": "Voiko kokeilla näytettä ennen koko tilausta?",
+      "a": "Kyllä. Vakituisten viitteiden näytteet ovat arviointia varten pyynnöstä; näytteen saatavuus ja rahtiehdot vahvistetaan tarjouksessa."
+    },
+    "lead": {
+      "q": "Kuinka ajoissa tuotantotilaus on tehtävä?",
+      "a": "Toimitusaika alkaa päivästä, jona tarjous vahvistetaan kirjallisesti, ja se riippuu tilatusta koosta, raekoolusta ja pakkauksesta. Varastoviitteet lähetetään nopeimmin."
+    },
+    "beltSize": {
+      "q": "Voidaanko hiontalankoja toimittaa ei-standardileveyksillä tai -pituuksilla?",
+      "a": "Dokumentoituja lukuja suurempi leveys ja pituus hinnoitellaan tapauskohtaisesti; mittatilaukseksi muuttaminen vaikuttaa sekä toimitusaikaan että vähimmäistilausmäärään."
+    },
+    "beltJoint": {
+      "q": "Minkälaiset liitos- ja reunateknologiat näillä hiontalangoilla on?",
+      "a": "Liitoksen tyyppi ja reunojen käsittely on määritetty viitteittäin. Ilmoita kone, kuormitus ja haluttu pinta, jotta oikea rakenne hinnoitellaan tarjouksessa."
+    },
+    "discBacking": {
+      "q": "Miten valita tarranauha-, PSA- ja verkkolaikkojen välillä?",
+      "a": "Tarranauha sopii useisiin raekoon vaihtoihin, PSA tasaisiin laattoihin ja pitkiin ajoihin, verkkolaikat pölynpoistoon. Valintaoppaamme vertailee kaikkia kolmea rinnakkain."
+    },
+    "discDust": {
+      "q": "Ovatko nämä laikat yhteensopivia pölynpoiston kanssa?",
+      "a": "Verkko- ja rei'itetyt laikat on tarkoitettu poistoon; täyteen laikkoja voidaan toimittaa rei'itettynä pyynnöstä. Ilmoita pölynpoistojärjestelmäsi ja käyttämäsi laatta."
+    },
+    "hookLoop": {
+      "q": "Soveltuvatko tarranauhalaitat nykyiseen taustalevyyni?",
+      "a": "Halkaisijan ja rei'ityksen on vastattava levyä. Vahvista hiomakoneen malli ja taustalevyn halkaisija kyselyssä, jotta oikea laikka tarjotaan."
+    },
+    "psa": {
+      "q": "Toimivatko PSA-laikat millä tahansa taustalevyllä?",
+      "a": "PSA-laikat vaativat tasaisen, puhtaan kumitaustalevyn oikean halkaisijan kanssa. Vahvista taustalevyn halkaisija ja koneen malli tarjouspyynnössä."
+    },
+    "mesh": {
+      "q": "Kuinka kauan verkkohiontakiekko kestää?",
+      "a": "Verkkolaikat eivät tukkeudu pölyisessä työssä, mikä yleensä pidentää niiden kesto täyteen paperilaitat verrattuna. Todellinen kesto riippuu materiaalista, paineesta ja raekoolusta."
+    },
+    "solid": {
+      "q": "Voidaanko täydet laikat toimittaa rei'itettynä pölynpoistoon?",
+      "a": "Kyllä — rei'ityskuvio sovitaan tarjouksessa. Ilmoita taustalevy ja pölynpoistojärjestelmä, jotta oikea kuvio tarjotaan."
     }
+  },
+  "relArticles": {
+    "title": "Aiheeseen liittyvät artikkelit",
+    "sub": "Ostaoppaan sisältö tälle tuoteryhmälle MoTai-tiimiltä.",
+    "readMore": "Lue artikkeli",
+    "faqTitle": "Usein kysytyt kysymykset",
+    "faqSub": "Kysymykset, joita ostajat usein esittävät ennen tämän tuotteen tilaamista."
   },
   "regions": {
     "europe": {

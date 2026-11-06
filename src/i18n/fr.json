@@ -508,6 +508,46 @@
     "order": {
       "q": "Demander un devis place-t-il une commande ?",
       "a": "Non. Le formulaire initie une demande de gros. Les spécifications produit, la disponibilité et les conditions commerciales sont confirmées avant qu'une commande ne soit accordée."
+    },
+    "sample": {
+      "q": "Puis-je tester un échantillon avant de valider une commande complète ?",
+      "a": "Oui. Les échantillons des références standard sont proposés à des fins d'évaluation sur demande ; la disponibilité de l'échantillon et les conditions de transport seront confirmées avec votre devis."
+    },
+    "lead": {
+      "q": "Combien de temps à l'avance faut-il passer une commande de production ?",
+      "a": "Le délai part du jour où le devis est confirmé par écrit et dépend de la taille, du grain et de l'emballage commandés. Les références en stock partent le plus vite."
+    },
+    "beltSize": {
+      "q": "Les bandes abrasives peuvent-elles être fournies dans une largeur ou une longueur non standard ?",
+      "a": "La largeur et la longueur au-delà des dimensions documentées sont devisées au cas par cas ; le passage à une taille spéciale influence à la fois le délai et la quantité minimale de commande."
+    },
+    "beltJoint": {
+      "q": "Quel type de raccord et quelle construction de bord ont ces bandes abrasives ?",
+      "a": "Le type de raccord et le traitement des bords sont définis par référence. Indiquez la machine, la charge et la finition souhaitée afin que la construction adaptée soit chiffrée au devis."
+    },
+    "discBacking": {
+      "q": "Comment choisir entre disques auto-agrippants, PSA et filet ?",
+      "a": "L'auto-agrippant convient aux changements fréquents de grain, le PSA aux plateaux plats et aux longues passes, et les disques filet à l'aspiration des poussières. Notre guide de sélection compare les trois côte à côte."
+    },
+    "discDust": {
+      "q": "Ces disques sont-ils compatibles avec un système d'aspiration des poussières ?",
+      "a": "Les disques filet et perforés sont conçus pour l'aspiration ; les disques pleins peuvent être fournis perforés sur demande. Indiquez votre dispositif d'aspiration et le plateau utilisé."
+    },
+    "hookLoop": {
+      "q": "Les disques auto-agrippants conviendront-ils à mon plateau actuel ?",
+      "a": "Le diamètre et le schéma de perçage doivent correspondre au plateau. Confirmez le modèle de ponceuse et le diamètre du plateau lors de la demande afin que le bon disque soit proposé."
+    },
+    "psa": {
+      "q": "Les disques PSA fonctionnent-ils avec n'importe quel plateau ?",
+      "a": "Les disques PSA nécessitent un plateau en caoutchouc plat et propre du diamètre correspondant. Confirmez le diamètre du plateau et le modèle de la machine dans votre demande de devis."
+    },
+    "mesh": {
+      "q": "Quelle est la durée de vie d'un disque abrasif filet ?",
+      "a": "Les disques filet résistent au colmatage dans les travaux poussiéreux, ce qui allonge généralement leur durée de vie par rapport aux disques pleins en papier. La durée réelle dépend du matériau, de la pression et du grain."
+    },
+    "solid": {
+      "q": "Les disques pleins peuvent-ils être fournis perforés pour l'aspiration ?",
+      "a": "Oui — le schéma de perçage est convenu avec le devis. Indiquez le plateau et le dispositif d'aspiration afin que le schéma adapté soit proposé."
     }
   },
   "regions": {
@@ -913,5 +953,12 @@
     "label": "Contact rapide",
     "whatsapp": "WhatsApp",
     "quote": "Demander un devis"
+  },
+  "relArticles": {
+    "title": "Articles associés",
+    "sub": "Guide d'achat pour cette famille de produits, par l'équipe technique MoTai.",
+    "readMore": "Lire l'article",
+    "faqTitle": "Questions fréquentes",
+    "faqSub": "Questions que les acheteurs posent souvent avant de commander ce produit."
   }
 }

@@ -86,7 +86,9 @@ const WRONG = {
     ['אסיכה', 'wrong word (collection/bank); = איסוף', 'איסוף'],
     ['תמריץ', 'wrong word (incentive); pricing = תמחור', 'תמחור'],
     ['רצועות החלקה', 'wrong word (smoothing); sanding belts = רצועות שחיקה', 'רצועות שחיקה'],
-    ['דגימות', 'wrong word (samples) for blending', 'מיסוך']
+    // דגימות is correct for sample goods; only wrong in the weld-blending
+    // context (gloss.blend) where מיסוך is the term. Scoped by key path.
+    ['דגימות', 'wrong word (samples) for blending; use מיסוך in the blend/gloss context', 'מיסוך', (key) => /blend|mask|smoothing/i.test(key)]
   ],
   tr: [
     ['Otomotir', 'typo', 'Otomotiv'],
@@ -166,13 +168,33 @@ for (const { file, code, dir } of targets) {
   const flat = Object.keys(obj)
   const issues = []
 
-  // 1) wrong/invented terms (string patterns count literal occurrences;
-  //    RegExp patterns use a global match so word boundaries work)
-  for (const [pat, why, fix] of (WRONG[code] || [])) {
+  // 1) wrong/invented terms. String patterns count literal occurrences;
+  //    RegExp patterns use a global match so word boundaries work.
+  //    Optional 4th element = key-path predicate: with it, only keys whose
+  //    path matches are scanned (context-sensitive terms, e.g. a Hebrew
+  //    word that is right for "samples" but wrong for weld "blending").
+  for (const [pat, why, fix, when] of (WRONG[code] || [])) {
     let n = 0
     if (pat instanceof RegExp) {
-      const re = new RegExp(pat.source, pat.flags.includes('g') ? pat.flags : pat.flags + 'g')
-      n = (raw.match(re) || []).length
+      if (when) {
+        for (const k of flat) {
+          if (!when(k)) continue
+          const v = obj[k]
+          if (typeof v !== 'string') continue
+          const re = new RegExp(pat.source, pat.flags.includes('g') ? pat.flags : pat.flags + 'g')
+          n += (v.match(re) || []).length
+        }
+      } else {
+        const re = new RegExp(pat.source, pat.flags.includes('g') ? pat.flags : pat.flags + 'g')
+        n = (raw.match(re) || []).length
+      }
+    } else if (when) {
+      for (const k of flat) {
+        if (!when(k)) continue
+        const v = obj[k]
+        if (typeof v !== 'string') continue
+        n += v.split(pat).length - 1
+      }
     } else {
       n = count(raw, pat)
     }

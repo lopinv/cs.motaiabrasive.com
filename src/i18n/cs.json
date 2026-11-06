@@ -508,7 +508,54 @@
     "order": {
       "q": "Znamená vyžádání nabídky objednávku?",
       "a": "Ne. Formulář zahajuje velkoobchodní dotaz. Specifikace produktu, dostupnost a obchodní podmínky se potvrzují před dohodnutím objednávky."
+    },
+    "sample": {
+      "q": "Mohu si před kompletní objednávkou vyzkoušet vzorek?",
+      "a": "Ano. Vzorky standardních referencí jsou k dispozici k vyhodnocení na vyžádání; dostupnost vzorků a přepravní podmínky potvrdíme v cenové ponuce."
+    },
+    "lead": {
+      "q": "Jak dlouho předem mám zadat výrobní objednávku?",
+      "a": "Dodací lhůta začíná běžet dnem písemného potvrzení cenové ponuky a závisí na objednané velikosti, zrnitosti a balení. Referenční skladové položky se expedují nejrychleji."
+    },
+    "beltSize": {
+      "q": "Lze brusné pásy dodat v nestandardní šířce nebo délce?",
+      "a": "Šířku a délku pásu nad dokumentované rozměry naceníme individuálně; převedení na zakázkovou velikost ovlivní dodací lhůtu i minimální množství objednávky."
+    },
+    "beltJoint": {
+      "q": "Jaký spoj a okrajové provedení mají tyto brusné pásy?",
+      "a": "Typ spoje a úprava okrajů jsou stanoveny podle referenčního označení. Uveďte stroj, zatížení a požadovaný finiš, aby bylo správné provedení oceněno v cenové ponuce."
+    },
+    "discBacking": {
+      "q": "Jak si vybrat mezi suchým zipem, PSA a síťovými kotouči?",
+      "a": "Suchý zip vyhovuje při časté výměně zrnitosti, PSA při rovných podkladech a dlouhých bězích, síťové kotouče při odsávání prachu. Náš průvodce výběrem všechny tři srovnává bok po boku."
+    },
+    "discDust": {
+      "q": "Jsou tyto kotouče kompatibilní s odsáváním prachu?",
+      "a": "Síťové a perforované kotouče jsou určeny pro odsávání; plné kotouče lze na vyžádání dodat perforované. Uveďte svou odsávací jednotku a používaný podklad."
+    },
+    "hookLoop": {
+      "q": "Padnou kotouče se suchým zipem na můj stávající podklad?",
+      "a": "Průměr a obraz otvorů musí odpovídat podkladu. V dotazu potvrďte model brusky a průměr podkladu, aby byl nabídnut správný kotouč."
+    },
+    "psa": {
+      "q": "Fungují PSA kotouče s jakýmkoli podkladem?",
+      "a": "PSA kotouče vyžadují plochý, čistý pryžový podklad odpovídajícího průměru. Průměr podkladu a model stroje potvrďte v žádosti o cenovou ponuku."
+    },
+    "mesh": {
+      "q": "Jak dlouho vydrží síťový brusný kotouč?",
+      "a": "Síťové kotouče odolávají zanášení při prašných pracích, což obvykle prodlužuje jejich životnost oproti plným kotoučům z papíru. Skutečná životnost závisí na materiálu, tlaku a zrnitosti."
+    },
+    "solid": {
+      "q": "Lze plné kotouče dodat perforované pro odsávání prachu?",
+      "a": "Ano — vzor perforace se dohodne v cenové ponuce. Uveďte podklad a odsávací zařízení, aby byl nabídnut správný vzor."
     }
+  },
+  "relArticles": {
+    "title": "Související články",
+    "sub": "Průvodce nákupu pro tuto rodinu produktů od technického týmu MoTai.",
+    "readMore": "Přečíst článek",
+    "faqTitle": "Často kladené otázky",
+    "faqSub": "Otázky, kterými se kupující nejčastěji ptají před objednávkou tohoto produktu."
   },
   "regions": {
     "europe": {

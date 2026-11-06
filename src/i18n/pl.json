@@ -508,7 +508,54 @@
     "order": {
       "q": "Czy złożenie zapytania o wycenę oznacza zamówienie?",
       "a": "Nie. Formularz rozpoczyna hurtowe zapytanie. Specyfikacja produktu, dostępność i warunki handlowe są potwierdzane przed uzgodnieniem zamówienia."
+    },
+    "sample": {
+      "q": "Czy mogę przetestować próbkę przed złożeniem pełnego zamówienia?",
+      "a": "Tak. Próbki standardowych pozycji są dostępne do oceny na życzenie; dostępność próbek i warunki transportu zostaną potwierdzone w wycenie."
+    },
+    "lead": {
+      "q": "Jak wcześnie powinienem złożyć zamówienie produkcyjne?",
+      "a": "Czas realizacji biegnie od daty pisemnego potwierdzenia wyceny i zależy od zamówionego rozmiaru, gradacji i opakowania. Pozycje referencyjne ze stanu magazynowego wysyłamy najszybciej."
+    },
+    "beltSize": {
+      "q": "Czy paski ścierne mogą być dostarczone w niestandardowej szerokości lub długości?",
+      "a": "Szerokość i długość paska wykraczające poza udokumentowane rozmiary wyceniamy indywidualnie; wykonanie na wymiar wpływa zarówno na czas realizacji, jak i na minimalną wielkość zamówienia."
+    },
+    "beltJoint": {
+      "q": "Jakiego łączenia i wykończenia krawędzi używają te paski ścierne?",
+      "a": "Rodzaj łączenia i obróbkę krawędzi określa pozycja referencyjna. Podaj maszynę, obciążenie i wymagane wykończenie, aby właściwa konstrukcja została wycenona w wycenie."
+    },
+    "discBacking": {
+      "q": "Jak wybrać między tarczami na rzep, PSA a siateczkowymi?",
+      "a": "Rzep sprawdza się przy częstej zmianie gradacji, PSA przy płaskich podkładach i długich przebiegach, a tarcze siateczkowe przy odsysaniu pyłu. Nasz przewodnik porównuje wszystkie trzy obok siebie."
+    },
+    "discDust": {
+      "q": "Czy te tarcze są zgodne z odsysaniem pyłu?",
+      "a": "Tarcze siateczkowe i perforowane są przeznaczone do odsysania; tarcze pełne można na życzenie dostarczyć perforowane. Podaj swój układ odsysania i używany podkład."
+    },
+    "hookLoop": {
+      "q": "Czy tarcze na rzep pasują do mojego obecnego podkładu?",
+      "a": "Średnica i układ otworów muszą odpowiadać podkładowi. Potwierdź model szlifierki i średnicę podkładu w zapytaniu, abyśmy zaproponowali właściwą tarczę."
+    },
+    "psa": {
+      "q": "Czy tarcze PSA działają z każdym podkładem?",
+      "a": "Tarcze PSA wymagają płaskiego, czystego podkładu gumowego o pasującej średnicy. Potwierdź średnicę podkładu i model urządzenia w żądaniu wyceny."
+    },
+    "mesh": {
+      "q": "Jak długo wytrzymuje siateczkowa tarcza ścierna?",
+      "a": "Tarcze siateczkowe opierają się zapychaniu przy pracach pylnych, co zwykle wydłuża ich żywotność w porównaniu z pełnymi tarczami papierowymi. Rzeczywista żywotność zależy od materiału, nacisku i gradacji."
+    },
+    "solid": {
+      "q": "Czy pełne tarcze można dostarczyć perforowane do odsysania pyłu?",
+      "a": "Tak — wzór perforacji ustala się w wycenie. Podaj podkład i układ odsysania, aby zaproponować właściwy wzór."
     }
+  },
+  "relArticles": {
+    "title": "Powiązane artykuły",
+    "sub": "Przewodnik zakupowy dla tej rodziny produktów, od zespołu technicznego MoTai.",
+    "readMore": "Czytaj artykuł",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faqSub": "Pytania, które kupujący najczęściej zadają przed zamówieniem tego produktu."
   },
   "regions": {
     "europe": {

@@ -508,6 +508,46 @@
     "order": {
       "q": "Richiedere un preventivo equivale a un ordine?",
       "a": "No. Il modulo avvia una richiesta all'ingrosso. Specifiche del prodotto, disponibilità e condizioni commerciali sono confermate prima della conferma dell'ordine."
+    },
+    "sample": {
+      "q": "Posso provare un campione prima di confermare un ordine completo?",
+      "a": "Sì. I campioni dei riferimenti standard sono disponibili per la valutazione su richiesta; la disponibilità del campione e le condizioni di trasporto vengono confermate con il preventivo."
+    },
+    "lead": {
+      "q": "Quanto tempo prima dovrei effettuare un ordine di produzione?",
+      "a": "Il tempo di consegna decorre dal giorno in cui il preventivo viene confermato per iscritto e dipende dalla dimensione, dalla grana e dall'imballo ordinati. I riferimenti a magazzino partono più rapidamente."
+    },
+    "beltSize": {
+      "q": "I nastri abrasivi possono essere forniti con larghezza o lunghezza non standard?",
+      "a": "Larghezza e lunghezza del nastro oltre le misure documentate sono quotate caso per caso; passare a una misura speciale incide sia sul tempo di consegna sia sulla quantità minima d'ordine."
+    },
+    "beltJoint": {
+      "q": "Che tipo di giunto e che struttura dei bordi hanno questi nastri abrasivi?",
+      "a": "Il tipo di giunto e il trattamento dei bordi sono definiti per riferimento. Indicate la macchina, il carico e la finitura desiderata affinché la struttura corretta sia preventivata nel preventivo."
+    },
+    "discBacking": {
+      "q": "Come scegliere tra dischi in velcro, PSA e a rete?",
+      "a": "Il velcro è indicato per i cambi di grana frequenti, il PSA per platorelli piatti e lunghe sessioni, i dischi a rete per l'aspirazione delle polveri. La nostra guida alla scelta confronta le tre soluzioni fianco a fianco."
+    },
+    "discDust": {
+      "q": "Questi dischi sono compatibili con un sistema di aspirazione delle polveri?",
+      "a": "I dischi a rete e perforati sono progettati per l'aspirazione; i dischi pieni possono essere forniti perforati su richiesta. Indicate il vostro impianto di aspirazione e il platorello utilizzato."
+    },
+    "hookLoop": {
+      "q": "I dischi in velcro si adattano al mio platorello attuale?",
+      "a": "Diametro e schema dei fori devono corrispondere al platorello. Confermate il modello della levigatrice e il diametro del platorello nella richiesta, così da proporre il disco corretto."
+    },
+    "psa": {
+      "q": "I dischi PSA funzionano con qualsiasi platorello?",
+      "a": "I dischi PSA richiedono un platorello di gomma piano e pulito del diametro corrispondente. Confermate il diametro del platorello e il modello della macchina nella richiesta di preventivo."
+    },
+    "mesh": {
+      "q": "Quanto dura un disco abrasivo a rete?",
+      "a": "I dischi a rete resistono all'intasamento nei lavori polverosi, il che in genere estende la loro vita utile rispetto ai dischi pieni di carta. La vita reale dipende dal materiale, dalla pressione e dalla grana."
+    },
+    "solid": {
+      "q": "I dischi pieni possono essere forniti perforati per l'aspirazione delle polveri?",
+      "a": "Sì — lo schema di perforazione viene concordato con il preventivo. Indicate platorello e impianto di aspirazione, così da proporre lo schema corretto."
     }
   },
   "regions": {
@@ -913,5 +953,12 @@
     "label": "Contatto rapido",
     "whatsapp": "WhatsApp",
     "quote": "Richiedi un preventivo"
+  },
+  "relArticles": {
+    "title": "Articoli correlati",
+    "sub": "Guida all'acquisto per questa famiglia di prodotti, dal team tecnico MoTai.",
+    "readMore": "Leggi l'articolo",
+    "faqTitle": "Domande frequenti",
+    "faqSub": "Domande che gli acquirenti pongono spesso prima di ordinare questo prodotto."
   }
 }

@@ -508,7 +508,54 @@
     "order": {
       "q": "Adakah meminta sebut harga bermaksud membuat pesanan?",
       "a": "Tidak. Borang ini memulakan pertanyaan borong. Spesifikasi produk, ketersediaan dan terma komersial disahkan sebelum pesanan dipersetujui."
+    },
+    "sample": {
+      "q": "Bolehkah saya menguji sampel sebelum membuat pesanan penuh?",
+      "a": "Boleh. Sampel rujukan standard tersedia untuk penilaian atas permintaan; ketersediaan sampel dan terma pengangkutan disahkan bersama dengan sebut harga anda."
+    },
+    "lead": {
+      "q": "Berapa awal sebelumnya saya perlu membuat pesanan pengeluaran?",
+      "a": "Masa pengeluaran dikira dari tarikh sebut harga disahkan secara bertulis, dan bergantung pada saiz, grit serta pembungkusan yang dipesan. Rujukan stok dihantar paling cepat."
+    },
+    "beltSize": {
+      "q": "Bolehkah tali suam abrasif dibekalkan dengan lebar atau panjang bukan standard?",
+      "a": "Lebar dan panjang melebihi saiz yang didokumenkan diberi harga kes demi kes; penukaran kepada saiz khusus mempengaruhi masa pengeluaran dan juga jumlah pesanan minimum."
+    },
+    "beltJoint": {
+      "q": "Apakah jenis cantuman dan hujung tali suam abrasif ini?",
+      "a": "Jenis cantuman dan rawatan hujung ditakrifkan mengikut rujukan. Nyatakan mesin, beban dan hasil akhir yang dikehendaki agar pembinaan yang betul dihargai dalam sebut harga."
+    },
+    "discBacking": {
+      "q": "Bagaimana saya memilih antara cakera hook & loop, PSA dan mesh?",
+      "a": "Hook & loop sesuai untuk pertukaran grit yang kerap, PSA sesuai untuk pad rata dan masa kerja panjang, manakala cakera mesh sesuai untuk pengumpulan habuk. Panduan pemilihan kami membandingkan ketiga-tiganya bersebelahan."
+    },
+    "discDust": {
+      "q": "Adakah cakera ini serasi dengan sistem pengumpulan habuk?",
+      "a": "Cakera mesh dan perforated direka untuk pengumpulan habuk; cakera padat boleh dibekalkan dengan perforasi atas permintaan. Nyatakan sistem pengumpulan habuk dan pad yang anda gunakan."
+    },
+    "hookLoop": {
+      "q": "Adakah cakera hook & loop sesuai dengan pad sandaran saya sekarang?",
+      "a": "Diameter dan corak lubang mesti sepadan dengan pad. Sahkan model mesin dan diameter pad anda pada pertanyaan agar cakera yang betul boleh ditawarkan."
+    },
+    "psa": {
+      "q": "Adakah cakera PSA berfungsi dengan mana-mana pad sandaran?",
+      "a": "Cakera PSA memerlukan pad getah rata dan bersih dengan diameter yang sepadan. Sahkan diameter pad dan model mesin pada permintaan sebut harga anda."
+    },
+    "mesh": {
+      "q": "Berapa lama hayat cakera abrasif mesh?",
+      "a": "Cakera mesh menahan pengumpukan habuk dalam kerja berhabuk, yang biasanya melanjutkan hayat berbanding cakera kertas padat. Hayat sebenar bergantung pada bahan, tekanan dan grit."
+    },
+    "solid": {
+      "q": "Bolehkah cakera padat dibekalkan dengan perforasi untuk pengumpulan habuk?",
+      "a": "Boleh — corak perforasi dipersetujui bersama sebut harga. Nyatakan pad dan sistem pengumpulan habuk agar corak yang betul boleh ditawarkan."
     }
+  },
+  "relArticles": {
+    "title": "Artikel berkaitan",
+    "sub": "Panduan pembeli untuk keluarga produk ini, daripada pasukan teknikal MoTai.",
+    "readMore": "Baca artikel",
+    "faqTitle": "Soalan lazim",
+    "faqSub": "Soalan yang sering ditanya pembeli sebelum membuat pesanan produk ini."
   },
   "regions": {
     "europe": {

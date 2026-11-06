@@ -293,6 +293,19 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 .product-card-title { font-size: 16px; font-weight: 700; margin: 0; }
 .product-card-title a:hover { color: var(--accent); }
 .product-card-actions { margin-top: auto; padding-top: 10px; }
+/* Related-article cards: pin the "Read article" link to the card bottom so a
+   row of cards with different intro lengths still aligns. */
+.product-card-body .card-link {
+  margin-top: auto; padding-top: 6px; font-size: 13px; font-weight: 600; color: var(--accent);
+}
+.product-card:hover .card-link { text-decoration: underline; }
+/* Same-category product chips under "how to choose" (internal linking). */
+.related-note { display: flex; flex-wrap: wrap; gap: 8px; }
+.related-note a {
+  border: 1px solid var(--line); border-radius: 6px; padding: 8px 14px;
+  font-size: 13.5px; color: var(--ink-soft); background: var(--bg-soft);
+}
+.related-note a:hover { border-color: var(--ink); color: var(--ink); }
 
 /* ============ Spec table ============ */
 .spec-table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -308,6 +321,9 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 
 /* ============ Details / FAQ ============ */
 .faq-list { display: grid; gap: 14px; }
+/* Product pages carry 8-9 Q&As: two columns keep the block from stretching
+   past the other sections' height. Single column below 640px. */
+.faq-list.faq-list--2col { grid-template-columns: 1fr 1fr; }
 .faq-item { border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; }
 .faq-item h3 { margin: 0 0 6px; font-size: 15px; }
 .faq-q { color: var(--ink); font-weight: 600; }
@@ -558,6 +574,7 @@ body { padding-bottom: var(--quickbar-h); }
   }
 
   .grid-2 { grid-template-columns: 1fr; }
+  .faq-list.faq-list--2col { grid-template-columns: 1fr; }
   .section { padding: 48px 0; }
   .section--tight { padding: 36px 0; }
   .hero { padding: 48px 0 40px; }

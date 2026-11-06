@@ -508,7 +508,54 @@
     "order": {
       "q": "Apakah meminta penawaran berarti melakukan order?",
       "a": "Tidak. Formulir memulai permintaan grosir. Spesifikasi produk, ketersediaan, dan syarat komersial ditetapkan sebelum order disepakati."
+    },
+    "sample": {
+      "q": "Bisakah saya menguji sampel sebelum memesan dalam jumlah penuh?",
+      "a": "Ya. Sampel referensi standar tersedia untuk evaluasi atas permintaan; ketersediaan sampel dan syarat pengiriman dikonfirmasi bersama dengan penawaran Anda."
+    },
+    "lead": {
+      "q": "Berapa jauh sebelumnya saya harus melakukan pesanan produksi?",
+      "a": "Waktu produksi dihitung dari tanggal penawaran dikonfirmasi secara tertulis, dan bergantung pada ukuran, grit, serta kemasan yang dipesan. Referensi stok dikirim paling cepat."
+    },
+    "beltSize": {
+      "q": "Apakah sabuk abrasif dapat dipasok dengan lebar atau panjang non-standar?",
+      "a": "Lebar dan panjang di luar ukuran yang didokumentasikan diberi harga kasus per kasus; konversi ke ukuran khusus memengaruhi waktu produksi maupun minimum order."
+    },
+    "beltJoint": {
+      "q": "Jenis sambungan dan bagaimana tepi sabuk abrasif ini dibuat?",
+      "a": "Jenis sambungan dan perlakuan tepi ditentukan per referensi. Sebutkan mesin, beban, dan hasil akhir yang diinginkan agar konstruksi yang tepat dihargai dalam penawaran."
+    },
+    "discBacking": {
+      "q": "Bagaimana saya memilih antara piringan hook & loop, PSA, dan mesh?",
+      "a": "Hook & loop cocok untuk pergantian grit yang sering, PSA cocok untuk pad datar dan waktu kerja panjang, sedangkan piringan mesh cocok untuk pengumpulan debu. Panduan pemilihan kami membandingkan ketiganya berdampingan."
+    },
+    "discDust": {
+      "q": "Apakah piringan ini kompatibel dengan sistem pengumpulan debu?",
+      "a": "Piringan mesh dan perforated dirancang untuk pengumpulan debu; piringan solid dapat dipasok dengan perforasi atas permintaan. Sebutkan sistem pengumpulan debu dan pad yang Anda gunakan."
+    },
+    "hookLoop": {
+      "q": "Apakah piringan hook & loop cocok dengan pad backup saya saat ini?",
+      "a": "Diameter dan pola lubang harus sesuai dengan pad. Konfirmasikan model mesin dan diameter pad Anda pada permintaan agar piringan yang tepat dapat ditawarkan."
+    },
+    "psa": {
+      "q": "Apakah piringan PSA bekerja dengan pad backup apa pun?",
+      "a": "Piringan PSA memerlukan pad karet datar dan bersih dengan diameter yang sesuai. Konfirmasikan diameter pad dan model mesin pada permintaan penawaran Anda."
+    },
+    "mesh": {
+      "q": "Berapa lama piringan abrasif mesh bertahan?",
+      "a": "Piringan mesh menahan membludaknya debu pada pekerjaan berdebu, yang biasanya memperpanjang masa pakai dibanding piringan kertas solid. Masa pakai sebenarnya bergantung pada material, tekanan, dan grit."
+    },
+    "solid": {
+      "q": "Dapatkah piringan solid dikirim dengan perforasi untuk pengumpulan debu?",
+      "a": "Ya — pola perforasi disepakati bersama penawaran. Sebutkan pad dan sistem pengumpulan debu agar pola yang tepat dapat ditawarkan."
     }
+  },
+  "relArticles": {
+    "title": "Artikel terkait",
+    "sub": "Panduan pembeli untuk keluarga produk ini, dari tim teknis MoTai.",
+    "readMore": "Baca artikel",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "faqSub": "Pertanyaan yang sering diajukan pembeli sebelum memesan produk ini."
   },
   "regions": {
     "europe": {

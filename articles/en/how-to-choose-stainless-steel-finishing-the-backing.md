@@ -2,7 +2,7 @@
 slug: how-to-choose-stainless-steel-finishing-the-backing
 category: selection-guide
 title: "How to Choose Stainless Steel Finishing: the Backing"
-keywords: [Stainless Steel Finishing, 2800, Mirror, Guard]
+keywords: [Stainless Steel Finishing, Mirror, Guard]
 metaDescription: "Pick the right flap disc backing for Stainless Steel Finishing: plastic, steel and fiberglass bodies, grit steps up to 2800, and a pre-buy checklist."
 intro: "The rule for choosing a flap disc backing in Stainless Steel Finishing, the grit line up to 2800, and what to check before the order ships."
 datePublished: 2026-11-04
@@ -78,7 +78,27 @@ The backing is not picked on its own; it is picked against the tool, because the
 - **A flap disc holder on an orbital or a small grinder** is where the plastic body is the everyday one, because the speed is low enough that the body's heat is not the problem and the cooler run suits the finishing grits.
 - **A hand die grinder with a small disc** is the pairing where the speed-to-diameter ratio works in the job's favour: the surface speed stays moderate even at a high spindle speed, so the finishing bodies hold up where a big disc at the same speed would not.
 
-Where the tool is fixed, the pairing is not a taste: it is the speed check against the rating, and the guard check on the arbor. Where the tool varies, the shop picks one body and keeps it, because two bodies on the same tool is how the bench quietly runs the wrong one.
+Where the tool is fixed, the pairing is not a taste: it is the speed check against the rating, and the fit check on the arbor. Where the tool varies, the shop picks one body and keeps it, because two bodies on the same tool is how the bench quietly runs the wrong one.
+
+### Deburring vs. finishing: where the steel body earns its call
+
+The steel body is the one that gets ordered on a guess, because it looks like the "strong" disc and a strong disc is what most shops think they want. The split is not strength. It is which side of the stock the disc is working on:
+
+- **Deburring and leveling** — taking the weld bead, the cast flash or the cut edge down to the panel, with no plan for a visible finish on that pass. The steel body holds the flaps under pressure, keeps the edge through the long pass, and the scratch it leaves is not one anyone is looking at.
+- **Finishing** — every pass from P240 up, where the surface is the product. The cooler bodies are the pick, because the scratch is what is being made, and heat and packing both show up in it.
+- **The mixed pass** — a job that is really deburring with a finish left on the corners. That is the pass where a steel body at the wrong grit leaves a deep scratch that the next band has to chase, and it is the one to flag on the spec sheet, because the buyer should be ordering the finishing body at the coarser grit instead.
+
+In practice the call is a one-line question: after this disc is off the work, is anyone looking at this surface? If yes, the finishing body. If no, the steel body takes the load and holds it.
+
+### How to read the surface between grits
+
+The bench has three checks that tell you which step to move to before the ladder does, and they are cheaper than finishing a panel that is not ready.
+
+- **The scratch direction.** Cross-light the panel, or run your hand across it against the last pass. A surface that is ready for the next band has one even, light scratch all over it. Bands of deep scratch showing through the light mean the last grit did not cover the panel, and the fix is another pass at that grit, not the finer one.
+- **The felt test.** Hold the disc's edge lightly across the panel. A clean, ready surface feels even; a surface that still has the coarser grit under it feels like sanding a slope. The slope is the missed step, and it is always the one above.
+- **The mirror check at the fine end.** Past P600 the scratch is no longer visible, so the check becomes the light: a surface at 2800 catches the light in a flat, even spread. A patchy spread is the patch that was not passed over, and it wants another even pass, not more pressure on the spot.
+
+None of these replace the ladder; they are the reason the ladder is run step by step instead of two at a time. The glossary keeps the terms straight, and the [abrasives glossary](/glossary) is where the shop writes them down for the bench.
 
 ### The backing question by tool: how the body sets the cut
 

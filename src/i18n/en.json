@@ -508,7 +508,54 @@
     "order": {
       "q": "Does requesting a quote place an order?",
       "a": "No. The form starts a wholesale enquiry. Product specifications, availability and commercial terms are confirmed before an order is agreed."
+    },
+    "sample": {
+      "q": "Can I test a sample before committing to a full order?",
+      "a": "Yes. Samples of standard references are available for evaluation on request; sample availability and freight terms are confirmed with your quotation."
+    },
+    "lead": {
+      "q": "How far ahead should I place a production order?",
+      "a": "Lead time starts from the date the quotation is confirmed in writing and depends on the size, grit and packaging ordered. Stock references ship fastest."
+    },
+    "beltSize": {
+      "q": "Can abrasive belts be supplied in a non-standard size or length?",
+      "a": "Belt width and length beyond the documented sizes are quoted case by case; converting to a custom size affects both lead time and minimum order quantity."
+    },
+    "beltJoint": {
+      "q": "What belt joint and edge construction do these belts use?",
+      "a": "Joint type and edge treatment are specified per reference. State the machine, load and finish required so the right construction is priced in your quotation."
+    },
+    "discBacking": {
+      "q": "How do I choose between hook & loop, PSA and mesh discs?",
+      "a": "Hook & loop suits frequent grit changes, PSA suits flat pads and long run times, and mesh discs suit dust extraction. Our selection guide compares the three side by side."
+    },
+    "discDust": {
+      "q": "Are these discs compatible with dust extraction?",
+      "a": "Mesh and perforated discs are designed for extraction; solid discs can be supplied perforated on request. State your extraction setup and the pad you are running."
+    },
+    "hookLoop": {
+      "q": "Will hook & loop discs fit my existing backup pad?",
+      "a": "Diameter and hole pattern must match the pad. Confirm your sander model and pad diameter with the enquiry so the right disc is quoted."
+    },
+    "psa": {
+      "q": "Do PSA discs work with any backup pad?",
+      "a": "PSA discs need a flat, clean rubber pad of the matching diameter. Confirm pad diameter and machine model with your quotation request."
+    },
+    "mesh": {
+      "q": "How long does a mesh abrasive disc last?",
+      "a": "Mesh discs resist loading in dust-heavy work, which usually extends useful life compared with solid paper discs. Actual life depends on material, pressure and grit."
+    },
+    "solid": {
+      "q": "Can solid discs be supplied perforated for dust extraction?",
+      "a": "Yes — perforation pattern is agreed with the quotation. State the pad and extraction setup so the correct pattern is quoted."
     }
+  },
+  "relArticles": {
+    "title": "Related articles",
+    "sub": "Buyer guidance for this product family, from the MoTai technical team.",
+    "readMore": "Read article",
+    "faqTitle": "Frequently asked questions",
+    "faqSub": "Common questions buyers ask before ordering this product."
   },
   "regions": {
     "europe": {

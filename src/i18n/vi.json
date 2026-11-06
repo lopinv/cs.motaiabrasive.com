@@ -508,7 +508,54 @@
     "order": {
       "q": "Yêu cầu báo giá có phải đặt hàng không?",
       "a": "Không. Biểu mẫu bắt đầu một yêu cầu bán buôn. Thông số sản phẩm, khả năng cung ứng và điều khoản thương mại được xác nhận trước khi thống nhất đơn hàng."
+    },
+    "sample": {
+      "q": "Tôi có thể thử mẫu trước khi cam kết một đơn hàng đầy đủ không?",
+      "a": "Có. Mẫu thử các mã tham chiếu tiêu chuẩn có sẵn để đánh giá theo yêu cầu; tính sẵn có mẫu và điều kiện vận chuyển sẽ được xác nhận trong báo giá."
+    },
+    "lead": {
+      "q": "Tôi nên đặt hàng sản xuất trước bao lâu?",
+      "a": "Thời gian giao hàng tính từ ngày báo giá được xác nhận bằng văn bản và phụ thuộc vào kích thước, hạt mài và bao bì đã đặt. Các mã tham chiếu có sẵn trong kho được giao nhanh nhất."
+    },
+    "beltSize": {
+      "q": "Dây băng mài có thể được cung cấp với chiều rộng hoặc chiều dài không tiêu chuẩn không?",
+      "a": "Chiều rộng và chiều dài vượt ngoài các kích thước ghi nhận được báo giá theo từng trường hợp; chuyển sang kích thước tùy chỉnh ảnh hưởng đến cả thời gian giao hàng và số lượng đặt hàng tối thiểu."
+    },
+    "beltJoint": {
+      "q": "Kiểu nối và xử lý cạnh của các dây băng mài này là gì?",
+      "a": "Kiểu nối và xử lý cạnh được quy định theo từng mã tham chiếu. Hãy cho biết máy, tải trọng và chất lượng bề mặt yêu cầu để định giá đúng cấu trúc trong báo giá."
+    },
+    "discBacking": {
+      "q": "Tôi nên chọn giữa đĩa dính nhám (hook & loop), PSA và đĩa lưới như thế nào?",
+      "a": "Hook & loop phù hợp khi thay đổi hạt mài thường xuyên, PSA phù hợp với đế phẳng và thời gian chạy dài, đĩa lưới phù hợp với hút bụi. Hướng dẫn chọn của chúng tôi so sánh cả ba cạnh nhau."
+    },
+    "discDust": {
+      "q": "Các đĩa này có tương thích với hệ thống hút bụi không?",
+      "a": "Đĩa lưới và đĩa đục lỗ được thiết kế để hút bụi; đĩa đặc có thể được cung cấp đục lỗ theo yêu cầu. Hãy cho biết hệ thống hút bụi và đế bạn đang sử dụng."
+    },
+    "hookLoop": {
+      "q": "Đĩa hook & loop có vừa với đế hiện tại của tôi không?",
+      "a": "Đường kính và kiểu lỗ phải khớp với đế. Hãy xác nhận model máy và đường kính đế trong yêu cầu để chúng tôi báo giá đúng đĩa."
+    },
+    "psa": {
+      "q": "Đĩa PSA có dùng được với mọi đế không?",
+      "a": "Đĩa PSA cần đế cao su phẳng, sạch với đường kính tương ứng. Hãy xác nhận đường kính đế và model máy trong yêu cầu báo giá."
+    },
+    "mesh": {
+      "q": "Đĩa mài lưới dùng được bao lâu?",
+      "a": "Đĩa lưới chống bít bụi trong công việc nhiều bụi, thường kéo dài tuổi thọ hơn so với đĩa giấy đặc. Tuổi thọ thực tế phụ thuộc vào vật liệu, áp lực và hạt mài."
+    },
+    "solid": {
+      "q": "Đĩa đặc có thể được cung cấp đục lỗ để hút bụi không?",
+      "a": "Có — kiểu đục lỗ sẽ được thỏa thuận trong báo giá. Hãy cho biết đế và hệ thống hút bụi để chúng tôi báo giá đúng kiểu lỗ."
     }
+  },
+  "relArticles": {
+    "title": "Bài viết liên quan",
+    "sub": "Hướng dẫn cho người mua trong nhóm sản phẩm này, từ đội ngũ kỹ thuật MoTai.",
+    "readMore": "Đọc bài viết",
+    "faqTitle": "Câu hỏi thường gặp",
+    "faqSub": "Những câu hỏi người mua thường hỏi trước khi đặt hàng sản phẩm này."
   },
   "regions": {
     "europe": {

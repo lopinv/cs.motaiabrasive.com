@@ -508,7 +508,54 @@
     "order": {
       "q": "Betyder det at anmode om et tilbud at afgive en ordre?",
       "a": "Nej. Formularen starter en engrosforespørgsel. Produktspecifikationer, tilgængelighed og handelsvilkår bekræftes, før en ordre aftales."
+    },
+    "sample": {
+      "q": "Kan jeg teste en prøve, før jeg foretager en hel bestilling?",
+      "a": "Ja. Prøver af standardreferencevarer er tilgængelige til evaluering på forespørgs; prøvens tilgængelighed og fragtvilkår bekræftes i tilbuddet."
+    },
+    "lead": {
+      "q": "Hvor lang tid i forveien skal jeg afgive en produktionsordre?",
+      "a": "Leveringstiden løber fra den dato, tilbuddet bekræftes skriftligt, og afhænger af den bestilte størrelse, kornstørrelse og emballage. Referencevarer på lager sendes hurtigst."
+    },
+    "beltSize": {
+      "q": "Kan slibebånd leveres i en ikke-standard bredde eller længde?",
+      "a": "Båndbredde og -længde ud over de dokumenterede størrelser prissættes fra sag til sag; konvertering til en specialstørrelse påvirker både leveringstid og minimumsbestilling."
+    },
+    "beltJoint": {
+      "q": "Hvilken skære- og kantudførelse har disse slibebånd?",
+      "a": "Skæretype og kantbehandling er angivet pr. reference. Angiv maskine, belastning og ønsket overflade, så den rigtige udførelse prissættes i tilbuddet."
+    },
+    "discBacking": {
+      "q": "Hvordan vælger jeg mellem burrelukning, PSA og netskiver?",
+      "a": "Burrelukning passer til hyppige skift af kornstørrelse, PSA passer til flade bagskiver og lange kørsel, og netskiver passer til støvudsugning. Vores udvælgelsesguide sammenliller alle tre side om side."
+    },
+    "discDust": {
+      "q": "Er disse skiver kompatible med støvudsugning?",
+      "a": "Net- og perforerede skiver er beregnet til udsugning; massive skiver kan leveres perforeret på forespørg. Angiv dit udsugningsopsæt og hvilken bagskive du bruger."
+    },
+    "hookLoop": {
+      "q": "Vil burrelukningskiver passe min nuværende bagskive?",
+      "a": "Diameter og hulmønster skal matche bagskiven. Bekræft slibemaskinens model og bagskivens diameter i henvendelsen, så den rigtige skive tilbydes."
+    },
+    "psa": {
+      "q": "Fungerer PSA-skiver med enhver bagskive?",
+      "a": "PSA-skiver kræver en flad, ren gummibagskive med passende diameter. Bekræft bagskivens diameter og maskinens model i din tilbudsforespørgsel."
+    },
+    "mesh": {
+      "q": "Hvor lang tid holder en netslibeskive?",
+      "a": "Netskiver modstår ikke at stoppe til i støvtungt arbejde, hvilket normalt forlænger levetiden sammenlignet med massive papirskiver. Den faktiske levetid afhænger af materiale, tryk og kornstørrelse."
+    },
+    "solid": {
+      "q": "Kan massive skiver leveres perforeret til støvudsugning?",
+      "a": "Ja — perforeringsmønster aftales i tilbuddet. Angiv bagskive og udsugningsopsæt, så det rigtige mønster tilbydes."
     }
+  },
+  "relArticles": {
+    "title": "Relaterede artikler",
+    "sub": "Købsvejledning til denne produktfamilie fra MoTais tekniske team.",
+    "readMore": "Læs artikel",
+    "faqTitle": "Ofte stillede spørgsmål",
+    "faqSub": "Spørgsmål, købere ofte stiller, før de bestiller dette produkt."
   },
   "regions": {
     "europe": {

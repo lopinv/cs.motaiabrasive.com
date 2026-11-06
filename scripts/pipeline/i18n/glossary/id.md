@@ -20,7 +20,7 @@
 | metal-fabrication | Metal Fabrication / Abrasive belts | Fabrikasi Logam / Sabuk abrasif |
 | woodworking | Woodworking & Furniture | Perkayuan & Furnitur |
 | automotive | Automotive Repair | Perbaikan Otomotif |
-| stainless-steel | Stainless Steel Finishing / Abrasive belts | Penyelesaian Baja Tahan Karat / Sabuk abrasif |
+| stainless-steel | Stainless Steel Finishing / Abrasive belts | Finising Baja Tahan Karat / Sabuk abrasif |
 | shipbuilding | Shipbuilding & Repair | Pembangunan & Perbaikan Kapal |
 | surface-prep | Industrial Surface Preparation | Persiapan Permukaan Industri |
 

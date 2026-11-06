@@ -508,7 +508,54 @@
     "order": {
       "q": "Legger en tilbudsforespørsel inn en bestilling?",
       "a": "Nei. Skjemaet starter en engrosforespørsel. Produktspesifikasjoner, tilgjengelighet og forretningsvilkår bekreftes før en bestilling avtales."
+    },
+    "sample": {
+      "q": "Kan jeg teste en prøve før jeg legger inn en hel bestilling?",
+      "a": "Ja. Prøver av standardreferanser er tilgjengelig for evaluering på forespørsel; prøvetilgjengelighet og fraktvilkår bekreftes i tilbudet."
+    },
+    "lead": {
+      "q": "Hvor lang tid i forveien bør jeg legge inn en produksjonsordre?",
+      "a": "Leveringstiden løper fra datoen tilbudet bekreftes skriftlig, og avhenger av bestilt størrelse, kornstørrelse og emballasje. Referansevarer fra lager sendes raskest."
+    },
+    "beltSize": {
+      "q": "Kan slipebånd leveres i ikke-standard bredde eller lengde?",
+      "a": "Båndbredde og -lengde utover de dokumenterte størrelsene prises fra tid til annen; konvertering til spesialstørrelse påvirker både leveringstid og minimumsbestillingsmengde."
+    },
+    "beltJoint": {
+      "q": "Hvilken skjøtype- og kantutførelse har disse slipebåndene?",
+      "a": "Skjøtetype og kantbehandling er angitt per referanse. Oppgi maskin, belastning og ønsket overflate slik at riktig utførelse prises i tilbudet."
+    },
+    "discBacking": {
+      "q": "Hvordan velger jeg mellom borrelås, PSA og nettskiver?",
+      "a": "Borrelås passer ved hyppig skift av kornstørrelse, PSA passer til flate pad og lange kjøringer, og nettskiver passer til støvavsug. Vår utvalgsguide sammenliller alle tre side om side."
+    },
+    "discDust": {
+      "q": "Er disse skivene kompatible med støvavsug?",
+      "a": "Nett- og perforerte skiver er laget for avsug; hele skiver kan leveres perforert på forespørsel. Oppgi ditt avsugoppsett og hvilken pad du bruker."
+    },
+    "hookLoop": {
+      "q": "Vil borrelåsskiver passe min nåværende støtteplate?",
+      "a": "Diameter og hulmønster må passe platen. Bekreft slippemaskinens modell og platens diameter i henvendelsen slik at riktig skive tilbys."
+    },
+    "psa": {
+      "q": "Fungerer PSA-skiver med enhver støtteplate?",
+      "a": "PSA-skiver krever en flat, ren gummimate av passende diameter. Bekreft platens diameter og maskinmodell i tilbudsforespørselen."
+    },
+    "mesh": {
+      "q": "Hvor lenge holder en nettskive?",
+      "a": "Nettskiver tåler ikke å fylles opp i støvtungt arbeid, noe som vanligvis forlenger levetiden sammenlignet med helle papirskiver. Faktisk levetid avhenger av materiale, trykk og kornstørrelse."
+    },
+    "solid": {
+      "q": "Kan hele skiver leveres perforert for støvavsug?",
+      "a": "Ja — perforeringsmønster avtales i tilbudet. Oppgi plate og avsugoppsett slik at riktig mønster tilbys."
     }
+  },
+  "relArticles": {
+    "title": "Relaterte artikler",
+    "sub": "Kjøpsveiledning for denne produktfamilien, fra MoTais tekniske team.",
+    "readMore": "Les artikkel",
+    "faqTitle": "Ofte stilte spørsmål",
+    "faqSub": "Spørsmål kjøpere ofte stiller før de bestiller dette produktet."
   },
   "regions": {
     "europe": {
