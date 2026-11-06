@@ -29,7 +29,8 @@ const discViews = read('disc-views.json')
 const flaps = read('flap.json')
 const site = read('site.json')
 
-const base = (process.env.SITE_URL || 'https://motai-abrasives.pages.dev').replace(/\/$/, '')
+// Production domain (GitHub Pages + CNAME); SITE_URL honoured for preview builds.
+const base = (process.env.SITE_URL || 'https://cs.motaiabrasive.com').replace(/\/$/, '')
 const mainLang = process.env.FEED_LANG || 'en'
 // Every locale the site builds (mirrors src/lib/i18n.js glob + gen-seo).
 const i18nDir = path.join(root, 'src/i18n')

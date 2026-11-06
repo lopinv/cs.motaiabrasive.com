@@ -4,8 +4,10 @@ import { products, models, discViews, flaps, media } from './utils.js'
 /**
  * Absolute base used for JSON-LD absolute URLs (offer landing page, item
  * links). Matches astro.config `site` so hreflang/canonical stay consistent.
+ * Defaults to the production domain (GitHub Pages + CNAME); SITE_URL is
+ * honoured for preview/staging builds.
  */
-const SITE_BASE = (typeof process !== 'undefined' && process.env?.SITE_URL) || 'https://motai-abrasives.pages.dev'
+const SITE_BASE = (typeof process !== 'undefined' && process.env?.SITE_URL) || 'https://cs.motaiabrasive.com'
 
 /**
  * Canonical absolute URL: directory-style trailing slash on every non-root

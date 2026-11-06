@@ -54,7 +54,7 @@ console.log(`  total sitemap urls: ${smCount}`)
 
 console.log('=== sitemap.txt ===')
 const st = read('sitemap.txt')
-audit('sitemap.txt', st, new RegExp(`^https://${host.replace(/\./g, '\\.')}/[a-z]{2}(-[A-Za-z]+)?.+$`, 'gm'))
+audit('sitemap.txt', st, new RegExp(`^(https://${host.replace(/\./g, '\\.')}/[a-z]{2}(-[A-Za-z]+)?.+)$`, 'gm'))
 const stLines = st.split(/\r?\n/).filter(Boolean).length
 const smUrls = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]).sort()
 const stUrlsSorted = st.split(/\r?\n/).filter(Boolean).map((l) => l.trim()).sort()

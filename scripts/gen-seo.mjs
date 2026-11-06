@@ -17,7 +17,10 @@ import path from 'node:path'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = (rel) => JSON.parse(readFileSync(path.join(root, 'src/data', rel), 'utf8'))
 
-const base = (process.env.SITE_URL || 'https://motai-abrasives.pages.dev').replace(/\/$/, '')
+// Production domain (GitHub Pages + CNAME). SITE_URL is honoured for preview
+// builds; the default must be the canonical domain so a plain `npm run build`
+// never ships a sitemap/robots pointing at the obsolete pages.dev host.
+const base = (process.env.SITE_URL || 'https://cs.motaiabrasive.com').replace(/\/$/, '')
 
 /* ---------- robots.txt ---------- */
 const robots = `# MoTai Abrasives — static showcase site

@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node .zcode-check/key-parity.cjs && node .zcode-check/audit-terms.cjs && astro build && node scripts/gen-feed.mjs && node scripts/gen-seo.mjs",
+    "build:prod": "SITE_URL=https://cs.motaiabrasive.com npm run build",
     "preview": "astro preview"
   },
   "dependencies": {
