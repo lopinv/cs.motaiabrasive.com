@@ -52,6 +52,16 @@ audit('sitemap', sm, new RegExp(`<loc>(https://${host.replace(/\./g, '\\.')}/[a-
 const smCount = (sm.match(/<loc>/g) || []).length
 console.log(`  total sitemap urls: ${smCount}`)
 
+console.log('=== sitemap.txt ===')
+const st = read('sitemap.txt')
+audit('sitemap.txt', st, new RegExp(`^https://${host.replace(/\./g, '\\.')}/[a-z]{2}(-[A-Za-z]+)?.+$`, 'gm'))
+const stLines = st.split(/\r?\n/).filter(Boolean).length
+const smUrls = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]).sort()
+const stUrlsSorted = st.split(/\r?\n/).filter(Boolean).map((l) => l.trim()).sort()
+if (stLines !== smCount) fail(`sitemap.txt has ${stLines} URLs but sitemap.xml has ${smCount}`)
+else if (JSON.stringify(smUrls) !== JSON.stringify(stUrlsSorted)) fail('sitemap.txt URL set differs from sitemap.xml')
+else console.log(`  ok   sitemap.txt (${stLines} URLs, identical to sitemap.xml)`)
+
 console.log('=== feed products.csv ===')
 const csv = read('products.csv')
 audit('feed links', csv, urlPat())

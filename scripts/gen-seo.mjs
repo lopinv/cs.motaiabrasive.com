@@ -26,7 +26,6 @@ Allow: /
 Sitemap: ${base}/sitemap.xml
 `
 writeFileSync(path.join(root, 'dist/robots.txt'), robots)
-
 /* ---------- sitemap.xml (standard urlset only) ---------- */
 // GSC's parser rejects the Google image-sitemap extension ("Failed to
 // parse QName 'image:'"), so the sitemap stays a plain sitemaps.org
@@ -85,4 +84,18 @@ const xml =
   '</urlset>\n'
 
 writeFileSync(path.join(root, 'dist/sitemap.xml'), xml)
+
+/* ---------- sitemap.txt (one URL per line) ---------- */
+// Text sitemap: same URL set as the XML, one <loc> per line. Some crawlers
+// and third-party SEO tools read the plain-text variant directly, and it is
+// a useful human-readable index of the site's 1595 URLs.
+const txtUrls = xmlUrls
+  .map((u) => u.replace(/<[^>]*>/g, '').trim())
+  .filter(Boolean)
+if (txtUrls.length !== xmlUrls.length) {
+  console.error(`[gen-seo] sitemap.txt URL count mismatch: ${txtUrls.length} vs ${xmlUrls.length}`)
+  process.exit(1)
+}
+writeFileSync(path.join(root, 'dist/sitemap.txt'), txtUrls.join('\n') + '\n', 'utf8')
+
 console.log(`[gen-seo] wrote dist/robots.txt + dist/sitemap.xml — ${xmlUrls.length} URLs across ${langs.length} langs, base=${base}`)
