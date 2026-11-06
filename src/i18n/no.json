@@ -70,7 +70,7 @@
     "eyebrow": "Slibemidler fra MoTai-fabrikken i Hubei",
     "heroTitle": "Profesjonell slipemiddelprodusent og leverandør",
     "heroSub": "Slibebånd, slipeplater og slipflatter direkte fra fabrikken til industrielle kjøpere, distributører og private merkenavne — fra Hubei, Kina til markedet ditt.",
-    "cta1": "Be om et detaljisttilbud",
+    "cta1": "Be om et detaljistentilbud",
     "cta2": "Prat med teamet vårt på WhatsApp",
     "builtTitle": "Velg bruksområdet. Match slibemiddelet.",
     "builtSub": "Velg bruksområdet, og match deretter slibemiddelet: bånd, slipeplater eller flapdisker.",
@@ -115,7 +115,7 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Avtale fabrikkbesøk og bekreft møtestedet med vårt team.",
     "finalTitle": "Ser dere etter en pålitelig slibeleverandør?",
     "finalBody": "Del produkt, mengde og bruksområde – vi gjennomgår kravene deres og utarbeider et tilpasset tilbud.",
-    "finalCta1": "Be om et detaljisttilbud",
+    "finalCta1": "Be om engros-tilbud",
     "finalCta2": "Kontakt via WhatsApp",
     "beltsShowTitle": "Slibebånd, etter modell",
     "beltsShowSub": "Referansemodeller for diskusjon med vårt team.",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Innkjøpsveiledning",
-    "title1": "Forbered engrosforespørselen",
+    "title1": "Forbered engrosforespørselen din",
     "body1": "Oppgi ønskede dimensjoner, korn, emne, maskin og sluttbehandling. Bruk de dokumenterte alternativene ovenfor der dette er mulig; andre krav vurderes sammen med teamet vårt.",
     "dl1t": "Antall & leveringssted",
     "dl1b": "Oppgi antall, emballasjebehov og leveringsdestinasjon.",
@@ -184,13 +184,13 @@
     "matTitle": "Selskapsmateriale",
     "matBody": "Utforsk selskapets bakgrunn og kontaktinformasjon i vår brosjyre.",
     "globalTitle": "Fra Hubei til ditt marked",
-    "globalSub": "Global forsyning organisert etter destinasjonsregion.",
+    "globalSub": "Global leveranse organisert etter destinasjonsregion.",
     "facTitle": "Finn oss i Hubei",
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Avtale et fabrikkbesøk med teamet vårt og bekreft møtestedet før du reiser.",
     "profileName": "På et blikk",
     "profileBody": "Produsent av beleggte slibemidler i Xianning, Hubei: tre produktserier levert til sju destinasjonsregioner, med korn fra 40 til 5000.",
     "ctaTitle": "Ser du etter en pålitelig leverandør av slibemidler?",
-    "cta1": "Be om et detaljisttilbud",
+    "cta1": "Be om engrosstilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "factory": {
@@ -219,8 +219,8 @@
     "qc3b": "Pakningsantall, etiketter, kartongmerking og grafisk materiale for eget merke samsvarer med den bekreftede ordren.",
     "certNote": "Sertifiseringsmerker som vises er plassholdere inntil sertifikater er publisert.",
     "ctaTitle": "Foretrekker du å snakke om det?",
-    "ctaSub": "Ser du etter en pålitelig leverandør av slibemidler?",
-    "cta1": "Be om et detaljisttilbud",
+    "ctaSub": "Ser du etter en pålitelig leverandør av slibeprodukter?",
+    "cta1": "Be om engros-tilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "oem": {
@@ -250,7 +250,7 @@
     "pr5b": "Gå videre basert på den bekreftede spesifikasjonen.",
     "pr6t": "Spedisjon",
     "pr6b": "Koordiner pakking og leveringssted.",
-    "cta1": "Be om et detaljisttilbud",
+    "cta1": "Be om engrosstilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "applications": {
@@ -274,7 +274,7 @@
       }
     ],
     "ctaTitle": "Skal du spesifisere for ditt bruksområde?",
-    "cta1": "Be om et detaljisttilbud",
+    "cta1": "Be om engrosstilbud",
     "cta2": "Kontakt via WhatsApp"
   },
   "blogIndex": {
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Se",
-    "discuss": "Diskuter spesifikasjonen din",
+    "discuss": "Drøft spesifikasjonen din",
     "catSelection": "Valguide",
     "catBuyer": "Kjøperressurser",
     "catNotes": "Bruksnotater",
@@ -397,7 +397,7 @@
     "f15": "OEM-krav",
     "f16": "Tilleggsopplysninger *",
     "consent": "Jeg godtar personvernerklæringen, bruksvilkårene og bruken av opplysningene mine til å svare på denne forespørselen. *",
-    "btn1": "Be om et detaljisttilbud",
+    "btn1": "Be om engrosstilbud",
     "btn2": "Send forespørsel via WhatsApp",
     "goNote": "Skjemaet åpnes i systemet vårt for engrosforespørsler med produktinformasjonen din forhåndsutfylt."
   },

@@ -115,8 +115,8 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Fabrika ziyareti planlayın ve buluşma noktasını ekibimizle doğrulayın.",
     "finalTitle": "Güvenilir bir aşındırıcı tedarikçisi mi arıyorsunuz?",
     "finalBody": "Ürün, miktar ve uygulamanızı paylaşın — ihtiyaçlarınızı inceleyip uyumlu bir teklif hazırlayalım.",
-    "finalCta1": "Toplu Fiyat Teklifi İsteyin",
-    "finalCta2": "WhatsApp Üzerinden İletişim",
+    "finalCta1": "Toptan Teklif Talep Edin",
+    "finalCta2": "WhatsApp Üzerinden İletişime Geçin",
     "beltsShowTitle": "Model bazında zımpara bantları",
     "beltsShowSub": "Ekibimizle görüşmeler için referans modeller.",
     "prepTitle": "Toptan talebinizi hazırlayın",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Satın alma rehberi",
-    "title1": "Toptan talebinizi hazırlayın",
+    "title1": "Toptan teklif talebinizi hazırlayın",
     "body1": "Gerekli ölçüleri, grit değerini, iş parçasını, makineyi ve hedef yüzey bitişini paylaşın. Mevcut olan durumlarda yukarıdaki belgelenmiş seçenekleri kullanın; diğer gereksinimler ekibimizle birlikte değerlendirilecektir.",
     "dl1t": "Miktar ve teslim yeri",
     "dl1b": "Miktarı, ambalaj ihtiyacını ve teslimat yerini bize bildirin.",
@@ -184,14 +184,14 @@
     "matTitle": "Şirket materyalleri",
     "matBody": "Şirket arka planını ve iletişim bilgilerini broşürümüzde inceleyin.",
     "globalTitle": "Hubei'den pazarınıza",
-    "globalSub": "Varış bölgesine göre düzenlenmiş küresel tedarik.",
+    "globalSub": "Hedef bölgeye göre düzenlenmiş küresel tedarik.",
     "facTitle": "Bizi Hubei'de bulun",
     "facBody": "No. 88 Yuli Caddesi, Junshui Kasabası, Tongcheng İlçesi, Xianning, Hubei, Çin. Ekibimizle fabrika ziyareti planlayın ve seyahat öncesinde buluşma noktasını teyit edin.",
     "profileName": "Bir bakışta",
     "profileBody": "Xianning, Hubei'deki kaplamalı aşındırıcı üreticisi: yedi hedef bölgeye tedarik edilen üç ürün hattı, 40'tan 5000'e kadar grit kapsamı.",
     "ctaTitle": "Güvenilir bir aşındırıcı tedarikçisi mi arıyorsunuz?",
-    "cta1": "Toplu Fiyat Teklifi İsteyin",
-    "cta2": "WhatsApp Üzerinden İletişim"
+    "cta1": "Toptan teklif talep edin",
+    "cta2": "WhatsApp üzerinden iletişime geçin"
   },
   "factory": {
     "h1": "MoTai atölyesinin içinde",
@@ -219,9 +219,9 @@
     "qc3b": "Paket adetleri, etiketler, koli işaretleri ve özel etiket tasarımı onaylanan siparişle uyumludur.",
     "certNote": "Gösterilen belgelendirme işaretleri, belgeler yayımlanana kadar yer tutucudur.",
     "ctaTitle": "Konuyu görüşerek mi ilerlemek istersiniz?",
-    "ctaSub": "Güvenilir bir aşındırıcı tedarikçisi mi arıyorsunuz?",
-    "cta1": "Toplu Fiyat Teklifi İsteyin",
-    "cta2": "WhatsApp Üzerinden İletişim"
+    "ctaSub": "Güvenilir bir aşındırıcı tedarikçi mi arıyorsunuz?",
+    "cta1": "Toptan Teklif Talep Edin",
+    "cta2": "WhatsApp Üzerinden İletişime Geçin"
   },
   "oem": {
     "h1": "Koli üzerinde kendi adınız",
@@ -250,8 +250,8 @@
     "pr5b": "Onaylanan spesifikasyona göre ilerleyin.",
     "pr6t": "Sevkiyat",
     "pr6b": "Paketlemeyi ve teslim yerini koordine edin.",
-    "cta1": "Toplu Fiyat Teklifi İsteyin",
-    "cta2": "WhatsApp Üzerinden İletişim"
+    "cta1": "Toptan Teklif Talep Edin",
+    "cta2": "WhatsApp Üzerinden İletişime Geçin"
   },
   "applications": {
     "h1": "Sektörünüz için aşındırıcılar",
@@ -274,8 +274,8 @@
       }
     ],
     "ctaTitle": "Alanınız için teknik özellik mi belirliyorsunuz?",
-    "cta1": "Toplu Fiyat Teklifi İsteyin",
-    "cta2": "WhatsApp Üzerinden İletişim"
+    "cta1": "Toptan teklif talep edin",
+    "cta2": "WhatsApp üzerinden iletişime geçin"
   },
   "blogIndex": {
     "h1": "Daha iyi bilgi. Daha iyi seçim.",
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "İzle",
-    "discuss": "Spesifikasyonunuz Hakkında Konuşalım",
+    "discuss": "Şartnamenizi Görüşün",
     "catSelection": "Seçim rehberi",
     "catBuyer": "Alıcı kaynakları",
     "catNotes": "Uygulama notları",
@@ -343,7 +343,7 @@
     "shipTitle": "Nakliye Politikası",
     "shipSub": "Üretim, ambalajlama ve sevkiyat teklifinizle birlikte onaylanır.",
     "s1t": "Üretim ve teslim süresi",
-    "s1b": "Zımpara bantları, zımpara diskleri ve flap diskleri siparişinizdeki spesifikasyona göre dönüştürülür. Teslim süresi, teklifin yazılı olarak onaylandığı tarihten itibaren başlar; talebin gönderildiği tarihten değil. GXK-51, XZ-330 ve GPC71 gibi standart referanslar hazır stok kalemleridir; özel ölçüler, gritler ve OEM ambalajı siparişe göre üretilir.",
+    "s1b": "Zımpara bantları, zımpara diskleri ve flap diskleri siparişinizdeki spesifikasyona göre üretilir. Teslim süresi, teklifin yazılı olarak onaylandığı tarihten itibaren başlar; talebin gönderildiği tarihten değil. GXK-51, XZ-330 ve GPC71 gibi standart referanslar hazır stok kalemleridir; özel ölçüler, gritler ve OEM ambalajı siparişe göre üretilir.",
     "s2t": "Ambalajlama ve işaretleme",
     "s2b": "Ürünler, üzerinde anlaşılan paket adedi, etiketler, koli işaretleri ve — OEM programlarında — sizin tasarımınız ve barkodunuzla birlikte ihracat kolilerinde paketlenir. Palet düzeni paketleme listesiyle onaylanır. Varış ülkesinin talep etmesi hâlinde füme işlemleri veya ISPM 15 işaretleri uygulanır.",
     "s3t": "Sevkiyat yöntemi ve Incoterms",
@@ -361,7 +361,7 @@
     "r3t": "Talepler, muayene ve alacak belgeleri",
     "r3b": "Her talep sipariş numarasını, paketleme listesini ve ilgili koli işaretlerini içermelidir. Muayene sonrasında kusur teyit edilirse söz konusu miktarı değiştirir ya da faturaya karşılık alacak belgesi düzenleriz. Teslimden 30 gün sonra yapılan talepler kabul edilemez.",
     "r4t": "Ödeme iadeleri",
-    "r4b": "Alacak yazımı üzerinde anlaşılması hâlinde varsa geri ödeme, iade veya değişim tamamlandıktan ya da kayıtlardan düşüldükten sonra siparişin ödendiği yöntemle ödeme yapan kişiye yapılır. Uluslararası havalelerin banka masrafları geri ödemeyi alan taraftadır.",
+    "r4b": "Alacak yazımı konusunda anlaşmaya varıldığında yapılan geri ödeme, iade veya değişim tamamlandıktan ya da kayıtlardan düşüldükten sonra siparişin ödendiği yöntemle siparişi ödeyen tarafa yapılır. Uluslararası havalelerin banka masrafları geri ödemeyi alan taraftadır.",
     "r5t": "Gümrük, vergiler ve mevzuat",
     "r5b": "İthalat kısıtlamaları, gümrük vergileri, gümrük kontrolü veya yerel mevzuat nedeniyle talep edilen iadeler ürün talebi değil ticari uyuşmazlık olarak ele alınır; çünkü ürünler onaylanmış spesifikasyona uygun teslim edilmiştir.",
     "updated": "Son güncelleme 6 Kasım 2026",
@@ -397,7 +397,7 @@
     "f15": "OEM gereksinimleri",
     "f16": "Ek mesaj *",
     "consent": "Gizlilik Politikası'nı, Kullanım Koşulları'nı ve bu talebe yanıt vermek amacıyla bilgilerimin kullanılmasını kabul ediyorum. *",
-    "btn1": "Toplu Fiyat Teklifi İsteyin",
+    "btn1": "Toptan teklif talep edin",
     "btn2": "Talebi WhatsApp üzerinden gönderin",
     "goNote": "Form, ürün bilgileriniz önceden doldurulmuş olarak toptan talep sistemimizde açılır."
   },

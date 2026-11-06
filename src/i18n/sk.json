@@ -115,8 +115,8 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Dohodnite si návštevu závodu a s našim tímom potvrďte miesto stretnutia.",
     "finalTitle": "Hľadáte spoľahlivého dodávateľa brúsnych materiálov?",
     "finalBody": "Zdieľajte produkt, množstvo a aplikáciu — posúdime vaše požiadavky a pripravíme zodpovedajúcu cenovú ponuku.",
-    "finalCta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
-    "finalCta2": "Kontakt cez WhatsApp",
+    "finalCta1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",
+    "finalCta2": "Kontaktujte nás cez WhatsApp",
     "beltsShowTitle": "Brúsne pásy podľa modelu",
     "beltsShowSub": "Referenčné modely na konzultáciu s našim tímom.",
     "prepTitle": "Pripravte si veľkoobchodnú objednávku",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Nákupné poradenstvo",
-    "title1": "Pripravte si veľkoobchodnú objednávku",
+    "title1": "Pripravte si svoj veľkoobchodný dopyt",
     "body1": "Uveďte požadované rozmery, zrnitosť, obrobok, stroj a požadovaný povrch. Ak je to možné, využite uvedené možnosti; ostatné požiadavky posúdime s našim tímom.",
     "dl1t": "Množstvo a miesto doručenia",
     "dl1b": "Uveďte množstvo, požiadavky na balenie a miesto doručenia.",
@@ -190,8 +190,8 @@
     "profileName": "Na prvý pohľad",
     "profileBody": "Výrobca brúsnych materiálov s povlakom v Xianningu v provincii Hubei: tri produktové línie dodávané do siedmych cieľových regiónov, s pokrytím zrnitosti od 40 do 5000.",
     "ctaTitle": "Hľadáte spoľahlivého dodávateľa brúsnych materiálov?",
-    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
-    "cta2": "Kontakt cez WhatsApp"
+    "cta1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontaktujte nás cez WhatsApp"
   },
   "factory": {
     "h1": "Vo vnútri dielne MoTai",
@@ -219,9 +219,9 @@
     "qc3b": "Počty balení, etikety, značky na krabiciach a návrh vlastnej značky zodpovedajú potvrdenej objednávke.",
     "certNote": "Zobrazené certifikačné značky sú zástupné a čakajú na zverejnenie certifikátov.",
     "ctaTitle": "Uprednostňujete osobný rozhovor?",
-    "ctaSub": "Hľadáte spoľahlivého dodávateľa brúsnych materiálov?",
-    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
-    "cta2": "Kontakt cez WhatsApp"
+    "ctaSub": "Hľadáte spoľahlivého dodávateľa brúsnych produktov?",
+    "cta1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontaktujte nás cez WhatsApp"
   },
   "oem": {
     "h1": "Vaše meno na obale",
@@ -250,8 +250,8 @@
     "pr5b": "Pokračujte podľa potvrdenej špecifikácie.",
     "pr6t": "Expedícia",
     "pr6b": "Skoordinujte balenie a miesto doručenia.",
-    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
-    "cta2": "Kontakt cez WhatsApp"
+    "cta1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontaktujte nás cez WhatsApp"
   },
   "applications": {
     "h1": "Brúsne materiály pre vaše odvetvie",
@@ -274,8 +274,8 @@
       }
     ],
     "ctaTitle": "Špecifikujete pre svoju oblasť?",
-    "cta1": "Vyžiadať veľkoobchodnú cenovú ponuku",
-    "cta2": "Kontakt cez WhatsApp"
+    "cta1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",
+    "cta2": "Kontaktujte nás cez WhatsApp"
   },
   "blogIndex": {
     "h1": "Lepšie informácie. Lepší výber.",
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Pozrieť",
-    "discuss": "Prebereme vašu špecifikáciu",
+    "discuss": "Prediskutujte svoju špecifikáciu",
     "catSelection": "Príručka výberu",
     "catBuyer": "Zdroje pre kupujúcich",
     "catNotes": "Poznámky k aplikácii",
@@ -343,7 +343,7 @@
     "shipTitle": "Podmienky dopravy",
     "shipSub": "Výrobu, balenie a odoslanie potvrdzujeme spolu s vašou cenovou ponukou.",
     "s1t": "Výroba a dodacia lehota",
-    "s1b": "Brúsne pásy, kotúče a kotúče typu flap vyrábame podľa špecifikácie uvedenej vo vašej objednávke. Dodacia lehota sa začína dňom písomného potvrdenia cenovej ponuky, nie dňom odoslania dopytu. Štandardné referencie ako GXK-51, XZ-330 a GPC71 máme ako hotové zásoby; vlastné rozmery, zrnitosti a OEM balenie vyrábame na objednávku.",
+    "s1b": "Brúsne pásy, kotúče a kotúče typu flap vyrábame podľa špecifikácie uvedenej vo vašej objednávke. Dodacia lehota sa začína dňom písomného potvrdenia cenovej ponuky, nie dňom odoslania dopytu. Štandardné referencie ako GXK-51, XZ-330 a GPC71 máme na sklade; vlastné rozmery, zrnitosti a OEM balenie vyrábame na objednávku.",
     "s2t": "Balenie a označenie",
     "s2b": "Tovar balíme do exportných kartónov s dohodnutým množstvom v balení, etiketami, označením kartónov a — pri OEM programoch — vašou grafikou a čiarovým kódom. Konfigurácia paliet sa potvrdzuje s balným listom. Fumigáciu alebo označenie ISPM 15 vykonávame tam, kde to krajina určenia vyžaduje.",
     "s3t": "Spôsob dopravy a Incoterms",
@@ -397,7 +397,7 @@
     "f15": "Požiadavky na OEM",
     "f16": "Dodatočná správa *",
     "consent": "Súhlasím so Zásadami ochrany osobných údajov, Podmienkami používania a s použitím mojich údajov na odpoveď na tento dopyt. *",
-    "btn1": "Vyžiadať veľkoobchodnú cenovú ponuku",
+    "btn1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",
     "btn2": "Odošlite dopyt cez WhatsApp",
     "goNote": "Formulár sa otvorí v našom systéme veľkoobchodných dopytov s vyplnenými údajmi o produkte."
   },

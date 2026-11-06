@@ -70,7 +70,7 @@
     "eyebrow": "Bahan abrasif dari kilang MoTai di Hubei",
     "heroTitle": "Pengilang & Pembekal Abrasif Profesional",
     "heroSub": "Tali suam, cakera pengasahan dan cakera flap terus dari kilang untuk pembeli industri, pengedar dan jenama khusus — daripada Hubei, China ke pasaran anda.",
-    "cta1": "Minta tawaran runcit borong",
+    "cta1": "Minta tawaran borong",
     "cta2": "Bercakap dengan pasukan kami di WhatsApp",
     "builtTitle": "Pilih aplikasi. Padankan bahan abrasif.",
     "builtSub": "Pilih aplikasi, kemudian padankan bahan abrasif: tali, cakera atau cakera flap.",
@@ -115,7 +115,7 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Aturkan lawatan ke kilang dan sahkan titik pertemuan bersama pasukan kami.",
     "finalTitle": "Mencari pembekal abrasif yang boleh dipercayai?",
     "finalBody": "Kongsi produk, kuantiti dan aplikasi Anda — kami akan menyemak permintaan Anda dan menyediakan sebut harga yang sesuai.",
-    "finalCta1": "Minta tawaran runcit borong",
+    "finalCta1": "Minta Sebut Harga Borong",
     "finalCta2": "Hubungi melalui WhatsApp",
     "beltsShowTitle": "Tali abrasif mengikut model",
     "beltsShowSub": "Model rujukan untuk perbincangan bersama pasukan kami.",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Panduan pembelian",
-    "title1": "Sediakan pertanyaan borong Anda",
+    "title1": "Sediakan pertanyaan borong anda",
     "body1": "Nyatakan dimensi, grit, workpiece, mesin dan penyelesaian akhir yang diperlukan. Gunakan pilihan yang didokumentasikan di atas jika ada; keperluan lain akan disemak bersama pasukan kami.",
     "dl1t": "Kuantiti & destination",
     "dl1b": "Beritahu kami kuantiti, keperluan pembungkusan dan penghantaran.",
@@ -184,13 +184,13 @@
     "matTitle": "Materials syarikat",
     "matBody": "Terokai latar belakang syarikat dan maklumat perhubungan dalam brosur kami.",
     "globalTitle": "Dari Hubei ke pasaran Anda",
-    "globalSub": "Bekalan global disusun mengikut wilayah destinasi.",
+    "globalSub": "Bekalan global disusun mengikut wilayah sasaran.",
     "facTitle": "Temui kami di Hubei",
     "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Aturkan lawatan kilang bersama pasukan kami dan sahkan titik pertemuan sebelum BERperjalanan.",
     "profileName": "Ringkasan",
     "profileBody": "Pengeluar abrasif bersalut di Xianning, Hubei: tiga baris produk dibekalkan ke tujuh wilayah sasaran, dengan liputan grit dari 40 hingga 5000.",
     "ctaTitle": "Mencari pembekal abrasif yang boleh dipercayai?",
-    "cta1": "Minta tawaran runcit borong",
+    "cta1": "Mohon sebut harga borong",
     "cta2": "Hubungi melalui WhatsApp"
   },
   "factory": {
@@ -220,7 +220,7 @@
     "certNote": "Tanda pensijilan yang dipaparkan ialah ruang letak sehingga sijil rasmi diterbitkan.",
     "ctaTitle": "Lebih suka berunding?",
     "ctaSub": "Mencari pembekal abrasif yang boleh dipercayai?",
-    "cta1": "Minta tawaran runcit borong",
+    "cta1": "Minta Sebut Harga Borong",
     "cta2": "Hubungi melalui WhatsApp"
   },
   "oem": {
@@ -250,7 +250,7 @@
     "pr5b": "Teruskan pengeluaran mengikut spesifikasi yang disahkan.",
     "pr6t": "Penghantaran",
     "pr6b": "Selaraskan pembungkusan dan destination.",
-    "cta1": "Minta tawaran runcit borong",
+    "cta1": "Minta sebut harga borong",
     "cta2": "Hubungi melalui WhatsApp"
   },
   "applications": {
@@ -274,7 +274,7 @@
       }
     ],
     "ctaTitle": "Menentukan spesifikasi untuk bidang Anda?",
-    "cta1": "Minta tawaran runcit borong",
+    "cta1": "Mohon sebut harga borong",
     "cta2": "Hubungi melalui WhatsApp"
   },
   "blogIndex": {
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Tonton",
-    "discuss": "Bincangkan spesifikasi anda",
+    "discuss": "Bincangkan Spesifikasi Anda",
     "catSelection": "Panduan pemilihan",
     "catBuyer": "Sumber untuk pembeli",
     "catNotes": "Nota aplikasi",
@@ -345,13 +345,13 @@
     "s1t": "Pengeluaran dan masa penghantaran",
     "s1b": "Tali suam, cakera pengasahan dan cakera flap diproses mengikut spesifikasi dalam pesanan anda. Masa penghantaran dikira dari tarikh sebut harga disahkan secara bertulis, bukan dari tarikh pertanyaan dihantar. Rujukan standard seperti GXK-51, XZ-330 dan GPC71 ialah barangan sedia stok; saiz khusus, grit khusus dan pembungkusan OEM diperbuat mengikut pesanan.",
     "s2t": "Pembungkusan dan penandaan",
-    "s2b": "Barang dibungkus dalam karton eksport dengan kuantiti bungkusan yang dipersetujui, label, tanda karton dan — untuk program OEM — hasil seni dan kod bar anda. Susunan palet disahkan bersama senarai pembungkusan. Pengabuan (fumigasi) atau tanda ISPM 15 digunakan jika negara destinasi menuntutnya.",
+    "s2b": "Barang dibungkus dalam karton eksport dengan kuantiti bungkusan yang dipersetujui, label, tanda karton dan — untuk program OEM — hasil seni dan kod bar anda. Susunan palet disahkan bersama senarai pembungkusan. Fumigasi atau tanda ISPM 15 digunakan jika negara destinasi menuntutnya.",
     "s3t": "Kaedah penghantaran dan Incoterms",
     "s3b": "Penghantaran disusun melalui laut (FCL atau LCL) atau udara, bergantung pada isi padu dan destinasi. Terma perdagangan dinyatakan dalam sebut harga anda — EXW, FOB, CIF, CFR, DAP dan DDP biasa digunakan. Anda boleh melantik forwarder anda sendiri; MoTai kemudian membekalkan senarai pembungkusan, tanda karton dan dokumen penghantaran.",
     "s4t": "Dokumen dan kastam",
     "s4b": "Setiap penghantaran disertai invois komersial, senarai pembungkusan dan dokumen pengangkutan. Kod HS dan sijil asal disediakan untuk urusan kastam anda. Duti import, cukai dan pelepasan kastam di negara destinasi ditanggung pembeli melainkan sebut harga menyatakan DDP.",
     "s5t": "Penghantaran dan penyerahan",
-    "s5b": "Kami menghantar notis penghantaran bersama nombor kapal atau penerbangan sebaik sahaja kontena atau konsain ditempah. Masa penyerahan bergantung pada pelabuhan atau lapangan terbang destinasi dan jadual pengangkut. Kelewatan akibat kesesakan pelabuhan, pemeriksaan kastam atau keadaan bersyarat berada di luar kawalan kami dan diberitahu sebaik sahaja diketahui.",
+    "s5b": "Kami menghantar notis penghantaran bersama nombor kapal atau penerbangan sebaik sahaja kontena atau konsain ditempah. Masa penyerahan bergantung pada pelabuhan atau lapangan terbang destinasi dan jadual pengangkut. Kelewatan akibat kesesakan pelabuhan, pemeriksaan kastam atau keadaan memaksa berada di luar kawalan kami dan diberitahu sebaik sahaja diketahui.",
     "retTitle": "Polisi Pemulangan",
     "retSub": "Produk kami diperbuat mengikut spesifikasi yang dipersetujui, justeru pemulangan dihadkan kepada kes yang ditakrifkan.",
     "r1t": "Barangan diperbuat mengikut spesifikasi",
@@ -361,7 +361,7 @@
     "r3t": "Tuntutan, pemeriksaan dan notis kredit",
     "r3b": "Setiap tuntutan mesti merujuk nombor pesanan, senarai pembungkusan dan tanda karton berkenaan. Apabila kecacatan disahkan selepas pemeriksaan, kami menggantikan kuantiti berkenaan atau mengeluarkan notis kredit terhadap invois. Tuntutan yang dikemukakan lebih 30 hari selepas penyerahan tidak dapat diterima.",
     "r4t": "Pembayaran balik",
-    "r4b": "Apabila pengkreditan dipersetujui, sebarang bayaran balik dibuat kepada pembayar asal dengan kaedah yang sama seperti bayaran pesanan, selepas pemulangan atau penggantian selesai atau dihapuskan. Caj bank untuk pemindahan antarabangsa ditanggung pihak yang menerima bayaran balik.",
+    "r4b": "Apabila pengkreditan dipersetujui, sebarang bayaran balik dibuat kepada pembayar asal dengan kaedah yang sama seperti bayaran pesanan, selepas pemulangan atau penggantian selesai atau dihapus kira. Caj bank untuk pemindahan antarabangsa ditanggung pihak yang menerima bayaran balik.",
     "r5t": "Kastam, duti dan pematuhan",
     "r5b": "Pemulangan yang diminta kerana sekatan import, duti, pemeriksaan kastam atau peraturan pematuhan tempatan dirawat sebagai pertikaian perdagangan dan bukannya tuntutan produk, kerana barangan dihantar mengikut spesifikasi yang disahkan.",
     "updated": "Dikemas kini terakhir 6 November 2026",
@@ -397,7 +397,7 @@
     "f15": "Keperluan OEM",
     "f16": "Mesej tambahan *",
     "consent": "Saya bersetuju dengan Dasar Privasi, Terma Penggunaan dan penggunaan maklumat saya untuk membalas permintaan ini. *",
-    "btn1": "Minta tawaran runcit borong",
+    "btn1": "Mohon sebut harga borong",
     "btn2": "Hantar permintaan melalui WhatsApp",
     "goNote": "Borang ini akan dibuka dalam sistem permintaan borong kami dengan maklumat produk Anda telah diisi terlebih dahulu."
   },

@@ -116,7 +116,7 @@
     "finalTitle": "Hledáte spolehlivého dodavatele brusiv?",
     "finalBody": "Sdělte nám produkt, množství a aplikaci — posoudíme vaše požadavky a připravíme odpovídající nabídku.",
     "finalCta1": "Vyžádat velkoobchodní nabídku",
-    "finalCta2": "Kontakt přes WhatsApp",
+    "finalCta2": "Kontaktovat přes WhatsApp",
     "beltsShowTitle": "Brusné pásy podle modelu",
     "beltsShowSub": "Referenční modely pro konzultaci s naším týmem.",
     "prepTitle": "Připravte velkoobchodní poptávku",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Nákupní poradenství",
-    "title1": "Připravte velkoobchodní poptávku",
+    "title1": "Připravte svůj velkoobchodní dotaz",
     "body1": "Uveďte požadované rozměry, zrnitost, obrobek, stroj a požadovaný výsledný povrch. Použijte kde možno uvedené možnosti; ostatní požadavky posoudíme s naším týmem.",
     "dl1t": "Množství a místo dodání",
     "dl1b": "Uveďte množství, požadavky na balení a místo dodání.",
@@ -190,8 +190,8 @@
     "profileName": "Přehled",
     "profileBody": "Výrobce potahovaných brusných materiálů ve Xianningu v provincii Hubei: tři produktové řady dodávané do sedmi cílových oblastí, se zrnitostí od 40 do 5000.",
     "ctaTitle": "Hledáte spolehlivého dodavatele brusných materiálů?",
-    "cta1": "Vyžádat velkoobchodní nabídku",
-    "cta2": "Kontakt přes WhatsApp"
+    "cta1": "Vyžádejte si velkoobchodní nabídku",
+    "cta2": "Kontaktujte nás přes WhatsApp"
   },
   "factory": {
     "h1": "Uvnitř dílny MoTai",
@@ -220,8 +220,8 @@
     "certNote": "Zobrazené certifikační značky jsou zástupné, dokud nebudou zveřejněny certifikáty.",
     "ctaTitle": "Chcete to probrat osobně?",
     "ctaSub": "Hledáte spolehlivého dodavatele brusných materiálů?",
-    "cta1": "Vyžádat velkoobchodní nabídku",
-    "cta2": "Kontakt přes WhatsApp"
+    "cta1": "Vyžádejte velkoobchodní nabídku",
+    "cta2": "Kontaktujte nás přes WhatsApp"
   },
   "oem": {
     "h1": "Vaše logo na kartonu",
@@ -250,8 +250,8 @@
     "pr5b": "Postupujte dle potvrzené specifikace.",
     "pr6t": "Odeslání",
     "pr6b": "Zkoordinujte balení a místo dodání.",
-    "cta1": "Vyžádat velkoobchodní nabídku",
-    "cta2": "Kontakt přes WhatsApp"
+    "cta1": "Vyžádejte velkoobchodní nabídku",
+    "cta2": "Kontaktujte nás přes WhatsApp"
   },
   "applications": {
     "h1": "Brusné materiály pro vaše odvětví",
@@ -274,8 +274,8 @@
       }
     ],
     "ctaTitle": "Specifikujete pro své odvětví?",
-    "cta1": "Vyžádat velkoobchodní nabídku",
-    "cta2": "Kontakt přes WhatsApp"
+    "cta1": "Vyžádejte si velkoobchodní nabídku",
+    "cta2": "Kontaktujte nás přes WhatsApp"
   },
   "blogIndex": {
     "h1": "Lepší informace. Lepší výběr.",
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Přehrát",
-    "discuss": "Proberete svou specifikaci",
+    "discuss": "Proberte svou specifikaci",
     "catSelection": "Výběrový průvodce",
     "catBuyer": "Podklady pro nakupující",
     "catNotes": "Aplikační poznámky",
@@ -345,25 +345,25 @@
     "s1t": "Výroba a dodací lhůta",
     "s1b": "Brusné pásy, kotouče a flapové kotouče se vyrábějí podle specifikace uvedené ve vaší objednávce. Dodací lhůta začíná dnem písemného potvrzení cenové nabídky, nikoli dnem odeslání poptávky. Standardní typy jako GXK-51, XZ-330 a GPC71 jsou hotové skladové položky; zákazkové rozměry, zrnitosti a obaly OEM se vyrábějí na objednávku.",
     "s2t": "Balení a označování",
-    "s2b": "Zboží se balí do exportních kartonů s dohodnutým počtem kusů v balení, etiketami, označením kartonů a — u projektů OEM — vaší grafikou a čárovým kódem. Uspořádání palet se potvrzuje v přepravním seznamu. Fumigace nebo označení ISPM 15 se použijí tam, kde to vyžaduje země určení.",
+    "s2b": "Zboží se balí do exportních kartonů s dohodnutým počtem kusů v balení, etiketami, označením kartonů a — u projektů OEM — vaší grafikou a čárovým kódem. Uspořádání palet se potvrzuje v balicím listu. Fumigace nebo označení ISPM 15 se použijí tam, kde to vyžaduje země určení.",
     "s3t": "Způsob dopravy a Incoterms",
-    "s3b": "Zásilka se dopravuje po moři (FCL nebo LCL) nebo letecky, podle objemu a místa určení. Obchodní klauzule (Incoterms) je uvedena ve vaší cenové nabídce — běžně se používají EXW, FOB, CIF, CFR, DAP a DDP. Můžete určit vlastní spediční firmu / dopravce; MoTai poté dodá přepravní seznam, označení kartonů a dopravní doklady.",
+    "s3b": "Zásilka se dopravuje po moři (FCL nebo LCL) nebo letecky, podle objemu a místa určení. Obchodní klauzule (Incoterms) je uvedena ve vaší cenové nabídce — běžně se používají EXW, FOB, CIF, CFR, DAP a DDP. Můžete určit vlastní spediční firmu; MoTai poté dodá balicí list, označení kartonů a dopravní doklady.",
     "s4t": "Doklady a clo",
-    "s4b": "Každou zásilku doprovází obchodní faktura, přepravní seznam a dopravní doklad. Kódy HS a certifikáty původu se poskytují pro vaše celní odbavení. Clo, daně a celní odbavení v zemi určení jdou na účet kupujícího, pokud cenová nabídka nestanoví DDP.",
+    "s4b": "Každou zásilku doprovází obchodní faktura, balicí list a dopravní doklad. Kódy HS a certifikáty původu se poskytují pro vaše celní odbavení. Clo, daně a celní odbavení v zemi určení jdou na účet kupujícího, pokud cenová nabídka nestanoví DDP.",
     "s5t": "Odeslání a dodání",
-    "s5b": "Věc odeslání s číslem lodi nebo letu vám zašleme po zarezervování kontejneru či zásilky. Dodací doba závisí na přístavu nebo letišti v místě určení a na jízdním řádu dopravce. Zpoždění způsobená přetlakem v přístavu, celní kontrolou nebo nepřekonatelnou překážkou (vis maior) jsou mimo naši kontrolu a oznamujeme je, jakmile se o nich dozvědíme.",
+    "s5b": "Věc odeslání s číslem lodi nebo letu vám zašleme po zarezervování kontejneru či zásilky. Dodací doba závisí na přístavu nebo letišti v místě určení a na jízdním řádu dopravce. Zpoždění způsobená přetížením přístavu, celní kontrolou nebo vyšší mocí jsou mimo naši kontrolu a oznamujeme je, jakmile se o nich dozvědíme.",
     "retTitle": "Zásady vrácení zboží",
     "retSub": "Naše výrobky se vyrábějí podle dohodnuté specifikace, a proto se vrácení omezuje na vymezené případy.",
     "r1t": "Zboží vyrobené na míru",
     "r1b": "Brusné výrobky se vyrábějí podle vaší specifikace zrnitosti, rozměru, podkladu a obalu. Protože je nelze prodat jako standardní skladový sortiment, potvrzené zákazkové objednávky není možné vrátit ani u nich požadovat vrácení platby, s výjimkou případů, kdy zboží neodpovídá potvrzené specifikaci.",
     "r2t": "Skladové položky a poškození při přepravě",
-    "r2b": "Standardní typy, které nebyly použity a zůstávají v původním exportním obalu, lze vrátit případ od případu po potvrzení důvodu a podmínek vrácení. Zboží poškozené při přepravě je nutné nahlásit s fotodokumentací do 7 dnů od dodání; reklamace vůči pojištění dopravce se řeší prostřednictvím uvedené spediční firmy / dopravce.",
+    "r2b": "Standardní typy, které nebyly použity a zůstávají v původním exportním obalu, lze vrátit případ od případu po potvrzení důvodu a podmínek vrácení. Zboží poškozené při přepravě je nutné nahlásit s fotodokumentací do 7 dnů od dodání; reklamace vůči pojištění dopravce se řeší prostřednictvím uvedené spediční firmy.",
     "r3t": "Reklamace, kontrola a dobropisy",
-    "r3b": "Reklamace musí uvádět číslo objednávky, přepravní seznam a dotčené označení kartonů. Pokud se po kontrole potvrdí vada, buď nahradíme dotčené množství, nebo vystavíme dobropis k faktuře. Reklamace uplatněné později než 30 dnů po dodání nelze přijmout.",
+    "r3b": "Reklamace musí uvádět číslo objednávky, balicí list a označení dotčených kartonů. Pokud se po kontrole potvrdí vada, buď nahradíme dotčené množství, nebo vystavíme dobropis k faktuře. Reklamace uplatněné později než 30 dnů po dodání nelze přijmout.",
     "r4t": "Vrácení platby",
     "r4b": "Pokud je dohodnuto dobropis, vrácení platby se provede původnímu platiteli stejným způsobem, jakým byla uhrazena objednávka, a to po dokončení vrácení či výměny zboží, případně po jeho odepsání. Bankovní poplatky za mezinárodní převody nese strana přijímající vrácení platby.",
-    "r5t": "Celní otázky, clo a soulad s předpisy",
-    "r5b": "Vrácení požadovaná z důvodu dovozních omezení, cla, celní kontroly nebo místních pravidel pro soulad s předpisy se posuzují jako obchodní spory, nikoli jako reklamace na výrobek, protože zboží bylo dodáno v souladu s potvrzenou specifikací.",
+    "r5t": "Cla, daně a soulad s předpisy",
+    "r5b": "Vrácení požadovaná z důvodu dovozních omezení, cel, celní kontroly nebo místních pravidel pro soulad s předpisy se posuzují jako obchodní spory, nikoli jako reklamace na výrobek, protože zboží bylo dodáno v souladu s potvrzenou specifikací.",
     "updated": "Naposledy aktualizováno 6. listopadu 2026",
     "related": "Podmínky expedice a vrácení zboží jsou součástí každé cenové nabídky. Pokud cenová nabídka uvádí odlišné podmínky, má přednost daná cenová nabídka.",
     "contact": "Otázky týkající se zásilky nebo reklamace: obraťte se na naše obchodní oddělení s uvedením čísla objednávky a příslušného označení kartonů."
@@ -397,7 +397,7 @@
     "f15": "Požadavky na OEM",
     "f16": "Doplňující zpráva *",
     "consent": "Souhlasím se Zásadami ochrany osobních údajů, Podmínkami použití a se zpracováním mých údajů za účelem odpovědi na tuto poptávku. *",
-    "btn1": "Vyžádat velkoobchodní nabídku",
+    "btn1": "Vyžádejte si velkoobchodní nabídku",
     "btn2": "Odeslat poptávku přes WhatsApp",
     "goNote": "Formulář se otevře v našem systému velkoobchodních poptávek s předvyplněnými údaji o výrobku."
   },
@@ -847,9 +847,9 @@
       ]
     },
     "shipping": {
-      "title": "Zásady expedice a vrácení zboží — Objednávky brusných výrobků | MoTai",
-      "description": "Zásady expedice a vrácení zboží společnosti MoTai pro brusné výrobky: výrobní dodací lhůta, exportní balení, Incoterms, celní doklady, odeslání a případy, kdy lze zboží vyrobené na míru vrátit či poskytnout dobropis.",
-      "keywords": "zásady expedice brusných výrobků, zásady vrácení zboží, velkoobchodní dodání brusných výrobků, Incoterms brusných výrobků, exportní balení, dodací podmínky"
+      "title": "Zásady expedice a vrácení zboží — Objednávky brusných materiálů | MoTai",
+      "description": "Zásady expedice a vrácení zboží společnosti MoTai pro brusné materiály: výrobní dodací lhůta, exportní balení, Incoterms, celní doklady, odeslání a případy, kdy lze zboží vyrobené na míru vrátit či poskytnout dobropis.",
+      "keywords": "zásady expedice brusných materiálů, zásady vrácení zboží, velkoobchodní dodání brusných materiálů, Incoterms brusných materiálů, exportní balení, dodací podmínky"
     },
     "quote": {
       "title": "Vyžádat velkoobchodní nabídku na brusné materiály | MoTai",

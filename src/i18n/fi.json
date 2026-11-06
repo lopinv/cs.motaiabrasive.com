@@ -115,8 +115,8 @@
     "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kiina. Sopikaa tehdaskäynti tiimimme kanssa ja vahvistakaa tapaamispaikka.",
     "finalTitle": "Etsittekö luotettavaa hiomatuotteiden toimittajaa?",
     "finalBody": "Ilmoittakaa tuote, määrä ja sovellus — tarkastelemme vaatimustanne ja valmistelemme vastaavan tarjouksen.",
-    "finalCta1": "Pyydä tukkuhinta",
-    "finalCta2": "Yhteys WhatsAppin kautta",
+    "finalCta1": "Pyytäkää tukkutarjous",
+    "finalCta2": "Ottakaa yhteyttä WhatsAppilla",
     "beltsShowTitle": "Hiomahihnat malleittain",
     "beltsShowSub": "Malliviitteet keskustelua varten tiimimme kanssa.",
     "prepTitle": "Valmistelkaa tukkutiedustuksenne",
@@ -130,7 +130,7 @@
   },
   "purchasing": {
     "eyebrow1": "Hankintaohje",
-    "title1": "Valmistelkaa tukkutiedustuksenne",
+    "title1": "Valmistele tukkutiedustuksenne",
     "body1": "Ilmoittakaa tarvitsemanne mitat, karkeus, työkappale, kone ja haluttu lopputulos. Käyttäkä yllä kuvattuja valinnanmahdollisuuksia niiden ollessa käytettävissä; muut vaatimukset käydään läpi tiimimme kanssa.",
     "dl1t": "Määrä ja toimituspaikka",
     "dl1b": "Ilmoittakaa määrä, pakkaustarpeet ja toimituspaikka.",
@@ -190,8 +190,8 @@
     "profileName": "Yhdellä silmäyksellä",
     "profileBody": "Päällystettyjen hioma-aineiden valmistaja Xianningissa, Hubeissa: kolme tuotelinjaa toimitetaan seitsemään kohdealueelle, karkeusvalikoima 40–5000.",
     "ctaTitle": "Etsitkö luotettavaa hioma-ainetoimittajaa?",
-    "cta1": "Pyydä tukkuhinta",
-    "cta2": "Yhteys WhatsAppin kautta"
+    "cta1": "Pyydä tukkutarjous",
+    "cta2": "Ota yhteyttä WhatsApilla"
   },
   "factory": {
     "h1": "MoTain työpajassa",
@@ -219,9 +219,9 @@
     "qc3b": "Pakkausmäärät, etiketit, kartonkimerkinnät ja oman brändin painokuvat vastaavat vahvistettua tilausta.",
     "certNote": "Näkyvät sertifiointimerkinnät ovat paikkamerkkejä, kunnes sertifikaatit on julkaistu.",
     "ctaTitle": "Haluatteko käydä keskustelua?",
-    "ctaSub": "Etsitkö luotettavaa hioma-ainetoimittajaa?",
-    "cta1": "Pyydä tukkuhinta",
-    "cta2": "Yhteys WhatsAppin kautta"
+    "ctaSub": "Etsittekö luotettavaa hiomamateriaalin toimittajaa?",
+    "cta1": "Pyydät tukkutarjousta",
+    "cta2": "Ottakaa yhteyttä WhatsAppilla"
   },
   "oem": {
     "h1": "Nimenne pakkauksessa",
@@ -250,8 +250,8 @@
     "pr5b": "Tuotamme vahvistettujen teknisten tietojen mukaisesti.",
     "pr6t": "Lähetys",
     "pr6b": "Koordinoimme pakkauksen ja toimituksen.",
-    "cta1": "Pyydä tukkuhinta",
-    "cta2": "Yhteys WhatsAppin kautta"
+    "cta1": "Pyytäkää tukkutarjous",
+    "cta2": "Ottakaa yhteyttä WhatsAppilla"
   },
   "applications": {
     "h1": "Hioma-aineet teollisuusalallenne",
@@ -274,8 +274,8 @@
       }
     ],
     "ctaTitle": "Eritteletkö tuotteita alanne osalta?",
-    "cta1": "Pyydä tukkuhinta",
-    "cta2": "Yhteys WhatsAppin kautta"
+    "cta1": "Pyydä tukkutarjous",
+    "cta2": "Ota yhteyttä WhatsApilla"
   },
   "blogIndex": {
     "h1": "Parempi tieto. Parempi valinta.",
@@ -285,7 +285,7 @@
   },
   "article": {
     "watchTitle": "Katso",
-    "discuss": "Keskustele määrittäsestäsi",
+    "discuss": "Keskustelkaa teknisistä vaatimuksistanne",
     "catSelection": "Valintaopas",
     "catBuyer": "Ostajien aineistot",
     "catNotes": "Sovellusohjeet",
@@ -397,7 +397,7 @@
     "f15": "OEM-vaatimukset",
     "f16": "Lisätiedot *",
     "consent": "Hyväksyn tietosuojakäytännön, käyttöehdot sekä tietojeni käytön tähän tiedusteluun vastaamiseksi. *",
-    "btn1": "Pyydä tukkuhinta",
+    "btn1": "Pyydä tukkutarjous",
     "btn2": "Lähetä tiedustelu WhatsApilla",
     "goNote": "Lomake avautuu tukkutiedustelujärjestelmään, jolloin tuotetietojanne on esitäytettynä."
   },

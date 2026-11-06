@@ -351,7 +351,7 @@
     "s4t": "Dokumen dan bea cukai",
     "s4b": "Setiap kiriman disertai faktur komersial, packing list, dan dokumen transportasi. Kode HS dan sertifikat asal disediakan untuk kepabeanan Anda. Bea masuk, pajak, dan pengurusan bea cukai di negara tujuan menjadi beban pembeli kecuali penawaran menyebutkan DDP.",
     "s5t": "Pengiriman dan penyerahan",
-    "s5b": "Kami mengirim pemberitahuan pengiriman dengan nomor kapal atau penerbangan segera setelah kontainer atau kiriman dipesan. Waktu penyerahan bergantung pada pelabuhan atau bandara tujuan dan jadwal pengangkut. Keterlambatan akibat kepadatan pelabuhan, pemeriksaan bea cukai, atau keadaan kahar di luar kendali kami dan diberitahukan segera setelah diketahui.",
+    "s5b": "Kami mengirim pemberitahuan pengiriman dengan nomor kapal atau penerbangan segera setelah kontainer atau kiriman dipesan. Waktu penyerahan bergantung pada pelabuhan atau bandara tujuan dan jadwal pengangkut. Keterlambatan akibat kepadatan pelabuhan, pemeriksaan bea cukai, atau keadaan memaksa di luar kendali kami dan diberitahukan segera setelah diketahui.",
     "retTitle": "Kebijakan Pengembalian",
     "retSub": "Produk kami diproduksi sesuai spesifikasi yang disepakati, sehingga pengembalian dibatasi pada kasus yang ditentukan.",
     "r1t": "Barang produksi sesuai spesifikasi",
@@ -361,7 +361,7 @@
     "r3t": "Klaim, pemeriksaan, dan kredit nota",
     "r3b": "Setiap klaim harus mencantumkan nomor pesanan, packing list, dan tanda kardus yang terkait. Bila cacat terkonfirmasi setelah pemeriksaan, kami mengganti jumlah yang terpengaruh atau menerbitkan kredit nota atas faktur. Klaim yang diajukan lebih dari 30 hari setelah penyerahan tidak dapat diterima.",
     "r4t": "Pengembalian pembayaran",
-    "r4b": "Bila pemberian kredit disepakati, pengembalian dana (bila ada) dilakukan kepada pembayar asli dengan metode yang sama seperti pembayaran pesanan, setelah pengembalian atau penggantian selesai atau dihapuskan. Biaya bank atas transfer internasional ditanggung pihak yang menerima pengembalian dana.",
+    "r4b": "Bila pemberian kredit disepakati, pengembalian dana (bila ada) dilakukan kepada pembayar asli dengan metode yang sama seperti pembayaran pesanan, setelah pengembalian atau penggantian selesai atau dihapusbukukan. Biaya bank atas transfer internasional ditanggung pihak yang menerima pengembalian dana.",
     "r5t": "Bea cukai, bea masuk, dan kepatuhan",
     "r5b": "Pengembalian yang diminta karena pembatasan impor, bea masuk, pemeriksaan bea cukai, atau aturan kepatuhan setempat diperlakukan sebagai sengketa komersial, bukan klaim produk, karena barang diserahkan sesuai spesifikasi yang dikonfirmasi.",
     "updated": "Terakhir diperbarui 6 November 2026",
@@ -560,7 +560,7 @@
       "products": "Piringan amplas"
     },
     "stainless": {
-      "title": "Penyelesaian Baja Tahan Karat",
+      "title": "Finising Baja Tahan Karat",
       "intro": "Hasil akhir hairline, transisi permukaan, dan fabrikasi baja tahan karat.",
       "uses": "Hairline · Transisi · Fabrikasi",
       "products": "Sabuk abrasif"
@@ -807,7 +807,7 @@
         "keywords": "bahan abrasif otomotif, pengamplasan bodi mobil, pengamplasan cat mobil, pengamplasan primer"
       },
       "stainless-steel": {
-        "title": "Bahan Abrasif Penyelesaian & Poles Baja Tahan Karat | MoTai",
+        "title": "Bahan Abrasif Finising & Poles Baja Tahan Karat | MoTai",
         "description": "Bahan abrasif untuk baja tahan karat: poles logam, penggerindaan permukaan, dan finising dengan piringan flap dan sabuk MoTai.",
         "keywords": "finising baja tahan karat, poles logam, penggerindaan permukaan, abrasif stainless"
       },

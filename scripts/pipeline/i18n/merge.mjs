@@ -32,7 +32,10 @@ if (files.length !== nParts) {
 
 const pieces = files.map((f) => {
   const t = readFileSync(path.join(partsDir, f), 'utf8')
-  return t.replace(/^<!-- PART [^>]*-->\n/, '').trim()
+  // Strip ALL leading HTML comment lines (split-all's part 00 carries two:
+  // the PART marker and a frontmatter hint) so the frontmatter block sits
+  // flush at the top of the part.
+  return t.replace(/^(?:<!-- .*?-->\n)+/, '').trim()
 })
 
 // Part 00 carries the frontmatter; keep it, drop any duplicate frontmatter

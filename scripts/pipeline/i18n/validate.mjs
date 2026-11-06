@@ -103,12 +103,10 @@ function validateArticle(code, file) {
   const allText = body.toLowerCase()
   const total = cjk ? unitsOfCJK(body) : wordsOf(body)
 
-  // W1. unit count — under-length is a hard fail (quality floor); over-length
-  // is a warning only (the user asked to stop blocking on excess length).
-  if (total < WORD_BAND.min)
-    fails.push(`${cjk ? 'unit' : 'word'} count ${total} below ${WORD_BAND.min}`)
-  else if (total > WORD_BAND.max)
-    warns.push(`${cjk ? 'unit' : 'word'} count ${total} above ${WORD_BAND.max}`)
+  // W1. unit count — pure warning (user instruction: word count is not a gate;
+  // quality is judged on terminology accuracy, links, structure, banned claims).
+  if (total < WORD_BAND.min || total > WORD_BAND.max)
+    warns.push(`${cjk ? 'unit' : 'word'} count ${total} outside ${WORD_BAND.min}–${WORD_BAND.max}`)
 
   // S1. no H1/H2
   if (/^#{1,2}\s/m.test(body)) fails.push('body contains an H1/H2 heading')

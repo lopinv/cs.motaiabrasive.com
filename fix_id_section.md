@@ -1,0 +1,10 @@
+### Oksida aluminium atau zirkonia alumina: memilih butiran
+
+Nomor grit memberitahu ukuran potongan; butiran memberitahu bagaimana piringan menembusnya. Kebanyakan piringan flap menjalankan salah satu dari dua butiran umum, dan pilihannya mengubah feel pekerjaan lebih dari yang dibayangkan orang.
+
+- **Oksida aluminium** adalah serbaguna. Tahan lama dan ekonomis, dan ini butiran yang kami spesifikasikan untuk kebanyakan smeril generik, penghapusan bau, dan finishing di mana Anda menginginkan potongan yang terduga dan merata di baja karbon dan stainless. Ia tersumbat perlahan dan mengampuni, itulah mengapa ia menjadi default saat Anda tidak mengejar potongan tercepat.
+- **Zirkonia alumina** adalah butiran lebih keras, semi-terbuka, yang dirancang agar tidak tersumbat. Di tempat Anda memotong sesuatu yang memadatkan butiran — coran, beberapa aloiasi, pekerjaan penghapusan material berat — zirkonia alumina menjaga wajah tetap terbuka dan potongan tetap jujur lebih lama. Ia berjalan sedikit lebih panas, jadi cocok dengan backing baja untuk pekerjaan agresif lebih daripada pas finishing ringan.
+
+Butiran karbida silikon dan keramik juga ada di pasar. Karbida silikon adalah butiran yang Anda pilih untuk logam non-ferrous dan beberapa komposit, karena lebih keras dan memotong material lebih lunak, licin tanpa tersumbat. Keramik adalah opsi premium, paling tahan lama, dan menunjukkan nilainya pada pekerjaan volume sangat tinggi di mana biaya per bagian jadi — bukan harga per piringan — yang Anda kelola. Untuk butiran yang kami stok pada piringan flap dan di mana masing-masing cocok, mulai dari [piringan flap grosir](/id/collections/flap-discs) dan konfirmasikan butiran melawan material Anda sebelum memesan.
+
+Aturan praktis: cocokkan butiran dengan material, lalu cocokkan grit dengan potongan. Butiran memutuskan bagaimana piringan berperilaku; grit memutuskan berapa banyak yang dihapus. Ubah satu dengan sengaja dan pertahankan yang lain tetap, atau Anda memecahkan dua masalah sekaligus dan tidak akan belajar mana yang bergerak.
