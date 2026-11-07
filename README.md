@@ -6,17 +6,43 @@
 motai-static/
 ├─ src/
 │  ├─ data/*.json      语种中性数据（产品/型号/变体/百叶片/博客/指南/行业/区域/FAQ/术语表/信任槽/视频/站点配置）
-│  ├─ i18n/*.json      11 语种翻译（en/zh/es/de/fr/ar/pt/ru/it/ja/ko）
-│  ├─ lib/             i18n、数据、TDK、WhatsApp 链接、路径工具
-│  ├─ components/      Shell/Header/Footer/FloatingContact/ProductCard/CtaBand/Faq/SectionHeading/YouTubeEmbed/SeoMeta
-│  ├─ pages/           56 路由模板（[lang] 动态参数 × 11 语种）+ index.astro（SITE_LANG 根页）+ 404
+│  ├─ i18n/*.json      27 语种翻译（en/zh/zh-Hant/ja/ko/es/fr/de/it/pt/ru/ar/he/fa/hi/th/vi/
+│  │                   id/ms/cs/sk/pl/da/sv/no/fi/tr）
+│  ├─ lib/             i18n、数据、TDK、WhatsApp 链接、路径工具、博客分页参数（blog-pager.js）、
+│  │                   博客↔商品关联（blog-products.js）
+│  ├─ components/      Shell/Header/Footer/FloatingContact/ProductCard/CtaBand/Faq/SectionHeading/
+│  │                   YouTubeEmbed/SeoMeta/BlogSidebar/BlogIndex/BlogPager
+│  ├─ pages/           [lang] 动态参数路由（多语种）+ index.astro（SITE_LANG 根页）+ 404
+│  │                   └─ blog/  索引 + page/[n]（分页）+ category/[key] + category/[key]/page/[n]
 │  └─ styles/global.css
 ├─ public/_redirects    旧 Shopify URL 301 兼容（纯静态重定向）
 ├─ scripts/gen-feed.mjs 构建后生成 dist/products.csv（Merchant Center b2b feed）
 ├─ scripts/gen-seo.mjs  构建后生成 dist/robots.txt + dist/sitemap.xml（随 SITE_URL）
+├─ .zcode-check/        构建门禁（见下方「构建校验」）
 ├─ astro.config.mjs     output: 'static'
 └─ dist/                构建产物（发布此目录）
 ```
+
+## 博客列表页
+
+博客索引按每页 24 张卡片分页，第 n 页位于 `/blog/page/<n>/`，单分类链位于
+`/blog/category/<key>/` 与 `/blog/category/<key>/page/<n>/`；分页大小与分类集合的
+单一来源是 `src/lib/blog-pager.js`（`scripts/gen-seo.mjs` 中的分页常量须与之一致，
+`check-blog-sidebar.cjs` 会交叉校验 sitemap 与实际页面）。列表页与文章详情页共用
+两栏布局：右栏 `BlogSidebar` 常驻商品/服务/最新文章。
+
+## 构建校验
+
+`npm run build` 串行执行以下门禁，任一失败即中止构建：
+
+| 脚本 | 作用 |
+|------|------|
+| `check-template-comments.cjs` | 阻断 Astro 模板区 JS 块注释被当作文本渲染（曾导致产品页露出注释原文） |
+| `check-static-paths-tdz.cjs` | 阻断 `getStaticPaths` 引用定义在其后的顶层 const（bundler 提升导致的 TDZ 崩溃） |
+| `key-parity.cjs` | 27 语种 i18n 键与 en.json 一致 |
+| `audit-terms.cjs` | 术语审计（机翻造词检测） |
+| `check-slash.cjs` | canonical/hreflang/JSON-LD、sitemap、_redirects 全站尾斜杠约定 |
+| `check-blog-sidebar.cjs` | 侧栏四模块完整、分页卡片数与链接形态、sitemap 与磁盘页面一一对应 |
 
 ## 构建
 

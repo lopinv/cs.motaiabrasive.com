@@ -283,6 +283,31 @@
     "updatedLabel": "Mis à jour",
     "governance": "Les guides sont rédigés et relus par l'équipe technique MoTai Abrasives et re-examinés lorsque les spécifications des produits changent."
   },
+  "blogSidebar": {
+    "eyebrow": "Produits",
+    "productsTitle": "Produits en vedette",
+    "productsSub": "Dimensions, grains et supports sont documentés par produit ; quantité minimale et disponibilité confirmées au devis.",
+    "viewAll": "Tous les produits",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "De la sélection à la fourniture",
+    "servicesSub": "Fourniture en gros, conditionnement en marque propre et contrôles de process, confirmés au devis.",
+    "serviceWholesale": "Devis de gros",
+    "serviceOem": "OEM et marque propre",
+    "serviceManufacturing": "Fabrication",
+    "serviceApplications": "Applications",
+    "latestEyebrow": "Actualités",
+    "latestTitle": "Derniers guides",
+    "catDiscs": "Disques de ponçage",
+    "catBelts": "Courrois abrasifs",
+    "catFlap": "Disques à ailettes"
+  },
+  "blogPager": {
+    "navLabel": "Pages du blog",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {page} sur {total}",
+    "range": "Guides {from}–{to} sur {count}"
+  },
   "article": {
     "watchTitle": "Voir",
     "discuss": "Discuter de votre spécification",

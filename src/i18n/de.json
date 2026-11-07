@@ -283,6 +283,31 @@
     "updatedLabel": "Aktualisiert",
     "governance": "Die Leitfäden werden vom MoTai-Abrasives-Team verfasst und geprüft und erneut geprüft, wenn sich Produktspezifikationen ändern."
   },
+  "blogSidebar": {
+    "eyebrow": "Produkte",
+    "productsTitle": "Ausgewählte Produkte",
+    "productsSub": "Maße, Körnungen und Träger sind je Produkt dokumentiert; Mindestabnahmemenge und Verfügbarkeit ergeben sich aus dem Angebot.",
+    "viewAll": "Alle Produkte",
+    "servicesEyebrow": "Leistungen",
+    "servicesTitle": "Von der Auswahl bis zur Lieferung",
+    "servicesSub": "Großhandelslieferung, Eigenmarken-Verpackung und Prozessprüfungen, bestätigt im Angebot.",
+    "serviceWholesale": "Großhandelsangebot",
+    "serviceOem": "OEM & Eigenmarke",
+    "serviceManufacturing": "Fertigung",
+    "serviceApplications": "Anwendungen",
+    "latestEyebrow": "News",
+    "latestTitle": "Neueste Leitfäden",
+    "catDiscs": "Schleifscheiben",
+    "catBelts": "Abrasivschleifbänder",
+    "catFlap": "Flapscheiben"
+  },
+  "blogPager": {
+    "navLabel": "Blogseiten",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "pageOf": "Seite {page} von {total}",
+    "range": "Leitfäden {from}–{to} von {count}"
+  },
   "article": {
     "watchTitle": "Ansehen",
     "discuss": "Ihre Spezifikation besprechen",

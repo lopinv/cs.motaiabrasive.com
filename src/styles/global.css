@@ -15,6 +15,9 @@
   --pad-x: 24px;
   --quickbar-h: 56px;
   --pad-x-sm: 16px;
+  /* sticky header height (contact bar + nav row) — offsets the blog sidebar's
+     position:sticky so it never hides under the header. */
+  --blog-header-offset: 96px;
   /* documented breakpoints (used literally in the media blocks below): --bp-lg 900px, --bp-md 640px */
   --font: "Inter", "Helvetica Neue", "PingFang SC", "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", Arial, sans-serif;
 }
@@ -307,20 +310,146 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 }
 .related-note a:hover { border-color: var(--ink); color: var(--ink); }
 
-/* ============ Blog index groups (zero-JS <details> grouping) ============ */
-.blog-groups { display: grid; gap: var(--gap-lg); }
-.blog-group { border: 1px solid var(--line); border-radius: 6px; padding: 4px 18px 18px; }
-.blog-group-summary {
-  display: flex; align-items: center; gap: 12px; cursor: pointer; padding: 14px 0;
-  font-weight: 600; list-style: none;
+/* ============ Blog index: category chips + card grid + pager ============ */
+/* 分页后每页固定 24 张卡片（3 列 × 8 行），单页 HTML 从 ~215 KB 降到
+   ~25 KB。分类用 chips 跳转到 /blog/category/<key>/，详情见 BlogIndex。 */
+.blog-cats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.blog-cat {
+  display: inline-flex; align-items: center; gap: 7px;
+  border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px;
+  font-size: 13px; font-weight: 500; color: var(--ink-soft); background: var(--bg);
+  transition: border-color .15s ease, color .15s ease;
 }
-.blog-group-summary::-webkit-details-marker { display: none; }
-.blog-group-summary .eyebrow { margin: 0; }
-.blog-group-count {
-  margin-inline-start: auto; font-size: 12px; font-weight: 600; color: var(--muted);
-  border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px;
+.blog-cat:hover { border-color: var(--ink); color: var(--ink); }
+.blog-cat.is-active { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.blog-cat-count { font-size: 11px; color: var(--muted); }
+.blog-cat.is-active .blog-cat-count { color: var(--accent); }
+
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
+/* 卡片上的分类角标（原 details 分组的替代，让每张卡片可自证归属）。 */
+.card-cat {
+  font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--muted); font-weight: 700;
 }
-.blog-group[open] > .blog-group-summary .blog-group-count { color: var(--accent); border-color: var(--accent); }
+
+/* 分页器：范围摘要 + 上一页/页码/下一页，纯静态零 JS。 */
+.blog-pager {
+  margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px;
+}
+.blog-pager-range { margin: 0; font-size: 13px; color: var(--muted); }
+.blog-pager-of { margin: 0; margin-inline-start: auto; font-size: 13px; color: var(--muted); }
+.blog-pager-list {
+  list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap;
+  align-items: center; gap: 6px;
+}
+.pager-nav, .pager-num, .pager-gap {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 36px; height: 36px; padding: 0 10px;
+  border: 1px solid var(--line); border-radius: 6px;
+  font-size: 13px; font-weight: 600; color: var(--ink-soft); background: var(--bg);
+}
+.pager-nav:hover, .pager-num:hover { border-color: var(--ink); color: var(--ink); }
+.pager-num.is-current { background: var(--ink); border-color: var(--ink); color: #fff; }
+.pager-gap { border: 0; background: none; color: var(--muted); font-weight: 400; }
+
+/* The body column keeps its readable measure; the sidebar carries the
+   commercial context (products, services, further guides). Desktop is a
+   sticky sidebar so it stays in view while the article scrolls; below 900px
+   the two columns stack (sidebar first, above the feed, on touch). */
+.blog-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 296px;
+  gap: clamp(28px, 4vw, 56px);
+  align-items: start;
+}
+.blog-layout .blog-main { min-width: 0; }
+.blog-layout .prose { max-width: 760px; }
+/* 列表页把标题区也并进两栏，标题与文章分组之间需要分隔间距（文章页的
+   .prose 自带 28px gap，不需要这条）。 */
+.blog-layout .blog-main > .small-note { margin-bottom: 40px; }
+
+/* Sidebar: a column of bordered blocks, sticky under the fixed header. */
+.blog-sidebar {
+  position: sticky;
+  top: calc(var(--blog-header-offset) + 16px);
+  display: grid;
+  gap: var(--gap);
+  /* A long article can scroll the page taller than the sidebar's content;
+     allow its own scroll only when it genuinely cannot fit. */
+  max-height: calc(100vh - var(--blog-header-offset) - 32px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.side-block {
+  border: 1px solid var(--line); border-radius: 6px; padding: 18px;
+  background: var(--bg);
+}
+.side-block--soft { background: var(--bg-soft); }
+.side-eyebrow {
+  margin: 0 0 8px; font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700;
+}
+.side-h { margin: 0 0 6px; font-size: 16px; font-weight: 700; letter-spacing: -.01em; }
+.side-sub { margin: 0 0 14px; font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+
+/* Products: thumbnail + name + family, 2:1 media so three fit in 296px. */
+.side-products { display: grid; gap: 10px; }
+.side-product {
+  display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 10px;
+  align-items: center; border: 1px solid var(--line); border-radius: 6px;
+  padding: 6px; background: var(--bg); transition: border-color .15s ease;
+}
+.side-product:hover { border-color: var(--ink); }
+.side-product-media {
+  display: block; aspect-ratio: 4/3; border-radius: 4px; overflow: hidden;
+  background: linear-gradient(135deg, var(--accent), #4a100c);
+}
+.side-product-media img { width: 100%; height: 100%; object-fit: cover; }
+.side-product-body { display: grid; gap: 2px; min-width: 0; }
+.side-product-name { font-size: 13px; font-weight: 600; color: var(--ink); line-height: 1.35; }
+.side-product-meta { font-size: 11px; color: var(--muted); }
+.side-product:hover .side-product-name { color: var(--accent); }
+
+/* Category chips: the fastest route to the catalogue. */
+.side-cats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.side-cats a {
+  border: 1px solid var(--line); border-radius: 6px; padding: 6px 11px;
+  font-size: 12px; color: var(--ink-soft); background: var(--bg);
+}
+.side-cats a:hover { border-color: var(--ink); color: var(--ink); }
+.side-cats .side-cat-all {
+  flex: 1 1 100%; text-align: center; font-weight: 600; color: var(--accent);
+}
+
+/* Services: stacked list rows with an arrow affordance. */
+.side-services { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.side-services a {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 13.5px;
+  font-weight: 500; color: var(--ink-soft);
+}
+.side-services li:last-child a { border-bottom: 0; }
+.side-services a:hover { color: var(--accent); }
+
+/* Latest guides: the "what to read next" list. */
+.side-latest { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.side-latest a {
+  display: block; padding: 9px 0; border-bottom: 1px solid var(--line);
+  font-size: 13px; line-height: 1.45; color: var(--ink-soft);
+}
+.side-latest li:last-child a { border-bottom: 0; }
+.side-latest a:hover { color: var(--accent); text-decoration: underline; }
+
+/* On-this-page TOC moved into the sidebar for long articles. */
+.side-toc .side-title {
+  margin: 0 0 8px; font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--muted); font-weight: 700;
+}
+.side-toc-list { margin: 0; padding-inline-start: 16px; display: grid; gap: 5px; }
+.side-toc-list li { font-size: 12.5px; line-height: 1.4; }
+.side-toc-list a { color: var(--ink-soft); }
+.side-toc-list a:hover { color: var(--accent); text-decoration: underline; }
 
 /* ============ Spec table ============ */
 .spec-table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -556,6 +685,17 @@ body { padding-bottom: var(--quickbar-h); }
 /* ============ Responsive — 900px and below ============ */
 @media (width <= 900px) {
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  /* 博客卡片网格随 .grid-3 一起降到 2 列 */
+  .blog-grid { grid-template-columns: repeat(2, 1fr); }
+  .blog-pager-of { margin-inline-start: 0; flex: 1 1 100%; }
+  /* Blog sidebar drops to a full-width column above the feed; sticky off, so
+     it never pins under the shorter mobile header. */
+  .blog-layout { grid-template-columns: 1fr; gap: 32px; }
+  .blog-sidebar {
+    position: static; max-height: none; overflow: visible;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start;
+  }
+  .blog-layout .prose { max-width: 760px; }
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
   .location-grid { grid-template-columns: 1fr; gap: 20px; }
   .location-map iframe { min-height: 220px; }
@@ -589,6 +729,13 @@ body { padding-bottom: var(--quickbar-h); }
   }
 
   .grid-2 { grid-template-columns: 1fr; }
+  /* 博客卡片网格在手机上单列；分页器页码缩小但保持可点面积 */
+  .blog-grid { grid-template-columns: 1fr; }
+  .pager-nav, .pager-num { min-width: 34px; height: 34px; padding: 0 8px; font-size: 12.5px; }
+  .blog-pager { gap: 10px 14px; }
+  /* Sidebar blocks stack to a single column on phones. */
+  .blog-sidebar { grid-template-columns: 1fr; }
+  .side-product { grid-template-columns: 64px minmax(0, 1fr); }
   .faq-list.faq-list--2col { grid-template-columns: 1fr; }
   .section { padding: 48px 0; }
   .section--tight { padding: 36px 0; }

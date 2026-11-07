@@ -1,0 +1,66 @@
+---
+/**
+ * 博客索引页（全部文章，第 n 页，n >= 2）。第 1 页是 /blog/ 本身
+ * （见上一级 blog.astro），所以这里只生成 n >= 2。
+ *
+ * 分页规则见 src/lib/blog-pager.js。每个语种独立计算页数：文章总数来自
+ * allArticles(lang)，因此 getStaticPaths 需要 await（与 [slug].astro 同一
+ * 模式）。单页固定 24 篇，223 篇文章的语种有 10 页。
+ */
+import { usePage, buildSeo } from '../../../../lib/page.js'
+import { LANGS } from '../../../../lib/i18n.js'
+import Shell from '../../../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../../../lib/tdk.js'
+import CtaBand from '../../../../components/CtaBand.astro'
+import BlogIndex from '../../../../components/BlogIndex.astro'
+import { allArticles } from '../../../../lib/articles.js'
+import { defaultProducts } from '../../../../lib/blog-products.js'
+import { BLOG_PAGE_SIZE, BLOG_PAGER_MAX, pagerInfo } from '../../../../lib/blog-pager.js'
+
+// n >= 2 的 (lang, n) 组合，按语种分别计算页数。
+export async function getStaticPaths() {
+  const out = []
+  for (const lang of LANGS) {
+    const total = (await allArticles(lang)).length
+    const pages = Math.min(Math.ceil(total / BLOG_PAGE_SIZE), BLOG_PAGER_MAX)
+    for (let n = 2; n <= pages; n++) out.push({ params: { lang, n: String(n) } })
+  }
+  return out
+}
+
+const { lang, n } = Astro.params
+const page = Number(n)
+const { pick, lu } = usePage(lang)
+const t = pick('blogIndex')
+const articles = await allArticles(lang)
+const pager = pagerInfo(articles.length, page)
+const sideProducts = defaultProducts()
+
+// ctx.pager 必须是页码数字（不是 pagerInfo 对象）：tdk.js 的 case 'blog'
+// 读 ctx.pager 判断是否分页页，并据此拼 canonical 的 /page/<n> 段。
+const seo = buildSeo(lang, 'blog', { pager: pager.current, pagerTotal: pager.pages }, [
+  breadcrumbJsonLd(lang, [{ name: pick('nav.news'), path: `/${lang}/blog` }])
+])
+const CAT_KEYS = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
+const counts = {}
+for (const a of articles) counts[a.categoryKey || 'selection-guide'] = (counts[a.categoryKey || 'selection-guide'] ?? 0) + 1
+const categories = Object.entries(counts)
+  .sort((a, b) => b[1] - a[1])
+  .map(([key, count]) => ({ key, count, label: pick(`article.${CAT_KEYS[key]}`) ?? key }))
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a></div>
+
+  <BlogIndex
+    lang={lang}
+    pageArticles={articles.slice((pager.current - 1) * BLOG_PAGE_SIZE, pager.current * BLOG_PAGE_SIZE)}
+    pager={{ ...pager, ...t, h1: t.h1, sub: t.sub, governance: t.governance, updatedLabel: t.updatedLabel, allLabel: pick('colt.all.label'), catsLabel: t.h1, sideProducts }}
+    categories={categories}
+    activeCategory=""
+    canonicalPath={`/blog/page/${pager.current}`}
+    latest={articles.slice(0, 5)}
+  />
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="article.discuss" ctaKey2="cta.waChat" />
+</Shell>

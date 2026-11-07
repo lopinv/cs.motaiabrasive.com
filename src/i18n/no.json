@@ -283,6 +283,31 @@
     "updatedLabel": "Oppdatert",
     "governance": "Veiledningene er skrevet og gjennomgått av det tekniske teamet i MoTai Abrasives og gjennomgås på nytt når produktspesifikasjonene endres."
   },
+  "blogSidebar": {
+    "eyebrow": "Produkter",
+    "productsTitle": "Utvalgte produkter",
+    "productsSub": "Mål, kornstørrelse og baksider er dokumentert pr. produkt; minimumsordre og tilgjengelighet bekreftes i tilbudet.",
+    "viewAll": "Alle produkter",
+    "servicesEyebrow": "Tjenester",
+    "servicesTitle": "Fra valg til levering",
+    "servicesSub": "Grossistleveranse, emballasje med eget merke og prosesskontroll bekreftes i tilbudet.",
+    "serviceWholesale": "Grossistforespørsel",
+    "serviceOem": "OEM og eget merke",
+    "serviceManufacturing": "Produksjonskapasitet",
+    "serviceApplications": "Applikasjoner",
+    "latestEyebrow": "Nyheter",
+    "latestTitle": "Nyeste guider",
+    "catDiscs": "Slipeplater",
+    "catBelts": "Slibebånd",
+    "catFlap": "Slipflatter"
+  },
+  "blogPager": {
+    "navLabel": "Bloggsider",
+    "prev": "Forrige",
+    "next": "Neste",
+    "pageOf": "Side {page} av {total}",
+    "range": "Guider {from}–{to} av {count}"
+  },
   "article": {
     "watchTitle": "Se",
     "discuss": "Drøft spesifikasjonen din",

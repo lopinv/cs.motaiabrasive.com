@@ -1,0 +1,75 @@
+---
+/**
+ * 博客分类页（单个分类，第 n 页，n >= 2）。第 1 页是分类根
+ * /blog/category/<key>/（见上一级 [key].astro）。
+ */
+import { usePage, buildSeo } from '../../../../../../lib/page.js'
+import { LANGS } from '../../../../../../lib/i18n.js'
+import Shell from '../../../../../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../../../../../lib/tdk.js'
+import CtaBand from '../../../../../../components/CtaBand.astro'
+import BlogIndex from '../../../../../../components/BlogIndex.astro'
+import { allArticles } from '../../../../../../lib/articles.js'
+import { defaultProducts } from '../../../../../../lib/blog-products.js'
+import { BLOG_PAGE_SIZE, BLOG_PAGER_MAX, BLOG_CATEGORIES, pagerInfo } from '../../../../../../lib/blog-pager.js'
+
+export async function getStaticPaths() {
+  const out = []
+  for (const lang of LANGS) {
+    const all = await allArticles(lang)
+    for (const c of BLOG_CATEGORIES) {
+      const total = all.filter((a) => (a.categoryKey || 'selection-guide') === c.key).length
+      const pages = Math.min(Math.ceil(total / BLOG_PAGE_SIZE), BLOG_PAGER_MAX)
+      for (let n = 2; n <= pages; n++) out.push({ params: { lang, key: c.key, n: String(n) } })
+    }
+  }
+  return out
+}
+
+const { lang, key, n } = Astro.params
+const page = Number(n)
+const { pick, lu } = usePage(lang)
+const t = pick('blogIndex')
+const cat = BLOG_CATEGORIES.find((c) => c.key === key)
+const all = await allArticles(lang)
+const articles = all.filter((a) => (a.categoryKey || 'selection-guide') === key)
+const pager = pagerInfo(articles.length, page)
+const sideProducts = defaultProducts()
+
+// ctx.pager 传页码数字：tdk.js 读它判断分页页并拼 canonical 的 /page/<n> 段。
+const seo = buildSeo(lang, 'blog', { category: key, pager: pager.current, pagerTotal: pager.pages }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('nav.news'), path: `/${lang}/blog` },
+    { name: pick(`article.${cat.i18n}`), path: `/${lang}/blog/category/${key}` }
+  ])
+])
+const counts = {}
+for (const a of all) counts[a.categoryKey || 'selection-guide'] = (counts[a.categoryKey || 'selection-guide'] ?? 0) + 1
+const categories = BLOG_CATEGORIES.map((c) => ({ key: c.key, count: counts[c.key] ?? 0, label: pick(`article.${c.i18n}`) ?? c.key }))
+  .sort((a, b) => b.count - a.count)
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb">
+    <a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{categories.find((c) => c.key === key)?.label}</span>
+  </div>
+
+  <BlogIndex
+    lang={lang}
+    pageArticles={articles.slice((pager.current - 1) * BLOG_PAGE_SIZE, pager.current * BLOG_PAGE_SIZE)}
+    pager={{
+      ...pager, ...t,
+      h1: pick(`article.${cat.i18n}`),
+      sub: t.sub, governance: t.governance,
+      updatedLabel: t.updatedLabel,
+      allLabel: pick('colt.all.label'), catsLabel: t.h1,
+      sideProducts
+    }}
+    categories={categories}
+    activeCategory={key}
+    canonicalPath={`/blog/category/${key}/page/${pager.current}`}
+    latest={all.slice(0, 5)}
+  />
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="article.discuss" ctaKey2="cta.waChat" />
+</Shell>

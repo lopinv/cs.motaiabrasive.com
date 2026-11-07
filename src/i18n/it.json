@@ -283,6 +283,31 @@
     "updatedLabel": "Aggiornato",
     "governance": "Le guide sono scritti e revisionati dal team tecnico MoTai Abrasives e riesaminati quando cambiano le specifiche dei prodotti."
   },
+  "blogSidebar": {
+    "eyebrow": "Prodotti",
+    "productsTitle": "Prodotti in evidenza",
+    "productsSub": "Dimensioni, grana e supporti sono documentati per prodotto; quantità minima e disponibilità sono confermate nel preventivo.",
+    "viewAll": "Tutti i prodotti",
+    "servicesEyebrow": "Servizi",
+    "servicesTitle": "Dalla selezione alla fornitura",
+    "servicesSub": "Fornitura all'ingrosso, confezionamento private label e controlli di processo, confermati nel preventivo.",
+    "serviceWholesale": "Preventivo all'ingrosso",
+    "serviceOem": "OEM e private label",
+    "serviceManufacturing": "Produzione",
+    "serviceApplications": "Applicazioni",
+    "latestEyebrow": "Notizie",
+    "latestTitle": "Ultime guide",
+    "catDiscs": "Dischi di levigatura",
+    "catBelts": "Nastri abrasivi",
+    "catFlap": "Dischi a patta"
+  },
+  "blogPager": {
+    "navLabel": "Pagine del blog",
+    "prev": "Precedente",
+    "next": "Successiva",
+    "pageOf": "Pagina {page} di {total}",
+    "range": "Guide {from}–{to} di {count}"
+  },
   "article": {
     "watchTitle": "Guarda",
     "discuss": "Discuti la tua specifica",

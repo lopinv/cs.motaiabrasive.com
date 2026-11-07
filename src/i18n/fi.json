@@ -283,6 +283,31 @@
     "updatedLabel": "Päivitetty",
     "governance": "Oppaat kirjoittaa ja tarkastaa MoTai Abrasives -tekninen tiimi, ja ne tarkastetaan uudelleen, kun tuotteen erittelyt muuttuvat."
   },
+  "blogSidebar": {
+    "eyebrow": "Tuotteet",
+    "productsTitle": "Valitut tuotteet",
+    "productsSub": "Mitat, karheus ja selkälevy on dokumentoitu tuotekohtaisesti; vähimmäistilausmäärä ja saatavuus vahvistetaan tarjouksessa.",
+    "viewAll": "Kaikki tuotteet",
+    "servicesEyebrow": "Palvelut",
+    "servicesTitle": "Valinnasta toimitukseen",
+    "servicesSub": "Tukkutoimitus, oman brändin pakkaus ja prosessitarkastukset vahvistetaan tarjouksessa.",
+    "serviceWholesale": "Tukkutarjouspyyntö",
+    "serviceOem": "OEM ja oma brändi",
+    "serviceManufacturing": "Tuotantokapasiteetti",
+    "serviceApplications": "Sovellukset",
+    "latestEyebrow": "Uutiset",
+    "latestTitle": "Uusimmat oppaat",
+    "catDiscs": "Hiontapaperit",
+    "catBelts": "Hiontalankat",
+    "catFlap": "Hiontapalat"
+  },
+  "blogPager": {
+    "navLabel": "Blogisivut",
+    "prev": "Edellinen",
+    "next": "Seuraava",
+    "pageOf": "Sivu {page}/{total}",
+    "range": "Oppaat {from}–{to}/{count}"
+  },
   "article": {
     "watchTitle": "Katso",
     "discuss": "Keskustelkaa teknisistä vaatimuksistanne",

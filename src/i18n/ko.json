@@ -283,6 +283,31 @@
     "updatedLabel": "수정됨",
     "governance": "가이드는 MoTai Abrasives 기술 팀이 작성하고 검토하며, 제품 사양이 변경될 때 재검토합니다."
   },
+  "blogSidebar": {
+    "eyebrow": "제품",
+    "productsTitle": "주요 제품",
+    "productsSub": "규격, 입자, 배킹은 제품별로 문서화되어 있으며, 최소 주문 수량과 공급 여부는 견적에서 확인하실 수 있습니다.",
+    "viewAll": "전체 제품",
+    "servicesEyebrow": "서비스",
+    "servicesTitle": "선택에서 공급까지",
+    "servicesSub": "도매 공급, 자사 브랜드 포장, 공정 검수는 견적서에서 확인하실 수 있습니다.",
+    "serviceWholesale": "도매 견적",
+    "serviceOem": "OEM 및 자사 브랜드",
+    "serviceManufacturing": "제조 역량",
+    "serviceApplications": "적용 분야",
+    "latestEyebrow": "뉴스",
+    "latestTitle": "최신 가이드",
+    "catDiscs": "샌딩 디스크",
+    "catBelts": "연마 벨트",
+    "catFlap": "플래피 디스크"
+  },
+  "blogPager": {
+    "navLabel": "블로그 페이지",
+    "prev": "이전",
+    "next": "다음",
+    "pageOf": "{total}페이지 중 {page}페이지",
+    "range": "전체 {count}건 중 {from}–{to}건"
+  },
   "article": {
     "watchTitle": "영상 보기",
     "discuss": "스펙 상담하기",

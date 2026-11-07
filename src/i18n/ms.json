@@ -283,6 +283,31 @@
     "updatedLabel": "Dikemas kini",
     "governance": "Panduan ditulis dan disemak oleh pasukan teknikal MoTai Abrasives serta disemak semula apabila spesifikasi produk berubah."
   },
+  "blogSidebar": {
+    "eyebrow": "Produk",
+    "productsTitle": "Produk pilihan",
+    "productsSub": "Saiz, grit dan lapisan sokongan didokumentasikan bagi setiap produk; MOQ dan kebolehtersamaan disahkan dalam sebut harga.",
+    "viewAll": "Semua produk",
+    "servicesEyebrow": "Perkhidmatan",
+    "servicesTitle": "Dari pemilihan hingga pembekalan",
+    "servicesSub": "Pembekalan borong, pembungkusan jenama sendiri dan pemeriksaan proses, disahkan dalam sebut harga.",
+    "serviceWholesale": "Sebut harga borong",
+    "serviceOem": "OEM & jenama sendiri",
+    "serviceManufacturing": "Keupayaan pembuatan",
+    "serviceApplications": "Aplikasi",
+    "latestEyebrow": "Berita",
+    "latestTitle": "Panduan terkini",
+    "catDiscs": "Cakera Pengasahan",
+    "catBelts": "Tali Suam",
+    "catFlap": "Cakera Flap"
+  },
+  "blogPager": {
+    "navLabel": "Halaman blog",
+    "prev": "Sebelum",
+    "next": "Seterusnya",
+    "pageOf": "Halaman {page} daripada {total}",
+    "range": "Panduan {from}–{to} daripada {count}"
+  },
   "article": {
     "watchTitle": "Tonton",
     "discuss": "Bincangkan Spesifikasi Anda",

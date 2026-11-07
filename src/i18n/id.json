@@ -283,6 +283,31 @@
     "updatedLabel": "Diperbarui",
     "governance": "Panduan ditulis dan ditinjau oleh tim teknis MoTai Abrasives, serta ditinjau ulang saat spesifikasi produk berubah."
   },
+  "blogSidebar": {
+    "eyebrow": "Produk",
+    "productsTitle": "Produk unggulan",
+    "productsSub": "Ukuran, grit dan lapisan pendukung didokumentasikan per produk; MOQ dan ketersediaan dikonfirmasi pada penawaran harga.",
+    "viewAll": "Semua produk",
+    "servicesEyebrow": "Layanan",
+    "servicesTitle": "Dari pemilihan hingga pasokan",
+    "servicesSub": "Pasokan grosir, kemasan merek sendiri dan pemeriksaan proses, semuanya dikonfirmasi dalam penawaran harga.",
+    "serviceWholesale": "Penawaran harga grosir",
+    "serviceOem": "OEM & merek sendiri",
+    "serviceManufacturing": "Kapabilitas manufaktur",
+    "serviceApplications": "Aplikasi",
+    "latestEyebrow": "Berita",
+    "latestTitle": "Panduan terbaru",
+    "catDiscs": "Piringan Amplas",
+    "catBelts": "Sabuk Abrasif",
+    "catFlap": "Piringan Flap"
+  },
+  "blogPager": {
+    "navLabel": "Halaman blog",
+    "prev": "Sebelumnya",
+    "next": "Berikutnya",
+    "pageOf": "Halaman {page} dari {total}",
+    "range": "Panduan {from}–{to} dari {count}"
+  },
   "article": {
     "watchTitle": "Tonton",
     "discuss": "Diskusikan Spesifikasi Anda",

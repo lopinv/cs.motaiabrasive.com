@@ -283,6 +283,31 @@
     "updatedLabel": "Uppdaterad",
     "governance": "Guider skrivs och granskas av MoTais tekniska team och granskas på nytt när produktspecifikationerna ändras."
   },
+  "blogSidebar": {
+    "eyebrow": "Produkter",
+    "productsTitle": "Utvalda produkter",
+    "productsSub": "Mått, kornighet och bärare dokumenteras per produkt; minimiorder och leveransförmåga bekräftas i offerten.",
+    "viewAll": "Alla produkter",
+    "servicesEyebrow": "Tjänster",
+    "servicesTitle": "Från val till leverans",
+    "servicesSub": "Grossistleverans, förpackning med eget varumärke och processkontroll bekräftas i offerten.",
+    "serviceWholesale": "Grossistoffert",
+    "serviceOem": "OEM och eget varumärke",
+    "serviceManufacturing": "Tillverkningskapacitet",
+    "serviceApplications": "Tillämpningar",
+    "latestEyebrow": "Nyheter",
+    "latestTitle": "Senaste guider",
+    "catDiscs": "Slipdiskar",
+    "catBelts": "Slipband",
+    "catFlap": "Slipeskivor"
+  },
+  "blogPager": {
+    "navLabel": "Bloggsidor",
+    "prev": "Föregående",
+    "next": "Nästa",
+    "pageOf": "Sida {page} av {total}",
+    "range": "Guider {from}–{to} av {count}"
+  },
   "article": {
     "watchTitle": "Visa",
     "discuss": "Diskutera din specifikation",

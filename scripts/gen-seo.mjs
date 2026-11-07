@@ -42,7 +42,10 @@ const langs = readdirSync(i18nDir)
   .sort() // deterministic order, en last not required — keep alphabetical
 
 // Static per-lang routes
-const staticRoutes = ['', '/about', '/factory', '/oem', '/applications', '/blog', '/contact', '/privacy', '/terms', '/shipping', '/quote', '/clients', '/glossary']
+// Static per-lang routes. '/blog' is excluded: the blog index is paginated,
+// so its whole URL set (root + /page/<n> + /category/<key>[/page/<n>]) comes
+// from blogIndexPaths below.
+const staticRoutes = ['', '/about', '/factory', '/oem', '/applications', '/contact', '/privacy', '/terms', '/shipping', '/quote', '/clients', '/glossary']
 const collections = ['abrasive-belts', 'sanding-discs', 'flap-discs', 'all']
 
 // Data-driven routes
@@ -70,13 +73,46 @@ if (existsSync(articlesDir)) {
 }
 const blogSlugs = [...new Set([...blog.map((b) => b.slug), ...mdSlugs])]
 
+// Blog index pagination: the flat /blog index is split into 24-card pages at
+// /blog/page/<n>/ (page 1 stays at /blog/), plus one chain per article
+// category at /blog/category/<key>/page/<n>/. Mirrors BLOG_PAGE_SIZE in
+// src/lib/blog-pager.js — keep the two in sync when either changes.
+const BLOG_PAGE_SIZE = 24
+const CATEGORIES = ['selection-guide', 'buyer-resources', 'application-notes', 'oem-guide']
+const blogTotal = blogSlugs.length
+const blogPages = Math.max(1, Math.ceil(blogTotal / BLOG_PAGE_SIZE))
+const catCounts = {}
+for (const b of blog) {
+  const c = b.categoryKey ?? 'selection-guide'
+  catCounts[c] = (catCounts[c] ?? 0) + 1
+}
+// md corpus categories come from each file's frontmatter; read them so the
+// category chains mirror what Astro actually renders.
+for (const slug of mdSlugs) {
+  const f = path.join(articlesDir, 'en', slug + '.md')
+  if (!existsSync(f)) continue
+  const m = /^category:\s*(.+)$/m.exec(readFileSync(f, 'utf8'))
+  if (m) {
+    const c = m[1].trim()
+    if (CATEGORIES.includes(c)) catCounts[c] = (catCounts[c] ?? 0) + 1
+  }
+}
+const blogIndexPaths = ['/blog']
+for (let n = 2; n <= blogPages; n++) blogIndexPaths.push(`/blog/page/${n}`)
+for (const c of CATEGORIES) {
+  const pages = Math.max(1, Math.ceil((catCounts[c] ?? 0) / BLOG_PAGE_SIZE))
+  blogIndexPaths.push(`/blog/category/${c}`)
+  for (let n = 2; n <= pages; n++) blogIndexPaths.push(`/blog/category/${c}/page/${n}`)
+}
+
 const dataPaths = [
   ...products.map((p) => `/products/${p.handle}`),
   ...models.map((m) => `/model/${m.slug}`),
   ...discViews.map((d) => `/disc/${d.key}`),
   ...flaps.map((f) => `/flap/${f.key}`),
   ...blogSlugs.map((slug) => `/blog/${slug}`),
-  ...applications.map((a) => `/applications/${a.slug}`)
+  ...applications.map((a) => `/applications/${a.slug}`),
+  ...blogIndexPaths
 ]
 
 const xmlUrls = []

@@ -54,7 +54,6 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'factory':
     case 'oem':
     case 'applications':
-    case 'blog':
     case 'contact':
     case 'privacy':
     case 'terms':
@@ -71,6 +70,31 @@ export function tdkFor(lang, pageId, ctx = {}) {
         keywords: kws(tdk[pageId].keywords),
         canonicalPath: `/${pageId}`,
         ...(og ? { ogImage: media(og) } : {})
+      }
+    }
+    // 博客索引页：第 1 页 /blog/，第 n 页 /blog/page/n/，分类页
+    // /blog/category/<key>/〔/page/<n>〕。canonical 一律自指当前页——分页页
+    // 指回第 1 页会把 n>1 的 URL 变成重复内容；自指 + 分页器上的
+    // rel=prev/next 是静态站更稳的做法。分页标题加「— Page N of M」后缀，
+    // 便于在 SERP/标签页里区分。模板串复用已本地化的 blogPager.pageOf。
+    case 'blog': {
+      const paged = ctx.pager && ctx.pager > 1
+      const suffix = paged ? `/page/${ctx.pager}` : ''
+      const cat = ctx.category ? `/category/${ctx.category}` : ''
+      // 分类名 + 页码后缀：让总索引 / 分类页 / 分页页在 SERP 与标签页里
+      // 各不相同（否则 4 类 × 10 页 = 40 个页面共享同一 title）。模板串复用
+      // 已本地化的 blogPager.pageOf。
+      const catLabel = ctx.category
+        ? (TRANSLATIONS[lang]?.article ?? TRANSLATIONS.en.article)[BLOG_CAT_I18N[ctx.category]]
+        : ''
+      const pageOf = (TRANSLATIONS[lang]?.blogPager?.pageOf ?? TRANSLATIONS.en.blogPager.pageOf)
+        .replace('{page}', ctx.pager)
+        .replace('{total}', ctx.pagerTotal ?? '')
+      return {
+        title: pick(tdk.blog) + (catLabel ? ` — ${catLabel}` : '') + (paged ? ` — ${pageOf}` : ''),
+        description: tdk.blog.description,
+        keywords: kws(tdk.blog.keywords),
+        canonicalPath: `/blog${cat}${suffix}`
       }
     }
     case 'collection': {
@@ -174,6 +198,14 @@ export function tdkFor(lang, pageId, ctx = {}) {
         canonicalPath: ''
       }
   }
+}
+
+/** 文章分类 key → i18n 里的分类标签 key（博客索引/分页标题复用）。 */
+const BLOG_CAT_I18N = {
+  'selection-guide': 'catSelection',
+  'buyer-resources': 'catBuyer',
+  'application-notes': 'catNotes',
+  'oem-guide': 'catOem'
 }
 
 /** Standard JSON-LD objects shared by all pages. */

@@ -1,0 +1,81 @@
+---
+/**
+ * 博客列表页正文（分页版）：标题区 + 分类筛选 chips + 当前页文章网格 + 分页器。
+ *
+ * 由 4 个路由共用（全部文章第 1 页 / 全部文章第 n 页 / 单分类第 1 页 /
+ * 单分类第 n 页），分页与 URL 规则集中在 src/lib/blog-pager.js。
+ * 侧栏沿用 BlogSidebar，让商品/服务常驻在每一个分页上。
+ */
+import BlogSidebar from './BlogSidebar.astro'
+import BlogPager from './BlogPager.astro'
+import { media, localizedUrl } from '../lib/utils.js'
+
+const {
+  lang,
+  pageArticles,
+  pager,
+  categories,
+  activeCategory = '',
+  canonicalPath,
+  latest
+} = Astro.props
+const u = (p) => localizedUrl(lang, p)
+// 分类标签统一走 categories（由页面预解析好 localized label），避免在模板里
+// 反推 i18n key；未登记的 categoryKey 落到第一个已登记分类，不显示空标签。
+const catLabels = new Map(categories.map((c) => [c.key, c.label]))
+const catLabel = (c) => catLabels.get(c) ?? catLabels.get(categories[0]?.key) ?? ''
+// Freshness label per card: build-time localized date (bare 2-letter lang code,
+// not ogLocale, so Node small-icu accepts it — same as the byline in the
+// article template). zh-Hant is a 4-letter route code: strip the -Hant/-HanS
+// suffix so Intl gets a bare "zh" (long forms throw "Invalid language tag").
+const updated = (iso) => new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(iso))
+// 分页器要以「不含页码段」的路径为基底：canonicalPath 在第 n 页是
+// /blog/page/2，若直接当 base 会把「下一页」拼成 /blog/page/2/page/3。
+const pagerBase = canonicalPath.replace(/\/page\/\d+$/, '')
+---
+
+<div class="section wrap blog-layout">
+  <div class="blog-main">
+    <span class="eyebrow">NEWS &amp; BUYER RESOURCES</span>
+    <h1>{pager.h1}</h1>
+    <p class="lead">{pager.sub}</p>
+    <p class="small-note">{pager.governance}</p>
+
+    <nav class="blog-cats" aria-label={pager.catsLabel}>
+      <a class:list={['blog-cat', { 'is-active': !activeCategory }]} href={u('/blog')}>{pager.allLabel}</a>
+      {categories.map((c) => (
+        <a class:list={['blog-cat', { 'is-active': activeCategory === c.key }]} href={u(`/blog/category/${c.key}`)}>
+          {c.label}
+          <span class="blog-cat-count">{c.count}</span>
+        </a>
+      ))}
+    </nav>
+
+    <div class="blog-grid mt-24">
+      {pageArticles.map((b) => (
+        <a class="product-card" href={u(`/blog/${b.slug}`)}>
+          <div class="product-card-media">
+            <img src={media(b.image)} alt={b.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
+          </div>
+          <div class="product-card-body">
+            <span class="card-cat">{catLabel(b.categoryKey)}</span>
+            <h3 class="product-card-title">{b.title}</h3>
+            <p>{b.intro}</p>
+            {b.dateModified && <p class="card-updated"><span>{pager.updatedLabel}</span> {updated(b.dateModified)}</p>}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <BlogPager
+      lang={lang}
+      pager={pager}
+      page={pager.current}
+      pages={pager.pages}
+      base={pagerBase}
+    />
+  </div>
+
+  <BlogSidebar lang={lang} products={pager.sideProducts} latest={latest} />
+</div>

@@ -1,77 +1,53 @@
 ---
+/**
+ * 博客索引页（全部文章，第 1 页）。分页规则见 src/lib/blog-pager.js：
+ * 每页 24 篇，第 n 页落在 /blog/page/n/（见 [n].astro）。
+ */
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
 import { breadcrumbJsonLd } from '../../lib/tdk.js'
 import CtaBand from '../../components/CtaBand.astro'
+import BlogIndex from '../../components/BlogIndex.astro'
 import { allArticles } from '../../lib/articles.js'
-import { media } from '../../lib/utils.js'
+import { defaultProducts } from '../../lib/blog-products.js'
+import { BLOG_PAGE_SIZE, pagerInfo } from '../../lib/blog-pager.js'
 
 export function getStaticPaths() {
   return langPaths()
 }
 
 const { lang } = Astro.params
-const ctx = Astro.params
 const { pick, lu } = usePage(lang)
 const t = pick('blogIndex')
+const articles = await allArticles(lang)
+const pager = pagerInfo(articles.length, 1)
+const sideProducts = defaultProducts()
+
 const seo = buildSeo(lang, 'blog', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.news'), path: `/${lang}/blog` }])
 ])
-const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
-// Freshness label per card: build-time localized date (bare 2-letter lang
-// code, not ogLocale, so Node small-icu accepts it — same as the byline in
-// the article template). zh-Hant is a 4-letter route code: strip the
-// -Hant/-HanS suffix so Node's small-icu gets a bare 2-letter "zh" (the long
-// form throws "Invalid language tag").
-const updated = (iso) => new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(iso))
-
-const articles = await allArticles(lang)
-// Group by category so a 139-article index stays navigable without any
-// client-side JS: pure <details> blocks, open by default only for the first
-// (largest) group. Each group renders its newest articles first.
-const groups = {}
-for (const a of articles) {
-  const c = a.categoryKey || 'selection-guide'
-  ;(groups[c] ||= []).push(a)
-}
-const ordered = Object.entries(groups).sort((a, b) => b[1].length - a[1].length)
+// 分类：按文章数降序，供筛选 chips 与卡片标签共用。
+const CAT_KEYS = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
+const counts = {}
+for (const a of articles) counts[a.categoryKey || 'selection-guide'] = (counts[a.categoryKey || 'selection-guide'] ?? 0) + 1
+const categories = Object.entries(counts)
+  .sort((a, b) => b[1] - a[1])
+  .map(([key, count]) => ({ key, count, label: pick(`article.${CAT_KEYS[key]}`) ?? key }))
 ---
 
 <Shell lang={lang} seo={seo}>
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a></div>
-  <section class="section wrap">
-    <span class="eyebrow">NEWS &amp; BUYER RESOURCES</span>
-    <h1>{t.h1}</h1>
-    <p class="lead">{t.sub}</p>
-    <p class="small-note">{t.governance}</p>
-  </section>
 
-  <div class="section wrap section--flush-top blog-groups">
-    {ordered.map(([cat, list], gi) => (
-      <details class="blog-group" open={gi === 0}>
-        <summary class="blog-group-summary">
-          <span class="eyebrow">{pick(`article.${catKey[cat]}`)}</span>
-          <span class="blog-group-count">{list.length}</span>
-        </summary>
-        <div class="grid grid-3 mt-24">
-          {list.map((b) => (
-            <a class="product-card" href={lu(`/blog/${b.slug}`)}>
-              <div class="product-card-media">
-                <img src={media(b.image)} alt={b.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
-                <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
-              </div>
-              <div class="product-card-body">
-                <h3 class="product-card-title">{b.title}</h3>
-                <p>{b.intro}</p>
-                {b.dateModified && <p class="card-updated"><span>{t.updatedLabel}</span> {updated(b.dateModified)}</p>}
-              </div>
-            </a>
-          ))}
-        </div>
-      </details>
-    ))}
-  </div>
+  <BlogIndex
+    lang={lang}
+    pageArticles={articles.slice(0, BLOG_PAGE_SIZE)}
+    pager={{ ...pager, ...t, h1: t.h1, sub: t.sub, governance: t.governance, updatedLabel: t.updatedLabel, allLabel: pick('colt.all.label'), catsLabel: t.h1, sideProducts }}
+    categories={categories}
+    activeCategory=""
+    canonicalPath="/blog"
+    latest={articles.slice(0, 5)}
+  />
 
   <CtaBand lang={lang} waContext="contact" ctaKey1="article.discuss" ctaKey2="cta.waChat" />
 </Shell>

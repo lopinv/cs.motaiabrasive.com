@@ -1,0 +1,74 @@
+---
+/**
+ * 博客分类页（单个分类，第 1 页）。分类第 n 页落在
+ * /blog/category/<key>/page/<n>/（见 page/[n].astro）。
+ *
+ * 分类来自文章自身的 categoryKey（4 类），与卡片上的分类标签、索引页的
+ * 筛选 chips 共用同一集合，保证三处计数/标签一致。
+ */
+import { usePage, buildSeo } from '../../../../lib/page.js'
+import { langPaths } from '../../../../lib/paths.js'
+import Shell from '../../../../components/Shell.astro'
+import { breadcrumbJsonLd } from '../../../../lib/tdk.js'
+import CtaBand from '../../../../components/CtaBand.astro'
+import BlogIndex from '../../../../components/BlogIndex.astro'
+import { allArticles } from '../../../../lib/articles.js'
+import { defaultProducts } from '../../../../lib/blog-products.js'
+import { BLOG_PAGE_SIZE, BLOG_CATEGORIES, pagerInfo } from '../../../../lib/blog-pager.js'
+
+const BLOG_CATEGORIES = [
+  { key: 'selection-guide', i18n: 'catSelection' },
+  { key: 'buyer-resources', i18n: 'catBuyer' },
+  { key: 'application-notes', i18n: 'catNotes' },
+  { key: 'oem-guide', i18n: 'catOem' }
+]
+
+export function getStaticPaths() {
+  return langPaths(BLOG_CATEGORIES.map((c) => ({ key: c.key })))
+}
+
+const { lang, key } = Astro.params
+const { pick, lu } = usePage(lang)
+const t = pick('blogIndex')
+const cat = BLOG_CATEGORIES.find((c) => c.key === key)
+const all = await allArticles(lang)
+const articles = all.filter((a) => (a.categoryKey || 'selection-guide') === key)
+const pager = pagerInfo(articles.length, 1)
+const sideProducts = defaultProducts()
+
+const seo = buildSeo(lang, 'blog', { category: key }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('nav.news'), path: `/${lang}/blog` },
+    { name: pick(`article.${cat.i18n}`), path: `/${lang}/blog/category/${key}` }
+  ])
+])
+const counts = {}
+for (const a of all) counts[a.categoryKey || 'selection-guide'] = (counts[a.categoryKey || 'selection-guide'] ?? 0) + 1
+const categories = BLOG_CATEGORIES.map((c) => ({ key: c.key, count: counts[c.key] ?? 0, label: pick(`article.${c.i18n}`) ?? c.key }))
+  .sort((a, b) => b.count - a.count)
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb">
+    <a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{categories.find((c) => c.key === key)?.label}</span>
+  </div>
+
+  <BlogIndex
+    lang={lang}
+    pageArticles={articles.slice(0, BLOG_PAGE_SIZE)}
+    pager={{
+      ...pager, ...t,
+      h1: pick(`article.${cat.i18n}`),
+      sub: t.sub, governance: t.governance,
+      updatedLabel: t.updatedLabel,
+      allLabel: pick('colt.all.label'), catsLabel: t.h1,
+      sideProducts
+    }}
+    categories={categories}
+    activeCategory={key}
+    canonicalPath={`/blog/category/${key}`}
+    latest={all.slice(0, 5)}
+  />
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="article.discuss" ctaKey2="cta.waChat" />
+</Shell>

@@ -283,6 +283,31 @@
     "updatedLabel": "最終更新",
     "governance": "ガイドは MoTai Abrasives の技術チームが作成・レビューし、製品の仕様変更時に再レビューされます。"
   },
+  "blogSidebar": {
+    "eyebrow": "製品",
+    "productsTitle": "注目の製品",
+    "productsSub": "サイズ・粒度・裏貼りは製品ごとに記載しています。最小ロットと供給可否はお見積りにてご確認ください。",
+    "viewAll": "全製品",
+    "servicesEyebrow": "サービス",
+    "servicesTitle": "選定から供給まで",
+    "servicesSub": "卸売供給、自社ブランド包装、工程チェックはお見積りにて確認いたします。",
+    "serviceWholesale": "卸売見積",
+    "serviceOem": "OEM・自社ブランド",
+    "serviceManufacturing": "製造体制",
+    "serviceApplications": "用途",
+    "latestEyebrow": "ニュース",
+    "latestTitle": "最新のガイド",
+    "catDiscs": "サンディングディスク",
+    "catBelts": "研ぎベルト",
+    "catFlap": "フラップディスク"
+  },
+  "blogPager": {
+    "navLabel": "ブログのページ",
+    "prev": "前へ",
+    "next": "次へ",
+    "pageOf": "{total} ページ中 {page} ページ目",
+    "range": "全 {count} 件中 {from}–{to} 件"
+  },
   "article": {
     "watchTitle": "視聴する",
     "discuss": "仕様を相談する",

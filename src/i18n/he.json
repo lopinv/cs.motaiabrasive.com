@@ -283,6 +283,31 @@
     "updatedLabel": "עודכן",
     "governance": "המדריכים נכתבים ונבדקים על ידי הצוות הטכני של MoTai Abrasives ונבדקים מחדש כאשר מפרטי המוצר משתנים."
   },
+  "blogSidebar": {
+    "eyebrow": "מוצרים",
+    "productsTitle": "מוצרים נבחרים",
+    "productsSub": "מידות, גרגירים וגבות מתועדים לכל מוצר; כמות מינימום וזמינות נקבעות בהצעת המחיר.",
+    "viewAll": "כל המוצרים",
+    "servicesEyebrow": "שירותים",
+    "servicesTitle": "מבחירה ועד אספקה",
+    "servicesSub": "אספקה בסיטונאות, אריזה במותג פרטי ובקרי תהליך — כולם נקבעים בהצעת המחיר.",
+    "serviceWholesale": "בקשת הצעת סיטונאות",
+    "serviceOem": "OEM ומותג פרטי",
+    "serviceManufacturing": "ייצור",
+    "serviceApplications": "תחומי יישום",
+    "latestEyebrow": "חדשות",
+    "latestTitle": "מדריכים אחרונים",
+    "catDiscs": "דיסקי שיוף",
+    "catBelts": "רצועות שחיקה",
+    "catFlap": "דיסקי פלאפ"
+  },
+  "blogPager": {
+    "navLabel": "דפי הבלוג",
+    "prev": "הקודם",
+    "next": "הבא",
+    "pageOf": "עמוד {page} מתוך {total}",
+    "range": "מדריכים {from}–{to} מתוך {count}"
+  },
   "article": {
     "watchTitle": "צפייה",
     "discuss": "דונו במפרט שלכם",

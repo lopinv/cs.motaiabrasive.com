@@ -6,8 +6,10 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import Prose from '../../../components/Prose.astro'
 import CtaBand from '../../../components/CtaBand.astro'
+import BlogSidebar from '../../../components/BlogSidebar.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
-import { findArticle, allSlugs } from '../../../lib/articles.js'
+import { findArticle, allSlugs, allArticles } from '../../../lib/articles.js'
+import { sidebarProducts, defaultProducts, registerBodies } from '../../../lib/blog-products.js'
 import { media, videosData } from '../../../lib/utils.js'
 
 // Route surface: the union of the md corpus and the i18n short articles,
@@ -44,6 +46,22 @@ const seo = buildSeo(lang, 'article', { article: { title, intro, metaDescription
 const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
 const relatedVideos = videosData.videos.filter((v) => v.youtubeId && v.links.some((l) => l.includes('blog') || l === a.slug)).slice(0, 1)
 
+// Sidebar products: article-specific picks when the corpus links or names a
+// product, otherwise the neutral family defaults. Never empty — the module is
+// part of the page structure, not an optional extra.
+// The i18n short articles carry their bodies in the translation table; register
+// them so their in-text product links count the same as md-corpus links.
+registerBodies(
+  (a.sections ?? [])
+    .filter((s) => s.bodyKey)
+    .map((s) => [s.bodyKey, pick(s.bodyKey)])
+)
+const articleProducts = sidebarProducts(a)
+const sideProducts = articleProducts.length ? articleProducts : defaultProducts()
+// "Latest guides" excludes the article in view so the list always offers a
+// next read.
+const sideLatest = (await allArticles(lang)).filter((x) => x.slug !== a.slug).slice(0, 5)
+
 // Long-form support: sections may carry a `subsections` array (H3) and each
 // subsection may carry `h4` items (H4). Existing short articles (fixed
 // start/compat/enquiry, no subsections) render exactly as before — the
@@ -65,54 +83,50 @@ const showToc = hasSubs || toc.length >= 5
 <Shell lang={lang} seo={seo}>
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{title}</span></div>
 
-  <section class="section wrap">
-    <span class="eyebrow">{pick(`article.${catKey[a.categoryKey]}`)}</span>
-    <h1>{title}</h1>
-    <p class="lead">{intro}</p>
-    <p class="byline">
-      <span>{pick('article.reviewedBy')}</span>
-      <span aria-hidden="true">·</span>
-      <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
-    </p>
-  </section>
-
-  <div class="section wrap section--flush-top">
-    {showToc && (
-      <nav class="toc" aria-label="On this page">
-        <p class="toc-title">{pick('article.tocTitle')}</p>
-        <ol class="toc-list">
-          {toc.map((s) => (
-            <li><a href={`#${secId(s)}`}>{secTitle(s)}</a></li>
-          ))}
-        </ol>
-      </nav>
-    )}
-    <div class="prose">
-      {(a.sections ?? []).map((s) => {
-        const subs = s.subsections ?? []
-        return (
-          <section class={subs.length ? 'prose-sec prose-sec--nested' : 'prose-sec'} id={secId(s)}>
-            <h2>{secTitle(s)}</h2>
-            {secBody(s) && <Prose text={secBody(s)} lang={lang} />}
-            {subs.map((u) => {
-              const h4 = u.h4 ?? []
-              return (
-                <section class="prose-sub">
-                  <h3>{pick(u.titleKey)}</h3>
-                  {u.bodyKey && pick(u.bodyKey) && <Prose text={pick(u.bodyKey)} lang={lang} />}
-                  {h4.map((h) => (
-                    <section class="prose-h4">
-                      <h4>{pick(h.titleKey)}</h4>
-                      {h.bodyKey && pick(h.bodyKey) && <Prose text={pick(h.bodyKey)} lang={lang} />}
-                    </section>
-                  ))}
-                </section>
-              )
-            })}
-          </section>
-        )
-      })}
+  <div class="section wrap blog-layout">
+    <div class="blog-main">
+      <span class="eyebrow">{pick(`article.${catKey[a.categoryKey]}`)}</span>
+      <h1>{title}</h1>
+      <p class="lead">{intro}</p>
+      <p class="byline">
+        <span>{pick('article.reviewedBy')}</span>
+        <span aria-hidden="true">·</span>
+        <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+      </p>
+      <div class="prose">
+        {(a.sections ?? []).map((s) => {
+          const subs = s.subsections ?? []
+          return (
+            <section class={subs.length ? 'prose-sec prose-sec--nested' : 'prose-sec'} id={secId(s)}>
+              <h2>{secTitle(s)}</h2>
+              {secBody(s) && <Prose text={secBody(s)} lang={lang} />}
+              {subs.map((u) => {
+                const h4 = u.h4 ?? []
+                return (
+                  <section class="prose-sub">
+                    <h3>{pick(u.titleKey)}</h3>
+                    {u.bodyKey && pick(u.bodyKey) && <Prose text={pick(u.bodyKey)} lang={lang} />}
+                    {h4.map((h) => (
+                      <section class="prose-h4">
+                        <h4>{pick(h.titleKey)}</h4>
+                        {h.bodyKey && pick(h.bodyKey) && <Prose text={pick(h.bodyKey)} lang={lang} />}
+                      </section>
+                    ))}
+                  </section>
+                )
+              })}
+            </section>
+          )
+        })}
+      </div>
     </div>
+
+    <BlogSidebar
+      lang={lang}
+      products={sideProducts}
+      latest={sideLatest}
+      toc={showToc ? toc.map((s) => ({ id: secId(s), title: secTitle(s) })) : null}
+    />
   </div>
 
   {relatedVideos.map((v) => (

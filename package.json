@@ -1,11 +1,11 @@
 {
   "name": "motai-static",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "node .zcode-check/key-parity.cjs && node .zcode-check/audit-terms.cjs && astro build && node scripts/gen-feed.mjs && node scripts/gen-seo.mjs",
+    "build": "node .zcode-check/check-template-comments.cjs && node .zcode-check/check-static-paths-tdz.cjs && node .zcode-check/key-parity.cjs && node .zcode-check/audit-terms.cjs && astro build && node scripts/gen-feed.mjs && node scripts/gen-seo.mjs && node .zcode-check/check-slash.cjs && node .zcode-check/check-blog-sidebar.cjs",
     "build:prod": "SITE_URL=https://cs.motaiabrasive.com npm run build",
     "preview": "astro preview"
   },

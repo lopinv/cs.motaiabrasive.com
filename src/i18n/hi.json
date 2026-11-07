@@ -283,6 +283,31 @@
     "updatedLabel": "अद्यतन",
     "governance": "मार्गदर्शिकाएँ MoTai की तकनीकी टीम द्वारा लिखी और समीक्षित की जाती हैं, तथा उत्पाद विनिर्देश बदलने पर पुनः समीक्षित की जाती हैं।"
   },
+  "blogSidebar": {
+    "eyebrow": "उत्पाद",
+    "productsTitle": "विशेष उत्पाद",
+    "productsSub": "प्रत्येक उत्पाद के आयाम, कण और बैकिंग दस्तावेज़ित हैं; न्यूनतम ऑर्डर और उपलब्धता कोटेशन में पुष्टि होती है।",
+    "viewAll": "सभी उत्पाद",
+    "servicesEyebrow": "सेवाएँ",
+    "servicesTitle": "चयन से आपूर्ति तक",
+    "servicesSub": "थोक आपूर्ति, प्राइवेट लेबल पैकिंग और प्रोसेस जाँच — सभी कोटेशन में पुष्टि होती हैं।",
+    "serviceWholesale": "थोक कोटेशन",
+    "serviceOem": "OEM और प्राइवेट लेबल",
+    "serviceManufacturing": "निर्माण क्षमता",
+    "serviceApplications": "अनुप्रयोग",
+    "latestEyebrow": "समाचार",
+    "latestTitle": "नवीनतम गाइड",
+    "catDiscs": "सैंडिंग डिस्क",
+    "catBelts": "रेतक बेल्ट",
+    "catFlap": "फ्लैप डिस्क"
+  },
+  "blogPager": {
+    "navLabel": "ब्लॉग पृष्ठ",
+    "prev": "पिछला",
+    "next": "अगला",
+    "pageOf": "{total} में से {page} पृष्ठ",
+    "range": "{count} में से {from}–{to} गाइड"
+  },
   "article": {
     "watchTitle": "देखें",
     "discuss": "अपने विनिर्देश पर चर्चा करें",

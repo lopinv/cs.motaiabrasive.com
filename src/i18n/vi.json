@@ -283,6 +283,31 @@
     "updatedLabel": "Cập nhật",
     "governance": "Các hướng dẫn được viết và xem xét bởi đội ngũ kỹ thuật MoTai Abrasives, và được xem xét lại khi thông số sản phẩm thay đổi."
   },
+  "blogSidebar": {
+    "eyebrow": "Sản phẩm",
+    "productsTitle": "Sản phẩm nổi bật",
+    "productsSub": "Kích thước, độ mài và lớp đế được ghi nhận theo từng sản phẩm; số lượng tối thiểu và tình trạng cung ứng được xác nhận trong báo giá.",
+    "viewAll": "Tất cả sản phẩm",
+    "servicesEyebrow": "Dịch vụ",
+    "servicesTitle": "Từ chọn hàng đến cung ứng",
+    "servicesSub": "Cung ứng sỉ, đóng gói thương hiệu riêng và kiểm tra quy trình — tất cả xác nhận trong báo giá.",
+    "serviceWholesale": "Báo giá sỉ",
+    "serviceOem": "OEM và thương hiệu riêng",
+    "serviceManufacturing": "Năng lực sản xuất",
+    "serviceApplications": "Ứng dụng",
+    "latestEyebrow": "Tin tức",
+    "latestTitle": "Hướng dẫn mới nhất",
+    "catDiscs": "Đĩa mài",
+    "catBelts": "Dây băng mài",
+    "catFlap": "Đĩa mài nhiều lớp"
+  },
+  "blogPager": {
+    "navLabel": "Trang blog",
+    "prev": "Trước",
+    "next": "Sau",
+    "pageOf": "Trang {page}/{total}",
+    "range": "Hướng dẫn {from}–{to} trong {count}"
+  },
   "article": {
     "watchTitle": "Xem",
     "discuss": "Thảo luận thông số kỹ thuật của bạn",

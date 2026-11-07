@@ -283,6 +283,31 @@
     "updatedLabel": "更新",
     "governance": "指南由墨泰磨料技術團隊撰寫與審閱，並於產品規格變動時重新審閱。"
   },
+  "blogSidebar": {
+    "eyebrow": "產品",
+    "productsTitle": "精選產品",
+    "productsSub": "每款產品的尺寸、粒度與背襯均有文件說明；起訂量與供貨情況以報價為準。",
+    "viewAll": "全部產品",
+    "servicesEyebrow": "服務",
+    "servicesTitle": "從選型到供貨",
+    "servicesSub": "批發供貨、私牌包裝與工序檢驗，具體以報價確認。",
+    "serviceWholesale": "批發詢價",
+    "serviceOem": "OEM 與私牌訂製",
+    "serviceManufacturing": "製造能力",
+    "serviceApplications": "應用領域",
+    "latestEyebrow": "新聞",
+    "latestTitle": "最新文章",
+    "catDiscs": "砂紙片",
+    "catBelts": "砂帶",
+    "catFlap": "百葉片"
+  },
+  "blogPager": {
+    "navLabel": "博客分頁",
+    "prev": "上一頁",
+    "next": "下一頁",
+    "pageOf": "第 {page} / {total} 頁",
+    "range": "第 {from}–{to} 篇，共 {count} 篇"
+  },
   "article": {
     "watchTitle": "觀看",
     "discuss": "討論您的規格",

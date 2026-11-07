@@ -283,6 +283,31 @@
     "updatedLabel": "Actualizado",
     "governance": "Las guías son redactadas y revisadas por el equipo técnico de MoTai Abrasives y se revisan de nuevo cuando cambian las especificaciones de producto."
   },
+  "blogSidebar": {
+    "eyebrow": "Productos",
+    "productsTitle": "Productos destacados",
+    "productsSub": "Las medidas, granos y soportes están documentados por producto; el pedido mínimo y la disponibilidad se confirman en la cotización.",
+    "viewAll": "Todos los productos",
+    "servicesEyebrow": "Servicios",
+    "servicesTitle": "De la selección al suministro",
+    "servicesSub": "Suministro mayorista, envase de marca privada y controles de proceso, confirmados en la cotización.",
+    "serviceWholesale": "Cotización mayorista",
+    "serviceOem": "OEM y marca privada",
+    "serviceManufacturing": "Fabricación",
+    "serviceApplications": "Aplicaciones",
+    "latestEyebrow": "Noticias",
+    "latestTitle": "Últimas guías",
+    "catDiscs": "Discos de lijado",
+    "catBelts": "Cintas abrasivas",
+    "catFlap": "Discos de aleta"
+  },
+  "blogPager": {
+    "navLabel": "Páginas del blog",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "pageOf": "Página {page} de {total}",
+    "range": "Guías {from}–{to} de {count}"
+  },
   "article": {
     "watchTitle": "Ver",
     "discuss": "Discutir su especificación",

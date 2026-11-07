@@ -283,6 +283,31 @@
     "updatedLabel": "Güncellendi",
     "governance": "Rehberler MoTai Abrasives teknik ekibi tarafından yazılır ve incelenir; ürün teknik özellikleri değiştiğinde yeniden gözden geçirilir."
   },
+  "blogSidebar": {
+    "eyebrow": "Ürünler",
+    "productsTitle": "Öne çıkan ürünler",
+    "productsSub": "Her ürün için ölçüler, zımparalık tane derecesi ve sırt malzemesi belgelenmiştir; minimum sipariş ve teminat teklifte netleşir.",
+    "viewAll": "Tüm ürünler",
+    "servicesEyebrow": "Hizmetler",
+    "servicesTitle": "Seçimden tedariğe",
+    "servicesSub": "Toptan tedarik, kendi markanızda ambalaj ve süreç kontrolleri teklifte netleşir.",
+    "serviceWholesale": "Toptan fiyat talebi",
+    "serviceOem": "OEM ve kendi markanız",
+    "serviceManufacturing": "Üretim kapasitesi",
+    "serviceApplications": "Uygulama alanları",
+    "latestEyebrow": "Haberler",
+    "latestTitle": "En yeni rehberler",
+    "catDiscs": "Zımpara Diskleri",
+    "catBelts": "Zımpara Bantları",
+    "catFlap": "Flap Diskleri"
+  },
+  "blogPager": {
+    "navLabel": "Blog sayfaları",
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "pageOf": "{total} sayfadan {page}. sayfa",
+    "range": "{count} rehberden {from}–{to}"
+  },
   "article": {
     "watchTitle": "İzle",
     "discuss": "Şartnamenizi Görüşün",

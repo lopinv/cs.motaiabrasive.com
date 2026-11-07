@@ -283,6 +283,31 @@
     "updatedLabel": "Updated",
     "governance": "Guides are written and reviewed by the MoTai Abrasives technical team and re-reviewed when product specifications change."
   },
+  "blogSidebar": {
+    "eyebrow": "Products",
+    "productsTitle": "Featured products",
+    "productsSub": "Sizes, grits and backings are documented per product; MOQ and availability come with the quotation.",
+    "viewAll": "All products",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "From selection to supply",
+    "servicesSub": "Wholesale supply, private-label packing and process checks, confirmed in the quotation.",
+    "serviceWholesale": "Wholesale quote",
+    "serviceOem": "OEM & private label",
+    "serviceManufacturing": "Manufacturing",
+    "serviceApplications": "Applications",
+    "latestEyebrow": "News",
+    "latestTitle": "Latest guides",
+    "catDiscs": "Sanding Discs",
+    "catBelts": "Abrasive Belts",
+    "catFlap": "Flap Discs"
+  },
+  "blogPager": {
+    "navLabel": "Blog pages",
+    "prev": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {total}",
+    "range": "Guides {from}–{to} of {count}"
+  },
   "article": {
     "watchTitle": "Watch",
     "discuss": "Discuss Your Specification",

@@ -283,6 +283,31 @@
     "updatedLabel": "Aktualizowano",
     "governance": "Poradniki opracowuje i weryfikuje zespół techniczny MoTai Abrasives; są one ponownie sprawdzane po zmianie specyfikacji produktów."
   },
+  "blogSidebar": {
+    "eyebrow": "Produkty",
+    "productsTitle": "Wybrane produkty",
+    "productsSub": "Wymiary, granulacja i podłoże są opisane dla każdego produktu; minimalne zamówienie i dostępność potwierdza oferta.",
+    "viewAll": "Wszystkie produkty",
+    "servicesEyebrow": "Usługi",
+    "servicesTitle": "Od doboru do dostawy",
+    "servicesSub": "Dostawa hurtowa, opakowania pod własną marką i kontrole procesu — wszystko potwierdza oferta.",
+    "serviceWholesale": "Oferta hurtowa",
+    "serviceOem": "OEM i własna marka",
+    "serviceManufacturing": "Możliwości produkcyjne",
+    "serviceApplications": "Zastosowania",
+    "latestEyebrow": "Aktualności",
+    "latestTitle": "Najnowsze przewodniki",
+    "catDiscs": "Tarcze ścierne",
+    "catBelts": "Paski ścierne",
+    "catFlap": "Tarcze flap"
+  },
+  "blogPager": {
+    "navLabel": "Strony bloga",
+    "prev": "Poprzednia",
+    "next": "Następna",
+    "pageOf": "Strona {page} z {total}",
+    "range": "Przewodniki {from}–{to} z {count}"
+  },
   "article": {
     "watchTitle": "Obejrzyj",
     "discuss": "Omówcie Państwa specyfikację",

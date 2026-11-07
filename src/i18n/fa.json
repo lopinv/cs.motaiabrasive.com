@@ -283,6 +283,31 @@
     "updatedLabel": "به‌روزرسانی",
     "governance": "راهنماها توسط تیم فنی MoTai Abrasives نگارش و بازبینی می‌شوند و هرگاه مشخصات محصول تغییر کند، دوباره بازبینی می‌گردند."
   },
+  "blogSidebar": {
+    "eyebrow": "محصولات",
+    "productsTitle": "محصولات منتخب",
+    "productsSub": "ابعاد، دانه‌بندی و پشتیبانی برای هر محصول مستند شده است؛ حداقل سفارش و موجودایی در پیش‌فاکش مشخص می‌شود.",
+    "viewAll": "همه محصولات",
+    "servicesEyebrow": "خدمات",
+    "servicesTitle": "از انتخاب تا تأمین",
+    "servicesSub": "تأمین عمده، بسته‌بندی برند اختصاصی و بررسی‌های فرآیند، همگی در پیش‌فاکش مشخص می‌شود.",
+    "serviceWholesale": "استعلام قیمت عمده",
+    "serviceOem": "OEM و برند اختصاصی",
+    "serviceManufacturing": "توانمندی تولید",
+    "serviceApplications": "کاربردها",
+    "latestEyebrow": "اخبار",
+    "latestTitle": "آخرین راهنماها",
+    "catDiscs": "دیسک‌های سنباده",
+    "catBelts": "نوارهای ساینده",
+    "catFlap": "دیسک‌های فلپ"
+  },
+  "blogPager": {
+    "navLabel": "صفحه‌های وبلاگ",
+    "prev": "قبلی",
+    "next": "بعدی",
+    "pageOf": "صفحه {page} از {total}",
+    "range": "راهنماهای {from}–{to} از {count}"
+  },
   "article": {
     "watchTitle": "تماشا کنید",
     "discuss": "مشخصات خود را بررسی کنید",

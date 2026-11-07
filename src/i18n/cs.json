@@ -283,6 +283,31 @@
     "updatedLabel": "Aktualizováno",
     "governance": "Průvodce zpracovává a reviduje technický tým MoTai Abrasives a znovu je posuzuje při změnách specifikací produktů."
   },
+  "blogSidebar": {
+    "eyebrow": "Produkty",
+    "productsTitle": "Vybrané produkty",
+    "productsSub": "Rozměry, zrnitost a hlavy jsou u každého produktu zdokumentovány; minimální odběr a dostupnost upřesní nabídka.",
+    "viewAll": "Všechny produkty",
+    "servicesEyebrow": "Služby",
+    "servicesTitle": "Od výběru po dodávku",
+    "servicesSub": "Velkoobchodní dodávky, balení pod vlastní značkou a kontroly procesu — vše upřesní nabídka.",
+    "serviceWholesale": "Velkoobchodní nabídka",
+    "serviceOem": "OEM a vlastní značka",
+    "serviceManufacturing": "Výrobní kapacity",
+    "serviceApplications": "Aplikace",
+    "latestEyebrow": "Novinky",
+    "latestTitle": "Nejnovější průvodce",
+    "catDiscs": "Brusné kotouče",
+    "catBelts": "Brusné pásky",
+    "catFlap": "Brusné flapy"
+  },
+  "blogPager": {
+    "navLabel": "Stránky blogu",
+    "prev": "Předchozí",
+    "next": "Další",
+    "pageOf": "Stránka {page} z {total}",
+    "range": "Průvodci {from}–{to} z {count}"
+  },
   "article": {
     "watchTitle": "Přehrát",
     "discuss": "Proberte svou specifikaci",

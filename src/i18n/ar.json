@@ -283,6 +283,31 @@
     "updatedLabel": "تم التحديث",
     "governance": "تُكتب الأدلة ويُراجعها فريق MoTai Abrasives التقني وتُراجَع مجددًا عند تغيّر مواصفات المنتج."
   },
+  "blogSidebar": {
+    "eyebrow": "المنتجات",
+    "productsTitle": "منتجات مميزة",
+    "productsSub": "المقاسات والحبيبات والدعائم موثقة لكل منتج؛ الحد الأدنى للطلب والتوفر يتبين من عرض السعر.",
+    "viewAll": "كل المنتجات",
+    "servicesEyebrow": "الخدمات",
+    "servicesTitle": "من الاختيار إلى التوريد",
+    "servicesSub": "توريد الجملة وتغليف العلامة الخاصة وفحوص العملية، تُؤكد في عرض السعر.",
+    "serviceWholesale": "طلب عرض سعر بالجملة",
+    "serviceOem": "OEM والعلامة الخاصة",
+    "serviceManufacturing": "التصنيع",
+    "serviceApplications": "مجالات التطبيق",
+    "latestEyebrow": "الأخبار",
+    "latestTitle": "أحدث الأدلة",
+    "catDiscs": "أقراص الصنفرة",
+    "catBelts": "أحزمة الصقل",
+    "catFlap": "أقراص ذنبلية"
+  },
+  "blogPager": {
+    "navLabel": "صفحات المدونة",
+    "prev": "السابق",
+    "next": "التالي",
+    "pageOf": "الصفحة {page} من {total}",
+    "range": "أدلة {from}–{to} من {count}"
+  },
   "article": {
     "watchTitle": "شاهد",
     "discuss": "ناقش مواصفاتك",

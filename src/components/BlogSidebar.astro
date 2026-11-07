@@ -1,0 +1,98 @@
+---
+/**
+ * 博客侧栏：商品 + 服务 + 最新文章。
+ *
+ * 三个模块都是纯静态内部链接（无 JS、无表单）：
+ *  - products  : 由调用方决定展示哪些商品；文章详情页按文章内容关联，
+ *                列表页用 defaultProducts 兜底；
+ *  - services  : 询盘（原站 quote form）+ OEM + 制造 + 应用四个服务入口；
+ *  - latest    : 最新文章列表（详情页传入 excludeSlug 排除当前篇目）。
+ *
+ * 图片一律远程 CDN + lazy + onerror 渐变兜底（硬约束 3）。
+ */
+import { media, quoteUrl, localizedUrl } from '../lib/utils.js'
+import { TRANSLATIONS } from '../lib/i18n.js'
+
+const {
+  lang,
+  products = [],
+  latest = [],
+  toc = null
+} = Astro.props
+const tr = TRANSLATIONS[lang]
+const s = tr.blogSidebar ?? {}
+const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+// Directory-style trailing slash on every local route (Cloudflare Pages serves
+// <dir>/index.html only at <dir>/), matching every other page's links.
+const u = (p) => localizedUrl(lang, p)
+---
+
+<aside class="blog-sidebar" aria-label={s.productsTitle}>
+  {toc && toc.length > 0 && (
+    <nav class="side-block side-toc" aria-label={pick('article.tocTitle')}>
+      <p class="side-title">{pick('article.tocTitle')}</p>
+      <ol class="side-toc-list">
+        {toc.map((t) => <li><a href={`#${t.id}`}>{t.title}</a></li>)}
+      </ol>
+    </nav>
+  )}
+
+  <section class="side-block">
+    <p class="side-eyebrow">{s.eyebrow}</p>
+    <h2 class="side-h">{s.productsTitle}</h2>
+    <p class="side-sub">{s.productsSub}</p>
+    <div class="side-products">
+      {products.map((p) => (
+        <a class="side-product" href={u(`/products/${p.handle}`)}>
+          <span class="side-product-media">
+            <img src={media(p.image)} alt={p.name} loading="lazy" width="120" height="90" onerror="this.onerror=null;this.style.display='none'" />
+          </span>
+          <span class="side-product-body">
+            <span class="side-product-name">{p.name}</span>
+            <span class="side-product-meta">{p.category}</span>
+          </span>
+        </a>
+      ))}
+    </div>
+    <div class="side-cats">
+      <a href={u('/collections/sanding-discs')}>{s.catDiscs}</a>
+      <a href={u('/collections/abrasive-belts')}>{s.catBelts}</a>
+      <a href={u('/collections/flap-discs')}>{s.catFlap}</a>
+      <a class="side-cat-all" href={u('/collections/all')}>{s.viewAll} <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <section class="side-block side-block--soft">
+    <p class="side-eyebrow">{s.servicesEyebrow}</p>
+    <h2 class="side-h">{s.servicesTitle}</h2>
+    <p class="side-sub">{s.servicesSub}</p>
+    <ul class="side-services">
+      <li>
+        <a class="side-service" href={quoteUrl({})} target="_blank" rel="noopener nofollow">
+          {s.serviceWholesale} <span aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li>
+        <a class="side-service" href={u('/oem')}>{s.serviceOem} <span aria-hidden="true">→</span></a>
+      </li>
+      <li>
+        <a class="side-service" href={u('/factory')}>{s.serviceManufacturing} <span aria-hidden="true">→</span></a>
+      </li>
+      <li>
+        <a class="side-service" href={u('/applications')}>{s.serviceApplications} <span aria-hidden="true">→</span></a>
+      </li>
+    </ul>
+  </section>
+
+  {latest.length > 0 && (
+    <section class="side-block">
+      <p class="side-eyebrow">{s.latestEyebrow}</p>
+      <h2 class="side-h">{s.latestTitle}</h2>
+      <ul class="side-latest">
+        {latest.map((a) => (
+          <li><a href={u(`/blog/${a.slug}`)}>{a.title}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</aside>
