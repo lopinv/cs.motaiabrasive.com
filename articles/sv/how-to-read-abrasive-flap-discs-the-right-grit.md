@@ -41,6 +41,7 @@ En kort stege att hålla i huvudet när du går golvet:
 
 En vana som sparar mycket pengar: läs hela etiketten, inte bara kornet. En typisk slipeskiva-etikett listar kornet, FEPA-kornet, diametern, centrumhålet, maximala arbetsfärgen och en färgkod. Centrumhålet är det numret folk glömmer. En skiva med ett 22,23 mm hål linjeras inte upp med ett verktyg byggt för ett något annorlunda borr, och att tvinga ett felmatchat centrumhål är hur skivor lossnar vid hastighet. Så på varje order du skickar till en leverantör — inklusive vilken [slipeskivor i bulk](/sv/collections/flap-discs) förfrågan som helst — ange kornet, diametern, bärmaterialet, centrumhålet och standarden du köper enligt.
 
+<!-- PART 01/5 of how-to-read-abrasive-flap-discs-the-right-grit -->
 ### Aluminiumoxid eller zirkon-aluminium: valet av korn
 
 Kornnumret säger storleken på snittet; kornet säger hur skivan kommer igenom det. De flesta abrasiva slipeskivor kör ett av två vanliga korn, och valet ändrar känslan av jobbet mer än folk tror.
@@ -78,6 +79,7 @@ Avgrindning är ett litet, högfrekvent jobb, och det är där folk overspecar. 
 
 Rostfri avgrindning har en extra regel: håll skivan ren och dedikerad, eller byt kornstorlek innan du flyttar från ett ståljobb till ett rostfritt, för inbäddade stålpartiklar i kornet är sådet till rostfläckar på rostfria detaljen senare. Det är en materialvårdspoäng, inte en kornpoäng, men det är varför en verkstad som kör rostfritt ofta håller en dedikerad skiva för det. [Rostfria stålets ytbehandlingsanteckningar](/sv/applications/stainless-steel) täcker det mer i detalj, och [slipeskivsortimentet](/sv/collections/flap-discs) är där du plockar kornet och bärmaterialet för den dedikerade skivan.
 
+<!-- PART 02/5 of how-to-read-abrasive-flap-discs-the-right-grit -->
 ### Dimension och centrumhål: anpassa skivan till sliparen
 
 Diameter och centrumhål är där säkerhet och prestanda möts. Vanliga slipeskivdiametrar är 100 mm, 115 mm, 125 mm, 150 mm och 180 mm, och de flesta handslipare kör 115 mm eller 125 mm storlek. Två nummer på skivan måste matcha maskinen. Först får diametern inte överskrida vad skyddet och verktyget är dimensionerade för. Andra måste centrumhålet vara rätt storlek för ditt fläns- eller bakplattuppsättning, och eventuella mismatcher måste lösas med en korrekt adapter, aldrig genom att slipa hålet större. Om hålet är större än uppsättningen kan skivan skjuta och lamellerna kan fånga. En skiva som är för stor för skyddet adderar bara risk utan vinst.
@@ -122,6 +124,7 @@ Eftersom bärmaterialet driver hur hårt en skiva jobbar, är valet värt att fo
 
 Du kan se de två mest lagerförda bärmaterialen sida vid sida på [slipeskiva med stålfäste](/sv/flap/steel) och [slipeskiva med fiberglaspåslag](/sv/flap/fiberglass) sidorna, och den fulla uppsättningen former i [slipeskivsortimentet](/sv/collections/flap-discs). Om du inte är säker på vilket ett jobb är, defaulta till det bärmaterial som passar hastigheten: snabbare verktyg och mer värme pekar på fiberglas, jämnt moderat arbete pekar på stål för de tunga passen, och lätt ytbehandling pekar på plast.
 
+<!-- PART 03/5 of how-to-read-abrasive-flap-discs-the-right-grit -->
 ### Kornstorlek per material: en snabb referens
 
 Materialet ändrar startkornstorleken även när verktyget är detsamma. Tabellen nedan är utgångspunkten, inte en regel, för den yta du syftar på och stockens tjocklek båda skiftar åt ett håll eller det andra.
@@ -168,6 +171,7 @@ Underkortande skärande är den tysta klagen, för skivan ser bra ut och maskine
 
 För varje av dessa visar [slipeskivsortimentet](/sv/collections/flap-discs) kornstorleken och bärmaterialet att nå efter, [metallbearbetningsapplikationsanteckningarna](/sv/applications/metal-fabrication) ger sekvensen per material, och [abrasivglossarien](/sv/glossary) håller termerna raka så du och ditt team diagnostiserar samma problem. Tråden som går igenom alla fem är att underkortande skärande är nästan alltid ett matchproblem, inte en dålig skiva; fixa kornstorlek, korn, bärmaterial eller hastighet och skäret återvänder.
 
+<!-- PART 04/5 of how-to-read-abrasive-flap-discs-the-right-grit -->
 ### Vanliga misstag och hur man fixar dem
 
 Fixarna är oftare billigare än misstagen. Här är vad som dyker upp oftast, med fixen som faktiskt flyttar problemet:

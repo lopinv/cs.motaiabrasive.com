@@ -1,0 +1,1001 @@
+{
+  "code": "sl",
+  "name": "Slovenščina",
+  "codeLabel": "SI",
+  "htmlLang": "sl",
+  "ogLocale": "sl_SI",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Vprašanja o veleprodaji",
+    "oemNote": "Vprašanja o OEM embalaži",
+    "size": "Dimenzija",
+    "grit": "Zrnitost",
+    "quantity": "Željena količina",
+    "requirements": "Zahteve glede specifikacije in embalaže",
+    "requirementsPh": "Povedite nam o vaši uporabi, specifikaciji in zahtevah za dostavo.",
+    "material": "Abrzivni material",
+    "backing": "Podlaga / pritrjevanje",
+    "availability": "Dostopnost, najmanjša naročilna količina in poslovni pogoji se potrdijo v ponudbi.",
+    "sampleNote": "Povedite nam, katere izdelke in zrnitosti želite preveriti. Naša prodajna ekipa bo potrdila razpoložljivost vzorcev, stroške vzorcev in pogoje pošiljanja.",
+    "gritsRange": "Razpon zrnitosti",
+    "holes": "Luknje",
+    "diameter": "Premer / nazivna velikost",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Jezik",
+    "home": "Domača stran",
+    "about": "O nas",
+    "manufacturing": "Proizvodnja",
+    "oem": "OEM storitve",
+    "news": "Novosti",
+    "knowledge": "Znanje",
+    "contact": "Kontaktirajte nas",
+    "products": "Izdelki"
+  },
+  "colt": {
+    "belts": {
+      "title": "Brušni traki — veleprodaja in OEM",
+      "desc": "Rdeči brušni traki v dokumentiranih merah od 533 × 75 mm do 2200 × 1330 mm. Zrnitost 40–800. Na voljo referenčni modeli. Veleprodajna in OEM povpraševanja so dobrodošla.",
+      "label": "Brušni traki"
+    },
+    "discs": {
+      "title": "Brušni diski — veleprodaja in OEM",
+      "desc": "Brušni diski s PSA, lepilnim in veznim sistemom, odprto mrežo in brez luknj, od 3 do 6 palca. Zrnitost 60–5000. Veleprodajna in OEM povpraševanja so dobrodošla.",
+      "label": "Brušni diski"
+    },
+    "flap": {
+      "title": "MoTai lopatni diski",
+      "desc": "Lopatni diski s plastično, jekleno in steklovlečno podlago za brušenje, mešanje in poliranje kovin. Specifikacije, veleprodajo in OEM embalažo potrdite v ponudbi.",
+      "label": "Lopatni diski"
+    },
+    "all": {
+      "title": "Vsi izdelki",
+      "desc": "Celoten MoTai katalog brušnih izdelkov: brušni trakovi, brušni diski in lopatni diski za industrijske kupce, distributerje in lastno znamko.",
+      "label": "Vsi izdelki"
+    }
+  },
+  "cta": {
+    "quote": "Zahtevajte veleprodajno ponudbo",
+    "quoteArrow": "↗",
+    "sample": "Zahtevajte vzorec",
+    "whatsapp": "Povpraševanje prek WhatsAppa",
+    "waChat": "Kontaktirajte prek WhatsAppa",
+    "explore": "Preglejte razpon lopatih diskov",
+    "viewAll": "Preglejte vse izdelke",
+    "discuss": "Razpravite o vaši specifikaciji",
+    "oemQuote": "Zahtevajte OEM ponudbo"
+  },
+  "home": {
+    "eyebrow": "Brušni izdelki s tovarne MoTai v Hubei",
+    "heroTitle": "Poklicni proizvajalec in dobavitelj brušnih izdelkov",
+    "heroSub": "Tovarniška veleprodaja brušnih trakov, brušnih diskov in lopatih diskov za industrijske kupce, distributerje in lastno znamko — iz Hubeija (Kitajska) na vaš trg.",
+    "cta1": "Zahtevajte veleprodajno ponudbo",
+    "cta2": "Pokličite našo ekipo prek WhatsAppa",
+    "builtTitle": "Izberite uporabo. Prilagodite brušno sredstvo.",
+    "builtSub": "Izberite uporabo in prilagodite brušno sredstvo: trak, disk ali lopatni disk.",
+    "featuredTitle": "V katalogu",
+    "featuredSub": "Mere in zrnitosti so dokumentirane v katalogu; najmanjša naročilna količina in razpoložljivost spredata ponudba.",
+    "partnerTitle": "Dobavna stran vašega naročila brušnih izdelkov",
+    "partnerBody": "Družba Hubei MoTai Abrasives Materials Co., Ltd. nudi brušni izdelke za obdelavo lesa, kovin in avtomobilsko uporabo — s programi OEM in lastno znamko za distributerje in industrijske kupce po celem svetu.",
+    "partnerCta": "Spoznajte MoTai",
+    "valuesTitle": "Šest načinov sodelovanja z B2B kupci",
+    "valuesSub": "Šest razlogov, zakaj uvozniki in OEM znamke sodelujejo z nami.",
+    "v1t": "Neposredno s tovarne",
+    "v1b": "Cene in dobavni roki s strani dobavitelja, brez vmesnikov.",
+    "v2t": "OEM in lastna znamka",
+    "v2b": "Vaš logotip, etikete in embalaža na potrjeni specifikaciji.",
+    "v3t": "Prilagojene mere in zrnitost",
+    "v3b": "Dokumentirane mere in zrnitost 40–800 na trakovih, 60–5000 na diskih.",
+    "v4t": "Preverjanje vzorcev in kakovost",
+    "v4b": "Pred naročilom preverite površino, podlago in prileganje na vzorcu.",
+    "v5t": "Veleprodajna dobava",
+    "v5b": "Dosledne količine na škatlo in podrobnosti pakovalnega seznama.",
+    "v6t": "Izvozni program",
+    "v6b": "Oznake na škatlah, etikete in dokumentacija za cilj.",
+    "processTitle": "Koraki med vašo specifikacijo in naročilom",
+    "processSub": "Štirje koraki med vašo zahtevo in potrjenim naročilom.",
+    "p1t": "Rezanje in preobdelava",
+    "p1b": "Potrdite zahtevano obliko, dimenzije in zrnitost pred pripravo preobdelovalnega postopka.",
+    "p2t": "Preverjanje vzorcev",
+    "p2b": "Pred dogovorom o specifikaciji naročila preverite površino, podlago in prileganje vzorca.",
+    "p3t": "OEM in pakiranje",
+    "p3b": "Za ponudbo potrdite količine pakiranja, etikete, oznake škatel in grafične sestavine za lastno znamko.",
+    "p4t": "Priprava odpreme",
+    "p4b": "Pred odpremo se dogovorite o pakovalnem seznamu, zahtevah za palete in podatkih o ciljnem mestu.",
+    "oemTitle": "Vaše ime na škatli",
+    "oemSub": "Delite zahteve glede izdelka, embalaže in znamke za naslednjo serijo brušnih izdelkov.",
+    "oemCta": "Odkrijte OEM storitve",
+    "faqTitle": "Preden začnemo",
+    "faqSub": "Odgovori na vprašanja, ki jih kupci najpogosteje zastavljajo.",
+    "regionsTitle": "Od Hubeija do vašega trga",
+    "regionsSub": "Svetovna dobava, urejena po regijah namenjenih trgov.",
+    "regionsNote": "Najmanjša naročilna količina in dobavni rok se potrdita v vaši ponudbi. Dostavne poti so informativne; razpoložljivost in pogoji se potrdijo s ponudbo.",
+    "factoryTitle": "Poiščite nas v Hubei",
+    "factoryBody": "Yuli avenija 88, Junshui Town, okrožje Tongcheng, Xianning, Hubei, Kitajska. Dogovorite si obisk tovarne in z našo ekipo potrdite točko srečanja.",
+    "finalTitle": "Iščete zanesljivega dobavitelja brušnih izdelkov?",
+    "finalBody": "Delite podrobnosti o izdelku, količino in namenu — preverimo vaše zahteve in pripravimo primerno ponudbo.",
+    "finalCta1": "Zahtevajte veleprodajno ponudbo",
+    "finalCta2": "Kontaktirajte prek WhatsAppa",
+    "beltsShowTitle": "Brušni trakovi, po modelih",
+    "beltsShowSub": "Referenčni modeli za razpravo z našo ekipo.",
+    "articlesEyebrow": "Viri za kupce",
+    "articlesTitle": "Vodiči naše tehnične ekipe",
+    "articlesSub": "Kako kupci izberejo zrnitost, podlago in pakiranje, preden oddajo naročilo.",
+    "articlesCta": "Preglejte vse vodiče",
+    "prepTitle": "Pripravite veleprodajno povpraševanje",
+    "prepSub": "Dimenzije, zrnitost in količina opravijo preostanek dela.",
+    "prepDim": "Dimenzije",
+    "prepDimText": "Meritve ali referenčni model v milimetre.",
+    "prepGrit": "Zrnitost",
+    "prepGritText": "Željena stopnja ali površinski zaključek.",
+    "prepQty": "Količina",
+    "prepQtyText": "Okvirna količina in embalaža."
+  },
+  "purchasing": {
+    "eyebrow1": "Smernice za nakup",
+    "title1": "Pripravite veleprodajno povpraševanje",
+    "body1": "Podajte željene dimenzije, zrnitost, delovni kos, stroj in želeni zaključek. Kadar so na voljo uporabite dokumentirane možnosti zgoraj; ostale zahteve preverimo s ekipo.",
+    "dl1t": "Količina in namenjen trg",
+    "dl1b": "Povedite nam količino, potrebe po embalaži in mesto dostave.",
+    "dl2t": "Dobava in pogoji",
+    "dl2b": "Razpoložljivost, najmanjša naročilna količina in poslovni pogoji se potrdijo v ponudbi.",
+    "dl3t": "Vprašanja o OEM embalaži",
+    "dl3b": "Blagovna znamka, etikete, prilagojene mere ali zahteve za pakiranje.",
+    "eyebrow2": "Kako oddati povpraševanje",
+    "title2": "Od izbire izdelka do ponudbe",
+    "s1t": "Izberite svoj izdelek",
+    "s1b": "Izberite izdelek ali model ter zahtevano specifikacijo.",
+    "s2t": "Podajte svoje zahteve",
+    "s2b": "Podajte količino, namensko uporabo in zahteve glede embalaže.",
+    "s3t": "Preverite ponudbo",
+    "s3b": "Z našo ekipo potrdite končno specifikacijo in poslovne pogoje."
+  },
+  "modelPage": {
+    "eyebrow": "Brušni trakovi · Referenčni model",
+    "refLabel": "Referenca modela",
+    "familyLabel": "Kategorija",
+    "dimsLabel": "Dimenzije končnega traku — navedite širino × dolžino v mm",
+    "dimsPlaceholder": "npr. 533 × 75 mm",
+    "gritLabel": "Zahtevana zrnitost — navedite zahtevano stopnjo ali zaključek",
+    "gritPlaceholder": "npr. P60",
+    "qtyLabel": "Želena količina",
+    "specLabel": "Zahteve glede specifikacije in embalaže",
+    "discussion": "Ta model z našo ekipo razpravljajte s svojim delovnim kosom, strojem in zahtevanim zaključkom.",
+    "grainBacking": "Zrno in podlaga — potrdite proizvajalca surovine in natančno stopnjo.",
+    "disclaimer": "Podrobnosti modela družine so za referenčno izbiro; specifikacije MoTai, razpoložljivost in prileganje se določijo s ponudbo."
+  },
+  "discPage": {
+    "eyebrow": "Brušni diski · Dokumentirana različica",
+    "gritsNote": "Možnosti zrnitosti za to različico"
+  },
+  "flapPage": {
+    "eyebrow": "Lopatni diski · Različica podlage",
+    "color": "Barva",
+    "gritNote": "P40–P60 in P80–P120 sta običajna primera izbire, ni potrjenega MoTai doseg."
+  },
+  "productPage": {
+    "specTitle": "Specifikacije",
+    "howTitle": "Kako specifikirati naročilo",
+    "howBody": "Vključite dimenzije traku ali diska, seznam zrnitosti, model stroja, material delovnega kosa in količino. Jasna specifikacija nam omogoča preverjanje prileganja in pripravo koristne ponudbe — izdelka ne izberite le po barvi.",
+    "faqTitle": "Vprašanja kupcev"
+  },
+  "about": {
+    "h1": "Družba za vrsto brušnih izdelkov",
+    "sub": "Premišljen pristop k dobavi brušnih izdelkov.",
+    "bizTitle": "Naše dejavnosti",
+    "bizBody": "Družba Hubei MoTai Abrasives Materials Co., Ltd. nudi brušni izdelke za obdelavo lesa, kovin in avtomobilsko uporabo. Dokumentirane serije vključujejo brusilne diske brez luknj, mrežaste brusilne diske in rdeče brusilne trakove. Prevzemamo povpraševanja od uvoznikov, distributerjev, veleprodajalcev in industrijskih kupcev — izdelki, podlage, mere, stopnje, količine in zahteve za dostavo.",
+    "matTitle": "Družbeni materiali",
+    "matBody": "V naši brošuri spoznajte ozadje in kontaktne podatke družbe.",
+    "globalTitle": "Od Hubeija do vašega trga",
+    "globalSub": "Svetovna dobava, urejena po regijah namenjenih trgov.",
+    "facTitle": "Poiščite nas v Hubei",
+    "facBody": "Yuli avenija 88, Junshui Town, okrožje Tongcheng, Xianning, Hubei, Kitajska. Z našo ekipo dogovorite obisk tovarne in pred potovanjem potrdite točko srečanja.",
+    "profileName": "Kratki pregled",
+    "profileBody": "Proizvajalec prevlečenih brušnih izdelkov v Xianning, Hubei: tri proizvodne linije, dobave v sedmih regijah, zrnitost od 40 do 5000.",
+    "ctaTitle": "Iščete zanesljivega dobavitelja brušnih izdelkov?",
+    "cta1": "Zahtevajte veleprodajno ponudbo",
+    "cta2": "Kontaktirajte prek WhatsAppa"
+  },
+  "factory": {
+    "h1": "V notranjosti delavnice MoTai",
+    "sub": "Pomembne so podrobnosti. Na vsakem koraku.",
+    "intro": "Preglejte podrobnosti rezanja, preverjanja vzorcev in pakiranja za vaše naročilo. Videoposnetki izdelkov so prikazani skupaj z ilustracijami procesa.",
+    "videoLabel": "Pogledajte videoposnetke izdelka",
+    "stepsTitle": "Proizvodnja in priprava naročila",
+    "stepsIntro": "Od vaše zahteve do potrjenega naročila.",
+    "st1t": "Rezanje in preobdelava",
+    "st1b": "Potrdite zahtevano obliko, dimenzije in zrnitost pred pripravo preobdelovalnega postopka.",
+    "st2t": "Preverjanje vzorcev",
+    "st2b": "Pred dogovorom o specifikaciji naročila preverite površino, podlago in prileganje vzorca.",
+    "st3t": "OEM in pakiranje",
+    "st3b": "Za ponudbo potrdite količine pakiranja, etikete, oznake škatel in grafične sestavine za lastno znamko.",
+    "st4t": "Priprava odpreme",
+    "st4b": "Pred odpremo se dogovorite o pakovalnem seznamu, zahtevah za palete in podatkih o ciljnem mestu.",
+    "imgNote": "Roki in količine pakiranja se dogovorita v ponudbi, preden začne serijska izdelava.",
+    "galleryTitle": "Tu nastane vaše naročilo",
+    "galleryIntro": "Ista delavnica za vsako potrjeno naročilo opravlja rezanje, preverjanje vzorcev in pakiranje.",
+    "gallery1Title": "Proizvodna delavnica",
+    "gallery1Text": "Pokrit delovni prostor, kjer se brušni traki in diski preobdelujejo, preverjajo in pakirajo.",
+    "gallery2Title": "Zavod in tovorna rampa",
+    "gallery2Text": "Škatle se paletirajo in naložijo na licu mesta pred odpremo na vaš ciljni trg.",
+    "gallery3Title": "Končna zaloga",
+    "gallery3Text": "Traki in diski so zloženi v škatle v skladu s potrjeno specifikacijo — zrnitost, velikost in pakovalni seznam.",
+    "galleryNote": "Fotografije zagotavlja tovarna za splošno orientacijo; niso slike, specifične za naročila. Videoposnetki izdelkov se tukaj pojavijo ob objavi posnetkov.",
+    "qcTitle": "Kontrolne točke kakovosti",
+    "qcIntro": "Kaj preverimo, preden naročilo zapusti tovarniško tla.",
+    "qc1t": "Površina in zrnitost",
+    "qc1b": "Usklajenost površine brusiva glede potrjene stopnje.",
+    "qc2t": "Podlaga in prileganje",
+    "qc2b": "Vrsta podlage, teža in dimenzijska toleranca končnih trakov in diskov.",
+    "qc3t": "Pakiranje in oznake",
+    "qc3b": "Količine pakiranja, etikete, oznake škatel in grafika za lastno znamko se ujemajo s potrjenim naročilom.",
+    "ctaTitle": "Raje bi se pogovorili?",
+    "ctaSub": "Iščete zanesljivega dobavitelja brušnih izdelkov?",
+    "cta1": "Zahtevajte veleprodajno ponudbo",
+    "cta2": "Kontaktirajte prek WhatsAppa"
+  },
+  "oem": {
+    "h1": "Vaše ime na škatli",
+    "sub": "Pošljite svoje zahteve glede izdelka, embalaže in znamke; odgovorili bomo s preverjanjem ustreznosti OEM.",
+    "briefTitle": "Sestavite povpraševanje okoli vaše znamke",
+    "briefEyebrow": "Pripeljite svoj nalog",
+    "briefBody": "Razpravljajte o grafiki logotipa in etiket, obliki embalaže, merah izdelkov, stopnjah zrnitosti in predvideni uporabi. Razpoložljivost OEM, najmanjše količine, zahteve po grafiki in roki so odvisni od preverjanja ustreznosti in potrjene ponudbe.",
+    "itemsTitle": "Jasen nalog prinese koristno odgovor",
+    "i1": "Izdelek in specifikacija",
+    "i2": "Mešanica mer in zrnitosti",
+    "i3": "Grafika in etikete",
+    "i4": "Oblika embalaže",
+    "i5": "Ciljne količine",
+    "i6": "Namembnost in časovni okvir",
+    "itemNote": "V povpraševanje vključite svoje zahteve in referenčne datoteke.",
+    "procTitle": "Od povpraševanja do dobave",
+    "pr1t": "Vaše povpraševanje",
+    "pr1b": "Povedite nam predvideno uporabo in zahteve.",
+    "pr2t": "Preverjanje specifikacije",
+    "pr2b": "Preglejte mere, stopnje, podlago in embalažo.",
+    "pr3t": "Ponudba",
+    "pr3b": "Potrdite poslovne pogoje in časovni načrt.",
+    "pr4t": "Potrditev vzorcev",
+    "pr4b": "Pred odobritvijo ocenite dogovorjene vzorce.",
+    "pr5t": "Serija",
+    "pr5b": "Proizvodnja poteka po potrjeni specifikaciji.",
+    "pr6t": "Odprema",
+    "pr6b": "Uskladite pakiranje in namembnost.",
+    "cta1": "Zahtevajte veleprodajno ponudbo",
+    "cta2": "Kontaktirajte prek WhatsAppa"
+  },
+  "applications": {
+    "h1": "Brusna sredstva za vašo panogo",
+    "sub": "Površina določa specifikacijo.",
+    "intro": "Šest področij uporabe. Navedite material, stroj in zahtevan zaključek — prilagodili bomo brusno sredstvo.",
+    "ctaNote": "Nekatere slike so ilustracije uporabe, ustvarjene z umetno inteligenco, niso fotografije tovarne MoTai ali strank.",
+    "sampleNote": "Ob zahtevi ponudbe navedite svojo panogo, državo, specifikacijo izdelka in predvideno velikost naročila.",
+    "reqTitle": "Priporočeni izdelki",
+    "reqNote": "Osnovne družine izdelkov za to področje. Mere, zrnitosti in količine potrdite s ponudbo.",
+    "specTitle": "Nasveti za specifikacijo",
+    "faqTitle": "Pogosta vprašanja",
+    "faqs": [
+      {
+        "q": "S katero zrnitostjo naj začnem?",
+        "a": "Začnite pri materialu delovnega kosa, globini napake in zahtevanem zaključku — groba zrna hitro odstranjujejo material, nato pa zrnitost postopoma znižujte in na vsakem koraku preverite površino."
+      },
+      {
+        "q": "Ali lahko v enem naročilu mešam zrnitosti?",
+        "a": "Da — navedite zrnitosti in količino po stopnji; razpoložljivost in dobavni rok se pritažeta s ponudbo."
+      }
+    ],
+    "ctaTitle": "Določate specifikacijo za svoje področje?",
+    "cta1": "Zahtevajte veleprodajno ponudbo",
+    "cta2": "Kontaktirajte prek WhatsAppa"
+  },
+  "blogIndex": {
+    "h1": "Boljša informacija. Boljša izbira.",
+    "sub": "Praktični viri za kupce za razpravo o specifikaciji brušnih izdelkov.",
+    "updatedLabel": "Posodobljeno",
+    "governance": "Vodiče piše in pregleduje tehnična ekipa MoTai Abrasives; ob spremembi specifikacije izdelka se znova pregledajo."
+  },
+  "blogSidebar": {
+    "eyebrow": "Izdelki",
+    "productsTitle": "Izpostavljeni izdelki",
+    "productsSub": "Mere, zrnitosti in podlage so dokumentirane za izdelek; najmanjša naročilna količina in razpoložljivost se pritažeta s ponudbo.",
+    "viewAll": "Vsi izdelki",
+    "servicesEyebrow": "Storitve",
+    "servicesTitle": "Od izbire do dobave",
+    "servicesSub": "Veleprodajna dobava, pakiranje za lastno znamko in kontrola procesa, potrjene v ponudbi.",
+    "serviceWholesale": "Veleprodajna ponudba",
+    "serviceOem": "OEM in lastna znamka",
+    "serviceManufacturing": "Proizvodnja",
+    "serviceApplications": "Uporabe",
+    "latestEyebrow": "Novice",
+    "latestTitle": "Najnovejši vodiči",
+    "catDiscs": "Brušni diski",
+    "catBelts": "Brušni traki",
+    "catFlap": "Lopatni diski"
+  },
+  "blogPager": {
+    "navLabel": "Strani dnevnika",
+    "prev": "Prejšnji",
+    "next": "Naslednji",
+    "pageOf": "Stran {page} od {total}",
+    "range": "Vodiči {from}–{to} od {count}"
+  },
+  "article": {
+    "watchTitle": "Poglejte si",
+    "discuss": "Razpravite o vaši specifikaciji",
+    "catSelection": "Vodič za izbiro",
+    "catBuyer": "Viri za kupce",
+    "catNotes": "Opombe o uporabi",
+    "catOem": "OEM vodič",
+    "reviewedBy": "Pregledala tehnična ekipa MoTai Abrasives",
+    "lastReviewed": "Zadnjič pregledano {date}",
+    "tocTitle": "Na tej strani"
+  },
+  "contact": {
+    "h1": "Začnite veleprodajen pogovor",
+    "sub": "Pridobite tovarniške veleprodajne cene brušnih izdelkov.",
+    "directTitle": "Pogovor. Boljša specifikacija.",
+    "directBody": "Delite podrobnosti o izdelku, količino in predvideno uporabo. Pregledali bomo vaše zahteve in vam pomagali z naslednjim korakom.",
+    "facTitle": "Poiščite nas v Hubei",
+    "facBody": "Yuli avenija 88, Junshui Town, okrožje Tongcheng, Xianning, Hubei, Kitajska.",
+    "facNote": "Pred potovanjem z našo ekipo potrdite natančen naslov obiska.",
+    "visit": "Dogovorite si obisk tovarne",
+    "formTitle": "Veleprodajno / OEM povpraševanje",
+    "formNote": "Ta obrazec zahteva ponudbo in ne odda naročila. Povpraševanja se usmerjajo v naš prodajni nabiralnik; specifikacije in poslovni pogoji se dogovorijo s ponudbo.",
+    "btn": "Odpri obrazec za povpraševanje ↗"
+  },
+  "privacy": {
+    "h1": "Vaši podatki za povpraševanje",
+    "sub": "Kako ta spletna stran uporablja podatke, ki jih izberete deliti.",
+    "s1t": "Zbrani podatki",
+    "s1b": "Kontaktni podatki, podatki o podjetju, zahteve po izdelkih in prilogi, oddane skupaj s povpraševanjem. Hashirani identifikator povezave omejuje zlorabe oddajanja.",
+    "s2t": "Namen in dostop",
+    "s2b": "Podatki se uporabljajo za pregled in odgovore na povpraševanja, pripravo ponudb in usklajevanje zahtevanih poslovnih pogovorov. Dostop je omejen na pooblaščene skrbnike.",
+    "s3t": "Shranjevanje in hramba",
+    "s3b": "Zapisi so shranjeni pri našem ponudniku gostovanja. Podatki se lahko obdelujejo zunaj vaše države. Hramba sledi poslovnemu nadaljevanju in obveznostem hrambe zapisov; lahko zahtevate določeno hrambo ali izbris.",
+    "s4t": "Vaše izbire",
+    "s4b": "Zahtevo za dostop, popravek ali izbris pošljite na motai-01@motaiabrasive.com. Ne oddajajte občutljivih osebnih podatkov ali zaupnih datotek, ki niso povezane z vašim povpraševanjem.",
+    "s5t": "Piškotki, povezave in analitika",
+    "s5b": "Brskalnik shrani podatke za upravljanje seznama povpraševanj. Ta spletna stran za anonimizirane uporabniške statistike uporablja Google Analytics (gtag.js); Google postavi piškotek in podatke obdeluje pod pogoji svoje obdelave podatkov — odjaviti se lahko na https://support.google.com/analytics/answer/3452785. Zunanje povezave do WhatsAppa, zemljevidov in družbenih omrežij urejajo njihovi lastni pravilniki zasebnosti.",
+    "updated": "Zadnjič posodobljeno 4. novembra 2026"
+  },
+  "terms": {
+    "h1": "Pogoji uporabe",
+    "sub": "Pogoji, ki veljajo pri uporabi te strani in ob oddaji povpraševanja MoTai.",
+    "s1t": "Uporaba te spletne strani",
+    "s1b": "Ta spletna stran je B2B informativna in povpraševalna storitev, ki jo vodi družba Hubei MoTai Abrasives Materials Co., Ltd. Vsebina — specifikacije izdelkov, vodiči, slovar in dnevnik — je zagotovljena v dobri veri za splošno informacijo. Z uporabo strani sprejemate te pogoje; če jih ne sprejemate, ne oddajajte povpraševanja.",
+    "s2t": "Povpraševanja niso ponudbe",
+    "s2b": "Oddaja obrazca za povpraševanje je povabilo k pogajanju in ne zavezujoče naročilo. MoTai ni dolžan odgovoriti na vsako povpraševanje, do nakupa pa ne pride, dokler ponudbo ne potrdita v pisni obliki obe stranki.",
+    "s3t": "Ponudbe in cene",
+    "s3b": "Vse cene temeljijo na ponudbi. Ponudbe navajajo mere, zrnitosti, embalažo, trgovske pogoje in roke veljavnosti; končne zneske se določijo ob potrjeni specifikaciji in so odvisni od gibanja surovin in prevozov.",
+    "s4t": "Intelektualna lastnina",
+    "s4b": "Vsebina strani, opisi izdelkov, grafika in blagovna znamka MoTai so lastnina MoTai Abrasives in se ne smejo komercialno reproducirati. Reference tretjih oseb (npr. viri modelov) so namenjene le usmeritvi kupcev in ne pomenijo priznanja.",
+    "s5t": "Odgovornost in veljavno pravo",
+    "s5b": "MoTai ne odgovarja za odločitve, sprejete na podlagi splošnih informacij na tej spletni strani. Na te pogoje se uporabljajo predpisi Ljudske republike Kitajske; spori se rešujejo po pogodbi o prodaji med strankama.",
+    "updated": "Zadnjič posodobljeno 3. novembra 2026"
+  },
+  "shipping": {
+    "h1": "Politika pošiljanja in vračil",
+    "sub": "Kako naročila zapustijo našo tovarno in zakaj izdelkov po specifikaciji ni mogoče vrniti.",
+    "shipTitle": "Politika pošiljanja",
+    "shipSub": "Proizvodnja, pakiranje in odprema se potrjujejo skupaj s vašo ponudbo.",
+    "s1t": "Proizvodnja in dobavni rok",
+    "s1b": "Brušni traki, diski in lopatni diski se preobdelujejo po specifikaciji vašega naročila. Dobavni rok se začne s datumom, ko je ponudba pisno potrjena, ne s datumom oddaje povpraševanja. Standardne reference, kot so GXK-51, XZ-330 in GPC71, so izdelki iz skladiščne zaloge; prilagojene mere, zrnitosti in OEM embalaža se izdelujejo po naročilu.",
+    "s2t": "Pakiranje in oznake",
+    "s2b": "Blago se pakira v izvozne škatle z dogovorjeno količino pakiranja, etiketami, oznakami škatel in — za programe OEM — z vašo grafiko in črtno kodo. Nalaganje na palete se potrjuje s pakovalnim seznamom. Fumigacija ali oznake ISPM 15 se izvedejo, kadar zahteva ciljna država.",
+    "s3t": "Način pošiljanja in Incoterms",
+    "s3b": "Pošiljanje se uredi po morju (FCL ali LCL) ali po zraku, glede na obseg in namembnost. Trgovski pogoji so navedeni v vaši ponudbi — pogosto se uporabljajo EXW, FOB, CIF, CFR, DAP in DDP. Lahko določite svojega forwarderja; MoTai v tem primeru zagotovi pakovalni seznam, oznake škatel in plovne dokumente.",
+    "s4t": "Dokumenti in carina",
+    "s4b": "Vsaki pošiljki se priloži poslovni račun, pakovalni seznam in transportni dokument. Kode HS in potrdilo o izvorniku se zagotovijo za vaše carinske postopke. Uvozna carina, davki in carinska odcaritev v ciljni državi so v bremeno kupca, razen če ponudba navaja DDP.",
+    "s5t": "Odprema in dostava",
+    "s5b": "Ko je kontejner ali pošiljka rezerviran, pošljemo obvestilo o pošiljanju z oznako broda ali letalskega prevoza. Čas dostave je odvisen od pristanišča ali letališča namembnosti in urnika prevoznika. Zamude, povzročene s zastoji v pristanišču, carinsko inšpekcijo ali višjo silo, so zunaj našega nadzora in bomo o njih obvestili čim prej, ko so znane.",
+    "retTitle": "Politika vračil",
+    "retSub": "Naši izdelki so narejeni po dogovorjeni specifikaciji, zato so vračila omejena na določene primere.",
+    "r1t": "Blago po specifikaciji",
+    "r1b": "Brušni izdelki so proizvedeni po vaši specifikaciji zrnitosti, velikosti, podlage in embalaže. Ker jih ni mogoče prodati kot standardno zalogo, potrjena prilagojena naročila niso možna za vrnitev in povračilo, razen če blago ne ustreza potrjeni specifikaciji.",
+    "r2t": "Skladiščni izdelki in transportna poškodba",
+    "r2b": "Standardni referenčni izdelki, ki niso bili uporabljeni in ostanejo v prvotni izvozni embalaži, se lahko vrnijo po posamični presoji, po potrditvi razloga in pogojev za vrnitev. Blago, poškodovano med prevozom, je treba s fotografijami prijaviti znotraj 7 dni po dostavi; zahtevke na zavarovanje prevoznika se obravnavajo prek imenovanega forwarderja.",
+    "r3t": "Zahtevki, pregled in kreditni računi",
+    "r3b": "Vsaka zahtevka mora navesti številko naročila, pakovalni seznam in prizadete oznake škatel. Če se po pregledu potrdi napaka, zamenjamo prizadeto količino ali izdamo kreditni račun po računu. Zahtevki, oddane več kot 30 dni po dostavi, ne morejo biti sprejete.",
+    "r4t": "Povračilo plačil",
+    "r4b": "Če se dogovori kredit, se povračilo izvede prvotnemu plačniku na enak način, kot je bil uporabljen za naročilo, po zaključku vrnitve ali zamenjave oziroma po pisnem odpisu. Bankovni stroški mednarodnih prenosov prevzema stranka, ki prejme povračilo.",
+    "r5t": "Carina, davki in skladnost",
+    "r5b": "Vračila, zahtevana zaradi uvoznih omejitev, carine, carinskega pregleda ali lokalnih predpisov o skladnosti, se obravnavajo kot poslovni spori in ne kot zahtevki glede izdelkov, ker je blago dostavljeno v skladu s potrjeno specifikacijo.",
+    "updated": "Zadnjič posodobljeno 6. novembra 2026",
+    "related": "Pogoji pošiljanja in vračil so del vsake ponudbe. Če ponudba navaja drugačne pogoje, velja ta ponudba.",
+    "contact": "Vprašanja o pošiljki ali zahtevki: kontaktirajte našo prodajno ekipo s številko naročila in relevantnimi oznakami škatel."
+  },
+  "quotePage": {
+    "h1": "Začnite veleprodajen pogovor",
+    "sub": "Pridobite tovarniške veleprodajne cene brušnih izdelkov.",
+    "note": "Ta obrazec zahteva ponudbo in ne odda naročila. Polja, označena z *, so obvezna.",
+    "sec1": "Vaše podjetje",
+    "f1": "Polno ime *",
+    "f2": "Naziv podjetja *",
+    "f3": "Država *",
+    "f4": "Poslovni e-poštni naslov *",
+    "f5": "WhatsApp številka",
+    "f6": "Vrsta podjetja *",
+    "opt1": "Uvoznik",
+    "opt2": "Distributer",
+    "opt3": "Veleprodajalec",
+    "opt4": "OEM znamka",
+    "opt5": "Industrijski kupec",
+    "opt6": "Drugo",
+    "sec2": "Zahteve po izdelkih",
+    "f7": "Kategorija izdelka",
+    "f8": "Model / referenca izdelka",
+    "f9": "Velikost",
+    "f10": "Zrnitost",
+    "f11": "Material",
+    "f12": "Količina",
+    "f13": "Embalaza",
+    "f14": "Država namembnosti *",
+    "f15": "OEM zahteve",
+    "f16": "Dodatno sporočilo *",
+    "consent": "Strinjam se s pravilnikom o zasebnosti, pogoji uporabe in uporabo svojih podatkov za odgovor na to povpraševanje. *",
+    "btn1": "Zahtevajte veleprodajno ponudbo",
+    "btn2": "Pošljite povpraševanje prek WhatsAppa",
+    "goNote": "Obrazec se odpre v našem sistemu za veleprodajna povpraševanja s vnaprej izpolnjenim kontekstom vašega izdelka."
+  },
+  "clients": {
+    "h1": "Kam odpotujejo pošiljke MoTai",
+    "sub": "Od Hubeija do sedmih destinacijskih regij.",
+    "note": "Logotipi strank in izjave spodaj so rezervna mesta — z objavljenim gradivom zamenjajte src/data/trust.json.",
+    "placeholderBadge": "Ilustrativno rezervno mesto",
+    "statsTitle": "Dobava na pogled",
+    "statsNote": "Prikazani certifikati so rezervna mesta v čakanju na objavljene potrdilo."
+  },
+  "glossary": {
+    "h1": "Slovar brušnih izrazov",
+    "sub": "Izrazi, ki stojijo za specifikacijo vsakega traku, diska in lopate.",
+    "note": "Standardne dejanske definicije brušnih porabnih materialov; podrobnosti o stopnji in podlagi za naročilo se dogovorijo s ponudbo.",
+    "reviewNote": "Izraze pregleduje tehnična ekipa MoTai Abrasives — zadnjič pregledano 3. novembra 2026."
+  },
+  "trust": {
+    "regions": "Destinacijske regije",
+    "productLines": "Izdelkovne linije",
+    "gritRange": "Pokritost zrnitosti"
+  },
+  "video": {
+    "title": "Poglejte si",
+    "cutting": {
+      "title": "Snemke rezanja in preobdelave",
+      "desc": "Posnetek izdelka: rezanje in preobdelava brušnih listov."
+    },
+    "sample": {
+      "title": "Snemke preverjanja vzorcev",
+      "desc": "Posnetek izdelka: preverjanje površine, podlage in prileganja na vzorcu."
+    },
+    "oem": {
+      "title": "Snemke OEM pakiranja",
+      "desc": "Količine pakiranja, etikete, oznake škatel in grafika za lastno znamko."
+    },
+    "flap": {
+      "title": "Snemke serije lopatih diskov",
+      "desc": "Lopatni diski s plastično, jekleno in steklovlečno podlago v uporabi."
+    }
+  },
+  "wa": {
+    "generic": "Pozdravljeni MoTai, želim veleprodajno ponudbo za brusilne izdelke.",
+    "product": "Pozdravljeni MoTai, želim veleprodajno ponudbo za {name} ({grits}).",
+    "model": "Pozdravljeni MoTai, želim veleprodajno ponudbo za model brusilnega traku {model}.",
+    "disc": "Pozdravljeni MoTai, želim veleprodajno ponudbo za {title}.",
+    "sample": "Pozdravljeni MoTai, želim zahtevati vzorec {name} za oceno.",
+    "factory": "Pozdravljeni MoTai, želim z vašo ekipo razpravljati o podrobnostih proizvodnje in kakovosti.",
+    "oem": "Pozdravljeni MoTai, želim razpravljati o OEM / programu lastne znamke za brušna sredstva.",
+    "contact": "Pozdravljeni MoTai, želim z vašo ekipo sestaviti svoje naslednje naročilo brušnih sredstev."
+  },
+  "floatChat": {
+    "trigger": "Klepet",
+    "open": "Odpri klepet",
+    "close": "Zapri",
+    "title": "MoTai — Klepet v živo",
+    "status": "Odgovarjamo prek WhatsAppa, običajno v roku 24 ur.",
+    "greeting": "Pozdravljeni! Kako vam lahko pomožemo pri vašem naročilu brušnih sredstev? — MoTai prodajna ekipa",
+    "placeholder": "Vpišite svoje sporočilo …",
+    "send": "Pošlji prek WhatsAppa",
+    "note": "Ta predogled nima živega strežnika: pošiljanje odpre WhatsApp s vnaprej izpolnjenim sporočilom. Odgovori potekajo v pogovoru na WhatsAppu."
+  },
+  "location": {
+    "imgAlt": "Tovarnijska stavba MoTai v Xianningu, Hubei",
+    "imgCaption": "MoTai tovarna — Xianning, Hubei, Kitajska",
+    "mapTitle": "Lokacija tovarne MoTai na Google Zemljevidih"
+  },
+  "faq": {
+    "faqTitle": "Preden začnemo",
+    "moq": {
+      "q": "Kakšna je najmanjša naročilna količina?",
+      "a": "Najmanjša naročilna količina se pritaže s ponudbo, skupaj z razpoložljivostjo in pogoji."
+    },
+    "oem": {
+      "q": "Ali podpirate OEM in lastno znamko?",
+      "a": "Da. Logotip, etikete, prilagojene mere in pakiranje se preverijo glede izvedljivosti, nato pa se potrdijo v vaši ponudbi."
+    },
+    "sizes": {
+      "q": "Katere mere in zrnitosti dobavljate?",
+      "a": "Traki v dokumentiranih merah od 533 × 75 do 2200 × 1330 mm (zrnitost 40–800); diski 3–6 palca (zrnitost 60–5000). Prilagojene zahteve se preverijo z našo ekipo."
+    },
+    "samples": {
+      "q": "Ali najprej dobim vzorec?",
+      "a": "Da. Zahtevajte vzorec, naša prodajna ekipa pa bo potrdila razpoložljivost, stroške in pogoje pošiljanja."
+    },
+    "lead": {
+      "q": "Kakšni so dobavni roki?",
+      "a": "Dobavni rok je odvisen od specifikacije in količine in se potrjuje v vaši ponudbi."
+    },
+    "packaging": {
+      "q": "Kako se pakirajo izdelki?",
+      "a": "Količine pakiranja, etikete, oznake škatel in grafika za lastno znamko se potrjujejo s ponudbo."
+    },
+    "payment": {
+      "q": "Kateri plačilni pogoji nudite?",
+      "a": "Plačilni pogoji so del potrjene ponudbe in poslovnega pogovora."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Katere specifikacije naj podam?",
+      "a": "Podajte želene dimenzije, zrnitost, delovni kos, stroj in želeni zaključek. Kadar so na voljo uporabite dokumentirane možnosti; ostale zahteve se preverijo z našo ekipo."
+    },
+    "oem": {
+      "q": "Kako zahtevam OEM embalažo?",
+      "a": "V povpraševanje vključite svoje zahteve po blagovni znamki in embalaži. Podrobnosti se pregledajo in potrdijo s vašo ponudbo."
+    },
+    "order": {
+      "q": "Ali z zahtevom ponudbe oddam naročilo?",
+      "a": "Ne. Obrazec začne veleprodajno povpraševanje. Specifikacije izdelka, razpoložljivost in poslovni pogoji se potrdijo, preden se naročilo dogovori."
+    },
+    "sample": {
+      "q": "Ali lahko pred celotnim naročilom preizkusim vzorec?",
+      "a": "Da. Vzorce standardnih referenc za oceno so na zahtevo na voljo; razpoložljivost vzorcev in pogoji prevoza se potrjujejo s vašo ponudbo."
+    },
+    "lead": {
+      "q": "Koliko časa vnaprej naj oddam proizvodno naročilo?",
+      "a": "Dobavni rok se začne s datumom, ko je ponudba pisno potrjena, in je odvisen od naročenih mer, zrnitosti in embalaže. Referenca iz skladišča se najhitreje odpreme."
+    },
+    "beltSize": {
+      "q": "Ali se brušni trakovi dobavljajo v nestandardnih merah ali dolžinah?",
+      "a": "Širina in dolžina trakov izven dokumentiranih mer se ocenijo posebej za vsak primer; preobdelava v prilagojeno velikost vpliva tako na dobavni rok kot na najmanjšo naročilno količino."
+    },
+    "beltJoint": {
+      "q": "Kakšno zaklajanje in robno izdelavo imajo ti traki?",
+      "a": "Vrsta sklepa in obdelava robov se določita za vsako referenco. Navedite stroj, obremenitev in zahtevani zaključek, da se prava konstrukcija všteti v vaši ponudbi."
+    },
+    "discBacking": {
+      "q": "Kako izbiram med diski z lepilom in mrežo, PSA in mrežastimi diski?",
+      "a": "Lepljivi trak ustreza pogostim menjavam zrnitosti, PSA ravnim podlogam in daljšim delovnim ciklom, mrežasti diski pa odvijanju prahu. Naš vodnik za izbiro primerja vse tri drugo drugemu."
+    },
+    "discDust": {
+      "q": "Ali so ti diski združljivi z odvajanjem prahu?",
+      "a": "Mrežasti in perforirani diski so zasnovani za odvajanje prahu; masivni diski se po zahtevi zagotovijo s perforacijo. Navedite svojo odvodno napeljavo in podlogo, ki jo uporabljate."
+    },
+    "hookLoop": {
+      "q": "Ali se diski z lepilom in mrežo ujemajo z mojo obstoječo podlogo?",
+      "a": "Premer in vzorec luknj mora ustreza podlogi. V povpraševanju potrdite model brusilke in premer podloge, da se v ponudbi oceni pravi disk."
+    },
+    "psa": {
+      "q": "Ali PSA diski delujejo s katerokoli podlogo?",
+      "a": "PSA diski potrebujejo ravno, čisto gumijasto podlogo ustreznega premera. Z zahtevo ponudbe potrdite premer podloge in model stroja."
+    },
+    "mesh": {
+      "q": "Kako dolgo vzdrži mrežasti brušni disk?",
+      "a": "Mrežasti diski so odporni proti zaščiti pri delu z veliko prahu, kar običajno podaljša uporabno življenje v primerjavi z masivnimi papirnatimi diski. Dejansko življenje je odvisno od materiala, pritiska in zrnitosti."
+    },
+    "solid": {
+      "q": "Ali masivni diski dobavljate s perforacijo za odvajanju prahu?",
+      "a": "Da — vzorec perforacije se dogovori s ponudbo. Navedite podlogo in odvodno zasnovo, da se oceni pravilni vzorec."
+    }
+  },
+  "relArticles": {
+    "title": "Povezani članki",
+    "sub": "Smernica za kupce za to družino izdelkov, s tehnično ekipo MoTai.",
+    "readMore": "Preberite članek",
+    "faqTitle": "Pogosta vprašanja",
+    "faqSub": "Pogosta vprašanja kupcev pred naročilom tega izdelka."
+  },
+  "regions": {
+    "europe": {
+      "title": "Evropa",
+      "body": "Zabeležite velikost, zrnitost, podlago in datoteke izdelka; zagotovite pristanišče namembnosti in jezik etikete."
+    },
+    "na": {
+      "title": "Severna Amerika",
+      "body": "Navedite ali palce ali metrično merjenje, vrsto pritrjevanja in količine pakiranja; pošto ali pristanišče namembnosti in način prevoza."
+    },
+    "sa": {
+      "title": "Južna Amerika",
+      "body": "Velikost, količine mešanih zrnitosti in jezik etikete škatle; pristanišče namembnosti in dokumente uvoznika."
+    },
+    "me": {
+      "title": "Bližnji vzhod",
+      "body": "Material, zrnitost in embalaža, odporna proti vlaznosti; pristanišče namembnosti in pogoji ponudbe."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Združljivost stroja, zahtevane mere in količine pakiranja; pristanišče namembnosti, oznake škatel in željen prevoz."
+    },
+    "oceania": {
+      "title": "Oceanijski prostor",
+      "body": "Velikost, podlaga, embalaža in pošta ali pristanišče namembnosti; zahteve za uvoz in pakiranje."
+    },
+    "asia": {
+      "title": "Azija",
+      "body": "Specifikacija stroja, razpon zrnitosti in mešanica naročila; mesto ali pristanišče dostave in lokalnega jezika etikete."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Kovinska predelava",
+      "intro": "Mešanje varilnih šivov, odstranjevanje drobnih robov in priprava kovinskih površin.",
+      "uses": "Mešanje varilnih šivov · Odstranjevanje drobnih robov · Priprava površin",
+      "products": "Brušni traki"
+    },
+    "wood": {
+      "title": "Obdelava lesa in pohištvo",
+      "intro": "Plošče, proizvodnja pohištva in priprava površin pred lakovanjem.",
+      "uses": "Plošče · Pohištvo · Priprava pred lakom",
+      "products": "Brušni traki · Brušni diski"
+    },
+    "auto": {
+      "title": "Popravilo avtomobilov",
+      "intro": "Brušenje avtomobilskega polnila, priprava pred pršenjem in avtomobilska prenovitev.",
+      "uses": "Polnilo · Priprava pred pršenjem · Prenovitev",
+      "products": "Brušni diski"
+    },
+    "stainless": {
+      "title": "Zaključevanje nerjavečega jekla",
+      "intro": "Valoviti zaključki, prehodi po površini in predelava nerjavečega jekla.",
+      "uses": "Valoviti · Prehodi · Predelava",
+      "products": "Brušni traki"
+    },
+    "ship": {
+      "title": "Ladja gradnja in popravilo",
+      "intro": "Brušenje kovin, odstranjevanje rje in priprava površin za ladijsko vzdrževanje.",
+      "uses": "Brušenje · Odstranjevanje rje · Priprava za plovidbo",
+      "products": "Brušni traki"
+    },
+    "surface": {
+      "title": "Priprava industrijskih površin",
+      "intro": "Industrijska obdelava površin in vzdrževalna dela.",
+      "uses": "Obdelava površin · Vzdrževanje",
+      "products": "Brušni diski"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Velcro ali PSA: izberite pravo podlago",
+      "intro": "Sistem pritrjevanja je prav tako pomemben kot zrnitost. Pred naročilom ga ujemite s podlogo.",
+      "start": {
+        "title": "Začnite pri zahtevah",
+        "body": "Diski s čopičnim trakom se pripenjajo na združljivo podlogo s kopro in ustrezajo postopkom, kjer se zrnitost pogosto menja. PSA diski se opirajo na lepljivi sloj in potrebujejo čisto, ravo podlogo. Obe sistematiki nista zamenljivi."
+      },
+      "compat": {
+        "title": "Potrdite združljivost",
+        "body": "Potrdite premer podloge, vrsto podlage in postavitev odvajanja prahu. Disk brez luknj se ne veže na luknjo odvodno postavitev, odprte mreže diski pa potrebujejo združljivo podlogo in odvodni sistem."
+      },
+      "enquiry": {
+        "title": "Pripravite povpraševanje",
+        "body": "Vključite premer diska, podlago, seznam zrnitosti, količino po zrnitosti in material delovnega kosa. Pred odobritvijo proizvodnega naročila zahtevajte oceno vzorcev."
+      }
+    },
+    "beltChecklist": {
+      "title": "Kaj vključiti v povpraševanje za brušne trakove",
+      "intro": "Jasna specifikacija pomaga vašemu dobavitelju pregledati prileganje in pripraviti uporabno ponudbo.",
+      "start": {
+        "title": "Začnite pri zahtevah",
+        "body": "Navedite dolžino in širino traku v milimetrih. Navedite model stroja — specifikacijski list stroja ali fotografija oznake starega traku je v pomoč."
+      },
+      "compat": {
+        "title": "Potrdite združljivost",
+        "body": "Dodajte material delovnega kosa, želeno brušno sredstvo, zrnitost, zahtevo po podlagi in zahteve po zaklajanje. izdelka ne izbirajte samo po barvi traku."
+      },
+      "enquiry": {
+        "title": "Pripravite povpraševanje",
+        "body": "Po velikosti in zrnitosti navedite količine, želje glede embalaže, namembnost in zahtevan datum dostave. Končna ponudba potrdi specifikacijo, razpoložljivost, plačilne pogoje in transportno ureditev."
+      }
+    },
+    "gritSequence": {
+      "title": "Planiranje vrstnega reda zrnitosti za pripravo površin",
+      "intro": "Začnite pri delovnem kosu in zahtevanem zaključku, nato pa vrstni red ocenite na vzorcu.",
+      "start": {
+        "title": "Začnite pri zahtevah",
+        "body": "Grove zrnitosti hitro odstranjujejo material in puščajo globoke črte; fine zrnitosti površino izboljšujejo. Izhodišče je odvisno od podlage, globine napake in zahteve po odstranjevanju."
+      },
+      "compat": {
+        "title": "Potrdite združljivost",
+        "body": "Zrnitosti znižujte v vrstnem redu in delovni kos pregledujte na vsakem koraku. Preskočenje zrnitosti pušča črte, ki jih je težko odstraniti, čiščenje med koraki pa prepreči onesnaževanje s grobimi zrnami."
+      },
+      "enquiry": {
+        "title": "Pripravite povpraševanje",
+        "body": "Oštevanje zrnitosti ni zamenljivo med različnimi sistemi razvrščanja. V ponudbi potrdite standard razvrščanja, vrsto brusiva in razpoložljivost po stopnji ter upoštevajte varnostna navodila za stroj in brušno sredstvo."
+      }
+    },
+    "dustCollection": {
+      "title": "Odvajanje prahu in združljivost podloge, pojasnjeno",
+      "intro": "Vzorec luknj, odprte mreže diski in nosilna podloga morajo ujemati s sistemom za odvajanje.",
+      "start": {
+        "title": "Začnite pri zahtevah",
+        "body": "Prepoznajte svojo podlogo: število luknj, premer in ali se uporablja z odvajanjem prahu. Diski brez luknj in odprti mrežni diski se obnašajo drugače kot diski z več luknjami."
+      },
+      "compat": {
+        "title": "Potrdite združljivost",
+        "body": "Raspored luknj na disku uskladite s priključki podloge. Odprti mrežni diski potrebujejo združljivo podlogo in delujoč odvodni sistem; PSA diski potrebujejo čisto stran podloge."
+      },
+      "enquiry": {
+        "title": "Pripravite povpraševanje",
+        "body": "Navedite model podloge, število luknj, velikost diska in seznam zrnitosti, ter svojo ureditev odvajanja prahu. Pred proizvodnim naročilom preverite obnašanje vzorcev."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM etikete in embalaža: kaj pripraviti",
+      "intro": "Popoln nalog vzdržuje grafiko, etikete in škatle v roku.",
+      "start": {
+        "title": "Začnite pri zahtevah",
+        "body": "Pripravite svoj logotip in grafiko etiket, ciljno obliko pakiranja (notranje vrečke, škatle), jezik etikete in pravila o označevanju države namembnosti."
+      },
+      "compat": {
+        "title": "Potrdite združljivost",
+        "body": "Razpoložljivost OEM, najmanjše količine, zahteve po grafiki in roki so odvisni od preverjanja izvedljivosti in potrjene ponudbe."
+      },
+      "enquiry": {
+        "title": "Pripravite povpraševanje",
+        "body": "Priložite grafiko, navedite količine pakiranja in oznake škatel ter namembnost in časovni okvir. Odobritev vzorcev pride pred proizvodnjo."
+      }
+    },
+    "gritStandards": {
+      "title": "Standardi zrnitosti: FEPA, ANSI in kaj pomeni vaš seznam",
+      "intro": "Sistemi razvrščanja niso zamenljivi — v vsakem povpraševanju navedite standard.",
+      "start": {
+        "title": "Začnite pri zahtevah",
+        "body": "FEPA (ISO 848) in starejša ANSI lestvica podobne zrnitosti ne štejejo enako; P120 in 120 zrnitost nista vedno enaki. Navedite standard, po katerem kupujete."
+      },
+      "compat": {
+        "title": "Potrdite združljivost",
+        "body": "V ponudbi potrdite standard razvrščanja, vrsto brusiva in razpoložljivost po stopnji. V eni sezami zrnitosti ne mešajte sistemov razvrščanja."
+      },
+      "enquiry": {
+        "title": "Pripravite povpraševanje",
+        "body": "Navedite standard (npr. FEPA P60–P800), količino po stopnji in namembnost. Končni seznam stopenj potrdite v ponudbi pred naročilom."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Najpogostejše brusno zrno za trake in diske: trdo, prožno, primerno za kovine, les in splošno poliranje."
+    },
+    "ansi": {
+      "def": "Zastarelo štartno števčenje zrnitost Severne Amerike. Zrna podobne velikosti se razlikujejo od FEPA lestvice — v vsakem povpraševanju navedite standard."
+    },
+    "backing-cloth": {
+      "def": "Bombaževna tkanina, ki nosi brusna zrna na traku. Teža (npr. X-teža) določa prožnost in nosilnost."
+    },
+    "backing-poly": {
+      "def": "Podloga iz poliestersko-bombaževe tkanine: ravnovesje med trdnostjo in prožnostjo za trake splošne rabe."
+    },
+    "belt": {
+      "def": "Neprekinjena zanka brusnih zrn na podlogi, uporabljena na pasu stroj za brušenje, poliranje in odstranjevanje drobnih robov."
+    },
+    "blend": {
+      "def": "Poravnavanje varilnega šiva, da se stopi z okoliško kovino — običajno prvi potek na lopatnem disku ali traku, nato pa z manj finimi zrnitostmi."
+    },
+    "closed": {
+      "def": "Gosto prevlečena postavitev zrn z malo prostorskih zank; traku se pri trdih delih ne zamaša."
+    },
+    "debur": {
+      "def": "Odstranjevanje drobnih robov in majhnih izboklin, puščenih po rezanju, žaganju ali brušenju."
+    },
+    "dust": {
+      "def": "Odstranjevanje brusnega prahu na delovnem kosu — prek priključkov podloge, odprte mreže diskov ali lokalno odvajanje."
+    },
+    "flap": {
+      "def": "Disk iz prekrivajočih se brušnih lopat, prožen, za brušenje, mešanje in poliranje na kotnih brušnikih."
+    },
+    "fepa": {
+      "def": "Lestvica razvrščanja ISO 848 (FEPA) v P-notaciji (npr. P120). Privzeta lestvica v večini evropskega in mednarodnega trgu."
+    },
+    "grit": {
+      "def": "Nazivna velikost zrn brusnega sredstva: višje številke so finejše. Traki 40–800; diski 60–5000."
+    },
+    "hookloop": {
+      "def": "Sistem pritrjevanja z vpetjem in zarezami za diske: disk se vpeti na podlogo s pritiskalno stranjo."
+    },
+    "mesh": {
+      "def": "Odprti mrežni diski imajo izrezana okna za prehod prahu in potrebujejo združljivo podlogo in odvajanje."
+    },
+    "moq": {
+      "def": "Najmanjša naročilna količina — se pritaže s ponudbo, skupaj z razpoložljivostjo in pogoji."
+    },
+    "oem": {
+      "def": "Proizvodnja prvotne opreme / lastna znamka: naši izdelki pod vašo znamko, etiketo in embalažo."
+    },
+    "psa": {
+      "def": "Pritisk-odlepna lepilna podlaga: disk se neposredno prilepi na združljivo podlogo."
+    },
+    "disc": {
+      "def": "Ravni ali lopati brušni krog, pripet na podlogo za brušenje in poliranje."
+    },
+    "sic": {
+      "def": "Silicijev karbidno zrno: zelo trdo, ostro, primerno za steklo, keramiko in neželezne kovine."
+    },
+    "prep": {
+      "def": "Priprava površine za prevleko ali zaključek: odstranjevanje rje, polnila ali starega zaključka do enakomernega profila."
+    },
+    "wetdry": {
+      "def": "Stopnje, ki ostajajo hladne in odporne proti zaščitenju pri mokri ali mokro-suhi uporabi; primerenost potrdite s ponudbo."
+    },
+    "xweight": {
+      "def": "Bombaževa podloga srednje teže za trake splošne rabe: trdna, vendar prožna."
+    },
+    "zirconia": {
+      "def": "Cirkonija-aluminija zrno: trdo in agresivno za brušenje kovin, odstranjevanje drobnih robov in poliranje jekla."
+    },
+    "pad": {
+      "def": "Nosilna plošča, na katero se položi disk: premer podloge, površina (pritiskalna) in postavitev odtočnih odprtín morajo ujemati z diskom."
+    }
+  },
+  "footer": {
+    "blurb": "Brušni porabni material za industrijske kupce, distributerje in lastno znamko.",
+    "products": "Izdelki",
+    "explore": "Odkrijte MoTai",
+    "connect": "Spoznajmo se",
+    "aboutUs": "O nas",
+    "mfgQ": "Proizvodnja in kakovost",
+    "oemPl": "OEM in lastna znamka",
+    "newsB": "Novice in dnevnik",
+    "privacy": "Pravilnik o zasebnosti",
+    "terms": "Pogoji uporabe",
+    "shipping": "Pošiljanje in vračila",
+    "contactUs": "Kontaktirajte nas"
+  },
+  "tdk": {
+    "home": {
+      "title": "Proizvajalec brusiv in dobavitelj industrijskih brusiv | MoTai",
+      "description": "Poklicni proizvajalec brusiv v Kitajski, ki dobavlja brušne trakove, brušne diske in lopatne diske. Tovarniška veleprodaja, OEM prilagodb in industrijska rešitev za brušna za svetovne distributerje in kupce.",
+      "keywords": "proizvajalec brusiv, dobavitelj brusiv, industrijska brušna sredstva, brušni trakovi, brušni diski, lopatni diski, proizvajalec brušnih trakov, brušni izdelki na debelo"
+    },
+    "about": {
+      "title": "O MoTai — Proizvajalec in tovarna brusiv v Hubei, Kitajska",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. je proizvajalec prevlečenih brusiv v Xianning, Hubei: brušni trakovi, brušni diski in lopatni diski z OEM, prilagojenim merjenjem, veleprodajo in izvozom.",
+      "keywords": "proizvajalec brusiv Kitajska, dobavitelj brusiv Kitajska, tovarna brusiv, proizvajalec prevlečenih brusiv, izvoznik brusnih izdelkov, B2B dobavitelj brusiv"
+    },
+    "factory": {
+      "title": "Proizvodnja in QC brusiv — MoTai tovarna v Hubei",
+      "description": "V notranjosti MoTai brušni delavnici: preobdelava in rezanje, preverjanje vzorcev, QC in OEM pakiranje za brušne trakove, brušne diske in lopatni diske.",
+      "keywords": "proizvodnja brusiv, QC tovarne brusiv, preobdelava brusiv, OEM pakiranje brusiv"
+    },
+    "oem": {
+      "title": "OEM proizvajalec brusiv in lastna znamka | MoTai",
+      "description": "OEM in lastno znamko proizvodnjo brusiv: vaš logotip, etikete, mere in embalaža na MoTai trakovih, diskih in lopatih diskih, ocenjeno po vaši potrjeni specifikaciji.",
+      "keywords": "OEM proizvajalec brusiv, lastno znamko brušna sredstva, prilagojeni brušni izdelki, OEM dobavitelj brusiv"
+    },
+    "applications": {
+      "title": "Industrijska brušna sredstva po uporabi — kovine, les, avtomobili in več",
+      "description": "MoTai brušni trakovi, brušni diski in lopatni diski po prilagajanju za uporabo: brušenje kovin, brušenje lesa, avto telo, poliranje nerjavečega jekla, gradnja ladij in priprava površin.",
+      "keywords": "uporaba brusiv, brušenje kovin, brušenje lesa, priprava površin, industrijska priprava površin"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Brušna sredstva za kovinsko predelavo — brušenje in odstranjevanje drobnih robov | MoTai",
+        "description": "Brušna sredstva za kovinsko predelavo: brušenje kovin, odstranjevanje drobnih robov in brušenje varilnih šivov z MoTai brušnimi traki, mrežnimi in lopatnimi diski.",
+        "keywords": "brušna za kovinsko predelavo, brušenje kovin, odstranjevanje drobnih kovin, brušenje varilnih šivov"
+      },
+      "woodworking": {
+        "title": "Brušna za obdelavo lesa in široka trak brušenje | MoTai",
+        "description": "Brušna za obdelavo lesa in pohištva: široka trak brušenje, brušenje plošč in HDF z MoTai brušnimi traki in diski.",
+        "keywords": "brušna za les, široka trak brušenje, brušenje lesa, brušenje pohištva"
+      },
+      "automotive": {
+        "title": "Brušenje za avtomobilske popravilo — karoserija in lak | MoTai",
+        "description": "Brušna sredstva za avtomobilske popravilo: brušenje avtomobilskega polnila, brušenje avto lakov in premazov z MoTai PSA diski in diski s čopičnim trakom.",
+        "keywords": "avtomobilska brušna sredstva, brušenje avto polnila, brušenje avto lakov, brušenje premazov"
+      },
+      "stainless-steel": {
+        "title": "Zaključevanje in poliranje nerjavečega jekla — brušna | MoTai",
+        "description": "Brušna za nerjaveče jeklo: poliranje kovin, brušenje površin in poliranje z MoTai lopatnimi diski in traki.",
+        "keywords": "poliranje nerjavečega jekla, poliranje kovin, brušenje površin, brušno za nerjaveče"
+      },
+      "shipbuilding": {
+        "title": "Brušna za gradnjo ladij — jeklena ploščina in odstranjevanje rje | MoTai",
+        "description": "Močne brušne rešitve za ladjogradnjo: brušenje jeklenih plošč, odstranjevanje rje in industrijska priprava površin z MoTai traki in lopatnimi diski.",
+        "keywords": "brušna za ladjogradnjo, brušenje jeklenih ploščin, odstranjevanje rje, močno brušenje"
+      },
+      "surface-preparation": {
+        "title": "Industrijska priprava površin in brušna za brušenje | MoTai",
+        "description": "Industrijske brušne rešitve za pripravo površin, poliranje površin in močno brušenje prek MoTai trakov, diskov in lopatih diskov.",
+        "keywords": "priprava površin, poliranje površin, industrijsko brušenje, brušna rešitev"
+      }
+    },
+    "blog": {
+      "title": "Vodiči za brušnega kupca in standardi zrnitosti | MoTai Znanje",
+      "description": "Praktični viri za brušnega kupca: izbira podloge za diske, kontrolni seznam povpraševanja za trake, vrstni red zrnitosti, odvajanje prahu in standardi zrnitosti (FEPA/ANSI).",
+      "keywords": "vodnik za brušnega kupca, izbira zrnitosti, slovar brusiv, standardi zrnitosti FEPA ANSI"
+    },
+    "contact": {
+      "title": "Kontakt MoTai — Dobavitelj brusiv v Kitajski",
+      "description": "Stopite v stik s MoTai brušnim dobaviteljem v Xianning, Hubei: telefon, e-pošta in WhatsApp za veleprodajna in OEM povpraševanja brušnih, ter obiske tovarne.",
+      "keywords": "kontakt brušnega dobavitelja, veleprodajno brušno povpraševanje, proizvajalec brusiv Kitajska"
+    },
+    "privacy": {
+      "title": "Pravilnik o zasebnosti",
+      "description": "Kako MoTai Abrasives uporablja informacije povpraševanja: zbiranje, namen, shranjevanje, vaše izbire in obvladovanje piškotkov.",
+      "keywords": "pravilnik o zasebnosti, MoTai"
+    },
+    "terms": {
+      "title": "Pogoji uporabe — MoTai Abrasives",
+      "description": "Pogoji za to B2B brušno stran: obdelava povpraševanja, cenjenje po ponudbi, intelektualna lastnina in upoštevanje prava.",
+      "keywords": [
+        "pogoji uporabe",
+        "MoTai",
+        "B2B dobavitelj brusiv"
+      ]
+    },
+    "shipping": {
+      "title": "Politika pošiljanja in vračil — Naročila brusiv | MoTai",
+      "description": "MoTai politika pošiljanja in vračil brusiv: proizvodni dobavni rok, izvozno pakiranje, Incoterms, carinski dokumenti, odprema in kdaj se izdelkov po specifikaciji lahko vrne ali kreditira.",
+      "keywords": "politika pošiljanja brusiv, politika vračil brusiv, veleprodajna dobava brusiv, brušni Incoterms, izvozno pakiranje, pogoji pošiljanja"
+    },
+    "quote": {
+      "title": "Zahtevajte veleprodajno ponudbo brusiv | MoTai",
+      "description": "Pripravite svoje veleprodajno ali OEM brušno povpraševanje: podrobnosti podjetja ter izdelek, velikost, zrnitost, količina in namembnost. Veleprodaja brusiv se oceni neposredno s tovarne.",
+      "keywords": "veleprodajna ponudba brusiv, dobava brusiv na debelo, OEM brušno povpraševanje, veleprodaja brusiv"
+    },
+    "clients": {
+      "title": "Izvoznik brušnih izdelkov — Svetovna dobava iz Hubei, Kitajska | MoTai",
+      "description": "MoTai izvaža brušne trakove, brušne diske in lopatni diske v sedmih destinacijskih regijah: Evropa, Ameriki, Bližnji vzhod, Afrika, Oceanijski prostor in Azija.",
+      "keywords": "izvoznik brušnih izdelkov, izvoz brusiv, svetovna dobava brusiv, industrijski dobavitelj brusiv"
+    },
+    "glossary": {
+      "title": "Slovar brusiv — zrnitost, podloge, izrazi diskov",
+      "description": "24 definiranih brušnih izrazov: FEPA zrnitost, podloge, velcro, PSA, odprta mreža, odstranjevanje drobnih in več.",
+      "keywords": "slovar brusiv, standardi zrnitosti, brušni izrazi"
+    },
+    "product": {
+      "title": "MoTai {name} — Veleprodaja in OEM brušna sredstva",
+      "description": "MoTai {name} ({material}, {category}): {desc} Mere: {sizes}. Zrnitost: {grits}. Tovarniška veleprodaja in OEM dobava.",
+      "keywords": "{name}, proizvajalec {category}, {material} brušno sredstvo, veleprodaja brusiv, OEM brušna sredstva"
+    },
+    "model": {
+      "title": "{model} brušni trak — MoTai",
+      "description": "Referenčni brušni trak model {model} iz MoTai razpona — širina, dolžina, zrnitost in podlaga se določijo s ponudbo. Veleprodaja in OEM dobava.",
+      "keywords": "{model} brušni trak, referenca modela brušnega traku, veleprodaja brušnih trakov"
+    },
+    "disc": {
+      "title": "MoTai {title} — Veleprodaja in OEM",
+      "description": "MoTai disk različica {title}: razpon zrnitosti, premer in pritrjevanje se določijo s ponudbo. Tovarniška veleprodaja in OEM.",
+      "keywords": "brušni disk, velcro disk, PSA disk, mrežni disk, brušni diski na debelo"
+    },
+    "flap": {
+      "title": "MoTai {name} — Proizvajalec lopatih diskov",
+      "description": "MoTai {name}: brušni lopatni disk s podlago {backing} za brušenje, mešanje in poliranje kovin. Veleprodaja in OEM dobava.",
+      "keywords": "lopatni disk, lopatni disk s podlago {backing}, cirkonija lopatni disk, proizvajalec lopatih diskov, lopatni diski na debelo"
+    },
+    "colt": {
+      "belts": {
+        "title": "Proizvajalec in veleprodajni dobavitelj brušnih trakov | MoTai",
+        "description": "Široki in industrijski brušni traki 533×75 do 2200×1330 mm, zrnitost 40–800, iz aluminija oksid, cirkonije in silicijevega karbida — z referenčnimi modeli GXK-51, XZ-330, GPC71 in več. Tovarniška veleprodaja in OEM.",
+        "keywords": "brušni traki, brušni traki, industrijski brušni traki, široki brušni traki, široki brušni traki, brušni traki za les, brušni traki za kovine, brušni traki z aluminijevo oksidom, cirkonija brušni traki, brušni traki s silicijevim karbidom, proizvajalec brušnih trakov, dobavitelj brušnih trakov, brušni traki na debelo, GXK-51 brušni trak, XZ-330 brušni trak, GPC71 brušni trak, Y399 brušni trak, Y999 brušni trak, 533x75 brušni trak, 610x100 brušni trak, 1520x630 brušni trak, 2200x1330 brušni trak"
+      },
+      "discs": {
+        "title": "Proizvajalec brušnih diskov — PSA, velcro ter mrežni | MoTai",
+        "description": "Velcro, PSA, mrežni in brez luknj brušni diski od 3 do 6 palcev, zrnitost 60–5000, za avto telo, les in poliranje kovin. Tovarniška veleprodaja in OEM.",
+        "keywords": "brušni diski, brušni brušni diski, velcro brušni diski, PSA brušni diski, mrežni brušni diski, nepredpisani brušni diski, nepredpisani brušni diski, perforirani brušni diski, luknji brušni diski, 5-palčni brušni diski, 6-palčni brušni diski, proizvajalec brušnih diskov, brušni diski na debelo"
+      },
+      "flap": {
+        "title": "Proizvajalec lopatih diskov — cirkonije in aluminijev oksid | MoTai",
+        "description": "MoTai brušni lopatni diski s plastično, jekleno in steklovlečno podlago, iz cirkonije in aluminijevega oksida, za brušenje, odstranjevanje drobnih robov in poliranje kovin. Veleprodaja in OEM dobava.",
+        "keywords": "lopatni diski, brušni lopatni diski, cirkonija lopatni diski, aluminijev oksid lopatni diski, steklovlečno podlago lopatni diski, plastična podlago lopatni diski, jeklena podlago lopatni diski, 100mm lopatni diski, 115mm lopatni diski, 125mm lopatni diski, 150mm lopatni diski, 180mm lopatni diski, proizvajalec lopatih diskov, dobavitelj lopatih diskov, lopatni diski na debelo"
+      },
+      "all": {
+        "title": "Veleprodaja brušnih izdelkov — traki, diski in lopatni diski | MoTai",
+        "description": "Celoten MoTai brušni katalog: industrijski brušni traki, brušni diski in lopatni diski za distributerje, uvoznike, veleprodajalce in OEM znamke. Tovarniška veleprodaja, prilagodba in izvoz iz Hubei, Kitajska.",
+        "keywords": "brušni izdelki, brušni izdelki na debelo, industrijska brušna sredstva, prevlečena brušna sredstva, brusno na debelo, tovarna brušnih izdelkov, izvoznik brušnih izdelkov, dobavitelj brusiv Kitajska, OEM proizvajalec brusiv, brušna za lastno znamko, prilagojeni brušni izdelki, dobava brusiv na debelo, tovarna brusiv, brušni orodja, brušni material, brušni izdelki, brušni listi, okrogli brušni listi, brušni listi na debelo, brušna podlaga, brušna podlaga za lepilo in mrežo, 5-palčna brušna podlaga, 6-palčna brušna podlaga, nepredpisana opanka, brušna platna, industrijski valjalni čopič"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Hiter kontakt",
+    "whatsapp": "WhatsApp",
+    "quote": "Zahtevajte ponudbo"
+  }
+}

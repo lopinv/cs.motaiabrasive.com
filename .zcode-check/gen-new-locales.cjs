@@ -27,7 +27,16 @@ const I18N = path.join(root, 'src', 'i18n')
 const DATA = path.join(__dirname, 'locales-v2')
 const en = JSON.parse(fs.readFileSync(path.join(I18N, 'en.json'), 'utf8'))
 
-const CODES = ['hi', 'zh-Hant', 'sv', 'da', 'no', 'fi', 'th', 'vi', 'id', 'ms', 'pl', 'cs', 'sk', 'he', 'tr', 'fa']
+// ONLY the new 15 codes (2026-11-09). The pre-existing 16 (hi/zh-Hant/…/fa)
+// are deliberately excluded: their locales-v2 payloads are PARTIAL (636 keys,
+// missing the 34 later-added home.articles*/blogSidebar*/blogPager* keys that
+// were written straight into src/i18n by the add-*-i18n.cjs scripts). Re-running
+// the generator over them would deep-clone en and overwrite those 34 translated
+// values with English — a regression. So this generator must stay scoped to the
+// 15 full-payload codes below.
+const CODES = [
+  'lt', 'lv', 'et', 'sl', 'hr', 'sr', 'ca', 'nl', 'uk', 'el', 'hu', 'ro', 'bg', 'tl', 'bn',
+]
 const ID_KEYS = ['code', 'name', 'codeLabel', 'htmlLang', 'ogLocale', 'rtl']
 
 // Recursively apply a payload (either flat dotted-key or nested-block JSON)

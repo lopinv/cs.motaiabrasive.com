@@ -1,0 +1,1001 @@
+{
+  "code": "lt",
+  "name": "Lietuvių",
+  "codeLabel": "LT",
+  "htmlLang": "lt",
+  "ogLocale": "lt_LT",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Hurtiniai užklausos",
+    "oemNote": "Užklausos dėl OEM pakavimo",
+    "size": "Dydis",
+    "grit": "Grūdelių gradacija",
+    "quantity": "Prašoma kiekis",
+    "requirements": "Specifikacijos ir pakavimo reikalavimai",
+    "requirementsPh": "Papaslakite apie savo pritaikymą, specifikacijas ir pristatymo reikalavimus.",
+    "material": "Abrasioninė medžiaga",
+    "backing": "Pagrindas / pritvirtinimas",
+    "availability": "Prieinamumas, minimalus užsakymo kiekis ir komercinės sąlygos patvirtinamos pasiūlyme.",
+    "sampleNote": "Nurodykite, kokius produktus ir grūdelių gradacijas norite įvertinti. mūsų pardavimų komanda patvirtins pavyzdžių prieinamumą, kainas ir siuntimo tvarką.",
+    "gritsRange": "Grūdelių diapazonas",
+    "holes": "Angos",
+    "diameter": "Skersmuo / vardiklinis dydis",
+    "titleSuffix": "MoTai šlifuoskos"
+  },
+  "nav": {
+    "language": "Kalba",
+    "home": "Pagrindinis",
+    "about": "Apie mus",
+    "manufacturing": "Gamyba",
+    "oem": "OEM paslaugos",
+    "news": "Naujienos",
+    "knowledge": "Žinios",
+    "contact": "Kontaktai",
+    "products": "Produktai"
+  },
+  "colt": {
+    "belts": {
+      "title": "Šlifavimo juostos — didmeninė prekyba ir OEM",
+      "desc": "Raudonos šlifavimo juostos, dokumentuotais dydžiais nuo 533 × 75 mm iki 2200 × 1330 mm. Grūdeliai 40–800. Dėmesio modeliai. Didmeninės ir OEM užklausos sveikatos.",
+      "label": "Šlifavimo juostos"
+    },
+    "discs": {
+      "title": "Šlifavimo diskai — didmeninė prekyba ir OEM",
+      "desc": "PSA, velkro, atviros tinklelio ir be angų šlifavimo diskai nuo 3 iki 6 colio. Grūdeliai 60–5000. Didmeninės ir OEM užklausos sveikatos.",
+      "label": "Šlifavimo diskai"
+    },
+    "flap": {
+      "title": "MOTAI faneruotų diskų",
+      "desc": "Faneruotai diskai su plastikiniu, plieniniu ir stikla-pluošto pagrindu metalui šlifavimui, poliravimui ir užbaigimui. Patikrinkite specifikacijas, didmeninį tiekimo ir OEM pakavimą pasiūlyme.",
+      "label": "Faneruotai diskai"
+    },
+    "all": {
+      "title": "Visi produktai",
+      "desc": "Pilnas MoTai šlifuoskų katalogas: šlifavimo juostos, diskai ir faneruotai diskai pramoniškim nusipirkėjams, platintojams ir savosios prekės ženklų savininkams.",
+      "label": "Visi produktai"
+    }
+  },
+  "cta": {
+    "quote": "Užsakyti didmeninę kainoraštį",
+    "quoteArrow": "↗",
+    "sample": "Užsakyti pavyzdį",
+    "whatsapp": "WhatsApp užklausa",
+    "waChat": "Susisiekite per WhatsApp",
+    "explore": "Peržiūrėti faneruotų diskų asortimentą",
+    "viewAll": "Peržiūrėti visus produktus",
+    "discuss": "Aplinkite savo specifikaciją",
+    "oemQuote": "Užsakyti OEM pasiūlymą"
+  },
+  "home": {
+    "eyebrow": "Šlifavimo priemonės iš MoTai gamyklos Hubei province",
+    "heroTitle": "Profesionalus šlifuoskų gamintojas ir tiekėjas",
+    "heroSub": "Gamintojo šlifavimo juostos, diskai ir faneruotai diskai pramoniškim nusipirkėjams, platintojams ir savosios prekės ženklų savininkams — iš Hubei province, Kinijos, į jūsų rinką.",
+    "cta1": "Užsakyti didmeninę kainoraštį",
+    "cta2": "Susisiekite su mūsų komanda WhatsApp",
+    "builtTitle": "Parinkite pritaikymą. Derinkite šlifuoskę.",
+    "builtSub": "Pasirinkite pritaikymą, tada derinkite šlifuoskę: juostas, diskus ar faneruotus diskus.",
+    "featuredTitle": "Kataloge",
+    "featuredSub": "Dydžiai ir grūdeliai dokumentuoti kataloge; minimalus kiekis ir prieinamumas pateikiami su pasiūlymu.",
+    "partnerTitle": "Jūsų šlifuoskų užsakymo tiekimo pusė",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. tieikia šlifavimo priemones medžio, metalo ir automobilių pramonei — su OEM ir savosios prekės ženklų programomis platintojams ir pramoniškim nusipirkėjams visame pasaulyje.",
+    "partnerCta": "Sužinokite apie MoTai",
+    "valuesTitle": "Sešios būdai, kaip B2B nusipirkėjai dirba su mumis",
+    "valuesSub": "Sešios priežastys, kodėl importuotojai ir OEM prekės ženklai renkasi mus.",
+    "v1t": "Tiesiogiai iš gamyklos",
+    "v1b": "Tiekėjo kaina ir terminai, be tarpininkų.",
+    "v2t": "OEM ir savosios prekės ženklo",
+    "v2b": "Jūsų logotipai, etiketės ir pakavimas, patvirtinus specifikacijas.",
+    "v3t": "Individualūs dydžiai ir grūdeliai",
+    "v3b": "Dokumentuoti dydžiai ir grūdeliai 40–800 juostoms, 60–5000 diskams.",
+    "v4t": "Pavyzdžių tikrinimas ir QC",
+    "v4b": "Prieš užsakymą peržiūrėkite paviršių, pagrindą ir tinkamumą pavyzdyje.",
+    "v5t": "Didmeninis tiekimas",
+    "v5b": "Nuoseklūs dėžių kiekiai ir pakavimo sąrašo detalės.",
+    "v6t": "Eksporto programa",
+    "v6b": "Dėžių žymėjimas, etiketės ir paskirties dokumentacija.",
+    "processTitle": "Žingsniai tarp jūsų specifikacijos ir užsakymo",
+    "processSub": "Keturi etapai tarp jūsų reikalavimo ir patvirtinto užsakymo.",
+    "p1t": "Kirpimas ir apdorojimas",
+    "p1b": "Prieš pradedant apdorojimo procesą, patvirtinkite reikalingą formą, matmenis ir grūdelius.",
+    "p2t": "Pavyzdžių tikrinimas",
+    "p2b": "Prieš sutariant apie užsakymo specifikaciją, peržiūrėkite šlifuoskų paviršių, pagrindą ir tinkamumą pavyzdyje.",
+    "p3t": "OEM ir pakavimas",
+    "p3b": "Pasiūlyme patvirtinkite pakavimo kiečius, etiketes, dėžių žymėjimą ir savosios prekės ženklo dizainą.",
+    "p4t": "Siuntimo paruošimas",
+    "p4b": "Prieš išsiųsti, sutarkuokite apie pakavimo sąrašą, paleto reikalavimus ir paskirties detales.",
+    "oemTitle": "Jūsų vardas ant dėžės",
+    "oemSub": "Suteikite produkto, pakavimo ir prekės ženklo reikalavimus kitam savo šlifuoskų asortimentui.",
+    "oemCta": "Peržiūrėti OEM paslaugas",
+    "faqTitle": "Prieš pradedant",
+    "faqSub": "Atsakymai į dažniausiai vartojamus klausimus.",
+    "regionsTitle": "Iš Hubei province į jūsų rinką",
+    "regionsSub": "Globalus tiekimas organizuojamas pagal paskirties regionus.",
+    "regionsNote": "Minimalus kiekis ir terminai patvirtinami jūsų pasiūlyme. Maršrutai sąlyginiai; prieinamumas ir sąlygos patvirtinamos pasiūlyme.",
+    "factoryTitle": "Raskit mus Hubei province",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Susikiskite gamyklos vizitą ir su mūsų komanda patvirtinkit susitikimo vietą.",
+    "finalTitle": "Ieškote patikimo šlifuoskų tiekėjo?",
+    "finalBody": "Pateikite savo produktą, kiekį ir pritaikymą — peržiūrėsime jūsų reikalavimus ir paruošime atitinkamą kainoraštį.",
+    "finalCta1": "Užsakyti didmeninę kainoraštį",
+    "finalCta2": "Susisiekite per WhatsApp",
+    "beltsShowTitle": "Šlifavimo juostos pagal modelius",
+    "beltsShowSub": "Dėmesio modeliai, aptariant su mūsų komanda.",
+    "articlesEyebrow": "Nusipirkėjo ištekli",
+    "articlesTitle": "Gyvavimo vadovėliai iš mūsų techninės komandos",
+    "articlesSub": "Kaip nusipirkėjai pasirenka grūdelius, pagrindą ir pakavimą, prieš pateikdami užsakymą.",
+    "articlesCta": "Peržiūrėti visus vadovėlius",
+    "prepTitle": "Paruoškite savo didmeninę užklausą",
+    "prepSub": "Matmenys, grūdeliai ir kiekis padaro likusią darbą.",
+    "prepDim": "Matmenys",
+    "prepDimText": "Dydis arba modelio numeris milimetrais.",
+    "prepGrit": "Grūdeliai",
+    "prepGritText": "Reikalinga gradacija arba paviršiaus apdaila.",
+    "prepQty": "Kiekis",
+    "prepQtyText": "Prognozuojamas kiekis ir pakavimas."
+  },
+  "purchasing": {
+    "eyebrow1": "Pirkimo gairės",
+    "title1": "Paruoškite savo didmeninę užklausą",
+    "body1": "Pateikite savo reikalingus matmenis, grūdelius, medžiagą, mašiną ir numatomą apdailą. Naudokite dokumentuotus pasirinkimus, kai jie prieinami; kiti reikalavimai peržiūrimi su mūsų komanda.",
+    "dl1t": "Kiekis ir paskirtis",
+    "dl1b": "Papaslakite apie kiekį, pakavimo poreikius ir pristatymo paskirtį.",
+    "dl2t": "Tiekimas ir sąlygos",
+    "dl2b": "Prieinamumas, minimalus užsakymo kiekis ir komercinės sąlygos patvirtinamos pasiūlyme.",
+    "dl3t": "OEM pakavimo užklausos",
+    "dl3b": "Prekės ženklai, etiketės, individualūs dydžiai ar pakavimo reikalavimai.",
+    "eyebrow2": "Kaip pateikti užklausą",
+    "title2": "Nuo produkto pasirinkimo iki kainoraščio",
+    "s1t": "Pasirinkite savo produktą",
+    "s1b": "Pasirinkite produktą ar modelį ir reikiamą specifikaciją.",
+    "s2t": "Pateikite savo reikalavimus",
+    "s2b": "Pateikite kiekį, pritaikymą ir pakavimo reikalavimus.",
+    "s3t": "Peržiūrėkite savo kainoraštį",
+    "s3b": "Patvirtinkite galutinę specifikaciją ir komercines sąlygas su mūsų komanda."
+  },
+  "modelPage": {
+    "eyebrow": "Šlifavimo juostos · Dėmesio modelis",
+    "refLabel": "Modelio numeris",
+    "familyLabel": "Kategorija",
+    "dimsLabel": "Paruoštos šlifavimo juostos matmenys — nurodykite plotį × ilgį mm",
+    "dimsPlaceholder": "pvz. 533 × 75 mm",
+    "gritLabel": "Reikalingi grūdeliai — nurodykite reikiamą gradaciją arba apdailą",
+    "gritPlaceholder": "pvz. P60",
+    "qtyLabel": "Prašoma kiekis",
+    "specLabel": "Specifikacijos ir pakavimo reikalavimai",
+    "discussion": "Diskutuikite apie šį modelį su mūsų komanda, pateikdami savo medžiagą, mašiną ir numatomą apdailą.",
+    "grainBacking": "Grūdeliai ir pagrindas — patvirtinkite žaliavų gamintoją ir tikslų gradaciją.",
+    "disclaimer": "Modelių šeimos detalės pateikiamos kaip dėmesys; MoTai tiekimo specifikacijos, prieinamumas ir tinkamumas nustatomos kartu su jūsų pasiūlymu."
+  },
+  "discPage": {
+    "eyebrow": "Šlifavimo diskai · Dokumentuota versija",
+    "gritsNote": "Grūdelių pasirinkimai šiam variantui"
+  },
+  "flapPage": {
+    "eyebrow": "Faneruotai diskai · pagrindo variantas",
+    "color": "Spalva",
+    "gritNote": "P40–P60 ir P80–P120 yra bendriei pasirinkimo pavyzdžiai, o ne patvirtintas MoTai tiekimo diapazonas."
+  },
+  "productPage": {
+    "specTitle": "Specifikacijos",
+    "howTitle": "Kaip nurodyti savo užsakymą",
+    "howBody": "Įtraukite juostos ar disko dydį, grūdelių sąrašą, mašinos modelį, medžiagą ir kiekį. Aiški specifikacija padeda mums peržiūrėti tinkamumą ir paruošti naudingą kainoraštį — venkite produkto pasirinkimo vien pagal spalvą.",
+    "faqTitle": "Nusipirkėjo klausimai"
+  },
+  "about": {
+    "h1": "Įmonė, stovinti už šlifuoskų asortimento",
+    "sub": "Svarstomas požiūris į šlifuoskų tiekimo.",
+    "bizTitle": "Mūsų verslas",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. tieikia šlifavimo priemones medžioto, metalo ir automobilių pramonei. Dokumentuoti asortimentai: be angų šlifavimo diskai, tinklelio šlifavimo diskai ir raudonos šlifavimo juostos. Priimame užklausas iš importuotojų, platintojų, didmenininkų ir pramonės nusipirkėjų — produktą, pagrindą, dydį, gradaciją, kiekį ir pristatymo reikalavimus.",
+    "matTitle": "Įmonės medžiagai",
+    "matBody": "Peržiūrėkite įmonės aplinką ir kontaktus mūsų paštukoje.",
+    "globalTitle": "Iš Hubei province į jūsų rinką",
+    "globalSub": "Globalus tiekimas organizuojamas pagal paskirties regionus.",
+    "facTitle": "Raskit mus Hubei province",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Susikiskite gamyklos vizitą su mūsų komanda ir patvirtinkit susitikimo vietą prieš keliaujant.",
+    "profileName": "Trumpai apie",
+    "profileBody": "Padengtos šlifuoskos gamintojai Xianning, Hubei province: trys produktų linijos, tiekiamos septynių paskirties regionams, su grūdelių danga nuo 40 iki 5000.",
+    "ctaTitle": "Ieškote patikimo šlifuoskų tiekėjo?",
+    "cta1": "Užsakyti didmeninę kainoraštį",
+    "cta2": "Susisiekite per WhatsApp"
+  },
+  "factory": {
+    "h1": "MoTai gamyklos viduje",
+    "sub": "Detalės svarbios. Kiekviename etape.",
+    "intro": "Peržiūrėkite kirpimą, pavyzdžių tikrinimą ir pakavimo detales jūsų užsakymui. Produkto video filmukai rodomi kartu su procesais iliustracijomis.",
+    "videoLabel": "Peržiūrėti produkto video filmukus",
+    "stepsTitle": "Gamintojas ir užsakymo paruošimas",
+    "stepsIntro": "Nuo jūsų reikalavimo iki patvirtinto užsakymo.",
+    "st1t": "Kirpimas ir apdorojimas",
+    "st1b": "Prieš pradedant apdorojimo procesą, patvirtinkite reikalingą formą, matmenis ir grūdelius.",
+    "st2t": "Pavyzdžių tikrinimas",
+    "st2b": "Prieš sutariant apie užsakymo specifikaciją, peržiūrėkite šlifuoskų paviršių, pagrindą ir tinkamumą pavyzdyje.",
+    "st3t": "OEM ir pakavimas",
+    "st3b": "Pasiūlyme patvirtinkite pakavimo kiečius, etiketes, dėžių žymėjimą ir savosios prekės ženklo dizainą.",
+    "st4t": "Siuntimo paruošimas",
+    "st4b": "Prieš išsiųsti, sutarkuokite apie pakavimo sąrašą, paleto reikalavimus ir paskirties detales.",
+    "imgNote": "Kirpimo ir pavyzdžių vaizdai ištraukti iš pateiktų produkto video filmukų. Pakavimo ir siuntimo vaizdai yra iliustraciniai stock nuotraukai.",
+    "galleryTitle": "Kur gaminamas jūsų užsakymas",
+    "galleryIntro": "Ta pati dirbtuvė atlieka kirpimą, pavyzdžių tikrinimą ir pakavimą kiekvienam patvirtintam užsakymui.",
+    "gallery1Title": "Gamybos dirbtuvė",
+    "gallery1Text": "Dengta darbo zona, kur šlifavimo juostos ir diskai apdorojami, tikrinami ir pakuojami.",
+    "gallery2Title": "Įmonė ir pakrovimo aikštelė",
+    "gallery2Text": "Dėžės paletojamos ir kraunamos vietoje prieš išsiuntimą į jūsų paskirties regioną.",
+    "gallery3Title": "Pasiruošęs sandėlis",
+    "gallery3Text": "Juostos ir diskai dėžutėje pagal patvirtintą specifikaciją — grūdeliai, dydis ir pakavimo sąrašas.",
+    "galleryNote": "Nuotraukas gamykla pateikia bendrai orientacijai; jos nėra užsakymui specifiniai vaizdai. Produktų video filmukai čia atsiras, kai vaizdo medžiaga bus publikuota.",
+    "qcTitle": "Kokybės tikslinimas",
+    "qcIntro": "Ką patikriname, prieš išsiųsti gamyklos.",
+    "qc1t": "Paviršius ir grūdeliai",
+    "qc1b": "Šlifuoskų paviršius, palygintas su patvirtinta gradacija.",
+    "qc2t": "Pagrindas ir tinkamumas",
+    "qc2b": "Pagrindas, svoris ir matmenų tolerancija paruoštoms juostoms ir diskams.",
+    "qc3t": "Pakavimas ir žymėjimas",
+    "qc3b": "Pakavimo kiečiai, etiketės, dėžių žymėjimas ir savosios prekės ženklo dizainas atitinka patvirtintą užsakymą.",
+    "ctaTitle": "Norite aptarti plačiau?",
+    "ctaSub": "Ieškote patikimo šlifuoskų tiekėjo?",
+    "cta1": "Užsakyti didmeninę kainoraštį",
+    "cta2": "Susisiekite per WhatsApp"
+  },
+  "oem": {
+    "h1": "Jūsų vardas ant dėžės",
+    "sub": "Pateikite savo produkto, pakavimo ir prekės ženklo reikalavimus; mes atsiųsime OEM įgyvendinamumo patikrinimą.",
+    "briefTitle": "Sukurkite užklausą aplink savo prekės ženklą",
+    "briefEyebrow": "Atneškite savo informaciją",
+    "briefBody": "Diskutaičiuokite apie savo logotipo ir etiketės dizainą, pakavimo formatą, produkto dydžius, grūdelių gradacijas ir numatomą pritaikymą. OEM prieinamumas, minimalūs kiečiai, dizaino reikalavimai ir laikotarpiai priklauso nuo įgyvendinamumo peržiūros ir patvirtinto pasiūlymo.",
+    "itemsTitle": "Aiškus paaiškinimas, naudingas atsakymas",
+    "i1": "Produktas ir specifikacija",
+    "i2": "Dydžių ir grūdelių miksiuras",
+    "i3": "Dizainas ir etiketės",
+    "i4": "Pakavimo formatas",
+    "i5": "Tiksliniai kiečiai",
+    "i6": "Paskirtis ir laikotarpis",
+    "itemNote": "Įtraukite savo reikalavimus ir dėmesio failus į užklausą.",
+    "procTitle": "Nuo užklausos iki tiekimo",
+    "pr1t": "Jūsų užklausa",
+    "pr1b": "Papaslakite apie savo pritaikymą ir reikalavimus.",
+    "pr2t": "Specifikacijos patikrinimas",
+    "pr2b": "Peržiūrėkite dydžius, gradacijas, pagrindą ir pakavimą.",
+    "pr3t": "Pasiūlymas",
+    "pr3b": "Patvirtinkite komercines sąlygas ir grafiką.",
+    "pr4t": "Pavyzdžio patvirtinimas",
+    "pr4b": "Įvertinkit sutartus pavyzdžius prieš patvirtinimą.",
+    "pr5t": "Serija",
+    "pr5b": "Nutraukite pagal patvirtintą specifikaciją.",
+    "pr6t": "Siuntimas",
+    "pr6b": "Koordinuokite pakavimą ir paskirtį.",
+    "cta1": "Užsakyti didmeninę kainoraštį",
+    "cta2": "Susisiekite per WhatsApp"
+  },
+  "applications": {
+    "h1": "Šlifuoskos jūsų pramonei",
+    "sub": "Paviršius nustato specifikaciją.",
+    "intro": "Šeši pritaikymo sritys. Nurodykite medžiagą, mašiną ir reikiamą apdailą — mes parinksime tinkamą šlifuoskę.",
+    "ctaNote": "Kai kurios nuotraukos yra AI generuoti pritaikymo iliustracijos, o ne MoTai gamyklos ar kliento nuotraukos.",
+    "sampleNote": "Pateikdami užklausą, nurodykite savo pramonę, šalį, produkto specifikaciją ir prognozuojamą užsakymo apimtį.",
+    "reqTitle": "Rekomenduojami produktai",
+    "reqNote": "Šios srityje produktų šeimos sąlyginiai. Patvirtinkite dydžius, grūdelius ir kiečius su pasiūlymu.",
+    "specTitle": "Specifikacijos patarimai",
+    "faqTitle": "Dažniausiai užduodami",
+    "faqs": [
+      {
+        "q": "Kurių grūdelių reikėtų pradėti?",
+        "a": "Pradėkite nuo dirbamiesiems gabalų medžiagą, trūkio gylį ir reikiamą apdailą — stori grūdeliai greitai pašalina medžiagą, tada mažinkite grūdelius ir tikrinkite paviršių kiekviename etape."
+      },
+      {
+        "q": "Ar galima maišyti grūdelius viename užsakyme?",
+        "a": "Taip — išvardinkite grūdelius ir kiekį pagal gradaciją; prieinamumas ir terminai atsiųsiami su pasiūlymu."
+      }
+    ],
+    "ctaTitle": "Nustatote specifikaciją savo sričiai?",
+    "cta1": "Užsakyti didmeninę kainoraštį",
+    "cta2": "Susisiekite per WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Geresnė informacija. Geresnis pasirinkimas.",
+    "sub": "Praktiniai nusipirkėjo ištekli, aptariant šlifuoskų specifikacijas.",
+    "updatedLabel": "Atnaujinta",
+    "governance": "Gyvavimo vadovėliai rašo ir peržiūri MoTai Abrasives techninė komanda ir vėl peržiūrimas, kai keičiasi produktų specifikacijos."
+  },
+  "blogSidebar": {
+    "eyebrow": "Produktai",
+    "productsTitle": "Pabrėžti produktai",
+    "productsSub": "Dydžiai, grūdeliai ir pagrindai dokumentuojami pagal produktą; minimalus kiekis ir prieinamumas pateikiami su pasiūlymu.",
+    "viewAll": "Visi produktai",
+    "servicesEyebrow": "Paslaugos",
+    "servicesTitle": "Nuo pasirinkimo iki tiekimo",
+    "servicesSub": "Didmeninis tiekimas, savosios prekės ženklo pakavimas ir procesų tikrinimas, patvirtinami pasiūlyme.",
+    "serviceWholesale": "Didmeninė kainoraštis",
+    "serviceOem": "OEM ir savosios prekės ženklo",
+    "serviceManufacturing": "Gamintojas",
+    "serviceApplications": "Pritaikymai",
+    "latestEyebrow": "Naujienos",
+    "latestTitle": "Naujausi gyvavimo vadovėliai",
+    "catDiscs": "Šlifavimo diskai",
+    "catBelts": "Šlifavimo juostos",
+    "catFlap": "Faneruotai diskai"
+  },
+  "blogPager": {
+    "navLabel": "Blogo puslapiai",
+    "prev": "Ankstesnis",
+    "next": "Kitas",
+    "pageOf": "Puslapis {page} iš {total}",
+    "range": "Gyvavimo vadovėliai {from}–{to} iš {count}"
+  },
+  "article": {
+    "watchTitle": "Žiūrėti",
+    "discuss": "Diskutuikite apie savo specifikaciją",
+    "catSelection": "Pasirinkimo gidas",
+    "catBuyer": "Nusipirkėjo ištekli",
+    "catNotes": "Pritaikymo užrašai",
+    "catOem": "OEM gidas",
+    "reviewedBy": "Peržiūrėjo MoTai Abrasives techninė komanda",
+    "lastReviewed": "Paskutinį kartą peržiūrėta {date}",
+    "tocTitle": "Šiame puslapyje"
+  },
+  "contact": {
+    "h1": "Pradėkite didmeninį pokalbį",
+    "sub": "Gauti gamykloje tiesioginius didmeninius kainas šlifuoskų produktams.",
+    "directTitle": "Pokalbis. Geresnė specifikacija.",
+    "directBody": "Pateikite savo produktą, kiekį ir pritaikymą. Mes peržiūrėsime jūsų reikalavimus ir padėsime atlikti kitą žingsnį.",
+    "facTitle": "Raskit mus Hubei province",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Prieš keliaujant, patvirtinkite tikslų vizito adresą su mūsų komanda.",
+    "visit": "Susikiskite gamyklos vizitą",
+    "formTitle": "Didmeninė / OEM užklausa",
+    "formNote": "Ši forma prašo pasiūlymo, o ne pateikia užsakymą. Užklausos siunčiamos į mūsų pardavimo pašto dėžute; specifikacijos ir komercinės sąlygos sprendžiamos kartu su pasiūlymu.",
+    "btn": "Atidaryti užklausos formą ↗"
+  },
+  "privacy": {
+    "h1": "Jūsų užklausos informacija",
+    "sub": "Kaip šis svetainė naudoja detales, kurias nusprendėte bendrinti.",
+    "s1t": "Renkama informacija",
+    "s1b": "Kontaktų detalės, įmonės informacija, produkto reikalavimai ir pridedami failai pateikti su užklausa. Hash sukurta ryšio identifikatorius ribojant žalingus siuntimus.",
+    "s2t": "Tikslas ir priežastis",
+    "s2b": "Detalės naudojamos peržiūrėti ir atsakyti į užklausas, paruošti pasiūlymus ir koordinuoti prašomus komercinius dalykus. Prieiga ribota patvirtintais administratoriais.",
+    "s3t": "Laikymas ir išsaugojimas",
+    "s3b": "Įrašai saugomi su mūsų talpyklos teikėju. Duomenys gali būti apdorojami už jūsų šalies ribų. Išsaugojimas atitinka verslo stebėjimo ir įrašų kaupimo įsipareigojimus; galite prašyti konkretaus išsaugojimo ar ištrynimo.",
+    "s4t": "Jūsų pasirinkimai",
+    "s4b": "Susisiekite su motai-01@motaiabrasive.com ir prašykite prieigos, korekcijos ar ištrynimo. Maloniai neužduokite jautrių asmeninių duomenų ar konfidencinių failų, nesusijusių su jūsų užklausa.",
+    "s5t": "Slapukai, nuorodos ir analitika",
+    "s5b": "Naršyklė saugo užklausos sąrašo valdymo duomenis. Ši svetainė naudoja Google Analytics (gtag.js) anonimiški naudojimo statistikai; Google nustato slapuką ir apdoroja duomenis pagal savo duomenų apdorojimo sąlygas — galite atsisakyti https://support.google.com/analytics/answer/3452785. Išoriniai WhatsApp, žemėlaido ir socialiniai nuorodos valdomi pagal jų pačių privatumo politikas.",
+    "updated": "Paskutinį kartą atnaujinta 2026 m. lapkričio 4 d."
+  },
+  "terms": {
+    "h1": "Naudotvos sąlygos",
+    "sub": "Sąlygos, taikomos, kai naudojate šią svetainę ir siunčiate MoTai užklausą.",
+    "s1t": "Šios svetainės naudojimas",
+    "s1b": "Ši svetainė yra B2B informacijos ir užklausos paslaugos, kurios veikia Hubei MoTai Abrasives Materials Co., Ltd. Turinys — produktų specifikacijos, gyvavimo vadovėliai, terminija ir blogas — pateikiamos sąžiningai, bendra informacijai. Naudojant svetainę, jūs priimate šias sąlygas; jei nepriimate, nesiųskite užklausos.",
+    "s2t": "Užklausos nėra pasiūlymai",
+    "s2b": "Užklausos formos siuntimas yra kvietimas derėtis, o ne privalomas užsakymas. MoTai neprivalo atsakyti į kiekvieną užklausą ir joks pirkimas įsipareigojamas, kol abu dalyviai raščiai patvirtins pasiūlymą.",
+    "s3t": "Pasiūlymai ir kainos",
+    "s3b": "Visos kainos yra pagal pasiūlymus. Pasiūlymuose išvardyti dydžiai, grūdeliai, pakavimas, prekybos sąlygos ir galiojimo laikotarpiai; galutiniai skaičiai sprendžiami patvirtintoje specifikacijoje ir priklauso nuo žaliavų ir prelaustumo keitimo.",
+    "s4t": "Intelektinė nuosavybė",
+    "s4b": "Svetainės turinys, produktų aprašymai, grafikos ir MoTai prekės ženklas yra MoTai Abrasives nuosavybė ir negali būti reprodukuojami komerciškai. Trečiosios šalies nuorodos (pvz., modelių šaltiniai) pateikiamos tik nusipirkėjams orientuis ir nereikšmė pažymos.",
+    "s5t": "Atsako ir vykdomosios teismo",
+    "s5b": "MoTai neatstoja sprendimų, priimta remiantis bendra informacija šioje svetainėje. Šios sąlygos remiasi Kinijos Liaudies Respublikos teisais; ginčai sprendžiami pagal pardavimo sutartį tarp dalyvių.",
+    "updated": "Paskutinį kartą atnaujinta 2026 m. lapkričio 3 d."
+  },
+  "shipping": {
+    "h1": "Pristatymo ir grąžinimo politika",
+    "sub": "Kaip užsakymai palieka mūsų gamyklos, ir kodėl pagal specifikaciją pagamintos šlifuoskos negrąžinamos.",
+    "shipTitle": "Pristatymo politika",
+    "shipSub": "Gamintojas, pakavimas ir išsiuntimas patvirtinami kartu su jūsų pasiūlymu.",
+    "s1t": "Gamintojas ir terminai",
+    "s1b": "Šlifavimo juostos, diskai ir faneruotai diskai apdorojami pagal jūsų užsakymo specifikaciją. Gamintojas pradedamas nuo dienos, kai pasiūlymas raščiai patvirtintas, o ne nuo dienos, kai užklausa nusiųsta. Standartiniai dėmesiai, pvz., GXK-51, XZ-330 ir GPC71 yra pasiruoštos sandėlio prekės; individualūs dydžiai, grūdeliai ir OEM pakavimas pagaminami pagal užsakymą.",
+    "s2t": "Pakavimas ir žymėjimas",
+    "s2b": "Prekės pakuojamos eksporto dėžėse, suderintais pakavimo kiečiais, etiketėmis, dėžių žymėjimais ir — OEM programoms — jūsų dizainu ir brūkšnine kodu. Paleto konfiguracija patvirtinama kartu su pakavimo sąrašu. Dezinfekavimas ar ISPM 15 žymėjimas taikomas, kai paskirties reikalauja.",
+    "s3t": "Pristatymo būdas ir Incoterms",
+    "s3b": "Pristatymas organizuojamas jūra (FCL ar LCL) arba oru, priklausomai nuo apimties ir paskirties. Prekiautių terminas nurodomas jūsų pasiūlyme — dažniausiai naudojami EXW, FOB, CIF, CFR, DAP ir DDP. galite paskirti savo ekspeditorių; tada MoTai teikia pakavimo sąrašą, dėžių žymėjimus ir siuntimo dokumentus.",
+    "s4t": "Dokumentai ir muitinė",
+    "s4b": "Kiekvienas siuntimas lydi komercinę faktūrą, pakavimo sąrašą ir transporto dokumentą. HS kodai ir kilmės sertifikatai pateikiami jūsų muitinės paminimui. Įvežimo mokesčiai, mokesčiai ir paskirties šalies muitinės paminimas tenkinti nusipirkėjui, nebent pasiūlyme nurodyta DDP.",
+    "s5t": "Siuntimas ir pristatymas",
+    "s5b": "Pateikiame siuntimo pranešimą su laivo ar lėktuvo numeriu, kai konteineris ar siuntimas rezervuotas. Priežiūros laikas priklauso nuo paskirties uosto ar oro uosto ir vežėjo grafiko. Vėlavimui, sukeltam uosto šliužulio, muitinės paminimo ar privalomos jėgos, yra už mūsų valios ir pranešiami, kai jie žinomi.",
+    "retTitle": "Grąžinimo politika",
+    "retSub": "Mūsų produktai pagaminti pagal sutartą specifikaciją, todėl grąžinimai apriboti apibrėžta atvejais.",
+    "r1t": "Pagal specifikaciją pagamintos prekės",
+    "r1b": "Šlifuoskų produktai gaminami pagal jūsų grūdelius, dydžius, pagrindą ir pakavimo specifikaciją. Kadangi jie negali būti parduoti kaip standartinis sandėlis, patvirtinti individualūs užsakymai negrąžinami ir neužklausomi, nebent prekės neatitinka patvirtintos specifikacijos.",
+    "r2t": "Sandėliavimo prekės ir transporto pažeidimai",
+    "r2b": "Standartinės dėmesio prekės, nenaudotos ir liekančios originalioje eksporto pakavoje, gali būti grąžinamos atveju po to, kai patvirtinsime priežastį ir grąžinimo sąlygas. Siuntimo metu pažeistos prekės turi būti pranešamos su nuotraukomis per 7 dienas po pristatymo, ir pretenzijos vežėjo draudimui tvarkomos per nurodytą ekspeditorių.",
+    "r3t": "Pretenzijos, paminimas ir kredito",
+    "r3b": "Kiekviena pretenzija turi nurodyti užsakymo numerį, pakavimo sąrašą ir paveiktų dėžių žymėjimus. Jei po paminimo patvirtinus trūkumą, mes arba keičiame paveiktą kiekį, arba išduodame kredito notą pagal faktūrą. Pretenzijos, pateiktos per 30 dienų po pristatymo, negali būti priimtos.",
+    "r4t": "mokėjimo grąžinimas",
+    "r4b": "Jei sutartiniai kredito, bet kuris grąžinimas atliekamas į originalų mokėją tuo pačiu metodu, kaip ir užsakymas, kai grąžinimas ar pakeitimas užbaigtas ar pripažintas nebeatgaunamas. Banko mokesčiai tarptautiniams mokėjimams tenkinti grąžinimo gavėjui.",
+    "r5t": "Muitinė, mokesčiai ir atitikimas",
+    "r5b": "Grąžinimai, prašomi dėl importo apribojimų, mokesčių, muitinės paminimo ar vietinių atitikimo taisyklių, yra apmokestinami kaip komerciniai ginčai, o ne produktų pretenzijos, nes prekės buvo pristatytos pagal patvirtintą specifikaciją.",
+    "updated": "Paskutinį kartą atnaujinta 2026 m. lapkričio 6 d.",
+    "related": "Pristatymo ir grąžinimo sąlygos sudaro kiekvieno pasiūlymo dalį. Jei pasiūlyme nurodytos skirtingos sąlygos, tas pasiūlymas prevaleuoja.",
+    "contact": "Klausimai apie siuntimą ar pretenziją: susisiekite su mūsų pardavimų komanda su savo užsakymo numeriu ir atitinkamais dėžių žymėjimais."
+  },
+  "quotePage": {
+    "h1": "Pradėkite didmeninį pokalbį",
+    "sub": "Gauti gamykloje tiesioginius didmeninius kainas šlifuoskų produktams.",
+    "note": "Ši forma prašo kainoraščio, o ne pateikia užsakymą. Laukai, pažymėti *, yra privalomi.",
+    "sec1": "Jūsų verslas",
+    "f1": "Pilnas vardas *",
+    "f2": "Įmonės pavadinimas *",
+    "f3": "Šalis *",
+    "f4": "Verslo el. paštas *",
+    "f5": "WhatsApp numeris",
+    "f6": "Verslo tipas *",
+    "opt1": "Importuotojas",
+    "opt2": "Platintojas",
+    "opt3": "Didmenininkas",
+    "opt4": "OEM prekės ženklas",
+    "opt5": "Pramonės nusipirkėjas",
+    "opt6": "Kitas",
+    "sec2": "Produkto reikalavimai",
+    "f7": "Produkto kategorija",
+    "f8": "Produkto modelis / dėmesio",
+    "f9": "Dydis",
+    "f10": "Grūdelių dydis",
+    "f11": "Medžiaga",
+    "f12": "Kiekis",
+    "f13": "Pakavimas",
+    "f14": "Paskirties šalis *",
+    "f15": "OEM reikalavimai",
+    "f16": "Papildoma žinutė *",
+    "consent": "Aš sutinku su privatumo politika, naudojimo sąlygomis ir savo detalių naudojimu, atsakyti į šią užklausą. *",
+    "btn1": "Užsakyti didmeninę kainoraštį",
+    "btn2": "Siųsti užklausą per WhatsApp",
+    "goNote": "Forma atsidaro mūsų didmeninės užklausos sistemoje, su jūsų produkto kontekstu pilnai užpildytu."
+  },
+  "clients": {
+    "h1": "Kur moTtai siuntimai eina",
+    "sub": "Iš Hubei province į septyni paskirties regionus.",
+    "note": "Žemiau esantys klientų logotipai ir gyvavimo vadovėliai yra laikini užsakymai — pakeiskit src/data/trust.json su publikuotais medžiagais.",
+    "placeholderBadge": "Iliustracinis laikinas užsakymas",
+    "statsTitle": "Tiekimas trumpai",
+    "statsNote": "Rodomi sertifikatai yra laikini, palaukiant publikuotus sertifikatus."
+  },
+  "glossary": {
+    "h1": "Šlifuoskų terminija",
+    "sub": "Terminai, stovintys už kiekvienos juostos, disko ir faneruotų diskų specifikacijos.",
+    "note": "Standartinės pramonės apibrėžimo šlifuoskų vartojimui; gradacijų ir pagrindų detalės užsakymui sprendžiamos su pasiūlymu.",
+    "reviewNote": "Terminai peržiūrimi MoTai Abrasives techninė komanda — paskutinį kartą peržiūrėta 2026 m. lapkričio 3 d."
+  },
+  "trust": {
+    "regions": "Paskirties regionai",
+    "productLines": "Produkto linijos",
+    "gritRange": "Grūdelių danga"
+  },
+  "video": {
+    "title": "Žiūrėti",
+    "cutting": {
+      "title": "Kirpimo ir apdorojimo vaizdai",
+      "desc": "Pateikti produkto vaizdai: šlifuoskų lapų kirpimas ir apdorojimas."
+    },
+    "sample": {
+      "title": "Pavyzdžių tikrinimo vaizdai",
+      "desc": "Pateikti produkto vaizdai: pavyzdžių paviršiaus, pagrindo ir tinkamumo patikrinimas."
+    },
+    "oem": {
+      "title": "OEM pakavimo vaizdai",
+      "desc": "Pakavimo kiečiai, etiketės, dėžių žymėjimai ir savosios prekės ženklo dizainas."
+    },
+    "flap": {
+      "title": "Faneruotų diskų asortimento vaizdai",
+      "desc": "Plastiko, plieno ir stikla-pluošto pagrindo faneruotai diskai naudojimo metu."
+    }
+  },
+  "wa": {
+    "generic": "Sveikas, MoTai, norėčiau gauti didmeninę kainoraštį šlifuoskų produktams.",
+    "product": "Sveikas, MoTai, norėčiau gauti didmeninę kainoraštį {name} ({grits}).",
+    "model": "Sveikas, MoTai, norėčiau gauti didmeninę kainoraštį šlifavimo juostų modelis {model}.",
+    "disc": "Sveikas, MoTai, norėčiau gauti didmeninę kainoraštį {title}.",
+    "sample": "Sveikas, MoTai, norėčiau gauti {name} pavyzdį įvertinimui.",
+    "factory": "Sveikas, MoTai, norėčiau aptarti gamintojo ir kokybės detales su jūsų komanda.",
+    "oem": "Sveikas, MoTai, norėčiau aptarti OEM / savosios prekės ženklo šlifuoskų programą.",
+    "contact": "Sveikas, MoTai, norėčiau sukurti kitą šlifuoskų užsakymą su jūsų komanda."
+  },
+  "floatChat": {
+    "trigger": "Pokalbis",
+    "open": "Atidaryti pokalbį",
+    "close": "Uždaryti",
+    "title": "MoTai — tiesioginis pokalbis",
+    "status": "Atsakome per WhatsApp, paprastai per 24 valandas.",
+    "greeting": "Sveiki! Kaip galime padėti su jūsų šlifuoskų užsakymu? — MoTai pardavimų komanda",
+    "placeholder": "Įveskite savo žinutę…",
+    "send": "Siųsti per WhatsApp",
+    "note": "Ši peržiūra neturi gyvavimo serverio: siunčiant atsidaro WhatsApp, su jūsų žinute pilnai užpildyta. Atsakymai tęsiasi WhatsApp pokalbyje."
+  },
+  "location": {
+    "imgAlt": "MoTai gamyklos pastatas Xianning, Hubei province",
+    "imgCaption": "MoTai gamykla — Xianning, Hubei, China",
+    "mapTitle": "MoTai gamyklos vieta Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Prieš pradedant",
+    "moq": {
+      "q": "Kas yra minimalus užsakymo kiekis?",
+      "a": "Minimalus kiekis atsiųsiamas su pasiūlymu, kartu su prieinamumu ir sąlygomis."
+    },
+    "oem": {
+      "q": "Ar palaikote OEM ir savosios prekės ženklo?",
+      "a": "Taip. Logotipai, etiketės, individualūs dydžiai ir pakavimas tikrinami įgyvendinamumui, tada patvirtinami su jūsų pasiūlymu."
+    },
+    "sizes": {
+      "q": "Kokius dydžius ir grūdelius tiekiate?",
+      "a": "Juostos, dokumentuotais dydžiais, nuo 533 × 75 iki 2200 × 1330 mm (grūdeliai 40–800); diskai 3–6 coliai (grūdeliai 60–5000). Individualūs reikalavimai peržiūrimi su mūsų komanda."
+    },
+    "samples": {
+      "q": "Ar galiu gauti pavyzdį pirmiausia?",
+      "a": "Taip. Užsakykite pavyzdį, ir mūsų pardavimų komanda patvirtins prieinamumą, kainas ir siuntimo tvarką."
+    },
+    "lead": {
+      "q": "Kokie gamintojo terminai?",
+      "a": "Gamintojo laikas priklauso nuo specifikacijos ir kiekio, ir patvirtinamas jūsų pasiūlyme."
+    },
+    "packaging": {
+      "q": "Kaip produktai pakuojami?",
+      "a": "Pakavimo kiečiai, etiketės, dėžių žymėjimai ir savosios prekės ženklo dizainas patvirtinami su pasiūlymu."
+    },
+    "payment": {
+      "q": "Kokius mokėjimo terminus siūlote?",
+      "a": "Mokėjimo sąlygos yra patvirtinto pasiūlymo ir komercinių dalykų dalis."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Kokias specifikacijas turėčiau pateikti?",
+      "a": "Pateikite savo reikalingus matmenis, grūdelius, medžiagą, mašiną ir numatomą apdailą. Naudokite dokumentuotus pasirinkimus, kai jie prieinami; kiti reikalavimai peržiūrimi su mūsų komanda."
+    },
+    "oem": {
+      "q": "Kaip gauti OEM pakavimo?",
+      "a": "Įtraukite savo prekės ženklo ir pakavimo reikalavimus į užklausą. Detalės bus peržiūrimos ir patvirtintos su jūsų pasiūlymu."
+    },
+    "order": {
+      "q": "Ar užsakovas kainoraštį pateikia užsakymą?",
+      "a": "Ne. Forma pradeda didmeninį užklausą. Produkto specifikacijos, prieinamumas ir komercinės sąlygos patvirtinamos, kol užsakymas sutarta."
+    },
+    "sample": {
+      "q": "Ar galiu išbandyti pavyzdį, prieš įsipareigojant pilnam užsakymui?",
+      "a": "Taip. Standartinių dėmesio pavyzdžiai prieinami įvertinimui prašymu; pavyzdžių prieinamumas ir prelaustumo sąlygos patvirtinamos su jūsų pasiūlymu."
+    },
+    "lead": {
+      "q": "Kiek iš anksto turėčiau pateikti gamintojo užsakymą?",
+      "a": "Gamintojas pradedamas nuo dienos, kai pasiūlymas raščiai patvirtintas, ir priklauso nuo užsakomo dydžio, grūdelių ir pakavimo. Sandėliavimo dėmesiai siunčiami greičiausiai."
+    },
+    "beltSize": {
+      "q": "Ar šlifavimo juostos gali būti tiekiamos nestandartiniu dydžiu ar ilgiu?",
+      "a": "Juostų plotis ir ilgis, viršijantys dokumentuotus dydžius, kainorūginami atveju; keičiant į individualų dydį, poveikia ir gamintojo laikui, ir minimaliam užsakymo kiechiui."
+    },
+    "beltJoint": {
+      "q": "Kuris juostų sujungimas ir kraštų konstrukcija naudoja šios juostos?",
+      "a": "Sujungimo tipas ir kraštų apdorojimas nurodomas pagal kiekvieną dėmesį. Nurodykite mašiną, apkrovą ir reikiamą apdailą, kad tinkama konstrukcija įtrauktų į jūsų kainoraštį."
+    },
+    "discBacking": {
+      "q": "Kaip pasirinkti tarp velkro, PSA ir tinklelio diskų?",
+      "a": "Velkro tinka dažniems grūdelių keitimams, PSA tinka plokštiems pakams ir ilgoms vykdymo laikams, o tinklelio diskai tinka dulkių ištraukimas. Mūsų pasirinkimo gidas palygina tris sistemas pusė-prieš-pusę."
+    },
+    "discDust": {
+      "q": "Ar šie diskai suderinami su dulkių ištraukimas?",
+      "a": "Tinklelio ir perforuotieji diskai sukurti ištraukimui; solidūs diskai gali būti pateikti perforuoti, prašant. Nurodykite savo ištraukimo konfigūraciją ir naudojamas pakas."
+    },
+    "hookLoop": {
+      "q": "Ar velkro diskai tinka mano esamos atsargos pakams?",
+      "a": "Skersmuo ir angų raštas turi atitikti paką. Patvirtinkite savo šlifo modelį ir pako skersmenį su užklausa, kad tinkamas diskas įtrauktų į kainoraštį."
+    },
+    "psa": {
+      "q": "Ar PSA diskai veikia su bet kuriuo atsargos pakams?",
+      "a": "PSA diskams reikia plokščiems, švariems gumos pakams, atitinkamu skersmenu. Patvirtinkite pako skersmenį ir mašinos modelį su savo kainoraščio prašymu."
+    },
+    "mesh": {
+      "q": "Kiek ilgai tarnauja tinklelio šlifavimo diskas?",
+      "a": "Tinklelio diskai atlaiko dulkių įsiskverbimo sunkiai darbe, dažniausiai tai pailgina naudingą tarnavimą, palyginus su solidžius popierinių diskų. Tikrasis tarnavimo laikas priklauso nuo medžiagos, spaudimo ir grūdelių."
+    },
+    "solid": {
+      "q": "Ar solidieji diskai gali būti tiekiami perforuoti dulkių ištraukimui?",
+      "a": "Taip — perforuotumo raštas sutarta su pasiūlymu. Nurodykite paką ir ištraukimo konfigūraciją, kad tinkamas raštas įtrauktų į kainoraštį."
+    }
+  },
+  "relArticles": {
+    "title": "Susiję straipsniai",
+    "sub": "Nusipirkėjo gaidos šiai produkto šeimai, iš MoTai techninės komandos.",
+    "readMore": "Skaityti straipsnį",
+    "faqTitle": "Dažniausiai užduodami klausimai",
+    "faqSub": "Bendri klausimai, kuriuos pusės klausia prieš užsakant šį produktą."
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Nurodykite dydžius, grūdelius, pagrindą ir produktų failus; pateikite paskirties uostą ir etiketių kalbą."
+    },
+    "na": {
+      "title": "Šiaurė Amika",
+      "body": "Nurodykite colius ar metinius dydžius, pritvirtinimo tipą ir pakavimo kiečius; paskirties ZIP kodas ar uostas ir transporto būdas."
+    },
+    "sa": {
+      "title": "Pietų Amika",
+      "body": "Dydžiai, grūdelių mišrūs kiečiai ir dėžės etiketių kalba; paskirties uostas ir importuotojo dokumentai."
+    },
+    "me": {
+      "title": "Artimosios Rytų",
+      "body": "Medžiaga, grūdeliai ir drėgmės saugus pakavimas; paskirties uostas ir pasiūlymo sąlygos."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Mašinos suderinamumas, reikalingi dydžiai ir pakavimo kiečiai; paskirties uostas, dėžių žymėjimai ir transporto pageidavimas."
+    },
+    "oceania": {
+      "title": "Okeanija",
+      "body": "Dydžiai, pagrindai, pakavimas ir paskirties ZIP kodas ar uostas; importo ir pakavimo reikalavimai."
+    },
+    "asia": {
+      "title": "Azija",
+      "body": "Mašinos specifikacija, grūdelių diapazonas ir užsakymo miksiuras; pristatymo miestas ar uostas ir vietine kalba etiketės."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metalo konstrukcijai",
+      "intro": "Virimo siūlių poliravimas, ašulių šalinimas ir metalo paviršio paruošimas.",
+      "uses": "Virimo siūlių poliravimas · Ašulių šalinimas · Paviršio paruošimas",
+      "products": "Šlifavimo juostos"
+    },
+    "wood": {
+      "title": "Medžioto ir baldų gamyba",
+      "intro": "Plokščių, baldų gamyba ir paviršiaus paruošimas prieš lakavimo.",
+      "uses": "Plokštės · Baldai · Paviršiaus paruošimas prieš lakavimo",
+      "products": "Šlifavimo juostos · Šlifavimo diskai"
+    },
+    "auto": {
+      "title": "Automobilių remontas",
+      "intro": "Kūno plyšio poliravimas, prieš purškimo paruošimas ir automobilių perdažiavimas.",
+      "uses": "Kūno plyšys · Prieš purškimas · Perdažiavimas",
+      "products": "Šlifavimo diskai"
+    },
+    "stainless": {
+      "title": "Nerūdijančio plieno apdaila",
+      "intro": "Linijos apdaila, paviršiaus perėjimas ir nerūdijančio plieno konstrukcija.",
+      "uses": "Linijos · Perėjimai · Konstrukcija",
+      "products": "Šlifavimo juostos"
+    },
+    "ship": {
+      "title": "Laivų statyba ir remontas",
+      "intro": "Metalų poliravimas, rusto šalinimas ir jūros priežiūros paviršiaus paruošimas.",
+      "uses": "Poliravimas · Rusto šalinimas · Jūros paruošimas",
+      "products": "Šlifavimo juostos"
+    },
+    "surface": {
+      "title": "Pramoninis paviršio paruošimas",
+      "intro": "Pramoninis paviršiaus apdorojimas ir priežiūros darbai.",
+      "uses": "Paviršiaus apdorojimas · Priežiūra",
+      "products": "Šlifavimo diskai"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Velkro ar PSA: pasirinkite tinkamą pagrindą",
+      "intro": "Pritvirtinimo sistema yra tokia pat svarbi kaip grūdeliai. Derinkite ją su pakoje prieš užsakymą.",
+      "start": {
+        "title": "Pradėkite nuo reikalavimo",
+        "body": "Velkro diskai įsifeša į suderinamą velkro pakoje ir tinka operacijoms, kur grūdeliai keičiami dažnai. PSA diskai remiasi slėgio jautriu klijais ir reikia švariems, plokštiems pakoje. Dviejų sistemų nėra keičiamas."
+      },
+      "compat": {
+        "title": "Patvirtinkite suderinamumą",
+        "body": "Patvirtinkite pako skersmenį, pagrindas tipą ir dulkių ištraukimo išdėstymą. Be angų diskas nėra susiję su angų pagrindu ištraukimo raštas, ir atvirų tinklelio diskai reikalauja suderinamos pakoje ir ištraukimo sistemos."
+      },
+      "enquiry": {
+        "title": "Paruoškite savo užklausą",
+        "body": "Įtraukite disko skersmenį, pagrindą, grūdelių sąrašą, kiekį pagal grūdelius ir dirbamosios medžiagos. Prašykite pavyzdžio įvertinimo, prieš patvirtindami gamintojo užsakymą."
+      }
+    },
+    "beltChecklist": {
+      "title": "Ką įtraukti į šlifavimo juostų užklausą",
+      "intro": "Aiški specifikacija padeda jūsų tiekėjui peržiūrėti tinkamumą ir paruošti naudingą kainoraštį.",
+      "start": {
+        "title": "Pradėkite nuo reikalavimo",
+        "body": "Nurodykite juostos ilgį ir plotį milimetrais. Pavadinkite mašinos modelį — mašinos specifikacijos ar senos juostos etiketės nuotrauka padeda."
+      },
+      "compat": {
+        "title": "Patvirtinkite suderinamumą",
+        "body": "Pridėkite dirbamosios medžiagos, pageidaujamo šlifuoskos, grūdelius, pagrindo reikalavimą ir sujungimo reikalavimus. Venkite šlifuoskų pasirinkimo vien pagal juostos spalvą."
+      },
+      "enquiry": {
+        "title": "Paruoškite savo užklausą",
+        "body": "Išvardinkite kiečius pagal dydžius ir grūdelius, pakavimo pageidavimus, paskirtį ir numatomą pristatymo dieną. Galutinis kainoraštis patvirtins specifikaciją, prieinamumą, mokėjimo terminus ir transporto išdėstymus."
+      }
+    },
+    "gritSequence": {
+      "title": "Grūdelių sekos planavimas paviršiaus paruošimui",
+      "intro": "Pradėkite nuo dirbamosios ir numatomos apdailos, tada įvertinkite seką pavyzdyje.",
+      "start": {
+        "title": "Pradėkite nuo reikalavimo",
+        "body": "Stori grūdeliai greitai pašalina medžiagą ir palieka gilius bruožos; smulkūs grūdeliai tobulina paviršių. Pradinis taškas priklauso nuo pagrindo, trūkio gylis ir šalinimo reikalavimo."
+      },
+      "compat": {
+        "title": "Patvirtinkite suderinamumą",
+        "body": "Mažinkite grūdelius tvarka ir tikrinkite gabalą kiekviename etape. Praleidant grūdelius, lieka bruožos, sunkiai šalinamos, ir valymas tarp etapų išvengia storių grūdelių tarimo."
+      },
+      "enquiry": {
+        "title": "Paruoškite savo užklausą",
+        "body": "Grūdelių numeriai nėra keičiami tarp gradavimo sistemų. Patvirtinkite gradavimo standarto, šlifuoskos tipo ir prieinamumą pagal gradaciją su pasiūlymu, ir sekite mašinos ir šlifuoskos saugumo instrukcijas."
+      }
+    },
+    "dustCollection": {
+      "title": "Dulkių surinkimas ir pako suderinamumas, paaiškinta",
+      "intro": "Angų raštas, atviri tinklelio diskai ir atsargos pakos turi atitikti jūsų ištraukimo konfigūraciją.",
+      "start": {
+        "title": "Pradėkite nuo reikalavimo",
+        "body": "Identifikuokite savo paką: angų skaičius, skersmuo ir ar ji naudojama su dulkių ištraukimo. Be angų diskai ir atviri tinklelio diskai elgiasi kitaip, nei daugia angų diskai."
+      },
+      "compat": {
+        "title": "Patvirtinkite suderinamumą",
+        "body": "Derinkite diskų angų išdėstymą su pako portais. Atvirų tinklelio diskai reikalauja suderinamos pakoje ir veiklios ištraukimo sistemos; PSA diskai reikalauja švarių pako paviršių."
+      },
+      "enquiry": {
+        "title": "Paruoškite savo užklausą",
+        "body": "Išvardinkite pako modelį, angų skaičių, disko dydžius ir grūdelių sąrašą, bei savo dulkių ištraukimo išdėstymą. Patvirtinkite pavyzdžio elgesį, prieš gamintojo užsakymą."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM etiketės ir pakavimas: ką paruošti",
+      "intro": "Pilnas aprašymas laikosi dizainą, etiketes ir dėžes grafike.",
+      "start": {
+        "title": "Pradėkite nuo reikalavimo",
+        "body": "Paruoškite savo logotipo ir etiketės dizainą, tikslinį pakavimo formatą (vidinės maišos, dėžes), etiketių kalbą ir paskirties šalies žymėjimo taisykles."
+      },
+      "compat": {
+        "title": "Patvirtinkite suderinamumą",
+        "body": "OEM prieinamumas, minimalūs kiečiai, dizaino reikalavimai ir laikotarpiai priklauso nuo įgyvendinamumo peržiūros ir patvirtinto pasiūlymo."
+      },
+      "enquiry": {
+        "title": "Paruoškite savo užklausą",
+        "body": "Pridėkite dizainą, nurodykite pakavimo kiečius ir dėžių žymėjimus, ir pateikite paskirtį ir laiką. Pavyzdžio patvirtinimas atliekamas prieš gamintoją."
+      }
+    },
+    "gritStandards": {
+      "title": "Grūdelių standarta: FEPA, ANSI ir ką reiškia jūsų sąrašas",
+      "intro": "Gradavimo sistemos nėra keičiamas — pavadinkite standarto kiekvienoje užklausoje.",
+      "start": {
+        "title": "Pradėkite nuo reikalavimo",
+        "body": "FEPA (ISO 848) ir senesnis ANSI mastas skaičiuoja panašaus dydžio grūdeliai skirtingai; P120 ir 120 grūdelių nėra visada vienodi. Pavadinkite standarto, kurį pirkote."
+      },
+      "compat": {
+        "title": "Patvirtinkite suderinamumą",
+        "body": "Patvirtinkite gradavimo standartą, šlifuoskos tipą ir prieinamumą pagal gradaciją su pasiūlymu. Ne sumaišykite gradavimo sistemų viename grūdelių sąraše."
+      },
+      "enquiry": {
+        "title": "Paruoškite savo užklausą",
+        "body": "Nurodykite standarto (pvz., FEPA P60–P800), kiekį pagal gradaciją ir paskirtį. Patvirtinkite galutinį gradacijų sąrašą su pasiūlymu, prieš užsakymą."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Labiausia paplitusi šlifuoskų grūdeliai juostoms ir diskams: tvirtas, lankstus, tinka metalui, medžiui ir bendrui apdaila."
+    },
+    "ansi": {
+      "def": "Lekėjinė Šiaurės Amerikos grūdelių numeracija. Panašaus dydžio grūdeliai skiriasi nuo FEPA masto — pavadinkite standarto kiekvienoje užklausoje."
+    },
+    "backing-cloth": {
+      "def": "Medvilnės/drabu pagrindo, kuris neša šlifuoskų grūdelius juostose. Svoris (pvz., X-klasse) nustato lankstumą ir apkrovos kapacitetą."
+    },
+    "backing-poly": {
+      "def": "Polimero-medvilnės pagrindo: stiprumas ir lankstumo balansas bendro naudojimo juostoms."
+    },
+    "belt": {
+      "def": "Nuolatinis šlifuoskų grūdelių ciklas, kuris nešamas pagrindo, naudojamas su juostų mašinoms poliravimui, apdailai ir ašulių šalinimui."
+    },
+    "blend": {
+      "def": "Virimo siūlės, kuri pavyzdžio į aplinkinį metalą — paprastai pirmasis praejimas faneruotojo disko ar juostos, tada smulkūs grūdeliai."
+    },
+    "closed": {
+      "def": "Uždarojo padengimo grūdelių išdėstymas, su mažai atvirų erdvių; juosta atlaiko įsiskverbimo, darbo metu."
+    },
+    "debur": {
+      "def": "Ašulių ir mažų iškylių, paliktos kirpimo, pjovimo ar poliravimo, šalinimas."
+    },
+    "dust": {
+      "def": "Šlifuoskų dulkių, dirbant su gabalu, šalinimas — per pako angas, atvirų tinklelio diskus ar lokalų ištraukimo."
+    },
+    "flap": {
+      "def": "Diskas, su persidengiančiais šlifuoskų fanerais, lankstus, poliravimui, poliravimui ir apdailai su kampinių poliravimo mašinoms."
+    },
+    "fepa": {
+      "def": "ISO 848 (FEPA) gradavimo mastas, P-žymėjimas (pvz., P120). Pagalvoji mastas, daugelio Europos ir tarptautinių prekybos."
+    },
+    "grit": {
+      "def": "Šlifuoskos grūdelių vardiklinis dydis: didesni skaičiai yra smulkesni. Juostoms 40–800; diskams 60–5000."
+    },
+    "hookloop": {
+      "def": "Velkro pritvirtinimo sistema diskams: diskas įsifeša į velkro pakoje."
+    },
+    "mesh": {
+      "def": "Atviro tinklelio diskai turi iškirptas langas, per kuriuos praeina dulkes, reikalauja suderinamos pakoje ir ištraukimo."
+    },
+    "moq": {
+      "def": "Minimalus užsakymo kiekis — atsiųsiamas su pasiūlymu, kartu su prieinamumu ir sąlygomis."
+    },
+    "oem": {
+      "def": "Pirmojo įrangos gamintojas / savosios prekės ženklo: mūsų produktai, su jūsų prekiu ženklu, etiketėmis ir pakavimu."
+    },
+    "psa": {
+      "def": "Slėgio jautrių klijų pagrindas: diskas įsifeša tiesiogiai į suderinamos pakos."
+    },
+    "disc": {
+      "def": "Plokščias ar faneruotų šlifuoskos apskritimas, įmontuojamas pakos, šlifuojimui ir apdailai."
+    },
+    "sic": {
+      "def": "Kilmės karbido grūdeliai: labai kieti, aštri, tinka stiklui, keramikai ir nenešamiems metalams."
+    },
+    "prep": {
+      "def": "Paviršiaus paruošimas dangai ar apdailai: ruskos, plyšių ar senos apdailos šalinimas, iki nuoseklio profilio."
+    },
+    "wetdry": {
+      "def": "Gradacijos, kurios lieka atvėsusios ir neįsiskverbančios, drėgnas arba drėgnas/sausas naudojimo; patvirtinkite tinkamumą su pasiūlymu."
+    },
+    "xweight": {
+      "def": "Vidutinio svorio drabu pagrindo, bendro naudojimo juostoms: stiprus, bet lankstus."
+    },
+    "zirconia": {
+      "def": "Cirkonijos-aliuminio grūdeliai: tvirti ir agresyvūs metalo poliravimui, ašulių šalinimui ir apdailai su plienu."
+    },
+    "pad": {
+      "def": "Pagrindo plokštė, ant kurios diskas sėdi: pakos skersmuo, paviršius (velkro) ir angų išdėstymas turi atitikti diską."
+    }
+  },
+  "footer": {
+    "blurb": "Šlifavimo priemonės pramonės pirkėjams, platintojams ir savosios prekės ženklo savininkams.",
+    "products": "Produktai",
+    "explore": "Pakilkite MoTai",
+    "connect": "Susisiekite",
+    "aboutUs": "Apie mus",
+    "mfgQ": "Gamintojas ir kokybė",
+    "oemPl": "OEM ir savosios prekės ženklo",
+    "newsB": "Naujienos ir blogas",
+    "privacy": "Privatumo politika",
+    "terms": "Naudojimo sąlygos",
+    "shipping": "Pristatymas ir grąžinimas",
+    "contactUs": "Kontaktai"
+  },
+  "tdk": {
+    "home": {
+      "title": "Šlifuoskų gamintojas ir pramoninis šlifuoskų tiekėjas | MoTai",
+      "description": "Profesionalus šlifuoskų gamintojas Kinijoje, teikiantis šlifavimo juostas, šlifavimo diskus ir faneruotus diskus. Gamykloje didmeninė prekyba, OEM personalizavimas ir pramoniniai šlifuoskų sprendimai tarptautiniams platintojams ir pirkėjams.",
+      "keywords": "šlifuoskų gamintojas, šlifuoskų tiekėjas, pramoninės šlifuoskos, šlifavimo juostos, šlifavimo diskai, faneruotai diskai, šlifavimo juostų gamintojas, šlifuoskų didmeninė prekyba"
+    },
+    "about": {
+      "title": "Apie MoTai — šlifuoskų gamintojas ir gamykla Hubei, Kinija",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. yra padengtų šlifuoskų gamintojas, Xianning, Hubei: šlifavimo juostos, šlifavimo diskai ir faneruotai diskai su OEM, individualiais dydžiais, didmeniniais kiečiais ir eksportu.",
+      "keywords": "šlifuoskų gamintojas Kinijoje, šlifuoskų tiekėjas Kinijoje, šlifuoskų gamykla, padengtų šlifuoskų gamintojas, šlifuoskų eksportuotojas, B2B šlifuoskų tiekėjas"
+    },
+    "factory": {
+      "title": "Šlifuoskų gamyba ir QC — MoTai gamykla Hubei",
+      "description": "MoTai šlifuoskų dirbtuvės viduje: apdorojimas ir kirpimas, pavyzdžių tikrinimas, QC ir OEM pakavimas šlifavimo juostoms, šlifavimo diskams ir faneruotiems diskams.",
+      "keywords": "šlifuoskų gamyba, šlifuoskų gamyklos QC, šlifuoskų apdorojimas, OEM šlifuoskų pakavimas"
+    },
+    "oem": {
+      "title": "Šlifuoskų OEM gamintojas ir savosios prekės ženklas | MoTai",
+      "description": "Šlifuoskų OEM ir savosios prekės ženklo gamyba: jūsų logotipai, etiketės, dydžiai ir pakavimas MoTai juostoms, diskams ir faneruotiems diskams, vertinamas pagal jūsų patvirtintą specifikaciją.",
+      "keywords": "šlifuoskų OEM gamintojas, savosios prekės ženklo šlifuoskos, individualūs šlifuoskų produktai, šlifuoskų OEM tiekėjas"
+    },
+    "applications": {
+      "title": "Pramoninės šlifuoskos pagal pritaikymą — metalas, medis, automobiliai ir kt.",
+      "description": "Derinkite MoTai šlifavimo juostas, šlifavimo diskus ir faneruotus diskus su savo pritaikymu: metalo poliravimas, medžio šlifavimas, automobilio korpusas, nerūdijančio plieno apdaila, laivų statyba ir paviršiaus paruošimas.",
+      "keywords": "šlifuoskų pritaikymai, metalo poliravimas, medžio šlifavimas, paviršiaus paruošimas, pramoninis paviršiaus paruošimas"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Metalo konstrukcijų šlifuoskos — poliravimas ir ašulių šalinimas | MoTai",
+        "description": "Šlifuoskos metalo konstrukcijoms: metalo poliravimas, ašulių šalinimas ir virimo siūlių poliravimas su MoTai šlifavimo juostomis, tinklelio ir faneruotais diskais.",
+        "keywords": "metalo konstrukcijų šlifuoskos, metalo poliravimas, metalo ašulių šalinimas, virimo siūlių poliravimas"
+      },
+      "woodworking": {
+        "title": "Medžio ir platių juostų šlifavimo šlifuoskos | MoTai",
+        "description": "Šlifuoskos medžiui ir baldams: platių juostų šlifavimas, medinių plokščių ir MDF šlifavimas su MoTai šlifavimo juostomis ir diskais.",
+        "keywords": "medžio šlifuoskos, platių juostų šlifavimas, medžio šlifavimas, baldų šlifavimas"
+      },
+      "automotive": {
+        "title": "Automobilių remontui šlifavimas — automobilio korpusas ir dažai | MoTai",
+        "description": "Šlifuoskos automobilių remontui: automobilio korpuso šlifavimas, automobilių dažų ir gruntų šlifavimas su MoTai PSA ir velkro diskais.",
+        "keywords": "automobilių šlifuoskos, automobilio korpuso šlifavimas, automobilių dažų šlifavimas, gruntų šlifavimas"
+      },
+      "stainless-steel": {
+        "title": "Nerūdijančio plieno apdaila ir poliravimas šlifuoskomis | MoTai",
+        "description": "Šlifuoskos nerūdijančiam plienui: metalo poliravimas, paviršiaus poliravimas ir apdaila su MoTai faneruotais diskais ir juostomis.",
+        "keywords": "nerūdijančio plieno apdaila, metalo poliravimas, paviršiaus poliravimas, nerūdijančio plieno šlifuoskos"
+      },
+      "shipbuilding": {
+        "title": "Laivų statybos šlifuoskos — plieno lakštas ir rūsio šalinimas | MoTai",
+        "description": "Stiprios šlifuoskos laivų statybai: plieno lakšto poliravimas, rūsio šalinimas ir pramoninis paviršiaus paruošimas su MoTai juostomis ir faneruotais diskais.",
+        "keywords": "laivų statybos šlifuoskos, plieno lakšto poliravimas, rūsio šalinimas, didelio krūvio poliravimas"
+      },
+      "surface-preparation": {
+        "title": "Pramoninis paviršiaus paruošimas ir poliravimas šlifuoskomis | MoTai",
+        "description": "Pramoniniai šlifuoskų sprendimai paviršiaus paruošimui, apdailai ir didelės apkrovos poliravimui per MoTai juostas, diskus ir faneruotus diskus.",
+        "keywords": "paviršiaus paruošimas, paviršiaus apdaila, pramoninis poliravimas, šlifuoskų sprendimai"
+      }
+    },
+    "blog": {
+      "title": "Šlifuoskų pirkimo vadovėliai ir grūdelių standartai | MoTai žinios",
+      "description": "Praktiniai šlifuoskų pirkimo ištekliai: diskų pagrindo pasirinkimas, juostų užklausos sąrašai, grūdelių sekvencija, dulkių surinkimas ir grūdelių standartai (FEPA/ANSI).",
+      "keywords": "šlifuoskų pirkimo gidas, grūdelių pasirinkimas, šlifuoskų terminija, FEPA ANSI grūdelių standartai"
+    },
+    "contact": {
+      "title": "Susisiekite su MoTai — šlifuoskų tiekėjas Kinijoje",
+      "description": "Susisiekite su MoTai šlifuoskų tiekėju, Xianning, Hubei: telefono numeris, el. paštas ir WhatsApp didmeninėms ir OEM šlifuoskų užklausoms, bei gamyklos vizitai.",
+      "keywords": "šlifuoskų tiekėjo kontaktai, šlifuoskų didmeninė užklausa, šlifuoskų gamintojas Kinijoje"
+    },
+    "privacy": {
+      "title": "Privatumo politika",
+      "description": "Kaip MoTai Abrasives naudoja užklausos informaciją: rinkimas, tikslas, laikymas, jūsų pasirinkimai ir slapukų tvarkymas.",
+      "keywords": "privatumo politika, MoTai"
+    },
+    "terms": {
+      "title": "Naudotvos sąlygos — MoTai Abrasives",
+      "description": "Šios B2B šlifuoskų svetainės sąlygos: užklausų tvarkymas, vertinimo pagrindu kainos, intelektinė nuosavybė ir vikinamos teismas.",
+      "keywords": [
+        "naudojimo sąlygos",
+        "MoTai",
+        "B2B šlifuoskų tiekėjas"
+      ]
+    },
+    "shipping": {
+      "title": "Pristatymo ir grąžinimo politika — šlifuoskų užsakymai | MoTai",
+      "description": "MoTai šlifuoskų pristatymo ir grąžinimo politika: gamintojo laikas, eksporto pakavimas, Incoterms, muitinės dokumentai, siuntimas ir kada pagal specifikaciją pagamintos prekės gali būti grąžinamos ar kredituojamos.",
+      "keywords": "šlifuoskų pristatymo politika, šlifuoskų grąžinimo politika, didmeninė šlifuoskų pristatymo, šlifuoskų Incoterms, eksporto pakavimas, pristatymo sąlygos"
+    },
+    "quote": {
+      "title": "Užsakyti didmeninį šlifuoskų vertinimą | MoTai",
+      "description": "Paruoškite savo didmeninę ar OEM šlifuoskų užklausą: verslo detalės ir produktas, dydis, grūdeliai, kiekis ir paskirtis. Didmenininkų šlifuoskos vertinamos gamykloje tiesiogiai.",
+      "keywords": "didmeninis šlifuoskų vertinimas, didieji šlifuoskų tiekimas, OEM šlifuoskų užklausa, didmeninė šlifuoskos"
+    },
+    "clients": {
+      "title": "Šlifuoskų produktų eksportuotojas — globalus tiekimas iš Hubei, Kinija | MoTai",
+      "description": "MoTai eksportuoja šlifavimo juostas, šlifavimo diskus ir faneruotus diskus į septyni paskirties regionus: Europą, Ameriką, Artimuosius Rytus, Afriką, Okeaniją ir Aziją.",
+      "keywords": "šlifuoskų produktų eksportuotojas, šlifuoskų eksportas, globalus šlifuoskų tiekimas, pramoninis šlifuoskų tiekėjas"
+    },
+    "glossary": {
+      "title": "Šlifuoskų terminija — grūdeliai, pagrindas, diskų terminai",
+      "description": "24 šlifuoskų terminai apibrėžiami: FEPA grūdeliai, pagrindai, velkro, PSA, atviro tinklelio, ašulių šalinimas ir kt.",
+      "keywords": "šlifuoskų terminija, grūdelių standartai, šlifuoskų terminai"
+    },
+    "product": {
+      "title": "MoTai {name} — didmeninė ir OEM šlifuoskos",
+      "description": "MoTai {name} ({material}, {category}): {desc} Dydžiai: {sizes}. Grūdeliai: {grits}. Gamykloje tiesioginė didmeninė ir tiekimas.",
+      "keywords": "{name}, {category} gamintojas, {material} šlifuoskos, didmeninė šlifuoskos, OEM šlifuoskos"
+    },
+    "model": {
+      "title": "{model} šlifavimo juosta — MoTai",
+      "description": "MoTai serijos {model} šlifavimo juostų dėmesio modelis — plotis, ilgis, grūdeliai ir pagrindas nustatomi kartu su vertinimu. Didmeninė ir OEM tiekimas.",
+      "keywords": "{model} šlifavimo juosta, šlifavimo juostos modelis, didmeninės šlifavimo juostos"
+    },
+    "disc": {
+      "title": "MoTai {title} — didmeninė ir OEM",
+      "description": "MoTai diskų {title} versija: grūdelių diapazonas, skersmuo ir pritvirtinimas nustatomi kartu su vertinimu. Gamykloje tiesioginė didmeninė ir OEM.",
+      "keywords": "šlifavimo diskas, velkro šlifavimo diskas, PSA šlifavimo diskas, tinklelio šlifavimo diskas, didmeninės šlifavimo diskai"
+    },
+    "flap": {
+      "title": "MoTai {name} — faneruotų diskų gamintojas",
+      "description": "MoTai {name}: {backing} pagrindo šlifuoskų faneruotis diskas, poliravimui, apdailai ir metalo apdailai. Didmeninė ir OEM tiekimas.",
+      "keywords": "faneruotai diskai, {backing} pagrindo faneruotai diskai, cirkonijos faneruotai diskai, faneruotų diskų gamintojas, didmeninės faneruotai diskai"
+    },
+    "colt": {
+      "belts": {
+        "title": "Šlifavimo juostų gamintojas ir didmeninis tiekėjas | MoTai",
+        "description": "Platūs ir pramoniniai šlifavimo juostos 533×75 iki 2200×1330 mm, grūdeliai 40–800, aliuminio oksidu, cirkonija ir silicio karbidas — su dėmesio modeliais GXK-51, XZ-330, GPC71 ir kt. Gamykloje tiesioginė didmeninė ir OEM.",
+        "keywords": "šlifavimo juostos, medžio šlifavimo juostos, metalo šlifavimo juostos, aliuminio oksido šlifavimo juostos, cirkonijos šlifavimo juostos, silicio karbido šlifavimo juostos, GXK-51 šlifavimo juosta, 533x75 šlifavimo juosta"
+      },
+      "discs": {
+        "title": "Šlifavimo diskų gamintojas — PSA, velkro ir tinklelio | MoTai",
+        "description": "Velkro, PSA, tinklelio ir be angų šlifavimo diskai, nuo 3 iki 6 colio, grūdeliai 60–5000, automobilio korpusui, medžiui ir metalo apdailai. Gamykloje tiesioginė didmeninė ir OEM.",
+        "keywords": "šlifavimo diskai, šlifavimo diskų gamintojas, didmeninės šlifavimo diskai, velkro šlifavimo diskai, PSA šlifavimo diskai, tinklelio šlifavimo diskai, neaustiniai šlifavimo diskai, perforuotieji šlifavimo diskai"
+      },
+      "flap": {
+        "title": "Faneruotų diskų gamintojas — cirkonija ir aliuminio oksidas | MoTai",
+        "description": "MoTai šlifuoskų faneruotai diskai su plastikiniu, plieniniu ir stikla-pluošto pagrindu, iš cirkonijos ir aliuminio oksido, metalo poliravimui, ašulių šalinimui ir apdailai. Didmeninė ir OEM tiekimas.",
+        "keywords": "faneruotai diskai, cirkonijos faneruotai diskai, aliuminio oksido faneruotai diskai, stikla-pluošto pagrindo faneruotai diskai, 115mm faneruotai diskai, 125mm faneruotai diskai, faneruotų diskų gamintojas, didmeninės faneruotai diskai"
+      },
+      "all": {
+        "title": "Šlifuoskų produktų didmeninė prekyba — juostos, diskai ir faneruotai diskai | MoTai",
+        "description": "Pilnas MoTai šlifuoskų katalogas: pramoninės šlifavimo juostos, šlifavimo diskai ir faneruotai diskai, platintojams, importuotojams, didmenininkams ir OEM prekės ženklams. Gamykloje tiesioginė didmeninė, individualizavimas ir eksportas iš Hubei, Kinija.",
+        "keywords": "šlifuoskų produktai, šlifuoskų didmeninė prekyba, pramoninės šlifuoskos, padengtos šlifuoskos, didmeninė šlifuoskos, šlifuoskų eksportuotojas, šlifuoskų OEM gamintojas, savosios prekės ženklo šlifuoskos"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Greitas kontaktas",
+    "whatsapp": "WhatsApp",
+    "quote": "Užsakyti vertinimą"
+  }
+}

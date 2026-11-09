@@ -224,7 +224,16 @@
     "ctaTitle": "Konuyu görüşerek mi ilerlemek istersiniz?",
     "ctaSub": "Güvenilir bir aşındırıcı tedarikçi mi arıyorsunuz?",
     "cta1": "Toptan Teklif Talep Edin",
-    "cta2": "WhatsApp Üzerinden İletişime Geçin"
+    "cta2": "WhatsApp Üzerinden İletişime Geçin",
+    "galleryTitle": "Siparişinizin üretildiği yer",
+    "galleryIntro": "Aynı atölye, onaylanan her sipariş için kesimi, numune kontrolünü ve paketlemeyi üstlenir.",
+    "gallery1Title": "Üretim atölyesi",
+    "gallery1Text": "Zımpara bantları ve diskilerin dönüştürüldüğü, kontrol edildiği ve paklandığı kapalı çalışma alanı.",
+    "gallery2Title": "Tesis ve yükleme sahası",
+    "gallery2Text": "Kutular, hedef bölgenize sevkiyetten önce yerinde paletlenir ve yüklenir.",
+    "gallery3Title": "Bitti stok",
+    "gallery3Text": "Bantlar ve diskiler onaylanan spesifikasyona göre kutulanır — tane, boyut ve paketleme listesi.",
+    "galleryNote": "Fotoğraflar genel yönlendirme için fabrika tarafından sağlanır; sipariş spesifik görseller değildir. Ürün videoları, görüntüler yayınlandığında burada görünür."
   },
   "oem": {
     "h1": "Koli üzerinde kendi adınız",

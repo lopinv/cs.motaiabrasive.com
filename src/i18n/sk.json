@@ -224,7 +224,16 @@
     "ctaTitle": "Uprednostňujete osobný rozhovor?",
     "ctaSub": "Hľadáte spoľahlivého dodávateľa brúsnych produktov?",
     "cta1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",
-    "cta2": "Kontaktujte nás cez WhatsApp"
+    "cta2": "Kontaktujte nás cez WhatsApp",
+    "galleryTitle": "Kde sa vyrába váš objednávok",
+    "galleryIntro": "Ten istý dielňa zaisťuje rezanie, kontrolu vzoriek a balenie každého potvrdeného objednávku.",
+    "gallery1Title": "Produkčná dielňa",
+    "gallery1Text": "Priehlbá pracovná plocha, kde sa brúsne pásky a brúsne kotúče spracúvajú, kontrolujú a balia.",
+    "gallery2Title": "Závod a nakladačný priestor",
+    "gallery2Text": "Krabice sa paletizujú a nakladajú na mieste pred odoslaním do vášho cieľového regiónu.",
+    "gallery3Title": "Hotové produkty",
+    "gallery3Text": "Pásky a kotúče sa balia podľa potvrdeného špecifikácie — zrnitosť, rozmery a baliaci list.",
+    "galleryNote": "Fotografie poskytuje továreň ako všeobecnú orientáciu; nejde o obrázky konkrétneho objednávku. Produkty sa tu objavia po publikácii."
   },
   "oem": {
     "h1": "Vaše meno na obale",

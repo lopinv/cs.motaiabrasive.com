@@ -3,7 +3,35 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
-## [1.2.1] - 2026-11-09
+## [1.3.0] - 2026-11-09
+
+### Added
+
+- 新增 15 个语种子站：`lt`（立陶宛）/ `lv`（拉脱维亚）/ `et`（爱沙尼亚）/
+  `sl`（斯洛文尼亚）/ `hr`（克罗地亚）/ `sr`（塞尔维亚，西里尔）/ `ca`（加泰罗尼亚）/
+  `nl`（荷兰）/ `uk`（乌克兰，西里尔）/ `el`（希腊）/ `hu`（匈牙利）/ `ro`（罗马尼亚）/
+  `bg`（保加利亚，西里尔）/ `tl`（菲律宾）/ `bn`（孟加拉）。站点从 27 → 42 语种，
+  全站 i18n / 语言切换器 / hreflang（45 条）/ sitemap / Merchant feed / 博客侧栏
+  门禁均自动扩到 42。
+  Why: 覆盖北欧、东欧、西/南欧与南亚的工业采购市场，扩大 B2B 询盘触达面。
+- 15 语种 i18n 载荷（`.zcode-check/locales-v2/*.json`，各 670 键）与
+  `src/i18n/*.json`（生成器 `gen-new-locales.cjs` 深克隆 en + 应用载荷）；机翻口径，
+  待母语审校（沿用 11 老语种既有惯例）。占位符 / 数组结构 / 专有名词保留均通过
+  `key-parity` + `verify-i18n` 双门禁。
+- 制造页「工厂画廊」模块（3 张带图 value-card）的 `factory.gallery*` 9 个 i18n 键
+  补齐到全部 42 语种（en 基线 + 26 老语种 + 15 新语种），使全站键树一致、
+  `key-parity` 门禁通过。
+
+### Changed
+
+- `gen-new-locales.cjs` 的 CODES 锁定为仅 15 个新语种：原 16 个既有语种的载荷是
+  部分载荷（缺后补的 `home.articles*`/`blogSidebar*`/`blogPager*` 等 34 键），重跑会
+  用英文值覆盖其译文造成回退，故生成器只对新 15 个完整载荷生效。
+- `verify-locales-live.cjs` LANGS 27→42、alternate-link 断言 30→45（42 + es-MX/pt-BR +
+  x-default）；`verify-i18n.cjs` 变音符号抽查集纳入 13 个新非 ASCII 语种。
+- `version` bump 1.2.1 → 1.3.0（feat 新增语种，MINOR，SemVer）。
+
+
 
 ### Changed
 

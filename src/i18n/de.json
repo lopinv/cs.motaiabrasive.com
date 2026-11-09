@@ -224,7 +224,16 @@
     "ctaTitle": "Raten Sie lieber direkt?",
     "ctaSub": "Auf der Suche nach einem zuverlässigen Abriebsmittel-Lieferanten?",
     "cta1": "Großhandelsangebot anfragen",
-    "cta2": "Per WhatsApp kontaktieren"
+    "cta2": "Per WhatsApp kontaktieren",
+    "galleryTitle": "Wo Ihre Bestellung entsteht",
+    "galleryIntro": "Derselbe Betrieb übernimmt Zuschnitt, Musterkontrolle und Verpackung für jede bestätigte Bestellung.",
+    "gallery1Title": "Produktionswerkstatt",
+    "gallery1Text": "Überdachte Arbeitsfläche, an der Schleifriemen und -scheiben konvertiert, geprüft und verpackt werden.",
+    "gallery2Title": "Halle und Ladebereich",
+    "gallery2Text": "Kartons werden vor der Versendung an Ihren Bestimmungsort gepallettisiert und geladen.",
+    "gallery3Title": "Fertigware",
+    "gallery3Text": "Riemen und Scheiben werden nach der bestätigten Spezifikation verpackt — Körnung, Größe und Packliste.",
+    "galleryNote": "Fotos werden von der Fabrik zur allgemeinen Orientierung bereitgestellt; sie sind keine bestellungsspezifischen Bilder. Produktvideos erscheinen hier, sobald das Filmmaterial veröffentlicht ist."
   },
   "oem": {
     "h1": "Ihre Marke auf dem Karton",

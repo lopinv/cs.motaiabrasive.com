@@ -1,0 +1,1001 @@
+{
+  "code": "tl",
+  "name": "Filipino",
+  "codeLabel": "PH",
+  "htmlLang": "tl",
+  "ogLocale": "tl_PH",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Mga wholesale inquiry",
+    "oemNote": "Mga inquiry sa OEM packaging",
+    "size": "Laki",
+    "grit": "Laki ng grit",
+    "quantity": "Hinahangaging bili",
+    "requirements": "Mga kailangan sa espesipikasyon at packaging",
+    "requirementsPh": "Ipaalam sa amin ang iyong gamit, mga espesipikasyon, at kailangan sa pagpapadala.",
+    "material": "Materyales na abrasive",
+    "backing": "Backing / attachment",
+    "availability": "Ang pagkakaroon, minimum order quantity, at mga kondisyon sa komersyo ay nakadepende sa pagpapatunay sa quotation.",
+    "sampleNote": "Ipaalam sa amin aling produkto at laki ng grit ang gusto mong i-evaluate. Ang aming sales team ang magpapatunay ng availability ng sample, ang presyo ng sample, at ang mga paraan ng pagpapadala.",
+    "gritsRange": "Saklaw ng grit",
+    "holes": "Mga butas",
+    "diameter": "Diameter / nominal na sukat",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Wika",
+    "home": "Home",
+    "about": "Tungkol sa amin",
+    "manufacturing": "Manufacturing",
+    "oem": "Mga serbisyong OEM",
+    "news": "Balita",
+    "knowledge": "Kaalaman",
+    "contact": "Makipag-ugnayan sa amin",
+    "products": "Mga produkto"
+  },
+  "colt": {
+    "belts": {
+      "title": "Mga Abrasive Belt - Wholesale & OEM",
+      "desc": "Mga pulang abrasive belt sa mga dokumentadong sukat mula 533 x 75 mm hanggang 2200 x 1330 mm. Grit 40-800. May mga reference model. Karapat-dapat ang mga wholesale at OEM inquiry.",
+      "label": "Mga Abrasive Belt"
+    },
+    "discs": {
+      "title": "Mga Sanding Disc - Wholesale & OEM",
+      "desc": "PSA, hook & loop, open-mesh, at walang-butang sanding disc mula 3 hanggang 6 pulgada. Grit 60-5000. Karapat-dapat ang mga wholesale at OEM inquiry.",
+      "label": "Mga Sanding Disc"
+    },
+    "flap": {
+      "title": "MOTAI Flap Disc",
+      "desc": "Mga flap disc na may plastic, steel, at fiberglass na backing para sa paghambog, pag-blend, at pagpapaliwanag ng metal. Pangkati-tuklasin ang mga espesipikasyon, bulk supply, at OEM packaging sa quotation.",
+      "label": "Mga Flap Disc"
+    },
+    "all": {
+      "title": "Lahat ng Produkto",
+      "desc": "Buong katalogo ng abrasive ng MoTai: mga abrasive belt, sanding disc, at flap disc para sa mga manlilíhok sa industrial, distributor, at private-label brand.",
+      "label": "Lahat ng Produkto"
+    }
+  },
+  "cta": {
+    "quote": "Kumuha ng Wholesale Quote",
+    "quoteArrow": "↗",
+    "sample": "Kumuha ng Sample",
+    "whatsapp": "WhatsApp Inquiry",
+    "waChat": "Makipag-ugnayan sa pamamagitan ng WhatsApp",
+    "explore": "Tingnan ang saklaw ng flap disc",
+    "viewAll": "Tingnan ang lahat ng produkto",
+    "discuss": "Pag-usapan ang Iyong Espesipikasyon",
+    "oemQuote": "Kumuha ng OEM Quotation"
+  },
+  "home": {
+    "eyebrow": "Mga abrasive mula sa pabrika ng MoTai sa Hubei",
+    "heroTitle": "Propesyonal na Tagagawa at Tagapag-supply ng Abrasive",
+    "heroSub": "Mula sa pabrika: mga abrasive belt, sanding disc, at flap disc para sa mga manlilíhok sa industrial, distributor, at private-label brand - mula Hubei, China hanggang sa iyong merkado.",
+    "cta1": "Kumuha ng Wholesale Quote",
+    "cta2": "Makipag-usap sa aming team sa WhatsApp",
+    "builtTitle": "Piliin ang gamit. Hanapin ang tumutugang abrasive.",
+    "builtSub": "Piliin ang gamit, at hanapin ang tumutugang abrasive: mga belt, disc, o flap disc.",
+    "featuredTitle": "Nasa katalogo",
+    "featuredSub": "Ang mga sukat at grit ay nakadokumento sa katalogo; ang MOQ at availability ay kasama sa offer.",
+    "partnerTitle": "Ang supply na bahagi ng iyong order ng abrasive",
+    "partnerBody": "Ang Hubei MoTai Abrasives Materials Co., Ltd. ang nag-aalok ng mga abrasive na gamit para sa paggawa ng kahoy, metal, at automotive - kasama ang mga OEM at private-label na programa para sa mga distributor at manlilíhok sa industrial sa buong mundo.",
+    "partnerCta": "Alamin tungkol sa MoTai",
+    "valuesTitle": "Anim na paraan ng pakikipagkalasalian ng mga B2B manlilíhok sa amin",
+    "valuesSub": "Anim na dahilan kung bakit magkaugnayan ang mga importer at OEM brand sa amin.",
+    "v1t": "Diretso sa Pabrika",
+    "v1b": "Presyo at lead time mula sa tagapag-supply, walang middleman.",
+    "v2t": "OEM & Private Label",
+    "v2b": "Ang iyong logo, label, at packaging ay nakabatay sa pinatunayang espesipikasyon.",
+    "v3t": "Mga Sukat at Grit na Custom",
+    "v3b": "Mga dokumentadong sukat at grit 40-800 sa mga belt, 60-5000 sa mga disc.",
+    "v4t": "Pagsusuri ng Sample at QC",
+    "v4b": "Surihin ang ibabaw, backing, at fitness ng sample bago ang order.",
+    "v5t": "Bulk Supply",
+    "v5b": "Mga katatag na bilang ng laman ng carton at detalye ng packing list.",
+    "v6t": "Programa sa Export",
+    "v6b": "Mga carton mark, label, at dokumento ng lugar na paparating.",
+    "processTitle": "Mga hakbang mula espesipikasyon hanggang order",
+    "processSub": "Apat na yugto mula kailangan hanggang patunay na order.",
+    "p1t": "Pagsasakupin at pag-converting",
+    "p1b": "Tuklasin ang kailangang hugis, dimensyon, at grit bago i-ayos ang converting process.",
+    "p2t": "Pagsusuri ng sample",
+    "p2b": "Surihin ang ibabaw ng abrasive, backing, at fitness ng sample bago patunayan ang espesipikasyon ng order.",
+    "p3t": "OEM at packing",
+    "p3b": "Tuklasin ang bilang ng pack, label, carton mark, at private-label artwork kasama ang quotation.",
+    "p4t": "Pagpaplano ng shipment",
+    "p4b": "Pagsasundo ng packing list, kailangan ng pallet, at detalye ng lugar bago ipadala.",
+    "oemTitle": "Ang pangalan mo sa carton",
+    "oemSub": "Ibahagi ang iyong kailangan sa produkto, packaging, at brand para sa susunod mong saklaw ng abrasive.",
+    "oemCta": "Tuklasin ang mga serbisyong OEM",
+    "faqTitle": "Bago simulan",
+    "faqSub": "Mga sagot sa madalas na tinatanong ng mga manlilíhok.",
+    "regionsTitle": "Mula Hubei hanggang sa iyong merkado",
+    "regionsSub": "Global na supply ay ayon sa rehiyon ng destination.",
+    "regionsNote": "Ang MOQ at lead time ay patunayin sa iyong quotation. Ang mga ruta ay gabay lamang; ang availability at kondisyon ay patunayin sa quotation.",
+    "factoryTitle": "Hanapin kami sa Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. I-ayos ang bisita sa pabrika at tuklasin ang magmaong puntso sa aming team.",
+    "finalTitle": "Naghahanap ka ba ng maaasahan na tagapag-supply ng abrasive?",
+    "finalBody": "Ibahagi ang iyong produkto, bili, at gamit - suriin namin ang iyong mga kailangan at ipangandaring ang angkop na quotation.",
+    "finalCta1": "Kumuha ng Wholesale Quote",
+    "finalCta2": "Makipag-ugnayan sa pamamagitan ng WhatsApp",
+    "beltsShowTitle": "Mga abrasive belt, ayon sa model",
+    "beltsShowSub": "Mga reference model para sa pag-usap sa aming team.",
+    "articlesEyebrow": "Mga resources ng manlilíhok",
+    "articlesTitle": "Mga gabay mula sa aming technical team",
+    "articlesSub": "Paano pinipili ng mga manlilíhok ang grit, backing, at packing bago mag-order.",
+    "articlesCta": "Tingnan ang lahat ng gabay",
+    "prepTitle": "Ihanda ang iyong wholesale inquiry",
+    "prepSub": "Ang dimensyon, grit, at bili ang gagawin ang natitirang gawain.",
+    "prepDim": "Mga dimensyon",
+    "prepDimText": "Sukat o reference ng model sa milimetro.",
+    "prepGrit": "Grit",
+    "prepGritText": "Ang kailangang grado o finish.",
+    "prepQty": "Bili",
+    "prepQtyText": "Tinatayang dami at packaging."
+  },
+  "purchasing": {
+    "eyebrow1": "Gabay sa paglilíhok",
+    "title1": "Ihanda ang iyong wholesale inquiry",
+    "body1": "Ibahagi ang kailangang dimensyon, grit, workpiece, makina, at gusto mong mabuting finish. Gamitin ang mga dokumentadong pagpipilian sa itaas kung meron; suriin namin ang ibang mga kailangan.",
+    "dl1t": "Bili at destination",
+    "dl1b": "Ipaalam ang bili, kailangan sa packaging, at lugar na paparating.",
+    "dl2t": "Supply at kondisyon",
+    "dl2b": "Ang pagkakaroon, minimum order quantity, at mga komersyal na kondisyon ay nakadepende sa pagpapatunay sa quotation.",
+    "dl3t": "Mga inquiry sa OEM packaging",
+    "dl3b": "Branding, label, custom na sukat, at kailangan sa packing.",
+    "eyebrow2": "Paano mag-inquire",
+    "title2": "Mula pagpili ng produkto hanggang quotation",
+    "s1t": "Piliin ang produkto",
+    "s1b": "Piliin ang produkto o model at kailangang espesipikasyon.",
+    "s2t": "Ibahagi ang iyong mga kailangan",
+    "s2b": "Ibahagi ang bili, gamit, at kailangan sa packaging.",
+    "s3t": "Surihin ang iyong quotation",
+    "s3b": "Tuklasin ang huling espesipikasyon at komersyal na kondisyon sa aming team."
+  },
+  "modelPage": {
+    "eyebrow": "Mga abrasive belt · Reference model",
+    "refLabel": "Reference ng model",
+    "familyLabel": "Kategorya",
+    "dimsLabel": "Dimensyon ng binuong belt - tukuyin ang lapad x haba sa mm",
+    "dimsPlaceholder": "hal. 533 x 75 mm",
+    "gritLabel": "Kailangang grit - tukuyin ang kailangang grado o finish",
+    "gritPlaceholder": "hal. P60",
+    "qtyLabel": "Hinahangaging bili",
+    "specLabel": "Mga kailangan sa espesipikasyon at packaging",
+    "discussion": "Pag-usapan ang model na ito sa aming team gamit ang iyong workpiece, makina, at kailangang finish.",
+    "grainBacking": "Grain at backing - tuklasin ang tagagawa ng materyales at eksaktong grado.",
+    "disclaimer": "Ang mga detalye ng model ay reference lamang sa pagpili; ang supply spec ng MoTai, availability, at fit ay tuklasin sa iyong quotation."
+  },
+  "discPage": {
+    "eyebrow": "Mga sanding disc · Dokumentadong baryasyon",
+    "gritsNote": "Mga pagpipilian ng grit para sa baryasyong ito"
+  },
+  "flapPage": {
+    "eyebrow": "Mga flap disc · Baryasyon ng backing",
+    "color": "Kulay",
+    "gritNote": "P40-P60 at P80-P120 ay halimbawa lamang sa pagpili, hindi pinatunayang saklaw ng supply ng MoTai."
+  },
+  "productPage": {
+    "specTitle": "Mga espesipikasyon",
+    "howTitle": "Paano isama ang espesipikasyon ng iyong order",
+    "howBody": "Isama ang sukat ng belt o disc, listahan ng grit, model ng makina, materyal ng workpiece, at bili. Ang malinaw na espesipikasyon ay matutugon kung paano suriin ang fit at ipangandaring ang kapaki-pakinabang na quotation - huwag pumili ng produkto gamit ang kulay lamang.",
+    "faqTitle": "Mga tanong ng manlilíhok"
+  },
+  "about": {
+    "h1": "Ang kompanya sa likod ng saklaw ng abrasive",
+    "sub": "Isang maingat na paraan sa supply ng abrasive.",
+    "bizTitle": "Ang aming negosyo",
+    "bizBody": "Ang Hubei MoTai Abrasives Materials Co., Ltd. ay tagapag-supply ng mga abrasive na gamit para sa paggawa ng kahoy, metal, at automotive. Ang mga dokumentadong saklaw ay kasama ang mga walang butas na sanding disc, mesh na sanding disc, at pulang abrasive belt. Tinatanggap namin ang mga inquiry mula sa mga importer, distributor, manlilíhok sa retail, at manlilíhok sa industrial - produkto, backing, sukat, grado, bili, at kailangan sa pagdadaloy.",
+    "matTitle": "Mga materyales ng kompanya",
+    "matBody": "Tuklasin ang background ng kompanya at mga kontak sa aming brochure.",
+    "globalTitle": "Mula Hubei hanggang sa iyong merkado",
+    "globalSub": "Global na supply ay ayon sa rehiyon ng destination.",
+    "facTitle": "Hanapin kami sa Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. I-ayos ang bisita sa pabrika sa aming team at tuklasin ang magmaong puntso bago pumunta.",
+    "profileName": "Isang tingin",
+    "profileBody": "Tagagawa ng coated abrasives sa Xianning, Hubei: tatlong produkto line para sa pitong rehiyon ng destination, kasama ang saklaw ng grit mula 40 hanggang 5000.",
+    "ctaTitle": "Naghahanap ka ba ng maaasahan na tagapag-supply ng abrasive?",
+    "cta1": "Kumuha ng Wholesale Quote",
+    "cta2": "Makipag-ugnayan sa pamamagitan ng WhatsApp"
+  },
+  "factory": {
+    "h1": "Loob ng MoTai workshop",
+    "sub": "Mahalaga ang mga detalye. Sa bawat yugto.",
+    "intro": "Surihin ang pagsasakupin, pagsusuri ng sample, at detalye ng packing ng iyong order. Ang video ng produkto ay ipapakita kasama ang mga ilustrasyon ng proseso.",
+    "videoLabel": "Tingnan ang video ng produkto",
+    "stepsTitle": "Paggawa at pagpaplano ng order",
+    "stepsIntro": "Mula kailangan hanggang patunay na order.",
+    "st1t": "Pagsasakupin at pag-converting",
+    "st1b": "Tuklasin ang kailangang hugis, dimensyon, at grit bago i-ayos ang converting process.",
+    "st2t": "Pagsusuri ng sample",
+    "st2b": "Surihin ang ibabaw ng abrasive, backing, at fitness ng sample bago patunayan ang espesipikasyon ng order.",
+    "st3t": "OEM at packing",
+    "st3b": "Tuklasin ang bilang ng pack, label, carton mark, at private-label artwork kasama ang quotation.",
+    "st4t": "Pagpaplano ng shipment",
+    "st4b": "Pagsasundo ng packing list, kailangan ng pallet, at detalye ng lugar bago ipadala.",
+    "imgNote": "Ang oras at bilang ng pack ay pagkakasundoan sa quotation bago magsimula ang produksyon.",
+    "galleryTitle": "Kung saan ginagawa ang iyong order",
+    "galleryIntro": "Ang parehong workshop ang mag-aalaga ng pagsasakupin, pagsusuri ng sample, at packing ng bawat patunay na order.",
+    "gallery1Title": "Production workshop",
+    "gallery1Text": "Ang may bubong na lugar ng trabaho kung saan ginagawa, sinisiyasat, at kinakape ang mga abrasive belt at disc.",
+    "gallery2Title": "Tahanan ng pabrika at loading bay",
+    "gallery2Text": "Ipinapatad ang mga carton sa pallet at ibubutang sa loading bay bago ipadala sa iyong rehiyon.",
+    "gallery3Title": "Kumpletong stock",
+    "gallery3Text": "Ang mga belt at disc ay ilalagay sa kahon ayon sa pinatunayang espesipikasyon - grit, sukat, at packing list.",
+    "galleryNote": "Ang mga litrato ay mula sa pabrika para sa pangkalahatang gabay; hindi sila mga imahe na partikular sa order. Ang mga video ng produkto ay lalabas dito pagka-publish na ang footage.",
+    "qcTitle": "Mga quality checkpoint",
+    "qcIntro": "Kung ano namin ibibinyay bago lumabas ang order mula sa pabrika.",
+    "qc1t": "Ibabaw at grit",
+    "qc1b": "Ang pagkakatatag ng ibabaw ng abrasive ayon sa pinatunayang grado.",
+    "qc2t": "Backing at fit",
+    "qc2b": "Uri ng backing, timbang, at dimensional tolerance ng mga binuong belt at disc.",
+    "qc3t": "Packing at mark",
+    "qc3b": "Ang dami ng pack, label, carton mark, at private-label artwork ay tugma sa pinatunayang order.",
+    "ctaTitle": "Gusto mo bang ipag-usapan?",
+    "ctaSub": "Naghahanap ka ba ng maaasahan na tagapag-supply ng abrasive?",
+    "cta1": "Kumuha ng Wholesale Quote",
+    "cta2": "Makipag-ugnayan sa pamamagitan ng WhatsApp"
+  },
+  "oem": {
+    "h1": "Ang pangalan mo sa carton",
+    "sub": "Ipadala ang iyong mga kailangan sa produkto, packaging, at brand; balikan namin kayo ng OEM feasibility check.",
+    "briefTitle": "Ihanda ang inquiry ayon sa iyong brand",
+    "briefEyebrow": "Dalhin ang iyong brief",
+    "briefBody": "Pag-usapan ang iyong logo at label artwork, format ng packaging, sukat ng produkto, grado ng grit, at kasasasahang gamit. Ang availability ng OEM, minimum bili, kailangan ng artwork, at timeline ay nakadepende sa feasibility review at pinatunayang quotation.",
+    "itemsTitle": "Ang malinaw na brief ay maghatid ng kapaki-pakinabang na sagot",
+    "i1": "Produkto at espesipikasyon",
+    "i2": "Sukat at pagkahaluan ng grit",
+    "i3": "Artwork at label",
+    "i4": "Format ng packaging",
+    "i5": "Target na bili",
+    "i6": "Destination at oras",
+    "itemNote": "Isama ang iyong mga kailangan at reference files sa inquiry.",
+    "procTitle": "Mula inquiry hanggang supply",
+    "pr1t": "Ang iyong inquiry",
+    "pr1b": "Ipaalam sa amin ang iyong gamit at mga kailangan.",
+    "pr2t": "Spec check",
+    "pr2b": "Suriin ang mga sukat, grado, backing, at packaging.",
+    "pr3t": "Offer",
+    "pr3b": "Tuklasin ang mga komersyal na kondisyon at schedule.",
+    "pr4t": "Pag-approve ng sample",
+    "pr4b": "Surihin ang mga inaasawahang sample bago apruehin.",
+    "pr5t": "Produksyon",
+    "pr5b": "Magpatuloy ayon sa pinatunayang espesipikasyon.",
+    "pr6t": "Pagpapadala",
+    "pr6b": "Ayusin ang packing at destination.",
+    "cta1": "Kumuha ng Wholesale Quote",
+    "cta2": "Makipag-ugnayan sa pamamagitan ng WhatsApp"
+  },
+  "applications": {
+    "h1": "Mga abrasive para sa iyong industriya",
+    "sub": "Ang ibabaw ang humihubog sa espesipikasyon.",
+    "intro": "Anim na larangan ng gamit. Tukuyin ang materyales, makina, at kailangang finish - ating tutugmaang ang abrasive.",
+    "ctaNote": "Ang ilang imahe ay nilikha ng AI bilang ilustrasyon ng gamit, hindi litrato ng pabrika o kliyente ng MoTai.",
+    "sampleNote": "Ipaalam ang iyong industriya, bansa, espesipikasyon ng produkto, at tinatayang dami ng order kapag humihingi ng quote.",
+    "reqTitle": "Mga inirerekomendang produkto",
+    "reqNote": "Mga produkto family na gabay lamang para sa larangang ito. Tuklasin ang mga sukat, grit, at bili sa quotation.",
+    "specTitle": "Mga tip sa espesipikasyon",
+    "faqTitle": "Mga madalas na tinatanong",
+    "faqs": [
+      {
+        "q": "Aling grit ang dapat simulan?",
+        "a": "Simulan sa materyal ng workpiece, lalim ng kahinaan, at kailangang finish - ang malapit na grado ay mabilis na tumatanggal ng materyal, tapos bumaba ng grit at suriin ang ibabaw sa bawat yugto."
+      },
+      {
+        "q": "May puweng maghaluan ng iba't ibang grit sa isang order?",
+        "a": "Oo - isulat ang mga grit at bili bawat grado; ang availability at lead time ay ipabalik kasama ang offer."
+      }
+    ],
+    "ctaTitle": "Mag-espesipika para sa iyong larangan?",
+    "cta1": "Kumuha ng Wholesale Quote",
+    "cta2": "Makipag-ugnayan sa pamamagitan ng WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Mas magagandang impormasyon. Mas magagandang pagpili.",
+    "sub": "Pang-praktikal na resources ng manlilíhok para sa pagtalakay ng espesipikasyon ng abrasive.",
+    "updatedLabel": "I-update",
+    "governance": "Ang mga gabay ay isinulat at sinuri ng technical team ng MoTai Abrasives at muling suriin kapag nagbago ang espesipikasyon ng produkto."
+  },
+  "blogSidebar": {
+    "eyebrow": "Mga produkto",
+    "productsTitle": "Mga ibinubuwis na produkto",
+    "productsSub": "Ang mga sukat, grit, at backing ay nakadokumento bawat produkto; ang MOQ at availability ay kasama sa quotation.",
+    "viewAll": "Lahat ng produkto",
+    "servicesEyebrow": "Mga serbisyo",
+    "servicesTitle": "Mula pagpili hanggang supply",
+    "servicesSub": "Wholesale na supply, private-label na packing, at process check, tuklasin sa quotation.",
+    "serviceWholesale": "Wholesale quote",
+    "serviceOem": "OEM at private label",
+    "serviceManufacturing": "Manufacturing",
+    "serviceApplications": "Mga gamit",
+    "latestEyebrow": "Balita",
+    "latestTitle": "Mga bagong gabay",
+    "catDiscs": "Mga Sanding Disc",
+    "catBelts": "Mga Abrasive Belt",
+    "catFlap": "Mga Flap Disc"
+  },
+  "blogPager": {
+    "navLabel": "Mga pahinang blog",
+    "prev": "Nakaraang",
+    "next": "Susunod",
+    "pageOf": "Pahina {page} sa {total}",
+    "range": "Mga gabay {from}-{to} sa {count}"
+  },
+  "article": {
+    "watchTitle": "Tingnan",
+    "discuss": "Pag-usapan ang Iyong Espesipikasyon",
+    "catSelection": "Gabay sa pagpili",
+    "catBuyer": "Mga resources ng manlilíhok",
+    "catNotes": "Mga tala ng gamit",
+    "catOem": "Gabay sa OEM",
+    "reviewedBy": "Sinuri ng technical team ng MoTai Abrasives",
+    "lastReviewed": "Huling sinuri {date}",
+    "tocTitle": "Sa pahinang ito"
+  },
+  "contact": {
+    "h1": "Simulan ang usapang wholesale",
+    "sub": "Kumuha ng direkta mula sa pabrika na presyo ng wholesale para sa mga produkto ng abrasive.",
+    "directTitle": "Isang pakikipag-usap. Isang mas magagandang espesipikasyon.",
+    "directBody": "Ibahagi ang iyong produkto, bili, at gamit. Suriin namin ang iyong mga kailangan at tulungan namin kayo sa susunod na hakbang.",
+    "facTitle": "Hanapin kami sa Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Tuklasin ang eksaktong address ng bisita sa aming team bago kumilos.",
+    "visit": "I-ayos ang bisita sa pabrika",
+    "formTitle": "Wholesale / OEM inquiry",
+    "formNote": "Ang form na ito ay humihingi ng offer at hindi order. Ang mga inquiry ay pumapasala sa aming sales inbox; ang mga espesipikasyon at komersyal na kondisyon ay matatagpuan sa offer.",
+    "btn": "Buksan ang form ng inquiry ↗"
+  },
+  "privacy": {
+    "h1": "Ang impormasyon ng iyong inquiry",
+    "sub": "Paano ginagamit ng website na ito ang mga detalyeng gusto mong ibahagi.",
+    "s1t": "Mga kinukuha na impormasyon",
+    "s1b": "Mga detalye ng kontak, impormasyon ng kompanya, kailangan ng produkto, at mga na-attach na kasama sa inquiry. Ang naka-hash na identifier ng koneksyon ay humihigant sa mga abusive na pasadya.",
+    "s2t": "Layunin at akses",
+    "s2b": "Ginagamit ang mga detalye upang suriin at sagutin ang mga inquiry, ihanda ang mga quotation, at mag-ayos ng mga komersyal na usapan. Limitado ang akses sa awtorisadong administrator.",
+    "s3t": "Pag-iimbak at retention",
+    "s3b": "Ang mga tala ay nakatago sa aming hosting provider. Posibleng gawin ang datos sa labas ng iyong bansa. Ang pagpapanatili ay susundin ang negosyong susunod at tungkulin sa pagpapaanum ng tala; pwede mong humingi ng partikular na retention o pagtanggal.",
+    "s4t": "Mga pagpipilian mo",
+    "s4b": "Kontakin ang motai-01@motaiabrasive.com upang kahihin ang akses, pagtayo, o pagtanggal. Huwag magpadala ng sensitibong personal na datos o confidential na file na walang kaugnayan sa iyong inquiry.",
+    "s5t": "Mga cookie, link, at analytics",
+    "s5b": "Iimbak ng browser ang data sa pamamahala ng listahan ng inquiry. Ginagamit ng website na ito ang Google Analytics (gtag.js) para sa anonymised na estadistika ng paggamit; inilalagay ng Google ang cookie at pinroseso ang datos sa ilalim ng kanyang mga kondisyon sa proseso ng datos - pwede kang humindi sa https://support.google.com/analytics/answer/3452785. Ang mga eksternal na link ng WhatsApp, map, at social ay nababatyan ng kanilang sariling privacy policy.",
+    "updated": "Huling i-update 4 Nobyembre 2026"
+  },
+  "terms": {
+    "h1": "Mga Tuntunin sa Paggamit",
+    "sub": "Mga kondisyon na sumasailalim kapag ginamit mo ang website na ito at nagpapadala ng inquiry sa MoTai.",
+    "s1t": "Paggamit ng website na ito",
+    "s1b": "Ang website na ito ay B2B na serbisyo ng impormasyon at inquiry na tagapagpatakbong Hubei MoTai Abrasives Materials Co., Ltd. Ang mga nilalaman - mga espesipikasyon ng produkto, mga gabay, glossary, at blog - ay ipinapatayong maupit upang mapangalanan ang pangkalahatang impormasyon. Ang paggamit ng website ay ibig sabihin ay tinatanggap mo ang mga tuntunin na ito; kung hindi, huwag magsumite ng inquiry.",
+    "s2t": "Hindi offer ang mga inquiry",
+    "s2b": "Ang pagsumite ng form ng inquiry ay paanyaya sa negosyasyon, hindi order na may lakas. Hindi obligasyon ng MoTai na sumagot sa bawat inquiry, at walang pagbili na nakasalalay hangga't pinatunayan sa sulatan ang quotation ng parehong grupo.",
+    "s3t": "Mga quotation at presyo",
+    "s3b": "Lahat ng presyo ay nakabatay sa quotation. Nililitaan ng quotation ang mga sukat, grit, packaging, kondisyon ng kalakalan, at valid na period; ang huling presyo ay tugma sa pinatunayang espesipikasyon at nakadepende sa pagbago ng raw materials at shipping.",
+    "s4t": "Propiyedad ng isip",
+    "s4b": "Ang mga nilalaman ng website, paglalarawan ng produkto, mga grapiko, at ang brand ng MoTai ay ari kan MoTai Abrasives at hindi dapat i-copy sa komersyal na layunin. Ang mga reference mula sa iba (hal. source ng model) ay para sa oryentasyon ng manlilíhok lamang at hindi ibig sabihin ay pagpupayag.",
+    "s5t": "Liyab na at batas na tumutuntunin",
+    "s5b": "Hindi manatiling MoTai para sa mga desisyong nabuo sa pananagutan sa pangkalahatang impormasyon sa website na ito. Ang mga tuntunin na ito ay nababatyan ng batas ng Republika Pobleng Tsina; ang mga alitan ay lalaktawan sa ilalim ng kontrata sa pagbebenta sa pagitan ng mga grupo.",
+    "updated": "Huling i-update 3 Nobyembre 2026"
+  },
+  "shipping": {
+    "h1": "Policy sa Shipping at Balik-Bili",
+    "sub": "Paano lumalabas ang mga order mula sa aming pabrika, at bakit hindi babalik ang mga gawa sa espesipikasyon na abrasive.",
+    "shipTitle": "Policy sa shipping",
+    "shipSub": "Produksyon, packing, at pagpapadala ay kasama sa iyong quotation.",
+    "s1t": "Produksyon at lead time",
+    "s1b": "Ang mga abrasive belt, disc, at flap disc ay gagawin ayon sa espesipikasyon ng iyong order. Simula ng lead time sa araw na pinatunayan sa sulatan ang quotation, hindi sa araw na ipinadala ang inquiry. Ang mga standard na reference tulad ng GXK-51, XZ-330, at GPC71 ay may kasalukuyang stock; ang custom na sukat, grit, at OEM packaging ay ginawa sa order.",
+    "s2t": "Packing at mark",
+    "s2b": "Pakakapaki ang mga produkto sa export carton kasama ang tinagustong dami ng pack, label, carton mark, at - para sa mga OEM program - iyong artwork at barcode. Ang setup ng pallet ay kasama sa packing list. May fumigation o ISPM 15 mark kung kinakailangan ng bansang destination.",
+    "s3t": "Paraan ng shipping at Incoterms",
+    "s3b": "Yayari ang shipment sa daan ng dagat (FCL o LCL) o hangarin, ayon sa dami at destination. Nakasulat sa iyong quotation ang trade term - madalas gamitin ang EXW, FOB, CIF, CFR, DAP, at DDP. Pwede mong tukuyin ang sarili mong forwarder; maglilipat sila ng packing list, carton mark, at shipping documents ang MoTai.",
+    "s4t": "Mga dokumento at customs",
+    "s4b": "Bawat shipment ay kasama ang commercial invoice, packing list, at transport document. Ibibigay ang mga HS code at certificate of origin para sa iyong customs clearance. Ang import duty, buhis, at customs clearance sa bansang destination ay pagtutubayan ng manlilíhok maliban na DDP ang nakasulat sa quotation.",
+    "s5t": "Pagpapadala at delivery",
+    "s5b": "Ipinadala namin ang shipping advice na kasama ang halimbawa ng barko o flight number pag na-book na ang container o konsignmentasyon. Ang oras ng delivery ay nakadepende sa puerto o terekport ng destination at sa schedule ng carrier. Ang mga pauna dahil sa pagtagilad ng puerto, inspeksyon ng customs, o force majeure ay labas ng aming kontrol at iuulat sa inyo sa unang maharap.",
+    "retTitle": "Policy sa balik-bili",
+    "retSub": "Ginagawa ang aming produkto ayon sa tinagustong espesipikasyon, kaya limitado ang mga balik sa tiyak na kaso lamang.",
+    "r1t": "Mga produkto na gawa sa espesipikasyon",
+    "r1b": "Ginagawa ang mga produkto ng abrasive ayon sa iyong grit, sukat, backing, at espesipikasyon ng packaging. Dahil hindi nila maiuulit na mabenta bilang standard na stock, hindi babalik at hindi mabalik-pagbayaran ang mga pinatunayang custom order, maliban na hindi tugma sa pinatunayang espesipikasyon ang mga produkto.",
+    "r2t": "Mga stock items at pinsala sa transport",
+    "r2b": "Ang mga standard na reference item na hindi pa gamit at nasa orihinal na export packing ay maaaring i-return ayon sa bawat kaso pagkatuklasan namin ang dahilan at kondisyon ng pagbabalik. Ang mga produkto na nasira sa pagdaos ay ireport na kasama ang mga litrato sa loob ng 7 araw mula delivery, at ang mga claim sa insurance ng carrier ay haharapin gamit ang tinukoy na forwarder.",
+    "r3t": "Mga claim, inspeksyon, at credit",
+    "r3b": "Ang bawat claim ay dapat tumutukoy sa order number, packing list, at ang mga carton mark na may apektado. Kapag tinukoy ang kahinaan pagkatapos ng inspeksyon, pindutin ang apektadong bili o maglabas ng credit note laban sa invoice. Ang mga claim na isinumite 30 araw pagkatapos ng delivery ay hindi natanggap.",
+    "r4t": "Refund ng bayaran",
+    "r4b": "Kapag pinagkasunduhan ang credit, ang refund ay ipagpapatupad sa orihinal na nagbabayad gamit ang parehong paraan na ginamit sa order, pagkatapos mabuo o mawala ang balik o pagpindot. Ang mga singil ng bangko sa internasyonal na transfer ay dadalhin ng pumapatangi ng refund.",
+    "r5t": "Customs, duty, at compliance",
+    "r5b": "Ang mga hinihanging balik dahil sa import restrictions, duty, inspeksyon ng customs, o lokal na compliance rules ay taititinik na komersyal na alitan at hindi claim ng produkto, sapagkat ang mga produkto ay na-deliver ayon sa pinatunayang espesipikasyon.",
+    "updated": "Huling i-update 6 Nobyembre 2026",
+    "related": "Ang mga tuntunin sa shipping at balik-bili ay bahagi ng bawat quotation. Kung may iba't ibang tuntunin sa quotation, ang quotation na iyon ang mananatili.",
+    "contact": "Mga tanong tungkol sa shipment o claim: kontakin ang aming sales team kasama ang iyong order number at ang kaugnay na carton mark."
+  },
+  "quotePage": {
+    "h1": "Simulan ang usapang wholesale",
+    "sub": "Kumuha ng direkta mula sa pabrika na presyo ng wholesale para sa mga produkto ng abrasive.",
+    "note": "Ang form na ito ay humihingi ng quotation at hindi order. Ang mga patlang na may * ay kailangan.",
+    "sec1": "Ang iyong negosyo",
+    "f1": "Buong pangalan *",
+    "f2": "Pangalan ng kompanya *",
+    "f3": "Bansa *",
+    "f4": "Negosyo email *",
+    "f5": "Numero ng WhatsApp",
+    "f6": "Uri ng negosyo *",
+    "opt1": "Importer",
+    "opt2": "Distributor",
+    "opt3": "Wholesaler",
+    "opt4": "OEM brand",
+    "opt5": "Manlilíhok sa industrial",
+    "opt6": "Iba",
+    "sec2": "Mga kailangan ng produkto",
+    "f7": "Kategorya ng produkto",
+    "f8": "Model / reference ng produkto",
+    "f9": "Laki",
+    "f10": "Laki ng grit",
+    "f11": "Materyales",
+    "f12": "Bili",
+    "f13": "Packaging",
+    "f14": "Bansang destination *",
+    "f15": "Mga kailangan sa OEM",
+    "f16": "Dagdag na mensahe *",
+    "consent": "Tumanggap ako sa Privacy Policy, Tuntunin sa Paggamit, at sa paggamit ng aking mga detalye upang sagutin ang inquiry na ito. *",
+    "btn1": "Kumuha ng Wholesale Quote",
+    "btn2": "Ipada ang inquiry gamit ang WhatsApp",
+    "goNote": "Buksan ang form sa aming wholesale inquiry system kasama ang context ng iyong produkto na naka-prefill na."
+  },
+  "clients": {
+    "h1": "Saan pumupunta ang mga shipment ng MoTai",
+    "sub": "Mula Hubei hanggang pitong rehiyon ng destination.",
+    "note": "Ang mga logo ng kliyente at testimonial sa ibaba ay mga placeholder - palitan ang src/data/trust.json gamit ang mga naka-publish na materyal.",
+    "placeholderBadge": "Placeholder na halimbawa",
+    "statsTitle": "Supply sa isang tingin",
+    "statsNote": "Ang mga certification na nakalantad ay placeholder hangga't walang naka-publish na sertipiko."
+  },
+  "glossary": {
+    "h1": "Glossary ng abrasive",
+    "sub": "Mga termino sa likod ng bawat espesipikasyon ng belt, disc, at flap.",
+    "note": "Mga standard na kahulugan ng industriya para sa mga abrasive na gamit; ang mga detalye ng grado at backing ng order ay matatagpuan sa quotation.",
+    "reviewNote": "Sinuri ng technical team ng MoTai Abrasives ang mga termino - huling sinuri 3 Nobyembre 2026."
+  },
+  "trust": {
+    "regions": "Mga rehiyon ng destination",
+    "productLines": "Mga produkto line",
+    "gritRange": "Saklaw ng grit"
+  },
+  "video": {
+    "title": "Tingnan",
+    "cutting": {
+      "title": "Footage ng pagsasakupin at pag-converting",
+      "desc": "Pinatutubong video ng produkto: pagsasakupin at pag-converting ng sheet ng abrasive."
+    },
+    "sample": {
+      "title": "Footage ng pagsusuri ng sample",
+      "desc": "Pinatutubong video ng produkto: pagsusuri ng ibabaw, backing, at fitness ng sample."
+    },
+    "oem": {
+      "title": "Footage ng OEM packing",
+      "desc": "Bili ng pack, label, carton mark, at private-label artwork."
+    },
+    "flap": {
+      "title": "Footage ng saklaw ng flap disc",
+      "desc": "Ginagawang flap disc na may plastic, steel, at fiberglass na backing."
+    }
+  },
+  "wa": {
+    "generic": "Kumusta MoTai, gusto ko ng wholesale quotation para sa mga produkto ng abrasive.",
+    "product": "Kumusta MoTai, gusto ko ng wholesale quotation para sa {name} ({grits}).",
+    "model": "Kumusta MoTai, gusto ko ng wholesale quotation para sa model {model} ng abrasive belt.",
+    "disc": "Kumusta MoTai, gusto ko ng wholesale quotation para sa {title}.",
+    "sample": "Kumusta MoTai, gusto kong kahihin ng sample ng {name} para sa pagsusuri.",
+    "factory": "Kumusta MoTai, gustong ipag-alis ang mga detalye ng manufacturing at kalidad sa inyong team.",
+    "oem": "Kumusta MoTai, gustong pag-usapan ang OEM / private-label na programa ng abrasive.",
+    "contact": "Kumusta MoTai, gustong hanapin ang susunod kong order ng abrasive sa inyong team."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Buksan ang chat",
+    "close": "Isara",
+    "title": "MoTai - Live chat",
+    "status": "Sa WhatsApp kami ang sagot, karaniwan sa loob ng 24 oras.",
+    "greeting": "Kumusta! Paano kayo matutulungan sa iyong order ng abrasive? - MoTai sales team",
+    "placeholder": "Mag-type ng mensahe...",
+    "send": "Padala gamit ang WhatsApp",
+    "note": "Ang preview na ito ay walang live server: kapag ipinadala, ibubukas ang WhatsApp na may pre-filled na mensahe. Ang mga sagot ay magpatuloy sa usapan sa WhatsApp."
+  },
+  "location": {
+    "imgAlt": "Gusali ng pabrika ng MoTai sa Xianning, Hubei",
+    "imgCaption": "Pabrika ng MoTai - Xianning, Hubei, China",
+    "mapTitle": "Lokasyon ng pabrika ng MoTai sa Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Bago simulan",
+    "moq": {
+      "q": "Ano ang minimum order quantity?",
+      "a": "Ang MOQ ay sasabihin kasama ang offer, kasama ang availability at kondisyon."
+    },
+    "oem": {
+      "q": "Sinusuportehan niyo ang OEM at private label?",
+      "a": "Oo. Suriin ang logo, label, custom na sukat, at packing sa kakayahang mangyari, tapos tuklasin sa inyong offer."
+    },
+    "sizes": {
+      "q": "Anong sukat at grit ang inyong minamamana?",
+      "a": "Mga belt sa mga dokumentadong sukat mula 533 x 75 hanggang 2200 x 1330 mm (grit 40-800); disc 3-6 pulgada (grit 60-5000). Suriin namin ang mga custom na kailangan."
+    },
+    "samples": {
+      "q": "May puweng makuha ng sample muna ako?",
+      "a": "Oo. Hilingin ang sample, at ang aming sales team ang magpapatunay ng availability, singil, at paraan ng pagpapadala."
+    },
+    "lead": {
+      "q": "Gaano katagal ang lead time?",
+      "a": "Ang lead time ay nakadepende sa espesipikasyon at bili, at patunayin sa iyong quotation."
+    },
+    "packaging": {
+      "q": "Paano kinakapadlamin ang mga produkto?",
+      "a": "Ang dami ng pack, label, carton mark, at private-label artwork ay tuklasin sa quotation."
+    },
+    "payment": {
+      "q": "Anong kondisyon ng pagbabayad ang inyong ibinubuwis?",
+      "a": "Ang kondisyon ng pagbabayad ay bahagi ng pinatunayang quotation at usapan sa komersyo."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Anong espesipikasyon ang dapat ibigay ko?",
+      "a": "Ibahagi ang kailangang dimensyon, grit, workpiece, makina, at tinatawag na finish. Gamitin ang mga dokumentadong pagpipilian kung meron; suriin namin ang ibang mga kailangan."
+    },
+    "oem": {
+      "q": "Paano ko hihilingin ang OEM packaging?",
+      "a": "Isama ang iyong branding at kailangan sa packaging sa inquiry. Suriin at tuklasin ang detalye sa iyong quotation."
+    },
+    "order": {
+      "q": "Kung hihilingin ng quote, may order na?",
+      "a": "Hindi. Ang form ay nagsisimula ng wholesale inquiry. Ang mga espesipikasyon ng produkto, availability, at komersyal na kondisyon ay tuklasin bago ang pagtanggap ng order."
+    },
+    "sample": {
+      "q": "May puweng subukan ang sample bago mag-order nang buo?",
+      "a": "Oo. May mga sample ng standard na reference na maaaring i-evaluate kapag humihingi; ang availability ng sample at kondisyon ng freight ay tuklasin sa iyong quotation."
+    },
+    "lead": {
+      "q": "Gaano nakapila sa harap dapat ilagay ang order ng produksyon?",
+      "a": "Simula ng lead time sa araw na pinatunayan sa sulatan ang quotation at nakadepende sa sukat, grit, at packaging na na-order. Pinakamabilis mag-ship ang mga reference na may stock."
+    },
+    "beltSize": {
+      "q": "May puweng bigyan ng abrasive belt sa non-standard na sukat o haba?",
+      "a": "Ang lapad at haba ng belt na labas sa mga dokumentadong sukat ay mag-quote ayon sa bawat kaso; ang pag-converting sa custom na sukat ay makaka-apekto sa lead time at minimum order quantity."
+    },
+    "beltJoint": {
+      "q": "Anong joint at edge construction ng mga belt na ito?",
+      "a": "Ang uri ng joint at pagsasama ng gilid ay tukuyin bawat reference. Ituro ang makina, load, at kailangang finish upang ang tamang konstruksyon ang kasama ng presyo sa iyong quotation."
+    },
+    "discBacking": {
+      "q": "Paano ko piliin ang hook & loop, PSA, at mesh disc?",
+      "a": "Ang hook & loop ay akma sa madalas na pagbabago ng grit, ang PSA ay akma sa patag na pad at mahabang oras ng produksyon, at ang mga mesh disc ay akma sa paghihiwalay ng alikabok. Ang aming gabay sa pagpili ay ihahambing ang tatlo kasunod-sunod."
+    },
+    "discDust": {
+      "q": "Tumutugma ba ang mga disc na ito sa paghihiwalay ng alikabok?",
+      "a": "Ang mga mesh at perforated disc ay disenyado para sa paghihiwalay; ang mga solid disc ay maaaring bigyan ng butas kapag hinihiling. Ituro ang setup ng extraction at ang iyong gumagana ng pad."
+    },
+    "hookLoop": {
+      "q": "Tutugma ba ang mga hook & loop disc sa aking existing na backup pad?",
+      "a": "Ang diameter at pattern ng butas ay dapat tumugma sa pad. Tuklasin ang model ng iyong sander at diameter ng pad sa inquiry upang ang tamang disc ang magkakasalubong."
+    },
+    "psa": {
+      "q": "Gumagana ba ang mga PSA disc sa anumang backup pad?",
+      "a": "Kailangan ng PSA disc ang patag na malinis na rubber pad na may tugmang diameter. Tuklasin ang diameter ng pad at model ng makina sa iyong hiling ng quotation."
+    },
+    "mesh": {
+      "q": "Gaano katagal ang buhay ng isang mesh na abrasive disc?",
+      "a": "Lalong tinagusan ang mesh disc ng pag-ubos sa trabaho na maraming alikabok, na karaniwan ay nagpapalawak ng buhay kumpara sa mga solid na papel na disc. Ang tunay na buhay ay nakadepende sa materyal, presyon, at grit."
+    },
+    "solid": {
+      "q": "May puweng bigyan ng butas ang mga solid na disc para sa paghihiwalay ng alikabok?",
+      "a": "Oo - ang pattern ng pagsukas ay pagkakasundoan sa quotation. Ituro ang pad at setup ng extraction upang ang tamang pattern ang magkakasalubong."
+    }
+  },
+  "relArticles": {
+    "title": "Mga kaugnay na artikulo",
+    "sub": "Gabay ng manlilíhok para sa pamilya ng produkto na ito, mula sa technical team ng MoTai.",
+    "readMore": "Basahin ang artikulo",
+    "faqTitle": "Mga madalas na tinatanong",
+    "faqSub": "Mga karaniwang tinatanong ng mga manlilíhok bago mag-order ng produkto na ito."
+  },
+  "regions": {
+    "europe": {
+      "title": "Europe",
+      "body": "Iulat ang sukat, grit, backing, at files ng produkto; bigyan ang puerto ng destination at wika ng label."
+    },
+    "na": {
+      "title": "North America",
+      "body": "Ituro kung pulgada o metrikong sukat, uri ng attachment at dami ng pack; ZIP o puerto ng destination at paraan ng transport."
+    },
+    "sa": {
+      "title": "South America",
+      "body": "Sukat, dami ng mixed grit, at wika ng label ng carton; puerto ng destination at mga dokumento ng importer."
+    },
+    "me": {
+      "title": "Middle East",
+      "body": "Materyales, grit, at packaging na ligtas sa lamig; puerto ng destination at kondisyon ng quotation."
+    },
+    "africa": {
+      "title": "Africa",
+      "body": "Katuwiran sa makina, kailangang sukat, at dami ng pack; puerto ng destination, carton mark, at pinagpipiliang transport."
+    },
+    "oceania": {
+      "title": "Oceania",
+      "body": "Sukat, backing, packaging, at ZIP o puerto ng destination; mga kailangan sa import at packing."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Especipikasyon ng makina, saklaw ng grit, at paghahalo ng order; lungsod o puerto ng pagpapadala at label sa lokal na wika."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Pag-fab ng Metal",
+      "intro": "Pag-blend ng weld, pag-deburr, at pagpapaandam ng ibabaw ng metal.",
+      "uses": "Pag-blend ng weld · Pag-deburr · Pagpapaandam ng ibabaw",
+      "products": "Mga abrasive belt"
+    },
+    "wood": {
+      "title": "Paggawa ng Kahoy at Pabahay",
+      "intro": "Mga panel, paggawa ng pabahay, at pagpapaandam ng ibabaw bago ang lacquer.",
+      "uses": "Mga panel · Pabahay · Andam bago lacquer",
+      "products": "Mga abrasive belt · Mga sanding disc"
+    },
+    "auto": {
+      "title": "Pagsasalamin ng Automotive",
+      "intro": "Pag-sand ng body filler, andam bago ang pagpinta, at pag-ayos ng automotive finish.",
+      "uses": "Body filler · Bago ang spray · Pag-ayos ng finish",
+      "products": "Mga sanding disc"
+    },
+    "stainless": {
+      "title": "Pag-finish ng Stainless Steel",
+      "intro": "Mga hairline na finish, paglipat ng ibabaw, at pag-fab ng stainless steel.",
+      "uses": "Hairline · Paglipat · Pag-fab",
+      "products": "Mga abrasive belt"
+    },
+    "ship": {
+      "title": "Paggawa at Pagsasalamin ng Bangka",
+      "intro": "Paghambog ng metal, pagtanggal ng kalawang, at pagpapaandam ng ibabaw para sa marine maintenance.",
+      "uses": "Paghambog · Pagtanggal ng kalawang · Marine prep",
+      "products": "Mga abrasive belt"
+    },
+    "surface": {
+      "title": "Industrial na Pagpapaandam ng Ibabaw",
+      "intro": "Pagpapangasiwa at maintenance ng ibabaw sa industrial.",
+      "uses": "Pagpapangasiwa ng ibabaw · Maintenance",
+      "products": "Mga sanding disc"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop o PSA: piliin ang tamang backing",
+      "intro": "Ang attachment system ay kapantay na mahalaga sa grit. Itugma ito sa pad bago mag-order.",
+      "start": {
+        "title": "Simulan sa kailangan",
+        "body": "Ang mga hook & loop disc ay nakakabit sa kaangkop na hook face pad at akma sa operasyon na madalas magbago ang grit. Ang mga PSA disc ay nakasalalay sa pressure-sensitive adhesive at nangangailangan ng malinis, patag na pad. Hindi nila maaaring palitan ang isa't isa."
+      },
+      "compat": {
+        "title": "Tuklasin ang katuwiran",
+        "body": "Tuklasin ang diameter ng pad, uri ng backing, at layout ng dust extraction. Walang koneksyon ang walang-butang disc sa hole-based na pattern ng extraction, at kailangan ng mga open-mesh disc ang kaangkop na pad at extraction system."
+      },
+      "enquiry": {
+        "title": "Ihanda ang iyong inquiry",
+        "body": "Isama ang diameter ng disc, backing, listahan ng grit, bili bawat grit, at materyal ng workpiece. Hingin ang pagsusuri ng sample bago apruehin ang order ng produksyon."
+      }
+    },
+    "beltChecklist": {
+      "title": "Ano ang isama sa inquiry ng abrasive belt",
+      "intro": "Ang malinaw na espesipikasyon ay matutulungan ang tagapag-supply na suriin ang fit at ipangandaring ang kapaki-pakinabang na quotation.",
+      "start": {
+        "title": "Simulan sa kailangan",
+        "body": "Bigyan ang haba at lapad ng belt sa milimetro. Tukuyin ang model ng makina - ang sheet ng espesipikasyon ng makina o litrato ng lumang label ng belt ay tumutulong."
+      },
+      "compat": {
+        "title": "Tuklasin ang katuwiran",
+        "body": "Idagdag ang materyal ng workpiece, pinapili ng abrasive, grit, kailangan ng backing, at kailangan ng joint. Huwag pumili ng produkto gamit ang kulay ng belt lamang."
+      },
+      "enquiry": {
+        "title": "Ihanda ang iyong inquiry",
+        "body": "Ilista ang bili ayon sa sukat at grit, panaguri ng packaging, destination, at kailangang araw ng delivery. Patunayan ng huling quotation ang espesipikasyon, availability, kondisyon ng pagbabayad, at mga disposisyon sa transport."
+      }
+    },
+    "gritSequence": {
+      "title": "Pagpaplano ng grit sequence para sa pagpapaandam ng ibabaw",
+      "intro": "Simulan sa workpiece at kailangang finish, tapos suriin ang sequence sa sample.",
+      "start": {
+        "title": "Simulan sa kailangan",
+        "body": "Ang malapit na grit ay mabilis na tumatanggal ng materyal at naglilipat ng malalim na marga; ang pinong grit ay pinapaliwanag ang ibabaw. Ang simula ay nakadepende sa substrate, lalim ng kahinaan, at kailangan ng pagtatanggal."
+      },
+      "compat": {
+        "title": "Tuklasin ang katuwrin",
+        "body": "Bumaba ng grit ay ayon sa pagsasunod-sunod na pagbababa at suriin ang workpiece sa bawat yugto. Ang paghihingi ng grit ay naglilipat ng marga na mahirap tanggalin, at ang paglilinis sa pagitan ng mga yugto ay pinipigilan ang kontaminasyon ng malapit na grit."
+      },
+      "enquiry": {
+        "title": "Ihanda ang iyong inquiry",
+        "body": "Hindi pangatwa-ay ang numero ng grit sa pagitan ng mga grading system. Tuklasin ang grading standard, uri ng abrasive, at availability bawat grado sa quotation, at sundin ang mga utos sa kaligtasan ng makina at abrasive."
+      }
+    },
+    "dustCollection": {
+      "title": "Pag-angkop ng dust collection at pad, ipaliwanag",
+      "intro": "Ang pattern ng butas, open-mesh disc, at backer pad ay dapat tumugma sa iyong extraction setup.",
+      "start": {
+        "title": "Simulan sa kailangan",
+        "body": "Tukuyin ang iyong pad: bilang ng butas, diameter, at kung ginagamit ang dust extraction. Magkaiba ang galaw ng walang-butang disc at open-mesh disc kumpara sa mga multi-hole disc."
+      },
+      "compat": {
+        "title": "Tuklasin ang katuwiran",
+        "body": "Itugma ang layout ng butas ng disc sa mga port ng pad. Ang open-mesh disc ay nangangailangan ng kaangkop na pad at gumagaling na extraction system; ang PSA disc ay nangangailangan ng malinis na pad face."
+      },
+      "enquiry": {
+        "title": "Ihanda ang iyong inquiry",
+        "body": "Ilista ang model ng pad, bilang ng butas, sukat ng disc, at listahan ng grit, kasama ang disposisyon ng iyong dust extraction. Tuklasin ang kilos ng sample bago ang order ng produksyon."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM label at packaging: ano ang ihanda",
+      "intro": "Ang buong brief ang nagpapanatili sa artwork, label, at carton na nasa oras.",
+      "start": {
+        "title": "Simulan sa kailangan",
+        "body": "Ihanda ang iyong logo at label artwork, target na format ng pack (inner bags, cartons), wika ng label, at mga rule sa labeling ng bansang destination."
+      },
+      "compat": {
+        "title": "Tuklasin ang katuwiran",
+        "body": "Ang availability ng OEM, minimum bili, kailangan ng artwork, at timeline ay nakadepende sa feasibility review at pinatunayang quotation."
+      },
+      "enquiry": {
+        "title": "Ihanda ang iyong inquiry",
+        "body": "I-attach ang artwork, tukuyin ang dami ng pack at carton mark, at ituro ang destination at oras. Ang pag-approve ng sample ay nasa unang hakbang bago ang produksyon."
+      }
+    },
+    "gritStandards": {
+      "title": "Mga standard ng grit: FEPA, ANSI, at ibig sabihin ng listahan mo",
+      "intro": "Hindi pangatwa-ay ang mga grading system - tukuyin ang standard sa bawat inquiry.",
+      "start": {
+        "title": "Simulan sa kailangan",
+        "body": "Ang FEPA (ISO 848) at ang lumang ANSI scale ay magkakaiba ang pagbibilang ng katulad na sukat; ang P120 at ang 120 grit ay hindi laging pareho. Tukuyin ang standard na sinasadyang bilhin."
+      },
+      "compat": {
+        "title": "Tuklasin ang katuwiran",
+        "body": "Tuklasin ang grading standard, uri ng abrasive, at availability bawat grado sa quotation. Huwag haluan ang mga grading system sa isang listahan ng grit."
+      },
+      "enquiry": {
+        "title": "Ihanda ang iyong inquiry",
+        "body": "Ituro ang standard (hal. FEPA P60-P800), bili bawat grado, at destination. Tuklasin ang huling listahan ng grado sa quotation bago mag-order."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Ang pinakakaraniwang abrasive grain para sa mga belt at disc: matibay, madali gamitin, akma sa metal, kahoy, at pangkalahatang pagpapaliwanag."
+    },
+    "ansi": {
+      "def": "Lumang North American na numero ng grit. Ang katulad na sukat na grain ay magkaiba sa FEPA scale - tukuyin ang standard sa bawat inquiry."
+    },
+    "backing-cloth": {
+      "def": "Ang cotton/cloth na web na nagdadala ng abrasive grain sa mga belt. Ang timbang (hal. X-weight) ang nakakatukoy sa katawan at kakayahang magdala."
+    },
+    "backing-poly": {
+      "def": "Poly-cotton na web backing: pagtugma ng lakas at katawan para sa mga pangkalahatang belt."
+    },
+    "belt": {
+      "def": "Ang patuloy na koponan ng abrasive grain sa isang web backing, ginagamit sa mga belt machine sa paghambog, pagpapaliwanag, at pag-deburr."
+    },
+    "blend": {
+      "def": "Pagpapaliwanag ng weld upang ma-blend sa paligid na metal - karaniwan ang unang pambubura sa flap disc o belt, tapos mas pinong grit."
+    },
+    "closed": {
+      "def": "Ang malapit na grain layout na may kaunting bukas na espasyo; ang belt ay matagal na magsaabsorbs sa mas maligong trabaho."
+    },
+    "debur": {
+      "def": "Pagtanggal ng burr at maliit na naka-project na dahan na iwanan ng pagsasakop, pagsasaka, o paghambog."
+    },
+    "dust": {
+      "def": "Pagtanggal ng alikabok ng abrasive sa workpiece - sa pamamagitan ng mga port ng pad, open-mesh disc, o local na extraction."
+    },
+    "flap": {
+      "def": "Disco ng magkalapit na flap ng abrasive, malihus, para sa paghambog, pag-blend, at pagpapaliwanag sa angle grinder."
+    },
+    "fepa": {
+      "def": "Ang ISO 848 (FEPA) na grading scale sa P-notation (hal. P120). Ang default na scale sa karamihan ng European at internasyonal na kalakalan."
+    },
+    "grit": {
+      "def": "Ang nominal na laki ng grain ng isang abrasive: mas mataas na numero ay mas marama. Mga belt 40-800; disc 60-5000."
+    },
+    "hookloop": {
+      "def": "Ang hook-and-loop attachment system para sa mga disc: ang disc ay nakakabit sa hook face pad."
+    },
+    "mesh": {
+      "def": "Ang mga open-mesh disc ay may cut-out na bintana para dumampas ang alikabok, nangangailangan ng kaangkop na pad at extraction."
+    },
+    "moq": {
+      "def": "Minimum order quantity - kasama sa offer, kasama ang availability at kondisyon."
+    },
+    "oem": {
+      "def": "Original equipment manufacturing / private label: ang aming produkto sa ilalim ng iyong brand, label, at packaging."
+    },
+    "psa": {
+      "def": "Pressure-sensitive adhesive backing: ang disc ay nakakadikit sa kaangkop na pad."
+    },
+    "disc": {
+      "def": "Patag o flapped na bukas na circle na nakasabit sa pad para sa sanding at pagpapaliwanag."
+    },
+    "sic": {
+      "def": "Silicon carbide grain: napakakatigas, machin, akma sa salamin, ceramic, at non-ferrous metal."
+    },
+    "prep": {
+      "def": "Pagpapanday ng ibabaw para sa coating o pagpapaliwanag: pagtanggal ng kalawang, filler, o lumang finish hanggang sa consistent profile."
+    },
+    "wetdry": {
+      "def": "Mga grado na nananatiling malamig at matagal na magsaabsorbs sa wet o wet/dry na paggamit; tuklasin ang katanggap-tanggap sa quotation."
+    },
+    "xweight": {
+      "def": "Ang medium weight na cloth backing para sa mga pangkalahatang belt: matibay ngunit maliliit."
+    },
+    "zirconia": {
+      "def": "Zirconia alumina grain: matibay at agresibo para sa paghambog ng metal, pag-deburr, at pagpapaliwanag sa steel."
+    },
+    "pad": {
+      "def": "Ang backing plate na nakatayo ang disc: ang diameter ng pad, face (hook), at layout ng port ay dapat tumugma sa disc."
+    }
+  },
+  "footer": {
+    "blurb": "Mga abrasive na gamit para sa mga manlilíhok sa industrial, distributor, at private-label brand.",
+    "products": "Mga produkto",
+    "explore": "Tuklasin ang MoTai",
+    "connect": "Kumonektahin",
+    "aboutUs": "Tungkol sa Amin",
+    "mfgQ": "Manufacturing at Kalidad",
+    "oemPl": "OEM at Private Label",
+    "newsB": "Balita at Blog",
+    "privacy": "Privacy Policy",
+    "terms": "Tuntunin sa Paggamit",
+    "shipping": "Shipping at Balik-Bili",
+    "contactUs": "Makipag-ugnayan sa Amin"
+  },
+  "tdk": {
+    "home": {
+      "title": "Tagagawa ng Abrasive at Tagapag-supply ng Industrial na Abrasive | MoTai",
+      "description": "Propesyonal na tagagawa ng abrasive sa China na nag-aalok ng mga abrasive belt, sanding disc, at flap disc. Direkta mula sa pabrika na wholesale, OEM customization, at solusyon ng industrial na abrasive para sa mga distributor at manlilíhok sa buong mundo.",
+      "keywords": "tagagawa ng abrasive, tagapag-supply ng abrasive, industrial na abrasive, mga abrasive belt, mga sanding disc, mga flap disc, tagagawa ng abrasive belt, wholesale ng mga produkto ng abrasive"
+    },
+    "about": {
+      "title": "Tungkol sa MoTai - Tagagawa ng Abrasive at Pabrika sa Hubei, China",
+      "description": "Ang Hubei MoTai Abrasives Materials Co., Ltd. ay tagagawa ng coated abrasives sa Xianning, Hubei: mga abrasive belt, sanding disc, at flap disc na may OEM, custom sizing, bulk supply, at export.",
+      "keywords": "tagagawa ng abrasive sa China, tagapag-supply ng abrasive sa China, pabrika ng abrasive, tagagawa ng coated abrasives, exporter ng mga produkto ng abrasive, B2B tagapag-supply ng abrasive"
+    },
+    "factory": {
+      "title": "Manufacturing at QC ng Abrasive - MoTai Pabrika sa Hubei",
+      "description": "Loob ng workshop ng abrasive ng MoTai: converting at pagsasakupin, pagsusuri ng sample, QC, at OEM packing para sa mga abrasive belt, sanding disc, at flap disc.",
+      "keywords": "manufacturing ng abrasive, QC ng pabrika ng abrasive, converting ng abrasive, OEM packing ng abrasive"
+    },
+    "oem": {
+      "title": "Tagagawa ng OEM na Abrasive at Private Label | MoTai",
+      "description": "OEM at private-label na paggawa ng abrasive: ang iyong logo, label, sukat, at packaging sa mga belt, disc, at flap disc ng MoTai, mag-quote ayon sa iyong pinatunayang spec.",
+      "keywords": "tagagawa ng OEM na abrasive, private label na abrasive, custom na produkto ng abrasive, tagapag-supply ng OEM na abrasive"
+    },
+    "applications": {
+      "title": "Mga Industrial na Abrasive ayon sa Gamit - Metal, Kahoy, Automotive, at Iba Pa",
+      "description": "Itugma ang mga abrasive belt, sanding disc, at flap disc ng MoTai sa iyong gamit: paghambog ng metal, sanding ng kahoy, auto body, pagpapaliwanag ng stainless, paggawa ng bangka, at pagpapaandam ng ibabaw.",
+      "keywords": "mga gamit ng abrasive, paghambog ng metal, sanding ng kahoy, pagpapaandam ng ibabaw, industrial na pagpapaandam ng ibabaw"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Mga Abrasive para sa Pag-fab ng Metal - Paghambog at Pag-deburr | MoTai",
+        "description": "Mga abrasive para sa pag-fab ng metal: paghambog ng metal, pag-deburr, at paghambog ng weld seam gamit ang mga abrasive belt, mesh, at flap disc ng MoTai.",
+        "keywords": "abrasive sa pag-fab ng metal, paghambog ng metal, pag-deburr ng metal, paghambog ng weld seam"
+      },
+      "woodworking": {
+        "title": "Mga Abrasive para sa Paggawa ng Kahoy at Wide Belt Sanding | MoTai",
+        "description": "Mga abrasive para sa paggawa ng kahoy at pabahay: wide belt sanding, sanding ng wood panel at MDF gamit ang mga sanding belt at disc ng MoTai.",
+        "keywords": "abrasive sa paggawa ng kahoy, wide belt sanding, sanding ng kahoy, sanding ng pabahay"
+      },
+      "automotive": {
+        "title": "Sanding para sa Pagsasalamin ng Automotive - Auto Body at Paint | MoTai",
+        "description": "Mga abrasive para sa pagsasalamin ng automotive: sanding ng auto body, pag-sand ng pintura ng sasakyan at primer gamit ang mga PSA at hook & loop disc ng MoTai.",
+        "keywords": "abrasive sa automotive, sanding ng auto body, pag-sand ng pintura ng sasakyan, sanding ng primer"
+      },
+      "stainless-steel": {
+        "title": "Mga Abrasive para sa Pagpapaliwanag at Pagpolish ng Stainless Steel | MoTai",
+        "description": "Mga abrasive para sa stainless steel: pagpolish ng metal, paghambog ng ibabaw, at pagpapaliwanag gamit ang mga flap disc at belt ng MoTai.",
+        "keywords": "pagpapaliwanag ng stainless steel, pagpolish ng metal, paghambog ng ibabaw, abrasive sa stainless"
+      },
+      "shipbuilding": {
+        "title": "Mga Abrasive para sa Paggawa ng Bangka - Steel Plate at Pagtanggal ng Kalawang | MoTai",
+        "description": "Mga mabigat na tungkuhin na abrasive para sa paggawa ng bangka: paghambog ng steel plate, pagtanggal ng kalawang, at industrial na pagpapaandam ng ibabaw gamit ang mga belt at flap disc ng MoTai.",
+        "keywords": "abrasive sa paggawa ng bangka, paghambog ng steel plate, pagtanggal ng kalawang, mabigat na paghambog"
+      },
+      "surface-preparation": {
+        "title": "Industrial na Pagpapaandam ng Ibabaw at Paghambog na Mga Abrasive | MoTai",
+        "description": "Mga solusyon ng industrial na abrasive para sa pagpapaandam ng ibabaw, pagpapangasiwa ng ibabaw, at mabigat na paghambog sa mga belt, disc, at flap disc ng MoTai.",
+        "keywords": "pagpapaandam ng ibabaw, pagpapangasiwa ng ibabaw, industrial na paghambog, mga solusyon ng abrasive"
+      }
+    },
+    "blog": {
+      "title": "Mga Gabay ng Manlilíhok ng Abrasive at Mga Standard ng Grit | MoTai Knowledge",
+      "description": "Mga praktikal na resources ng manlilíhok ng abrasive: pagpili ng backing ng disc, checklist ng inquiry ng belt, pagkakasunod-sunod ng grit, pag-angkop ng alikabok, at mga standard ng grit (FEPA/ANSI).",
+      "keywords": "gabay ng manlilíhok ng abrasive, pagpili ng grit, glossary ng abrasive, mga standard ng grit FEPA ANSI"
+    },
+    "contact": {
+      "title": "Makipag-ugnayan sa MoTai - Tagapag-supply ng Abrasive sa China",
+      "description": "Ulitin ang MoTai abrasive supplier sa Xianning, Hubei: telepono, e-mail, at WhatsApp para sa wholesale at OEM abrasive inquiry, kasama ang mga bisita sa pabrika.",
+      "keywords": "kontak ng tagapag-supply ng abrasive, wholesale abrasive inquiry, tagagawa ng abrasive sa China"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Paano ginagamit ng MoTai Abrasives ang impormasyon ng inquiry: koleksyon, layunin, pag-iimbak, iyong mga pagpipilian, at paghahandle ng cookie.",
+      "keywords": "privacy policy, MoTai"
+    },
+    "terms": {
+      "title": "Tuntunin sa Paggamit - MoTai Abrasives",
+      "description": "Mga tuntunin para sa B2B na website ng abrasive na ito: pagpaproseso ng inquiry, quote-based na presyo, propiyedad ng isip, at batas na tumutuntunin.",
+      "keywords": [
+        "mga tuntunin sa paggamit",
+        "MoTai",
+        "B2B tagapag-supply ng abrasive"
+      ]
+    },
+    "shipping": {
+      "title": "Policy sa Shipping at Balik-Bili - Mga Order ng Abrasive | MoTai",
+      "description": "Policy sa shipping at balik-bili ng abrasive ng MoTai: lead time ng produksyon, export packing, Incoterms, dokumento ng customs, pagpapadala, at kapag maaaring i-return o i-credit ang mga produkto na gawa sa espesipikasyon.",
+      "keywords": "policy sa shipping ng abrasive, policy sa balik-bili ng abrasive, wholesale na pagpapadala ng abrasive, Incoterms ng abrasive, export packing, mga tuntunin sa shipping"
+    },
+    "quote": {
+      "title": "Humingi ng Wholesale na Quote ng Abrasive | MoTai",
+      "description": "Ihanda ang iyong wholesale o OEM na abrasive inquiry: detalye ng negosyo kasama ang produkto, sukat, grit, bili, at destination. Mag-quote ang bulk na supply ng abrasive na direktang mula sa pabrika.",
+      "keywords": "wholesale na quote ng abrasive, bulk na supply ng abrasive, OEM na abrasive inquiry, wholesale na abrasive"
+    },
+    "clients": {
+      "title": "Exporter ng Mga Produkto ng Abrasive - Global na Supply mula sa Hubei, China | MoTai",
+      "description": "Ina-export ng MoTai ang mga abrasive belt, sanding disc, at flap disc sa pitong rehiyon ng destination: Europe, ang mga Americas, Middle East, Africa, Oceania, at Asia.",
+      "keywords": "exporter ng mga produkto ng abrasive, export ng abrasive, global na supply ng abrasive, tagapag-supply ng industrial na abrasive"
+    },
+    "glossary": {
+      "title": "Glossary ng Abrasive - Grit, Backing, Mga Termino ng Disc",
+      "description": "24 termino ng abrasive na may kahulugan: FEPA grit, mga backing, hook & loop, PSA, open-mesh, pag-deburr, at iba pa.",
+      "keywords": "glossary ng abrasive, mga standard ng grit, mga termino ng abrasive"
+    },
+    "product": {
+      "title": "MoTai {name} - Wholesale at OEM na Abrasive",
+      "description": "MoTai {name} ({material}, {category}): {desc} Mga sukat: {sizes}. Grit: {grits}. Direkta mula sa pabrika na wholesale at OEM supply.",
+      "keywords": "{name}, tagagawa ng {category}, {material} na abrasive, wholesale na abrasive, OEM na abrasive"
+    },
+    "model": {
+      "title": "{model} na Abrasive Belt - MoTai",
+      "description": "Reference na model ng abrasive belt {model} mula sa saklaw ng MoTai - ang lapad, haba, grit, at backing ay tatagpuan sa quotation. Wholesale at OEM supply.",
+      "keywords": "{model} na abrasive belt, reference ng model ng abrasive belt, wholesale ng mga abrasive belt"
+    },
+    "disc": {
+      "title": "MoTai {title} - Wholesale at OEM",
+      "description": "Baryasyon ng disc ng MoTai {title}: ang saklaw ng grit, diameter, at attachment ay tatagpuan sa quotation. Direkta mula sa pabrika na wholesale at OEM.",
+      "keywords": "sanding disc, hook and loop disc, PSA disc, mesh disc, wholesale ng mga sanding disc"
+    },
+    "flap": {
+      "title": "MoTai {name} - Tagagawa ng Flap Disc",
+      "description": "MoTai {name}: {backing}-backed na abrasive flap disc para sa paghambog, pag-blend, at pagpapaliwanag ng metal. Wholesale at OEM supply.",
+      "keywords": "flap disc, {backing} backing na flap disc, zirconia na flap disc, tagagawa ng flap disc, wholesale ng mga flap disc"
+    },
+    "colt": {
+      "belts": {
+        "title": "Tagagawa at Wholesale na Tagapag-supply ng Mga Abrasive Belt | MoTai",
+        "description": "Mga malapad at industrial na abrasive belt na 533x75 hanggang 2200x1330 mm, grit 40-800, sa aluminum oxide, zirconia, at silicon carbide - kasama ang mga reference model na GXK-51, XZ-330, GPC71, at iba pa. Direkta mula sa pabrika na wholesale at OEM.",
+        "keywords": "mga abrasive belt, mga sanding belt, mga industrial na sanding belt, mga malapad na abrasive belt, mga malapad na sanding belt, mga sanding belt ng kahoy, mga sanding belt ng metal, mga abrasive belt ng aluminum oxide, mga abrasive belt ng zirconia, mga abrasive belt ng silicon carbide, tagagawa ng abrasive belt, tagapag-supply ng abrasive belt, wholesale ng mga abrasive belt, GXK-51 abrasive belt, XZ-330 abrasive belt, GPC71 abrasive belt, Y399 abrasive belt, Y999 abrasive belt, 533x75 abrasive belt, 610x100 abrasive belt, 1520x630 abrasive belt, 2200x1330 abrasive belt"
+      },
+      "discs": {
+        "title": "Tagagawa ng Sanding Disc - PSA, Hook & Loop, at Mesh | MoTai",
+        "description": "Hook & loop, PSA, mesh, at walang butas na sanding disc na 3 hanggang 6 pulgada, grit 60-5000, para sa auto body, kahoy, at pagpapangisi ng metal. Direkta mula sa pabrika na wholesale at OEM.",
+        "keywords": "mga sanding disc, mga abrasive sanding disc, hook and loop na sanding disc, PSA na sanding disc, mesh na sanding disc, non-woven na sanding disc, walang alikabok na sanding disc, perforated na sanding disc, mga sanding disc na may butas, 5 pulgada na sanding disc, 6 pulgada na sanding disc, tagagawa ng sanding disc, wholesale ng mga sanding disc"
+      },
+      "flap": {
+        "title": "Tagagawa ng Flap Disc - Zirconia at Aluminum Oxide | MoTai",
+        "description": "Mga abrasive flap disc ng MoTai na may plastic, steel, at fiberglass na backing, sa zirconia at aluminum oxide, para sa paghambog, pag-deburr, at pagpapaliwanag ng metal. Wholesale at OEM supply.",
+        "keywords": "mga flap disc, mga abrasive flap disc, mga zirconia flap disc, mga aluminum oxide flap disc, mga fiberglass backing na flap disc, mga plastic backing na flap disc, mga steel backing na flap disc, 100mm flap disc, 115mm flap disc, 125mm flap disc, 150mm flap disc, 180mm flap disc, tagagawa ng flap disc, tagapag-supply ng flap disc, wholesale ng mga flap disc"
+      },
+      "all": {
+        "title": "Wholesale ng Mga Produkto ng Abrasive - Mga Belt, Disc, at Flap Disc | MoTai",
+        "description": "Buong katalogo ng abrasive ng MoTai: mga industrial na abrasive belt, sanding disc, at flap disc para sa mga distributor, importer, wholesaler, at OEM brand. Direkta mula sa pabrika na wholesale, customization, at export mula Hubei, China.",
+        "keywords": "mga produkto ng abrasive, wholesale ng mga produkto ng abrasive, mga industrial na abrasive, mga coated abrasives, wholesale ng abrasive, pabrika ng mga produkto ng abrasive, exporter ng mga produkto ng abrasive, tagapag-supply ng abrasive sa China, tagagawa ng OEM na abrasive, private label na abrasive, custom na produkto ng abrasive, bulk na supply ng abrasive, pabrika ng abrasive, mga kasangkapan ng abrasive, mga materyales ng abrasive, mga produkto ng sanding, mga produkto ng pagpapaliwanag ng ibabaw, sandpaper, mga salamin ng sandpaper, bilog na sandpaper, wholesale ng sandpaper, sanding pad, hook and loop na sanding pad, 5 pulgada na sanding pad, 6 pulgada na sanding pad, non-woven na flap wheel, cloth na abrasive, industrial na roller brush"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Mabilis na kontak",
+    "whatsapp": "WhatsApp",
+    "quote": "Humingi ng quote"
+  }
+}

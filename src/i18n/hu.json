@@ -1,0 +1,1001 @@
+{
+  "code": "hu",
+  "name": "Magyar",
+  "codeLabel": "HU",
+  "htmlLang": "hu",
+  "ogLocale": "hu_HU",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Hurtos megkeresés",
+    "oemNote": "OEM csomagolású megkeresés",
+    "size": "Méret",
+    "grit": "Szemcse-finomság",
+    "quantity": "Kért mennyiség",
+    "requirements": "Specifikációs és csomagolási követelmények",
+    "requirementsPh": "Írja le az alkalmazási területét, specifikációit és szállítási követelményeit.",
+    "material": "Csiszolóanyag",
+    "backing": "Hordozó / rögzítés",
+    "availability": "Elérhetőség, minimális rendelési mennyiség és kereskedelmi feltételek az ajánlatban történő megerősítésig értelemszerűen érvényesek.",
+    "sampleNote": "Kérjük, jelölje meg, mely termékekből és csiszolási finomságokból szeretne mintát kapni. Vevésszolgálatunk megerősíti a mintaelérhetőséget, a minta díját és a szállítás módját.",
+    "gritsRange": "Szemcse tartomány",
+    "holes": "Lyukak",
+    "diameter": "Átmérő / névleges méret",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Nyelv",
+    "home": "Kezdőlap",
+    "about": "Rólunk",
+    "manufacturing": "Gyártás",
+    "oem": "OEM szolgáltatások",
+    "news": "Hírek",
+    "knowledge": "Ismeretterjesztés",
+    "contact": "Kapcsolat",
+    "products": "Termékek"
+  },
+  "colt": {
+    "belts": {
+      "title": "Csiszolószalagok — hurtos és OEM",
+      "desc": "Piros csiszolószalagok dokumentált méretben 533 × 75 mm-től 2200 × 1330 mm-ig. Szemcse 40–800. Referenciámodelljeink elérhetők. Hurtos és OEM megkereséseket szívesen fogadunk.",
+      "label": "Csiszolószalagok"
+    },
+    "discs": {
+      "title": "Vésőkorongok — hurtos és OEM",
+      "desc": "PSA, kampós-csákos, nyílthalmos (mesh) és lyuktalános csiszolókorongok 3–6 hüvelykes átmérőben. Szemcse 60–5000. Hurtos és OEM megkereséseket szívesen fogadunk.",
+      "label": "Csiszolókorongok"
+    },
+    "flap": {
+      "title": "MOTAI tálcalapos korongok",
+      "desc": "Tálcalapos korongok műanyag, acél és üvegszálas hordozóval, fémcsiszoláshoz, zongálásához és csiszolásához. A specifikáció, a tömeges szállítás és az OEM-csomagolás az ajánlatban történő megerősítésig érvényes.",
+      "label": "Tálcalapos korongok"
+    },
+    "all": {
+      "title": "Minden termék",
+      "desc": "A teljes MoTai csiszolószer-katalógus: csiszolószalagok, csiszolókorongok és tálcalapos korongok ipari vásárlóknak, forgalmazóknak és saját márkás termékeket kereső cégeknek.",
+      "label": "Minden termék"
+    }
+  },
+  "cta": {
+    "quote": "Hurtos ajánlatkérés",
+    "quoteArrow": "↗",
+    "sample": "Mintakérés",
+    "whatsapp": "WhatsApp megkeresés",
+    "waChat": "Kapcsolatfelvétel WhatsAppon",
+    "explore": "A tálcalapos korongok bemutatója",
+    "viewAll": "Minden termék megtekintése",
+    "discuss": "Specifikáció megbeszélése",
+    "oemQuote": "OEM ajánlatkérés"
+  },
+  "home": {
+    "eyebrow": "Csiszolószer MoTai gyárból, Hubei tartományban",
+    "heroTitle": "Professzionális csiszolószer-gyártó és -szállító",
+    "heroSub": "Gyári közvetítésű csiszolószalagok, csiszolókorongok és tálcalapos korongok ipari vásárlóknak, forgalmazóknak és saját márkás cégeknek — Hubei, Kína piacáról az Ön piacára.",
+    "cta1": "Hurtos ajánlatkérés",
+    "cta2": "Beszéljen a csapatunkkal WhatsAppon",
+    "builtTitle": "Válassza az alkalmazási területet. Párosítsa a csiszolószerhez.",
+    "builtSub": "Válassza az alkalmazási területet, majd jelölje meg a megfelelő csiszolószer típusát: szalag, korong vagy tálcalapos korong.",
+    "featuredTitle": "A katalógusban",
+    "featuredSub": "A méretek és szemcse-méret dokumentálva szerepelnek a katalógusban; az MOQ és az elérhetőség az ajánlattal együttesen érkezik.",
+    "partnerTitle": "Csiszolószerszállítás az Ön rendelése mögött",
+    "partnerBody": "A Hubei MoTai Abrasives Materials Co., Ltd. csiszolószereket szállít fa- és fémipari, valamint autógyári alkalmazásokhoz — OEM és saját márkás programokkal, forgalmazóknak és ipari vásárlóknak világszerte.",
+    "partnerCta": "Ismerje meg a MoTait",
+    "valuesTitle": "Hatszerep, ahogy a B2B-vevők együttműködnek velünk",
+    "valuesSub": "Hat ok, amiért importőrök és OEM-márkák választanak minket.",
+    "v1t": "Gyári közvetítés",
+    "v1b": "Gyári oldali árak és lead time, közvetítők nélkül.",
+    "v2t": "OEM és saját márkás",
+    "v2b": "A logója, címkéi és csomagolása a megerősített specifikáción.",
+    "v3t": "Egyedi méret és szemcse",
+    "v3b": "Dokumentált méret és szemcse 40–800-ig a szalagokon, 60–5000-ig a korongokon.",
+    "v4t": "Minta ellenőrzés és minőség",
+    "v4b": "Ellenőrizze a felületet, a hordozót és a beilleszthetőséget mintán, a rendelés előtt.",
+    "v5t": "Tömeges szállítás",
+    "v5b": "Koson karton mennyiségek és átfogó csomaglistájelzések.",
+    "v6t": "Exportprogram",
+    "v6b": "Karton jelölés, címkék és célországi dokumentáció.",
+    "processTitle": "A lépések a specifikációja és a rendelés között",
+    "processSub": "Négy szakasz a követelménye és a megerősített rendelés között.",
+    "p1t": "Vágás és alakítás",
+    "p1b": "Megerősíti a szükséges formát, méretet és szemcse-finomságot az alakítási művelet beindítása előtt.",
+    "p2t": "Minta ellenőrzés",
+    "p2b": "Ellenőrizze a csiszolószelű mintán a felület, a hordozó és a beilleszthetőség szerkezetét, mielőtt a rendelés specifikációját megerősíti.",
+    "p3t": "OEM és csomagolás",
+    "p3b": "Megerősíti a csomagolási mennyiségeket, címkéket, karton jelöléseket és saját márkás rajzterveket az ajánlathoz.",
+    "p4t": "Szállítási előkészítés",
+    "p4b": "Megállapodás a csomaglistán, a palettázási követelményen és a célországi adatokon a kiszállítás előtt.",
+    "oemTitle": "Az Ön neve a kartonon",
+    "oemSub": "Ossza meg a termék-, csomagolási és márkakövetelményeit a következő csiszolószerszériához.",
+    "oemCta": "OEM szolgáltatások megtekintése",
+    "faqTitle": "Mielőtt belevonná",
+    "faqSub": "A leggyakrabban felmerülő vevői kérdések válaszai.",
+    "regionsTitle": "Hubeiból az Ön piacára",
+    "regionsSub": "Világszintű beszállítás célországok szerint.",
+    "regionsNote": "MOQ és lead time az ajánlatban történő megerősítésig érvényes. Az útvonalak tájékoztató jellegűek; az elérhetőség és a feltételek az ajánlatban történnek megerősítésre.",
+    "factoryTitle": "Találjon minket Hubaiban",
+    "factoryBody": "Kína, Hubei, Xianning, Tongcheng megye, Junshui, 88 Yuli útja. Ütemezze a gyár látogatását, és erősítse meg a találkozóhelyet a csapatunkkal.",
+    "finalTitle": "Megbízható csiszolószer-szállítót keres?",
+    "finalBody": "Ossza meg a termékét, a mennyiséget és az alkalmazási területét — megvizsgáljuk az igényét, és elkészítjük a megfelelő ajánlatot.",
+    "finalCta1": "Hurtos ajánlatkérés",
+    "finalCta2": "Kapcsolatfelvétel WhatsAppon",
+    "beltsShowTitle": "Csiszolószalagok, modell szerint",
+    "beltsShowSub": "Referenciamodellek megbeszéléshez a csapatunkkal.",
+    "articlesEyebrow": "Vevői tudásanyagok",
+    "articlesTitle": "Útmutatók a technikai csapatunktól",
+    "articlesSub": "Ahogy a vevők szemcse-méretet, hordozót és csomagolási tervet választanak a rendelés előtt.",
+    "articlesCta": "Minden útmutató megtekintése",
+    "prepTitle": "Készítse elő a hurtos megkeresést",
+    "prepSub": "A méret, a szemcse és a mennyiség az Ön nevén dolgozik.",
+    "prepDim": "Méret",
+    "prepDimText": "Méret vagy modellreferencia milliméterben.",
+    "prepGrit": "Szemcse-finomság",
+    "prepGritText": "Kért finomság vagy csiszolás.",
+    "prepQty": "Mennyiség",
+    "prepQtyText": "Becslő mennyiség és csomagolás."
+  },
+  "purchasing": {
+    "eyebrow1": "Beszerzési útmutató",
+    "title1": "Készítse elő a hurtos megkeresést",
+    "body1": "Ossza meg a szükséges méreteket, szemcse-finomságot, feldolgozott alkatrét, gépet és a kívánt csiszolási állapotot. Használja a dokumentált lehetőségeket, ahol azok állnak rendelkezésre; egyébbeket a csapatunkkal fogunk áttekinteni.",
+    "dl1t": "Mennyiség és célország",
+    "dl1b": "Kövesse a mennyiséget, a csomagolási igényt és a szállítási célterületet.",
+    "dl2t": "Szállítás és feltételek",
+    "dl2b": "Elérhetőség, minimális rendelési mennyiség és kereskedelmi feltételek az ajánlatban történő megerősítésig érvényesek.",
+    "dl3t": "OEM csomagolási megkeresés",
+    "dl3b": "Márka, címkék, egyedi méret vagy csomagolási követelmény.",
+    "eyebrow2": "Hogyan tegyen megkeresést",
+    "title2": "A termék megválaszthatása az ajánlatig",
+    "s1t": "Termék megválasztatása",
+    "s1b": "Válassza a termékét vagy modellel, és a szükséges specifikációt.",
+    "s2t": "Követelmények megosztása",
+    "s2b": "Ossza meg a mennyiséget, az alkalmazást és a csomagolási követelményeket.",
+    "s3t": "Ajánlat megtekintése",
+    "s3b": "Erősítse meg a végső specifikációt és a kereskedelmi feltételeket a csapatunkkal."
+  },
+  "modelPage": {
+    "eyebrow": "Csiszolószalagok · referenciamodellek",
+    "refLabel": "Modellreferencia",
+    "familyLabel": "Termékcsalád",
+    "dimsLabel": "Kész szalag méretei — adja meg a szélességet × hosszt mm-ben",
+    "dimsPlaceholder": "pl. 533 × 75 mm",
+    "gritLabel": "Szerzett szemcse — adja meg a kívánt finomságot vagy csiszolást",
+    "gritPlaceholder": "pl. P60",
+    "qtyLabel": "Kért mennyiség",
+    "specLabel": "Specifikációs és csomagolási követelmények",
+    "discussion": "Beszélje meg ezt a modellt a csapatunkkal a feldolgozott alkatrét, a gép és a kívánt csiszolás alapján.",
+    "grainBacking": "Szemcse és hordozó — erősítse meg az alapanyag-gyártót és a pontos finomságot.",
+    "disclaimer": "A modellellátás az áttekintési referencia; a MoTai szállítási specifikációit, elérhetőségét és beilleszthetőségét az ajánlat alapján egyeztetik."
+  },
+  "discPage": {
+    "eyebrow": "Vésőkorongok · dokumentált variánsok",
+    "gritsNote": "Ezektől a variánsoktól elérhető szemcse-opciók"
+  },
+  "flapPage": {
+    "eyebrow": "Tálcalapos korongok · hordozóvariánsok",
+    "color": "Szín",
+    "gritNote": "A P40–P60 és a P80–P120 általános szemezselésségi példák, nem a MoTai megerősített szállítási skálája."
+  },
+  "productPage": {
+    "specTitle": "Specifikációk",
+    "howTitle": "Hogyan állítsa össze a rendelését",
+    "howBody": "Adj meg szalag vagy korong méretet, szemcse listát, gép modellét, a feldolgozott anyagot és a mennyiséget. Egy tiszta specifikáció segít nekünk áttekinteni a beilleszthetőséget és hasznos ajánlat elkészítését — kerülje a termék színe alapján történő megválaszhatását.",
+    "faqTitle": "Vevői kérdések"
+  },
+  "about": {
+    "h1": "A csiszolószergamok mögötti cég",
+    "sub": "Gondolkodva a csiszolószer-ellátás felé.",
+    "bizTitle": "Üzletünk",
+    "bizBody": "A Hubei MoTai Abrasives Materials Co., Ltd. csiszolószereket szállít fa- és fémipari, valamint autógyári alkalmazásokhoz. A dokumentált kínálat lyuktalános csiszolókorongokat, hálós csiszolókorongokat és piros csiszolószalagokat tartalmaz. Megkereséseket fogadunk importőröktől, forgalmazóktól, nagykereskedőktől és ipari vevőktől — termék, hordozó, méret, finomság, mennyiség és szállítási követelmények szerint.",
+    "matTitle": "Cégalapok",
+    "matBody": "Ismerje meg a céges háttéranyagunkat és kapcsolatadatainkat a brosúrunkban.",
+    "globalTitle": "Hubeiból az Ön piacára",
+    "globalSub": "Világszintű beszállítás célországok szerint.",
+    "facTitle": "Találjon minket Hubaiban",
+    "facBody": "Kína, Hubei, Xianning, Tongcheng megye, Junshui, 88 Yuli útja. Ütemezze a gyár látogatását a csapatunkkal, és erősítse meg a találkozóhelyet indulás előtt.",
+    "profileName": "Áttekintésben",
+    "profileBody": "Festett csiszolószer-gyártó Xianningben, Hubaiban: három termékcsalád hét célterületre, 40-től 5000-ig tartó szemcse-tartományban.",
+    "ctaTitle": "Megbízható csiszolószer-szállítót keres?",
+    "cta1": "Hurtos ajánlatkérés",
+    "cta2": "Kapcsolatfelvétel WhatsAppon"
+  },
+  "factory": {
+    "h1": "A MoTai műhelyén belül",
+    "sub": "A részletek számítanak. Minden szakaszban.",
+    "intro": "Tekintse át a vágást, a minta ellenőrzését és a csomagolási részletet az Ön rendeléséhez. A termékvideó a folyamat illusztrációival együtt jelenik meg.",
+    "videoLabel": "Termékvideó megtekintése",
+    "stepsTitle": "Gyártás és rendelési előkészítés",
+    "stepsIntro": "A követelményétől a megerősített rendelésig.",
+    "st1t": "Vágás és alakítás",
+    "st1b": "Megerősíti a szükséges formát, méretet és szemcse-finomságot az alakítási művelet beindítása előtt.",
+    "st2t": "Minta ellenőrzés",
+    "st2b": "Ellenőrizze a csiszolószelű mintán a felület, a hordozó és a beilleszthetőség szerkezetét, mielőtt a rendelés specifikációját megerősíti.",
+    "st3t": "OEM és csomagolás",
+    "st3b": "Megerősíti a csomagolási mennyiségeket, címkéket, karton jelöléseket és saját márkás rajzterveket az ajánlathoz.",
+    "st4t": "Szállítási előkészítés",
+    "st4b": "Megállapodás a csomaglistán, a palettázási követelményen és a célország adatain a kiszállítás előtt.",
+    "imgNote": "Időzítés és csomagolási mennyiség az ajánlatban egyeztetik a gyártás elindítása előtt.",
+    "galleryTitle": "Ahol az Ön rendelése készül",
+    "galleryIntro": "Ugyanez a műhely végzi a vágást, minta ellenőrzést és csomagolást minden megerősített rendeléshez.",
+    "gallery1Title": "Gyártóműhely",
+    "gallery1Text": "Fedett munkaterület, ahol a csiszolószalagok és -korongokat alakítják, ellenőrzik és csomagolják.",
+    "gallery2Title": "Üzem és rakodó tér",
+    "gallery2Text": "A kartonokat a helyszínen palettázzák és betöltik a kiszállítás a célterületre.",
+    "gallery3Title": "Kész raktár",
+    "gallery3Text": "A szalagokat és korongokat a megerősített specifikációnak megfelelően dobozba teszik — szemcse, méret és csomaglista.",
+    "galleryNote": "A fényképeket a gyár tájékoztatási céllal szállítja; nem rendeléskötvényű képek. A termékvideók itt jelennek meg, amint elérhetővé válnak.",
+    "qcTitle": "Minőségbiztosítási pontok",
+    "qcIntro": "Ami ellenőrzésünk egy rendelés gyártóterülről való elindítása előtt.",
+    "qc1t": "Felület és szemcse",
+    "qc1b": "A csiszolófelület egyenletessége a megerősített finomsághoz viszonyítva.",
+    "qc2t": "Hordozó és illeszkedés",
+    "qc2b": "Kész csiszolószalag és korong hordozótípusa, súlya és méret-toleranciája.",
+    "qc3t": "Csomagolás és jelölés",
+    "qc3b": "A csomagolási mennyiség, a címkék, a karton jelölés és a saját márkás rajztervek a megerősített rendeléssel egyeznek.",
+    "ctaTitle": "Szeretné inkább megbeszélni?",
+    "ctaSub": "Megbízható csiszolószer-szállítót keres?",
+    "cta1": "Hurtos ajánlatkérés",
+    "cta2": "Kapcsolatfelvétel WhatsAppon"
+  },
+  "oem": {
+    "h1": "Az Ön neve a kartonon",
+    "sub": "Küldje el a termék-, csomagolási és márkakövetelményeit; az OEM-létrajelölés visszajelzésével érkezünk vissza.",
+    "briefTitle": "Készítsen megkeresést a márkája körül",
+    "briefEyebrow": "Ovatosan",
+    "briefBody": "Beszéljék meg a logót és címkéjének rajzterveit, csomagolási formátumát, termék- és szemcse-finomság-területeket és az alkalmazási célját. Az OEM-létrajelölés, a minimális mennyiségek, a rajztervek követelményei és az ütemterv a megvalósíthatósági vizsgálat és az ajánlat megerősítésétől függ.",
+    "itemsTitle": "Egy tisztázó megbeszélés hasznos választ ad",
+    "i1": "Termék és specifikáció",
+    "i2": "Méret és szemcse kombináció",
+    "i3": "Rajztervek és címkék",
+    "i4": "Csomagolási forma",
+    "i5": "Célmennyiség",
+    "i6": "Célország és ütemterv",
+    "itemNote": "A megkeresésbe tüntesse fel az igényét és a referenciaszavait.",
+    "procTitle": "A megkereséstől az ellátásig",
+    "pr1t": "Megkeresése",
+    "pr1b": "Adja meg az alkalmazási területét és követelményeit.",
+    "pr2t": "Specifikáció-ellenőrzés",
+    "pr2b": "Méretek, finomságok, hordozó és csomagolás áttekintése.",
+    "pr3t": "Ajánlat",
+    "pr3b": "Kereskedelmi feltételek és ütemterv megerősítése.",
+    "pr4t": "Minta jóváhagyás",
+    "pr4b": "Az egyeztetett minták értékelése jóváhagyás előtt.",
+    "pr5t": "Gyártás",
+    "pr5b": "Folytatás a megerősített specifikáció szerint.",
+    "pr6t": "Kiszállítás",
+    "pr6b": "Csomagolás és célország koordinálása.",
+    "cta1": "Hurtos ajánlatkérés",
+    "cta2": "Kapcsolatfelvétel WhatsAppon"
+  },
+  "applications": {
+    "h1": "Csiszolószerek az Ön iparághoz",
+    "sub": "A felület határozza meg a specifikációt.",
+    "intro": "Hat alkalmazási terület. Adja meg az anyagot, gépet és a kívánt csiszolási állapotot — mi kijelöljük a megfelelő csiszolószeret.",
+    "ctaNote": "Néhány kép AI-generated alkalmazási illusztráció, nem MoTai gyári vagy vevői fénykép.",
+    "sampleNote": "Ajánlatkérésnál adja meg az iparágát, országát, a termék-specifikációt és a becslő rendelési mennyiséget.",
+    "reqTitle": "Ajánlott termékek",
+    "reqNote": "Tájékoztató jellegű termékcsoportok az adott szakhozzá. A méretek, szemcsék és mennyiségek az ajánlatban történnek megerősítésre.",
+    "specTitle": "Specifikációs tippek",
+    "faqTitle": "Gyakori kérdések",
+    "faqs": [
+      {
+        "q": "Melyik szemcse-mérettel kezdem?",
+        "a": "Kezdje a feldolgozott alkatrét anyagával, a hiba mélységével és a kívánt csiszolási állapottal — a durvább finomság gyorsan eltávolít anyagot, majd fokozatosan finomabb szemcse-re lépjen, és minden szakaszban ellenőrizze a felületet."
+      },
+      {
+        "q": "Egy rendelésben keverhetem a szemcse-méretek?",
+        "a": "Igen — sorolja fel a szemcséket és az egy-egy finomságonkénti mennyiséget; az elérhetőség és a lead time az ajánlattal érkez vissza."
+      }
+    ],
+    "ctaTitle": "Szakterületéhez keresi a megfelelőt?",
+    "cta1": "Hurtos ajánlatkérés",
+    "cta2": "Kapcsolatfelvétel WhatsAppon"
+  },
+  "blogIndex": {
+    "h1": "Jobb információ. Jobb megválasztatás.",
+    "sub": "Gyakorlati vevői tudásanyagok csiszolószerspecifikációk megbeszéléséhez.",
+    "updatedLabel": "Frissítve",
+    "governance": "Az útmutatókat a MoTai Abrasives technikai csapata írja és átnézi; újraindításra kerülnek, amikor a termék-specifikációk változnak."
+  },
+  "blogSidebar": {
+    "eyebrow": "Termékek",
+    "productsTitle": "Kiemelt termékek",
+    "productsSub": "Méret, szemcse és hordozó termékenként dokumentálva; az MOQ és az elérhetőség az ajánlathoz csatlakozik.",
+    "viewAll": "Minden termék",
+    "servicesEyebrow": "Szolgáltatások",
+    "servicesTitle": "A megválasztatástól az ellátásig",
+    "servicesSub": "Hurtos szállítás, saját márkás csomagolás és folyamatellenőrzés, az ajánlatban történő megerősítéssel.",
+    "serviceWholesale": "Hurtos ajánlatkérés",
+    "serviceOem": "OEM és saját márkás",
+    "serviceManufacturing": "Gyártás",
+    "serviceApplications": "Alkalmazások",
+    "latestEyebrow": "Hírek",
+    "latestTitle": "Legújabb útmutatók",
+    "catDiscs": "Csiszolókorongok",
+    "catBelts": "Csiszolószalagok",
+    "catFlap": "Tálcalapos korongok"
+  },
+  "blogPager": {
+    "navLabel": "Blog oldalak",
+    "prev": "Előző",
+    "next": "Következő",
+    "pageOf": "{page} / {total} oldal",
+    "range": "Útmutatók {from}–{to} / {count}"
+  },
+  "article": {
+    "watchTitle": "Nézés",
+    "discuss": "Specifikáció megbeszélése",
+    "catSelection": "Megválasztatási útmutató",
+    "catBuyer": "Vevői tudásanyagok",
+    "catNotes": "Alkalmazási megjegyzések",
+    "catOem": "OEM útmutató",
+    "reviewedBy": "A MoTai Abrasives technikai csapata által átnézve",
+    "lastReviewed": "Utolsó átnézés: {date}",
+    "tocTitle": "Ezen az oldalon"
+  },
+  "contact": {
+    "h1": "Indítson egy hurtos párbeszédet",
+    "sub": "Gyári közvetítésű hurtos árak csiszolószerekhez.",
+    "directTitle": "Egy párbeszéd. Jobb specifikáció.",
+    "directBody": "Ossza meg a termékét, a mennyiséget és az alkalmazási területét. Megvizsgáljuk az igényét, és segítjük a következő lépés bevétele.",
+    "facTitle": "Találjon minket Hubaiban",
+    "facBody": "Kína, Hubei, Xianning, Tongcheng megye, Junshui, 88 Yuli útja.",
+    "facNote": "Erősítse meg a pontos látogatói címet a csapatunkkal, mielőtt elutazna.",
+    "visit": "Gyári látogatás szervezése",
+    "formTitle": "Hurtos / OEM megkeresés",
+    "formNote": "Ez az űrlap ajánlatkérés, nem rendelés. A megkeresés a vevésszolgálati bejelentkezésünkbe kerül; a specifikációkat és a kereskedelmi feltételeket az ajánlattal egyeztetik.",
+    "btn": "Megkeresési űrlap megnyitása ↗"
+  },
+  "privacy": {
+    "h1": "Megkeresési adatai",
+    "sub": "Ahogy ez a weboldal használja az Ön által megosztott adatait.",
+    "s1t": "Gyűjtött adatok",
+    "s1b": "Kontakt, céges információ, termékigény és csatolt szavak, egy megkereséssel beküldve. Egy leképesített kapcsolat-azonosító limitezi az abuzív beküldéseket.",
+    "s2t": "Cél és hozzáférés",
+    "s2b": "Az adatok megkeresések áttekintésére és válaszolásra, ajánlatok készítésére és kért kereskedelmi egyeztetések koordinálására szolgálnak. A hozzáférés a meghatalmazott adminisztrátorokra lesz limitálva.",
+    "s3t": "Tárolás és megőrzés",
+    "s3b": "A nyilvántartásokat a host partnerünknél őrizzük. Az adatok feldolgozása az Ön országán kívül is történhet. A megőrzés az üzleti követés és a könyvszerinti dokumentálási kötelem szerint tart; speciális megőrzés vagy törlés kérése elküldhető.",
+    "s4t": "Az Ön választásai",
+    "s4b": "Kéréshez, javításhoz vagy törléshez érjen minket a motai-01@motaiabrasive.com címen. Kérjük, ne küldje be érzékeny személyes adatokat vagy megkereséshez nem kapcsolódó bizalmas szavakat.",
+    "s5t": "Sütik, linkek és analitika",
+    "s5b": "A böngésző megkeresési lista-kezelési adatokat tárol. Ez az oldal Google Analytics (gtag.js) alapú anonimizált használati statisztikát használ; a Google cookie-t állít be, és az adatai feldolgozását az adatkezelési feltételei szerint végzi — a kilépés itt tehető meg: https://support.google.com/analytics/answer/3452785. A külső WhatsApp, térkép és közösségi linkekre azok saját adatvédelmi politikája vonatkozik.",
+    "updated": "Utolsó frissítés: 2026. november 4."
+  },
+  "terms": {
+    "h1": "Felhasználási feltételek",
+    "sub": "Feltételek, amik akkor érvényesek, ha ezt az oldalt használja és megkeresést küld a MoTai-nak.",
+    "s1t": "Ez oldal használata",
+    "s1b": "Ez oldal egy B2B-ű információs és megkeresési szolgáltatás a Hubei MoTai Abrasives Materials Co., Ltd. által üzemeltetett. Tartalom — termék-specifikációk, útmutatók, szójegyzék és blog — jóhiszemű, általános tájékoztatási célra készül. Az oldal használatával ez feltételek elfogadása; ha nem fogadja el, ne küldjön megkeresést.",
+    "s2t": "Megkeresések nem ajánlatok",
+    "s2b": "Egy megkeresési űrlap beküldése tárgyalásra való meghívó, nem kötelezővételű rendelés. A MoTai nem köteles minden megkeresésre válaszolni, és vásárlás az ajánlat írásos megerősítése előtt az általánosi, és a két fél megerősítése előtt kötelezésre nem kerül.",
+    "s3t": "Ajánlatok és árak",
+    "s3b": "Minden ár ajánlat-alapú. Az ajánlatok a méreteket, a szemcséket, a csomagolást, a kereskedelmi feltételeket és az érvényességi ideőt tartalmazzák; a végső számok a megerősített specifikáción alapulva egyeztetik, és az alapanyag- és szállítási költségek mozgásának vannak kitéve.",
+    "s4t": "Szerzői jogok",
+    "s4b": "Az oldal tartalmi, a termék-leírások, a grafikák és a MoTai márka a MoTai Abrasives tulajdonában állnak, és kereskedelmi céllal nem reprodukálhatók. Harmadik féltől származó referencia (pl. modell eredete) csak vevői orientáció, nem feltételes jóváhagyás.",
+    "s5t": "Felelősség és hatáskör",
+    "s5b": "A MoTai nem vállal felelősséget ebben az oldalon szereplő általános információkra hivatkozó döntésekért. Eze feltételek a Kínai Néphatár jogainak hatáskörébe esik; az ütközéses a felek közötti forgalmi szerződés szerint rendezik.",
+    "updated": "Utolsó frissítés: 2026. november 3."
+  },
+  "shipping": {
+    "h1": "Szállítási és visszaküldési politika",
+    "sub": "Hogyan hagyja el a gyárat a rendelés, és miért nem vihető vissza a specifikáció szerint készült csiszolószer.",
+    "shipTitle": "Szállítási politika",
+    "shipSub": "Gyártás, csomagolás és kiszállítás az ajánlataval együttesen erősítik meg.",
+    "s1t": "Gyártás és lead time",
+    "s1b": "A csiszolószalagok, -korongok és tálcalapos korongok a rendelése specifikációja szerint alakulnak. A lead time az ajánlat írásos megerősítésének napjától indul, nem a megkeresés küldésének napjától. Ilyen GXK-51, XZ-330 és GPC71 stábli referenciák készletei, kész termékek; az egyedi méretek, szemcsék és az OEM-csomagolás rendelésre készül.",
+    "s2t": "Csomagolás és jelölés",
+    "s2b": "A termékeket export dobozba csomagoljuk egyeztetett csomagmennyiséggel, címkékkel, karton jelölésekkel és — OEM programoknál — az Ön rajzterveivel és vonalkódjával. A palettázás a csomaglista alapján egyeztetik. Fumigáció vagy ISPM 15 jelölés, ha a célország megköveteli, alkalmazva.",
+    "s3t": "Szállítási mód és Incoterms",
+    "s3b": "A szállítás tengeren (FCL vagy LCL) vagy levegőn történik, a mennyiség és a célország függvényében. A kereskedelmi feltételt az ajánlat jelöli — EXW, FOB, CIF, CFR, DAP és DDP általánosan használtak. Saját szállítószervezőt jelölhet; a MoTai ilyenkor ád a csomaglistát, a karton jelöléseket és a szállító dokumentumokat.",
+    "s4t": "Dokumentumok és vám",
+    "s4b": "Minden szállítás kereskedelmi számlával, csomaglistával és szállító dokumentummal kerül. HS-kódok és eredet-igazolás a vámkezeléshez rendelkezésre áll. A célország vámait, adóját és vámkezelését a vevő állja, hacsak az ajánlat DDP-t nem jelöl.",
+    "s5t": "Kiszállítás és leszállítás",
+    "s5b": "Amint a konténer vagy a küldemény foglalta van, a hajó- vagy repülőszámszámokkal együtt elküldjük a szállítás-jelentést. A leszállítási idő a célporttól vagy repülőtéren függ a fuvarozó ütemtervétől. A tengeri zsúfoltság, a vám-ellenőrzés vagy az erősbetele okozta késéseket nem tudjuk befolyásolni, és amint megismerjük, megjelöljük.",
+    "retTitle": "Visszaküldési politika",
+    "retSub": "A termékeink az egyeztetett specifikáció szerint készülnek, ezért a visszaküldés határozott esetekre korlátozott.",
+    "r1t": "Specifikáció szerinti termékek",
+    "r1b": "A csiszolószereket az Ön szemcse-, méret-, hordozó- és csomagolás-specifikációja szerint gyártják. Mivel nem standard készletként nem értékesíthetők, a megerősített egyedi rendeléseket nem küldhetők vissza és nem vonhatók le, kivéve ha a termék nem felel meg a megerősített specifikációnak.",
+    "r2t": "Késztermékek és szállítás okozta hibák",
+    "r2b": "A nem használt, eredeti export csomagolásban lévő standard referenciá-termékeket esetek szerint, ok és visszaküldési feltételek megerősítése után küldhető vissza. A szállítás okozta hibák a leszállítás után 7 napon belül, fotókkal jelenthetőek; a fuvaros biztosítási igényt a jelölt fuvaroson keresztül kezeljük.",
+    "r3t": "Igények, ellenőrzés és jóváírás",
+    "r3b": "Minden igényt rendelési számmal, csomaglistával és a érintett karton jelölésekkel kell hivatkozni. Az ellenőrzés utáni megállapítás esetén a érintett mennyiséget cseréljük, vagy számlára vonatkozó jóváírást adunk. A leszállítás után 30 napnál későbbi igények nem fogadhatók el.",
+    "r4t": "Kifizetés-visszatérítés",
+    "r4b": "Hogyha egyeztetik a jóváírást, a visszatérítést az eredeti fizető részére, az eredeti rendelet módszer szerint fizetjük, miután a visszaküldés vagy a cserle véglegesült. Nemzetközi átutalás banki díját a visszatérítést kapó fél fizeti.",
+    "r5t": "Vám, adó és compliance",
+    "r5b": "Az importkorlátok, vámköltségek, vám-ellenőrzések vagy helyi compliance-szabályok miatt kért visszaküldéseket kereskedelmi ütközésnek kezeljük, nem termékigénnyel, mivel a termékek a megerősített specifikáció szerint szállításra kerültek.",
+    "updated": "Utolsó frissítés: 2026. november 6.",
+    "related": "A szállítási és visszaküldési feltételek minden ajánlat része. Ha egy ajánlat eltérő feltételeket jelöl, az adott ajánlat érvényes.",
+    "contact": "Kérdés egy szállításról vagy egyigénnyel kapcsolatban: a vevésszolgálati csapattal a rendelési számával és a érintett karton jelölésekkel."
+  },
+  "quotePage": {
+    "h1": "Indítson egy hurtos párbeszédet",
+    "sub": "Gyári közvetítésű hurtos árak csiszolószerekhez.",
+    "note": "Ez űrlap ajánlatkérés, nem rendelés. A *-tal jelölt mezők kötelezőek.",
+    "sec1": "Az Ön üzlete",
+    "f1": "Teljes név *",
+    "f2": "Cégnév *",
+    "f3": "Ország *",
+    "f4": "Üzleti e-mail *",
+    "f5": "WhatsApp szám",
+    "f6": "Üzleti típus *",
+    "opt1": "Importőr",
+    "opt2": "Forgalmazó",
+    "opt3": "Nagykereskedő",
+    "opt4": "OEM márka",
+    "opt5": "Ipari vevő",
+    "opt6": "Egyéb",
+    "sec2": "Termékkövetelmények",
+    "f7": "Termékkategória",
+    "f8": "Termékmodell / -referencia",
+    "f9": "Méret",
+    "f10": "Szemcse-finomság",
+    "f11": "Anyag",
+    "f12": "Mennyiség",
+    "f13": "Csomagolás",
+    "f14": "Célország *",
+    "f15": "OEM követelmények",
+    "f16": "Egyéb üzenet *",
+    "consent": "Elfogadom az adatvédelmi irányt, a felhasználási feltételeket, és a megkeresésre való válaszra való személyes adatok használatát. *",
+    "btn1": "Hurtos ajánlatkérés",
+    "btn2": "Megkeresés küldése WhatsAppon",
+    "goNote": "A űrlap a hurtos megkeresési rendszerünkben nyílik meg, az Ön termékkontextusával előre kitöltve."
+  },
+  "clients": {
+    "h1": "Hová kerülnek a MoTai szállítások",
+    "sub": "Hubeiból hét célterületre.",
+    "note": "Az alábbi vevői logók és ajánlások placeholder mezők — a src/data/trust.json publikus anyaggal cserélje.",
+    "placeholderBadge": "Illusztrációs placeholder",
+    "statsTitle": "Ellátás áttekintésben",
+    "statsNote": "A megjelenített tanúsítványok placeholder a publikus tanúsítványokig."
+  },
+  "glossary": {
+    "h1": "Csiszolószerek szójegyzéke",
+    "sub": "Minden szalag-, korong- és tálcalapos specifikáció mögötti fogalmak.",
+    "note": "Standard ipari definíciók csiszolószer-alkatréthez; az egyedi rendelés finomság- és hordozóadatait az ajánlathoz egyeztik.",
+    "reviewNote": "A szavakat a MoTai Abrasives technikai csapata nézi — utolsó átnézés: 2026. november 3."
+  },
+  "trust": {
+    "regions": "Célterületek",
+    "productLines": "Termékcsaládok",
+    "gritRange": "Szemcse-tartomány"
+  },
+  "video": {
+    "title": "Nézés",
+    "cutting": {
+      "title": "Vágás és alakítás videó",
+      "desc": "Szállított termékvideó: csiszolólap vágása és alakítása."
+    },
+    "sample": {
+      "title": "Minta ellenőrzési videó",
+      "desc": "Szállított termékvideó: felület-, hordozó- és beilleszkedés-ellenőrzés mintán."
+    },
+    "oem": {
+      "title": "OEM csomagolási videó",
+      "desc": "Csomagmennyiség, címkék, karton jelölések és saját márkás rajztervek."
+    },
+    "flap": {
+      "title": "Tálcalapos korongok videó",
+      "desc": "Műanyag, acél és üvegszálas hordozós tálcalapos korongok használat közben."
+    }
+  },
+  "wa": {
+    "generic": "Szia MoTai, egy hurtos ajánlatot szeretnék csiszolószer-termékekhez.",
+    "product": "Szia MoTai, egy hurtos ajánlatot szeretnék {name} ({grits})-hoz.",
+    "model": "Szia MoTai, egy hurtos ajánlatot szeretnék egy {model} modellű csiszolószalaghoz.",
+    "disc": "Szia MoTai, egy hurtos ajánlatot szeretnék {title}hez.",
+    "sample": "Szia MoTai, egy {name} mintát szeretnék értékelési célból.",
+    "factory": "Szia MoTai, szívesen egyeztetnék a gyártási és minőségi részleteket a csapatokkal.",
+    "oem": "Szia MoTai, egy OEM / saját márkás csiszolószerveszközt szeretnék egyeztetni.",
+    "contact": "Szia MoTai, szívesen fogom a következő csiszolószer-rendelést a csapatokkal."
+  },
+  "floatChat": {
+    "trigger": "Csevegés",
+    "open": "Csevegés megnyitása",
+    "close": "Bezárás",
+    "title": "MoTai — élő csevegés",
+    "status": "WhatsAppon válasszuk, általában 24 órán belül.",
+    "greeting": "Szia! Miben segítünk a csiszolószerrédelésével? — MoTai vevésszolgálati csapat",
+    "placeholder": "Írja üzenetét…",
+    "send": "Küldés WhatsAppon",
+    "note": "Ez előnézet nincs élő szervere: a küldés egy előtöltött üzenettel nyitja meg a WhatsAppot. A válaszok a WhatsApp-beli csevegésben folytatják."
+  },
+  "location": {
+    "imgAlt": "MoTai gyár épülete Xianning-ben, Hubaiban",
+    "imgCaption": "MoTai gyár — Xianning, Hubei, Kína",
+    "mapTitle": "MoTai gyár helye a Google Maps-ben"
+  },
+  "faq": {
+    "faqTitle": "Mielőtt belevonná",
+    "moq": {
+      "q": "Mi a minimális rendelési mennyiség?",
+      "a": "Az MOQ az ajánlattal érkez vissza, elérhetőséggel és feltételekkel."
+    },
+    "oem": {
+      "q": "Támogatják az OEM-et és a saját márkás beszerzést?",
+      "a": "Igen. Logó, címkék, egyedi méretek és csomagolás megvalósíthatóságra áttekintik, az ajánlatban erősítik meg."
+    },
+    "sizes": {
+      "q": "Milyen méret és szemcse-méretek állnak rendelkezésre?",
+      "a": "Szalagok dokumentált méretben 533 × 75-től 2200 × 1330 mm-ig (szemcse 40–800); korongok 3–6 hüvelykben (szemcse 60–5000). Az egyedi igényeket a csapatunkkal fogjuk áttekinteni."
+    },
+    "samples": {
+      "q": "Kaphatok előbb mintát?",
+      "a": "Igen. Kérjen mintát, és a vevésszolgálati csapatunk megerősíti az elérhetőséget, a díjat és a szállítási módot."
+    },
+    "lead": {
+      "q": "Mekkora a lead time?",
+      "a": "A lead time a specifikációtól és a mennyiségtől függ, az ajánlatban erősítik meg."
+    },
+    "packaging": {
+      "q": "Hogyan csomagolják a termékeket?",
+      "a": "A csomagmennyiségeket, a címkéket, a karton jelöléseket és a saját márkás rajzterveket az ajánlattal egyeztik."
+    },
+    "payment": {
+      "q": "Milyen fizetési feltételek állnak rendelkezésre?",
+      "a": "A fizetési feltételek a megerősített ajánlat és a kereskedelmi egyeztetés részei."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Milyen specifikációkat adjak meg?",
+      "a": "Adja meg a szükséges méreteket, szemcse-méreket, a feldolgozott alkatrét, a gépet és a kívánt csiszolási állapotot. Használja a dokumentált opciókat, ahol elérhetők; egyebbre a csapatunk áttekinti."
+    },
+    "oem": {
+      "q": "Hogyan kerektessek egy OEM csomagolást?",
+      "a": "Tegye be a márkáját és a csomagolási követelményeit a megkeresésbe. A részletek áttekintésre és megerősítésre kerülnek az ajánlatban."
+    },
+    "order": {
+      "q": "Az ajánlatkérés rendelést helyez?",
+      "a": "Nem. Az űrlap egy hurtos megbeszélést indít. A termék-specifikációkat, az elérhetőséget és a kereskedelmi feltételeket a rendelés megállapodása előtt erősítik."
+    },
+    "sample": {
+      "q": "Tesztelek mintát egy teljes rendelés elkötelezése előtt?",
+      "a": "Igen. Standard referenciá-termékek mintái értékelésre kaphatók kérelemre; a minta elérhetősége és a fuvar-feltételek az ajánlathoz csatolva erősítik meg."
+    },
+    "lead": {
+      "q": "Mekkora lefolytatással rendelkezzem egy gyártási rendeléshez?",
+      "a": "A lead time az ajánlat írásos megerősítésének napjától indul, és a megrendelt méret, szemcse és csomagolást függ. A készlet-referenciák a leggyorsabb szállításra kényelmesek."
+    },
+    "beltSize": {
+      "q": "Csiszolószalagok nem standard méretben vagy hosszban szállíthatók?",
+      "a": "A dokumentált méreken túli szalagszélesség és hossz egyedi ajánlatokat kaphatnak; az egyedi méretre alakítás mind a lead time-ot, mind az MOQ-ot érinti."
+    },
+    "beltJoint": {
+      "q": "Milyen csatlakozási és széli szerkezetük van ezeknek a szalagoknak?",
+      "a": "A csatlakozási típus és a szélkezelés referencionként jelöl. Adja meg a gépet, a terhet és a kívánt csiszolást, hogy a megfelelő szerkezet beépítve kerüljen az ajánlatba."
+    },
+    "discBacking": {
+      "q": "Hogyan válasszak kampós-csák, PSA és hálós korongok között?",
+      "a": "A kampós-csák gyakori szemcse-váltáshoz, a PSA lapos párral és hosszú futásidőhöz, a hálós korongok pedig porszíváshoz illenek. A megválasztatási útmutató oldalanként hasonlítja össze a háromat."
+    },
+    "discDust": {
+      "q": "Ezek a korongok kompatibilisek porszívással?",
+      "a": "A hálós és fúrt korongok szivárgáshoz vannak kivéve; a tömör korongok kérelemre fúrtan kaphatók. Adja meg a porszívó eszközét és a használt párt."
+    },
+    "hookLoop": {
+      "q": "Illenek a kampós-csák korongok a meglévő háttárízületemre?",
+      "a": "Az átmérő és a lyukmintának a párral egyeznie kell. Erősítse meg a csiszológép modellel és a pá átmérője a megkereséssel, hogy a megfelelő korong kerüljen az ajánlatba."
+    },
+    "psa": {
+      "q": "A PSA korongok bármely háttárízülethez passz?",
+      "a": "A PSA korongok egy sima, tiszta gumipárral kell, egyező átmérővel. A pá átmérőjét és a gép modellet erősítse meg az ajánlatkérésnél."
+    },
+    "mesh": {
+      "q": "Mennyig tart egy hálós csiszolószer?",
+      "a": "A hálós korongok a pormennyiségben való töltés ellenállása általánosul tartósabb élettartamot nyújt, összehasonlítva a tömör papír korongokkal. A valós élettartam az anyagtól, a nyomástól és a szemcsétől függ."
+    },
+    "solid": {
+      "q": "Tömör korongok fúrtan szívesek porszíváshoz?",
+      "a": "Igen — a fúrási mintát az ajánlattal egyeztik. Adja meg a páját és a porszívó elrendezést, hogy a helyes mintát jelölje."
+    }
+  },
+  "relArticles": {
+    "title": "Kapcsolódó cikkek",
+    "sub": "Vevői útmutatások ehhez a termékcsoportokhoz a MoTai technikai csapatától.",
+    "readMore": "Cikk olvasása",
+    "faqTitle": "Gyakori kérdések",
+    "faqSub": "Gyakori kérdések, amiket a vevők a rendelés előtt feltesznek."
+  },
+  "regions": {
+    "europe": {
+      "title": "Európa",
+      "body": "Jelölje a méretet, a szemcsét, a hordozót és a termékfájlokat; adja meg a célhajót és a címkézés nyelvét."
+    },
+    "na": {
+      "title": "Észak-Amerika",
+      "body": "Adja meg a hüvelyk- vagy metrikus méretezést, a rögzítési típust és a csomagmennyiséget; a cél ZIP-kód vagy a hajó és a fuvar módja."
+    },
+    "sa": {
+      "title": "Dél-Amerika",
+      "body": "Méret, vegyes szemcse-mennyiségek és kartoncímkék nyelve; célhajó és importdokumentumok."
+    },
+    "me": {
+      "title": "Közélelet",
+      "body": "Anyag, szemcse és nedvességbiztos csomagolás; célhajó és ajánlati feltételek."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Gép kompatibilitás, szükséges méretek és csomagmennyiségek; célhajó, karton jelölés és fuvarpreferencia."
+    },
+    "oceania": {
+      "title": "Óceánia",
+      "body": "Méret, hordozó, csomagolás és cél ZIP-kód vagy hajó; import- és csomagolási követelmények."
+    },
+    "asia": {
+      "title": "Ázsia",
+      "body": "Gépspecifikáció, szemcsetartomány és rendelés-összeállítás; szállítási város vagy hajó és helyi nyelvi címkék."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Fémszerkezetgyártás",
+      "intro": "Hegesztési zongálás, szélcsavarmentesítés és fémfelszín előkészítés.",
+      "uses": "Hegesztési zongálás · Szélcsavarmentesítés · Felület előkészítés",
+      "products": "Csiszolószalagok"
+    },
+    "wood": {
+      "title": "Faművészet és bútoripar",
+      "intro": "Táblák, bútorgyártás és lakk előtti felület előkészítés.",
+      "uses": "Táblák · Bútor · Lakk előtti előkészítés",
+      "products": "Csiszolószalagok · Csiszolókorongok"
+    },
+    "auto": {
+      "title": "Autóipari javítás",
+      "intro": "Sószalag-csiszolás, festés előtti előkészítés és autóipari utószínezés.",
+      "uses": "Sószalag · Festés előtti · Utószínezés",
+      "products": "Csiszolókorongok"
+    },
+    "stainless": {
+      "title": "Nemesacél-utószínezés",
+      "intro": "Hosszú vonalú utószínezés, felületátmenetek és nemesacél szerkezetgyártás.",
+      "uses": "Hosszú vonal · Átmenetek · Szerkezetgyártás",
+      "products": "Csiszolószalagok"
+    },
+    "ship": {
+      "title": "Hajógyártás és -javítás",
+      "intro": "Fémcsiszolás, rozsdaszüntetés és tengeri karbantartási felület-ékelőre.",
+      "uses": "Csiszolás · Rozsdaszüntetés · Tengeri felület-ékelőre",
+      "products": "Csiszolószalagok"
+    },
+    "surface": {
+      "title": "Ipari felület-ékelőre",
+      "intro": "Ipari felület-kezelés és karbantartó munka.",
+      "uses": "Felület-kezelés · Karbantartás",
+      "products": "Csiszolókorongok"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Kampós-csák vagy PSA: a megfelelő háttér megválasztása",
+      "intro": "A rögzítési rendszer ugyanolyan fontos, mint a szemcse. Illusztrálja a háttárra a rendelés előtt.",
+      "start": {
+        "title": "Kezdje a követelménnyel",
+        "body": "A kampós-csák korongok kompatibilis kampós hátlapra szerelnek, és azokra illenek, ahol gyakran cserélik a szemcsét. A PSA korongok nyomásérzékeny ragasztót használnak, és tiszta, sík hátlapot igényelnek. A két rendszer nem cserélhető egymással."
+      },
+      "compat": {
+        "title": "Erősítse meg a kompatibilitást",
+        "body": "Erősítse meg a pá átmérőjét, a hordozó típusát és a porszivárgási elrendezést. A nem fúrt korong nem csatlakozik a lyuk-alapú szivárgási mintához, és a mesh-korongok kompatibilis pá és szivárgási rendszert igényelnek."
+      },
+      "enquiry": {
+        "title": "Készítse elő a megkeresést",
+        "body": "Adja meg a pá átmérőjét, a hordozót, a szemcse listát, az egy-egy szemcsénkénti mennyiséget és a feldolgozott alkatrét anyagát. Kérjen minta-értékelést a gyártási rendelés jóváhagyása előtt."
+      }
+    },
+    "beltChecklist": {
+      "title": "Mit foglalaon egy csiszolószalag-megkeresésben",
+      "intro": "Egy tiszta specifikáció segít a beszállítónak felülvizsgálni az illusztrációt és hasznos ajánlatot készíteni.",
+      "start": {
+        "title": "Kezdje a követelménnyel",
+        "body": "Adja meg a szalag hosszát és szélességét milliméterben. Nevezze meg a gép modellel — egy gépspecifikációs lap vagy egy régi szalag-címke fényképe segíti."
+      },
+      "compat": {
+        "title": "Erősítse meg a kompatibilitást",
+        "body": "Adj a feldolgozott alkatrét anyagát, a preferált csiszolószeret, a szemcsét, a hordozó követelményt és a csatlakozási követelményeket. Kerülje, hogy csak a szalagszíne alapján válasszon terméket."
+      },
+      "enquiry": {
+        "title": "Készítse elő a megkeresést",
+        "body": "Adja a mennyiségeket méret- és szemcse szerint, csomagolási preferenciákat, célterületet és a szükséges szállítási határidőt. A végső ajánlat megerősíti a specifikációt, az elérhetőséget, a fizetési feltételeket és a fuvar-elrendezést."
+      }
+    },
+    "gritSequence": {
+      "title": "Szemcsesorozat tervezése a felület-ékelőre",
+      "intro": "Kezdje a feldolgozott alkatrével és a kívánt csiszolási állapottal, majd mintán értékelje a sorozatot.",
+      "start": {
+        "title": "Kezdje a követelménnyel",
+        "body": "A durvább szemcse gyorsan szűri az anyagot, és mély karcolást hagy; a finomabb szemcse finomítja a felületet. A kiindulási pont az alapanyag, a hiba mélysége és az eltávolítási követelmény függvénye."
+      },
+      "compat": {
+        "title": "Erősítse meg a kompatibilitást",
+        "body": "Fokozatosan haladjon szemcse-méretekben, és minden szakaszban ellenőrizze a feldolgozott alkatrét. A szemcsék kihagyása nehezen eltávolítható karcolásokat hagy, és a tisztítás szakaszok között elkerüli a durva szemcse szennyezését."
+      },
+      "enquiry": {
+        "title": "Készítse elő a megkeresést",
+        "body": "A szemcse-számok nem cserélhetők a különböző osztályozási rendszerek között. Erősítse meg az ajánlatban az osztályozási szabványt, a csiszolószer típusát és az elérhetőséget, és kövesse a gépek és a csiszolószer biztonsági előírásait."
+      }
+    },
+    "dustCollection": {
+      "title": "Porszivárgás és pá-kompatibilitás, magyarázva",
+      "intro": "A lyuksablonok, a mesh-korongok és a hátlapok illusztrálnia kell a szivárgási rendszerrel.",
+      "start": {
+        "title": "Kezdje a követelménnyel",
+        "body": "Azonosítsa a páját: lyukszám, átmérő és hogy porszívókkal használják-e. A nem fúrt és a mesh-korongok máshogyan viselkednek, mint a többlyukú korongok."
+      },
+      "compat": {
+        "title": "Erősítse meg a kompatibilitást",
+        "body": "Illusztrálja a pá és a korong lyukkiosztását. A mesh-korongok kompatibilis pá és működő szivárgási rendszert igényelnek; a PSA korongok tiszta pá-felületet."
+      },
+      "enquiry": {
+        "title": "Készítse elő a megkeresést",
+        "body": "Adja a pá modellel, lyukszámmal, korongmérettel és szemcse listát, valamint a porszívó elrendezését. Erősítse meg a minta viselkedését a gyártási rendelés előtt."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM-címkék és -csomagolás: mit készítsen elő",
+      "intro": "Egy teljes brief az Ön rajzterveit, címkéit és kartonjait ütemterv szerint tartja.",
+      "start": {
+        "title": "Kezdje a követelménnyel",
+        "body": "Készülje elő a logót és a címkéje rajzterveit, a céls csomagformatumot (belső zsákok, kartonok), a címkézés nyelvi formáját és a célország címkézési szabályait."
+      },
+      "compat": {
+        "title": "Erősítse meg a kompatibilitást",
+        "body": "OEM elérhetőség, minimális mennyiségek, rajztervek követelményei és ütemterv a megvalósíthatósági vizsgálat és a megerősített ajánlat függvénye."
+      },
+      "enquiry": {
+        "title": "Készítse elő a megkeresést",
+        "body": "Külön a rajztervet, adja a csomagmennyiségeket és a karton jelöléseket, és jelölje a célterületet és az ütemtervet. A minta jóváhagyása a gyártás előtt következik."
+      }
+    },
+    "gritStandards": {
+      "title": "Szemcse-szabványok: FEPA, ANSI és azt, mit jelent a lista",
+      "intro": "Az osztályozási rendszerek nem cserélhetők — minden megkeresésben nevezze meg a szabványt.",
+      "start": {
+        "title": "Kezdje a követelménnyel",
+        "body": "A FEPA (ISO 848) és a régebbi ANSI-szabvány hasonló méretű szemcséket máshogy nevez; a P120 és a 120-es szemcse nem mindig egyforma. Nevezze meg azt a szabványt, amelyhez vásárol."
+      },
+      "compat": {
+        "title": "Erősítse meg a kompatibilitást",
+        "body": "Erősítse az ajánlatban az osztályozási szabványt, a csiszolószer típusát és az egy-egy szemcsénkénti elérhetőséget. Ne keverje az osztályozási rendszereket egy szemcse-listán."
+      },
+      "enquiry": {
+        "title": "Készítse elő a megkeresést",
+        "body": "Jelölje a szabványt (pl. FEPA P60–P800), az egy-egy szemcsénkénti mennyiséget és a célterületet. A végső szemcse listát a rendelés előtt az ajánlattal erősítse meg."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "A leggyakoribb csiszolószer-szemcse szalagokhoz és korongokhoz: szilárd, jól működik, és illeszkedik a fémhez, a fához és az általános utószínezéshez."
+    },
+    "ansi": {
+      "def": "Régebbi észak-amerikai szemcse-számozás. A FEPA-skálától eltérő, hasonló méretű szemcse — minden megkeresésben nevezze meg a szabványt."
+    },
+    "backing-cloth": {
+      "def": "Pamut/szövet hordozó, amely a csiszolószemcsét viseli a szalagon. A súly (pl. X-súly) határozza meg a rugalmasságot és a terhelhetőséget."
+    },
+    "backing-poly": {
+      "def": "Polif pamut szalag-hordozó: erő és rugalmasság egyensúlya általános célú szalagokhoz."
+    },
+    "belt": {
+      "def": "Folyamatos hurok csiszolószemcsével egy hordozó szöveten, szalagos gépekhez csiszoláshoz, utószínezéshez és szélcsavarmentesítéshez."
+    },
+    "blend": {
+      "def": "A hegesztési varrat simítása, hogy az összeolvadjon a környező fémmel — tipikusan egy tálcalapos korongon vagy szalagon az első menet, majd finomabb szemcsék."
+    },
+    "closed": {
+      "def": "Sűrű szemcse-elrendezés, kevés nyitott térrel; a szalag a keményebb feldolgozáskor nehezebben dugul."
+    },
+    "debur": {
+      "def": "A vágás, fúrás vagy csiszolás által hagyott szélcsavarok és apró kiemelkedések eltávolítása."
+    },
+    "dust": {
+      "def": "A csiszolópör eltávolítása a feldolgozott alkatrésztől — a pá csőnyílásain, mesh-korongok vagy helyi szivárgás révén."
+    },
+    "flap": {
+      "def": "Egymásra boruló csiszolólapokból álló korong, rugalmas, szöget, zongálást és utószínezést végez szögcsiszolón."
+    },
+    "fepa": {
+      "def": "Az ISO 848 (FEPA) osztályozási skála P-jelöléssel (pl. P120). A legtöbb európai és nemzetközi kereskedelem alapértelmezett skálája."
+    },
+    "grit": {
+      "def": "A csiszolószer szemcse névleges mérete: a magasabb számok finomabbak. Szalagok 40–800; korongok 60–5000."
+    },
+    "hookloop": {
+      "def": "A kampós-csák rögzítési rendszer a korongokhoz: a korong egy kampós hátlapra csatol."
+    },
+    "mesh": {
+      "def": "A mesh-korongok kivágott ablakokkal rendelkeznek, hogy a por áthaladhasson; kompatibilis pá és szivárgást igényelnek."
+    },
+    "moq": {
+      "def": "Minimális rendelési mennyiség — az ajánlattal érkezik, elérhetőséggel és feltételekkel."
+    },
+    "oem": {
+      "def": "Original equipment manufacturing / saját márkás: a mi termékeink az Ön márkájával, címkéivel és csomagolásával."
+    },
+    "psa": {
+      "def": "Nyomásérzékeny ragasztós háttal: a korong közvetlenül egy kompatibilis hátlapra tapad."
+    },
+    "disc": {
+      "def": "Egy sík vagy tálcalapos csiszolószercikk, amelyet csiszoláshoz és utószínezéshez szerelnek pára."
+    },
+    "sic": {
+      "def": "Szilíc-karbid szemcse: nagyon kemény és éles, üveg, kerámia és nem vasértékes fémekhez."
+    },
+    "prep": {
+      "def": "Felület előkészítése a bevonat vagy utószínezés előtt: rozsdát, tömítőanyagot vagy régi bevonatot távolít egyenletes profilra."
+    },
+    "wetdry": {
+      "def": "Fajták, amelyek nedves vagy nedves/száraz használatban is hidegen maradnak és ellenállnak a dugulásnak; a megfelelőséget az ajánlattal erősítse meg."
+    },
+    "xweight": {
+      "def": "Közepes súlyú szövet hordozó általános célú szalagokhoz: erős, mégis rugalmas."
+    },
+    "zirconia": {
+      "def": "Cirkón-alumínia szemcse: szilárd és agresszív, fémcsiszoláshoz, szélcsavarmentesítéshez és acél utószínezéséhez."
+    },
+    "pad": {
+      "def": "Az a hátlap, amelyre a korong ülj: a pá átmérője, a felülete (kampó) és a lyukkiosztás illusztrálnia kell a koronggal."
+    }
+  },
+  "footer": {
+    "blurb": "Csiszolószer-egységes beszállítás ipari vásárlóknak, forgalmazóknak és saját márkás cégeknek.",
+    "products": "Termékek",
+    "explore": "Fedezze fel a MoTait",
+    "connect": "Összekapcsoló",
+    "aboutUs": "Rólunk",
+    "mfgQ": "Gyártás és minőség",
+    "oemPl": "OEM és saját márkás",
+    "newsB": "Hírek és blog",
+    "privacy": "Adatvédelmi irány",
+    "terms": "Felhasználási feltételek",
+    "shipping": "Szállítás és visszaküldés",
+    "contactUs": "Kapcsolat"
+  },
+  "tdk": {
+    "home": {
+      "title": "Csiszolószer-gyártó és -beszállító ipari csiszolószerhez | MoTai",
+      "description": "Professzionális csiszolószer-gyártó Kínában, amely csiszolószalagokat, csiszolókorongokat és tálcalapos korongokat szállít. Gyári közvetítésű nagykereskedelem, OEM-megrendelés és ipari csiszolószer-egységek a globális forgalmazóknak és vevőknek.",
+      "keywords": "csiszolószer gyártó, csiszolószer beszállító, ipari csiszolószer, csiszolószalag, csiszolókorong, tálcalapos korong, csiszolószalag gyártó, nagykereskedelmi csiszolószer"
+    },
+    "about": {
+      "title": "Rólunk MoTai — csiszolószer-gyártó és -gyár Hubeiben, Kínában",
+      "description": "A Hubei MoTai Abrasives Materials Co., Ltd. festett csiszolószer-gyártó Xianningben, Hubeiben: csiszolószalagok, csiszolókorongok és tálcalapos korongok OEM-mel, egyedi méretre, nagy tömegű beszállítással és exporttal.",
+      "keywords": "csiszolószer gyártó Kína, csiszolószer beszállító Kína, csiszolószer gyár, festett csiszolószer gyártó, csiszolószer exportőr, B2B csiszolószer beszállító"
+    },
+    "factory": {
+      "title": "Csiszolószergyártás és minőség — MoTai gyár Hubeiben",
+      "description": "A MoTai csiszolószergyár műhelye: alakítás és vágás, minta ellenőrzés, QC és OEM-csomagolás csiszolószalagokhoz, csiszolókorongokhoz és tálcalapos korongokhoz.",
+      "keywords": "csiszolószergyártás, csiszolószer gyár QC, csiszolószer-alakítás, OEM csiszolószer-csomagolás"
+    },
+    "oem": {
+      "title": "Csiszolószergyártó és saját márkás OEM | MoTai",
+      "description": "Csiszolószergyártás OEM és saját márkás: az Ön logója, címkéi, méret- és csomagolásterületei MoTai szalagokon, korongokon és tálcalapos korongokon, a megerősített specifikációja szerint ajánlatra.",
+      "keywords": "csiszolószer OEM gyártó, saját márkás csiszolószer, egyedi csiszolószer-termékek, csiszolószer OEM beszállító"
+    },
+    "applications": {
+      "title": "Ipari csiszolószer alkalmazás szerint — fém, fa, autóipar és többi",
+      "description": "Ilyen MoTai csiszolószalagok, csiszolókorongok és tálcalapos korongok alkalmazáshoz: fémcsiszolás, facsiszolás, autokarosszéria, nemesacél-utószínezés, hajógyártás és felület-ékelőre.",
+      "keywords": "csiszolószer alkalmazások, fémcsiszolás, facsiszolás, felület-ékelőre, ipari felület-ékelőre"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Fémszerkezetgyártási csiszolószer — csiszolás és szélcsavarmentesítés | MoTai",
+        "description": "Csiszolószer fémszerkezetgyártáshoz: fémcsiszolás, szélcsavarmentesítés és hegesztési varrat-csiszolás MoTai csiszolószalagok, mesh- és tálcalapos korongokkal.",
+        "keywords": "fémszerkezetgyártási csiszolószer, fémcsiszolás, fém szélcsavarmentesítés, hegesztési varrat-csiszolás"
+      },
+      "woodworking": {
+        "title": "Faművészet és széles szalagos csiszolószer | MoTai",
+        "description": "Csiszolószer faművészethez és bútoriparhoz: széles szalagos csiszolás, fa tábla és MDF-csiszolás MoTai csiszolószalagok és korongokkal.",
+        "keywords": "faművészeti csiszolószer, széles szalagos csiszolás, facsiszolás, bútors csiszolás"
+      },
+      "automotive": {
+        "title": "Autóipari javítás csiszolás — karosszéria és festés | MoTai",
+        "description": "Csiszolószer autóipari javításhoz: karosszéria-csiszolás, autófesték és alapozó-csiszolás MoTai PSA és kampós-csák korongokkal.",
+        "keywords": "autóipari csiszolószer, karosszéria-csiszolás, autófesték-csiszolás, alapozó-csiszolás"
+      },
+      "stainless-steel": {
+        "title": "Nemesacél-utószínezés és -csiszolás | MoTai",
+        "description": "Csiszolószer nemesacélhoz: fémcsiszolás, felület-csiszolás és utószínezés MoTai tálcalapos korongok és szalagokkal.",
+        "keywords": "nemesacél-utószínezés, fémcsiszolás, felület-csiszolás, nemesacél csiszolószer"
+      },
+      "shipbuilding": {
+        "title": "Hajógyártási csiszolószer — lemezek és rozsdaszüntetés | MoTai",
+        "description": "Nehéz kötelezettség csiszolószer hajógyártáshoz: acéllemez-csiszolás, rozsdaszüntetés és ipari felület-ékelőre MoTai szalagok és tálcalapos korongokkal.",
+        "keywords": "hajógyártási csiszolószer, acéllemez-csiszolás, rozsdaszüntetés, nehéz kötelezettség csiszolás"
+      },
+      "surface-preparation": {
+        "title": "Ipari felület-ékelőre és -csiszolás | MoTai",
+        "description": "Ipari csiszolószer-egységek felület-ékelőre, utószínezés és nehéz kötelezettség csiszolás MoTai szalagok, korongok és tálcalapos korongok között.",
+        "keywords": "felület-ékelőre, felület-utószínezés, ipari csiszolás, csiszolószer-egységek"
+      }
+    },
+    "blog": {
+      "title": "Csiszolószergyártó vevői útmutató és szemcse-szabványok | MoTai tudás",
+      "description": "Gyakorlati csiszolószergyártó-vevői tudásanyagok: korong-háttér-megválasztatás, szalag-megkeresés ellenőrzési listája, szemcse-sorrend, porszívás és szemcse-szabványok (FEPA/ANSI).",
+      "keywords": "csiszolószer vevői útmutató, szemcse-megválasztatás, csiszolószer szójegyzék, szemcse-szabványok FEPA ANSI"
+    },
+    "contact": {
+      "title": "Kapcsolat MoTai — csiszolószer-beszállító Kínában",
+      "description": "Érjen el a MoTai csiszolószer-beszállítóhoz Xianningben, Hubeiben: telefon, e-mail és WhatsApp nagykereskedelmi és OEM csiszolószer-megkeresésekhez, valamint gyári látogatáshoz.",
+      "keywords": "csiszolószer beszállító kapcsolati, csiszolószer nagykereskedelmi megkeresés, csiszolószer gyártó Kína"
+    },
+    "privacy": {
+      "title": "Adatvédelmi irány",
+      "description": "Ahogy a MoTai Abrasives használja a megkeresési adatokat: gyűjtés, cél, tárolás, az Ön választásai és a sütik kezelése.",
+      "keywords": "adatvédelmi irány, MoTai"
+    },
+    "terms": {
+      "title": "Felhasználási feltételek — MoTai Abrasives",
+      "description": "Feltételek B2B csiszolószer-üzemhez: megkeresések kezelése, ajánlat-alapú árak, szellemi tulajdon és hatáskör.",
+      "keywords": [
+        "felhasználási feltételek",
+        "MoTai",
+        "B2B csiszolószer beszállító"
+      ]
+    },
+    "shipping": {
+      "title": "Szállítási és visszaküldési politika — csiszolószer-rendelések | MoTai",
+      "description": "MoTai csiszolószer szállítás és visszaküldési politika: gyártási lead time, export-csomagolás, Incoterms, vámkezelési dokumentumok, kiszállítás, és hogy ha egy specifikáció szerinti terméket visszaküld vagy jóváírnak.",
+      "keywords": "csiszolószer szállítás-irány, csiszolószer visszaküldési politika, nagykereskedelmi csiszolószer leszállítás, csiszolószer Incoterms, export-csomagolás, szállítási feltételek"
+    },
+    "quote": {
+      "title": "Kérés egy nagykereskedelmi csiszolószer-ajánlatra | MoTai",
+      "description": "Készítse elő a nagykereskedelmi vagy OEM csiszolószer-megkeresését: üzleti adatok és termék, méret, szemcse, mennyiség és célország. Nagy tömegű csiszolószer gyártóközvetlen ajánlatra.",
+      "keywords": "nagykereskedelmi csiszolószer-ajánlat, nagy tömegű csiszolószer beszállítás, OEM csiszolószer-megkeresés, nagykereskedelmi csiszolószer"
+    },
+    "clients": {
+      "title": "Csiszolószergyártó exportőr — világszintű beszállítás Hubeiból, Kínából | MoTai",
+      "description": "A MoTai csiszolószalagokat, csiszolókorongokat és tálcalapos korongokat exportál hét célterületre: Európa, az Amerikák, Közélelet, Afrika, Óceánia és Ázsia.",
+      "keywords": "csiszolószer exportőr, csiszolószer export, világszintű csiszolószer beszállítás, ipari csiszolószer beszállító"
+    },
+    "glossary": {
+      "title": "Csiszolószerek szójegyzéke — szemcse, háttér, korong kifejezések",
+      "description": "24 csiszolószer-fogalom magyarázva: FEPA-szemcse, háttérek, kampós-csák, PSA, mesh, szélcsavarmentesítés és többi.",
+      "keywords": "csiszolószer szójegyzék, szemcse-szabványok, csiszolószer-terminológia"
+    },
+    "product": {
+      "title": "MoTai {name} — nagykereskedelmi és OEM csiszolószer",
+      "description": "MoTai {name} ({material}, {category}): {desc} Méretek: {sizes}. Szemcse: {grits}. Gyártóközvetlen nagykereskedelem és OEM beszállítás.",
+      "keywords": "{name}, {category} gyártó, {material} csiszolószer, nagykereskedelmi csiszolószer, OEM csiszolószer"
+    },
+    "model": {
+      "title": "{model} csiszolószalag — MoTai",
+      "description": "Referencia csiszolószalag {model} a MoTai sortól — szélesség, hossz, szemcse és háttér az ajánlattal egyeztetik. Nagykereskedelem és OEM beszállítás.",
+      "keywords": "{model} csiszolószalag, csiszolószalag modell referencia, nagykereskedelmi csiszolószalagok"
+    },
+    "disc": {
+      "title": "MoTai {title} — nagykereskedelmi és OEM",
+      "description": "MoTai korongvariáns {title}: szemcse tartomány, átmérő és rögzítés az ajánlattal egyeztetik. Gyártóközvetlen nagykereskedelem és OEM.",
+      "keywords": "csiszolókorong, kampós-csák korong, PSA korong, mesh korong, nagykereskedelmi csiszolókorongok"
+    },
+    "flap": {
+      "title": "MoTai {name} — tálcalapos korong gyártó",
+      "description": "MoTai {name}: {backing}-háttal ellátott tálcalapos csiszolókorong fémcsiszoláshoz, zongálás és utószínezéshez. Nagykereskedelem és OEM beszállítás.",
+      "keywords": "tálcalapos korong, {backing} háttal ellátott tálcalapos korong, cirkón tálcalapos korong, tálcalapos korong gyártó, nagykereskedelmi tálcalapos korongok"
+    },
+    "colt": {
+      "belts": {
+        "title": "Csiszolószalag gyártó és nagykereskedelmi beszállító | MoTai",
+        "description": "Széles és ipari csiszolószalagok 533×75-től 2200×1330 mm-ig, 40–800-as szemcsével, alumínium-oxid, cirkón és szilíc-karbid alapokon — GXK-51, XZ-330, GPC71 és többi referenciamodellel. Gyártóközvetlen nagykereskedelem és OEM.",
+        "keywords": "csiszolószalagok, facsiszoló szalagok, ipari facsiszoló szalagok, széles csiszolószalagok, széles facsiszoló szalagok, fa facsiszoló szalagok, fém facsiszoló szalagok, alumínium-oxid csiszolószalagok, cirkón csiszolószalagok, szilíc-karbid csiszolószalagok, csiszolószalag gyártó, csiszolószalag beszállító, nagykereskedelmi csiszolószalagok, GXK-51 csiszolószalag, XZ-330 csiszolószalag, GPC71 csiszolószalag, Y399 csiszolószalag, Y999 csiszolószalag, 533x75 csiszolószalag, 610x100 csiszolószalag, 1520x630 csiszolószalag, 2200x1330 csiszolószalag"
+      },
+      "discs": {
+        "title": "Csiszolókorong gyártó — PSA, kampós-csák és mesh | MoTai",
+        "description": "Kampós-csák, PSA, mesh és nem fúrt csiszolókorongok 3–6 hüvelyk között, 60–5000-es szemcsével, autokarosszériához, fahoz és fém-utószínezéshez. Gyártóközvetlen nagykereskedelem és OEM.",
+        "keywords": "csiszolókorongok, csiszolókorongok kampós-csák, PSA csiszolókorongok, mesh csiszolókorongok, nem szőtt csiszolókorongok, pormentes csiszolókorongok, fúrt csiszolókorongok, lyukas csiszolókorongok, 5 hüvelyk csiszolókorongok, 6 hüvelyk csiszolókorongok, csiszolókorong gyártó, nagykereskedelmi csiszolókorongok"
+      },
+      "flap": {
+        "title": "Tálcalapos korong gyártó — cirkón és alumínium-oxid | MoTai",
+        "description": "MoTai tálcalapos csiszolókorongok műanyag, acél és üvegszálas háttal, cirkón és alumínium-oxid alapokon, fémcsiszoláshoz, szélcsavarmentesítéshez és utószínezéshez. Nagykereskedelem és OEM beszállítás.",
+        "keywords": "tálcalapos korongok, csiszoló tálcalapos korongok, cirkón tálcalapos korongok, alumínium-oxid tálcalapos korongok, üvegszálas háttal ellátott tálcalapos korongok, műanyag háttal ellátott tálcalapos korongok, acél háttal ellátott tálcalapos korongok, 100mm tálcalapos korongok, 115mm tálcalapos korongok, 125mm tálcalapos korongok, 150mm tálcalapos korongok, 180mm tálcalapos korongok, tálcalapos korong gyártó, tálcalapos korong beszállító, nagykereskedelmi tálcalapos korongok"
+      },
+      "all": {
+        "title": "Nagykereskedelmi csiszolószerek — szalagok, korongok és tálcalapos korongok | MoTai",
+        "description": "A teljes MoTai csiszolószer-katalógus: ipari csiszolószalagok, csiszolókorongok és tálcalapos korongok forgalmazóknak, importőröknek, nagykereskedőknek és OEM-márkákhoz. Gyártóközvetlen nagykereskedelem, testreszabás és export Hubeiból, Kínából.",
+        "keywords": "csiszolószer-termékek, nagykereskedelmi csiszolószer-termékek, ipari csiszolószer, festett csiszolószer, nagykereskedelmi csiszolószer, gyárban készült csiszolószer-termékek, csiszolószer exportőr, csiszolószer beszállító Kína, csiszolószer OEM gyártó, saját márkás csiszolószer, egyedi csiszolószer-termékek, nagy tömegű csiszolószer beszállítás, csiszolószer gyár, csiszolószer-eszközök, csiszolószer anyagiak, facsiszoló termékek, felület-utószínezési termékek, csiszolószerszövet, csiszolószerszövet lap, kerek csiszolószerszövet, nagykereskedelmi csiszolószerszövet, facsiszoló pá, kampós-csák facsiszoló pá, 5 hüvelyk facsiszoló pá, 6 hüvelyk facsiszoló pá, nem szőtt tálcalap, csiszolószer textil, ipari henger"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Gyors kapcsolati",
+    "whatsapp": "WhatsApp",
+    "quote": "Ajánlatkérés"
+  }
+}

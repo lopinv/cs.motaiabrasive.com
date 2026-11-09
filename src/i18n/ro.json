@@ -1,0 +1,1001 @@
+{
+  "code": "ro",
+  "name": "Română",
+  "codeLabel": "RO",
+  "htmlLang": "ro",
+  "ogLocale": "ro_RO",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Cereri en-gros",
+    "oemNote": "Cereri privind ambalarea OEM",
+    "size": "Dimensiune",
+    "grit": "Granulație",
+    "quantity": "Cantitatea solicitată",
+    "requirements": "Cerințe de specificație și ambalare",
+    "requirementsPh": "Spuneți-ne despre aplicația dvs., specificațiile și cerințele de livrare.",
+    "material": "Material abraziv",
+    "backing": "Suport / atașare",
+    "availability": "Disponibilitatea, cantitatea minimă de comandă și condițiile comerciale sunt supuse confirmării în oferta.",
+    "sampleNote": "Spuneți-ne ce produse și ce granulații doriți să evaluați. Echipa noastră de vânzări va confirma disponibilitatea eșantioanelor, taxele și aranjamentele de livrare.",
+    "gritsRange": "Interval de granulații",
+    "holes": "Găuri",
+    "diameter": "Diametru / dimensiune nominală",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Limbă",
+    "home": "Acasă",
+    "about": "Despre noi",
+    "manufacturing": "Producție",
+    "oem": "Servicii OEM",
+    "news": "Noutăți",
+    "knowledge": "Cunoștințe",
+    "contact": "Contactați-ne",
+    "products": "Produse"
+  },
+  "colt": {
+    "belts": {
+      "title": "Benzi de șlefuire — en-gros și OEM",
+      "desc": "Benzi de șlefluire roșii, în dimensiuni documentate, de la 533 × 75 mm la 2200 × 1330 mm. Granulații 40–800. Modele de referință disponibile. Primim cu plăcere cereri en-gros și OEM.",
+      "label": "Benzi de șlefluire"
+    },
+    "discs": {
+      "title": "Discuri de șlefuire — en-gros și OEM",
+      "desc": "Discuri de șlefuire PSA, hook & loop, în plasă deschisă și fără găuri, de la 3 la 6 inch. Granulații 60–5000. Primim cu plăcere cereri en-gros și OEM.",
+      "label": "Discuri de șlefuire"
+    },
+    "flap": {
+      "title": "Discuri cu așchie MOTAI",
+      "desc": "Discuri cu așchie cu suport din plastic, oțel și sticlă-ranțuită, pentru toc, uniformizare și finisare a metalului. Confirmați specificațiile, furnizarea în volum și ambalarea OEM împreună cu oferta.",
+      "label": "Discuri cu așchie"
+    },
+    "all": {
+      "title": "Toate produsele",
+      "desc": "Catalogul complet de abrazivi MoTai: benzi de șlefuire, discuri de șlefuire și discuri cu așchie, pentru cumpărători industriali, distribuitori și branduri cu marcă proprie.",
+      "label": "Toate produsele"
+    }
+  },
+  "cta": {
+    "quote": "Solicitați o ofertă en-gros",
+    "quoteArrow": "↗",
+    "sample": "Solicitați un eșantion",
+    "whatsapp": "Cerere pe WhatsApp",
+    "waChat": "Contactați-ne pe WhatsApp",
+    "explore": "Vezi gama de discuri cu așchie",
+    "viewAll": "Vezi toate produsele",
+    "discuss": "Discutați specificația dvs.",
+    "oemQuote": "Solicitați o ofertă OEM"
+  },
+  "home": {
+    "eyebrow": "Abrazivi de la fabrica MoTai din Hubei",
+    "heroTitle": "Producător și furnizor profesional de abrazivi",
+    "heroSub": "Benzi de șlefuire, discuri de șlefuire și discuri cu așchie, direct de la fabrică, pentru cumpărători industriali, distribuitori și branduri cu marcă proprie — din Hubei, China, la piața dvs.",
+    "cta1": "Solicitați o ofertă en-gros",
+    "cta2": "Vorbiți cu echipa noastră pe WhatsApp",
+    "builtTitle": "Alegeți aplicația. Potriviti abrazivul.",
+    "builtSub": "Alegeți aplicația, apoi potriviți abrazivul: benzi, discuri sau discuri cu așchie.",
+    "featuredTitle": "În catalog",
+    "featuredSub": "Dimensiunile și granulațiile sunt documentate în catalog; MOQ și disponibilitatea vin cu oferta.",
+    "partnerTitle": "Latura de aprovizionare a comenzii dvs. de abrazivi",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. furnizează consumabile abrazive pentru prelucrarea lemnului, a metalelor și aplicațiile auto — cu programe OEM și de marcă proprie pentru distribuitori și cumpărători industriali din întreaga lume.",
+    "partnerCta": "Descoperiți MoTai",
+    "valuesTitle": "Șase moduri în care cumpărătorii B2B colaborează cu noi",
+    "valuesSub": "Șase motive pentru care importatorii și brandurile OEM colaborează cu noi.",
+    "v1t": "Direct de la fabrică",
+    "v1b": "Prețuri și termene de livrare de la furnizor, fără intermediari.",
+    "v2t": "OEM și marcă proprie",
+    "v2b": "Logo-ul, etichetele și ambalajele dvs. pe specificații confirmate.",
+    "v3t": "Dimensiuni și granulații la comandă",
+    "v3b": "Dimensiuni documentate și granulații 40–800 pentru benzi, 60–5000 pentru discuri.",
+    "v4t": "Verificare eșantioane și control al calității",
+    "v4b": "Verificați suprafața, suportul și potrivirea pe un eșantion înainte de comandă.",
+    "v5t": "Furnizare în volume mari",
+    "v5b": "Cantități constante pe cutie și detalii complete ale listei de împachetare.",
+    "v6t": "Program de export",
+    "v6b": "Marcaje pe cutii, etichete și documentație de destinație.",
+    "processTitle": "Etapele dintre specificația dvs. și comandă",
+    "processSub": "Patru etape dintre cerința dvs. și o comandă confirmată.",
+    "p1t": "Decupare și convertire",
+    "p1b": "Confirmați forma, dimensiunile și granulația necesare înainte de a organiza procesul de convertire.",
+    "p2t": "Verificarea eșantioanelor",
+    "p2b": "Verificați suprafața abrazivă, suportul și potrivirea unui eșantion înainte de a confirma specificația comenzii.",
+    "p3t": "OEM și împachetare",
+    "p3b": "Confirmați cantitățile de împachetare, etichetele, marcajele pe cutii și materialul grafic pentru marca proprie împreună cu oferta.",
+    "p4t": "Pregătirea expediției",
+    "p4b": "Puneți la punct lista de împachetare, cerințele de paleți și detaliile de destinație înainte de expediere.",
+    "oemTitle": "Numele dvs. pe cutie",
+    "oemSub": "Comunicați cerințele de produs, ambalare și brand pentru următorul tău sortiment de abrazivi.",
+    "oemCta": "Descoperiți serviciile OEM",
+    "faqTitle": "Înainte de a începe",
+    "faqSub": "Răspunsuri la întrebările pe care cumpărătorii le pun cel mai des.",
+    "regionsTitle": "Din Hubei către piața dvs.",
+    "regionsSub": "Aprovizionare globală organizată pe regiuni de destinație.",
+    "regionsNote": "MOQ și termenul de livrare se confirmă în oferta dvs. Rutele sunt orientative; disponibilitatea și condițiile se confirmă prin ofertă.",
+    "factoryTitle": "Găsiți-ne în Hubei",
+    "factoryBody": "Nr. 88, Bulevardul Yuli, Orașul Junshui, Județul Tongcheng, Xianning, Hubei, China. Aranjați o vizită la fabrică și confirmați punctul de întâlnire cu echipa noastră.",
+    "finalTitle": "Căutați un furnizor de abrazivi de încredere?",
+    "finalBody": "Comunicați produsul, cantitatea și aplicația — vom analiza cerințele și vom pregăti o ofertă potrivită.",
+    "finalCta1": "Solicitați o ofertă en-gros",
+    "finalCta2": "Contactați-ne pe WhatsApp",
+    "beltsShowTitle": "Benzi de șlefuire, pe modele",
+    "beltsShowSub": "Modele de referință pentru discuție cu echipa noastră.",
+    "articlesEyebrow": "Resurse pentru cumpărători",
+    "articlesTitle": "Ghiduri de la echipa noastră tehnică",
+    "articlesSub": "Cum aleg cumpărătorii granulația, suportul și împachetarea înainte de a comanda.",
+    "articlesCta": "Vezi toate ghidurile",
+    "prepTitle": "Pregătiți solicitarea dvs. en-gros",
+    "prepSub": "Dimensiunile, granulația și cantitatea fac restul trebilor.",
+    "prepDim": "Dimensiuni",
+    "prepDimText": "Referința de dimensiune sau a modelului, în milimetri.",
+    "prepGrit": "Granulație",
+    "prepGritText": "Gradul sau finisajul necesar.",
+    "prepQty": "Cantitate",
+    "prepQtyText": "Volum estimat și ambalare."
+  },
+  "purchasing": {
+    "eyebrow1": "Ghid de achiziții",
+    "title1": "Pregătiți solicitarea dvs. en-gros",
+    "body1": "Comunicați dimensiunile, granulația, piesa de prelucrat, mașina și finisajul dorit. Folosiți opțiunile documentate de mai sus acolo unde există; alte cerințe se analizează împreună cu echipa noastră.",
+    "dl1t": "Cantitate și destinație",
+    "dl1b": "Spuneți-ne cantitatea, cerințele de ambalare și destinația de livrare.",
+    "dl2t": "Aprovizionare și condiții",
+    "dl2b": "Disponibilitatea, cantitatea minimă de comandă și condițiile comerciale sunt supuse confirmării în oferta.",
+    "dl3t": "Cereri privind ambalarea OEM",
+    "dl3b": "Branding, etichete, dimensiuni la comandă sau cerințe de ambalare.",
+    "eyebrow2": "Cum solicitați o ofertă",
+    "title2": "De la selecția produsului la ofertă",
+    "s1t": "Alegeți-vă produsul",
+    "s1b": "Alegeți produsul sau modelul și specificația necesară.",
+    "s2t": "Comunicați cerințele",
+    "s2b": "Comunicați cantitatea, aplicația și cerințele de ambalare.",
+    "s3t": "Analizați oferta",
+    "s3b": "Confirmați specificația finală și condițiile comerciale cu echipa noastră."
+  },
+  "modelPage": {
+    "eyebrow": "Benzi de șlefuire · Model de referință",
+    "refLabel": "Referință model",
+    "familyLabel": "Categorie",
+    "dimsLabel": "Dimensiunile finale ale benzii — specificați lățime × lungime în mm",
+    "dimsPlaceholder": "ex. 533 × 75 mm",
+    "gritLabel": "Granulația necesară — specificați gradul sau finisajul dorit",
+    "gritPlaceholder": "ex. P60",
+    "qtyLabel": "Cantitatea solicitată",
+    "specLabel": "Cerințe de specificație și ambalare",
+    "discussion": "Discutați acest model cu echipa noastră, folosind piesa, mașina și finisajul necesar.",
+    "grainBacking": "Granule și suport — confirmați producătorul de materii prime și gradul exact.",
+    "disclaimer": "Detaliile familiei de modele sunt cu titlu orientativ la selecție; specificațiile de furnizare MoTai, disponibilitatea și potrivirea se stabilesc în oferta dvs."
+  },
+  "discPage": {
+    "eyebrow": "Discuri de șlefuire · Variantă documentată",
+    "gritsNote": "Opțiuni de granulație pentru această variantă"
+  },
+  "flapPage": {
+    "eyebrow": "Discuri cu așchie · Variantă de suport",
+    "color": "Culoare",
+    "gritNote": "P40–P60 și P80–P120 sunt exemple generale de selecție, nu o gamă de furnizare MoTai confirmată."
+  },
+  "productPage": {
+    "specTitle": "Specificații",
+    "howTitle": "Cum specificați comanda",
+    "howBody": "Includeți dimensiunea benzii sau a discului, lista de granulații, modelul mașinii, materialul piesei și cantitatea. O specificație clară ne ajută să verificăm potrivirea și să pregătim o ofertă utilă — nu selectați produsul doar după culoare.",
+    "faqTitle": "Întrebări de la cumpărători"
+  },
+  "about": {
+    "h1": "Compania din spatele gamei de abrazivi",
+    "sub": "O abordare riguroasă a furnizării de abrazivi.",
+    "bizTitle": "Activitatea noastră",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. furnizează consumabile abrazive pentru prelucrarea lemnului, a metalelor și aplicațiile auto. Gama documentată include discuri de șlefuire fără găuri, discuri de șlefuire în plasă și benzi de șlefuire roșii. Primim cereri de la importatori, distribuitori, măgariști și cumpărători industriali — cerințe de produs, suport, dimensiune, grad, cantitate și livrare.",
+    "matTitle": "Materialele companiei",
+    "matBody": "Descoperiți istoricul companiei și datele de contact în broșura noastră.",
+    "globalTitle": "Din Hubei către piața dvs.",
+    "globalSub": "Aprovizionare globală organizată pe regiuni de destinație.",
+    "facTitle": "Găsiți-ne în Hubei",
+    "facBody": "Nr. 88, Bulevardul Yuli, Orașul Junshui, Județul Tongcheng, Xianning, Hubei, China. Aranjați o vizită la fabrică cu echipa noastră și confirmați punctul de întâlnire înainte de deplasare.",
+    "profileName": "Pe scurt",
+    "profileBody": "Producător de abrazive cu strat de acoperire din Xianning, Hubei: trei linii de produse furnizate către șapte regiuni de destinație, cu acoperire de granulație de la 40 la 5000.",
+    "ctaTitle": "Căutați un furnizor de abrazivi de încredere?",
+    "cta1": "Solicitați o ofertă en-gros",
+    "cta2": "Contactați-ne pe WhatsApp"
+  },
+  "factory": {
+    "h1": "În atelierul MoTai",
+    "sub": "Detaliile contează. La fiecare etapă.",
+    "intro": "Analizați decuparea, verificarea eșantioanelor și detaliile de împachetare pentru comanda dvs. Filmajele cu produsele apar alături de ilustrațiile proceselor.",
+    "videoLabel": "Vizionați filmajele cu produsele",
+    "stepsTitle": "Producție și pregătire comenzi",
+    "stepsIntro": "De la cerința dvs. la comanda confirmată.",
+    "st1t": "Decupare și convertire",
+    "st1b": "Confirmați forma, dimensiunile și granulația necesare înainte de a organiza procesul de convertire.",
+    "st2t": "Verificarea eșantioanelor",
+    "st2b": "Verificați suprafața abrazivă, suportul și potrivirea unui eșantion înainte de a confirma specificația comenzii.",
+    "st3t": "OEM și împachetare",
+    "st3b": "Confirmați cantitățile de împachetare, etichetele, marcajele pe cutii și materialul grafic pentru marca proprie împreună cu oferta.",
+    "st4t": "Pregătirea expediției",
+    "st4b": "Puneți la punct lista de împachetare, cerințele de paleți și detaliile de destinație înainte de expediere.",
+    "imgNote": "Termenele și cantitățile de împachetare se pun la punct în ofertă înainte de începerea rulajului.",
+    "galleryTitle": "Aici se produce comanda dvs.",
+    "galleryIntro": "Același atelier se ocupă de decupare, verificarea eșantioanelor și împachetarea pentru fiecare comandă confirmată.",
+    "gallery1Title": "Atelier de producție",
+    "gallery1Text": "Spațiul acoperit de lucru unde benzi și discurile abrazive sunt convertite, verificate și împachetate.",
+    "gallery2Title": "Fabrică și ramă de încărcare",
+    "gallery2Text": "Cutiile se așază pe paleți și se încarcă pe loc, înainte de expedierea către regiunea de destinație.",
+    "gallery3Title": "Stoc de produse finite",
+    "gallery3Text": "Benzi și discurile se împachetează conform specificației confirmate — granulație, dimensiune și listă de împachetare.",
+    "galleryNote": "Fotografiile sunt furnizate de fabrică cu titlu orientativ; nu sunt imagini specifice comenzii. Videoclipurile cu produsele vor apărea aici odată publicate filmajele.",
+    "qcTitle": "Puncte de control al calității",
+    "qcIntro": "Ce verificăm înainte ca o comandă să părăsească hala fabricii.",
+    "qc1t": "Suprafață și granulație",
+    "qc1b": "Coerența suprafeței abrazive în raport cu gradul confirmat.",
+    "qc2t": "Suport și potrivire",
+    "qc2b": "Tipul suportului, greutatea și toleranțele dimensionale ale benzilor și discurilor finite.",
+    "qc3t": "Împachetare și marcaje",
+    "qc3b": "Cantitățile de împachetare, etichetele, marcajele pe cutii și materialul grafic pentru marca proprie corespund comenzii confirmate.",
+    "ctaTitle": "Preferați să discutăm pe îndelete?",
+    "ctaSub": "Căutați un furnizor de abrazivi de încredere?",
+    "cta1": "Solicitați o ofertă en-gros",
+    "cta2": "Contactați-ne pe WhatsApp"
+  },
+  "oem": {
+    "h1": "Numele dvs. pe cutie",
+    "sub": "Trimiteți cerințele pentru produs, ambalare și brand; revenim cu o verificare de fezabilitate OEM.",
+    "briefTitle": "Construiți o cerere în jurul brandului dvs.",
+    "briefEyebrow": "Aduceți cerințele",
+    "briefBody": "Discutați materialul grafic al logo-ului și al etichetelor, formatul de ambalare, dimensiunile produselor, gradele de granulație și utilizarea intenționată. Disponibilitatea OEM, cantitățile minime, cerințele de material grafic și termenele sunt supuse unei analize de fezabilitate și a unei oferte confirmate.",
+    "itemsTitle": "Un brief clar aduce un răspuns util",
+    "i1": "Produs și specificație",
+    "i2": "Dimensiuni și amestec de granulații",
+    "i3": "Material grafic și etichete",
+    "i4": "Format de ambalare",
+    "i5": "Cantități țintă",
+    "i6": "Destinație și termen",
+    "itemNote": "Includeți cerințele și fișierele de referință în cerere.",
+    "procTitle": "De la cerere la furnizare",
+    "pr1t": "Cererea dvs.",
+    "pr1b": "Spuneți-ne aplicația și cerințele.",
+    "pr2t": "Verificare a specificației",
+    "pr2b": "Analizați dimensiunile, gradele, suportul și ambalarea.",
+    "pr3t": "Ofertă",
+    "pr3b": "Confirmați condițiile comerciale și programul.",
+    "pr4t": "Aprobarea eșantioanelor",
+    "pr4b": "Evaluați eșantioanele convenite înainte de aprobare.",
+    "pr5t": "Producție",
+    "pr5b": "Se continuă conform specificației confirmate.",
+    "pr6t": "Expediere",
+    "pr6b": "Coordonați împachetarea și destinația.",
+    "cta1": "Solicitați o ofertă en-gros",
+    "cta2": "Contactați-ne pe WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrazivi pentru industria dvs.",
+    "sub": "Suprafața definește specificația.",
+    "intro": "Șase domenii de aplicație. Specificați materialul, mașina și finisajul necesar — vom potrivi abrazivul.",
+    "ctaNote": "Unele imagini sunt ilustrații de aplicație generate de AI, nu fotografii de la fabrica MoTai sau de la clienți.",
+    "sampleNote": "Spuneți-ne industria, țara, specificația produsului și volumul estimat al comenzii când solicitați o ofertă.",
+    "reqTitle": "Produse recomandate",
+    "reqNote": "Familii de produse orientative pentru acest domeniu. Confirmați dimensiunile, granulațiile și cantitățile în oferta.",
+    "specTitle": "Sfaturi de specificație",
+    "faqTitle": "Cele mai frecvente întrebări",
+    "faqs": [
+      {
+        "q": "Ce granulație să folosesc la început?",
+        "a": "Punctul de plecare este materialul piesei, adâncimea defectului și finisajul dorit — un grad gros îndepărtează materialul rapid, apoi scădeți granulația și verificați suprafața la fiecare etapă."
+      },
+      {
+        "q": "Pot amesteca granulații într-o singură comandă?",
+        "a": "Da — listați granulațiile și cantitatea pe grad; disponibilitatea și termenul de livrare revin cu oferta."
+      }
+    ],
+    "ctaTitle": "Specificați pentru domeniul dvs.?",
+    "cta1": "Solicitați o ofertă en-gros",
+    "cta2": "Contactați-ne pe WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Informație mai bună. Selecție mai bună.",
+    "sub": "Resurse practice pentru cumpărători, pentru discutarea specificațiilor de abrazivi.",
+    "updatedLabel": "Actualizat",
+    "governance": "Ghidurile sunt redactate și verificate de echipa tehnică MoTai Abrasives și revizuite când specificațiile produselor se schimbă."
+  },
+  "blogSidebar": {
+    "eyebrow": "Produse",
+    "productsTitle": "Produse în evidență",
+    "productsSub": "Dimensiunile, granulațiile și suporturile sunt documentate pe produs; MOQ și disponibilitatea vin cu oferta.",
+    "viewAll": "Toate produsele",
+    "servicesEyebrow": "Servicii",
+    "servicesTitle": "De la selecție la furnizare",
+    "servicesSub": "Furnizare en-gros, împachetare cu marca proprie și verificări de proces, confirmate în oferta.",
+    "serviceWholesale": "Ofertă en-gros",
+    "serviceOem": "OEM și marcă proprie",
+    "serviceManufacturing": "Producție",
+    "serviceApplications": "Aplicații",
+    "latestEyebrow": "Noutăți",
+    "latestTitle": "Ghiduri noi",
+    "catDiscs": "Discuri de șlefuire",
+    "catBelts": "Benzi de șlefluire",
+    "catFlap": "Discuri cu așchie"
+  },
+  "blogPager": {
+    "navLabel": "Pagini de blog",
+    "prev": "Anterior",
+    "next": "Următor",
+    "pageOf": "Pagina {page} din {total}",
+    "range": "Ghiduri {from}–{to} din {count}"
+  },
+  "article": {
+    "watchTitle": "Vezi",
+    "discuss": "Discutați specificația dvs.",
+    "catSelection": "Ghid de selecție",
+    "catBuyer": "Resurse pentru cumpărători",
+    "catNotes": "Note de aplicație",
+    "catOem": "Ghid OEM",
+    "reviewedBy": "Verificat de echipa tehnică MoTai Abrasives",
+    "lastReviewed": "Ultimele revizuite {date}",
+    "tocTitle": "Pe această pagină"
+  },
+  "contact": {
+    "h1": "Începeți o discuție comercială en-gros",
+    "sub": "Obțineți prețuri en-gros direct de la fabrică pentru produse abrazive.",
+    "directTitle": "O conversație. O specificație mai bună.",
+    "directBody": "Comunicați produsul, cantitatea și aplicația. Vom analiza cerințele și vă vom ajuta să faceți pasul următor.",
+    "facTitle": "Găsiți-ne în Hubei",
+    "facBody": "Nr. 88, Bulevardul Yuli, Orașul Junshui, Județul Tongcheng, Xianning, Hubei, China.",
+    "facNote": "Confirmați adresa exactă de vizită cu echipa noastră înainte de deplasare.",
+    "visit": "Programați o vizită la fabrică",
+    "formTitle": "Cerere en-gros / OEM",
+    "formNote": "Acest formular solicită o ofertă și nu plasează o comandă. Cerele ajung la cutia de e-mail a echipei de vânzări; specificațiile și condițiile comerciale se stabilesc împreună cu oferta.",
+    "btn": "Deschideți formularul de cerere ↗"
+  },
+  "privacy": {
+    "h1": "Informațiile din cererea dvs.",
+    "sub": "Cum folosește acest site detaliile pe care alegeți să le comunicați.",
+    "s1t": "Informații colectate",
+    "s1b": "Date de contact, informații despre companie, cerințe de produs și fișiere atașate odată cu o cerere. Un identificator de conexiune hash-uit limitează trimiterile abuzive.",
+    "s2t": "Scop și acces",
+    "s2b": "Detaliile sunt folosite pentru a analiza și răspunde la cereri, a pregăti oferte și a coordona discuțiile comerciale solicitate. Accesul este restricționat la administratorii autorizați.",
+    "s3t": "Stocare și păstrare",
+    "s3b": "Înregistrările sunt păstrate la furnizorul nostru de hosting. Datele pot fi preluate în afara țării dvs. Păstrarea urmează obligațiile de urmărire comercială și de arhivare; puteți solicita o păstrare sau o ștergere anume.",
+    "s4t": "Opțiunile dvs.",
+    "s4b": "Contactați motai-01@motaiabrasive.com pentru a solicita acces, corectare sau ștergere. Vă rugăm să nu trimiteți date personale sensibile sau fișiere conțidentiale nesprelegate cu cererea.",
+    "s5t": "Cookie-uri, linkuri și analitice",
+    "s5b": "Navigatorul stochează date de administrare a listei de cereri. Site-ul folosește Google Analytics (gtag.js) pentru statistici de utilizare anonimize; Google setează un cookie și prelucrează datele conform termenilor sale de prelucrare a datelor — puteți renunța la ele la https://support.google.com/analytics/answer/3452785. Linkurile externe către WhatsApp, hărți și rețele sociale guvernează prin propriile lor politici de confidențialitate.",
+    "updated": "Ultima actualizare: 4 noiembrie 2026"
+  },
+  "terms": {
+    "h1": "Termeni de utilizare",
+    "sub": "Condițiile care se aplică când folosiți acest site și trimiteți MoTai o cerere.",
+    "s1t": "Utilizarea acestui site",
+    "s1b": "Acest site este un serviciu B2B de informare și cereri, operat de Hubei MoTai Abrasives Materials Co., Ltd. Conținutul — specificații de produs, ghiduri, glossar și blog — este furnizat în bună credință, cu titlu informativ general. Utilizarea site-ului înseamnă că acceptsți acești termeni; dacă nu, nu trimiteți o cerere.",
+    "s2t": "Cereri nu înseamnă oferte",
+    "s2b": "O trimitere a formularului de cerere este o invitație la negociere, nu o comandă obligatorie. MoTai nu este obligat să răspundă la fiecare cerere și niciun achiziție nu se angajează până când oferta este confirmată în scris de ambele părți.",
+    "s3t": "Oferte și prețuri",
+    "s3b": "Toate prețurile sunt bazate pe ofertă. Ofertele enumeră dimensiuni, granulații, ambalare, termeni comerciale și perioade de valabilitate; cifrele finale se stabilesc la specificația confirmată și sunt supuse mișcării materiilor prime și a transportului.",
+    "s4t": "Proprietate intelectuală",
+    "s4b": "Conținutul site-ului, descrierile produselor, graficele și brandul MoTai aparțin MoTai Abrasives și nu pot fi reproduse comercial. Referințele terților (de ex. surse de modele) sunt doar orientative pentru cumpărător și nu implică aprobare.",
+    "s5t": "Răspundere și lege aplicabilă",
+    "s5b": "MoTai nu este responsabil pentru deciziile luate în baza informațiilor generale de pe acest site. Acești termeni sunt guvernați de legile Republicii Populare Chineze; litigiile se soluțiază în cadrul contractului de vânzare dintre părți.",
+    "updated": "Ultima actualizare: 3 noiembrie 2026"
+  },
+  "shipping": {
+    "h1": "Politica de livrare și retur",
+    "sub": "Cum părăsesc comenzile fabrica noastră și de ce abrazivurile la comandă nu pot fi returnate.",
+    "shipTitle": "Politica de livrare",
+    "shipSub": "Producția, împachetarea și expedierea se confirmă împreună cu oferta.",
+    "s1t": "Producție și termen de livrare",
+    "s1b": "Benzi, discurile și discurile cu așchie abrazive sunt convertite conform specificației din comandă. Termenul de livrare pornește de la data la care oferta este confirmată în scris, nu de la data la care a fost trimisă cererea. Referințele standard precum GXK-51, XZ-330 și GPC71 sunt articole de stoc gata făcute; dimensiunile, granulațiile și ambalarea OEM la comandă se execută pe bază de comandă.",
+    "s2t": "Împachetare și marcaje",
+    "s2b": "Mărfa se împachetează în cutii de export, cu cantitatea de împachetare convenită, etichete, marcaje pe cutii și — pentru programele OEM — materialul grafic și codul de bare. Configurația pe paleți se confirmă cu lista de împachetare. Fumigația sau marcajul ISPM 15 se aplică acolo unde țara de destinație o impune.",
+    "s3t": "Modalitate de transport și Incoterms",
+    "s3b": "Expedierea se aranjează pe mărere (FCL sau LCL) sau pe aer, în funcție de volum și destinație. Termenul comercial se menționează în oferta — EXW, FOB, CIF, CFR, DAP și DDP sunt folosite frecvent. Puteți desemna propriul agent de transport; MoTai atunci furnizează lista de împachetare, marcajele pe cutii și documentele de transport.",
+    "s4t": "Documente și vamă",
+    "s4b": "Fiecare expediere este însoțită de o factură comercială, o listă de împachetare și un document de transport. Codurile SH și certificatele de origine se furnizează pentru descămtare vamală. Taxele de import, tarifele și descămtarea vamală în țara de destinație sunt în sarcina cumpărătorului, cu excepția cazului în care oferta menționează DDP.",
+    "s5t": "Expediere și livrare",
+    "s5b": "Trimitem notificarea de expediere, cu numărul navei sau al zborului, odată ce containerul sau mărfa este rezervată. Timpul de livrare depinde de portul sau aeroportul de destinație și de programul transportatorului. Întârzierile cauzate de congestionarea portului, de controlul vamal sau de forță majoră scapă de sub controlul nostru și se semnalizează de îndată ce devin cunoscute.",
+    "retTitle": "Politica de retur",
+    "retSub": "Produsele noastre se execută la specificația convenită, de aceea returile se limitează la cazuri definite.",
+    "r1t": "Mărfuri executate la specificație",
+    "r1b": "Produsele abrazive se fabrică la specificația dvs. de granulație, dimensiune, suport și ambalare. Deoarece nu pot fi revândute ca stoc standard, comenzile la comandă confirmate nu se pot returna și nu se pot rambursa, cu excepția cazului în care mărfa nu corespunde specificației confirmate.",
+    "r2t": "Articole de stoc și avarii de transport",
+    "r2b": "Articolele standard de referință, nefolosite, care rămân în împachetarea originală de export, pot fi returnate caz cu caz, după ce confirmăm motivul și condițiile de retur. Mărfa avariată în transport trebuie semnalizată, cu fotografii, în 7 zile de la livrare, iar reclamațiile la asigurarea transportatorului se tratează prin agentul de transport desemnat.",
+    "r3t": "Reclamații, inspecție și note de creditare",
+    "r3b": "Orice reclamație trebuie să se refere la numărul comenzii, la lista de împachetare și la marcajul cutiilor afectate. Dacă un defect este confirmat după inspecție, înlocuim cantitatea afectată sau emitem o notă de creditare contra facturii. Reclamațiile depuse la mai mult de 30 de zile de la livrare nu pot fi acceptate.",
+    "r4t": "Rambursări de plată",
+    "r4b": "Dacă o creditare este convenită, orice rambursare se face plătorului original, prin aceeași metodă folosită pentru comandă, odată ce returul sau înlocuirea a fost finalizată sau anulat. Taxele bancare pentru transferurile internaționale sunt suportate de partea care primește rambursarea.",
+    "r5t": "Vamă, taxe și conformitate",
+    "r5b": "Returile solicitate din cauza restricțiilor de import, a taxelor, a controlului vamal sau a regulilor locale de conformitate se tratează ca litigii comerciale, nu ca reclamații de produs, deoarece mărfa a fost livrată conform specificației confirmate.",
+    "updated": "Ultima actualizare: 6 noiembrie 2026",
+    "related": "Termenele de livrare și retur fac parte din fiecare ofertă. Dacă o ofertă menționează termeni diferiți, acea ofertă prevalează.",
+    "contact": "Întrebări despre o expediere sau o reclamație: contactați echipa noastră de vânzări cu numărul comenzii și cu marcajul cutiilor relevante."
+  },
+  "quotePage": {
+    "h1": "Începeți o discuție comercială en-gros",
+    "sub": "Obțineți prețuri en-gros direct de la fabrică pentru produse abrazive.",
+    "note": "Acest formular solicită o ofertă și nu plasează o comandă. Câmpurile marcate cu * sunt obligatorii.",
+    "sec1": "Compania dvs.",
+    "f1": "Nume complet *",
+    "f2": "Denumirea companiei *",
+    "f3": "Țară *",
+    "f4": "E-mail de afaceri *",
+    "f5": "Număr de WhatsApp",
+    "f6": "Tip de activitate *",
+    "opt1": "Importator",
+    "opt2": "Distributor",
+    "opt3": "Măgariște",
+    "opt4": "Brand OEM",
+    "opt5": "Cumpărător industrial",
+    "opt6": "Altul",
+    "sec2": "Cerințe de produs",
+    "f7": "Categorie de produs",
+    "f8": "Model / referință de produs",
+    "f9": "Dimensiune",
+    "f10": "Granulație",
+    "f11": "Material",
+    "f12": "Cantitate",
+    "f13": "Ambalare",
+    "f14": "Țara de destinație *",
+    "f15": "Cerințe OEM",
+    "f16": "Mesaj suplimentar *",
+    "consent": "Sunt de acord cu politica de confidențialitate, termenii de utilizare și cu utilizarea datelor mele pentru răspunsul la această cerere. *",
+    "btn1": "Solicitați o ofertă en-gros",
+    "btn2": "Trimiteți cererea pe WhatsApp",
+    "goNote": "Formularul se deschide în sistemul nostru de cereri en-gros, cu contextul produsului dvs. completat dinainte."
+  },
+  "clients": {
+    "h1": "Unde ajung expedierile MoTai",
+    "sub": "Din Hubei către șapte regiuni de destinație.",
+    "note": "Sigilele și mărturiile clienților de mai jos sunt locuri de rezervă — înlocuiți src/data/trust.json cu materiale publicate.",
+    "placeholderBadge": "Loc de rezervă, orientativ",
+    "statsTitle": "Aprovizionarea, pe scurt",
+    "statsNote": "Certificările afișate sunt locuri de rezervă, în așteptarea certificatelor publicate."
+  },
+  "glossary": {
+    "h1": "Glosar de abrazivi",
+    "sub": "Termenii din spatele fiecărei specificații de bandă, disc sau disc cu așchie.",
+    "note": "Definiții standard din industrie pentru consumabilele abrazive; gradele și suporturile unei comenzi se stabilesc în oferta.",
+    "reviewNote": "Termenii sunt verificați de echipa tehnică MoTai Abrasives — ultima verificare: 3 noiembrie 2026."
+  },
+  "trust": {
+    "regions": "Regiuni de destinație",
+    "productLines": "Linii de produse",
+    "gritRange": "Acoperire de granulații"
+  },
+  "video": {
+    "title": "Vizionează",
+    "cutting": {
+      "title": "Filmaj de decupare și convertire",
+      "desc": "Filmaj furnizat cu produs: decupare și convertire a plăcii abrazive."
+    },
+    "sample": {
+      "title": "Filmaj de verificare a eșantioanelor",
+      "desc": "Filmaj furnizat cu produs: verificarea suprafeței, a suportului și a potrivirii pe un eșantion."
+    },
+    "oem": {
+      "title": "Filmaj de împachetare OEM",
+      "desc": "Cantități de împachetare, etichete, marcaje pe cutii și material grafic pentru marca proprie."
+    },
+    "flap": {
+      "title": "Filmaj cu gama de discuri cu așchie",
+      "desc": "Discuri cu așchie cu suport din plastic, oțel și sticlă-ranțuită, în uz."
+    }
+  },
+  "wa": {
+    "generic": "Salut MoTai, aș dori o ofertă en-gros pentru produse abrazive.",
+    "product": "Salut MoTai, aș dori o ofertă en-gros pentru {name} ({grits}).",
+    "model": "Salut MoTai, aș dori o ofertă en-gros pentru modelul de bandă abrazivă {model}.",
+    "disc": "Salut MoTai, aș dori o ofertă en-gros pentru {title}.",
+    "sample": "Salut MoTai, aș dori să solicit un eșantion de {name} pentru evaluare.",
+    "factory": "Salut MoTai, aș dori să discutăm detalii de producție și calitate cu echipa dvs.",
+    "oem": "Salut MoTai, aș dori să discutăm un program de abrazivi OEM / cu marcă proprie.",
+    "contact": "Salut MoTai, aș dori să-mi construiesc următoarea comandă de abrazivi împreună cu echipa dvs."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Deschideți chatul",
+    "close": "Închide",
+    "title": "MoTai — Chat live",
+    "status": "Răspundem pe WhatsApp, de obicei în 24 de ore.",
+    "greeting": "Salut! Cum vă putem ajuta cu comanda dvs. de abrazivi? — Echipa de vânzări MoTai",
+    "placeholder": "Scrieți mesajul…",
+    "send": "Trimite pe WhatsApp",
+    "note": "Această previzualizare nu are un server activ: trimiterea deschide WhatsApp cu mesajul dvs. completat dinainte. Răspunsurile continuă în conversația din WhatsApp."
+  },
+  "location": {
+    "imgAlt": "Clădirea fabricii MoTai din Xianning, Hubei",
+    "imgCaption": "Fabrica MoTai — Xianning, Hubei, China",
+    "mapTitle": "Locația fabricii MoTai pe Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Înainte de a începe",
+    "moq": {
+      "q": "Care este cantitatea minimă de comandă?",
+      "a": "MOQ revine cu oferta, alături de disponibilitate și condiții."
+    },
+    "oem": {
+      "q": "Suportați OEM și marca proprie?",
+      "a": "Da. Logo-ul, etichetele, dimensiunile la comandă și împachetarea se verifică pentru fezabilitate, apoi se confirmă în oferta."
+    },
+    "sizes": {
+      "q": "Ce dimensiuni și granulații furnizați?",
+      "a": "Benzi în dimensiuni documentate, de la 533 × 75 la 2200 × 1330 mm (granulații 40–800); discuri de 3–6 inch (granulații 60–5000). Cerințele la comandă se analizează împreună cu echipa noastră."
+    },
+    "samples": {
+      "q": "Pot primi un eșantion mai întâi?",
+      "a": "Da. Solicitați un eșantion, iar echipa noastră de vânzări va confirma disponibilitatea, taxele și aranjamentele de livrare."
+    },
+    "lead": {
+      "q": "Care sunt termenele de livrare?",
+      "a": "Termenul de livrare depinde de specificație și de cantitate și se confirmă în oferta dvs."
+    },
+    "packaging": {
+      "q": "Cum se împachetează produsele?",
+      "a": "Cantitățile de împachetare, etichetele, marcajele pe cutii și materialul grafic pentru marca proprie se confirmă în oferta."
+    },
+    "payment": {
+      "q": "Ce condiții de plată oferiți?",
+      "a": "Condițiile de plată fac parte din oferta confirmată și din discuția comercială."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Ce specificații ar trebui să ofer?",
+      "a": "Comunicați dimensiunile, granulația, piesa de prelucrat, mașina și finisajul dorit. Folosiți opțiunile documentate acolo unde există; alte cerințe se analizează împreună cu echipa noastră."
+    },
+    "oem": {
+      "q": "Cum solicit ambalare OEM?",
+      "a": "Includeți cerințele de branding și ambalare în cerere. Detaliile se vor analiza și se vor confirma în oferta dvs."
+    },
+    "order": {
+      "q": "Solicitând o ofertă, plasez o comandă?",
+      "a": "Nu. Formularul pornește o cerere en-gros. Specificațiile produsului, disponibilitatea și condițiile comerciale se confirmă înainte de a se pune de acord o comandă."
+    },
+    "sample": {
+      "q": "Pot testa un eșantion înainte de a miza pe o comandă completă?",
+      "a": "Da. Eșantioane pentru referințele standard sunt disponibile la cerere, pentru evaluare; disponibilitatea eșantioanelor și condițiile de transport se confirmă în oferta."
+    },
+    "lead": {
+      "q": "Cu cât în avans ar trebui să plasez o comandă de producție?",
+      "a": "Termenul de livrare pornește de la data la care oferta este confirmată în scris și depinde de dimensiunea, granulația și ambalarea comandată. Referințele din stoc se expediază cel mai repede."
+    },
+    "beltSize": {
+      "q": "Se pot furniza benzi abrazive într-o dimensiune sau lungime non-standard?",
+      "a": "Lățimea și lungimea benzilor peste dimensiunile documentate se quotează caz cu caz; convertirea într-o dimensiune la comandă afectează atât termenul de livrare, cât și cantitatea minimă de comandă."
+    },
+    "beltJoint": {
+      "q": "Ce tip de lipitură și de construcție a marginilor folosesc aceste benzi?",
+      "a": "Tipul lipiturii și tratamentul marginii se specifică per referință. Precizați mașina, sarcina și finisajul necesar, ca construcția potrivită să fie prețuită în oferta."
+    },
+    "discBacking": {
+      "q": "Cum aleg între discuri hook & loop, PSA și plasă?",
+      "a": "Hook & loop convine pentru schimbarea desă a granulației, PSA pentru discuri plate și rulaje lungi, iar discurile în plasă pentru extragerea prafului. Ghidul nostru de selecție le compară pe toate trei, unul lângă altul."
+    },
+    "discDust": {
+      "q": "Sunt aceste discuri compatibile cu extragerea prafului?",
+      "a": "Discurile în plasă și cele perforate sunt concepute pentru extragere; discurile pline pot fi furnizate perforate la cerere. Precizați sistemul dvs. de extragere și discul folosit."
+    },
+    "hookLoop": {
+      "q": "Se potrivesc discurile hook & loop pe discul meu de sprijin existent?",
+      "a": "Diametrul și modelul de găuri trebuie să corespundă discului de sprijin. Confirmați modelul șlefuitorului și diametrul discului în cerere, ca discul potrivit să fie cotațat."
+    },
+    "psa": {
+      "q": "Funcționează discurile PSA cu orice disc de sprijin?",
+      "a": "Discurile PSA au nevoie de un disc de cauciuc, plat și curat, cu diametrul corespunzător. Confirmați diametrul discului și modelul mașinii în cererea de ofertă."
+    },
+    "mesh": {
+      "q": "Cât de dură o disc abraziv în plasă?",
+      "a": "Discurile în plasă rezistă la obturare în lucrări cu mult praf, ceea ce prelungizează de obicei viața utilă în comparație cu discurile de hârtie pline. Durata reală depinde de material, presiune și granulație."
+    },
+    "solid": {
+      "q": "Se pot furniza discuri pline, perforate, pentru extragerea prafului?",
+      "a": "Da — modelul de perforare se pune la punct în oferta. Precizați discul și sistemul de extragere, ca modelul corect să fie cotațat."
+    }
+  },
+  "relArticles": {
+    "title": "Articole conexe",
+    "sub": "Ghiduri pentru cumpărători despre această familie de produse, de la echipa tehnică MoTai.",
+    "readMore": "Citește articolul",
+    "faqTitle": "Întrebări frecvente",
+    "faqSub": "Întrebări frecvente ale cumpărătorilor înainte de a comanda acest produs."
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Notați dimensiunea, granulația, suportul și fișierele produsului; furnizați portul de destinație și limba etichetelor."
+    },
+    "na": {
+      "title": "America de Nord",
+      "body": "Precizați dimensiunea în inch sau metric, tipul de atașare și cantitățile de împachetare; ZIP-ul sau portul de destinație și modalitatea de transport."
+    },
+    "sa": {
+      "title": "America de Sud",
+      "body": "Dimensiune, cantități amestecate pe granulații și limba etichetelor pe cutii; portul de destinație și documentele importatorului."
+    },
+    "me": {
+      "title": "Orientul Mijlociu",
+      "body": "Material, granulație și ambalare rezistentă la umezeală; portul de destinație și condițiile ofertei."
+    },
+    "africa": {
+      "title": "Africa",
+      "body": "Compatibilitatea mașinii, dimensiunile necesare și cantitățile de împachetare; portul de destinație, marcajele pe cutii și preferința de transport."
+    },
+    "oceania": {
+      "title": "Oceania",
+      "body": "Dimensiune, suport, ambalare și ZIP-ul sau portul de destinație; cerințe de import și împachetare."
+    },
+    "asia": {
+      "title": "Asia",
+      "body": "Specificația mașinii, intervalul de granulații și amestecul comenzii; orașul sau portul de livrare și etichete în limba locală."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Construcții metalice",
+      "intro": "Uniformizarea sudurii, degresarea și pregătirea suprafeței de metal.",
+      "uses": "Uniformizare suduri · Degresare · Pregătire suprafețe",
+      "products": "Benzi de șlefluire"
+    },
+    "wood": {
+      "title": "Lemn și mobilier",
+      "intro": "Panouri, fabricație de mobilier și pregătirea suprafeței înaintea lacului.",
+      "uses": "Panouri · Mobilă · Pregătire pre-lac",
+      "products": "Benzi de șlefluire · Discuri de șlefluire"
+    },
+    "auto": {
+      "title": "Reparații auto",
+      "intro": "Șlefuirea masei de umplutură, pregătirea înaintea pulverizării și refinisajul auto.",
+      "uses": "Masă de umplutură · Pre-spray · Refinisaj",
+      "products": "Discuri de șlefluire"
+    },
+    "stainless": {
+      "title": "Finisare oțel inoxidabil",
+      "intro": "Finisajul periat, tranzițiile de suprafață și construcția din oțel inoxidabil.",
+      "uses": "Periat · Tranziții · Construcție",
+      "products": "Benzi de șlefluire"
+    },
+    "ship": {
+      "title": "Construcție și reparare de nave",
+      "intro": "Toc metalului, îndepărtarea ruginii și pregătirea suprafeței pentru întreținerea marină.",
+      "uses": "Toc · Îndepărtare rugina · Pregătire marină",
+      "products": "Benzi de șlefluire"
+    },
+    "surface": {
+      "title": "Pregătire suprafețe industriale",
+      "intro": "Tratament industrial al suprafețelor și lucrări de mentenanță.",
+      "uses": "Tratament suprafețe · Mentenanță",
+      "products": "Discuri de șlefluire"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop sau PSA: alegeți suportul potrivit",
+      "intro": "Sistemul de atașare este la fel de important ca granulația. Potriviți-l cu discul de sprijin înainte de a comanda.",
+      "start": {
+        "title": "Punct de plecare: cerința",
+        "body": "Discurile hook & loop se montează pe un disc de sprijin compatibil, cu fața de cârpe, și convin pentru operațiile în care granulația se schimbă des. Discurile PSA se bazează pe adezivul presensibil și au nevoie de un disc curat și plat. Cele două sisteme nu sunt interschimbabile."
+      },
+      "compat": {
+        "title": "Confirmăți compatibilitatea",
+        "body": "Confirmați diametrul discului, tipul suportului și configurația extragerii prafului. Un disc fără găuri nu se conectează la un model de extragere bazat pe găuri, iar discurile în plasă au nevoie de un disc de sprijin compatibil și de un sistem de extragere compatibil."
+      },
+      "enquiry": {
+        "title": "Pregătiți cererea",
+        "body": "Includeți diametrul discului, suportul, lista de granulații, cantitatea pe granulație și materialul piesei. Cereți o evaluare a eșantioanelor înainte de a aproba comanda de producție."
+      }
+    },
+    "beltChecklist": {
+      "title": "Ce include o cerere pentru benzi abrazive",
+      "intro": "O specificație clară îl ajută pe furnizor să verifice potrivirea și să pregătească o ofertă utilă.",
+      "start": {
+        "title": "Punct de plecare: cerința",
+        "body": "Dați lungimea și lățimea benzii, în milimetri. Menționați modelul mașinii — o foaie de specificații a mașinii sau o fotografie a unei etichete vechi de bandă ajută."
+      },
+      "compat": {
+        "title": "Confirmăți compatibilitatea",
+        "body": "Adăugați materialul piesei, abrazivul preferat, granulația, cerința de suport și cerințele de lipitură. Nu selectați un produs doar după culoarea benzii."
+      },
+      "enquiry": {
+        "title": "Pregătiți cererea",
+        "body": "Listați cantitățile pe dimensiune și pe granulație, preferințele de ambalare, destinația și termenul de livrare necesar. Oferta finală confirmă specificația, disponibilitatea, condițiile de plată și aranjamentele de transport."
+      }
+    },
+    "gritSequence": {
+      "title": "Planificarea unei secvențe de granulații pentru pregătirea suprafeței",
+      "intro": "Punctul de plecare este piesa și finisajul dorit, apoi evaluați secvența pe un eșantion.",
+      "start": {
+        "title": "Punct de plecare: cerința",
+        "body": "Granulațiile groase îndepărtează materialul repede și lasă zgârieturi adânci; granulațiile fine rafinează suprafața. Punctul de plecare depinde de substrat, de adâncimea defectului și de cerința de îndepărtare."
+      },
+      "compat": {
+        "title": "Confirmăți compatibilitatea",
+        "body": "Scădeți granulația în ordine și inspectați piesa la fiecare etapă. Sărirea unor granulații lasă zgârieturi greu de îndepărtat, iar curățarea între etape evită contaminarea cu granulații groase."
+      },
+      "enquiry": {
+        "title": "Pregătiți cererea",
+        "body": "Numerotarea granulațiilor nu este interschimbabilă între sistemele de gradare. Confirmați în oferta standardul de gradare, tipul abrazivului și disponibilitatea pe grad, și respectați instrucțiunile de siguranță ale mașinii și ale abrazivului."
+      }
+    },
+    "dustCollection": {
+      "title": "Colectarea prafului și compatibilitatea discului, explicat",
+      "intro": "Modelele de găuri, discurile în plasă și discurile de sprijin trebuie să corespundă configurației dvs. de extragere.",
+      "start": {
+        "title": "Punct de plecare: cerința",
+        "body": "Identificați discul de sprijin: numărul de găuri, diametrul și dacă este folosit cu extragerea prafului. Discurile fără găuri și cele în plasă se comportă altfel decât discurile cu multe găuri."
+      },
+      "compat": {
+        "title": "Confirmăți compatibilitatea",
+        "body": "Potriviți modelul de găuri al discului cu porturile discului de sprijin. Discurile în plasă au nevoie de un disc de sprijin compatibil și de un sistem de extragere funcțional; discurile PSA au nevoie de o față de disc curată."
+      },
+      "enquiry": {
+        "title": "Pregătiți cererea",
+        "body": "Listați modelul discului de sprijin, numărul de găuri, dimensiunea discului și lista de granulații, plus configurația dvs. de extragere a prafului. Confirmați comportamentul eșantioanelor înainte de comanda de producție."
+      }
+    },
+    "oemPackaging": {
+      "title": "Etichete și ambalare OEM: ce trebuie pregătit",
+      "intro": "Un brief complet ține materialul grafic, etichetele și cutiile la termen.",
+      "start": {
+        "title": "Punct de plecare: cerința",
+        "body": "Pregătiți logo-ul și materialul grafic al etichetelor, formatul de împachetare țintă (pungi interne, cutii), limba etichetelor și regulile de etichetare din țara de destinație."
+      },
+      "compat": {
+        "title": "Confirmăți compatibilitatea",
+        "body": "Disponibilitatea OEM, cantitățile minime, cerințele de material grafic și termenele sunt supuse unei analize de fezabilitate și a unei oferte confirmate."
+      },
+      "enquiry": {
+        "title": "Pregătiți cererea",
+        "body": "Atașați materialul grafic, specificați cantitățile de împachetare și marcajele pe cutii, și precizați destinația și termenul. Aprobarea eșantionului vine înainte de producție."
+      }
+    },
+    "gritStandards": {
+      "title": "Standardele de granulație: FEPA, ANSI și ce înseamnă lista dvs.",
+      "intro": "Sistemele de gradare nu sunt interschimbabile — menționați standardul în fiecare cerere.",
+      "start": {
+        "title": "Punct de plecare: cerința",
+        "body": "FEPA (ISO 848) și scala ANSI mai veche numără dimensiuni similare diferit; un P120 și o granulație 120 nu sunt întotdeauna același lucru. Menționați standardul la care cumpărați."
+      },
+      "compat": {
+        "title": "Confirmăți compatibilitatea",
+        "body": "Confirmați în oferta standardul de gradare, tipul abrazivului și disponibilitatea pe grad. Nu amestecați sisteme de gradare în aceeași listă de granulații."
+      },
+      "enquiry": {
+        "title": "Pregătiți cererea",
+        "body": "Precizați standardul (de ex. FEPA P60–P800), cantitatea pe grad și destinația. Confirmați lista finală de grade în oferta înainte de a comanda."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Cel mai comun abraziv pentru benzi și discuri: rezistent, usor de lucrat, potrivit pentru metal, lemn și finisare generală."
+    },
+    "ansi": {
+      "def": "Numerotarea americană de granulații, de generație veche. Granulele de dimensiuni similare difer de scala FEPA — menționați standardul în fiecare cerere."
+    },
+    "backing-cloth": {
+      "def": "O bază de bumbac/țesătură care poartă granulația abrazivă pe benzi. Greutatea (de ex. X-weight) stabilește flexibilitatea și capacitatea de sarcină."
+    },
+    "backing-poly": {
+      "def": "Suport din țeasă poliesteric-bumbac: un echilibru între rezistență și flexibilitate pentru benzi de uz general."
+    },
+    "belt": {
+      "def": "Un inel continuu de granule abrazive pe o bază, folosit pe mașini de benzi, pentru toc, finisare și degresare."
+    },
+    "blend": {
+      "def": "Uniformizarea unei suduri, astfel încât să se topestă în metalul înconjurător — de obicei o primă trecere pe o disc cu așchie sau o bandă, apoi granulații mai fine."
+    },
+    "closed": {
+      "def": "O așezare de granule cu acoperire apropiată, cu puțin spațiu deschis; banda rezistă la obturare la lucrări mai dure."
+    },
+    "debur": {
+      "def": "Îndepărtarea asperităților și a micilor proeminențe lăsate de tăiere, ferecare sau toc."
+    },
+    "dust": {
+      "def": "Îndepărtarea prafului abraziv de la piesa de prelucrat — prin porturile discului de sprijin, discuri în plasă sau extragere locală."
+    },
+    "flap": {
+      "def": "Un disc din așchie abrazive suprapuse, flexibil, pentru toc, uniformizare și finisare pe șlifuitori unghiulare."
+    },
+    "fepa": {
+      "def": "Scala de gradare ISO 848 (FEPA), în notație P (de ex. P120). Scala implicită în cea mai mare parte a comerțului european și internațional."
+    },
+    "grit": {
+      "def": "Dimensiunea nominală a granulelor abrazive: cu cât numărul este mai mare, cu atât este mai fin. Benzi 40–800; discuri 60–5000."
+    },
+    "hookloop": {
+      "def": "Sistemul de atașare hook-and-loop pentru discuri: discul se prinde pe un disc de sprijin cu fața de cârpe."
+    },
+    "mesh": {
+      "def": "Discurile în plasă au ferestre tăiate, prin care trece praful; necesită un disc de sprijin compatibil și extragere."
+    },
+    "moq": {
+      "def": "Cantitatea minimă de comandă — vine cu oferta, alături de disponibilitate și condiții."
+    },
+    "oem": {
+      "def": "Producere la comandă / marcă proprie: produsele noastre sub brandul, etichetele și ambalajele dvs."
+    },
+    "psa": {
+      "def": "Suport cu adeziv presensibil: discul se lipește direct pe un disc de sprijin compatibil."
+    },
+    "disc": {
+      "def": "Un cerc abraziv, plat sau cu așchie, montat pe un disc de sprijin, pentru șlefuire și finisare."
+    },
+    "sic": {
+      "def": "Granelă de carbura de siliciu: foarte dură, ascutită, potrivită pentru sticlă, ceramică și metale neferoase."
+    },
+    "prep": {
+      "def": "Pregătirea unei suprafețe pentru acoperire sau finisare: îndepărtarea ruginii, a masei de umplutură sau a finisajului vechi, până la un profil constant."
+    },
+    "wetdry": {
+      "def": "Grade care rămân reci și rezistente la obturare în uz umed sau uzo/uscat; confirmați potrivirea în oferta."
+    },
+    "xweight": {
+      "def": "Un suport de bumbac de greutate medie, pentru benzi de uz general: rezistent, dar flexibil."
+    },
+    "zirconia": {
+      "def": "Granelă de zirconiță-alumină: rezistentă și agresivă pentru toc, degresare și finisare a oțelului."
+    },
+    "pad": {
+      "def": "Placa de sprijin pe care se așază discul: diametrul, fața (cârpă) și modelul de porturi al discului de sprijin trebuie să corespundă discului."
+    }
+  },
+  "footer": {
+    "blurb": "Consumabile abrazive pentru cumpărători industriali, distribuitori și branduri cu marcă proprie.",
+    "products": "Produse",
+    "explore": "Descoperiți MoTai",
+    "connect": "Să ne legăm",
+    "aboutUs": "Despre noi",
+    "mfgQ": "Producție și calitate",
+    "oemPl": "OEM și marcă proprie",
+    "newsB": "Noutăți și blog",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni de utilizare",
+    "shipping": "Livrare și retur",
+    "contactUs": "Contactați-ne"
+  },
+  "tdk": {
+    "home": {
+      "title": "Producător de abrazivi și furnizor de abrazivi industriali | MoTai",
+      "description": "Producător profesionist de abrazivi din China, care furnizează benzi de șlefluire, discuri de șlefluire și discuri cu așchie. En-gros direct de la fabrică, personalizare OEM și soluții abrazive industriale pentru distribuitori și cumpărători din toată lumea.",
+      "keywords": "producător de abrazivi, furnizor de abrazivi, abrazivi industriali, benzi de șlefluire, discuri de șlefluire, discuri cu așchie, producător de benzi abrazive, abrazivi en-gros"
+    },
+    "about": {
+      "title": "Despre MoTai — Producător de abrazivi și fabrică în Hubei, China",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. este un producător de abrazivi cu strat de acoperire din Xianning, Hubei: benzi de șlefluire, discuri de șlefluire și discuri cu așchie, cu OEM, dimensiuni la comandă, furnizare în volum și export.",
+      "keywords": "producător de abrazivi China, furnizor de abrazivi China, fabrică de abrazivi, producător de abrazivi cu strat de acoperire, exportator de produse abrazive, furnizor de abrazivi B2B"
+    },
+    "factory": {
+      "title": "Producere abrazivă și control al calității — Fabrica MoTai din Hubei",
+      "description": "În atelierul abraziv MoTai: convertire și decupare, verificare a eșantioanelor, control al calității și împachetare OEM pentru benzi de șlefluire, discuri de șlefluire și discuri cu așchie.",
+      "keywords": "producere abrazivă, control calitate fabrică de abrazivi, convertire abrazivă, împachetare OEM abrazivă"
+    },
+    "oem": {
+      "title": "Producător de abrazivi OEM și marcă proprie | MoTai",
+      "description": "Producere OEM și cu marcă proprie de abrazivi: logo-ul, etichetele, dimensiunile și ambalajele dvs. pe benzi, discuri și discuri cu așchie MoTai, cotațate după specificația confirmată.",
+      "keywords": "producător de abrazivi OEM, abrazivi cu marcă proprie, produse abrazive la comandă, furnizor de abrazivi OEM"
+    },
+    "applications": {
+      "title": "Abrazivi industriali pe aplicație — metal, lemn, auto și altele",
+      "description": "Potriviți benzi de șlefluire, discuri de șlefluire și discuri cu așchie MoTai cu aplicația dvs.: toc metal, șlefuire lemn, caroserii auto, finisare inox, construcție navală și pregătire suprafețe.",
+      "keywords": "aplicații abrazive, toc metal, șlefuire lemn, pregătire suprafețe, pregătire suprafețe industriale"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Abrazivi pentru construcții metalice — toc și degresare | MoTai",
+        "description": "Abrazivi pentru construcții metalice: toc metal, degresare și toc al cordurilor de sudură, cu benzi abrazive MoTai, discuri în plasă și cu așchie.",
+        "keywords": "abrazivi construcții metalice, toc metal, degresare metal, toc cord de sudură"
+      },
+      "woodworking": {
+        "title": "Abrazivi pentru lemn și șlefuire pe bandă lată | MoTai",
+        "description": "Abrazivi pentru prelucrarea lemnului și mobilier: șlefuire pe bandă lată, șlefuire panouri și MDF, cu benzi și discuri de șlefluire MoTai.",
+        "keywords": "abrazivi pentru lemn, șlefuire pe bandă lată, șlefuire lemn, șlefuire mobilier"
+      },
+      "automotive": {
+        "title": "Șlefuire pentru reparații auto — caroserii și vopsea | MoTai",
+        "description": "Abrazivi pentru reparații auto: șlefuirea caroseriilor, șlefuirea vopsei și a primerului auto, cu discuri PSA și hook & loop MoTai.",
+        "keywords": "abrazivi auto, șlefuire caroserii, șlefuire vopsea auto, șlefuire primer"
+      },
+      "stainless-steel": {
+        "title": "Finisare și polire inox — abrazivi | MoTai",
+        "description": "Abrazivi pentru oțel inoxidabil: polire metal, toc al suprafeței și finisare, cu discuri cu așchie și benzi MoTai.",
+        "keywords": "finisare inox, polire metal, toc suprafață, abrazivi inox"
+      },
+      "shipbuilding": {
+        "title": "Abrazivi pentru construcție navală — placă de oțel și îndepărtare rugina | MoTai",
+        "description": "Abrazivi greu pentru construcții navale: toc placă de oțel, îndepărtare rugina și pregătire industrială a suprafeței, cu benzi și discuri cu așchie MoTai.",
+        "keywords": "abrazivi construcție navală, toc placă oțel, îndepărtare rugina, toc greu"
+      },
+      "surface-preparation": {
+        "title": "Pregătire suprafețe industriale și abrazivi de toc | MoTai",
+        "description": "Soluții abrazive industriale pentru pregătirea suprafeței, finisare suprafețe și toc greu, pe benzi, discuri și discuri cu așchie MoTai.",
+        "keywords": "pregătire suprafețe, finisare suprafețe, toc industrial, soluții abrazive"
+      }
+    },
+    "blog": {
+      "title": "Ghiduri pentru cumpărători de abrazivi și standarde de granulație | MoTai Knowledge",
+      "description": "Resurse practice pentru cumpărători de abrazivi: selecția suportului discului, liste de verificare pentru cereri de benzi, secvențe de granulații, colectarea prafului și standarde de granulație (FEPA/ANSI).",
+      "keywords": "ghid cumpărător abrazivi, selecție granulație, glossar abrazivi, standarde de granulație FEPA ANSI"
+    },
+    "contact": {
+      "title": "Contactați MoTai — furnizor de abrazivi din China",
+      "description": "Ajungeți la furnizorul de abrazivi MoTai din Xianning, Hubei: telefon, e-mail și WhatsApp pentru cereri en-gros și OEM de abrazivi, plus vizite la fabrică.",
+      "keywords": "contact furnizor de abrazivi, cerere en-gros de abrazivi, producător de abrazivi China"
+    },
+    "privacy": {
+      "title": "Politica de confidențialitate",
+      "description": "Cum folosește MoTai Abrasives informațiile din cereri: colectare, scop, stocare, opțiunile dvs. și tratamentul cookie-urilor.",
+      "keywords": "politica de confidențialitate, MoTai"
+    },
+    "terms": {
+      "title": "Termeni de utilizare — MoTai Abrasives",
+      "description": "Termenii acestui site B2B de abrazivi: tratarea cererilor, prețuri bazate pe ofertă, proprietate intelectuală și legea aplicabilă.",
+      "keywords": [
+        "termeni de utilizare",
+        "MoTai",
+        "furnizor de abrazivi B2B"
+      ]
+    },
+    "shipping": {
+      "title": "Politica de livrare și retur — comenzi de abrazivi | MoTai",
+      "description": "Politica de livrare și retur MoTai pentru abrazivi: termen de producție, împachetare de export, Incoterms, documente vamale, expediere și când pot fi returnate sau creditate mărfurile executate la specificație.",
+      "keywords": "politica de livrare abrazivi, politica de retur abrazivi, livrare abrazivi en-gros, Incoterms abrazivi, împachetare de export, condiții de transport"
+    },
+    "quote": {
+      "title": "Solicitați o ofertă en-gros de abrazivi | MoTai",
+      "description": "Pregătiți cererea dvs. en-gros sau OEM pentru abrazivi: date despre afacere plus produs, dimensiune, granulație, cantitate și destinație. Furnizarea abrazivă în volume mari, cotațată direct de la fabrică.",
+      "keywords": "ofertă en-gros de abrazivi, furnizare abrazivi în volume mari, cerere abrazivă OEM, abrazivi en-gros"
+    },
+    "clients": {
+      "title": "Exportator de produse abrazive — aprovizionare globală din Hubei, China | MoTai",
+      "description": "MoTai exportă benzi de șlefluire, discuri de șlefluire și discuri cu așchie către șapte regiuni de destinație: Europa, America, Orientul Mijlociu, Africa, Oceania și Asia.",
+      "keywords": "exportator de produse abrazive, export de abrazivi, aprovizionare globală cu abrazivi, furnizor de abrazivi industriali"
+    },
+    "glossary": {
+      "title": "Glosar de abrazivi — granulație, suport, termeni de disc",
+      "description": "24 de termeni de abrazivi definiți: granulație FEPA, suporturi, hook & loop, PSA, plasă deschisă, degresare și altele.",
+      "keywords": "glosar de abrazivi, standarde de granulație, termeni de abrazivi"
+    },
+    "product": {
+      "title": "MoTai {name} — abrazivi en-gros și OEM",
+      "description": "MoTai {name} ({material}, {category}): {desc} Dimensiuni: {sizes}. Granulații: {grits}. En-gros direct de la fabrică și furnizare OEM.",
+      "keywords": "{name}, producător {category}, abraziv {material}, abrazivi en-gros, abrazivi OEM"
+    },
+    "model": {
+      "title": "Bandă abrazivă {model} — MoTai",
+      "description": "Model de referință al benzii abrazive {model}, din gama MoTai — lățime, lungime, granulație și suport se stabilesc în oferta. Furnizare en-gros și OEM.",
+      "keywords": "{model} bandă abrazivă, referință model de bandă abrazivă, benzi abrazive en-gros"
+    },
+    "disc": {
+      "title": "MoTai {title} — en-gros și OEM",
+      "description": "Varianta de disc MoTai {title}: intervalul de granulații, diametrul și atașarea se stabilesc în oferta. En-gros direct de la fabrică și OEM.",
+      "keywords": "disc de șlefuire, disc hook and loop, disc PSA, disc în plasă, discuri de șlefluire en-gros"
+    },
+    "flap": {
+      "title": "MoTai {name} — producător de discuri cu așchie",
+      "description": "MoTai {name}: un disc abraziv cu așchie, cu suport {backing}, pentru toc, uniformizare și finisare a metalului. Furnizare en-gros și OEM.",
+      "keywords": "disc cu așchie, disc cu așchie cu suport {backing}, disc cu așchie din zirconiță, producător de discuri cu așchie, discuri cu așchie en-gros"
+    },
+    "colt": {
+      "belts": {
+        "title": "Producător de benzi abrazive și furnizor en-gros | MoTai",
+        "description": "Benzi abrazive late și industriale, de la 533×75 la 2200×1330 mm, granulații 40–800, în oxid de aluminiu, zirconiță și carbura de siliciu — cu modele de referință GXK-51, XZ-330, GPC71 și altele. En-gros direct de la fabrică și OEM.",
+        "keywords": "benzi abrazive, benzi de șlefluire, benzi de șlefluire industriale, benzi abrazive late, benzi de șlefluire late, benzi de șlefluire pentru lemn, benzi de șlefluire pentru metal, benzi abrazive din oxid de aluminiu, benzi abrazive din zirconiță, benzi abrazive din carbura de siliciu, producător de benzi abrazive, furnizor de benzi abrazive, benzi abrazive en-gros, bandă abrazivă GXK-51, bandă abrazivă XZ-330, bandă abrazivă GPC71, bandă abrazivă Y399, bandă abrazivă Y999, bandă abrazivă 533x75, bandă abrazivă 610x100, bandă abrazivă 1520x630, bandă abrazivă 2200x1330"
+      },
+      "discs": {
+        "title": "Producător de discuri de șlefluire — PSA, hook & loop și plasă | MoTai",
+        "description": "Discuri de șlefluire hook & loop, PSA, în plasă și fără găuri, de la 3 la 6 inch, granulații 60–5000, pentru caroserii auto, lemn și finisare metal. En-gros direct de la fabrică și OEM.",
+        "keywords": "discuri de șlefluire, discuri de șlefluire abrazive, discuri de șlefuire hook and loop, discuri de șlefuire PSA, discuri de șlefuire în plasă, discuri de șlefuire nețesute, discuri de șlefuire fără praf, discuri de șlefuire perforate, discuri de șlefuire cu găuri, discuri de șlefuire de 5 inch, discuri de șlefuire de 6 inch, producător de discuri de șlefuire, discuri de șlefuire en-gros"
+      },
+      "flap": {
+        "title": "Producător de discuri cu așchie — zirconiță și oxid de aluminiu | MoTai",
+        "description": "Discuri abrazive cu așchie MoTai, cu suport din plastic, oțel și sticlă-ranțuită, din zirconiță și oxid de aluminiu, pentru toc, degresare și finisare a metalului. Furnizare en-gros și OEM.",
+        "keywords": "discuri cu așchie, discuri cu așchie abrazive, discuri cu așchie din zirconiță, discuri cu așchie din oxid de aluminiu, discuri cu așchie cu suport din sticlă-ranțuită, discuri cu așchie cu suport din plastic, discuri cu așchie cu suport din oțel, discuri cu așchie de 100mm, discuri cu așchie de 115mm, discuri cu așchie de 125mm, discuri cu așchie de 150mm, discuri cu așchie de 180mm, producător de discuri cu așchie, furnizor de discuri cu așchie, discuri cu așchie en-gros"
+      },
+      "all": {
+        "title": "Produse abrazive en-gros — benzi, discuri și discuri cu așchie | MoTai",
+        "description": "Catalogul complet de abrazivi MoTai: benzi abrazive industriale, discuri de șlefluire și discuri cu așchie, pentru distribuitori, importatori, măgariști și branduri OEM. En-gros direct de la fabrică, personalizare și export din Hubei, China.",
+        "keywords": "produse abrazive, produse abrazive en-gros, abrazivi industriali, abrazivi cu strat de acoperire, abrazivi en-gros, fabrică de produse abrazive, exportator de produse abrazive, furnizor de abrazivi China, producător de abrazivi OEM, abrazivi cu marcă proprie, produse abrazive la comandă, furnizare abrazivi în volume mari, fabrică de abrazivi, instrumente abrazive, materiale abrazive, produse de șlefuire, produse de finisare a suprafețelor, hârtie abrazivă, foi de hârtie abrazivă, hârtie abrazivă rotundă, hârtie abrazivă en-gros, disc de șlefuire, disc de șlefuire hook and loop, disc de șlefuire de 5 inch, disc de șlefuire de 6 inch, toc de așchie nețesut, pânză abrazivă, perie cilindrică industrială"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Contact rapid",
+    "whatsapp": "WhatsApp",
+    "quote": "Solicitați o ofertă"
+  }
+}

@@ -224,7 +224,16 @@
     "ctaTitle": "Foretrekker du å snakke om det?",
     "ctaSub": "Ser du etter en pålitelig leverandør av slibeprodukter?",
     "cta1": "Be om engros-tilbud",
-    "cta2": "Kontakt via WhatsApp"
+    "cta2": "Kontakt via WhatsApp",
+    "galleryTitle": "Hvor din ordre lages",
+    "galleryIntro": "Den samme verksteden tar hånd om kutting, prøvesjekk og emballasje for hver bekreftet ordre.",
+    "gallery1Title": "Produksjonsverksted",
+    "gallery1Text": "Det dekkede arbeidsområdet der slipesleiper og slipeskiver omdannes, sjekkes og pakkes.",
+    "gallery2Title": "Anlegg og lastebane",
+    "gallery2Text": "Kassene palleres og lastes på stedet før fraksending til din destinasjonsregion.",
+    "gallery3Title": "Ferdigvarelager",
+    "gallery3Text": "Sleiper og skiver pakkes i henhold til den bekreftede spesifikasjonen — kornstørrelse, størrelse og pakkeliste.",
+    "galleryNote": "Fotografiene leveres av fabrikken for generell orientering; de er ikke orderspesifikke bilder. Produktvideoer vises her når opptakene er publisert."
   },
   "oem": {
     "h1": "Deres navn på kartongen",

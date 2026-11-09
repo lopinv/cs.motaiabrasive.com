@@ -1,0 +1,1001 @@
+{
+  "code": "nl",
+  "name": "Nederlands",
+  "codeLabel": "NL",
+  "htmlLang": "nl",
+  "ogLocale": "nl_NL",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Groothandelsvragen",
+    "oemNote": "Vragen over OEM-verpakking",
+    "size": "Afmeting",
+    "grit": "Korrelgrootte",
+    "quantity": "Gewenste hoeveelheid",
+    "requirements": "Specificatie- en verpakkingseisen",
+    "requirementsPh": "Vertel ons over uw toepassing, specificaties en leveringseisen.",
+    "material": "Slijpmateriaal",
+    "backing": "Drager / bevestiging",
+    "availability": "Beschikbaarheid, minimale bestelhoeveelheid en commerciële voorwaarden zijn onder voorbehoud van bevestiging in de offerte.",
+    "sampleNote": "Laat ons weten welke producten en korrelgroottes u wilt beoordelen. Ons salesteam bevestigt de beschikbaarheid van monsters, de kosten daarvoor en de verzendregelingen.",
+    "gritsRange": "Korrelomvang",
+    "holes": "Gaten",
+    "diameter": "Diameter / nominale maat",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Taal",
+    "home": "Home",
+    "about": "Over ons",
+    "manufacturing": "Productie",
+    "oem": "OEM-diensten",
+    "news": "Nieuws",
+    "knowledge": "Kennis",
+    "contact": "Contact",
+    "products": "Producten"
+  },
+  "colt": {
+    "belts": {
+      "title": "Schuurbanden — groothandel & OEM",
+      "desc": "Rode schuurbanden in gedocumenteerde afmetingen van 533 × 75 mm tot 2200 × 1330 mm. Korrels 40–800. Referentietypes beschikbaar. Groothandels- en OEM-vragen welkom.",
+      "label": "Schuurbanden"
+    },
+    "discs": {
+      "title": "Schuurschijven — groothandel & OEM",
+      "desc": "PSA-, klittenband-, open maas- en gatloze schuurschijven van 3 tot 6 inch. Korrels 60–5000. Groothandels- en OEM-vragen welkom.",
+      "label": "Schuurschijven"
+    },
+    "flap": {
+      "title": "MoTai-lamellenschijven",
+      "desc": "Lamellenschijven met kunststof, stalen en glasvezeldrager voor het slijpen, egaliseren en afwerken van metaal. Specificaties, bulkleveranties en OEM-verpakking worden met de offerte bevestigd.",
+      "label": "Lamellenschijven"
+    },
+    "all": {
+      "title": "Alle producten",
+      "desc": "Het volledige MoTai-assortiment slijpmiddelen: schuurbanden, schuurschijven en lamellenschijven voor industriële kopers, distributeurs en private-labelmerken.",
+      "label": "Alle producten"
+    }
+  },
+  "cta": {
+    "quote": "Vraag een groothandelsofferte aan",
+    "quoteArrow": "↗",
+    "sample": "Vraag een monster aan",
+    "whatsapp": "Vraag via WhatsApp",
+    "waChat": "Contact via WhatsApp",
+    "explore": "Bekijk het lamellenschijvensortiment",
+    "viewAll": "Bekijk alle producten",
+    "discuss": "Bespreek uw specificatie",
+    "oemQuote": "Vraag een OEM-offerte aan"
+  },
+  "home": {
+    "eyebrow": "Slijpmiddelen uit de MoTai-fabriek in Hubei",
+    "heroTitle": "Professionele producent en leverancier van slijpmiddelen",
+    "heroSub": "Schuurbanden, schuurschijven en lamellenschijven direct uit de fabriek voor industriële kopers, distributeurs en private-labelmerken — van Hubei, China, tot uw markt.",
+    "cta1": "Vraag een groothandelsofferte aan",
+    "cta2": "Spreek ons team via WhatsApp",
+    "builtTitle": "Kies de toepassing. Kies het slijpmiddel.",
+    "builtSub": "Kies de toepassing en stem daarna het slijpmiddel af: banden, schijven of lamellenschijven.",
+    "featuredTitle": "In de catalogus",
+    "featuredSub": "Afmetingen en korrels zijn gedocumenteerd in de catalogus; MOQ en beschikbaarheid volgen met de offerte.",
+    "partnerTitle": "De leveringskant van uw slijpmiddelorder",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. levert slijpverbruiksartikelen voor toepassingen in de houtbewerking, metaalbewerking en automotive — met OEM- en private-labelprogramma's voor distributeurs en industriële kopers wereldwijd.",
+    "partnerCta": "Leer MoTai kennen",
+    "valuesTitle": "Zes redenen waarom B2B-kopers met ons werken",
+    "valuesSub": "Zes redenen waarom importeurs en OEM-merken met ons werken.",
+    "v1t": "Direct uit de fabriek",
+    "v1b": "Prijzen en levertijden vanaf de fabriek, zonder tussenpersonen.",
+    "v2t": "OEM & private label",
+    "v2b": "Uw logo, labels en verpakking op bevestigde specificaties.",
+    "v3t": "Afmetingen en korrels op maat",
+    "v3b": "Gedocumenteerde afmetingen en korrels 40–800 op banden, 60–5000 op schijven.",
+    "v4t": "Monstercontroles & QC",
+    "v4b": "Beoordeel oppervlak, drager en pasvorm aan de hand van een monster vóór de order.",
+    "v5t": "Bulkverkoop",
+    "v5b": "Consistente dooshoeveelheden en gedetailleerde paklijsten.",
+    "v6t": "Exportprogramma",
+    "v6b": "Kartonmarkeringen, labels en documentatie voor de bestemming.",
+    "processTitle": "De stappen tussen uw specificatie en de order",
+    "processSub": "Vier fases tussen uw vereiste en een bevestigde order.",
+    "p1t": "Snijden & converteren",
+    "p1b": "Bevestig de gewenste vorm, afmetingen en korrel voordat het conversieproces wordt ingepland.",
+    "p2t": "Monstercontroles",
+    "p2b": "Beoordeel het slijpoppervlak, de drager en de pasvorm van een monster voordat de orderspecificatie wordt vastgelegd.",
+    "p3t": "OEM & verpakking",
+    "p3b": "Bevestig verpakkingshoeveelheden, labels, kartonmarkeringen en private-label-artwork met de offerte.",
+    "p4t": "Verzendingsvoorbereiding",
+    "p4b": "Legend de paklijst, palletvereisten en bestemmingsgegevens vast vóór verzending.",
+    "oemTitle": "Uw naam op de doos",
+    "oemSub": "Deel de product-, verpakkings- en merkeisen voor uw volgende slijpmiddellijn.",
+    "oemCta": "Bekijk de OEM-diensten",
+    "faqTitle": "Voordat we beginnen",
+    "faqSub": "Antwoorden op de vragen die kopers het vaakst stellen.",
+    "regionsTitle": "Van Hubei naar uw markt",
+    "regionsSub": "Wereldwijde levering, georganiseerd per bestemmingsregio.",
+    "regionsNote": "MOQ en levertijd worden in uw offerte bevestigd. Routes zijn indicatief; beschikbaarheid en voorwaarden worden per offerte bevestigd.",
+    "factoryTitle": "Vind ons in Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Plan een fabrieksbezoek en bevestig het ontmoetingspunt met ons team.",
+    "finalTitle": "Op zoek naar een betrouwbare leverancier van slijpmiddelen?",
+    "finalBody": "Deel uw product, hoeveelheid en toepassing — wij bekijken uw vereisten en stellen een passende offerte op.",
+    "finalCta1": "Vraag een groothandelsofferte aan",
+    "finalCta2": "Contact via WhatsApp",
+    "beltsShowTitle": "Schuurbanden, per type",
+    "beltsShowSub": "Referentietypes om met ons team te bespreken.",
+    "articlesEyebrow": "Informatie voor kopers",
+    "articlesTitle": "Gidsen van ons technisch team",
+    "articlesSub": "Hoe kopers korrel, drager en verpakking kiezen voordat ze de order plaatsen.",
+    "articlesCta": "Bekijk alle gidsen",
+    "prepTitle": "Bereid uw groothandelsvraag voor",
+    "prepSub": "Afmetingen, korrel en hoeveelheid doen de rest.",
+    "prepDim": "Afmetingen",
+    "prepDimText": "Afmeting of typereferentie in millimeter.",
+    "prepGrit": "Korrel",
+    "prepGritText": "Gewenste korrel of afwerking.",
+    "prepQty": "Hoeveelheid",
+    "prepQtyText": "Geschat volume en verpakking."
+  },
+  "purchasing": {
+    "eyebrow1": "Inkoopadvies",
+    "title1": "Bereid uw groothandelsvraag voor",
+    "body1": "Deel uw gewenste afmetingen, korrel, werkstuk, machine en beoogde afwerking. Gebruik waar mogelijk de gedocumenteerde opties hierboven; overige eisen worden met ons team beoordeeld.",
+    "dl1t": "Hoeveelheid & bestemming",
+    "dl1b": "Laat ons de hoeveelheid, verpakkingseisen en leverbestemming weten.",
+    "dl2t": "Levering & voorwaarden",
+    "dl2b": "Beschikbaarheid, minimale bestelhoeveelheid en commerciële voorwaarden zijn onder voorbehoud van bevestiging in de offerte.",
+    "dl3t": "Vragen over OEM-verpakking",
+    "dl3b": "Branding, labels, aangepaste afmeting of verpakkingseisen.",
+    "eyebrow2": "Hoe vraagt u iets aan",
+    "title2": "Van productkeuze tot offerte",
+    "s1t": "Kies uw product",
+    "s1b": "Kies het product of type en de vereiste specificatie.",
+    "s2t": "Deel uw vereisten",
+    "s2b": "Deel hoeveelheid, toepassing en verpakkingseisen.",
+    "s3t": "Bekijk uw offerte",
+    "s3b": "Bevestig de definitieve specificatie en commerciële voorwaarden met ons team."
+  },
+  "modelPage": {
+    "eyebrow": "Schuurbanden · referentietype",
+    "refLabel": "Typereferentie",
+    "familyLabel": "Categorie",
+    "dimsLabel": "Afmetingen van de afgewerkte band — geef breedte × lengte aan in mm",
+    "dimsPlaceholder": "bijv. 533 × 75 mm",
+    "gritLabel": "Gewenste korrel — geef de korrel of afwerking aan",
+    "gritPlaceholder": "bijv. P60",
+    "qtyLabel": "Gewenste hoeveelheid",
+    "specLabel": "Specificatie- en verpakkingseisen",
+    "discussion": "Bespreek dit type met ons team aan de hand van uw werkstuk, machine en gewenste afwerking.",
+    "grainBacking": "Korrel en drager — bevestig de fabrikant van het grondstof en de exacte korrel.",
+    "disclaimer": "Details van de typefamilie dienen als selectiehulp; leverspecificaties, beschikbaarheid en pasvorm van MoTai worden in uw offerte vastgelegd."
+  },
+  "discPage": {
+    "eyebrow": "Schuurschijven · gedocumenteerde variant",
+    "gritsNote": "Korrelopties voor deze variant"
+  },
+  "flapPage": {
+    "eyebrow": "Lamellenschijven · dragervariant",
+    "color": "Kleur",
+    "gritNote": "P40–P60 en P80–P120 zijn algemene selectievoorbeelden, geen bevestigd MoTai-leverprogramma."
+  },
+  "productPage": {
+    "specTitle": "Specificaties",
+    "howTitle": "Hoe specificeert u uw order",
+    "howBody": "Vermeld de band- of schijfafmeting, korrellijst, machinemodel, werkstukmateriaal en hoeveelheid. Een duidelijke specificatie helpt ons de pasvorm te beoordelen en een bruikbare offerte op te stellen — kies een product nooit alleen op kleur.",
+    "faqTitle": "Vragen van kopers"
+  },
+  "about": {
+    "h1": "Het bedrijf achter het slijpmiddelassortiment",
+    "sub": "Een doordachte aanpak van slijpmiddelbevoorrading.",
+    "bizTitle": "Ons bedrijf",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. levert slijpverbruiksartikelen voor toepassingen in de houtbewerking, metaalbewerking en automotive. Gedocumenteerde programma's omvatten gatloze schuurschijven, maasschuurschijven en rode schuurbanden. Wij ontvangen vragen van importeurs, distributeurs, groothandels en industriële kopers — over product, drager, afmeting, korrel, hoeveelheid en levering.",
+    "matTitle": "Bedrijfsinformatie",
+    "matBody": "Bekijk de bedrijfsachtergrond en contactgegevens in onze brochure.",
+    "globalTitle": "Van Hubei naar uw markt",
+    "globalSub": "Wereldwijde levering, georganiseerd per bestemmingsregio.",
+    "facTitle": "Vind ons in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Plan een fabrieksbezoek met ons team en bevestig het ontmoetingspunt vóór uw reis.",
+    "profileName": "In één oogopslag",
+    "profileBody": "Producent van gecoatreerde slijpmiddelen in Xianning, Hubei: drie productlijnen die naar zeven bestemmingsregio's worden geleverd, met korrels van 40 tot 5000.",
+    "ctaTitle": "Op zoek naar een betrouwbare leverancier van slijpmiddelen?",
+    "cta1": "Vraag een groothandelsofferte aan",
+    "cta2": "Contact via WhatsApp"
+  },
+  "factory": {
+    "h1": "In de MoTai-werkplaats",
+    "sub": "Details doen ertoe. In elke fase.",
+    "intro": "Bekijk de snij-, monstercontrole- en verpakkingsdetails voor uw order. Productbeelden worden naast procesillustraties getoond.",
+    "videoLabel": "Bekijk de productbeelden",
+    "stepsTitle": "Productie & ordervoorbereiding",
+    "stepsIntro": "Van uw vereiste tot een bevestigde order.",
+    "st1t": "Snijden & converteren",
+    "st1b": "Bevestig de gewenste vorm, afmetingen en korrel voordat het conversieproces wordt ingepland.",
+    "st2t": "Monstercontroles",
+    "st2b": "Beoordeel het slijpoppervlak, de drager en de pasvorm van een monster voordat de orderspecificatie wordt vastgelegd.",
+    "st3t": "OEM & verpakking",
+    "st3b": "Bevestig verpakkingshoeveelheden, labels, kartonmarkeringen en private-label-artwork met de offerte.",
+    "st4t": "Verzendingsvoorbereiding",
+    "st4b": "Legend de paklijst, palletvereisten en bestemmingsgegevens vast vóór verzending.",
+    "imgNote": "Snij- en monsterbeelden zijn afkomstig uit de geleverde productvideo's. Verpakkings- en verzendbeelden zijn illustratieve stockfoto's.",
+    "galleryTitle": "Waar uw order wordt gemaakt",
+    "galleryIntro": "Dezelfde workshop verzorgt het snijden, de steekproefcontroles en het verpakken van elke bevestigde order.",
+    "gallery1Title": "Productieworkshop",
+    "gallery1Text": "De overdekte werkruimte waar schuurriemen en schijven worden geconverteerd, gecontroleerd en verpakt.",
+    "gallery2Title": "Productiehal en laadruimte",
+    "gallery2Text": "Kartonnen worden op pallets gezet en ter plekke ingeladen vóór verzending naar uw bestemmingsregio.",
+    "gallery3Title": "Klaar voorraad",
+    "gallery3Text": "Riemen en schijven worden doosgewijs verpakt conform de bevestigde specificatie — korrelgrootte, formaat en verpakkingslijst.",
+    "galleryNote": "Foto’s worden door de fabriek ter beschikking gesteld voor algemene oriëntatie; het zijn geen order-specifieke beelden. Productvideo’s verschijnen hier zodra het filmmateriaal is gepubliceerd.",
+    "qcTitle": "Kwaliteitscontroles",
+    "qcIntro": "Wat wij controleren voordat een order de fabriek verlaat.",
+    "qc1t": "Oppervlak & korrel",
+    "qc1b": "Consistentie van het slijpoppervlak tegenover de bevestigde korrel.",
+    "qc2t": "Drager & pasvorm",
+    "qc2b": "Dragertype, gewicht en maattolerantie van afgewerkte banden en schijven.",
+    "qc3t": "Verpakking & markeringen",
+    "qc3b": "Verpakkingshoeveelheden, labels, kartonmarkeringen en private-label-artwork komen overeen met de bevestigde order.",
+    "ctaTitle": "Liever even sparren?",
+    "ctaSub": "Op zoek naar een betrouwbare leverancier van slijpmiddelen?",
+    "cta1": "Vraag een groothandelsofferte aan",
+    "cta2": "Contact via WhatsApp"
+  },
+  "oem": {
+    "h1": "Uw naam op de doos",
+    "sub": "Stuur uw product-, verpakkings- en merkeisen; wij komen terug met een OEM-haalbaarheidscheck.",
+    "briefTitle": "Bouw uw vraag rond uw merk",
+    "briefEyebrow": "Breng uw brief",
+    "briefBody": "Bespreek uw logo- en labelartwork, verpakkingsvorm, productafmetingen, korrels en beoogd gebruik. OEM-beschikbaarheid, minimale hoeveelheden, artworkeisen en planning staan onder voorbehoud van een haalbaarheidscheck en een bevestigde offerte.",
+    "itemsTitle": "Een duidelijke brief levert een bruikbaar antwoord",
+    "i1": "Product & specificatie",
+    "i2": "Afmetingen & korrelmix",
+    "i3": "Artwork & labels",
+    "i4": "Verpakkingsvorm",
+    "i5": "Doelhoeveelheden",
+    "i6": "Bestemming & planning",
+    "itemNote": "Neem uw vereisten en referentiebestanden op in de vraag.",
+    "procTitle": "Van vraag tot levering",
+    "pr1t": "Uw vraag",
+    "pr1b": "Vertel ons uw toepassing en vereisten.",
+    "pr2t": "Specificatiecheck",
+    "pr2b": "Beoordeel afmetingen, korrels, drager en verpakking.",
+    "pr3t": "Offerte",
+    "pr3b": "Bevestig commerciële voorwaarden en planning.",
+    "pr4t": "Monstergoedkeuring",
+    "pr4b": "Beoordeel afgesproken monsters vóór goedkeuring.",
+    "pr5t": "Productie",
+    "pr5b": "Ga door op basis van de bevestigde specificatie.",
+    "pr6t": "Verzending",
+    "pr6b": "Coördineer verpakking en bestemming.",
+    "cta1": "Vraag een groothandelsofferte aan",
+    "cta2": "Contact via WhatsApp"
+  },
+  "applications": {
+    "h1": "Slijpmiddelen voor uw sector",
+    "sub": "Het oppervlak bepaalt de specificatie.",
+    "intro": "Zes toepassingsgebieden. Specificeer het materiaal, de machine en de gewenste afwerking — wij stemmen het slijpmiddel af.",
+    "ctaNote": "Sommige beelden zijn AI-gegenereerde toepassingsillustraties, geen foto's van MoTai-fabriek of -klanten.",
+    "sampleNote": "Laat bij een offertevraag uw sector, land, productspecificatie en geschatte ordervolume weten.",
+    "reqTitle": "Aanbevolen producten",
+    "reqNote": "Indicatieve productfamilies voor dit gebied. Bevestig afmetingen, korrels en hoeveelheden met de offerte.",
+    "specTitle": "Specificatietips",
+    "faqTitle": "Veelgestelde vragen",
+    "faqs": [
+      {
+        "q": "Met welke korrel begin ik?",
+        "a": "Begin bij het werkstukmateriaal, de diepte van het gebrek en de gewenste afwerking — een grove korrel verwijdert snel materiaal, ga daarna naar fijnere korrels en controleer het oppervlak na elke stap."
+      },
+      {
+        "q": "Mag ik korrels in één order combineren?",
+        "a": "Ja — noem de korrels en de hoeveelheid per korrel; beschikbaarheid en levertijd komen met de offerte terug."
+      }
+    ],
+    "ctaTitle": "Specificeert u voor uw sector?",
+    "cta1": "Vraag een groothandelsofferte aan",
+    "cta2": "Contact via WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Betere informatie. Betere keuze.",
+    "sub": "Praktische bronnen voor kopers om slijpmiddelspecificaties te bespreken.",
+    "updatedLabel": "Bijgewerkt",
+    "governance": "Gidsen worden geschreven en beoordeeld door het technische team van MoTai Abrasives en opnieuw beoordeeld wanneer productspecificaties wijzigen."
+  },
+  "blogSidebar": {
+    "eyebrow": "Producten",
+    "productsTitle": "Uitgelichte producten",
+    "productsSub": "Afmetingen, korrels en dragers zijn per product gedocumenteerd; MOQ en beschikbaarheid komen met de offerte.",
+    "viewAll": "Alle producten",
+    "servicesEyebrow": "Diensten",
+    "servicesTitle": "Van selectie tot levering",
+    "servicesSub": "Groothandelslevering, private-labelverpakking en procescontroles, bevestigd in de offerte.",
+    "serviceWholesale": "Groothandelsofferte",
+    "serviceOem": "OEM & private label",
+    "serviceManufacturing": "Productie",
+    "serviceApplications": "Toepassingen",
+    "latestEyebrow": "Nieuws",
+    "latestTitle": "Nieuwste gidsen",
+    "catDiscs": "Schuurschijven",
+    "catBelts": "Schuurbanden",
+    "catFlap": "Lamellenschijven"
+  },
+  "blogPager": {
+    "navLabel": "Blogpagina's",
+    "prev": "Vorige",
+    "next": "Volgende",
+    "pageOf": "Pagina {page} van {total}",
+    "range": "Gidsen {from}–{to} van {count}"
+  },
+  "article": {
+    "watchTitle": "Bekijken",
+    "discuss": "Bespreek uw specificatie",
+    "catSelection": "Selectiegids",
+    "catBuyer": "Informatie voor kopers",
+    "catNotes": "Toepassingsnotities",
+    "catOem": "OEM-gids",
+    "reviewedBy": "Beoordeeld door het technische team van MoTai Abrasives",
+    "lastReviewed": "Laatst beoordeeld op {date}",
+    "tocTitle": "Op deze pagina"
+  },
+  "contact": {
+    "h1": "Start een groothandelsgesprek",
+    "sub": "Ontvang groothandelsprijzen direct uit de fabriek voor slijpmiddelproducten.",
+    "directTitle": "Een gesprek. Een betere specificatie.",
+    "directBody": "Deel uw product, hoeveelheid en toepassing. Wij bekijken uw vereisten en helpen u de volgende stap te zetten.",
+    "facTitle": "Vind ons in Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Bevestig het exacte bezoekadres met ons team vóór uw reis.",
+    "visit": "Plan een fabrieksbezoek",
+    "formTitle": "Groothandels- / OEM-vraag",
+    "formNote": "Dit formulier vraagt een offerte aan en plaatst geen order. Vragen gaan naar onze verkoop inbox; specificaties en commerciële voorwaarden worden met de offerte vastgelegd.",
+    "btn": "Open het aanvraagformulier ↗"
+  },
+  "privacy": {
+    "h1": "Uw vraaggegevens",
+    "sub": "Hoe deze website de gegevens gebruikt die u deelt.",
+    "s1t": "Verzamelde gegevens",
+    "s1b": "Contactgegevens, bedrijfsinformatie, producteisen en bijlagen die met een vraag worden ingestuurd. Een gehashte verbindingsidentificatie beperkt misbruik van het formulier.",
+    "s2t": "Doel en toegang",
+    "s2b": "Gegevens worden gebruikt om vragen te beoordelen en te beantwoorden, offertes op te stellen en gevraagde commerciële gesprekken te coördineren. Toegang is beperkt tot gemachtigde beheerders.",
+    "s3t": "Opslag en bewaring",
+    "s3b": "Gegevens worden bij onze hostingprovider bewaard. Verwerking kan buiten uw land plaatsvinden. Bewaring volgt verplichtingen rond opvolging en administratie; u kunt een specifieke bewaartermijn of verwijdering aanvragen.",
+    "s4t": "Uw keuzes",
+    "s4b": "Neem contact op met motai-01@motaiabrasive.com voor inzage, correctie of verwijdering. Stuur geen gevoelige persoonsgegevens of vertrouwelijke bestanden die niets met uw vraag te maken hebben.",
+    "s5t": "Cookies, links en analytics",
+    "s5b": "De browser slaat beheergegevens voor uw vraaglijst op. Deze site gebruikt Google Analytics (gtag.js) voor geanonimiseerde gebruiksstatistieken; Google plaatst een cookie en verwerkt gegevens onder zijn verwerkersvoorwaarden — u kunt uitschrijven via https://support.google.com/analytics/answer/3452785. Externe WhatsApp-, kaart- en socialelinks vallen onder hun eigen privacybeleid.",
+    "updated": "Laatst bijgewerkt op 4 november 2026"
+  },
+  "terms": {
+    "h1": "Gebruiksvoorwaarden",
+    "sub": "De voorwaarden die gelden wanneer u deze site gebruikt en een vraag naar MoTai stuurt.",
+    "s1t": "Gebruik van deze site",
+    "s1b": "Deze site is een B2B-informatie- en vraagdienst van Hubei MoTai Abrasives Materials Co., Ltd. Inhoud — productspecificaties, gidsen, begrippenlijst en blog — wordt te goeder trouw als algemene informatie aangeboden. Gebruik van de site betekent dat u deze voorwaarden accepteert; zo niet, stuur dan geen vraag.",
+    "s2t": "Vragen zijn geen aanbiedingen",
+    "s2b": "Het insturen van het vraagformulier is een uitnodiging om te onderhandelen, geen bindende order. MoTai is niet verplicht op elke vraag te reageren, en er komt geen aankoop tot stand voordat een offerte door beide partijen schriftelijk is bevestigd.",
+    "s3t": "Offertes en prijzen",
+    "s3b": "Alle prijzen zijn op offertebasis. Offertes vermelden afmetingen, korrels, verpakking, handelsvoorwaarden en geldigheidsduur; definitieve bedragen worden bij de bevestigde specificatie vastgelegd en zijn afhankelijk van bewegingen in grondstoffen en vracht.",
+    "s4t": "Intellectueel eigendom",
+    "s4b": "Site-inhoud, productbeschrijvingen, afbeeldingen en het merk MoTai zijn eigendom van MoTai Abrasives en mogen niet commercieel worden gereproduceerd. Verwijzingen van derden (bijv. typebronnen) dienen alleen ter oriëntatie van de koper en houden geen erkenning in.",
+    "s5t": "Aansprakelijkheid en toepasselijk recht",
+    "s5b": "MoTai is niet aansprakelijk voor beslissingen die genomen zijn op basis van algemene informatie op deze site. Op deze voorwaarden is het recht van de Volksrepubliek China van toepassing; geschillen worden afgehandeld volgens het verkoopcontract tussen de partijen.",
+    "updated": "Laatst bijgewerkt op 3 november 2026"
+  },
+  "shipping": {
+    "h1": "Verzending & retourbeleid",
+    "sub": "Hoe orders onze fabriek verlaten, en waarom slijpmiddelen op maat niet retourneerbaar zijn.",
+    "shipTitle": "Verzendbeleid",
+    "shipSub": "Productie, verpakking en verzending worden samen met uw offerte bevestigd.",
+    "s1t": "Productie en levertijd",
+    "s1b": "Schuurbanden, schijven en lamellenschijven worden volgens de specificatie in uw order geconverteerd. De levertijd start op de datum dat de offerte schriftelijk is bevestigd, niet op de datum dat de vraag werd verstuurd. Standaardreferenties zoals GXK-51, XZ-330 en GPC71 zijn direct beschikbare voorraadartikelen; aangepaste afmetingen, korrels en OEM-verpakking worden op maat gemaakt.",
+    "s2t": "Verpakking en markering",
+    "s2b": "Goederen worden in exportkartons verpakt met de afgesproken verpakkingshoeveelheid, labels, kartonmarkeringen en — voor OEM-programma's — uw artwork en barcode. De palletopbouw wordt met de paklijst bevestigd. Fumigatie- of ISPM 15-markeringen worden aangebracht waar het bestemmingsland dat vereist.",
+    "s3t": "Verzendwijze en Incoterms",
+    "s3b": "Verzending gaat over zee (FCL of LCL) of per lucht, afhankelijk van volume en bestemming. De handelsvoorwaarde staat op uw offerte — EXW, FOB, CIF, CFR, DAP en DDP worden veel gebruikt. U kunt uw eigen forwarder aanwijzen; MoTai levert dan de paklijst, kartonmarkeringen en vervoersdocumenten.",
+    "s4t": "Documenten en douane",
+    "s4b": "Elke zending gaat vergezeld van een commerciële factuur, paklijst en vervoersdocument. HS-codes en oorsprongscertificaten worden verstrekt voor uw douanegoedkeuring. Invoerrechten, belastingen en douanegoedkeuring in het bestemmingsland zijn voor rekening van de koper, tenzij de offerte DDP vermeldt.",
+    "s5t": "Verzending en levering",
+    "s5b": "Wij sturen de shipping advice met het vaartuig- of vluchtnummer zodra de container of zending geboekt is. De levertijd hangt af van de bestemmingshaven of het vliegveld en de planning van de vervoerder. Vertraging door havenopstoppingen, douane-inspectie of force majeure ligt buiten onze macht en wordt gemeld zodra die bekend is.",
+    "retTitle": "Retourbeleid",
+    "retSub": "Onze producten worden volgens de afgesproken specificatie gemaakt, daarom zijn retouren beperkt tot vastgelegde gevallen.",
+    "r1t": "Goederen op maat",
+    "r1b": "Slijpmiddelen worden volgens uw korrel-, afmetings-, drager- en verpakkingsspecificatie geproduceerd. Omdat ze niet als standaardvoorraad kunnen worden doorverkocht, zijn bevestigde customorders niet retourneerbaar en niet restitueerbaar, behalve wanneer de goederen niet aan de bevestigde specificatie voldoen.",
+    "r2t": "Voorraadartikelen en transportschade",
+    "r2b": "Standaardreferenties die niet gebruikt zijn en in hun originele exportverpakking zitten, kunnen geval per geval worden geretourneerd nadat wij de reden en de retouromstandigheden hebben bevestigd. Tijdens transport beschadigde goederen moeten binnen 7 dagen na levering met foto's worden gemeld, en claims op de verzekering van de vervoerder lopen via de genoemde forwarder.",
+    "r3t": "Claims, inspectie en creditnota's",
+    "r3b": "Elke claim moet het ordernummer, de paklijst en de betrokken kartonmarkeringen vermelden. Wanneer een gebrek na inspectie is bevestigd, vervangen wij de betrokken hoeveelheid of verstrekken wij een creditnota op de factuur. Claims die later dan 30 dagen na levering worden ingediend, kunnen niet worden geaccepteerd.",
+    "r4t": "Terugbetalingen",
+    "r4b": "Wanneer een credit is overeengekomen, gaat elke terugbetaling naar de oorspronkelijke betaler via dezelfde methode als de order, zodra de retour of vervanging is afgerond of afgeschreven. Bankkosten bij internationale overboekningen worden gedragen door de partij die de terugbetaling ontvangt.",
+    "r5t": "Douane, rechten en compliance",
+    "r5b": "Retouren die worden aangevraagd wegens invoerbeperkingen, rechten, douane-inspectie of lokale compliantieregels worden als commerciële geschillen behandeld en niet als productclaims, omdat de goederen conform de bevestigde specificatie zijn geleverd.",
+    "updated": "Laatst bijgewerkt op 6 november 2026",
+    "related": "Verzendings- en retourvoorwaarden maken deel uit van elke offerte. Vermeldt een offerte andere voorwaarden, dan prevaleert die offerte.",
+    "contact": "Vragen over een zending of claim: neem contact op met ons salesteam met uw ordernummer en de relevante kartonmarkeringen."
+  },
+  "quotePage": {
+    "h1": "Start een groothandelsgesprek",
+    "sub": "Ontvang groothandelsprijzen direct uit de fabriek voor slijpmiddelproducten.",
+    "note": "Dit formulier vraagt een offerte aan en plaatst geen order. Velden met * zijn verplicht.",
+    "sec1": "Uw bedrijf",
+    "f1": "Volledige naam *",
+    "f2": "Bedrijfsnaam *",
+    "f3": "Land *",
+    "f4": "Zakelijke e-mail *",
+    "f5": "WhatsApp-nummer",
+    "f6": "Type bedrijf *",
+    "opt1": "Importeur",
+    "opt2": "Distributeur",
+    "opt3": "Groothandel",
+    "opt4": "OEM-merk",
+    "opt5": "Industriële koper",
+    "opt6": "Anders",
+    "sec2": "Producteisen",
+    "f7": "Productcategorie",
+    "f8": "Productmodel / referentie",
+    "f9": "Afmeting",
+    "f10": "Korrelgrootte",
+    "f11": "Materiaal",
+    "f12": "Hoeveelheid",
+    "f13": "Verpakking",
+    "f14": "Bestemmingsland *",
+    "f15": "OEM-eisen",
+    "f16": "Aanvullend bericht *",
+    "consent": "Ik ga akkoord met het privacybeleid, de gebruiksvoorwaarden en het gebruik van mijn gegevens om op deze vraag te reageren. *",
+    "btn1": "Vraag een groothandelsofferte aan",
+    "btn2": "Stuur de vraag via WhatsApp",
+    "goNote": "Het formulier opent in ons groothandelsvraagsysteem met uw productcontext vooraf ingevuld."
+  },
+  "clients": {
+    "h1": "Waar MoTai-zendingen naartoe gaan",
+    "sub": "Van Hubei naar zeven bestemmingsregio's.",
+    "note": "Klantlogo's en referenties hieronder zijn plaatsaanduidingen — vervang src/data/trust.json door gepubliceerd materiaal.",
+    "placeholderBadge": "Illustratieve plaatsaanduiding",
+    "statsTitle": "Levering in één oogopslag",
+    "statsNote": "Getoonde certificeringen zijn plaatsaanduidingen in afwachting van gepubliceerde certificaten."
+  },
+  "glossary": {
+    "h1": "Begrippenlijst slijpmiddelen",
+    "sub": "De termen achter elke band-, schijf- en lamellenspecificatie.",
+    "note": "Standaard sectordefinities voor slijpverbruiksartikelen; korrel- en dragerdetails voor een order worden met de offerte vastgelegd.",
+    "reviewNote": "Termen worden beoordeeld door het technische team van MoTai Abrasives — laatst beoordeeld op 3 november 2026."
+  },
+  "trust": {
+    "regions": "Bestemmingsregio's",
+    "productLines": "Productlijnen",
+    "gritRange": "Korrelomvang"
+  },
+  "video": {
+    "title": "Bekijken",
+    "cutting": {
+      "title": "Beelden snijden & converteren",
+      "desc": "Geleverde productbeelden: snijden en converteren van schuurvellen."
+    },
+    "sample": {
+      "title": "Beelden monstercontroles",
+      "desc": "Geleverde productbeelden: controle van oppervlak, drager en pasvorm aan een monster."
+    },
+    "oem": {
+      "title": "Beelden OEM-verpakking",
+      "desc": "Verpakkingshoeveelheden, labels, kartonmarkeringen en private-label-artwork."
+    },
+    "flap": {
+      "title": "Beelden lamellenschijvensortiment",
+      "desc": "Lamellenschijven met kunststof, stalen en glasvezeldrager in gebruik."
+    }
+  },
+  "wa": {
+    "generic": "Hallo MoTai, ik wil een groothandelsofferte voor slijpmiddelproducten.",
+    "product": "Hallo MoTai, ik wil een groothandelsofferte voor {name} ({grits}).",
+    "model": "Hallo MoTai, ik wil een groothandelsofferte voor schuurbandtype {model}.",
+    "disc": "Hallo MoTai, ik wil een groothandelsofferte voor {title}.",
+    "sample": "Hallo MoTai, ik wil een monster van {name} aanvragen ter beoordeling.",
+    "factory": "Hallo MoTai, ik wil productie- en kwaliteitsdetails met uw team bespreken.",
+    "oem": "Hallo MoTai, ik wil een OEM- / private-labelprogramma voor slijpmiddelen bespreken.",
+    "contact": "Hallo MoTai, ik wil met uw team mijn volgende slijpmiddelorder opbouwen."
+  },
+  "floatChat": {
+    "trigger": "Chat",
+    "open": "Chat openen",
+    "close": "Sluiten",
+    "title": "MoTai — livechat",
+    "status": "Wij antwoorden op WhatsApp, meestal binnen 24 uur.",
+    "greeting": "Hallo! Waarmee kunnen we u helpen bij uw slijpmiddelorder? — MoTai salesteam",
+    "placeholder": "Typ uw bericht…",
+    "send": "Verstuur via WhatsApp",
+    "note": "Deze preview heeft geen live server: versturen opent WhatsApp met uw bericht vooraf ingevuld. Het gesprek gaat verder in WhatsApp."
+  },
+  "location": {
+    "imgAlt": "MoTai-fabrieksgebouw in Xianning, Hubei",
+    "imgCaption": "MoTai-fabriek — Xianning, Hubei, China",
+    "mapTitle": "Locatie van de MoTai-fabriek op Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Voordat we beginnen",
+    "moq": {
+      "q": "Wat is de minimale bestelhoeveelheid?",
+      "a": "De MOQ komt met de offerte terug, samen met beschikbaarheid en voorwaarden."
+    },
+    "oem": {
+      "q": "Ondersteunt u OEM en private label?",
+      "a": "Ja. Logo, labels, aangepaste afmetingen en verpakking worden op haalbaarheid beoordeeld en daarna met uw offerte bevestigd."
+    },
+    "sizes": {
+      "q": "Welke afmetingen en korrels levert u?",
+      "a": "Banden in gedocumenteerde afmetingen van 533 × 75 tot 2200 × 1330 mm (korrels 40–800); schijven 3–6 inch (korrels 60–5000). Aangepaste eisen worden met ons team beoordeeld."
+    },
+    "samples": {
+      "q": "Kan ik eerst een monster krijgen?",
+      "a": "Ja. Vraag een monster aan en ons salesteam bevestigt beschikbaarheid, kosten en verzendregelingen."
+    },
+    "lead": {
+      "q": "Wat zijn de levertijden?",
+      "a": "De levertijd hangt af van specificatie en hoeveelheid en wordt in uw offerte bevestigd."
+    },
+    "packaging": {
+      "q": "Hoe worden producten verpakt?",
+      "a": "Verpakkingshoeveelheden, labels, kartonmarkeringen en private-label-artwork worden met de offerte bevestigd."
+    },
+    "payment": {
+      "q": "Welke betalingsvoorwaarden biedt u?",
+      "a": "Betalingsvoorwaarden maken deel uit van de bevestigde offerte en het commerciële gesprek."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Welke specificaties geef ik het beste door?",
+      "a": "Deel uw gewenste afmetingen, korrel, werkstuk, machine en beoogde afwerking. Gebruik waar mogelijk de gedocumenteerde opties; overige eisen worden met ons team beoordeeld."
+    },
+    "oem": {
+      "q": "Hoe vraag ik OEM-verpakking aan?",
+      "a": "Neem uw branding- en verpakkingseisen op in de vraag. Details worden beoordeeld en met uw offerte bevestigd."
+    },
+    "order": {
+      "q": "Plaatst een offertevraag een order?",
+      "a": "Nee. Het formulier start een groothandelsvraag. Productspecificaties, beschikbaarheid en commerciële voorwaarden worden bevestigd voordat een order wordt overeengekomen."
+    },
+    "sample": {
+      "q": "Kan ik een monster testen voordat ik een volledige order aangaa?",
+      "a": "Ja. Monsters van standaardreferenties zijn op aanvraag beschikbaar voor beoordeling; beschikbaarheid van monsters en vervoersvoorwaarden worden met uw offerte bevestigd."
+    },
+    "lead": {
+      "q": "Hoe ver vooraf plaats ik een productieorder?",
+      "a": "De levertijd start op de datum dat de offerte schriftelijk is bevestigd en hangt af van de bestelde afmeting, korrel en verpakking. Voorraadreferenties gaan het snelst."
+    },
+    "beltSize": {
+      "q": "Kunnen schuurbanden in een niet-standaardafmeting of -lengte worden geleverd?",
+      "a": "Bandbreedte en -lengte buiten de gedocumenteerde afmetingen worden geval per geval geoffreerd; converteren naar een aangepaste afmeting beïnvloedt zowel de levertijd als de minimale bestelhoeveelheid."
+    },
+    "beltJoint": {
+      "q": "Welke bandvoeg en randconstructie gebruiken deze banden?",
+      "a": "Voegtype en randbehandeling worden per referentie gespecificeerd. Noem de machine, de belasting en de gewenste afwerking zodat de juiste constructie in uw offerte wordt geprijsd."
+    },
+    "discBacking": {
+      "q": "Hoe kies ik tussen klittenband-, PSA- en maasschijven?",
+      "a": "Klittenband past bij frequente korrelwisselingen, PSA past op platte steenschijven en lange looptijden, en maasschijven passen bij stofafzuiging. Onze selectiegids vergelijkt de drie naast elkaar."
+    },
+    "discDust": {
+      "q": "Zijn deze schijven compatibel met stofafzuiging?",
+      "a": "Maas- en geperforeerde schijven zijn ontworpen voor afzuiging; massieve schijven kunnen op aanvraag geperforeerd worden geleverd. Noem uw afzuigopstelling en de steenschijf die u gebruikt."
+    },
+    "hookLoop": {
+      "q": "Passen klittenbandschijven op mijn bestaande steenschijf?",
+      "a": "Diameter en gatenpatroon moeten bij de steenschijf passen. Bevestig uw schuurmodel en de diameter van de steenschijf in uw vraag zodat de juiste schijf wordt geoffreerd."
+    },
+    "psa": {
+      "q": "Werken PSA-schijven op elke steenschijf?",
+      "a": "PSA-schijven hebben een platte, schone rubberen steenschijf van de passende diameter nodig. Bevestig de diameter van de steenschijf en het machinemodel bij uw offertevraag."
+    },
+    "mesh": {
+      "q": "Hoe lang gaat een maasschuurschijf mee?",
+      "a": "Maasschijven weerstaan verzadiging bij stofrijk werk, wat de nuttige levensduur meestal verlengt ten opzichte van massieve papieren schijven. De werkelijke levensduur hangt af van materiaal, druk en korrel."
+    },
+    "solid": {
+      "q": "Kunnen massieve schijven geperforeerd voor stofafzuiging worden geleverd?",
+      "a": "Ja — het perforatiepatroon wordt met de offerte afgesproken. Noem de steenschijf en de afzuigopstelling zodat het juiste patroon wordt geoffreerd."
+    }
+  },
+  "relArticles": {
+    "title": "Gerelateerde artikelen",
+    "sub": "Aankoopadvies voor deze productfamilie, van het MoTai technische team.",
+    "readMore": "Lees het artikel",
+    "faqTitle": "Veelgestelde vragen",
+    "faqSub": "Veelvoorkomende vragen die kopers stellen voordat zij dit product bestellen."
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Noteer afmeting, korrel, drager en productbestanden; geef de bestemmingshaven en de labeltaal door."
+    },
+    "na": {
+      "title": "Noord-Amerika",
+      "body": "Vermeld inch- of metrische maten, bevestigingstype en verpakkingshoeveelheden; bestemmings-ZIP of haven en vervoerswijze."
+    },
+    "sa": {
+      "title": "Zuid-Amerika",
+      "body": "Afmeting, hoeveelheden met gemengde korrels en kartonlabeltaal; bestemmingshaven en importeursdocumenten."
+    },
+    "me": {
+      "title": "Midden-Oosten",
+      "body": "Materiaal, korrel en vochtbestendige verpakking; bestemmingshaven en offertevoorwaarden."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Machinecompatibiliteit, vereiste afmetingen en verpakkingshoeveelheden; bestemmingshaven, kartonmarkeringen en transportvoorkeur."
+    },
+    "oceania": {
+      "title": "Oceanië",
+      "body": "Afmeting, drager, verpakking en bestemmings-ZIP of haven; import- en verpakkingseisen."
+    },
+    "asia": {
+      "title": "Azië",
+      "body": "Machinespecificatie, korrelomvang en ordermix; leverplaats of haven en labels in de plaatselijke taal."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metaalbewerking",
+      "intro": "Lasegalisatie, ontbramen en voorbereiding van metalen oppervlakken.",
+      "uses": "Lasegalisatie · Ontbramen · Oppervlakvoorbereiding",
+      "products": "Schuurbanden"
+    },
+    "wood": {
+      "title": "Houtbewerking & meubels",
+      "intro": "Panelen, meubelproductie en oppervlakvoorbereiding vóór verlacking.",
+      "uses": "Panelen · Meubels · Voorbereiding vóór lak",
+      "products": "Schuurbanden · Schuurschijven"
+    },
+    "auto": {
+      "title": "Autoreparatie",
+      "intro": "Schuren van plamuur, voorbereiding vóór spuiten en autorefinishing.",
+      "uses": "Plamuur · Vóór spuiten · Refinishing",
+      "products": "Schuurschijven"
+    },
+    "stainless": {
+      "title": "Afwerking van roestvrij staal",
+      "intro": "Hairline-afwerkingen, oppervlakovergangen en productie van roestvrij staal.",
+      "uses": "Hairline · Overgangen · Productie",
+      "products": "Schuurbanden"
+    },
+    "ship": {
+      "title": "Scheepsbouw & reparatie",
+      "intro": "Metaalslijpen, roestverwijdering en oppervlakvoorbereiding voor maritiem onderhoud.",
+      "uses": "Slijpen · Roestverwijdering · Maritieme voorbereiding",
+      "products": "Schuurbanden"
+    },
+    "surface": {
+      "title": "Industriële oppervlakvoorbereiding",
+      "intro": "Industriële oppervlakbehandeling en onderhoudswerk.",
+      "uses": "Oppervlakbehandeling · Onderhoud",
+      "products": "Schuurschijven"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Klittenband of PSA: kies de juiste drager",
+      "intro": "Het bevestigingssysteem is even belangrijk als de korrel. Stem het af op de steenschijf voordat u bestelt.",
+      "start": {
+        "title": "Begin bij de vereiste",
+        "body": "Klittenbandschijven worden op een compatibele steenschijf met haakzijde gemonteerd en passen bij werkzaamheden waarbij de korrel vaak wordt gewisseld. PSA-schijven werken met druksensitieve lijm en hebben een schone, platte steenschijf nodig. De twee systemen zijn niet onderling verwisselbaar."
+      },
+      "compat": {
+        "title": "Bevestig compatibiliteit",
+        "body": "Bevestig de diameter van de steenschijf, het dragertype en de indeling van de stofafzuiging. Een gatloze schijf sluit niet aan op een gatenpatroon voor afzuiging, en open maasschijven hebben een compatibele steenschijf en afzuigsysteem nodig."
+      },
+      "enquiry": {
+        "title": "Bereid uw vraag voor",
+        "body": "Neem schijfdiameter, drager, korrellijst, hoeveelheid per korrel en werkstukmateriaal op. Vraag een monsterbeoordeling aan voordat u een productieorder goedkeurt."
+      }
+    },
+    "beltChecklist": {
+      "title": "Wat u in een aanvraag voor schuurbanden opneemt",
+      "intro": "Een duidelijke specificatie helpt uw leverancier de pasvorm te beoordelen en een bruikbare offerte op te stellen.",
+      "start": {
+        "title": "Begin bij de vereiste",
+        "body": "Geef de lengte en breedte van de band in millimeter. Noem het machinemodel — een specificatieblad van de machine of een foto van een oud bandlabel helpt."
+      },
+      "compat": {
+        "title": "Bevestig compatibiliteit",
+        "body": "Voeg werkstukmateriaal, gewenst slijpmiddel, korrel, dragereis en voegvereisten toe. Kies een product nooit alleen op de bandkleur."
+      },
+      "enquiry": {
+        "title": "Bereid uw vraag voor",
+        "body": "Noem hoeveelheden per afmeting en korrel, verpakkingsvoorkeuren, bestemming en de gewenste leverdatum. De definitieve offerte bevestigt specificatie, beschikbaarheid, betalingsvoorwaarden en transportregelingen."
+      }
+    },
+    "gritSequence": {
+      "title": "Een korrelvolgorde plannen voor oppervlakvoorbereiding",
+      "intro": "Begin bij het werkstuk en de gewenste afwerking, beoordeel daarna een volgorde aan een monster.",
+      "start": {
+        "title": "Begin bij de vereiste",
+        "body": "Grove korrels verwijderen snel materiaal en laten diepe krassen achter; fijne korrels verfijnen het oppervlak. Het startpunt hangt af van de ondergrond, de diepte van het gebrek en de hoeveelheid te verwijderen materiaal."
+      },
+      "compat": {
+        "title": "Bevestig compatibiliteit",
+        "body": "Ga in volgorde naar fijnere korrels en inspecteer het werkstuk na elke stap. Korrels overslaan laat krassen achter die moeilijk te verwijderen zijn, en reinigen tussen de stappen voorkomt vervuiling door grove korrels."
+      },
+      "enquiry": {
+        "title": "Bereid uw vraag voor",
+        "body": "Korrelnummers zijn niet onderling verwisselbaar tussen graderschalen. Bevestig de graderstandaard, het type slijpmiddel en de beschikbaarheid in de offerte, en volg de veiligheidsinstructies van machine en slijpmiddel."
+      }
+    },
+    "dustCollection": {
+      "title": "Stofafzuiging & steenschijfcompatibiliteit, uitgelegd",
+      "intro": "Gatenpatronen, open maasschijven en steenschijven moeten bij uw afzuigopstelling passen.",
+      "start": {
+        "title": "Begin bij de vereiste",
+        "body": "Bepaal uw steenschijf: aantal gaten, diameter en of die met stofafzuiging wordt gebruikt. Gatloze schijven en open maasschijven gedragen zich anders dan schijven met meerdere gaten."
+      },
+      "compat": {
+        "title": "Bevestig compatibiliteit",
+        "body": "Stem de gatenindeling van de schijf af op de aansluitingen van de steenschijf. Open maasschijven hebben een compatibele steenschijf en een werkend afzuigsysteem nodig; PSA-schijven hebben een schoon steenschijfoppervlak nodig."
+      },
+      "enquiry": {
+        "title": "Bereid uw vraag voor",
+        "body": "Noem het steenschijfmodel, het aantal gaten, de schijafmeting en de korrellijst, plus uw regeling voor stofafzuiging. Bevestig het gedrag van een monster vóór een productieorder."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM-labels & verpakking: wat u voorbereidt",
+      "intro": "Een volledige brief houdt artwork, labels en kartons op schema.",
+      "start": {
+        "title": "Begin bij de vereiste",
+        "body": "Bereid uw logo- en labelartwork voor, de gewenste verpakkingsvorm (binnenzakken, kartons), de labeltaal en de labelregels van het bestemmingsland."
+      },
+      "compat": {
+        "title": "Bevestig compatibiliteit",
+        "body": "OEM-beschikbaarheid, minimale hoeveelheden, artworkeisen en planning staan onder voorbehoud van een haalbaarheidscheck en een bevestigde offerte."
+      },
+      "enquiry": {
+        "title": "Bereid uw vraag voor",
+        "body": "Voeg artwork toe, geef verpakkingshoeveelheden en kartonmarkeringen aan, en noem bestemming en planning. Monstergoedkeuring gaat vóór productie."
+      }
+    },
+    "gritStandards": {
+      "title": "Korrelnormen: FEPA, ANSI en wat uw lijst betekent",
+      "intro": "Graderschalen zijn niet onderling verwisselbaar — noem de norm in elke vraag.",
+      "start": {
+        "title": "Begin bij de vereiste",
+        "body": "FEPA (ISO 848) en de oudere ANSI-schaal nummeren gelijkende maten anders; een P120 en een 120-grit zijn niet altijd hetzelfde. Noem de norm waarnaar u koopt."
+      },
+      "compat": {
+        "title": "Bevestig compatibiliteit",
+        "body": "Bevestig de graderstandaard, het type slijpmiddel en de beschikbaarheid per korrel in de offerte. Meng geen graderschalen in één korrellijst."
+      },
+      "enquiry": {
+        "title": "Bereid uw vraag voor",
+        "body": "Noem de norm (bijv. FEPA P60–P800), de hoeveelheid per korrel en de bestemming. Bevestig de definitieve korrellijst met de offerte voordat u bestelt."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "De meest gebruikelijke slijpkorrel voor banden en schijven: taai, goed bewerkbaar, geschikt voor metaal, hout en algemene afwerking."
+    },
+    "ansi": {
+      "def": "Oudere Noord-Amerikaanse korrelnumering. Korrels met gelijkende maten wijken af van de FEPA-schaal — noem de norm in elke vraag."
+    },
+    "backing-cloth": {
+      "def": "Een katoenen/stoffen web die op banden de slijpkorrel draagt. Het gewicht (bijv. X-weight) bepaalt flexibiliteit en draagvermogen."
+    },
+    "backing-poly": {
+      "def": "Polykatoenen webdrager: een balans tussen sterkte en flexibiliteit voor algemene banden."
+    },
+    "belt": {
+      "def": "Een doorlopende lus van slijpkorrel op een webdrager, gebruikt op bandslijpers voor slijpen, afwerken en ontbramen."
+    },
+    "blend": {
+      "def": "Een las egaliseren zodat die in het omringende metaal overgaat — meestal een eerste gang met een lamellenschijf of band, daarna fijnere korrels."
+    },
+    "closed": {
+      "def": "Een dicht bedekte korrelopbouw met weinig open ruimte; de band is beter bestand tegen verzadiging bij zwaarder werk."
+    },
+    "debur": {
+      "def": "Bramen en kleine oneffenheden verwijderen die door snijden, zagen of slijpen zijn achtergebleven."
+    },
+    "dust": {
+      "def": "Slijpstof bij het werkstuk verwijderen — via openingen in de steenschijf, open maasschijven of plaatselijke afzuiging."
+    },
+    "flap": {
+      "def": "Een schijf met overlappende slijpbladen, flexibel, voor slijpen, egaliseren en afwerken op haakse slijpers."
+    },
+    "fepa": {
+      "def": "De graderschaal ISO 848 (FEPA) in P-notatie (bijv. P120). De standaardschaal in de meeste Europese en internationale handel."
+    },
+    "grit": {
+      "def": "De nominale korrelgrootte van een slijpmiddel: hogere nummers zijn fijner. Banden 40–800; schijven 60–5000."
+    },
+    "hookloop": {
+      "def": "Het klittenbandbevestigingssysteem voor schijven: de schijf klikt op een steenschijf met haakzijde."
+    },
+    "mesh": {
+      "def": "Open maasschijven hebben uitgesneden vensters waardoor stof kan ontsnappen, en hebben een compatibele steenschijf en afzuiging nodig."
+    },
+    "moq": {
+      "def": "Minimale bestelhoeveelheid (MOQ) — komt met de offerte, samen met beschikbaarheid en voorwaarden."
+    },
+    "oem": {
+      "def": "Original equipment manufacturing / private label: onze producten onder uw merk, labels en verpakking."
+    },
+    "psa": {
+      "def": "Drager met druksensitieve lijm (PSA): de schijf plakt direct op een compatibele steenschijf."
+    },
+    "disc": {
+      "def": "Een platte of gelamelleerde schuurcirkel die op een steenschijf wordt gemonteerd voor schuren en afwerken."
+    },
+    "sic": {
+      "def": "Siliciumcarbidekorrel: zeer hard en scherp, geschikt voor glas, keramiek en non-ferrometalen."
+    },
+    "prep": {
+      "def": "Een oppervlak gereed maken voor coating of afwerking: roest, plamuur of oude afwerking verwijderen tot een consistent profiel."
+    },
+    "wetdry": {
+      "def": "Korrels die koel en verzadigingsbestendig blijven bij nat of nat/droog gebruik; bevestig de geschiktheid met de offerte."
+    },
+    "xweight": {
+      "def": "Een stoffen drager van middengewicht voor algemene banden: sterk en toch flexibel."
+    },
+    "zirconia": {
+      "def": "Zirconiagkorrel (zirkonia-alumina): taai en agressief voor het slijpen, ontbramen en afwerken van staal."
+    },
+    "pad": {
+      "def": "De steenschijf waarop een schijf wordt gemonteerd: diameter, zijde (haak) en openingenindeling moeten bij de schijf passen."
+    }
+  },
+  "footer": {
+    "blurb": "Slijpverbruiksartikelen voor industriële kopers, distributeurs en private-labelmerken.",
+    "products": "Producten",
+    "explore": "Ontdek MoTai",
+    "connect": "Neem contact op",
+    "aboutUs": "Over ons",
+    "mfgQ": "Productie & kwaliteit",
+    "oemPl": "OEM & private label",
+    "newsB": "Nieuws & blog",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "shipping": "Verzending & retour",
+    "contactUs": "Contact"
+  },
+  "tdk": {
+    "home": {
+      "title": "Producent van slijpmiddelen & leverancier van industriële slijpmiddelen | MoTai",
+      "description": "Professionele producent van slijpmiddelen in China voor schuurbanden, schuurschijven en lamellenschijven. Groothandel direct uit de fabriek, OEM-maatwerk en industriële slijpmiddeloplossingen voor distributeurs en kopers wereldwijd.",
+      "keywords": "producent van slijpmiddelen, leverancier van slijpmiddelen, industriële slijpmiddelen, schuurbanden, schuurschijven, lamellenschijven, producent van schuurbanden, slijpmiddelen groothandel"
+    },
+    "about": {
+      "title": "Over MoTai — producent van slijpmiddelen & fabriek in Hubei, China",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. is een producent van gecoatreerde slijpmiddelen in Xianning, Hubei: schuurbanden, schuurschijven en lamellenschijven met OEM, maatwerkafmetingen, bulkverkoop en export.",
+      "keywords": "producent van slijpmiddelen China, leverancier van slijpmiddelen China, fabriek voor slijpmiddelen, producent van gecoatreerde slijpmiddelen, exporteur van slijpmiddelen, B2B-leverancier van slijpmiddelen"
+    },
+    "factory": {
+      "title": "Productie & kwaliteitscontrole van slijpmiddelen — MoTai-fabriek in Hubei",
+      "description": "In de MoTai-werkplaats voor slijpmiddelen: converteren en snijden, monstercontroles, QC en OEM-verpakking voor schuurbanden, schuurschijven en lamellenschijven.",
+      "keywords": "productie van slijpmiddelen, kwaliteitscontrole slijpmiddelfabriek, converteren van slijpmiddelen, OEM-verpakking van slijpmiddelen"
+    },
+    "oem": {
+      "title": "Producent van slijpmiddelen OEM & private label | MoTai",
+      "description": "OEM-productie van slijpmiddelen en private label: uw logo, labels, afmetingen en verpakking op MoTai-banden, -schijven en -lamellenschijven, geoffreerd op uw bevestigde specificatie.",
+      "keywords": "OEM-producent van slijpmiddelen, private-label slijpmiddelen, slijpmiddelen op maat, OEM-leverancier van slijpmiddelen"
+    },
+    "applications": {
+      "title": "Industriële slijpmiddelen per toepassing — metaal, hout, automotive en meer",
+      "description": "Stem MoTai-schuurbanden, -schuurschijven en -lamellenschijven af op uw toepassing: metaalslijpen, houtschuren, carrosserie, afwerking van roestvrij staal, scheepsbouw en oppervlakvoorbereiding.",
+      "keywords": "toepassingen van slijpmiddelen, metaalslijpen, houtschuren, oppervlakvoorbereiding, industriële oppervlakvoorbereiding"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Slijpmiddelen voor metaalbewerking — slijpen & ontbramen | MoTai",
+        "description": "Slijpmiddelen voor metaalbewerking: metaalslijpen, ontbramen en lasegalisatie met MoTai-schuurbanden, maas- en lamellenschijven.",
+        "keywords": "slijpmiddelen voor metaalbewerking, metaalslijpen, ontbramen van metaal, egaliseren van lasnaden"
+      },
+      "woodworking": {
+        "title": "Slijpmiddelen voor houtbewerking & breedbandschuren | MoTai",
+        "description": "Slijpmiddelen voor houtbewerking en meubels: breedbandschuren, schuren van houten panelen en MDF met MoTai-schuurbanden en -schijven.",
+        "keywords": "slijpmiddelen voor houtbewerking, breedbandschuren, houtschuren, meubelschuren"
+      },
+      "automotive": {
+        "title": "Schuren bij autoreparatie — carrosserie & lak | MoTai",
+        "description": "Slijpmiddelen voor autoreparatie: schuren van carrosserie, autolak en primer met MoTai PSA- en klittenbandschijven.",
+        "keywords": "slijpmiddelen voor automotive, schuren van carrosserie, schuren van autolak, schuren van primer"
+      },
+      "stainless-steel": {
+        "title": "Slijpmiddelen voor afwerking & polijsten van roestvrij staal | MoTai",
+        "description": "Slijpmiddelen voor roestvrij staal: polijsten van metaal, oppervlakslijpen en afwerken met MoTai-lamellenschijven en -banden.",
+        "keywords": "afwerking van roestvrij staal, polijsten van metaal, oppervlakslijpen, slijpmiddel voor roestvrij staal"
+      },
+      "shipbuilding": {
+        "title": "Slijpmiddelen voor scheepsbouw — staalplaten & roestverwijdering | MoTai",
+        "description": "Zware slijpmiddelen voor scheepsbouw: slijpen van staalplaten, roestverwijdering en industriële oppervlakvoorbereiding met MoTai-banden en -lamellenschijven.",
+        "keywords": "slijpmiddelen voor scheepsbouw, slijpen van staalplaten, roestverwijdering, zwaar slijpen"
+      },
+      "surface-preparation": {
+        "title": "Industriële slijpmiddelen voor oppervlakvoorbereiding & slijpen | MoTai",
+        "description": "Industriële slijpmiddeloplossingen voor oppervlakvoorbereiding, oppervlakafwerking en zwaar slijpen met MoTai-banden, -schijven en -lamellenschijven.",
+        "keywords": "oppervlakvoorbereiding, oppervlakafwerking, industrieel slijpen, slijpmiddeloplossingen"
+      }
+    },
+    "blog": {
+      "title": "Aankoopgidsen voor slijpmiddelen & korrelnormen | MoTai-kennis",
+      "description": "Praktische bronnen voor kopers van slijpmiddelen: keuze van schijfdrager, checklists voor bandvragen, korrelvolgordes, stofafzuiging en korrelnormen (FEPA/ANSI).",
+      "keywords": "aankoopgids slijpmiddelen, korrelkeuze, begrippenlijst slijpmiddelen, korrelnormen FEPA ANSI"
+    },
+    "contact": {
+      "title": "Contact met MoTai — leverancier van slijpmiddelen in China",
+      "description": "Bereik de leverancier van slijpmiddelen MoTai in Xianning, Hubei: telefoon, e-mail en WhatsApp voor groothandels- en OEM-vragen, plus fabrieksbezoeken.",
+      "keywords": "contact leverancier van slijpmiddelen, groothandelsvraag slijpmiddelen, producent van slijpmiddelen China"
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "description": "Hoe MoTai Abrasives vraaggegevens gebruikt: verzameling, doel, opslag, uw keuzes en omgang met cookies.",
+      "keywords": "privacybeleid, MoTai"
+    },
+    "terms": {
+      "title": "Gebruiksvoorwaarden — MoTai Abrasives",
+      "description": "Voorwaarden voor deze B2B-site voor slijpmiddelen: afhandeling van vragen, offerteprijzen, intellectueel eigendom en toepasselijk recht.",
+      "keywords": [
+        "gebruiksvoorwaarden",
+        "MoTai",
+        "B2B-leverancier van slijpmiddelen"
+      ]
+    },
+    "shipping": {
+      "title": "Verzendings- & retourbeleid — orders voor slijpmiddelen | MoTai",
+      "description": "Verzendings- en retourbeleid van MoTai voor slijpmiddelen: productievoortijd, exportverpakking, Incoterms, douanedocumenten, verzending, en wanneer goederen op maat kunnen worden geretourneerd of gecrediteerd.",
+      "keywords": "verzendingsbeleid slijpmiddelen, retourbeleid slijpmiddelen, groothandelslevering slijpmiddelen, Incoterms slijpmiddelen, exportverpakking, verzendingsvoorwaarden"
+    },
+    "quote": {
+      "title": "Vraag een groothandelsofferte voor slijpmiddelen aan | MoTai",
+      "description": "Bereid uw groothandels- of OEM-vraag voor slijpmiddelen voor: bedrijfsgegevens plus product, afmeting, korrel, hoeveelheid en bestemming. Bulkpartijen slijpmiddelen direct uit de fabriek geoffreerd.",
+      "keywords": "groothandelsofferte slijpmiddelen, bulkpartijen slijpmiddelen, OEM-vraag slijpmiddelen, groothandel in slijpmiddelen"
+    },
+    "clients": {
+      "title": "Exporteur van slijpmiddelen — wereldwijde levering uit Hubei, China | MoTai",
+      "description": "MoTai exporteert schuurbanden, schuurschijven en lamellenschijven naar zeven bestemmingsregio's: Europa, de Amerika's, het Midden-Oosten, Afrika, Oceanië en Azië.",
+      "keywords": "exporteur van slijpmiddelen, export van slijpmiddelen, wereldwijde levering van slijpmiddelen, industriële leverancier van slijpmiddelen"
+    },
+    "glossary": {
+      "title": "Begrippenlijst slijpmiddelen — korrel, drager, schijftermen",
+      "description": "24 slijpmiddeltermen gedefinieerd: FEPA-korrel, dragers, klittenband, PSA, open maas, ontbramen en meer.",
+      "keywords": "begrippenlijst slijpmiddelen, korrelnormen, slijpmiddeltermen"
+    },
+    "product": {
+      "title": "MoTai {name} — slijpmiddelen voor groothandel & OEM",
+      "description": "MoTai {name} ({material}, {category}): {desc} Afmetingen: {sizes}. Korrels: {grits}. Groothandel en OEM-levering direct uit de fabriek.",
+      "keywords": "{name}, producent van {category}, {material} slijpmiddel, slijpmiddelen groothandel, OEM slijpmiddelen"
+    },
+    "model": {
+      "title": "{model} schuurband — MoTai",
+      "description": "Referentietype schuurband {model} uit het MoTai-assortiment — breedte, lengte, korrel en drager worden met de offerte vastgelegd. Groothandel en OEM-levering.",
+      "keywords": "{model} schuurband, referentietype schuurband, schuurbanden groothandel"
+    },
+    "disc": {
+      "title": "MoTai {title} — groothandel & OEM",
+      "description": "MoTai-schijfvariant {title}: korrelomvang, diameter en bevestiging worden met de offerte vastgelegd. Groothandel en OEM direct uit de fabriek.",
+      "keywords": "schuurschijf, klittenbands schuurschijf, PSA-schuurschijf, maasschuurschijf, schuurschijven groothandel"
+    },
+    "flap": {
+      "title": "MoTai {name} — producent van lamellenschijven",
+      "description": "MoTai {name}: een slijplamellenschijf met {backing} drager voor het slijpen, egaliseren en afwerken van metaal. Groothandel en OEM-levering.",
+      "keywords": "lamellenschijf, lamellenschijf met {backing} drager, zirconialamellenschijf, producent van lamellenschijven, lamellenschijven groothandel"
+    },
+    "colt": {
+      "belts": {
+        "title": "Producent & groothandelsleverancier van schuurbanden | MoTai",
+        "description": "Brede en industriële schuurbanden 533×75 tot 2200×1330 mm, korrels 40–800, in aluminiumoxide, zirconia en siliciumcarbide — met referentietypes GXK-51, XZ-330, GPC71 en meer. Groothandel en OEM direct uit de fabriek.",
+        "keywords": "schuurbanden, schuurbanden voor schuurwerk, industriële schuurbanden, brede schuurbanden, brede schuurbanden voor schuurwerk, schuurbanden voor hout, schuurbanden voor metaal, schuurbanden in aluminiumoxide, schuurbanden in zirconia, schuurbanden in siliciumcarbide, producent van schuurbanden, leverancier van schuurbanden, schuurbanden groothandel, GXK-51 schuurband, XZ-330 schuurband, GPC71 schuurband, Y399 schuurband, Y999 schuurband, schuurband 533x75, schuurband 610x100, schuurband 1520x630, schuurband 2200x1330"
+      },
+      "discs": {
+        "title": "Producent van schuurschijven — PSA, klittenband & maas | MoTai",
+        "description": "Klittenband-, PSA-, maas- en gatloze schuurschijven van 3 tot 6 inch, korrels 60–5000, voor carrosserie, hout en metaalafwerking. Groothandel en OEM direct uit de fabriek.",
+        "keywords": "schuurschijven, schuurschijven voor schuurwerk, klittenband schuurschijven, PSA-schuurschijven, maasschuurschijven, niet-geweven schuurschijven, stofvrije schuurschijven, geperforeerde schuurschijven, schuurschijven met gaten, schuurschijven 5 inch, schuurschijven 6 inch, producent van schuurschijven, schuurschijven groothandel"
+      },
+      "flap": {
+        "title": "Producent van lamellenschijven — zirconia & aluminiumoxide | MoTai",
+        "description": "MoTai-slijplamellenschijven met kunststof, stalen en glasvezeldrager, in zirconia en aluminiumoxide, voor het slijpen, ontbramen en afwerken van metaal. Groothandel en OEM-levering.",
+        "keywords": "lamellenschijven, slijplamellenschijven, zirconialamellenschijven, aluminiumoxide lamellenschijven, lamellenschijven met glasvezeldrager, lamellenschijven met kunststofdrager, lamellenschijven met stalendrager, lamellenschijven 100 mm, lamellenschijven 115 mm, lamellenschijven 125 mm, lamellenschijven 150 mm, lamellenschijven 180 mm, producent van lamellenschijven, leverancier van lamellenschijven, lamellenschijven groothandel"
+      },
+      "all": {
+        "title": "Slijpmiddelen groothandel — banden, schijven & lamellenschijven | MoTai",
+        "description": "Het volledige MoTai-assortiment slijpmiddelen: industriële schuurbanden, schuurschijven en lamellenschijven voor distributeurs, importeurs, groothandels en OEM-merken. Groothandel direct uit de fabriek, maatwerk en export uit Hubei, China.",
+        "keywords": "slijpmiddelen, slijpmiddelen groothandel, industriële slijpmiddelen, gecoatreerde slijpmiddelen, groothandel in slijpmiddelen, fabriek voor slijpmiddelen, exporteur van slijpmiddelen, leverancier van slijpmiddelen China, OEM-producent van slijpmiddelen, private-label slijpmiddelen, slijpmiddelen op maat, bulkpartijen slijpmiddelen, fabriek voor slijpmiddelen, slijpgereedschap, slijpmaterialen, producten voor schuurwerk, producten voor oppervlakafwerking, schuurpapier, schuurpapierbladen, rond schuurpapier, schuurpapier groothandel, schuursteenschijf, klittenband-schuursteenschijf, schuursteenschijf 5 inch, schuursteenschijf 6 inch, niet-geweven lamellenschijf, schuurdoek, industriële rolborstel"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Snel contact",
+    "whatsapp": "WhatsApp",
+    "quote": "Vraag een offerte aan"
+  }
+}

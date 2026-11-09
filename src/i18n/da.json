@@ -224,7 +224,16 @@
     "ctaTitle": "Foretrækker du at tale det igennem?",
     "ctaSub": "Leder du efter en pålidelig leverandør af slibemidler?",
     "cta1": "Bestil et engros-tilbud",
-    "cta2": "Kontakt via WhatsApp"
+    "cta2": "Kontakt via WhatsApp",
+    "galleryTitle": "Hvor din ordre fremstilles",
+    "galleryIntro": "Den samme værksted håndterer skæring, prøvekontrol og emballering for hver bekræftede ordre.",
+    "gallery1Title": "Produktionsværksted",
+    "gallery1Text": "Det dækkede arbejdsområde, hvor slibebånd og slibeskiver konverteres, kontrolleres og pakkes.",
+    "gallery2Title": "Fabrik og indlastningsbås",
+    "gallery2Text": "Kasserne paletteres og indlastes på stedet, før de afsendes til din destinationsregion.",
+    "gallery3Title": "Færdiggods",
+    "gallery3Text": "Bånd og skiver emballeres i henhold til den bekræftede specifikation — kornstørrelse, mål og pakkeliste.",
+    "galleryNote": "Billederne leveres af fabrikken til generel orientering; de er ikke orderspecifikke. Produktvideoer vises her, når optagelserne er publiceret."
   },
   "oem": {
     "h1": "Dit navn på kassen",

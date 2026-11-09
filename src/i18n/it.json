@@ -224,7 +224,16 @@
     "ctaTitle": "Preferisci parlarne?",
     "ctaSub": "Cerchi un fornitore di abrasivi affidabile?",
     "cta1": "Richiedi un preventivo all'ingrosso",
-    "cta2": "Contattaci su WhatsApp"
+    "cta2": "Contattaci su WhatsApp",
+    "galleryTitle": "Dove viene realizzato il suo ordine",
+    "galleryIntro": "Lo stesso laboratorio gestisce taglio, controllo campioni e imballaggio di ogni ordine confermato.",
+    "gallery1Title": "Laboratorio di produzione",
+    "gallery1Text": "Area di lavoro coperta dove nastri e dischi abrasivi vengono convertiti, controllati e imballati.",
+    "gallery2Title": "Impianto e area di carico",
+    "gallery2Text": "I cartoni sono palettizzati e caricati in sede prima della spedizione verso la sua regione di destinazione.",
+    "gallery3Title": "Magazzino finito",
+    "gallery3Text": "Nastri e dischi vengono scartati secondo la specifica confermata: grana, formato e lista di imballaggio.",
+    "galleryNote": "Le fotografie sono fornite dalla fabbrica come orientamento generale; non sono immagini di ordini specifici. I video dei prodotti compariranno qui una volta pubblicati."
   },
   "oem": {
     "h1": "Il tuo marchio sulla scatola",

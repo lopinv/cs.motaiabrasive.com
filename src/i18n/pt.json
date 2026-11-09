@@ -224,7 +224,16 @@
     "ctaTitle": "Prefere conversar?",
     "ctaSub": "À procura de um fornecedor de abrasivos fiável?",
     "cta1": "Pedir orçamento de grosso",
-    "cta2": "Contacte via WhatsApp"
+    "cta2": "Contacte via WhatsApp",
+    "galleryTitle": "Onde seu pedido é feito",
+    "galleryIntro": "A mesma oficina cuida do corte, das amostras e da embalagem de cada pedido confirmado.",
+    "gallery1Title": "Oficina de produção",
+    "gallery1Text": "Área de trabalho coberta onde as fitas e discos abrasivos são convertidos, verificados e embalados.",
+    "gallery2Title": "Fábrica e área de carga",
+    "gallery2Text": "As caixas são paletizadas e carregadas no local antes do despacho para sua região de destino.",
+    "gallery3Title": "Estoque pronto",
+    "gallery3Text": "Fitas e discos são embalados segundo a especificação confirmada — grão, tamanho e lista de embalagem.",
+    "galleryNote": "As fotografias são fornecidas pela fábrica como orientação geral; não são imagens de pedidos específicos. Os vídeos do produto aparecerão aqui quando o material for publicado."
   },
   "oem": {
     "h1": "A sua marca na caixa",

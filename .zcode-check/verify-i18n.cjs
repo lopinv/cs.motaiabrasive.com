@@ -40,7 +40,7 @@ const enTok = {}
 
 const nonAscii = (s) => /[^ -~]/.test(s)
 // Codes expected to contain diacritics in their own locale text.
-const DIACRITIC_REQUIRED = new Set(['de', 'fr', 'it', 'es', 'pt', 'ru', 'pl', 'cs', 'sk', 'sv', 'da', 'no', 'tr'])
+const DIACRITIC_REQUIRED = new Set(['de', 'fr', 'it', 'es', 'pt', 'ru', 'pl', 'cs', 'sk', 'sv', 'da', 'no', 'tr', 'lt', 'lv', 'et', 'sl', 'hr', 'ca', 'ro', 'hu', 'bg', 'sr', 'uk', 'el', 'bn'])
 
 let failures = 0
 const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort()

@@ -224,7 +224,16 @@
     "ctaTitle": "Wolą Państwo omówić szczegóły?",
     "ctaSub": "Szukają Państwo niezawodnego dostawcy materiałów ściernych?",
     "cta1": "Poproście o wycenę hurtową",
-    "cta2": "Kontakt przez WhatsApp"
+    "cta2": "Kontakt przez WhatsApp",
+    "galleryTitle": "Tam, gdzie powstaje Twoje zamówienie",
+    "galleryIntro": "Ta sama hala zajmuje się cięciem, kontrolą próbek i pakowaniem każdego potwierdzonego zamówienia.",
+    "gallery1Title": "Hala produkcyjna",
+    "gallery1Text": "Zakryte miejsce pracy, w którym taśmy i tarcze ścierne są przetwarzane, kontrolowane i pakowane.",
+    "gallery2Title": "Hala i rampa załadunkowa",
+    "gallery2Text": "Kartony są paletyzowane i ładowane na miejscu przed wysyłką do Twojego regionu docelowego.",
+    "gallery3Title": "Gotowy magazyn",
+    "gallery3Text": "Taśmy i tarcze pakowane są zgodnie z potwierdzoną specyfikacją — granulacja, rozmiar i lista pakowania.",
+    "galleryNote": "Zdjęcia dostarcza fabryka do ogólnego zorientowania; nie są one zdjęciami konkretnego zamówienia. Filmy z produktami pojawią się tutaj po ich publikacji."
   },
   "oem": {
     "h1": "Wasza marka na opakowaniu",

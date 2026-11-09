@@ -224,7 +224,16 @@
     "ctaTitle": "Haluatteko käydä keskustelua?",
     "ctaSub": "Etsittekö luotettavaa hiomamateriaalin toimittajaa?",
     "cta1": "Pyydät tukkutarjousta",
-    "cta2": "Ottakaa yhteyttä WhatsAppilla"
+    "cta2": "Ottakaa yhteyttä WhatsAppilla",
+    "galleryTitle": "Siellä tilauksenne valmistetaan",
+    "galleryIntro": "Sama työpaja hoitaa leikkauksen, näytekontrollin ja pakkaamisen jokaiselle vahvistetulle tilaukselle.",
+    "gallery1Title": "Tuotantotyöpaja",
+    "gallery1Text": "Katettu työalue, jossa hiekkarullan ja hiekkalevyn muunnos, tarkistus ja pakkaus tapahtuvat.",
+    "gallery2Title": "Konepaja ja lastaustila",
+    "gallery2Text": "Laatikot paalldataan ja lastataan paikalle ennen lähetystä kohteesi alueille.",
+    "gallery3Title": "Valmiin tavan varasto",
+    "gallery3Text": "Rullat ja levyt pakkataan vahvistetun eritelmän mukaisesti — karkeus, koko ja pakkaukselista.",
+    "galleryNote": "Kuvat tehdas toimittaa yleisorientaatioksi; ne eivät ole tilauskohtaisia. Tuoteto videot näkyvät täällä, kun materiaali julkaistaan."
   },
   "oem": {
     "h1": "Nimenne pakkauksessa",

@@ -224,7 +224,16 @@
     "ctaTitle": "Vous préférez en discuter ?",
     "ctaSub": "À la recherche d'un fournisseur d'abrasifs fiable ?",
     "cta1": "Demander un devis de gros",
-    "cta2": "Contact via WhatsApp"
+    "cta2": "Contact via WhatsApp",
+    "galleryTitle": "Là où votre commande est réalisée",
+    "galleryIntro": "Le même atelier traite la découpe, les contrôles d’échantillons et l’emballage de chaque commande confirmée.",
+    "gallery1Title": "Atelier de production",
+    "gallery1Text": "Zone de travail couverte où les abrasifs rubans et disques sont convertis, contrôlés et emballés.",
+    "gallery2Title": "Usine et aire de chargement",
+    "gallery2Text": "Les cartons sont palettisés et chargés sur place avant expédition vers votre région de destination.",
+    "gallery3Title": "Stock fini",
+    "gallery3Text": "Rubans et disques sont mis en boîte selon la spécification confirmée — grain, taille et liste de colisage.",
+    "galleryNote": "Les photographies sont fournies par l’usine à titre d’orientation générale ; elles ne sont pas des images spécifiques à une commande. Les vidéos de produits apparaîtront ici dès leur publication."
   },
   "oem": {
     "h1": "Votre marque sur le carton",

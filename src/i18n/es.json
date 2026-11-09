@@ -224,7 +224,16 @@
     "ctaTitle": "¿Prefiere comentarlo?",
     "ctaSub": "¿Busca un proveedor confiable de abrasivos?",
     "cta1": "Solicitar cotización mayorista",
-    "cta2": "Contacto por WhatsApp"
+    "cta2": "Contacto por WhatsApp",
+    "galleryTitle": "Donde se fabrica su pedido",
+    "galleryIntro": "El mismo taller realiza el corte, las muestras y el embalaje de cada pedido confirmado.",
+    "gallery1Title": "Taller de producción",
+    "gallery1Text": "Zona de trabajo cubierta donde las correas y discos abrasivos se convierten, revisan y embalan.",
+    "gallery2Title": "Planta y área de carga",
+    "gallery2Text": "Las cajas se paletizan y se cargan en sitio antes del despacho a su región de destino.",
+    "gallery3Title": "Stock terminado",
+    "gallery3Text": "Correas y discos se embalan según la especificación confirmada: grano, tamaño y lista de embalaje.",
+    "galleryNote": "Las fotografías las provee la fábrica como referencia general; no son imágenes de un pedido específico. Los videos de producto aparecerán aquí al publicarse."
   },
   "oem": {
     "h1": "Su marca en la caja",

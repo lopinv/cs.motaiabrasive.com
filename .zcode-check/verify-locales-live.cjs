@@ -1,14 +1,14 @@
 /**
  * Live verification of all locale sub-sites: every locale must serve a page
- * with a localized <title> and the full alternate-link set (27 locales + the
- * two regional variants es-MX/pt-BR + x-default = 30).
+ * with a localized <title> and the full alternate-link set (42 locales + the
+ * two regional variants es-MX/pt-BR + x-default = 45).
  *
  * Usage: node .zcode-check/verify-locales-live.cjs [baseUrl]
  */
 const https = require('https')
 
 const BASE = process.argv[2] || 'https://cs.motaiabrasive.com'
-const LANGS = ['en', 'zh', 'de', 'es', 'fr', 'it', 'pt', 'ru', 'ja', 'ko', 'ar', 'hi', 'zh-Hant', 'sv', 'da', 'no', 'fi', 'th', 'vi', 'id', 'ms', 'pl', 'cs', 'sk', 'he', 'tr', 'fa']
+const LANGS = ['en', 'zh', 'de', 'es', 'fr', 'it', 'pt', 'ru', 'ja', 'ko', 'ar', 'hi', 'zh-Hant', 'sv', 'da', 'no', 'fi', 'th', 'vi', 'id', 'ms', 'pl', 'cs', 'sk', 'he', 'tr', 'fa', 'lt', 'lv', 'et', 'sl', 'hr', 'sr', 'ca', 'nl', 'uk', 'el', 'hu', 'ro', 'bg', 'tl', 'bn']
 
 function get(url) {
   return new Promise((resolve) => {
@@ -31,10 +31,10 @@ function get(url) {
     const dir = (h.match(/dir="(rtl|ltr)"/) || [])[1] || '?'
     // the English title must NOT appear in a non-English locale
     const isEnglish = title === 'Abrasive Manufacturer & Industrial Abrasive Supplier | MoTai'
-    if (alt === 30 && !isEnglish) ok++
+    if (alt === 45 && !isEnglish) ok++
     else problems.push(`${L}: alt=${alt} dir=${dir} englishTitle=${isEnglish} title=${title.slice(0, 40)}`)
   }
-  console.log(`locales OK (30 alternate links + localized title): ${ok}/${LANGS.length}`)
+  console.log(`locales OK (45 alternate links + localized title): ${ok}/${LANGS.length}`)
   if (problems.length) console.log('PROBLEMS:\n' + problems.join('\n'))
   const sm = await get(`${BASE}/sitemap.xml`)
   console.log('sitemap urls:', (sm.match(/<loc>/g) || []).length)

@@ -1,0 +1,1001 @@
+{
+  "code": "hr",
+  "name": "Hrvatski",
+  "codeLabel": "HR",
+  "htmlLang": "hr",
+  "ogLocale": "hr_HR",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Hurtoviti upiti",
+    "oemNote": "Upiti za OEM pakiranje",
+    "size": "Veličina",
+    "grit": "Zrnovitost",
+    "quantity": "Tražena količina",
+    "requirements": "Specifikacijske i pakirne zahtjevi",
+    "requirementsPh": "Opišite svoju primjenu, specifikacije i zahtjeve za isporuku.",
+    "material": "Abrzivni materijal",
+    "backing": "Osnova / montaža",
+    "availability": "Dostupnost, minimalna količina narudžbe i poslovni uvjeti potvrđuju se u ponudi.",
+    "sampleNote": "Recite nam koje proizvode i zrnatosti želite ocijeniti. Naš prodajni tim potvrdit će dostupnost uzoraka, naknade za uzorke i uvjete slanja.",
+    "gritsRange": "Raspon zrnitosti",
+    "holes": "Otvori",
+    "diameter": "Prečnik / nominalna veličina",
+    "titleSuffix": "MoTai Abrasivi"
+  },
+  "nav": {
+    "language": "Jezik",
+    "home": "Početna",
+    "about": "O nama",
+    "manufacturing": "Proizvodnja",
+    "oem": "OEM usluge",
+    "news": "Vijesti",
+    "knowledge": "Znanje",
+    "contact": "Kontaktirajte nas",
+    "products": "Proizvodi"
+  },
+  "colt": {
+    "belts": {
+      "title": "Tijelne trake — veleprodaja i OEM",
+      "desc": "Crvene tijelne trake u dokumentiranim veličinama od 533 × 75 mm do 2200 × 1330 mm. Zrnatosti 40–800. Dostupni referentni modeli. Dobrodošli upiti za veleprodaju i OEM.",
+      "label": "Tijelne trake"
+    },
+    "discs": {
+      "title": "Brijaći diskovi — veleprodaja i OEM",
+      "desc": "PSA, hook & loop, mrežati i bešupni brijaći diskovi od 3 do 6 inča. Zrnatosti 60–5000. Dobrodošli upiti za veleprodaju i OEM.",
+      "label": "Brijaći diskovi"
+    },
+    "flap": {
+      "title": "MOTAI Flap diskovi",
+      "desc": "Flap diskovi s plastikom, čeličnom i stakloplastičnom osnovom za brušenje, spajanje i završnu obradu metala. Specifikacije, velike isporuke i OEM pakiranje potvrđuju se u ponudi.",
+      "label": "Flap diskovi"
+    },
+    "all": {
+      "title": "Svi proizvodi",
+      "desc": "Kompletan katalog abraziva MoTai: tijelne trake, brijaći diskovi i flap diskovi za industrijske kupce, distributere i vlastite brendove.",
+      "label": "Svi proizvodi"
+    }
+  },
+  "cta": {
+    "quote": "Zatražite ponudu za veleprodaju",
+    "quoteArrow": "↗",
+    "sample": "Zatražite uzorak",
+    "whatsapp": "Upit putem WhatsAppa",
+    "waChat": "Kontaktirajte putem WhatsAppa",
+    "explore": "Pogledajte asortiman flap diskova",
+    "viewAll": "Pregledajte sve proizvode",
+    "discuss": "Raspravite o svojoj specifikaciji",
+    "oemQuote": "Zatražite OEM ponudu"
+  },
+  "home": {
+    "eyebrow": "Abrazivi iz tvornice MoTai u Hubeiju",
+    "heroTitle": "Stručni proizvođač i dobavljač abraziva",
+    "heroSub": "Tijelne trake, brijaći diskovi i flap diskovi izravno iz tvornice za industrijske kupce, distributere i vlastite brendove — iz Hubeija, Kina, do vašeg tržišta.",
+    "cta1": "Zatražite ponudu za veleprodaju",
+    "cta2": "Razgovarajte s našim timom putem WhatsAppa",
+    "builtTitle": "Odaberite primjenu. Odaberite abraziv.",
+    "builtSub": "Odaberite primjenu, a zatim odgovarajući abraziv: trake, diskovi ili flap diskovi.",
+    "featuredTitle": "U katalogu",
+    "featuredSub": "Veličine i zrnatosti dokumentirane su u katalogu; MOQ i dostupnost prate ponudu.",
+    "partnerTitle": "Dobavljačka strana vaše narudžbe abraziva",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. opskrbljuje abrazivne potrošne materijale za stolariju, metalopred्रादन i automobilske primjene — uz OEM i vlastite brendove za distributere i industrijske kupce diljem svijeta.",
+    "partnerCta": "Saznajte više o MoTai",
+    "valuesTitle": "Šest načina na koje s nama surađuju B2B kupci",
+    "valuesSub": "Šest razloga zašto uvoznici i OEM brendovi surađuju s nama.",
+    "v1t": "Izravno iz tvornice",
+    "v1b": "Cijene i rokovi isporuke s dobavljačke strane, bez posrednika.",
+    "v2t": "OEM i vlastiti brend",
+    "v2b": "Vaš logotip, naljepnice i pakiranje uz potvrđene specifikacije.",
+    "v3t": "Veličine i zrnatosti po mjeri",
+    "v3b": "Dokumentirane veličine i zrnatosti 40–800 za trake, 60–5000 za diskove.",
+    "v4t": "Provjera uzoraka i QC",
+    "v4b": "Uzorak prije narudžbe: površina, podloga i prijanjanje.",
+    "v5t": "Velike isporuke",
+    "v5b": "Konzistentne količine u kartonima i detaljan pakirni popis.",
+    "v6t": "Izvozni program",
+    "v6b": "Kartonske oznake, naljepnice i dokumentacija za odredište.",
+    "processTitle": "Koraci između vaše specifikacije i narudžbe",
+    "processSub": "Četiri faze od vašeg zahtjeva do potvrđene narudžbe.",
+    "p1t": "Rez i prerada",
+    "p1b": "Potvrdite oblik, dimenzije i zrnatost prije organizacije prerade.",
+    "p2t": "Provjera uzoraka",
+    "p2b": "Provjerite abrazivnu površinu, podlogu i prijanjanje uzorka prije dogovora o specifikaciji narudžbe.",
+    "p3t": "OEM i pakiranje",
+    "p3b": "Potvrdite pakirne količine, naljepnice, kartonske oznake i grafike vlastitog brenda uz ponudu.",
+    "p4t": "Priprema isporuke",
+    "p4b": "Dogovorite pakirni popis, zahtjeve za palete i podatke o odredištu prije slanja.",
+    "oemTitle": "Vaše ime na kartonu",
+    "oemSub": "Podijelite zahtjeve za proizvod, pakiranje i brend za svoju sljedeću seriju abraziva.",
+    "oemCta": "Pregledajte OEM usluge",
+    "faqTitle": "Prije početka",
+    "faqSub": "Odgovori na najčešća pitanja kupaca.",
+    "regionsTitle": "Iz Hubeija do vašeg tržišta",
+    "regionsSub": "Globalna opskrba organizirana po regijama odredišta.",
+    "regionsNote": "MOQ i rok isporuke potvrđuju se u ponudi. Putovne linije su orijentacijske; dostupnost i uvjeti potvrđuju se ponudom.",
+    "factoryTitle": "Nađite nas u Hubeiju",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kina. Organizirajte obilazak tvornice i dogovorite mjesto sastanka s našim timom.",
+    "finalTitle": "Tražite pouzdanog dobavljača abraziva?",
+    "finalBody": "Podijelite proizvod, količinu i primjenu — procijenit ćemo vaše zahtjeve i pripremiti odgovarajuću ponudu.",
+    "finalCta1": "Zatražite ponudu za veleprodaju",
+    "finalCta2": "Kontaktirajte putem WhatsAppa",
+    "beltsShowTitle": "Tijelne trake, po modelima",
+    "beltsShowSub": "Referentni modeli za raspravu s našim timom.",
+    "articlesEyebrow": "Resursi za kupce",
+    "articlesTitle": "Priručnici našeg tehničkog tima",
+    "articlesSub": "Kako kupci odaberu zrnatost, podlogu i pakiranje prije narudžbe.",
+    "articlesCta": "Pregledajte sve priručnike",
+    "prepTitle": "Pripremite svoj veleprodajni upit",
+    "prepSub": "Dimenzije, zrnatost i količina obavlja ostatak posla.",
+    "prepDim": "Dimenzije",
+    "prepDimText": "Veličina ili referentni model u milimetrima.",
+    "prepGrit": "Zrnatost",
+    "prepGritText": "Traženi razred ili završna obrada.",
+    "prepQty": "Količina",
+    "prepQtyText": "Očekivani volumen i pakiranje."
+  },
+  "purchasing": {
+    "eyebrow1": "Smjernice za nabavu",
+    "title1": "Pripremite svoj veleprodajni upit",
+    "body1": "Podijelite potrebne dimenzije, zrnatost, predmet obrade, stroj i traženi završni sloj. Tamo gdje postoje, koristite dokumentirane opcije iznad; ostale zahtjeve procijenit ćemo s našim timom.",
+    "dl1t": "Količina i odredište",
+    "dl1b": "Recite nam količinu, pakirne zahtjeve i mjesto isporuke.",
+    "dl2t": "Opskrba i uvjeti",
+    "dl2b": "Dostupnost, minimalna količina narudžbe i poslovni uvjeti potvrđuju se u ponudi.",
+    "dl3t": "Upiti za OEM pakiranje",
+    "dl3b": "Brendiranje, naljepnice, veličina ili pakiranje po mjeri.",
+    "eyebrow2": "Kako upitati",
+    "title2": "Od odabira proizvoda do ponude",
+    "s1t": "Odaberite proizvod",
+    "s1b": "Odaberite proizvod ili model i potrebnu specifikaciju.",
+    "s2t": "Podijelite zahtjeve",
+    "s2b": "Podijelite količinu, primjenu i pakirne zahtjeve.",
+    "s3t": "Pregled ponude",
+    "s3b": "Potvrdite konačnu specifikaciju i poslovne uvjete s našim timom."
+  },
+  "modelPage": {
+    "eyebrow": "Tijelne trake · Referentni model",
+    "refLabel": "Referentni model",
+    "familyLabel": "Kategorija",
+    "dimsLabel": "Dimenzije gotove trake — navedite širinu × duljinu u mm",
+    "dimsPlaceholder": "npr. 533 × 75 mm",
+    "gritLabel": "Tražena zrnatost — navedite razred ili završnu obradu",
+    "gritPlaceholder": "npr. P60",
+    "qtyLabel": "Tražena količina",
+    "specLabel": "Specifikacijski i pakirni zahtjevi",
+    "discussion": "Raspravite se s našim timom o ovom modelu pomoću predmeta obrade, stroja i tražene završne obrade.",
+    "grainBacking": "Zrno i podloga — potvrdite proizvođača sirove materije i točan razred.",
+    "disclaimer": "Podaci o obitelji modela služe kao orijentacija pri odabiru; MoTai specifikacije, dostupnost i kompatibilnost dogovaraju se u ponudi."
+  },
+  "discPage": {
+    "eyebrow": "Brijaći diskovi · Dokumentirana varijanta",
+    "gritsNote": "Opcije zrnitosti za ovu varijantu"
+  },
+  "flapPage": {
+    "eyebrow": "Flap diskovi · Varijanta po podlozi",
+    "color": "Boja",
+    "gritNote": "P40–P60 i P80–P120 primjeri su općeg odabira, a ne potvrđen raspon opskrbe MoTai."
+  },
+  "productPage": {
+    "specTitle": "Specifikacije",
+    "howTitle": "Kako specifikirati narudžbu",
+    "howBody": "Uključite veličinu trake ili diska, popis zrnatosti, model stroja, materijal predmeta obrade i količinu. Jasna specifikacija pomaže nam da provjerimo kompatibilnost i pripremimo korisnu ponudu — izbjegavajte odabir proizvoda samo po boji.",
+    "faqTitle": "Pitanja kupaca"
+  },
+  "about": {
+    "h1": "Tvrtka iza opsega abraziva",
+    "sub": "Promišljen pristup opskrbi abrazivima.",
+    "bizTitle": "Naš poslovanje",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. opskrbljuje abrazivne potrošne materijale za stolariju, metalopradu i automobilske primjene. Dokumentirani opsezi uključuju bešupne brijaće diskove, mrežate brijaće diskove i crvene tijelne trake. Primamo upite uvoznika, distributera, veleprodaja i industrijskih kupaca — proizvodi, podloge, veličine, razredi, količine i zahtjevi za isporuku.",
+    "matTitle": "Tvrtkini materijali",
+    "matBody": "Pogledajte podrijetlo tvrtke i kontaktne podatke u našoj brošuri.",
+    "globalTitle": "Iz Hubeija do vašeg tržišta",
+    "globalSub": "Globalna opskrba organizirana po regijama odredišta.",
+    "facTitle": "Nađite nas u Hubeiju",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kina. Organizirajte obilazak tvornice s našim timom i potvrdite mjesto sastanka prije putovanja.",
+    "profileName": "Ukratko",
+    "profileBody": "Proizvođač obloženih abraziva u Xianningu, Hubei: tri proizvodne linije za sedam regija odredišta, s pokrivenošću zrnitosti od 40 do 5000.",
+    "ctaTitle": "Tražite pouzdanog dobavljača abraziva?",
+    "cta1": "Zatražite ponudu za veleprodaju",
+    "cta2": "Kontaktirajte putem WhatsAppa"
+  },
+  "factory": {
+    "h1": "Unutar radionice MoTai",
+    "sub": "Detalji su bitni. Na svakoj fazi.",
+    "intro": "Pregledajte rezanje, provjeru uzoraka i pakirne detalje za svoju narudžbu. Video snimke proizvoda prikazane su uz ilustacije procesa.",
+    "videoLabel": "Pogledajte video snimke proizvoda",
+    "stepsTitle": "Proizvodnja i priprema narudžbe",
+    "stepsIntro": "Od vašeg zahtjeva do potvrđene narudžbe.",
+    "st1t": "Rez i prerada",
+    "st1b": "Potvrdite oblik, dimenzije i zrnatost prije organizacije prerade.",
+    "st2t": "Provjera uzoraka",
+    "st2b": "Provjerite abrazivnu površinu, podlogu i prijanjanje uzorka prije dogovora o specifikaciji narudžbe.",
+    "st3t": "OEM i pakiranje",
+    "st3b": "Potvrdite pakirne količine, naljepnice, kartonske oznake i grafike vlastitog brenda uz ponudu.",
+    "st4t": "Priprema isporuke",
+    "st4b": "Dogovorite pakirni popis, zahtjeve za palete i podatke o odredištu prije slanja.",
+    "imgNote": "Rokovi i pakirne količine dogovaraju se u ponudi prije početka proizvodnje.",
+    "galleryTitle": "Mjesto gdje se vaša narudžba izrađuje",
+    "galleryIntro": "Ista radionica obrađuje rezanje, provjeru uzoraka i pakiranje za svaku potvrđenu narudžbu.",
+    "gallery1Title": "Proizvodna radionica",
+    "gallery1Text": "Pokriveni radni prostor gdje se tijelne trake i diskovi prerađuju, provjeravaju i pakiraju.",
+    "gallery2Title": "Postrojenje i utovarna",
+    "gallery2Text": "Kartoni se paletiziraju i utovaruju na licu mjesta prije slanja u vašu regiju odredišta.",
+    "gallery3Title": "Gotova zaliha",
+    "gallery3Text": "Trake i diskovi upakirani su prema potvrđenoj specifikaciji — zrnatost, veličina i pakirni popis.",
+    "galleryNote": "Fotografije osigurala je tvornica radi općeg oprijenjanja; nisu slika specifična za narudžbu. Video snimke proizvoda pojavit će se ovdje čim se objave.",
+    "qcTitle": "Točke kontrole kvalitete",
+    "qcIntro": "Što provjeravamo prije nego narudžba napusti tvornicu.",
+    "qc1t": "Površina i zrnatost",
+    "qc1b": "Konzistentnost abrazivne površine prema potvrđenom razredu.",
+    "qc2t": "Podloga i kompatibilnost",
+    "qc2b": "Vrsta podloge, težina i dimenzijska tolerancija gotovih traka i diskova.",
+    "qc3t": "Pakiranje i oznake",
+    "qc3b": "Pakirne količine, naljepnice, kartonske oznake i grafike vlastitog brenda usklađene s potvrđenom narudžbom.",
+    "ctaTitle": "Volite li to raspraviti uživo?",
+    "ctaSub": "Tražite pouzdanog dobavljača abraziva?",
+    "cta1": "Zatražite ponudu za veleprodaju",
+    "cta2": "Kontaktirajte putem WhatsAppa"
+  },
+  "oem": {
+    "h1": "Vaše ime na kartonu",
+    "sub": "Pošaljite nam zahtjeve za proizvod, pakiranje i brend; vratit ćemo se s provjerom izvedivosti OEM.",
+    "briefTitle": "Izgradite upit oko svog brenda",
+    "briefEyebrow": "Ponesite svoju opširnica",
+    "briefBody": "Raspravite grafike logotipa i naljepnice, format pakiranja, veličine proizvoda, razrede zrnitosti i namjenu. OEM dostupnost, minimalne količine, zahtjevi za grafike i rokovi podliježu provjeri izvedivosti i potvrđenoj ponudi.",
+    "itemsTitle": "Jasna opširnica dobiva korisnan odgovor",
+    "i1": "Proizvod i specifikacija",
+    "i2": "Veličine i mješavina zrnitosti",
+    "i3": "Grafike i naljepnice",
+    "i4": "Format pakiranja",
+    "i5": "Ciljne količine",
+    "i6": "Odredište i rokovi",
+    "itemNote": "U upit uvrstite zahtjeve i referentne datoteke.",
+    "procTitle": "Od upita do opskrbe",
+    "pr1t": "Vaš upit",
+    "pr1b": "Recite nam primjenu i zahtjeve.",
+    "pr2t": "Provjera specifikacije",
+    "pr2b": "Procjena veličina, razreda, podloge i pakiranja.",
+    "pr3t": "Ponuda",
+    "pr3b": "Potvrda poslovnih uvjeta i rasporeda.",
+    "pr4t": "Odobrenje uzorka",
+    "pr4b": "Ocijenite dogovorene uzorke prije odobrenja.",
+    "pr5t": "Proizvodnja",
+    "pr5b": "Ostvarivanje prema potvrđenoj specifikaciji.",
+    "pr6t": "Slanje",
+    "pr6b": "Usklađivanje pakiranja i odredišta.",
+    "cta1": "Zatražite ponudu za veleprodaju",
+    "cta2": "Kontaktirajte putem WhatsAppa"
+  },
+  "applications": {
+    "h1": "Abrazivi za vašu industriju",
+    "sub": "Površina određuje specifikaciju.",
+    "intro": "Šest područja primjene. Specificirajte materijal, stroj i traženu završnu obradu — odabrat ćemo odgovarajući abraziv.",
+    "ctaNote": "Neki su slike ilustracije primjena generirane umjetnom inteligencijom, a ne fotografije tvornice MoTai ili kupaca.",
+    "sampleNote": "Pri zatraživanju ponude recite nam svoju industriju, zemlju, specifikaciju proizvoda i procijenjeni volumen narudžbe.",
+    "reqTitle": "Preporučeni proizvodi",
+    "reqNote": "Orijentacijske obitelji proizvoda za ovo područje. Veličine, zrnatosti i količine potvrđuju se ponudom.",
+    "specTitle": "Savjeti za specifikaciju",
+    "faqTitle": "Česta pitanja",
+    "faqs": [
+      {
+        "q": "S kojom zrnatosti treba početi?",
+        "a": "Počnite od materijala predmeta obrade, dubine defekta i tražene završne obrade — grublji razred brže skida materijal, zatim se korak po korak prelazi na sitnije zrnatosti i na svakoj fazi provjerava se površina."
+      },
+      {
+        "q": "Mogu li u jednoj narudžbi miješati zrnatosti?",
+        "a": "Može — navedite zrnatosti i količinu po razredu; dostupnost i rok isporuke vrati se s ponudom."
+      }
+    ],
+    "ctaTitle": "Specificirate za svoje područje?",
+    "cta1": "Zatražite ponudu za veleprodaju",
+    "cta2": "Kontaktirajte putem WhatsAppa"
+  },
+  "blogIndex": {
+    "h1": "Bolja informacija. Bolji odabir.",
+    "sub": "Praktični resursi za kupce za rasprave o specifikacijama abraziva.",
+    "updatedLabel": "Ažurirano",
+    "governance": "Priručnike piše i pregledava tehnički tim tvrtke MoTai Abrasives; ponovno se pregledavaju kada se promijene specifikacije proizvoda."
+  },
+  "blogSidebar": {
+    "eyebrow": "Proizvodi",
+    "productsTitle": "Istaknuti proizvodi",
+    "productsSub": "Veličine, zrnatosti i podloge dokumentirane su po proizvodu; MOQ i dostupnost prate ponudu.",
+    "viewAll": "Svi proizvodi",
+    "servicesEyebrow": "Usluge",
+    "servicesTitle": "Od odabira do opskrbe",
+    "servicesSub": "Veleprodajna opskrba, pakiranje vlastitog brenda i provjere procesa, potvrđene u ponudi.",
+    "serviceWholesale": "Ponuda za veleprodaju",
+    "serviceOem": "OEM i vlastiti brend",
+    "serviceManufacturing": "Proizvodnja",
+    "serviceApplications": "Primjene",
+    "latestEyebrow": "Novosti",
+    "latestTitle": "Najnoviji priručnici",
+    "catDiscs": "Brijaći diskovi",
+    "catBelts": "Tijelne trake",
+    "catFlap": "Flap diskovi"
+  },
+  "blogPager": {
+    "navLabel": "Stranice bloga",
+    "prev": "Prethodna",
+    "next": "Sljedeća",
+    "pageOf": "Stranica {page} od {total}",
+    "range": "Priručnici {from}–{to} od {count}"
+  },
+  "article": {
+    "watchTitle": "Gledanje",
+    "discuss": "Raspravite o svojoj specifikaciji",
+    "catSelection": "Vodič za odabir",
+    "catBuyer": "Resursi za kupce",
+    "catNotes": "Napomene o primjenama",
+    "catOem": "OEM vodič",
+    "reviewedBy": "Pregledao tehnički tim MoTai Abrasives",
+    "lastReviewed": "Zadnje pregledano {date}",
+    "tocTitle": "Na ovoj stranici"
+  },
+  "contact": {
+    "h1": "Započnite veleprodajni razgovor",
+    "sub": "Dobijte izravne veleprodajne cijene iz tvornice za abrazive.",
+    "directTitle": "Razgovor. Bolja specifikacija.",
+    "directBody": "Podijelite proizvod, količinu i primjenu. Procijenit ćemo vaše zahtjeve i pomoći vam u sljedećem koraku.",
+    "facTitle": "Nađite nas u Hubeiju",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, Kina.",
+    "facNote": "Potvrdite točnu adresu posjeta s našim timom prije putovanja.",
+    "visit": "Organizirajte obilazak tvornice",
+    "formTitle": "Veleprodajni / OEM upit",
+    "formNote": "Ovaj obrazac zatražuje ponudu i ne pokreće narudžbu. Upiti pristižu u naš prodajni e-mail; specifikacije i poslovni uvjeti dogovaraju se uz ponudu.",
+    "btn": "Otvorite obrazac upita ↗"
+  },
+  "privacy": {
+    "h1": "Podaci iz vašeg upita",
+    "sub": "Kako ova web stranica koristi podatke koje odaberete podijeliti.",
+    "s1t": "Prikupljeni podaci",
+    "s1b": "Kontakt podaci, podaci tvrtke, zahtjevi za proizvode i privuci poslani s upitom. Hashirani identifikator veze ograničava zlostavljanja.",
+    "s2t": "Namjena i pristup",
+    "s2b": "Podaci služe za procjenu i odgovore na upite, pripremu ponuda i usklađivanje traženih poslovnih razgovora. Pristup je ograničen ovlaštenim administratorima.",
+    "s3t": "Pohrana i zadržavanje",
+    "s3b": "Zapisi čuvaju se kod našeg hosting providera. Podaci se mogu obrađivati izvan vaše zemlje. Zadržavanje slijedi poslovnih praćenja i obveza vođenja evidencija; možete zatražiti specifično zadržavanje ili brisanje.",
+    "s4t": "Vaše opcije",
+    "s4b": "Za pristup, ispravak ili brisanje kontaktirajte motai-01@motaiabrasive.com. Ne šaljite osjetljive osobne podatke ili povjerljive datoteke nespojene s upitom.",
+    "s5t": "Cookie, poveznice i analitika",
+    "s5b": "Preglednik pohranjuje podatke za upravljanje popisom upita. Ova stranica koristi Google Analytics (gtag.js) za anonimizirane statistike korištenja; Google postavlja cookie i obrađuje podatke prema svojim uvjetima obrade podataka — možete odustati ovdje: https://support.google.com/analytics/answer/3452785. Vanjske WhatsApp, mapa i društvene poveznice podliježu vlastitim pravilima privatnosti.",
+    "updated": "Zadnje ažurirano 4. studenoga 2026."
+  },
+  "terms": {
+    "h1": "Uvjeti korištenja",
+    "sub": "Uvjeti koji vrijede pri korištenju ove stranice i slanju upita tvrtki MoTai.",
+    "s1t": "Korištenje ove stranice",
+    "s1b": "Ova stranica je B2B informacijska i upitna usluga koju provodi Hubei MoTai Abrasives Materials Co., Ltd. Sadržaj — specifikacije proizvoda, priručnici, rječnik i blog — pruža se u dobroj vjeri kao opća informacija. Korištenjem stranice prihvaćate ove uvjete; ako ih ne prihvaćate, ne podnošite upit.",
+    "s2t": "Upiti nisu ponude",
+    "s2b": "Pošljivanje upitnog obrasca poziv je na pregovore, a ne obvezujuća narudžba. MoTai nije dužan odgovarati na svaki upit i ni jedna kupovina nije obavezana dok obje strane pismeno ne potvrde ponudu.",
+    "s3t": "Ponude i cijene",
+    "s3b": "Sve su cijene temeljene na ponudi. Ponude navode veličine, zrnatosti, pakiranje, trgovinske uvjete i razdoblja vrijednosti; konačni iznosi utvrđuju se uz potvrđenu specifikaciju i podliježu promjenama cijena sirovina i prijevoza.",
+    "s4t": "Intelektualna svojina",
+    "s4b": "Sadržaj stranice, opis proizvoda, grafike i brend MoTai vlasništvo su tvrtke MoTai Abrasives i smiju se reproducirati komercijalno. Reference trećih strana (npr. izvori modela) poslužuju samo za orijentaciju kupaca i ne impliciraju odobravanje.",
+    "s5t": "Odgovornost i nadležno pravo",
+    "s5b": "MoTai nije odgovoran za odluke donesene uz opću informaciju s ove stranice. Ovi uvjeti podliježu zakonima Narodne Republike Kine; sporovi rješavaju se u okviru ugovora o prodaji između strana.",
+    "updated": "Zadnje ažurirano 3. studenoga 2026."
+  },
+  "shipping": {
+    "h1": "Politika dostave i povrata",
+    "sub": "Kako narudžbe napuštaju našu tvornicu i zašto se abrazivi izrađeni po specifikaciji ne vraćaju.",
+    "shipTitle": "Politika dostave",
+    "shipSub": "Proizvodnja, pakiranje i slanje potvrđuju se uz vašu ponudu.",
+    "s1t": "Proizvodnja i rokovi",
+    "s1b": "Tijelne trake, diskovi i flap diskovi prerađuju se prema specifikaciji u narudžbi. Rok isporuke počinje danom pismenog potvrđenja ponude, a ne danom slanja upita. Standardne reference poput GXK-51, XZ-330 i GPC71 gotov su iz zalihe; veličine, zrnatosti i OEM pakiranje po mjeri izrađuju se po narudžbi.",
+    "s2t": "Pakiranje i oznake",
+    "s2b": "Roba se pakuje u izvozne kartone s dogovorenom pakiranom količinom, naljepnicama, kartonskim oznakama i — za OEM programe — vašim grafikama i barcodeom. Palletna konfiguracija potvrđuje se pakirnim popisom. Fumigacija ili ISPM 15 oznake primjenjuju se kada to zahtijeva zemlja odredišta.",
+    "s3t": "Način dostave i Incoterms",
+    "s3b": "Dostava se organizira morem (FCL ili LCL) ili zrakom, ovisno o volumenu i odredištu. Trgovinski uvjet naveden je u ponudi — najčešće se koriste EXW, FOB, CIF, CFR, DAP i DDP. Možete imenovati vlastitog forwardera; MoTai tada osim pakirnog popisa isporučuje i kartonske oznake i transportne dokumente.",
+    "s4t": "Dokumenti i carina",
+    "s4b": "Svaka se dostava dopunjuje komercijalnom fakturom, pakirnim popisom i transportnom dokumentacijom. HS kodovi i certifikati porijekla osiguravaju se za vašo carinsku obradu. Carinski troškovi uvoza, carine i dažbine na zemlji odredišta leže na kupcu, osim ako ponuda ne navodi DDP.",
+    "s5t": "Slanje i isporuka",
+    "s5b": "Šaljemo obavijest o slanju s brojem plovila ili leta čim se kontejner ili špedicija rezervira. Vrijeme isporuke ovisi o luci odredišta ili zračnoj luci i rasporedu prijevoznika. Zadržavanja zbog gužve u luci, carinske inspekcije ili viših sili izvan su naše nadležnosti, a javljamo ih čim su poznata.",
+    "retTitle": "Politika povrata",
+    "retSub": "Naši se proizvodi izrađuju prema dogovorenoj specifikaciji, zato su povrati ograničeni na definirane slučajeve.",
+    "r1t": "Roba izrađena po specifikaciji",
+    "r1b": "Abrazivni se proizvodi izrađuju prema specifikaciji zrnitosti, veličine, podloge i pakiranja. Pošto se ne mogu prodati kao standardna zaliha, potvrđene narudžbe po mjeri ne mogu se vratiti niti refundirati, osim ako roba ne odgovara potvrđenoj specifikaciji.",
+    "r2t": "Izvozna roba i transportna oštećenja",
+    "r2b": "Standardni referentni artikli koji se nisu koristili i nalaze se u originalnom izvoznom pakiranju mogu se vratiti slučajevo po slučaj, nakon što potvrdimo razlog i uvjete povrata. Roba oštećena u prijevozu mora se prijaviti uz fotografije u roku od 7 dana od isporuke, a štetne prijave osigurane prijevoznikom rješavaju se preko imenovanog forwardera.",
+    "r3t": "Prijave, inspekcija i krediti",
+    "r3b": "Svaka se prijava mora referirati na broj narudžbe, pakirni popis i pogođene kartonske oznake. Ako se inspekcijom potvrdi nedostatak, zamijenimo pogođenu količinu ili izdajemo bon protiv fakture. Prijave podnesene više od 30 dana nakon isporuke ne mogu se prihvatiti.",
+    "r4t": "Refundacije",
+    "r4b": "Ako se dogodi kredit, refundacija se vrši izvornom platitelju istom metodom korištenom za narudžbu, nakon što se povrat ili zamjena dovrši ili otpiše. Bankarice troškovi međunarodnih prijenosa snosi strana koja prima refundaciju.",
+    "r5t": "Carina, dažbine i usklađenost",
+    "r5b": "Povrati traženi zbog ograničenja uvoza, dažbina, carinske inspekcije ili lokalnih pravila usklađenosti smatraju se komercijalnim sporovima, a ne produktnim prijavama, pošto je roba isporučena prema potvrđenoj specifikaciji.",
+    "updated": "Zadnje ažurirano 6. studenoga 2026.",
+    "related": "Uvjeti dostave i povrata dio su svake ponude. Ako ponuda navodi drugačije uvjete, ona prevladava.",
+    "contact": "Pitanja o slanju ili prijavama: kontaktirajte naš prodajni tim s brojem narudžbe i odgovarajućim kartonskim oznakama."
+  },
+  "quotePage": {
+    "h1": "Započnite veleprodajni razgovor",
+    "sub": "Dobijte izravne veleprodajne cijene iz tvornice za abrazive.",
+    "note": "Ovaj obrazac zatražuje ponudu i ne pokreće narudžbu. Polja označena s * obvezna su.",
+    "sec1": "Vaš poduzeće",
+    "f1": "Puno ime *",
+    "f2": "Naziv tvrtke *",
+    "f3": "Zemlja *",
+    "f4": "Poslovni e-mail *",
+    "f5": "WhatsApp broj",
+    "f6": "Vrsta tvrtke *",
+    "opt1": "Uvoznik",
+    "opt2": "Distributor",
+    "opt3": "Veleprodajnik",
+    "opt4": "OEM brend",
+    "opt5": "Industrijski kupac",
+    "opt6": "Ostalo",
+    "sec2": "Zahtjevi za proizvode",
+    "f7": "Kategorija proizvoda",
+    "f8": "Model / referenca proizvoda",
+    "f9": "Veličina",
+    "f10": "Zrnatost",
+    "f11": "Materijal",
+    "f12": "Količina",
+    "f13": "Pakiranje",
+    "f14": "Zemlja odredišta *",
+    "f15": "OEM zahtjevi",
+    "f16": "Dodatna poruka *",
+    "consent": "Slažem se s pravilima privatnosti, uvjetima korištenja i korištenjem svojih podataka za odgovor na ovaj upit. *",
+    "btn1": "Zatražite ponudu za veleprodaju",
+    "btn2": "Pošaljite upit putem WhatsAppa",
+    "goNote": "Obrazac se otvara u našem veleprodajnom upitnom sustavu s unaprijed unesenim kontekstom proizvoda."
+  },
+  "clients": {
+    "h1": "Kamo idu isporuke MoTai",
+    "sub": "Iz Hubeija do sedam regija odredišta.",
+    "note": "Logotipi kupaca i iskustva ispod su rezervna mjesta — zamijenite src/data/trust.json objavljenim materijalima.",
+    "placeholderBadge": "Ilustrativno rezervno",
+    "statsTitle": "Opskrba ukratko",
+    "statsNote": "Prikazani certifikati rezervna su mjesta dok se certifikati ne objave."
+  },
+  "glossary": {
+    "h1": "Rječnik abraziva",
+    "sub": "Termini iza svake specifikacije trake, diska i flap diska.",
+    "note": "Standardne industrijske definicije za abrazivne potrošne materijale; detalji razreda i podloge za narudžbu dogovaraju se u ponudi.",
+    "reviewNote": "Terminologiju pregledava tehnički tim tvrtke MoTai Abrasives — zadnje pregledano 3. studenoga 2026."
+  },
+  "trust": {
+    "regions": "Regije odredišta",
+    "productLines": "Proizvodne linije",
+    "gritRange": "Pokrivenost zrnitosti"
+  },
+  "video": {
+    "title": "Gledanje",
+    "cutting": {
+      "title": "Video snimke rezanja i prerade",
+      "desc": "Video snimke proizvoda: rezanje i prerada abrasivnih ploča."
+    },
+    "sample": {
+      "title": "Video snimke provjere uzoraka",
+      "desc": "Video snimke proizvoda: provjere površine, podloge i prijanjanja uzorka."
+    },
+    "oem": {
+      "title": "Video snimke OEM pakiranja",
+      "desc": "Pakirne količine, naljepnice, kartonske oznake i grafike vlastitog brenda."
+    },
+    "flap": {
+      "title": "Video snimke opsega flap diskova",
+      "desc": "Flap diskovi s plastikom, čeličnom i stakloplastičnom podlogom u upotrebi."
+    }
+  },
+  "wa": {
+    "generic": "Zdravo MoTai, želim veleprodajnu ponudu za abrazivne proizvode.",
+    "product": "Zdravo MoTai, želim veleprodajnu ponudu za {name} ({grits}).",
+    "model": "Zdravo MoTai, želim veleprodajnu ponudu za model tijelne trake {model}.",
+    "disc": "Zdravo MoTai, želim veleprodajnu ponudu za {title}.",
+    "sample": "Zdravo MoTai, želim zatražiti uzorak proizvoda {name} za procjenu.",
+    "factory": "Zdravo MoTai, želim s vašim timom raspraviti detalje o proizvodnji i kvaliteti.",
+    "oem": "Zdravo MoTai, želim raspraviti OEM / vlastiti brend program abraziva.",
+    "contact": "Zdravo MoTai, želim s vašim timom sastaviti svoju sljedeću narudžbu abraziva."
+  },
+  "floatChat": {
+    "trigger": "Pregovor",
+    "open": "Otvori pregovor",
+    "close": "Zatvori",
+    "title": "MoTai — Live chat",
+    "status": "Odgovaramo putem WhatsAppa, obično unutar 24 sata.",
+    "greeting": "Zdravo! Kako vam možemo pomoći s vašom narudžbom abraziva? — MoTai prodajni tim",
+    "placeholder": "Upišite poruku…",
+    "send": "Pošalji putem WhatsAppa",
+    "note": "Ova pregledna verzija nema live poslužitelj: slanjem se otvara WhatsApp s vašom unaprijed unesenom porukom. Odgovori se nastavlja u WhatsApp razgovoru."
+  },
+  "location": {
+    "imgAlt": "Zgrada tvornice MoTai u Xianningu, Hubei",
+    "imgCaption": "Tvornica MoTai — Xianning, Hubei, Kina",
+    "mapTitle": "Lokacija tvornice MoTai na Google Mapsu"
+  },
+  "faq": {
+    "faqTitle": "Prije početka",
+    "moq": {
+      "q": "Koja je minimalna količina narudžbe?",
+      "a": "MOQ se vraća uz ponudu, uz dostupnost i uvjete."
+    },
+    "oem": {
+      "q": "Podržavate li OEM i vlastiti brend?",
+      "a": "Da. Logotip, naljepnice, veličine po mjeri i pakiranje provjeravaju se za izvedivost, zatim potvrđuju uz ponudu."
+    },
+    "sizes": {
+      "q": "Koje veličine i zrnatosti opskrbljujete?",
+      "a": "Trake u dokumentiranim veličinama od 533 × 75 do 2200 × 1330 mm (zrnatosti 40–800); diskovi 3–6 inča (zrnatosti 60–5000). Zahtjevi po mjeri procjenjuju se s našim timom."
+    },
+    "samples": {
+      "q": "Mogu li prvo dobiti uzorak?",
+      "a": "Da. Zatražite uzorak, a naš prodajni tim potvrdit će dostupnost, naknade i uvjete slanja."
+    },
+    "lead": {
+      "q": "Koji su rokovi isporuke?",
+      "a": "Rok isporuke ovisi o specifikaciji i količini te potvrđuje se u ponudi."
+    },
+    "packaging": {
+      "q": "Kako se proizvodi pakiraju?",
+      "a": "Pakirne količine, naljepnice, kartonske oznake i grafike vlastitog brenda potvrđuju se uz ponudu."
+    },
+    "payment": {
+      "q": "Koje uvjete plaćanja nude?",
+      "a": "Uvjeti plaćanja dio su potvrđene ponude i poslovnih pregovora."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Koje specifikacije trebam pružiti?",
+      "a": "Podijelite potrebne dimenzije, zrnatost, predmet obrade, stroj i traženu završnu obradu. Tamo gdje postoje, koristite dokumentirane opcije; ostale zahtjeve procijenit ćemo s našim timom."
+    },
+    "oem": {
+      "q": "Kako zatražiti OEM pakiranje?",
+      "a": "U upit uvrstite zahtjeve za brendiranje i pakiranje. Detalji će se procijeniti i potvrditi uz vašu ponudu."
+    },
+    "order": {
+      "q": "Zatraživanjem ponude pokrećem li narudžbu?",
+      "a": "Ne. Obrazac pokreće veleprodajni upit. Specifikacije proizvoda, dostupnost i poslovni uvjeti potvrđuju se prije dogovaranja narudžbe."
+    },
+    "sample": {
+      "q": "Mogu li isprobati uzorak prije nego se obavezam na cijelu narudžbu?",
+      "a": "Da. Uzorci standardnih referenci dostupni su na zahtjev za procjenu; dostupnost uzoraka i uvjeti dostave potvrđuju se uz ponudu."
+    },
+    "lead": {
+      "q": "Koliko unaprijed trebam pokrenuti proizvodnu narudžbu?",
+      "a": "Rok isporuke počinje danom pismenog potvrđenja ponude i ovisi o naručenoj veličini, zrnitosti i pakiranju. Referentni artikli iz zalihe slažu se najbrže."
+    },
+    "beltSize": {
+      "q": "Mogu li se tijelne trake isporučiti u nestandardnoj veličini ili duljini?",
+      "a": "Širina i duljina traka izvan dokumentiranih veličina kvitiraju se slučaj po slučaj; prerada u veličinu po mjeri utječe i na rok isporuke i na minimalnu količinu narudžbe."
+    },
+    "beltJoint": {
+      "q": "Koji spoj i rubnu izradu koriste ove trake?",
+      "a": "Vrsta spoja i obrada ruba specificiraju se po referenciji. Navedite stroj, opterećenje i traženu završnu obradu da bi ispravna izrada bila uključena u vašu ponudu."
+    },
+    "discBacking": {
+      "q": "Kako odabrati između hook & loop, PSA i mrežatog diska?",
+      "a": "Hook & loop pogodan je za čestu promjenu zrnitosti, PSA za ravne podloge i duže radnje, a mrežati diskovi za odsijanje prašine. Naš vodič za odabir ta tri sustava uspoređuje izravno."
+    },
+    "discDust": {
+      "q": "Je li ovi diskovi kompatibilni s odsijanjem prašine?",
+      "a": "Mrežati i perforirani diskovi projektirani su za odsijanje; puni diskovi mogu se isporučiti perforirani na zahtjev. Navedite svoj sustav odsijanja i podlogu koju koristite."
+    },
+    "hookLoop": {
+      "q": "Hoće li se hook & loop diskovi uklapati u već postojeću podlogu?",
+      "a": "Prečnik i obrazac otvora moraju odgovarati podlozi. Potvrdite model brusilice i prečnik podloge uz upit da bi pravilan disk bio uključivan u ponudu."
+    },
+    "psa": {
+      "q": "Rade li PSA diskovi s bilo kojom podlogom?",
+      "a": "PSA diskovima treba ravna, čista gumena podloga odgovarajućeg prečnika. Potvrdite prečnik podloge i model stroja uz zahtjev za ponudu."
+    },
+    "mesh": {
+      "q": "Koliko dugo traje mrežati abrazivni disk?",
+      "a": "Mrežati diskovi otporni su na zatrpavanje kod rada s puno prašine, što obično produljuje vijek trajanja u usporedbi s punim papirnim diskovima. Stvarni vijek ovisi o materijalu, tlaku i zrnitosti."
+    },
+    "solid": {
+      "q": "Mogu li se puni diskovi isporučiti perforirani za odsis prašine?",
+      "a": "Da — obrazac perforacije dogovara se uz ponudu. Navedite podlogu i postavljenje odsisa da bi ispravan obrazac bio uključen u ponudu."
+    }
+  },
+  "relArticles": {
+    "title": "Povezani članci",
+    "sub": "Smjernice za kupce za ovu obitelj proizvoda, od tehničkog tima MoTai.",
+    "readMore": "Pročitaj članak",
+    "faqTitle": "Česta pitanja",
+    "faqSub": "Uobičajena pitanja koja kupci postavljaju prije narudžbe ovog proizvoda."
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Označite veličine, zrnatost, podloge i datoteke proizvoda; priložite luku odredišta i jezik naljepnica."
+    },
+    "na": {
+      "title": "Sjeverna Amerika",
+      "body": "Navedite veličine u inčima ili metriku, vrstu montaže i pakirne količine; ZIP odredišta ili luka i način prijevoza."
+    },
+    "sa": {
+      "title": "Južna Amerika",
+      "body": "Veličine, miješane zrnatosti i količine po kartonu, jezik naljepnica; luka odredišta i dokumenti uvoznika."
+    },
+    "me": {
+      "title": "Bliski istok",
+      "body": "Materijal, zrnatost i pakiranje otporno na vlagu; luka odredišta i uvjeti ponude."
+    },
+    "africa": {
+      "title": "Afrika",
+      "body": "Kompatibilnost stroja, potrebne veličine i pakirne količine; luka odredišta, kartonske oznake i preferencije prijevoza."
+    },
+    "oceania": {
+      "title": "Oceanijski",
+      "body": "Veličina, podloga, pakiranje i ZIP odredišta ili luka; zahtjevi za uvoz i pakiranje."
+    },
+    "asia": {
+      "title": "Azija",
+      "body": "Specifikacija stroja, raspon zrnitosti i struktura narudžbe; grad isporuke ili luka i lokalni jezik naljepnica."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metalna obrada",
+      "intro": "Struganje zavarotnih spojeva, uklanjanje grnjava i priprema metalnih površina.",
+      "uses": "Zavarotni spojevi · Uklanjanje grnjava · Priprema površina",
+      "products": "Tijelne trake"
+    },
+    "wood": {
+      "title": "Stolarija i namještaj",
+      "intro": "Ploče, izrada namještaja i priprema površina prije lakiranja.",
+      "uses": "Ploče · Namještaj · Priprema prije lakiranja",
+      "products": "Tijelne trake · Brijaći diskovi"
+    },
+    "auto": {
+      "title": "Opravde automobilnih vozila",
+      "intro": "Struganje bodyfillera, priprema prije prskanja i završna obrada automobila.",
+      "uses": "Body filler · Priprema prije prskanja · Završna obrada",
+      "products": "Brijaći diskovi"
+    },
+    "stainless": {
+      "title": "Završna obrada nerđajućeg čelika",
+      "intro": "Sjaj u prugama (hairline), prijelazi površina i izrada iz nerđajućeg čelika.",
+      "uses": "Hairline · Prijelazi · Izrada",
+      "products": "Tijelne trake"
+    },
+    "ship": {
+      "title": "Brodogradnja i popravci",
+      "intro": "Brušenje metala, uklanjanje rđe i priprema površina za marine uporabe.",
+      "uses": "Brušenje · Uklanjanje rđe · Marina priprema",
+      "products": "Tijelne trake"
+    },
+    "surface": {
+      "title": "Industrijska priprema površina",
+      "intro": "Industrijska obrada površina i radovi na održavanju.",
+      "uses": "Obrada površina · Održavanje",
+      "products": "Brijaći diskovi"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop ili PSA: odaberite pravu podlogu",
+      "intro": "Sustav montaže je jednako važan kao i zrnatost. Uskladite ga s podlogom prije narudžbe.",
+      "start": {
+        "title": "Započnite s zahtjevom",
+        "body": "Hook & loop diskovi montiraju se na kompatibilnu podlogu s petljom i pogodni su za radove s učestalom promjenom zrnitosti. PSA diskovi oslanjaju se na ljepljivu smolu osjetljivu na pritisak i zahtijevaju čistu, ravnu podlogu. Ova dva sustava nisu zamjenjiva."
+      },
+      "compat": {
+        "title": "Potvrdite kompatibilnost",
+        "body": "Potvrdite prečnik podloge, vrstu podloge i postrojenje za odsijanje prašine. Bešupni disk ne povezuje se s rasporedom odsijanja temeljenim na otvorima, a otvoreni mrežati diskovi zahtijevaju kompatibilnu podlogu i sustav odsijanja."
+      },
+      "enquiry": {
+        "title": "Pripremite upit",
+        "body": "Uključite prečnik diska, podlogu, popis zrnatosti, količinu po zrnatosti i materijal predmeta obrade. Zatražite ocjenu uzorka prije odobrenja proizvodnje."
+      }
+    },
+    "beltChecklist": {
+      "title": "Što uključiti u upit za tijelne trake",
+      "intro": "Jasna specifikacija pomaže dobavljaču da procijeni kompatibilnost i pripremi korisnu ponudu.",
+      "start": {
+        "title": "Započnite s zahtjevom",
+        "body": "Navedite duljinu i širinu trake u milimetrima. Navedite model stroja — specifikacijski list stroja ili fotografija stare naljepnice trake znatno pomažu."
+      },
+      "compat": {
+        "title": "Potvrdite kompatibilnost",
+        "body": "Dodajte materijal predmeta obrade, preferirani abraziv, zrnatost, zahtjev za podlogu i zahtjeve za spoj. Izbjegavajte odabir proizvoda samo prema boji trake."
+      },
+      "enquiry": {
+        "title": "Pripremite upit",
+        "body": "Navedite količine po veličini i zrnatosti, preferencije pakiranja, odredište i traženi datum isporuke. Konačna ponuda potvrđuje specifikacije, dostupnost, uvjete plaćanja i organizaciju prijevoza."
+      }
+    },
+    "gritSequence": {
+      "title": "Planiranje slijeda zrnatosti za pripremu površina",
+      "intro": "Započnite s predmetom obrade i traženi površinom, a zatim na uzorku provjerite slijed.",
+      "start": {
+        "title": "Započnite s zahtjevom",
+        "body": "Grublje zrnatosti brzo skidaju materijal i ostavljaju duboke ogrebotine; finije zrnatosti dorađuju površinu. Polazište ovisi o podlozi, dubini defekta i zahtjevu uklanjanja."
+      },
+      "compat": {
+        "title": "Potvrdite kompatibilnost",
+        "body": "Prolazite kroz zrnatosti redom i na svakoj fazi provjerite predmet. Preskakanje zrnatosti ostavlja ogrebotine teške za uklanjanje, a čišćenje između faza sprječava kontaminaciju grubljim zrnom."
+      },
+      "enquiry": {
+        "title": "Pripremite upit",
+        "body": "Brojanje zrnitosti nije zamjenjivo između sustava normiranja. Potvrdite standard normiranja, vrstu abraziva i dostupnost po razredu u ponudi, te pratite upute stroja i sigurnosne smjernice za abrazive."
+      }
+    },
+    "dustCollection": {
+      "title": "Odsijanje prašine i kompatibilnost podloge, objašnjeno",
+      "intro": "Obrazac otvora, otvoreni mrežati diskovi i podloge moraju odgovarati vašem sustavu odsisa.",
+      "start": {
+        "title": "Započnite s zahtjevom",
+        "body": "Odredite svoju podlogu: broj otvora, prečnik i koristi li se s odsijanjem prašine. Bešupni i otvoreni mrežati diskovi ponašaju se drugačije nego diskovi s više otvora."
+      },
+      "compat": {
+        "title": "Potvrdite kompatibilnost",
+        "body": "Uskladite raspored otvora diska s otvorima podloge. Otvoreni mrežati diskovi zahtijevaju kompatibilnu podlogu i radni sustav odsijanja; PSA diskovi zahtijevaju čistu površinu podloge."
+      },
+      "enquiry": {
+        "title": "Pripremite upit",
+        "body": "Navedite model podloge, broj otvora, veličinu diska i popis zrnatosti, plus rasporede za odsijanje prašine. Potvrdite ponašanje uzorka prije proizvodnje."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM naljepnice i pakiranje: što pripremiti",
+      "intro": "Kompletna opširnica održava grafike, naljepnice i kartone u roku.",
+      "start": {
+        "title": "Započnite s zahtjevom",
+        "body": "Pripremite logotip i grafiku naljepnice, ciljni format pakiranja (unutarnje vrećice, kartoni), jezik naljepnice i pravila o označavanju za zemlju odredišta."
+      },
+      "compat": {
+        "title": "Potvrdite kompatibilnost",
+        "body": "OEM dostupnost, minimalne količine, zahtjevi za grafike i rokove podliježu provjeri izvedivosti i potvrđenoj ponudi."
+      },
+      "enquiry": {
+        "title": "Pripremite upit",
+        "body": "Priložite grafike, specificirajte pakirne količine i kartonske oznake te navedite odredište i vremenski okvir. Odobrenje uzorka prethodi proizvodnji."
+      }
+    },
+    "gritStandards": {
+      "title": "Standardi zrnatosti: FEPA, ANSI i što vaš popis znači",
+      "intro": "Sustavi normiranja nisu zamjenjivi — u svakom upitu navedite standard.",
+      "start": {
+        "title": "Započnite s zahtjevom",
+        "body": "FEPA (ISO 848) i starija ANSI skala različito broje slične veličine; P120 i zrnatost 120 nisu uvijek isto. Navedite standard prema kojem kupujete."
+      },
+      "compat": {
+        "title": "Potvrdite kompatibilnost",
+        "body": "Potvrdite standard normiranja, vrstu abraziva i dostupnost po razredu u ponudi. Ne miješajte sustave normiranja u jednom popisu zrnatosti."
+      },
+      "enquiry": {
+        "title": "Pripremite upit",
+        "body": "Navedite standard (npr. FEPA P60–P800), količinu po razredu i odredište. Prije narudžbe uz ponudu potvrdite konačni popis razreda."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Najčešći abrazivni zrnac za trake i diskove: izdržljiv, radljiv, pogodan za metal, drvo i opću završnu obradu."
+    },
+    "ansi": {
+      "def": "Zastarjeli sustav brojanja zrnitosti za Sjevernu Ameriku. Zrna slične veličine razlikuju se od FEPA ljestvice — u svakom upitu navedite standard."
+    },
+    "backing-cloth": {
+      "def": "Pamučna/tkana podloga nosi abrazivna zrna trake. Težina (npr. X-grau) određuje fleksibilnost i nosivost."
+    },
+    "backing-poly": {
+      "def": "Poli-pamučna podloga: ravnoteža čvrstoće i fleksibilnosti za trake općeg namjene."
+    },
+    "belt": {
+      "def": "Kontinuirani prsten abrazivnih zrna na tkanom podlogi, koristi se na traktorskim strojevima za brušenje, završnu obradu i uklanjanje grnjava."
+    },
+    "blend": {
+      "def": "Slažanje zavarotnog spoja s okolnim metalom — obično prvi prolaz flap diskom ili trakom, zatim finije zrnatosti."
+    },
+    "closed": {
+      "def": "Gusto nabrijana raspored zrna s malo otvorenog prostora; trak otpornije na zatrpanje kod tvrdih radova."
+    },
+    "debur": {
+      "def": "Uklanjanje grnjava i malih izbočina koje su ostale nakon reza, pila ili brušenja."
+    },
+    "dust": {
+      "def": "Uklanjanje abrazivnog praha s predmeta obrade — kroz otvore podloge, otvoreni mrežasti diskovi ili lokalno odsijanje."
+    },
+    "flap": {
+      "def": "Disk od preklapajućih abrazivnih lamela, fleksibilan, za brušenje, slažanje i završnu obradu na kutnim brusilicama."
+    },
+    "fepa": {
+      "def": "ISO 848 (FEPA) ljestvica normiranja u P-notaciji (npr. P120). Zadana ljestvica za većinu europske i međunarodne trgovine."
+    },
+    "grit": {
+      "def": "Nominalna veličina zrna abraziva: veći brojevi su finiji. Trake 40–800; diskovi 60–5000."
+    },
+    "hookloop": {
+      "def": "Hook-and-loop sustav spajanja za diskove: disk se pričvrsti na podlogu s petljom."
+    },
+    "mesh": {
+      "def": "Otvoreni mrežasti diskovi imaju izrezane otvore kroz koje prolaže prašina; traže kompatibilnu podlogu i odsijanje."
+    },
+    "moq": {
+      "def": "Minimalna količina narudžbe — dolazi s ponudom, uz dostupnost i uvjete."
+    },
+    "oem": {
+      "def": "Proizvodnja za konačnog proizvođača / vlastiti brend: naši proizvodi pod vašim brendom, naljepnicama i pakiranjem."
+    },
+    "psa": {
+      "def": "Ljepljiva podloga osjetljiva na pritisak: disk se direktno lijepi na kompatibilnu podlogu."
+    },
+    "disc": {
+      "def": "Ravni ili flapski abrazivni krug pričvršćen na podlogu za šmirnjenje i završnu obradu."
+    },
+    "sic": {
+      "def": "Karbid silicija zrna: vrlo tvrdo i oštro, pogodno za staklo, keramiku i nemetalne metale."
+    },
+    "prep": {
+      "def": "Spremanje površine za premaz ili završnu obradu: uklanjanje rđe, ispune ili starog laka u konzistentnom profilu."
+    },
+    "wetdry": {
+      "def": "Razredi koji ostaju hladni i otporni na zatrpanje kod mokre ili mokro-suhe upotrebe; odgovarajućnost se potvrđuje ponudom."
+    },
+    "xweight": {
+      "def": "Srednje teška pamučna podloga za trake općeg namjene: čvrsta a fleksibilna."
+    },
+    "zirconia": {
+      "def": "Zirkonijsko-aluminijevi zrna: izdržljiva i agresivna za brušenje metala, uklanjanje grnjava i završnu obradu čelika."
+    },
+    "pad": {
+      "def": "Podložna ploča na kojoj se nalazi disk: prečnik podloge, lice (petlja) i raspored otvora moraju odgovarati disku."
+    }
+  },
+  "footer": {
+    "blurb": "Abrazivni potrošni materijali za industrijske kupce, distributere i vlastite brendove.",
+    "products": "Proizvodi",
+    "explore": "Otkrijte MoTai",
+    "connect": "Uspostavite kontakt",
+    "aboutUs": "O nama",
+    "mfgQ": "Proizvodnja i kvaliteta",
+    "oemPl": "OEM i vlastiti brend",
+    "newsB": "Vijesti i blog",
+    "privacy": "Politika privatnosti",
+    "terms": "Uvjeti korištenja",
+    "shipping": "Dostava i povrat",
+    "contactUs": "Kontaktirajte nas"
+  },
+  "tdk": {
+    "home": {
+      "title": "Proizvođač i industrijski dobavljač abraziva | MoTai",
+      "description": "Profesionalni kineski proizvođač abraziva koji opskrbljuje abrazivne trake, brijaće i flap diskove. Izravna veleprodaja iz tvornice, OEM prilagodbe i industrijska rješenja za globalne distributere i kupce.",
+      "keywords": "proizvođač abraziva, dobavljač abraziva, industrijski abrazivi, abrazivne trake, brijaći diskovi, flap diskovi, veleprodaja abraziva"
+    },
+    "about": {
+      "title": "O MoTai — Proizvođač i tvornica abraziva u Hubeiju, Kina",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. je proizvođač obloženih abraziva u Xianningu, Hubei: abrazivne trake, brijaći i flap diskovi uz OEM, dimenzioniranje po mjeri, velika opskrba i izvoz.",
+      "keywords": "proizvođač abraziva Kina, dobavljač abraziva Kina, tvornica abraziva, proizvođač obloženih abraziva, izvoznik abraziva, B2B dobavljač abraziva"
+    },
+    "factory": {
+      "title": "Proizvodnja i QC abraziva — MoTai tvornica u Hubeiju",
+      "description": "Unutar MoTai radionice za abrazive: prerada i rezanje, provjera uzoraka, QC i OEM pakiranje za abrazivne trake, brijaće i flap diskove.",
+      "keywords": "proizvodnja abraziva, QC tvornice za abrazive, prerada abraziva, OEM pakiranje abraziva"
+    },
+    "oem": {
+      "title": "OEM proizvođač i vlastiti brend za abrazive | MoTai",
+      "description": "OEM i proizvodnja vlastitog brenda za abrazive: vaš logotip, naljepnice, veličine i pakiranje na MoTai trakama, diskovima i flap diskovima, s ponudom prema vašoj potvrđenoj specifikaciji.",
+      "keywords": "OEM proizvođač abraziva, vlastiti brend abraziva, prilagođeni abrazivni proizvodi, OEM dobavljač abraziva"
+    },
+    "applications": {
+      "title": "Industrijski abrazivi po primjenama — metal, drvo, automobili i više",
+      "description": "Uskladite MoTai abrazivne trake, brijaće i flap diskove s vašom primjenom: brušenje metala, šmirnjenje drva, karoserija auta, završna obrada nerđajućeg čelika, brodogradnja i priprema površina.",
+      "keywords": "primjene abraziva, brušenje metala, šmirnjenje drva, priprema površina, industrijska priprema površina"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Abrazivi za metalnu izradu — brušenje i uklanjanje grnjava | MoTai",
+        "description": "Abrazivi za metalnu izradu: brušenje metala, uklanjanje grnjava i brušenje zavarotnih spojeva s MoTai trakama, mrežasti i flap diskovima.",
+        "keywords": "abrazivi za metalnu izradu, brušenje metala, uklanjanje grnjava, brušenje zavarotnih spojeva"
+      },
+      "woodworking": {
+        "title": "Abrazivi za stolariju i šmirnjenje trakama | MoTai",
+        "description": "Abrazivi za stolariju i namještaj: brušenje širokim trakama, šmirnjenje ploča i MDF-a s MoTai trakama i diskovima za šmirnjenje.",
+        "keywords": "abrazivi za stolariju, šmirnjenje širokim trakama, šmirnjenje drva, šmirnjenje namještaja"
+      },
+      "automotive": {
+        "title": "Šmirnjenje za popravak automobila — karoserija i lak | MoTai",
+        "description": "Abrazivi za popravak automobila: šmirnjenje karoserije, laka i podloge s MoTai PSA i hook & loop diskovima.",
+        "keywords": "abrazivi za automobile, šmirnjenje karoserije, šmirnjenje auto laka, šmirnjenje podloge"
+      },
+      "stainless-steel": {
+        "title": "Završna obrada i poliranje nerđajućeg čelika | MoTai",
+        "description": "Abrazivi za nerđajući čelik: poliranje metala, brušenje i završna obrada s MoTai flap diskovima i trakama.",
+        "keywords": "završna obrada nerđajućeg čelika, poliranje metala, brušenje površina, abrazivi za nerđajući čelik"
+      },
+      "shipbuilding": {
+        "title": "Abrazivi za brodogradnju — čelične ploče i uklanjanje rđe | MoTai",
+        "description": "Industrijski teški abrazivi za brodogradnju: brušenje čeličnih ploča, uklanjanje rđe i industrijska priprema površina s MoTai trakama i flap diskovima.",
+        "keywords": "abrazivi za brodogradnju, brušenje čeličnih ploča, uklanjanje rđe, teško brušenje"
+      },
+      "surface-preparation": {
+        "title": "Industrijska priprema površina i brušenje | MoTai",
+        "description": "Industrijska rješenja za abraziv u pripremi površina, završnoj obradi i teškom brušenju kroz MoTai trake, diskove i flap diskove.",
+        "keywords": "priprema površina, završna obrada, industrijsko brušenje, rješenja za abraziv"
+      }
+    },
+    "blog": {
+      "title": "Vodiči za kupce abraziva i standardi zrnatosti | MoTai Znanje",
+      "description": "Praktični resursi za kupce abraziva: odabir podloge diskova, check-liste za upite o trakama, slijed zrnatosti, odsijanje prašine i standardi zrnatosti (FEPA/ANSI).",
+      "keywords": "vodič za kupce abraziva, odabir zrnitosti, rječnik za abrazive, standardi zrnatosti FEPA ANSI"
+    },
+    "contact": {
+      "title": "Kontaktirajte MoTai — Dobavljač abraziva u Kini",
+      "description": "Kontaktirajte MoTai dobavljača abraziva u Xianningu, Hubei: telefon, e-mail i WhatsApp za veleprodajne i OEM upite, uz obilazak tvornice.",
+      "keywords": "kontakt s dobavljačem abraziva, veleprodajni upit za abrazive, proizvođač abraziva Kina"
+    },
+    "privacy": {
+      "title": "Politika privatnosti",
+      "description": "Kako MoTai Abrasives koristi podatke iz upita: prikupljanje, namjena, pohrana, vaše opcije i obrada kolačića.",
+      "keywords": "politika privatnosti, MoTai"
+    },
+    "terms": {
+      "title": "Uvjeti korištenja — MoTai Abrasives",
+      "description": "Uvjeti za ovu B2B stranicu za abrazive: obrada upita, cijene prema ponudi, intelektualno vlasništvo i nadležno pravo.",
+      "keywords": [
+        "uvjeti korištenja",
+        "MoTai",
+        "B2B dobavljač abraziva"
+      ]
+    },
+    "shipping": {
+      "title": "Politika dostave i povrata — narudžbe za abrazive | MoTai",
+      "description": "MoTai politika dostave i povrata za abrazive: rokovi proizvodnje, izvozno pakiranje, Incoterms, carinski dokumenti, slanje i slučajevi povrata ili krediranja robe po specifikaciji.",
+      "keywords": "politika dostave za abrazive, politika povrata za abrazive, veleprodajna dostava za abrazive, Incoterms za abrazive, izvozno pakiranje, uvjeti dostave"
+    },
+    "quote": {
+      "title": "Zatražite veleprodajnu ponudu za abrazive | MoTai",
+      "description": "Pripremite svoj veleprodajni ili OEM upit za abrazive: podaci tvrtke uz proizvod, veličinu, zrnatost, količinu i odredište. Velike količine s ponudom izravno iz tvornice.",
+      "keywords": "veleprodajna ponuda za abrazive, velike količine za abrazive, OEM upit za abrazive, veleprodaja za abrazive"
+    },
+    "clients": {
+      "title": "Izvoznik abrazivnih proizvoda — globalna opskrba iz Hubeija, Kina | MoTai",
+      "description": "MoTai izvozi abrazivne trake, brijaće i flap diskove u sedam regija odredišta: Europa, Amerike, Bliski istok, Afrika, Oceanija i Azija.",
+      "keywords": "izvoznik abrazivnih proizvoda, izvoz za abrazive, globalna opskrba za abrazive, industrijski dobavljač za abrazive"
+    },
+    "glossary": {
+      "title": "Rječnik za abrazive — zrnatost, podloge, termini za diskove",
+      "description": "Definirano 24 termina: FEPA zrnatost, podloge, hook & loop, PSA, otvoreni mrežasti, uklanjanje grnjava i još.",
+      "keywords": "rječnik za abrazive, standardi zrnatosti, termini za abrazive"
+    },
+    "product": {
+      "title": "MoTai {name} — Veleprodaja i OEM za abrazive",
+      "description": "MoTai {name} ({material}, {category}): {desc} Veličine: {sizes}. Zrnatosti: {grits}. Izravna veleprodaja iz tvornice i OEM opskrba.",
+      "keywords": "{name}, proizvođač {category}, {material} abraziv, veleprodaja za abrazive, OEM za abrazive"
+    },
+    "model": {
+      "title": "{model} Abrazivna traka — MoTai",
+      "description": "Referentni model abrazivne trake {model} iz MoTai asortimana — širina, duljina, zrnatost i podloga dogovaraju se u ponudi. Veleprodaja i OEM opskrba.",
+      "keywords": "{model} abrazivna traka, referentni modeli traka, veleprodaja za abrazivne trake"
+    },
+    "disc": {
+      "title": "MoTai {title} — Veleprodaja i OEM",
+      "description": "MoTai varijanta diska {title}: raspon zrnatosti, prečnik i vrsta montaže dogovaraju se u ponudi. Izravna veleprodaja iz tvornice i OEM.",
+      "keywords": "brijaći disk, hook and loop disk, PSA disk, mrežasti disk, veleprodaja za brijaće diskove"
+    },
+    "flap": {
+      "title": "MoTai {name} — Proizvođač flap diskova",
+      "description": "MoTai {name}: abrazivni flap disk s {backing} podlogom za brušenje, slažanje i završnu obradu metala. Veleprodaja i OEM opskrba.",
+      "keywords": "flap disk, {backing} podloga za flap disk, zirkonijski flap disk, proizvođač flap diskova, veleprodaja za flap diskove"
+    },
+    "colt": {
+      "belts": {
+        "title": "Proizvođač i veleprodajni dobavljač abrazivnih traka | MoTai",
+        "description": "Široke i industrijske abrazivne trake od 533×75 do 2200×1330 mm, zrnatosti 40–800, iz aluminijevog oksida, cirkonija i karbida silicija — s referentnim modelima GXK-51, XZ-330, GPC71 i još. Izravna veleprodaja iz tvornice i OEM.",
+        "keywords": "abrazivne trake, šmirne trake, industrijske šmirne trake, široke abrazivne trake, GXK-51 traka, XZ-330 traka, GPC71 traka, veleprodaja za abrazivne trake"
+      },
+      "discs": {
+        "title": "Proizvođač brijaćih diskova — PSA, hook & loop i mrežasti | MoTai",
+        "description": "Hook & loop, PSA, mrežasti i bešupni brijaći diskovi od 3 do 6 inča, zrnatosti 60–5000, za karoserije, drvo i metalnu završnu obradu. Izravna veleprodaja iz tvornice i OEM.",
+        "keywords": "brijaći diskovi, hook and loop diskovi, PSA diskovi, mrežasti diskovi, netkani diskovi, perforirani diskovi, proizvođač diskova, veleprodaja za diskove"
+      },
+      "flap": {
+        "title": "Proizvođač flap diskova — cirkonija i aluminijev oksid | MoTai",
+        "description": "MoTai abrazivni flap diskovi s plastikom, čeličnom i stakloplastičnom podlogom, od cirkonija i aluminijevog oksida, za brušenje, uklanjanje grnjava i završnu obradu metala. Veleprodaja i OEM opskrba.",
+        "keywords": "flap diskovi, zirkonijski flap diskovi, flap diskovi od aluminijevog oksida, stakloplastična podloga, 125mm flap diskovi, proizvođač flap diskova, veleprodaja za flap diskove"
+      },
+      "all": {
+        "title": "Veleprodaja abrazivnih proizvoda — trake, diskovi i flap diskovi | MoTai",
+        "description": "Kompletan MoTai katalog za abrazive: industrijske abrazivne trake, brijaći i flap diskovi za distributere, uvoznike, veleprodaju i OEM brendove. Izravna veleprodaja iz tvornice, prilagodbe i izvoz iz Hubeija, Kina.",
+        "keywords": "abrazivni proizvodi, veleprodaja za abrazive, industrijski abrazivi, obloženi abrazivi, vlastiti brend za abrazive, velike količine za abrazive, tvornica za abrazive, alat za abrazive"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Brzi kontakt",
+    "whatsapp": "WhatsApp",
+    "quote": "Zatraži ponudu"
+  }
+}

@@ -224,7 +224,16 @@
     "ctaTitle": "Föredrar du att prata igenom det?",
     "ctaSub": "Letar du efter en pålitlig slipmedelsleverantör?",
     "cta1": "Begär en grossistoffert",
-    "cta2": "Kontakta via WhatsApp"
+    "cta2": "Kontakta via WhatsApp",
+    "galleryTitle": "Där din order görs",
+    "galleryIntro": "Samma verkstad sköter skärning, stickprov och packning för varje bekräftad order.",
+    "gallery1Title": "Produktionsverkstad",
+    "gallery1Text": "Det täckta arbetsområdet där slipriem och slipskivor konverteras, kontrolleras och packas.",
+    "gallery2Title": "Anläggning och ladeläge",
+    "gallery2Text": "Lådorna pallreras och laddas på plats före leverans till din destinationsregion.",
+    "gallery3Title": "Färdigt lager",
+    "gallery3Text": "Riemen och skivor paketeras enligt den bekräftade specifikationen — korn, storlek och packlista.",
+    "galleryNote": "Foton tillhandahålls av fabriken för allmän orientering; de är inte orderspecifika bilder. Produktvideon visas här när filmningen publicerats."
   },
   "oem": {
     "h1": "Ditt namn på kartongen",

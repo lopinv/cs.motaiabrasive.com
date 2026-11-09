@@ -1,0 +1,1001 @@
+{
+  "code": "ca",
+  "name": "Català",
+  "codeLabel": "CT",
+  "htmlLang": "ca",
+  "ogLocale": "ca_ES",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Consultes d'engrossista",
+    "oemNote": "Consultes d'empacament OEM",
+    "size": "Mida",
+    "grit": "Mida de gra",
+    "quantity": "Quantitat sol·licitada",
+    "requirements": "Requisits d'especificació i d'embalatge",
+    "requirementsPh": "Explica'ns la teva aplicació, les especificacions i els requisits de lliurament.",
+    "material": "Material abrasiu",
+    "backing": "Suport / fixació",
+    "availability": "La disponibilitat, la comanda mínima i les condicions comercials estan subjectes a confirmació al pressupost.",
+    "sampleNote": "Indica'ns quins productes i mides de gra vols avaluar. El nostre equip comercial confirmarà la disponibilitat de mostres, les tarifes de les mostres i les condicions d'enviament.",
+    "gritsRange": "Gama de grans",
+    "holes": "Forats",
+    "diameter": "Diàmetre / mida nominal",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Idioma",
+    "home": "Inici",
+    "about": "Qui som",
+    "manufacturing": "Fabricació",
+    "oem": "Serveis OEM",
+    "news": "Notícies",
+    "knowledge": "Coneixements",
+    "contact": "Contacta'ns",
+    "products": "Productes"
+  },
+  "colt": {
+    "belts": {
+      "title": "Cintes abrasives — Engrossista i OEM",
+      "desc": "Cintes abrasives vermelles en mides documentades de 533 × 75 mm a 2200 × 1330 mm. Grans 40–800. Models de referència disponibles. Consultes d'engrossista i OEM benvingudes.",
+      "label": "Cintes abrasives"
+    },
+    "discs": {
+      "title": "Discs d'escarrassament — Engrossista i OEM",
+      "desc": "Discs d'escarrassament PSA, de velcro, de malla oberta i sense forats, de 3 a 6 polzades. Grans 60–5000. Consultes d'engrossista i OEM benvingudes.",
+      "label": "Discs d'escarrassament"
+    },
+    "flap": {
+      "title": "Discs de flocs MOTAI",
+      "desc": "Discs de flocs amb suport de plàstic, d'acer o de fibra de vidre per a l'esmolat, la mescla i l'acabat de metalls. Confirma les especificacions, el subministrament en grans quantitats i l'empacament OEM amb el pressupost.",
+      "label": "Discs de flocs"
+    },
+    "all": {
+      "title": "Tots els productes",
+      "desc": "El catàleg complet d'abrasius de MoTai: cintes abrasives, discs d'escarrassament i discs de flocs per a compradors industrials, distribuidors i marques pròpies.",
+      "label": "Tots els productes"
+    }
+  },
+  "cta": {
+    "quote": "Demana un pressupost d'engrossista",
+    "quoteArrow": "↗",
+    "sample": "Demana una mostra",
+    "whatsapp": "Consulta per WhatsApp",
+    "waChat": "Contacta per WhatsApp",
+    "explore": "Descobreix la gamma de discs de flocs",
+    "viewAll": "Consulta tots els productes",
+    "discuss": "Parla de la teva especificació",
+    "oemQuote": "Demana un pressupost OEM"
+  },
+  "home": {
+    "eyebrow": "Abrasius directament de la fàbrica de MoTai a Hubei",
+    "heroTitle": "Fabricant i subministrador professional d'abrasius",
+    "heroSub": "Cintes abrasives, discs d'escarrassament i discs de flocs directes de fàbrica per a compradors industrials, distribuidors i marques pròpies — de Hubei, la Xina, al teu mercat.",
+    "cta1": "Demana un pressupost d'engrossista",
+    "cta2": "Parla amb el nostre equip per WhatsApp",
+    "builtTitle": "Tria l'aplicació. Tria l'abrasiu.",
+    "builtSub": "Tria l'aplicació i després l'abrasiu que hi va: cintes, discs o discs de flocs.",
+    "featuredTitle": "Al catàleg",
+    "featuredSub": "Mides i grans hi ha documentades al catàleg; el MOQ i la disponibilitat arriben amb l'oferta.",
+    "partnerTitle": "El costat del subministrament de la teva comanda d'abrasius",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. subministra consumibles d'abrasius per a la fusteria, el treball del metall i les aplicacions automobilístiques — amb programes OEM i de marca pròpia per a distribuidors i compradors industrials de tot el món.",
+    "partnerCta": "Descriu-nos MoTai",
+    "valuesTitle": "Sis maneres com els compradors B2B treballen amb nosaltres",
+    "valuesSub": "Sis raons per què importadors i marques OEM treballen amb nosaltres.",
+    "v1t": "Directe de fàbrica",
+    "v1b": "Preus i terminis del costat del subministrador, sense intermediaris.",
+    "v2t": "OEM i marca pròpia",
+    "v2b": "El teu logotip, les etiquetes i l'empacament sobre especificacions confirmades.",
+    "v3t": "Mides i grans a mida",
+    "v3b": "Mides documentades i grans 40–800 en cintes, 60–5000 en discs.",
+    "v4t": "Controls de mostra i control de qualitat",
+    "v4b": "Revisa la superfície, el suport i l'ajust amb una mostra abans de la comanda.",
+    "v5t": "Subministrament en grans quantitats",
+    "v5b": "Quantitats de caixó constants i detall de la llista d'empacament.",
+    "v6t": "Programa d'exportació",
+    "v6b": "Marcatge de caixons, etiquetes i documentació de destí.",
+    "processTitle": "Els passos entre la teva especificació i la comanda",
+    "processSub": "Quatre etapes entre el teu requisit i una comanda confirmada.",
+    "p1t": "Tall i transformació",
+    "p1b": "Confirma la forma, les dimensions i el gran necessaris abans d'organitzar el procés de transformació.",
+    "p2t": "Controls de mostra",
+    "p2b": "Revisa la superfície abrasiva, el suport i l'ajust d'una mostra abans d'acordar l'especificació de la comanda.",
+    "p3t": "OEM i empacament",
+    "p3b": "Confirma al pressupost les quantitats d'empacament, les etiquetes, el marcatge de caixons i l'artwork de marca pròpia.",
+    "p4t": "Preparació de l'expedició",
+    "p4b": "Acorda la llista d'empacament, els requisits de paleter i els detalls de destí abans de l'expedició.",
+    "oemTitle": "El teu nom al caixó",
+    "oemSub": "Comparteix els requisits de producte, d'empacament i de marca per a la teva propera gamma d'abrasius.",
+    "oemCta": "Descobreix els serveis OEM",
+    "faqTitle": "Abans de començar",
+    "faqSub": "Respostes a les preguntes que fan més els compradors.",
+    "regionsTitle": "De Hubei al teu mercat",
+    "regionsSub": "Subministrament global organitzat per regió de destí.",
+    "regionsNote": "El MOQ i el termini es confirmen al teu pressupost. Les rutes són orientatives; la disponibilitat i les condicions es confirmen amb el pressupost.",
+    "factoryTitle": "Trobeu-nos a Hubei",
+    "factoryBody": "No. 88, avinguda de Yuli, poble de Junshui, comtat de Tongcheng, Xianning, Hubei, la Xina. Organitza una visita a la fàbrica i confirma el punt de trobada amb el nostre equip.",
+    "finalTitle": "Busques un subministrador d'abrasius de confiança?",
+    "finalBody": "Comparteix el producte, la quantitat i l'aplicació — revisarem els teus requisits i prepararem un pressupost ajustat.",
+    "finalCta1": "Demana un pressupost d'engrossista",
+    "finalCta2": "Contacta per WhatsApp",
+    "beltsShowTitle": "Cintes abrasives, per models",
+    "beltsShowSub": "Models de referència per tractar amb el nostre equip.",
+    "articlesEyebrow": "Recursos per al comprador",
+    "articlesTitle": "Guies del nostre equip tècnic",
+    "articlesSub": "Com trien el gran, el suport i l'empacament els compradors abans de fer la comanda.",
+    "articlesCta": "Consulta totes les guies",
+    "prepTitle": "Prepara la teva consulta d'engrossista",
+    "prepSub": "Dimensions, gran i quantitat fan la resta del feina.",
+    "prepDim": "Dimensions",
+    "prepDimText": "Mida o referència de model en mil·límetres.",
+    "prepGrit": "Gran",
+    "prepGritText": "Grau o acabat desitjat.",
+    "prepQty": "Quantitat",
+    "prepQtyText": "Volum estimat i empacament."
+  },
+  "purchasing": {
+    "eyebrow1": "Orientació per a la compra",
+    "title1": "Prepara la teva consulta d'engrossista",
+    "body1": "Comparteix les dimensions, el gran, la peça, la màquina i l'acabat desitjats. Utilitza les opcions documentades més amunt quan siguin disponibles; altres requisits es revisaran amb el nostre equip.",
+    "dl1t": "Quantitat i destí",
+    "dl1b": "Indica'ns la quantitat, les necessitats d'empacament i el destí de lliurament.",
+    "dl2t": "Subministrament i condicions",
+    "dl2b": "La disponibilitat, la comanda mínima i les condicions comercials estan subjectes a confirmació al pressupost.",
+    "dl3t": "Consultes d'empacament OEM",
+    "dl3b": "Marca, etiquetes, mides o requisits d'empacament a mida.",
+    "eyebrow2": "Com fer una consulta",
+    "title2": "De la selecció del producte al pressupost",
+    "s1t": "Tria el teu producte",
+    "s1b": "Tria el producte o model i l'especificació necessària.",
+    "s2t": "Comparteix els teus requisits",
+    "s2b": "Comparteix la quantitat, l'aplicació i els requisits d'empacament.",
+    "s3t": "Revisa el teu pressupost",
+    "s3b": "Confirma l'especificació final i les condicions comercials amb el nostre equip."
+  },
+  "modelPage": {
+    "eyebrow": "Cintes abrasives · Model de referència",
+    "refLabel": "Referència de model",
+    "familyLabel": "Categoria",
+    "dimsLabel": "Dimensions de la cinta acabada — indica amplada × longitud en mm",
+    "dimsPlaceholder": "per exemple, 533 × 75 mm",
+    "gritLabel": "Gran necessari — indica el grau o l'acabat desitjat",
+    "gritPlaceholder": "per exemple, P60",
+    "qtyLabel": "Quantitat sol·licitada",
+    "specLabel": "Requisits d'especificació i d'empacament",
+    "discussion": "Tracta aquest model amb el nostre equip segons la teva peça, màquina i acabat desitjat.",
+    "grainBacking": "Gran i suport — confirma el fabricant de la matèria primera i el grau exacte.",
+    "disclaimer": "Els detalls de la família de models són de referència per a la selecció; les especificacions, la disponibilitat i l'ajust de MoTai es decideixen amb el teu pressupost."
+  },
+  "discPage": {
+    "eyebrow": "Discs d'escarrassament · Variant documentada",
+    "gritsNote": "Opcions de gran d'aquesta variant"
+  },
+  "flapPage": {
+    "eyebrow": "Discs de flocs · Variant de suport",
+    "color": "Color",
+    "gritNote": "El P40–P60 i el P80–P120 són exemples de selecció generals, no una gamma de subministrament de MoTai confirmada."
+  },
+  "productPage": {
+    "specTitle": "Especificacions",
+    "howTitle": "Com especificar la teva comanda",
+    "howBody": "Inclou la mida de la cinta o del disc, la llista de grans, el model de màquina, el material de la peça i la quantitat. Una especificació clara ens ajuda a revisar l'ajust i a preparar un pressupost útil — evita triar un producte només pel color.",
+    "faqTitle": "Preguntes de compradors"
+  },
+  "about": {
+    "h1": "L'empresa darrere de la gamma d'abrasius",
+    "sub": "Un enfocament medit del subministrament d'abrasius.",
+    "bizTitle": "El nostre negoci",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. subministra consumibles d'abrasius per a la fusteria, el treball del metall i les aplicacions automobilístiques. Les gammes documentades inclouen discs d'escarrassament sense forats, discs d'escarrassament de malla i cintes abrasives vermelles. Acceptem consultes d'importadors, distribuidors, engrossistes i compradors industrials — producte, suport, mida, grau, quantitat i requisits de lliurament.",
+    "matTitle": "Materials de l'empresa",
+    "matBody": "Descobreix la trajectòria i les dades de contacte de l'empresa al nostre prospecte.",
+    "globalTitle": "De Hubei al teu mercat",
+    "globalSub": "Subministrament global organitzat per regió de destí.",
+    "facTitle": "Trobeu-nos a Hubei",
+    "facBody": "No. 88, avinguda de Yuli, poble de Junshui, comtat de Tongcheng, Xianning, Hubei, la Xina. Organitza una visita a la fàbrica amb el nostre equip i confirma el punt de trobada abans de viatjar.",
+    "profileName": "De cop d'ull",
+    "profileBody": "Fabricant d'abrasius revestits a Xianning, Hubei: tres línies de producte subministrades a set regions de destí, amb una cobertura de grans de 40 a 5000.",
+    "ctaTitle": "Busques un subministrador d'abrasius de confiança?",
+    "cta1": "Demana un pressupost d'engrossista",
+    "cta2": "Contacta per WhatsApp"
+  },
+  "factory": {
+    "h1": "Dins el taller de MoTai",
+    "sub": "Els detalls importen. A cada etapa.",
+    "intro": "Revisa el tall, els controls de mostra i els detalls d'empacament de la teva comanda. El material en vídeo del producte es mostra juntament amb il·lustracions del procés.",
+    "videoLabel": "Mira el material en vídeo del producte",
+    "stepsTitle": "Fabricació i preparació de la comanda",
+    "stepsIntro": "Des del teu requisit fins a una comanda confirmada.",
+    "st1t": "Tall i transformació",
+    "st1b": "Confirma la forma, les dimensions i el gran necessaris abans d'organitzar el procés de transformació.",
+    "st2t": "Controls de mostra",
+    "st2b": "Revisa la superfície abrasiva, el suport i l'ajust d'una mostra abans d'acordar l'especificació de la comanda.",
+    "st3t": "OEM i empacament",
+    "st3b": "Confirma al pressupost les quantitats d'empacament, les etiquetes, el marcatge de caixons i l'artwork de marca pròpia.",
+    "st4t": "Preparació de l'expedició",
+    "st4b": "Acorda la llista d'empacament, els requisits de paleter i els detalls de destí abans de l'expedició.",
+    "imgNote": "Els terminis i les quantitats d'empacament s'acorden al pressupost abans que comenci la producció.",
+    "galleryTitle": "On es fabrica la teva comanda",
+    "galleryIntro": "El mateix taller gestiona el tall, els controls de mostra i l'empacament de cada comanda confirmada.",
+    "gallery1Title": "Taller de producció",
+    "gallery1Text": "La zona de treball coberta on es transformen, controlen i embalen les cintes i els discs abrasius.",
+    "gallery2Title": "Planta i rampa de càrrega",
+    "gallery2Text": "Els caixons es paletitzen i es carregen al lloc abans de l'expedició cap a la teva regió de destí.",
+    "gallery3Title": "Estoc acabat",
+    "gallery3Text": "Les cintes i els discs s'embalen segons l'especificació confirmada — gran, mida i llista d'empacament.",
+    "galleryNote": "Les fotografies les facilita la fàbrica com a orientació general; no són imatges pròpies de cap comanda. Els vídeos de producte hi apareixeran un cop publicat el material.",
+    "qcTitle": "Punts de control de qualitat",
+    "qcIntro": "El que verifiquem abans que una comanda surti de la planta de producció.",
+    "qc1t": "Superfície i gran",
+    "qc1b": "Coherència de la superfície abrasiva respecte al grau confirmat.",
+    "qc2t": "Suport i ajust",
+    "qc2b": "Tipus de suport, pes i tolerància dimensional de les cintes i dels discs acabats.",
+    "qc3t": "Empacament i marcatge",
+    "qc3b": "Les quantitats d'empacament, les etiquetes, el marcatge de caixons i l'artwork de marca pròpia coincideixen amb la comanda confirmada.",
+    "ctaTitle": "Prefereixes parlar-ne?",
+    "ctaSub": "Busques un subministrador d'abrasius de confiança?",
+    "cta1": "Demana un pressupost d'engrossista",
+    "cta2": "Contacta per WhatsApp"
+  },
+  "oem": {
+    "h1": "El teu nom al caixó",
+    "sub": "Envia'ns els requisits de producte, d'empacament i de marca; tornarem amb una revisió de viabilitat OEM.",
+    "briefTitle": "Munta una consulta al voltant de la teva marca",
+    "briefEyebrow": "Porta el teu brief",
+    "briefBody": "Tracta el logotip i l'artwork de les etiquetes, el format d'empacament, les mides del producte, els graus de gran i l'ús previst. La disponibilitat OEM, les quantitats mínimes, els requisits d'artwork i els calendaris estan subjectes a una revisió de viabilitat i a un pressupost confirmat.",
+    "itemsTitle": "Un brief clar obté una resposta útil",
+    "i1": "Producte i especificació",
+    "i2": "Mides i barreja de grans",
+    "i3": "Artwork i etiquetes",
+    "i4": "Format d'empacament",
+    "i5": "Quantitats objectiu",
+    "i6": "Destí i calendaris",
+    "itemNote": "Inclou els requisits i els fitxers de referència a la consulta.",
+    "procTitle": "De la consulta al subministrament",
+    "pr1t": "La teva consulta",
+    "pr1b": "Explica'ns la teva aplicació i els teus requisits.",
+    "pr2t": "Revisió de l'especificació",
+    "pr2b": "Revisa mides, graus, suport i empacament.",
+    "pr3t": "Oferta",
+    "pr3b": "Confirma les condicions comercials i el calendari.",
+    "pr4t": "Aprovació de la mostra",
+    "pr4b": "Avalua les mostres acordades abans d'aprobació.",
+    "pr5t": "Producció",
+    "pr5b": "Avança segons l'especificació confirmada.",
+    "pr6t": "Expedició",
+    "pr6b": "Coordina l'empacament i el destí.",
+    "cta1": "Demana un pressupost d'engrossista",
+    "cta2": "Contacta per WhatsApp"
+  },
+  "applications": {
+    "h1": "Abrasius per al teu sector",
+    "sub": "La superfície marca l'especificació.",
+    "intro": "Sis camps d'aplicació. Especifica el material, la màquina i l'acabat desitjat — i nosaltres ajustem l'abrasiu.",
+    "ctaNote": "Algunes imatges són il·lustracions d'aplicació generades per IA, no fotografies de la fàbrica de MoTai ni de clients.",
+    "sampleNote": "Quan demanis un pressupost, indica'ns el sector, el país, l'especificació del producte i el volum estimat de la comanda.",
+    "reqTitle": "Productes recomanats",
+    "reqNote": "Famílies de productes orientatives per a aquest camp. Confirma mides, grans i quantitats amb el pressupost.",
+    "specTitle": "Consells d'especificació",
+    "faqTitle": "Preguntes freqüents",
+    "faqs": [
+      {
+        "q": "Amb quin gran he de començar?",
+        "a": "Comença pel material de la peça, la profunditat del defecte i l'acabat desitjat — un grau gruixut elimina material ràpid, i després vas baixant de gran i revisant la superfície a cada etapa."
+      },
+      {
+        "q": "Puc barrejar grans en una comanda?",
+        "a": "Sí — llista els grans i la quantitat per grau; la disponibilitat i el termini arribaran amb l'oferta."
+      }
+    ],
+    "ctaTitle": "Especificant per al teu sector?",
+    "cta1": "Demana un pressupost d'engrossista",
+    "cta2": "Contacta per WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Millor informació. Millor selecció.",
+    "sub": "Recursos pràctics per al comprador per tractar especificacions d'abrasius.",
+    "updatedLabel": "Actualitzat",
+    "governance": "Les guies les redacta i revisa l'equip tècnic de MoTai Abrasives, i es tornen a revisar quan canvien les especificacions de producte."
+  },
+  "blogSidebar": {
+    "eyebrow": "Productes",
+    "productsTitle": "Productes destacats",
+    "productsSub": "Mides, grans i suports documentats per producte; el MOQ i la disponibilitat arriben amb el pressupost.",
+    "viewAll": "Tots els productes",
+    "servicesEyebrow": "Serveis",
+    "servicesTitle": "De la selecció al subministrament",
+    "servicesSub": "Subministrament d'engrossista, empacament de marca pròpia i controls de procés, confirmats al pressupost.",
+    "serviceWholesale": "Pressupost d'engrossista",
+    "serviceOem": "OEM i marca pròpia",
+    "serviceManufacturing": "Fabricació",
+    "serviceApplications": "Aplicacions",
+    "latestEyebrow": "Notícies",
+    "latestTitle": "Darreres guies",
+    "catDiscs": "Discs d'escarrassament",
+    "catBelts": "Cintes abrasives",
+    "catFlap": "Discs de flocs"
+  },
+  "blogPager": {
+    "navLabel": "Pàgines del blog",
+    "prev": "Anterior",
+    "next": "Següent",
+    "pageOf": "Pàgina {page} de {total}",
+    "range": "Guies {from}–{to} de {count}"
+  },
+  "article": {
+    "watchTitle": "Mira",
+    "discuss": "Parla de la teva especificació",
+    "catSelection": "Guia de selecció",
+    "catBuyer": "Recursos per al comprador",
+    "catNotes": "Notes d'aplicació",
+    "catOem": "Guia OEM",
+    "reviewedBy": "Revisat per l'equip tècnic de MoTai Abrasives",
+    "lastReviewed": "Darrera revisió {date}",
+    "tocTitle": "En aquesta pàgina"
+  },
+  "contact": {
+    "h1": "Inicia una conversa d'engrossista",
+    "sub": "Obtén preus d'engrossista directes de fàbrica per als productes abrasius.",
+    "directTitle": "Una conversa. Una millor especificació.",
+    "directBody": "Comparteix el producte, la quantitat i l'aplicació. Revisarem els teus requisits i et ajudarem a donar el següent pas.",
+    "facTitle": "Trobeu-nos a Hubei",
+    "facBody": "No. 88, avinguda de Yuli, poble de Junshui, comtat de Tongcheng, Xianning, Hubei, la Xina.",
+    "facNote": "Confirma la direcció exacta de la visita amb el nostre equip abans de viatjar.",
+    "visit": "Organitza una visita a la fàbrica",
+    "formTitle": "Consulta d'engrossista / OEM",
+    "formNote": "Aquest formulari demana una oferta i no fa una comanda. Les consultes van a la safeta de vendes; les especificacions i les condicions comercials es decideixen amb l'oferta.",
+    "btn": "Obre el formulari de consulta ↗"
+  },
+  "privacy": {
+    "h1": "Les dades de la teva consulta",
+    "sub": "Com utilitza aquest lloc web els detalls que decides compartir.",
+    "s1t": "Informació recollida",
+    "s1b": "Dades de contacte, informació de l'empresa, requisits de producte i adjunts enviats amb una consulta. Un identificadors de connexió en forma de hash limita els enviaments abusius.",
+    "s2t": "Finalitat i accés",
+    "s2b": "Els detalls s'utilitzen per revisar i respondre les consultes, per preparar pressupostos i per coordinar les converses comercials sol·licitades. L'accés és restringit als administradors autoritzats.",
+    "s3t": "Emmagatzematge i conservació",
+    "s3b": "Els registres es guarden amb el nostre proveïdor d'allotjament. Les dades es poden processar fora del teu país. La conservació segueix les obligacions de seguiment comercial i de conservació de registres; pots sol·licitar-ne la conservació o la supressió específica.",
+    "s4t": "Les teves opcions",
+    "s4b": "Contacta amb motai-01@motaiabrasive.com per sol·licitar accés, correcció o supressió. Si us plau, no enviïs dades personals sensibles ni fitxers confidencials sense relació amb la consulta.",
+    "s5t": "Cookies, enllaços i analítica",
+    "s5b": "El navegador desa dades de gestió de la llista de consultes. Aquest lloc utilitza Google Analytics (gtag.js) per a estadístiques d'ús anonimitzades; Google desa una cookie i processa les dades segons les seves condicions de processament — pots excloure't a https://support.google.com/analytics/answer/3452785. Els enllaços externs de WhatsApp, maps i xarxes socials estan governats per les seves pròpies polítiques de privadesa.",
+    "updated": "Darrera actualització: 4 de novembre de 2026"
+  },
+  "terms": {
+    "h1": "Condicions d'ús",
+    "sub": "Les condicions que s'apliquen quan utilitzes aquest lloc i envies una consulta a MoTai.",
+    "s1t": "Ús d'aquest lloc",
+    "s1b": "Aquest lloc és un servei d'informació i consulta B2B operat per Hubei MoTai Abrasives Materials Co., Ltd. El contingut — especificacions de producte, guies, glossari i blog — s'ofereix de bona fe com a informació general. En utilitzar el lloc acceptes aquestes condicions; si no les accepts, no enviïs cap consulta.",
+    "s2t": "Les consultes no són ofertes",
+    "s2b": "L'enviament del formulari de consulta és una invitació a negociar, no una comanda vinculadora. MoTai no està obligat a respondre a cada consulta, i no hi ha cap compra compromesa fins que un pressupost no es confirma per escrit per les dues parts.",
+    "s3t": "Pressupostos i preus",
+    "s3b": "Tots els preus són de pressupost. Els pressupostos llisten mides, grans, empacament, termes comercials i períodes de validesa; les xifres finals es decideixen a l'especificació confirmada i estan subjectes a la variació de la matèria primera i del flet.",
+    "s4t": "Propietat intel·lectual",
+    "s4b": "El contingut del lloc, les descripcions de producte, els gràfics i la marca MoTai són propietat de MoTai Abrasives i no es poden reproduir amb finalitat comercial. Les referències de tercers (per exemple, les fonts de models) són només d'orientació per al comprador i no impliquen cap endossament.",
+    "s5t": "Responsabilitat i llei aplicable",
+    "s5b": "MoTai no respon de les decisions preses en confiar en la informació general d'aquest lloc. Aquestes condicions es regeixen per la legislació de la República Popular de la Xina; els litigis es resolen segons el contracte de compravenda entre les parts.",
+    "updated": "Darrera actualització: 3 de novembre de 2026"
+  },
+  "shipping": {
+    "h1": "Política d'enviament i de devolucions",
+    "sub": "Com surten les comandes de la nostra fàbrica, i per què els abrasius fets sota especificació no es poden tornar.",
+    "shipTitle": "Política d'enviament",
+    "shipSub": "Producció, empacament i expedició es confirmen junts amb el teu pressupost.",
+    "s1t": "Producció i termini",
+    "s1b": "Les cintes, els discs i els discs de flocs abrasius es transformen a l'especificació de la teva comanda. El termini compta des de la data en què el pressupost es confirma per escrit, no des de la data en què es va enviar la consulta. Les referències estàndard com GXK-51, XZ-330 i GPC71 són articles d'estoc fets; les mides, els grans i l'empacament OEM a mida es fabriquen sota comanda.",
+    "s2t": "Empacament i marcatge",
+    "s2b": "Els productes s'embalen en caixons d'exportació amb la quantitat d'empacament acordada, les etiquetes, el marcatge de caixons i — pels programes OEM — l'artwork i el codi de bars. La configuració de palets es confirma amb la llista d'empacament. La fumigació o el marcatge ISPM 15 s'apliquen quan el país de destí ho requereix.",
+    "s3t": "Mode d'enviament i Incoterms",
+    "s3b": "L'enviament s'organitza per mar (FCL o LCL) o per aire, segons el volum i el destí. El terme comercial figura al teu pressupost — EXW, FOB, CIF, CFR, DAP i DDP són els més habituals. Pots designar el teu propi transportista; aleshores MoTai facilita la llista d'empacament, el marcatge de caixons i els documents de transport.",
+    "s4t": "Documents i duana",
+    "s4b": "Cada enviament va acompanyat d'una factura comercial, d'una llista d'empacament i del document de transport. Els codis HS i els certificats d'origen es faciliten per al teu desdoanament. Els drets d'importació, els impostos i el desdoanament al país de destí són a càrrec del comprador, llevat que el pressupost indiqui DDP.",
+    "s5t": "Expedició i lliurament",
+    "s5b": "Enviem el partit d'embarcació amb el número de vaixell o de vol un cop reservat el contenidor o la remesa. El temps de lliurament depèn del port o de l'aeroport de destí i de l'horari del transportista. Els retards causats per la congestió portuària, la inspecció duanera o la força major no depenen de nosaltres i es notifiquen en assabentar-se'n.",
+    "retTitle": "Política de devolucions",
+    "retSub": "Els nostres productes es fabriquen a l'especificació acordada, i per això les devolucions es limiten a casos definits.",
+    "r1t": "Productes fets sota especificació",
+    "r1b": "Els productes abrasius es fabriquen a la teva especificació de gran, mida, suport i empacament. Com que no es poden revendre com a estoc estàndard, les comandes a mida confirmades no són retornables ni reemborsables, llevat que els productes no coincideixin amb l'especificació confirmada.",
+    "r2t": "Articles d'estoc i danys en el transport",
+    "r2b": "Els articles de referència estàndard no utilitzats i en el seu empacament original d'exportació es poden tornar cas per cas, un cop confirmem el motiu i les condicions de devolució. Els productes danyats en el transport s'han de notificar amb fotografies en un termini de 7 dies des del lliurament, i les reclamacions sobre el seguro del transportista es gestionen a través del transportista designat.",
+    "r3t": "Reclamacions, inspecció i crèdits",
+    "r3b": "Tota reclamació ha de referir-se al número de comanda, a la llista d'empacament i al marcatge de caixons afectat. Quan s'acrediti un defecte després de la inspecció, substituïm la quantitat afectada o emitim una nota de crèdit sobre la factura. Les reclamacions presentades més de 30 dies després del lliurament no es poden acceptar.",
+    "r4t": "Reemborsaments",
+    "r4b": "Quan s'acredita un crèdit, qualsevol reemborsament es fa al pagador original pel mateix mètode utilitzat per a la comanda, un cop completada o anul·lada la devolució o la substitució. Les comissions bancàries de les transferències internacionals corren a càrrec de la part que rep el reemborsament.",
+    "r5t": "Duana, drets i compliment de la normativa",
+    "r5b": "Les devolucions sol·licitades per restriccions d'importació, drets, inspecció duanera o normes locals de compliment es tracten com a disputes comercials, no com a reclamacions de producte, perquè els productes es van lliurar conforme a l'especificació confirmada.",
+    "updated": "Darrera actualització: 6 de novembre de 2026",
+    "related": "Les condicions d'enviament i de devolucions formen part de cada pressupost. Si un pressupost indica condicions diferents, preval el del pressupost.",
+    "contact": "Dubtes sobre un enviament o una reclamació: contacta amb el nostre equip comercial amb el teu número de comanda i el marcatge de caixons corresponent."
+  },
+  "quotePage": {
+    "h1": "Inicia una conversa d'engrossista",
+    "sub": "Obtén preus d'engrossista directes de fàbrica per als productes abrasius.",
+    "note": "Aquest formulari demana un pressupost i no fa una comanda. Els camps marcats amb * són obligatoris.",
+    "sec1": "El teu negoci",
+    "f1": "Nom complet *",
+    "f2": "Nom de l'empresa *",
+    "f3": "País *",
+    "f4": "Correu de negocis *",
+    "f5": "Número de WhatsApp",
+    "f6": "Tipus de negoci *",
+    "opt1": "Importador",
+    "opt2": "Distribuidor",
+    "opt3": "Engrossista",
+    "opt4": "Marca OEM",
+    "opt5": "Comprador industrial",
+    "opt6": "Altres",
+    "sec2": "Requisits de producte",
+    "f7": "Categoria de producte",
+    "f8": "Model / referència de producte",
+    "f9": "Mida",
+    "f10": "Mida de gra",
+    "f11": "Material",
+    "f12": "Quantitat",
+    "f13": "Empacament",
+    "f14": "País de destí *",
+    "f15": "Requisits OEM",
+    "f16": "Missatge addicional *",
+    "consent": "Accepto la Política de Privadesa, les Condicions d'Ús i la utilització dels meus dades per respondre a aquesta consulta. *",
+    "btn1": "Demana un pressupost d'engrossista",
+    "btn2": "Envia la consulta per WhatsApp",
+    "goNote": "El formulari s'obre al nostre sistema de consultes d'engrossista amb el context del teu producte omplert prèviament."
+  },
+  "clients": {
+    "h1": "On van els enviaments de MoTai",
+    "sub": "De Hubei a set regions de destí.",
+    "note": "Les logotips de clients i els testimonis de sota són llocs reservats — substitueix src/data/trust.json per materials publicats.",
+    "placeholderBadge": "Lloc reservat il·lustratiu",
+    "statsTitle": "El subministrament de cop d'ull",
+    "statsNote": "Les certificacions mostrades són llocs reservats pendent de certificats publicats."
+  },
+  "glossary": {
+    "h1": "Glossari d'abrasius",
+    "sub": "Els termes darrere de cada especificació de cinta, disc o floc.",
+    "note": "Definicions estàndard de la indústria per als consumibles d'abrasius; el grau i els detalls del suport per a una comanda es decideixen amb el pressupost.",
+    "reviewNote": "Els termes els revisa l'equip tècnic de MoTai Abrasives — darrera revisió 3 de novembre de 2026."
+  },
+  "trust": {
+    "regions": "Regions de destí",
+    "productLines": "Línies de producte",
+    "gritRange": "Cobertura de grans"
+  },
+  "video": {
+    "title": "Mira",
+    "cutting": {
+      "title": "Material en vídeo de tall i transformació",
+      "desc": "Material en vídeo del producte: tall i transformació de làmina abrasiva."
+    },
+    "sample": {
+      "title": "Material en vídeo de controls de mostra",
+      "desc": "Material en vídeo del producte: controls de superfície, suport i ajust a una mostra."
+    },
+    "oem": {
+      "title": "Material en vídeo d'empacament OEM",
+      "desc": "Quantitats d'empacament, etiquetes, marcatge de caixons i artwork de marca pròpia."
+    },
+    "flap": {
+      "title": "Material en vídeo de la gamma de discs de flocs",
+      "desc": "Discs de flocs amb suport de plàstic, d'acer i de fibra de vidre en ús."
+    }
+  },
+  "wa": {
+    "generic": "Hola MoTai, vull un pressupost d'engrossista de productes abrasius.",
+    "product": "Hola MoTai, vull un pressupost d'engrossista de {name} ({grits}).",
+    "model": "Hola MoTai, vull un pressupost d'engrossista del model de cinta abrasiva {model}.",
+    "disc": "Hola MoTai, vull un pressupost d'engrossista de {title}.",
+    "sample": "Hola MoTai, vull demanar una mostra de {name} per avaluar-la.",
+    "factory": "Hola MoTai, voldria tractar detalls de fabricació i de qualitat amb el vostre equip.",
+    "oem": "Hola MoTai, voldria tractar un programa d'abrasius OEM / marca pròpia.",
+    "contact": "Hola MoTai, voldria construir la meva propera comanda d'abrasius amb el vostre equip."
+  },
+  "floatChat": {
+    "trigger": "Xat",
+    "open": "Obre el xat",
+    "close": "Tanca",
+    "title": "MoTai — Xat en directe",
+    "status": "Responem per WhatsApp, normalment en 24 hores.",
+    "greeting": "Hola! Com et podem ajudar amb la teva comanda d'abrasius? — equip de vendes de MoTai",
+    "placeholder": "Escriu el teu missatge…",
+    "send": "Envia per WhatsApp",
+    "note": "Aquesta vista prèvia no té servidor en directe: en enviar-lo s'obre WhatsApp amb el teu missatge omplert prèviament. Les respostes continuen a la conversa de WhatsApp."
+  },
+  "location": {
+    "imgAlt": "Edifici de la fàbrica de MoTai a Xianning, Hubei",
+    "imgCaption": "Fàbrica de MoTai — Xianning, Hubei, la Xina",
+    "mapTitle": "Ubicació de la fàbrica de MoTai a Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Abans de començar",
+    "moq": {
+      "q": "Quina és la comanda mínima?",
+      "a": "El MOQ arribarà amb l'oferta, juntament amb la disponibilitat i les condicions."
+    },
+    "oem": {
+      "q": "Doneu suport a OEM i a marca pròpia?",
+      "a": "Sí. El logotip, les etiquetes, les mides a mida i l'empacament es revisen per viabilitat i després es confirmen amb la teva oferta."
+    },
+    "sizes": {
+      "q": "Quines mides i quins grans subministreu?",
+      "a": "Cintes en mides documentades de 533 × 75 a 2200 × 1330 mm (grans 40–800); discs de 3–6 polzades (grans 60–5000). Els requisits a mida es revisen amb el nostre equip."
+    },
+    "samples": {
+      "q": "Puc obtenir una mostra primer?",
+      "a": "Sí. Demana una mostra i el nostre equip comercial confirmarà la disponibilitat, les tarifes i les condicions d'enviament."
+    },
+    "lead": {
+      "q": "Quins són els terminis de lliurament?",
+      "a": "El termini depèn de l'especificació i de la quantitat, i es confirma al teu pressupost."
+    },
+    "packaging": {
+      "q": "Com s'embalen els productes?",
+      "a": "Les quantitats d'empacament, les etiquetes, el marcatge de caixons i l'artwork de marca pròpia es confirmen amb el pressupost."
+    },
+    "payment": {
+      "q": "Quines condicions de pagament ofereixes?",
+      "a": "Les condicions de pagament formen part del pressupost confirmat i de la conversa comercial."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Quines especificacions he de facilitar?",
+      "a": "Comparteix les dimensions, el gran, la peça, la màquina i l'acabat desitjats. Utilitza les opcions documentades quan siguin disponibles; altres requisits es revisaran amb el nostre equip."
+    },
+    "oem": {
+      "q": "Com demano empacament OEM?",
+      "a": "Inclou els teus requisits de marca i d'empacament a la consulta. Els detalls es revisaran i es confirmaran amb el teu pressupost."
+    },
+    "order": {
+      "q": "Fer una consulta de pressupost és fer una comanda?",
+      "a": "No. El formulari inicia una consulta d'engrossista. Les especificacions del producte, la disponibilitat i les condicions comercials es confirmen abans d'acordar una comanda."
+    },
+    "sample": {
+      "q": "Puc provar una mostra abans de comprometre'm amb una comanda completa?",
+      "a": "Sí. Les mostres de referències estàndard es poden obtenir per avaluació sota petició; la disponibilitat de mostres i les condicions de transport es confirmen amb el teu pressupost."
+    },
+    "lead": {
+      "q": "Amb quanta antelació he de fer una comanda de producció?",
+      "a": "El termini compta des de la data en què el pressupost es confirma per escrit i depèn de la mida, el gran i l'empacament de la comanda. Les referències d'estoc s'envien més ràpid."
+    },
+    "beltSize": {
+      "q": "Es poden subministrar cintes abrasives en mida o longitud no estàndard?",
+      "a": "L'amplada i la longitud de la cinta més enllà de les mides documentades es pressuposten cas per cas; transformar a una mida a mida afecta tant el termini com la comanda mínima."
+    },
+    "beltJoint": {
+      "q": "Quina construcció de junta i de vores fan servir aquestes cintes?",
+      "a": "El tipus de junta i el tractament de les vores s'especifiquen per referència. Indica la màquina, la càrrega i l'acabat desitjats perquè la construcció adequada es pressuposti al teu pressupost."
+    },
+    "discBacking": {
+      "q": "Com escull entre discs de velcro, PSA i de malla?",
+      "a": "El velcro va bé quan es canvia de gran sovint, el PSA va bé per a plaques planes i temps de treball llargs, i els discs de malla van bé per a la extracció de pols. La nostra guia de selecció els compara els tres costat a costat."
+    },
+    "discDust": {
+      "q": "Aquests discs són compatibles amb l'extracció de pols?",
+      "a": "Els discs de malla i perforats estan dissenyats per a l'extracció; els discs sòlids es poden subministrar perforats sota petició. Indica la teva instal·lació d'extracció i la placa que fas servir."
+    },
+    "hookLoop": {
+      "q": "Els discs de velcro encaixaran a la meva placa base existent?",
+      "a": "El diàmetre i el patró de forats han de coincidir amb la placa. Confirma el model de llistadora i el diàmetre de la placa a la consulta perquè es pressuposti el disc adequat."
+    },
+    "psa": {
+      "q": "Els discs PSA funcionen amb qualsevol placa base?",
+      "a": "Els discs PSA necessiten una placa de cautxú plana, neta i del diàmetre corresponent. Confirma el diàmetre de la placa i el model de màquina amb la teva sol·licitud de pressupost."
+    },
+    "mesh": {
+      "q": "Quant temps dura un disc abrasiu de malla?",
+      "a": "Els discs de malla resisteixen l'encepament en treballs amb molta pols, cosa que sol allargar-ne la vida útil en comparació amb els discs de paper sòlid. La vida real depèn del material, la pressió i el gran."
+    },
+    "solid": {
+      "q": "Es poden subministrar discs sòlids perforats per a l'extracció de pols?",
+      "a": "Sí — el patró de perforació s'acorda amb el pressupost. Indica la placa i la instal·lació d'extracció perquè es pressuposti el patró correcte."
+    }
+  },
+  "relArticles": {
+    "title": "Articles relacionats",
+    "sub": "Orientació per al comprador d'aquesta família de productes, de l'equip tècnic de MoTai.",
+    "readMore": "Llegeix l'article",
+    "faqTitle": "Preguntes freqüents",
+    "faqSub": "Preguntes habituals que fan els compradors abans de comandar aquest producte."
+  },
+  "regions": {
+    "europe": {
+      "title": "Europa",
+      "body": "Anota la mida, el gran, el suport i els fitxers de producte; proporciona el port de destí i l'idioma de les etiquetes."
+    },
+    "na": {
+      "title": "Amèrica del Nord",
+      "body": "Indica el sistema de mides en polzades o mètric, el tipus de fixació i les quantitats d'empacament; el codi postal o port de destí i el mode de transport."
+    },
+    "sa": {
+      "title": "Amèrica del Sud",
+      "body": "Mida, quantitats de grans barrejats i idioma de les etiquetes dels caixons; el port de destí i els documents de l'importador."
+    },
+    "me": {
+      "title": "Orient Mitjà",
+      "body": "Material, gran i empacament segur contra la humitat; el port de destí i les condicions del pressupost."
+    },
+    "africa": {
+      "title": "Àfrica",
+      "body": "Compatibilitat de màquina, mides necessàries i quantitats d'empacament; port de destí, marcatge de caixons i preferència de transport."
+    },
+    "oceania": {
+      "title": "Oceania",
+      "body": "Mida, suport, empacament i codi postal o port de destí; requisits d'importació i d'empacament."
+    },
+    "asia": {
+      "title": "Àsia",
+      "body": "Especificació de màquina, gamma de grans i barreja de comanda; ciutat o port de lliurament i etiquetes en l'idioma local."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Fabricació de metall",
+      "intro": "Mescla de soldadures, desbastat i preparació de superfícies de metall.",
+      "uses": "Mescla de soldadures · Desbastat · Preparació de superfície",
+      "products": "Cintes abrasives"
+    },
+    "wood": {
+      "title": "Fusteria i mobiliari",
+      "intro": "Panells, fabricació de mobiliari i preparació de superfícies abans de llaçar.",
+      "uses": "Panells · Mobiliari · Preparació prèvia a llaçar",
+      "products": "Cintes abrasives · Discs d'escarrassament"
+    },
+    "auto": {
+      "title": "Reparació automòbil",
+      "intro": "Escarrassat de llaç, preparació prèvia a l'espreig i refinat automobilístic.",
+      "uses": "Llaç de carrosseria · Previ a l'espreig · Refinat",
+      "products": "Discs d'escarrassament"
+    },
+    "stainless": {
+      "title": "Acabat d'acer inoxidable",
+      "intro": "Acabats de ratllat, transicions de superfície i fabricació d'acer inoxidable.",
+      "uses": "Ratllat · Transicions · Fabricació",
+      "products": "Cintes abrasives"
+    },
+    "ship": {
+      "title": "Construcció i reparació naval",
+      "intro": "Esmolat de metall, eliminació de oxids i preparació de superfícies per al manteniment marítim.",
+      "uses": "Esmolat · Eliminació d'oxids · Preparació marina",
+      "products": "Cintes abrasives"
+    },
+    "surface": {
+      "title": "Preparació de superfícies industrials",
+      "intro": "Tractament i treballs de manteniment de superfícies industrials.",
+      "uses": "Tractament de superfície · Manteniment",
+      "products": "Discs d'escarrassament"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Velcro o PSA: tria el suport adequat",
+      "intro": "El sistema de fixació és tan important com el gran. Ajusta'l a la placa abans de comandar.",
+      "start": {
+        "title": "Comença pel requisit",
+        "body": "Els discs de velcro es munta sobre una placa amb cara de ganxet compatible i van bé per a operacions on es canvia de gran sovint. Els discs PSA depenen d'un adhesiu de pressió i necessiten una placa neta i plana. Els dos sistemes no són intercanviables."
+      },
+      "compat": {
+        "title": "Confirma la compatibilitat",
+        "body": "Confirma el diàmetre de la placa, el tipus de suport i la instal·lació d'extracció de pols. Un disc sense forats no connecta amb un patró d'extracció basat en forats, i els discs de malla oberta necessiten una placa i un sistema d'extracció compatibles."
+      },
+      "enquiry": {
+        "title": "Prepara la teva consulta",
+        "body": "Inclou el diàmetre del disc, el suport, la llista de grans, la quantitat per gran i el material de la peça. Demana una avaluació de mostra abans d'aprovar una comanda de producció."
+      }
+    },
+    "beltChecklist": {
+      "title": "Què incloure en una consulta de cintes abrasives",
+      "intro": "Una especificació clara ajuda el teu subministrador a revisar l'ajust i a preparar un pressupost útil.",
+      "start": {
+        "title": "Comença pel requisit",
+        "body": "Indica la longitud i l'amplada de la cinta en mil·límetres. Especifica el model de màquina — fulla d'especificacions de la màquina o una foto de l'etiqueta d'una cinta vella ajuda."
+      },
+      "compat": {
+        "title": "Confirma la compatibilitat",
+        "body": "Afegeix el material de la peça, l'abrasiu preferit, el gran, el requisit de suport i els requisits de la junta. Evita triar un producte només pel color de la cinta."
+      },
+      "enquiry": {
+        "title": "Prepara la teva consulta",
+        "body": "Llista les quantitats per mida i per gran, les preferències d'empacament, el destí i la data de lliurament desitjada. El pressupost final confirma l'especificació, la disponibilitat, les condicions de pagament i les condicions de transport."
+      }
+    },
+    "gritSequence": {
+      "title": "Planificar una seqüència de grans per a la preparació de superfícies",
+      "intro": "Comença per la peça i l'acabat desitjat, i avals la seqüència sobre una mostra.",
+      "start": {
+        "title": "Comença pel requisit",
+        "body": "Els grans gruixuts eliminen material ràpid i deixen arrosseguets profunds; els grans fins refinen la superfície. El punt de partida depèn del substrat, la profunditat del defecte i el requisit d'eliminació."
+      },
+      "compat": {
+        "title": "Confirma la compatibilitat",
+        "body": "Baixa els grans per ordre i inspecciona la peça a cada etapa. Saltar grans deixa arrosseguets difícils d'eliminar, i netejar entre etapes evita la contaminació pels grans gruixuts."
+      },
+      "enquiry": {
+        "title": "Prepara la teva consulta",
+        "body": "La numeració de grans no és intercanviable entre sistemes de graus. Confirma l'estàndard de graus, el tipus d'abrasiu i la disponibilitat al pressupost, i segueix les instruccions de seguretat de la màquina i de l'abrasiu."
+      }
+    },
+    "dustCollection": {
+      "title": "Extracció de pols i compatibilitat de plaques, explicat",
+      "intro": "Els patrons de forats, els discs de malla oberta i les plaques han de coincidir amb la teva instal·lació d'extracció.",
+      "start": {
+        "title": "Comença pel requisit",
+        "body": "Identifica la teva placa: número de forats, diàmetre i si s'utilitza amb extracció de pols. Els discs sense forats i els de malla oberta es comporten de manera diferent als discs multiformats."
+      },
+      "compat": {
+        "title": "Confirma la compatibilitat",
+        "body": "Coincideix el patró de forats del disc amb les obertures de la placa. Els discs de malla oberta necessiten una placa compatible i un sistema d'extracció en funcionament; els discs PSA necessiten una cara de placa neta."
+      },
+      "enquiry": {
+        "title": "Prepara la teva consulta",
+        "body": "Llista el model de placa, el nombre de forats, la mida del disc i la llista de grans, a més de la teva instal·lació d'extracció de pols. Confirma el comportament de la mostra abans d'una comanda de producció."
+      }
+    },
+    "oemPackaging": {
+      "title": "Etiquetes i empacament OEM: què preparar",
+      "intro": "Un brief complet manté l'artwork, les etiquetes i els caixons en calendari.",
+      "start": {
+        "title": "Comença pel requisit",
+        "body": "Prepara el logotip i l'artwork de les etiquetes, el format d'empacament objectiu (bosses internes, caixons), l'idioma de les etiquetes i les normes d'etiquetatge del país de destí."
+      },
+      "compat": {
+        "title": "Confirma la compatibilitat",
+        "body": "La disponibilitat OEM, les quantitats mínimes, els requisits d'artwork i els calendaris estan subjectes a una revisió de viabilitat i a un pressupost confirmat."
+      },
+      "enquiry": {
+        "title": "Prepara la teva consulta",
+        "body": "Adjunta l'artwork, especifica les quantitats d'empacament i el marcatge de caixons, i indica el destí i el calendari. L'aprovació de la mostra arriba abans de la producció."
+      }
+    },
+    "gritStandards": {
+      "title": "Estàndards de grans: FEPA, ANSI i què vol dir la teva llista",
+      "intro": "Els sistemes de graus no són intercanviables — especifica l'estàndard en cada consulta.",
+      "start": {
+        "title": "Comença pel requisit",
+        "body": "La FEPA (ISO 848) i l'escala ANSI més antiga numeren mides similars de manera diferent; un P120 i un gran 120 no són sempre el mateix. Especifica l'estàndard segons el qual compres."
+      },
+      "compat": {
+        "title": "Confirma la compatibilitat",
+        "body": "Confirma l'estàndard de graus, el tipus d'abrasiu i la disponibilitat per grau al pressupost. No barregis sistemes de graus en una mateixa llista de grans."
+      },
+      "enquiry": {
+        "title": "Prepara la teva consulta",
+        "body": "Indica l'estàndard (per exemple, FEPA P60–P800), la quantitat per grau i el destí. Confirma la llista final de graus amb el pressupost abans de comandar."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "El gran abrasiu més habitual en cintes i discs: resistent, fàcil de treballar, adequat per a metall, fusta i acabats generals."
+    },
+    "ansi": {
+      "def": "Numeració de grans del Nord d'Amèrica, d'origen. Els grans de mida similar difereixen de l'escala FEPA — especifica l'estàndard en cada consulta."
+    },
+    "backing-cloth": {
+      "def": "Llona de cotó/tela que porta el gran abrasiu a les cintes. El pes (per exemple, pes X) determina la flexibilitat i la capacitat de càrrega."
+    },
+    "backing-poly": {
+      "def": "Suport de llona de poli-cotó: equilibri de resistència i flexibilitat per a cintes d'ús general."
+    },
+    "belt": {
+      "def": "Un bucle continu de gran abrasiu sobre un suport de llona, que s'utilitza en màquines de cinta per a esmolat, acabat i desbastat."
+    },
+    "blend": {
+      "def": "Suavitzar una soldadura perquè es fusioni amb el metall envoltant — normalment un primer passat amb un disc de flocs o una cinta, i després grans més fins."
+    },
+    "closed": {
+      "def": "Distribució de grans estancada amb poc espai obert; la cinta resisteix l'ensorrament en treballs durs."
+    },
+    "debur": {
+      "def": "Eliminar bavos i petites prominències que deixen el tall, el serració o l'esmolat."
+    },
+    "dust": {
+      "def": "Eliminar la pols abrasiva a la peça — a través de les obertures de la placa, discs de malla oberta o extracció local."
+    },
+    "flap": {
+      "def": "Un disc de flocs abrasius superposats, flexible, per a esmolat, mescla i acabat amb esmols angulars."
+    },
+    "fepa": {
+      "def": "L'escala de graus ISO 848 (FEPA) en notació P (per exemple, P120). L'escala per defecte en el comerç europeu i internacional."
+    },
+    "grit": {
+      "def": "La mida nominal del gran d'un abrasiu: a més gran el número, més fi. Cintes 40–800; discs 60–5000."
+    },
+    "hookloop": {
+      "def": "Sistema de fixació de ganxet i velcro per a discs: el disc s'encaixa a una placa amb cara de ganxet."
+    },
+    "mesh": {
+      "def": "Els discs de malla oberta tenen finestres retallades perquè hi passi la pols, i necessiten una placa i una extracció compatibles."
+    },
+    "moq": {
+      "def": "Comanda mínima — arriba amb l'oferta, juntament amb la disponibilitat i les condicions."
+    },
+    "oem": {
+      "def": "Fabricació per al constructor original (OEM) / marca pròpia: els nostres productes amb la teva marca, etiquetes i empacament."
+    },
+    "psa": {
+      "def": "Adhesiu de pressió com a suport: el disc s'adhereix directament a una placa compatible."
+    },
+    "disc": {
+      "def": "Un cercle abrasiu pla o de flocs muntat sobre una placa, per a escarrassat i acabat."
+    },
+    "sic": {
+      "def": "Gran de carburs de silici: molt dur i agut, adequat per a vidre, ceràmica i metalls no ferrosos."
+    },
+    "prep": {
+      "def": "Posar una superfície a punt per a recobriment o acabat: eliminar oxids, farciment o acabat antic fins a obtenir un perfil coherent."
+    },
+    "wetdry": {
+      "def": "Graus que es mantenen freds i resisteixen l'ensorrament en ús sec o humit/sec; confirma l'adequació amb el pressupost."
+    },
+    "xweight": {
+      "def": "Un suport de tela de pes mitjà per a cintes d'ús general: fort i alhora flexible."
+    },
+    "zirconia": {
+      "def": "Gran d'alumina de zirconi: resistent i agressiu per a l'esmolat de metall, el desbastat i l'acabat d'acer."
+    },
+    "pad": {
+      "def": "La placa de suport sobre la qual reposa el disc: el diàmetre de la placa, la cara (ganxet) i el patró d'obertures han de coincidir amb el disc."
+    }
+  },
+  "footer": {
+    "blurb": "Consumibles d'abrasius per a compradors industrials, distribuidors i marques pròpies.",
+    "products": "Productes",
+    "explore": "Descobreix MoTai",
+    "connect": "Posem-nos en contacte",
+    "aboutUs": "Qui som",
+    "mfgQ": "Fabricació i qualitat",
+    "oemPl": "OEM i marca pròpia",
+    "newsB": "Notícies i blog",
+    "privacy": "Política de privadesa",
+    "terms": "Condicions d'ús",
+    "shipping": "Enviament i devolucions",
+    "contactUs": "Contacte"
+  },
+  "tdk": {
+    "home": {
+      "title": "Fabricant d'abrasius i subministrador d'abrasius industrials | MoTai",
+      "description": "Fabricant professional d'abrasius a la Xina que subministra cintes abrasives, discs d'escarrassament i discs de flocs. Engrossista directe de fàbrica, personalització OEM i solucions d'abrasius industrials per a distribuidors i compradors globals.",
+      "keywords": "fabricant d'abrasius, subministrador d'abrasius, abrasius industrials, cintes abrasives, discs d'escarrassament, discs de flocs, fabricant de cintes abrasives, abrasius a l'engrossista"
+    },
+    "about": {
+      "title": "Sobre MoTai — Fabricant d'abrasius i fàbrica a Hubei, la Xina",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. és un fabricant d'abrasius revestits a Xianning, Hubei: cintes abrasives, discs d'escarrassament i discs de flocs amb OEM, mides a mida, subministrament en grans quantitats i exportació.",
+      "keywords": "fabricant d'abrasius Xina, subministrador d'abrasius Xina, fàbrica d'abrasius, fabricant d'abrasius revestits, exportador de productes abrasius, subministrador d'abrasius B2B"
+    },
+    "factory": {
+      "title": "Fabricació d'abrasius i control de qualitat — Fàbrica de MoTai a Hubei",
+      "description": "Dins el taller d'abrasius de MoTai: transformació i tall, controls de mostra, control de qualitat i empacament OEM per a cintes abrasives, discs d'escarrassament i discs de flocs.",
+      "keywords": "fabricació d'abrasius, fàbrica d'abrasius amb control de qualitat, transformació d'abrasius, empacament d'abrasius OEM"
+    },
+    "oem": {
+      "title": "Fabricant OEM d'abrasius i marca pròpia | MoTai",
+      "description": "Fabricació OEM i de marca pròpia d'abrasius: el teu logotip, les etiquetes, les mides i l'empacament sobre les cintes, els discs i els discs de flocs de MoTai, pressupostats segons la teva especificació confirmada.",
+      "keywords": "fabricant OEM d'abrasius, abrasius de marca pròpia, productes abrasius a mida, subministrador d'abrasius OEM"
+    },
+    "applications": {
+      "title": "Abrasius industrials per aplicació — Metall, fusta, automoció i més",
+      "description": "Ajusta les cintes abrasives, els discs d'escarrassament i els discs de flocs de MoTai a la teva aplicació: esmolat de metall, escarrassat de fusta, carrosseria, acabat d'acer inoxidable, construcció naval i preparació de superfícies.",
+      "keywords": "aplicacions d'abrasius, esmolat de metall, escarrassat de fusta, preparació de superfícies, preparació industrial de superfícies"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Abrasius per a la fabricació de metall — Esmolat i desbastat | MoTai",
+        "description": "Abrasius per a la fabricació de metall: esmolat de metall, desbastat i esmolat de cordons de soldadura amb les cintes abrasives, els discs de malla i els discs de flocs de MoTai.",
+        "keywords": "abrasius per a fabricació de metall, esmolat de metall, desbastat de metall, esmolat de cordons de soldadura"
+      },
+      "woodworking": {
+        "title": "Abrasius per a fusteria i escarrassat de cinta ampla | MoTai",
+        "description": "Abrasius per a fusteria i mobiliari: escarrassat de cinta ampla, escarrassat de panells i MDF amb les cintes i els discs d'escarrassament de MoTai.",
+        "keywords": "abrasius per a fusteria, escarrassat de cinta ampla, escarrassat de fusta, escarrassat de mobiliari"
+      },
+      "automotive": {
+        "title": "Escarrassat per a reparació automòbil — Carrosseria i pintura | MoTai",
+        "description": "Abrasius per a la reparació automòbil: escarrassat de carrosseria, escarrassat de pintura i primsers amb els discs PSA i de velcro de MoTai.",
+        "keywords": "abrasius per a automoció, escarrassat de carrosseria, escarrassat de pintura de cotxe, escarrassat de primers"
+      },
+      "stainless-steel": {
+        "title": "Abrasius per a l'acabat i el polit d'acer inoxidable | MoTai",
+        "description": "Abrasius per a l'acer inoxidable: polit de metall, esmolat de superfície i acabat amb els discs de flocs i les cintes de MoTai.",
+        "keywords": "acabat d'acer inoxidable, polit de metall, esmolat de superfície, abrasiu per a acer inoxidable"
+      },
+      "shipbuilding": {
+        "title": "Abrasius per a la construcció naval — Fulla d'acer i eliminació d'oxids | MoTai",
+        "description": "Abrasius de grans serveis per a la construcció naval: esmolat de fulla d'acer, eliminació d'oxids i preparació industrial de superfícies amb les cintes i els discs de flocs de MoTai.",
+        "keywords": "abrasius per a construcció naval, esmolat de fulla d'acer, eliminació d'oxids, esmolat de grans serveis"
+      },
+      "surface-preparation": {
+        "title": "Abrasius per a la preparació industrial de superfícies i l'esmolat | MoTai",
+        "description": "Solucions d'abrasius industrials per a la preparació de superfícies, l'acabat de superfície i l'esmolat de grans serveis a les cintes, els discs i els discs de flocs de MoTai.",
+        "keywords": "preparació de superfícies, acabat de superfície, esmolat industrial, solucions d'abrasius"
+      }
+    },
+    "blog": {
+      "title": "Guies per al comprador d'abrasius i estàndards de grans | Coneixements de MoTai",
+      "description": "Recursos pràctics per al comprador d'abrasius: selecció del suport del disc, llistes de control de consultes de cintes, seqüenciació de grans, extracció de pols i estàndards de grans (FEPA/ANSI).",
+      "keywords": "guia per al comprador d'abrasius, selecció de grans, glossari d'abrasius, estàndards de grans FEPA ANSI"
+    },
+    "contact": {
+      "title": "Contacta amb MoTai — Subministrador d'abrasius a la Xina",
+      "description": "Arriba al subministrador d'abrasius de MoTai a Xianning, Hubei: telèfon, correu electrònic i WhatsApp per a consultes d'engrossista i d'abrasius OEM, a més de visites a la fàbrica.",
+      "keywords": "contacte amb el subministrador d'abrasius, consulta d'engrossista d'abrasius, fabricant d'abrasius a la Xina"
+    },
+    "privacy": {
+      "title": "Política de privadesa",
+      "description": "Com utilitza MoTai Abrasives la informació de les consultes: recollida, finalitat, emmagatzematge, les teves opcions i gestió de cookies.",
+      "keywords": "política de privadesa, MoTai"
+    },
+    "terms": {
+      "title": "Condicions d'ús — MoTai Abrasives",
+      "description": "Condicions d'aquest lloc B2B d'abrasius: gestió de les consultes, preus basats en pressupost, propietat intel·lectual i llei aplicable.",
+      "keywords": [
+        "condicions d'ús",
+        "MoTai",
+        "subministrador d'abrasius B2B"
+      ]
+    },
+    "shipping": {
+      "title": "Política d'enviament i devolucions — Comandes d'abrasius | MoTai",
+      "description": "Política d'enviament i de devolucions d'abrasius de MoTai: termini de producció, empacament d'exportació, Incoterms, documents duaners, expedició i quan es poden tornar o acreditar productes fets sota especificació.",
+      "keywords": "política d'enviament d'abrasius, política de devolucions d'abrasius, lliurament d'abrasius a l'engrossista, Incoterms d'abrasius, empacament d'exportació, condicions d'enviament"
+    },
+    "quote": {
+      "title": "Demana un pressupost d'engrossista d'abrasius | MoTai",
+      "description": "Prepara la teva consulta d'engrossista o OEM d'abrasius: dades de l'empresa a més de producte, mida, gran, quantitat i destí. Subministrament d'abrasius en grans quantitats pressupostat directament de fàbrica.",
+      "keywords": "pressupost d'engrossista d'abrasius, subministrament d'abrasius en grans quantitats, consulta d'abrasius OEM, abrasius a l'engrossista"
+    },
+    "clients": {
+      "title": "Exportador de productes abrasius — Subministrament global des de Hubei, la Xina | MoTai",
+      "description": "MoTai exporta cintes abrasives, discs d'escarrassament i discs de flocs a set regions de destí: Europa, Amèriques, Orient Mitjà, Àfrica, Oceania i Àsia.",
+      "keywords": "exportador de productes abrasius, exportació d'abrasius, subministrament global d'abrasius, subministrador d'abrasius industrials"
+    },
+    "glossary": {
+      "title": "Glossari d'abrasius — Gran, suport, termes de discs",
+      "description": "24 termes abrasius definits: gran FEPA, suports, velcro, PSA, malla oberta, desbastat i més.",
+      "keywords": "glossari d'abrasius, estàndards de grans, termes d'abrasius"
+    },
+    "product": {
+      "title": "MoTai {name} — Engrossista i OEM d'abrasius",
+      "description": "MoTai {name} ({material}, {category}): {desc} Mides: {sizes}. Grans: {grits}. Engrossista directe de fàbrica i subministrament OEM.",
+      "keywords": "{name}, fabricant de {category}, abrasiu de {material}, abrasius a l'engrossista, abrasius OEM"
+    },
+    "model": {
+      "title": "Cinta abrasiva {model} — MoTai",
+      "description": "Model de referència de cinta abrasiva {model} de la gamma MoTai — amplada, longitud, gran i suport es decideixen amb el pressupost. Engrossista i subministrament OEM.",
+      "keywords": "cinta abrasiva {model}, referència de model de cinta abrasiva, cintes abrasives a l'engrossista"
+    },
+    "disc": {
+      "title": "MoTai {title} — Engrossista i OEM",
+      "description": "Variant de disc MoTai {title}: la gamma de grans, el diàmetre i la fixació es decideixen amb el pressupost. Engrossista directe de fàbrica i OEM.",
+      "keywords": "discs d'escarrassament, disc de velcro, disc PSA, disc de malla, discs d'escarrassament a l'engrossista"
+    },
+    "flap": {
+      "title": "MoTai {name} — Fabricant de discs de flocs",
+      "description": "MoTai {name}: un disc de flocs abrasiu amb suport de {backing} per a l'esmolat, la mescla i l'acabat de metall. Engrossista i subministrament OEM.",
+      "keywords": "discs de flocs, disc de flocs amb suport de {backing}, disc de flocs de zirconi, fabricant de discs de flocs, discs de flocs a l'engrossista"
+    },
+    "colt": {
+      "belts": {
+        "title": "Fabricant de cintes abrasives i subministrador d'engrossista | MoTai",
+        "description": "Cintes abrasives amples i industrials de 533×75 a 2200×1330 mm, grans 40–800, en òxid d'alumini, zirconi i carburs de silici — amb els models de referència GXK-51, XZ-330, GPC71 i més. Engrossista directe de fàbrica i OEM.",
+        "keywords": "cintes abrasives, cintes d'escarrassament, cintes d'escarrassament industrials, cintes abrasives amples, cintes d'escarrassament amples, cintes d'escarrassament de fusta, cintes d'escarrassament de metall, cintes abrasives d'òxid d'alumini, cintes abrasives de zirconi, cintes abrasives de carburs de silici, fabricant de cintes abrasives, subministrador de cintes abrasives, cintes abrasives a l'engrossista, cinta abrasiva GXK-51, cinta abrasiva XZ-330, cinta abrasiva GPC71, cinta abrasiva Y399, cinta abrasiva Y999, cinta abrasiva 533x75, cinta abrasiva 610x100, cinta abrasiva 1520x630, cinta abrasiva 2200x1330"
+      },
+      "discs": {
+        "title": "Fabricant de discs d'escarrassament — PSA, velcro i malla | MoTai",
+        "description": "Discs d'escarrassament de velcro, PSA, de malla i sense forats, de 3 a 6 polzades, grans 60–5000, per a carrosseria, fusta i acabat de metall. Engrossista directe de fàbrica i OEM.",
+        "keywords": "discs d'escarrassament, discs abrasius d'escarrassament, discs d'escarrassament de velcro, discs d'escarrassament PSA, discs d'escarrassament de malla, discs d'escarrassament de no teixit, discs d'escarrassament sense pols, discs d'escarrassament perforats, discs d'escarrassament amb forats, discs d'escarrassament de 5 polzades, discs d'escarrassament de 6 polzades, fabricant de discs d'escarrassament, discs d'escarrassament a l'engrossista"
+      },
+      "flap": {
+        "title": "Fabricant de discs de flocs — Zirconi i òxid d'alumini | MoTai",
+        "description": "Discs de flocs abrasius MoTai amb suport de plàstic, d'acer i de fibra de vidre, en zirconi i òxid d'alumini, per a l'esmolat, el desbastat i l'acabat de metall. Engrossista i subministrament OEM.",
+        "keywords": "discs de flocs, discs de flocs abrasius, discs de flocs de zirconi, discs de flocs d'òxid d'alumini, discs de flocs amb suport de fibra de vidre, discs de flocs amb suport de plàstic, discs de flocs amb suport d'acer, discs de flocs de 100 mm, discs de flocs de 115 mm, discs de flocs de 125 mm, discs de flocs de 150 mm, discs de flocs de 180 mm, fabricant de discs de flocs, subministrador de discs de flocs, discs de flocs a l'engrossista"
+      },
+      "all": {
+        "title": "Productes abrasius a l'engrossista — Cintes, discs i discs de flocs | MoTai",
+        "description": "El catàleg complet d'abrasius de MoTai: cintes abrasives industrials, discs d'escarrassament i discs de flocs per a distribuidors, importadors, engrossistes i marques OEM. Engrossista directe de fàbrica, personalització i exportació des de Hubei, la Xina.",
+        "keywords": "productes abrasius, productes abrasius a l'engrossista, abrasius industrials, abrasius revestits, abrasius a l'engrossista, fàbrica de productes abrasius, exportador de productes abrasius, subministrador d'abrasius a la Xina, fabricant OEM d'abrasius, abrasius de marca pròpia, productes abrasius a mida, subministrament d'abrasius en grans quantitats, fàbrica d'abrasius, eines abrasives, materials abrasius, productes d'escarrassament, productes d'acabat de superfícies, paper d'escarrassar, fulls de paper d'escarrassar, paper d'escarrassar rodó, paper d'escarrassar a l'engrossista, placa d'escarrassar, placa d'escarrassar de velcro, placa d'escarrassar de 5 polzades, placa d'escarrassar de 6 polzades, esmoló de flocs de no teixit, tela abrasiva, escombraixa industrial de roler"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Contacte ràpid",
+    "whatsapp": "WhatsApp",
+    "quote": "Demana un pressupost"
+  }
+}

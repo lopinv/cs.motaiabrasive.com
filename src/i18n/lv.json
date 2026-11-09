@@ -1,0 +1,1001 @@
+{
+  "code": "lv",
+  "name": "Latviešu",
+  "codeLabel": "LV",
+  "htmlLang": "lv",
+  "ogLocale": "lv_LV",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Hurtuma izpētes",
+    "oemNote": "OEM iepakojuma izpētes",
+    "size": "Izmērs",
+    "grit": "Slīfeņa frūzene",
+    "quantity": "Pieprasītais daudzums",
+    "requirements": "Specifikācijas un iepakojuma prasības",
+    "requirementsPh": "Pastāstiet mums par savu lietojumu, specifikācijām un piegādes prasībām.",
+    "material": "Slīfeņa materiāls",
+    "backing": "Bāze / piestiprināšana",
+    "availability": "Pieejamība, minimālais pasūtījuma apjoms un komercnosacījumi ir pakļauti apstiprināšanai piedāvājumā.",
+    "sampleNote": "Norādiet, kurus produktus un slīfeņa frūzenes vēlaties izvērtēt. Mūsu pārdošanas komanda apstiprinās paraugu pieejamību, par paraugiem sauktās maksas un piegādes nosacījumus.",
+    "gritsRange": "Frūzu diapazons",
+    "holes": " caurumi",
+    "diameter": "Ievēlamais diametrs",
+    "titleSuffix": "MoTai Abrasives"
+  },
+  "nav": {
+    "language": "Valoda",
+    "home": "Sākums",
+    "about": "Par mums",
+    "manufacturing": "Ražošana",
+    "oem": "OEM pakalpojumi",
+    "news": "Jaunumi",
+    "knowledge": "Zināšanas",
+    "contact": "Sazinieties ar mums",
+    "products": "Produkti"
+  },
+  "colt": {
+    "belts": {
+      "title": "Slīfeņlentes — hurts un OEM",
+      "desc": "Sarkanas slīfeņlentes dokumentētos izmēros no 533 × 75 mm līdz 2200 × 1330 mm. Frūzes 40–800. Pieejamas atsauces modeļi. Laipni lūdzam izpētīt par hurts un OEM.",
+      "label": "Slīfeņlentes"
+    },
+    "discs": {
+      "title": "Slīfeņu diski — hurts un OEM",
+      "desc": "PSA, āķainie, atvērtā tīkla un bez caurumiem slīfeņu diski no 3 līdz 6 collām. Frūzes 60–5000. Laipni lūdzam izpētīt par hurts un OEM.",
+      "label": "Slīfeņu diski"
+    },
+    "flap": {
+      "title": "MOTAI lāpītes diski",
+      "desc": "Lāpītes diski ar plastmasas, tērauda un stiklšķiedera bāzi metāla slīpēšanai, saslīdēšanai un nobeidzešanai. Specifikācijas, bultu piegādi un OEM iepakojumu apstipriniet ar piedāvājumu.",
+      "label": "Lāpītes diski"
+    },
+    "all": {
+      "title": "Visi produkti",
+      "desc": "Pilnais MoTai slīfeņu katalogs: slīfeņlentes, slīfeņu diski un lāpītes diski rūpniecības pirkējiem, distribūtiem un sava zīmola ražotājiem.",
+      "label": "Visi produkti"
+    }
+  },
+  "cta": {
+    "quote": "Pietikt par hurtuma piedāvājumu",
+    "quoteArrow": "↗",
+    "sample": "Pietikt ar paraugu",
+    "whatsapp": "WhatsApp izpēte",
+    "waChat": "Sazinieties ar mums pa WhatsApp",
+    "explore": "Skatiet lāpītes disku klāstu",
+    "viewAll": "Skatīt visus produktus",
+    "discuss": "Apspriest savu specifikāciju",
+    "oemQuote": "Pietikt par OEM piedāvājumu"
+  },
+  "home": {
+    "eyebrow": "Slīfeņi no MoTai rūpnīcas Hubei provincei",
+    "heroTitle": "Profesionāls slīfeņu ražotājs un piegādātājs",
+    "heroSub": "Rūpnīcā tieši slīfeņlentes, slīfeņu diski un lāpītes diski rūpniecības pirkējiem, distribūtiem un sava zīmola ražotājiem — no Hubei, Ķīnas, līdz jūsu tirgum.",
+    "cta1": "Pietikt par hurtuma piedāvājumu",
+    "cta2": "Sarunājieties ar mūsu komandu pa WhatsApp",
+    "builtTitle": "Izvēlieties lietojumu. Atrodot slīfeņu.",
+    "builtSub": "Izvēlieties lietojumu, pēc tam atbilstošu slīfeņu: lentes, diski vai lāpītes diski.",
+    "featuredTitle": "Katalogā",
+    "featuredSub": "Izmēri un frūzes dokumentētas katalogā; minimālais pasūtījuma apjoms un pieejamība iet kopā ar piedāvājumu.",
+    "partnerTitle": "Piegādes puse jūsu slīfeņu pasūtījumam",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. piegādā slīfeņa materiālus koka apstrādei, metāla apstrādei un auto lietojumiem — ar OEM un sava zīmola programmām distribūtiem un rūpniecības pirkējiem visā pasaulē.",
+    "partnerCta": "Uzziniet par MoTai",
+    "valuesTitle": "Seši veidi, kā B2B pirkēji strādā ar mums",
+    "valuesSub": "Seši iemesli, kāpēc importētāji un OEM zīmoli strādā ar mums.",
+    "v1t": "Tieši no rūpnīcas",
+    "v1b": "Piedāvātājas puses cenas un laicīgie nosacījumi bez starpniekiem.",
+    "v2t": "OEM un sava zīmola",
+    "v2b": "Jūsu logotips, etiķetes un iepakojums apstiprinātajās specifikācijās.",
+    "v3t": "Pieprasītie izmēri un frūzes",
+    "v3b": "Dokumentēti izmēri un frūzes 40–800 lentēm, 60–5000 diskam.",
+    "v4t": "Parauga pārbaudes un QC",
+    "v4b": "Pirms pasūtījuma izpēti parauga virsmu, bāzi un piemērotību.",
+    "v5t": "Bultu piegāde",
+    "v5b": "Sekmīgs kārbiņu apjoms un sīkums sarakstā.",
+    "v6t": "Eksporta programma",
+    "v6b": "Kārbiņu apzīmējumi, etiķetes un galamērķa dokumenti.",
+    "processTitle": "Soļi starp jūsu specifikāciju un pasūtījumu",
+    "processSub": "Četri soļi starp jūsu prasībām un apstiprinātu pasūtījumu.",
+    "p1t": "Griešana un pārraides",
+    "p1b": "Apstipriniet nepieciešamo formu, izmērus un slīfeņa frūzeni, pirms pārraides procesa organizēšanas.",
+    "p2t": "Parauga pārbaudes",
+    "p2b": "Pirms pasūtījuma specifikācijas apstiprināšanas izpēti parauga slīfeņa virsmu, bāzi un piemērotību.",
+    "p3t": "OEM un iepakojums",
+    "p3b": "Apstipriniet iepakojuma apjomu, etiķetes, kārbiņu apzīmējumus un sava zīmola mākslas darbu kopā ar piedāvājumu.",
+    "p4t": "Sūtījuma sagatavošana",
+    "p4b": "Pirms sūtīšanas vienojiet sarakstu, palešu prasības un galamērķa detaļas.",
+    "oemTitle": "Jūsu vārds uz kārbiņas",
+    "oemSub": "Dalieties ar produkta, iepakojuma un zīmola prasībām nākamajai slīfeņu sērijai.",
+    "oemCta": "Izmēģiniet OEM pakalpojumus",
+    "faqTitle": "Pirms sākuma",
+    "faqSub": "Atbildes uz visbiežākajām pirkēju jautājumām.",
+    "regionsTitle": "No Hubei līdz jūsu tirgum",
+    "regionsSub": "Globāla piegāde, organizēta pēc galamērķa reģioniem.",
+    "regionsNote": "Minimālais pasūtījuma apjoms un laicīgie nosacījumi apstiprināti jūsu piedāvājumā. Maršruti ir aptuveni; pieejamību un nosacījumus apstiprina piedāvājumā.",
+    "factoryTitle": "Atrodiet mūs Hubei",
+    "factoryBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Vienojieties ar rūpnīcas vizīti un apstipriniet tikšanās vietu ar mūsu komandu.",
+    "finalTitle": "Meklējat uzticamu slīfeņu piegādātāju?",
+    "finalBody": "Dalieties ar produkta, apjoma un lietojumu — mēs izpētīsim jūsu prasības un sagatavosim atbilstošu piedāvājumu.",
+    "finalCta1": "Pietikt par hurtuma piedāvājumu",
+    "finalCta2": "Sazinieties ar mums pa WhatsApp",
+    "beltsShowTitle": "Slīfeņlentes pēc modeļiem",
+    "beltsShowSub": "Atsauce modeļi diskusijai ar mūsu komandu.",
+    "articlesEyebrow": "Pirkēja resursi",
+    "articlesTitle": "Orbāzes no mūsu tehniskās komandas",
+    "articlesSub": "Kā pirkēji izvēlas slīfeņa frūzenu, bāzi un iepakojumu pirms pasūtījuma.",
+    "articlesCta": "Pārlūkot visas orbāzes",
+    "prepTitle": "Sagatavojiet savu hurtuma izpēti",
+    "prepSub": "Izmēri, slīfeņa frūze un apjoms paliek pārējais darbs.",
+    "prepDim": "Izmēri",
+    "prepDimText": "Izmērs vai modeļa atsauce milimetros.",
+    "prepGrit": "Slīfeņa frūze",
+    "prepGritText": "Vajadīgā klase vai nobeidze.",
+    "prepQty": "Apjoms",
+    "prepQtyText": "Apsolītais apjoms un iepakojums."
+  },
+  "purchasing": {
+    "eyebrow1": "Iepirkuma vadlīnijas",
+    "title1": "Sagatavojiet savu hurtuma izpēti",
+    "body1": "Dalieties ar vajadzīgajiem izmēriem, slīfeņa frūzeni, darba gabalu, mašīnu un paredzēto nobeidzi. Izmantojiet augstāk dokumentētos variantus, ja tie ir pieejami; pārējās prasības apspriedīsim ar mūsu komandu.",
+    "dl1t": "Apjoms un galamērķis",
+    "dl1b": "Pastāstiet mums apjomu, iepakojuma vajadzības un piegādes galamērķi.",
+    "dl2t": "Piegāde un nosacījumi",
+    "dl2b": "Pieejamība, minimālais pasūtījuma apjoms un komercnosacījumi ir pakļauti apstiprināšanai piedāvājumā.",
+    "dl3t": "OEM iepakojuma izpētes",
+    "dl3b": "Zīmola veidošana, etiķetes, pieprasītie izmēri vai iepakojuma prasības.",
+    "eyebrow2": "Kā izpētīt",
+    "title2": "No produkta izvēles līdz piedāvājumam",
+    "s1t": "Izvēlieties produktu",
+    "s1b": "Izvēlieties produktu vai modeli un vajadzīgo specifikāciju.",
+    "s2t": "Dalieties ar saviem prasījumiem",
+    "s2b": "Dalieties ar apjomu, lietojumu un iepakojuma prasībām.",
+    "s3t": "Pārskatiet savu piedāvājumu",
+    "s3b": "Apstipriniet galīgo specifikāciju un komercnosacījumus kopā ar mūsu komandu."
+  },
+  "modelPage": {
+    "eyebrow": "Slīfeņlentes · Atsauce modelis",
+    "refLabel": "Modeļa atsauce",
+    "familyLabel": "Kategorija",
+    "dimsLabel": "Pabeigtās lentas izmēri — norādiet platumu × garumu mm",
+    "dimsPlaceholder": "piem. 533 × 75 mm",
+    "gritLabel": "Vajadīgā slīfeņa frūze — norādiet vajadzīgo klasi vai nobeidzi",
+    "gritPlaceholder": "piem. P60",
+    "qtyLabel": "Pieprasītais apjoms",
+    "specLabel": "Specifikācijas un iepakojuma prasības",
+    "discussion": "Diskusijas ar šo modeli ar mūsu komandu, izmantojot darba gabalu, mašīnu un vajadzīgo nobeidzi.",
+    "grainBacking": "Grūze un bāze — apstipriniet izejvielu ražotāju un precīzu klasi.",
+    "disclaimer": "Modeļa ģimenes detaļas ir izvēles atsaucei; MoTai piegādes specifikācija, pieejamība un piemērotība tiek noteiktas jūsu piedāvājumā."
+  },
+  "discPage": {
+    "eyebrow": "Slīfeņu diski · Dokumentēts variants",
+    "gritsNote": "Frūzu opcijas šim variantam"
+  },
+  "flapPage": {
+    "eyebrow": "Lāpītes diski · Bāzes variants",
+    "color": "Krāsa",
+    "gritNote": "P40–P60 un P80–P120 ir vispārīgi izvēles piemēri, nevis apstiprināts MoTai piegādes diapazons."
+  },
+  "productPage": {
+    "specTitle": "Specifikācijas",
+    "howTitle": "Kā norādīt savu pasūtījumu",
+    "howBody": "Iekļaujiet lentas vai diska izmēru, frūzu sarakstu, mašīnas modeli, darba gabala materiālu un daudzumu. Skaidra specifikācija palīdz mums pārskatīt piemērotību un sagatavot noderīgu piedāvājumu — neizvēlieties produktu, balstoties tikai uz krāsu.",
+    "faqTitle": "Pirkēju jautājumi"
+  },
+  "about": {
+    "h1": "Uzņēmums aiz slīfeņu sērijas",
+    "sub": "Apsvērts pieeja slīfeņu piegādei.",
+    "bizTitle": "Mūsu bizness",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. piegādā slīfeņu materiālus koka apstrādei, metāla apstrādei un auto lietojumiem. Dokumentēti klāsti ietver bez caurumiem slīfeņu diskus, tīkla slīfeņu diskus un sarkanās slīfeņlentes. Mēs saņemam izpētes no importētājiem, distribūtiem, hurtotājiem un rūpniecības pirkējiem — produkta, bāzes, izmēra, klases, apjoma un piegādes prasības.",
+    "matTitle": "Uzņēmuma materiāli",
+    "matBody": "Izpētiet uzņēmuma fonu un kontaktus mūsu brošūrā.",
+    "globalTitle": "No Hubei līdz jūsu tirgum",
+    "globalSub": "Globāla piegāde, organizēta pēc galamērķa reģioniem.",
+    "facTitle": "Atrodiet mūs Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China. Vienojieties par rūpnīcas vizīti ar mūsu komandu un apstipriniet tikšanās vietu pirms ceļojuma.",
+    "profileName": "Pāris sekunžu laikā",
+    "profileBody": "Klājotos slīfeņu ražotājs Xianning, Hubei: trīs produktu līnijas, piegādātas 7 galamērķa reģioniem, ar frūzu klājumu no 40 līdz 5000.",
+    "ctaTitle": "Meklējat uzticamu slīfeņu piegādātāju?",
+    "cta1": "Pietikt par hurtuma piedāvājumu",
+    "cta2": "Sazinieties ar mums pa WhatsApp"
+  },
+  "factory": {
+    "h1": "Iekš MoTai darbnīcas",
+    "sub": "Detaļas ir svarīgi. Katrā posmā.",
+    "intro": "Pārskatiet sava pasūtījuma griešanas, paraugu pārbaudes un iepakojuma detaļas. Produktu video tiek rādīti kopā ar procesa ilustrācijām.",
+    "videoLabel": "Skatīt produktu video",
+    "stepsTitle": "Ražošana un pasūtījuma sagatavošana",
+    "stepsIntro": "No jūsu prasības līdz apstiprinātam pasūtījumam.",
+    "st1t": "Griešana un pārraides",
+    "st1b": "Apstipriniet nepieciešamo formu, izmērus un frūzi pirms pārraides procesa organizēšanas.",
+    "st2t": "Paraugu pārbaudes",
+    "st2b": "Pirms pasūtījuma specifikācijas apstiprināšanas izpētiet parauga slīfeņu virsmu, bāzi un piemērotību.",
+    "st3t": "OEM un iepakojums",
+    "st3b": "Apstipriniet iepakojuma daudzumu, etiķetes, kārbiņu apzīmējumus un sava zīmola mākslas darbu kopā ar piedāvājumu.",
+    "st4t": "Sūtījuma sagatavošana",
+    "st4b": "Pirms izsūtīšanas vienojiet sarakstu, palešu prasības un galamērķa detaļas.",
+    "imgNote": "Termiņi un iepakojuma daudzumi tiek vienoti piedāvājumā pirms darba sākuma.",
+    "galleryTitle": "Kur jūsu pasūtījums tiek izgatavots",
+    "galleryIntro": "Tā pati darbnīca veic griešanu, paraugu pārbaudes un iepakojumu katram apstiprinātajam pasūtījumam.",
+    "gallery1Title": "Ražošanas darbnīca",
+    "gallery1Text": "Segtā darba platums, kur slīfeņlentes un diski tiek pārveidoti, pārbaudīti un iepakoti.",
+    "gallery2Title": "Uzņēmums un ielādes zona",
+    "gallery2Text": "Kārbiņas tiek pakotas uz palešu un ielādētas uz vietas pirms izsūtīšanas jūsu galamērķa reģionam.",
+    "gallery3Title": "Pabeigti rezerves",
+    "gallery3Text": "Lentes un diski tiek iepakoti atbilstoši apstiprinātajai specifikācijai — frūze, izmērs un saraksts.",
+    "galleryNote": "Foto tiek sniegti no rūpnīcas ģenerālorientācijai; tie nav pasūtījuma konkrēti attēli. Produktu video parādās šeit, tiklīdz materiāli tiek publicēti.",
+    "qcTitle": "Kvalitātes pārbaudes punkti",
+    "qcIntro": "Ko mēs pārbaudām, pirms pasūtījums pamet rūpnīcas grīdu.",
+    "qc1t": "Virsmas un frūzes",
+    "qc1b": "Slīfeņu virsmas konsekvence atbilstoši apstiprinātajai klasei.",
+    "qc2t": "Bāze un piemērotība",
+    "qc2b": "Bāzes veids, svars un izmēru tolerance pabeigtām lentēm un diskam.",
+    "qc3t": "Iepakojums un apzīmējumi",
+    "qc3b": "Iepakojuma daudzumi, etiķetes, kārbiņu apzīmējumi un sava zīmola mākslas darbi atbilst apstiprinātajam pasūtījumam.",
+    "ctaTitle": "Vēlaties to izrunāt?",
+    "ctaSub": "Meklējat uzticamu slīfeņu piegādātāju?",
+    "cta1": "Pietikt par hurtuma piedāvājumu",
+    "cta2": "Sazinieties ar mums pa WhatsApp"
+  },
+  "oem": {
+    "h1": "Jūsu vārds uz kārbiņas",
+    "sub": "Nosūtiet sava produkta, iepakojuma un zīmola prasības; mēs atgriezīsimies ar OEM realizamības pārbaudi.",
+    "briefTitle": "Veidojiet izpēti ap savu zīmolu",
+    "briefEyebrow": "Liest savu aprakstu",
+    "briefBody": "Diskusijiet par sava logotipa un etiķešu mākslas darbiem, iepakojuma formātu, produktu izmēriem, frūzu klasēm un paredzēto lietojumu. OEM pieejamība, minimālie daudzumi, mākslas darbu prasības un laika grafiki ir pakļauti realizamības pārskatam un apstiprinātam piedāvājumam.",
+    "itemsTitle": "Skaidrs apraksts iegūst noderīgu atbildi",
+    "i1": "Produkts un specifikācija",
+    "i2": "Izmēra un frūzu mikss",
+    "i3": "Mākslas darbi un etiķetes",
+    "i4": "Iepakojuma formāts",
+    "i5": "Mērķa daudzumi",
+    "i6": "Galamērķis un laicība",
+    "itemNote": "Iekļaujiet sava prasības un atsauces failus izpētē.",
+    "procTitle": "No izpētes līdz piegādei",
+    "pr1t": "Jūsu izpēte",
+    "pr1b": "Pastāstiet mums par sava lietojumu un prasībām.",
+    "pr2t": "Specifikācijas pārbaude",
+    "pr2b": "Pārskatiet izmērus, klases, bāzi un iepakojumu.",
+    "pr3t": "Piedāvājums",
+    "pr3b": "Apstipriniet komercnosacījumus un plānu.",
+    "pr4t": "Parauga apstiprināšana",
+    "pr4b": "Izvērtējiet vienojotos paraugus pirms apstiprināšanas.",
+    "pr5t": "Darbs",
+    "pr5b": "Turpiniet atbilstoši apstiprinātajai specifikācijai.",
+    "pr6t": "Izsūtīšana",
+    "pr6b": "Sakārtojiet iepakojumu un galamērķi.",
+    "cta1": "Pietikt par hurtuma piedāvājumu",
+    "cta2": "Sazinieties ar mums pa WhatsApp"
+  },
+  "applications": {
+    "h1": "Slīfeņi jūsu nozarei",
+    "sub": "Virsmas nosaka specifikāciju.",
+    "intro": "Seši lietojuma lauki. Norādiet materiālu, mašīnu un vajadzīgo nobeidzi — mēs atradīsim atbilstošo slīfeņu.",
+    "ctaNote": "Daži attēli ir AI-ģenerētas lietojuma ilustrācijas, nevis MoTai rūpnīcas vai klientu foto.",
+    "sampleNote": "Pastāstiet mums sava nozari, valsti, produkta specifikāciju un sagatāto pasūtījuma apjomu, pieprasot piedāvājumu.",
+    "reqTitle": "Ieteicamie produkti",
+    "reqNote": "Indikāta produktu ģimenes šim laukam. Apstipriniet izmērus, frūzes un daudzumus piedāvājumā.",
+    "specTitle": "Specifikācijas padomi",
+    "faqTitle": "Biežākie jautājumi",
+    "faqs": [
+      {
+        "q": "Ar kuru frūzi sāk?",
+        "a": "Sāciet ar darba gabala materiālu, defekta dziļumu un vajadzīgo nobeidzi — rupjāka frūze ātri noņem materiālu, pēc tam samaziniet frūzes un pārbaudiet virsmu katrā posmā."
+      },
+      {
+        "q": "Vai var maisīt frūzes vienā pasūtījumā?",
+        "a": "Jā — sarakstiet frūzes un daudzumu katram klasei; pieejamība un piegādes laiks nāk kopā ar piedāvājumu."
+      }
+    ],
+    "ctaTitle": "Specificējat sava laukam?",
+    "cta1": "Pietikt par hurtuma piedāvājumu",
+    "cta2": "Sazinieties ar mums pa WhatsApp"
+  },
+  "blogIndex": {
+    "h1": "Labāka informācija. Labāka izvēle.",
+    "sub": "Praktiski pirkēja resursi slīfeņu specifikāciju diskusijai.",
+    "updatedLabel": "Atjaunots",
+    "governance": "Orbāzes tiek rakstītas un pārskatītas MoTai Abrasives tehniskā komandā un pārskatītas atkal, ja produktu specifikācijas mainās."
+  },
+  "blogSidebar": {
+    "eyebrow": "Produkti",
+    "productsTitle": "Ieteicamie produkti",
+    "productsSub": "Izmēri, frūzes un bāzes dokumentēti katram produktam; minimālais apjoms un pieejamība nāk kopā ar piedāvājumu.",
+    "viewAll": "Visi produkti",
+    "servicesEyebrow": "Pakalpojumi",
+    "servicesTitle": "No izvēles līdz piegādei",
+    "servicesSub": "Hurtuma piegāde, sava zīmola iepakojums un procesa pārbaudes, apstiprinātas piedāvājumā.",
+    "serviceWholesale": "Hurtuma piedāvājums",
+    "serviceOem": "OEM un sava zīmola",
+    "serviceManufacturing": "Ražošana",
+    "serviceApplications": "Lietošanas",
+    "latestEyebrow": "Jaunumi",
+    "latestTitle": "Jaunākās orbāzes",
+    "catDiscs": "Slīfeņu diski",
+    "catBelts": "Slīfeņlentes",
+    "catFlap": "Lāpītes diski"
+  },
+  "blogPager": {
+    "navLabel": "Bloka lapas",
+    "prev": "Iepriekšējā",
+    "next": "Nākamā",
+    "pageOf": "Lapa {page} no {total}",
+    "range": "Orbāzes {from}–{to} no {count}"
+  },
+  "article": {
+    "watchTitle": "Skatīt",
+    "discuss": "Diskutējiet sava specifikācija",
+    "catSelection": "Izvēles orbāze",
+    "catBuyer": "Pirkēja resursi",
+    "catNotes": "Lietošanas piezīmes",
+    "catOem": "OEM orbāze",
+    "reviewedBy": "Pārskatītas MoTai Abrasives tehniskā komandā",
+    "lastReviewed": "Pēdējoreiz pārskatīts {date}",
+    "tocTitle": "Šajā lapā"
+  },
+  "contact": {
+    "h1": "Sāciet hurtuma sarunu",
+    "sub": "Iegūstiet tiešus no rūpnīcas hurtuma cenās slīfeņu produktiem.",
+    "directTitle": "Saruna. Labāka specifikācija.",
+    "directBody": "Dalieties ar produktu, daudzumu un lietojumu. Mēs izpētīsim jūsu prasības un palīdzēsim jums izdarīt nākamo soli.",
+    "facTitle": "Atrodiet mūs Hubei",
+    "facBody": "No. 88 Yuli Avenue, Junshui Town, Tongcheng County, Xianning, Hubei, China.",
+    "facNote": "Apstipriniet precīzu apskates adresi ar mūsu komandu pirms ceļojuma.",
+    "visit": "Sakārtojiet rūpnīcas vizīti",
+    "formTitle": "Hurtuma / OEM izpēte",
+    "formNote": "Šī forma pieprasa piedāvājumu un neveido pasūtījumu. Izpētes nonāk mūsu pārdošanas e-pasta kastē; specifikācijas un komercnosacījumi tiek apstiprināti kopā ar piedāvājumu.",
+    "btn": "Atvērt izpētes formu ↗"
+  },
+  "privacy": {
+    "h1": "Jūsu izpētes informācija",
+    "sub": "Kā šī tīmlapa izmanto detaļas, kuras jūs izvēlaties dalīties.",
+    "s1t": "Vākta informācija",
+    "s1b": "Kontakta detaļas, uzņēmuma informācija, produkta prasības un pievienotie faili, kas iesniegti kopā ar izpēti. Heša saistības identifikators ierobežo ļaunprātīgas iesniegšanas.",
+    "s2t": "Mērķis un piekļuve",
+    "s2b": "Detaļas tiek izmantotas izpēšu izskatīšanai un atbildei, piedāvājumu sagatavošanai un pieprasīto komerciālo sarunu koordinācijai. Piekļuve ir ierobežota autorizētiem administratoriem.",
+    "s3t": "Uzglabāšana un noturēšana",
+    "s3b": "Ieraksti tiek glabāti mūsu hosta piedāvātājam. Dati var tikt apstrādāti ārpus jūsu valsts. Noturēšana seko biznesa sākuma un ierakstu uzglabāšanas pienākumiem; jūs varat pieprasīt konkrētu noturēšanu vai dzesēšanu.",
+    "s4t": "Jūsu izvēles",
+    "s4b": "Sazinieties ar motai-01@motaiabrasive.com, lai pieprasītu piekļuvi, korekciju vai dzesēšanu. Lūdzu, neiesniedziet sensitīvu personisko datu vai konfidenciālus failus, kas nav saistīti ar jūsu izpēti.",
+    "s5t": "Sīkfaili, saites un analītika",
+    "s5b": "Pārlūks saglabā izpēšu saraksta pārvaldības datus. Šī vietne izmanto Google Analytics (gtag.js) anonimizētai lietošanas statistikai; Google iestatīja sīkfailu un apstrādā datus saskaņā ar savu datu apstrādes nosacījumiem — jūs varat atteikties pie https://support.google.com/analytics/answer/3452785. Ārējie WhatsApp, karšu un sociālo saišu ir reglamentēti ar to pašu privātuma politiku.",
+    "updated": "Pēdējoreiz atjaunots 4. novembris 2026"
+  },
+  "terms": {
+    "h1": "Lietošanas nosacījumi",
+    "sub": "Nosacījumi, kas piemērojamie, lietojot šo vietni un sūtot MoTai izpēti.",
+    "s1t": "Šīs vietnes lietošana",
+    "s1b": "Šī vietne ir B2B informācijas un izpēšu pakalpojums, ko eksploatē Hubei MoTai Abrasives Materials Co., Ltd. Saturs — produkta specifikācijas, orbāzes, vārdnīca un bloks — tiek sniegti godā, lai dotu ģenerālinformāciju. Vietnes lietošana nozīmē, ka jūs akceptējat šos nosacījumus; ja ne, neiesniedziet izpēti.",
+    "s2t": "Izpētes nav piedāvājumi",
+    "s2b": "Izpētes formas iesniegšana ir sarunas aicinājums, nevis saistošs pasūtījums. MoTai nav obligāts atbildēt uz katru izpēti, un neviens pirkums netiek saistīts, kamēr piedāvājums nav apstiprināts rakstiski no abām pusēm.",
+    "s3t": "Piedāvājumi un cenas",
+    "s3b": "Visas cenas ir balstītas uz piedāvājumiem. Piedāvājumos ir norādīti izmēri, frūzes, iepakojums, tirdzniecības nosacījumi un derības periods; galīgās skaitles tiek noteiktas apstiprinātajā specifikācijā un pakļautas izejvielu un kravu kustībai.",
+    "s4t": "Intelektuālā īpašuma tiesas",
+    "s4b": "Vietnes saturs, produktu apraksti, grafikas un MoTai zīmols pieder MoTai Abrasives un nedrīkst tikt komerciāli reprodukēti. Trešo personu atsauces (piem. modeļa avots) ir tikai pirkējam, un tās nenozīmē atbalstu.",
+    "s5t": "Atbildība un vadošais likums",
+    "s5b": "MoTai nav atbildīgs par lēmumiem, kas pieņemti, balstoties uz ģenerālinformāciju šajā vietnē. Šie nosacījumi ir reglamentēti saskaņā ar Ķīnas Tautas Republikas likumiem; strīdi tiek atrisināti saskaņā ar pirkuma līgumu starp pusēm.",
+    "updated": "Pēdējoreiz atjaunots 3. novembris 2026"
+  },
+  "shipping": {
+    "h1": "Piegādes un atgriešanas politika",
+    "sub": "Kā pasūtījumi pamet mūsu rūpnīcu, un kāpēc pēc specifikācijas izgatavoti slīfeņi nav atgriežami.",
+    "shipTitle": "Piegādes politika",
+    "shipSub": "Ražošana, iepakojums un izsūtīšana tiek apstiprināta kopā ar jūsu piedāvājumu.",
+    "s1t": "Ražošana un piegādes laiks",
+    "s1b": "Slīfeņlentes, diski un lāpītes diski tiek pārveidoti atbilstoši jūsu pasūtījuma specifikācijai. Piegādes laiks sākies no datuma, kad piedāvājums tiek apstiprināts rakstiski, nevis no datuma, kad izpēte tika nosūtīta. Standarta atsauce, piemēram, GXK-51, XZ-330 un GPC71, ir gatavoti rezerves postenis; pieprasītie izmēri, frūzes un OEM iepakojums tiek izgatavoti pēc pasūtījuma.",
+    "s2t": "Iepakojums un marķēšana",
+    "s2b": "Preces tiek iepakotas eksporta kārbiņās, izmantojot vienojoto iepakojuma daudzumu, etiķetes, kārbiņu apzīmējumus un — OEM programmām — jūsu mākslas darbi un svītrkodus. Paletes konfigurācija tiek apstiprināta kopā ar sarakstu. Fumigācija vai ISPM 15 marķējums tiek piemēroti, ja galamērķa valsts to prasa.",
+    "s3t": "Piegādes veids un Incoterms",
+    "s3b": "Piegāde tiek sakārtota pa jūru (FCL vai LCL) vai pa gaisu, atkarīgs no apjoma un galamērķa. Tirdzniecības termins ir norādīts jūsu piedāvājumā — bieži izmanto EXW, FOB, CIF, CFR, DAP un DDP. Jūs varat noteikt savu forwardieri; tad MoTai piegādā sarakstu, kārbiņu apzīmējumus un piegādes dokumentus.",
+    "s4t": "Dokumenti un muitas",
+    "s4b": "Katru sūtījumu pavadā komerciāls rēķins, saraksts un transporta dokuments. HS kodi un izcelsmes sertifikāti tiek nodoti jūsu muitas deklarācijai. Ievas muitas, nodokļi un muitas deklarācija galamērķa valstī ir pircēja saskaņā, ja vien piedāvājumā nav norādīts DDP.",
+    "s5t": "Izsūtīšana un piegāde",
+    "s5b": "Mēs nosūtām piegādes ziņu ar kuģa vai lidojuma numuru, tiklīdz konteiners vai sūtījums tiek rezervēts. Piegādes laiks ir atkarīgs no galamērķa ostas vai lidostas un pārvadātāja grafika. Aizkavējumi, ko rada ostas nosaistošanos, muitas pārbaudes vai nejaušas apstākļi, ir ārpus mūsu kontroles, un mēs ziņosim, tiklīdz tas būs zināmi.",
+    "retTitle": "Atgriešanas politika",
+    "retSub": "Mūsu produkti tiek izgatavoti atbilstoši vienotajai specifikācijai, tāpēc atgriešanas ir ierobežotas ar definētām situācijām.",
+    "r1t": "Pēc specifikācijas izgatavotas preces",
+    "r1b": "Slīfeņu produkti tiek ražoti atbilstoši jūsu frūzei, izmēram, bāzei un iepakojuma specifikācijai. Tā kā tie nevar tikt pārdoti kā standarta rezerves, apstiprināti pieprasītie pasūtījumi nav atgriežami un nav atmaksājami, izņemot gadījumus, kad preces neatbilst apstiprinātajai specifikācijai.",
+    "r2t": "Rezerves postenis un transporta bojājumi",
+    "r2b": "Standarta atsauces postenis, kas netiek izmantoti un paliek to sākotnējā eksporta iepakojumā, var tikt atgriezti katra konkrētā gadījumā pēc mūsu iemesla un atgriešanas nosacījumu apstiprināšanas. Preces, kas bojātas transporta laikā, ir jāziņo ar fotogrāfijām 7 dienu laikā pēc piegādes, un prasības pārvadātāja apdrošināšanai tiek apstrādātas caur noteikto forwardieri.",
+    "r3t": "Prasības, inspekcija un kredīts",
+    "r3b": "Katrai prasībai ir jāatsaucejas uz pasūtījuma numuru, sarakstu un ietekmēto kārbiņu apzīmējumiem. Ja defekts tiek apstiprināts pēc inspekcijas, mēs vai nu aizvietojam ietekmēto daudzumu, vai izsniedzam kredīta dokumentu rēķinam. Prasības, kas ierosinātas vairāk nekā 30 dienu laikā pēc piegādes, netiek pieņemtas.",
+    "r4t": "Pmaksu atpakaļsamaksāta nauda",
+    "r4b": "Ja kredīts tiek vienots, atpakaļsamaksāta nauda tiek veikta sākotnējam maksātājam ar to pašu veidu, kas izmantots pasūtījumam, kad atgriešana vai aizvietošana ir pabeigta vai norakstīta. Bankas komisijas maksas starptautiskajās pārsūtīšanās sedz puse, kura saņem atpakaļsamaksātu naudu.",
+    "r5t": "Muitas, nodevas un atbilstība",
+    "r5b": "Atgriešanas pieprasījumi, ko rada importa ierobežojumi, nodevas, muitas pārbaudes vai vietējās atbilstības noteikumi, tiek apstrādāti kā komerciāli strīdi, nevis produktu prasības, jo preces tika piegādātas atbilstoši apstiprinātajai specifikācijai.",
+    "updated": "Pēdējoreiz atjaunots 6. novembris 2026",
+    "related": "Piegādes un atgriešanas nosacījumi ir katra piedāvājuma daļa. Ja piedāvājumā norādīti citi nosacījumi, tie ir prioritāri.",
+    "contact": "Jautājumi par sūtījumu vai prasību: sazinieties ar mūsu pārdošanas komandu ar sava pasūtījuma numuru un attiecīgo kārbiņu apzīmējumiem."
+  },
+  "quotePage": {
+    "h1": "Sāciet hurtuma sarunu",
+    "sub": "Iegūstiet tiešus no rūpnīcas hurtuma cenās slīfeņu produktiem.",
+    "note": "Šī forma pieprasa piedāvājumu un neveido pasūtījumu. Ar * apzīmētas laukumi ir obligāti.",
+    "sec1": "Jūsu bizness",
+    "f1": "Vārds un uzvārds *",
+    "f2": "Uzņēmuma nosaukums *",
+    "f3": "Valsts *",
+    "f4": "Darba e-pasts *",
+    "f5": "WhatsApp numurs",
+    "f6": "Biznesa tips *",
+    "opt1": "Importētājs",
+    "opt2": "Distribūts",
+    "opt3": "Hurtotājs",
+    "opt4": "OEM zīmols",
+    "opt5": "Rūpniecības pirkējs",
+    "opt6": "Cits",
+    "sec2": "Produktu prasības",
+    "f7": "Produkta kategorija",
+    "f8": "Produkta modelis / atsauce",
+    "f9": "Izmērs",
+    "f10": "Frūzes izmērs",
+    "f11": "Materiāls",
+    "f12": "Daudzums",
+    "f13": "Iepakojums",
+    "f14": "Galamērķa valsts *",
+    "f15": "OEM prasības",
+    "f16": "Papildu ziņa *",
+    "consent": "Esmu piekrītis Privātuma politikai, Lietošanas nosacījumiem un mana datu izmantošanai, lai atbildētu uz šo izpēti. *",
+    "btn1": "Pietikt par hurtuma piedāvājumu",
+    "btn2": "Nosūtīt izpēti caur WhatsApp",
+    "goNote": "Forma tiek atvērta mūsu hurtuma izpēšu sistēmā, kur jūsu produkta konteksts ir iepildīts."
+  },
+  "clients": {
+    "h1": "Kur MoTai sūtījumi nonāk",
+    "sub": "No Hubei līdz 7 galamērķa reģioniem.",
+    "note": "Klientu logotipi un rekomendācijas zemāk ir vietas rezervē — aizstājiet src/data/trust.json ar publicētiem materiāliem.",
+    "placeholderBadge": "Ilustratīva vieta rezervē",
+    "statsTitle": "Piegāde pāris sekunžu laikā",
+    "statsNote": "Rādītie sertifikāti ir vietas rezervē, gaidot publicēta sertifikāti."
+  },
+  "glossary": {
+    "h1": "Slīfeņu vārdnīca",
+    "sub": "Termini aiz katras lentas, diska un lāpītes specifikācijas.",
+    "note": "Standarta nozares definīcijas slīfeņu materiāliem; klases un bāzes detaļas pasūtījumam tiek apstiprinātas piedāvājumā.",
+    "reviewNote": "Termini tiek pārskatīti MoTai Abrasives tehniskā komandā — pēdējoreiz pārskatīts 3. novembris 2026."
+  },
+  "trust": {
+    "regions": "Galamērķa reģioni",
+    "productLines": "Produktu līnijas",
+    "gritRange": "Frūzu klājums"
+  },
+  "video": {
+    "title": "Skatīt",
+    "cutting": {
+      "title": "Griešanas un pārraides video",
+      "desc": "Nodoti produktu video: slīfeņu lapas griešana un pārraides."
+    },
+    "sample": {
+      "title": "Paraugu pārbaudes video",
+      "desc": "Nodoti produktu video: parauga virsmas, bāzes un piemērotības pārbaudes."
+    },
+    "oem": {
+      "title": "OEM iepakojuma video",
+      "desc": "Iepakojuma daudzumi, etiķetes, kārbiņu apzīmējumi un sava zīmola mākslas darbi."
+    },
+    "flap": {
+      "title": "Lāpītes disku klāsta video",
+      "desc": "Lāpītes diski ar plastmasas, tērauda un stiklšķiedera bāzēm darbībā."
+    }
+  },
+  "wa": {
+    "generic": "Sveiki MoTai, es vēlos hurtuma piedāvājumu slīfeņu produktiem.",
+    "product": "Sveiki MoTai, es vēlos hurtuma piedāvājumu {name} ({grits}).",
+    "model": "Sveiki MoTai, es vēlos hurtuma piedāvājumu slīfeņu lentes modelim {model}.",
+    "disc": "Sveiki MoTai, es vēlos hurtuma piedāvājumu {title}.",
+    "sample": "Sveiki MoTai, es vēlos pieprasīt {name} paraugu izvērtēšanai.",
+    "factory": "Sveiki MoTai, es vēlos apspriest ražošanas un kvalitātes detaļas ar jūsu komandu.",
+    "oem": "Sveiki MoTai, es vēlos apspriest OEM / sava zīmola abrazīva programmu.",
+    "contact": "Sveiki MoTai, es vēlos saskaņot savu nākamo abrazīva pasūtījumu ar jūsu komandu."
+  },
+  "floatChat": {
+    "trigger": "Čats",
+    "open": "Atvērt čatu",
+    "close": "Aizvērt",
+    "title": "MoTai — Tiešais čats",
+    "status": "Mēs atbildam caur WhatsApp parasti 24 stundu laikā.",
+    "greeting": "Sveiki! Kā mēs varam palīdzēt ar jūsu abrazīva pasūtījumu? — MoTai pārdošanas komanda",
+    "placeholder": "Ierakstiet savu ziņu…",
+    "send": "Sūtīt caur WhatsApp",
+    "note": "Šajā priekšskatījumā nav aktīva servera: nosūtīšana atver WhatsApp ar jūsu ziņu jau aizpildītu. Atbildes turpinās WhatsApp sarunā."
+  },
+  "location": {
+    "imgAlt": "MoTai rūpnīcas ēka Šinjanā, Hubei",
+    "imgCaption": "MoTai rūpnīca — Šinjana, Hubei, Ķīna",
+    "mapTitle": "MoTai rūpnīcas atrašanās vieta Google Maps"
+  },
+  "faq": {
+    "faqTitle": "Pirms sākuma",
+    "moq": {
+      "q": "Kas ir minimālais pasūtījuma apjoms?",
+      "a": "MOQ tiek pārsūtīts kopā ar piedāvājumu, kopā ar pieejamību un nosacījumiem."
+    },
+    "oem": {
+      "q": "Vai jūs atbalstiet OEM un privātās zīmes programmu?",
+      "a": "Jā. Logo, etiķetes, pielāgotie izmēri un iepakojums tiek pārbaudīti pēc izpildāmības, pēc tam apstiprināti kopā ar piedāvājumu."
+    },
+    "sizes": {
+      "q": "Kurus izmērus un gradācijas jūs piegādājiet?",
+      "a": "Lentes dokumentētos izmēros no 533 × 75 līdz 2200 × 1330 mm (gradācijas 40–800); diski 3–6 collas (gradācijas 60–5000). Individuālas prasības apskatām kopā ar mūsu komandu."
+    },
+    "samples": {
+      "q": "Vai es varu vispirms saņemt paraugu?",
+      "a": "Jā. Pieprasiet paraugu, un mūsu pārdošanas komanda apstiprinās pieejamību, tarifs un nosūtīšanas kārtību."
+    },
+    "lead": {
+      "q": "Kas ir piegādes laiki?",
+      "a": "Piegādes laiks ir atkarīgs no specifikācijas un apjoma, to apstiprina jūsu piedāvājumā."
+    },
+    "packaging": {
+      "q": "Kā tiek iepakoti produkti?",
+      "a": "Iepakojuma daudzumi, etiķetes, kartonu marķējumi un privātās zīmes mākslas darbi tiek apstiprināti kopā ar piedāvājumu."
+    },
+    "payment": {
+      "q": "Kādas samaksas shēmas jūs piedāvājat?",
+      "a": "Samaksas shēmas ir apstiprinātā piedāvājuma un komercpārrunās daļa."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Kādas specifikācijas man jāsniedz?",
+      "a": "Sniedziet nepieciešamos izmērus, gradāciju, apstrādājamā gabala materiālu, mašīnu un vēlamo apstrādes beigu stāvokli. Pieejamās dokumentētās opcijas izmantojiet, ja tās ir pieejamas; pārējās prasības apskatīsim kopā ar mūsu komandu."
+    },
+    "oem": {
+      "q": "Kā es varu pieprasīt OEM iepakojumu?",
+      "a": "Iekļaujiet sava zīmola un iepakojuma prasības pieprasījumā. Detaļas tiks apskatītas un apstiprinātas kopā ar jūsu piedāvājumu."
+    },
+    "order": {
+      "q": "Vai, pieprasot piedāvājumu, tiek veikts pasūtījums?",
+      "a": "Nē. Forma sāk hurtumras pieprasījumu. Produktu specifikācijas, pieejamība un komercnosacījumi tiek apstiprināti pirms pasūtījuma saskaņošanas."
+    },
+    "sample": {
+      "q": "Vai es varu izmēģināt paraugu, pirms veiktu pilnu pasūtījumu?",
+      "a": "Jā. Standarta modeļu paraugi ir pieejami izvērtēšanai pēc pieprasījuma; parauga pieejamība un franšizes nosacījumi tiek apstiprināti kopā ar jūsu piedāvājumu."
+    },
+    "lead": {
+      "q": "Cik plānojama laikā man jāveic ražošanas pasūtījums?",
+      "a": "Piegādes laiks sākas no datuma, kad piedāvājums ir apstiprināts rakstiski, un ir atkarīgs no pasūtītā izmēra, gradācijas un iepakojuma. Krātuves modeļi tiek nosūtīti ātrāk."
+    },
+    "beltSize": {
+      "q": "Vai abrazīva lentas var tikt piegādātas nestandarta izmērā vai garumā?",
+      "a": "Lentu platums un garums, kas pārsniedz dokumentētos izmērus, tiek citēti gadījumā no gadījuma; pārraides uz pielāgotu izmēru ietekmē gan piegādes laiku, gan minimālo pasūtījuma apjomu."
+    },
+    "beltJoint": {
+      "q": "Kādu lentes savienošanas un malas konstrukciju izmanto šīs lentes?",
+      "a": "Savienojuma veids un malas apstrāde ir norādīti pēc modeļa. Norādiet mašīnu, slodzi un nepieciešamo apstrādes rezultātu, lai pareizā konstrukcija tiktu iekļauta jūsu piedāvājumā."
+    },
+    "discBacking": {
+      "q": "Kā izvēlēties starp hook & loop, PSA un tīkla diskām?",
+      "a": "Hook & loop ir piemērots biežām gradāciju maiņām, PSA ir piemērots plakaniem padabam un ilgai darba laikam, bet tīkla diski ir piemēroti putekļu noņemšanai. Mūsu izvēles ceļvedī trīs veidi salīdzināti blakus viens otram."
+    },
+    "discDust": {
+      "q": "Vai šie diski ir saderīgi ar putekļu noņemšanu?",
+      "a": "Tīkla un caurklājtie diski ir izstrādāti noņemšanai; cieti diski pēc pieprasījuma var tikt piegādāti caurklāti. Norādiet savas putekļu noņemšanas iekārtas un padaba, kuru izmantojat."
+    },
+    "hookLoop": {
+      "q": "Vai hook & loop diski der manam esošajam padabam?",
+      "a": "Diametrs un caurumu izkārtojums ir jāatbilst padabam. Pieprasījumā apstipriniet savu slīpēšanas mašīnas modeli un padaba diametru, lai pareizais disks tiktu iekļauts piedāvājumā."
+    },
+    "psa": {
+      "q": "Vai PSA diski strādā ar jebkuru padabu?",
+      "a": "PSA diskiem ir nepieciešams plakans, tīrs gumijas padabs ar atbilstošu diametru. Piedāvājuma pieprasījumā apstipriniet padaba diametru un mašīnas modeli."
+    },
+    "mesh": {
+      "q": "Cik ilgi iztur tīkla abrazīva disks?",
+      "a": "Tīkla diski labi iztur darbu ar lielu putekļu daudzumu, parasti pagarinot kalpošanas laiku salīdzinājumā ar cietiem papīra diskiem. Faktiskais kalpošanas laiks ir atkarīgs no materiāla, spiediena un gradācijas."
+    },
+    "solid": {
+      "q": "Vai cieto disku var piegādāt caurklājus, lai būtu putekļu noņemšana?",
+      "a": "Jā — caurumu izkārtojumu saskaņo kopā ar piedāvājumu. Norādiet padabu un noņemšanas iekārtas, lai pareizais izkārtojums tiktu iekļauts piedāvājumā."
+    }
+  },
+  "relArticles": {
+    "title": "Saistītie raksti",
+    "sub": "Pircēju vadlīnijas šai produktu grupai, no MoTai tehniskās komandas.",
+    "readMore": "Lasīt rakstu",
+    "faqTitle": "Biežāk uzdotie jautājumi",
+    "faqSub": "Visbiežākie jautājumi, ko pircēji dod pirms šī produkta pasūtošanas."
+  },
+  "regions": {
+    "europe": {
+      "title": "Eiropa",
+      "body": "Pievērsiet uzmanību izmēram, gradācijai, pamatnei un produktu failam; sniedziet piegādes ostu un etiķešu valodu."
+    },
+    "na": {
+      "title": "Ziemeļamerika",
+      "body": "Norādiet collu vai metriskos izmērus, piestiprināšanas veidu un iepakojuma daudzumus; piegādes pasta kodus vai ostu un pārvadāšanas veidu."
+    },
+    "sa": {
+      "title": "Dienvidamerika",
+      "body": "Izmēri, jauktas gradācijas daudzumi un kartona etiķešu valoda; piegādes osts un importa dokumenti."
+    },
+    "me": {
+      "title": "Tuvo Austrumu",
+      "body": "Materiāls, gradācija un mitruma drošs iepakojums; piegādes osts un piedāvājuma nosacījumi."
+    },
+    "africa": {
+      "title": "Āfrika",
+      "body": "Mašīnas saderība, nepieciešamie izmēri un iepakojuma daudzumi; piegādes osts, kartonu marķējumi un pārvadāšanas preferences."
+    },
+    "oceania": {
+      "title": "Okeānija",
+      "body": "Izmērs, pamatne, iepakojums un piegādes pasta kods vai osts; importa un iepakojuma prasības."
+    },
+    "asia": {
+      "title": "Āzija",
+      "body": "Mašīnas specifikācija, gradāciju diapazons un pasūtījumu sadalījums; piegādes pilsēta vai osts un vietējās valodas etiķetes."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metāla izgatavošana",
+      "intro": "Zelta šuvju saplūdināšana, dzelkņu noņemšana un metāla virsmas sagatavošana.",
+      "uses": "Šuvju saplūdināšana · Dzelkņu noņemšana · Virsmas sagatavošana",
+      "products": "Abrazīva lentes"
+    },
+    "wood": {
+      "title": "Koka apstrāde un mēbeles",
+      "intro": "Paneļi, mēbeļu ražošana un virsmas sagatavošana pirms laku likšanas.",
+      "uses": "Paneļi · Mēbeles · Sagatavošana pirms laku",
+      "products": "Abrazīva lentes · Slīpēšanas diski"
+    },
+    "auto": {
+      "title": "Auto remonts",
+      "intro": "Korpusa blīvi vielas slīpēšana, sagatavošana pirms krāsošanas un auto virsmas pēdējās apstrādes.",
+      "uses": "Korpusa blīvi · Pirms krāsošanas · Virsmas izskaite",
+      "products": "Slīpēšanas diski"
+    },
+    "stainless": {
+      "title": "Nerito tērauda apstrāde",
+      "intro": "Strauklīnes apstrādes, virsmas pārejas un nerito tērauda izgatavošana.",
+      "uses": "Strauklīnes · Pārejas · Izgatavošana",
+      "products": "Abrazīva lentes"
+    },
+    "ship": {
+      "title": "Kuģu būve un remonts",
+      "intro": "Metāla slīpēšana, rūņas noņemšana un jūras apkopes virsmas sagatavošana.",
+      "uses": "Slīpēšana · Rūņas noņemšana · Jūras sagatavošana",
+      "products": "Abrazīva lentes"
+    },
+    "surface": {
+      "title": "Rūpnieciskā virsmas sagatavošana",
+      "intro": "Rūpnieciskā virsmas apstrāde un apkopes darbi.",
+      "uses": "Virsmas apstrāde · Apkope",
+      "products": "Slīpēšanas diski"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Hook & loop vai PSA: izvēlieties pareizo pamatni",
+      "intro": "Piestiprināšanas sistēma ir tikpat svarīga kā gradācija. Pirms pasūtošanas saskaņojiet ar padabu.",
+      "start": {
+        "title": "Sāciet ar prasībām",
+        "body": "Hook & loop diski tiek pievienoti saderīgam padabam ar hook virsmu un der operācijām, kur gradācija tiek bieži mainīta. PSA diski izmanto spiediena jutīgu līmi un tiem ir nepieciešams tīrs, plakans padabs. Abas sistēmas nav aizvietojamas."
+      },
+      "compat": {
+        "title": "Apstipriniet saderību",
+        "body": "Apstipriniet padaba diametru, pamatnes veidu un putekļu noņemšanas izkārtojumu. Bez caurumiem disks nesavieno ar caurumu balstītu noņemšanas režīmu, bet tīkla diskiem ir nepieciešams saderīgs padabs un noņemšanas sistēma."
+      },
+      "enquiry": {
+        "title": "Sagatavojiet jūsu pieprasījumu",
+        "body": "Iekļaujiet diska diametru, pamatni, gradāciju sarakstu, daudzumu pēc katras gradācijas un apstrādājamā gabala materiālu. Pirms ražošanas pasūtījuma apstiprināšanas pieprasiet parauga izvērtēšanu."
+      }
+    },
+    "beltChecklist": {
+      "title": "Kas jāiekļauj abrazīva lentas pieprasījumā",
+      "intro": "Skaidra specifikācija palīdz jūsu piegādātājam pārbaudīt saderību un sagatavot lietderīgu piedāvājumu.",
+      "start": {
+        "title": "Sāciet ar prasībām",
+        "body": "Norādiet lentas garumu un platumu milimetros. Pasaku mašīnas modeli — mašīnas specifikācijas lapa vai senas lentes etiķetes fotogrāfs palīdz."
+      },
+      "compat": {
+        "title": "Apstipriniet saderību",
+        "body": "Pievienojiet apstrādājamā gabala materiālu, vēlamo abrazīvu, gradāciju, pamatnes prasības un savienojuma prasības. Izvairieties no produkta izvēles, izmantojot tikai lentas krāsu."
+      },
+      "enquiry": {
+        "title": "Sagatavojiet jūsu pieprasījumu",
+        "body": "Sarakstiet daudzumus pēc izmēra un gradācijas, iepakojuma preferences, galamērķi un nepieciešamo piegādes datumu. Galīgais piedāvājums apstiprina specifikāciju, pieejamību, samaksas shēmas un pārvadāšanas kārtību."
+      }
+    },
+    "gritSequence": {
+      "title": "Gradāciju secības plānošana virsmas sagatavošanai",
+      "intro": "Sāciet ar apstrādājamo gabalu un nepieciešamo beigu stāvokli, pēc tam izvērtējiet secību uz parauga.",
+      "start": {
+        "title": "Sāciet ar prasībām",
+        "body": "Krasas gradācijas ātri noņem materiālu un atstāj dziļas skrāpes; smalkas gradācijas pilnveido virsmu. Sākumpunkts ir atkarīgs no pamatnes, defekta dziļuma un noņemšanas prasībām."
+      },
+      "compat": {
+        "title": "Apstipriniet saderību",
+        "body": "Atgriežiet gradācijas pārejā pēc kārtas un pārbaudiet apstrādāto gabalu katrā posmā. Gradāciju izlaišana atstāj skrāpes, kuras ir grūti noņemt, un tīrīšana starp posmiem izvairās no krāsas gradācijas piesārņojuma."
+      },
+      "enquiry": {
+        "title": "Sagatavojiet jūsu pieprasījumu",
+        "body": "Gradāciju numerācija nav aizvietojama starp dažādām klasifikācijas sistēmām. Piedāvājumā apstipriniet klasifikācijas standartu, abrazīva veidu un pieejamību, un ievērojiet mašīnas un abrazīva drošības norādes."
+      }
+    },
+    "dustCollection": {
+      "title": "Putekļu noņemšana un padabu saderība, skaidroti",
+      "intro": "Caurumu izkārtojumi, tīkla diski un padabām ir jāatbilst jūsu noņemšanas sistēmai.",
+      "start": {
+        "title": "Sāciet ar prasībām",
+        "body": "Noteikiet savu padabu: caurumu skaits, diametrs un vai tā lieto kopā ar putekļu noņemšanu. Bez caurumiem un tīkla diski uzvedas citādāk nekā daudzcaurumu diski."
+      },
+      "compat": {
+        "title": "Apstipriniet saderību",
+        "body": "Saskaņojiet diska caurumu izkārtojumu ar padaba portiem. Tīkla diskiem ir nepieciešams saderīgs padabs un funkcionējoša noņemšanas sistēma; PSA diskiem ir nepieciešama tīra padabas virsma."
+      },
+      "enquiry": {
+        "title": "Sagatavojiet jūsu pieprasījumu",
+        "body": "Sarakstiet padaba modeli, caurumu skaitu, diska izmēru un gradāciju sarakstu, kā arī jūsu putekļu noņemšanas iekārtu. Pirms ražošanas pasūtījuma apstipriniet parauga uzvedību."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM etiķetes un iepakojums: kas jā sagatavo",
+      "intro": "Pilnīga specifikācija uztur mākslas darbus, etiķetes un kartonus savlaicīgi.",
+      "start": {
+        "title": "Sāciet ar prasībām",
+        "body": "Sagatavojiet savu logo un etiķetes dizainu, mērķa iepakojuma formātu (iekšējos maisiņus, kartonus), etiķešu valodu un galamērķa zemes etiķešu noteikumus."
+      },
+      "compat": {
+        "title": "Apstipriniet saderību",
+        "body": "OEM pieejamība, minimālie daudzumi, mākslas darba prasības un laika plāni ir atkarīgi no izpildāmības pārbaudes un apstiprināta piedāvājuma."
+      },
+      "enquiry": {
+        "title": "Sagatavojiet jūsu pieprasījumu",
+        "body": "Piegādiet mākslas darbu, norādiet iepakojuma daudzumus un kartonu marķējumus, un izklāstiet galamērķi un laiku. Paraugu apstiprinājums notiek pirms ražošanas."
+      }
+    },
+    "gritStandards": {
+      "title": "Gradāciju standarti: FEPA, ANSI un ko nozīmē jūsu saraksts",
+      "intro": "Klasifikācijas sistēmas nav aizvietojamas — katrā pieprasījumā norādiet standartu.",
+      "start": {
+        "title": "Sāciet ar prasībām",
+        "body": "FEPA (ISO 848) un vecā ANSI skala līdzīgu izmēru gradācijas numerē citādāk; P120 un 120 gradācija nav vienmēr tas pats. Norādiet standartu, pret kuru jūs pērkat."
+      },
+      "compat": {
+        "title": "Apstipriniet saderību",
+        "body": "Piedāvājumā apstipriniet klasifikācijas standartu, abrazīva veidu un pieejamību pēc katras gradācijas. Nevienā gradāciju sarakstā nesajauciet klasifikācijas sistēmas."
+      },
+      "enquiry": {
+        "title": "Sagatavojiet jūsu pieprasījumu",
+        "body": "Norādiet standartu (piem. FEPA P60–P800), daudzumu pēc katras gradācijas un galamērķi. Pirms pasūtījuma piedāvājumā apstipriniet gala gradāciju sarakstu."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Visbiežākais abrazīvs izdrancis lentām un diskām: izturīgs, apstrādājams, piemērots metālam, kokam un vispārējai apstrādei."
+    },
+    "ansi": {
+      "def": "Senā Ziemeļamerikas gradāciju numerācija. Līdzīgu izmēru daļiņas atšķiras no FEPA skalas — katrā pieprasījumā norādiet standartu."
+    },
+    "backing-cloth": {
+      "def": "Vilnas/kodolnes auduma parocis, kas nes abrazīva izdrancis lentes. Svars (piem. X svars) nosaka elastību un slodzes kapacitāti."
+    },
+    "backing-poly": {
+      "def": "Polivilna auduma pamatne: izturības un elastības līdzsots vispārējas lietošanas lentām."
+    },
+    "belt": {
+      "def": "Nepārtraukts abrazīva izdrancīšu rings uz parocis, ko izmanto lentes mašīnās slīpēšanai, apstrādei un dzelkņu noņemšanai."
+    },
+    "blend": {
+      "def": "Zelta šuvju saplūdināšana ar apkārtējo metālu — parasti pirmais apstrādes solis uz lāpītes diska vai lentes, pēc tam smalkākas gradācijas."
+    },
+    "closed": {
+      "def": "Biezi kārtotā izdrancīšu izkārtojums ar mazu atbrīvošanu; lentes neaizbāžas darbā ar cietākām detaļām."
+    },
+    "debur": {
+      "def": "Dzelkņu un mazo izvirzījumu noņemšana, ko atstāj griešana, zāģēšana vai slīpēšana."
+    },
+    "dust": {
+      "def": "Abrazīva putekļu noņemšana no apstrādātā gabala — caur padaba portiem, tīkla diskām vai lokālo noņemšanu."
+    },
+    "flap": {
+      "def": "Diski ar savienotiem abrazīva lāpām, elastīgs, slīpēšanai, saplūdināšanai un apstrādei uz leņķa slīpēšanas mašīnām."
+    },
+    "fepa": {
+      "def": "ISO 848 (FEPA) klasifikācijas skala P apzīmējumā (piem. P120). Noklusēta skala lielākajā daļā Eiropas un starptautiskās tirgošanas."
+    },
+    "grit": {
+      "def": "Abrazīva daļiņu nominālais izmērs: lielāki skaitļi ir smalkāki. Lentes 40–800; diski 60–5000."
+    },
+    "hookloop": {
+      "def": "Hook-and-loop piestiprināšanas sistēma diskiem: disks piesprauž uz hook virsmas padaba."
+    },
+    "mesh": {
+      "def": "Tīkla diskiem ir caurklājtie logi putekļu noņemšanai, kas nepieciešami saderīgs padabs un noņemšana."
+    },
+    "moq": {
+      "def": "Minimālais pasūtījuma apjoms — tiek pārsūtīts kopā ar piedāvājumu, kopā ar pieejamību un nosacījumiem."
+    },
+    "oem": {
+      "def": "Oriģinālierīku ražotājs / privātā zīme: mūsu produkti jūsu zīmola, etiķešu un iepakojuma izpildē."
+    },
+    "psa": {
+      "def": "Spiediena jutīgās līmes pamatne: disks līmējas tieši uz saderīga padaba."
+    },
+    "disc": {
+      "def": "Plakans vai lāpots abrazīvs aplis uz padaba, slīpēšanai un apstrādei."
+    },
+    "sic": {
+      "def": "Silīcija karbīda daļiņas: ļoti cietas, asai, piemērotas stiklam, keramikai un nelaikāmetāliem."
+    },
+    "prep": {
+      "def": "Virsmas sagatavošana pārklājuma vai apstrādei: rūņas, blīvi vielas vai sena apstrādes noņemšana līdz vienmērīgam profilam."
+    },
+    "wetdry": {
+      "def": "Gradācijas, kas mitrā vai mitra-sausā darbā palauj vālas un neaizbāžas; piemērotību apstiprina piedāvājumā."
+    },
+    "xweight": {
+      "def": "Vidējā svara vilna auduma pamatne vispārējas lietošanas lentām: izturīga, tomēr elastīga."
+    },
+    "zirconia": {
+      "def": "Cirkonija alumīnija oksīda daļiņas: izturīgas un agresīvas metāla slīpēšanai, dzelkņu noņemšanai un apstrādei uz tērauda."
+    },
+    "pad": {
+      "def": "Pamatnes plāksne, uz kuras diski sēd: padaba diametrs, virsma (hook) un portu izkārtojums ir jāatbilst diskam."
+    }
+  },
+  "footer": {
+    "blurb": "Abrazīvi patēriņa preču pirkējiem, distribūtoriem un privātās zīmes marķēm.",
+    "products": "Produkti",
+    "explore": "Atklājiet MoTai",
+    "connect": "Sazinieties ar mums",
+    "aboutUs": "Par mums",
+    "mfgQ": "Ražošana un kvalitāte",
+    "oemPl": "OEM un privātā zīme",
+    "newsB": "Jaunumi un blogš",
+    "privacy": "Privatuma politika",
+    "terms": "Lietošanas noteikumi",
+    "shipping": "Piegāde un atpakaļsaņemšana",
+    "contactUs": "Saziņa ar mums"
+  },
+  "tdk": {
+    "home": {
+      "title": "Abrazīva ražotājs un rūpnieciskais abrazīvu piegādātājs | MoTai",
+      "description": "Profesionāls abrazīva ražotājs Ķīnā, kas piegādā abrazīva lenti, slīpēšanas disku un lāpītes disku. Rūpnīces tiešā hurtums, OEM personalizācija un rūpnieciskie abrazīvu risinājumi globāliem distribūtoriem un pircējiem.",
+      "keywords": "abrasīva ražotājs, abrazīvu piegādātājs, rūpnieciskie abrazīvi, abrazīva lentes, slīpēšanas diski, lāpītes diski, abrazīva lentes ražotājs, abrazīvu produkti hurtums"
+    },
+    "about": {
+      "title": "Par MoTai — abrazīvu ražotājs un rūpnīca Hubei, Ķīnā",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. ir pārsētināto abrazīva ražotājs Šinjanā, Hubei: abrazīva lenti, slīpēšanas disku un lāpītes disku ar OEM, pielāgotiem izmēriem, liels apjoms piegāde un eksports.",
+      "keywords": "abrasīva ražotājs Ķīnā, abrazīvu piegādātājs Ķīnā, abrazīva rūpnīca, pārsētināto abrazīva ražotājs, abrazīvu eksportētājs, B2B abrazīvu piegādātājs"
+    },
+    "factory": {
+      "title": "Abrazīva ražošana un QC — MoTai rūpnīca Hubei",
+      "description": "Iekšpusē MoTai abrazīva darbnīcā: pārraides un griešana, paraugu pārbaudes, QC un OEM iepakojums abrazīva lenti, slīpēšanas disku un lāpītes disku.",
+      "keywords": "abrasīva ražošana, abrazīva rūpnīcas QC, abrazīvu pārraides, OEM abrazīva iepakojums"
+    },
+    "oem": {
+      "title": "Abrazīva OEM ražotājs un privātā zīme | MoTai",
+      "description": "Abrazīva OEM un privātās zīmes ražošana: jūsu logo, etiķetes, izmēri un iepakojums uz MoTai lenti, diskus un lāpītes disku, pieprasot pret apstiprinātu specifikāciju.",
+      "keywords": "abrasīva OEM ražotājs, privātā zīmes abrazīvi, pielāgoti abrazīvu produkti, OEM abrazīvu piegādātājs"
+    },
+    "applications": {
+      "title": "Rūpnieciskie abrazīvi pēc lietošanas — metāls, koks, auto un citi",
+      "description": "Atbilstot jūsu lietošanai MoTai abrazīva lenti, slīpēšanas disku un lāpītes disku: metāla slīpēšana, koka slīpēšana, auto ķermeņi, nerito apstrāde, kuģu būve un virsmas sagatavošana.",
+      "keywords": "abrasīva lietošanas, metāla slīpēšana, koka slīpēšana, virsmas sagatavošana, rūpnieciskā virsmas sagatavošana"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Metāla izgatavošanas abrazīvi — slīpēšana un dzelkņu noņemšana | MoTai",
+        "description": "Abrazīvi metāla izgatavošanai: metāla slīpēšana, dzelkņu noņemšana un zelta šuvju slīpēšana ar MoTai abrazīva lenti, tīkla un lāpītes disku.",
+        "keywords": "metāla izgatavošanas abrazīvi, metāla slīpēšana, metāla dzelkņu noņemšana, zelta šuvju slīpēšana"
+      },
+      "woodworking": {
+        "title": "Koka apstrāde un plašo lenti slīpēšanas abrazīvi | MoTai",
+        "description": "Abrazīvi kokapstrādei un mēbeļiem: plašo lenti slīpēšana, koka paneļu un MDF slīpēšana ar MoTai slīpēšanas lenti un disku.",
+        "keywords": "kokapstrādes abrazīvi, plašo lenti slīpēšana, koka slīpēšana, mēbeļu slīpēšana"
+      },
+      "automotive": {
+        "title": "Auto remonta slīpēšana — auto ķermenis un krāsošana | MoTai",
+        "description": "Abrazīvi auto remontam: auto ķermeņa slīpēšana, auto krāsošanas un gruntieres slīpēšana ar MoTai PSA un hook & loop disku.",
+        "keywords": "auto abrazīvi, auto ķermeņa slīpēšana, auto krāsošanas slīpēšana, gruntieres slīpēšana"
+      },
+      "stainless-steel": {
+        "title": "Nerito tērauda apstrāde un pulēšanas abrazīvi | MoTai",
+        "description": "Abrazīvi nerito tēraudam: metāla pulēšana, virsmas slīpēšana un apstrāde ar MoTai lāpītes disku un lenti.",
+        "keywords": "nerito tērauda apstrāde, metāla pulēšana, virsmas slīpēšana, nerito abrazīvi"
+      },
+      "shipbuilding": {
+        "title": "Kuģu būves abrazīvi — tērauda plates un rūņas noņemšana | MoTai",
+        "description": "Smaigo darba abrazīvi kuģu būvei: tērauda plākšņu slīpēšana, rūņas noņemšana un rūpnieciskā virsmas sagatavošana ar MoTai lenti un lāpītes disku.",
+        "keywords": "kuģu būves abrazīvi, tērauda plākšņu slīpēšana, rūņas noņemšana, smags darba slīpēšana"
+      },
+      "surface-preparation": {
+        "title": "Rūpnieciskā virsmas sagatavošana un slīpēšanas abrazīvi | MoTai",
+        "description": "Rūpnieciskie abrazīvu risinājumi virsmas sagatavošanai, virsmas apstrādei un smaga darba slīpēšanai ar MoTai lenti, disku un lāpītes disku.",
+        "keywords": "virsmas sagatavošana, virsmas apstrāde, rūpnieciskā slīpēšana, abrazīvu risinājumi"
+      }
+    },
+    "blog": {
+      "title": "Abrazīvu pircēju vadlīnijas un gradāciju standarti | MoTai zinātne",
+      "description": "Praktiski abrazīvu pircēju resursi: disku pamatnes izvēle, lentes pieprasījuma saraksti, gradāciju secība, putekļu noņemšana un gradāciju standarti (FEPA/ANSI).",
+      "keywords": "abrasīvu pircēju vadlīnija, gradāciju izvēle, abrazīvu vārdnīca, gradāciju standarti FEPA ANSI"
+    },
+    "contact": {
+      "title": "Sazinieties ar MoTai — abrazīvu piegādātājs Ķīnā",
+      "description": "Sazinieties ar MoTai abrazīvu piegādātāju Šinjanā, Hubei: tālrunis, e-pasts un WhatsApp hurtumra un OEM abrazīvu pieprasījumiem, kā arī rūpnīcas apmeklējumi.",
+      "keywords": "abrasīvu piegādātāja saskaņošana, abrazīvu hurtumra pieprasījums, abrazīva ražotājs Ķīnā"
+    },
+    "privacy": {
+      "title": "Privatuma politika",
+      "description": "Kā MoTai Abrasives izmanto pieprasījuma informāciju: vākšana, mērķis, uzglabāšana, jūsu izvēles un sīkfailu apstrāde.",
+      "keywords": "privatuma politika, MoTai"
+    },
+    "terms": {
+      "title": "Lietošanas noteikumi — MoTai Abrasives",
+      "description": "Šīs B2B abrazīva vietnes noteikumi: pieprasījumu apstrāde, piedāvājumu bāzēta cenu noteikšana, intelektuālais īpašums un vadošais tiesiskums.",
+      "keywords": [
+        "lietošanas noteikumi",
+        "MoTai",
+        "B2B abrazīvu piegādātājs"
+      ]
+    },
+    "shipping": {
+      "title": "Piegādes un atpakaļsaņemšanas politika — abrazīva pasūtījumi | MoTai",
+      "description": "MoTai abrazīvu piegādes un atpakaļsaņemšanas politika: ražošanas piegādes laiki, eksporta iepakojums, Incoterms, muitas dokumenti, sūtīšana un kad pielāgoti precīzai specifikācijai preču var atgriezt vai kredītēt.",
+      "keywords": "abrasīvu piegādes politika, abrazīvu atpakaļsaņemšanas politika, abrazīvu hurtumra piegāde, abrazīvu Incoterms, eksporta iepakojums, piegādes nosacījumi"
+    },
+    "quote": {
+      "title": "Pieprasiet abrazīvu hurtuma piedāvājumu | MoTai",
+      "description": "Sagatavojiet savu hurtumras vai OEM abrazīvu pieprasījumu: uzņēmuma dati kopā ar produktu, izmēru, gradāciju, daudzumu un galamērķi. Liela apjoma abrazīvu piegādes citētas tieši no rūpnīcas.",
+      "keywords": "hurtumra abrazīvu piedāvājums, liela apjoma abrazīvu piegāde, OEM abrazīvu pieprasījums, abrazīvu hurtumra"
+    },
+    "clients": {
+      "title": "Abrazīvu produktu eksportētājs — globālā piegāde no Hubei, Ķīna | MoTai",
+      "description": "MoTai eksportē abrazīva lenti, slīpēšanas disku un lāpītes disku septiņos galamērķa reģionos: Eiropa, Amerikas, Tuvie Austrumi, Āfrika, Okeānija un Āzija.",
+      "keywords": "abrasīvu produktu eksportētājs, abrazīvu eksports, globālā abrazīvu piegāde, rūpnieciskais abrazīvu piegādātājs"
+    },
+    "glossary": {
+      "title": "Abrazīvu vārdnīca — gradācijas, pamatnes, disku termini",
+      "description": "24 abrazīvu termini skaidroti: FEPA gradācijas, pamatnes, hook & loop, PSA, tīkla, dzelkņu noņemšana un vairāk.",
+      "keywords": "abrasīvu vārdnīca, gradāciju standarti, abrazīvu termini"
+    },
+    "product": {
+      "title": "MoTai {name} — Hurtumra un OEM abrazīvi",
+      "description": "MoTai {name} ({material}, {category}): {desc} Izmēri: {sizes}. Gradācijas: {grits}. Rūpnīces tiešā hurtums un OEM piegāde.",
+      "keywords": "{name}, {category} ražotājs, {material} abrazīvs, hurtumra abrazīvs, OEM abrazīvs"
+    },
+    "model": {
+      "title": "{model} Abrazīva lentes — MoTai",
+      "description": "Ieceļamās lentes abrazīva lentes modelis {model} no MoTai klāsta — platums, garums, gradācija un pamatne tiek saskaņota piedāvājumā. Hurtumra un OEM piegāde.",
+      "keywords": "{model} abrazīva lentes, abrazīva lentes modeļu referenci, hurtumra abrazīva lentes"
+    },
+    "disc": {
+      "title": "MoTai {title} — Hurtumra un OEM",
+      "description": "MoTai disku variants {title}: gradāciju diapazons, diametrs un piestiprināšana tiek saskaņota piedāvājumā. Rūpnīces tiešā hurtums un OEM.",
+      "keywords": "slīpēšanas diski, hook and loop diski, PSA diski, tīkla diski, slīpēšanas diski hurtums"
+    },
+    "flap": {
+      "title": "MoTai {name} — lāpītes disku ražotājs",
+      "description": "MoTai {name}: lāpītes abrazīva disks ar {backing} pamatni, metāla slīpēšanai, saplūdināšanai un apstrādei. Hurtumra un OEM piegāde.",
+      "keywords": "lāpītes diski, {backing} pamatnes lāpītes diski, cirkonija lāpītes diski, lāpītes disku ražotājs, lāpītes diski hurtums"
+    },
+    "colt": {
+      "belts": {
+        "title": "Abrazīva lenti ražotājs un hurtumra piegādātājs | MoTai",
+        "description": "Plaši un rūpnieciskie abrazīva lenti 533×75 līdz 2200×1330 mm, gradācijas 40–800, alumīnija oksīdā, cirkonijā un silīcija karbidā — ar ieceltiem modeļiem GXK-51, XZ-330, GPC71 un citiem. Rūpnīces tiešā hurtums un OEM.",
+        "keywords": "abrasīva lenti, slīpēšanas lenti, rūpnieciskās slīpēšanas lenti, plaši abrazīva lenti, plaši slīpēšanas lenti, koka slīpēšanas lenti, metāla slīpēšanas lenti, alumīnija oksīda abrazīva lenti, cirkonija abrazīva lenti, silīcija karbīda abrazīva lenti, abrazīva lenti ražotājs, abrazīva lenti piegādātājs, abrazīva lenti hurtums, GXK-51 abrazīva lenti, XZ-330 abrazīva lenti, GPC71 abrazīva lenti, Y399 abrazīva lenti, Y999 abrazīva lenti, 533x75 abrazīva lenti, 610x100 abrazīva lenti, 1520x630 abrazīva lenti, 2200x1330 abrazīva lenti"
+      },
+      "discs": {
+        "title": "Slīpēšanas disku ražotājs — PSA, hook & loop un tīkla | MoTai",
+        "description": "Hook & loop, PSA, tīkla un bez caurumiem slīpēšanas diski no 3 līdz 6 collam, gradācijas 60–5000, auto ķermeņiem, kokam un metāla apstrādei. Rūpnīces tiešā hurtums un OEM.",
+        "keywords": "slīpēšanas diski, abrazīva slīpēšanas diski, hook and loop slīpēšanas diski, PSA slīpēšanas diski, tīkla slīpēšanas diski, nesētinātie slīpēšanas diski, bez putekļu slīpēšanas diski, caurklātie slīpēšanas diski, caurumu slīpēšanas diski, 5 collas slīpēšanas diski, 6 collas slīpēšanas diski, slīpēšanas disku ražotājs, slīpēšanas diski hurtums"
+      },
+      "flap": {
+        "title": "Lāpītes disku ražotājs — cirkonija un alumīnija oksīds | MoTai",
+        "description": "MoTai lāpītes abrazīva diski ar plastmasas, tērauda un stiklšķiedera pamatnēm, cirkonijā un alumīnija oksīdā, metāla slīpēšanai, dzelkņu noņemšanai un apstrādei. Hurtumra un OEM piegāde.",
+        "keywords": "lāpītes diski, abrazīva lāpītes diski, cirkonija lāpītes diski, alumīnija oksīda lāpītes diski, stiklšķiedera pamatnes lāpītes diski, plastmasas pamatnes lāpītes diski, tērauda pamatnes lāpītes diski, 100mm lāpītes diski, 115mm lāpītes diski, 125mm lāpītes diski, 150mm lāpītes diski, 180mm lāpītes diski, lāpītes disku ražotājs, lāpītes disku piegādātājs, lāpītes diski hurtums"
+      },
+      "all": {
+        "title": "Abrazīvu produktu hurtumra — lenti, diski un lāpītes diski | MoTai",
+        "description": "Pilns MoTai abrazīvu katalogs: rūpnieciskie abrazīva lenti, slīpēšanas diski un lāpītes diski distribūtoriem, importētājiem, hurtumniekiem un OEM zīmēm. Rūpnīces tiešā hurtums, personalizācija un eksports no Hubei, Ķīnā.",
+        "keywords": "abrasīvu produkti, abrazīvu produktu hurtums, rūpnieciskie abrazīvi, pārsētinātie abrazīvi, abrazīvu hurtums, abrazīvu produktu rūpnīca, abrazīvu produktu eksportētājs, abrazīvu piegādātājs Ķīnā, abrazīva OEM ražotājs, privātā zīmes abrazīvi, pielāgoti abrazīvu produkti, liela apjoma abrazīvu piegāde, abrazīvu rūpnīca, abrazīvu instrumenti, abrazīvu materiāli, slīpēšanas produkti, virsmas apstrādes produkti, smiltspapīrs, smiltspapīra lapas, apaļais smiltspapīrs, smiltspapīra hurtums, slīpēšanas pārdabs, hook and loop slīpēšanas pārdabs, 5 collas slīpēšanas pārdabs, 6 collas slīpēšanas pārdabs, nesētinātais lāpītes ritenis, abrazīva drāna, rūpnieciskais rullītu birsti"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Ātra saskaņošana",
+    "whatsapp": "WhatsApp",
+    "quote": "Pieprasiet piedāvājumu"
+  }
+}

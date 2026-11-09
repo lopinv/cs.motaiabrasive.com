@@ -1,0 +1,1001 @@
+{
+  "code": "et",
+  "name": "Eesti",
+  "codeLabel": "EE",
+  "htmlLang": "et",
+  "ogLocale": "et_EE",
+  "rtl": false,
+  "meta": {
+    "wholesale": "Hulgimüügipäringud",
+    "oemNote": "OEM pakenduspäringud",
+    "size": "Suurus",
+    "grit": "Teravusaste",
+    "quantity": "Taotletud hulk",
+    "requirements": "Spetsifikatsiooni ja pakenduse nõuded",
+    "requirementsPh": "Kirjeldage oma rakendusala, spetsifikatsiooni ja tarnenõudeid.",
+    "material": "Libestusmaterjal",
+    "backing": "Alusmaterjal / kinnitus",
+    "availability": "Kättesaadavus, minimaalne tellimushulk ja kauplemistingimused kinnitatakse pakkumisel.",
+    "sampleNote": "Andke meile teada, milliseid tooteid ja teravusastmeid soovite proovida. Meie müügitimeeskond kinnitab näidiste kättesaadavuse, näidisemaksu ja transpordikorralduse.",
+    "gritsRange": "Teravusaste vahemik",
+    "holes": "Auad",
+    "diameter": "Diameeter / nimetuslik suurus",
+    "titleSuffix": "MoTai libestusained"
+  },
+  "nav": {
+    "language": "Keel",
+    "home": "Avaleht",
+    "about": "Meie ettevõte",
+    "manufacturing": "Tootmine",
+    "oem": "OEM teenused",
+    "news": "Uudised",
+    "knowledge": "Teadmusbaas",
+    "contact": "Võtke ühendust",
+    "products": "Tooted"
+  },
+  "colt": {
+    "belts": {
+      "title": "Libestusvööd — hulgimüük ja OEM",
+      "desc": "Punased libestusvööd dokumenteeritud mõõdudelt 533 × 75 mm kuni 2200 × 1330 mm. Teravused 40–800. Viitetrükke on saadaval. Ootame hulgimüügi ja OEM päringuid.",
+      "label": "Libestusvööd"
+    },
+    "discs": {
+      "title": "Liivapaberikettad — hulgimüük ja OEM",
+      "desc": "PSA, kangakinnitusega, avatud võrgu- ja auadeta liivapaberikettad 3 kuni 6 tolli. Teravused 60–5000. Ootame hulgimüügi ja OEM päringuid.",
+      "label": "Liivapaberikettad"
+    },
+    "flap": {
+      "title": "MoTai riivikettad",
+      "desc": "Riivikettad plast-, teras- ja klaaskiust alusmaterjaliga metalli ketastamiseks, libestamiseks ja viimistlemiseks. Spetsifikatsioon, hulgitarne ja OEM pakendus kinnitatakse pakkumisel.",
+      "label": "Riivikettad"
+    },
+    "all": {
+      "title": "Kõik tooted",
+      "desc": "Kogu MoTai libestusainete kataloog: libestusvööd, liivapaberikettad ja riivikettad tööstuslike ostjate, jaekaubandusettevõtete ja omamärgi brändide jaoks.",
+      "label": "Kõik tooted"
+    }
+  },
+  "cta": {
+    "quote": "Taota hulgipakkumine",
+    "quoteArrow": "↗",
+    "sample": "Taota näidis",
+    "whatsapp": "WhatsApp päring",
+    "waChat": "Võtke ühendust WhatsAppi kaudu",
+    "explore": "Vaata riivikettade valikut",
+    "viewAll": "Vaata kõiki tooteid",
+    "discuss": "Arutlege oma spetsifikatsioonist",
+    "oemQuote": "Taota OEM pakkumine"
+  },
+  "home": {
+    "eyebrow": "Libestusained Hubei provintsi MoTai tootmiselt",
+    "heroTitle": "Professionaalne libestusainete tootja ja tarnija",
+    "heroSub": "Tehasest otse tarbitavad libestusvööd, liivapaberikettad ja riivikettad tööstuslike ostjate, jaekaubandusettevõtete ja omamärgi brändide jaoks — Hiina Hubei provintsist teie turule.",
+    "cta1": "Taota hulgipakkumine",
+    "cta2": "Rääkige meie meeskonnaga WhatsAppis",
+    "builtTitle": "Valige rakendusala. Sobitage libestusaine.",
+    "builtSub": "Valige rakendusala ja sobitage libestusaine: vöö, kettad või riivikettad.",
+    "featuredTitle": "Kataloogis",
+    "featuredSub": "Mõõdud ja teravused on kataloogis dokumenteeritud; minimaalsed tellimused ja kättesaadavus kinnitatakse pakkumisel.",
+    "partnerTitle": "Teie libestusainete tellimuse tarnepool",
+    "partnerBody": "Hubei MoTai Abrasives Materials Co., Ltd. tarnib puidutöödlemise, metallitöödlemise ja autotööstuse rakendusteks libestustarbeeaineid — OEM ja omamärgi programmidega jaekaubandusettevõtetele ja tööstuslikele ostjatele üle maailma.",
+    "partnerCta": "Saange rohkem teada MoTai kohta",
+    "valuesTitle": "Kuus viisi, kuidas B2B ostjad meiega koostööd teevad",
+    "valuesSub": "Kuu põhjust, miks impordijad ja OEM brändid valivad just meid.",
+    "v1t": "Otse tehast",
+    "v1b": "Tarnija poolt määratud hinnad ja tarniajad, ilma vahendajateta.",
+    "v2t": "OEM ja omamärk",
+    "v2b": "Teie logo, etiketid ja pakendus kinnitatud spetsifikatsioonile.",
+    "v3t": "Omad mõõdud ja teravused",
+    "v3b": "Dokumenteeritud mõõdud ja teravused 40–800 vöödele, 60–5000 ketastele.",
+    "v4t": "Näidiste kontroll ja kvaliteet",
+    "v4b": "Näidisega vaatleme pinda, alusmaterjali ja sobivust enne tellimust.",
+    "v5t": "Hulktarned",
+    "v5b": "Ühtlased kastide hulked ja pakingiloetelu üksikasjad.",
+    "v6t": "Ekspordiprogramm",
+    "v6b": "Kastide märgistused, etiketid ja sihikoha dokumendid.",
+    "processTitle": "Sammud teie spetsifikatsiooni ja tellimuse vahel",
+    "processSub": "Neli etappi teie nõude ja kinnitatud tellimuse vahel.",
+    "p1t": "Lõikamine ja konverteerimine",
+    "p1b": "Kinnitage vajalik kuju, mõõdud ja teravus enne konverteerimise korraldamist.",
+    "p2t": "Näidiste kontroll",
+    "p2b": "Vaatage näidise libestuspinda, alusmaterjali ja sobivust enne tellimusspetsifikatsiooni kinnitamist.",
+    "p3t": "OEM ja pakendamine",
+    "p3b": "Kinnitage pakkumisel pakenduste hulk, etiketid, kastide märgid ja omamärgi graafika.",
+    "p4t": "Saatmise ettevalmistus",
+    "p4b": "Kokku lepige pakingiloetelu, palettide nõuded ja sihikoha andmed enne lahkumist.",
+    "oemTitle": "Teie nimi kastil",
+    "oemSub": "Jagage toote, pakenduse ja brändi nõuded oma järgmiseks libestusainete seriale.",
+    "oemCta": "Uurige OEM teenuseid",
+    "faqTitle": "Enne algust",
+    "faqSub": "Vastused ostjate sagedasematele küsimustele.",
+    "regionsTitle": "Hubei provintsist teie turule",
+    "regionsSub": "Globaalsed tarned, korraldatud sihipiirkondade kaupa.",
+    "regionsNote": "Minimaalsed tellimused ja tarniajad kinnitatakse teie pakkumisel. Suunad on näitlikud; kättesaadavus ja tingimused kinnitatakse pakkumisel.",
+    "factoryTitle": "Leidke meid Hubei provintsis",
+    "factoryBody": "88 Yuli pld, Junshui, Tongchengi maakond, Xianning, Hubei, Hiina. Korraldage tehas külastus ja kinnitage kohtumispunkt meie meeskonnaga.",
+    "finalTitle": "Otsite usaldusväärset libestusainete tarnijat?",
+    "finalBody": "Jagage oma toode, hulk ja rakendusala — vaatleme teie nõud ja koostame vastava pakkumise.",
+    "finalCta1": "Taota hulgipakkumine",
+    "finalCta2": "Võtke ühendust WhatsAppi kaudu",
+    "beltsShowTitle": "Libestusvööd trükikaupa järgi",
+    "beltsShowSub": "Viitetrükke, millest arutleda meie meeskonnaga.",
+    "articlesEyebrow": "Ostja ressurssid",
+    "articlesTitle": "Juhendid meie tehniliselt meeskonnalt",
+    "articlesSub": "Kuidas ostjad valivad teravuse, alusmaterjali ja pakenduse enne tellimuse tegemist.",
+    "articlesCta": "Vaadake kõiki juhendeid",
+    "prepTitle": "Valmistage ette oma hulgipäring",
+    "prepSub": "Mõõdud, teravus ja hulk teevad ülejäänud töö.",
+    "prepDim": "Mõõdud",
+    "prepDimText": "Suurus või trükkviide millimeetrites.",
+    "prepGrit": "Teravus",
+    "prepGritText": "Vajalik viimistlusklass või pind.",
+    "prepQty": "Hulk",
+    "prepQtyText": "Hinnanguline maht ja pakendus."
+  },
+  "purchasing": {
+    "eyebrow1": "Ostujuhendid",
+    "title1": "Valmistage ette oma hulgipäring",
+    "body1": "Jagage vajalikud mõõdud, teravus, töökeha, masin ja soovitud viimistlus. Kasutage kättesaadavate juhtudel ülal mainitud dokumenteeritud variante; muud nõud vaatleme koos meie meeskonnaga.",
+    "dl1t": "Hulk ja sihimaantee",
+    "dl1b": "Andke teada hulk, pakenduse vajadused ja tarnekoht.",
+    "dl2t": "Tarned ja tingimused",
+    "dl2b": "Kättesaadavus, minimaalne tellimushulk ja kauplemistingimused kinnitatakse pakkumisel.",
+    "dl3t": "OEM pakenduspäringud",
+    "dl3b": "Brändimine, etiketid, omamõõdud või pakenduse nõuded.",
+    "eyebrow2": "Kuidas päringut teha",
+    "title2": "Toote valikust pakkumiseni",
+    "s1t": "Valige toode",
+    "s1b": "Valige toode või trükk ning vajalik spetsifikatsioon.",
+    "s2t": "Jagage oma nõud",
+    "s2b": "Jagage hulk, rakendusala ja pakenduse nõuded.",
+    "s3t": "Vaatleme pakkumist",
+    "s3b": "Kinnitage lõplik spetsifikatsioon ja kauplemistingimused meie meeskonnaga."
+  },
+  "modelPage": {
+    "eyebrow": "Libestusvööd · Viitetrükk",
+    "refLabel": "Trükkviide",
+    "familyLabel": "Kategooria",
+    "dimsLabel": "Valmistatud vöö mõõdud — määratlege laius × pikkus mm-des",
+    "dimsPlaceholder": "nt. 533 × 75 mm",
+    "gritLabel": "Vajalik teravus — määrake vajalik klass või viimistlus",
+    "gritPlaceholder": "nt. P60",
+    "qtyLabel": "Taotletud hulk",
+    "specLabel": "Spetsifikatsiooni ja pakenduse nõuded",
+    "discussion": "Arutlege selle trügi kohta meie meeskonnaga, kasutades oma töökeha, masinat ja soovitud viimistlust.",
+    "grainBacking": "Habe ja alusmaterjal — kinnitage tooraine tootja ja täpne klass.",
+    "disclaimer": "Trügifamiili üksikasjad on valiku viidena; MoTai tarnespetsifikatsioon, kättesaadavus ja sobivus viimistletakse pakkumisel."
+  },
+  "discPage": {
+    "eyebrow": "Liivapaberikettad · Dokumenteeritud variant",
+    "gritsNote": "Selle variandi teravusvalikud"
+  },
+  "flapPage": {
+    "eyebrow": "Riivikettad · Alusvariandid",
+    "color": "Värv",
+    "gritNote": "P40–P60 ja P80–P120 on üldised valikunäited, mitte kinnitatud MoTai tarneseeria."
+  },
+  "productPage": {
+    "specTitle": "Spetsifikatsioonid",
+    "howTitle": "Kuidas tellimus spetsifitseerida",
+    "howBody": "Märkige vöö või ketta suurus, teravuste loetelu, masinatrikk, töökeha materjal ja hulk. Selge spetsifikatsioon aitab meil hinnata sobivust ja koostada kasuliku pakkumise — ärge valiku toodet ainult värvi järgi.",
+    "faqTitle": "Ostjate küsimused"
+  },
+  "about": {
+    "h1": "Ettevõte, mis seisab libestusainete valiku taga",
+    "sub": "Läbimõeldud lähenemine libestusainete tarnimisele.",
+    "bizTitle": "Meie äri",
+    "bizBody": "Hubei MoTai Abrasives Materials Co., Ltd. tarnib puidutöödlemise, metallitöödlemise ja autotööstuse rakendusteks libestustarbeeaineid. Dokumenteeritud valikud hõlmavad auadeta liivapaberikettasid, võrgukettasid ja punaseid libestusvööde. Aktsepteerime päringuid impordijatelt, jaekaubandusettevõitelt, hulgimüüjatelt ja tööstuslikelt ostjatelt — toode, alusmaterjal, suurus, klass, hulk ja tarnenõuded.",
+    "matTitle": "Ettevõtte materjalid",
+    "matBody": "Avage meie brošüüris ettevõtte taustamaterjale ja kontaktandmeid.",
+    "globalTitle": "Hubei provintsist teie turule",
+    "globalSub": "Globaalsed tarned, korraldatud sihipiirkondade kaupa.",
+    "facTitle": "Leidke meid Hubei provintsis",
+    "facBody": "88 Yuli pld, Junshui, Tongchengi maakond, Xianning, Hubei, Hiina. Korraldage tehas külastus meie meeskonnaga ja kinnitage kohtumispunkt enne teekonda.",
+    "profileName": "Lühikaugusel",
+    "profileBody": "Katetud libestusainete tootja Xianningis, Hubei provintsis: kolm tootesarja, mis tarnitakse seitsmesse sihimaanduse piirkonda, teravusega katvus 40-st 5000-ni.",
+    "ctaTitle": "Otsite usaldusväärset libestusainete tarnijat?",
+    "cta1": "Taota hulgipakkumine",
+    "cta2": "Võtke ühendust WhatsAppi kaudu"
+  },
+  "factory": {
+    "h1": "MoTai tootmisetöökoja sisevaade",
+    "sub": "Üksikasjad on olulised. Igal etapil.",
+    "intro": "Vaatleme teie tellimuse lõikamist, näidiste kontrolli ja pakendamise üksikasju. Tootevideod on esitatud protsessi illustreerimiste kõrvuti.",
+    "videoLabel": "Vaata tootevideoid",
+    "stepsTitle": "Tootmine ja tellimuse ettevalmistus",
+    "stepsIntro": "Teie nõudest kinnitatud tellimuseni.",
+    "st1t": "Lõikamine ja konverteerimine",
+    "st1b": "Kinnitage vajalik kuju, mõõdud ja teravus enne konverteerimise korraldamist.",
+    "st2t": "Näidiste kontroll",
+    "st2b": "Vaatleme näidise libestuspinda, alusmaterjali ja sobivust enne tellimusspetsifikatsiooni kinnitamist.",
+    "st3t": "OEM ja pakendamine",
+    "st3b": "Kinnitage pakkumisel pakenduste hulk, etiketid, kastide märgid ja omamärgi graafika.",
+    "st4t": "Saatmise ettevalmistus",
+    "st4b": "Kokku lepige pakingiloetelu, palettide nõuded ja sihikoha andmed enne lahkumist.",
+    "imgNote": "Töökorratted ja pakenduste hulk lepitud kokku pakkumisel enne tootmiskäigu algust.",
+    "galleryTitle": "Siin teie tellimus valmib",
+    "galleryIntro": "Samas tootmisetöös lõigatakse, kontrollitakse ja pakitakse iga kinnitatud tellimus.",
+    "gallery1Title": "Tootmisetöökoja",
+    "gallery1Text": "Katte all olev tööala, kus libestusvööd ja kettad konverteeritakse, kontrollitakse ja pakitakse.",
+    "gallery2Title": "Tehase ja laadimise laud",
+    "gallery2Text": "Kastid paletitakse ja laaditakse kohapeal enne saatmist teie sihialasse.",
+    "gallery3Title": "Valmis kaubalaos",
+    "gallery3Text": "Vööd ja kettad pakitakse kinnitatud spetsifikatsioonile vastavalt — teravus, suurus ja pakkingiloetelu.",
+    "galleryNote": "Fotod on tehaselt pärinevad üldiseks orienteerumiseks; need pole tellimusspetsiifilised pildid. Tootevideod ilmuvad siin pärast avalikustamist.",
+    "qcTitle": "Kvaliteedikontrollipunktid",
+    "qcIntro": "Mida kontrollime enne tellimuse tootmiselt lahkumist.",
+    "qc1t": "Pind ja teravus",
+    "qc1b": "Libestuspinda kinnitatud klassi suhtes ühtlustatavus.",
+    "qc2t": "Alusmaterjal ja sobivus",
+    "qc2b": "Valmistatud vööde ja ketaste alusmaterjali tüüp, kaal ja mõõtmetolerants.",
+    "qc3t": "Pakendamine ja märgistused",
+    "qc3b": "Pakenduste hulk, etiketid, kastide märgid ja omamärgi graafika vastavad kinnitatud tellimusele.",
+    "ctaTitle": "Eelistate otseselt rääkimist?",
+    "ctaSub": "Otsite usaldusväärset libestusainete tarnijat?",
+    "cta1": "Taota hulgipakkumine",
+    "cta2": "Võtke ühendust WhatsAppi kaudu"
+  },
+  "oem": {
+    "h1": "Teie nimi kastil",
+    "sub": "Saada oma toote, pakenduse ja brändi nõuded; vastame OEM rakendusvõimaliku hindamisega.",
+    "briefTitle": "Koostage päring oma brändi ümber",
+    "briefEyebrow": "Esitage oma brändi ülesanne",
+    "briefBody": "Arutlege logo ja etikettide graafikat, pakenduse formaati, toote mõõdusid, teravusklassi ja ettenähtud kasutust. OEM kättesaadavus, minimaalsed hulked, graafika nõuded ja ajakavad sõltuvad rakendusvõimaliku hindamisest ja kinnitatud pakkumisest.",
+    "itemsTitle": "Selge ülesandekirje toob kasuliku vastuse",
+    "i1": "Toode ja spetsifikatsioon",
+    "i2": "Mõõdud ja teravuste koosseis",
+    "i3": "Graafika ja etiketid",
+    "i4": "Pakenduse formaat",
+    "i5": "Sihtmärgi hulk",
+    "i6": "Sihimaantee ja ajastus",
+    "itemNote": "Käsite oma nõuded ja viitekandused päringus.",
+    "procTitle": "Päringust tarneni",
+    "pr1t": "Teie päring",
+    "pr1b": "Kirjeldage oma rakendusala ja nõudeid.",
+    "pr2t": "Spetsifikatsiooni kontroll",
+    "pr2b": "Vaatleme mõõdeid, klasse, alusmaterjale ja pakendust.",
+    "pr3t": "Pakkumine",
+    "pr3b": "Kinnitage kauplemistingimused ja ajakava.",
+    "pr4t": "Näidiste kinnitamine",
+    "pr4b": "Hindage kokku lepitud näidiseid enne heakskiitmist.",
+    "pr5t": "Töötlemine",
+    "pr5b": "Jätka kinnitatud spetsifikatsioonile.",
+    "pr6t": "Saatmine",
+    "pr6b": "Koordineri pakendamist ja sihimaanteed.",
+    "cta1": "Taota hulgipakkumine",
+    "cta2": "Võtke ühendust WhatsAppi kaudu"
+  },
+  "applications": {
+    "h1": "Libestusained teie tööstusele",
+    "sub": "Pind määrab spetsifikatsiooni.",
+    "intro": "Kuus rakendusvalda. Määrake materjal, masin ja vajalik viimistlus — sobitame libestusaine.",
+    "ctaNote": "Mõned pildid on tehisintellekti genereeritud rakendusala illustreerimised, mitte MoTai tehasest või klientidest pärit fotod.",
+    "sampleNote": "Pakkumise taotlemisel andke teada oma valdkond, riik, tootespetsifikatsioon ja hinnanguline tellimushulk.",
+    "reqTitle": "Soovitavad tooted",
+    "reqNote": "Selle valdkonna jaoks näitlikud tootesarjad. Kinnitage mõõdud, teravused ja hulk pakkumisel.",
+    "specTitle": "Spetsifikatsiooni näpunäiteid",
+    "faqTitle": "Sagedased küsimused",
+    "faqs": [
+      {
+        "q": "Mille teravusega peaksin alustama?",
+        "a": "Alustage töökeha materjalilt, kahjustuse sügavuselt ja vajalikult viimistluselt jäme teravus eemaldab materjali kiiresti, seejärel liikuge teravusi alla iga etapi järel kontrollides pinda."
+      },
+      {
+        "q": "Võin ma ühes tellimuses teravusi segada?",
+        "a": "Jah — loetlege teravused ja hulk klasside kaupa; kättesaadavus ja tarniaeg jõuavad koos pakkumisega."
+      }
+    ],
+    "ctaTitle": "Spetsifitseerite oma valdkonnale?",
+    "cta1": "Taota hulgipakkumine",
+    "cta2": "Võtke ühendust WhatsAppi kaudu"
+  },
+  "blogIndex": {
+    "h1": "Parema info. Parem valik.",
+    "sub": "Praktilised ressurssid ostjate jaoks libestusspetsifikatsioonide arutamiseks.",
+    "updatedLabel": "Uuendatud",
+    "governance": "Juhendid on koostanud ja läbi vaadanud MoTai libestusainete tehniline meeskond ning neid korratakse tootespetsifikatsioonide muutumisel uuesti."
+  },
+  "blogSidebar": {
+    "eyebrow": "Tooted",
+    "productsTitle": "Valitud tooted",
+    "productsSub": "Mõõdud, teravused ja alusmaterjalid on toote kaupa dokumenteeritud; minimaalsed tellimused ja kättesaadavus kinnitatakse pakkumisel.",
+    "viewAll": "Kõik tooted",
+    "servicesEyebrow": "Teenused",
+    "servicesTitle": "Valikust tarneni",
+    "servicesSub": "Hulgtarned, omamärgi pakendamine ja protsessi kontrollid, mis kinnitatakse pakkumisel.",
+    "serviceWholesale": "Hulgapakkumine",
+    "serviceOem": "OEM ja omamärk",
+    "serviceManufacturing": "Tootmine",
+    "serviceApplications": "Rakendusalad",
+    "latestEyebrow": "Uudised",
+    "latestTitle": "Viimased juhendid",
+    "catDiscs": "Liivapaberikettad",
+    "catBelts": "Libestusvööd",
+    "catFlap": "Riivikettad"
+  },
+  "blogPager": {
+    "navLabel": "Blogi leheküljed",
+    "prev": "Eelmine",
+    "next": "Järgmine",
+    "pageOf": "Leht {page} / {total}",
+    "range": "Juhendid {from}–{to} / kokku {count}"
+  },
+  "article": {
+    "watchTitle": "Vaata",
+    "discuss": "Arutlege oma spetsifikatsioonist",
+    "catSelection": "Valikujuhend",
+    "catBuyer": "Ostjate ressursid",
+    "catNotes": "Rakendusmärkused",
+    "catOem": "OEM juhend",
+    "reviewedBy": "Läbi vaadanud MoTai libestusainete tehniline meeskond",
+    "lastReviewed": "Viimati läbi vaadatud {date}",
+    "tocTitle": "Sellel lehel"
+  },
+  "contact": {
+    "h1": "Alustage hulgimüügi vestlust",
+    "sub": "Saage otse tehast hulgihinnad libestusainetele.",
+    "directTitle": "Vestlus. Parema spetsifikatsioon.",
+    "directBody": "Jagage oma toode, hulk ja rakendusala. Vaatleme teie nõudeid ja aitame teil edasi liikuda.",
+    "facTitle": "Leidke meid Hubei provintsis",
+    "facBody": "88 Yuli pld, Junshui, Tongchengi maakond, Xianning, Hubei, Hiina.",
+    "facNote": "Kinnitage täpne külastusaadress meie meeskonnaga enne teekonda.",
+    "visit": "Korralda tehas külastus",
+    "formTitle": "Hulgi- / OEM päring",
+    "formNote": "See vorm taotleb pakkumist ega tee tellimust. Päringud suunatakse meie müügiaadressile; spetsifikatsioonid ja kauplemistingimused viimistletakse pakkumisel.",
+    "btn": "Ava päringuvorm ↗"
+  },
+  "privacy": {
+    "h1": "Teie päringuandmed",
+    "sub": "Kuidas see veebileht kasutab teie jagada valitud andmeid.",
+    "s1t": "Kogutud andmed",
+    "s1b": "Kontaktandmed, ettevõtte info, tootenõuded ja lisatud failid, mis esitatakse päringuga. Häiritud ühenduse ID piirab kuritarvitavaid saatmisi.",
+    "s2t": "Eesmärk ja ligipääs",
+    "s2b": "Andmeid kasutatakse päringute vaatamiseks ja vastamiseks, pakkumiste koostamiseks ning taotletud kauplemisalaste vestluste koordineerimiseks. Ligipääs on piiratud volitatud administraatoritega.",
+    "s3t": "Salvestamine ja säilitamine",
+    "s3b": "Kanded hoiustatakse meie hostidajaga. Andmed saavad töödelda teie riigi väljaspool. Säilitamine järgib ärijuhtimise ja arvepidamise kohustusi; võite taotlda konkreetset säilitamist või kustutamist.",
+    "s4t": "Teie valikud",
+    "s4b": "Taotle ligipääsu, parandust või kustutamist, kirjutades aadressil motai-01@motaiabrasive.com. Palume mitte esitada tundlikke isikupuule või päringust ega seotud konfidentsiaalseid faile.",
+    "s5t": "Koorikud, lingid ja analütika",
+    "s5b": "Sirvija salvestab päringuloetelu haldusandmed. See leht kasutab Google Analyticsi (gtag.js) anonüümset kasutajastatistikat; Google seab küpsise ja töötleb andmeid oma andmetöötluse tingimuste alusel — saate keelata selle aadressil https://support.google.com/analytics/answer/3452785. Välised WhatsAppi, kaardist ja sotsiaalmeedia lingid alluvad omaette privaatsuspoliititele.",
+    "updated": "Viimati uuendatud 4. november 2026"
+  },
+  "terms": {
+    "h1": "Kasutustingimused",
+    "sub": "Tingimused, mis kehtivad, kui kasutate seda lehte ja saate MoTai-le päringu.",
+    "s1t": "Selle lehe kasutamine",
+    "s1b": "See leht on B2B informatsiooni ja päringuteenuse, mida haldab Hubei MoTai Abrasives Materials Co., Ltd. Sisald (tootespetsifikatsioonid, juhendid, tingimuste ja veebileht) esitatakse heausku üldinformatsioonina. Lehe kasutamine tähendab, et aktsepteerite need tingimused; kui ei, ärgi esitage päringut.",
+    "s2t": "Päringud ei ole pakkumised",
+    "s2b": "Päringuvormi esitamine on läbirääkimisese pakkumine, mitte siduv tellimus. MoTai ei ole kohustatud vastama iga päringule, ega ostu ei teki enne, kui pakkumine on kirjalikult mõlema poolt kinnitatud.",
+    "s3t": "Pakkumised ja hinnad",
+    "s3b": "Kõik hinnad on pakkumispõhised. Pakkumistes loetletakse mõõdud, teravused, pakendus, kauplemistingimused ja kehtivusaeg; lõplikud summad viimistletakse kinnitatud spetsifikatsioonil ning sõltuvad tooraine ja transpordi muutustest.",
+    "s4t": "Intelektuaalomand",
+    "s4b": "Lehe sisald, tootekirjeldused, graafika ja MoTai kaubamärk kuuluvad MoTai Abrasives'ile ega tohi kaubanduslikult kopeerida. Kolmande isiku viited (nt trükkallikud) on ostjale suunamineks ning ei eelusta kinnitamist.",
+    "s5t": "Vastutus ja kehtiv õigus",
+    "s5b": "MoTai ei ole vastupidav otsustele, mis lehviti selle lehe üldinformatsiooni alusel. Need tingimused alluvad Hiina Rahvavabariigi õigusele; vaidlused lahendatakse osapoolte müügilepingu kohaselt.",
+    "updated": "Viimati uuendatud 3. november 2026"
+  },
+  "shipping": {
+    "h1": "Transpordi ja tagastuste põlvkiri",
+    "sub": "Kuidas tellimused meie tehasest lahkuvad ja miks spetsifikatsioonil valmistatud libestusained pole tagastatavad.",
+    "shipTitle": "Transpordi põlvkiri",
+    "shipSub": "Tootmine, pakendamine ja saatmine kinnitatakse koos teie pakkumisega.",
+    "s1t": "Tootmine ja tarniaeg",
+    "s1b": "Libestusvööd, kettad ja riivikettad konverteeritakse teie tellimuse spetsifikatsioonile. Tarniaeg algab päevast, mil pakkumine on kirjalikult kinnitatud, mitte päringu saatmise päevast. Standardtrükid nagu GXK-51, XZ-330 ja GPC71 on valmis kaubalaose tooted; omamõõdud, teravused ja OEM pakendus valmistatakse tellimusele.",
+    "s2t": "Pakendamine ja märgistamine",
+    "s2b": "Tooted pakitakse ekspordikastidesse kokkulepitud pakenduste hulga, etikettide, kastide märkidega ja — OEM programmide puhul — teie graafikaga ja ribakoodiga. Paaliku ja kokkulepe kinnitatakse pakkingiloeteluga. Fumigatsioon või ISPM 15 märgistused rakendatakse, kui sihtriik seda nõuab.",
+    "s3t": "Transpordiviis ja Incoterms",
+    "s3b": "Transpord korraldatakse merega (FCL või LCL) või õhurattaga, sõltuvalt mahust ja sihtriigist. Kauplemistingimus on teie pakkumisel märgitud — EXW, FOB, CIF, CFR, DAP ja DDP kasutatakse tavaliselt. Võite määrata oma edasikõneldaja; MoTai tarnib siis pakkingiloetelu, kastide märgid ja transpordidokumendid.",
+    "s4t": "Dokumendid ja toll",
+    "s4b": "Iga saatmisega kaasneb kaubanduslik arve, pakkingiloetelu ja transpordidokument. HS-koode ja päritolusertifikaate esitatakse teie tollivalve jaoks. Imporditasud, maksed ja sihtriigi tollivalve on ostja koormus, kui pakkumisel ei ole märgitud DDP.",
+    "s5t": "Saatmine ja tarne",
+    "s5b": "Saadame transpordi teatise koos laeva või lennumariga pärast konteineri või saatmise broneerimist. Tarneaeg sõltub sihtsadamast või lennujaamast ja vedaja ajakavast. Sada tämbuse, tollivalguse või kõrgema jõu tingimustes põhjustatud viivitused on meie kontrolli välist ja teavitame esimesena, kui need teada saadakse.",
+    "retTitle": "Tagastuste põlvkiri",
+    "retSub": "Meie tooted valmistatakse kokkulepitud spetsifikatsioonile, seetõttu on tagastused piiratud kindlate juhtumitega.",
+    "r1t": "Spetsifikatsioonil valmistatud tooted",
+    "r1b": "Libestusained toodetakse teie teravuse, suuruse, alusmaterjali ja pakenduse spetsifikatsioonile. Kuna neid ei saa standardkaubana uuesti müüa, pole kinnitatud omatellimisi tagastatavad ega tagastatavad, välja arvatud siis, kui tooted ei vasta kinnitatud spetsifikatsioonile.",
+    "r2t": "Kaubalaost tooted ja transpordikahjud",
+    "r2b": "Standardseid viitetooteid, mida ei ole kasutatud ja mis on algses ekspordipakendis, võib tagastada juhtumispõhiselt, pärast põhjuse ja tagastustingimuste kinnitamist. Transpordil kahjustatud tooted tuleb mõõda 7 päeva jooksul järgmiselt, koos fotodega, ja väited vedaja kindlustuse kohta käsitatakse nimetatud edasikõneldaja kaudu.",
+    "r3t": "Väited, kontroll ja krediidid",
+    "r3b": "Iga väide peab viitama tellimuse numbrile, pakkingiloetelule ja mõjutatud kastide märkidele. Kui defekt kontrollimisel kinnitatakse, asendame mõjutatud hulga või väljastame arvega krediidinote. Vead, mis esitatakse rohkem kui 30 päeva pärast tarnimist, ei võeta vastu.",
+    "r4t": "Tasude tagastamine",
+    "r4b": "Kui krediidi kokkulepe on saadud, viiakse tagastus esialgsele maksnikule sama meetodiga, mida kasutati tellimuses, pärast tagastuse või asenduse lõpetamist või kirjalikku mahuvõtmine. Rahvusvaheliste ülekannete panga tasud kannab taotluse saaja.",
+    "r5t": "Toll, tollimaks ja vastavus",
+    "r5b": "Tagastusetaotlused, mis põhinevad impordir piirangute, tollimaksude, tollivalguse või kohaliku vastavuse reeglitel, käsitatakse kauplemis vaidlustest kui toote väidetest, kuna tootetoimetati kinnitatud spetsifikatsioonile vastavalt.",
+    "updated": "Viimati uuendatud 6. november 2026",
+    "related": "Transpordi ja tagastuste tingimused on iga pakkumise osa. Kui pakkumisel on märgitud erinevad tingimused, prevaleerib see pakkumine.",
+    "contact": "Küsimused transpordi või väite kohta: võtke ühendust meie müügitiimiga oma tellimuse numbri ja asjakohaste kastide märkidega."
+  },
+  "quotePage": {
+    "h1": "Alustage hulgimüügi vestlust",
+    "sub": "Saage otse tehast hulgihinnad libestusainetele.",
+    "note": "See vorm taotleb pakkumist ega tee tellimust. Tähtedega * tähistatud väljad on kohustuslikud.",
+    "sec1": "Teie ettevõte",
+    "f1": "Täisnimi *",
+    "f2": "Ettevõtte nimi *",
+    "f3": "Riik *",
+    "f4": "Ettevõtte e-posti aadress *",
+    "f5": "WhatsAppi number",
+    "f6": "Ettevõtte tüüp *",
+    "opt1": "Impordija",
+    "opt2": "Jaekaubandusettevõte",
+    "opt3": "Hulgimüüja",
+    "opt4": "OEM bränd",
+    "opt5": "Tööstuslik ostja",
+    "opt6": "Muu",
+    "sec2": "Tootenõuded",
+    "f7": "Toote kategooria",
+    "f8": "Toote trükk / viide",
+    "f9": "Suurus",
+    "f10": "Teravusaste",
+    "f11": "Materjal",
+    "f12": "Hulk",
+    "f13": "Pakendus",
+    "f14": "Sihtriik *",
+    "f15": "OEM nõuded",
+    "f16": "Lisasisu *",
+    "consent": "Ma aktsepteerin privaatsuspoliitikat, kasutustingimusi ja oma andmete kasutamist selle päringu ära vastamiseks. *",
+    "btn1": "Taota hulgipakkumine",
+    "btn2": "Saada päring WhatsAppi kaudu",
+    "goNote": "Vorm avaneb meie hulgipäringusüsteemis, kus teie toote kontekst on eelnevalt täidetud."
+  },
+  "clients": {
+    "h1": "Kuhu MoTai saatmised suunduvad",
+    "sub": "Hubei provintsist seitsmesse sihimaanduse piirkonda.",
+    "note": "Allpool on kliendi logo ja soovitused asemikvid — asendage src/data/trust.json avaldatud materjalidega.",
+    "placeholderBadge": "Näitlik asemikvis",
+    "statsTitle": "Tarnid ülevaates",
+    "statsNote": "Näidatud sertifikaadid on asemikvid, ootel kuni avaldatud sertifikaatide hetkeni."
+  },
+  "glossary": {
+    "h1": "Libestusainete tingimustik",
+    "sub": "Tingimused, mis seisavad iga vöö, ketta ja riivi spetsifikatsiooni taga.",
+    "note": "Standardtööstuse tingimuste definitsioonid libestustarbeeainete jaoks; tellimuse klassi ja alusmaterjali üksikasjad viimistletakse pakkumisel.",
+    "reviewNote": "Tingimused läbi vaadanud MoTai libestusainete tehniline meeskond — viimati läbi vaadatud 3. november 2026."
+  },
+  "trust": {
+    "regions": "Sihimaanduse piirkonnad",
+    "productLines": "Tootesarjad",
+    "gritRange": "Teravuskatvus"
+  },
+  "video": {
+    "title": "Vaata",
+    "cutting": {
+      "title": "Lõikamise ja konverteerimise vidood",
+      "desc": "Tasutavad tootevideod: libestuslehte lõikamine ja konverteerimine."
+    },
+    "sample": {
+      "title": "Näidiste kontrolli vidood",
+      "desc": "Tasutavad tootevideod: pinda, alusmaterjali ja sobivuse kontroll näidisel."
+    },
+    "oem": {
+      "title": "OEM pakenduse vidood",
+      "desc": "Pakenduste hulk, etiketid, kastide märgid ja omamärgi graafika."
+    },
+    "flap": {
+      "title": "Riivikettade sarja vidood",
+      "desc": "Plast-, teras- ja klaaskiust alusmaterjali riivikettad kasutusel."
+    }
+  },
+  "wa": {
+    "generic": "Tere MoTai, sooviksin hulgipakkumist libestusainetele.",
+    "product": "Tere MoTai, sooviksin hulgipakkumist {name} ({grits}).",
+    "model": "Tere MoTai, sooviksin hulgipakkumist libestusvöö trükile {model}.",
+    "disc": "Tere MoTai, sooviksin hulgipakkumist {title}.",
+    "sample": "Tere MoTai, sooviksin proovimiseks näidist {name}.",
+    "factory": "Tere MoTai, sooviksin arutada oma meeskonnaga tootmismist ja kvaliteet üksikasju.",
+    "oem": "Tere MoTai, sooviksin arutada OEM / omamärgi libestusainete programmi.",
+    "contact": "Tere MoTai, sooviksin koos teie meeskonnaga koostada oma järgmise libestusainete tellimuse."
+  },
+  "floatChat": {
+    "trigger": "Vestlus",
+    "open": "Ava vestlus",
+    "close": "Sulge",
+    "title": "MoTai — elav vestlus",
+    "status": "Vastame WhatsAppis, tavaliselt 24 tunni jooksul.",
+    "greeting": "Tere! Kuidas saame teie libestusainete tellimuses aidata? — MoTai müügitimeeskond",
+    "placeholder": "Kirjutage oma sõnum…",
+    "send": "Saada WhatsAppi kaudu",
+    "note": "Selle ettevaatlel pole elavat serverit: saatmine avab WhatsAppi teie sõnumiga eelnevalt täidetud. Vastused jätkuvad WhatsAppi vestluses."
+  },
+  "location": {
+    "imgAlt": "MoTai tehase hoone Xianningis, Hubei provintsis",
+    "imgCaption": "MoTai tehas — Xianning, Hubei, Hiina",
+    "mapTitle": "MoTai tehas asukoht Google Mapsis"
+  },
+  "faq": {
+    "faqTitle": "Enne algust",
+    "moq": {
+      "q": "Mis on minimaalne tellimushulk?",
+      "a": "Minimaalne tellimushulk jõuab koos pakkumisega, üksikule ja tingimustele."
+    },
+    "oem": {
+      "q": "Toetate te OEM- ja omamärgi tootmist?",
+      "a": "Jah. Logo, etiketid, omamõõdud ja pakendus kontrollitakse rakendusvõimalikkuses, seejärel kinnitatakse koos teie pakkumisega."
+    },
+    "sizes": {
+      "q": "Milliseid mõõdeid ja teravusi te tarnite?",
+      "a": "Vööde mõõdud dokumenteeritud suurustelt 533 × 75 kuni 2200 × 1330 mm (teravused 40–800); kettad 3–6 tolli (teravused 60–5000). Omanõud vaatleme koos meie meeskonnaga."
+    },
+    "samples": {
+      "q": "Võin ma esmalt näidist saada?",
+      "a": "Jah. Taota näidis ja meie müügitimeeskond kinnitab kättesaadavuse, tasud ja transpordikorda."
+    },
+    "lead": {
+      "q": "Millised on tarniajad?",
+      "a": "Tarniaeg sõltub spetsifikatsioonist ja hulka ning kinnitatakse teie pakkumisel."
+    },
+    "packaging": {
+      "q": "Kas tooted pakendatakse?",
+      "a": "Pakenduste hulk, etiketid, kastide märgid ja omamärgi graafika kinnitatakse pakkumisel."
+    },
+    "payment": {
+      "q": "Milliseid makse tingimusi te pakute?",
+      "a": "Maksetingimused on osa kinnitatud pakkumisest ja kauplemis vestlusest."
+    }
+  },
+  "pfq": {
+    "specs": {
+      "q": "Milliseid spetsifikatsioone peaksin esitama?",
+      "a": "Jagage vajalikud mõõdud, teravus, töökeha, masin ja soovitud viimistlus. Kasutage kättesaadavates juhtudel dokumenteeritud variante; muud nõud vaatleme koos meie meeskonnaga."
+    },
+    "oem": {
+      "q": "Kuidas taotan OEM pakendust?",
+      "a": "Kaasake oma brändi ja pakenduse nõuded päringus. Üksikasjad vaatledakse ja kinnitatakse teie pakkumisel."
+    },
+    "order": {
+      "q": "Kas pakkumise taotlemine teeb tellimuse?",
+      "a": "Ei. Vorm alustab hulgipäringut. Tootespetsifikatsioonid, kättesaadavus ja kauplemistingimused kinnitatakse enne tellimuse kokkuleppimist."
+    },
+    "sample": {
+      "q": "Võin ma täieliku tellimuse kohustamise eest näidist proovida?",
+      "a": "Jah. Standardseid viitetrükke näidiseid on taotlusel proovimiseks saadaval; näidiste kättesaadavus ja transporditingimused kinnitatakse teie pakkumisel."
+    },
+    "lead": {
+      "q": "Kui varakult peaksin tootmistellimuse esitama?",
+      "a": "Tarniaeg algab päevast, mil pakkumine on kirjalikult kinnitatud, ja sõltub tellitud suurusest, teravusest ja pakendusest. Kaubalaose viitetrükid saadetakse kiiremini."
+    },
+    "beltSize": {
+      "q": "Võib libestusvöödeid tarnida mittestandardse suuruse või pikkusega?",
+      "a": "Vöö laiuse ja pikkuse, mis ületavad dokumenteeritud mõõdeid, pakkumist juhtumispõhiselt; omamõõdu konverteerimine mõjutab nii tarniaega kui minimaalset tellimushulka."
+    },
+    "beltJoint": {
+      "q": "Millist vöö liigendit ja serva konstruktsiooni kasutavad need vööd?",
+      "a": "Liigenditüüp ja serva töötlemine määratakse viide kaupa. Määrake masin, koormus ja vajalik viimistlus, et õige konstruktsioon hinduks teie pakkumises."
+    },
+    "discBacking": {
+      "q": "Kuidas valida kangakinnituse, PSA ja võrgukettade vahel?",
+      "a": "Kangkinnitus sobib sagedaste teravuste vahetuste korral, PSA sobib tasapadade ja pikkade töökoormustega, võrgukettad sobivad tolmukogumise jaoks. Meie valikujuhend võrdleb kolme kõrvuti."
+    },
+    "discDust": {
+      "q": "Kas need kettad on tolmukogusüsteemiga ühilduv?",
+      "a": "Võrgu- ja auurakendega kettad on väljavõtmise jaoks kavandatud; täiskettasid saadetakse soovi korral aukudega. Määrake oma väljavõtu seade ja kasutatav pad."
+    },
+    "hookLoop": {
+      "q": "Kas kangakinnitusega kettad sobivad minu olemasolevate kinnitustest?",
+      "a": "Diameeter ja auade mustrimust vastata padile. Kinnitage oma liivamärgi mudel ja padi diameeter päringus, et õige kett pakkumisel oleks."
+    },
+    "psa": {
+      "q": "Kas PSA kettad töötavad iga kinnitustestiga?",
+      "a": "PSA kettad vajavad tasapindu, puhtad kummipaadi, mis vastab diameeterile. Kinnitage padi diameeter ja masinamudel pakkumise taotluses."
+    },
+    "mesh": {
+      "q": "Kui kaua võrgu libestusketas viibib?",
+      "a": "Võrgukettad takistavad tolmurikas töös täitmist, mis tavaliselt pikendab kasulikku eluiga võrreldes täispaberikettadega. Reaalne eluiga sõltub materjalist, surve ja teravusest."
+    },
+    "solid": {
+      "q": "Võib täiskettasid tolmu väljavõtmiseks auku varustada?",
+      "a": "Jah — aukude mustrim kokkuleppe pakkumisel. Määrake padi ja väljavõtmise seade, et õige muster pakkumisel oleks."
+    }
+  },
+  "relArticles": {
+    "title": "Seotud artiklid",
+    "sub": "Ostja juhised selle tootesarja jaoks, MoTai tehnilise meeskonna poolt.",
+    "readMore": "Luge artiklit",
+    "faqTitle": "Sagedased küsimused",
+    "faqSub": "Üldised küsimused, mida ostjad küsivad selle toote tellimise eel."
+  },
+  "regions": {
+    "europe": {
+      "title": "Euroopa",
+      "body": "Märkige suurus, teravus, alusmaterjal ja tootefailid; esitage sihisaam ja etikettide keel."
+    },
+    "na": {
+      "title": "Põhja-Ameerika",
+      "body": "Määrake tolli- või meetriline mõõtmine, kinnitustüüp ja pakenduste hulk; sihtsihtportid või sadam ja transpordiviis."
+    },
+    "sa": {
+      "title": "Lõuna-Ameerika",
+      "body": "Suurus, segateravuste hulkade ja kastide etikettide keel; sihisaam ja impordija dokumendid."
+    },
+    "me": {
+      "title": "Lähis-Ida",
+      "body": "Materjal, teravus ja niiskusekindel pakendus; sihisaam ja pakkumistingimused."
+    },
+    "africa": {
+      "title": "Aafrika",
+      "body": "Masinate ühilduvus, vajalikud mõõdud ja pakenduste hulk; sihisaam, kastide märgid ja transpordi eelistus."
+    },
+    "oceania": {
+      "title": "Okeaania",
+      "body": "Suurus, alusmaterjal, pakendus ja sihisaam või postinumber; impordi- ja pakendusnõuded."
+    },
+    "asia": {
+      "title": "Aasia",
+      "body": "Masinaspetsifikatsioon, teravuste vahemik ja tellimuste koosseis; tarne linn või sadam ja kohalikke keele etiketid."
+    }
+  },
+  "apps": {
+    "metal": {
+      "title": "Metallide fabrikeerimine",
+      "intro": "Lipete viimistlemine, servade puhastamine ja metallipindade ettevalmistus.",
+      "uses": "Lipede viimistlemine · Servade puhastamine · Pinna ettevalmistus",
+      "products": "Libestusvööd"
+    },
+    "wood": {
+      "title": "Puidutöödlemine ja mööbitootmine",
+      "intro": "Paanid, mööbitootmine ja lakke eelnev pindade ettevalmistus.",
+      "uses": "Paanid · Mööbel · Lakke ettevalmistus",
+      "products": "Libestusvööd · Liivapaberikettad"
+    },
+    "auto": {
+      "title": "Autode parandus",
+      "intro": "Ripats täitmise liivimine, värvimise ettevalmistus ja autode viimistlemine.",
+      "uses": "Ripats täide · Värvimise ettevalmistus · Viimistlemine",
+      "products": "Liivapaberikettad"
+    },
+    "stainless": {
+      "title": "Roostevabast terasest viimistlemine",
+      "intro": "Juheviimistlused, pindade üleminekud ja roostevaba terase fabrikeerimine.",
+      "uses": "Juheviimistlus · Üleminekud · Fabrikeerimine",
+      "products": "Libestusvööd"
+    },
+    "ship": {
+      "title": "Laehoidmine ja remont",
+      "intro": "Metalli ketastamine, roostevastane puhastus ja mereväe hoolduse pindade ettevalmistus.",
+      "uses": "Ketastamine · Roostevastane puhastus · Mereväe ettevalmistus",
+      "products": "Libestusvööd"
+    },
+    "surface": {
+      "title": "Tööstuslike pindade ettevalmistus",
+      "intro": "Tööstuslik pindade töötlemine ja hooldustööd.",
+      "uses": "Pinna töötlemine · Hooldus",
+      "products": "Liivapaberikettad"
+    }
+  },
+  "blog": {
+    "chooseBacking": {
+      "title": "Kangakinnitus või PSA: valige õige alusmaterjal",
+      "intro": "Kinnitusüsteem on sama oluline kui teravus. Sobitage see padiga enne tellimust.",
+      "start": {
+        "title": "Alustage vajadusest",
+        "body": "Kangakinnitusega kettad paigutatakse sobiva kanna ja padile ning sobivad töötoodangute jaoks, kus teravusi sageli vahetatakse. PSA kettad tuginevad survetundlikule kleebrile ja vajavad puhast, tasa padipinda. Kaks süsteemi ei ole omavahel asendatavad."
+      },
+      "compat": {
+        "title": "Kinnitage ühilduvus",
+        "body": "Kinnitage padidiameeter, alusmaterjali tüüp ja tolmuväljavõtu paigutus. Auaudeta kettad ei ühendu audega väljavõtumustriga, ja avatud võrgukettad vajavad sobivat padisüsteemi ja väljavõtule."
+      },
+      "enquiry": {
+        "title": "Valmistage ette oma päring",
+        "body": "Märkige ketasdiameeter, alusmaterjal, teravuste loetelu, hulk teravuse kaupa ja töökeha materjal. Taota näidis hindamineks enne tootmistellimuse heakskiitmist."
+      }
+    },
+    "beltChecklist": {
+      "title": "Mis kuulub libestusvöö päringusse",
+      "intro": "Selge spetsifikatsioon aitab tarnijal hinnata sobivust ja koostada kasuliku pakkumise.",
+      "start": {
+        "title": "Alustage vajadusest",
+        "body": "Näidake vöö pikkuse ja laiuse millimeetrites. Nimetage masinamudeli — masina spetsifikatsioonileht või vanast vöö etiketist foto aitavad."
+      },
+      "compat": {
+        "title": "Kinnitage ühilduvus",
+        "body": "Lisage töökeha materjal, eelistatav libestusaine, teravus, alusmaterjali ja liigendi nõuded. Vältige toote valiku ainult vöö värvide järgi."
+      },
+      "enquiry": {
+        "title": "Valmistage ette oma päring",
+        "body": "Loetlege hulkad suuste ja teravuste kaupa, pakenduse eelistused, sihimaantee ja vajalik tarnekuupäev. Lõplik pakkumine kinnitab spetsifikatsiooni, kättesaadavuse, makse ja transpordi korralduse."
+      }
+    },
+    "gritSequence": {
+      "title": "Teravuste järjestuse planeerimine pindade ettevalmistuseks",
+      "intro": "Alustage töökehast ja vajalikust viimistlusest, seejärel hinnake järjestust näidisel.",
+      "start": {
+        "title": "Alustage vajadusest",
+        "body": "Järsk teravus eemaldab materjali kiiresti ja jätab sügavad kriimud; peeneteravus täiendab pinda. Lähtepunkt sõltub alusmaterjalist, puuduse sügavusest ja eemaldamisvajadusest."
+      },
+      "compat": {
+        "title": "Kinnitage ühilduvus",
+        "body": "Liikuge teravusi järjest alla ja kontrollige töökeha iga etapi järel. Teravuste vahele jätmine jätab kriimud, mida on raskem eemaldada, ja puhastamine etappide vahel väldib jämeda teravuse saastumist."
+      },
+      "enquiry": {
+        "title": "Valmistage ette oma päring",
+        "body": "Teravuste numbrid ei ole jagamisüsteemide vahel omavahel asendatavad. Kinnitage pakkumisel jagamisse tandard, libestusaine tüüp ja klasside kaupa kättesaadavus ning järgige masinate ja libestusainete turva juhiseid."
+      }
+    },
+    "dustCollection": {
+      "title": "Tolmu kogumine ja padide ühilduvus, selgitatud",
+      "intro": "Auade mustrid, avatud võrgukettad ja aluspadid peavad vastama teie väljavõtukordale.",
+      "start": {
+        "title": "Alustage vajadusest",
+        "body": "Kindlaks teege oma padi: aukude arv, diameeter ja kas seda kasutatakse tolmuväljavõtmega. Auaudeta ja avatud võrgukettad käituvad mitmeaukude ketastest erinevalt."
+      },
+      "compat": {
+        "title": "Kinnitage ühilduvus",
+        "body": "Sobitage ketta auute paigutuse padisüsteemiga. Avatud võrgukettad vajavad sobivat padisüsteemi ja töötavat väljavõttu; PSA kettad vajavad puhast padipinda."
+      },
+      "enquiry": {
+        "title": "Valmistage ette oma päring",
+        "body": "Loetlege padi mudel, aukude arv, ketta suurus ja teravuste loetelu, lisaks teie tolmuväljavõtu korraldus. Kinnitage näidiste käitumine enne tootmistellimust."
+      }
+    },
+    "oemPackaging": {
+      "title": "OEM etiketid ja pakendus: mida ette valmistada",
+      "intro": "Täielik ülesandekirje hoiab graafika, etiketid ja kastid ajakavast.",
+      "start": {
+        "title": "Alustage vajadusest",
+        "body": "Valmistage ette oma logo ja etikettide graafika, sihtpakendi formaat (sisekilekottid, kastid), etikettide keel ja sihtriigi märgistamisreeglid."
+      },
+      "compat": {
+        "title": "Kinnitage ühilduvus",
+        "body": "OEM kättesaadavus, minimaalsed hulkad, graafikanõuded ja ajakavad sõltuvad rakendusvõimaliku hindamisest ja kinnitatud pakkumisest."
+      },
+      "enquiry": {
+        "title": "Valmistage ette oma päring",
+        "body": "Lisage graafikad, määrake pakenduste hulk ja kastide märgistused ning näidake sihimaantee ja ajastus. Näidiste heakskiitmine toimub enne tootmist."
+      }
+    },
+    "gritStandards": {
+      "title": "Teravuste standardid: FEPA, ANSI ja mida teie loetelu tähendab",
+      "intro": "Jagamissüsteemid ei ole omavahel asendatavad — nimetage igas päringus standard.",
+      "start": {
+        "title": "Alustage vajadusest",
+        "body": "FEPA (ISO 848) ja vanem ANSI skaala liigitavad sarnaste suurustega graane erinevalt; P120 ja 120 teravus ei ole alati sama. Nimetage standard, mille järgi te ostsite."
+      },
+      "compat": {
+        "title": "Kinnitage ühilduvus",
+        "body": "Kinnitage pakkumisel jagamisse standard, libestusaine tüüp ja klasside kaupa kättesaadavus. Ärge segage jagamissüsteeme ühes teravuste loetelus."
+      },
+      "enquiry": {
+        "title": "Valmistage ette oma päring",
+        "body": "Määrake standard (nt. FEPA P60–P800), hulk klasside kaupa ja sihimaantee. Kinnitage lõplik klasside loetelu pakkumisel enne tellimist."
+      }
+    }
+  },
+  "gloss": {
+    "alum": {
+      "def": "Kõige levinum libestusaine graanid, mis on vöödele ja ketastele: kõvenenud, töötav, sobiv metalli, puu ja üldviimistlemise jaoks."
+    },
+    "ansi": {
+      "def": "Pärandi Põhja-Ameerika teravusnumbrite süsteem. Sarnaste suurustega graane erinevad FEPA skalast — nimetage iga päringus standard."
+    },
+    "backing-cloth": {
+      "def": "Puuvilna/paberivõrk, mis kannab vööl libestusgraane. Kaal (nt. X-kaal) määrab paindluse ja koormuse kandevõime."
+    },
+    "backing-poly": {
+      "def": "Polü- puuvilna võrgualusmaterjal: tugevuse ja paindluse tasakaal üldotstarbe vöödele."
+    },
+    "belt": {
+      "def": "Libestusgraanide pidev silmus võrgualusmaterjalil, mida kasutatakse vöömasinatega ketastamisel, viimistlemisel ja servade puhastamisel."
+    },
+    "blend": {
+      "def": "Lipete sujuvaks tegemine, et see ümbritseva metalliga sulanduks — tavaliselt esimene katse riivikettal või vöös, seejärel peenemad teravused."
+    },
+    "closed": {
+      "def": "Tihedalt katte graanide paigutus, millel on vähe avatud ruumi; vöö takistab kõvemal tööl täitmist."
+    },
+    "debur": {
+      "def": "Kriimude ja väikeste esiletõstete eemaldamine, mis jätavad lõikamine, saamine või ketastamine."
+    },
+    "dust": {
+      "def": "Töökorpuse libestustolmu eemaldamine — läbi padi väljavõttude, avatud võrguketaste või kohaliku väljavõtu."
+    },
+    "flap": {
+      "def": "Katte libestusriividega ketas, painduv, nurkmasinatega metalli ketastamiseks, viimistlemiseks ja lõppviimistlemiseks."
+    },
+    "fepa": {
+      "def": "ISO 848 (FEPA) jagamisskala P-notationis (nt. P120). Vaikimisi skaal enamus Euroopa ja rahvusvahelises kaubanduses."
+    },
+    "grit": {
+      "def": "Libestusaine nimetuslik graanide suurus: suuremad numbrid on peenemad. Vöödele 40–800; ketastele 60–5000."
+    },
+    "hookloop": {
+      "def": "Ketta kinnitusüsteem kangast ja silti: kettad kinnitatakse kanna ja padile."
+    },
+    "mesh": {
+      "def": "Avatud võrgukettadel on aukudega akened, mille kaudu tolm mööda liigub, vajades sobivat padisüsteemi ja väljavõttu."
+    },
+    "moq": {
+      "def": "Minimaalne tellimushulk — jõuab pakkumisega, üksikule ja tingimustele."
+    },
+    "oem": {
+      "def": "Algtarkaimu tootmine / omamärk: meie tooted teie brändi, etikettide ja pakendi all."
+    },
+    "psa": {
+      "def": "Survetundlik kleebi alusmaterjal: kettad liimitakse otse sobiva padile."
+    },
+    "disc": {
+      "def": "Tasane või riivkujuline libestusring, mis on paigaldatud padile liivimiseks ja viimistlemiseks."
+    },
+    "sic": {
+      "def": "Ränikarbiidi graanid: väga kõvad ja teravad, sobivad klaasi, keramiika ja mittemagnesium metallide jaoks."
+    },
+    "prep": {
+      "def": "Pindade ettevalmistamine katte või viimistluse jaoks: roste, täided või vanade katte eemaldamine ühtlase profiilini."
+    },
+    "wetdry": {
+      "def": "Klassid, mis jäävad niisutena või niisuvale kuivale kasutusele jahedaks ja täitmiskindlaks; sobivus kinnitatakse pakkumisel."
+    },
+    "xweight": {
+      "def": "Keskmise kaaluga puuvilna alusmaterjal üldotstarbe vöödele: tugev ja siiski painduv."
+    },
+    "zirconia": {
+      "def": "Sirkooniumi alumiiniumi graanid: kõvenenud ja agressiivne metalli ketastamiseks, servade puhastamiseks ja terasele viimistlemiseks."
+    },
+    "pad": {
+      "def": "Alusplaat, millel kettad seisavad: padi diameeter, pind (kangas) ja väljavõttude paigutus peavad kettaga kokku käima."
+    }
+  },
+  "footer": {
+    "blurb": "Libestustarbeeaineid tööstuslike ostjate, jaekaubandusettevõtete ja omamärgi brändide jaoks.",
+    "products": "Tooted",
+    "explore": "Uurige MoTai't",
+    "connect": "Jääke meile kontaktis",
+    "aboutUs": "Meie ettevõte",
+    "mfgQ": "Tootmine ja kvaliteet",
+    "oemPl": "OEM ja omamärk",
+    "newsB": "Uudised ja blogi",
+    "privacy": "Privaatsuspoliitika",
+    "terms": "Kasutustingimused",
+    "shipping": "Transpord ja tagastus",
+    "contactUs": "Võtke ühendust"
+  },
+  "tdk": {
+    "home": {
+      "title": "Libestusainete tootja ja tööstuslik libestusainete tarnija | MoTai",
+      "description": "Professionaalne Hiina libestusainete tootja, kes tarnib libestusvööde, liivapaberikettad ja riivikettasid. Tehasest otse hulgimüük, OEM kohandamine ja tööstuslikud libestusainete lahendused globaalsete jaekaubandusettevõtete ja ostjate jaoks.",
+      "keywords": "libestusainete tootja, libestusainete tarnija, tööstuslikud libestusained, libestusvööd, liivapaberikettad, riivikettad, libestusvööde tootja, libestusained hulgimüügis"
+    },
+    "about": {
+      "title": "MoTai kohta — Libestusainete tootja ja tehas Hubei provintsis, Hiina",
+      "description": "Hubei MoTai Abrasives Materials Co., Ltd. on katetud libestusainete tootja Xianningis, Hubei provintsis: libestusvööd, liivapaberikettad ja riivikettasid OEM-ga, kohandatud mõõtmetega, hulkidega tarnega ja ekspordiga.",
+      "keywords": "libestusainete tootja Hiinas, libestusainete tarnija Hiinas, libestusainete tehas, katetud libestusainete tootja, libestusainete ekspordija, B2B libestusainete tarnija"
+    },
+    "factory": {
+      "title": "Libestusainete tootmine ja kvaliteet — MoTai tehas Hubei provintsis",
+      "description": "MoTai libestusainete tootmisetöökoja sisevaade: konverteerimine ja lõikamine, näidiste kontroll, kvaliteet ja OEM pakendamine libestusvöödele, liivapaberikettadele ja riivikettadele.",
+      "keywords": "libestusainete tootmine, libestusainete tehas kvaliteet, libestusainete konverteerimine, OEM libestusainete pakendus"
+    },
+    "oem": {
+      "title": "Libestusainete OEM tootja ja omamärk | MoTai",
+      "description": "Libestusainete OEM- ja omamärgi tootmine: teie logo, etiketid, mõõdud ja pakendus MoTai vöödele, ketastele ja riivikettadele, pakkumisel kinnitatud spetsifikatsioonile.",
+      "keywords": "libestusainete OEM tootja, omamärgi libestusained, kohandatud libestusained, OEM libestusainete tarnija"
+    },
+    "applications": {
+      "title": "Tööstuslikud libestusained rakenduskohalt — metall, puit, autod ja muud",
+      "description": "Sobitage MoTai libestusvööd, liivapaberikettad ja riivikettad oma rakendusega: metalli ketastamine, puu liivimine, autovöönd, roostevaba terase viimistlemine, laehoidmine ja pindade ettevalmistus.",
+      "keywords": "libestusainete rakendused, metalli ketastamine, puu liivimine, pindade ettevalmistus, tööstuslike pindade ettevalmistus"
+    },
+    "application": {
+      "metal-fabrication": {
+        "title": "Metallide fabrikeerimise libestusained — ketastamine ja servade puhastamine | MoTai",
+        "description": "Libestusained metallide fabrikeerimiseks: metalli ketastamine, servade puhastamine ja lipede ketastamine MoTai libestusvööde, võrgu- ja riivikettadega.",
+        "keywords": "metallide fabrikeerimise libestusained, metalli ketastamine, metalli servade puhastamine, lipede ketastamine"
+      },
+      "woodworking": {
+        "title": "Puidutöödlemise ja laiavöö liivimise libestusained | MoTai",
+        "description": "Libestusained puidutöödlemiseks ja mööbliks: laiavöö liivimine, puitpaanide ja MDF liivimine MoTai liivimisvööde ja ketastega.",
+        "keywords": "puidutöödlemise libestusained, laiavöö liivimine, puidu liivimine, mööbli liivimine"
+      },
+      "automotive": {
+        "title": "Autode paranduse liivimine — autod ja värv | MoTai",
+        "description": "Libestusained autode paranduseks: auto ripatsi liivimine, autovärvide ja esivärvide liivimine MoTai PSA- ja kangakinnitusketastega.",
+        "keywords": "autode libestusained, autode ripatsi liivimine, autovärvide liivimine, esivärvide liivimine"
+      },
+      "stainless-steel": {
+        "title": "Roostevaba terase viimistlemine ja poleerimine | MoTai",
+        "description": "Roostevaba terase libestusained: metallide poleerimine, pindade ketastamine ja viimistlemine MoTai riivikettade ja vöödega.",
+        "keywords": "roostevaba terase viimistlemine, metallide poleerimine, pindade ketastamine, roostevaba terase libestusaine"
+      },
+      "shipbuilding": {
+        "title": "Laehoidmise libestusained — terasplaadid ja roste eemaldamine | MoTai",
+        "description": "Raskete tööde libestusained laehoidmiseks: terasplaatide ketastamine, roste eemaldamine ja tööstuslike pindade ettevalmistus MoTai vööde ja riivikettadega.",
+        "keywords": "laehoidmise libestusained, terasplaatide ketastamine, roste eemaldamine, raskete tööde ketastamine"
+      },
+      "surface-preparation": {
+        "title": "Tööstuslike pindade ettevalmistus ja ketastamine | MoTai",
+        "description": "Tööstuslikud libestusainete lahendused pindade ettevalmistuseks, pindade viimistlemiseks ja raskete tööde ketastamiseks MoTai vöödes, ketastes ja riivikettades.",
+        "keywords": "pindade ettevalmistus, pindade viimistlemine, tööstuslik ketastamine, libestusainete lahendused"
+      }
+    },
+    "blog": {
+      "title": "Libestusainete ostja juhendid ja teravuste standardid | MoTai teadmusbaas",
+      "description": "Praktilised libestusainete ostjate ressursid: ketta alusmaterjali valik, vöö päringu kontrollnloendid, teravuste järjestused, tolmukogumine ja teravuste standardid (FEPA/ANSI).",
+      "keywords": "libestusainete ostja juhend, teravuste valik, libestusainete tingimustik, teravuste standardid FEPA ANSI"
+    },
+    "contact": {
+      "title": "Võtke ühendust MoTai-ga — libestusainete tarnija Hiinas",
+      "description": "Sõudge MoTai libestusainete tarnija Xianningis, Hubei provintsis: telefon, e-posti aadress ja WhatsApp hulgimüügi ja OEM libestusainete päringute jaoks, lisaks tehas külastus.",
+      "keywords": "libestusainete tarnija kontakt, libestusainete hulgipäring, libestusainete tootja Hiinas"
+    },
+    "privacy": {
+      "title": "Privaatsuspoliitika",
+      "description": "Kuidas MoTai Abrasives kasutab päringuandmeid: kogumine, eesmärk, salvestamine, teie valikud ja kookide käsitlus.",
+      "keywords": "privaatsuspoliitika, MoTai"
+    },
+    "terms": {
+      "title": "Kasutustingimused — MoTai Abrasives",
+      "description": "Selle B2B libestusainete lehe tingimused: päringute käsitlus, pakkumispõhised hinnad, intellektuaalomand ja kehtiv õigus.",
+      "keywords": [
+        "kasutustingimused",
+        "MoTai",
+        "B2B libestusainete tarnija"
+      ]
+    },
+    "shipping": {
+      "title": "Transpordi ja tagastuste põlvkiri — libestusainete tellimused | MoTai",
+      "description": "MoTai libestusainete transpordi- ja tagastuspõlvkiri: tootmise tarniaeg, ekspordipakendus, Incoterms, tollidokumendid, saatmine ja millal spetsifikatsioonil valmistatud tooteid saab tagastada või krediteerida.",
+      "keywords": "libestusainete transpordipõlvkiri, libestusainete tagastuspõlvkiri, hulgimüügi libestusainete tarne, libestusainete Incoterms, ekspordipakendus, transporditingimused"
+    },
+    "quote": {
+      "title": "Taota hulgimüügi libestusainete pakkumine | MoTai",
+      "description": "Valmistage ette oma hulgimüügi- või OEM libestusainete päring: ettevõtte andmed lisaks toode, suurus, teravus, hulk ja sihimaantee. Hulkide libestusainete tarned tehakse otse tehast.",
+      "keywords": "hulgimüügi libestusainete pakkumine, hulkide libestusainete tarned, OEM libestusainete päring, libestusained hulgimüügis"
+    },
+    "clients": {
+      "title": "Libestusainete ekspordija — globaalne tarne Hiina Hubei provintsist | MoTai",
+      "description": "MoTai ekspordib libestusvööde, liivapaberikettasid ja riivikettasid seitsmesse sihimaanduse piirkonda: Euroopasse, Ameerikasse, Lähis-Idasse, Aafrikasse, Okeaaniasse ja Aasiasse.",
+      "keywords": "libestusainete ekspordija, libestusainete ekspord, globaalne libestusainete tarne, tööstuslik libestusainete tarnija"
+    },
+    "glossary": {
+      "title": "Libestusainete tingimustik — teravus, alusmaterjal, kettade tingimused",
+      "description": "24 libestusainete tingimust defineeritud: FEPA teravus, alusmaterjalid, kangakinnitus, PSA, avatud võrgu, servade puhastamine ja muud.",
+      "keywords": "libestusainete tingimustik, teravuste standardid, libestusainete tingimused"
+    },
+    "product": {
+      "title": "MoTai {name} — hulgimüügi- ja OEM libestusained",
+      "description": "MoTai {name} ({material}, {category}): {desc} Mõõdud: {sizes}. Teravused: {grits}. Tehasest otse hulgimüük ja OEM tarned.",
+      "keywords": "{name}, {category} tootja, {material} libestusaine, libestusained hulgimüügis, OEM libestusaine"
+    },
+    "model": {
+      "title": "{model} libestusvöö — MoTai",
+      "description": "Viitetrüki libestusvöö mudel {model} MoTai valikust — laius, pikkus, teravus ja alusmaterjal kinnitatakse pakkumisel. Hulgimüük ja OEM tarned.",
+      "keywords": "{model} libestusvöö, libestusvöö trükkviide, libestusvööd hulgimüügis"
+    },
+    "disc": {
+      "title": "MoTai {title} — hulgimüük ja OEM",
+      "description": "MoTai ketasvari {title}: teravuste vahemik, diameeter ja kinnitus kinnitatakse pakkumisel. Tehasest otse hulgimüük ja OEM.",
+      "keywords": "liivapaberikettad, kangakinnituskettad, PSA kettad, võrgukettad, liivapaberikettad hulgimüügis"
+    },
+    "flap": {
+      "title": "MoTai {name} — riivikettade tootja",
+      "description": "MoTai {name}: {backing} alusmaterjali libestusaine riivikettad metalli ketastamiseks, viimistlemiseks ja lõppviimistlemiseks. Hulgimüük ja OEM tarned.",
+      "keywords": "riivikettad, {backing} alusmaterjali riivikettad, siirkooniumi riivikettad, riivikettade tootja, riivikettad hulgimüügis"
+    },
+    "colt": {
+      "belts": {
+        "title": "Libestusvööde tootja ja hulgimüügi tarnija | MoTai",
+        "description": "Laia- ja tööstuslikud libestusvööd 533×75 kuni 2200×1330 mm, teravused 40–800, alumiiniumoksiidis, siirkooniis ja ränikarbiidis — viitetrükkidega GXK-51, XZ-330, GPC71 ja muud. Tehasest otse hulgimüük ja OEM.",
+        "keywords": "libestusvööd, liivimisvööd, tööstuslikud liivimisvööd, laiad libestusvööd, laiad liivimisvööd, puidu liivimisvööd, metalli liivimisvööd, alumiiniumoksiidi libestusvööd, siirkooni libestusvööd, ränikarbiidi libestusvööd, libestusvööde tootja, libestusvööde tarnija, libestusvööd hulgimüügis, GXK-51 libestusvöö, XZ-330 libestusvöö, GPC71 libestusvöö, Y399 libestusvöö, Y999 libestusvöö, 533x75 libestusvöö, 610x100 libestusvöö, 1520x630 libestusvöö, 2200x1330 libestusvöö"
+      },
+      "discs": {
+        "title": "Liivapaberikettade tootja — PSA, kangakinnitus ja võrk | MoTai",
+        "description": "Kangakinnituse, PSA, võrgu- ja auaudeta liivapaberikettad 3 kuni 6 tolli, teravused 60–5000, autode ripatsi, puidu ja metalli viimistlemise jaoks. Tehasest otse hulgimüük ja OEM.",
+        "keywords": "liivapaberikettad, libestusaine liivapaberikettad, kangakinnituse liivapaberikettad, PSA liivapaberikettad, võrgu liivapaberikettad, mittepulburi liivapaberikettad, tolmuta liivapaberikettad, auurakendega liivapaberikettad, auaudeta liivapaberikettad, 5-tollised liivapaberikettad, 6-tollised liivapaberikettad, liivapaberikettade tootja, liivapaberikettad hulgimüügis"
+      },
+      "flap": {
+        "title": "Riivikettade tootja — siirkooni ja alumiiniumoksiid | MoTai",
+        "description": "MoTai libestusaine riivikettad plast-, teras- ja klaaskiust alusmaterjaliga, siirkooniis ja alumiiniumoksiidis, metalli ketastamiseks, servade puhastamiseks ja viimistlemiseks. Hulgimüük ja OEM tarned.",
+        "keywords": "riivikettad, libestusaine riivikettad, siirkooni riivikettad, alumiiniumoksiidi riivikettad, klaaskiust alusmaterjali riivikettad, plast alusmaterjali riivikettad, teras alusmaterjali riivikettad, 100mm riivikettad, 115mm riivikettad, 125mm riivikettad, 150mm riivikettad, 180mm riivikettad, riivikettade tootja, riivikettade tarnija, riivikettad hulgimüügis"
+      },
+      "all": {
+        "title": "Libestusained hulgimüügis — vööd, kettad ja riivikettad | MoTai",
+        "description": "Kogu MoTai libestusainete kataloog: tööstuslikud libestusvööd, liivapaberikettad ja riivikettad jaekaubandusettevõtetele, impordijatele, hulgimüüjatele ja OEM brändidele. Tehasest otse hulgimüük, kohandamine ja ekspord Hiina Hubei provintsist.",
+        "keywords": "libestusained, libestusained hulgimüügis, tööstuslikud libestusained, katetud libestusained, libestusained hulgimüügis, libestusainete tehas, libestusainete ekspordija, libestusainete tarnija Hiinas, libestusainete OEM tootja, omamärgi libestusained, kohandatud libestusained, hulkide libestusainete tarned, libestusainete tehas, libestustööriistad, libestusained materjalid, liivimistooted, pindade viimistluse tooted, liivapaber, liivapaberilehed, ümmargune liivapaber, liivapaber hulgimüügis, liivimispadi, kangakinnituse liivimispadi, 5-tolline liivimispadi, 6-tolline liivimispadi, mittepulburi riivirull, libestuskangas, tööstuslik rullharja"
+      }
+    }
+  },
+  "quickBar": {
+    "label": "Kiirkontakt",
+    "whatsapp": "WhatsApp",
+    "quote": "Taota pakkumine"
+  }
+}

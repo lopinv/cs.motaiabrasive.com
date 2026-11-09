@@ -224,7 +224,16 @@
     "ctaTitle": "Chcete to probrat osobně?",
     "ctaSub": "Hledáte spolehlivého dodavatele brusných materiálů?",
     "cta1": "Vyžádejte velkoobchodní nabídku",
-    "cta2": "Kontaktujte nás přes WhatsApp"
+    "cta2": "Kontaktujte nás přes WhatsApp",
+    "galleryTitle": "Kde se vaše objednávka vyrábí",
+    "galleryIntro": "Stejný provoz zajišťuje stříhání, kontrolu vzorků a balení každé potvrzené objednávky.",
+    "gallery1Title": "Provozna",
+    "gallery1Text": "Přikrytá pracovní plocha, kde se brusné pásky a brusné kotouče zpracovávají, kontrolují a balí.",
+    "gallery2Title": "Zavod a nabíjecí prostor",
+    "gallery2Text": "Krabice se paletizují a nakládají na místě před odesláním do vašeho cílového regionu.",
+    "gallery3Title": "Hotové zboží",
+    "gallery3Text": "Pásky a kotouče se balí podle potvrzené specifikace — zrnitost, rozměry a balící list.",
+    "galleryNote": "Fotografie poskytuje továrna pro obecnou orientaci; nejde o obrázky konkrétní objednávky. Záznamy produktů se zde objeví po jejich zveřejnění."
   },
   "oem": {
     "h1": "Vaše logo na kartonu",
