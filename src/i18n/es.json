@@ -126,7 +126,11 @@
     "prepGrit": "Grano",
     "prepGritText": "Grado o acabado requerido.",
     "prepQty": "Cantidad",
-    "prepQtyText": "Volumen estimado y embalaje."
+    "prepQtyText": "Volumen estimado y embalaje.",
+    "articlesEyebrow": "Recursos para compradores",
+    "articlesTitle": "Guías de nuestro equipo técnico",
+    "articlesSub": "Cómo eligen los compradores el grano, el soporte y el embalaje antes de pedir.",
+    "articlesCta": "Ver todas las guías"
   },
   "purchasing": {
     "eyebrow1": "Guía de compra",
@@ -217,7 +221,6 @@
     "qc2b": "Tipo de respaldo, gramaje y tolerancia dimensional de cintas y discos terminados.",
     "qc3t": "Embalaje y marcas",
     "qc3b": "Cantidades por envase, etiquetas, marcas de cartón y arte coinciden con el pedido confirmado.",
-    "certNote": "Los sellos de certificación mostrados son marcadores de posición hasta publicar los certificados.",
     "ctaTitle": "¿Prefiere comentarlo?",
     "ctaSub": "¿Busca un proveedor confiable de abrasivos?",
     "cta1": "Solicitar cotización mayorista",

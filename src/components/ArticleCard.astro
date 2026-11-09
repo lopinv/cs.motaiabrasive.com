@@ -1,0 +1,40 @@
+---
+/**
+ * 单张文章卡片：博客列表页与首页「最新文章」模块共用的最小单元。
+ *
+ * 与产品页 relArticles 的卡片（.eyebrow 分类 + "Read article" 尾链）刻意不
+ * 共用：那处带阅读尾链，这里用 build-time 更新日期，视觉规格不同。
+ *
+ * 分类角标与本地化日期都在组件内解析（调用方只传 lang + 文章记录），避免
+ * 每个页面重复一份 CAT_KEYS 映射与 Intl 调用。
+ */
+import { media, localizedUrl } from '../lib/utils.js'
+import { TRANSLATIONS } from '../lib/i18n.js'
+import { BLOG_CATEGORIES } from '../lib/blog-pager.js'
+
+const { lang, article, updatedLabel } = Astro.props
+const tr = TRANSLATIONS[lang]
+const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+const u = (p) => localizedUrl(lang, p)
+// 未登记的 categoryKey 不渲染分类角标，而不是留一个空标签。
+const catLabel = pick(`article.${BLOG_CATEGORIES.find((c) => c.key === article.categoryKey)?.i18n}`)
+// 2 字母语种码（ogLocale 的 pt_PT / ar_SA 形式 Node small-icu 拒绝）；
+// zh-Hant 是 4 字母路由码，剥离后缀让 Intl 拿到裸 "zh"。
+const date = article.dateModified ?? article.datePublished
+const when = date
+  ? new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(date))
+  : ''
+---
+
+<a class="product-card" href={u(`/blog/${article.slug}`)}>
+  <div class="product-card-media">
+    <img src={article.image ? media(article.image) : ''} alt={article.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+    <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
+  </div>
+  <div class="product-card-body">
+    {catLabel && <span class="card-cat">{catLabel}</span>}
+    <h3 class="product-card-title">{article.title}</h3>
+    <p>{article.intro}</p>
+    {when && <p class="card-updated"><span>{updatedLabel}</span> {when}</p>}
+  </div>
+</a>

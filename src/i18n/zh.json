@@ -126,7 +126,11 @@
     "prepGrit": "粒度",
     "prepGritText": "所需等级或表面效果。",
     "prepQty": "数量",
-    "prepQtyText": "预估数量与包装方式。"
+    "prepQtyText": "预估数量与包装方式。",
+    "articlesEyebrow": "采购资源",
+    "articlesTitle": "技术团队的指南",
+    "articlesSub": "采购人员在下单前如何选择粒度、背胶与包装。",
+    "articlesCta": "浏览全部指南"
   },
   "purchasing": {
     "eyebrow1": "采购指引",
@@ -217,7 +221,6 @@
     "qc2b": "基体类型、克重与成品砂带/砂纸片尺寸公差。",
     "qc3t": "包装与标识",
     "qc3b": "装箱数量、标签、箱面标识与贴牌设计稿与确认订单一致。",
-    "certNote": "所示认证标志为占位，待公布证书后替换。",
     "ctaTitle": "想直接聊聊？",
     "ctaSub": "正在寻找可靠的磨料供应商？",
     "cta1": "索取批发报价",

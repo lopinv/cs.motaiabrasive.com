@@ -126,7 +126,11 @@
     "prepGrit": "Grit",
     "prepGritText": "Grade atau hasil akhir yang dibutuhkan.",
     "prepQty": "Jumlah",
-    "prepQtyText": "Estimasi volume dan kemasan."
+    "prepQtyText": "Estimasi volume dan kemasan.",
+    "articlesEyebrow": "Sumber daya pembeli",
+    "articlesTitle": "Panduan dari tim teknis kami",
+    "articlesSub": "Bagaimana pembeli memilih grit, backing dan kemasan sebelum memesan.",
+    "articlesCta": "Lihat semua panduan"
   },
   "purchasing": {
     "eyebrow1": "Panduan pengadaan",
@@ -217,7 +221,6 @@
     "qc2b": "Tipe backing, bobot, dan toleransi dimensi sabuk dan piringan jadi.",
     "qc3t": "Kemasan & kode etiket",
     "qc3b": "Jumlah per kemasan, label, kode etiket karton, dan artwork private label sesuai order yang telah ditetapkan.",
-    "certNote": "Tanda sertifikasi yang ditampilkan bersifat placeholder hingga sertifikat resmi dipublikasikan.",
     "ctaTitle": "Ingin mendiskusikannya dulu?",
     "ctaSub": "Mencari pemasok bahan abrasif yang bisa diandalkan?",
     "cta1": "Minta Penawaran Grosir",

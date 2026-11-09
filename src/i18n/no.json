@@ -126,7 +126,11 @@
     "prepGrit": "Korn",
     "prepGritText": "Ønsket grad eller ferdigbehandling.",
     "prepQty": "Mengde",
-    "prepQtyText": "Anslått volum og emballasje."
+    "prepQtyText": "Anslått volum og emballasje.",
+    "articlesEyebrow": "Kjøperressurser",
+    "articlesTitle": "Guider fra vårt tekniske team",
+    "articlesSub": "Hvordan kjøpere velger kornstørrelse, baksidelse og emballasje før de bestiller.",
+    "articlesCta": "Se alle guider"
   },
   "purchasing": {
     "eyebrow1": "Innkjøpsveiledning",
@@ -217,7 +221,6 @@
     "qc2b": "Bakstype, vekt og dimensjonstoleranse for ferdige bånd og skiver.",
     "qc3t": "Emballasje og merking",
     "qc3b": "Pakningsantall, etiketter, kartongmerking og grafisk materiale for eget merke samsvarer med den bekreftede ordren.",
-    "certNote": "Sertifiseringsmerker som vises er plassholdere inntil sertifikater er publisert.",
     "ctaTitle": "Foretrekker du å snakke om det?",
     "ctaSub": "Ser du etter en pålitelig leverandør av slibeprodukter?",
     "cta1": "Be om engros-tilbud",

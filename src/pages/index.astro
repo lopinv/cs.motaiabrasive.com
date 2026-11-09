@@ -3,6 +3,7 @@ import { defaultLang } from '../lib/i18n.js'
 import Shell from '../components/Shell.astro'
 import Home from '../components/pages/Home.astro'
 import { buildSeo } from '../lib/page.js'
+import { allArticles } from '../lib/articles.js'
 
 const lang = defaultLang()
 const seo = buildSeo(lang, 'home')
@@ -13,8 +14,10 @@ const webSite = {
   url: String(Astro.site ?? 'https://motai-abrasives.pages.dev')
 }
 seo.jsonld = [...(seo.jsonld ?? []), webSite]
+// 首页底部「最新文章」：与 /blog/ 第 1 页前 3 篇同源同序。
+const latestArticles = (await allArticles(lang)).slice(0, 3)
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Home lang={lang} />
+  <Home lang={lang} latestArticles={latestArticles} />
 </Shell>

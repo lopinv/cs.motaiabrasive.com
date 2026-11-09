@@ -126,7 +126,11 @@
     "prepGrit": "Cỡ hạt",
     "prepGritText": "Độ mịn hoặc mức hoàn thiện cần thiết.",
     "prepQty": "Số lượng",
-    "prepQtyText": "Sản lượng dự kiến và đóng gói."
+    "prepQtyText": "Sản lượng dự kiến và đóng gói.",
+    "articlesEyebrow": "Tài nguyên cho người mua",
+    "articlesTitle": "Hướng dẫn từ đội ngũ kỹ thuật của chúng tôi",
+    "articlesSub": "Người mua chọn độ mịn, lớp đế và bao bì như thế nào trước khi đặt hàng.",
+    "articlesCta": "Xem tất cả hướng dẫn"
   },
   "purchasing": {
     "eyebrow1": "Hướng dẫn mua hàng",
@@ -217,7 +221,6 @@
     "qc2b": "Loại đế, trọng lượng và dung sai kích thước của dây băng và đĩa mài thành phẩm.",
     "qc3t": "Đóng gói & nhãn kiện",
     "qc3b": "Số lượng đóng gói, nhãn, dấu kiện hàng và thiết kế thương hiệu riêng khớp với đơn hàng đã xác nhận.",
-    "certNote": "Các dấu chứng chỉ hiển thị là phần giữ chỗ, chờ công bố chứng chỉ chính thức.",
     "ctaTitle": "Thích thảo luận trực tiếp hơn?",
     "ctaSub": "Đang tìm nhà cung cấp vật liệu mài đáng tin cậy?",
     "cta1": "Yêu cầu báo giá bán buôn",

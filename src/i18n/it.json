@@ -126,7 +126,11 @@
     "prepGrit": "Grana",
     "prepGritText": "Grado o finitura richiesta.",
     "prepQty": "Quantità",
-    "prepQtyText": "Volume stimato e imballaggio."
+    "prepQtyText": "Volume stimato e imballaggio.",
+    "articlesEyebrow": "Risorse per acquirenti",
+    "articlesTitle": "Guide del nostro team tecnico",
+    "articlesSub": "Come gli acquirenti scelgono grana, supporto e imballo prima di ordinare.",
+    "articlesCta": "Vedi tutte le guide"
   },
   "purchasing": {
     "eyebrow1": "Guida all'acquisto",
@@ -217,7 +221,6 @@
     "qc2b": "Tipo di supporto, peso e tolleranza dimensionale di nastri e dischi finiti.",
     "qc3t": "Imballo e marchiatura",
     "qc3b": "Quantità di imballo, etichette, marchiatura cartoni e grafica private label coerenti con l'ordine confermato.",
-    "certNote": "I marchi di certificazione mostrati sono segnaposto in attesa di certificati pubblicati.",
     "ctaTitle": "Preferisci parlarne?",
     "ctaSub": "Cerchi un fornitore di abrasivi affidabile?",
     "cta1": "Richiedi un preventivo all'ingrosso",

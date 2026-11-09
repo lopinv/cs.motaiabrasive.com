@@ -126,7 +126,11 @@
     "prepGrit": "Zrnitost",
     "prepGritText": "Požadovaná gradace nebo povrchová úprava.",
     "prepQty": "Množství",
-    "prepQtyText": "Odhadovaný objem a způsob balení."
+    "prepQtyText": "Odhadovaný objem a způsob balení.",
+    "articlesEyebrow": "Nákupní zdroje",
+    "articlesTitle": "Příručky od našeho technického týmu",
+    "articlesSub": "Jak kupující volí zrnitost, nosič a balení ještě před objednáním.",
+    "articlesCta": "Prohlédnout všechny příručky"
   },
   "purchasing": {
     "eyebrow1": "Nákupní poradenství",
@@ -217,7 +221,6 @@
     "qc2b": "Typ podkladu, gramáž a rozměrové tolerance hotových pásů a kotoučů.",
     "qc3t": "Balení a značení",
     "qc3b": "Počty v balení, etikety, značení krabic a grafika vlastní značky odpovídají potvrzené objednávce.",
-    "certNote": "Zobrazené certifikační značky jsou zástupné, dokud nebudou zveřejněny certifikáty.",
     "ctaTitle": "Chcete to probrat osobně?",
     "ctaSub": "Hledáte spolehlivého dodavatele brusných materiálů?",
     "cta1": "Vyžádejte velkoobchodní nabídku",

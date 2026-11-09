@@ -126,7 +126,11 @@
     "prepGrit": "Gradacja",
     "prepGritText": "Wymagana gradacja lub wykończenie.",
     "prepQty": "Ilość",
-    "prepQtyText": "Szacowana wielkość i opakowanie."
+    "prepQtyText": "Szacowana wielkość i opakowanie.",
+    "articlesEyebrow": "Zasoby dla kupujących",
+    "articlesTitle": "Poradniki naszego zespołu technicznego",
+    "articlesSub": "Jak kupujący wybierają ziarnistość, podkład i opakowanie przed złożeniem zamówienia.",
+    "articlesCta": "Zobacz wszystkie poradniki"
   },
   "purchasing": {
     "eyebrow1": "Wskazówki dotyczące zakupów",
@@ -217,7 +221,6 @@
     "qc2b": "Typ podkładki, gramatura i tolerancja wymiarowa gotowych pasków i tarcz.",
     "qc3t": "Pakowanie i oznaczenia",
     "qc3b": "Liczności opakowań, etykiety, oznaczenia kartonów i projekt marki własnej są zgodne z potwierdzonym zamówieniem.",
-    "certNote": "Przedstawione oznaczenia certyfikacji są zastępcze do czasu publikacji certyfikatów.",
     "ctaTitle": "Wolą Państwo omówić szczegóły?",
     "ctaSub": "Szukają Państwo niezawodnego dostawcy materiałów ściernych?",
     "cta1": "Poproście o wycenę hurtową",

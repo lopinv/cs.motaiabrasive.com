@@ -1,0 +1,34 @@
+---
+/**
+ * 首页「最新文章」模块：语种最新的 3 篇文章 + 「浏览全部指南」入口。
+ *
+ * 放在首页底部（LOCATION 之后、最终 CTA 之前）：定位是给已读到页面底部、
+ * 还在评估阶段的买家一条通往深度内容的出口，而不是和 hero 争首屏。
+ *
+ * 数据由调用方（[lang]/index.astro）传入：首页是静态路由，不在页面层做
+ * getCollection 之外的额外取数；文章顺序沿用博客的 dateModified 倒序，
+ * 与 /blog/ 第 1 页前 3 篇一致，两处内容天然同步。
+ */
+import ArticleCard from './ArticleCard.astro'
+import SectionHeading from './SectionHeading.astro'
+import { localizedUrl } from '../lib/utils.js'
+import { TRANSLATIONS } from '../lib/i18n.js'
+
+const { lang, articles } = Astro.props
+const tr = TRANSLATIONS[lang]
+const h = tr.home
+const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+const u = (p) => localizedUrl(lang, p)
+---
+
+{articles.length > 0 && (
+  <section class="section wrap">
+    <SectionHeading eyebrow={h.articlesEyebrow} title={h.articlesTitle} sub={h.articlesSub} />
+    <div class="grid grid-3">
+      {articles.map((a) => (
+        <ArticleCard lang={lang} article={a} updatedLabel={pick('blogIndex.updatedLabel')} />
+      ))}
+    </div>
+    <a class="button outline dark-outline mt-24" href={u('/blog')}>{h.articlesCta} <span aria-hidden="true">→</span></a>
+  </section>
+)}

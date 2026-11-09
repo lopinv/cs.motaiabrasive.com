@@ -126,7 +126,11 @@
     "prepGrit": "Korn",
     "prepGritText": "Den ønskede kvalitet eller finish.",
     "prepQty": "Mængde",
-    "prepQtyText": "Estimeret volumen og forpakning."
+    "prepQtyText": "Estimeret volumen og forpakning.",
+    "articlesEyebrow": "Køberressourcer",
+    "articlesTitle": "Guides fra vores tekniske team",
+    "articlesSub": "Sådan vælger købere kornstørrelse, bagside og emballage, før de bestiller.",
+    "articlesCta": "Se alle guides"
   },
   "purchasing": {
     "eyebrow1": "Købsvejledning",
@@ -217,7 +221,6 @@
     "qc2b": "Bæreremtype, vægt og måltolerance på færdige bånd og plader.",
     "qc3t": "Pakning & markeringer",
     "qc3b": "Pakningsmængder, etiketter, kassemarkeringer og private-label-materiel stemmer med den bekræftede ordre.",
-    "certNote": "Viste certificeringsmærker er pladsholdere, indtil certificeringer er offentliggjort.",
     "ctaTitle": "Foretrækker du at tale det igennem?",
     "ctaSub": "Leder du efter en pålidelig leverandør af slibemidler?",
     "cta1": "Bestil et engros-tilbud",

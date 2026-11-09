@@ -126,7 +126,11 @@
     "prepGrit": "Grit",
     "prepGritText": "Gerekli sınıf veya kalite.",
     "prepQty": "Miktar",
-    "prepQtyText": "Tahmini hacim ve ambalajlama."
+    "prepQtyText": "Tahmini hacim ve ambalajlama.",
+    "articlesEyebrow": "Alıcı kaynakları",
+    "articlesTitle": "Teknik ekibimizin rehberleri",
+    "articlesSub": "Alıcılar sipariş vermeden önce zorluk, tampon ve ambalajı nasıl seçiyor.",
+    "articlesCta": "Tüm rehberleri gör"
   },
   "purchasing": {
     "eyebrow1": "Satın alma rehberi",
@@ -217,7 +221,6 @@
     "qc2b": "Bitiş bant ve disklerin taban tipi, gramajı ve boyut toleransı.",
     "qc3t": "Paketleme ve işaretler",
     "qc3b": "Paket adetleri, etiketler, koli işaretleri ve özel etiket tasarımı onaylanan siparişle uyumludur.",
-    "certNote": "Gösterilen belgelendirme işaretleri, belgeler yayımlanana kadar yer tutucudur.",
     "ctaTitle": "Konuyu görüşerek mi ilerlemek istersiniz?",
     "ctaSub": "Güvenilir bir aşındırıcı tedarikçi mi arıyorsunuz?",
     "cta1": "Toptan Teklif Talep Edin",

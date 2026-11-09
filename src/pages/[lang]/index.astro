@@ -4,6 +4,7 @@ import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
 import Home from '../../components/pages/Home.astro'
 import { breadcrumbJsonLd, faqJsonLd, websiteJsonLd } from '../../lib/tdk.js'
+import { allArticles } from '../../lib/articles.js'
 
 export function getStaticPaths() {
   return langPaths()
@@ -21,8 +22,10 @@ const jsonld = [
   faqJsonLd(lang, faq.faq),
   websiteJsonLd()
 ]
+// 首页底部「最新文章」：与 /blog/ 第 1 页前 3 篇同源同序（dateModified 倒序）。
+const latestArticles = (await allArticles(lang)).slice(0, 3)
 ---
 
 <Shell lang={lang} seo={{ ...seo, jsonld }}>
-  <Home lang={lang} />
+  <Home lang={lang} latestArticles={latestArticles} />
 </Shell>

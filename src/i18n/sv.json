@@ -126,7 +126,11 @@
     "prepGrit": "Korn",
     "prepGritText": "Önskad kornstorlek eller yta.",
     "prepQty": "Mängd",
-    "prepQtyText": "Uppskattad volym och packning."
+    "prepQtyText": "Uppskattad volym och packning.",
+    "articlesEyebrow": "Köparresurser",
+    "articlesTitle": "Guider från vårt tekniska team",
+    "articlesSub": "Hur köpare väljer kornstorlek, bärare och förpackning innan de beställer.",
+    "articlesCta": "Se alla guider"
   },
   "purchasing": {
     "eyebrow1": "Inköpsstöd",
@@ -217,7 +221,6 @@
     "qc2b": "Bärmaterialstyp, vikt och måtttolerans för färdiga band och diskar.",
     "qc3t": "Packning & märkningar",
     "qc3b": "Packmängder, etiketter, kartongmärken och tryckkonst för eget märke stämmer överens med den bekräftade ordern.",
-    "certNote": "Visade certifikatmärken är platshållare tills publicerade certifikat föreligger.",
     "ctaTitle": "Föredrar du att prata igenom det?",
     "ctaSub": "Letar du efter en pålitlig slipmedelsleverantör?",
     "cta1": "Begär en grossistoffert",

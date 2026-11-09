@@ -14,7 +14,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, media, wa, site, trust } = usePage(lang)
+const { pick, lu } = usePage(lang)
 const f = pick('factory')
 const seo = buildSeo(lang, 'factory', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.manufacturing'), path: `/${lang}/factory` }])
@@ -60,17 +60,6 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
       <div class="value-card"><span class="vno">QC-1</span><h3>{f.qc1t}</h3><p>{f.qc1b}</p></div>
       <div class="value-card"><span class="vno">QC-2</span><h3>{f.qc2t}</h3><p>{f.qc2b}</p></div>
       <div class="value-card"><span class="vno">QC-3</span><h3>{f.qc3t}</h3><p>{f.qc3b}</p></div>
-    </div>
-    <p class="small-note mt-16">{f.certNote}</p>
-    <div class="grid grid-3 mt-24">
-      {trust.certifications.filter((c) => c.status === 'placeholder').map((c) => (
-        <div class="logo-slot">
-          <div>
-            <span class="placeholder-badge">{pick('clients.placeholderBadge')}</span>
-            <p>{c.label}</p>
-          </div>
-        </div>
-      ))}
     </div>
   </section>
 

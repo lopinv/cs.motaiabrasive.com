@@ -126,7 +126,11 @@
     "prepGrit": "Karkeus",
     "prepGritText": "Vaadittu luokka tai viimeistelytaso.",
     "prepQty": "Määrä",
-    "prepQtyText": "Arvioitu volyymi ja pakkaus."
+    "prepQtyText": "Arvioitu volyymi ja pakkaus.",
+    "articlesEyebrow": "Ostajan resurssit",
+    "articlesTitle": "Tekniikan tiimimme oppaat",
+    "articlesSub": "Miten ostajat valitsevat karkeuksen, taustan ja pakkauksen ennen tilausta.",
+    "articlesCta": "Katso kaikki oppaat"
   },
   "purchasing": {
     "eyebrow1": "Hankintaohje",
@@ -217,7 +221,6 @@
     "qc2b": "Valmiiden hiomahihnojen ja hiomapaperien pohjat tyyppi, paino ja mittatoleranssi.",
     "qc3t": "Pakkaus ja merkinnät",
     "qc3b": "Pakkausmäärät, etiketit, kartonkimerkinnät ja oman brändin painokuvat vastaavat vahvistettua tilausta.",
-    "certNote": "Näkyvät sertifiointimerkinnät ovat paikkamerkkejä, kunnes sertifikaatit on julkaistu.",
     "ctaTitle": "Haluatteko käydä keskustelua?",
     "ctaSub": "Etsittekö luotettavaa hiomamateriaalin toimittajaa?",
     "cta1": "Pyydät tukkutarjousta",

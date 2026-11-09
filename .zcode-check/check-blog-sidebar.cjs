@@ -30,6 +30,11 @@ const MODULES = ['blog-sidebar', 'side-products', 'side-services', 'side-latest'
 const problems = []
 
 const langs = fs.readdirSync(I18N).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')).sort()
+// 每语种的本地化文案直接从源文件读（key-parity 门禁已在构建期保证各语种
+// 文件含完整 home.* 键组，deepMerge 之前的单语种文件即可直接取用）。
+const TRANSLATIONS = Object.fromEntries(
+  langs.map((lang) => [lang, JSON.parse(fs.readFileSync(path.join(I18N, lang + '.json'), 'utf8'))])
+)
 let checked = 0
 
 for (const lang of langs) {
@@ -93,6 +98,30 @@ for (const lang of langs) {
     if (l.startsWith('/_astro/')) continue
     if (!l.endsWith('/')) problems.push(`${lang}: 侧栏/页内链接缺尾斜杠 ${l}`)
     if (l.startsWith(`/${lang}/knowledge`)) problems.push(`${lang}: 出现 /knowledge 路由（硬约束 4）`)
+  }
+
+  // 首页「最新文章」模块：3 张与 /blog/ 第 1 页同源同序的卡片 + 「浏览全部
+  // 指南」入口，检验模块出现、卡片数与顺序一致（防未来改首页布局把模块
+  // 挤掉，或数据源改成另一套顺序导致两处内容漂移）。
+  const homeFile = path.join(DIST, lang, 'index.html')
+  if (!fs.existsSync(homeFile)) problems.push(`${lang}: 首页缺失`)
+  else {
+    const home = fs.readFileSync(homeFile, 'utf8')
+    // 模块标题各语种本地化文案，取不到则退化为「卡片 + 入口」纯结构校验。
+    const homeTitle = TRANSLATIONS[lang].home.articlesTitle
+    if (homeTitle && !home.includes(homeTitle)) problems.push(`${lang}: 首页缺文章模块标题`)
+    if (!home.includes(`href="/${lang}/blog/"`)) problems.push(`${lang}: 首页缺「浏览全部指南」入口`)
+    // Astro 有时在 class 之后注入 style="--accent:…"，href 可能排在 style
+    // 之后，所以用宽松匹配提取 a 标签的 href。
+    const cardHref = new RegExp('<a class="product-card"[^>]*href="(' + '/' + lang + '/blog/[^"]+)"', 'g')
+    const homeCards = [...home.matchAll(cardHref)].map((m) => m[1])
+    if (homeCards.length !== 3) problems.push(`${lang}: 首页文章卡片 ${homeCards.length} 张，应为 3`)
+    const indexCards = [...index.matchAll(cardHref)].map((m) => m[1]).slice(0, 3)
+    for (let i = 0; i < Math.min(homeCards.length, indexCards.length); i++) {
+      if (homeCards[i] !== indexCards[i]) {
+        problems.push(`${lang}: 首页文章卡片 #${i + 1} 与 /blog/ 第 1 页不一致（${homeCards[i]} vs ${indexCards[i]}）`)
+      }
+    }
   }
 }
 

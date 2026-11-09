@@ -11,7 +11,7 @@ motai-static/
 │  ├─ lib/             i18n、数据、TDK、WhatsApp 链接、路径工具、博客分页参数（blog-pager.js）、
 │  │                   博客↔商品关联（blog-products.js）
 │  ├─ components/      Shell/Header/Footer/FloatingContact/ProductCard/CtaBand/Faq/SectionHeading/
-│  │                   YouTubeEmbed/SeoMeta/BlogSidebar/BlogIndex/BlogPager
+│  │                   YouTubeEmbed/SeoMeta/BlogSidebar/BlogIndex/BlogPager/ArticleCard/BlogHomeArticles
 │  ├─ pages/           [lang] 动态参数路由（多语种）+ index.astro（SITE_LANG 根页）+ 404
 │  │                   └─ blog/  索引 + page/[n]（分页）+ category/[key] + category/[key]/page/[n]
 │  └─ styles/global.css
@@ -31,6 +31,15 @@ motai-static/
 `check-blog-sidebar.cjs` 会交叉校验 sitemap 与实际页面）。列表页与文章详情页共用
 两栏布局：右栏 `BlogSidebar` 常驻商品/服务/最新文章。
 
+## 首页最新文章模块
+
+首页底部（定位区之后、最终 CTA 之前）渲染「最新文章」模块：3 张与
+`/blog/` 第 1 页同源同序的文章卡片（`allArticles(lang)` 的 dateModified
+倒序前 3 篇）+「浏览全部指南」入口，卡片用共用的 `ArticleCard.astro`。
+文案键组 `home.articlesEyebrow/Title/Sub/Cta`（27 语种）。
+`check-blog-sidebar.cjs` 逐语种校验模块标题、卡片 3 张、且顺序与
+`/blog/` 第 1 页一致。
+
 ## 构建校验
 
 `npm run build` 串行执行以下门禁，任一失败即中止构建：
@@ -42,7 +51,7 @@ motai-static/
 | `key-parity.cjs` | 27 语种 i18n 键与 en.json 一致 |
 | `audit-terms.cjs` | 术语审计（机翻造词检测） |
 | `check-slash.cjs` | canonical/hreflang/JSON-LD、sitemap、_redirects 全站尾斜杠约定 |
-| `check-blog-sidebar.cjs` | 侧栏四模块完整、分页卡片数与链接形态、sitemap 与磁盘页面一一对应 |
+| `check-blog-sidebar.cjs` | 侧栏四模块完整、分页卡片数与链接形态、sitemap 与磁盘页面一一对应、首页文章模块与 /blog/ 第 1 页顺序一致 |
 
 ## 构建
 

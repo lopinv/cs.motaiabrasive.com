@@ -126,7 +126,11 @@
     "prepGrit": "Körnung",
     "prepGritText": "Erforderliche Qualität oder Oberfläche.",
     "prepQty": "Menge",
-    "prepQtyText": "Geschätztes Volumen und Verpackung."
+    "prepQtyText": "Geschätztes Volumen und Verpackung.",
+    "articlesEyebrow": "Ressourcen für Einkäufer",
+    "articlesTitle": "Leitfäden unseres technischen Teams",
+    "articlesSub": "Wie Einkäufer Körnung, Träger und Verpackung wählen, bevor sie bestellen.",
+    "articlesCta": "Alle Leitfäden ansehen"
   },
   "purchasing": {
     "eyebrow1": "Einkaufsleitung",
@@ -217,7 +221,6 @@
     "qc2b": "Trägertyp, Gewicht und Maßtoleranz fertiger Bänder und Scheiben.",
     "qc3t": "Verpackung & Markierung",
     "qc3b": "Packmengen, Etiketten, Kartonmarkierungen und Eigenmarken-Layouts entsprechen der bestätigten Bestellung.",
-    "certNote": "Gezeigte Zertifizierungs­marken sind Platzhalter bis zum Vorliegen veröffentlichter Zertifikate.",
     "ctaTitle": "Raten Sie lieber direkt?",
     "ctaSub": "Auf der Suche nach einem zuverlässigen Abriebsmittel-Lieferanten?",
     "cta1": "Großhandelsangebot anfragen",

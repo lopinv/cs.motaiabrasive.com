@@ -126,7 +126,11 @@
     "prepGrit": "Zrnitosť",
     "prepGritText": "Požadovaná trieda alebo povrch.",
     "prepQty": "Množstvo",
-    "prepQtyText": "Odhadovaný objem a balenie."
+    "prepQtyText": "Odhadovaný objem a balenie.",
+    "articlesEyebrow": "Zdroje pre kupujúcich",
+    "articlesTitle": "Príručky nášho technického týmu",
+    "articlesSub": "Ako kupujúci vyberajú zrnitosť, nosič a balenie ešte pred objednávkou.",
+    "articlesCta": "Zobraziť všetky príručky"
   },
   "purchasing": {
     "eyebrow1": "Nákupné poradenstvo",
@@ -217,7 +221,6 @@
     "qc2b": "Typ podložky, hmotnosť a rozmerná tolerancia hotových pásov a kotúčov.",
     "qc3t": "Balenie a značky",
     "qc3b": "Počty balení, etikety, značky na krabiciach a návrh vlastnej značky zodpovedajú potvrdenej objednávke.",
-    "certNote": "Zobrazené certifikačné značky sú zástupné a čakajú na zverejnenie certifikátov.",
     "ctaTitle": "Uprednostňujete osobný rozhovor?",
     "ctaSub": "Hľadáte spoľahlivého dodávateľa brúsnych produktov?",
     "cta1": "Vyžiadajte si veľkoobchodnú cenovú ponuku",

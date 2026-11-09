@@ -126,7 +126,11 @@
     "prepGrit": "Grão",
     "prepGritText": "Qualidade ou acabamento requerido.",
     "prepQty": "Quantidade",
-    "prepQtyText": "Volume estimado e embalagem."
+    "prepQtyText": "Volume estimado e embalagem.",
+    "articlesEyebrow": "Recursos para compradores",
+    "articlesTitle": "Guias da nossa equipa técnica",
+    "articlesSub": "Como os compradores escolhem o grão, o suporte e a embalagem antes de encomendar.",
+    "articlesCta": "Ver todos os guias"
   },
   "purchasing": {
     "eyebrow1": "Orientação de compra",
@@ -217,7 +221,6 @@
     "qc2b": "Tipo de suporte, peso e tolerância dimensional de fitas e discos acabados.",
     "qc3t": "Embalagem e marcações",
     "qc3b": "Quantidades de embalagem, etiquetas, marcações de caixa e artes de marca própria correspondem ao pedido confirmado.",
-    "certNote": "As marcações de certificação mostradas são provisórias, à espera de certificados publicados.",
     "ctaTitle": "Prefere conversar?",
     "ctaSub": "À procura de um fornecedor de abrasivos fiável?",
     "cta1": "Pedir orçamento de grosso",

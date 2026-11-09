@@ -7,8 +7,9 @@ import CtaBand from '../CtaBand.astro'
 import Faq from '../Faq.astro'
 import SectionHeading from '../SectionHeading.astro'
 import LocationBlock from '../LocationBlock.astro'
+import BlogHomeArticles from '../BlogHomeArticles.astro'
 
-const { lang } = Astro.props
+const { lang, latestArticles = [] } = Astro.props
 const tr = TRANSLATIONS[lang]
 const h = tr.home
 const featured = products.slice(0, 8)
@@ -158,9 +159,14 @@ const wa = (ctx, vars) => waLink(lang, ctx, vars)
   <a class="button outline dark-outline mt-14" href={wa('contact')}>{pick('cta.waChat')}</a>
 </section>
 
-<!-- LOCATION: factory photo + Google Map -->
+  <!-- LOCATION: factory photo + Google Map -->
 <section class="section wrap">
   <LocationBlock lang={lang} />
+</section>
+
+<!-- LATEST GUIDES: same cards as the blog index's first row -->
+<section class="section wrap section--soft">
+  <BlogHomeArticles lang={lang} articles={latestArticles} />
 </section>
 
 <!-- FINAL CTA -->

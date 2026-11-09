@@ -126,7 +126,11 @@
     "prepGrit": "Grain",
     "prepGritText": "Qualité ou finition requise.",
     "prepQty": "Quantité",
-    "prepQtyText": "Volume estimé et conditionnement."
+    "prepQtyText": "Volume estimé et conditionnement.",
+    "articlesEyebrow": "Ressources acheteurs",
+    "articlesTitle": "Guides de notre équipe technique",
+    "articlesSub": "Comment les acheteurs choisissent le grain, le support et l’emballage avant de commander.",
+    "articlesCta": "Voir tous les guides"
   },
   "purchasing": {
     "eyebrow1": "Aide à l'achat",
@@ -217,7 +221,6 @@
     "qc2b": "Type de support, poids et tolérance dimensionnelle des courrois et disques finis.",
     "qc3t": "Emballage & marquage",
     "qc3b": "Les quantités d'emballage, étiquettes, marquage des cartons et éléments graphiques de private label correspondent à la commande confirmée.",
-    "certNote": "Les marques de certification affichées sont des éléments provisoires en attente des certificats publiés.",
     "ctaTitle": "Vous préférez en discuter ?",
     "ctaSub": "À la recherche d'un fournisseur d'abrasifs fiable ?",
     "cta1": "Demander un devis de gros",

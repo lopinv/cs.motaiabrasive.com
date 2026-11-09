@@ -126,7 +126,11 @@
     "prepGrit": "Grit",
     "prepGritText": "Gred atau tahap permukaan yang diperlukan.",
     "prepQty": "Kuantiti",
-    "prepQtyText": "Anggaran isipadu dan pembungkusan."
+    "prepQtyText": "Anggaran isipadu dan pembungkusan.",
+    "articlesEyebrow": "Sumber pembeli",
+    "articlesTitle": "Panduan daripada pasukan teknikal kami",
+    "articlesSub": "Bagaimana pembeli memilih grit, penyandaran dan pembungkusan sebelum membuat pesanan.",
+    "articlesCta": "Lihat semua panduan"
   },
   "purchasing": {
     "eyebrow1": "Panduan pembelian",
@@ -217,7 +221,6 @@
     "qc2b": "Jenis asas, berat dan toleransi dimensi tali dan cakera siap.",
     "qc3t": "Pembungkusan & tanda",
     "qc3b": "Kuantiti pembungkusan, label, tanda pada kadbod dan reka bentuk jenama sendiri sepadan dengan pesanan yang disahkan.",
-    "certNote": "Tanda pensijilan yang dipaparkan ialah ruang letak sehingga sijil rasmi diterbitkan.",
     "ctaTitle": "Lebih suka berunding?",
     "ctaSub": "Mencari pembekal abrasif yang boleh dipercayai?",
     "cta1": "Minta Sebut Harga Borong",
