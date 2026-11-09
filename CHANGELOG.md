@@ -3,6 +3,25 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.2.1] - 2026-11-09
+
+### Changed
+
+- 全站「Request a Wholesale Quote」入口由站内中转改为**一次点击直达**原站询价页
+  `https://www.motaiabrasive.com/collections/all?view=request-a-quote`：站点导航
+  （桌面 + 移动两处）、页脚产品列、吸底 QuickContactBar、首页 Hero 主 CTA、
+  contact / oem / factory 页按钮，以及百叶片页按钮（顺带补上该页此前漏传的
+  `disc_key` 上下文参数）。原先这些入口都先跳到站内 `/quote/` 说明页、再由页内
+  按钮二次跳转，评估期买家多付一次点击。
+  Why: 询价转化路径每多一跳都会流失意向客户；产品/型号/砂纸片页与 CtaBand 早已直连外链，
+  入口行为此前不一致，统一后全站一致。
+
+### Removed
+
+- 站内 `/quote/` 不再有全站入口指向（原 9 处入口全部改直连外链）；该页仍保留为
+  原站 `?view=request-a-quote` 的 301 落地页与独立 SEO 页面，`_redirects` 与 sitemap
+  不变。
+
 ## [1.2.0] - 2026-11-07
 
 ### Added

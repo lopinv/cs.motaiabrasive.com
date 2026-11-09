@@ -89,12 +89,14 @@ set SITE_LANG=zh && npm run build # Windows cmd
 
 ## 跳转与沟通行为（设计约定）
 
-- **报价/表单按钮**：全部跳转到原站 `https://www.motaiabrasive.com/collections/all?view=request-a-quote`，
+- **报价/表单按钮**：全部直接跳转到原站 `https://www.motaiabrasive.com/collections/all?view=request-a-quote`，
   并按上下文附带预填参数：`&product=<handle>`（产品页）、`&model=<MODEL>`（型号页）、
-  `&disc_key=<key>`（砂纸片变体页）、`&request_type=sample`（样品申请）。**本地无任何表单提交后端。**
+  `&disc_key=<key>`（砂纸片/百叶片变体页）、`&request_type=sample`（样品申请）。**所有入口一次点击直达，
+  不经站内 `/quote/` 中转**（导航、页脚、吸底 QuickContactBar、首页 Hero、contact/oem/factory 页按钮均同）；
+  站内 `/quote/` 仍作为原站 `?view=request-a-quote` 的 301 落地页存在。**本地无任何表单提交后端。**
 - **沟通按钮**：`https://wa.me/8618118635597?text=<encodeURIComponent(预填文案)>`，文案随站点语种翻译、
   随页面上下文生成（产品页带产品名+粒度，型号页带型号等）。
-- 全站右下角有 WhatsApp / 报价 / 邮箱 / 返回顶部浮动按钮。
+- 全站右下角有 WhatsApp 圆形悬浮钮（点击向上展开聊天窗）。
 
 ## URL 斜杠约定（trailing slash）
 

@@ -13,7 +13,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, wa, flapByKey } = usePage(lang)
+const { pick, lu, wa, flapByKey, quoteUrl } = usePage(lang)
 const f = flapByKey(ctx.key)
 const t = pick('meta')
 const fp = pick('flapPage')
@@ -62,7 +62,7 @@ const flapVideo = videosData.videos.find((v) => v.youtubeId && v.category === 'p
         <p class="small-note">{t.availability}</p>
       </details>
 
-      <a class="button wide" href={lu('/quote')} target="_blank" rel="noopener">
+      <a class="button wide" href={quoteUrl({ disc_key: f.key })} target="_blank" rel="noopener nofollow">
         {pick('cta.quote')} <span aria-hidden="true">↗</span>
       </a>
       <div class="motai-b2b-secondary-actions">

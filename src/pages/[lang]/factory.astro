@@ -14,7 +14,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu } = usePage(lang)
+const { pick, lu, quoteUrl } = usePage(lang)
 const f = pick('factory')
 const seo = buildSeo(lang, 'factory', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.manufacturing'), path: `/${lang}/factory` }])
@@ -32,7 +32,7 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
     <h1>{f.h1}</h1>
     <p class="lead">{f.sub}</p>
     <p class="body-narrow mt-12">{f.intro}</p>
-    <a class="button outline dark-outline mt-18" href={lu('/quote')}>{f.videoLabel} <span aria-hidden="true">↗</span></a>
+    <a class="button outline dark-outline mt-18" href={quoteUrl()} target="_blank" rel="noopener nofollow">{f.videoLabel} <span aria-hidden="true">↗</span></a>
   </section>
 
   {video && (

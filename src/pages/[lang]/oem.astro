@@ -14,7 +14,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, media } = usePage(lang)
+const { pick, lu, media, quoteUrl } = usePage(lang)
 const o = pick('oem')
 const seo = buildSeo(lang, 'oem', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.oem'), path: `/${lang}/oem` }])
@@ -28,7 +28,7 @@ const oemVideo = videosData.videos.find((v) => v.category === 'oem')
     <span class="eyebrow">OEM &amp; PRIVATE LABEL</span>
     <h1>{o.h1}</h1>
     <p class="lead">{o.sub}</p>
-    <a class="button outline dark-outline mt-18" href={lu('/quote')}>{pick('cta.oemQuote')} <span aria-hidden="true">↗</span></a>
+    <a class="button outline dark-outline mt-18" href={quoteUrl()} target="_blank" rel="noopener nofollow">{pick('cta.oemQuote')} <span aria-hidden="true">↗</span></a>
   </section>
 
   <section class="section wrap section--soft">

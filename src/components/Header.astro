@@ -1,6 +1,6 @@
 ---
 import { TRANSLATIONS, LANGS } from '../lib/i18n.js'
-import { site, localizedUrl } from '../lib/utils.js'
+import { site, quoteUrl, localizedUrl } from '../lib/utils.js'
 const { lang, routePath = '' } = Astro.props
 const tr = TRANSLATIONS[lang]
 const navItems = [
@@ -112,12 +112,12 @@ const langOpts = LANGS.map((code) => ({
           </div>
         </div>
         <div class="motai-nav-actions">
-          <a class="motai-feedback" href={localizedUrl(lang, '/quote')}>{tr.cta.quote}</a>
+          <a class="motai-feedback" href={quoteUrl()} target="_blank" rel="noopener nofollow">{tr.cta.quote}</a>
         </div>
       </div>
     </details>
     <div class="motai-nav-actions">
-      <a class="motai-feedback" href={localizedUrl(lang, '/quote')}>{tr.cta.quote}</a>
+      <a class="motai-feedback" href={quoteUrl()} target="_blank" rel="noopener nofollow">{tr.cta.quote}</a>
     </div>
   </div>
 </header>

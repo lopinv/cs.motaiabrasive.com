@@ -1,6 +1,6 @@
 ---
 import { TRANSLATIONS } from '../lib/i18n.js'
-import { site, localizedUrl, media } from '../lib/utils.js'
+import { site, quoteUrl, localizedUrl, media } from '../lib/utils.js'
 const { lang } = Astro.props
 const tr = TRANSLATIONS[lang]
 const f = tr.footer
@@ -44,7 +44,7 @@ const exploreLinks = [
       <h3>{f.products}</h3>
       {productLinks.map((p) => <a href={localizedUrl(lang, p.href)}>{tr.colt[p.key].title}</a>)}
       <a href={localizedUrl(lang, '/collections/all')}>{tr.colt.all.title}</a>
-      <a href={localizedUrl(lang, '/quote')}>{tr.cta.quote}</a>
+      <a href={quoteUrl()} target="_blank" rel="noopener nofollow">{tr.cta.quote}</a>
     </div>
     <div>
       <h3>{f.explore}</h3>

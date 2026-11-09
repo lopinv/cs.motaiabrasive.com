@@ -13,7 +13,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, wa, site } = usePage(lang)
+const { pick, lu, wa, site, quoteUrl } = usePage(lang)
 const c = pick('contact')
 const seo = buildSeo(lang, 'contact', {}, [
   contactPageJsonLd(lang),
@@ -59,7 +59,7 @@ const seo = buildSeo(lang, 'contact', {}, [
     <SectionHeading title={c.formTitle} />
     <p class="small-note">{c.formNote}</p>
     <div class="cta-band-actions cta-band-actions--auto">
-      <a class="button" href={lu('/quote')}>{c.btn}</a>
+      <a class="button" href={quoteUrl()} target="_blank" rel="noopener nofollow">{c.btn}</a>
       <a class="button outline dark-outline" href={wa('contact')} target="_blank" rel="noopener nofollow">{pick('cta.waChat')}</a>
     </div>
   </section>
