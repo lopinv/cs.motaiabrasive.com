@@ -14,4 +14,6 @@ dist/
 # OS / editor
 .DS_Store
 Thumbs.db
+# Windows 设备名：重定向误写（如 > nul）会落一个 0 字节同名文件
+nul
 .zcode-check/backup-i18n-*/
