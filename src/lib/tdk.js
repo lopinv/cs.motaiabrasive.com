@@ -1,5 +1,14 @@
 import { TRANSLATIONS } from './i18n.js'
-import { products, models, discViews, flaps, media } from './utils.js'
+import { products, models, discViews, flaps, media, videoById } from './utils.js'
+
+/** Video product line → keyword seed for the video detail page's TDK. */
+const VIDEO_LINE_KEYWORDS = {
+  belts: 'abrasive belts',
+  discs: 'sanding discs',
+  flap: 'flap discs',
+  sponge: 'sanding sponge blocks',
+  oem: 'OEM abrasives'
+}
 
 /**
  * Absolute base used for JSON-LD absolute URLs (offer landing page, item
@@ -60,6 +69,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'shipping':
     case 'quote':
     case 'clients':
+    case 'videos':
     case 'glossary': {
       // Brand-default OG image so social cards don't fall back to the small
       // logo (and twitter:card can be summary_large_image). Remote CDN only.
@@ -100,7 +110,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'collection': {
       const coltKey = { 'abrasive-belts': 'belts', 'sanding-discs': 'discs', 'flap-discs': 'flap', all: 'all' }[ctx.key]
       const c = tdk.colt[coltKey]
-      const colOg = { 'abrasive-belts': 'belt-533-75', 'sanding-discs': 'discs', 'flap-discs': 'flap-fiberglass', all: 'belt-533-75' }[ctx.key]
+      const colOg = { 'abrasive-belts': 'belt-533-75', 'sanding-discs': 'discs', 'flap-discs': flaps.find((x) => x.key === 'fiberglass')?.image, all: 'belt-533-75' }[ctx.key]
       return {
         title: c.title,
         description: c.description,
@@ -169,7 +179,22 @@ export function tdkFor(lang, pageId, ctx = {}) {
           .replace('{backing}', f?.backing ?? ''),
         keywords: kws(tpl.keywords, { backing: f?.backing ?? '' }),
         canonicalPath: `/flap/${ctx.key}`,
-        ogImage: media(f?.image ?? 'flap-fiberglass')
+        ogImage: media(f?.image ?? flaps.find((x) => x.key === 'fiberglass')?.image)
+      }
+    }
+    case 'video': {
+      // Title and description come from the i18n tree (videos.clip.<id>) so a
+      // locale without its own translation falls back to en via deepMerge.
+      const vid = videoById(ctx.id)
+      const clip = vid ? (TRANSLATIONS[lang]?.videos?.clip?.[vid.id] ?? TRANSLATIONS.en.videos.clip[vid.id]) : undefined
+      const tpl = tdk.video
+      return {
+        title: tpl.title.replace('{title}', clip?.title ?? ctx.id),
+        // Trim the write-up to a sentence so the SERP snippet stays readable.
+        description: (clip?.body ?? '').slice(0, 200).replace(/\s+\S*$/, '') || tpl.description.replace('{title}', clip?.title ?? ctx.id),
+        keywords: kws(tpl.keywords, { line: VIDEO_LINE_KEYWORDS[vid?.line] ?? 'abrasive' }),
+        canonicalPath: `/videos/${ctx.id}`,
+        ogImage: vid?.thumb ?? media('belt-1520-630')
       }
     }
     case 'article': {
@@ -209,6 +234,30 @@ const BLOG_CAT_I18N = {
 }
 
 /** Standard JSON-LD objects shared by all pages. */
+
+/**
+ * ItemList of every video on /videos/ — one ListItem per clip so Google can
+ * walk the gallery and associate each entry with its own VideoObject.
+ * Absolute URLs follow absUrl()'s trailing-slash convention.
+ */
+export function videoListJsonLd(lang, items) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Factory & product videos',
+    numberOfItems: items.length,
+    itemListOrder: 'https://schema.org/ItemListOrderAscending',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      url: absUrl(lang, it.url),
+      ...(it.thumbnailUrl ? { image: it.thumbnailUrl } : {}),
+      ...(it.duration ? { duration: it.duration } : {}),
+      ...(it.uploadDate ? { uploadDate: new Date(it.uploadDate + 'T00:00:00Z').toISOString() } : {})
+    }))
+  }
+}
 
 /**
  * Stable @id so other JSON-LD nodes (Article author/publisher, AboutPage,

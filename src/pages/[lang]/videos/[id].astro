@@ -1,0 +1,171 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
+import SectionHeading from '../../../components/SectionHeading.astro'
+import CtaBand from '../../../components/CtaBand.astro'
+import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
+import { videosData, productByHandle, flapByKey } from '../../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths(videosData.map((v) => ({ id: v.id })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, quoteUrlRaw } = usePage(lang)
+const v = pick('videos')
+const video = videosData.find((x) => x.id === ctx.id)
+const c = pick(`videos.clip.${ctx.id}`)
+const specItems = video.specKeys.map((k) => pick(k)).filter(Boolean)
+const faqItems = video.faqKeys.map((f) => ({ qKey: f.q, aKey: f.a, q: pick(f.q), a: pick(f.a) })).filter((f) => f.q && f.a)
+// Related products: "flap.steel" → /flap/steel, otherwise /products/{handle}.
+const related = video.related.map((r) => r.startsWith('flap.')
+  ? { href: `/flap/${r.slice(5)}`, label: flapByKey(r.slice(5))?.name ?? r }
+  : { href: `/products/${r}`, label: productByHandle(r)?.name ?? r })
+// Other clips from the same product line, excluding this one.
+const moreFromLine = videosData.filter((x) => x.line === video.line && x.id !== video.id).slice(0, 3)
+const moreFromAny = videosData.filter((x) => x.id !== video.id).slice(0, 3)
+const more = (moreFromLine.length ? moreFromLine : moreFromAny).map((x) => ({
+  id: x.id, href: `/videos/${x.id}`, title: pick(`videos.clip.${x.id}.title`), thumb: x.thumb, len: x.durationLabel
+}))
+const bullets = Object.entries(c).filter(([k]) => /^b\d+$/.test(k)).map(([, text]) => text)
+const lineKey = `videos.line${video.line.charAt(0).toUpperCase()}${video.line.slice(1)}`
+const lineLabel = pick(lineKey) ?? video.line
+const isoDate = new Date(video.publishDate + 'T00:00:00Z').toISOString()
+const goQuote = quoteUrlRaw()
+
+/** VideoObject JSON-LD carrying the fields Google's video docs require. */
+const videoJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: c.title,
+  description: c.body,
+  thumbnailUrl: video.thumb,
+  uploadDate: isoDate,
+  duration: video.duration,
+  contentUrl: `https://www.youtube.com/watch?v=${video.id}`,
+  embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
+  publisher: { '@id': 'https://cs.motaiabrasive.com/#organization' }
+}
+
+const seo = buildSeo(lang, 'video', { id: ctx.id }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('nav.videos'), path: `/${lang}/videos` },
+    { name: c.title, path: `/${lang}/videos/${ctx.id}` }
+  ]),
+  videoJsonLd,
+  faqItems.length ? faqJsonLd(lang, faqItems) : null
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb">
+    <a href={lu('/')}>Home</a><span>/</span><a href={lu('/videos')}>{pick('nav.videos')}</a><span>/</span><span>{c.title}</span>
+  </div>
+
+  <section class="section wrap">
+    <span class="eyebrow">{video.kind === 'video' ? v.videoLabel : v.shortsLabel} · {v.metaDuration} {video.durationLabel}</span>
+    <h1>{c.title}</h1>
+    <p class="lead">{bullets[0]}</p>
+    <p class="body-narrow mt-12">{c.body}</p>
+    <div class="hero-actions">
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">{pick('cta.quote')} <span aria-hidden="true">↗</span></a>
+      <a class="button outline dark-outline wide" href={video.youtubeUrl} target="_blank" rel="noopener nofollow">{v.watch} <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <section class="section wrap section--flush-top">
+    <div class="narrow">
+      <YouTubeEmbed video={video} title={c.title} description={c.body} jsonld={false} />
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={v.details} />
+    <div class="prose">
+      <p>{c.body}</p>
+      {bullets.length > 1 && (
+        <ul class="value-lines">
+          {bullets.map((text) => <li>{text}</li>)}
+        </ul>
+      )}
+    </div>
+    <div class="video-meta">
+      <span>{v.metaPublished}: <time datetime={isoDate}>{video.publishDate}</time></span>
+      <span>{v.metaLine}: {lineLabel}</span>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow="SPECIFICATION" title={v.specTitle} sub={v.specIntro} />
+    <div class="grid grid-2">
+      {specItems.map((text) => (
+        <div class="value-card">
+          <p>{text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading eyebrow="WHY MOTAI" title={v.whyTitle} />
+    <div class="grid grid-3">
+      <div class="value-card"><span class="vno">01</span><h3>{v.why1t}</h3><p>{v.why1b}</p></div>
+      <div class="value-card"><span class="vno">02</span><h3>{v.why2t}</h3><p>{v.why2b}</p></div>
+      <div class="value-card"><span class="vno">03</span><h3>{v.why3t}</h3><p>{v.why3b}</p></div>
+    </div>
+  </section>
+
+  {faqItems.length > 0 && (
+    <section class="section wrap section--soft">
+      <SectionHeading title={v.faqTitle} sub={v.faqIntro} />
+      <div class="faq-list">
+        {faqItems.map((f) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{f.q}</h3>
+            <p class="faq-a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section class="section wrap">
+      <SectionHeading title={v.relatedTitle} sub={v.specIntro} />
+      <div class="grid grid-3">
+        {related.map((r) => (
+          <a class="model-card" href={lu(r.href)}>
+            <h3>{r.label}</h3>
+            <p>{pick('meta.availability')}</p>
+            <span class="model-card-cta">{pick('cta.quote')} <span aria-hidden="true">→</span></span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section wrap section--soft">
+    <SectionHeading title={v.moreTitle} sub={v.moreIntro} />
+    <div class="grid grid-3">
+      {more.map((m) => (
+        <a class="video-card" href={lu(m.href)}>
+          <div class="video-card-media">
+            <img src={m.thumb} alt={m.title} loading="lazy" width="480" height="270" />
+            <span class="video-len">{m.len}</span>
+          </div>
+          <div class="video-card-body">
+            <h3>{m.title}</h3>
+            <span class="video-card-cta">{v.readMore} <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <p class="small-note wrap">{v.transcriptNote}</p>
+
+  <CtaBand lang={lang} title={v.ctaTitle} body={v.ctaSub} waContext="factory" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

@@ -44,7 +44,10 @@ const seo = buildSeo(lang, 'article', { article: { title, intro, metaDescription
   ])
 ])
 const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
-const relatedVideos = videosData.videos.filter((v) => v.youtubeId && v.links.some((l) => l.includes('blog') || l === a.slug)).slice(0, 1)
+// Article category → video product line, so each article shows a clip that
+// covers the same product family.
+const catVideoLine = { 'selection-guide': 'discs', 'buyer-resources': 'belts', 'application-notes': 'belts', 'oem-guide': 'oem' }
+const relatedVideos = videosData.filter((v) => v.line === catVideoLine[a.categoryKey]).slice(0, 1)
 
 // Sidebar products: article-specific picks when the corpus links or names a
 // product, otherwise the neutral family defaults. Never empty — the module is

@@ -14,12 +14,12 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, quoteUrl } = usePage(lang)
+const { pick, lu, media, quoteUrl } = usePage(lang)
 const f = pick('factory')
 const seo = buildSeo(lang, 'factory', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.manufacturing'), path: `/${lang}/factory` }])
 ])
-const processVideos = videosData.videos.filter((v) => v.category === 'process')
+const processVideos = videosData.filter((v) => v.line === 'belts' && v.kind === 'video')
 const video = processVideos[0]
 const vTitle = video?.youtubeId ? pick(video.titleKey) : ''
 const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
@@ -35,13 +35,35 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
     <a class="button outline dark-outline mt-18" href={quoteUrl()} target="_blank" rel="noopener nofollow">{f.videoLabel} <span aria-hidden="true">↗</span></a>
   </section>
 
-  {video && (
+  {video?.youtubeId && (
     <section class="section wrap section--soft-tight">
       <div class="narrow">
         <YouTubeEmbed video={video} title={vTitle} description={vDesc} />
       </div>
     </section>
   )}
+
+  <section class="section wrap section--soft-tight">
+    <SectionHeading title={f.galleryTitle} sub={f.galleryIntro} />
+    <div class="grid grid-3">
+      <div class="value-card">
+        <div class="gallery-media"><img src={media('factory')} alt={f.gallery1Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')" /></div>
+        <h3>{f.gallery1Title}</h3>
+        <p>{f.gallery1Text}</p>
+      </div>
+      <div class="value-card">
+        <div class="gallery-media"><img src={media('workshop')} alt={f.gallery2Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')" /></div>
+        <h3>{f.gallery2Title}</h3>
+        <p>{f.gallery2Text}</p>
+      </div>
+      <div class="value-card">
+        <div class="gallery-media"><img src={media('discs')} alt={f.gallery3Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')" /></div>
+        <h3>{f.gallery3Title}</h3>
+        <p>{f.gallery3Text}</p>
+      </div>
+    </div>
+    <p class="small-note mt-18">{f.galleryNote}</p>
+  </section>
 
   <section class="section wrap">
     <SectionHeading title={f.stepsTitle} sub={f.stepsIntro} />

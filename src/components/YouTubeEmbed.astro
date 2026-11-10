@@ -6,11 +6,14 @@
  */
 import { TRANSLATIONS } from '../lib/i18n.js'
 
-const { video, title, description, lang = 'en' } = Astro.props
+// jsonld: emit this component's own VideoObject. Pages that build a richer
+// VideoObject (the video detail page adds duration + uploadDate) set it to
+// false, otherwise Google receives two VideoObjects for one video.
+const { video, title, description, lang = 'en', jsonld = true } = Astro.props
 const id = video.youtubeId
 
 const thumb = id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : ''
-const videoObject = id
+const videoObject = id && jsonld
   ? {
       '@context': 'https://schema.org',
       '@type': 'VideoObject',

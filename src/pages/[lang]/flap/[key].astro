@@ -23,7 +23,7 @@ const seo = buildSeo(lang, 'flap', { key: f.key }, [
     { name: f.name, path: `/${lang}/flap/${f.key}` }
   ])
 ])
-const flapVideo = videosData.videos.find((v) => v.youtubeId && v.category === 'product')
+const flapVideo = videosData.find((v) => v.youtubeId && v.line === 'flap')
 ---
 
 <Shell lang={lang} seo={seo}>

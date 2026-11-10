@@ -19,7 +19,7 @@ const o = pick('oem')
 const seo = buildSeo(lang, 'oem', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.oem'), path: `/${lang}/oem` }])
 ])
-const oemVideo = videosData.videos.find((v) => v.category === 'oem')
+const oemVideo = videosData.find((v) => v.line === 'oem')
 ---
 
 <Shell lang={lang} seo={seo}>

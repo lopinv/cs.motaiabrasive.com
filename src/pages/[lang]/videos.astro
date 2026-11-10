@@ -1,0 +1,136 @@
+---
+import { usePage, buildSeo } from '../../lib/page.js'
+import { langPaths } from '../../lib/paths.js'
+import Shell from '../../components/Shell.astro'
+import { breadcrumbJsonLd, videoListJsonLd } from '../../lib/tdk.js'
+import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
+import { trust } from '../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths()
+}
+
+const { lang } = Astro.params
+const { pick, lu, videosData, quoteUrlRaw } = usePage(lang)
+const v = pick('videos')
+const seo = buildSeo(lang, 'videos', {}, [
+  breadcrumbJsonLd(lang, [{ name: pick('nav.videos'), path: `/${lang}/videos` }]),
+  videoListJsonLd(lang, videosData.map((x) => ({
+    name: pick(`videos.clip.${x.id}.title`),
+    url: `/${lang}/videos/${x.id}`,
+    thumbnailUrl: x.thumb,
+    duration: x.duration,
+    uploadDate: x.publishDate
+  })))
+])
+const groups = [
+  { key: 'belts', labelKey: 'videos.lineBelts' },
+  { key: 'discs', labelKey: 'videos.lineDiscs' },
+  { key: 'flap', labelKey: 'videos.lineFlap' },
+  { key: 'sponge', labelKey: 'videos.lineSponge' },
+  { key: 'oem', labelKey: 'videos.lineOem' }
+]
+  .map((l) => ({ ...l, items: videosData.filter((x) => x.line === l.key) }))
+  .filter((g) => g.items.length)
+const stats = trust.stats.filter((s) => s.status === 'published')
+const longCount = videosData.filter((x) => x.kind === 'video').length
+const shortCount = videosData.filter((x) => x.kind === 'short').length
+const goQuote = quoteUrlRaw()
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{pick('nav.videos')}</span></div>
+
+  <section class="section wrap">
+    <span class="eyebrow">VIDEO</span>
+    <h1>{v.h1}</h1>
+    <p class="lead">{v.sub}</p>
+    <p class="body-narrow mt-12">{v.intro}</p>
+    <div class="hero-actions">
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">{pick('cta.quote')} <span aria-hidden="true">↗</span></a>
+      <a class="button outline dark-outline wide" href={lu('/factory')}>{v.factoryLink} <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft-tight">
+    <div class="stats-grid">
+      <div class="value-card value-card--center">
+        <div class="stat-value">{videosData.length}</div>
+        <div class="stat-label">{v.totalLabel}</div>
+      </div>
+      <div class="value-card value-card--center">
+        <div class="stat-value">{longCount}</div>
+        <div class="stat-label">{v.longLabel}</div>
+      </div>
+      <div class="value-card value-card--center">
+        <div class="stat-value">{shortCount}</div>
+        <div class="stat-label">{v.shortLabel}</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap section--flush-top">
+    <SectionHeading title={v.linesTitle} sub={v.linesIntro} />
+    <div class="grid grid-3">
+      {groups.map((g) => (
+        <a class="model-card" href={`#line-${g.key}`}>
+          <span class="eyebrow">{v.countLabel.replace('{count}', g.items.length)}</span>
+          <h3>{pick(g.labelKey)}</h3>
+          <span class="model-card-cta">{v.jumpLabel} <span aria-hidden="true">→</span></span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {groups.map((g) => (
+    <section class="section wrap section--flush-top" id={`line-${g.key}`}>
+      <SectionHeading title={pick(g.labelKey)} sub={v.countLabel.replace('{count}', g.items.length)} />
+      <div class="grid grid-3">
+        {g.items.map((item) => {
+          const clip = pick(`videos.clip.${item.id}`)
+          return (
+            <a class="video-card" href={lu(`/videos/${item.id}`)}>
+              <div class="video-card-media">
+                <img src={item.thumb} alt={clip.title} loading="lazy" width="480" height="270" />
+                <span class="video-badge">{item.kind === 'video' ? v.videoLabel : v.shortsLabel}</span>
+                <span class="video-len">{item.durationLabel}</span>
+              </div>
+              <div class="video-card-body">
+                <h3>{clip.title}</h3>
+                <p>{clip.body.slice(0, 150)}…</p>
+                <span class="video-card-cta">{v.readMore} <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          )
+        })}
+      </div>
+    </section>
+  ))}
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow={v.trustEyebrow} title={v.trustTitle} sub={v.trustSub} />
+    <div class="grid grid-3">
+      {stats.map((s) => (
+        <div class="value-card value-card--center">
+          <div class="stat-value">{s.value}</div>
+          <div class="stat-label">{pick(s.labelKey)}</div>
+        </div>
+      ))}
+    </div>
+    <p class="small-note mt-14">{v.trustNote}</p>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={v.whyTitle} />
+    <div class="grid grid-3">
+      <div class="value-card"><span class="vno">01</span><h3>{v.why1t}</h3><p>{v.why1b}</p></div>
+      <div class="value-card"><span class="vno">02</span><h3>{v.why2t}</h3><p>{v.why2b}</p></div>
+      <div class="value-card"><span class="vno">03</span><h3>{v.why3t}</h3><p>{v.why3b}</p></div>
+    </div>
+  </section>
+
+  <p class="small-note wrap">{v.transcriptNote}</p>
+
+  <CtaBand lang={lang} title={v.ctaTitle} body={v.ctaSub} waContext="contact" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

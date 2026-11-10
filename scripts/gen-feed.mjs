@@ -37,8 +37,10 @@ const i18nDir = path.join(root, 'src/i18n')
 const allLangs = readdirSync(i18nDir).map((f) => f.replace(/\.json$/, '')).filter(Boolean)
 // Google's content_language / locale columns want a bare language code.
 const short = (code) => code.slice(0, 2) // 'zh-Hant' -> 'zh', 'hi' -> 'hi'
-// Shopify CDN cache-buster constant kept in lockstep with src/lib/utils.js media()
-const media = (key) => `${site.mediaBase}/${key}.webp?v=183101063718712166531793254213`
+// Shopify CDN cache-buster constant kept in lockstep with src/lib/utils.js media().
+// Passes absolute http(s) URLs through unchanged (flap images live on the source
+// Shopify CDN, see flap.json); only short asset-library keys get the prefix.
+const media = (key) => (/^https?:\/\//.test(String(key)) ? key : `${site.mediaBase}/${key}.webp?v=183101063718712166531793254213`)
 
 /** CSV-safe: always quote, double any embedded quotes. */
 const cell = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`

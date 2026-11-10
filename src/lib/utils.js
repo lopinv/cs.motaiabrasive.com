@@ -36,9 +36,16 @@ export function articleBySlug(slug) {
 export function applicationBySlug(slug) {
   return applications.find((a) => a.slug === slug)
 }
+export function videoById(id) {
+  return videosData.find((v) => v.id === id)
+}
 
-/** Localized image URL (remote CDN, never downloaded) */
+/** Localized image URL (remote CDN, never downloaded).
+ *  Short keys resolve against the team asset library; absolute http(s) URLs are
+ *  passed through unchanged — flap-disc images exist only on the source
+ *  Shopify CDN (see flap.json), so they must not get the asset-base prefix. */
 export function media(key) {
+  if (typeof key === 'string' && /^https?:\/\//.test(key)) return key
   return `${site.mediaBase}/${key}.webp?v=183101063718712166531793254213`
 }
 
