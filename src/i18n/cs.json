@@ -1409,5 +1409,10 @@
     "trustTitle": "Továrna za těmito videi",
     "trustSub": "Tři produktové řady dodávané do sedmi destinací, z jednoho provozu.",
     "trustNote": "Čísla popisují provoz zobrazený ve videích; podmínky na úrovni objednávky se potvrzují v cenové nabídce."
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

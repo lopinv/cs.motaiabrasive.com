@@ -1409,5 +1409,10 @@
         "a2": "Được. Trước tiên gửi mẫu để xác nhận cỡ hạt và lớp nền, sau đó sản xuất số lượng lớn theo thông số đã xác nhận."
       }
     }
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

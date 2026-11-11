@@ -54,6 +54,11 @@
       "title": "Wszystkie produkty",
       "desc": "Kompletny katalog materiałów ściernych MoTai: paski ścierne, tarcze i tarcze flap dla kupców przemysłowych, dystrybutorów i marek własnych.",
       "label": "Wszystkie produkty"
+    },
+    "sponge": {
+      "title": "Gąbki szlifierskie MoTai",
+      "desc": "Elastyczne podkładki ścierne z pianki oraz grube bloki szlifierskie do szlifowania ręcznego na mokro i na sucho powierzchni krzywizn, krawędzi, płaszczyzn i reperowanych ścian. Wielokrotnego użytku po oczyszczeniu. Zapraszamy z zapytaniami hurtowymi i OEM.",
+      "label": "Gąbki szlifierskie"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Dane techniczne",
     "howTitle": "Jak opisać zamówienie",
     "howBody": "Podajcie rozmiar paska lub tarczy, listę gradacji, model maszyny, materiał obrabotku oraz ilość. Jasna specyfikacja ułatwia ocenę dopasowania i przygotowanie użytecznej wyceny — nie dobierajcie produktu wyłącznie na podstawie koloru.",
-    "faqTitle": "Pytania kupujących"
+    "faqTitle": "Pytania kupujących",
+    "family": "Rodzaj produktu"
   },
   "about": {
     "h1": "Firma stojąca za asortymentem ściernym",
@@ -264,7 +270,28 @@
     "pr6t": "Wysyłka",
     "pr6b": "Skoordynujcie pakowanie i miejsce dostawy.",
     "cta1": "Poproście o wycenę hurtową",
-    "cta2": "Kontakt przez WhatsApp"
+    "cta2": "Kontakt przez WhatsApp",
+    "faqTitle": "Pytania, jakie zadają marki OEM",
+    "faqSub": "Praktyczne kwestie, od których zależy ocena wykonalności OEM.",
+    "o1": "Jaka jest minimalna ilość zamówienia OEM?",
+    "oa1": "Wielkości minimalne zależą od linii produktowej, rozmiaru, mieszanki gradacji i opakowania; potwierdzamy je w ocenie wykonalności, którą otrzymują Państwo wraz z wyceną.",
+    "o2": "Jakie pliki graficzne potrzebują Państwo od nas?",
+    "oa2": "Gotowy do druku projekt z Państwa marką, rozmiary etykiet, z których Państwo korzystają, oraz wszelkie oznaczenia wymagane w miejscu przeznaczenia. Wymagania dotyczące projektu graficznego potwierdzamy w ocenie przed uruchomieniem serii.",
+    "o3": "Czy mogę najpierw otrzymać serię próbną?",
+    "oa3": "Tak. Próbki standardowych pozycji referencyjnych są dostępne do oceny, a zatwierdzenie projektu graficznego OEM następuje po potwierdzeniu specyfikacji.",
+    "o4": "Czy pakują Państwo wyłącznie pod naszą marką?",
+    "oa4": "Tak. Przy realizacjach marki własnej nanosimy Państwa logo, etykiety, rozmiary i opakowanie; etykiety naklejamy i sprawdzamy przed zapieczętowaniem kartonu, a nie po jego dostarczeniu.",
+    "o5": "Jak długo trwa ocena wykonalności OEM?",
+    "oa5": "Ocena przeprowadzana jest na etapie weryfikacji; najszybciej odpowiadamy na pozycje referencyjne dostępne z magazynu, bo nie wymagają one czasu na konwersję.",
+    "specTitle": "Co zawiera brief OEM",
+    "specSub": "Sześć punktów, dzięki którym już za pierwszym razem odsyłamy wartościową ocenę wykonalności.",
+    "checklistTitle": "Zanim prześlą Państwo brief",
+    "c1": "Linia produktowa i pozycja referencyjna, którą Państwo dziś kupują",
+    "c2": "Projekt etykiety gotowy do druku, z rozmiarami etykiet, z których Państwo korzystają",
+    "c3": "Format opakowania — karton, opakowanie wewnętrzne, jednostka handlowa",
+    "c4": "Docelowe ilości oraz podział na rozmiary / gradacje",
+    "c5": "Miejsce przeznaczenia i ewentualne wymagane oznaczenia lub dokumenty",
+    "c6": "Termin — data premiery lub okno pierwszej dostawy"
   },
   "applications": {
     "h1": "Materiały ścierne dla waszej branży",
@@ -437,7 +464,49 @@
     "consent": "Wyrażam zgodę na Politykę prywatności, Regulamin oraz wykorzystanie moich danych w celu udzielenia odpowiedzi na to zapytanie. *",
     "btn1": "Zamów wycenę hurtową",
     "btn2": "Wyślij zapytanie przez WhatsApp",
-    "goNote": "Formularz otworzy się w naszym systemie zapytań hurtowych z wstępnie uzupełnionym kontekstem produktu."
+    "goNote": "Formularz otworzy się w naszym systemie zapytań hurtowych z wstępnie uzupełnionym kontekstem produktu.",
+    "whyTitle": "Dlaczego kupujący wyceniają u MoTai",
+    "whySub": "Cztery powody, dla których dystrybutorzy i warsztaty obróbcze przesyłają do nas swoją specyfikację.",
+    "w1t": "Ceny bezpośrednio z fabryki",
+    "w1b": "Konwersję prowadzimy we własnym zakładzie w Xianning w prowincji Hubei, więc wycena odzwierciedla koszt konwersji, a nie łańcuch pośredników.",
+    "w2t": "Specyfikacja potwierdzona na piśmie",
+    "w2b": "Gradację, podkładkę, wymiary, opakowanie i oznaczenia uzgadniamy w wycenie — i to z nią porównujemy zamówienie przed wysyłką.",
+    "w3t": "Dostępność standardowych rozmiarów",
+    "w3b": "Standardowe szerokości i gradacje mamy na półkach i gotowe do wysyłki, dzięki czemu zamówienia uzupełniające realizujemy krótko, podczas gdy rozmiary na zamówienie wciąż wykonujemy zgodnie z potwierdzoną specyfikacją.",
+    "w4t": "OEM i marka własna",
+    "w4b": "Państwa logo, etykiety, rozmiary i opakowanie, wyceniane na podstawie oceny wykonalności, a nie domysłu.",
+    "stepsTitle": "Jak zapytanie staje się potwierdzonym zamówieniem",
+    "stepsSub": "Cztery etapy, każdy z pisemnym punktem kontrolnym, aby niczego nie ustalać już przy bramie wysyłkowej.",
+    "p1t": "Państwo przesyłają specyfikację",
+    "p1b": "Kategoria produktu, model lub pozycja referencyjna, rozmiar, gradacja, materiał, ilość, opakowanie i miejsce przeznaczenia — pola poniżej.",
+    "p2t": "My sprawdzamy i odpowiadamy",
+    "p2b": "Rozmiary, gradacje, podkładkę i opakowanie weryfikujemy w kontekście Państwa zastosowania; o niezgodności informujemy jeszcze przed wyceną.",
+    "p3t": "Akceptacja próbki (gdy jest wymagana)",
+    "p3b": "Próbki standardowych pozycji referencyjnych udostępniamy na życzenie i oceniamy je przed uzgodnieniem serii produkcyjnej.",
+    "p4t": "Realizacja zgodnie z potwierdzoną specyfikacją",
+    "p4b": "Produkcję prowadzimy według potwierdzonej specyfikacji, a przed wysyłką stosujemy punkty kontrolne, listę pakową i oznaczenia.",
+    "faqTitle": "Pytania, które kupujący zadają przed wyceną",
+    "faqSub": "Praktyczne szczegóły, od których zależą cena, termin realizacji i dopasowanie.",
+    "q1": "Jaka jest minimalna ilość zamówienia?",
+    "a1": "Wielkości minimalne zależą od linii produktowej, rozmiaru i opakowania; potwierdzamy je w odpowiedzi na Państwa zapytanie, zamiast podawać jedną wspólną liczbę.",
+    "q2": "Ile trwa przygotowanie wyceny?",
+    "a2": "Odpowiedź ze specyfikacją, terminem realizacji i ceną wystawiamy po etapie weryfikacji; pozycje referencyjne dostępne z magazynu wyceniamy najszybciej, bo nie wymagają czasu na konwersję.",
+    "q3": "Czy mogę najpierw otrzymać próbkę?",
+    "a3": "Tak. Próbki standardowych pozycji referencyjnych udostępniamy do oceny na życzenie; dostępność próbek i warunki transportu potwierdzamy wraz z odpowiedzią.",
+    "q4": "Czy oferują Państwo OEM i markę własną?",
+    "a4": "Tak. Prześlijcie logo, projekt etykiety, format opakowania i docelowe ilości, a my zwrócimy Państwu ocenę wykonalności OEM wraz z wyceną.",
+    "q5": "Jakie warunki płatności i wysyłki Państwo stosują?",
+    "a5": "Warunki handlowe potwierdzamy w wycenie dla każdego zapytania — wraz z miejscem przeznaczenia, opakowaniem i wskazanym przez Państwa incotermem.",
+    "trustTitle": "Dostawa w skrócie",
+    "trustSub": "Zakład, który stoi za Państwa wyceną.",
+    "trustNote": "Liczby opisują miejsce produkcji; warunki dla konkretnego zamówienia potwierdzamy w wycenie.",
+    "checklistTitle": "Zanim go prześlą",
+    "checklistSub": "Przygotowanie tych pięciu punktów znacznie przyspiesza pierwszą odpowiedź.",
+    "c1": "Zastosowanie, maszyna i wymagane wykończenie",
+    "c2": "Materiał obrabiany (stal, drewno, aluminium, lakier, płyta gipsowo-kartonowa)",
+    "c3": "Klasa gradacji i standard, w jakim Państwo kupują (FEPA lub ANSI)",
+    "c4": "Rozmiar, średnica, otwory i ilość",
+    "c5": "Kraj przeznaczenia oraz wymagane opakowanie lub oznaczenia"
   },
   "clients": {
     "h1": "Dokąd trafiają przesyłki MoTai",
@@ -445,7 +514,29 @@
     "note": "Logotypy klientów i referencje poniżej to miejsca zastępcze — zastąpcie src/data/trust.json opublikowanymi materiałami.",
     "placeholderBadge": "Miejsce zastępcze",
     "statsTitle": "Oferta w skrócie",
-    "statsNote": "Przedstawione certyfikaty to miejsca zastępcze do czasu publikacji dokumentów."
+    "statsNote": "Przedstawione certyfikaty to miejsca zastępcze do czasu publikacji dokumentów.",
+    "regionsTitle": "Z Hubei do Państwa rynku",
+    "regionsSub": "Ten sam zakład obsługuje siedem regionów przeznaczenia; opakowanie i oznaczenia ustalamy dla każdego z nich.",
+    "logisticsTitle": "Co potwierdzamy przed wysyłką",
+    "logisticsSub": "Cztery kwestie rozstrzygane w wycenie, a nie przy bramie wysyłkowej.",
+    "l1": "Lista pakowa — ilości w opakowaniach według rozmiaru i gradacji, dopasowane do zamówienia",
+    "l2": "Oznaczenia kartonów — Państwa oznaczenia lub zestaw standardowy, uzgodnione przed serią",
+    "l3": "Układ palety — dobrany do miejsca przeznaczenia i sprzętu przeładunkowego",
+    "l4": "Miejsce przeznaczenia i dokumenty — uzgodnione wraz z wyceną",
+    "faqTitle": "Pytania, jakie kupujący zadają o dostawy",
+    "f1": "Które kierunki dostarczają Państwo?",
+    "fa1": "Siedem regionów przeznaczenia w Europie, Ameryce Północnej, na Bliskim Wschodzie i w Azji; opakowanie i oznaczenia ustalamy dla każdego z nich.",
+    "f2": "Jak chronią Państwo towar w transporcie?",
+    "fa2": "Opakowanie określamy pod kątem miejsca przeznaczenia i potwierdzamy w wycenie; zabezpieczenie przed wilgocią i układ palety dostosowujemy do warunków transportu, o których Państwo informują.",
+    "f3": "Czy logotypy klientów na tej stronie są prawdziwe?",
+    "fa3": "Nie. To miejsca zastępcze. Zastąpcie src/data/trust.json opublikowanymi materiałami, zanim potraktują je Państwo jako referencje.",
+    "f4": "Czy wymienione certyfikaty są zweryfikowane?",
+    "fa4": "Miejsca na certyfikaty są wypełnieniem zastępczym do czasu publikacji dokumentów; potwierdzone przez fabrykę są wyłącznie przedstawione tu dane o zakładzie.",
+    "qaTitle": "Czego potrzebujemy od Państwa",
+    "qaSub": "Trzy kwestie, które pozwalają nam odpowiedzieć ze specyfikacją, terminem realizacji i ceną.",
+    "q1": "Zastosowanie, maszyna i wymagane wykończenie",
+    "q2": "Obrabiany materiał oraz standard gradacji, w jakim Państwo kupują (FEPA lub ANSI)",
+    "q3": "Ilość, kraj przeznaczenia oraz wymagane opakowanie lub oznaczenia"
   },
   "glossary": {
     "h1": "Słowniczek terminów ściernych",
@@ -991,6 +1082,11 @@
         "title": "Materiały ścierne hurtowo — paski, tarcze i tarcze flap | MoTai",
         "description": "Pełen katalog materiałów ściernych MoTai: przemysłowe paski ścierne, tarcze i tarcze flap dla dystrybutorów, importerów, hurtowni i marek OEM. Hurt bezpośrednio z fabryki, dostosowania i eksport z Hubei, Chiny.",
         "keywords": "materiały ścierne, materiały ścierne hurtowo, materiały ścierne przemysłowe, materiały ścierne z powłoką, materiały ścierne hurtowo, fabryka materiałów ściernych, eksporter materiałów ściernych, dostawca materiałów ściernych Chiny, producent materiałów ściernych OEM, materiały ścierne marki własnej, materiały ścierne na zamówienie, dostawy hurtowe materiałów ściernych, fabryka materiałów ściernych, narzędzia ścierne, materiały ścierne, produkty do szlifowania, produkty wykańczania powierzchni, papier ścierny, arkusze papieru ściernego, papier ścierny okrągły, papier ścierny hurtowo, podkładka do szlifowania, podkładka do szlifowania hook and loop, podkładka do szlifowania 5 cali, podkładka do szlifowania 6 cali, tarcza typu flap z włókniny, płótno ścierne, szczotka rolkowa przemysłowa"
+      },
+      "sponge": {
+        "title": "Producent i hurtowy dostawca gąbek szlifierskich | MoTai",
+        "description": "Elastyczne podkładki ścierne z pianki oraz grube bloki szlifierskie do szlifowania ręcznego na mokro i na sucho powierzchni krzywizn, krawędzi, płaszczyzn i reperowanych ścian. Wielokrotnego użytku, wiele gradacji, cięcie na wymiar i opakowania OEM. Hurt bezpośrednio z fabryki.",
+        "keywords": "gąbka szlifierska, bloki szlifierskie, podkładki ścierne z pianki, gąbka ścierna, gąbka do szlifowania ręcznego, producent gąbek szlifierskich, gąbki szlifierskie hurtowo, gąbka szlifierska cięta na wymiar, gąbka szlifierska OEM"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — MoTai, filmy z fabryki i o produktach",
       "description": "Film z fabryki i o produktach od MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, film o ściernicach, ujęcia z fabryki ściernic, film MoTai, produkcja ściernic, film o dostawcy ściernic"
+    },
+    "sponge": {
+      "title": "MoTai {name} — producent gąbek szlifierskich",
+      "description": "MoTai {name}: {summary} Dostawa hurtowa i opakowania OEM dla dystrybutorów i warsztatów.",
+      "keywords": "gąbka szlifierska, blok szlifierski, gąbka ścierna, podkładka do szlifowania ręcznego, producent gąbek szlifierskich, gąbki szlifierskie hurtowo"
     }
   },
   "quickBar": {
@@ -1409,5 +1510,145 @@
         "a2": "Tak. Najpierw wysyłamy próbki do zatwierdzenia ziarnistości i podkładki, potem produkcja partii wg potwierdzonej specyfikacji."
       }
     }
+  },
+  "coltBuy": {
+    "guideTitle": "Jak dobrać tę linię",
+    "guideSub": "Cztery kwestie decydujące o tym, który produkt pasuje do Państwa zastosowania — potwierdźcie je w wycenie.",
+    "specTitle": "Zakres specyfikacji",
+    "specSub": "Co linia obejmuje obecnie, wprost z kart produktów.",
+    "faqTitle": "Pytania, jakie kupujący zadają o tę linię",
+    "belts": [
+      {
+        "q": "Która szerokość taśmy pasuje do mojej maszyny?",
+        "a": "Udokumentowane rozmiary zaczynają się od 533 × 75 mm i sięgają 2200 × 1330 mm; nieprzykowane taśmy jedności składowe o szerokości powyżej 1500 mm nie mają łączenia. Podajcie maszynę, obciążenie i wymagane wykończenie, aby szerokość została potwierdzona w wycenie."
+      },
+      {
+        "q": "Jaki zakres gradacji mogę zamówić?",
+        "a": "Gradacje 40–800 w wersjach z ziarnem z tlenku glinu, cyrkonu i węgliku krzemu. Grubsze gradacje szybko usuwają materiał, drobniejsze wygładzają i wykańczają."
+      },
+      {
+        "q": "Czy wykonują Państwo rozmiary na zamówienie?",
+        "a": "Tak. Szerokość i długość wykraczające poza udokumentowane rozmiary wyceniamy indywidualnie; konwersja do niestandardowego rozmiaru wpływa zarówno na termin realizacji, jak i na minimalną ilość zamówienia."
+      },
+      {
+        "q": "Jaka konstrukcja łączenia i krawędzi?",
+        "a": "Rodzaj łączenia i sposób obróbki krawędzi określa pozycja referencyjna. Podajcie maszynę, obciążenie i prędkość, aby właściwa konstrukcja została potwierdzona."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Rzep, PSA czy siatka — który wariant do mojego narzędzia?",
+        "a": "Rzep sprawdza się przy częstej zmianie gradacji na szlifierce orbitalnej, PSA przy płaskich podkładkach i długim czasie pracy, a siatka przy odsysaniu pyłu."
+      },
+      {
+        "q": "Jakie rozmiary i wzory otworów są udokumentowane?",
+        "a": "Tarcze o średnicy 3, 4, 5 i 6 cali z wzorami otworów właściwymi dla każdej pozycji referencyjnej; otwór centralny lub trzpień muszą pasować do Państwa narzędzia."
+      },
+      {
+        "q": "Która gradacja do danego zadania?",
+        "a": "Grubsze gradacje szybko usuwają rdzę i starą farbę, drobniejsze wygładzają i przygotowują powierzchnię do wykańczania. Podajcie materiał i wymagane wykończenie."
+      },
+      {
+        "q": "Czy oferują Państwo odpylanie?",
+        "a": "W tej linii udokumentowane są formaty siatkowe i perforowane bezpyłowe; wzór perforacji pozwala obserwować powierzchnię w trakcie szlifowania."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Która podkładka pasuje do mojego zastosowania?",
+        "a": "Tworzywo sprawdza się przy ogólnym szlifowaniu metalu, stal przy wymagającym usuwaniu zadziorów, a włókno szklane przy dużej wytrzymałości na wysokich obrotach; otwór centralny musi pasować do narzędzia."
+      },
+      {
+        "q": "Do czego służą tarcze typu flap?",
+        "a": "Szlifowania spoin, usuwania rdzy, wygładzania powierzchni i wykańczania części metalowych — zawsze przy prędkości znamionowej narzędzia i założonej osłonie."
+      },
+      {
+        "q": "Czy dostarczają Państwo większe ilości?",
+        "a": "Tak. Tarcze typu flap dostarczamy hurtowo dystrybutorom i warsztatom; gradację, podkładkę, średnicę i ilość ustalamy łącznie w wycenie."
+      },
+      {
+        "q": "Dlaczego moja tarcza sadzi się na łusce hutniczej?",
+        "a": "Łuska hutnicza szybko zapycha warstwę ścierną. Wybierzcie grubszą gradację, prowadźcie tarczę płasko do detalu i czyśćcie powierzchnię, gdy tarcza zaczyna sadzić."
+      }
+    ],
+    "all": [
+      {
+        "q": "Od czego zacząć, gdy mojego zastosowania nie ma na liście?",
+        "a": "Prześlijcie materiał, maszynę, wymagane wykończenie i wolumen; odpowiemy rodziną produktów, specyfikacją i terminem realizacji, które pasują."
+      },
+      {
+        "q": "Czy mogę najpierw zamówić po jednej sztuce każdej pozycji referencyjnej?",
+        "a": "Próbki standardowych pozycji referencyjnych udostępniamy na życzenie; dostępność próbek i warunki transportu potwierdzamy wraz z odpowiedzią."
+      },
+      {
+        "q": "Czy wyceniają Państwo OEM we wszystkich liniach?",
+        "a": "Tak. Logo, etykiety, rozmiary i opakowanie wyceniamy na podstawie oceny wykonalności — w taśmach, tarczach i tarczach typu flap."
+      },
+      {
+        "q": "Gdzie w ofercie mieszczą się gąbki szlifierskie?",
+        "a": "Szlifowanie ręczne: elastyczne podkładki do krzywizn i profili, bloki z pianki do powierzchni płaskich i reperowanych ścian. Oba warianty wyceniamy z wymiarami, gradacją, gęstością pianki i ilością."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Elastyczne podkładki czy bloki z pianki — który wariant do mojej pracy?",
+        "a": "Elastyczne podkładki pasują do krzywizn, krawędzi i profili, a bloki z pianki do powierzchni płaskich, krawędzi i reperowanych ścian. Oba są wielokrotnego użytku po oczyszczeniu."
+      },
+      {
+        "q": "Czy kolor pianki oznacza gradację?",
+        "a": "Nie. Kolor pianki nie jest oznaczeniem gradacji ani twardości. Gradację, materiał ścierny i gęstość pianki potwierdźcie w zapytaniu, a my dopasujemy je w wycenie."
+      },
+      {
+        "q": "Czy wycinają Państwo kształty na wymiar i pakują pod moją markę?",
+        "a": "Tak. Prześlijcie profil, grubość, gradację, format opakowania i docelowe ilości; wymagania dotyczące noży do cięcia na wymiar i projektu graficznego potwierdzamy w ocenie."
+      },
+      {
+        "q": "Czy można je myć i używać ponownie?",
+        "a": "Można je płukać i używać ponownie do wyczerpania się warstwy ściernej; żywotność zależy od gradacji, nacisku i obrabianej powierzchni."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Gąbki szlifierskie · Oferta szlifowania ręcznego",
+    "thickness": "Budowa",
+    "gritNote": "Kolor pianki nie przesądza o gradacji ani twardości. Wymiary, gradację, materiał ścierny, gęstość pianki, opakowanie i ilość potwierdźcie w zapytaniu.",
+    "overviewTitle": "Przegląd produktu",
+    "overviewBody": "Elastyczne, wielokrotnego użytku gąbki ścierne do szlifowania na mokro i na sucho. Pianka dopasowuje się do krzywizn, krawędzi i profili, zapewniając kontrolowane szlifowanie ręczne.",
+    "checklistTitle": "Potwierdźcie właściwą specyfikację",
+    "checklistSub": "Te szczegóły pomagają nam w ocenie Państwa zapytania. Są to wymagania do potwierdzenia, a nie ogłaszane parametry produktu.",
+    "c1": "Wymiary — podajcie szerokość × długość w mm",
+    "c2": "Wymagana gradacja — określcie klasę lub oczekiwane wykończenie",
+    "c3": "Element obrabiany i maszyna — podajcie materiał, maszynę i planowane wykończenie",
+    "c4": "Ilość i opakowanie — uwzględnijcie ilość, wymagania opakowaniowe i miejsce dostawy",
+    "enquiryTitle": "Jak złożyć zapytanie",
+    "enquirySub": "Od doboru produktu do wyceny.",
+    "e1t": "Wybierzcie produkt",
+    "e1b": "Zapoznajcie się z ofertą gąbek szlifierskich i wybierzcie budowę potrzebną dla Państwa zastosowania.",
+    "e2t": "Przekażcie swoje wymagania",
+    "e2b": "Dodajcie ilość, wymiary, gradację i wymagania dotyczące opakowania.",
+    "e3t": "Zapoznajcie się z wyceną",
+    "e3b": "Potwierdźcie ostateczną specyfikację i warunki handlowe z naszym zespołem.",
+    "appsTitle": "Zastosowania gąbek szlifierskich do szlifowania ręcznego",
+    "appsSub": "Do drewna, metalu, napraw lakierniczych oraz odpowiednich powierzchni ściennych i fug. Dobierzcie gradację do materiału i przetestujcie ją na mało widocznym fragmencie.",
+    "a1t": "Szlifowanie drewna",
+    "a1b": "Bloki szlifierskie do prac stolarskich, w tym przygotowanie powierzchni i szlifowanie krawędzi mebli, zabudów i innych elementów drewnianych.",
+    "a2t": "Gąbki szlifierskie do płyt gipsowo-kartonowych",
+    "a2b": "Bloki szlifierskie do wygładzania fug, nacienia masy szpachlowej oraz przygotowania ścian pod grunt i farbę.",
+    "a3t": "Usuwanie rdzy",
+    "a3b": "Elastyczne, wielokrotnego użytku gąbki ścierne do szlifowania na mokro i na sucho. Pianka dopasowuje się do krzywizn, krawędzi i profili, zapewniając kontrolowane szlifowanie ręczne.",
+    "faqTitle": "Pytania kupujących",
+    "q1": "Czy kolor oznacza rodzaj materiału ściernego?",
+    "a1": "Nie. Kolor pianki nie jest oznaczeniem gradacji ani twardości. Gradację, materiał ścierny i gęstość pianki potwierdźcie w zapytaniu.",
+    "q2": "Jak zamówić opakowanie OEM?",
+    "a2": "Do zapytania dołączcie projekt etykiety, format opakowania, docelowe ilości i miejsce przeznaczenia; dostępność OEM i wymagania dotyczące projektu graficznego potwierdzamy w ocenie.",
+    "q3": "Czy przesłanie zapytania o wycenę jest zamówieniem?",
+    "a3": "Nie. To hurtowe zapytanie. Specyfikację i warunki handlowe potwierdzamy w wycenie, zanim ruszy jakakolwiek produkcja.",
+    "ctaTitle": "Potrzebują Państwo gąbek szlifierskich w większych ilościach?",
+    "ctaSub": "Prześlijcie wymiary, gradację, ilość i miejsce przeznaczenia — potwierdzimy specyfikację i termin realizacji."
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

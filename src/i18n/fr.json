@@ -54,6 +54,11 @@
       "title": "Tous les produits",
       "desc": "Le catalogue abrasif complet de MoTai : courrois abrasifs, disques de ponçage et disques à ailettes pour acheteurs industriels, distributeurs et marques de private label.",
       "label": "Tous les produits"
+    },
+    "sponge": {
+      "title": "Éponges abrasives MoTai",
+      "desc": "Tampons éponges abrasifs souples et blocs de mousse épaisse pour le ponçage manuel à sec ou à l'eau des courbes, des bords, des surfaces planes et des murs réparés. Réutilisables après nettoyage. Demandes de gros et OEM bienvenues.",
+      "label": "Éponges abrasives"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Spécifications",
     "howTitle": "Comment spécifier votre commande",
     "howBody": "Indiquez la taille du courrois ou du disque, la liste des grains, le modèle de machine, le matériau de la pièce et la quantité. Une spécification claire nous aide à vérifier l'adéquation et à préparer un devis utile — évitez de choisir un produit uniquement sur sa couleur.",
-    "faqTitle": "Questions d'acheteurs"
+    "faqTitle": "Questions d'acheteurs",
+    "family": "Type de produit"
   },
   "about": {
     "h1": "L'entreprise derrière la gamme d'abrasifs",
@@ -264,7 +270,28 @@
     "pr6t": "Expédition",
     "pr6b": "Coordination du conditionnement et de la destination.",
     "cta1": "Demander un devis de gros",
-    "cta2": "Contact via WhatsApp"
+    "cta2": "Contact via WhatsApp",
+    "faqTitle": "Questions que posent les marques OEM",
+    "faqSub": "Les points pratiques qui déterminent une étude de faisabilité OEM.",
+    "o1": "Quelle est la quantité minimum de commande en OEM ?",
+    "oa1": "Les quantités minimales dépendent de la gamme de produit, de la taille, du mélange de grains et du conditionnement ; elles sont confirmées lors de l'étude de faisabilité qui accompagne votre devis.",
+    "o2": "Quels fichiers graphiques attendez-vous de notre part ?",
+    "oa2": "Des visuels prêts à l'impression portant votre marque, les dimensions d'étiquettes que vous utilisez et les marquages de destination requis. Les exigences graphiques sont confirmées lors de l'étude, avant le lancement d'une production.",
+    "o3": "Puis-je obtenir une série d'échantillons avant de m'engager ?",
+    "oa3": "Oui. Les échantillons des références standard sont disponibles pour évaluation, et les validations graphiques OEM suivent la spécification confirmée.",
+    "o4": "Conditionnez-vous uniquement sous notre marque ?",
+    "oa4": "Oui. Les productions en private label appliquent votre logo, vos étiquettes, vos tailles et votre conditionnement ; les étiquettes sont posées et vérifiées avant le scellement du carton, pas après livraison.",
+    "o5": "Combien de temps prend une étude de faisabilité OEM ?",
+    "oa5": "L'étude suit l'étape de vérification ; les références de stock obtiennent une réponse plus rapide, aucun délai de conversion ne s'appliquant.",
+    "specTitle": "Ce que contient un cahier des charges OEM",
+    "specSub": "Six points qui nous permettent de vous renvoyer une étude de faisabilité utile dès le premier passage.",
+    "checklistTitle": "Avant d'envoyer le cahier des charges",
+    "c1": "Gamme de produit et référence de spécification que vous achetez aujourd'hui",
+    "c2": "Visuels d'étiquette prêts à l'impression, avec les dimensions d'étiquettes que vous utilisez",
+    "c3": "Format de conditionnement — carton, emballage intérieur, unité de vente",
+    "c4": "Quantités cibles et mélange de tailles / grains",
+    "c5": "Destination et marquages ou documents de destination éventuels",
+    "c6": "Calendrier — date de lancement ou fenêtre de la première expédition"
   },
   "applications": {
     "h1": "Abrasifs pour votre industrie",
@@ -437,7 +464,49 @@
     "consent": "J'accepte la Politique de confidentialité, les Conditions d'utilisation et l'utilisation de mes coordonnées pour répondre à cette demande. *",
     "btn1": "Demander un devis de gros",
     "btn2": "Envoyer la demande via WhatsApp",
-    "goNote": "Le formulaire s'ouvre dans notre système de demandes de gros avec votre contexte produit pré-rempli."
+    "goNote": "Le formulaire s'ouvre dans notre système de demandes de gros avec votre contexte produit pré-rempli.",
+    "whyTitle": "Pourquoi les acheteurs demandent un devis à MoTai",
+    "whySub": "Quatre raisons pour lesquelles les distributeurs et les ateliers de fabrication nous transmettent leur spécification.",
+    "w1t": "Tarification direct usine",
+    "w1b": "La conversion est réalisée dans notre propre usine de Xianning, au Hubei : le devis reflète le coût de conversion, et non une chaîne d'intermédiaires.",
+    "w2t": "Spécification confirmée par écrit",
+    "w2b": "Le grain, le support, les dimensions, l'emballage et les marquages sont convenus dans le devis ; c'est cette base qui sert de référence à la commande avant expédition.",
+    "w3t": "Stock des tailles standard",
+    "w3b": "Les largeurs et grains standard sont en stock et prêts à l'expédition, ce qui raccourcit les commandes de réapprovisionnement ; les tailles spéciales restent produites selon votre spécification confirmée.",
+    "w4t": "OEM et private label",
+    "w4b": "Votre logo, vos étiquettes, vos tailles et votre conditionnement, chiffrés sur la base d'une étude de faisabilité et non d'une estimation.",
+    "stepsTitle": "Comment une demande devient une commande confirmée",
+    "stepsSub": "Quatre étapes, chacune avec un point de contrôle écrit, pour que rien ne se décide à la porte de l'expédition.",
+    "p1t": "Vous envoyez la spécification",
+    "p1b": "Catégorie de produit, modèle ou référence, taille, grain, matériau, quantité, emballage et destination — les champs ci-dessous.",
+    "p2t": "Nous étudions et répondons",
+    "p2b": "Tailles, qualités, support et conditionnement examinés au regard de votre application ; toute inadéquation est signalée avant le devis.",
+    "p3t": "Validation sur échantillon (le cas échéant)",
+    "p3b": "Les échantillons des références standard sont disponibles sur demande et évalués avant de convenir d'une production.",
+    "p4t": "Production selon la spécification confirmée",
+    "p4b": "La production se déroule selon la spécification confirmée ; points de contrôle, liste de colisage et marquages sont ensuite appliqués avant expédition.",
+    "faqTitle": "Questions que se posent les acheteurs avant de demander un devis",
+    "faqSub": "Les détails pratiques qui déterminent le prix, le délai et l'adéquation.",
+    "q1": "Quelle est la quantité minimum de commande ?",
+    "a1": "Les quantités minimales dépendent de la gamme de produit, de la taille et de l'emballage ; elles sont confirmées dans la réponse à votre demande, plutôt que publiées sous forme d'un chiffre unique.",
+    "q2": "Quel est le délai pour obtenir un devis ?",
+    "a2": "Une réponse précisant spécification, délai et prix est émise après l'étape de vérification ; les références de stock sont chiffrées le plus rapidement, aucun délai de conversion ne s'appliquant.",
+    "q3": "Puis-je recevoir un échantillon au préalable ?",
+    "a3": "Oui. Les échantillons des références standard sont disponibles pour évaluation sur demande ; leur disponibilité et les frais de transport sont confirmés avec votre réponse.",
+    "q4": "Prenez-vous en charge l'OEM et le private label ?",
+    "a4": "Oui. Envoyez votre logo, la maquette d'étiquette, le format de conditionnement et les quantités cibles : nous vous renvoyons une étude de faisabilité OEM avec le devis.",
+    "q5": "Quelles conditions de paiement et d'expédition appliquez-vous ?",
+    "a5": "Les conditions commerciales sont confirmées pour chaque demande dans le devis, y compris la destination, l'emballage et l'incoterme que vous indiquez.",
+    "trustTitle": "L'approvisionnement en un coup d'œil",
+    "trustSub": "L'usine qui se trouve derrière votre devis.",
+    "trustNote": "Les chiffres décrivent le site de fabrication ; les conditions au niveau de la commande sont confirmées dans le devis.",
+    "checklistTitle": "Avant de l'envoyer",
+    "checklistSub": "Préparer ces cinq points rend la première réponse nettement plus rapide.",
+    "c1": "Application, machine et finition requise",
+    "c2": "Matériau à usiner (acier, bois, aluminium, peinture, plaques de plâtre)",
+    "c3": "Qualité de grain et norme sur laquelle vous achetez (FEPA ou ANSI)",
+    "c4": "Taille, diamètre, perforations et quantité",
+    "c5": "Pays de destination et emballage ou marquages requis"
   },
   "clients": {
     "h1": "Où partent les expéditions MoTai",
@@ -445,7 +514,29 @@
     "note": "Les logos clients et témoignages ci-dessous sont des emplacements provisoires — remplacez src/data/trust.json par des documents publiés.",
     "placeholderBadge": "Emplacement provisoire d'illustration",
     "statsTitle": "L'approvisionnement en un coup d'œil",
-    "statsNote": "Les certifications affichées sont provisoires en attente des certificats publiés."
+    "statsNote": "Les certifications affichées sont provisoires en attente des certificats publiés.",
+    "regionsTitle": "Du Hubei à votre marché",
+    "regionsSub": "La même usine sert sept régions de destination ; l'emballage et les marquages sont définis selon la destination.",
+    "logisticsTitle": "Ce que nous confirmons avant expédition",
+    "logisticsSub": "Quatre points réglés dans le devis, et non à la porte de l'expédition.",
+    "l1": "Liste de colisage — quantités par colis selon la taille et le grain, conformes à la commande",
+    "l2": "Marquage des cartons — vos marquages ou le jeu standard, convenus avant la production",
+    "l3": "Disposition de palette — définie selon votre destination et vos moyens de manutention",
+    "l4": "Destination et documents — convenus avec le devis",
+    "faqTitle": "Questions que se posent les acheteurs sur l'approvisionnement",
+    "f1": "Quelles destinations desservez-vous ?",
+    "fa1": "Sept régions de destination en Europe, en Amérique du Nord, au Moyen-Orient et en Asie ; l'emballage et les marquages sont définis selon la destination.",
+    "f2": "Comment protégez-vous les marchandises pendant le transport ?",
+    "fa2": "L'emballage est spécifié selon la destination et confirmé dans le devis ; la protection contre l'humidité et la disposition de palette suivent les conditions de transport que vous nous communiquez.",
+    "f3": "Les logos clients de cette page sont-ils réels ?",
+    "fa3": "Non. Ce sont des emplacements réservés. Remplacez src/data/trust.json par les documents publiés avant de les utiliser comme références.",
+    "f4": "Les certifications listées sont-elles vérifiées ?",
+    "fa4": "Les emplacements de certification sont provisoires en attente des certificats publiés ; seuls les chiffres de l'usine affichés sont confirmés par le fabricant.",
+    "qaTitle": "Ce dont nous avons besoin de votre part",
+    "qaSub": "Trois points qui nous permettent de répondre avec la spécification, le délai et le prix.",
+    "q1": "Application, machine et finition requise",
+    "q2": "Matériau usiné et norme de grain sur laquelle vous achetez (FEPA ou ANSI)",
+    "q3": "Quantité, pays de destination et emballage ou marquages requis"
   },
   "glossary": {
     "h1": "Glossaire des abrasifs",
@@ -979,6 +1070,11 @@
         "title": "Abrasifs en gros — Bandes, disques et disques à lamelles | MoTai",
         "description": "Le catalogue complet MoTai : bandes abrasives industrielles, disques de ponçage et disques à lamelles pour distributeurs, importateurs, grossistes et marques OEM. Gros direct, personnalisation et exportation depuis Hubei, Chine.",
         "keywords": "produits d'abrasifs, produits d'abrasifs en gros, abrasifs industriels, abrasifs recouverts, abrasifs en gros, usine de produits d'abrasifs, exportateur de produits d'abrasifs, fournisseur d'abrasifs Chine, fabricant OEM d'abrasifs, abrasifs de marque de commerce, produits d'abrasifs sur mesure, approvisionnements d'abrasifs en vrac, usine d'abrasifs, outils d'abrasifs, matériaux d'abrasifs, produits de ponçage, produits de finition de surface, papier de ponçage, feuilles de papier de ponçage, papier de ponçage rond, papier de ponçage en gros, disque de ponçage, disque Velcro, disque 5 pouces, disque 6 pouces, disque à lamelles non tissé, tissu de ponçage, rouleau de brosse industriel"
+      },
+      "sponge": {
+        "title": "Fabricant et fournisseur d'éponges abrasives en gros | MoTai",
+        "description": "Tampons éponges abrasifs souples et blocs de mousse épaisse pour le ponçage manuel à sec ou à l'eau des courbes, des bords, des surfaces planes et des murs réparés. Réutilisables, multi-grains, découpés à l'emporte-pièce et conditionnement OEM. Vente en gros direct usine.",
+        "keywords": "éponge abrasive, blocs éponges de ponçage, tampons éponges abrasifs, éponge de ponçage manuel, fabricant d'éponges abrasives, éponges abrasives en gros, éponge abrasive découpée à l'emporte-pièce, éponge abrasive OEM"
       }
     },
     "shipping": {
@@ -995,6 +1091,11 @@
       "title": "{title} — Vidéos d'usine et de produits MoTai",
       "description": "Vidéo d'usine et de produits de MoTai Abrasives, à Xianning, au Hubei. {title}",
       "keywords": "{line}, vidéo abrasifs, images d'usine d'abrasifs, vidéo MoTai, fabrication d'abrasifs, vidéo fournisseur d'abrasifs"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Fabricant d'éponges abrasives",
+      "description": "MoTai {name} : {summary} Fourniture en gros et conditionnement OEM pour les distributeurs et les ateliers.",
+      "keywords": "éponge abrasive, bloc éponge de ponçage, éponge abrasive, tampon de ponçage manuel, fabricant d'éponges abrasives, éponges abrasives en gros"
     }
   },
   "quickBar": {
@@ -1409,5 +1510,145 @@
     "trustTitle": "L'usine derrière ces vidéos",
     "trustSub": "Trois lignes de produits livrées vers sept zones de destination, depuis un seul site.",
     "trustNote": "Les chiffres décrivent l'usine montrée dans les images ; les conditions du niveau commande sont confirmées au devis."
+  },
+  "coltBuy": {
+    "guideTitle": "Comment choisir cette gamme",
+    "guideSub": "Quatre points qui déterminent le produit adapté à votre application — confirmez-les avec le devis.",
+    "specTitle": "Couverture de la spécification",
+    "specSub": "Ce que couvre la gamme aujourd'hui, directement depuis les fiches produit.",
+    "faqTitle": "Questions que se posent les acheteurs sur cette gamme",
+    "belts": [
+      {
+        "q": "Quelle largeur de bande convient à ma machine ?",
+        "a": "Les tailles documentées vont de 533 × 75 mm à 2200 × 1330 mm ; les bandes monobloc extra-larges au-delà de 1500 mm évitent un raccord. Indiquez la machine, la charge et la finition pour que la largeur soit confirmée avec le devis."
+      },
+      {
+        "q": "Quelle gamme de grains puis-je commander ?",
+        "a": "Gamme de grain 40–800 en alumine, zircone et carbure de silicium. Un grain grossier enlève rapidement la matière ; un grain fin adoucit et finit."
+      },
+      {
+        "q": "Fournissez-vous des tailles spéciales ?",
+        "a": "Oui. Les largeurs et longueurs au-delà des tailles documentées sont chiffrées au cas par cas ; le passage à une taille spéciale influe à la fois sur le délai et sur la quantité minimum de commande."
+      },
+      {
+        "q": "Quel type de raccord et quelle construction de bords ?",
+        "a": "Le type de raccord et le traitement des bords sont définis par référence. Indiquez la machine, la charge et la vitesse pour que la construction adaptée soit confirmée."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Auto-agrippant, PSA ou treillis — lequel pour mon outil ?",
+        "a": "L'auto-agrippant convient aux changements fréquents de grain sur une ponceuse orbitale, le PSA aux plateaux plats et aux longues passes, le treillis à l'aspiration des poussières."
+      },
+      {
+        "q": "Quelles tailles et quels schémas de perçage sont documentés ?",
+        "a": "Disques de 3, 4, 5 et 6 pouces avec les schémas de perçage de chaque référence ; l'alésage ou le trou central doit correspondre à votre outil."
+      },
+      {
+        "q": "Quel grain pour quel travail ?",
+        "a": "Un grain grossier enlève rapidement la rouille et la peinture ; un grain fin adoucit et prépare la finition. Indiquez le matériau et la finition requise."
+      },
+      {
+        "q": "Prenez-vous en charge l'aspiration des poussières ?",
+        "a": "Les formats treillis et perforés antipoussière sont documentés dans cette gamme ; le schéma de perçage garde la surface visible pendant le ponçage."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Quel support convient à mon application ?",
+        "a": "Le plastique convient au meulage général du métal, l'acier à l'ébavurage exigeant et la fibre de verre à la durabilité à grande vitesse ; l'alésage doit correspondre à l'outil."
+      },
+      {
+        "q": "À quoi servent les disques à ailettes ?",
+        "a": "Meulage des soudures, élimination de la rouille, adoucissement des surfaces et finition des pièces métalliques — adaptés à la vitesse assignée de l'outil, carter en place."
+      },
+      {
+        "q": "Fournissez-vous de grandes quantités ?",
+        "a": "Oui. Les disques à ailettes sont fournis en vrac aux distributeurs et aux ateliers ; grain, support, diamètre et quantité sont définis ensemble dans le devis."
+      },
+      {
+        "q": "Pourquoi mon disque s'encrasse-t-il sur la calamine ?",
+        "a": "La calamine charge l'abrasif rapidement. Choisissez un grain plus grossier, gardez le disque à plat sur la pièce et nettoyez-le dès qu'il se charge."
+      }
+    ],
+    "all": [
+      {
+        "q": "Par où commencer si mon application n'est pas listée ?",
+        "a": "Envoyez le matériau, la machine, la finition et le volume ; nous répondons avec la famille de produits, la spécification et le délai qui conviennent."
+      },
+      {
+        "q": "Puis-je commander d'abord un exemplaire de chaque référence ?",
+        "a": "Les échantillons des références standard sont disponibles sur demande ; leur disponibilité et les frais de transport sont confirmés avec votre réponse."
+      },
+      {
+        "q": "Chiffrez-vous l'OEM sur toutes les gammes ?",
+        "a": "Oui. Logo, étiquettes, tailles et conditionnement sont chiffrés au regard d'une étude de faisabilité sur les bandes, les disques et les disques à ailettes."
+      },
+      {
+        "q": "Où se situent les éponges abrasives dans la gamme ?",
+        "a": "Ponçage à la main : tampons souples pour les courbes et les profils, blocs de mousse pour les surfaces planes et les murs réparés. Les deux sont chiffrés avec les dimensions, le grain, la densité de mousse et la quantité."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Tampons souples ou blocs de mousse — lequel pour mon travail ?",
+        "a": "Les tampons souples conviennent aux courbes, aux bords et aux profils ; les blocs de mousse aux surfaces planes, aux bords et aux murs réparés. Les deux sont réutilisables après nettoyage."
+      },
+      {
+        "q": "La couleur de la mousse indique-t-elle le grain ?",
+        "a": "Non. La couleur de la mousse n'est ni une indication de grain ni de dureté. Confirmez le grain, la matière abrasive et la densité de mousse dans votre demande ; nous l'ajustons dans le devis."
+      },
+      {
+        "q": "Pouvez-vous découper à l'emporte-pièce des formes spéciales et conditionner sous ma marque ?",
+        "a": "Oui. Envoyez votre profil, l'épaisseur, le grain, le format de conditionnement et les quantités cibles ; l'outillage de découpe et les exigences graphiques sont confirmés lors de l'étude."
+      },
+      {
+        "q": "Sont-elles lavables et réutilisables ?",
+        "a": "Elles peuvent être rincées et réutilisées jusqu'à ce que la couche abrasive soit usée ; la durée de vie dépend du grain, de la pression et de la surface travaillée."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Éponges abrasives · Gamme de ponçage à la main",
+    "thickness": "Structure",
+    "gritNote": "Les couleurs de mousse ne déterminent ni le grain ni la dureté. Confirmez les dimensions, le grain, la matière abrasive, la densité de mousse, l'emballage et la quantité dans votre demande.",
+    "overviewTitle": "Aperçu produit",
+    "overviewBody": "Éponges abrasives souples et réutilisables pour le ponçage à sec ou à l'eau. La mousse épouse les courbes, les bords et les profils pour un ponçage manuel maîtrisé.",
+    "checklistTitle": "Confirmer la bonne spécification",
+    "checklistSub": "Ces éléments nous aident à étudier votre demande. Il s'agit d'exigences à confirmer, non de caractéristiques produit publiées.",
+    "c1": "Dimensions — indiquez la largeur × longueur en mm",
+    "c2": "Grain requis — indiquez la qualité ou la finition souhaitée",
+    "c3": "Pièce à usiner et machine — précisez le matériau, la machine et la finition visée",
+    "c4": "Quantité et emballage — indiquez la quantité, les besoins d'emballage et la destination de livraison",
+    "enquiryTitle": "Comment faire une demande",
+    "enquirySub": "Du choix du produit au devis.",
+    "e1t": "Choisissez votre produit",
+    "e1b": "Parcourez la gamme d'éponges abrasives et retenez la construction dont votre application a besoin.",
+    "e2t": "Communiquez vos exigences",
+    "e2b": "Ajoutez la quantité, les dimensions, le grain et les exigences d'emballage.",
+    "e3t": "Étudiez votre devis",
+    "e3b": "Confirmez la spécification finale et les conditions commerciales avec notre équipe.",
+    "appsTitle": "Applications des éponges abrasives de ponçage à la main",
+    "appsSub": "Pour le bois, le métal, la réparation automobile et les surfaces murales et de joints adaptées. Adaptez le grain au matériau et faites un essai sur une zone peu visible.",
+    "a1t": "Ponçage du bois",
+    "a1b": "Blocs de ponçage pour le travail du bois : préparation des surfaces et ponçage des bords sur meubles, menuiseries et autres pièces en bois.",
+    "a2t": "Éponges à poncer pour plaques de plâtre",
+    "a2b": "Blocs de ponçage pour lisser les joints de plaques, dégrader l'enduit et préparer les murs avant apprêt et peinture.",
+    "a3t": "Élimination de la rouille",
+    "a3b": "Éponges abrasives souples et réutilisables pour le ponçage à sec ou à l'eau. La mousse épouse les courbes, les bords et les profils pour un ponçage manuel maîtrisé.",
+    "faqTitle": "Questions des acheteurs",
+    "q1": "La couleur identifie-t-elle le type d'abrasif ?",
+    "a1": "Non. La couleur de la mousse ne traduit ni le grain ni la dureté. Confirmez le grain, la matière abrasive et la densité de mousse dans votre demande.",
+    "q2": "Comment demander un conditionnement OEM ?",
+    "a2": "Joignez à votre demande la maquette d'étiquette, le format de conditionnement, les quantités cibles et la destination ; la disponibilité OEM et les exigences graphiques sont confirmées lors de l'étude.",
+    "q3": "Une demande de devis vaut-elle commande ?",
+    "a3": "Non. Il s'agit d'une demande de gros. La spécification et les conditions commerciales sont confirmées dans le devis avant le lancement de toute production.",
+    "ctaTitle": "Besoin d'éponges abrasives en grande quantité ?",
+    "ctaSub": "Envoyez dimensions, grain, quantité et destination — nous confirmons la spécification et le délai."
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

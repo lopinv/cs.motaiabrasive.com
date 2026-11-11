@@ -1409,5 +1409,10 @@
         "a2": "可能です。まずサンプルを送ってグリットとベースプレートを確認し、その後確認済み仕様どおりに量産します。"
       }
     }
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

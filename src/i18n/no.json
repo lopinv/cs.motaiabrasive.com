@@ -1409,5 +1409,10 @@
         "a2": "Ja. Først sender vi prøver for å bekrefte kornstørrelse og bakkant, deretter produserer vi i bulk ut fra bekreftede spesifikasjoner."
       }
     }
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

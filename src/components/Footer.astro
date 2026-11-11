@@ -4,6 +4,9 @@ import { site, quoteUrl, localizedUrl, media } from '../lib/utils.js'
 const { lang } = Astro.props
 const tr = TRANSLATIONS[lang]
 const f = tr.footer
+// Brand name is localized: 简体/繁體中文 render 墨泰磨料 instead of MoTai.
+const brand = tr.brand?.brand ?? site.brand
+const brandSub = tr.brand?.sub ?? 'ABRASIVES'
 const productLinks = [
   { key: 'belts', href: '/collections/abrasive-belts' },
   { key: 'discs', href: '/collections/sanding-discs' },
@@ -21,8 +24,8 @@ const exploreLinks = [
   <div class="wrap footer-grid">
     <div>
       <a class="brand" href={localizedUrl(lang, '')}>
-        <img alt="MoTai original logo" src={site.logo} loading="lazy" onerror="this.style.display='none'" />
-        <span>MoTai<span class="brand-sub">ABRASIVES</span></span>
+        <img alt={`${brand} original logo`} src={site.logo} loading="lazy" onerror="this.style.display='none'" />
+        <span>{brand}<span class="brand-sub">{brandSub}</span></span>
       </a>
       <p>{tr.footer.blurb}</p>
       <div class="socials">

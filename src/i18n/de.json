@@ -54,6 +54,11 @@
       "title": "Alle Produkte",
       "desc": "Das komplette MoTai Abriebsmittelsortiment: Schleifbänder, Schleifscheiben und Flapscheiben für industrielle Käufer, Distributoren und Eigenmarken.",
       "label": "Alle Produkte"
+    },
+    "sponge": {
+      "title": "MoTai Schleifschwämme",
+      "desc": "Flexible Schleifschwamm-Pads und dicke Schaumstoffblöcke für Nass- oder Trocken-Handschliff von Kurven, Kanten, Flächen und ausgebesserten Wänden. Nach dem Reinigen wiederverwendbar. Anfragen aus Großhandel und OEM willkommen.",
+      "label": "Schleifschwämme"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Spezifikationen",
     "howTitle": "So spezifizieren Sie Ihre Bestellung",
     "howBody": "Geben Sie die Band- oder Scheibengröße, die Körnungsliste, das Maschinenmodell, das Werkstückmaterial und die Menge an. Eine klare Spezifikation hilft uns, die Passform zu prüfen und ein nützliches Angebot vorzubereiten — wählen Sie nicht ausschließlich anhand der Farbe.",
-    "faqTitle": "Fragen von Käufern"
+    "faqTitle": "Fragen von Käufern",
+    "family": "Produktart"
   },
   "about": {
     "h1": "Das Unternehmen hinter der Abriebsmittel-Range",
@@ -264,7 +270,28 @@
     "pr6t": "Versand",
     "pr6b": "Abstimmung von Verpackung und Ziel.",
     "cta1": "Großhandelsangebot anfragen",
-    "cta2": "Per WhatsApp kontaktieren"
+    "cta2": "Per WhatsApp kontaktieren",
+    "faqTitle": "Fragen von OEM-Marken",
+    "faqSub": "Die praktischen Punkte, die über eine OEM-Machbarkeitsprüfung entscheiden.",
+    "o1": "Wie hoch ist die Mindestbestellmenge für OEM?",
+    "oa1": "Mindestmengen werden je Produktlinie, Größe, Körnungsmix und Verpackung angeboten und in der Machbarkeitsprüfung zusammen mit Ihrer Anfrage bestätigt.",
+    "o2": "Welche Druckdaten brauchen Sie für Eigenmarken?",
+    "oa2": "Druckfertige Daten mit Ihrer Marke, den Label-Größen, die Sie verwenden, und allen für den Bestimmungsort erforderlichen Aufdrucken; die Druckanforderungen werden in der Prüfung vor einem Lauf bestätigt.",
+    "o3": "Kann ich zuerst einen Probelauf bestellen?",
+    "oa3": "Ja. Muster standardisierter Referenzen stehen zur Bewertung zur Verfügung; die Freigabe der OEM-Druckdaten folgt der bestätigten Spezifikation.",
+    "o4": "Verpacken Sie ausschließlich unter unserer Marke?",
+    "oa4": "Ja. Eigenmarkenläufe erhalten Ihr Logo, Ihre Etiketten, Größen und Verpackung; die Etiketten werden angebracht und geprüft, bevor der Karton versiegelt wird – nicht erst, nachdem er angekommen ist.",
+    "o5": "Wie lange dauert eine OEM-Machbarkeitsprüfung?",
+    "oa5": "Die Prüfung erfolgt im Anschluss an den Prüfschritt; Lagerreferenzen werden am schnellsten beantwortet, weil für sie keine Verarbeitungslaufzeit anfällt.",
+    "specTitle": "Was ein OEM-Briefing enthält",
+    "specSub": "Sechs Punkte, damit wir bereits im ersten Durchgang eine brauchbare Machbarkeitsprüfung liefern.",
+    "checklistTitle": "Bevor Sie das Briefing senden",
+    "c1": "Produktlinie und die Spezifikationsreferenz, die Sie heute kaufen",
+    "c2": "Etikettenlayout, druckfertig, mit den Label-Größen, die Sie verwenden",
+    "c3": "Verpackungsformat – Karton, Innenverpackung, Handelseinheit",
+    "c4": "Zielmengen und die Mischung aus Größen / Körnungen",
+    "c5": "Bestimmungsort sowie erforderliche Aufdrucke oder Dokumente",
+    "c6": "Timing – Starttermin oder das erste Lieferfenster"
   },
   "applications": {
     "h1": "Abriebsmittel für Ihre Branche",
@@ -437,7 +464,49 @@
     "consent": "Ich stimme der Datenschutzerklärung, den Nutzungsbedingungen und der Verwendung meiner Angaben zur Beantwortung dieser Anfrage zu. *",
     "btn1": "Großhandelsangebot anfragen",
     "btn2": "Anfrage per WhatsApp senden",
-    "goNote": "Das Formular öffnet sich in unserem Großhandelsanfragesystem mit Ihrem Produkt­kontext vorausgefüllt."
+    "goNote": "Das Formular öffnet sich in unserem Großhandelsanfragesystem mit Ihrem Produkt­kontext vorausgefüllt.",
+    "whyTitle": "Warum Käufer über MoTai anfragen",
+    "whySub": "Vier Gründe, warum Distributoren und Fertigungsbetriebe uns ihre Spezifikation senden.",
+    "w1t": "Preise direkt ab Werk",
+    "w1b": "Die Umformung erfolgt in unserem eigenen Werk in Xianning, Hubei; das Angebot spiegelt deshalb die Verarbeitungskosten wider und nicht eine Kette von Zwischenhändlern.",
+    "w2t": "Spezifikation schriftlich bestätigt",
+    "w2b": "Körnung, Träger, Maße, Verpackung und Aufdrucke werden im Angebot vereinbart – und daran wird die Bestellung vor dem Versand geprüft.",
+    "w3t": "Lagerware für Standardgrößen",
+    "w3b": "Standardbreiten und -körnungen liegen vorrätig bereit; das hält Nachschubbestellungen kurz, während Sondergrößen weiterhin nach Ihrer bestätigten Spezifikation gefertigt werden.",
+    "w4t": "OEM und Eigenmarke",
+    "w4b": "Ihr Logo, Etiketten, Größen und Verpackung – kalkuliert auf Basis einer Machbarkeitsprüfung statt einer Schätzung.",
+    "stepsTitle": "Wie aus einer Anfrage eine bestätigte Bestellung wird",
+    "stepsSub": "Vier Schritte, jeder mit schriftlichem Kontrollpunkt – damit nichts an der Versandrampe entschieden wird.",
+    "p1t": "Sie senden die Spezifikation",
+    "p1b": "Produktkategorie, Modell oder Referenz, Größe, Körnung, Material, Menge, Verpackung und Bestimmungsort – die Felder unten.",
+    "p2t": "Wir prüfen und antworten",
+    "p2b": "Größen, Körnungen, Träger und Verpackung werden gegen Ihre Anwendung geprüft; eine Abweichung wird vor dem Angebot angesprochen.",
+    "p3t": "Musterfreigabe (falls erforderlich)",
+    "p3b": "Muster standardisierter Referenzen sind auf Anfrage erhältlich und werden bewertet, bevor ein Produktionslauf vereinbart wird.",
+    "p4t": "Fertigung nach bestätigter Spezifikation",
+    "p4b": "Die Produktion erfolgt nach der bestätigten Spezifikation; Kontrollpunkte, Packliste und Aufdrucke werden vor dem Versand angebracht.",
+    "faqTitle": "Fragen, die Käufer vor der Anfrage stellen",
+    "faqSub": "Die praktischen Details, die über Preis, Lieferzeit und Passform entscheiden.",
+    "q1": "Wie hoch ist die Mindestbestellmenge?",
+    "a1": "Mindestmengen richten sich nach Produktlinie, Größe und Verpackung; sie werden in der Antwort auf Ihre Anfrage bestätigt und nicht als einzelne Zahl veröffentlicht.",
+    "q2": "Wie lange dauert ein Angebot?",
+    "a2": "Eine Antwort mit Spezifikation, Lieferzeit und Preis erfolgt nach dem Prüfschritt; Lagerreferenzen werden am schnellsten angeboten, weil keine Verarbeitungslaufzeit anfällt.",
+    "q3": "Kann ich zuerst ein Muster erhalten?",
+    "a3": "Ja. Muster standardisierter Referenzen sind auf Anfrage zur Bewertung erhältlich; Musterverfügbarkeit und Frachtkonditionen werden mit Ihrer Antwort bestätigt.",
+    "q4": "Unterstützen Sie OEM und Eigenmarken?",
+    "a4": "Ja. Senden Sie Logo, Etikettenlayout, Verpackungsformat und Zielmengen – wir liefern mit dem Angebot eine OEM-Machbarkeitsprüfung.",
+    "q5": "Welche Zahlungs- und Versandkonditionen gelten?",
+    "a5": "Handelskonditionen werden je Anfrage im Angebot bestätigt, einschließlich Bestimmungsort, Verpackung und dem von Ihnen genannten Incoterm.",
+    "trustTitle": "Lieferung auf einen Blick",
+    "trustSub": "Das Werk hinter Ihrem Angebot.",
+    "trustNote": "Die Zahlen beschreiben den Fertigungsstandort; Konditionen auf Auftragsebene werden im Angebot bestätigt.",
+    "checklistTitle": "Bevor Sie sie senden",
+    "checklistSub": "Wenn diese fünf Punkte feststehen, wird die erste Antwort deutlich schneller.",
+    "c1": "Anwendung, Maschine und erforderliche Oberfläche",
+    "c2": "Zu bearbeitendes Material (Stahl, Holz, Aluminium, Lack, Gipsplatten)",
+    "c3": "Körnung und Standard, nach dem Sie kaufen (FEPA oder ANSI)",
+    "c4": "Größe, Durchmesser, Löcher und Menge",
+    "c5": "Zielland und erforderliche Verpackung oder Aufdrucke"
   },
   "clients": {
     "h1": "Wohin MoTai-Lieferungen gehen",
@@ -445,7 +514,29 @@
     "note": "Die Kundenlogos und Referenzen unten sind Platzhalter — ersetzen Sie src/data/trust.json durch veröffentlichte Unterlagen.",
     "placeholderBadge": "Exemplarischer Platzhalter",
     "statsTitle": "Belieferung auf einen Blick",
-    "statsNote": "Gezeigte Zertifizierungen sind Platzhalter bis zum Vorliegen veröffentlichter Zertifikate."
+    "statsNote": "Gezeigte Zertifizierungen sind Platzhalter bis zum Vorliegen veröffentlichter Zertifikate.",
+    "regionsTitle": "Von Hubei zu Ihrem Markt",
+    "regionsSub": "Dasselbe Werk beliefert sieben Zielregionen; Verpackung und Aufdrucke richten sich nach dem Bestimmungsort.",
+    "logisticsTitle": "Was wir vor dem Versand bestätigen",
+    "logisticsSub": "Vier Punkte, die im Angebot geklärt werden – nicht an der Versandrampe.",
+    "l1": "Packliste – Packmengen nach Größe und Körnung, abgestimmt auf die Bestellung",
+    "l2": "Kartonaufdrucke – Ihre oder die Standardaufdrucke, vor dem Lauf vereinbart",
+    "l3": "Palettenmuster – festgelegt für Ihren Bestimmungsort und Ihre Umschlagsgeräte",
+    "l4": "Bestimmungsort und Dokumente – mit dem Angebot vereinbart",
+    "faqTitle": "Fragen von Käufern zur Lieferung",
+    "f1": "Welche Bestimmungsorte beliefern Sie?",
+    "fa1": "Sieben Zielregionen in Europa, Nordamerika, dem Nahen Osten und Asien; Verpackung und Aufdrucke richten sich nach dem Bestimmungsort.",
+    "f2": "Wie schützen Sie die Ware auf dem Transport?",
+    "fa2": "Die Verpackung wird je Bestimmungsort festgelegt und im Angebot bestätigt; Feuchtigkeitsschutz und Palettenmuster folgen den Transportbedingungen, die Sie uns nennen.",
+    "f3": "Sind die Kundenlogos auf dieser Seite echt?",
+    "fa3": "Nein. Das sind Platzhalter. Ersetzen Sie src/data/trust.json durch veröffentlichte Materialien, bevor Sie sie als Referenzen verwenden.",
+    "f4": "Sind die aufgeführten Zertifizierungen geprüft?",
+    "fa4": "Die Zertifizierungsplätze sind Platzhalter, bis veröffentlichte Zertifikate vorliegen; nur die genannten Werkszahlen sind vom Hersteller bestätigt.",
+    "qaTitle": "Was wir von Ihnen brauchen",
+    "qaSub": "Drei Punkte, damit wir mit Spezifikation, Lieferzeit und Preis antworten können.",
+    "q1": "Anwendung, Maschine und erforderliche Oberfläche",
+    "q2": "Bearbeitetes Material und Körnungsstandard, nach dem Sie kaufen (FEPA oder ANSI)",
+    "q3": "Menge, Zielland und erforderliche Verpackung oder Aufdrucke"
   },
   "glossary": {
     "h1": "Glossar der Abriebsmittel",
@@ -979,6 +1070,11 @@
         "title": "Schleifmittel Großhandel — Bänder, Scheiben & Flap-Scheiben | MoTai",
         "description": "Das komplette MoTai-Schleifmittel-Sortiment: industrielle Schleifbänder, Schleifscheiben und Flap-Scheiben für Händler, Importeure, Großhändler und OEM-Marken. Direkter Großhandel, Anpassung und Export aus Hubei, China.",
         "keywords": "Schleifmittel, Schleifmittel Großhandel, industrielle Schleifmittel, beschichtete Schleifmittel, Schleifmittel Großhandel, Schleifmittelfabrik, Schleifmittel-Exporteur, Schleifmittellieferant China, OEM-Schleifmittelhersteller, Eigenmarken-Schleifmittel, kundenspezifische Schleifmittel, Großmengen an Schleifmitteln, Schleifmittelfabrik, Schleifwerkzeuge, Schleifmittel, Schleifprodukte, Produkte für Oberflächenbearbeitung, Schleifpapier, Schleifpapier-Blätter, rundes Schleifpapier, Schleifpapier Großhandel, Schleifunterlage, Klettverschluss-Schleifunterlage, 5-Zoll-Schleifunterlage, 6-Zoll-Schleifunterlage, Vlies-Flapscheibe, Schleifleinwand, industrielle Rollenbürste"
+      },
+      "sponge": {
+        "title": "Schleifschwamm-Hersteller & Großhandelslieferant | MoTai",
+        "description": "Flexible Schleifschwamm-Pads und dicke Schaumstoffblöcke für Nass- oder Trocken-Handschliff von Kurven, Kanten, Flächen und ausgebesserten Wänden. Wiederverwendbar, in mehreren Körnungen, gestanzt und mit OEM-Verpackung. Großhandel direkt ab Werk.",
+        "keywords": "Schleifschwamm, Schleifschwamm-Blöcke, Schleifschwamm-Pads, Schleifschwämme, Handschleifschwamm, Schleifschwamm-Hersteller, Schleifschwämme Großhandel, gestanzter Schleifschwamm, OEM-Schleifschwamm"
       }
     },
     "shipping": {
@@ -995,6 +1091,11 @@
       "title": "{title} — MoTai Fabrik- & Produktvideos",
       "description": "Fabrik- und Produktvideo von MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, Video über Schleifmittel, Fabrikaufnahmen Schleifmittel, MoTai-Video, Schleifmittelfertigung, Video Schleifmittellieferant"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Schleifschwamm-Hersteller",
+      "description": "MoTai {name}: {summary} Großhandelsbelieferung und OEM-Verpackung für Distributoren und Werkstätten.",
+      "keywords": "Schleifschwamm, Schleifschwamm-Block, Schleifschwamm-Pad, Handschleifschwamm, Schleifschwamm-Hersteller, Schleifschwämme-Großhandel"
     }
   },
   "quickBar": {
@@ -1409,5 +1510,145 @@
     "trustTitle": "Die Fabrik hinter diesen Videos",
     "trustSub": "Drei Produktlinien, sieben Lieferregionen – alles ab einem Standort.",
     "trustNote": "Die Angaben beschreiben die im Film gezeigte Fabrik; auftragsbezogene Konditionen werden im Angebot bestätigt."
+  },
+  "coltBuy": {
+    "guideTitle": "Wie Sie diese Produktlinie auswählen",
+    "guideSub": "Vier Punkte, die entscheiden, welches Produkt zu Ihrer Anwendung passt – bestätigen Sie sie mit dem Angebot.",
+    "specTitle": "Spezifikationsumfang",
+    "specSub": "Was die Reihe heute abdeckt – direkt aus den Produktdatensätzen.",
+    "faqTitle": "Fragen von Käufern zu dieser Produktlinie",
+    "belts": [
+      {
+        "q": "Welche Bandbreite passt zu meiner Maschine?",
+        "a": "Die dokumentierten Maße reichen von 533 × 75 mm bis 2200 × 1330 mm; ultrabreite einteilige Bänder über 1500 mm vermeiden eine Stoßnaht. Nennen Sie Maschine, Belastung und gewünschte Oberfläche, damit die Breite mit dem Angebot bestätigt wird."
+      },
+      {
+        "q": "Welchen Körnungsbereich kann ich bestellen?",
+        "a": "Körnungen 40–800 in Aluminiumoxid-, Zirkonoxid- und Siliziumkarbid-Korn. Grobes Korn nimmt zügig Material ab; feines Korn gleicht an und finisht."
+      },
+      {
+        "q": "Liefern Sie Sondergrößen?",
+        "a": "Ja. Breite und Länge jenseits der dokumentierten Maße werden von Fall zu Fall kalkuliert; die Umstellung auf ein Sondermaß beeinflusst sowohl Lieferzeit als auch Mindestbestellmenge."
+      },
+      {
+        "q": "Welche Verbindungs- und Kantenkonstruktion weisen diese Bänder auf?",
+        "a": "Stoßnaht-Art und Kantenaufbau werden je Artikel im Angebot spezifiziert. Nennen Sie Maschine, Belastung und Drehzahl, damit die passende Konstruktion bestätigt wird."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Klett, PSA oder Netz – was für mein Werkzeug?",
+        "a": "Klett eignet sich für häufige Körnungswechsel am Exzenterschleifer, PSA für flache Stützteller und lange Laufzeiten, Netzscheiben für die Staubabsaugung."
+      },
+      {
+        "q": "Welche Größen und Lochmuster sind dokumentiert?",
+        "a": "Scheiben in 3, 4, 5 und 6 Zoll mit den Lochmustern der jeweiligen Referenz; Durchmesser und Bohrung müssen zu Ihrem Werkzeug passen."
+      },
+      {
+        "q": "Welche Körnung für welche Aufgabe?",
+        "a": "Grobes Korn nimmt Rost und Lack zügig ab; feines Korn gleicht an und bereitet für das Finish vor. Nennen Sie Material und gewünschte Oberfläche."
+      },
+      {
+        "q": "Unterstützen Sie Staubabsaugung?",
+        "a": "Netz- und perforierte Entstaubungsformate sind in dieser Reihe dokumentiert; das Lochmuster hält die Oberfläche beim Schleifen sichtbar."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Welcher Träger passt zu meiner Anwendung?",
+        "a": "Kunststoff für allgemeines Metallschleifen, Stahl für intensives Entgraten und Glasfaser für hohe Standzeiten bei Drehzahl; die Bohrung muss zum Werkzeug passen."
+      },
+      {
+        "q": "Wofür werden Flapscheiben verwendet?",
+        "a": "Schweißnähte schleifen, Rost abtragen, Oberflächen angleichen und Metallteile finishen – abgestimmt auf die Nenndrehzahl des Werkzeugs mit montierter Schutzhaube."
+      },
+      {
+        "q": "Liefern Sie Großmengen?",
+        "a": "Ja. Flapscheiben werden für Distributoren und Werkstätten in Großmengen geliefert; Körnung, Träger, Durchmesser und Menge werden im Angebot gemeinsam festgelegt."
+      },
+      {
+        "q": "Warum glasiert meine Scheibe auf Stahlhaut?",
+        "a": "Stahlhaut verstopft das Schleifmittel schnell. Wählen Sie ein gröberes Korn, halten Sie die Scheibe flächig am Werkstück und richten Sie sie ab, sobald sie zusetzt."
+      }
+    ],
+    "all": [
+      {
+        "q": "Wo fange ich an, wenn meine Anwendung nicht aufgeführt ist?",
+        "a": "Senden Sie Material, Maschine, gewünschte Oberfläche und Menge; wir antworten mit der passenden Produktfamilie, Spezifikation und Lieferzeit."
+      },
+      {
+        "q": "Kann ich zuerst von jeder Referenz eine bestellen?",
+        "a": "Muster standardisierter Referenzen sind auf Anfrage erhältlich; Musterverfügbarkeit und Frachtkonditionen werden mit Ihrer Antwort bestätigt."
+      },
+      {
+        "q": "Bieten Sie OEM über alle Produktlinien an?",
+        "a": "Ja. Logo, Etiketten, Größen und Verpackung werden über Bänder, Scheiben und Flapscheiben auf Basis einer Machbarkeitsprüfung kalkuliert."
+      },
+      {
+        "q": "Wo sitzen die Schleifschwämme im Sortiment?",
+        "a": "Handschleifen: flexible Pads für Kurven und Profile, Schaumstoffblöcke für Flächen und ausgebesserte Wände. Beide werden mit Maßen, Körnung, Schaumdichte und Menge kalkuliert."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Flexible Pads oder Schaumstoffblöcke – was für welche Arbeit?",
+        "a": "Flexible Pads eignen sich für Kurven, Kanten und Profile; Schaumstoffblöcke für Flächen, Kanten und ausgebesserte Wände. Beide sind nach dem Reinigen wiederverwendbar."
+      },
+      {
+        "q": "Zeigt die Schaumfarbe die Körnung an?",
+        "a": "Nein. Schaumfarbe ist keine Körnungs- oder Härteangabe. Bestätigen Sie Körnung, Schleifmittel und Schaumdichte in Ihrer Anfrage – wir stimmen sie im Angebot darauf ab."
+      },
+      {
+        "q": "Können Sie Sonderformen stanzen und unter meiner Marke verpacken?",
+        "a": "Ja. Senden Sie Profil, Stärke, Körnung, Verpackungsformat und Zielmengen; Werkzeugbedarf für das Stanzen und Druckanforderungen werden in der Prüfung bestätigt."
+      },
+      {
+        "q": "Sind diese Schwämme waschbar und wiederverwendbar?",
+        "a": "Sie lassen sich ausspülen und verwenden, bis die Schleifschicht abgearbeitet ist; die Standzeit hängt von Körnung, Druck und bearbeiteter Oberfläche ab."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Schleifschwämme · Handschleifen",
+    "thickness": "Aufbau",
+    "gritNote": "Schaumfarben sagen nichts über Körnung oder Härte aus. Bestätigen Sie Maße, Körnung, Schleifmittel, Schaumdichte, Verpackung und Menge in Ihrer Anfrage.",
+    "overviewTitle": "Produktüberblick",
+    "overviewBody": "Flexible, wiederverwendbare Schleifschwämme für Nass- oder Trockenschliff. Der Schaum passt sich Kurven, Kanten und Profilen an für kontrollierten Handschliff.",
+    "checklistTitle": "Die passende Spezifikation bestätigen",
+    "checklistSub": "Diese Angaben helfen uns, Ihre Anfrage zu prüfen. Es sind Anforderungen zur Bestätigung, keine veröffentlichten Produktbewertungen.",
+    "c1": "Maße – Breite × Länge in mm angeben",
+    "c2": "Erforderliche Körnung – gewünschte Stufe oder Oberfläche angeben",
+    "c3": "Werkstück und Maschine – Material, Maschine und gewünschte Oberfläche nennen",
+    "c4": "Menge und Verpackung – Menge, Verpackungsbedarf und Lieferort angeben",
+    "enquiryTitle": "So fragen Sie an",
+    "enquirySub": "Von der Produktauswahl bis zum Angebot.",
+    "e1t": "Produkt auswählen",
+    "e1b": "Sehen Sie sich das Schleifschwamm-Sortiment an und wählen Sie den Aufbau, den Ihre Anwendung braucht.",
+    "e2t": "Anforderungen mitteilen",
+    "e2b": "Ergänzen Sie Menge, Maße, Körnung und Verpackungsanforderungen.",
+    "e3t": "Angebot prüfen",
+    "e3b": "Bestätigen Sie die endgültige Spezifikation und die Handelskonditionen mit unserem Team.",
+    "appsTitle": "Schleifschwämme für das Handschleifen",
+    "appsSub": "Für Holz, Metall, Autoreparatur-Lackierung sowie geeignete Wand- und Fugenflächen. Passen Sie die Körnung dem Material an und testen Sie an einer unauffälligen Stelle.",
+    "a1t": "Holzschleifen",
+    "a1b": "Schleifblöcke für die Holzbearbeitung – Oberflächenvorbereitung und Kantenschleifen an Möbeln, Schrankbau und anderen Holzbauteilen.",
+    "a2t": "Schleifschwämme für Gipsplatten",
+    "a2b": "Schleifblöcke zum Glätten von Gipsplattenfugen, zum Angleichen der Fugenmasse und zur Vorbereitung von Wänden für Grundierung und Farbe.",
+    "a3t": "Rostentfernung",
+    "a3b": "Flexible, mehrfach nutzbare Schleifschwämme für Nass- und Trockenschliff – der Schaum folgt Kurven, Kanten und Profilen beim kontrollierten Handschleifen.",
+    "faqTitle": "Fragen von Käufern",
+    "q1": "Erkennt man an der Farbe das Schleifmittel?",
+    "a1": "Nein. Schaumfarbe ist keine Körnungs- oder Härteangabe. Bestätigen Sie Körnung, Schleifmittel und Schaumdichte in Ihrer Anfrage.",
+    "q2": "Wie bekomme ich OEM-Verpackung?",
+    "a2": "Senden Sie Etikettenlayout, Verpackungsformat, Zielmengen und Bestimmungsort mit der Anfrage; OEM-Verfügbarkeit und Druckanforderungen werden in der Prüfung bestätigt.",
+    "q3": "Löst eine Anfrage eine Bestellung aus?",
+    "a3": "Nein. Das ist eine Großhandelsanfrage. Spezifikation und Handelskonditionen werden im Angebot bestätigt, bevor ein Lauf beginnt.",
+    "ctaTitle": "Sie brauchen Schleifschwämme in Großmengen?",
+    "ctaSub": "Senden Sie Maße, Körnung, Menge und Bestimmungsort – wir bestätigen Spezifikation und Lieferzeit."
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

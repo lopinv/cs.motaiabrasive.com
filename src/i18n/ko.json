@@ -1307,5 +1307,10 @@
         "a2": "네. 먼저 샘플을 보내 그릿과 백킹을 확인한 뒤, 확인된 사양에 따라 대량 생산합니다."
       }
     }
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

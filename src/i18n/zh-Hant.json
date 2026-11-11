@@ -20,7 +20,7 @@
     "gritsRange": "粒度範圍",
     "holes": "孔數",
     "diameter": "直徑 / 公稱尺寸",
-    "titleSuffix": "墨泰磨料 MoTai Abrasives"
+    "titleSuffix": "墨泰磨料"
   },
   "nav": {
     "language": "語言",
@@ -1409,5 +1409,10 @@
         "a2": "可以。先寄樣品確認粒度與背板，再按確認規格批量生產。"
       }
     }
+  },
+  "brand": {
+    "brand": "墨泰磨料",
+    "sub": "磨料",
+    "company": "湖北墨泰磨料 Materials Co., Ltd."
   }
 }

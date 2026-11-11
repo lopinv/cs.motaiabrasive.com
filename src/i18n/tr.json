@@ -54,6 +54,11 @@
       "title": "Tüm Ürünler",
       "desc": "MoTai aşındırıcı kataloğunun tamamı: endüstriyel alıcılar, dağıtıcılar ve özel etiket markaları için zımpara bantları, zımpara diskleri ve flap diskleri.",
       "label": "Tüm Ürünler"
+    },
+    "sponge": {
+      "title": "MoTai Zımpara Süngerleri",
+      "desc": "Kavis, kenar, düz yüzey ve onarılmış duvarların ıslak veya kuru elle zımparalanması için esnek zımpara sünger pedleri ve kalın sünger bloklar. Temizlendikten sonra yeniden kullanılabilir. Toptan alım ve OEM talepleri memnuniyetle karşılanır.",
+      "label": "Zımpara Süngerleri"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Teknik özellikler",
     "howTitle": "Siparişinizi nasıl belirtmelisiniz",
     "howBody": "Bant veya disk ölçüsünü, grit listesini, makine modelini, iş parçası malzemesini ve miktarı belirtin. Açık bir teknik özellik, uygunluğu incelememize ve faydalı bir teklif hazırlamamıza yardımcı olur; ürünü yalnızca renge göre seçmeyin.",
-    "faqTitle": "Alıcı soruları"
+    "faqTitle": "Alıcı soruları",
+    "family": "Ürün tipi"
   },
   "about": {
     "h1": "Aşındırıcı ürün gamının arkasındaki şirket",
@@ -264,7 +270,28 @@
     "pr6t": "Sevkiyat",
     "pr6b": "Paketlemeyi ve teslim yerini koordine edin.",
     "cta1": "Toptan Teklif Talep Edin",
-    "cta2": "WhatsApp Üzerinden İletişime Geçin"
+    "cta2": "WhatsApp Üzerinden İletişime Geçin",
+    "faqTitle": "OEM markalarının sorduğu sorular",
+    "faqSub": "Bir OEM uygunluk değerlendirmesini şekillendiren pratik noktalar.",
+    "o1": "OEM asgari sipariş miktarı nedir?",
+    "oa1": "Asgari miktarlar ürün hattına, ölçüye, grit dağılımına ve ambalaja göre değişir; teklifinizle birlikte dönen uygunluk değerlendirmesinde teyit edilir.",
+    "o2": "Sizden hangi tasarım dosyasına ihtiyacımız var?",
+    "oa2": "Markanızı içeren baskıya hazır tasarım, kullandığınız etiket ölçüleri ve gerekli varış yeri işaretleri. Tasarım gereksinimleri bir üretim öncesinde değerlendirmede teyit edilir.",
+    "o3": "Sipariş vermeden önce numune üretimi alabilir miyim?",
+    "oa3": "Evet. Standart referanslara ait numuneler değerlendirme için temin edilebilir; OEM tasarım onayları onaylanan spesifikasyona tabidir.",
+    "o4": "Yalnızca kendi markam altında mı paketliyorsunuz?",
+    "oa4": "Evet. Özel etiket üretiminde logonuz, etiketleriniz, ölçüleriniz ve ambalajınız uygulanır; etiketler koli kapatılmadan önce uygulanır ve doğrulanır, mal yerine ulaştıktan sonra değil.",
+    "o5": "OEM uygunluk değerlendirmesi ne kadar sürer?",
+    "oa5": "Değerlendirme inceleme adımını takip eder; stok referanslarına en hızlı yanıt verilir, çünkü bunlar için dönüştürme süresi söz konusu değildir.",
+    "specTitle": "Bir OEM briefinin içeriği",
+    "specSub": "İlk geçişte faydalı bir uygunluk değerlendirmesi döndürmemizi sağlayan altı nokta.",
+    "checklistTitle": "Briefi göndermeden önce",
+    "c1": "Ürün hattı ve bugün satın aldığınız spesifikasyon referansı",
+    "c2": "Etiket tasarımı, baskıya hazır ve kullandığınız etiket ölçüleriyle",
+    "c3": "Ambalaj formatı — koli, iç ambalaj, perakende birimi",
+    "c4": "Hedef miktarlar ve ölçü / grit dağılımı",
+    "c5": "Varış yeri ile gerekli varış yeri işaretleri veya belgeleri",
+    "c6": "Zamanlama — lansman tarihi veya ilk sevkiyat penceresi"
   },
   "applications": {
     "h1": "Sektörünüz için aşındırıcılar",
@@ -437,7 +464,49 @@
     "consent": "Gizlilik Politikası'nı, Kullanım Koşulları'nı ve bu talebe yanıt vermek amacıyla bilgilerimin kullanılmasını kabul ediyorum. *",
     "btn1": "Toptan teklif talep edin",
     "btn2": "Talebi WhatsApp üzerinden gönderin",
-    "goNote": "Form, ürün bilgileriniz önceden doldurulmuş olarak toptan talep sistemimizde açılır."
+    "goNote": "Form, ürün bilgileriniz önceden doldurulmuş olarak toptan talep sistemimizde açılır.",
+    "whyTitle": "Alıcılar neden MoTai üzerinden teklif alıyor",
+    "whySub": "Dağıtıcıların ve üretim atölyelerinin spesifikasyonunu bize göndermesinin dört nedeni.",
+    "w1t": "Fabrikadan doğrudan fiyatlama",
+    "w1b": "Dönüştürme işlemi kendi Xianning, Hubei tesisimizde yapıldığından teklif, aracı zinciri değil dönüştürme maliyetini yansıtır.",
+    "w2t": "Yazılı olarak teyit edilen spesifikasyon",
+    "w2b": "Grit, taban, ölçüler, ambalaj ve işaretler teklifte kararlaştırılır; sipariş sevkiyat öncesinde bu metne karşı kontrol edilir.",
+    "w3t": "Standart ölçüler için stok",
+    "w3b": "Standart genişlikler ve gritler stokta hazır tutulur; bu ikmal siparişlerini kısa tutarken özel ölçüler yine onaylanan spesifikasyonunuza göre üretilir.",
+    "w4t": "OEM ve özel etiket",
+    "w4b": "Logonuz, etiketleriniz, ölçüleriniz ve ambalajınız — tahmine karşılık uygunluk değerlendirmesine dayanarak fiyatlandırılır.",
+    "stepsTitle": "Teklif talebi onaylanmış siparişe nasıl dönüşür",
+    "stepsSub": "Her biri yazılı bir kontrol noktasına sahip dört adım; böylece hiçbir şey sevkiyat rampasında kararlaştırılmaz.",
+    "p1t": "Spesifikasyonu siz gönderirsiniz",
+    "p1b": "Ürün kategorisi, model veya referans, ölçü, grit, malzeme, miktar, ambalaj ve varış yeri — aşağıdaki alanlar.",
+    "p2t": "İnceler ve yanıtlarız",
+    "p2b": "Ölçüler, sınıflar, taban ve ambalaj uygulamanız doğrultusunda incelenir; uyuşmayan bir nokta tekliften önce gündeme getirilir.",
+    "p3t": "Numune onayı (gerekli durumlarda)",
+    "p3b": "Standart referanslara ait numuneler talep üzerine temin edilebilir ve üretim siparişi kararlaştırılmadan önce değerlendirilir.",
+    "p4t": "Onaylanan spesifikasyona göre üretim",
+    "p4b": "Üretim onaylanan spesifikasyon doğrultusunda ilerler; ardından kontrol noktaları, sevkiyat listesi ve işaretler sevkiyat öncesinde uygulanır.",
+    "faqTitle": "Alıcıların teklif almadan önce sorduğu sorular",
+    "faqSub": "Fiyatı, teslim süresini ve uygunluğu belirleyen pratik detaylar.",
+    "q1": "Asgari sipariş miktarı nedir?",
+    "a1": "Asgari miktarlar ürün hattına, ölçüye ve ambalaja göre değişir; tek bir rakam olarak yayımlanmak yerine talebinize verilen yanıtta teyit edilir.",
+    "q2": "Teklif ne kadar sürede hazır olur?",
+    "a2": "Spesifikasyon, teslim süresi ve fiyatı içeren yanıt inceleme adımından sonra iletilir; stok referanslarına en hızlı teklif verilir, çünkü bunlarda dönüştürme süresi söz konusu değildir.",
+    "q3": "Önce numune alabilir miyim?",
+    "a3": "Evet. Standart referanslara ait numuneler talep üzerine değerlendirme için temin edilebilir; numune bulunabilirliği ve navlun koşulları yanıtınızla birlikte teyit edilir.",
+    "q4": "OEM ve özel etiketi destekliyor musunuz?",
+    "a4": "Evet. Logonuzu, etiket tasarımınızı, ambalaj formatını ve hedef miktarları gönderin; teklifinizle birlikte OEM uygunluk değerlendirmesini döndürürüz.",
+    "q5": "Hangi ödeme ve sevkiyat koşullarını kullanıyorsunuz?",
+    "a5": "Ticari koşullar her talep için teklifte teyit edilir; varış yeri, ambalaj ve belirttiğiniz incoterm dahil.",
+    "trustTitle": "Tedarik bir bakışta",
+    "trustSub": "Teklifinizin arkasındaki tesis.",
+    "trustNote": "Rakamlar üretim tesisini tanımlar; sipariş düzeyindeki koşullar teklifte teyit edilir.",
+    "checklistTitle": "Göndermeden önce",
+    "checklistSub": "Bu beş noktanın hazır olması ilk yanıtı belirgin biçimde hızlandırır.",
+    "c1": "Uygulama, makine ve gereken yüzey bitişi",
+    "c2": "İşlenecek malzeme (çelik, ahşap, alüminyum, boya, alçıpan)",
+    "c3": "Grit sınıfı ve aldığınız standart (FEPA veya ANSI)",
+    "c4": "Ölçü, çap, delikler ve miktar",
+    "c5": "Varış ülkesi ile gerekli ambalaj veya işaretler"
   },
   "clients": {
     "h1": "MoTai sevkiyatlarının gittiği yerler",
@@ -445,7 +514,29 @@
     "note": "Aşağıdaki müşteri logoları ve referanslar yer tutucu alanlardır — src/data/trust.json dosyasını yayımlanmış materyallerle değiştirin.",
     "placeholderBadge": "Örnek yer tutucu",
     "statsTitle": "Tedarik bir bakışta",
-    "statsNote": "Gösterilen belgeler, sertifikalar yayımlanana kadar yer tutucudur."
+    "statsNote": "Gösterilen belgeler, sertifikalar yayımlanana kadar yer tutucudur.",
+    "regionsTitle": "Hubei'den pazarınıza",
+    "regionsSub": "Aynı tesis yedi varış bölgesine hizmet eder; ambalaj ve işaretler varış yerine göre düzenlenir.",
+    "logisticsTitle": "Sevkiyat öncesinde neyi teyit ediyoruz",
+    "logisticsSub": "Teklifte kararlaştırılan, sevkiyat rampasında değil, dört nokta.",
+    "l1": "Sevkiyat listesi — ölçü ve gritine göre ambalaj adetleri, siparişle eşleşen",
+    "l2": "Koli işaretleri — sizin işaretleriniz veya standart set, üretim öncesinde kararlaştırılır",
+    "l3": "Palet düzeni — varış yeriniz ve elleçleme ekipmanınıza göre belirlenir",
+    "l4": "Varış yeri ve belgeler — teklifle kararlaştırılır",
+    "faqTitle": "Alıcıların tedarik hakkında sorduğu sorular",
+    "f1": "Hangi varış yerlerine tedarik ediyorsunuz?",
+    "fa1": "Avrupa, Kuzey Amerika, Orta Doğu ve Asya'da yedi varış bölgesi; ambalaj ve işaretler varış yerine göre düzenlenir.",
+    "f2": "Yükteki malları nasıl koruyorsunuz?",
+    "fa2": "Ambalaj varış yerine göre belirlenir ve teklifte teyit edilir; nem koruması ve palet düzeni, bize aktardığınız taşıma koşullarına göre uygulanır.",
+    "f3": "Bu sayfadaki müşteri logoları gerçek mi?",
+    "fa3": "Hayır. Bunlar yer tutucu alanlardır. Referans olarak kullanmadan önce src/data/trust.json dosyasını yayımlanmış materyallerle değiştirin.",
+    "f4": "Listelenen sertifikalar doğrulanmış mı?",
+    "fa4": "Sertifika alanları, yayımlanmış belgeler beklenen yer tutuculardır; yalnızca gösterilen tesis rakamları fabrika tarafından teyit edilir.",
+    "qaTitle": "Sizden neye ihtiyacımız var",
+    "qaSub": "Spesifikasyon, teslim süresi ve fiyatla yanıt verebilmemizi sağlayan üç nokta.",
+    "q1": "Uygulama, makine ve gereken yüzey bitişi",
+    "q2": "İşlenen malzeme ve aldığınız grit standardı (FEPA veya ANSI)",
+    "q3": "Miktar, varış ülkesi ve gerekli ambalaj veya işaretler"
   },
   "glossary": {
     "h1": "Aşındırıcılar sözlüğü",
@@ -991,6 +1082,11 @@
         "title": "Aşındırıcı Ürünleri Toptan Alım — Bantlar, Diskler & Flap Diskleri | MoTai",
         "description": "MoTai aşındırıcı kataloğunun tamamı: dağıtıcılar, ithalatçılar, toptancılar ve OEM markaları için endüstriyel zımpara bantları, zımpara diskleri ve flap diskleri. Fabrikadan doğrudan toptan alım, özelleştirme ve Hubei, Çin'den ihracat.",
         "keywords": "aşındırıcı ürünleri, aşındırıcı ürünleri toptan alım, endüstriyel aşındırıcılar, kaplı aşındırıcılar, aşındırıcı toptan alım, aşındırıcı ürünleri fabrikası, aşındırıcı ürünleri ihracatçısı, Çin'de aşındırıcı tedarikçisi, aşındırıcı OEM üretici, özel etiket aşındırıcılar, özel aşındırıcı ürünler, toplu aşındırıcı tedariki, aşındırıcı fabrikası, aşındırıcı araçlar, aşındırıcı malzemeler, zımpara ürünleri, yüzey bitirme ürünleri, zımpara kâğıdı, zımpara kâğıdı levhaları, yuvarlak zımpara kâğıdı, zımpara kâğıdı toptan alım, zımpara yastığı, keklik kancası zımpara yastığı, 5 inç zımpara yastığı, 6 inç zımpara yastığı, dokunmamış flap tekeri, aşındırıcı bez, endüstriyel rulo fırça"
+      },
+      "sponge": {
+        "title": "Zımpara Süngeri Üreticisi ve Toptan Tedarikçisi | MoTai",
+        "description": "Kavis, kenar, düz yüzey ve onarılmış duvarların ıslak veya kuru elle zımparalanması için esnek zımpara süngerleri ve kalın sünger bloklar. Yeniden kullanılabilir, çok gritli, kalıpla kesilebilir ve OEM ambalajlı. Fabrikadan doğrudan toptan alım.",
+        "keywords": "zımpara süngeri, zımpara sünger blokları, zımpara sünger pedleri, aşındırıcı sünger, elle zımparalama süngeri, zımpara süngeri üreticisi, zımpara süngerleri toptan alım, kalıpla kesilmiş zımpara süngeri, OEM zımpara süngeri"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — MoTai Fabrika ve Ürün Videoları",
       "description": "MoTai Abrasives, Xianning, Hubei'den fabrika ve ürün videosu. {title}",
       "keywords": "{line}, abrasif video, abrasif fabrika kaydı, MoTai videosu, abrasif üretim, abrasif tedarikçi videosu"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Zımpara Süngeri Üreticisi",
+      "description": "MoTai {name}: {summary} Dağıtıcılar ve atölyeler için toptan tedarik ve OEM ambalajlama.",
+      "keywords": "zımpara süngeri, zımpara sünger bloğu, aşındırıcı sünger, elle zımparalama pedi, zımpara süngeri üreticisi, zımpara süngerleri toptan alım"
     }
   },
   "quickBar": {
@@ -1409,5 +1510,145 @@
         "a2": "Evet. Önce gren ve taşıyıcıyı numune ile onaylayın, ardından onaylanan spesifikasyona göre toplu üretim yapılır."
       }
     }
+  },
+  "coltBuy": {
+    "guideTitle": "Bu hattı nasıl seçmelisiniz",
+    "guideSub": "Uygulamanıza hangi ürünün uyduğuna karar veren dört nokta — teklifle birlikte teyit edin.",
+    "specTitle": "Spesifikasyon kapsamı",
+    "specSub": "Hattın bugün kapsadığı alan, doğrudan ürün kayıtlarından.",
+    "faqTitle": "Alıcıların bu hat hakkında sorduğu sorular",
+    "belts": [
+      {
+        "q": "Makinenize hangi bant genişliği uyar?",
+        "a": "Belgelenmiş ölçüler 533 × 75 mm'den 2200 × 1330 mm'ye kadar uzanır; 1500 mm üzerindeki ultra geniş tek parça bantlarda birleşim noktası kalmaz. Genişliğin teklifle teyit edilebilmesi için makineyi, yükü ve istenen bitişi belirtin."
+      },
+      {
+        "q": "Hangi grit aralığını sipariş edebilirim?",
+        "a": "Alüminyum oksit, zirkonya ve silisyum karbür greninde 40–800 arası grit. Kaba grit malzemeyi hızlı kaldırır; ince grit harmanlar ve bitirir."
+      },
+      {
+        "q": "Özel ölçü temin ediyor musunuz?",
+        "a": "Evet. Belgelenmiş ölçülerin ötesindeki genişlik ve uzunluk vaka bazında fiyatlandırılır; özel ölçüye dönüştürmek hem teslim süresini hem de asgari sipariş miktarını etkiler."
+      },
+      {
+        "q": "Ek ve kenar yapısı nedir?",
+        "a": "Ek türü ve kenar işlemi referansa göre belirlenir. Doğru yapının teyit edilebilmesi için makineyi, yükü ve hızı belirtin."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Keklik kancası, PSA mı ağ mı — aletim için hangisi?",
+        "a": "Keklik kancası eksantrik zımpara makinelerinde sık grit değişimine, PSA düz ped ve uzun süreli çalışmaya, ağ diskler toz emilimine uygundur."
+      },
+      {
+        "q": "Hangi ölçüler ve delik desenleri belgelenmiş?",
+        "a": "3, 4, 5 ve 6 inç diskler ve her referansın delik desenleri; mil (arbor) veya merkez deliği aletinizle uyuşmalıdır."
+      },
+      {
+        "q": "İş için hangi grit?",
+        "a": "Kaba grit pası ve boyayı hızlı kaldırır; ince grit harmanlar ve yüzeyi bitirme işlemine hazırlar. Malzemeyi ve gereken bitişi belirtin."
+      },
+      {
+        "q": "Toz emilimini destekliyor musunuz?",
+        "a": "Ağ ve delikli tozsuz formatlar bu hatta belgelenmiştir; perforasyon deseni zımparalama sırasında yüzeyin görünür kalmasını sağlar."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Uygulamam için hangi taban uygun?",
+        "a": "Plastik genel metal taşlamasına, çelik zorlu pah alma işlemlerine, cam elyaf yüksek hızlı dayanıklılığa uygundur; mil (arbor) deliği aletle uyuşmalıdır."
+      },
+      {
+        "q": "Flap diskler ne için kullanılır?",
+        "a": "Kaynak dikişlerini taşlama, pas giderme, yüzey harmanlama ve metal parçaların bitirilmesi — koruyucu kılıf takılı ve diskin aletin çalışma hızına uygun olması koşuluyla."
+      },
+      {
+        "q": "Toplu miktar temin ediyor musunuz?",
+        "a": "Evet. Flap diskler dağıtıcılar ve atölyeler için toplu temin edilir; grit, taban, çap ve miktar teklifte birlikte belirlenir."
+      },
+      {
+        "q": "Diskim neden mill scale üzerinde yığılıyor?",
+        "a": "Mill scale aşındırıcı yüzeye hızlı yüklenir. Daha kaba bir grit seçin, diski iş parçasına düz tutun ve yüklendiğinde yüzeyi arındırın."
+      }
+    ],
+    "all": [
+      {
+        "q": "Uygulamam listede yoksa nereden başlamalıyım?",
+        "a": "Malzemeyi, makineyi, bitişi ve hacmi gönderin; uygun ürün ailesi, spesifikasyon ve teslim süresiyle yanıt veririz."
+      },
+      {
+        "q": "Önce her referanstan birer tane sipariş edebilir miyim?",
+        "a": "Standart referanslara ait numuneler talep üzerine temin edilebilir; numune bulunabilirliği ve navlun koşulları yanıtınızla birlikte teyit edilir."
+      },
+      {
+        "q": "Tüm hatlarda OEM teklifi veriyor musunuz?",
+        "a": "Evet. Logo, etiketler, ölçüler ve ambalaj, bantlar, diskler ve flap diskler boyunca uygunluk değerlendirmesine dayanarak fiyatlandırılır."
+      },
+      {
+        "q": "Zımpara süngerleri aralıkta nerede duruyor?",
+        "a": "Elle zımparalama: kavis ve profiller için esnek pedler, düz yüzeyler ve onarılmış duvarlar için sünger bloklar. İkisi de ölçü, grit, köpük yoğunluğu ve miktarla birlikte fiyatlandırılır."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Esnek pedler mi sünger bloklar mı — işim için hangisi?",
+        "a": "Esnek pedler kavis, kenar ve profillere, sünger bloklar düz yüzeylere, kenarlara ve onarılmış duvarlara uygundur. İkisi de temizlendikten sonra yeniden kullanılabilir."
+      },
+      {
+        "q": "Köpük rengi griti mi gösterir?",
+        "a": "Hayır. Köpük rengi ne grit ne de sertlik derecesi belirtir. Griti, aşındırıcı malzemeyi ve köpük yoğunluğunu talebinizde belirtin; biz teklifte eşleştiririz."
+      },
+      {
+        "q": "Özel şekilde kalıpla kesim yapıp kendi markamla paketleyebilir misiniz?",
+        "a": "Evet. Profilinizi, kalınlığı, griti, ambalaj formatını ve hedef miktarı gönderin; kalıp kesme kalıbı ve tasarım gereksinimleri değerlendirmede teyit edilir."
+      },
+      {
+        "q": "Bunlar yıkanabilir ve yeniden kullanılabilir mi?",
+        "a": "Aşındırıcı katman tükenene kadar durulanabilir ve yeniden kullanılabilir; ömür grite, baskıya ve işlenen yüzeye bağlıdır."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Zımpara süngerleri · Elle zımparalama aralığı",
+    "thickness": "Yapı",
+    "gritNote": "Köpük renkleri griti veya sertliği belirtmez. Ölçüleri, griti, aşındırıcı malzemeyi, köpük yoğunluğunu, ambalajı ve miktarı talebinizde teyit edin.",
+    "overviewTitle": "Ürün genel bakışı",
+    "overviewBody": "Islak veya kuru zımparalama için esnek, yeniden kullanılabilir aşındırıcı süngerler. Köpük, kontrollü elle zımparalama için kavis, kenar ve profillere uyum sağlar.",
+    "checklistTitle": "Doğru spesifikasyonu teyit edin",
+    "checklistSub": "Bu detaylar talebinizi incelememize yardımcı olur. Bunlar teyit edilecek gereksinimlerdir, yayımlanmış ürün değerleri değil.",
+    "c1": "Ölçüler — genişlik × uzunluk mm olarak belirtin",
+    "c2": "Gereken grit — sınıfı veya gereken bitişi belirtin",
+    "c3": "İş parçası ve makine — malzemeyi, makineyi ve hedeflenen bitişi paylaşın",
+    "c4": "Miktar ve ambalaj — miktarı, ambalaj ihtiyaçlarını ve teslimat varış yerini ekleyin",
+    "enquiryTitle": "Nasıl teklif talep edilir",
+    "enquirySub": "Ürün seçiminden teklife.",
+    "e1t": "Ürününüzü seçin",
+    "e1b": "Zımpara süngeri aralığını inceleyin ve uygulamanızın gerektirdiği yapıyı seçin.",
+    "e2t": "Gereksinimlerinizi paylaşın",
+    "e2b": "Miktarı, ölçüleri, griti ve ambalaj gereksinimlerini ekleyin.",
+    "e3t": "Teklifinizi inceleyin",
+    "e3b": "Nihai spesifikasyonu ve ticari koşulları ekibimizle teyit edin.",
+    "appsTitle": "Elle zımparalama süngeri uygulamaları",
+    "appsSub": "Ahşap, metal, otomotiv yeniden boyama ve uygun duvar ile derz yüzeyleri için. Griti malzemeye uyarlayın ve göze batmayan bir alanda test edin.",
+    "a1t": "Ahşap zımparalama",
+    "a1b": "Ahşap işlemede zımparalama blokları: mobilya, dolap ve diğer ahşap bileşenlerde yüzey hazırlığı ve kenar zımparalaması dahil.",
+    "a2t": "Alçıpan zımparalama süngerleri",
+    "a2b": "Alçıpan birleşim yerlerini düzleştürme, derz macununu geçişli yapma ve duvarları astar ile boyaya hazırlama için zımparalama blokları.",
+    "a3t": "Pas giderme",
+    "a3b": "Islak veya kuru zımparalama için esnek, yeniden kullanılabilir aşındırıcı süngerler. Köpük, kontrollü elle zımparalama için kavis, kenar ve profillere uyum sağlar.",
+    "faqTitle": "Alıcı soruları",
+    "q1": "Renk aşındırıcı tipini mi gösterir?",
+    "a1": "Hayır. Köpük rengi ne grit ne de sertlik derecesi belirtir. Griti, aşındırıcı malzemeyi ve köpük yoğunluğunu talebinizde teyit edin.",
+    "q2": "OEM ambalajı nasıl talep edilir?",
+    "a2": "Etiket tasarımınızı, ambalaj formatını, hedef miktarı ve varış yerini talebe ekleyin; OEM bulunabilirliği ve tasarım gereksinimleri değerlendirmede teyit edilir.",
+    "q3": "Teklif talep etmek sipariş vermek anlamına mı gelir?",
+    "a3": "Hayır. Bu bir toptan teklif talebidir. Spesifikasyon ve ticari koşullar herhangi bir üretim başlamadan önce teklifte teyit edilir.",
+    "ctaTitle": "Zımpara süngerlerini toptan mı istiyorsunuz?",
+    "ctaSub": "Ölçü, grit, miktar ve varış yerini gönderin — spesifikasyonu ve teslim süresini teyit ederiz."
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

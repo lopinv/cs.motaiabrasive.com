@@ -54,6 +54,11 @@
       "title": "Todos os produtos",
       "desc": "O catálogo abrasivo completo da MoTai: fitas abrasivas, discos de lixamento e discos de leque para compradores industriais, distribuidores e marcas próprias.",
       "label": "Todos os produtos"
+    },
+    "sponge": {
+      "title": "Esponjas de lixamento MoTai",
+      "desc": "Almofadas de esponja abrasiva flexíveis e blocos de espuma de alta espessura para lixagem manual a húmido ou a seco de superfícies curvas, arestas, superfícies planas e paredes reparadas. Reutilizáveis após limpeza. Aceitamos pedidos de venda por grosso e OEM.",
+      "label": "Esponjas de lixamento"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Especificações",
     "howTitle": "Como especificar o seu pedido",
     "howBody": "Indique a dimensão da fita ou do disco, a lista de grãos, o modelo da máquina, o material da peça e a quantidade. Uma especificação clara ajuda-nos a rever a calagem e preparar um orçamento útil — evite selecionar um produto só pela cor.",
-    "faqTitle": "Perguntas de compradores"
+    "faqTitle": "Perguntas de compradores",
+    "family": "Tipo de produto"
   },
   "about": {
     "h1": "A empresa por trás da gama de abrasivos",
@@ -264,7 +270,28 @@
     "pr6t": "Expedição",
     "pr6b": "Coordene a embalagem e o destino.",
     "cta1": "Pedir orçamento de grosso",
-    "cta2": "Contacte via WhatsApp"
+    "cta2": "Contacte via WhatsApp",
+    "faqTitle": "As perguntas que as marcas OEM fazem",
+    "faqSub": "Os pontos práticos que decidem uma verificação de viabilidade OEM.",
+    "o1": "Qual é a quantidade mínima de encomenda OEM?",
+    "oa1": "As quantidades mínimas dependem da gama de produtos, da dimensão, da mistura de grãos e da embalagem; são confirmadas na revisão de viabilidade que acompanha o seu orçamento.",
+    "o2": "Que materiais gráficos precisam de nós?",
+    "oa2": "Arte final pronta para impressão com a sua marca, os tamanhos de etiqueta que utiliza e as marcações de destino exigidas. Os requisitos de arte são confirmados na revisão, antes de uma produção.",
+    "o3": "Posso receber uma produção de amostras antes de me comprometer?",
+    "oa3": "Sim. Há amostras das referências padrão disponíveis para avaliação, e as aprovações de arte OEM seguem a especificação confirmada.",
+    "o4": "Embalam apenas sob a nossa marca?",
+    "oa4": "Sim. Nas séries de marca própria aplicamos o seu logótipo, etiquetas, tamanhos e embalagem; as etiquetas são aplicadas e verificadas antes de a caixa ser selada, e não depois de ela chegar.",
+    "o5": "Quanto tempo demora uma verificação de viabilidade OEM?",
+    "oa5": "A verificação segue a etapa de revisão; as referências em stock são respondidas mais depressa, porque não lhes corresponde qualquer prazo de conversão.",
+    "specTitle": "O que contém um briefing OEM",
+    "specSub": "Seis pontos que nos permitem devolver uma verificação de viabilidade útil à primeira.",
+    "checklistTitle": "Antes de enviar o briefing",
+    "c1": "Gama de produtos e a referência de especificação que compra hoje",
+    "c2": "Arte da etiqueta, pronta para impressão, com os tamanhos de etiqueta que utiliza",
+    "c3": "Formato de embalagem — caixa, embalagem interior, unidade de venda a retalho",
+    "c4": "Quantidades pretendidas e a mistura de tamanhos / grãos",
+    "c5": "Destino e eventuais marcações ou documentos de destino",
+    "c6": "Calendário — data de lançamento ou a janela da primeira expedição"
   },
   "applications": {
     "h1": "Abrasivos para a sua indústria",
@@ -437,7 +464,49 @@
     "consent": "Aceito a Política de Privacidade, os Termos de Utilização e a utilização dos meus dados para responder a esta consulta. *",
     "btn1": "Pedir orçamento de grosso",
     "btn2": "Enviar consulta via WhatsApp",
-    "goNote": "O formulário abre no nosso sistema de consultas de grosso com o contexto do seu produto pré-preenchido."
+    "goNote": "O formulário abre no nosso sistema de consultas de grosso com o contexto do seu produto pré-preenchido.",
+    "whyTitle": "Porque é que os compradores pedem orçamento através da MoTai",
+    "whySub": "Quatro razões pelas quais distribuidores e oficinas de fabrico nos enviam a sua especificação.",
+    "w1t": "Preços diretos de fábrica",
+    "w1b": "A conversão é feita na nossa própria fábrica em Xianning, Hubei, pelo que o orçamento reflete o custo de conversão, e não uma cadeia de intermediários.",
+    "w2t": "Especificação confirmada por escrito",
+    "w2b": "Grão, suporte, dimensões, embalagem e marcações são acordados no orçamento, e é contra ele que o pedido é verificado antes da expedição.",
+    "w3t": "Stock para tamanhos padrão",
+    "w3b": "As larguras e os grãos padrão estão armazenados e prontos, o que mantém curtos os pedidos de reposição, enquanto os tamanhos personalizados continuam a ser produzidos de acordo com a sua especificação confirmada.",
+    "w4t": "OEM e marca própria",
+    "w4b": "O seu logótipo, etiquetas, tamanhos e embalagem, orçamentados com base numa revisão de viabilidade, em vez de num palpite.",
+    "stepsTitle": "Como é que um pedido de informação se torna num pedido confirmado",
+    "stepsSub": "Quatro etapas, cada uma com um ponto de controlo escrito, para que nada fique decidido à porta do envio.",
+    "p1t": "Você envia a especificação",
+    "p1b": "Categoria de produto, modelo ou referência, tamanho, grão, material, quantidade, embalagem e destino — os campos abaixo.",
+    "p2t": "Nós analisamos e respondemos",
+    "p2b": "Tamanhos, grãos, suporte e embalagem são analisados em função da sua aplicação; uma incompatibilidade é assinalada antes do orçamento.",
+    "p3t": "Aprovação de amostras (quando necessário)",
+    "p3b": "Há amostras das referências padrão disponíveis a pedido e são avaliadas antes de se acordar uma produção.",
+    "p4t": "Produção contra a especificação confirmada",
+    "p4b": "A produção avança de acordo com a especificação confirmada; em seguida são aplicados os pontos de controlo, a lista de embalagem e as marcações, antes da expedição.",
+    "faqTitle": "Perguntas que os compradores fazem antes de pedir orçamento",
+    "faqSub": "Os detalhes práticos que decidem o preço, o prazo e a adequação.",
+    "q1": "Qual é a quantidade mínima de encomenda?",
+    "a1": "As quantidades mínimas dependem da gama de produtos, do tamanho e da embalagem; são confirmadas na resposta ao seu pedido de informação, em vez de publicadas como um único valor.",
+    "q2": "Quanto tempo demora um orçamento?",
+    "a2": "Uma resposta com a especificação, o prazo e o preço é emitida após a etapa de revisão; as referências em stock são orçamentadas mais depressa, porque não lhes corresponde qualquer prazo de conversão.",
+    "q3": "Posso receber primeiro uma amostra?",
+    "a3": "Sim. Há amostras das referências padrão disponíveis para avaliação a pedido; a disponibilidade de amostras e as condições de transporte são confirmadas com a sua resposta.",
+    "q4": "Apoiam OEM e marca própria?",
+    "a4": "Sim. Envie o seu logótipo, a arte da etiqueta, o formato de embalagem e as quantidades pretendidas, e devolvemos-lhe uma verificação de viabilidade OEM com o orçamento.",
+    "q5": "Que condições de pagamento e de envio utilizam?",
+    "a5": "As condições comerciais são confirmadas em cada pedido de informação, no orçamento, incluindo o destino, a embalagem e o incoterm que especificar.",
+    "trustTitle": "O fornecimento num relance",
+    "trustSub": "A fábrica por trás do seu orçamento.",
+    "trustNote": "Os valores descritos correspondem à unidade de fabrico; as condições ao nível do pedido são confirmadas no orçamento.",
+    "checklistTitle": "Antes de o enviar",
+    "checklistSub": "Ter estes cinco pontos preparados torna a primeira resposta substancialmente mais rápida.",
+    "c1": "Aplicação, máquina e acabamento necessário",
+    "c2": "Material a trabalhar (aço, madeira, alumínio, tinta, placa de gesso)",
+    "c3": "Qualidade de grão e norma a que compra (FEPA ou ANSI)",
+    "c4": "Tamanho, diâmetro, furos e quantidade",
+    "c5": "País de destino e embalagem ou marcações exigidas"
   },
   "clients": {
     "h1": "Para onde vão as remessas da MoTai",
@@ -445,7 +514,29 @@
     "note": "Os logótipos de clientes e testemunhos abaixo são espaços provisórios — substitua src/data/trust.json por materiais publicados.",
     "placeholderBadge": "Exemplo ilustrativo provisório",
     "statsTitle": "O fornecimento em traços",
-    "statsNote": "As certificações apresentadas são provisórias, à espera de certificados publicados."
+    "statsNote": "As certificações apresentadas são provisórias, à espera de certificados publicados.",
+    "regionsTitle": "De Hubei até ao seu mercado",
+    "regionsSub": "A mesma fábrica serve sete regiões de destino; a embalagem e as marcações são definidas por destino.",
+    "logisticsTitle": "O que confirmamos antes da expedição",
+    "logisticsSub": "Quatro pontos decididos no orçamento, e não à porta do envio.",
+    "l1": "Lista de embalagem — quantidades por tamanho e grão, correspondentes ao pedido",
+    "l2": "Marcações de caixa — as suas marcações ou o conjunto padrão, acordadas antes da produção",
+    "l3": "Padrão de palete — definido em função do destino e do equipamento de movimentação",
+    "l4": "Destino e documentos — acordados com o orçamento",
+    "faqTitle": "Perguntas que os compradores fazem sobre o fornecimento",
+    "f1": "Que destinos abastecem?",
+    "fa1": "Sete regiões de destino na Europa, América do Norte, Médio Oriente e Ásia; a embalagem e as marcações são definidas por destino.",
+    "f2": "Como protegem as mercadorias em trânsito?",
+    "fa2": "A embalagem é especificada por destino e confirmada no orçamento; a proteção contra a humidade e o padrão de palete seguem as condições de trânsito que nos descreve.",
+    "f3": "Os logótipos de clientes nesta página são reais?",
+    "fa3": "Não. Estes são lugares reservados. Substitua src/data/trust.json por materiais publicados antes de os usar como referências.",
+    "f4": "As certificações indicadas são verificadas?",
+    "fa4": "Os lugares de certificação são reservas pendentes de certificados publicados; apenas os valores da fábrica apresentados são confirmados pelo fabricante.",
+    "qaTitle": "O que precisamos de si",
+    "qaSub": "Três pontos que nos permitem responder com a especificação, o prazo e o preço.",
+    "q1": "Aplicação, máquina e acabamento necessário",
+    "q2": "Material trabalhado e a norma de grãos a que compra (FEPA ou ANSI)",
+    "q3": "Quantidade, país de destino e embalagem ou marcações exigidas"
   },
   "glossary": {
     "h1": "Glossário de abrasivos",
@@ -979,6 +1070,11 @@
         "title": "Abrasivos no atacado — Fitas, discos e discos de flange | MoTai",
         "description": "O catálogo completo MoTai: fitas industriais, discos de lixar e discos de flange para distribuidores, importadores, grossistas e marcas OEM. Atacado direto, personalização e exportação de Hubei, China.",
         "keywords": "produtos de abrasivos, produtos de abrasivos no atacado, abrasivos industriais, abrasivos revestidos, abrasivos no atacado, fábrica de produtos de abrasivos, exportador de produtos de abrasivos, fornecedor de abrasivos China, fabricante OEM de abrasivos, abrasivos de marca própria, produtos de abrasivos personalizados, suprimentos de abrasivos em massa, fábrica de abrasivos, ferramentas de abrasivo, materiais de abrasivo, produtos de lixar, produtos de acabamento de superfície, lixa, folhas de lixa, lixa redonda, lixa no atacado, base de lixar, base de velcro, base 5 polegadas, base 6 polegadas, disco de flange não tecido, pano de lixar, rolo de escova industrial"
+      },
+      "sponge": {
+        "title": "Fabricante e Fornecedor Por Grosso de Esponjas de Lixamento | MoTai",
+        "description": "Almofadas de esponja abrasiva flexíveis e blocos de espuma de alta espessura para lixagem manual a húmido ou a seco de superfícies curvas, arestas, superfícies planas e paredes reparadas. Reutilizáveis, multi-grão, corte a cano e embalagem OEM. Venda por grosso direta da fábrica.",
+        "keywords": "esponja de lixamento, blocos de esponja de lixamento, esponjas de lixamento, esponja abrasiva, esponja de lixamento manual, fabricante de esponjas de lixamento, esponjas de lixamento por grosso, esponja de lixamento cortada a cano, esponja de lixamento OEM"
       }
     },
     "shipping": {
@@ -995,6 +1091,11 @@
       "title": "{title} — Vídeos da Fábrica e dos Produtos MoTai",
       "description": "Vídeo da fábrica e dos produtos da MoTai Abrasives, em Xianning, Hubei. {title}",
       "keywords": "{line}, vídeo de abrasivos, material de fábrica de abrasivos, vídeo MoTai, fabricação de abrasivos, vídeo de fornecedor de abrasivos"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Fabricante de Esponjas de Lixamento",
+      "description": "MoTai {name}: {summary} Fornecimento por grosso e embalagem OEM para distribuidores e oficinas.",
+      "keywords": "esponja de lixamento, bloco de esponja de lixamento, esponja abrasiva, esponja de lixamento manual, fabricante de esponjas de lixamento, esponjas de lixamento por grosso"
     }
   },
   "quickBar": {
@@ -1409,5 +1510,145 @@
         "a2": "Sim. Primeiro envie amostras para confirmar grão e disco base, depois produção em lote de acordo com a especificação confirmada."
       }
     }
+  },
+  "coltBuy": {
+    "guideTitle": "Como escolher esta gama",
+    "guideSub": "Quatro pontos que decidem qual o produto adequado à sua aplicação — confirme-os com o orçamento.",
+    "specTitle": "Cobertura da especificação",
+    "specSub": "O que a gama cobre hoje, diretamente dos registos de produto.",
+    "faqTitle": "Perguntas que os compradores fazem sobre esta gama",
+    "belts": [
+      {
+        "q": "Que largura de fita se adequa à minha máquina?",
+        "a": "As dimensões documentadas vão de 533 × 75 mm a 2200 × 1330 mm; as fitas ultra-largas de peça única acima de 1500 mm dispensam uma junta. Indique a máquina, a carga e o acabamento para que a largura seja confirmada com o orçamento."
+      },
+      {
+        "q": "Que intervalo de grãos posso encomendar?",
+        "a": "Grãos 40–800 em grão de óxido de alumínio, zircónia e carboneto de silício. O grão grosso remove material rapidamente; o grão fino homogeneiza e dá acabamento."
+      },
+      {
+        "q": "Fornecem tamanhos personalizados?",
+        "a": "Sim. A largura e o comprimento além das dimensões documentadas são orçamentados caso a caso; passar para uma medida especial afeta tanto o prazo como a quantidade mínima de encomenda."
+      },
+      {
+        "q": "Que construção de junta e de bordo?",
+        "a": "O tipo de junta e o tratamento de bordo são especificados por referência. Indique-nos a máquina, a carga e a velocidade para que a construção correta seja confirmada."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Velcro, PSA ou rede — qual para a minha ferramenta?",
+        "a": "O velcro serve para trocas frequentes de grão numa lixadora orbital aleatória, o PSA para bases planas e longos períodos de funcionamento, e a rede para aspiração de poeira."
+      },
+      {
+        "q": "Que tamanhos e padrões de furos estão documentados?",
+        "a": "Discos de 3, 4, 5 e 6 polegadas com os padrões de furos de cada referência; o furo do eixo ou central tem de corresponder à sua ferramenta."
+      },
+      {
+        "q": "Que grão para o trabalho?",
+        "a": "O grão grosso remove ferrugem e tinta rapidamente; o grão fino homogeneiza e prepara o acabamento. Indique o material e o acabamento necessário."
+      },
+      {
+        "q": "Apoiam aspiração de poeira?",
+        "a": "Os formatos de rede e perfurados sem poeira estão documentados nesta gama; o padrão perfurado mantém a superfície visível durante a lixagem."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Que suporte se adequa à minha aplicação?",
+        "a": "O plástico serve para a retífica geral de metal, o aço para desbaste exigente e a fibra de vidro para durabilidade a alta velocidade; o furo do eixo tem de corresponder à ferramenta."
+      },
+      {
+        "q": "Para que servem os discos de leque?",
+        "a": "Retificar soldaduras, remover ferrugem, homogeneizar superfícies e dar acabamento a peças metálicas — de acordo com a velocidade nominal da ferramenta e com a proteção montada."
+      },
+      {
+        "q": "Fornecem quantidades a granel?",
+        "a": "Sim. Os discos de leque são fornecidos a granel para distribuidores e oficinas; grão, suporte, diâmetro e quantidade são definidos em conjunto no orçamento."
+      },
+      {
+        "q": "Porque é que o meu disco vitrifica com carepa de laminação?",
+        "a": "A carepa de laminação carrega rapidamente o abrasivo. Escolha um grão mais grosso, mantenha o disco plano sobre a peça e limpe a superfície à medida que ela carrega."
+      }
+    ],
+    "all": [
+      {
+        "q": "Por onde começar se a minha aplicação não está listada?",
+        "a": "Envie o material, a máquina, o acabamento e o volume; respondemos com a família de produtos, a especificação e o prazo que se adequam."
+      },
+      {
+        "q": "Posso encomendar primeiro uma unidade de cada referência?",
+        "a": "Há amostras das referências padrão disponíveis a pedido; a disponibilidade de amostras e as condições de transporte são confirmadas com a sua resposta."
+      },
+      {
+        "q": "Fazem orçamentos OEM em todas as gamas?",
+        "a": "Sim. Logótipo, etiquetas, tamanhos e embalagem são orçamentados com base numa revisão de viabilidade em fitas, discos e discos de leque."
+      },
+      {
+        "q": "Onde se situam as esponjas de lixar na gama?",
+        "a": "Lixagem manual: almofadas flexíveis para curvas e perfis, blocos de espuma para superfícies planas e paredes reparadas. Ambos são orçamentados com dimensões, grão, densidade da espuma e quantidade."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Almofadas flexíveis ou blocos de espuma — quais para o meu trabalho?",
+        "a": "As almofadas flexíveis adequam-se a curvas, arestas e perfis; os blocos de espuma a superfícies planas, arestas e paredes reparadas. Ambos são reutilizáveis após limpeza."
+      },
+      {
+        "q": "A cor da espuma indica o grão?",
+        "a": "Não. A cor da espuma não é uma classificação de grão nem de dureza. Confirme o grão, o material abrasivo e a densidade da espuma no seu pedido e nós correspondemo-los no orçamento."
+      },
+      {
+        "q": "Podem cortar a cano formas personalizadas e embalar com a minha marca?",
+        "a": "Sim. Envie o seu perfil, espessura, grão, formato de embalagem e quantidades pretendidas; as ferramentas de corte a cano e os requisitos de arte são confirmados na revisão."
+      },
+      {
+        "q": "São laváveis e reutilizáveis?",
+        "a": "Podem ser enxaguadas e reutilizadas até que a camada abrasiva se esgote; a duração depende do grão, da pressão e da superfície trabalhada."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Esponjas de lixamento · Gama de lixagem manual",
+    "thickness": "Construção",
+    "gritNote": "As cores da espuma não determinam o grão nem a dureza. Confirme dimensões, grão, material abrasivo, densidade da espuma, embalagem e quantidade no seu pedido.",
+    "overviewTitle": "Visão geral do produto",
+    "overviewBody": "Esponjas abrasivas flexíveis e reutilizáveis para lixagem a húmido ou a seco. A espuma adapta-se a curvas, arestas e perfis para uma lixagem manual controlada.",
+    "checklistTitle": "Confirme a especificação correta",
+    "checklistSub": "Estes detalhes ajudam-nos a analisar o seu pedido. São requisitos a confirmar, e não classificações de produto publicadas.",
+    "c1": "Dimensões — indique largura × comprimento em mm",
+    "c2": "Grão necessário — indique a qualidade ou o acabamento necessário",
+    "c3": "Peça e máquina — partilhe o material, a máquina e o acabamento previsto",
+    "c4": "Quantidade e embalagem — inclua a quantidade, as necessidades de embalagem e o destino de entrega",
+    "enquiryTitle": "Como pedir",
+    "enquirySub": "Da seleção do produto ao orçamento.",
+    "e1t": "Escolha o seu produto",
+    "e1b": "Explore a gama de esponjas de lixamento e escolha a construção de que a sua aplicação necessita.",
+    "e2t": "Partilhe os seus requisitos",
+    "e2b": "Acrescente quantidade, dimensões, grão e requisitos de embalagem.",
+    "e3t": "Analise o seu orçamento",
+    "e3b": "Confirme a especificação final e as condições comerciais com a nossa equipa.",
+    "appsTitle": "Aplicações da esponja de lixar manual",
+    "appsSub": "Para madeira, metal, repintura automóvel e superfícies de parede e betumação adequadas. Ajuste o grão ao material e teste numa zona discreta.",
+    "a1t": "Lixagem de madeira",
+    "a1b": "Blocos de lixar para trabalhos de madeira, incluindo preparação de superfície e lixagem de arestas em mobiliário, carpintaria e outros componentes de madeira.",
+    "a2t": "Esponjas de lixar para placa de gesso",
+    "a2b": "Blocos de lixar para alisar juntas de placa de gesso, diluir massa de junta e preparar paredes para primário e tinta.",
+    "a3t": "Remoção de ferrugem",
+    "a3b": "Esponjas abrasivas flexíveis e reutilizáveis para lixagem a húmido ou a seco. A espuma adapta-se a curvas, arestas e perfis para uma lixagem manual controlada.",
+    "faqTitle": "Perguntas dos compradores",
+    "q1": "A cor identifica o tipo de abrasivo?",
+    "a1": "Não. A cor da espuma não é uma classificação de grão nem de dureza. Confirme o grão, o material abrasivo e a densidade da espuma no seu pedido.",
+    "q2": "Como solicito embalagem OEM?",
+    "a2": "Envie a arte da sua etiqueta, o formato de embalagem, as quantidades pretendidas e o destino com o pedido; a disponibilidade OEM e os requisitos de arte são confirmados na revisão.",
+    "q3": "Pedir um orçamento constitui um pedido?",
+    "a3": "Não. Isto é um pedido de informação por grosso. A especificação e as condições comerciais são confirmadas no orçamento antes de qualquer produção.",
+    "ctaTitle": "Precisa de esponjas de lixamento a granel?",
+    "ctaSub": "Envie dimensões, grão, quantidade e destino — confirmamos a especificação e o prazo."
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

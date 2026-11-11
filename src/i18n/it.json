@@ -54,6 +54,11 @@
       "title": "Tutti i prodotti",
       "desc": "Il catalogo abrasivo completo MoTai: nastri abrasivi, dischi di levigatura e dischi a patta per acquirenti industriali, distributori e marchi private label.",
       "label": "Tutti i prodotti"
+    },
+    "sponge": {
+      "title": "Spugne abrasive MoTai",
+      "desc": "Tamponi flessibili in spugna abrasiva e blocchi di schiuma ad alto spessore per la levigatura manuale a umido o a secco di curve, bordi, superfici piane e muri riparati. Riutilizzabili dopo la pulizia. Accogliamo richieste all'ingrosso e OEM.",
+      "label": "Spugne abrasive"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifiche",
     "howTitle": "Come specificare il tuo ordine",
     "howBody": "Includi la misura del nastro o del disco, l'elenco delle grane, il modello di macchina, il materiale del pezzo e la quantità. Una specifica chiara ci aiuta a verificare l'adattabilità e preparare un preventivo utile — evita di scegliere il prodotto basandoti solo sul colore.",
-    "faqTitle": "Domande degli acquirenti"
+    "faqTitle": "Domande degli acquirenti",
+    "family": "Tipologia di prodotto"
   },
   "about": {
     "h1": "L'azienda dietro la gamma di abrasivi",
@@ -264,7 +270,28 @@
     "pr6t": "Consegna",
     "pr6b": "Coordina imballo e destinazione.",
     "cta1": "Richiedi un preventivo all'ingrosso",
-    "cta2": "Contattaci su WhatsApp"
+    "cta2": "Contattaci su WhatsApp",
+    "faqTitle": "Domande dei marchi OEM",
+    "faqSub": "I punti pratici che determinano una verifica di fattibilità OEM.",
+    "o1": "Qual è il quantitativo minimo d'ordine per l'OEM?",
+    "oa1": "Le quantità minime dipendono dalla linea di prodotto, dalla misura, dalla combinazione di grane e dall'imballaggio; vengono confermate nella verifica di fattibilità che accompagna il vostro preventivo.",
+    "o2": "Quali grafiche vi servono da parte nostra?",
+    "oa2": "Grafiche pronte per la stampa con il vostro marchio, i formati di etichetta che utilizzate e le marcature di destinazione richieste. I requisiti di grafica vengono confermati nella verifica prima dell'avvio della produzione.",
+    "o3": "Posso avere una tiratura campione prima di confermare?",
+    "oa3": "Sì. I campioni dei riferimenti standard sono disponibili per la valutazione e le approvazioni della grafica OEM seguono la specifica confermata.",
+    "o4": "Imballate esclusivamente con il nostro marchio?",
+    "oa4": "Sì. Le produzioni private label applicano il vostro logo, etichette, misure e imballaggio; le etichette vengono applicate e verificate prima che il cartone sia sigillato, non dopo l'arrivo a destinazione.",
+    "o5": "Quanto tempo richiede una verifica di fattibilità OEM?",
+    "oa5": "La verifica segue la fase di revisione; i riferimenti a magazzino ottengono risposta più rapidamente perché su di essi non si applicano tempi di conversione.",
+    "specTitle": "Cosa contiene un brief OEM",
+    "specSub": "Sei punti che ci permettono di restituire una verifica di fattibilità utile al primo passaggio.",
+    "checklistTitle": "Prima di inviare il brief",
+    "c1": "Linea di prodotto e riferimento della specifica che acquistate oggi",
+    "c2": "Grafica delle etichette, pronta per la stampa, con i formati di etichetta che utilizzate",
+    "c3": "Formato di imballaggio — cartone, imballo interno, unità al dettaglio",
+    "c4": "Quantità obiettivo e combinazione di misure / grane",
+    "c5": "Destinazione ed eventuali marche o documenti di destinazione",
+    "c6": "Tempistica — data di lancio o finestra della prima spedizione"
   },
   "applications": {
     "h1": "Abrasivi per il tuo settore",
@@ -437,7 +464,49 @@
     "consent": "Accetto la Privacy Policy, i Termini di Utilizzo e l'uso dei miei dati per rispondere a questa richiesta. *",
     "btn1": "Richiedi un preventivo all'ingrosso",
     "btn2": "Invia la richiesta via WhatsApp",
-    "goNote": "Il modulo si apre nel nostro sistema di richieste all'ingrosso con il contesto di prodotto già compilato."
+    "goNote": "Il modulo si apre nel nostro sistema di richieste all'ingrosso con il contesto di prodotto già compilato.",
+    "whyTitle": "Perché gli acquirenti richiedono preventivo a MoTai",
+    "whySub": "Quattro motivi per cui distributori e officine ci inviano la loro specifica.",
+    "w1t": "Prezzi diretti dalla fabbrica",
+    "w1b": "La conversione avviene nel nostro stabilimento di Xianning, Hubei, quindi il preventivo riflette il costo di conversione e non una catena di intermediari.",
+    "w2t": "Specifica confermata per iscritto",
+    "w2b": "Grana, supporto, dimensioni, imballaggio e marcature vengono concordati nel preventivo, che è il riferimento con cui l'ordine viene verificato prima della spedizione.",
+    "w3t": "Scorte per le misure standard",
+    "w3b": "Le larghezze e le grane standard sono in stoccaggio e pronte, cosa che mantiene brevi gli ordini di reintegro, mentre le misure speciali vengono prodotte secondo la specifica confermata.",
+    "w4t": "OEM e private label",
+    "w4b": "Il vostro logo, etichette, misure e imballaggio, preventivati sulla base di una verifica di fattibilità anziché di una stima.",
+    "stepsTitle": "Come una richiesta diventa un ordine confermato",
+    "stepsSub": "Quattro fasi, ciascuna con un punto di controllo scritto, così da non lasciare nulla da definire alla porta di spedizione.",
+    "p1t": "Inviate la specifica",
+    "p1b": "Categoria di prodotto, modello o riferimento, misura, grana, materiale, quantità, imballaggio e destinazione — i campi sottostanti.",
+    "p2t": "Noi verifichiamo e rispondiamo",
+    "p2b": "Misure, gradi, supporto e imballaggio verificati in base alla vostra applicazione; un'eventuale discrepanza viene segnalata prima del preventivo.",
+    "p3t": "Approvazione del campione (se richiesta)",
+    "p3b": "I campioni dei riferimenti standard sono disponibili su richiesta e valutati prima di concordare una produzione.",
+    "p4t": "Produzione secondo la specifica confermata",
+    "p4b": "La produzione procede secondo la specifica confermata, poi i punti di controllo, la lista di imballaggio e le marcature vengono applicati prima della spedizione.",
+    "faqTitle": "Domande che gli acquirenti fanno prima di richiedere un preventivo",
+    "faqSub": "I dettagli pratici che determinano prezzo, tempi di consegna e idoneità.",
+    "q1": "Qual è il quantitativo minimo d'ordine?",
+    "a1": "Le quantità minime dipendono dalla linea di prodotto, dalla misura e dall'imballaggio; vengono confermate nella risposta alla vostra richiesta anziché pubblicate come cifra unica.",
+    "q2": "Quanto tempo richiede un preventivo?",
+    "a2": "Una risposta con specifica, tempi di consegna e prezzo viene emessa dopo la fase di verifica; i riferimenti a magazzino sono preventivati più rapidamente perché su di essi non si applicano tempi di conversione.",
+    "q3": "Posso ricevere prima un campione?",
+    "a3": "Sì. I campioni dei riferimenti standard sono disponibili per la valutazione su richiesta; la disponibilità dei campioni e le condizioni di trasporto vengono confermate con la risposta.",
+    "q4": "Supportate OEM e private label?",
+    "a4": "Sì. Inviate logo, grafica delle etichette, formato di imballaggio e quantità obiettivo, e vi restituiamo una verifica di fattibilità OEM insieme al preventivo.",
+    "q5": "Quali termini di pagamento e di spedizione utilizzate?",
+    "a5": "Le condizioni commerciali vengono confermate per ogni richiesta nel preventivo, inclusi destinazione, imballaggio e incoterm da voi indicato.",
+    "trustTitle": "La fornitura in breve",
+    "trustSub": "Lo stabilimento dietro il vostro preventivo.",
+    "trustNote": "Le cifre descrivono lo stabilimento di produzione; le condizioni a livello di ordine vengono confermate nel preventivo.",
+    "checklistTitle": "Prima di inviarla",
+    "checklistSub": "Avere pronti questi cinque punti rende la prima risposta sostanzialmente più rapida.",
+    "c1": "Applicazione, macchina e finitura richiesta",
+    "c2": "Materiale da lavorare (acciaio, legno, alluminio, vernice, cartongesso)",
+    "c3": "Grado di grana e standard con cui acquistate (FEPA o ANSI)",
+    "c4": "Misura, diametro, fori e quantità",
+    "c5": "Paese di destinazione e imballaggio o marcature richieste"
   },
   "clients": {
     "h1": "Dove vanno le spedizioni MoTai",
@@ -445,7 +514,29 @@
     "note": "I loghi dei clienti e le testimonianze sottostanti sono segnaposto — sostituire src/data/trust.json con materiali pubblicati.",
     "placeholderBadge": "Segnaposto illustrativo",
     "statsTitle": "La fornitura in breve",
-    "statsNote": "Le certificazioni mostrate sono segnaposto in attesa di certificati pubblicati."
+    "statsNote": "Le certificazioni mostrate sono segnaposto in attesa di certificati pubblicati.",
+    "regionsTitle": "Dall'Hubei al vostro mercato",
+    "regionsSub": "Lo stesso stabilimento serve sette aree di destinazione; imballaggio e marcature vengono definiti per destinazione.",
+    "logisticsTitle": "Cosa confermiamo prima della spedizione",
+    "logisticsSub": "Quattro punti definiti nel preventivo, non alla porta di spedizione.",
+    "l1": "Lista di imballaggio — quantità di imballo per misura e grana, coerenti con l'ordine",
+    "l2": "Marcature dei cartoni — le vostre marche o il set standard, concordate prima della produzione",
+    "l3": "Schema di pallettizzazione — definito in base alla destinazione e alle attrezzature di movimentazione",
+    "l4": "Destinazione e documenti — concordati con il preventivo",
+    "faqTitle": "Domande che gli acquirenti fanno sulla fornitura",
+    "f1": "Quali destinazioni fornite?",
+    "fa1": "Sette aree di destinazione tra Europa, Nord America, Medio Oriente e Asia; imballaggio e marcature vengono definiti per destinazione.",
+    "f2": "Come proteggete le merci durante il trasporto?",
+    "fa2": "L'imballaggio viene specificato per destinazione e confermato nel preventivo; la protezione dall'umidità e lo schema di pallettizzazione seguono le condizioni di trasporto che ci indicate.",
+    "f3": "I loghi dei clienti su questa pagina sono reali?",
+    "fa3": "No. Si tratta di slot segnaposto. Sostituire src/data/trust.json con materiali pubblicati prima di usarli come referenze.",
+    "f4": "Le certificazioni elencate sono verificate?",
+    "fa4": "Gli slot delle certificazioni sono segnaposto in attesa di certificati pubblicati; solo le cifre dello stabilimento mostrate sono confermate dalla fabbrica.",
+    "qaTitle": "Cosa ci serve da voi",
+    "qaSub": "Tre punti che ci permettono di rispondere con specifica, tempi di consegna e prezzo.",
+    "q1": "Applicazione, macchina e finitura richiesta",
+    "q2": "Materiale lavorato e standard di grana con cui acquistate (FEPA o ANSI)",
+    "q3": "Quantità, paese di destinazione e imballaggio o marcature richieste"
   },
   "glossary": {
     "h1": "Glossario degli abrasivi",
@@ -979,6 +1070,11 @@
         "title": "Abrasivi all'ingrosso — Nastri, dischi e dischi lamellari | MoTai",
         "description": "Il catalogo completo MoTai: nastri abrasivi industriali, dischi di carteggiatura e dischi lamellari per distributori, importatori, grossisti e marchi OEM. All'ingrosso diretto, personalizzazione ed export dalla Hubei, Cina.",
         "keywords": "prodotti di abrasivi, prodotti di abrasivi all'ingrosso, abrasivi industriali, abrasivi rivestiti, abrasivi all'ingrosso, fabbrica di prodotti di abrasivi, esportatore di prodotti di abrasivi, fornitore di abrasivi Cina, produttore OEM di abrasivi, abrasivi di marca propria, prodotti di abrasivi personalizzati, forniture di abrasivi in massa, fabbrica di abrasivi, utensili di abrasivo, materiali di abrasivo, prodotti di carteggiatura, prodotti di finitura superficiale, carta abrasiva, fogli di carta abrasiva, carta abrasiva rotonda, carta abrasiva all'ingrosso, base di carteggiatura, base a velcro, base 5 pollici, base 6 pollici, disco lamellare non tessuto, panno abrasivo, rullo di spazzola industriale"
+      },
+      "sponge": {
+        "title": "Produttore e fornitore all'ingrosso di spugne abrasive | MoTai",
+        "description": "Tamponi flessibili in spugna abrasiva e blocchi di schiuma ad alto spessore per la levigatura manuale a umido o a secco di curve, bordi, superfici piane e muri riparati. Riutilizzabili, multi-grana, fustellati e con imballaggio OEM. Ingrosso diretto dalla fabbrica.",
+        "keywords": "spugna abrasiva, blocchi di spugna abrasiva, tamponi in spugna abrasiva, spugna abrasiva multiuso, spugna per levigatura manuale, produttore di spugne abrasive, spugne abrasive all'ingrosso, spugna abrasiva fustellata, spugna abrasiva OEM"
       }
     },
     "shipping": {
@@ -995,6 +1091,11 @@
       "title": "{title} — Video di fabbrica e prodotti MoTai",
       "description": "Video di fabbrica e prodotto di MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, video abrasivi, riprese di fabbrica abrasivi, video MoTai, produzione abrasivi, video fornitore abrasivi"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Produttore di spugne abrasive",
+      "description": "MoTai {name}: {summary} Fornitura all'ingrosso e imballaggio OEM per distributori e officine.",
+      "keywords": "spugna abrasiva, blocco di spugna abrasiva, spugna rivestita di abrasivo, tampone per levigatura manuale, produttore di spugne abrasive, spugne abrasive all'ingrosso"
     }
   },
   "quickBar": {
@@ -1409,5 +1510,145 @@
         "a2": "Sì. Prima si inviano campioni per confermare grana e supporto, poi si produce il lotto secondo la specifica confermata."
       }
     }
+  },
+  "coltBuy": {
+    "guideTitle": "Come scegliere questa linea",
+    "guideSub": "Quattro punti che determinano quale prodotto si adatta alla vostra applicazione — da confermare con il preventivo.",
+    "specTitle": "Copertura della specifica",
+    "specSub": "Cosa copre oggi la linea, direttamente dalle schede prodotto.",
+    "faqTitle": "Domande che gli acquirenti fanno su questa linea",
+    "belts": [
+      {
+        "q": "Quale larghezza di nastro è adatta alla mia macchina?",
+        "a": "Le misure documentate vanno da 533 × 75 mm a 2200 × 1330 mm; i nastri ultralarghi in pezzo unico oltre 1500 mm evitano una giunzione. Indicate macchina, carico e finitura così da confermare la larghezza con il preventivo."
+      },
+      {
+        "q": "Quale gamma di grana posso ordinare?",
+        "a": "Grane da 40 a 800 con grani in ossido di alluminio, zirconia e carburo di silicio. La grana grossa rimuove materiale rapidamente; la grana fine uniforma e finisce."
+      },
+      {
+        "q": "Fornite misure personalizzate?",
+        "a": "Sì. Larghezza e lunghezza oltre le misure documentate vengono preventivate caso per caso; passare a una misura speciale incide sia sul tempo di consegna sia sulla quantità minima d'ordine."
+      },
+      {
+        "q": "Che tipo di giunzione e struttura dei bordi?",
+        "a": "Il tipo di giunzione e il trattamento dei bordi sono definiti per riferimento. Indicateci macchina, carico e velocità così da confermare la struttura corretta."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Gancetto, PSA o a rete — quale per il mio utensile?",
+        "a": "Il gancetto è adatto ai cambi di grana frequenti su una levigatrice rotorbitale, il PSA a platorelli piani e lunghe sessioni di lavoro, la rete all'aspirazione delle polveri."
+      },
+      {
+        "q": "Quali misure e schemi di foratura sono documentati?",
+        "a": "Dischi da 3, 4, 5 e 6 pollici con gli schemi di foratura di ciascun riferimento; il foro dell'albero o il foro centrale deve corrispondere al vostro utensile."
+      },
+      {
+        "q": "Quale grana per il lavoro?",
+        "a": "La grana grossa rimuove ruggine e vernice rapidamente; la grana fine uniforma e prepara alla finitura. Indicate il materiale e la finitura richiesta."
+      },
+      {
+        "q": "Supportate l'aspirazione delle polveri?",
+        "a": "I formati a rete e perforati dustless sono documentati in questa linea; lo schema di perforazione mantiene la superficie visibile durante la levigatura."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Quale supporto è adatto alla mia applicazione?",
+        "a": "La plastica è adatta alla rettifica generale del metallo, l'acciaio alle sbavature più impegnative e la fibra di vetro alla durata ad alta velocità; il foro dell'albero deve corrispondere all'utensile."
+      },
+      {
+        "q": "A cosa servono i dischi a lamelle?",
+        "a": "Rettifica di saldature, rimozione della ruggine, transizione delle superfici e finitura di parti metalliche — con la velocità nominale dell'utensile rispettata e la cuffia di protezione montata."
+      },
+      {
+        "q": "Fornite quantità in blocco?",
+        "a": "Sì. I dischi a lamelle sono forniti in blocco per distributori e officine; grana, supporto, diametro e quantità vengono definiti insieme nel preventivo."
+      },
+      {
+        "q": "Perché il mio disco si vetrifica sulla calamina?",
+        "a": "La calamina carica rapidamente l'abrasivo. Scegliete una grana più grossa, tenete il disco piatto sul pezzo e ripulitelo man mano che si carica."
+      }
+    ],
+    "all": [
+      {
+        "q": "Da dove parto se la mia applicazione non è elencata?",
+        "a": "Inviate materiale, macchina, finitura e volume; rispondiamo con la famiglia di prodotto, la specifica e il tempo di consegna più adatti."
+      },
+      {
+        "q": "Posso ordinare prima un pezzo per ciascun riferimento?",
+        "a": "I campioni dei riferimenti standard sono disponibili su richiesta; la disponibilità dei campioni e le condizioni di trasporto vengono confermate con la risposta."
+      },
+      {
+        "q": "Preventivate l'OEM su tutte le linee?",
+        "a": "Sì. Logo, etichette, misure e imballaggio vengono preventivati sulla base di una verifica di fattibilità su nastri, dischi e dischi a lamelle."
+      },
+      {
+        "q": "Dove si collocano le spugne abrasive nella gamma?",
+        "a": "Levigatura manuale: tamponi flessibili per curve e profili, blocchi di schiuma per superfici piane e muri riparati. Entrambi vengono preventivati con dimensioni, grana, densità della schiuma e quantità."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Tamponi flessibili o blocchi di schiuma — quale per il mio lavoro?",
+        "a": "I tamponi flessibili sono adatti a curve, bordi e profili; i blocchi di schiuma a superfici piane, bordi e muri riparati. Entrambi sono riutilizzabili dopo la pulizia."
+      },
+      {
+        "q": "Il colore della schiuma indica la grana?",
+        "a": "No. Il colore della schiuma non è un'indicazione di grana o di durezza. Confermate grana, materiale abrasivo e densità della schiuma nella richiesta e li abbiniamo nel preventivo."
+      },
+      {
+        "q": "Potete fustellare forme personalizzate e imballare con il mio marchio?",
+        "a": "Sì. Inviate profilo, spessore, grana, formato di imballaggio e quantità obiettivo; i requisiti di attrezzatura per la fustellatura e di grafica vengono confermati nella verifica."
+      },
+      {
+        "q": "Sono lavabili e riutilizzabili?",
+        "a": "Possono essere sciacquati e riutilizzati fino all'esaurimento dello strato abrasivo; la durata dipende dalla grana, dalla pressione e dalla superficie lavorata."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Spugne abrasive · Gamma per la levigatura manuale",
+    "thickness": "Costruzione",
+    "gritNote": "I colori della schiuma non stabiliscono grana o durezza. Confermate dimensioni, grana, materiale abrasivo, densità della schiuma, imballaggio e quantità nella richiesta.",
+    "overviewTitle": "Panoramica del prodotto",
+    "overviewBody": "Spugne abrasive flessibili e riutilizzabili per la levigatura a umido o a secco. La schiuma si adatta a curve, bordi e profili per una levigatura manuale controllata.",
+    "checklistTitle": "Confermate la specifica corretta",
+    "checklistSub": "Questi dettagli ci aiutano a verificare la vostra richiesta. Si tratta di requisiti da confermare, non di prestazioni di prodotto pubblicate.",
+    "c1": "Dimensioni — indicare larghezza × lunghezza in mm",
+    "c2": "Grana richiesta — indicare il grado o la finitura richiesta",
+    "c3": "Pezzo e macchina — indicate materiale, macchina e finitura prevista",
+    "c4": "Quantità e imballaggio — includere quantità, esigenze di imballaggio e destinazione di consegna",
+    "enquiryTitle": "Come fare richiesta",
+    "enquirySub": "Dalla selezione del prodotto al preventivo.",
+    "e1t": "Scegliete il vostro prodotto",
+    "e1b": "Esplorate la gamma di spugne abrasive e scegliete la costruzione richiesta dalla vostra applicazione.",
+    "e2t": "Condividete i vostri requisiti",
+    "e2b": "Aggiungete quantità, dimensioni, grana e requisiti di imballaggio.",
+    "e3t": "Verificate il vostro preventivo",
+    "e3b": "Confermate la specifica finale e le condizioni commerciali con il nostro team.",
+    "appsTitle": "Applicazioni delle spugne abrasive per levigatura manuale",
+    "appsSub": "Per legno, metallo, ritocco automotive e superfici murali e fughe idonee. Abbinate la grana al materiale e fate una prova su un'area non in vista.",
+    "a1t": "Levigatura del legno",
+    "a1b": "Blocchi da levigatura per la lavorazione del legno, inclusa la preparazione delle superfici e la levigatura dei bordi su mobili, componenti di arredo e altri elementi in legno.",
+    "a2t": "Spugne abrasive per cartongesso",
+    "a2b": "Blocchi da levigatura per lisciare i giunti del cartongesso, per graduare lo stucco sui giunti e per preparare le pareti al primer e alla vernice.",
+    "a3t": "Rimozione della ruggine",
+    "a3b": "Spugne abrasive flessibili e riutilizzabili per la levigatura a umido o a secco. La schiuma si adatta a curve, bordi e profili per una levigatura manuale controllata.",
+    "faqTitle": "Domande degli acquirenti",
+    "q1": "Il colore identifica il tipo di abrasivo?",
+    "a1": "No. Il colore della schiuma non è un'indicazione di grana o di durezza. Confermate grana, materiale abrasivo e densità della schiuma nella richiesta.",
+    "q2": "Come richiedo l'imballaggio OEM?",
+    "a2": "Inviate la grafica delle etichette, il formato di imballaggio, le quantità obiettivo e la destinazione con la richiesta; la disponibilità OEM e i requisiti di grafica vengono confermati nella verifica.",
+    "q3": "Richiedere un preventivo equivale a un ordine?",
+    "a3": "No. Si tratta di una richiesta all'ingrosso. Specifica e condizioni commerciali vengono confermate nel preventivo prima dell'avvio di qualsiasi produzione.",
+    "ctaTitle": "Vi servono spugne abrasive in grandi quantità?",
+    "ctaSub": "Inviate dimensioni, grana, quantità e destinazione — confermiamo specifica e tempi di consegna."
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

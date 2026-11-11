@@ -1409,5 +1409,10 @@
         "a2": "Ja. Skicka först prover för att bekräfta korn och binda, därefter bulkproduktion enligt bekräftad specifikation."
       }
     }
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

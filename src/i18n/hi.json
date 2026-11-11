@@ -1409,5 +1409,10 @@
         "a2": "हाँ। पहले sample भेजकर grit और backing confirm करें, फिर confirmed specification के विरुद्ध bulk production करें।"
       }
     }
+  },
+  "brand": {
+    "brand": "MoTai",
+    "sub": "ABRASIVES",
+    "company": "Hubei MoTai Abrasives Materials Co., Ltd."
   }
 }

@@ -3,6 +3,9 @@ import { TRANSLATIONS, LANGS } from '../lib/i18n.js'
 import { site, quoteUrl, localizedUrl } from '../lib/utils.js'
 const { lang, routePath = '' } = Astro.props
 const tr = TRANSLATIONS[lang]
+// Brand name is localized: 简体/繁體中文 render 墨泰磨料 instead of MoTai.
+const brand = tr.brand?.brand ?? site.brand
+const brandSub = tr.brand?.sub ?? 'ABRASIVES'
 // Order: Home → About → Manufacturing → OEM services → Products → Contact →
 // Videos → Knowledge → News. The Products dropdown is rendered inline at its
 // position, so it stays grouped in the same array.
@@ -73,8 +76,8 @@ const langOpts = LANGS.map((code) => ({
 <header class="header motai-header">
   <div class="wrap motai-nav-row">
     <a class="brand" href={localizedUrl(lang, '/')}>
-      <img alt="MoTai original logo" src={site.logo} loading="eager" onerror="this.style.display='none'" />
-      <span>MoTai<span class="brand-sub">ABRASIVES</span></span>
+      <img alt={`${brand} original logo`} src={site.logo} loading="eager" onerror="this.style.display='none'" />
+      <span>{brand}<span class="brand-sub">{brandSub}</span></span>
     </a>
     <nav class="motai-main-nav" aria-label="Main navigation">
       {navItems.map((item) =>
