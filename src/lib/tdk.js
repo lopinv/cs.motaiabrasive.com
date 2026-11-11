@@ -1,5 +1,5 @@
 import { TRANSLATIONS } from './i18n.js'
-import { products, models, discViews, flaps, media, videoById } from './utils.js'
+import { products, models, discViews, flaps, sponges, media, videoById } from './utils.js'
 
 /** Video product line → keyword seed for the video detail page's TDK. */
 const VIDEO_LINE_KEYWORDS = {
@@ -108,9 +108,9 @@ export function tdkFor(lang, pageId, ctx = {}) {
       }
     }
     case 'collection': {
-      const coltKey = { 'abrasive-belts': 'belts', 'sanding-discs': 'discs', 'flap-discs': 'flap', all: 'all' }[ctx.key]
+      const coltKey = { 'abrasive-belts': 'belts', 'sanding-discs': 'discs', 'flap-discs': 'flap', 'sanding-sponges': 'sponge', all: 'all' }[ctx.key]
       const c = tdk.colt[coltKey]
-      const colOg = { 'abrasive-belts': 'belt-533-75', 'sanding-discs': 'discs', 'flap-discs': flaps.find((x) => x.key === 'fiberglass')?.image, all: 'belt-533-75' }[ctx.key]
+      const colOg = { 'abrasive-belts': 'belt-533-75', 'sanding-discs': 'discs', 'flap-discs': flaps.find((x) => x.key === 'fiberglass')?.image, 'sanding-sponges': sponges[0]?.image, all: 'belt-533-75' }[ctx.key]
       return {
         title: c.title,
         description: c.description,
@@ -195,6 +195,19 @@ export function tdkFor(lang, pageId, ctx = {}) {
         keywords: kws(tpl.keywords, { line: VIDEO_LINE_KEYWORDS[vid?.line] ?? 'abrasive' }),
         canonicalPath: `/videos/${ctx.id}`,
         ogImage: vid?.thumb ?? media('belt-1520-630')
+      }
+    }
+    case 'sponge': {
+      const s = sponges.find((x) => x.key === ctx.key)
+      const tpl = tdk.sponge
+      return {
+        title: tpl.title.replace('{name}', s?.name ?? ctx.key),
+        description: tpl.description
+          .replace('{name}', s?.name ?? ctx.key)
+          .replace('{summary}', (s?.summary ?? '').replace(/\.$/, '')),
+        keywords: kws(tpl.keywords),
+        canonicalPath: `/sponge/${ctx.key}`,
+        ogImage: media(s?.image ?? sponges[0]?.image)
       }
     }
     case 'article': {

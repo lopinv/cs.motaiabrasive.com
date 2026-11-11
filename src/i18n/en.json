@@ -54,6 +54,11 @@
       "title": "All Products",
       "desc": "The full MoTai abrasive catalogue: abrasive belts, sanding discs and flap discs for industrial buyers, distributors and private-label brands.",
       "label": "All Products"
+    },
+    "sponge": {
+      "title": "MoTai Sanding Sponges",
+      "desc": "Flexible sanding sponge pads and thick foam blocks for wet or dry hand sanding of curves, edges, flat surfaces and repaired walls. Reusable after cleaning. Wholesale and OEM enquiries welcome.",
+      "label": "Sanding Sponges"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifications",
     "howTitle": "How to specify your order",
     "howBody": "Include the belt or disc size, grit list, machine model, workpiece material and quantity. A clear specification helps us review fit and prepare a useful quotation — avoid selecting a product using colour alone.",
-    "faqTitle": "Buyer questions"
+    "faqTitle": "Buyer questions",
+    "family": "Product type"
   },
   "about": {
     "h1": "The company behind the abrasive range",
@@ -1076,6 +1082,11 @@
         "title": "Abrasive Products Wholesale — Belts, Discs & Flap Discs | MoTai",
         "description": "The full MoTai abrasive catalogue: industrial abrasive belts, sanding discs and flap discs for distributors, importers, wholesalers and OEM brands. Factory-direct wholesale, customization and export from Hubei, China.",
         "keywords": "abrasive products, abrasive products wholesale, industrial abrasives, coated abrasives, abrasive wholesale, abrasive products factory, abrasive products exporter, abrasive supplier China, abrasive OEM manufacturer, private label abrasives, custom abrasive products, bulk abrasive supplies, abrasive factory, abrasive tools, abrasive materials, sanding products, surface finishing products, sandpaper, sandpaper sheets, round sandpaper, sandpaper wholesale, sanding pad, hook and loop sanding pad, 5 inch sanding pad, 6 inch sanding pad, non-woven flap wheel, abrasive cloth, industrial roller brush"
+      },
+      "sponge": {
+        "title": "Sanding Sponges Manufacturer & Wholesale Supplier | MoTai",
+        "description": "Flexible sanding sponge pads and thick foam blocks for wet or dry hand sanding of curves, edges, flat surfaces and repaired walls. Reusable, multi-grit, die-cut and OEM packing. Factory-direct wholesale.",
+        "keywords": "sanding sponge, sanding sponge blocks, sanding sponge pads, abrasive sponge, hand sanding sponge, sanding sponge manufacturer, sanding sponges wholesale, die-cut sanding sponge, OEM sanding sponge"
       }
     },
     "videos": {
@@ -1087,6 +1098,11 @@
       "title": "{title} — MoTai Factory & Product Videos",
       "description": "Factory and product video from MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, abrasive video, abrasive factory footage, MoTai video, abrasive manufacturing, abrasive supplier video"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Sanding Sponge Manufacturer",
+      "description": "MoTai {name}: {summary} Wholesale supply and OEM packaging for distributors and workshops.",
+      "keywords": "sanding sponge, sanding sponge block, abrasive sponge, hand sanding pad, sanding sponge manufacturer, sanding sponges wholesale"
     }
   },
   "quickBar": {
@@ -1567,7 +1583,67 @@
       {
         "q": "Do you quote OEM across all lines?",
         "a": "Yes. Logo, labels, sizes and packaging are quoted against a feasibility review across belts, discs and flap discs."
+      },
+      {
+        "q": "Where do the sanding sponges sit in the range?",
+        "a": "Hand sanding: flexible pads for curves and profiles, foam blocks for flat surfaces and repaired walls. Both are quoted with dimensions, grit, foam density and quantity."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Flexible pads or foam blocks — which for my job?",
+        "a": "Flexible pads suit curves, edges and profiles; foam blocks suit flat surfaces, edges and repaired walls. Both are reusable after cleaning."
+      },
+      {
+        "q": "Does the foam colour indicate grit?",
+        "a": "No. Foam colour is not a grit or hardness rating. Confirm grit, abrasive material and foam density in your enquiry and we match it in the quotation."
+      },
+      {
+        "q": "Can you die-cut custom shapes and pack under my brand?",
+        "a": "Yes. Send your profile, thickness, grit, packaging format and target quantities; die-cutting tooling and artwork requirements are confirmed in the review."
+      },
+      {
+        "q": "Are these washable and reusable?",
+        "a": "They can be rinsed and reused until the abrasive layer is spent; lifetime depends on grit, pressure and the surface worked."
       }
     ]
+  },
+  "spongePage": {
+    "eyebrow": "Sanding sponges · Hand sanding range",
+    "thickness": "Construction",
+    "gritNote": "Foam colours do not establish grit or hardness. Confirm dimensions, grit, abrasive material, foam density, packaging and quantity in your enquiry.",
+    "overviewTitle": "Product overview",
+    "overviewBody": "Flexible, reusable abrasive sponges for wet or dry sanding. The foam conforms to curves, edges, and profiles for controlled hand sanding.",
+    "checklistTitle": "Confirm the right specification",
+    "checklistSub": "These details help us review your enquiry. They are requirements to confirm, not published product ratings.",
+    "c1": "Dimensions — specify width × length in mm",
+    "c2": "Required grit — specify the grade or finish required",
+    "c3": "Workpiece and machine — share the material, machine and intended finish",
+    "c4": "Quantity and packaging — include quantity, packaging needs and delivery destination",
+    "enquiryTitle": "How to enquire",
+    "enquirySub": "From product selection to quotation.",
+    "e1t": "Choose your product",
+    "e1b": "Explore the sanding sponge range and pick the construction your application needs.",
+    "e2t": "Share your requirements",
+    "e2b": "Add quantity, dimensions, grit and packaging requirements.",
+    "e3t": "Review your quotation",
+    "e3b": "Confirm the final specification and commercial terms with our team.",
+    "appsTitle": "Hand sanding sponge applications",
+    "appsSub": "For wood, metal, automotive refinishing, and suitable wall and grout surfaces. Match the grit to the material and test on an inconspicuous area.",
+    "a1t": "Wood sanding",
+    "a1b": "Sanding blocks for woodworking, including surface preparation and edge sanding on furniture, cabinetry, and other wood components.",
+    "a2t": "Drywall sanding sponges",
+    "a2b": "Sanding blocks for smoothing drywall joints, feathering joint compound, and preparing walls for primer and paint.",
+    "a3t": "Rust removal",
+    "a3b": "Flexible, reusable abrasive sponges for wet or dry sanding. The foam conforms to curves, edges, and profiles for controlled hand sanding.",
+    "faqTitle": "Buyer questions",
+    "q1": "Does the colour identify the abrasive type?",
+    "a1": "No. Foam colour is not a grit or hardness rating. Confirm the grit, abrasive material and foam density in your enquiry.",
+    "q2": "How do I request OEM packaging?",
+    "a2": "Send your label artwork, packaging format, target quantities and destination with the enquiry; OEM availability and artwork requirements are confirmed in the review.",
+    "q3": "Does requesting a quote place an order?",
+    "a3": "No. This is a wholesale enquiry. Specification and commercial terms are confirmed in the quotation before any run starts.",
+    "ctaTitle": "Need sanding sponges in bulk?",
+    "ctaSub": "Send dimensions, grit, quantity and destination — we confirm the specification and lead time."
   }
 }

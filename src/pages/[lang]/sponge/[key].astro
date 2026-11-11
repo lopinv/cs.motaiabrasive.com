@@ -1,0 +1,161 @@
+---
+import { usePage, buildSeo } from '../../../lib/page.js'
+import { langPaths } from '../../../lib/paths.js'
+import Shell from '../../../components/Shell.astro'
+import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
+import SectionHeading from '../../../components/SectionHeading.astro'
+import CtaBand from '../../../components/CtaBand.astro'
+import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
+import { sponges, media, spongeByKey, videosData } from '../../../lib/utils.js'
+
+export function getStaticPaths() {
+  return langPaths(sponges.map((s) => ({ key: s.key })))
+}
+
+const { lang } = Astro.params
+const ctx = Astro.params
+const { pick, lu, wa, quoteUrl } = usePage(lang)
+const s = spongeByKey(ctx.key)
+const t = pick('meta')
+const sp = pick('spongePage')
+// Other sponge products (the family has two constructions).
+const siblings = sponges.filter((x) => x.key !== s.key)
+// FAQ pairs resolve through the locale file; qKey/aKey let faqJsonLd localise.
+const faqItems = [
+  { qKey: 'spongePage.q1', aKey: 'spongePage.a1' },
+  { qKey: 'spongePage.q2', aKey: 'spongePage.a2' },
+  { qKey: 'spongePage.q3', aKey: 'spongePage.a3' }
+].map((f) => ({ qKey: f.qKey, aKey: f.aKey, q: pick(f.qKey), a: pick(f.aKey) })).filter((f) => f.q && f.a)
+const checklist = [sp.c1, sp.c2, sp.c3, sp.c4].filter(Boolean)
+const apps = [
+  { t: sp.a1t, b: sp.a1b },
+  { t: sp.a2t, b: sp.a2b },
+  { t: sp.a3t, b: sp.a3b }
+].filter((a) => a.t && a.b)
+const spongeVideo = videosData.find((v) => v.youtubeId && v.line === 'sponge')
+
+const seo = buildSeo(lang, 'sponge', { key: s.key }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('colt.sponge.label'), path: `/${lang}/collections/sanding-sponges` },
+    { name: s.name, path: `/${lang}/sponge/${s.key}` }
+  ]),
+  faqItems.length ? faqJsonLd(lang, faqItems) : null
+])
+---
+
+<Shell lang={lang} seo={seo}>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/sanding-sponges')}>{pick('colt.sponge.label')}</a><span>/</span><span>{s.name}</span></div>
+
+  <section class="section wrap product-detail">
+    <div>
+      <div class="gallery">
+        <div class="gallery-main">
+          <img src={media(s.image)} alt={s.name} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
+        </div>
+      </div>
+    </div>
+
+    <div class="product-purchase">
+      <span class="eyebrow">{sp.eyebrow}</span>
+      <h1>{s.name}</h1>
+      <div class="product-tags">
+        <span>{s.family}</span>
+        <span>{sp.thickness}: {s.thickness}</span>
+        <span>{t.wholesale}</span>
+      </div>
+      <div class="product-description">
+        <p>{s.summary}</p>
+        <p class="small-note">{sp.gritNote}</p>
+      </div>
+
+      <details class="motai-product-specs" open>
+        <summary>{pick('productPage.specTitle')}</summary>
+        <table class="spec-table">
+          <tbody>
+            <tr><th scope="row">{sp.thickness}</th><td>{s.thickness}</td></tr>
+            <tr><th scope="row">{pick('productPage.family')}</th><td>{s.family}</td></tr>
+          </tbody>
+        </table>
+        <p class="small-note">{t.availability}</p>
+      </details>
+
+      <a class="button wide" href={quoteUrl({ product: s.key })} target="_blank" rel="noopener nofollow">
+        {pick('cta.quote')} <span aria-hidden="true">↗</span>
+      </a>
+      <div class="motai-b2b-secondary-actions">
+        <a class="button outline dark-outline wide" href={wa('contact')} target="_blank" rel="noopener nofollow">{pick('cta.whatsapp')}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow="OVERVIEW" title={sp.overviewTitle} />
+    <p class="body-narrow">{sp.overviewBody}</p>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading eyebrow="CHECKLIST" title={sp.checklistTitle} sub={sp.checklistSub} />
+    <div class="value-card">
+      <ul class="value-lines">
+        {checklist.map((c) => <li>{c}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow="PROCESS" title={sp.enquiryTitle} sub={sp.enquirySub} />
+    <div class="steps">
+      <div class="step"><b>01</b><div><h3>{sp.e1t}</h3><p>{sp.e1b}</p></div></div>
+      <div class="step"><b>02</b><div><h3>{sp.e2t}</h3><p>{sp.e2b}</p></div></div>
+      <div class="step"><b>03</b><div><h3>{sp.e3t}</h3><p>{sp.e3b}</p></div></div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading title={sp.appsTitle} sub={sp.appsSub} />
+    <div class="grid grid-3">
+      {apps.map((a) => (
+        <div class="value-card"><h3>{a.t}</h3><p>{a.b}</p></div>
+      ))}
+    </div>
+  </section>
+
+  {siblings.length > 0 && (
+    <section class="section wrap section--soft">
+      <SectionHeading title={pick('videos.moreTitle')} />
+      <div class="grid grid-3">
+        {siblings.map((x) => (
+          <a class="model-card" href={lu(`/sponge/${x.key}`)}>
+            <h3>{x.name}</h3>
+            <p>{x.summary}</p>
+            <span class="model-card-cta">{pick('cta.quote')} <span aria-hidden="true">→</span></span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {faqItems.length > 0 && (
+    <section class="section wrap">
+      <SectionHeading title={sp.faqTitle} />
+      <div class="faq-list">
+        {faqItems.map((f) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{f.q}</h3>
+            <p class="faq-a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {spongeVideo && (
+    <section class="section wrap section--soft-tight">
+      <div class="narrow">
+        <YouTubeEmbed video={spongeVideo} title={pick(spongeVideo.titleKey)} description={pick(spongeVideo.descriptionKey)} />
+      </div>
+    </section>
+  )}
+
+  <CtaBand lang={lang} waContext="factory" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+</Shell>

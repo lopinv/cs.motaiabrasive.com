@@ -5,6 +5,7 @@ export const products = (await import('../data/products.json')).default
 export const models = (await import('../data/models.json')).default
 export const discViews = (await import('../data/disc-views.json')).default
 export const flaps = (await import('../data/flap.json')).default
+export const sponges = (await import('../data/sponges.json')).default
 export const collections = (await import('../data/collections.json')).default
 export const blog = (await import('../data/blog.json')).default
 export const applications = (await import('../data/applications.json')).default
@@ -29,6 +30,9 @@ export function discByKey(key) {
 }
 export function flapByKey(key) {
   return flaps.find((f) => f.key === key)
+}
+export function spongeByKey(key) {
+  return sponges.find((s) => s.key === key)
 }
 export function articleBySlug(slug) {
   return blog.find((b) => b.slug === slug)

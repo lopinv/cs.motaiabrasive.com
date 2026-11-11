@@ -1,0 +1,20 @@
+[
+  {
+    "key": "pads",
+    "name": "MoTai Flexible Sanding Sponge Pads",
+    "family": "Flexible pads",
+    "thickness": "Thin",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-sanding-sponge-pads-range.jpg",
+    "summary": "Thin foam pads for wet or dry hand sanding of curves, edges and profiles. Reusable after cleaning.",
+    "youtubeUrl": "https://www.motaiabrasive.com/collections/all?view=sponge-pads"
+  },
+  {
+    "key": "blocks",
+    "name": "MoTai Sanding Sponge Blocks",
+    "family": "Foam blocks",
+    "thickness": "Thick",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-sanding-sponge-blocks-range.jpg",
+    "summary": "Thick foam blocks for wet or dry hand sanding of flat surfaces, edges and repaired walls. Reusable after cleaning.",
+    "youtubeUrl": "https://www.motaiabrasive.com/collections/all?view=sponge-blocks"
+  }
+]
