@@ -2,7 +2,7 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
-import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro'
@@ -16,8 +16,17 @@ const { lang } = Astro.params
 const ctx = Astro.params
 const { pick, lu, media, quoteUrl } = usePage(lang)
 const o = pick('oem')
+// FAQ pairs live under oem.o* / oem.oa* so faqJsonLd resolves the locale text.
+const faqItems = ['o1', 'o2', 'o3', 'o4', 'o5'].map((k) => ({
+  qKey: `oem.${k}`,
+  aKey: `oem.oa${k.slice(1)}`,
+  q: pick(`oem.${k}`),
+  a: pick(`oem.oa${k.slice(1)}`)
+})).filter((f) => f.q && f.a)
+const checklist = [o.c1, o.c2, o.c3, o.c4, o.c5, o.c6].filter(Boolean)
 const seo = buildSeo(lang, 'oem', {}, [
-  breadcrumbJsonLd(lang, [{ name: pick('nav.oem'), path: `/${lang}/oem` }])
+  breadcrumbJsonLd(lang, [{ name: pick('nav.oem'), path: `/${lang}/oem` }]),
+  faqItems.length ? faqJsonLd(lang, faqItems) : null
 ])
 const oemVideo = videosData.find((v) => v.line === 'oem')
 ---
@@ -64,6 +73,29 @@ const oemVideo = videosData.find((v) => v.line === 'oem')
       ))}
     </div>
   </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow="BRIEF" title={o.checklistTitle} sub={o.specSub} />
+    <div class="value-card">
+      <ul class="value-lines">
+        {checklist.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  {faqItems.length > 0 && (
+    <section class="section wrap">
+      <SectionHeading title={o.faqTitle} sub={o.faqSub} />
+      <div class="faq-list">
+        {faqItems.map((f) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{f.q}</h3>
+            <p class="faq-a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 
   <CtaBand lang={lang} waContext="oem" ctaKey1="oem.cta1" ctaKey2="oem.cta2" />
 </Shell>

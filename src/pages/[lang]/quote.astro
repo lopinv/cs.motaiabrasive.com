@@ -2,19 +2,33 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
-import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
+import { trust } from '../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths()
 }
 
 const { lang } = Astro.params
-const ctx = Astro.params
 const { pick, lu, wa, quoteUrlRaw } = usePage(lang)
 const q = pick('quotePage')
+const stats = trust.stats.filter((s) => s.status === 'published')
+const faqItems = [
+  { qKey: 'quotePage.q1', aKey: 'quotePage.a1' },
+  { qKey: 'quotePage.q2', aKey: 'quotePage.a2' },
+  { qKey: 'quotePage.q3', aKey: 'quotePage.a3' },
+  { qKey: 'quotePage.q4', aKey: 'quotePage.a4' },
+  { qKey: 'quotePage.q5', aKey: 'quotePage.a5' }
+].map((f) => ({ qKey: f.qKey, aKey: f.aKey, q: pick(f.qKey), a: pick(f.aKey) })).filter((f) => f.q && f.a)
+const checklist = [
+  pick('quotePage.c1'), pick('quotePage.c2'), pick('quotePage.c3'),
+  pick('quotePage.c4'), pick('quotePage.c5')
+].filter(Boolean)
+
 const seo = buildSeo(lang, 'quote', {}, [
-  breadcrumbJsonLd(lang, [{ name: q.h1, path: `/${lang}/quote` }])
+  breadcrumbJsonLd(lang, [{ name: q.h1, path: `/${lang}/quote` }]),
+  faqItems.length ? faqJsonLd(lang, faqItems) : null
 ])
 const go = quoteUrlRaw({})
 ---
@@ -27,9 +41,36 @@ const go = quoteUrlRaw({})
     <h1>{q.h1}</h1>
     <p class="lead">{q.sub}</p>
     <p class="small-note mt-12">{q.note}</p>
+    <div class="hero-actions">
+      <a class="button wide" href={go} target="_blank" rel="noopener nofollow">{q.btn1} <span aria-hidden="true">↗</span></a>
+      <a class="button outline dark-outline wide" href={wa('contact')} target="_blank" rel="noopener nofollow">{q.btn2}</a>
+    </div>
   </section>
 
   <section class="section wrap section--soft-tight">
+    <div class="stats-grid">
+      {stats.map((s) => (
+        <div class="value-card value-card--center">
+          <div class="stat-value">{s.value}</div>
+          <div class="stat-label">{pick(s.labelKey)}</div>
+        </div>
+      ))}
+    </div>
+    <p class="small-note mt-14">{q.trustNote}</p>
+  </section>
+
+  <section class="section wrap section--flush-top">
+    <SectionHeading eyebrow="WHY MOTAI" title={q.whyTitle} sub={q.whySub} />
+    <div class="grid grid-2">
+      <div class="value-card"><span class="vno">01</span><h3>{q.w1t}</h3><p>{q.w1b}</p></div>
+      <div class="value-card"><span class="vno">02</span><h3>{q.w2t}</h3><p>{q.w2b}</p></div>
+      <div class="value-card"><span class="vno">03</span><h3>{q.w3t}</h3><p>{q.w3b}</p></div>
+      <div class="value-card"><span class="vno">04</span><h3>{q.w4t}</h3><p>{q.w4b}</p></div>
+    </div>
+  </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading title={q.sec1} sub={pick('quotePage.f1')} />
     <div class="grid grid-2">
       <div class="value-card">
         <span class="vno">01</span>
@@ -43,13 +84,45 @@ const go = quoteUrlRaw({})
         <p class="small-note">{q.consent}</p>
       </div>
     </div>
-  </section>
-
-  <section class="section wrap">
-    <p class="cta-note">{q.goNote}</p>
+    <p class="cta-note mt-18">{q.goNote}</p>
     <div class="cta-band-actions cta-band-actions--auto">
       <a class="button" href={go} target="_blank" rel="noopener nofollow">{q.btn1} <span aria-hidden="true">↗</span></a>
       <a class="button outline dark-outline" href={wa('contact')} target="_blank" rel="noopener nofollow">{q.btn2}</a>
     </div>
   </section>
+
+  <section class="section wrap">
+    <SectionHeading eyebrow="PROCESS" title={q.stepsTitle} sub={q.stepsSub} />
+    <div class="grid grid-2">
+      <div class="value-card"><span class="vno">01</span><h3>{q.p1t}</h3><p>{q.p1b}</p></div>
+      <div class="value-card"><span class="vno">02</span><h3>{q.p2t}</h3><p>{q.p2b}</p></div>
+      <div class="value-card"><span class="vno">03</span><h3>{q.p3t}</h3><p>{q.p3b}</p></div>
+      <div class="value-card"><span class="vno">04</span><h3>{q.p4t}</h3><p>{q.p4b}</p></div>
+    </div>
+  </section>
+
+  {checklist.length > 0 && (
+    <section class="section wrap section--soft">
+      <SectionHeading eyebrow="CHECKLIST" title={q.checklistTitle} sub={q.checklistSub} />
+      <div class="value-card">
+        <ul class="value-lines">
+          {checklist.map((c) => <li>{c}</li>)}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  {faqItems.length > 0 && (
+    <section class="section wrap">
+      <SectionHeading title={q.faqTitle} sub={q.faqSub} />
+      <div class="faq-list">
+        {faqItems.map((f) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{f.q}</h3>
+            <p class="faq-a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 </Shell>

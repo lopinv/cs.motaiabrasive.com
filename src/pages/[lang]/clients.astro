@@ -2,7 +2,7 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
-import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import { regions, trust, faq as faqData } from '../../lib/utils.js'
@@ -12,15 +12,27 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params
-const ctx = Astro.params
 const { pick, lu, wa } = usePage(lang)
 const c = pick('clients')
 const t = pick('trust')
-const seo = buildSeo(lang, 'clients', {}, [
-  breadcrumbJsonLd(lang, [{ name: c.h1, path: `/${lang}/clients` }])
-])
 const clients = trust.clients.filter((x) => x.status === 'placeholder')
 const stats = trust.stats.filter((x) => x.status === 'published')
+// FAQ items resolve through the locale file; qKey/aKey let faqJsonLd localise.
+const faqKeys = ['f1', 'f2', 'f3', 'f4']
+const faqItems = faqKeys.map((k) => ({
+  qKey: `clients.${k}`,
+  aKey: `clients.fa${k.slice(1)}`,
+  q: pick(`clients.${k}`),
+  a: pick(`clients.fa${k.slice(1)}`)
+})).filter((f) => f.q && f.a)
+
+const seo = buildSeo(lang, 'clients', {}, [
+  breadcrumbJsonLd(lang, [{ name: c.h1, path: `/${lang}/clients` }]),
+  faqItems.length ? faqJsonLd(lang, faqItems) : null
+])
+
+const logistics = [c.l1, c.l2, c.l3, c.l4].filter(Boolean)
+const qa = [c.q1, c.q2, c.q3].filter(Boolean)
 ---
 
 <Shell lang={lang} seo={seo}>
@@ -45,8 +57,8 @@ const stats = trust.stats.filter((x) => x.status === 'published')
     <p class="small-note mt-14">{c.statsNote}</p>
   </section>
 
-  <section class="section wrap">
-    <SectionHeading title={pick('home.regionsTitle')} sub={pick('home.regionsSub')} />
+  <section class="section wrap section--flush-top">
+    <SectionHeading eyebrow="DESTINATIONS" title={c.regionsTitle} sub={c.regionsSub} />
     <div class="grid grid-3">
       {regions.map((r) => (
         <div class="region-card">
@@ -56,6 +68,40 @@ const stats = trust.stats.filter((x) => x.status === 'published')
       ))}
     </div>
   </section>
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow="BEFORE DISPATCH" title={c.logisticsTitle} sub={c.logisticsSub} />
+    <div class="grid grid-2">
+      {logistics.map((text) => (
+        <div class="value-card">
+          <p>{text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <SectionHeading eyebrow="CHECKLIST" title={c.qaTitle} sub={c.qaSub} />
+    <div class="value-card">
+      <ul class="value-lines">
+        {qa.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  {faqItems.length > 0 && (
+    <section class="section wrap section--soft">
+      <SectionHeading title={c.faqTitle} />
+      <div class="faq-list">
+        {faqItems.map((f) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{f.q}</h3>
+            <p class="faq-a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 
   <section class="section wrap section--soft">
     <SectionHeading title="Partners & references" />
@@ -71,6 +117,7 @@ const stats = trust.stats.filter((x) => x.status === 'published')
         </div>
       ))}
     </div>
+    <p class="small-note mt-18">{c.statsNote}</p>
   </section>
 
   <CtaBand lang={lang} waContext="contact" ctaKey1="cta.quote" ctaKey2="cta.waChat" />

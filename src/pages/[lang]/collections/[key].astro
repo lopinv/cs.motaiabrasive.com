@@ -2,7 +2,7 @@
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
-import { breadcrumbJsonLd, collectionItemListJsonLd } from '../../../lib/tdk.js'
+import { breadcrumbJsonLd, collectionItemListJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import ProductCard from '../../../components/ProductCard.astro'
 import CtaBand from '../../../components/CtaBand.astro'
@@ -34,12 +34,24 @@ if (key === 'sanding-discs' || isAll) {
 if (key === 'flap-discs' || isAll) {
   items.push(...flaps.map((f) => ({ name: f.name, image: f.image, path: `/flap/${f.key}`, sku: f.key, category: 'Flap Discs' })))
 }
+// Buying-guide copy for this line, resolved from coltBuy.<line> in the locale
+// file. Each entry carries qKey/aKey so faqJsonLd resolves the localized text.
+const b = pick('coltBuy')
+const faqLine = pick(`coltBuy.${coltKey}`) || []
+const faqItems = (Array.isArray(faqLine) ? faqLine : []).map((f, i) => ({
+  qKey: `coltBuy.${coltKey}[${i}].q`,
+  aKey: `coltBuy.${coltKey}[${i}].a`,
+  q: f.q,
+  a: f.a
+})).filter((f) => f.q && f.a)
+
 const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.products'), path: `/${lang}/collections/all` },
     { name: t, path: `/${lang}/collections/${key}` }
   ]),
-  collectionItemListJsonLd(lang, items)
+  collectionItemListJsonLd(lang, items),
+  faqItems.length ? faqJsonLd(lang, faqItems) : null
 ])
 ---
 
@@ -123,6 +135,42 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
       </>
     )}
   </div>
+
+  <section class="section wrap section--soft">
+    <SectionHeading eyebrow="SELECTION" title={b.guideTitle} sub={b.guideSub} />
+    <div class="grid grid-2">
+      <div class="value-card">
+        <span class="vno">01</span>
+        <h3>{t.title}</h3>
+        <p class="value-lines">{t.description}</p>
+      </div>
+      <div class="value-card">
+        <span class="vno">02</span>
+        <h3>{b.specTitle}</h3>
+        <p>{b.specSub}</p>
+        <p class="value-lines mt-12">
+          {coltKey === 'belts' && <>533 × 75 mm<br />610 × 100 mm<br />1520 × 630 mm<br />2200 × 1330 mm</>}
+          {coltKey === 'discs' && <>3-inch<br />4-inch<br />5-inch<br />6-inch</>}
+          {coltKey === 'flap' && <>Plastic backing<br />Steel backing<br />Fiberglass backing</>}
+          {coltKey === 'all' && <>Abrasive belts<br />Sanding discs<br />Flap discs</>}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {faqItems.length > 0 && (
+    <section class="section wrap">
+      <SectionHeading title={b.faqTitle} />
+      <div class="faq-list">
+        {faqItems.map((f) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{f.q}</h3>
+            <p class="faq-a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 
   <CtaBand lang={lang} waContext="generic" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
 </Shell>

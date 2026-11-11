@@ -264,7 +264,28 @@
     "pr6t": "Dispatch",
     "pr6b": "Coordinate packing and destination.",
     "cta1": "Request a Wholesale Quote",
-    "cta2": "Contact via WhatsApp"
+    "cta2": "Contact via WhatsApp",
+    "faqTitle": "Questions OEM brands ask",
+    "faqSub": "The practical points that decide an OEM feasibility check.",
+    "o1": "What is the OEM minimum order quantity?",
+    "oa1": "Minimum quantities depend on product line, size, grit mix and packaging; they are confirmed in the feasibility review that comes back with your quotation.",
+    "o2": "What artwork do you need from us?",
+    "oa2": "Print-ready artwork with your brand, the label sizes you use, and any destination marks required. Artwork requirements are confirmed in the review before a run.",
+    "o3": "Can I get a sample run before committing?",
+    "oa3": "Yes. Samples of standard references are available for evaluation, and OEM artwork approvals follow the confirmed specification.",
+    "o4": "Do you pack under our brand only?",
+    "oa4": "Yes. Private label runs apply your logo, labels, sizes and packaging; labels are applied and verified before the carton is sealed, not after it lands.",
+    "o5": "How long does an OEM feasibility check take?",
+    "oa5": "The check follows the review step; stock references are answered fastest because no converting lead time applies to them.",
+    "specTitle": "What an OEM brief contains",
+    "specSub": "Six points that let us return a useful feasibility check on the first pass.",
+    "checklistTitle": "Before you send the brief",
+    "c1": "Product line and the specification reference you buy today",
+    "c2": "Label artwork, print-ready, with the label sizes you use",
+    "c3": "Packaging format — carton, inner pack, retail unit",
+    "c4": "Target quantities and the mix of sizes / grits",
+    "c5": "Destination and any destination marks or documents",
+    "c6": "Timing — launch date or the first shipment window"
   },
   "applications": {
     "h1": "Abrasives for your industry",
@@ -437,7 +458,49 @@
     "consent": "I agree to the Privacy Policy, the Terms of Use, and the use of my details to respond to this enquiry. *",
     "btn1": "Request a Wholesale Quote",
     "btn2": "Send enquiry via WhatsApp",
-    "goNote": "The form opens in our wholesale enquiry system with your product context pre-filled."
+    "goNote": "The form opens in our wholesale enquiry system with your product context pre-filled.",
+    "whyTitle": "Why buyers quote through MoTai",
+    "whySub": "Four reasons distributors and fabrication shops send their specification to us.",
+    "w1t": "Factory-direct pricing",
+    "w1b": "Converting is done in our own Xianning, Hubei plant, so the quotation reflects the converting cost, not a chain of intermediaries.",
+    "w2t": "Specification confirmed in writing",
+    "w2b": "Grit, backing, dimensions, packing and marks are agreed in the quotation, which is what the order is checked against before dispatch.",
+    "w3t": "Stock for standard sizes",
+    "w3b": "Standard widths and grits are racked and ready, which keeps replenishment orders short while custom sizes still run to your confirmed specification.",
+    "w4t": "OEM and private label",
+    "w4b": "Your logo, labels, sizes and packaging, quoted against a feasibility review instead of a guess.",
+    "stepsTitle": "How an enquiry becomes a confirmed order",
+    "stepsSub": "Four steps, each with a written checkpoint, so nothing is settled at the shipping door.",
+    "p1t": "You send the specification",
+    "p1b": "Product category, model or reference, size, grit, material, quantity, packaging and destination — the fields below.",
+    "p2t": "We review and reply",
+    "p2b": "Sizes, grades, backing and packaging reviewed against your application; a mismatch is raised before the quotation.",
+    "p3t": "Sample sign-off (where required)",
+    "p3b": "Samples of standard references are available on request and evaluated before a production run is agreed.",
+    "p4t": "Run against the confirmed spec",
+    "p4b": "Production proceeds against the confirmed specification, then checkpoints, pack list and marks are applied before dispatch.",
+    "faqTitle": "Questions buyers ask before quoting",
+    "faqSub": "The practical details that decide price, lead time and fit.",
+    "q1": "What is the minimum order quantity?",
+    "a1": "Minimum quantities depend on product line, size and packaging; they are confirmed in the reply to your enquiry rather than published as a single figure.",
+    "q2": "How long does a quotation take?",
+    "a2": "A reply with the specification, lead time and price is issued after the review step; stock references are quoted fastest because no converting lead time applies.",
+    "q3": "Can I get a sample first?",
+    "a3": "Yes. Samples of standard references are available for evaluation on request; sample availability and freight terms are confirmed with your reply.",
+    "q4": "Do you support OEM and private label?",
+    "a4": "Yes. Send your logo, label artwork, packaging format and target quantities, and we return an OEM feasibility check with the quotation.",
+    "q5": "What payment and shipping terms do you use?",
+    "a5": "Commercial terms are confirmed per enquiry in the quotation, including destination, packing and the incoterm you specify.",
+    "trustTitle": "Supply at a glance",
+    "trustSub": "The plant behind your quotation.",
+    "trustNote": "Figures describe the manufacturing site; order-level terms are confirmed in the quotation.",
+    "checklistTitle": "Before you send it",
+    "checklistSub": "Having these five points ready makes the first reply substantially faster.",
+    "c1": "Application, machine and finish required",
+    "c2": "Material to be worked (steel, wood, aluminium, paint, drywall)",
+    "c3": "Grit grade and standard you buy to (FEPA or ANSI)",
+    "c4": "Size, diameter, holes and quantity",
+    "c5": "Destination country and packing or marks required"
   },
   "clients": {
     "h1": "Where MoTai shipments go",
@@ -445,7 +508,29 @@
     "note": "Customer logos and testimonials below are placeholder slots — replace src/data/trust.json with published materials.",
     "placeholderBadge": "Illustrative placeholder",
     "statsTitle": "Supply at a glance",
-    "statsNote": "Certifications shown are placeholders pending published certificates."
+    "statsNote": "Certifications shown are placeholders pending published certificates.",
+    "regionsTitle": "From Hubei to your market",
+    "regionsSub": "The same plant serves seven destination regions; packing and marks are set per destination.",
+    "logisticsTitle": "What we confirm before dispatch",
+    "logisticsSub": "Four points settled in the quotation, not at the shipping door.",
+    "l1": "Packing list — pack quantities by size and grit, matched to the order",
+    "l2": "Carton marks — your marks or the standard set, agreed before the run",
+    "l3": "Pallet pattern — set for your destination and handling equipment",
+    "l4": "Destination and documents — agreed with the quotation",
+    "faqTitle": "Questions buyers ask about supply",
+    "f1": "Which destinations do you supply?",
+    "fa1": "Seven destination regions across Europe, North America, the Middle East and Asia; packing and marks are set per destination.",
+    "f2": "How do you protect goods in transit?",
+    "fa2": "Packing is specified per destination and confirmed in the quotation; moisture protection and pallet pattern follow the transit conditions you tell us about.",
+    "f3": "Are the customer logos on this page real?",
+    "fa3": "No. These are placeholder slots. Replace src/data/trust.json with published materials before relying on them as references.",
+    "f4": "Are the certifications listed verified?",
+    "fa4": "Certification slots are placeholders pending published certificates; only the plant figures shown are confirmed by the factory.",
+    "qaTitle": "What we need from you",
+    "qaSub": "Three points that let us reply with the specification, lead time and price.",
+    "q1": "Application, machine and the finish required",
+    "q2": "Material worked and the grit standard you buy to (FEPA or ANSI)",
+    "q3": "Quantity, destination country and packing or marks required"
   },
   "glossary": {
     "h1": "Abrasives glossary",
@@ -1409,5 +1494,80 @@
         "a2": "可以。先寄样品确认粒度与背板，再按确认规格批量生产。"
       }
     }
+  },
+  "coltBuy": {
+    "guideTitle": "How to choose this line",
+    "guideSub": "Four points that decide which product fits your application — confirm them with the quotation.",
+    "specTitle": "Specification coverage",
+    "specSub": "What the line covers today, straight from the product records.",
+    "faqTitle": "Questions buyers ask about this line",
+    "belts": [
+      {
+        "q": "Which belt width suits my machine?",
+        "a": "The documented sizes run from 533 × 75 mm to 2200 × 1330 mm; ultra-wide single-piece belts above 1500 mm avoid a joint. State the machine, load and finish so the width is confirmed with the quotation."
+      },
+      {
+        "q": "What grit range can I order?",
+        "a": "Grits 40–800 across aluminium oxide, zirconia and silicon carbide grain. Coarse grit removes stock quickly; fine grit blends and finishes."
+      },
+      {
+        "q": "Do you supply custom sizes?",
+        "a": "Yes. Width and length beyond the documented sizes are quoted case by case; converting to a custom size affects both lead time and minimum order quantity."
+      },
+      {
+        "q": "What joint and edge construction?",
+        "a": "Joint type and edge treatment are specified per reference. Tell us the machine, load and speed so the right construction is confirmed."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Hook & loop, PSA or mesh — which for my tool?",
+        "a": "Hook & loop suits frequent grit changes on a random-orbit sander, PSA suits flat pads and long run times, and mesh suits dust extraction."
+      },
+      {
+        "q": "What sizes and hole patterns are documented?",
+        "a": "3, 4, 5 and 6-inch discs with the hole patterns of each reference; the arbor or centre hole must match your tool."
+      },
+      {
+        "q": "Which grit for the job?",
+        "a": "Coarse grit removes rust and paint quickly; fine grit blends and prepares for finishing. State the material and the finish required."
+      },
+      {
+        "q": "Do you support dust extraction?",
+        "a": "Mesh and perforated dustless formats are documented in this line; the perforated pattern keeps the surface visible while sanding."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Which backing suits my application?",
+        "a": "Plastic suits general metal grinding, steel suits demanding deburring and fiberglass suits high-speed durability; the arbor hole must match the tool."
+      },
+      {
+        "q": "What are flap discs used for?",
+        "a": "Grinding welds, removing rust, blending surfaces and finishing metal parts — matched to the tool's rated speed with the guard fitted."
+      },
+      {
+        "q": "Do you supply bulk quantities?",
+        "a": "Yes. Flap discs are supplied in bulk for distributors and workshops; grit, backing, diameter and quantity are set together in the quotation."
+      },
+      {
+        "q": "Why does my disc glaze on mill scale?",
+        "a": "Mill scale loads the abrasive quickly. Choose a coarser grit, keep the disc flat to the work and dress the surface as it loads."
+      }
+    ],
+    "all": [
+      {
+        "q": "Where do I start if my application is not listed?",
+        "a": "Send the material, machine, finish and volume; we reply with the product family, specification and lead time that fit."
+      },
+      {
+        "q": "Can I order one of each reference first?",
+        "a": "Samples of standard references are available on request; sample availability and freight terms are confirmed with your reply."
+      },
+      {
+        "q": "Do you quote OEM across all lines?",
+        "a": "Yes. Logo, labels, sizes and packaging are quoted against a feasibility review across belts, discs and flap discs."
+      }
+    ]
   }
 }
