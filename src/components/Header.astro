@@ -3,15 +3,19 @@ import { TRANSLATIONS, LANGS } from '../lib/i18n.js'
 import { site, quoteUrl, localizedUrl } from '../lib/utils.js'
 const { lang, routePath = '' } = Astro.props
 const tr = TRANSLATIONS[lang]
+// Order: Home → About → Manufacturing → OEM services → Products → Contact →
+// Videos → Knowledge → News. The Products dropdown is rendered inline at its
+// position, so it stays grouped in the same array.
 const navItems = [
-  { key: 'nav.home', href: `/` },
-  { key: 'nav.about', href: `/about` },
-  { key: 'nav.manufacturing', href: `/factory` },
-  { key: 'nav.videos', href: `/videos` },
-  { key: 'nav.oem', href: `/oem` },
-  { key: 'nav.contact', href: `/contact` },
-  { key: 'nav.news', href: `/blog` },
-  { key: 'nav.knowledge', href: `/glossary` }
+  { key: 'nav.home', href: `/`, type: 'link' },
+  { key: 'nav.about', href: `/about`, type: 'link' },
+  { key: 'nav.manufacturing', href: `/factory`, type: 'link' },
+  { key: 'nav.oem', href: `/oem`, type: 'link' },
+  { key: 'nav.products', href: `/collections/all`, type: 'products' },
+  { key: 'nav.contact', href: `/contact`, type: 'link' },
+  { key: 'nav.videos', href: `/videos`, type: 'link' },
+  { key: 'nav.knowledge', href: `/glossary`, type: 'link' },
+  { key: 'nav.news', href: `/blog`, type: 'link' }
 ]
 const products = [
   { key: 'colt.belts', href: '/collections/abrasive-belts' },
@@ -72,19 +76,22 @@ const langOpts = LANGS.map((code) => ({
       <span>MoTai<span class="brand-sub">ABRASIVES</span></span>
     </a>
     <nav class="motai-main-nav" aria-label="Main navigation">
-      {navItems.map((item) => (
-        <a href={localizedUrl(lang, item.href === '/' ? '' : item.href)}>
-          {trKey(item.key)}
-        </a>
-      ))}
-      <div class="motai-nav-group">
-        <a href={localizedUrl(lang, '/collections/all')}>{tr.nav.products}</a>
-        <div class="motai-nav-dropdown">
-          {products.map((p) => (
-            <a href={localizedUrl(lang, p.href)}>{tr.colt[p.key.replace('colt.', '')].label}</a>
-          ))}
-        </div>
-      </div>
+      {navItems.map((item) =>
+        item.type === 'products' ? (
+          <div class="motai-nav-group">
+            <a href={localizedUrl(lang, item.href)}>{trKey(item.key)}</a>
+            <div class="motai-nav-dropdown">
+              {products.map((p) => (
+                <a href={localizedUrl(lang, p.href)}>{tr.colt[p.key.replace('colt.', '')].label}</a>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <a href={localizedUrl(lang, item.href === '/' ? '' : item.href)}>
+            {trKey(item.key)}
+          </a>
+        )
+      )}
     </nav>
     <details class="mobile-menu" aria-label="Mobile menu">
       <summary class="menu-toggle" aria-label="Toggle menu">
@@ -92,14 +99,20 @@ const langOpts = LANGS.map((code) => ({
       </summary>
       <div class="mobile-menu-panel">
         <nav class="mobile-nav">
-          {navItems.map((item) => (
-            <a href={localizedUrl(lang, item.href === '/' ? '' : item.href)}>{trKey(item.key)}</a>
-          ))}
-          <div class="sub-label">{tr.nav.products}</div>
-          {products.map((p) => (
-            <a class="sub-link" href={localizedUrl(lang, p.href)}>{tr.colt[p.key.replace('colt.', '')].label}</a>
-          ))}
-          <a class="sub-link" href={localizedUrl(lang, '/collections/all')}>{tr.colt.all.title}</a>
+          {navItems.map((item) =>
+            item.type === 'products' ? (
+              <>
+                <a href={localizedUrl(lang, item.href)}>{trKey(item.key)}</a>
+                <div class="sub-label">{tr.nav.products}</div>
+                {products.map((p) => (
+                  <a class="sub-link" href={localizedUrl(lang, p.href)}>{tr.colt[p.key.replace('colt.', '')].label}</a>
+                ))}
+                <a class="sub-link" href={localizedUrl(lang, '/collections/all')}>{tr.colt.all.title}</a>
+              </>
+            ) : (
+              <a href={localizedUrl(lang, item.href === '/' ? '' : item.href)}>{trKey(item.key)}</a>
+            )
+          )}
         </nav>
         <div class="lang-mobile">
           <div class="sub-label">{tr.nav.language}</div>
