@@ -54,6 +54,11 @@
       "title": "Semua Produk",
       "desc": "Katalog abrasif MoTai lengkap: tali suam, cakera pengasahan dan cakera flap untuk pembeli industri, pengedar dan jenama khusus.",
       "label": "Semua Produk"
+    },
+    "sponge": {
+      "title": "Span Pengamplasan MoTai",
+      "desc": "Pad span pengamplasan lentur dan blok busa tebal untuk pengamplasan tangan basah atau kering pada lengkung, tepi, permukaan rata dan dinding yang dibaiki. Boleh guna semula selepas dibasuh. Pertanyaan borong dan OEM dialu-alukan.",
+      "label": "Span Pengamplasan"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Spesifikasi",
     "howTitle": "Cara menentukan spesifikasi pesanan Anda",
     "howBody": "Nyatakan saiz tali atau cakera, senarai grit, model mesin, bahan kerja dan kuantiti. Spesifikasi yang jelas membantu kami menilai kesesuaian dan menyediakan sebut harga yang berguna — jangan pilih produk berdasarkan warna sahaja.",
-    "faqTitle": "Soalan pembeli"
+    "faqTitle": "Soalan pembeli",
+    "family": "Jenis produk"
   },
   "about": {
     "h1": "Syarikat di sebalik julat produk abrasif",
@@ -264,7 +270,28 @@
     "pr6t": "Penghantaran",
     "pr6b": "Selaraskan pembungkusan dan destination.",
     "cta1": "Minta sebut harga borong",
-    "cta2": "Hubungi melalui WhatsApp"
+    "cta2": "Hubungi melalui WhatsApp",
+    "faqTitle": "Soalan yang ditanya jenama OEM",
+    "faqSub": "Perkara praktikal yang menentukan penilaian kesesuaian OEM.",
+    "o1": "Apakah kuantiti minimum pesanan OEM?",
+    "oa1": "Kuantiti minimum bergantung pada baris produk, saiz, kombinasi grit dan pembungkusan; ia disahkan dalam penilaian kelayakan yang dikembalikan bersama sebut harga anda.",
+    "o2": "Apakah seni yang anda perlukan daripada kami?",
+    "oa2": "Seni sedia cetak dengan jenama anda, saiz label yang anda gunakan, dan sebarang tanda destinasi yang diperlukan. Keperluan seni disahkan dalam semakan sebelum sesuatu produksi dimulakan.",
+    "o3": "Bolehkah saya mendapatkan produksi contoh sebelum membuat komitmen?",
+    "oa3": "Ya. Sampel rujukan standard tersedia untuk penilaian, dan kelulusan seni OEM mengikuti spesifikasi yang disahkan.",
+    "o4": "Adakah anda membungkus di bawah jenama kami sahaja?",
+    "oa4": "Ya. Run label sendiri menggunakan logo, label, saiz dan pembungkusan anda; label dipasang dan disahkan sebelum kadbod ditutup, bukan selepas ia tiba.",
+    "o5": "Berapa lamakah tempoh penilaian kelayakan OEM?",
+    "oa5": "Semakan itu menyusuli langkah semakan; rujukan stok dijawab paling pantas kerana tiada masa penyediaan pengkonversion berkenaan.",
+    "specTitle": "Apa yang terkandung dalam brief OEM",
+    "specSub": "Enam perkara yang membolehkan kami mengembalikan penilaian kelayakan yang berguna pada percubaan pertama.",
+    "checklistTitle": "Sebelum anda menghantar brief",
+    "c1": "Baris produk dan rujukan spesifikasi yang anda beli hari ini",
+    "c2": "Seni label, sedia cetak, dengan saiz label yang anda gunakan",
+    "c3": "Format pembungkusan — kadbod, pek dalaman, unit runcit",
+    "c4": "Kuantiti sasaran dan kombinasi saiz / grit",
+    "c5": "Destinasi dan sebarang tanda atau dokumen destinasi",
+    "c6": "Masa — tarikh pelancaran atau tetingkap penghantaran pertama"
   },
   "applications": {
     "h1": "Abrasif untuk industri Anda",
@@ -437,7 +464,49 @@
     "consent": "Saya bersetuju dengan Dasar Privasi, Terma Penggunaan dan penggunaan maklumat saya untuk membalas permintaan ini. *",
     "btn1": "Mohon sebut harga borong",
     "btn2": "Hantar permintaan melalui WhatsApp",
-    "goNote": "Borang ini akan dibuka dalam sistem permintaan borong kami dengan maklumat produk Anda telah diisi terlebih dahulu."
+    "goNote": "Borang ini akan dibuka dalam sistem permintaan borong kami dengan maklumat produk Anda telah diisi terlebih dahulu.",
+    "whyTitle": "Mengapa pembeli meminta sebut harga melalui MoTai",
+    "whySub": "Empat sebab pengedar dan bengkel fabrikasi menghantar spesifikasi mereka kepada kami.",
+    "w1t": "Harga terus dari kilang",
+    "w1b": "Pengkonversion dilakukan di kilang kami sendiri di Xianning, Hubei, jadi sebut harga mencerminkan kos pengkonversion, bukan rantaian orang tengah.",
+    "w2t": "Spesifikasi disahkan secara bertulis",
+    "w2b": "Grit, asas, dimensi, pembungkusan dan tanda dipersetujui dalam sebut harga, yang menjadi ukuran semakan pesanan sebelum penghantaran.",
+    "w3t": "Stok untuk saiz standard",
+    "w3b": "Lebar dan grit standard ada di rak dan sedia, yang menjadikan pesanan pengisian stok ringkas manakala saiz tersuai tetap dijalankan mengikut spesifikasi yang disahkan.",
+    "w4t": "OEM dan label sendiri",
+    "w4b": "Logo, label, saiz dan pembungkusan anda, disebut harga mengikut penilaian kelayakan dan bukan tekaan.",
+    "stepsTitle": "Bagaimana pertanyaan menjadi pesanan yang disahkan",
+    "stepsSub": "Empat langkah, masing-masing dengan titik periksa bertulis, supaya tiada perkara diselesaikan di pintu penghantaran.",
+    "p1t": "Anda menghantar spesifikasi",
+    "p1b": "Kategori produk, model atau rujukan, saiz, grit, bahan, kuantiti, pembungkusan dan destinasi — medan di bawah.",
+    "p2t": "Kami menyemak dan membalas",
+    "p2b": "Saiz, gred, asas dan pembungkusan disemak berbanding aplikasi anda; ketidaksepadanan diberitahu sebelum sebut harga dikeluarkan.",
+    "p3t": "Kelulusan sampel (di mana diperlukan)",
+    "p3b": "Sampel rujukan standard tersedia atas permintaan dan dinilai sebelum sesuatu produksi dipersetujui.",
+    "p4t": "Produksi mengikut spesifikasi yang disahkan",
+    "p4b": "Pengeluaran diteruskan mengikut spesifikasi yang disahkan, kemudian titik periksa, senarai pembungkusan dan tanda dilaksanakan sebelum penghantaran.",
+    "faqTitle": "Soalan yang ditanya pembeli sebelum meminta sebut harga",
+    "faqSub": "Butiran praktikal yang menentukan harga, masa penyediaan dan kesesuaian.",
+    "q1": "Apakah kuantiti minimum pesanan?",
+    "a1": "Kuantiti minimum bergantung pada baris produk, saiz dan pembungkusan; ia disahkan dalam jawapan kepada pertanyaan anda dan bukan diterbitkan sebagai satu angka tunggal.",
+    "q2": "Berapa lama tempoh untuk mendapatkan sebut harga?",
+    "a2": "Jawapan dengan spesifikasi, masa penyediaan dan harga dikeluarkan selepas langkah semakan; rujukan stok disebut harga paling pantas kerana tiada masa penyediaan pengkonversion dikenakan.",
+    "q3": "Bolehkah saya mendapatkan sampel dahulu?",
+    "a3": "Ya. Sampel rujukan standard tersedia untuk penilaian atas permintaan; kebolehtersamaan sampel dan terma pengangkutan disahkan bersama jawapan anda.",
+    "q4": "Adakah anda menyokong OEM dan label sendiri?",
+    "a4": "Ya. Hantar logo, seni label, format pembungkusan dan kuantiti sasaran anda, dan kami mengembalikan penilaian kelayakan OEM bersama sebut harga.",
+    "q5": "Apakah terma pembayaran dan penghantaran yang anda gunakan?",
+    "a5": "Terma komersial disahkan bagi setiap pertanyaan dalam sebut harga, termasuk destinasi, pembungkusan dan incoterm yang anda nyatakan.",
+    "trustTitle": "Bekalan dalam sekilas",
+    "trustSub": "Kilang di sebalik sebut harga anda.",
+    "trustNote": "Angka-angka menerangkan tapak pembuatan; terma peringkat pesanan disahkan dalam sebut harga.",
+    "checklistTitle": "Sebelum anda menghantarnya",
+    "checklistSub": "Menyediakan lima perkara ini membuat jawapan pertama jauh lebih pantas.",
+    "c1": "Aplikasi, mesin dan tahap siap yang diperlukan",
+    "c2": "Bahan kerja (keluli, kayu, aluminium, cat, papan gypsum)",
+    "c3": "Darjah grit dan standard yang anda beli (FEPA atau ANSI)",
+    "c4": "Saiz, diameter, lubang dan kuantiti",
+    "c5": "Negara destinasi dan pembungkusan atau tanda yang diperlukan"
   },
   "clients": {
     "h1": "Ke mana penghantaran MoTai pergi",
@@ -445,7 +514,29 @@
     "note": "Logo pelanggan dan testimoni di bawah ialah ruang letak sementara — ganti src/data/trust.json dengan bahan yang telah diterbitkan.",
     "placeholderBadge": "Placeholder ilustrasi",
     "statsTitle": "Bekalan secara ringkas",
-    "statsNote": "Pensijilan yang dipaparkan ialah placeholder sehingga sijil sebenar diterbitkan."
+    "statsNote": "Pensijilan yang dipaparkan ialah placeholder sehingga sijil sebenar diterbitkan.",
+    "regionsTitle": "Daripada Hubei ke pasaran anda",
+    "regionsSub": "Kilang yang sama berkhidmat untuk tujuh wilayah destinasi; pembungkusan dan tanda ditetapkan bagi setiap destinasi.",
+    "logisticsTitle": "Apa yang kami sahkan sebelum penghantaran",
+    "logisticsSub": "Empat perkara diselesaikan dalam sebut harga, bukan di pintu penghantaran.",
+    "l1": "Senarai pembungkusan — kuantiti bungkusan mengikut saiz dan grit, sepadan dengan pesanan",
+    "l2": "Tanda kadbod — tanda anda atau set standard, dipersetujui sebelum produksi",
+    "l3": "Corak palet — ditetapkan untuk destinasi dan peralatan pengendalian anda",
+    "l4": "Destinasi dan dokumen — dipersetujui bersama sebut harga",
+    "faqTitle": "Soalan yang ditanya pembeli tentang bekalan",
+    "f1": "Destinasi manakah yang anda bekalkan?",
+    "fa1": "Tujuh wilayah destinasi merentasi Eropah, Amerika Utara, Timur Tengah dan Asia; pembungkusan dan tanda ditetapkan bagi setiap destinasi.",
+    "f2": "Bagaimana anda melindungi barang dalam transit?",
+    "fa2": "Pembungkusan ditentukan bagi setiap destinasi dan disahkan dalam sebut harga; perlindungan lembapan dan corak palet mengikut keadaan transit yang anda nyatakan kepada kami.",
+    "f3": "Adakah logo pelanggan di halaman ini benar?",
+    "fa3": "Tidak. Ini ialah slot pemegang tempat. Ganti src/data/trust.json dengan bahan yang diterbitkan sebelum bergantung kepadanya sebagai rujukan.",
+    "f4": "Adakah pensijilan yang disenaraikan disahkan?",
+    "fa4": "Slot pensijilan ialah pemegang tempat menunggu sijil yang diterbitkan; hanya angka kilang yang ditunjukkan disahkan oleh kilang.",
+    "qaTitle": "Apa yang kami perlukan daripada anda",
+    "qaSub": "Tiga perkara yang membolehkan kami membalas dengan spesifikasi, masa penyediaan dan harga.",
+    "q1": "Aplikasi, mesin dan tahap siap yang diperlukan",
+    "q2": "Bahan kerja dan standard grit yang anda beli (FEPA atau ANSI)",
+    "q3": "Kuantiti, negara destinasi dan pembungkusan atau tanda yang diperlukan"
   },
   "glossary": {
     "h1": "Glosari bahan abrasif",
@@ -991,6 +1082,11 @@
         "title": "Produk Abrasif Borong — Tali, Cakera & Cakera Flap | MoTai",
         "description": "Katalog abrasif MoTai penuh: tali suam industri, cakera pengasahan dan cakera flap untuk pengedar, importir, ejen borong dan jenama OEM. Borong terus dari kilang, pensuaian dan eksport dari Hubei, China.",
         "keywords": "produk abrasif, produk abrasif borong, abrasif industri, abrasif bersalut, abrasif borong, kilang produk abrasif, pengekspor produk abrasif, pembekal abrasif China, pengilang abrasif OEM, abrasif jenama khusus, produk abrasif tersuai, bekalan abrasif pukal, kilang abrasif, alatan abrasif, bahan abrasif, produk pengasahan, produk penghabisan permukaan, kertas peniru, helai kertas peniru, kertas peniru bulat, kertas peniru borong, pad pengasahan, pad pengasahan hook dan loop, pad pengasahan 5 inci, pad pengasahan 6 inci, roda flap bukan tenun, kain abrasif, berus roller industri"
+      },
+      "sponge": {
+        "title": "Pengilang & Pembekal Borong Span Pengamplasan | MoTai",
+        "description": "Pad span pengamplasan lentur dan blok busa tebal untuk pengamplasan tangan basah atau kering pada lengkung, tepi, permukaan rata dan dinding yang dibaiki. Boleh guna semula, pelbagai grit, potong cetakan dan pembungkusan OEM. Borong terus dari kilang.",
+        "keywords": "span pengamplasan, blok span pengamplasan, pad span pengamplasan, span abrasif, span pengamplasan tangan, pengilang span pengamplasan, span pengamplasan borong, span pengamplasan potong cetakan, span pengamplasan OEM"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — Fábil & Video Produk MoTai",
       "description": "Video fabrik dan produk daripada MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, video pengamplasan, rakaman fabrik pengamplasan, video MoTai, pengeluaran bahan pengamplasan, video pembekal pengamplasan"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Pengilang Span Pengamplasan",
+      "description": "MoTai {name}: {summary} Bekalan borong dan pembungkusan OEM untuk pengedar dan bengkel.",
+      "keywords": "span pengamplasan, blok span pengamplasan, span abrasif, pad pengamplasan tangan, pengilang span pengamplasan, span pengamplasan borong"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Cara memilih baris ini",
+    "guideSub": "Empat perkara yang menentukan produk manakah sesuai dengan aplikasi anda — sahkan bersama sebut harga.",
+    "specTitle": "Liputan spesifikasi",
+    "specSub": "Apa yang diliputi baris ini hari ini, terus daripada rekod produk.",
+    "faqTitle": "Soalan yang ditanya pembeli tentang baris ini",
+    "belts": [
+      {
+        "q": "Lebar tali manakah sesuai dengan mesin saya?",
+        "a": "Saiz berdokumen bermula dari 533 × 75 mm hingga 2200 × 1330 mm; tali ultra-lebar sekeping melebihi 1500 mm mengelakkan satu sendi. Nyatakan mesin, beban dan tahap siap supaya lebar disahkan dalam sebut harga."
+      },
+      {
+        "q": "Apakah julat grit yang boleh saya pesan?",
+        "a": "Grit 40–800 merentasi bijian aloksida aluminium, zirkonia dan karbida silikon. Grit kasar membuang stok dengan pantas; grit halus mencampur dan menghabiskan."
+      },
+      {
+        "q": "Adakah anda membekalkan saiz tersuai?",
+        "a": "Ya. Lebar dan panjang melebihi saiz berdokumen disebut harga kes demi kes; pengkonversion ke saiz tersuai menjejaskan kedua-dua masa penyediaan dan kuantiti minimum pesanan."
+      },
+      {
+        "q": "Apakah pembinaan sendi dan tepi?",
+        "a": "Jenis sendi dan rawatan tepi ditentukan bagi setiap rujukan. Beritahu kami mesin, beban dan kelajuan supaya pembinaan yang betul disahkan."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Hook & loop, PSA atau mesh — yang manakah untuk alatan saya?",
+        "a": "Hook & loop sesuai untuk pertukaran grit yang kerap pada pengasah orbit rawak, PSA sesuai untuk pad rata dan masa operasi panjang, dan mesh sesuai untuk penyedutan habuk."
+      },
+      {
+        "q": "Apakah saiz dan corak lubang yang didokumen?",
+        "a": "Cakera 3, 4, 5 dan 6 inci dengan corak lubang setiap rujukan; lubang poros atau lubang tengah mesti sepadan dengan alatan anda."
+      },
+      {
+        "q": "Grit manakah untuk kerja itu?",
+        "a": "Grit kasar membuang karat dan cat dengan pantas; grit halus mencampur dan menyediakan untuk penghabisan. Nyatakan bahan dan tahap siap yang diperlukan."
+      },
+      {
+        "q": "Adakah anda menyokong penyedutan habuk?",
+        "a": "Format mesh dan perforasi bebas habuk didokumen dalam baris ini; corak perforasi menjadikan permukaan mudah dilihat semasa mengamplas."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Asas manakah sesuai dengan aplikasi saya?",
+        "a": "Plastik sesuai untuk penggera logam am, keluli sesuai untuk penanggalan burr yang menuntut dan kaca gentian sesuai untuk ketahanan kelajuan tinggi; lubang poros mesti sepadan dengan alatan."
+      },
+      {
+        "q": "Untuk apakah cakera flap digunakan?",
+        "a": "Menggera simpulan kimpalan, membuang karat, mencampur permukaan dan menghabiskan bahagian logam — dipadankan dengan kelajuan terkadar alatan bersama pelindung yang dipasang."
+      },
+      {
+        "q": "Adakah anda membekalkan kuantiti pukal?",
+        "a": "Ya. Cakera flap dibekalkan secara pukal untuk pengedar dan bengkel; grit, asas, diameter dan kuantiti ditetapkan bersama dalam sebut harga."
+      },
+      {
+        "q": "Mengapa cakera saya berkilau apabila menggarap skala kilang?",
+        "a": "Skala kilang memuatkan abrasif dengan pantas. Pilih grit yang lebih kasar, pegang cakera rata pada benda kerja dan bersihkan permukaannya apabila ia mula berkilau."
+      }
+    ],
+    "all": [
+      {
+        "q": "Di manakah saya mula jika aplikasi saya tidak disenaraikan?",
+        "a": "Hantar bahan, mesin, tahap siap dan volum; kami membalas dengan keluarga produk, spesifikasi dan masa penyediaan yang sesuai."
+      },
+      {
+        "q": "Bolehkah saya memesan satu daripada setiap rujukan dahulu?",
+        "a": "Sampel rujukan standard tersedia atas permintaan; kebolehtersamaan sampel dan terma pengangkutan disahkan bersama jawapan anda."
+      },
+      {
+        "q": "Adakah anda menyebut harga OEM merentasi semua baris?",
+        "a": "Ya. Logo, label, saiz dan pembungkusan disebut harga mengikut penilaian kelayakan merentasi tali, cakera dan cakera flap."
+      },
+      {
+        "q": "Di manakah span pengamplasan berada dalam julat ini?",
+        "a": "Pengamplasan tangan: pad lentur untuk lengkung dan profil, blok busa untuk permukaan rata dan dinding yang dibaiki. Kedua-duanya disebut harga dengan dimensi, grit, ketumpatan busa dan kuantiti."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Pad lentur atau blok busa — yang manakah untuk kerja saya?",
+        "a": "Pad lentur sesuai untuk lengkung, tepi dan profil; blok busa sesuai untuk permukaan rata, tepi dan dinding yang dibaiki. Kedua-duanya boleh guna semula selepas dibasuh."
+      },
+      {
+        "q": "Adakah warna busa menunjukkan grit?",
+        "a": "Tidak. Warna busa bukan penarafan grit atau kekerasan. Sahkan grit, bahan abrasif dan ketumpatan busa dalam pertanyaan anda dan kami memadankannya dalam sebut harga."
+      },
+      {
+        "q": "Bolehkah anda memotong cetakan bentuk tersuai dan membungkus di bawah jenama saya?",
+        "a": "Ya. Hantar profil, ketebalan, grit, format pembungkusan dan kuantiti sasaran anda; keperluan perkakas potong cetakan dan seni disahkan dalam semakan."
+      },
+      {
+        "q": "Adakah ini boleh dibasuh dan guna semula?",
+        "a": "Ia boleh dibilas dan diguna semula sehingga lapisan abrasif hapus; jangka hayat bergantung pada grit, tekanan dan permukaan yang dikerjakan."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Span pengamplasan · Julat pengamplasan tangan",
+    "thickness": "Pembinaan",
+    "gritNote": "Warna busa tidak menentukan grit atau kekerasan. Sahkan dimensi, grit, bahan abrasif, ketumpatan busa, pembungkusan dan kuantiti dalam pertanyaan anda.",
+    "overviewTitle": "Gambaran keseluruhan produk",
+    "overviewBody": "Span abrasif lentur dan boleh guna semula untuk pengamplasan basah atau kering. Busanya mengikut bentuk lengkung, tepi dan profil untuk pengamplasan tangan yang terkawal.",
+    "checklistTitle": "Sahkan spesifikasi yang betul",
+    "checklistSub": "Butiran ini membantu kami menyemak pertanyaan anda. Ia ialah keperluan untuk disahkan, bukan penarafan produk yang diterbitkan.",
+    "c1": "Dimensi — nyatakan lebar × panjang dalam mm",
+    "c2": "Grit yang diperlukan — nyatakan gred atau tahap siap yang diperlukan",
+    "c3": "Bahan kerja dan mesin — nyatakan bahan, mesin dan tahap siap yang dimaksudkan",
+    "c4": "Kuantiti dan pembungkusan — sertakan kuantiti, keperluan pembungkusan dan destinasi penghantaran",
+    "enquiryTitle": "Cara membuat pertanyaan",
+    "enquirySub": "Daripada pemilihan produk kepada sebut harga.",
+    "e1t": "Pilih produk anda",
+    "e1b": "Terokai julat span pengamplasan dan pilih pembinaan yang diperlukan oleh aplikasi anda.",
+    "e2t": "Nyatakan keperluan anda",
+    "e2b": "Sertakan kuantiti, dimensi, grit dan keperluan pembungkusan.",
+    "e3t": "Semak sebut harga anda",
+    "e3b": "Sahkan spesifikasi akhir dan terma komersial bersama pasukan kami.",
+    "appsTitle": "Aplikasi span pengamplasan tangan",
+    "appsSub": "Untuk kayu, logam, pengecatan semula automotif, dan permukaan dinding serta simen sela yang sesuai. Padankan grit dengan bahan dan uji pada kawasan yang tidak mencolok.",
+    "a1t": "Pengamplasan kayu",
+    "a1b": "Blok pengamplasan untuk kerja kayu, termasuk penyediaan permukaan dan pengamplasan tepi pada perabot, kabinet dan komponen kayu lain.",
+    "a2t": "Span pengamplasan papan gypsum",
+    "a2b": "Blok pengamplasan untuk menghaluskan sendi papan gypsum, meratakan sebatian sendi secara beransur, dan menyediakan dinding untuk primer dan cat.",
+    "a3t": "Pembuangan karat",
+    "a3b": "Span abrasif lentur dan boleh guna semula untuk pembuangan karat secara basah atau kering. Busanya mengikut bentuk lengkung, tepi dan profil untuk pengamplasan tangan yang terkawal.",
+    "faqTitle": "Soalan pembeli",
+    "q1": "Adakah warna menunjukkan jenis abrasif?",
+    "a1": "Tidak. Warna busa bukan penarafan grit atau kekerasan. Sahkan grit, bahan abrasif dan ketumpatan busa dalam pertanyaan anda.",
+    "q2": "Bagaimana saya meminta pembungkusan OEM?",
+    "a2": "Hantar seni label, format pembungkusan, kuantiti sasaran dan destinasi anda bersama pertanyaan; kebolehtersamaan OEM dan keperluan seni disahkan dalam semakan.",
+    "q3": "Adakah permintaan sebut harga menjadi pesanan?",
+    "a3": "Tidak. Ini ialah pertanyaan borong. Spesifikasi dan terma komersial disahkan dalam sebut harga sebelum mana-mana produksi dimulakan.",
+    "ctaTitle": "Perlu span pengamplasan secara pukal?",
+    "ctaSub": "Hantar dimensi, grit, kuantiti dan destinasi — kami sahkan spesifikasi dan masa penyediaan."
   }
 }

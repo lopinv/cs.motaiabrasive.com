@@ -54,6 +54,11 @@
       "title": "Všechny produkty",
       "desc": "Úplný katalog brusných materiálů MoTai: brusné pásky, kotouče a flapy pro průmyslové kupce, distributory a vlastní značky.",
       "label": "Všechny produkty"
+    },
+    "sponge": {
+      "title": "Brusné houby MoTai",
+      "desc": "Ohebné brusné houby a tlusté pěnové bloky pro mokré i suché ruční broušení křivek, hran, plochých povrchů a opravovaných stěn. Po vyčištění lze použít opakovaně. Velkoobchodní a OEM dotazy vítány.",
+      "label": "Brusné houby"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Technické parametry",
     "howTitle": "Jak správně specifikovat objednávku",
     "howBody": "Uveďte rozměr pásu nebo kotouče, seznam zrnitostí, model stroje, materiál obrobku a množství. Jasná specifikace nám pomůže posoudit vhodnost a připravit užitečnou nabídku — nevybírejte výrobek pouze podle barvy.",
-    "faqTitle": "Dotazy kupujících"
+    "faqTitle": "Dotazy kupujících",
+    "family": "Typ výrobku"
   },
   "about": {
     "h1": "Společnost stojící za sortimentem brusných materiálů",
@@ -264,7 +270,28 @@
     "pr6t": "Odeslání",
     "pr6b": "Zkoordinujte balení a místo dodání.",
     "cta1": "Vyžádejte velkoobchodní nabídku",
-    "cta2": "Kontaktujte nás přes WhatsApp"
+    "cta2": "Kontaktujte nás přes WhatsApp",
+    "faqTitle": "Otázky OEM značek",
+    "faqSub": "Praktické body, které rozhodují o posouzení proveditelnosti OEM.",
+    "o1": "Jaké je minimální objednávkové množství pro OEM?",
+    "oa1": "Minimální množství závisí na produktové řadě, velikosti, poměru zrnitostí a balení; potvrdí se v rámci posouzení proveditelnosti, které vám přijde společně s nabídkou.",
+    "o2": "Jakou grafiku od nás potřebujete?",
+    "oa2": "Grafiku připravenou k tisku s vaší značkou, velikosti etiket, které používáte, a značení požadovaná pro místo dodání. Požadavky na grafiku se potvrdí při kontrole před spuštěním výrobní série.",
+    "o3": "Mohu si před závazkem nechat vyrobit zkušební sérii?",
+    "oa3": "Ano. K dispozici jsou vzorky standardních referencí pro vyhodnocení a schválení OEM grafiky následuje po potvrzení specifikace.",
+    "o4": "Balíte i pod naší značku?",
+    "oa4": "Ano. Série pod vlastní značku nesou vaše logo, etikety, velikosti a balení; etikety se aplikují a kontrolují před zapečetěním kartonu, ne teprve po doručení.",
+    "o5": "Jak dlouho trvá posouzení proveditelnosti OEM?",
+    "oa5": "Kontrola navazuje na krok kontroly specifikace; skladové položky se vyřídí nejrychleji, protože se u nich nepočítá dodací doba konverze.",
+    "specTitle": "Co obsahuje zadání pro OEM",
+    "specSub": "Šest bodů, díky kterým vám už napoprvé vrátíme užitečné posouzení proveditelnosti.",
+    "checklistTitle": "Než zadání pošlete",
+    "c1": "Produktová řada a specifikační reference, kterou kupujete dnes",
+    "c2": "Grafika etiket připravená k tisku, včetně velikostí etiket, které používáte",
+    "c3": "Formát balení — karton, vnitřní balení, maloobchodní jednotka",
+    "c4": "Cílová množství a složení velikostí a zrnitostí",
+    "c5": "Místo dodání a značení nebo doklady, které pro něj požadujete",
+    "c6": "Načasování — datum uvedení na trh nebo termín první zásilky"
   },
   "applications": {
     "h1": "Brusné materiály pro vaše odvětví",
@@ -437,7 +464,49 @@
     "consent": "Souhlasím se Zásadami ochrany osobních údajů, Podmínkami použití a se zpracováním mých údajů za účelem odpovědi na tuto poptávku. *",
     "btn1": "Vyžádejte si velkoobchodní nabídku",
     "btn2": "Odeslat poptávku přes WhatsApp",
-    "goNote": "Formulář se otevře v našem systému velkoobchodních poptávek s předvyplněnými údaji o výrobku."
+    "goNote": "Formulář se otevře v našem systému velkoobchodních poptávek s předvyplněnými údaji o výrobku.",
+    "whyTitle": "Proč kupující žádají nabídku u MoTai",
+    "whySub": "Čtyři důvody, proč distributoři a dílny posílají svou specifikaci právě nám.",
+    "w1t": "Ceny přímo z výroby",
+    "w1b": "Konverzi provádíme ve vlastním závodě v Xianningu v provincii Hubei, takže nabídka vychází z ceny konverze, ne z řetězce prostředníků.",
+    "w2t": "Specifikace potvrzená písemně",
+    "w2b": "Zrnitost, podklad, rozměry, balení a značení se sjednají v nabídce a podle ní se objednávka kontroluje před expedicí.",
+    "w3t": "Sklad pro standardní velikosti",
+    "w3b": "Standardní šířky a zrnitosti držíme na skladě připravené k odeslání, což zkracuje dobu doplnění zásob; rozměry na míru se vyrábějí podle vaší potvrzené specifikace.",
+    "w4t": "OEM a vlastní značka",
+    "w4b": "Vaše logo, etikety, velikosti a balení — naceněné na základě posouzení proveditelnosti, ne odhadem.",
+    "stepsTitle": "Jak se z poptávky stane potvrzená objednávka",
+    "stepsSub": "Čtyři kroky, každý s písemnou kontrolní fází, aby se nic neřešilo až u expedice.",
+    "p1t": "Pošlete specifikaci",
+    "p1b": "Kategorie výrobku, model nebo reference, velikost, zrnitost, materiál, množství, balení a místo dodání — pole níže.",
+    "p2t": "Zkontrolujeme a odpovíme",
+    "p2b": "Velikosti, třídy, podklad a balení posoudíme vůči vaší aplikaci; při nesouladu vás upozorníme ještě před nabídkou.",
+    "p3t": "Schválení vzorku (kde je požadováno)",
+    "p3b": "Vzorky standardních referencí jsou k dispozici na vyžádání a posuzují se před dohodnutím výrobní série.",
+    "p4t": "Výroba podle potvrzené specifikace",
+    "p4b": "Výroba pokračuje podle potvrzené specifikace; kontrolní body, balicí list a značení se aplikují před expedicí.",
+    "faqTitle": "Otázky kupujících před žádostí o nabídku",
+    "faqSub": "Praktické detaily, které rozhodují o ceně, dodací lhůtě a vhodnosti.",
+    "q1": "Jaké je minimální objednávkové množství?",
+    "a1": "Minimální množství závisí na produktové řadě, velikosti a balení; potvrdí se v odpovědi na váš dotaz, ne jako jediné zveřejněné číslo.",
+    "q2": "Jak dlouho trvá příprava nabídky?",
+    "a2": "Odpověď se specifikací, dodací lhůtou a cenou vychází po kontrole specifikace; skladové položky se nacení nejrychleji, protože se u nich nepočítá dodací doba konverze.",
+    "q3": "Mohu nejprve dostat vzorek?",
+    "a3": "Ano. Vzorky standardních referencí jsou k dispozici k vyhodnocení na vyžádání; dostupnost vzorků a přepravní podmínky potvrdíme společně s odpovědí.",
+    "q4": "Podporujete OEM a vlastní značku?",
+    "a4": "Ano. Pošlete logo, grafiku etiket, formát balení a cílová množství — k nabídce vrátíme i posouzení proveditelnosti OEM.",
+    "q5": "Jaké platební a dodací podmínky používáte?",
+    "a5": "Obchodní podmínky se potvrzují u každého dotazu v nabídce, včetně místa dodání, balení a vámi zvoleného Incoterms.",
+    "trustTitle": "Dodávky na první pohled",
+    "trustSub": "Závod, který stojí za vaší nabídkou.",
+    "trustNote": "Údaje popisují výrobní závod; podmínky na úrovni objednávky se potvrdí v nabídce.",
+    "checklistTitle": "Než to pošlete",
+    "checklistSub": "S těmito pěti body připravenými předem bude první odpověď podstatně rychlejší.",
+    "c1": "Aplikace, stroj a požadovaný výsledný povrch",
+    "c2": "Opracovávaný materiál (ocel, dřevo, hliník, nátěr, sádrokarton)",
+    "c3": "Třída zrnitosti a standard, podle kterého nakupujete (FEPA nebo ANSI)",
+    "c4": "Velikost, průměr, otvory a množství",
+    "c5": "Cílová země a požadované balení nebo značení"
   },
   "clients": {
     "h1": "Kam směřují zásilky MoTai",
@@ -445,7 +514,29 @@
     "note": "Loga zákazníků a reference níže jsou zástupná místa — nahraďte src/data/trust.json zveřejněnými podklady.",
     "placeholderBadge": "Ilustrační zástupný obsah",
     "statsTitle": "Dodávky na první pohled",
-    "statsNote": "Zobrazené certifikace jsou zástupné a čekají na zveřejněné certifikáty."
+    "statsNote": "Zobrazené certifikace jsou zástupné a čekají na zveřejněné certifikáty.",
+    "regionsTitle": "Z Hubei na váš trh",
+    "regionsSub": "Stejný závod obsluhuje sedm cílových oblastí; balení a značení se nastavují pro každou z nich.",
+    "logisticsTitle": "Co potvrzujeme před expedicí",
+    "logisticsSub": "Čtyři body sjednané v nabídce, ne až u expedice.",
+    "l1": "Balicí list — počty v balení podle velikosti a zrnitosti, v souladu s objednávkou",
+    "l2": "Značení kartonů — vaše značení nebo standardní sada, dohodnutá před výrobní sérií",
+    "l3": "Uspořádání palet — nastavené pro vaše místo dodání a manipulační techniku",
+    "l4": "Místo dodání a doklady — dohodnuté společně s nabídkou",
+    "faqTitle": "Otázky kupujících o dodávkách",
+    "f1": "Která místa dodání zásobujete?",
+    "fa1": "Sedm cílových oblastí v Evropě, Severní Americe, na Středním východě a v Asii; balení a značení se nastavují podle místa dodání.",
+    "f2": "Jak chráníte zboží během přepravy?",
+    "fa2": "Balení se určuje podle místa dodání a potvrdí se v nabídce; ochrana proti vlhkosti a uspořádání palet vycházejí z podmínek přepravy, které nám sdělíte.",
+    "f3": "Jsou loga zákazníků na této stránce skutečná?",
+    "fa3": "Ne. Jde o zástupná místa. Než je použijete jako reference, nahraďte src/data/trust.json zveřejněnými podklady.",
+    "f4": "Jsou uvedené certifikace ověřené?",
+    "fa4": "Místa pro certifikace jsou zástupné, dokud nebudou k dispozici zveřejněné certifikáty; potvrzené výrobcem jsou pouze údaje o závodě.",
+    "qaTitle": "Co potřebujeme od vás",
+    "qaSub": "Tři body, díky kterým odpovíme specifikací, dodací lhůtou a cenou.",
+    "q1": "Aplikace, stroj a požadovaný výsledný povrch",
+    "q2": "Opracovávaný materiál a standard zrnitosti, podle kterého nakupujete (FEPA nebo ANSI)",
+    "q3": "Množství, cílová země a požadované balení nebo značení"
   },
   "glossary": {
     "h1": "Slovník brusných materiálů",
@@ -991,6 +1082,11 @@
         "title": "Brusné produkty velkoobchodně — pásky, kotouče a flapy | MoTai",
         "description": "Úplný katalog brusných materiálů MoTai: průmyslové brusné pásky, kotouče a flapy pro distributory, importéry, obchodníky a OEM značky. Velkoobchod přímo z továrny, přizpůsobení a export z Hubei, Čína.",
         "keywords": "brusné materiály, brusné materiály velkoobchodně, průmyslové brusné materiály, povlakované brusné materiály, brusné materiály velkoobchodně, továrna brusných produktů, exportér brusných produktů, dodavatel brusných materiálů Čína, výrobce brusných materiálů OEM, brusné materiály pod vlastní značkou, přizpůsobené brusné materiály, hromadná dodávka brusných materiálů, továrna brusných materiálů, brusné nářadí, brusné látky, produkty na broušení, produkty na hotové broušení, brusný papír, listy brusného papíru, kruhový brusný papír, brusný papír velkoobchodně, brusný podložka, hook and loop brusný podložka, brusný podložka 5 palce, brusný podložka 6 palce, ne-tekutelný brusný kužel, brusné textilie, průmyslový válečkový štětec"
+      },
+      "sponge": {
+        "title": "Výrobce a velkoobchodní dodavatel brusných houb | MoTai",
+        "description": "Ohebné brusné houby a tlusté pěnové bloky pro mokré i suché ruční broušení křivek, hran, plochých povrchů a opravovaných stěn. Opakovaně použitelné, více zrnitostí, výsekový řez a OEM balení. Velkoobchod přímo z továrny.",
+        "keywords": "brusné houby, brusné houbové bloky, brusné houby na ruční broušení, brusné houby s abrazivem, houby na ruční broušení, výrobce brusných houb, brusné houby velkoobchod, brusné houby výsekový řez, brusné houby OEM"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — Firemní a produktová videa MoTai",
       "description": "Firemní a produktové video od MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, video brusných médií, záznam z výroby brusných médií, video MoTai, výroba brusných médií, video dodavatele brusných médií"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Výrobce brusných houb",
+      "description": "MoTai {name}: {summary} Velkoobchodní dodávky a OEM balení pro distributory a dílny.",
+      "keywords": "brusné houby, brusné houbové bloky, brusné houby s abrazivem, houby s abrazivem na ruční broušení, výrobce brusných houb, brusné houby velkoobchod"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Jak si vybrat v této řadě",
+    "guideSub": "Čtyři body, které rozhodují o tom, který výrobek sedí na vaši aplikaci — potvrďte je v nabídce.",
+    "specTitle": "Jaké specifikace řada pokrývá",
+    "specSub": "Co řada dnes pokrývá, a to na základě záznamů o výrobcích.",
+    "faqTitle": "Otázky kupujících o této řadě",
+    "belts": [
+      {
+        "q": "Která šířka pásu vyhovuje mému stroji?",
+        "a": "Dokumentované velikosti sahají od 533 × 75 mm do 2200 × 1330 mm; ultraširoké jednodílné pásy nad 1500 mm se obejdou bez spoje. Uveďte stroj, zatížení a požadovaný povrch, aby se šířka potvrdila v nabídce."
+      },
+      {
+        "q": "Jaké zrnité stupně mohu objednat?",
+        "a": "Stupně 40–800 se zrnem z oxidu hlinitého, oxidu zirkoničitého a karbidu křemíku. Hrubá zrnitost odstraňuje materiál rychle, jemná prohlazuje a dokončuje povrch."
+      },
+      {
+        "q": "Dodáváte i nestandardní velikosti?",
+        "a": "Ano. Šířku a délku nad dokumentované rozměry naceníme případ od případu; konverze na zakázkovou velikost ovlivní dodací lhůtu i minimální objednávkové množství."
+      },
+      {
+        "q": "Jaké jsou spoj a okrajové provedení?",
+        "a": "Typ spoje a úprava okrajů jsou stanoveny podle referenčního označení. Uveďte stroj, zatížení a otáčky, aby se správné provedení potvrdilo v nabídce."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Suchý zip, PSA nebo síť — co vyhovuje mému nástroji?",
+        "a": "Suchý zip vyhovuje při časté výměně zrnitosti na excentrické brusce, PSA při rovných podkladech a dlouhých bězích, síťové provedení při odsávání prachu."
+      },
+      {
+        "q": "Jaké velikosti a obrazy otvorů jsou dokumentované?",
+        "a": "Kotouče 3, 4, 5 a 6 palců s obrazem otvorů příslušné reference; středový otvor musí odpovídat vašemu nástroji."
+      },
+      {
+        "q": "Které stupně na jakou práci?",
+        "a": "Hrubá zrnitost rychle odstraní rez a starý nátěr, jemná prohlazuje a připravuje povrch na dokončování. Uveďte materiál a požadovaný výsledný povrch."
+      },
+      {
+        "q": "Podporujete odsávání prachu?",
+        "a": "V této řadě jsou dokumentovaná síťová a perforovaná provedení pro odsávání; perforovaný vzor nechává povrch během broušení viditelný."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Který podklad vyhovuje mé aplikaci?",
+        "a": "Plastový podklad vyhovuje běžnému broušení kovů, ocelový náročnějšímu odstranění otřepů a podklad ze sklovlákna dlouhým běhům při vysokých otáčkách; středový otvor musí odpovídat nástroji."
+      },
+      {
+        "q": "K čemu se používají lamelové kotouče?",
+        "a": "Broušení svarů, odstraňování rzi, prohlazování povrchů a dokončování kovových dílů — kotouč volte podle jmenovitých otáček nástroje a vždy s nasazeným krytem."
+      },
+      {
+        "q": "Dodáváte i velká množství?",
+        "a": "Ano. Lamelové kotouče dodáváme hromadně distributorům a dílám; zrnitost, podklad, průměr a množství se sjednají společně v nabídce."
+      },
+      {
+        "q": "Proč se můj kotouč na okuji zanáší?",
+        "a": "Okuj brusivo rychle zanáší. Zvolte hrubší zrnitost, držte kotouč rovně k obrobku a zanášející se povrch průběžně čistěte."
+      }
+    ],
+    "all": [
+      {
+        "q": "Kde začít, když moje aplikace není v seznamu?",
+        "a": "Pošlete materiál, stroj, požadovaný povrch a objem; odpovíme produktovou řadou, specifikací a dodací lhůtou, která sedí."
+      },
+      {
+        "q": "Mohu si nejprve objednat každou referenci v jednom kusu?",
+        "a": "Vzorky standardních referencí jsou k dispozici na vyžádání; dostupnost vzorků a přepravní podmínky potvrdíme společně s odpovědí."
+      },
+      {
+        "q": "Naceníte OEM napříč všemi řadami?",
+        "a": "Ano. Logo, etikety, velikost a balení se nacení na základě posouzení proveditelnosti — u pásů, kotoučů i lamelových kotoučů."
+      },
+      {
+        "q": "Kam spadají brusné houby v sortimentu?",
+        "a": "Ruční broušení: ohebné houby na křivky a profily, pěnové bloky na ploché povrchy a opravované stěny. Obojí se nacení s rozměry, zrnitostí, hustotou pěny a množstvím."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Ohebné houby nebo pěnové bloky — co na mou práci?",
+        "a": "Ohebné houby vyhovují křivkám, hranám a profilům, pěnové bloky plochým povrchům, hranám a opravovaným stěnám. Po vyčištění lze obojí použít opakovaně."
+      },
+      {
+        "q": "Označuje barva pěny zrnitost?",
+        "a": "Ne. Barva pěny neříká nic o zrnitosti ani tvrdosti. Zrnitost, brusný materiál a hustotu pěny uveďte v dotazu a my je sjednotíme v nabídce."
+      },
+      {
+        "q": "Provedete výsekový řez do vlastních tvarů a balíte i pod mou značku?",
+        "a": "Ano. Pošlete profil, tloušťku, zrnitost, formát balení a cílová množství; výsekové formy a požadavky na grafiku se potvrdí v rámci kontroly specifikace."
+      },
+      {
+        "q": "Lze houby oplachovat a používat opakovaně?",
+        "a": "Lze je opláchnout a používat, dokud se spotřebuje brusná vrstva; životnost závisí na zrnitosti, tlaku a broušeném povrchu."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Brusné houby · Řada pro ruční broušení",
+    "thickness": "Konstrukce",
+    "gritNote": "Barvy pěny neříkají nic o zrnitosti ani tvrdosti. Rozměry, zrnitost, brusný materiál, hustotu pěny, balení a množství uveďte v dotazu.",
+    "overviewTitle": "Přehled výrobku",
+    "overviewBody": "Ohebné, opakovaně použitelné brusné houby pro mokré i suché broušení. Pěna se přizpůsobuje křivkám, hranám a profilům pro kontrolované ruční broušení.",
+    "checklistTitle": "Potvrďte správnou specifikaci",
+    "checklistSub": "Tyto údaje nám pomohou posoudit váš dotaz. Jsou to požadavky k potvrzení, nikoli zveřejněné parametry výrobku.",
+    "c1": "Rozměry — uveďte šířku × délku v mm",
+    "c2": "Požadovaná zrnitost — uveďte třídu nebo druh povrchu",
+    "c3": "Obrobek a stroj — sdělte materiál, stroj a zamýšlený povrch",
+    "c4": "Množství a balení — uveďte množství, požadavky na balení a místo dodání",
+    "enquiryTitle": "Jak požádat o nabídku",
+    "enquirySub": "Od výběru výrobku po nabídku.",
+    "e1t": "Vyberte si výrobek",
+    "e1b": "Projděte řadu brusných houb a vyberte konstrukci, kterou vaše aplikace potřebuje.",
+    "e2t": "Sdělte své požadavky",
+    "e2b": "Doplňte množství, rozměry, zrnitost a požadavky na balení.",
+    "e3t": "Zkontrolujte nabídku",
+    "e3b": "Konečnou specifikaci a obchodní podmínky si s naším týmem potvrďte.",
+    "appsTitle": "Použití brusných houb při ručním broušení",
+    "appsSub": "Na dřevo, kov, opravy karoserie a vhodné stěnní povrchy včetně spár. Zrnitost přizpůsobte materiálu a vyzkoušejte ji na nenápadném místě.",
+    "a1t": "Broušení dřeva",
+    "a1b": "Brusné bloky na dřevěné výrobky, včetně přípravy povrchu a broušení hran u nábytku, skříní a dalších dřevěných dílů.",
+    "a2t": "Brusné houby na sádrokarton",
+    "a2b": "Brusné bloky na vyhlazování spojů v sádrokartonu, přechodové ztmavení stěrky a přípravu stěn před základním nátěrem a barvou.",
+    "a3t": "Odstraňování rzi",
+    "a3b": "Ohebné, opakovaně použitelné brusné houby pro mokré i suché broušení. Pěna se přizpůsobuje křivkám, hranám a profilům pro kontrolované ruční broušení.",
+    "faqTitle": "Otázky kupujících",
+    "q1": "Prozradí barva druh brusiva?",
+    "a1": "Ne. Barva pěny neříká nic o zrnitosti ani tvrdosti. Zrnitost, brusný materiál a hustotu pěny uveďte v dotazu.",
+    "q2": "Jak požádat o OEM balení?",
+    "a2": "K dotazu přiložte grafiku etiket, formát balení, cílová množství a místo dodání; dostupnost OEM a požadavky na grafiku se potvrdí v rámci kontroly specifikace.",
+    "q3": "Znamená žádost o nabídku objednávku?",
+    "a3": "Ne. Jde o velkoobchodní dotaz. Specifikace a obchodní podmínky se potvrdí v nabídce, než se zahájí jakákoli výrobní série.",
+    "ctaTitle": "Potřebujete brusné houby ve větším množství?",
+    "ctaSub": "Pošlete rozměry, zrnitost, množství a místo dodání — specifikaci a dodací lhůtu potvrdíme."
   }
 }

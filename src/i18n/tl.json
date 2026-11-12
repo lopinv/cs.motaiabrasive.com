@@ -54,6 +54,11 @@
       "title": "Lahat ng Produkto",
       "desc": "Buong katalogo ng abrasive ng MoTai: mga abrasive belt, sanding disc, at flap disc para sa mga manlilíhok sa industrial, distributor, at private-label brand.",
       "label": "Lahat ng Produkto"
+    },
+    "sponge": {
+      "title": "Mga Sanding Sponge ng MoTai",
+      "desc": "Malalambot na pad ng sanding sponge at makapal na bloke ng foam para sa basa o tuyong hand sanding ng mga kurbada, gilid, patag na ibabaw at mga naayos na pader. Magamit muli pagkatapos linisin. Tinatanggap ang mga wholesale at OEM na inquiry.",
+      "label": "Mga Sanding Sponge"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Mga espesipikasyon",
     "howTitle": "Paano isama ang espesipikasyon ng iyong order",
     "howBody": "Isama ang sukat ng belt o disc, listahan ng grit, model ng makina, materyal ng workpiece, at bili. Ang malinaw na espesipikasyon ay matutugon kung paano suriin ang fit at ipangandaring ang kapaki-pakinabang na quotation - huwag pumili ng produkto gamit ang kulay lamang.",
-    "faqTitle": "Mga tanong ng manlilíhok"
+    "faqTitle": "Mga tanong ng manlilíhok",
+    "family": "Uri ng produkto"
   },
   "about": {
     "h1": "Ang kompanya sa likod ng saklaw ng abrasive",
@@ -264,7 +270,28 @@
     "pr6t": "Pagpapadala",
     "pr6b": "Ayusin ang packing at destination.",
     "cta1": "Kumuha ng Wholesale Quote",
-    "cta2": "Makipag-ugnayan sa pamamagitan ng WhatsApp"
+    "cta2": "Makipag-ugnayan sa pamamagitan ng WhatsApp",
+    "faqTitle": "Mga tanong na tinatanong ng mga OEM brand",
+    "faqSub": "Ang mga praktikal na punto na nagpapasya sa isang OEM feasibility check.",
+    "o1": "Ano ang minimum order quantity para sa OEM?",
+    "oa1": "Ang minimum na bili ay nakadepende sa linyang produkto, laki, pagsasalat ng grit, at packaging; ito ay kino-kumpirma sa feasibility review na kasama ng iyong quotation.",
+    "o2": "Anong artwork ang kailangan ninyo sa amin?",
+    "oa2": "Print-ready na artwork kasama ang iyong brand, ang mga laki ng label na ginagamit mo, at anumang marka ng destination na kailangan. Ang mga kailangan sa artwork ay kino-kumpirma sa review bago ang isang run.",
+    "o3": "Maaari ba akong makakuha ng sample run bago mag-commit?",
+    "oa3": "Oo. Ang mga sample ng mga standard na reference ay magagamit para sa pagsusuri, at ang mga pag-apruba ng OEM artwork ay sumusunod sa kumpirmadong espesipikasyon.",
+    "o4": "Nagpo-pack ba kayo sa ilalim ng aming brand lamang?",
+    "oa4": "Oo. Ang mga private label run ay naglalapat ng iyong logo, label, sukat, at packaging; ang mga label ay inilalapat at bine-verify bago isarado ang carton, hindi pagkatapos itong dumating.",
+    "o5": "Gaano katagal ang isang OEM feasibility check?",
+    "oa5": "Ang check ay sumusunod sa hakbang ng review; ang mga stock na reference ang pinakamabilis sagutin dahil walang converting lead time na naiaangkop sa kanila.",
+    "specTitle": "Ano ang laman ng isang OEM brief",
+    "specSub": "Anim na punto na nagbibigay-daan upang maibalik namin ang kapaki-pakinabang na feasibility check sa unang pagsubok.",
+    "checklistTitle": "Bago ipadala ang brief",
+    "c1": "Linya ng produkto at ang reference ng espesipikasyon na binibili mo ngayon",
+    "c2": "Artwork ng label, print-ready, kasama ang mga laki ng label na ginagamit mo",
+    "c3": "Format ng packaging — carton, inner pack, retail unit",
+    "c4": "Target na bili at ang pagsasalat ng mga sukat / grit",
+    "c5": "Destination at anumang marka o dokumento ng destination",
+    "c6": "Timing — petsa ng paglulunsad o ang unang window ng shipment"
   },
   "applications": {
     "h1": "Mga abrasive para sa iyong industriya",
@@ -437,7 +464,49 @@
     "consent": "Tumanggap ako sa Privacy Policy, Tuntunin sa Paggamit, at sa paggamit ng aking mga detalye upang sagutin ang inquiry na ito. *",
     "btn1": "Kumuha ng Wholesale Quote",
     "btn2": "Ipada ang inquiry gamit ang WhatsApp",
-    "goNote": "Buksan ang form sa aming wholesale inquiry system kasama ang context ng iyong produkto na naka-prefill na."
+    "goNote": "Buksan ang form sa aming wholesale inquiry system kasama ang context ng iyong produkto na naka-prefill na.",
+    "whyTitle": "Bakit humihiling ng quote sa MoTai ang mga bumibili",
+    "whySub": "Apat na dahilan kung bakit ipinapadala ng mga distributor at fabrication shop ang kanilang espesipikasyon sa amin.",
+    "w1t": "Presyong direkta mula sa pabrika",
+    "w1b": "Ang converting ay ginagawa sa sariling planta namin sa Xianning, Hubei, kaya ang quotation ay sumasalamin sa gastos ng converting, hindi sa kadena ng mga intermediary.",
+    "w2t": "Espesipikasyong nakumpirma sa sulat",
+    "w2b": "Ang grit, backing, dimensyon, packing, at mga marka ay napagkasunduan sa quotation, na siyang pinagbabatayan ng pagsusuri ng order bago ang pagpapadala.",
+    "w3t": "Stock para sa mga standard na sukat",
+    "w3b": "Ang mga standard na lapad at grit ay nasa rack at handa na, na nagpapanatili ng maiikling mga order ng replenishment habang ang mga custom na sukat ay ginagawa pa rin ayon sa iyong kumpirmadong espesipikasyon.",
+    "w4t": "OEM at private label",
+    "w4b": "Ang iyong logo, label, sukat, at packaging, inu-quote ayon sa isang feasibility review imbes na sa hula.",
+    "stepsTitle": "Paano nagiging kumpirmadong order ang isang inquiry",
+    "stepsSub": "Apat na hakbang, bawat isa ay may nakasulat na checkpoint, upang walang bagay na napagkasunduan sa pintuan ng pagpapadala.",
+    "p1t": "Ipinapadala mo ang espesipikasyon",
+    "p1b": "Kategorya ng produkto, model o reference, laki, grit, materyal, bili, packaging, at destination — ang mga patlang sa ibaba.",
+    "p2t": "Sinasuri namin at sumasagot",
+    "p2b": "Ang mga sukat, grado, backing, at packaging ay sinuri laban sa iyong gamit; ang isang hindi pagtutugma ay itinataas bago ang quotation.",
+    "p3t": "Pag-apruba ng sample (kung kailangan)",
+    "p3b": "Ang mga sample ng mga standard na reference ay magagamit kapag hiniling at pinapahalagahan bago pagkasunduan ang isang produksyon.",
+    "p4t": "Produksyon ayon sa kumpirmadong spec",
+    "p4b": "Ang produksyon ay nagpapatuloy ayon sa kumpirmadong espesipikasyon, pagkatapos ang mga checkpoint, pack list, at mga marka ay inilalapat bago ang pagpapadala.",
+    "faqTitle": "Mga tanong na tinatanong ng mga bumibili bago humiling ng quote",
+    "faqSub": "Ang mga praktikal na detalye na nagpapasya sa presyo, lead time, at angkop na pagkakasya.",
+    "q1": "Ano ang minimum order quantity?",
+    "a1": "Ang minimum na bili ay nakadepende sa linyang produkto, laki, at packaging; ito ay kino-kumpirma sa sagot sa iyong inquiry imbes na ilathala bilang isang solong numero.",
+    "q2": "Gaano katagal ang isang quotation?",
+    "a2": "Ang sagot kasama ang espesipikasyon, lead time, at presyo ay inilalabas pagkatapos ng hakbang ng review; ang mga stock na reference ang pinakamabilis i-quote dahil walang naiaangkap na converting lead time.",
+    "q3": "Maaari ba akong makakuha ng sample muna?",
+    "a3": "Oo. Ang mga sample ng mga standard na reference ay magagamit para sa pagsusuri kapag hiniling; ang availability ng sample at mga kondisyon ng freight ay kino-kumpirma kasama ang iyong sagot.",
+    "q4": "Sinusuportahan ninyo ba ang OEM at private label?",
+    "a4": "Oo. Ipadala ang iyong logo, artwork ng label, format ng packaging, at target na bili, at ibabalik namin ang isang OEM feasibility check kasama ang quotation.",
+    "q5": "Anong mga kondisyon ng bayad at pagpapadala ang ginagamit ninyo?",
+    "a5": "Ang mga komersyal na kondisyon ay kino-kumpirma bawat inquiry sa quotation, kasama ang destination, packing, at ang incoterm na tinutukoy mo.",
+    "trustTitle": "Supply sa isang sulyap",
+    "trustSub": "Ang planta sa likod ng iyong quotation.",
+    "trustNote": "Ang mga numero ay naglalarawan sa site ng paggawa; ang mga kondisyon sa antas ng order ay kino-kumpirma sa quotation.",
+    "checklistTitle": "Bago mo ito ipadala",
+    "checklistSub": "Ang pagkakaroon ng limang puntong ito na handa ay nagpapabuti nang malaki ng bilis ng unang sagot.",
+    "c1": "Gamit, makina, at kailangang finish",
+    "c2": "Materyal na papagtrabahuhan (steel, kahoy, aluminium, pintura, drywall)",
+    "c3": "Grado ng grit at standard na binibilhan mo (FEPA o ANSI)",
+    "c4": "Laki, diameter, mga butas, at bili",
+    "c5": "Bansang destination at packing o mga markang kailangan"
   },
   "clients": {
     "h1": "Saan pumupunta ang mga shipment ng MoTai",
@@ -445,7 +514,29 @@
     "note": "Ang mga logo ng kliyente at testimonial sa ibaba ay mga placeholder - palitan ang src/data/trust.json gamit ang mga naka-publish na materyal.",
     "placeholderBadge": "Placeholder na halimbawa",
     "statsTitle": "Supply sa isang tingin",
-    "statsNote": "Ang mga certification na nakalantad ay placeholder hangga't walang naka-publish na sertipiko."
+    "statsNote": "Ang mga certification na nakalantad ay placeholder hangga't walang naka-publish na sertipiko.",
+    "regionsTitle": "Mula Hubei hanggang sa iyong merkado",
+    "regionsSub": "Ang iisang planta ay nagsisilbi sa pitong rehiyon ng destination; ang packing at mga marka ay itinakda bawat destination.",
+    "logisticsTitle": "Ang kino-kumpirma namin bago ang pagpapadala",
+    "logisticsSub": "Apat na puntong napagkasunduan sa quotation, hindi sa pintuan ng pagpapadala.",
+    "l1": "Packing list — dami ng pack ayon sa sukat at grit, tumutugma sa order",
+    "l2": "Mga marka ng carton — ang iyong mga marka o ang standard na set, napagkasunduan bago ang run",
+    "l3": "Pattern ng pallet — itinakda para sa iyong destination at kagamitan sa paghawak",
+    "l4": "Destination at mga dokumento — napagkasunduan kasama ang quotation",
+    "faqTitle": "Mga tanong na tinatanong ng mga bumibili tungkol sa supply",
+    "f1": "Anong mga destination ang supply ninyo?",
+    "fa1": "Pitong rehiyon ng destination sa Europa, Hilagang Amerika, Gitnang Silangan, at Asia; ang packing at mga marka ay itinakda bawat destination.",
+    "f2": "Paano ninyo pinoprotektahan ang mga kalakal habang nasa transit?",
+    "fa2": "Ang packing ay tinutukoy bawat destination at kino-kumpirma sa quotation; ang proteksyon sa moisture at pattern ng pallet ay sumusunod sa mga kondisyon ng transit na isinasalaysay mo sa amin.",
+    "f3": "Toto ba ang mga logo ng kliyente sa pahinang ito?",
+    "fa3": "Hindi. Mga placeholder slot lamang ang mga ito. Palitan ang src/data/trust.json ng mga naka-publish na materyal bago umasa sa kanila bilang mga reference.",
+    "f4": "Nakaberipika ba ang mga certification na nakalista?",
+    "fa4": "Ang mga slot ng certification ay placeholder hangga't walang naka-publish na sertipiko; ang mga numero ng planta na ipinapakita lamang ang kino-kumpirma ng pabrika.",
+    "qaTitle": "Ang kailangan namin sa iyo",
+    "qaSub": "Tatlong punto na nagbibigay-daan upang makasagot kami ng espesipikasyon, lead time, at presyo.",
+    "q1": "Gamit, makina, at ang kailangang finish",
+    "q2": "Materyal na pinapagtrabahuhan at standard ng grit na binibilhan mo (FEPA o ANSI)",
+    "q3": "Bili, bansang destination, at packing o mga markang kailangan"
   },
   "glossary": {
     "h1": "Glossary ng abrasive",
@@ -991,6 +1082,11 @@
         "title": "Wholesale ng Mga Produkto ng Abrasive - Mga Belt, Disc, at Flap Disc | MoTai",
         "description": "Buong katalogo ng abrasive ng MoTai: mga industrial na abrasive belt, sanding disc, at flap disc para sa mga distributor, importer, wholesaler, at OEM brand. Direkta mula sa pabrika na wholesale, customization, at export mula Hubei, China.",
         "keywords": "mga produkto ng abrasive, wholesale ng mga produkto ng abrasive, mga industrial na abrasive, mga coated abrasives, wholesale ng abrasive, pabrika ng mga produkto ng abrasive, exporter ng mga produkto ng abrasive, tagapag-supply ng abrasive sa China, tagagawa ng OEM na abrasive, private label na abrasive, custom na produkto ng abrasive, bulk na supply ng abrasive, pabrika ng abrasive, mga kasangkapan ng abrasive, mga materyales ng abrasive, mga produkto ng sanding, mga produkto ng pagpapaliwanag ng ibabaw, sandpaper, mga salamin ng sandpaper, bilog na sandpaper, wholesale ng sandpaper, sanding pad, hook and loop na sanding pad, 5 pulgada na sanding pad, 6 pulgada na sanding pad, non-woven na flap wheel, cloth na abrasive, industrial na roller brush"
+      },
+      "sponge": {
+        "title": "Tagagawa ng Sanding Sponge at Wholesale Supplier | MoTai",
+        "description": "Malalambot na pad ng sanding sponge at makapal na bloke ng foam para sa basa o tuyong hand sanding ng mga kurbada, gilid, patag na ibabaw, at mga naayos na pader. Magamit muli, multi-grit, die-cut at OEM packing. Wholesale na direkta mula sa pabrika.",
+        "keywords": "sanding sponge, mga bloke ng sanding sponge, mga pad ng sanding sponge, abrasive sponge, hand sanding sponge, tagagawa ng sanding sponge, wholesale ng mga sanding sponge, die-cut na sanding sponge, OEM na sanding sponge"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — Mga Video ng Pabrika at Produkto ni MoTai",
       "description": "Video ng pabrika at produkto mula sa MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, video ng abrasives, footage ng pabrika ng abrasives, video ni MoTai, paggawa ng abrasives, video ng supplier ng abrasives"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Tagagawa ng Sanding Sponge",
+      "description": "MoTai {name}: {summary} Wholesale supply at OEM packaging para sa mga distributor at workshop.",
+      "keywords": "sanding sponge, bloke ng sanding sponge, abrasive sponge, hand sanding pad, tagagawa ng sanding sponge, wholesale ng mga sanding sponge"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Paano piliin ang linyang ito",
+    "guideSub": "Apat na punto na nagpapasya kung aling produkto ang angkop sa iyong gamit — kumpirmahin ang mga ito kasama ang quotation.",
+    "specTitle": "Saklaw ng espesipikasyon",
+    "specSub": "Ang saklaw ng linyang ito ngayon, direkta mula sa mga talaan ng produkto.",
+    "faqTitle": "Mga tanong na tinatanong ng mga bumibili tungkol sa linyang ito",
+    "belts": [
+      {
+        "q": "Anong lapad ng belt ang angkop sa aking makina?",
+        "a": "Ang mga nakadokumentong sukat ay mula 533 × 75 mm hanggang 2200 × 1330 mm; ang ultra-wide na single-piece na belt na higit 1500 mm ay nakakaiwas sa joint. Sabihin ang makina, load, at finish upang kumpirmahin ang lapad kasama ang quotation."
+      },
+      {
+        "q": "Anong saklaw ng grit ang maaari kong i-order?",
+        "a": "Grit 40–800 sa aluminium oxide, zirconia, at silicon carbide grain. Ang magaspang na grit ay mabilis na nagtatanggal ng stock; ang pinong grit ay nag-blend at nagfi-finish."
+      },
+      {
+        "q": "Nagbibigay ba kayo ng custom na sukat?",
+        "a": "Oo. Ang lapad at haba na lampas sa mga nakadokumentong sukat ay ini-quote ayon sa bawat kaso; ang converting sa custom na sukat ay nakakaapekto sa parehong lead time at minimum order quantity."
+      },
+      {
+        "q": "Anong joint at konstruksyon ng gilid?",
+        "a": "Ang uri ng joint at pagtrato ng gilid ay tinutukoy bawat reference. Sabihin sa amin ang makina, load, at bilis upang kumpirmahin ang tamang konstruksyon."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Hook & loop, PSA o mesh — alin ang para sa aking tool?",
+        "a": "Ang hook & loop ay akma sa madalas na pagbabago ng grit sa random-orbit sander, ang PSA ay akma sa patag na pad at mahabang run time, at ang mesh ay akma sa paghihiwalay ng alikabok."
+      },
+      {
+        "q": "Anong mga sukat at pattern ng butas ang nakadokumento?",
+        "a": "3, 4, 5 at 6 pulgadang disc kasama ang mga pattern ng butas ng bawat reference; ang arbor o centre hole ay dapat tumugma sa iyong tool."
+      },
+      {
+        "q": "Aling grit para sa gawain?",
+        "a": "Ang magaspang na grit ay mabilis na nagtatanggal ng kalawang at pintura; ang pinong grit ay nag-blend at naghahanda para sa pagfi-finish. Sabihin ang materyal at ang kailangang finish."
+      },
+      {
+        "q": "Sinusuportahan ba ninyo ang paghihiwalay ng alikabok?",
+        "a": "Ang mga mesh at perforated na dustless na format ay nakadokumento sa linyang ito; ang perforated na pattern ay nagpapanatili ng nakikitang ibabaw habang nag-sa-sand."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Aling backing ang akma sa aking gamit?",
+        "a": "Ang plastic ay akma sa pangkalahatang paghambog ng metal, ang steel ay akma sa mahihirap na pag-deburr, at ang fiberglass ay akma sa tibay sa mataas na bilis; ang arbor hole ay dapat tumugma sa tool."
+      },
+      {
+        "q": "Para sa ano ang mga flap disc?",
+        "a": "Paghambog ng mga weld, pagtanggal ng kalawang, pag-blend ng mga ibabaw, at pagfi-finish ng mga bahagi ng metal — itinutugma sa rated na bilis ng tool kasama ang guard na naka-kabit."
+      },
+      {
+        "q": "Nagbibigay ba kayo ng bulk na bili?",
+        "a": "Oo. Ang mga flap disc ay ini-supply nang bulk para sa mga distributor at workshop; ang grit, backing, diameter, at bili ay itinakda nang magkasama sa quotation."
+      },
+      {
+        "q": "Bakit napapa-makintab at nawawalang-bisa ang aking disc sa mill scale?",
+        "a": "Ang mill scale ay mabilis na naglo-load sa abrasive. Pumili ng magaspang na grit, panatilihing patag ang disc sa trabaho, at linisin ang ibabaw habang ito ay naglo-load."
+      }
+    ],
+    "all": [
+      {
+        "q": "Saan ako magsisimula kung ang aking gamit ay wala sa listahan?",
+        "a": "Ipadala ang materyal, makina, finish, at dami; kami ay sumasagot ng product family, espesifikasyon, at lead time na angkop."
+      },
+      {
+        "q": "Maaari ba akong mag-order ng isa sa bawat reference muna?",
+        "a": "Ang mga sample ng mga standard na reference ay magagamit kapag hiniling; ang availability ng sample at mga kondisyon ng freight ay kino-kumpirma kasama ang iyong sagot."
+      },
+      {
+        "q": "Ini-quote ba ninyo ang OEM sa lahat ng linya?",
+        "a": "Oo. Ang logo, label, sukat, at packaging ay ini-quote ayon sa isang feasibility review sa mga belt, disc, at flap disc."
+      },
+      {
+        "q": "Saan ang mga sanding sponge sa saklaw?",
+        "a": "Hand sanding: malalambot na pad para sa mga kurbada at profile, mga bloke ng foam para sa mga patag na ibabaw at mga naayos na pader. Pareho silang ini-quote kasama ng dimensyon, grit, density ng foam, at bili."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Malalambot na pad o mga bloke ng foam — alin ang para sa aking gawain?",
+        "a": "Ang malalambot na pad ay akma sa mga kurbada, gilid, at profile; ang mga bloke ng foam ay akma sa mga patag na ibabaw, gilid, at mga naayos na pader. Pareho silang magamit muli pagkatapos linisin."
+      },
+      {
+        "q": "Iniindika ba ng kulay ng foam ang grit?",
+        "a": "Hindi. Ang kulay ng foam ay hindi grado ng grit o katigasan. Kumpirmahin ang grit, materyal ng abrasive, at density ng foam sa iyong inquiry at itutugma namin ito sa quotation."
+      },
+      {
+        "q": "Maaari ninyo bang i-die-cut ang mga custom na hugis at magpak ng ilalim ng aking brand?",
+        "a": "Oo. Ipadala ang iyong profile, kapal, grit, format ng packaging, at target na bili; ang die-cutting tooling at mga kailangan sa artwork ay kino-kumpirma sa review."
+      },
+      {
+        "q": "Nalilinis ba at magagamit muli ang mga ito?",
+        "a": "Maaari silang hugasan at gamiting muli hanggang sa masira ang abrasive layer; ang buhay ay nakadepende sa grit, pressure, at ang ibabaw na pinapagtrabahuhan."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Mga sanding sponge · Saklaw ng hand sanding",
+    "thickness": "Konstruksyon",
+    "gritNote": "Ang mga kulay ng foam ay hindi nagtatakda ng grit o katigasan. Kumpirmahin ang dimensyon, grit, materyal ng abrasive, density ng foam, packaging, at bili sa iyong inquiry.",
+    "overviewTitle": "Pangkalahatang-ideya ng produkto",
+    "overviewBody": "Malalambot at magagamit-muling abrasive sponge para sa basa o tuyong sanding. Ang foam ay umaayon sa mga kurbada, gilid, at profile para sa kontroladong hand sanding.",
+    "checklistTitle": "Kumpirmahin ang tamang espesipikasyon",
+    "checklistSub": "Ang mga detalye na ito ay tumutulong upang masuri namin ang iyong inquiry. Mga kailangang kumpirmahin ang mga ito, hindi mga naka-publish na rating ng produkto.",
+    "c1": "Mga dimensyon — tukuyin ang lapad × haba sa mm",
+    "c2": "Kailangang grit — tukuyin ang grado o ang kailangang finish",
+    "c3": "Workpiece at makina — ibahagi ang materyal, makina, at nilalayong finish",
+    "c4": "Bili at packaging — isama ang bili, mga kailangan sa packaging, at destinasyon ng paghahatid",
+    "enquiryTitle": "Paano mag-inquire",
+    "enquirySub": "Mula sa pagpili ng produkto hanggang sa quotation.",
+    "e1t": "Piliin ang iyong produkto",
+    "e1b": "Tuklasin ang saklaw ng sanding sponge at piliin ang konstruksyon na kailangan ng iyong gamit.",
+    "e2t": "Ibahagi ang iyong mga kailangan",
+    "e2b": "Idagdag ang bili, mga dimensyon, grit, at mga kailangan sa packaging.",
+    "e3t": "Suriin ang iyong quotation",
+    "e3b": "Kumpirmahin ang panghuling espesipikasyon at mga komersyal na kondisyon kasama ang aming team.",
+    "appsTitle": "Mga gamit ng hand sanding sponge",
+    "appsSub": "Para sa kahoy, metal, automotive refinishing, at angkop na ibabaw ng pader at grout. Itugma ang grit sa materyal at subukan sa isang hindi halatahang lugar.",
+    "a1t": "Sanding ng kahoy",
+    "a1b": "Mga bloke ng sanding para sa woodworking, kabilang ang paghahanda ng ibabaw at pag-sand ng gilid sa muwebles, kabinet, at iba pang bahagi ng kahoy.",
+    "a2t": "Mga sanding sponge para sa drywall",
+    "a2b": "Mga bloke ng sanding para sa pagpapatag ng mga joint ng drywall, pag-feather ng joint compound, at paghahanda ng mga pader para sa primer at pintura.",
+    "a3t": "Pagtanggal ng kalawang",
+    "a3b": "Malalambot at magagamit-muling abrasive sponge para sa basa o tuyong sanding. Ang foam ay umaayon sa mga kurbada, gilid, at profile para sa kontroladong hand sanding.",
+    "faqTitle": "Mga tanong ng bumibili",
+    "q1": "Natutukoy ba ng kulay ang uri ng abrasive?",
+    "a1": "Hindi. Ang kulay ng foam ay hindi grado ng grit o katigasan. Kumpirmahin ang grit, materyal ng abrasive, at density ng foam sa iyong inquiry.",
+    "q2": "Paano ako hihiling ng OEM packaging?",
+    "a2": "Ipadala ang iyong artwork ng label, format ng packaging, target na bili, at destination kasama ang inquiry; ang availability ng OEM at mga kailangan sa artwork ay kino-kumpirma sa review.",
+    "q3": "Nagbibigay ba ng order ang paghingi ng quote?",
+    "a3": "Hindi. Isang wholesale inquiry lamang ito. Ang espesipikasyon at mga komersyal na kondisyon ay kino-kumpirma sa quotation bago magsimula ang anumang run.",
+    "ctaTitle": "Kailangan ba ninyo ng mga sanding sponge nang bulk?",
+    "ctaSub": "Ipadala ang mga dimensyon, grit, bili, at destination — kino-kumpirma namin ang espesipikasyon at lead time."
   }
 }

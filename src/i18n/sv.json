@@ -54,6 +54,11 @@
       "title": "Alla produkter",
       "desc": "MoTais kompletta slipmedelskatalog: slipband, slipdiskar och slipeskivor för industriella köpare, distributörer och egna märken.",
       "label": "Alla produkter"
+    },
+    "sponge": {
+      "title": "MoTai slipsvampar",
+      "desc": "Flexibla slipkuddar av svamp och tjocka skumblock för våt eller torr handslipning av kurvor, kanter, plana ytor och reparerade väggar. Återanvändbara efter rengöring. Grossist- och OEM-förfrågningar välkomna.",
+      "label": "Slipsvampar"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifikationer",
     "howTitle": "Så här specificerar du din order",
     "howBody": "Inkludera band- eller diskstorlek, kornlista, maskinmodell, arbetsstyckets material och mängd. En tydlig specifikation hjälper oss att granska passningen och förbereda en användbar offert — undvik att välja en produkt enbart utifrån färg.",
-    "faqTitle": "Frågor från köpare"
+    "faqTitle": "Frågor från köpare",
+    "family": "Produkttyp"
   },
   "about": {
     "h1": "Företaget bakom slipmedelssortimentet",
@@ -264,7 +270,28 @@
     "pr6t": "Avskick",
     "pr6b": "Samordna packning och destination.",
     "cta1": "Begär en grossistoffert",
-    "cta2": "Kontakta via WhatsApp"
+    "cta2": "Kontakta via WhatsApp",
+    "faqTitle": "Frågor som OEM-varumärken ställer",
+    "faqSub": "De praktiska punkterna som avgör en genomförbarhetsbedömning för OEM.",
+    "o1": "Vad är OEM-minimumordern?",
+    "oa1": "Minimimängder beror på produktserie, storlek, kornblandning och förpackning; de bekräftas i genomförbarhetsbedömningen som återföljer din offert.",
+    "o2": "Vilka tryckfärdiga filer behöver ni från oss?",
+    "oa2": "Tryckfärdig grafik med ert varumärke, de etikettstorlekar ni använder och eventuella destinationsmärkningar som krävs. Kraven på grafik bekräftas i granskningen innan en produktion sätts igång.",
+    "o3": "Kan jag få en provkörning innan jag binder mig?",
+    "oa3": "Ja. Prover av standardreferenser finns tillgängliga för utvärdering, och godkännanden av OEM-grafik följer den bekräftade specifikationen.",
+    "o4": "Packar ni enbart under vårt varumärke?",
+    "oa4": "Ja. Vid privatmärkning sätts er logotyp, era etiketter, era storlekar och er förpackning på plats; etiketterna appliceras och kontrolleras innan kartongen försluts, inte först när den har landat.",
+    "o5": "Hur lång tid tar en OEM-genomförbarhetsbedömning?",
+    "oa5": "Bedömningen följer granskningssteget; lagerförda referenser besvaras snabbast eftersom ingen konverteringstid gäller för dem.",
+    "specTitle": "Vad en OEM-brief innehåller",
+    "specSub": "Sex punkter som låter oss lämna en användbar genomförbarhetsbedömning redan i första omgången.",
+    "checklistTitle": "Innan du skickar briefen",
+    "c1": "Produktserien och den specifikationsreferens du köper idag",
+    "c2": "Etikettgrafik, tryckfärdig, med de etikettstorlekar du använder",
+    "c3": "Förpackningsformat — kartong, innerförpackning, detaljistförpackning",
+    "c4": "Målmängder och fördelningen mellan storlekar / kornstorlekar",
+    "c5": "Destination och eventuella destinationsmärkningar eller dokument",
+    "c6": "Tidsplan — lanseringsdatum eller fönstret för den första leveransen"
   },
   "applications": {
     "h1": "Slipmedel för din bransch",
@@ -437,7 +464,49 @@
     "consent": "Jag godkänner integritetspolicyn, användarvillkoren samt användningen av mina uppgifter för att besvara den här förfrågan. *",
     "btn1": "Begär en grossistoffert",
     "btn2": "Skicka förfrågan via WhatsApp",
-    "goNote": "Formuläret öppnas i vårt grossistförfrågningssystem med din produktinformation ifylld i förväg."
+    "goNote": "Formuläret öppnas i vårt grossistförfrågningssystem med din produktinformation ifylld i förväg.",
+    "whyTitle": "Varför köpare begär offert hos MoTai",
+    "whySub": "Fyra skäl till att distributörer och tillverkningsverkstäder skickar sin specifikation till oss.",
+    "w1t": "Fabriksdirekt pris",
+    "w1b": "Konverteringen sker i vår egen anläggning i Xianning, Hubei, så att offerten speglar konverteringskostnaden och inte en kedja av mellanhänder.",
+    "w2t": "Specifikation bekräftad skriftligt",
+    "w2b": "Kornstorlek, bärare, mått, förpackning och märkning kommer överens i offerten, och det är mot den som ordern kontrolleras före avsändande.",
+    "w3t": "Lager för standardstorlekar",
+    "w3b": "Standardbredder och standardkorn ligger plockade och klara, vilket håller återfyllningsorder korta, medan specialmått fortfarande tillverkas enligt er bekräftade specifikation.",
+    "w4t": "OEM och privatmärkning",
+    "w4b": "Er logotyp, era etiketter, era storlekar och er förpackning — prismätt mot en genomförbarhetsbedömning i stället för en gissning.",
+    "stepsTitle": "Så blir en förfrågan en bekräftad order",
+    "stepsSub": "Fyra steg, vart och ett med en skriftlig kontrollpunkt, så att inte något avgörs i lastdörren.",
+    "p1t": "Du skickar specifikationen",
+    "p1b": "Produktkategori, modell eller referens, storlek, kornstorlek, material, mängd, förpackning och destination — fälten nedan.",
+    "p2t": "Vi granskar och svarar",
+    "p2b": "Storlekar, grader, bärare och förpackning granskas mot er användning; en avvikelse lyfs innan offerten läggs.",
+    "p3t": "Provgodkännande (där det krävs)",
+    "p3b": "Prover av standardreferenser finns tillgängliga på begäran och utvärderas innan en produktion kommer överens.",
+    "p4t": "Tillverkning mot den bekräftade specifikationen",
+    "p4b": "Produktionen fortskrider mot den bekräftade specifikationen, varefter kontrollpunkter, packlista och märkning sätts på före avsändande.",
+    "faqTitle": "Frågor som köpare ställer innan de begär offert",
+    "faqSub": "De praktiska detaljerna som avgör pris, ledtid och passform.",
+    "q1": "Vad är minimumordern?",
+    "a1": "Minimimängder beror på produktserie, storlek och förpackning; de bekräftas i svaret på er förfrågan i stället för att publiceras som ett enda tal.",
+    "q2": "Hur lång tid tar det att få en offert?",
+    "a2": "Ett svar med specifikation, ledtid och pris lämnas efter granskningssteget; lagerförda referenser prismätts snabbast eftersom ingen konverteringstid gäller.",
+    "q3": "Kan jag få ett prov först?",
+    "a3": "Ja. Prover av standardreferenser finns tillgängliga för utvärdering på begäran; provtillgång och fraktvillkor bekräftas tillsammans med ert svar.",
+    "q4": "Stödjer ni OEM och privatmärkning?",
+    "a4": "Ja. Skicka er logotyp, etikettgrafik, förpackningsformat och målmängder, så lämnar vi en OEM-genomförbarhetsbedömning tillsammans med offerten.",
+    "q5": "Vilka betal- och leveransvillkor använder ni?",
+    "a5": "Kommersiella villkor bekräftas per förfrågan i offerten, inklusive destination, förpackning och den incoterm ni anger.",
+    "trustTitle": "Leveransen i korthet",
+    "trustSub": "Anläggningen bakom er offert.",
+    "trustNote": "Siffrorna beskriver tillverkningsanläggningen; villkor på ordernivå bekräftas i offerten.",
+    "checklistTitle": "Innan du skickar den",
+    "checklistSub": "Att ha dessa fem punkter klara gör det första svaret avsevärt snabbare.",
+    "c1": "Användning, maskin och önskad yta",
+    "c2": "Material som ska bearbetas (stål, trä, aluminium, färg, gipsvägg)",
+    "c3": "Kornstorlek och den standard du köper enligt (FEPA eller ANSI)",
+    "c4": "Storlek, diameter, hål och mängd",
+    "c5": "Destinationsland och krav på förpackning eller märkning"
   },
   "clients": {
     "h1": "Vart MoTais leveranser går",
@@ -445,7 +514,29 @@
     "note": "Kundlogotyper och referenser nedan är platshållare — byt ut src/data/trust.json mot publicerat material.",
     "placeholderBadge": "Illustrativ platshållare",
     "statsTitle": "Leverans på ett ögonblick",
-    "statsNote": "De certifieringar som visas är platshållare tills publicerade certifikat föreligger."
+    "statsNote": "De certifieringar som visas är platshållare tills publicerade certifikat föreligger.",
+    "regionsTitle": "Från Hubei till er marknad",
+    "regionsSub": "Samma anläggning betjänar sju destinationsregioner; förpackning och märkning anpassas per destination.",
+    "logisticsTitle": "Vad vi bekräftar före avsändande",
+    "logisticsSub": "Fyra punkter som avgörs i offerten, inte i lastdörren.",
+    "l1": "Packlista — packmängder per storlek och kornstorlek, i överensstämmelse med ordern",
+    "l2": "Kartongmärkning — era märkningar eller standardsatsen, överenskommen innan produktionen",
+    "l3": "Pallmönster — anpassat efter er destination och er hanteringsutrustning",
+    "l4": "Destination och dokument — överenskomna tillsammans med offerten",
+    "faqTitle": "Frågor som köpare ställer om leveransen",
+    "f1": "Vilka destinationer levererar ni till?",
+    "fa1": "Sju destinationsregioner i Europa, Nordamerika, Mellanöstern och Asien; förpackning och märkning anpassas per destination.",
+    "f2": "Hur skyddar ni godset under transporten?",
+    "fa2": "Förpackningen specificeras per destination och bekräftas i offerten; fuktskydd och pallmönster följer de transportförhållanden ni beskriver för oss.",
+    "f3": "Är kundlogotyperna på den här sidan äkta?",
+    "fa3": "Nej. Det här är platshållarfält. Ersätt src/data/trust.json med publicerat material innan ni lutar er mot dem som referenser.",
+    "f4": "Är de uppräknade certifieringarna verifierade?",
+    "fa4": "Certifieringsfälten är platshållare i väntan på publicerade certifikat; endast de anläggningssiffror som visas är fabriksbekräftade.",
+    "qaTitle": "Vad vi behöver från er",
+    "qaSub": "Tre punkter som låter oss svara med specifikation, ledtid och pris.",
+    "q1": "Användning, maskin och önskad yta",
+    "q2": "Material som bearbetas och den kornstandard du köper enligt (FEPA eller ANSI)",
+    "q3": "Mängd, destinationsland och krav på förpackning eller märkning"
   },
   "glossary": {
     "h1": "Glossa för slipmedel",
@@ -991,6 +1082,11 @@
         "title": "Slipmedel i grossisthandel — band, diskar & slipeskivor | MoTai",
         "description": "MoTais kompletta slipmedelssortiment: industriella slipband, slipdiskar och slipeskivor för distributörer, importörer, grossister och OEM-märken. Grossisthandel, anpassning och export direkt från fabriken i Hubei, Kina.",
         "keywords": "slipmedelsprodukter, slipmedel i grossisthandel, industriella slipmedel, täckslipmedel, slipmedelsgrossisthandel, slipmedelsfabrik, exportör av slipmedel, slipmedelsleverantör i Kina, OEM-tillverkare av slipmedel, slipmedel med eget märke, anpassade slipmedelsprodukter, bulkleverans av slipmedel, slipmedelsfabrik, slipverktyg, slipmedel, slipprodukter, ytslipprodukter, slipepapper, slipepappersark, runda slipepapper, slipepapper i grossisthandel, slipunderlägg, slipunderlägg med kroknät, 5-tums slipunderlägg, 6-tums slipunderlägg, fläshjul i icke-vävt material, slipkläde, industriell rullborste"
+      },
+      "sponge": {
+        "title": "Tillverkare & grossistleverantör av slipsvampar | MoTai",
+        "description": "Flexibla slipsvampkuddar och tjocka skumblock för våt eller torr handslipning av kurvor, kanter, plana ytor och reparerade väggar. Återanvändbara, i flera kornstorlekar, stansade och med OEM-packning. Grossisthandel direkt från fabriken.",
+        "keywords": "slipsvamp, slipsvampblock, slipsvampkuddar, slipsvamp med slipkorn, slipsvamp för handslipning, tillverkare av slipsvampar, slipsvampar i grossisthandel, stansad slipsvamp, OEM-slipsvamp"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — MoTai fabrik- och produktvideor",
       "description": "Fabrik- och produktvideo från MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, slibefilm, slibefabrikfilm, MoTai-video, slibematerialstillverkning, slibelivrantörvideo"
+    },
+    "sponge": {
+      "title": "MoTai {name} — tillverkare av slipsvampar",
+      "description": "MoTai {name}: {summary} Grossistleverans och OEM-förpackning för distributörer och verkstäder.",
+      "keywords": "slipsvamp, slipsvampblock, slipsvamp med slipkorn, slipsvampkudde för handslipning, tillverkare av slipsvampar, slipsvampar i grossisthandel"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Så väljer ni inom denna serie",
+    "guideSub": "Fyra punkter som avgör vilken produkt passar er användning — bekräfta dem i offerten.",
+    "specTitle": "Specifikationsomfattning",
+    "specSub": "Vad serien omfattar idag, direkt ur produktregistren.",
+    "faqTitle": "Frågor som köpare ställer om denna serie",
+    "belts": [
+      {
+        "q": "Vilken bandsbredd passar min maskin?",
+        "a": "De dokumenterade storlekarna sträcker sig från 533 × 75 mm till 2200 × 1330 mm; enstyckiga ultrabreda band över 1500 mm undviker en skarv. Ange maskin, belastning och önskad yta så att bredden bekräftas i offerten."
+      },
+      {
+        "q": "Vilket kornspann kan jag beställa?",
+        "a": "Korn 40–800 med korn av aluminiumoxid, zirkonia och silikonkarbid. Grovt korn tar bort material snabbt; fint korn jämnar till och finisherar."
+      },
+      {
+        "q": "Levererar ni specialmått?",
+        "a": "Ja. Bredd och längd utöver de dokumenterade storlekarna prismätts från fall till fall; konvertering till specialmått påverkar både leveranstid och minimumorder."
+      },
+      {
+        "q": "Vilken skarv- och kantutförande?",
+        "a": "Skarvtyp och kantbehandling anges per referens. Ange maskin, belastning och varvtal så att rätt utförande bekräftas."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Kardborrband, PSA eller mask — vilket för mitt verktyg?",
+        "a": "Kardborrband passar för frekventa kornbyten på en excenterslipmaskin, PSA passar för plana stöddynor och långa körpasser, och mask passar för dammutsugning."
+      },
+      {
+        "q": "Vilka storlekar och hålmönster är dokumenterade?",
+        "a": "Skivor på 3, 4, 5 och 6 tum med respektive referens hålmönster; axelhålet eller mitthålet måste passa ert verktyg."
+      },
+      {
+        "q": "Vilket korn för uppgiften?",
+        "a": "Grovt korn avlägsnar rost och färg snabbt; fint korn jämnar till och förbereder för finishering. Ange material och önskad yta."
+      },
+      {
+        "q": "Stödjer ni dammutsugning?",
+        "a": "Mask- och perforerade dammfria format är dokumenterade i denna serie; det perforerade mönstret håller ytan synlig under slipning."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Vilket bärmaterial passar min användning?",
+        "a": "Plast passar allmän metalslipning, stål passar krävande avgratning och glasfiber passar höghastighetsslipning med lång hållbarhet; axelhålet måste passa verktyget."
+      },
+      {
+        "q": "Vad används flapskivor till?",
+        "a": "Slipning av svetsfogar, borttagning av rost, utjämning av ytor och finishering av metalldelar — anpassat till verktygets märkvarvtal med språngskyddet monterat."
+      },
+      {
+        "q": "Levererar ni bulkmängder?",
+        "a": "Ja. Flapskivor levereras i bulk till distributörer och verkstäder; kornstorlek, bärmaterial, diameter och mängd fastställs tillsammans i offerten."
+      },
+      {
+        "q": "Varför glaserar min skiva i valsmåla?",
+        "a": "Valsmåla belägger slipmedlet snabbt. Välj ett grövre korn, håll skivan plant mot arbetsstycket och rengör ytan när den beläggs."
+      }
+    ],
+    "all": [
+      {
+        "q": "Var börjar jag om min användning inte finns med?",
+        "a": "Skicka material, maskin, önskad yta och volym; vi svarar med den produktfamilj, specifikation och leveranstid som passar."
+      },
+      {
+        "q": "Kan jag beställa ett av varje referens först?",
+        "a": "Prover av standardreferenser finns tillgängliga på begäran; provtillgång och fraktvillkor bekräftas tillsammans med ert svar."
+      },
+      {
+        "q": "Prismäter ni OEM inom alla serier?",
+        "a": "Ja. Logotyp, etiketter, storlekar och förpackning prismätts mot en genomförbarhetsbedömning för slipband, slipdiskar och flapskivor."
+      },
+      {
+        "q": "Var har slipsvamparna sin plats i sortimentet?",
+        "a": "Handslipning: flexibla kuddar för kurvor och profiler, skumblock för plana ytor och reparerade väggar. Båda prismätts med mått, kornstorlek, skumdensitet och mängd."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Flexibla kuddar eller skumblock — vilket för mitt arbete?",
+        "a": "Flexibla kuddar passar kurvor, kanter och profiler; skumblock passar plana ytor, kanter och reparerade väggar. Båda är återanvändbara efter rengöring."
+      },
+      {
+        "q": "Anger skumfärgen kornstorleken?",
+        "a": "Nej. Skumfärg är inte ett uttryck för kornstorlek eller hårdhet. Bekräfta kornstorlek, slipmedelsmaterial och skumdensitet i er förfrågan så att vi matchar det i offerten."
+      },
+      {
+        "q": "Kan ni stansa specialformer och packa under vårt varumärke?",
+        "a": "Ja. Skicka er profil, tjocklek, kornstorlek, förpackningsformat och målmängder; krav på stansverktyg och grafik bekräftas i granskningen."
+      },
+      {
+        "q": "Är de tvättbara och återanvändbara?",
+        "a": "De kan sköljas och återanvändas tills slipmedelsskiktet är förbrukat; livslängden beror på kornstorlek, tryck och den yta som bearbetas."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Slipsvampar · serie för handslipning",
+    "thickness": "Konstruktion",
+    "gritNote": "Skumfärger anger inte kornstorlek eller hårdhet. Bekräfta mått, kornstorlek, slipmedelsmaterial, skumdensitet, förpackning och mängd i er förfrågan.",
+    "overviewTitle": "Produktöversikt",
+    "overviewBody": "Flexibla, återanvändbara slipsvampar för våt eller torr slipning. Skummet anpassar sig till kurvor, kanter och profiler för kontrollerad handslipning.",
+    "checklistTitle": "Bekräfta rätt specifikation",
+    "checklistSub": "De här detaljerna hjälper oss att granska er förfrågan. Det är krav att bekräfta, inte publicerade produktvärden.",
+    "c1": "Mått — ange bredd × längd i mm",
+    "c2": "Önskad kornstorlek — ange grad eller önskad yta",
+    "c3": "Arbetsstycke och maskin — dela material, maskin och avsedd yta",
+    "c4": "Mängd och förpackning — inkludera mängd, förpackningsbehov och leveransdestination",
+    "enquiryTitle": "Så skickar ni en förfrågan",
+    "enquirySub": "Från produktval till offert.",
+    "e1t": "Välj er produkt",
+    "e1b": "Utforska slipsvamparna och välj den konstruktion som er användning behöver.",
+    "e2t": "Dela era krav",
+    "e2b": "Lägg till mängd, mått, kornstorlek och förpackningskrav.",
+    "e3t": "Granska er offert",
+    "e3b": "Bekräfta den slutgiltiga specifikationen och de kommersiella villkoren med vårt team.",
+    "appsTitle": "Användningsområden för slipsvampar vid handslipning",
+    "appsSub": "För trä, metall, bilfinishering samt lämpliga vägg- och fogytor. Anpassa kornstorleken till materialet och prova på ett mindre synligt ställe.",
+    "a1t": "Slipning av trä",
+    "a1b": "Slipblock för träbearbetning, inklusive ytberedelse och kantslipning av möbler, inredningar och andra träkomponenter.",
+    "a2t": "Slipsvampar för gipsvägg",
+    "a2b": "Slipblock för att jämna ut gipsfogar, fåsa ut spackel och förbereda väggar för grundning och målning.",
+    "a3t": "Borttagning av rost",
+    "a3b": "Flexibla, återanvändbara slipsvampar för våt eller torr slipning. Skummet anpassar sig till kurvor, kanter och profiler för kontrollerad handslipning.",
+    "faqTitle": "Köparfrågor",
+    "q1": "Anger färgen vilken slipmedelstyp det är?",
+    "a1": "Nej. Skumfärg är inte ett uttryck för kornstorlek eller hårdhet. Bekräfta kornstorlek, slipmedelsmaterial och skumdensitet i er förfrågan.",
+    "q2": "Hur begär jag OEM-förpackning?",
+    "a2": "Skicka etikettgrafik, förpackningsformat, målmängder och destination tillsammans med förfrågan; OEM-tillgång och krav på grafik bekräftas i granskningen.",
+    "q3": "Lägger en offertförfrågan en order?",
+    "a3": "Nej. Det här är en grossistförfrågan. Specifikation och kommersiella villkor bekräftas i offerten innan en produktion sätts igång.",
+    "ctaTitle": "Behöver ni slipsvampar i bulk?",
+    "ctaSub": "Skicka mått, kornstorlek, mängd och destination — vi bekräftar specifikation och leveranstid."
   }
 }

@@ -54,6 +54,11 @@
       "title": "Vsi izdelki",
       "desc": "Celoten MoTai katalog brušnih izdelkov: brušni trakovi, brušni diski in lopatni diski za industrijske kupce, distributerje in lastno znamko.",
       "label": "Vsi izdelki"
+    },
+    "sponge": {
+      "title": "MoTai brusne gobice",
+      "desc": "Prožne brusne gobice in debele penaste bloki za ročno brušenje — mokro ali suho — krivulj, robov, ravnih površin in pobrušanih sten. Po čiščenju ponovno uporabne. Veleprodajna in OEM povpraševanja so dobrodošla.",
+      "label": "Brusne gobice"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifikacije",
     "howTitle": "Kako specifikirati naročilo",
     "howBody": "Vključite dimenzije traku ali diska, seznam zrnitosti, model stroja, material delovnega kosa in količino. Jasna specifikacija nam omogoča preverjanje prileganja in pripravo koristne ponudbe — izdelka ne izberite le po barvi.",
-    "faqTitle": "Vprašanja kupcev"
+    "faqTitle": "Vprašanja kupcev",
+    "family": "Vrsta izdelka"
   },
   "about": {
     "h1": "Družba za vrsto brušnih izdelkov",
@@ -264,7 +270,28 @@
     "pr6t": "Odprema",
     "pr6b": "Uskladite pakiranje in namembnost.",
     "cta1": "Zahtevajte veleprodajno ponudbo",
-    "cta2": "Kontaktirajte prek WhatsAppa"
+    "cta2": "Kontaktirajte prek WhatsAppa",
+    "faqTitle": "Vprašanja znamk o OEM",
+    "faqSub": "Praktične točke, ki odločijo o preverjanju ustreznosti OEM.",
+    "o1": "Kakšna je najmanjša naročilna količina za OEM?",
+    "oa1": "Najmanjše količine so odvisne od izdelkovne linije, velikosti, mešanice zrnitosti in pakiranja; potrjene so v pregledu ustreznosti, ki prispe skupaj z vašo ponudbo.",
+    "o2": "Kakšno grafično podlago potrebujete od nas?",
+    "oa2": "Grafiko, pripravljeno za tisk, z vašo blagovno znamko, velikostmi etiket, ki jih uporabljate, in vsemi zahtevanimi oznakami za namembnost. Zahteve glede grafike se potrdijo v pregledu, preden se serija zažene.",
+    "o3": "Ali lahko pred zavezo dobim preskusno serijo?",
+    "oa3": "Da. Vzorci standardnih referenc so na voljo za oceno, odobritve OEM grafike pa sledijo potrjeni specifikaciji.",
+    "o4": "Ali pakirate samo pod našo blagovno znamko?",
+    "oa4": "Da. Pri serijah z lastno znamko uporabimo vaš logotip, etikete, velikosti in embalažo; etikete se nalepijo in preverijo, preden se škatla zapečati, ne šele ko že prispe.",
+    "o5": "Koliko časa traja preverjanje ustreznosti OEM?",
+    "oa5": "Preverjanje sledi koraku pregleda; referenčni izdelki iz zalage se odgovorijo najhitreje, ker se nanje ne nanaša čas predelave.",
+    "specTitle": "Kaj vsebuje nalog za OEM",
+    "specSub": "Šest točk, ki nam omogočijo, da že ob prvem prehodu vrnemo uporaben pregled ustreznosti.",
+    "checklistTitle": "Preden pošljete nalog",
+    "c1": "Izdelkovna linija in specifikacijska referenca, ki jo danes kupujete",
+    "c2": "Grafika za etikete, pripravljena za tisk, z velikostmi etiket, ki jih uporabljate",
+    "c3": "Oblika embalaže — škatla, notranja količina, maloprodajna enota",
+    "c4": "Ciljne količine in mešanica velikosti / zrnitosti",
+    "c5": "Namembnost ter vse oznake ali dokumenti za namembnost",
+    "c6": "Čas — datum izida na trg ali okno prve pošiljke"
   },
   "applications": {
     "h1": "Brusna sredstva za vašo panogo",
@@ -437,7 +464,49 @@
     "consent": "Strinjam se s pravilnikom o zasebnosti, pogoji uporabe in uporabo svojih podatkov za odgovor na to povpraševanje. *",
     "btn1": "Zahtevajte veleprodajno ponudbo",
     "btn2": "Pošljite povpraševanje prek WhatsAppa",
-    "goNote": "Obrazec se odpre v našem sistemu za veleprodajna povpraševanja s vnaprej izpolnjenim kontekstom vašega izdelka."
+    "goNote": "Obrazec se odpre v našem sistemu za veleprodajna povpraševanja s vnaprej izpolnjenim kontekstom vašega izdelka.",
+    "whyTitle": "Zakaj kupci ponudbo pridobijo prek MoTaija",
+    "whySub": "Štirje razlogi, zaradi katerih distributerji in obdelovalne delavnice pošiljajo svojo specifikacijo nam.",
+    "w1t": "Cene neposredno s tovarne",
+    "w1b": "Predelava poteka v našem lastnem tovornem obratu v Xianningu, Hubei, zato ponudba odraža strošek predelave, ne verigo srednjih členov.",
+    "w2t": "Specifikacija potrjena v pisni obliki",
+    "w2b": "Zrnitost, podlaga, dimenzije, pakiranje in oznake so dogovorjeni v ponudbi, po kateri se naročilo pred odpremo tudi preveri.",
+    "w3t": "Zaloga za standardne velikosti",
+    "w3b": "Standardne širine in zrnitosti so zložene in pripravljene, zaradi česar so dopolnitvena naročila krajša, velikosti po meri pa še vedno potekajo po vaši potrjeni specifikaciji.",
+    "w4t": "OEM in lastna znamka",
+    "w4b": "Vaš logotip, etikete, velikosti in embalaža, ponujeni na podlagi pregleda ustreznosti in ne ugibanja.",
+    "stepsTitle": "Kako iz povpraševanja postane potrjeno naročilo",
+    "stepsSub": "Štirji koraki, vsak s pisno kontrolno točko, da se ničesar ne uredi šele pri odpremi.",
+    "p1t": "Vi pošljete specifikacijo",
+    "p1b": "Kategorija izdelka, model ali referenca, velikost, zrnitost, material, količina, pakiranje in namembnost — polja spodaj.",
+    "p2t": "Mi pregledamo in odgovorimo",
+    "p2b": "Velikosti, stopnje, podlago in embalažo pregledamo glede na vašo uporabo; neskladnost se javi pred ponudbo.",
+    "p3t": "Potrditev vzorca (če je potrebna)",
+    "p3b": "Vzorci standardnih referenc so na voljo na zahtevo in se ocenijo, preden se dogovori proizvodna serija.",
+    "p4t": "Serija po potrjeni specifikaciji",
+    "p4b": "Proizvodnja poteka po potrjeni specifikaciji, nato pa se pred odpremo dodajo kontrolne točke, pakovalni seznam in oznake.",
+    "faqTitle": "Vprašanja kupcev pred ponudbo",
+    "faqSub": "Praktične podrobnosti, ki odločajo o ceni, dobavnem roku in primernosti.",
+    "q1": "Kakšna je najmanjša naročilna količina?",
+    "a1": "Najmanjše količine so odvisne od izdelkovne linije, velikosti in pakiranja; potrjene so v odgovoru na vaše povpraševanje, objavljene pa niso kot ena sama številka.",
+    "q2": "Koliko časa traja priprava ponudbe?",
+    "a2": "Odgovor s specifikacijo, dobavnim rokom in ceno izdamo po koraku pregleda; reference iz zalage se ocenijo najhitreje, ker se nanje ne nanaša čas predelave.",
+    "q3": "Ali lahko najprej dobim vzorec?",
+    "a3": "Da. Vzorci standardnih referenc so za oceno na voljo na zahtevo; razpoložljivost vzorcev in prevozni pogoji se potrdijo z vašim odgovorom.",
+    "q4": "Ali podpirate OEM in lastno znamko?",
+    "a4": "Da. Pošljite svoj logotip, grafiko za etikete, obliko embalaže in ciljne količine, mi pa skupaj s ponudbo vrnemo pregled ustreznosti OEM.",
+    "q5": "Kakšne plačilne in dostavne pogoje uporabljate?",
+    "a5": "Poslovni pogoji se potrdijo za vsako povpraševanje v ponudbi, vključno z namembnostjo, pakiranjem in incotermom, ki ga navedete.",
+    "trustTitle": "O dobavi na prvi pogled",
+    "trustSub": "Obraz za vašo ponudbo.",
+    "trustNote": "Številke opisujejo proizvodni obrat; pogoji na ravni naročila se potrdijo v ponudbi.",
+    "checklistTitle": "Preden ga pošljete",
+    "checklistSub": "Pet pripravljenih točk vnaprej bistveno pospeši prvi odgovor.",
+    "c1": "Uporaba, stroj in zahtevana zaključna obdelava",
+    "c2": "Obdelovani material (jeklo, les, aluminij, barva, gipsne plošče)",
+    "c3": "Stopnja zrnitosti in standard, po katerem kupujete (FEPA ali ANSI)",
+    "c4": "Velikost, premer, luknje in količina",
+    "c5": "Država namembnosti ter zahtevano pakiranje ali oznake"
   },
   "clients": {
     "h1": "Kam odpotujejo pošiljke MoTai",
@@ -445,7 +514,29 @@
     "note": "Logotipi strank in izjave spodaj so rezervna mesta — z objavljenim gradivom zamenjajte src/data/trust.json.",
     "placeholderBadge": "Ilustrativno rezervno mesto",
     "statsTitle": "Dobava na pogled",
-    "statsNote": "Prikazani certifikati so rezervna mesta v čakanju na objavljene potrdilo."
+    "statsNote": "Prikazani certifikati so rezervna mesta v čakanju na objavljene potrdilo.",
+    "regionsTitle": "Od Hubeija do vašega trga",
+    "regionsSub": "Isti obrat oskrbuje sedem destinacijskih regij; pakiranje in oznake so določene po namembnosti.",
+    "logisticsTitle": "Kaj potrdimo pred odpremo",
+    "logisticsSub": "Štiri točke, urejene v ponudbi, ne šele pri odpremi.",
+    "l1": "Pakovalni seznam — količine po velikosti in zrnitosti, usklajene z naročilom",
+    "l2": "Oznake na škatlah — vaše oznake ali standardni niz, dogovorjen pred serijo",
+    "l3": "Vzorec na paleti — prilagojen vaši namembnosti in opremi za ravnanje",
+    "l4": "Namembnost in dokumenti — dogovorjeni s ponudbo",
+    "faqTitle": "Vprašanja kupcev o dobavi",
+    "f1": "Katere namembnosti oskrbujete?",
+    "fa1": "Sedem destinacijskih regij v Evropi, Severni Ameriki, na Bližnjem vzhodu in v Aziji; pakiranje in oznake so določene po namembnosti.",
+    "f2": "Kako zaščitite blago med prevozom?",
+    "fa2": "Pakiranje je določeno po namembnosti in potrjeno v ponudbi; zaščita pred vlago in vzorec na paleti sledijo prevoznim pogojem, o katerih nas obvestite.",
+    "f3": "Ali so logotipi strank na tej strani resnični?",
+    "fa3": "Ne. To so rezervna mesta. Preden jih uporabite kot reference, src/data/trust.json zamenjajte z objavljenim gradivom.",
+    "f4": "Ali so navedene certifikacije preverjene?",
+    "fa4": "Rezervna mesta za certifikacije čakajo na objavljena potrdila; potrjene so le prikazane številke obrata.",
+    "qaTitle": "Kaj potrebujemo od vas",
+    "qaSub": "Tri točke, ki nam omogočijo odgovor s specifikacijo, dobavnim rokom in ceno.",
+    "q1": "Uporaba, stroj in zahtevana zaključna obdelava",
+    "q2": "Obdelovani material in standard zrnitosti, po katerem kupujete (FEPA ali ANSI)",
+    "q3": "Količina, država namembnosti ter zahtevano pakiranje ali oznake"
   },
   "glossary": {
     "h1": "Slovar brušnih izrazov",
@@ -991,6 +1082,11 @@
         "title": "Veleprodaja brušnih izdelkov — traki, diski in lopatni diski | MoTai",
         "description": "Celoten MoTai brušni katalog: industrijski brušni traki, brušni diski in lopatni diski za distributerje, uvoznike, veleprodajalce in OEM znamke. Tovarniška veleprodaja, prilagodba in izvoz iz Hubei, Kitajska.",
         "keywords": "brušni izdelki, brušni izdelki na debelo, industrijska brušna sredstva, prevlečena brušna sredstva, brusno na debelo, tovarna brušnih izdelkov, izvoznik brušnih izdelkov, dobavitelj brusiv Kitajska, OEM proizvajalec brusiv, brušna za lastno znamko, prilagojeni brušni izdelki, dobava brusiv na debelo, tovarna brusiv, brušni orodja, brušni material, brušni izdelki, brušni listi, okrogli brušni listi, brušni listi na debelo, brušna podlaga, brušna podlaga za lepilo in mrežo, 5-palčna brušna podlaga, 6-palčna brušna podlaga, nepredpisana opanka, brušna platna, industrijski valjalni čopič"
+      },
+      "sponge": {
+        "title": "Proizvajalec brusnih gobic in dobavitelj veleprodaje | MoTai",
+        "description": "Prožne brusne gobice in debele penaste bloki za ročno brušenje — mokro ali suho — krivulj, robov, ravnih površin in pobrušanih sten. Ponovno uporabne, več zrnitosti, zarezane po meri in OEM pakiranje. Veleprodaja neposredno s tovarne.",
+        "keywords": "brusna gobica, brusni bloki, brusne gobice, abrazivna gobica, gobica za ročno brušenje, proizvajalec brusnih gobic, brusne gobice v veleprodaji, brusna gobica zarezana po meri, OEM brusna gobica"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — Tovarni in izdelkovni video posnetki MoTai",
       "description": "Tovarni in izdelkovni video podjetja MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, video abrazivov, posnetki tovarne za abrazive, video MoTai, proizvodnja abrazivov, video dobavitelja abrazivov"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Proizvajalec brusnih gobic",
+      "description": "MoTai {name}: {summary} Veleprodajna dobava in OEM pakiranje za distributerje in delavnice.",
+      "keywords": "brusna gobica, brusni blok, abrazivna gobica, blazina za ročno brušenje, proizvajalec brusnih gobic, brusne gobice v veleprodaji"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Kako izbrati to linijo",
+    "guideSub": "Štiri točke, ki odločijo, kateri izdelek ustreza vaši uporabi — potrdite jih s ponudbo.",
+    "specTitle": "Pokritost specifikacije",
+    "specSub": "Kar linija danes pokriva, naravnost iz zapisov o izdelku.",
+    "faqTitle": "Vprašanja kupcev o tej liniji",
+    "belts": [
+      {
+        "q": "Katera širina traku ustreza mojemu stroju?",
+        "a": "Dokumentirane mere segajo od 533 × 75 mm do 2200 × 1330 mm; izredno široki enojni trakovi nad 1500 mm so brez sklepa. Navedite stroj, obremenitev in zahtevani zaključek, da se širina potrdi s ponudbo."
+      },
+      {
+        "q": "Kateri razpon zrnitosti lahko naročim?",
+        "a": "Zrnitosti 40–800 z zrnom iz aluminijevega oksida, cirkonija in silicijevega karbida. Groba zrnitost hitro odvzame materiala; fina zrnitost gladi in zaključuje."
+      },
+      {
+        "q": "Ali dobavljate velikosti po meri?",
+        "a": "Da. Širina in dolžina izven dokumentiranih mer se ocenita posebej za vsak primer; predelava v prilagojeno velikost vpliva tako na dobavni rok kot na najmanjšo naročilno količino."
+      },
+      {
+        "q": "Kakšni so sklep in izvedba robov?",
+        "a": "Vrsta sklepa in obdelava robov sta določeni za vsako referenco. Povejte nam stroj, obremenitev in hitrost, da potrdimo pravo konstrukcijo."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Velcro, PSA ali mreža — kateri za moje orodje?",
+        "a": "Velcro ustreza pogostim menjavam zrnitosti na krožnem brusilniku, PSA ravnim blazinam in daljšim delovnim ciklom, mreža pa odvajanju prahu."
+      },
+      {
+        "q": "Katere velikosti in vzorce luknj so dokumentirani?",
+        "a": "Diski 3, 4, 5 in 6 palca z vzorci luknj posamezne reference; vreteno ali osrednja luknja morata ustrezati vašemu orodju."
+      },
+      {
+        "q": "Katera zrnitost za katero delo?",
+        "a": "Groba zrnitost hitro odstrani rjo in staro barvo; fina zrnitost gladi in pripravi površino za zaključno obdelavo. Navedite material in zahtevani zaključek."
+      },
+      {
+        "q": "Ali podpirate odvajanje prahu?",
+        "a": "Mrežne in perforirane brezprašne oblike so dokumentirane v tej liniji; perforirani vzorec med brušenjem ohranja vidljivost površine."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Katera podlaga ustreza moji uporabi?",
+        "a": "Plastika ustreza splošnemu brušenju kovin, jeklo zahtevnejšemu odstranjevanju robov, steklena vlakna pa vzdržljivosti pri visokih hitrostih; osna luknja mora ustrezati orodju."
+      },
+      {
+        "q": "Čemu so lopatni diski namenjeni?",
+        "a": "Brušenju varov, odstranjevanju rje, uravnavanju površin in zaključni obdelavi kovinskih delov — usklajeno z nazivno hitrostjo orodja in nameščenim ščitnikom."
+      },
+      {
+        "q": "Ali dobavljate količine v veleprodaji?",
+        "a": "Da. Lopatni diski se dobavljajo v veleprodaji za distributerje in delavnice; zrnitost, podlaga, premer in količina se skupaj določijo v ponudbi."
+      },
+      {
+        "q": "Zakaj se moj disk med brušenjem ledi oksidne plasti?",
+        "a": "Oksidna plast s toplo valjanega jekla hitro zamaše brusno zrno. Izberite grobljo zrnitost, držite disk plosko ob delovnem kosu in po potrebi očistite površino diska, ko se zaledi."
+      }
+    ],
+    "all": [
+      {
+        "q": "Kje začnem, če moja uporaba ni navedena?",
+        "a": "Pošljite material, stroj, zaključek in obseg; odgovorimo z izdelkovno družino, specifikacijo in dobavnim rokom, ki ustrezajo."
+      },
+      {
+        "q": "Ali lahko najprej naročim po eno referenco vsake?",
+        "a": "Vzorci standardnih referenc so na voljo na zahtevo; razpoložljivost vzorcev in prevozni pogoji se potrdijo z vašim odgovorom."
+      },
+      {
+        "q": "Ali ponujate OEM prek vseh linij?",
+        "a": "Da. Logotip, etikete, velikosti in embalaža se ocenjujejo glede ustreznosti prek trakov, diskov in lopatnih diskov."
+      },
+      {
+        "q": "Kje so brusne gobice v razponu?",
+        "a": "Ročno brušenje: prožne blazine za krivulje in profile, penasti bloki za ravne površine in pobrušane stene. Oboje se ponuja z dimenzijami, zrnitostjo, gostoto pene in količino."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Prožne blazine ali penasti bloki — kateri za moje delo?",
+        "a": "Prožne blazine ustrezajo krivuljam, robovom in profilom; penasti bloki ravnim površinam, robovom in pobrušanim stenam. Po čiščenju sta obe obliki ponovno uporabni."
+      },
+      {
+        "q": "Ali barva pene nakazuje zrnitost?",
+        "a": "Ne. Barva pene ni ocena zrnitosti ali trdote. Zrnitost, brusni material in gostoto pene potrdite v povpraševanju, mi pa jih uskladimo v ponudbi."
+      },
+      {
+        "q": "Ali lahko zarežemo oblike po meri in pakirate pod mojo blagovno znamko?",
+        "a": "Da. Pošljite svoj profil, debelino, zrnitost, obliko embalaže in ciljne količine; orodje za rezanje po meri in zahteve glede grafike se potrdijo v pregledu."
+      },
+      {
+        "q": "Ali jih je mogoče prati in ponovno uporabljati?",
+        "a": "Dajo se izplakniti in ponovno uporabiti, dokler se brusna plast ne izrabi; življenjska doba je odvisna od zrnitosti, pritiska in obdelovane površine."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Brusne gobice · Razpon za ročno brušenje",
+    "thickness": "Konstrukcija",
+    "gritNote": "Barve pene ne določajo zrnitosti ali trdote. Dimenzije, zrnitost, brusni material, gostoto pene, pakiranje in količino potrdite v svojem povpraševanju.",
+    "overviewTitle": "Pregled izdelka",
+    "overviewBody": "Prožne, ponovno uporabne brusne gobice za mokro ali suho brušenje. Pena se prilagaja krivuljam, robovom in profilom za nadzorovano ročno brušenje.",
+    "checklistTitle": "Potrdite pravo specifikacijo",
+    "checklistSub": "Te podrobnosti nam pomagajo pregledati vaše povpraševanje. Gre za zahteve za potrditev, ne za objavljene ocene izdelkov.",
+    "c1": "Dimenzije — navedite širino × dolžino v mm",
+    "c2": "Zahtevana zrnitost — navedite stopnjo ali zahtevani zaključek",
+    "c3": "Delovni kos in stroj — navedite material, stroj in načrtovani zaključek",
+    "c4": "Količina in pakiranje — vključite količino, potrebe po pakiranju in dostavno namembnost",
+    "enquiryTitle": "Kako oddati povpraševanje",
+    "enquirySub": "Od izbire izdelka do ponudbe.",
+    "e1t": "Izberite svoj izdelek",
+    "e1b": "Raziščite razpon brusnih gobic in izberite konstrukcijo, ki jo vaša uporaba potrebuje.",
+    "e2t": "Delite svoje zahteve",
+    "e2b": "Dodajte količino, dimenzije, zrnitost in zahteve glede pakiranja.",
+    "e3t": "Preglejte svojo ponudbo",
+    "e3b": "Končno specifikacijo in poslovne pogoje potrdite z našo ekipo.",
+    "appsTitle": "Uporabe brusnih gobic za ročno brušenje",
+    "appsSub": "Za les, kovine, avtomobilsko prenovitev ter primerne stenske in fugirne površine. Zrnitost uskladite z materialom in preizkusite na neopaznem mestu.",
+    "a1t": "Brušenje lesa",
+    "a1b": "Brusni bloki za obdelavo lesa, vključno s pripravo površin in brušenjem robov na pohištvu, kuhinjah in drugih lesenih sestavnih delih.",
+    "a2t": "Brusne gobice za gipsne plošče",
+    "a2b": "Brusni bloki za glajenje spojev na gipsnih ploščah, peresenje fugirne mase in pripravo sten pred gruntiranjem in barvanjem.",
+    "a3t": "Odstranjevanje rje",
+    "a3b": "Prožne, ponovno uporabne brusne gobice za mokro ali suho brušenje. Pena se prilagaja krivuljam, robovom in profilom za nadzorovano ročno brušenje.",
+    "faqTitle": "Vprašanja kupcev",
+    "q1": "Ali barva nakazuje vrsto brusnega zrna?",
+    "a1": "Ne. Barva pene ni ocena zrnitosti ali trdote. Zrnitost, brusni material in gostoto pene potrdite v svojem povpraševanju.",
+    "q2": "Kako zahtevam OEM pakiranje?",
+    "a2": "V povpraševanje pošljite grafiko za etikete, obliko embalaže, ciljne količine in namembnost; razpoložljivost OEM in zahteve glede grafike se potrdijo v pregledu.",
+    "q3": "Ali z zahtevo po ponudbi oddam naročilo?",
+    "a3": "Ne. Gre za veleprodajno povpraševanje. Specifikacija in poslovni pogoji se potrdijo v ponudbi, preden se začne katerakoli serija.",
+    "ctaTitle": "Potrebujete brusne gobice v veleprodaji?",
+    "ctaSub": "Pošljite dimenzije, zrnitost, količino in namembnost — potrdimo specifikacijo in dobavni rok."
   }
 }

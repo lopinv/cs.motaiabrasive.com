@@ -54,6 +54,11 @@
       "title": "Minden termék",
       "desc": "A teljes MoTai csiszolószer-katalógus: csiszolószalagok, csiszolókorongok és tálcalapos korongok ipari vásárlóknak, forgalmazóknak és saját márkás termékeket kereső cégeknek.",
       "label": "Minden termék"
+    },
+    "sponge": {
+      "title": "MoTai csiszolószivacsok",
+      "desc": "Rugalmas csiszolószivacs-párnák és vastag habtömbök vizes vagy száraz kézi csiszoláshoz íveknél, peremeknél, sík felületeknél és felújított falaknál. Tisztítás után újrafelhasználhatók. Hurtos és OEM megkereséseket szívesen fogadunk.",
+      "label": "Csiszolószivacsok"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifikációk",
     "howTitle": "Hogyan állítsa össze a rendelését",
     "howBody": "Adj meg szalag vagy korong méretet, szemcse listát, gép modellét, a feldolgozott anyagot és a mennyiséget. Egy tiszta specifikáció segít nekünk áttekinteni a beilleszthetőséget és hasznos ajánlat elkészítését — kerülje a termék színe alapján történő megválaszhatását.",
-    "faqTitle": "Vevői kérdések"
+    "faqTitle": "Vevői kérdések",
+    "family": "Terméktípus"
   },
   "about": {
     "h1": "A csiszolószergamok mögötti cég",
@@ -264,7 +270,28 @@
     "pr6t": "Kiszállítás",
     "pr6b": "Csomagolás és célország koordinálása.",
     "cta1": "Hurtos ajánlatkérés",
-    "cta2": "Kapcsolatfelvétel WhatsAppon"
+    "cta2": "Kapcsolatfelvétel WhatsAppon",
+    "faqTitle": "OEM-márkák kérdései",
+    "faqSub": "A gyakorlati kérdések, amelyek meghatározzák az OEM-megvalósíthatósági vizsgálatot.",
+    "o1": "Mekkora az OEM-minimális rendelési mennyiség?",
+    "oa1": "A minimális mennyiségek a termékcsaládtól, a mérettől, a szemcseméret-összetételtől és a csomagolástól függenek; a megvalósíthatósági vizsgálatban erősítjük meg őket, amely az ajánlattal együtt érkezik vissza.",
+    "o2": "Milyen rajztervekre van szükségünk Önöktől?",
+    "oa2": "Nyomdakész rajztervekre van szükség az Ön márkájával, a megszokott címkeméretekkel és az esetleges céljelölésekkel. A rajztervekre vonatkozó követelményeket a gyártás előtti vizsgálatban erősítjük meg.",
+    "o3": "Kérhetek mintafutást a kötelezettségvállalás előtt?",
+    "oa3": "Igen. A standard referenciák mintái értékelésre rendelkezésre állnak, és az OEM-rajztervek jóváhagyása a megerősített specifikációt követi.",
+    "o4": "Kizárólag a mi márkánkkal csomagolnak?",
+    "oa4": "Igen. A saját márkás futások a saját logóját, címkéit, méreteit és csomagolását viselik; a címkéket a karton lezárása előtt felragasztjuk és ellenőrizzük, nem az átvétel után.",
+    "o5": "Mennyi idő egy OEM-megvalósíthatósági vizsgálat?",
+    "oa5": "A vizsgálat az áttekintési lépést követi; a készletreferenciákat a leggyorsabban válaszoljuk meg, mert ezekre nem vonatkozik átalakítási átfutási idő.",
+    "specTitle": "Mit tartalmazzon egy OEM-megkeresés",
+    "specSub": "Hat pont, amely alapján már az első körben hasznos megvalósíthatósági vizsgálatot adhatunk vissza.",
+    "checklistTitle": "Mielőtt elküldené a megkeresést",
+    "c1": "Termékcsalád és a jelenleg vásárolt specifikációs referencia",
+    "c2": "Címke-rajztervek, nyomdakészen, a megszokott címkeméretekkel",
+    "c3": "Csomagolási forma — karton, belső csomag, kiskereskedelem egység",
+    "c4": "Célmennyiségek és a méretek / szemcseméretek összetétele",
+    "c5": "Célország és az esetleges céljelölések vagy dokumentumok",
+    "c6": "Ütemezés — piaci bevezetés dátuma vagy az első szállítási időszak"
   },
   "applications": {
     "h1": "Csiszolószerek az Ön iparághoz",
@@ -437,7 +464,49 @@
     "consent": "Elfogadom az adatvédelmi irányt, a felhasználási feltételeket, és a megkeresésre való válaszra való személyes adatok használatát. *",
     "btn1": "Hurtos ajánlatkérés",
     "btn2": "Megkeresés küldése WhatsAppon",
-    "goNote": "A űrlap a hurtos megkeresési rendszerünkben nyílik meg, az Ön termékkontextusával előre kitöltve."
+    "goNote": "A űrlap a hurtos megkeresési rendszerünkben nyílik meg, az Ön termékkontextusával előre kitöltve.",
+    "whyTitle": "Miért kérnek árajánlatot a MoTai-tól",
+    "whySub": "Négy ok, amiért a forgalmazók és a gyártóüzemek a specifikációjukat hozzánk küldik.",
+    "w1t": "Gyári árazás",
+    "w1b": "Az átalakítást a saját xianningi (Hubei) üzemünkben végezzük, ezért az ajánlat az átalakítási költséget tükrözi, nem pedig közvetítők láncolatát.",
+    "w2b": "A szemcseméretet, a hátlapot, a méreteket, a csomagolást és a jelöléseket az ajánlatban egyeztetjük, és az ellenőrzés a kiszállítás előtt is ehhez törtézik.",
+    "w2t": "Specifikáció írásban megerősítve",
+    "w3t": "Készlet a standard méretekre",
+    "w3b": "A standard szélességek és szemcseméretek készleten, azonnal felhasználható állapotban állnak rendelkezésre, így a pótlórendelések átfutási ideje rövid marad, miközben az egyedi méretek a megerősített specifikáció szerint készülnek.",
+    "w4t": "OEM és saját márka",
+    "w4b": "Az Ön logója, címkéi, méretei és csomagolása — megvalósíthatósági vizsgálattal alátámasztott ajánlatot készítünk, becslések helyett.",
+    "stepsTitle": "Hogyan válik egy megkeresés megerősített rendeléssé",
+    "stepsSub": "Négy lépés, mindegyik írásos ellenőrző ponttal, hogy semmi ne dőljön el a raktár kapujánál.",
+    "p1t": "Ön elküldi a specifikációt",
+    "p1b": "Termékkategória, modell vagy referencia, méret, szemcseméret, anyag, mennyiség, csomagolás és célország — az alábbi mezőkben.",
+    "p2t": "Mi áttekintjük és válaszolunk",
+    "p2b": "A méreteket, a finomságokat, a hátlapot és a csomagolást az Ön alkalmazásához mérten vizsgáljuk; az eltérést az ajánlat előtt jelezzük.",
+    "p3t": "Mintajóváhagyás (ahol szükséges)",
+    "p3b": "A standard referenciák mintái kérésre rendelkezésre állnak, és a gyártási futás megállapodása előtt értékeljük őket.",
+    "p4t": "Gyártás a megerősített specifikáció szerint",
+    "p4b": "A gyártás a megerősített specifikáció alapján zajlik, majd az ellenőrző pontokat, a csomaglistát és a jelöléseket a kiszállítás előtt alkalmazzuk.",
+    "faqTitle": "A vevők árajánlat előtt felmerülő kérdései",
+    "faqSub": "A gyakorlati részletek, amelyek az árat, az átfutási időt és az illeszthetőséget határozzák meg.",
+    "q1": "Mekkora a minimális rendelési mennyiség?",
+    "a1": "A minimális mennyiségek a termékcsaládtól, a mérettől és a csomagolástól függenek; az egyetlen számként való közzététel helyett a megkeresésre adott válaszban erősítjük meg őket.",
+    "q2": "Mennyi idő egy árajánlat elkészítése?",
+    "a2": "A specifikációt, az átfutási időt és az árat tartalmazó választ az áttekintési lépés után adjuk ki; a készletreferenciák mérésére az átalakítási átfutási idő hiányában a leggyorsabban készül el ajánlat.",
+    "q3": "Kérhetek előre mintát?",
+    "a3": "Igen. A standard referenciák mintái kérésre értékelésre rendelkezésre állnak; a mintaelérhetőséget és a fuvarfeltételeket a válasszal együtt erősítjük meg.",
+    "q4": "Támogatják az OEM-et és a saját márkás csomagolást?",
+    "a4": "Igen. Küldje el a logóját, a címke-rajztereit, a csomagolási formát és a célmennyiségeket, és az ajánlattal együtt OEM-megvalósíthatósági vizsgálatot adunk vissza.",
+    "q5": "Milyen fizetési és szállítási feltételekkel dolgoznak?",
+    "a5": "A kereskedelmi feltételeket megkeresésenként erősítjük meg az ajánlatban, beleértve a címézetést, a csomagolást és az Ön által megadott Incoterm-et.",
+    "trustTitle": "Ellátás egy pillantásra",
+    "trustSub": "A gyár az Ön ajánlata mögött.",
+    "trustNote": "Az adatok a gyártóüzemre vonatkoznak; a rendelésszintű feltételeket az ajánlatban erősítjük meg.",
+    "checklistTitle": "Mielőtt elküldené",
+    "checklistSub": "Ha ez az öt pont előre rendelkezésre áll, az első válasz lényegesen gyorsabban megérkezik.",
+    "c1": "Alkalmazás, gép és az elvárt felületminőség",
+    "c2": "A megmunkált anyag (acél, fa, alumínium, festék, gipszkarton)",
+    "c3": "Szemcseméret és az Ön által használt szabvány (FEPA vagy ANSI)",
+    "c4": "Méret, átmérő, lyukak és mennyiség",
+    "c5": "Célország, valamint a szükséges csomagolás vagy jelölések"
   },
   "clients": {
     "h1": "Hová kerülnek a MoTai szállítások",
@@ -445,7 +514,29 @@
     "note": "Az alábbi vevői logók és ajánlások placeholder mezők — a src/data/trust.json publikus anyaggal cserélje.",
     "placeholderBadge": "Illusztrációs placeholder",
     "statsTitle": "Ellátás áttekintésben",
-    "statsNote": "A megjelenített tanúsítványok placeholder a publikus tanúsítványokig."
+    "statsNote": "A megjelenített tanúsítványok placeholder a publikus tanúsítványokig.",
+    "regionsTitle": "Hubeitól az Ön piacáig",
+    "regionsSub": "Ugyanez az üzem szolgál ki hét célterületet; a csomagolást és a jelöléseket célterületenként állítjuk be.",
+    "logisticsTitle": "Mit erősítünk meg a kiszállítás előtt",
+    "logisticsSub": "Négy pont, amelyet az ajánlatban rendezünk el, nem a raktár kapujánál.",
+    "l1": "Csomaglista — csomagonkénti mennyiségek méret és szemcseméret szerint, a rendeléshez igazítva",
+    "l2": "Kartonjelölések — az Ön jelölései vagy a standard készlet, a gyártás előtt egyeztetve",
+    "l3": "Rákosítási minta — az Ön célterületéhez és anyagmozgatási berendezéseihez állítva",
+    "l4": "Célország és dokumentumok — az ajánlattal egyeztetve",
+    "faqTitle": "A vevők ellátásra vonatkozó kérdései",
+    "f1": "Mely célterületeket látják el?",
+    "fa1": "Hét célterület Európában, Észak-Amerikában, a Közel-Keleten és Ázsiában; a csomagolást és a jelöléseket célterületenként állítjuk be.",
+    "f2": "Hogyan védik az árut a szállítás során?",
+    "fa2": "A csomagolást célterületenként részletezzük és az ajánlatban erősítjük meg; a nedvesség elleni védelmet és a rákosítási mintát az Ön által közölt szállítási körülmények határozzák meg.",
+    "f3": "Valódiak az oldalon feltüntetett vevői logók?",
+    "fa3": "Nem. Ezek helyfoglaló mezők. Cserélje ki a src/data/trust.json állományt publikus anyagokra, mielőtt referenciaként hivatkozna rájuk.",
+    "f4": "A feltüntetett tanúsítványok ellenőrzöttek?",
+    "fa4": "A tanúsítvány-mezők helyfoglalók a publikus tanúsítványok megjelenéséig; kizárólag a megjelenített üzemi adatokat erősítette ki a gyár.",
+    "qaTitle": "Mire van szükségünk Öntől",
+    "qaSub": "Három pont, amely alapján a specifikációval, átfutási idővel és áron térhetünk vissza.",
+    "q1": "Alkalmazás, gép és az elvárt felületminőség",
+    "q2": "A megmunkált anyag és az Ön által használt szemcse-szabvány (FEPA vagy ANSI)",
+    "q3": "Mennyiség, célország, valamint a szükséges csomagolás vagy jelölések"
   },
   "glossary": {
     "h1": "Csiszolószerek szójegyzéke",
@@ -991,6 +1082,11 @@
         "title": "Nagykereskedelmi csiszolószerek — szalagok, korongok és tálcalapos korongok | MoTai",
         "description": "A teljes MoTai csiszolószer-katalógus: ipari csiszolószalagok, csiszolókorongok és tálcalapos korongok forgalmazóknak, importőröknek, nagykereskedőknek és OEM-márkákhoz. Gyártóközvetlen nagykereskedelem, testreszabás és export Hubeiból, Kínából.",
         "keywords": "csiszolószer-termékek, nagykereskedelmi csiszolószer-termékek, ipari csiszolószer, festett csiszolószer, nagykereskedelmi csiszolószer, gyárban készült csiszolószer-termékek, csiszolószer exportőr, csiszolószer beszállító Kína, csiszolószer OEM gyártó, saját márkás csiszolószer, egyedi csiszolószer-termékek, nagy tömegű csiszolószer beszállítás, csiszolószer gyár, csiszolószer-eszközök, csiszolószer anyagiak, facsiszoló termékek, felület-utószínezési termékek, csiszolószerszövet, csiszolószerszövet lap, kerek csiszolószerszövet, nagykereskedelmi csiszolószerszövet, facsiszoló pá, kampós-csák facsiszoló pá, 5 hüvelyk facsiszoló pá, 6 hüvelyk facsiszoló pá, nem szőtt tálcalap, csiszolószer textil, ipari henger"
+      },
+      "sponge": {
+        "title": "Csiszolószivacs-gyártó és nagykereskedelmi szállító | MoTai",
+        "description": "Rugalmas csiszolószivacs-párnák és vastag habtömbök vizes vagy száraz kézi csiszoláshoz íveknél, peremeknél, sík felületeknél és felújított falaknál. Újrafelhasználhatók, több szemcsemérettel, formavágva és OEM-csomagolásban. Gyári közvetítésű nagykereskedelem.",
+        "keywords": "csiszolószivacs, csiszolószivacs-blokk, csiszolószivacs-párna, csiszolóhab, kézi csiszolóhab, csiszolószivacs-gyártó, csiszolószivacs-nagykereskedelem, formavágott csiszolószivacs, OEM csiszolószivacs"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — MoTai gyári és termékvideók",
       "description": "Gyári és termékvideó a MoTai Csiszolóanyagoktól, Xianning, Hubei. {title}",
       "keywords": "{line}, csiszoló videó, csiszológyár felvétel, MoTai videó, csiszolóanyag-gyártás, csiszoló beszállító videó"
+    },
+    "sponge": {
+      "title": "MoTai {name} — csiszolószivacs-gyártó",
+      "description": "MoTai {name}: {summary} Nagykereskedelmi ellátás és OEM-csomagolás forgalmazóknak és műhelyeknek.",
+      "keywords": "csiszolószivacs, csiszolószivacs-blokk, csiszolóhab, kézi csiszolószivacs-párna, csiszolószivacs-gyártó, csiszolószivacs-nagykereskedelem"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Hogyan válassza meg ezt a termékcsaládot",
+    "guideSub": "Négy pont, amely meghatározza, melyik termék illik az Ön alkalmazásához — erősítse meg őket az ajánlattal.",
+    "specTitle": "Specifikációs lefedettség",
+    "specSub": "Amit ez a termékcsalád jelenleg lefed, közvetlenül a termékadatokból.",
+    "faqTitle": "A vevők ezzel a termékcsaláddal kapcsolatos kérdései",
+    "belts": [
+      {
+        "q": "Melyik szalagszélesség illik a gépemhez?",
+        "a": "A dokumentált méretek 533 × 75 mm-től 2200 × 1330 mm-ig terjednek; az 1500 mm feletti ultraszéles, egyetlen darabból készült szalagok nem tartalmaznak kötést. Adja meg a gépet, a terhelést és az elvárt felületminőséget, hogy a szélességet az ajánlattal megerősíthessük."
+      },
+      {
+        "q": "Milyen szemcseméret-tartományban rendelhetek?",
+        "a": "40–800-as szemcseméret, alumínium-oxid, cirkón-oxid és szilíc-karbid szemcsével. A durva szemcseméret gyorsan ledolgoz nagyobb anyagmennyiséget; a finom szemcseméret simít és fejez be felületet."
+      },
+      {
+        "q": "Gyártanak egyedi méreteket?",
+        "a": "Igen. A dokumentált méreteken túli szélességeket és hosszakat esetről esetre árazzuk; az egyedi méretre váltás az átfutási időt és a minimális rendelési mennyiséget is érinti."
+      },
+      {
+        "q": "Milyen kötéssel és élkezeléssel készülnek?",
+        "a": "A kötés típusát és az élkezelést referenciánként határozzuk meg. Adja meg a gépet, a terhelést és a fordulatszámot, hogy a megfelelő kivitelezést megerősíthessük."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Kampós-csák, PSA vagy hálós (mesh) — melyik a megfelelő a szerszámomhoz?",
+        "a": "A kampós-csák a gyakori szemcseváltoztatáshoz illik excentrikus csiszológépen, a PSA sík hátlaphoz és hosszabb futási időkhez, a hálós (mesh) kivitel pedig porelszíváshoz alkalmas."
+      },
+      {
+        "q": "Milyen méretek és lyukminták vannak dokumentálva?",
+        "a": "3, 4, 5 és 6 hüvelykes átmérőjű korongok, mindegyik referencia saját lyukmintájával; a befogólyuknak vagy a középfuratnak egyeznie kell a szerszámával."
+      },
+      {
+        "q": "Melyik szemcseméret mire való?",
+        "a": "A durva szemcseméret gyorsan ledolgozza a rozsdát és a festéket; a finom szemcseméret simít és készíti elő a felületet az utószínezéshez. Adja meg az anyagot és az elvárt felületminőséget."
+      },
+      {
+        "q": "Támogatják a porelszívást?",
+        "a": "A hálós (mesh) és a perforált, pormentes kivitelek ebben a termékcsaládban dokumentáltak; a perforált minta lehetővé teszi, hogy a felület látasz maradjon csiszolás közben."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Melyik hordozó illik az én alkalmazásomhoz?",
+        "a": "A műanyag hordozó az általános fémcsiszoláshoz, az acél hordozó a nehezebb sorja-mentesítéshez, az üvegszálas hordozó pedig a nagy fordulatszámú munkához való tartóssághoz illik; a befogólyuknak egyeznie kell a szerszámával."
+      },
+      {
+        "q": "Mire használják a tálcalapos korongokat?",
+        "a": "Hegyvetési őrléshez, rozsdaeltávolításhoz, felületek simításához és fémalkatrészek befejezéséhez — mindig a szerszám névleges fordulatszámának megfelelően, felszerelt védőburkolattal."
+      },
+      {
+        "q": "Szolgáltatnak tömeges mennyiségeket?",
+        "a": "Igen. A tálcalapos korongokat nagy tételben szállítjuk forgalmazóknak és műhelyeknek; a szemcseméretet, a hordozót, az átmérőt és a mennyiséget együttesen állítjuk be az ajánlatban."
+      },
+      {
+        "q": "Miért üvegesedik el a korongom hengermáznál?",
+        "a": "A hengermáz gyorsan betölti a csiszolófelületet. Válasszon durvább szemcseméretet, tartsa a korongot síkban a munkadarabnak, és berakódáskor tisztítsa vagy igazítsa meg a felületet."
+      }
+    ],
+    "all": [
+      {
+        "q": "Hol kezdjem, ha az alkalmazásom nem szerepel a listában?",
+        "a": "Küldje el az anyagot, a gépet, az elvárt felületminőséget és a volumenet; a megfelelő termékcsaláddal, specifikációval és átfutási idővel térünk vissza."
+      },
+      {
+        "q": "Előbb egy-egy referenciát rendelhetek mindegyikből?",
+        "a": "A standard referenciák mintái kérésre rendelkezésre állnak; a mintaelérhetőséget és a fuvarfeltételeket a válasszal együtt erősítjük meg."
+      },
+      {
+        "q": "Minden termékcsaládban kérhető OEM ajánlat?",
+        "a": "Igen. A logót, a címkéket, a méreteket és a csomagolást megvalósíthatósági vizsgálattal árazzuk a csiszolószalagokban, korongokban és tálcalapos korongokban egyaránt."
+      },
+      {
+        "q": "Hol helyezkednek el a csiszolószivacsok a kínálatban?",
+        "a": "Kézi csiszolás: rugalmas párnák ívekhez és profilokhoz, habtömbök sík felületekhez és felújított falakhoz. Mindkettőt a méretekkel, szemcsemérettel, habsűrűséggel és mennyiséggel árazzuk."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Rugalmas párna vagy habtömb — melyik a feladathoz?",
+        "a": "A rugalmas párna ívekhez, peremekhez és profilokhoz, a habtömb sík felületekhez, szélhez és felújított falakhoz illik. Mindkettő tisztítás után újrafelhasználható."
+      },
+      {
+        "q": "A hab színe jelzi a szemcseméretet?",
+        "a": "Nem. A hab színe nem utal szemcseméretre vagy keménységi fokozatra. Adja meg a megkeresésben a szemcseméretet, a csiszolóanyagot és a habsűrűséget, és mi ezt ragasztjuk meg az ajánlathoz."
+      },
+      {
+        "q": "Vágnak egyedi formára és csomagolnak a mi márkánkkal?",
+        "a": "Igen. Küldje el a profilt, a vastagságot, a szemcseméretet, a csomagolási formát és a célmennyiségeket; a formavágó szerszám és a rajztervek követelményeit a vizsgálatban erősítjük meg."
+      },
+      {
+        "q": "Moshatók és újrafelhasználhatók?",
+        "a": "Addig ki lehet öblíteni és újra lehet használni, amíg a csiszolóréteg ki nem kopik; az élettartam a szemcsemérettől, a nyomástól és a megmunkált felülettől függ."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Csiszolószivacsok · kézi csiszoló kínálat",
+    "thickness": "Felépítés",
+    "gritNote": "A hab színei nem határozzák meg a szemcseméretet vagy a keménységet. Adja meg a megkeresésben a méreteket, a szemcseméretet, a csiszolóanyagot, a habsűrűséget, a csomagolást és a mennyiséget.",
+    "overviewTitle": "Termék áttekintés",
+    "overviewBody": "Rugalmas, újrafelhasználható csiszolószivacsok vizes vagy száraz csiszoláshoz. A hab alkalmazkodik az ívekhez, peremekhez és profilokhoz, így a kézi csiszolás ellenőrizhető marad.",
+    "checklistTitle": "Erősítse meg a megfelelő specifikációt",
+    "checklistSub": "Ezek az adatok segítenek a megkeresés áttekintésében. Ezek megerősítendő követelmények, nem publikus termékadatokként közzétett értékek.",
+    "c1": "Méretek — adja meg a szélességet × hosszúságot mm-ben",
+    "c2": "Szükséges szemcseméret — adja meg a finomsági fokozatot vagy az elvárt felületminőséget",
+    "c3": "Munkadarab és gép — ossza meg az anyagot, a gépet és a tervezett felületminőséget",
+    "c4": "Mennyiség és csomagolás — töltse ki a mennyiséget, a csomagolási igényt és a szállítási célterületet",
+    "enquiryTitle": "Hogyan kérjen ajánlatot",
+    "enquirySub": "A termékválasztástól az ajánlatig.",
+    "e1t": "Válassza ki a termékét",
+    "e1b": "Ismerje meg a csiszolószivacs-kínálatot, és válassza az alkalmazásának megfelelő felépítést.",
+    "e2t": "Ossza meg az igényeit",
+    "e2b": "Adja meg a mennyiséget, a méreteket, a szemcseméretet és a csomagolási követelményeket.",
+    "e3t": "Nézze át az ajánlatát",
+    "e3b": "Erősítse meg csapatunkkal a végleges specifikációt és a kereskedelmi feltételeket.",
+    "appsTitle": "Csiszolószivacs alkalmazásai kézi csiszolásnál",
+    "appsSub": "Fához, fémhez, autóipari utófestéshez, valamint alkalmas fal- és hézagoló felületekhez. Illessze a szemcseméretet az anyaghoz, és próbálja ki egy nem látható részen.",
+    "a1t": "Fa csiszolása",
+    "a1b": "Csiszolóblokkok ácsmunkához, beleértve a felület-előkészítést és az él csiszolását bútorokon, szekrényeken és más fa alkatrészeken.",
+    "a2t": "Gipszkarton csiszoló szivacsok",
+    "a2b": "Csiszolóblokkok a gipszkarton hézagainak simításához, a hézagolóanyag peremének elsimításához és a falak alapozásra, festésre való előkészítéséhez.",
+    "a3t": "Rozsdaeltávolítás",
+    "a3b": "Rugalmas, újrafelhasználható csiszolószivacsok vizes vagy száraz csiszoláshoz. A hab alkalmazkodik az ívekhez, peremekhez és profilokhoz, így a kézi csiszolás ellenőrizhető marad.",
+    "faqTitle": "Vevői kérdések",
+    "q1": "A szín jelzi a csiszolóanyag típusát?",
+    "a1": "Nem. A hab színe nem utal szemcseméretre vagy keménységi fokozatra. Adja meg a megkeresésben a szemcseméretet, a csiszolóanyagot és a habsűrűséget.",
+    "q2": "Hogyan kérjek OEM-csomagolást?",
+    "a2": "Küldje el a megkereséssel együtt a címke-rajztereit, a csomagolási formát, a célmennyiségeket és a célterületet; az OEM-elérhetőséget és a rajztervek követelményeit a vizsgálatban erősítjük meg.",
+    "q3": "Az ajánlatkérés önmagában rendelést jelent?",
+    "a3": "Nem. Ez nagykereskedelmi megkeresés. A specifikációt és a kereskedelmi feltételeket az ajánlatban erősítjük meg, mielőtt bármely futás elkezdődne.",
+    "ctaTitle": "Tömeges csiszolószivacsra van szüksége?",
+    "ctaSub": "Küldje el a méreteket, a szemcseméretet, a mennyiséget és a célterületet — megerősítjük a specifikációt és az átfutási időt."
   }
 }

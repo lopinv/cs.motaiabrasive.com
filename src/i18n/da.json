@@ -54,6 +54,11 @@
       "title": "Alle produkter",
       "desc": "Det komplette MoTai-katalog af slibemidler: slibebånd, slipeplader og flap-skiver til industrielle købere, distributører og private-label-mærker.",
       "label": "Alle produkter"
+    },
+    "sponge": {
+      "title": "MoTai slibesvampe",
+      "desc": "Fleksible slibesvamp-puder og tykke skumblokke til våd eller tør håndslibning af kurver, kanter, plane flader og udbedrede vægge. Genanvendelige efter rensning. Engros- og OEM-forespørgsler velkomne.",
+      "label": "Slibesvampe"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifikationer",
     "howTitle": "Sådan specificerer du din ordre",
     "howBody": "Angiv bånd- eller pladestørrelse, kornliste, maskinmodel, arbejdsstykkets materiale og mængde. En klar specifikation hjælper os med at vurdere pasningen og udarbejde et nyttigt tilbud — undgå at vælge et produkt ud fra farve alene.",
-    "faqTitle": "Køberspørgsmål"
+    "faqTitle": "Køberspørgsmål",
+    "family": "Produkttype"
   },
   "about": {
     "h1": "Selskabet bag slibemiddelsortimentet",
@@ -264,7 +270,28 @@
     "pr6t": "Afsendelse",
     "pr6b": "Koordinér pakning og destination.",
     "cta1": "Bestil et engros-tilbud",
-    "cta2": "Kontakt via WhatsApp"
+    "cta2": "Kontakt via WhatsApp",
+    "faqTitle": "Spørgsmål, OEM-mærker stiller",
+    "faqSub": "De praktiske forhold, der afgør en gennemførbarhedsvurdering af et OEM-projekt.",
+    "o1": "Hvad er minimumsordren for OEM?",
+    "oa1": "Minimumsmængder afhænger af produktlinje, størrelse, kornmix og forpakning; de bekræftes i gennemførbarhedsvurderingen, der følger med dit tilbud.",
+    "o2": "Hvilket artwork har I brug for fra os?",
+    "oa2": "Trykklart artwork med jeres mærke, de etiketstørrelser I bruger, og eventuelle påkrævede destinationsmærker. Artwork-kravene bekræftes i vurderingen, før en produktion startes.",
+    "o3": "Kan jeg få en prøvegang, før jeg forpligter mig?",
+    "oa3": "Ja. Prøver af standardreferencer kan fås til vurdering, og OEM-artwork godkendes efter den bekræftede specifikation.",
+    "o4": "Pakker I udelukkende under vores mærke?",
+    "oa4": "Ja. Ved private-label-gange sættes jeres logo, etiketter, størrelser og forpakning på; etiketterne påføres og kontrolleres, før kassen lukkes, ikke efter ankomst.",
+    "o5": "Hvor lang tid tager en OEM-gennemførbarhedsvurdering?",
+    "oa5": "Vurderingen følger efter gennemgangstrinnet; lagervarer besvares hurtigst, fordi der ikke gælder nogen konverteringsledtid for dem.",
+    "specTitle": "Hvad et OEM-brief indeholder",
+    "specSub": "Seks punkter, der lader os svare med en nyttig gennemførbarhedsvurdering allerede første gang.",
+    "checklistTitle": "Inden du sender briefet",
+    "c1": "Produktlinje og den specifikationsreference, du køber i dag",
+    "c2": "Etiketartwork, trykklart, med de etiketstørrelser I bruger",
+    "c3": "Forpakningsformat — karton, inderforpakning, detailenhed",
+    "c4": "Målmængder og blandingen af størrelser og korn",
+    "c5": "Destination og eventuelle destinationsmærker eller dokumenter",
+    "c6": "Timing — lanceringsdato eller første forsendelsesvindue"
   },
   "applications": {
     "h1": "Slibemidler til din branche",
@@ -437,7 +464,49 @@
     "consent": "Jeg accepterer privatlivspolitikken, brugsbetingelserne og, at mine oplysninger bruges til at besvare denne forespørgsel. *",
     "btn1": "Bestil et engros-tilbud",
     "btn2": "Send forespørgsel via WhatsApp",
-    "goNote": "Formularen åbnes i vores engros-forespørgselssystem med din produktkontekst forudfyldt."
+    "goNote": "Formularen åbnes i vores engros-forespørgselssystem med din produktkontekst forudfyldt.",
+    "whyTitle": "Hvorfor købere sender tilbud ud gennem MoTai",
+    "whySub": "Fire grunde til, at distributører og metalværksteder sender os deres specifikation.",
+    "w1t": "Pris direkte fra fabrikken",
+    "w1b": "Konverteringen foregår i vores egen fabrik i Xianning, Hubei, så tilbuddet afspejler konverteringsomkostningen og ikke en kæde af mellemled.",
+    "w2t": "Specifikation bekræftet skriftligt",
+    "w2b": "Korn, bagside, mål, forpakning og mærker aftales i tilbuddet, og det er dér, ordren kontrolleres op imod inden afsendelse.",
+    "w3t": "Lagervarer til standardstørrelser",
+    "w3b": "Standardbredder og standardkorn er på hylderne og klar, hvilket holder genopfyldningsordrer korte, mens specialmål fremstilles efter jeres bekræftede specifikation.",
+    "w4t": "OEM og private label",
+    "w4b": "Dit logo, dine etiketter, størrelser og forpakning — tilbudt ud fra en gennemførbarhedsvurdering i stedet for et gæt.",
+    "stepsTitle": "Sådan bliver en forespørgsel til en bekræftet ordre",
+    "stepsSub": "Fire trin, hvert med et skriftligt kontrolpunkt, så intet afgøres ved afsendelsesdøren.",
+    "p1t": "Du sender specifikationen",
+    "p1b": "Produktkategori, model eller reference, størrelse, korn, materiale, mængde, forpakning og destination — felterne nedenfor.",
+    "p2t": "Vi gennemgår og svarer",
+    "p2b": "Størrelser, kvaliteter, bagside og forpakning gennemgås op imod din anvendelse; en uoverensstemmelse rejses inden tilbuddet.",
+    "p3t": "Prøvegodkendelse (hvis påkrævet)",
+    "p3b": "Prøver af standardreferencer kan fås på anmodning og vurderes, inden en produktionsgang aftales.",
+    "p4t": "Produktionsgang mod den bekræftede specifikation",
+    "p4b": "Produktionen følger den bekræftede specifikation, hvorefter kontrolpunkter, pakkeliste og mærker anbringes inden afsendelse.",
+    "faqTitle": "Spørgsmål købere stiller inden tilbud",
+    "faqSub": "De praktiske oplysninger, der afgør pris, leveringstid og pasform.",
+    "q1": "Hvad er minimumsordremængden?",
+    "a1": "Minimumsmængder afhænger af produktlinje, størrelse og forpakning; de bekræftes i svaret på din forespørgsel frem for at offentliggøres som ét tal.",
+    "q2": "Hvor lang tid tager et tilbud?",
+    "a2": "Et svar med specifikation, leveringstid og pris udsendes efter gennemgangstrinnet; lagervarer tilbydes hurtigst, fordi der ikke gælder nogen konverteringsledtid.",
+    "q3": "Kan jeg få en prøve først?",
+    "a3": "Ja. Prøver af standardreferencer kan vurderes på anmodning; prøvens tilgængelighed og fragtvilkår bekræftes sammen med dit svar.",
+    "q4": "Understøtter I OEM og private label?",
+    "a4": "Ja. Send dit logo, etiketartwork, forpakningsformat og målmængder, så returnerer vi en OEM-gennemførbarhedsvurdering sammen med tilbuddet.",
+    "q5": "Hvilke betalings- og forsendelsesvilkår bruger I?",
+    "a5": "Handelsvilkår bekræftes pr. forespørgsel i tilbuddet, herunder destination, forpakning og den incoterm, du angiver.",
+    "trustTitle": "Levering i et hjulkast",
+    "trustSub": "Fabrikken bag dit tilbud.",
+    "trustNote": "Tallene beskriver produktionsstedet; ordrens vilkår bekræftes i tilbuddet.",
+    "checklistTitle": "Inden du sender den",
+    "checklistSub": "Når disse fem punkter står klar, bliver det første svar væsentligt hurtigere.",
+    "c1": "Anvendelse, maskine og ønsket finish",
+    "c2": "Materiale, der skal bearbejdes (stål, træ, aluminium, maling, gips)",
+    "c3": "Kornstørrelse og standard, du køber til (FEPA eller ANSI)",
+    "c4": "Størrelse, diameter, huller og mængde",
+    "c5": "Destinationsland og påkrævet forpakning eller mærker"
   },
   "clients": {
     "h1": "Hvor MoTais forsendelser går hen",
@@ -445,7 +514,29 @@
     "note": "Kundelogoer og kundeanmeldelser nedenfor er pladsholdere — erstat src/data/trust.json med offentliggjort materiale.",
     "placeholderBadge": "Illustrativ pladsholder",
     "statsTitle": "Levering i et hjulkast",
-    "statsNote": "Viste certificeringer er pladsholdere, indtil certificeringer er offentliggjort."
+    "statsNote": "Viste certificeringer er pladsholdere, indtil certificeringer er offentliggjort.",
+    "regionsTitle": "Fra Hubei til dit marked",
+    "regionsSub": "Samme fabrik betjener syv destinationsregioner; forpakning og mærker sættes pr. destination.",
+    "logisticsTitle": "Hvad vi bekræfter inden afsendelse",
+    "logisticsSub": "Fire punkter, der afgøres i tilbuddet, ikke ved afsendelsesdøren.",
+    "l1": "Pakkeliste — pakkemængder pr. størrelse og korn, matchet til ordren",
+    "l2": "Kartonmærker — dine mærker eller standardsættet, aftalt før produktionen",
+    "l3": "Pallekonfiguration — sat op til din destination og dit håndteringsudstyr",
+    "l4": "Destination og dokumenter — aftalt med tilbuddet",
+    "faqTitle": "Spørgsmål købere stiller om levering",
+    "f1": "Hvilke destinationer leverer I til?",
+    "fa1": "Syv destinationsregioner i Europa, Nordamerika, Mellemøsten og Asien; forpakning og mærker sættes pr. destination.",
+    "f2": "Hvordan beskytter I varerne under transport?",
+    "fa2": "Forpakningen specificeres pr. destination og bekræftes i tilbuddet; fugtbeskyttelse og pallekonfiguration følger de transportforhold, du oplyser.",
+    "f3": "Er kundelogoerne på denne side ægte?",
+    "fa3": "Nej. Det er pladsholderpladser. Erstat src/data/trust.json med offentliggjort materiale, før du bruger dem som referencer.",
+    "f4": "Er de viste certificeringer verificeret?",
+    "fa4": "Certificeringspladserne er pladsholdere, indtil certifikater offentliggøres; kun de viste fabrikstal er bekræftet af fabrikken.",
+    "qaTitle": "Hvad vi har brug for fra dig",
+    "qaSub": "Tre punkter, der lader os svare med specifikation, leveringstid og pris.",
+    "q1": "Anvendelse, maskine og den ønskede finish",
+    "q2": "Materiale, der bearbejdes, og kornstandarden, du køber til (FEPA eller ANSI)",
+    "q3": "Mængde, destinationsland og påkrævet forpakning eller mærker"
   },
   "glossary": {
     "h1": "Ordbog over slibemidler",
@@ -991,6 +1082,11 @@
         "title": "Slibemiddelprodukter engros — bånd, plader & flap-skiver | MoTai",
         "description": "Det komplette MoTai-katalog af slibemidler: industrielle slibebånd, slipeplader og flap-skiver til distributører, importører, engrosforhandlere og OEM-mærker. Engros direkte fra fabrikken, tilpasning og eksport fra Hubei, Kina.",
         "keywords": "slibemiddelprodukter, slibemiddelprodukter engros, industrielle slibemidler, belagte slibemidler, slibemidler engros, slibemiddel-fabrik, slibemiddelforhandler, slibemiddelleverandør Kina, OEM-slibemiddelproducent, private label slibemidler, tilpassede slibemiddelprodukter, store leveringer af slibemidler, slibemiddelfabrik, slibemiddelredskaber, slibemateriale, slibeprodukter, overfladeefterbehandlingprodukter, slibepapir, slibepapirark, rundt slibepapir, slibepapir engros, slipeunderlag, krog- og loop-slipeunderlag, 5 tommers slipeunderlag, 6 tommers slipeunderlag, vliezflaghjul, slibeklam, industriel rullebørste"
+      },
+      "sponge": {
+        "title": "Fabrikant af slibesvampe & engrosleverandør | MoTai",
+        "description": "Fleksible slibesvamp-puder og tykke skumblokke til våd eller tør håndslibning af kurver, kanter, plane flader og udbedrede vægge. Genanvendelige, flere kornstørrelser, udstansede og OEM-forpakning. Engros direkte fra fabrikken.",
+        "keywords": "slibesvamp, slibesvampblokke, slibesvamp-puder, slibesvamp med slibelag, slibesvampe til håndslibning, fabrikant af slibesvampe, slibesvampe i engros, udstansede slibesvampe, OEM-slibesvampe"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} – MoTai fabriks- og produktvideoer",
       "description": "Fabriks- og produktvideo fra MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, slibemiddelvideo, fabriksoptagelser slibemidler, MoTai-video, slibemiddelproduktion, video slibemiddelleverandør"
+    },
+    "sponge": {
+      "title": "MoTai {name} — fabrikant af slibesvampe",
+      "description": "MoTai {name}: {summary} Engroslevering og OEM-forpakning til distributører og værksteder.",
+      "keywords": "slibesvamp, slibesvampblok, slibesvamp med slibelag, håndslibningspude, fabrikant af slibesvampe, slibesvampe i engros"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Sådan vælger du denne linje",
+    "guideSub": "Fire punkter, der afgør, hvilket produkt passer til din anvendelse — bekræft dem med tilbuddet.",
+    "specTitle": "Specifikationsdækning",
+    "specSub": "Hvad linjen dækker i dag, direkte fra produktposterne.",
+    "faqTitle": "Spørgsmål købere stiller om denne linje",
+    "belts": [
+      {
+        "q": "Hvilken båndbredde passer til min maskine?",
+        "a": "De dokumenterede størrelser går fra 533 × 75 mm til 2200 × 1330 mm; ultrabredde bånd i ét stykke over 1500 mm undgår en føjning. Angiv maskine, belastning og ønsket finish, så bredden bekræftes med tilbuddet."
+      },
+      {
+        "q": "Hvilket kornområde kan jeg bestille?",
+        "a": "Korn 40–800 i aluminiumoxid-, zirkonoxid- og siliciumcarbidskorn. Groft korn fjerner materiale hurtigt; fint korn udjævner og finisher."
+      },
+      {
+        "q": "Leverer I specialstørrelser?",
+        "a": "Ja. Bredde og længde ud over de dokumenterede størrelser tilbydes sag for sag; konvertering til specialstørrelse påvirker både leveringstid og minimumsordre."
+      },
+      {
+        "q": "Hvordan er føjnings- og kantudførelsen?",
+        "a": "Føjningstype og kantbehandling specificeres pr. reference. Fortæl os maskine, belastning og hastighed, så den rigtige konstruktion bekræftes."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Krog & loop, PSA eller mesh — hvad til mit værktøj?",
+        "a": "Krog & loop passer til hyppige kornskift på en excentersliber, PSA passer til flade bagplader og lange driftstider, og mesh passer til støvudsugning."
+      },
+      {
+        "q": "Hvilke størrelser og hulmønstre er dokumenteret?",
+        "a": "Plader i 3, 4, 5 og 6 tommer med hver references hulmønster; dornhullet eller centerhullet skal matche dit værktøj."
+      },
+      {
+        "q": "Hvilket korn til opgaven?",
+        "a": "Groft korn fjerner rust og maling hurtigt; fint korn udjævner og forbereder overfladen til efterbehandling. Angiv materialet og den ønskede finish."
+      },
+      {
+        "q": "Understøtter I støvudsugning?",
+        "a": "Mesh- og perforerede støvfrie udførelser er dokumenteret i denne linje; det perforerede mønster holder overfladen synlig under slibning."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Hvilken bærerem passer til min anvendelse?",
+        "a": "Plast passer til generel metalslibning, stål til krævende afgratning og glasfiber til holdbarhed ved høje hastigheder; dornhullet skal matche værktøjet."
+      },
+      {
+        "q": "Hvad bruges flap-skiver til?",
+        "a": "Slibning af svejsninger, rustfjernelse, udjævning af flader og efterbehandling af metaldele — afstemt efter værktøjets tilladte hastighed, med monteret beskyttelsesskærm."
+      },
+      {
+        "q": "Leverer I bulkmængder?",
+        "a": "Ja. Flap-skiver leveres i bulk til distributører og værksteder; korn, bærerem, diameter og mængde fastlægges sammen i tilbuddet."
+      },
+      {
+        "q": "Hvorfor tilstoppes min skive på valseskæl?",
+        "a": "Valseskæl tilstopper slibekornet hurtigt. Vælg et grovere korn, hold skiven plant mod arbejdsstykket, og rens den, når den tilstopper."
+      }
+    ],
+    "all": [
+      {
+        "q": "Hvor starter jeg, hvis min anvendelse ikke er opført?",
+        "a": "Send materiale, maskine, finish og volumen; vi svarer med den produktfamilie, specifikation og leveringstid, der passer."
+      },
+      {
+        "q": "Kan jeg først bestille én af hver reference?",
+        "a": "Prøver af standardreferencer kan fås på anmodning; prøvens tilgængelighed og fragtvilkår bekræftes sammen med dit svar."
+      },
+      {
+        "q": "Tilbyder I OEM på tværs af alle linjer?",
+        "a": "Ja. Logo, etiketter, størrelser og forpakning tilbydes mod en gennemførbarhedsvurdering på tværs af bånd, plader og flap-skiver."
+      },
+      {
+        "q": "Hvor sidder slibesvampene i sortimentet?",
+        "a": "Håndslibning: fleksible puder til kurver og profiler, skumblokke til plane flader og udbedrede vægge. Begge tilbydes med mål, korn, skumtæthed og mængde."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Fleksible puder eller skumblokke — hvad til mit arbejde?",
+        "a": "Fleksible puder passer til kurver, kanter og profiler; skumblokke passer til plane flader, kanter og udbedrede vægge. Begge er genanvendelige efter rensning."
+      },
+      {
+        "q": "Viser skummets farve kornstørrelsen?",
+        "a": "Nej. Skummets farve er ikke et udtryk for korn eller hårdhed. Bekræft korn, slibemateriale og skumtæthed i din forespørgsel, så matcher vi det i tilbuddet."
+      },
+      {
+        "q": "Kan I udstanse specialformer og pakke under mit mærke?",
+        "a": "Ja. Send din profil, tykkelse, korn, forpakningsformat og målmængder; udstansingsværktøj og artwork-krav bekræftes i vurderingen."
+      },
+      {
+        "q": "Er de vaskbare og genanvendelige?",
+        "a": "De kan skylles og genbruges, indtil slibelaget er slidt op; levetiden afhænger af korn, tryk og den bearbejdede overflade."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Slibesvampe · Håndslibningssortiment",
+    "thickness": "Opbygning",
+    "gritNote": "Skumfarver siger intet om korn eller hårdhed. Bekræft mål, korn, slibemateriale, skumtæthed, forpakning og mængde i din forespørgsel.",
+    "overviewTitle": "Produktoverblik",
+    "overviewBody": "Fleksible, genanvendelige slibesvampe til våd eller tør slibning. Skummet følger kurver, kanter og profiler og giver kontrolleret håndslibning.",
+    "checklistTitle": "Bekræft den rigtige specifikation",
+    "checklistSub": "Disse oplysninger hjælper os med at gennemgå din forespørgsel. Det er krav, der skal bekræftes, ikke offentliggjorte produktværdier.",
+    "c1": "Mål — angiv bredde × længde i mm",
+    "c2": "Ønsket korn — angiv kornstørrelsen eller den ønskede finish",
+    "c3": "Arbejdsstykke og maskine — oplys materiale, maskine og tilsigtet finish",
+    "c4": "Mængde og forpakning — angiv mængde, forpakningsbehov og leveringsdestination",
+    "enquiryTitle": "Sådan forespørger du",
+    "enquirySub": "Fra produktvalg til tilbud.",
+    "e1t": "Vælg dit produkt",
+    "e1b": "Se slibesvampe-sortimentet, og vælg den opbygning, din anvendelse kræver.",
+    "e2t": "Del dine krav",
+    "e2b": "Tilføj mængde, mål, korn og forpakningskrav.",
+    "e3t": "Gennemgå dit tilbud",
+    "e3b": "Bekræft den endelige specifikation og handelsvilkårene med vores team.",
+    "appsTitle": "Håndslibning med slibesvampe",
+    "appsSub": "Til træ, metal, biludbedring samt egnede væg- og fugerflader. Tilpas kornet til materialet, og test på et diskret sted.",
+    "a1t": "Træslibning",
+    "a1b": "Slibeblokke til træarbejde, herunder overfladeforberedelse og kantslibning på møbler, skabe og andre trædele.",
+    "a2t": "Slibesvampe til gips",
+    "a2b": "Slibeblokke til udjævning af gipsføjer, udstrygning af spartlingmasse og forberedelse af vægge til grunding og maling.",
+    "a3t": "Rustfjernelse",
+    "a3b": "Fleksible, genanvendelige slibesvampe til våd eller tør slibning. Skummet følger kurver, kanter og profiler og giver kontrolleret håndslibning.",
+    "faqTitle": "Køberspørgsmål",
+    "q1": "Viser farven, hvilken slibetype det er?",
+    "a1": "Nej. Skummets farve er ikke et udtryk for korn eller hårdhed. Bekræft korn, slibemateriale og skumtæthed i din forespørgsel.",
+    "q2": "Hvordan bestiller jeg OEM-forpakning?",
+    "a2": "Send dit etiketartwork, forpakningsformat, målmængder og destination med forespørgslen; OEM-tilgængelighed og artwork-krav bekræftes i vurderingen.",
+    "q3": "Lægger en tilbudsforespørgsel en ordre?",
+    "a3": "Nej. Det er en engrosforespørgsel. Specifikation og handelsvilkår bekræftes i tilbuddet, før en produktion startes.",
+    "ctaTitle": "Brug for slibesvampe i bulk?",
+    "ctaSub": "Send mål, korn, mængde og destination — vi bekræfter specifikation og leveringstid."
   }
 }

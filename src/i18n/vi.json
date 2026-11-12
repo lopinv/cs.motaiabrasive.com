@@ -54,6 +54,11 @@
       "title": "Tất cả sản phẩm",
       "desc": "Danh mục vật liệu mài đầy đủ của MoTai: dây băng mài, đĩa mài và đĩa mài nhiều lớp dành cho nhà mua hàng công nghiệp, nhà phân phối và thương hiệu riêng.",
       "label": "Tất cả sản phẩm"
+    },
+    "sponge": {
+      "title": "Bọt biển chà nhám MoTai",
+      "desc": "Miếng bọt biển chà nhám mềm và khối xốp dày cho việc chà nhám tay ướt hoặc khô trên bề mặt cong, cạnh, mặt phẳng và tường đã sửa chữa. Tái sử dụng được sau khi làm sạch. Yêu cầu bán buôn và OEM được chào đón.",
+      "label": "Bọt biển chà nhám"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Thông số kỹ thuật",
     "howTitle": "Cách nêu đơn hàng của bạn",
     "howBody": "Đưa vào kích thước dây băng hoặc đĩa, danh sách cỡ hạt, mã máy, vật liệu chi tiết gia công và số lượng. Thông số kỹ thuật rõ ràng giúp chúng tôi xem xét độ phù hợp và chuẩn bị báo giá hữu ích — tránh chọn sản phẩm chỉ dựa vào màu sắc.",
-    "faqTitle": "Câu hỏi của khách mua"
+    "faqTitle": "Câu hỏi của khách mua",
+    "family": "Loại sản phẩm"
   },
   "about": {
     "h1": "Công ty đứng sau dòng vật liệu mài",
@@ -264,7 +270,28 @@
     "pr6t": "Xuất hàng",
     "pr6b": "Điều phối đóng gói và điểm đến.",
     "cta1": "Yêu cầu báo giá bán buôn",
-    "cta2": "Liên hệ qua WhatsApp"
+    "cta2": "Liên hệ qua WhatsApp",
+    "faqTitle": "Những câu hỏi thương hiệu OEM thường đặt ra",
+    "faqSub": "Những điểm thực tế quyết định kết quả đánh giá khả thi OEM.",
+    "o1": "Số lượng đặt hàng tối thiểu OEM là bao nhiêu?",
+    "oa1": "Số lượng tối thiểu phụ thuộc vào dòng sản phẩm, kích thước, cơ cấu cỡ hạt và bao bì; con số này được xác nhận trong bản đánh giá khả thi trả về cùng báo giá của bạn.",
+    "o2": "Chúng tôi cần bạn cung cấp những file artwork nào?",
+    "oa2": "File artwork in sẵn sàng với thương hiệu của bạn, kích thước nhãn bạn đang dùng và các ký hiệu điểm đến nếu có. Yêu cầu về artwork được xác nhận trong bước đánh giá trước khi vào sản xuất.",
+    "o3": "Tôi có thể chạy một lô mẫu trước khi cam kết không?",
+    "oa3": "Có. Mẫu của các mã tham chiếu tiêu chuẩn có sẵn để đánh giá, và việc phê duyệt artwork OEM tuân theo thông số kỹ thuật đã xác nhận.",
+    "o4": "Các bạn chỉ đóng gói dưới thương hiệu của chúng tôi thôi ư?",
+    "oa4": "Có. Lô hàng thương hiệu riêng sẽ in logo, nhãn, kích thước và bao bì của bạn; nhãn được dán và kiểm tra trước khi thùng được niêm phong, chứ không phải sau khi hàng đã đến điểm đến.",
+    "o5": "Việc đánh giá khả thi OEM mất bao lâu?",
+    "oa5": "Việc đánh giá diễn ra ngay sau bước rà soát; các mã tham chiếu có sẵn trong kho được phản hồi nhanh nhất vì không phải tính thêm thời gian gia công.",
+    "specTitle": "Một bản yêu cầu OEM gồm những gì",
+    "specSub": "Sáu điểm giúp chúng tôi trả lại một bản đánh giá khả thi hữu ích ngay trong lần đầu.",
+    "checklistTitle": "Trước khi bạn gửi bản yêu cầu",
+    "c1": "Dòng sản phẩm và mã tham chiếu / thông số kỹ thuật bạn đang mua hiện nay",
+    "c2": "Artwork nhãn, in sẵn sàng, kèm kích thước nhãn bạn đang dùng",
+    "c3": "Định dạng bao bì — thùng hàng, bao bì lót, đơn vị bán lẻ",
+    "c4": "Số lượng mục tiêu và cơ cấu kích thước / cỡ hạt",
+    "c5": "Điểm đến và các ký hiệu hoặc chứng từ điểm đến cần thiết",
+    "c6": "Thời điểm — ngày ra mắt hoặc khung thời gian lô hàng đầu tiên"
   },
   "applications": {
     "h1": "Vật liệu mài cho ngành của bạn",
@@ -437,7 +464,49 @@
     "consent": "Tôi đồng ý với Chính sách riêng tư, Điều khoản sử dụng và việc sử dụng thông tin của tôi để phản hồi yêu cầu này. *",
     "btn1": "Yêu cầu báo giá bán buôn",
     "btn2": "Gửi yêu cầu qua WhatsApp",
-    "goNote": "Biểu mẫu được mở trong hệ thống yêu cầu bán buôn của chúng tôi với ngữ cảnh sản phẩm của bạn được điền sẵn."
+    "goNote": "Biểu mẫu được mở trong hệ thống yêu cầu bán buôn của chúng tôi với ngữ cảnh sản phẩm của bạn được điền sẵn.",
+    "whyTitle": "Vì sao người mua gửi thông số qua MoTai để báo giá",
+    "whySub": "Bốn lý do khiến nhà phân phối và xưởng gia công gửi thông số kỹ thuật của họ cho chúng tôi.",
+    "w1t": "Giá trực tiếp từ nhà máy",
+    "w1b": "Việc gia công được thực hiện tại chính nhà máy của chúng tôi ở Xianning, Hubei, nên báo giá phản ánh đúng chi phí gia công chứ không phải một chuỗi trung gian.",
+    "w2t": "Thông số kỹ thuật được xác nhận bằng văn bản",
+    "w2b": "Cỡ hạt, đế, kích thước, đóng gói và ký hiệu được thống nhất ngay trong báo giá — đây cũng là căn cứ để đối chiếu đơn hàng trước khi xuất hàng.",
+    "w3t": "Có sẵn hàng cho các kích thước tiêu chuẩn",
+    "w3b": "Các cỡ rộng và cỡ hạt tiêu chuẩn đã được xếp sẵn trên kệ, giúp đơn hàng bù hàng gọn nhẹ hơn, trong khi kích thước tùy chỉnh vẫn được sản xuất đúng theo thông số bạn đã xác nhận.",
+    "w4t": "OEM và thương hiệu riêng",
+    "w4b": "Logo, nhãn, kích thước và bao bì của bạn, được báo giá dựa trên đánh giá khả thi thay vì phỏng đoán.",
+    "stepsTitle": "Một yêu cầu trở thành đơn hàng đã xác nhận như thế nào",
+    "stepsSub": "Bốn bước, mỗi bước có một mốc kiểm tra bằng văn bản, để không điều gì bị dàn xếp vội vàng ở cửa xuất hàng.",
+    "p1t": "Bạn gửi thông số kỹ thuật",
+    "p1b": "Danh mục sản phẩm, mã hoặc tham chiếu, kích thước, cỡ hạt, vật liệu, số lượng, bao bì và điểm đến — chính là các trường bên dưới.",
+    "p2t": "Chúng tôi rà soát và phản hồi",
+    "p2b": "Kích thước, cấp hạt, đế và bao bì được rà soát đối chiếu với ứng dụng của bạn; điểm nào chưa khớp sẽ được nêu ra trước khi có báo giá.",
+    "p3t": "Phê duyệt mẫu (khi cần)",
+    "p3b": "Mẫu của các mã tham chiếu tiêu chuẩn có sẵn theo yêu cầu và được đánh giá trước khi thống nhất một lô sản xuất.",
+    "p4t": "Sản xuất theo đặc tả đã xác nhận",
+    "p4b": "Sản xuất được thực hiện theo thông số kỹ thuật đã xác nhận, sau đó các mốc kiểm tra, phiếu đóng gói và ký hiệu được thực hiện trước khi xuất hàng.",
+    "faqTitle": "Những câu hỏi người mua thường đặt trước khi yêu cầu báo giá",
+    "faqSub": "Những chi tiết thực tế quyết định giá, thời gian giao hàng và độ phù hợp.",
+    "q1": "Số lượng đặt hàng tối thiểu là bao nhiêu?",
+    "a1": "Số lượng tối thiểu phụ thuộc vào dòng sản phẩm, kích thước và bao bì; con số này được xác nhận trong thư phản hồi yêu cầu của bạn chứ không công bố thành một con số duy nhất.",
+    "q2": "Báo giá mất bao lâu?",
+    "a2": "Thư phản hồi kèm thông số kỹ thuật, thời gian giao hàng và giá sẽ được gửi sau bước rà soát; các mã tham chiếu có sẵn trong kho được báo giá nhanh nhất vì không phải tính thêm thời gian gia công.",
+    "q3": "Tôi có thể lấy mẫu trước không?",
+    "a3": "Có. Mẫu của các mã tham chiếu tiêu chuẩn có sẵn để đánh giá theo yêu cầu; việc có mẫu hay không và điều kiện cước phí sẽ được xác nhận trong thư phản hồi gửi bạn.",
+    "q4": "Các bạn có hỗ trợ OEM và thương hiệu riêng không?",
+    "a4": "Có. Gửi logo, artwork nhãn, định dạng bao bì và số lượng mục tiêu của bạn, chúng tôi sẽ trả lại một bản đánh giá khả thi OEM kèm với báo giá.",
+    "q5": "Các bạn áp dụng điều khoản thanh toán và giao hàng nào?",
+    "a5": "Điều khoản thương mại được xác nhận cho từng yêu cầu ngay trong báo giá, bao gồm điểm đến, đóng gói và incoterm bạn chỉ định.",
+    "trustTitle": "Nhìn nhanh nguồn cung ứng",
+    "trustSub": "Nhà máy đứng sau báo giá của bạn.",
+    "trustNote": "Các con số mô tả địa điểm sản xuất; điều khoản ở cấp đơn hàng được xác nhận trong báo giá.",
+    "checklistTitle": "Trước khi bạn gửi đi",
+    "checklistSub": "Khi đã chuẩn bị sẵn năm điểm này, thư phản hồi đầu tiên sẽ nhanh hơn đáng kể.",
+    "c1": "Ứng dụng, máy và mức hoàn thiện cần đạt",
+    "c2": "Vật liệu cần gia công (thép, gỗ, nhôm, sơn, tường thạch cao)",
+    "c3": "Cỡ hạt và tiêu chuẩn bạn đang mua theo (FEPA hoặc ANSI)",
+    "c4": "Kích thước, đường kính, lỗ và số lượng",
+    "c5": "Quốc gia điểm đến và yêu cầu về đóng gói hoặc ký hiệu"
   },
   "clients": {
     "h1": "Điểm đến của các lô hàng MoTai",
@@ -445,7 +514,29 @@
     "note": "Logo khách hàng và lời chứng thực bên dưới là vị trí giữ chỗ — thay thế src/data/trust.json bằng tài liệu đã công bố.",
     "placeholderBadge": "Vị trí giữ chỗ minh họa",
     "statsTitle": "Tóm tắt cung ứng",
-    "statsNote": "Chứng chỉ hiển thị là giữ chỗ, chờ công bố chứng chỉ chính thức."
+    "statsNote": "Chứng chỉ hiển thị là giữ chỗ, chờ công bố chứng chỉ chính thức.",
+    "regionsTitle": "Từ Hubei đến thị trường của bạn",
+    "regionsSub": "Cùng một nhà máy phục vụ bảy khu vực điểm đến; bao bì và ký hiệu được thiết lập theo từng điểm đến.",
+    "logisticsTitle": "Những gì chúng tôi xác nhận trước khi xuất hàng",
+    "logisticsSub": "Bốn điểm được thống nhất ngay trong báo giá, chứ không phải ở cửa xuất hàng.",
+    "l1": "Phiếu đóng gói — số lượng đóng theo từng kích thước và cỡ hạt, khớp với đơn hàng",
+    "l2": "Ký hiệu thùng — bộ ký hiệu của bạn hoặc bộ tiêu chuẩn, được thống nhất trước khi vào sản xuất",
+    "l3": "Cách xếp pallet — được thiết lập theo điểm đến và thiết bị bốc dỡ của bạn",
+    "l4": "Điểm đến và chứng từ — được thống nhất cùng báo giá",
+    "faqTitle": "Những câu hỏi người mua thường đặt về nguồn cung ứng",
+    "f1": "Các bạn cung cấp tới những điểm đến nào?",
+    "fa1": "Bảy khu vực điểm đến trải rộng ở châu Âu, Bắc Mỹ, Trung Đông và châu Á; bao bì và ký hiệu được thiết lập theo từng điểm đến.",
+    "f2": "Các bạn bảo vệ hàng hóa trong quá trình vận chuyển như thế nào?",
+    "fa2": "Bao bì được quy định theo từng điểm đến và xác nhận trong báo giá; biện pháp chống ẩm và cách xếp pallet tuân theo điều kiện vận chuyển mà bạn cho chúng tôi biết.",
+    "f3": "Logo khách hàng trên trang này có phải là thật không?",
+    "fa3": "Không. Đây là các vị trí giữ chỗ minh họa. Hãy thay thế src/data/trust.json bằng tài liệu đã công bố trước khi coi chúng là nguồn tham khảo.",
+    "f4": "Các chứng chỉ được liệt kê đã được xác minh chưa?",
+    "fa4": "Các vị trí chứng chỉ vẫn là giữ chỗ, chờ công bố chứng chỉ chính thức; chỉ các con số về nhà máy đang hiển thị là được nhà máy xác nhận.",
+    "qaTitle": "Chúng tôi cần những gì từ bạn",
+    "qaSub": "Ba điểm giúp chúng tôi phản hồi kèm thông số kỹ thuật, thời gian giao hàng và giá.",
+    "q1": "Ứng dụng, máy và mức hoàn thiện cần đạt",
+    "q2": "Vật liệu gia công và tiêu chuẩn cỡ hạt bạn đang mua theo (FEPA hoặc ANSI)",
+    "q3": "Số lượng, quốc gia điểm đến và yêu cầu về đóng gói hoặc ký hiệu"
   },
   "glossary": {
     "h1": "Từ vựng vật liệu mài",
@@ -991,6 +1082,11 @@
         "title": "Bán buôn sản phẩm vật liệu mài — Dây băng, Đĩa & Đĩa nhiều lớp | MoTai",
         "description": "Danh mục vật liệu mài đầy đủ của MoTai: dây băng mài công nghiệp, đĩa mài và đĩa mài nhiều lớp cho nhà phân phối, nhà nhập khẩu, nhà bán buôn và thương hiệu OEM. Bán buôn trực tiếp từ nhà máy, tùy chỉnh và xuất khẩu từ Hubei, Trung Quốc.",
         "keywords": "sản phẩm vật liệu mài, sản phẩm vật liệu mài bán buôn, vật liệu mài công nghiệp, vật liệu mài phủ lớp, vật liệu mài bán buôn, nhà máy sản phẩm vật liệu mài, nhà xuất khẩu sản phẩm vật liệu mài, nhà cung cấp vật liệu mài Trung Quốc, nhà sản xuất vật liệu mài OEM, vật liệu mài thương hiệu riêng, sản phẩm mài tùy chỉnh, cung ứng vật liệu mài số lượng lớn, nhà máy vật liệu mài, dụng cụ mài, vật liệu mài, sản phẩm chà nhám, sản phẩm hoàn thiện bề mặt, giấy nhám, tấm giấy nhám, giấy nhám tròn, giấy nhám bán buôn, đĩa đế chà nhám, đĩa đế chà nhám hook & loop, đĩa đế chà nhám 5 inch, đĩa đế chà nhám 6 inch, đầu chà không dệt, vải mài, chổi lăn công nghiệp"
+      },
+      "sponge": {
+        "title": "Nhà sản xuất & Nhà cung cấp bán buôn bọt biển chà nhám | MoTai",
+        "description": "Miếng bọt biển chà nhám mềm và khối xốp dày cho việc chà nhám tay ướt hoặc khô trên bề mặt cong, cạnh, mặt phẳng và tường đã sửa chữa. Tái sử dụng được, nhiều cỡ hạt, cắt theo khuôn và đóng gói OEM. Bán buôn trực tiếp từ nhà máy.",
+        "keywords": "bọt biển chà nhám, khối bọt biển chà nhám, miếng bọt biển chà nhám, bọt biển mài, bọt biển chà nhám tay, nhà sản xuất bọt biển chà nhám, bọt biển chà nhám bán buôn, bọt biển chà nhám cắt khuôn, bọt biển chà nhám OEM"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — Video Nhà Máy & Sản Phẩm MoTai",
       "description": "Video nhà máy và sản phẩm từ MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, video vật liệu mài, hình ảnh nhà máy vật liệu mài, video MoTai, sản xuất vật liệu mài, video nhà cung cấp vật liệu mài"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Nhà sản xuất bọt biển chà nhám",
+      "description": "MoTai {name}: {summary} Cung cấp bán buôn và bao bì OEM cho nhà phân phối và xưởng.",
+      "keywords": "bọt biển chà nhám, khối bọt biển chà nhám, bọt biển mài, miếng bọt biển chà nhám tay, nhà sản xuất bọt biển chà nhám, bọt biển chà nhám bán buôn"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Cách chọn dòng sản phẩm này",
+    "guideSub": "Bốn điểm quyết định sản phẩm nào phù hợp với ứng dụng của bạn — hãy xác nhận chúng cùng báo giá.",
+    "specTitle": "Phạm vi thông số có tài liệu",
+    "specSub": "Những gì dòng sản phẩm này bao phủ hiện nay, lấy trực tiếp từ hồ sơ sản phẩm.",
+    "faqTitle": "Những câu hỏi người mua thường đặt về dòng sản phẩm này",
+    "belts": [
+      {
+        "q": "Chiều rộng dây băng nào phù hợp với máy của tôi?",
+        "a": "Các kích thước có tài liệu ghi nhận trong dải từ 533 × 75 mm đến 2200 × 1330 mm; dây băng một khúc siêu rộng trên 1500 mm sẽ không có mối nối. Hãy nêu rõ máy, tải trọng và mức hoàn thiện để chiều rộng được xác nhận trong báo giá."
+      },
+      {
+        "q": "Tôi có thể đặt cỡ hạt trong dải nào?",
+        "a": "Cỡ hạt 40–800 trên cả ba loại hạt oxit nhôm, ziriconi và carbide silic. Hạt thô bóc vật liệu nhanh; hạt mịn làm mịn mối nối và hoàn thiện."
+      },
+      {
+        "q": "Các bạn có cung cấp kích thước tùy chỉnh không?",
+        "a": "Có. Chiều rộng và chiều dài vượt ngoài các kích thước có tài liệu được báo giá theo từng trường hợp; việc gia công theo kích thước tùy chỉnh ảnh hưởng đến cả thời gian giao hàng lẫn số lượng đặt hàng tối thiểu."
+      },
+      {
+        "q": "Kiểu nối và xử lý cạnh như thế nào?",
+        "a": "Kiểu nối và cách xử lý cạnh được quy định theo từng mã tham chiếu. Hãy cho chúng tôi biết máy, tải trọng và tốc độ để chọn đúng cấu trúc phù hợp."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Hook & loop, PSA hay lưới — loại nào cho máy của tôi?",
+        "a": "Đĩa hook & loop phù hợp khi thường xuyên thay cỡ hạt trên máy chà nhám quỹ đạo ngẫu nhiên, đĩa PSA phù hợp với đế phẳng và thời gian chạy dài, còn đĩa lưới phù hợp với công tác hút bụi."
+      },
+      {
+        "q": "Những kích thước và kiểu lỗ nào được ghi nhận?",
+        "a": "Đĩa 3, 4, 5 và 6 inch với kiểu lỗ của từng mã tham chiếu; lỗ trục hoặc lỗ tâm phải khớp với máy của bạn."
+      },
+      {
+        "q": "Chọn cỡ hạt nào cho từng loại công việc?",
+        "a": "Hạt thô xóa gỉ và sơn nhanh; hạt mịn làm mịn mối nối và chuẩn bị bề mặt cho công đoạn hoàn thiện. Hãy nêu rõ vật liệu và mức hoàn thiện cần đạt."
+      },
+      {
+        "q": "Các bạn có hỗ trợ hút bụi không?",
+        "a": "Các dạng đĩa lưới và đĩa đục lỗ hút bụi đều có tài liệu trong dòng sản phẩm này; kiểu đục lỗ giúp bề mặt vẫn nhìn thấy được khi chà nhám."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Đế nào phù hợp với ứng dụng của tôi?",
+        "a": "Đế nhựa phù hợp mài kim loại tổng quát, đế thép phù hợp các công việc gọt ba-via nặng, đế sợi thủy tinh (fiberglass) phù hợp khi cần độ bền ở tốc độ cao; lỗ trục phải khớp với máy."
+      },
+      {
+        "q": "Đĩa mài nhiều lớp dùng để làm gì?",
+        "a": "Mài mối hàn, xóa gỉ, làm phẳng bề mặt chuyển tiếp và hoàn thiện chi tiết kim loại — dùng đúng tốc độ định mức của máy và có lắp chắn bảo vệ."
+      },
+      {
+        "q": "Các bạn có cung cấp số lượng lớn không?",
+        "a": "Có. Đĩa mài nhiều lớp được cung cấp số lượng lớn cho nhà phân phối và xưởng; cỡ hạt, đế, đường kính và số lượng được thiết lập cùng nhau trong báo giá."
+      },
+      {
+        "q": "Tại sao đĩa của tôi bị láng khi gặp gỉ cán?",
+        "a": "Gỉ cán làm tắc bề mặt mài rất nhanh. Hãy chọn cỡ hạt thô hơn, giữ đĩa áp phằng vào phôi và làm sạch bề mặt mài khi bắt đầu tắc."
+      }
+    ],
+    "all": [
+      {
+        "q": "Nếu ứng dụng của tôi không nằm trong danh sách thì bắt đầu từ đâu?",
+        "a": "Gửi cho chúng tôi vật liệu, máy, mức hoàn thiện và khối lượng; chúng tôi sẽ phản hồi kèm nhóm sản phẩm, thông số kỹ thuật và thời gian giao hàng phù hợp."
+      },
+      {
+        "q": "Tôi có thể đặt thử từng mã tham chiếu trước không?",
+        "a": "Mẫu của các mã tham chiếu tiêu chuẩn có sẵn theo yêu cầu; việc có mẫu hay không và điều kiện cước phí sẽ được xác nhận trong thư phản hồi gửi bạn."
+      },
+      {
+        "q": "Các bạn báo giá OEM cho tất cả các dòng sản phẩm chứ?",
+        "a": "Có. Logo, nhãn, kích thước và bao bì được báo giá dựa trên đánh giá khả thi cho cả dây băng mài, đĩa mài và đĩa mài nhiều lớp."
+      },
+      {
+        "q": "Bọt biển chà nhám đứng ở đâu trong danh mục sản phẩm?",
+        "a": "Chà nhám tay: miếng đệm mềm cho bề mặt cong và chi tiết dạng profile, khối xốp cho mặt phẳng và tường đã sửa chữa. Cả hai đều được báo giá kèm kích thước, cỡ hạt, mật độ xốp và số lượng."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Miếng đệm mềm hay khối xốp — loại nào cho công việc của tôi?",
+        "a": "Miếng đệm mềm phù hợp với bề mặt cong, cạnh và chi tiết dạng profile; khối xốp phù hợp với mặt phẳng, cạnh và tường đã sửa chữa. Cả hai đều tái sử dụng được sau khi làm sạch."
+      },
+      {
+        "q": "Màu xốp có cho biết cỡ hạt không?",
+        "a": "Không. Màu xốp không phải là chỉ báo cỡ hạt hay độ cứng. Hãy xác nhận cỡ hạt, loại vật liệu mài và mật độ xốp trong yêu cầu, chúng tôi sẽ đối chiếu trong báo giá."
+      },
+      {
+        "q": "Các bạn có thể cắt khuôn theo hình dạng tùy chỉnh và đóng gói dưới thương hiệu của tôi không?",
+        "a": "Có. Gửi cho chúng tôi profile bạn cần, độ dày, cỡ hạt, định dạng bao bì và số lượng mục tiêu; yêu cầu về khuôn cắt và artwork sẽ được xác nhận trong bước đánh giá."
+      },
+      {
+        "q": "Sản phẩm này có thể rửa và tái sử dụng không?",
+        "a": "Chúng có thể được rửa sạch và dùng lại cho đến khi lớp mài bị mòn hết; tuổi thọ phụ thuộc vào cỡ hạt, áp lực và bề mặt được gia công."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Bọt biển chà nhám · Dải chà nhám tay",
+    "thickness": "Cấu trúc",
+    "gritNote": "Màu xốp không cho biết cỡ hạt hay độ cứng. Hãy xác nhận kích thước, cỡ hạt, loại vật liệu mài, mật độ xốp, bao bì và số lượng trong yêu cầu của bạn.",
+    "overviewTitle": "Tổng quan sản phẩm",
+    "overviewBody": "Bọt biển mài mềm, dùng lại được cho công việc chà nhám ướt hoặc khô. Lớp xốp ôm theo bề mặt cong, cạnh và chi tiết dạng profile để chà nhám tay có kiểm soát.",
+    "checklistTitle": "Xác nhận đúng thông số kỹ thuật",
+    "checklistSub": "Những chi tiết này giúp chúng tôi rà soát yêu cầu của bạn. Đây là các yêu cầu cần xác nhận, không phải chỉ số sản phẩm đã công bố.",
+    "c1": "Kích thước — nêu rõ chiều rộng × chiều dài bằng mm",
+    "c2": "Cỡ hạt cần dùng — nêu rõ cấp hạt hoặc mức hoàn thiện cần đạt",
+    "c3": "Phôi gia công và máy — cho chúng tôi biết vật liệu, máy và mức hoàn thiện dự kiến",
+    "c4": "Số lượng và bao bì — ghi rõ số lượng, nhu cầu bao bì và điểm đến giao hàng",
+    "enquiryTitle": "Cách gửi yêu cầu",
+    "enquirySub": "Từ chọn sản phẩm đến báo giá.",
+    "e1t": "Chọn sản phẩm của bạn",
+    "e1b": "Xem dải bọt biển chà nhám và chọn cấu trúc phù hợp với ứng dụng của bạn.",
+    "e2t": "Chia sẻ yêu cầu của bạn",
+    "e2b": "Bổ sung số lượng, kích thước, cỡ hạt và yêu cầu về bao bì.",
+    "e3t": "Rà soát báo giá của bạn",
+    "e3b": "Xác nhận thông số kỹ thuật cuối cùng và điều khoản thương mại cùng đội ngũ của chúng tôi.",
+    "appsTitle": "Ứng dụng của bọt biển chà nhám tay",
+    "appsSub": "Dùng cho gỗ, kim loại, sơn lại ô tô và các bề mặt tường, mạch vữa phù hợp. Hãy chọn cỡ hạt theo vật liệu và thử trên một vùng khuất ít nhìn thấy trước.",
+    "a1t": "Chà nhám gỗ",
+    "a1b": "Miếng chà nhám cho nghề mộc, gồm cả chuẩn bị bề mặt và chà nhám cạnh trên đồ nội thất, tủ nội thất và các chi tiết gỗ khác.",
+    "a2t": "Bọt biển chà nhám tường thạch cao",
+    "a2b": "Miếng chà nhám để làm phẳng mối nối tường thạch cao, làm mờ lớp bột trét mối nối và chuẩn bị mặt tường cho sơn lót và sơn phủ.",
+    "a3t": "Xóa gỉ",
+    "a3b": "Bọt biển mài mềm, rửa sạch là dùng lại được; dùng được cả ướt lẫn khô để ôm sát bề mặt cong, cạnh và chi tiết dạng profile khi chà nhám tay.",
+    "faqTitle": "Câu hỏi từ người mua",
+    "q1": "Màu sắc có cho biết loại vật liệu mài không?",
+    "a1": "Không. Màu xốp không phải là chỉ báo cỡ hạt hay độ cứng. Hãy xác nhận cỡ hạt, loại vật liệu mài và mật độ xốp trong yêu cầu của bạn.",
+    "q2": "Làm sao để yêu cầu bao bì OEM?",
+    "a2": "Gửi artwork nhãn, định dạng bao bì, số lượng mục tiêu và điểm đến kèm theo yêu cầu; việc có làm OEM hay không và yêu cầu về artwork sẽ được xác nhận trong bước đánh giá.",
+    "q3": "Yêu cầu báo giá có đồng nghĩa đặt hàng không?",
+    "a3": "Không. Đây là một yêu cầu bán buôn. Thông số kỹ thuật và điều khoản thương mại được xác nhận trong báo giá trước khi bất kỳ lô sản xuất nào được bắt đầu.",
+    "ctaTitle": "Cần bọt biển chà nhám với số lượng lớn?",
+    "ctaSub": "Gửi kích thước, cỡ hạt, số lượng và điểm đến — chúng tôi sẽ xác nhận thông số kỹ thuật và thời gian giao hàng."
   }
 }

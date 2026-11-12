@@ -54,6 +54,11 @@
       "title": "Visi produkti",
       "desc": "Pilnais MoTai slīfeņu katalogs: slīfeņlentes, slīfeņu diski un lāpītes diski rūpniecības pirkējiem, distribūtiem un sava zīmola ražotājiem.",
       "label": "Visi produkti"
+    },
+    "sponge": {
+      "title": "MoTai slīpēšanas sūkļi",
+      "desc": "Elastīgi slīpēšanas sūkļu paliktņi un biezi putu bloki slapjai vai sausai slīpēšanai ar rokām izliektām virsmām, malām, plakanām virsmām un salabotām sienām. Pēc tīrīšanas lietojami atkārtoti. Laipni lūdzam ar hurtuma un OEM izpētēm.",
+      "label": "Slīpēšanas sūkļi"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifikācijas",
     "howTitle": "Kā norādīt savu pasūtījumu",
     "howBody": "Iekļaujiet lentas vai diska izmēru, frūzu sarakstu, mašīnas modeli, darba gabala materiālu un daudzumu. Skaidra specifikācija palīdz mums pārskatīt piemērotību un sagatavot noderīgu piedāvājumu — neizvēlieties produktu, balstoties tikai uz krāsu.",
-    "faqTitle": "Pirkēju jautājumi"
+    "faqTitle": "Pirkēju jautājumi",
+    "family": "Produkta tips"
   },
   "about": {
     "h1": "Uzņēmums aiz slīfeņu sērijas",
@@ -264,7 +270,28 @@
     "pr6t": "Izsūtīšana",
     "pr6b": "Sakārtojiet iepakojumu un galamērķi.",
     "cta1": "Pietikt par hurtuma piedāvājumu",
-    "cta2": "Sazinieties ar mums pa WhatsApp"
+    "cta2": "Sazinieties ar mums pa WhatsApp",
+    "faqTitle": "Jautājumi, kurus uzdod OEM zīmoli",
+    "faqSub": "Praktiskie punkti, kas nosaka OEM realizamības pārbaudi.",
+    "o1": "Kāds ir OEM minimālais pasūtījuma apjoms?",
+    "oa1": "Minimālie daudzumi ir atkarīgi no produkta līnijas, izmēra, graudu izmēru miksta un iepakojuma; tos apstiprina realizamības pārskatā, kas tiek atgriezts kopā ar piedāvājumu.",
+    "o2": "Kādus mākslas darbus jums no mums nepieciešami?",
+    "oa2": "Drukai gatavus mākslas darbus ar jūsu zīmolu, jūsu izmantotajiem etiķešu izmēriem un visiem nepieciešamajiem galamērķa marķējumiem. Mākslas darbu prasības tiek apstiprinātas pārskatā pirms sērijas.",
+    "o3": "Vai varu saņemt parauga sēriju pirms apņemšanās?",
+    "oa3": "Jā. Standarta atsauču paraugi ir pieejami izvērtēšanai, un OEM mākslas darbu apstiprinājumi notiek saskaņā ar apstiprināto specifikāciju.",
+    "o4": "Vai jūs iepakojat tikai zem mūsu zīmola?",
+    "oa4": "Jā. Sava zīmola sērijās tiek piemērots jūsu logotips, etiķetes, izmēri un iepakojums; etiķetes tiek uzliktas un pārbaudītas pirms kārterības noslēgšanas, nevis pēc tās nonākšanas galamērķī.",
+    "o5": "Cik ilgi notiek OEM realizamības pārbaude?",
+    "oa5": "Pārbaude notiek pēc pārskata soļa; krājumā esošās atsauces tiek atbildētas visātrāk, jo tām nav pārveides laika.",
+    "specTitle": "Kas ietilpst OEM aprakstā",
+    "specSub": "Seši punkti, kas ļauj mums jau pirmajā reizē atgriezt noderīgu realizamības pārbaudi.",
+    "checklistTitle": "Pirms apraksta nosūtīšanas",
+    "c1": "Produkta līnija un specifikācijas atsauce, ar kuru jūs šodien pērkat",
+    "c2": "Etiķešu mākslas darbi, drukai gatavi, ar jūsu izmantotajiem etiķešu izmēriem",
+    "c3": "Iepakojuma formāts — kārterība, iekšējais iepakojums, mazumtirdzniecības vienība",
+    "c4": "Paredzētie daudzumi un izmēru / graudu izmēru miksts",
+    "c5": "Galamērķis un visi galamērķa marķējumi vai dokumenti",
+    "c6": "Laika grafiks — tirgus laišanas datums vai pirmā sūtījuma periods"
   },
   "applications": {
     "h1": "Slīfeņi jūsu nozarei",
@@ -437,7 +464,49 @@
     "consent": "Esmu piekrītis Privātuma politikai, Lietošanas nosacījumiem un mana datu izmantošanai, lai atbildētu uz šo izpēti. *",
     "btn1": "Pietikt par hurtuma piedāvājumu",
     "btn2": "Nosūtīt izpēti caur WhatsApp",
-    "goNote": "Forma tiek atvērta mūsu hurtuma izpēšu sistēmā, kur jūsu produkta konteksts ir iepildīts."
+    "goNote": "Forma tiek atvērta mūsu hurtuma izpēšu sistēmā, kur jūsu produkta konteksts ir iepildīts.",
+    "whyTitle": "Kāpēc pircēji veic izpēti caur MoTai",
+    "whySub": "Četri iemesli, kāpēc distribūti un apstrādniecības uzņēmumi nosūta mums savu specifikāciju.",
+    "w1t": "Cenas tieši no rūpnīcas",
+    "w1b": "Pārveide notiek mūsu pašu rūpnīcā Xianningā, Hubei, tāpēc piedāvājums atspoguļo pārveides izmaksas, nevis starpnieku ķēdi.",
+    "w2t": "Specifikācija apstiprināta rakstiski",
+    "w2b": "Graudu izmērs, pamatne, izmēri, iepakojums un marķējumi tiek saskaņoti piedāvājumā — pret tiem pārbauda pasūtījumu pirms nosūtīšanas.",
+    "w3t": "Krājumi standarta izmēriem",
+    "w3b": "Standarta platumi un graudu izmēri glabājas plauktos un ir gatavi, kas ļauj iepirkuma papildināšanas pasūtījumiem palikt īsiem, savukārt pielāgotie izmēri tiek ražoti saskaņā ar jūsu apstiprināto specifikāciju.",
+    "w4t": "OEM un sava zīmola",
+    "w4b": "Jūsu logotips, etiķetes, izmēri un iepakojums, novērtēts pret realizamības pārskatu, nevis uz minējuma pamata.",
+    "stepsTitle": "Kā izpēte kļūst par apstiprinātu pasūtījumu",
+    "stepsSub": "Četri soļi, katrs ar rakstisku kontrolpunktu, lai nekas netiek atrisināts pie nosūtīšanas durvīm.",
+    "p1t": "Jūs nosūtat specifikāciju",
+    "p1b": "Produkta kategorija, modelis vai atsauce, izmērs, graudu izmērs, materiāls, daudzums, iepakojums un galamērķis — tālāk norādītie lauki.",
+    "p2t": "Mēs pārskatām un atbildam",
+    "p2b": "Izmēri, gradi, pamatne un iepakojums tiek pārskatīti pret jūsu lietojumu; neatbilstība tiek norādīta pirms piedāvājuma.",
+    "p3t": "Parauga apstiprināšana (ja nepieciešama)",
+    "p3b": "Standarta atsauču paraugi ir pieejami pēc pieprasījuma un tiek izvērtēti pirms vienošanās par ražošanas sēriju.",
+    "p4t": "Sērija pret apstiprināto specifikāciju",
+    "p4b": "Ražošana notiek pret apstiprināto specifikāciju, pēc tam pirms nosūtīšanas tiek piemēroti kontrolpunkti, iepakojuma saraksts un marķējumi.",
+    "faqTitle": "Jautājumi, kurus pircēji uzdod pirms izpētes",
+    "faqSub": "Praktiskās detaļas, kas nosaka cenu, laiku un piemērotību.",
+    "q1": "Kāds ir minimālais pasūtījuma apjoms?",
+    "a1": "Minimālie daudzumi ir atkarīgi no produkta līnijas, izmēra un iepakojuma; tos apstiprina atbildē uz jūsu izpēti, nevis publicē kā vienotu skaitli.",
+    "q2": "Cik ilgi tiek sagatavots piedāvājums?",
+    "a2": "Atbilde ar specifikāciju, laiku un cenu tiek izsniegta pēc pārskata soļa; krājumā esošās atsauces tiek novērtētas visātrāk, jo tām nav pārveides laika.",
+    "q3": "Vai vispirms varu saņemt paraugu?",
+    "a3": "Jā. Standarta atsauču paraugi ir pieejami izvērtēšanai pēc pieprasījuma; parauga pieejamību un pārvadājuma nosacījumus apstiprina kopā ar atbildi.",
+    "q4": "Vai jūs atbalstāt OEM un sava zīmola iepakojumu?",
+    "a4": "Jā. Nosūtiet savu logotipu, etiķešu mākslas darbus, iepakojuma formātu un paredzētos daudzumus, un mēs kopā ar piedāvājumu atgriežam OEM realizamības pārbaudi.",
+    "q5": "Kādus maksājuma un piegādes nosacījumus jūs izmantojat?",
+    "a5": "Komercnosacījumus apstiprina katrā izpētē piedāvājumā, iekļaujot galamērķi, iepakojumu un jūsu norādīto inkotermu.",
+    "trustTitle": "Piegāde īsumā",
+    "trustSub": "Rūpnīca, kas stāv aiz jūsu piedāvājuma.",
+    "trustNote": "Rādītie skaitļi apraksta ražošanas vietu; pasūtījuma līmeņa nosacījumus apstiprina piedāvājumā.",
+    "checklistTitle": "Pirms tā nosūtīšanas",
+    "checklistSub": "Ja šie pieči punkti ir gatavi, pirmā atbilde ir ievērojami ātrāka.",
+    "c1": "Lietojums, mašīna un nepieciešamā apdare",
+    "c2": "Apstrādājamais materiāls (tērauds, koks, alumīnijs, krāsa, ģipša kartons)",
+    "c3": "Graudu izmērs un standarts, pēc kura jūs pērkat (FEPA vai ANSI)",
+    "c4": "Izmērs, diametrs, caurumi un daudzums",
+    "c5": "Galamērķa valsts un nepieciešamais iepakojums vai marķējumi"
   },
   "clients": {
     "h1": "Kur MoTai sūtījumi nonāk",
@@ -445,7 +514,29 @@
     "note": "Klientu logotipi un rekomendācijas zemāk ir vietas rezervē — aizstājiet src/data/trust.json ar publicētiem materiāliem.",
     "placeholderBadge": "Ilustratīva vieta rezervē",
     "statsTitle": "Piegāde pāris sekunžu laikā",
-    "statsNote": "Rādītie sertifikāti ir vietas rezervē, gaidot publicēta sertifikāti."
+    "statsNote": "Rādītie sertifikāti ir vietas rezervē, gaidot publicēta sertifikāti.",
+    "regionsTitle": "No Hubei līdz jūsu tirgum",
+    "regionsSub": "To pašu rūpnīcu izmanto septiņi galamērķa reģioni; iepakojumu un marķējumus nosaka katrs galamērķis.",
+    "logisticsTitle": "Ko mēs apstiprinām pirms nosūtīšanas",
+    "logisticsSub": "Četri punkti, kas tiek atrisināti piedāvājumā, nevis pie nosūtīšanas durvīm.",
+    "l1": "Iepakojuma saraksts — iepakojuma daudzumi pēc izmēra un graudu izmēra, saskaņoti ar pasūtījumu",
+    "l2": "Kārterības marķējumi — jūsu marķējumi vai standarta komplekts, saskaņots pirms sērijas",
+    "l3": "Paletes izkārtojums — noteikts jūsu galamērķim un kravas apstrādes iekārtām",
+    "l4": "Galamērķis un dokumenti — saskaņots kopā ar piedāvājumu",
+    "faqTitle": "Jautājumi, kurus pircēji uzdod par piegādi",
+    "f1": "Kādos galamērķos jūs piegādājat?",
+    "fa1": "Septiņi galamērķa reģioni Eiropā, Ziemeļamerikā, Tuvajos Austrumos un Āzijā; iepakojumu un marķējumus nosaka katrs galamērķis.",
+    "f2": "Kā jūs aizsargājat preces pārvadāšanas laikā?",
+    "fa2": "Iepakojums tiek noteikts katram galamērķim un apstiprināts piedāvājumā; mitruma aizsardzība un paletes izkārtojums seko pārvadāšanas apstākļiem, par kuriem jūs mums pastāstāt.",
+    "f3": "Vai šīs lapas klientu logotipi ir īsti?",
+    "fa3": "Nē. Tās ir vietas rezervē. Pirms paļaušanās uz tām kā uz atsaucēm aizvietojiet src/data/trust.json ar publicētiem materiāliem.",
+    "f4": "Vai uzskaitītie sertifikāti ir pārbaudīti?",
+    "fa4": "Sertifikātu vietas ir rezervē, gaidot publicētos sertifikātus; tikai rādītos rūpnīcas skaitļus apstiprina rūpnīca.",
+    "qaTitle": "Kas mums nepieciešams no jums",
+    "qaSub": "Trīs punkti, kas ļauj mums atbildēt ar specifikāciju, laiku un cenu.",
+    "q1": "Lietojums, mašīna un nepieciešamā apdare",
+    "q2": "Apstrādātais materiāls un graudu standarts, pēc kura jūs pērkat (FEPA vai ANSI)",
+    "q3": "Daudzums, galamērķa valsts un nepieciešamais iepakojums vai marķējumi"
   },
   "glossary": {
     "h1": "Slīfeņu vārdnīca",
@@ -991,6 +1082,11 @@
         "title": "Abrazīvu produktu hurtumra — lenti, diski un lāpītes diski | MoTai",
         "description": "Pilns MoTai abrazīvu katalogs: rūpnieciskie abrazīva lenti, slīpēšanas diski un lāpītes diski distribūtoriem, importētājiem, hurtumniekiem un OEM zīmēm. Rūpnīces tiešā hurtums, personalizācija un eksports no Hubei, Ķīnā.",
         "keywords": "abrasīvu produkti, abrazīvu produktu hurtums, rūpnieciskie abrazīvi, pārsētinātie abrazīvi, abrazīvu hurtums, abrazīvu produktu rūpnīca, abrazīvu produktu eksportētājs, abrazīvu piegādātājs Ķīnā, abrazīva OEM ražotājs, privātā zīmes abrazīvi, pielāgoti abrazīvu produkti, liela apjoma abrazīvu piegāde, abrazīvu rūpnīca, abrazīvu instrumenti, abrazīvu materiāli, slīpēšanas produkti, virsmas apstrādes produkti, smiltspapīrs, smiltspapīra lapas, apaļais smiltspapīrs, smiltspapīra hurtums, slīpēšanas pārdabs, hook and loop slīpēšanas pārdabs, 5 collas slīpēšanas pārdabs, 6 collas slīpēšanas pārdabs, nesētinātais lāpītes ritenis, abrazīva drāna, rūpnieciskais rullītu birsti"
+      },
+      "sponge": {
+        "title": "Slīpēšanas sūkļu ražotājs un hurtuma piegādātājs | MoTai",
+        "description": "Elastīgi slīpēšanas sūkļu paliktņi un biezi putu bloki slapjai vai sausai slīpēšanai ar rokām izliektām virsmām, malām, plakanām virsmām un salabotām sienām. Atkārtoti lietojami, vairāki graudu izmēri, stancētas formas un OEM iepakojums. Rūpnīcas tiešais hurtums.",
+        "keywords": "slīpēšanas sūklis, slīpēšanas sūkļu bloki, slīpēšanas sūkļu paliktņi, abrazīvais sūklis, slīpēšana ar rokām, slīpēšanas sūkļu ražotājs, slīpēšanas sūkļi hurtumā, stancēti slīpēšanas sūkļi, OEM slīpēšanas sūkļi"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — MoTai rūpnīcas un produktu video",
       "description": "Rūpnīcas un produktu video no MoTai Abrasives, Xianninga, Hubei. {title}",
       "keywords": "{line}, abrazīvu video, abrazīvu rūpnīcas materiāli, MoTai video, abrazīvu ražošana, abrazīvu piegādātāja video"
+    },
+    "sponge": {
+      "title": "MoTai {name} — slīpēšanas sūkļu ražotājs",
+      "description": "MoTai {name}: {summary} Hurtuma piegāde un OEM iepakojums distribūtiem un darbnīcām.",
+      "keywords": "slīpēšanas sūklis, slīpēšanas sūkļa bloks, abrazīvais sūklis, slīpēšanas paliktnis ar rokām, slīpēšanas sūkļu ražotājs, slīpēšanas sūkļi hurtumā"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Kā izvēlēties šo līniju",
+    "guideSub": "Četri punkti, kas nosaka, kurš produkts atbilst jūsu lietojumam — apstipriniet tos kopā ar piedāvājumu.",
+    "specTitle": "Specifikācijas aptveršana",
+    "specSub": "Ko līnija šodien aptver — tieši no produktu ierakstiem.",
+    "faqTitle": "Jautājumi, kurus pircēji uzdod par šo līniju",
+    "belts": [
+      {
+        "q": "Kāds lentes platums atbilst manai mašīnai?",
+        "a": "Dokumentētie izmēri iet no 533 × 75 mm līdz 2200 × 1330 mm; īpaši platas viendaļīgas lentes virs 1500 mm izvairās no savienojuma. Norādiet mašīnu, slodzi un vajadzīgo apdari, lai platums tiktu apstiprināts kopā ar piedāvājumu."
+      },
+      {
+        "q": "Kādu graudu izmēru diapazonu varu pasūtīt?",
+        "a": "Graudu izmēri 40–800 ar alumīnija oksīda, cirkonija un silīcija karbīda abrazīviem. Rupjie graudi ātri noņem materiālu; smalkie graudi izlīdzina virsmu un veido apdari."
+      },
+      {
+        "q": "Vai jūs piegādājat pielāgotus izmērus?",
+        "a": "Jā. Platums un garums ārpus dokumentētajiem izmēriem tiek novērtēti katrā gadījumā atsevišķi; pārveide uz pielāgotu izmēru ietekmē gan laiku, gan minimālo pasūtījuma apjomu."
+      },
+      {
+        "q": "Kāda ir savienojuma un malu konstrukcija?",
+        "a": "Savienojuma veids un malu apstrāde tiek norādīti katrai atsaucei. Pastāstiet mums par mašīnu, slodzi un ātrumu, lai tiktu apstiprināta pareizā konstrukcija."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Hook & loop, PSA vai tīkls — kurš manam rīkam?",
+        "a": "Hook & loop piemērots biežai graudu maiņai uz ekscentriskā slīpmašīnā, PSA — plakaniem paliktņiem un gariem darba cikliem, tīkla diski — putekļu uzsūkšanai."
+      },
+      {
+        "q": "Kādi izmēri un caurumu izkārtojumi ir dokumentēti?",
+        "a": "3, 4, 5 un 6 collu diski ar katra modeļa caurumu izkārtojumiem; padaba vai centrālajam caurumam jāatbilst jūsu rīkam."
+      },
+      {
+        "q": "Kāds graudu izmērs darbam?",
+        "a": "Rupjie graudi ātri noņem rūsu un krāsu; smalkie graudi saplūst un sagatavo virsmu apdarei. Norādiet materiālu un nepieciešamo apdari."
+      },
+      {
+        "q": "Vai jūs nodrošināt putekļu uzsūkšanu?",
+        "a": "Šajā līnijā dokumentēti tīkla un perforētie bezputekļu formāti; perforētais izkārtojums ļauj slīpēšanas laikā redzēt virsmu."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Kāda pamatne atbilst manam lietojumam?",
+        "a": "Plastmasa piemērota vispārējai metāla slīpēšanai, tērauds — prasīgai metāla apstrādei, stiklšķiedra — darbam lielā ātrumā ar labu izturību; padaba caurumam jāatbilst rīkam."
+      },
+      {
+        "q": "Kam izmanto flap diskus?",
+        "a": "Locījumu slīpēšanai, rūsas noņemšanai, virsmu saplūdināšanai un metāla detaļu nobeigumam — saskaņoti ar rīka nominālo ātrumu un ar uzliktu aizsargu."
+      },
+      {
+        "q": "Vai jūs piegādājat lielus apjomus?",
+        "a": "Jā. Flap diski tiek piegādāti lielos apjomos distribūtiem un darbnīcām; graudu izmērs, pamatne, diametrs un daudzums tiek noteikti kopā piedāvājumā."
+      },
+      {
+        "q": "Kāpēc mans disks veido plēvju uz valcenā?",
+        "a": "Valcenis ātri aizpilda abrazīvu. Izvēlieties rupjāku graudu izmēru, turiet disku plakani pret darba gabalu un attīriet virsmu, kad tā aizpildās."
+      }
+    ],
+    "all": [
+      {
+        "q": "Ar ko sākt, ja mans lietojums nav uzskaitīts?",
+        "a": "Nosūtiet materiālu, mašīnu, vajadzīgo apdari un apjomu; mēs atbildam ar piemērotāko produktu saimi, specifikāciju un laiku."
+      },
+      {
+        "q": "Vai vispirmām kārtēm varu pasūtīt pa vienai katrai atsaucei?",
+        "a": "Standarta atsauču paraugi ir pieejami pēc pieprasījuma; parauga pieejamību un pārvadājuma nosacījumus apstiprina kopā ar atbildi."
+      },
+      {
+        "q": "Vai jūs veicat OEM izpēti visās līnijās?",
+        "a": "Jā. Logotips, etiķetes, izmēri un iepakojums tiek novērtēti pret realizamības pārskatu lentēs, diskos un flap diskiem."
+      },
+      {
+        "q": "Kur klāstā ietilpst slīpēšanas sūkļi?",
+        "a": "Slīpēšanā ar rokām: elastīgi paliktņi izliektām virsmām un profiliem, putu bloki plakanām virsmām un salabotām sienām. Abi tiek novērtēti ar izmēriem, graudu izmēru, putu blīvumu un daudzumu."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Elastīgi paliktņi vai putu bloki — kuri manam darbam?",
+        "a": "Elastīgie paliktņi piemēroti izliektām virsmām, malām un profiliem; putu bloki — plakanām virsmām, malām un salabotām sienām. Abi pēc tīrīšanas lietojami atkārtoti."
+      },
+      {
+        "q": "Vai putu krāsa norāda graudu izmēru?",
+        "a": "Nē. Putu krāsa nav ne graudu izmēra, ne cietības rādītājs. Apstipriniet graudu izmēru, abrazīva materiālu un putu blīvumu savā izpētē, un mēs to saskaņosim piedāvājumā."
+      },
+      {
+        "q": "Vai varat stancēt pielāgotas formas un iepakojot zem mana zīmola?",
+        "a": "Jā. Nosūtiet savu profilu, biezumu, graudu izmēru, iepakojuma formātu un paredzētos daudzumus; stancēšanas rīku un mākslas darbu prasības tiek apstiprinātas pārskatā."
+      },
+      {
+        "q": "Vai tos var mazgāt un lietot atkārtoti?",
+        "a": "Tos var skalot un lietot atkārtoti, līdz abrazīvais slānis ir nolietots; kalpošanas laiks ir atkarīgs no graudu izmēra, spiediena un apstrādātās virsmas."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Slīpēšanas sūkļi · Slīpēšanas ar rokām klāsts",
+    "thickness": "Konstrukcija",
+    "gritNote": "Putu krāsu krāsas nenorāda graudu izmēru vai cietību. Apstipriniet izmērus, graudu izmēru, abrazīva materiālu, putu blīvumu, iepakojumu un daudzumu savā izpētē.",
+    "overviewTitle": "Produkta apskats",
+    "overviewBody": "Elastīgi, atkārtoti lietojami abrazīvie sūkļi slapjai un sausai slīpēšanai. Putu masa pieņem izliektām virsmām, malām un profiliem, nodrošinot kontrolētu slīpēšanu ar rokām.",
+    "checklistTitle": "Apstipriniet pareizo specifikāciju",
+    "checklistSub": "Šīs detaļas palīdz mums pārskatīt jūsu izpēti. Tās ir apstiprinājamas prasības, nevis publicēti produkta rādītāji.",
+    "c1": "Izmēri — norādiet platumu × garumu mm",
+    "c2": "Nepieciešamais graudu izmērs — norādiet vajadzīgo klasi vai apdari",
+    "c3": "Darba gabals un mašīna — pastāstiet par materiālu, mašīnu un paredzēto apdari",
+    "c4": "Daudzums un iepakojums — iekļaujiet daudzumu, iepakojuma vajadzības un piegādes galamērķi",
+    "enquiryTitle": "Kā veikt izpēti",
+    "enquirySub": "No produkta izvēles līdz piedāvājumam.",
+    "e1t": "Izvēlieties savu produktu",
+    "e1b": "Iepazīstieties ar slīpēšanas sūkļu klāstu un izvēlieties konstrukciju, kas nepieciešama jūsu lietojumam.",
+    "e2t": "Pastāstiet savas prasības",
+    "e2b": "Pievienojiet daudzumu, izmērus, graudu izmēru un iepakojuma prasības.",
+    "e3t": "Pārskatiet savu piedāvājumu",
+    "e3b": "Apstipriniet galīgo specifikāciju un komercnosacījumus kopā ar mūsu komandu.",
+    "appsTitle": "Slīpēšanas sūkļu lietojumi",
+    "appsSub": "Kokam, metālam, auto nobeiguma darbiem un piemērotām sienu un fugu virsmām. Pielāgojiet graudu izmēru materiālam un pārbaudiet uz nemanāmā laukuma.",
+    "a1t": "Koka slīpēšana",
+    "a1b": "Slīpēšanas bloki koka apstrādei, iekļaujot virsmas sagatavošanu un malu slīpēšanu mēbelēs, korpusos un citos koka komponentos.",
+    "a2t": "Ģipša kartona slīpēšanas sūkļi",
+    "a2b": "Slīpēšanas bloki ģipša kartona locījumu izlīdzināšanai, sprauslu saplūdināšanai un sienu sagatavošanai gruntējumam un krāsošanai.",
+    "a3t": "Rūsas noņemšana",
+    "a3b": "Elastīgi, atkārtoti lietojami abrazīvie sūkļi slapjai vai sausai slīpēšanai. Putu masa pieņem izliektām virsmām, malām un profiliem, nodrošinot kontrolētu slīpēšanu ar rokām.",
+    "faqTitle": "Pircēju jautājumi",
+    "q1": "Vai krāsa norāda abrazīva veidu?",
+    "a1": "Nē. Putu krāsa nav ne graudu izmēra, ne cietības rādītājs. Apstipriniet graudu izmēru, abrazīva materiālu un putu blīvumu savā izpētē.",
+    "q2": "Kā pieprasīt OEM iepakojumu?",
+    "a2": "Nosūtiet etiķešu mākslas darbus, iepakojuma formātu, paredzētos daudzumus un galamērķi kopā ar izpēti; OEM pieejamību un mākslas darbu prasības apstiprina pārskatā.",
+    "q3": "Vai piedāvājuma pieprasījums izveido pasūtījumu?",
+    "a3": "Nē. Šī ir hurtuma izpēte. Specifikāciju un komercnosacījumus apstiprina piedāvājumā pirms jebkuras sērijas sākuma.",
+    "ctaTitle": "Vai nepieciešami slīpēšanas sūkļi lielos apjomos?",
+    "ctaSub": "Nosūtiet izmērus, graudu izmēru, daudzumu un galamērķi — mēs apstiprinām specifikāciju un laiku."
   }
 }

@@ -54,6 +54,11 @@
       "title": "Semua Produk",
       "desc": "Katalog bahan abrasif MoTai secara lengkap: sabuk abrasif, piringan amplas, dan piringan flap untuk pembeli industri, distributor, dan merek private label.",
       "label": "Semua Produk"
+    },
+    "sponge": {
+      "title": "Spons Amplas MoTai",
+      "desc": "Bantalan spons amplas yang lentur dan blok busa tebal untuk penyandingan tangan basah atau kering pada lengkungan, tepi, permukaan rata, dan dinding yang telah diperbaiki. Dapat digunakan kembali setelah dibersihkan. Permintaan grosir dan OEM dipersilakan.",
+      "label": "Spons Amplas"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Spesifikasi",
     "howTitle": "Cara menentukan spesifikasi order Anda",
     "howBody": "Sertakan ukuran sabuk atau piringan, daftar grit, model mesin, material benda kerja, dan jumlah. Spesifikasi yang jelas membantu kami meninjau kecocokan dan menyiapkan penawaran yang berguna — hindari memilih produk hanya berdasarkan warna.",
-    "faqTitle": "Pertanyaan pembeli"
+    "faqTitle": "Pertanyaan pembeli",
+    "family": "Jenis produk"
   },
   "about": {
     "h1": "Perusahaan di balik rangkaian abrasif",
@@ -264,7 +270,28 @@
     "pr6t": "Pengiriman",
     "pr6b": "Koordinasikan pengemasan dan tujuan.",
     "cta1": "Minta Penawaran Grosir",
-    "cta2": "Hubungi via WhatsApp"
+    "cta2": "Hubungi via WhatsApp",
+    "faqTitle": "Pertanyaan yang diajukan merek OEM",
+    "faqSub": "Poin-poin praktis yang menentukan kelayakan sebuah proyek OEM.",
+    "o1": "Berapa minimum order quantity (MOQ) untuk OEM?",
+    "oa1": "Jumlah minimum bergantung pada lini produk, ukuran, kombinasi grit, dan kemasan; hal ini dipastikan dalam tinjauan kelayakan yang dikirim bersama penawaran harga Anda.",
+    "o2": "File desain (artwork) apa yang Anda perlukan dari kami?",
+    "oa2": "Desain siap cetak dengan merek Anda, ukuran label yang Anda gunakan, serta tanda tujuan pengiriman bila diperlukan. Persyaratan desain dipastikan dalam tinjauan sebelum proses produksi dimulai.",
+    "o3": "Bisakah saya mendapat sample run sebelum berkomitmen?",
+    "oa3": "Bisa. Sample dari referensi standar tersedia untuk evaluasi, dan persetujuan desain OEM mengikuti spesifikasi yang telah dipastikan.",
+    "o4": "Apakah Anda mengemas hanya dengan merek kami?",
+    "oa4": "Ya. Produksi private label menerapkan logo, label, ukuran, dan kemasan Anda; label ditempel dan diverifikasi sebelum karton disegel, bukan setelah barang tiba di tujuan.",
+    "o5": "Berapa lama pemeriksaan kelayakan OEM berlangsung?",
+    "oa5": "Pemeriksaan dilakukan pada tahap tinjauan; referensi stok dijawab paling cepat karena tidak terdapat waktu konversi mulai dari stok.",
+    "specTitle": "Apa isi brief OEM",
+    "specSub": "Enam poin yang memungkinkan kami menyampaikan pemeriksaan kelayakan yang bermanfaat pada tahap pertama.",
+    "checklistTitle": "Sebelum Anda mengirim brief",
+    "c1": "Lini produk dan referensi spesifikasi yang Anda beli saat ini",
+    "c2": "Desain label siap cetak, dengan ukuran label yang Anda gunakan",
+    "c3": "Format kemasan — karton, inner pack, unit retail",
+    "c4": "Target jumlah dan kombinasi ukuran/grit",
+    "c5": "Tujuan pengiriman serta tanda atau dokumen tujuan yang diperlukan",
+    "c6": "Waktu — tanggal peluncuran atau jendela pengiriman pertama"
   },
   "applications": {
     "h1": "Bahan abrasif untuk industri Anda",
@@ -437,7 +464,49 @@
     "consent": "Saya menyetujui Kebijakan Privasi, Syarat Penggunaan, dan penggunaan detail saya untuk merespons permintaan ini. *",
     "btn1": "Minta Penawaran Grosir",
     "btn2": "Kirim permintaan via WhatsApp",
-    "goNote": "Formulir dibuka di sistem permintaan grosir kami dengan konteks produk Anda terisi sebelumnya."
+    "goNote": "Formulir dibuka di sistem permintaan grosir kami dengan konteks produk Anda terisi sebelumnya.",
+    "whyTitle": "Mengapa pembeli meminta penawaran melalui MoTai",
+    "whySub": "Empat alasan distributor dan bengkel fabrikasi mengirimkan spesifikasi mereka kepada kami.",
+    "w1t": "Harga langsung dari pabrik",
+    "w1b": "Proses konversi dilakukan di pabrik kami sendiri di Xianning, Hubei, sehingga penawaran mencerminkan biaya konversi, bukan mata rantai perantara.",
+    "w2t": "Spesifikasi dipastikan secara tertulis",
+    "w2b": "Grit, backing, dimensi, pengemasan, dan tanda disepakati dalam penawaran harga, dan menjadi acuan pemeriksaan pesanan sebelum pengiriman.",
+    "w3t": "Stok untuk ukuran standar",
+    "w3b": "Lebar dan grit standar tersimpan dan siap dikirim, sehingga pesanan pengisian stok menjadi lebih singkat, sementara ukuran khusus tetap diproduksi sesuai spesifikasi yang telah dipastikan.",
+    "w4t": "OEM dan private label",
+    "w4b": "Logo, label, ukuran, dan kemasan Anda, ditawarkan berdasarkan tinjauan kelayakan, bukan perkiraan.",
+    "stepsTitle": "Bagaimana permintaan menjadi pesanan yang dipastikan",
+    "stepsSub": "Empat tahap, masing-masing dengan checkpoint tertulis, sehingga tidak ada hal yang ditentukan di pintu pengiriman.",
+    "p1t": "Anda mengirimkan spesifikasi",
+    "p1b": "Kategori produk, model atau referensi, ukuran, grit, material, jumlah, kemasan, dan tujuan pengiriman — kolom-kolom di bawah ini.",
+    "p2t": "Kami meninjau dan membalas",
+    "p2b": "Ukuran, tingkat grit, backing, dan kemasan ditinjau terhadap aplikasi Anda; ketidaksesuaian disampaikan sebelum penawaran harga disusun.",
+    "p3t": "Persetujuan sample (bila diperlukan)",
+    "p3b": "Sample dari referensi standar tersedia atas permintaan dan dievaluasi sebelum proses produksi disepakati.",
+    "p4t": "Produksi sesuai spesifikasi yang dipastikan",
+    "p4b": "Produksi berjalan sesuai spesifikasi yang telah dipastikan, kemudian checkpoint, daftar isi kemasan, dan tanda diterapkan sebelum pengiriman.",
+    "faqTitle": "Pertanyaan yang diajukan pembeli sebelum meminta penawaran",
+    "faqSub": "Detail praktis yang menentukan harga, waktu tunggu, dan kesesuaian produk.",
+    "q1": "Berapa minimum order quantity (MOQ)?",
+    "a1": "Jumlah minimum bergantung pada lini produk, ukuran, dan kemasan; hal ini dipastikan dalam balasan atas permintaan Anda, bukan dipublikasikan sebagai satu angka tunggal.",
+    "q2": "Berapa lama proses penawaran harga?",
+    "a2": "Balasan berisi spesifikasi, waktu tunggu, dan harga dikeluarkan setelah tahap tinjauan; referensi stok ditawarkan paling cepat karena tidak terdapat waktu konversi dari stok.",
+    "q3": "Bisakah saya meminta sample terlebih dahulu?",
+    "a3": "Bisa. Sample dari referensi standar tersedia untuk evaluasi atas permintaan; ketersediaan sample dan syarat pengiriman dipastikan bersama balasan Anda.",
+    "q4": "Apakah Anda mendukung OEM dan private label?",
+    "a4": "Ya. Kirimkan logo, desain label, format kemasan, dan target jumlah Anda, dan kami menyampaikan pemeriksaan kelayakan OEM bersama penawaran harga.",
+    "q5": "Syarat pembayaran dan pengiriman apa yang Anda gunakan?",
+    "a5": "Syarat komersial dipastikan untuk setiap permintaan dalam penawaran harga, termasuk tujuan pengiriman, pengemasan, dan incoterm yang Anda tentukan.",
+    "trustTitle": "Suplai dalam sekilas",
+    "trustSub": "Pabrik di balik penawaran harga Anda.",
+    "trustNote": "Angka-angka tersebut menggambarkan lokasi manufaktur; syarat tingkat pesanan dipastikan dalam penawaran harga.",
+    "checklistTitle": "Sebelum Anda mengirimnya",
+    "checklistSub": "Menyiapkan lima poin ini membuat balasan pertama berjalan jauh lebih cepat.",
+    "c1": "Aplikasi, mesin, dan hasil finishing yang diperlukan",
+    "c2": "Material yang dikerjakan (baja, kayu, aluminium, cat, drywall)",
+    "c3": "Tingkat grit dan standar yang Anda pakai (FEPA atau ANSI)",
+    "c4": "Ukuran, diameter, lubang, dan jumlah",
+    "c5": "Negara tujuan serta pengemasan atau tanda yang diperlukan"
   },
   "clients": {
     "h1": "Kemana kiriman MoTai pergi",
@@ -445,7 +514,29 @@
     "note": "Logo pelanggan dan testimoni di bawah ini adalah slot placeholder — ganti src/data/trust.json dengan materi yang dipublikasikan.",
     "placeholderBadge": "Placeholder ilustratif",
     "statsTitle": "Pasokan sekilas",
-    "statsNote": "Sertifikasi yang ditampilkan bersifat placeholder hingga sertifikat resmi dipublikasikan."
+    "statsNote": "Sertifikasi yang ditampilkan bersifat placeholder hingga sertifikat resmi dipublikasikan.",
+    "regionsTitle": "Dari Hubei ke pasar Anda",
+    "regionsSub": "Pabrik yang sama melayani tujuh wilayah tujuan; pengemasan dan tanda ditentukan per tujuan.",
+    "logisticsTitle": "Yang kami pastikan sebelum pengiriman",
+    "logisticsSub": "Empat poin yang disepakati dalam penawaran harga, bukan di pintu pengiriman.",
+    "l1": "Daftar isi kemasan — jumlah kemasan per ukuran dan grit, sesuai pesanan",
+    "l2": "Tanda karton — tanda Anda atau set standar, disepakati sebelum produksi",
+    "l3": "Pola palet — ditentukan untuk tujuan dan peralatan penanganan Anda",
+    "l4": "Tujuan pengiriman dan dokumen — disepakati bersama penawaran harga",
+    "faqTitle": "Pertanyaan pembeli mengenai suplai",
+    "f1": "Tujuan pengiriman mana saja yang Anda layani?",
+    "fa1": "Tujuh wilayah tujuan di Eropa, Amerika Utara, Timur Tengah, dan Asia; pengemasan dan tanda ditentukan per tujuan.",
+    "f2": "Bagaimana Anda melindungi barang selama pengiriman?",
+    "fa2": "Pengemasan ditentukan per tujuan dan dipastikan dalam penawaran harga; perlindungan kelembapan dan pola palet mengikuti kondisi pengiriman yang Anda sampaikan.",
+    "f3": "Apakah logo pelanggan di halaman ini nyata?",
+    "fa3": "Tidak. Merupakan slot placeholder. Ganti src/data/trust.json dengan materi yang telah dipublikasikan sebelum menjadikannya referensi.",
+    "f4": "Apakah sertifikasi yang tercantum telah terverifikasi?",
+    "fa4": "Slot sertifikasi merupakan placeholder menunggu sertifikat yang dipublikasikan; hanya angka pabrik yang ditampilkan telah dipastikan oleh pabrik.",
+    "qaTitle": "Yang kami perlukan dari Anda",
+    "qaSub": "Tiga poin yang memungkinkan kami membalas dengan spesifikasi, waktu tunggu, dan harga.",
+    "q1": "Aplikasi, mesin, dan hasil finishing yang diperlukan",
+    "q2": "Material yang dikerjakan dan standar grit yang Anda pakai (FEPA atau ANSI)",
+    "q3": "Jumlah, negara tujuan, serta pengemasan atau tanda yang diperlukan"
   },
   "glossary": {
     "h1": "Glosarium bahan abrasif",
@@ -991,6 +1082,11 @@
         "title": "Produk Abrasif Grosir — Sabuk, Piringan & Piringan Flap | MoTai",
         "description": "Katalog bahan abrasif MoTai secara lengkap: sabuk abrasif industri, piringan amplas, dan piringan flap untuk distributor, importir, pedagang grosir, dan merek OEM. Grosir langsung dari pabrik, kustomisasi, dan ekspor dari Hubei, Tiongkok.",
         "keywords": "produk abrasif, grosir produk abrasif, bahan abrasif industri, abrasif berlapis, grosir bahan abrasif, pabrik produk abrasif, eksportir produk abrasif, pemasok bahan abrasif Tiongkok, pabrikan OEM bahan abrasif, private label bahan abrasif, produk abrasif kustom, pasokan bahan abrasif jumlah besar, pabrik bahan abrasif, alat abrasif, material abrasif, produk amplas, produk finising permukaan, amplas, lembaran amplas, amplas bundar, grosir amplas, bantalan amplas, bantalan amplas hook and loop, bantalan amplas 5 inci, bantalan amplas 6 inci, roda flap non-woven, kain abrasif, sikat rol industri"
+      },
+      "sponge": {
+        "title": "Produsen & Pemasok Grosir Spons Amplas | MoTai",
+        "description": "Bantalan spons amplas lentur dan blok busa tebal untuk penyandingan tangan basah atau kering pada lengkungan, tepi, permukaan rata, dan dinding yang telah diperbaiki. Dapat digunakan kembali, multi-grit, die-cut, dan kemasan OEM. Grosir langsung dari pabrik.",
+        "keywords": "spons amplas, blok spons amplas, bantalan spons amplas, spons abrasif, spons penyandingan tangan, produsen spons amplas, spons amplas grosir, spons amplas die-cut, spons amplas OEM"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — Video Pabrik & Produk MoTai",
       "description": "Video pabrik dan produk dari MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, video abrasif, rekaman pabrik abrasif, video MoTai, produksi abrasif, video pemasok abrasif"
+    },
+    "sponge": {
+      "title": "{name} MoTai — Produsen Spons Amplas",
+      "description": "{name} MoTai: {summary} Suplai grosir dan kemasan OEM untuk distributor dan bengkel.",
+      "keywords": "spons amplas, blok spons amplas, spons abrasif, bantalan penyandingan tangan, produsen spons amplas, spons amplas grosir"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Cara memilih lini ini",
+    "guideSub": "Empat poin yang menentukan produk mana yang sesuai dengan aplikasi Anda — pastikan bersama penawaran harga.",
+    "specTitle": "Cakupan spesifikasi",
+    "specSub": "Apa yang dicakup lini ini saat ini, langsung dari catatan produk.",
+    "faqTitle": "Pertanyaan pembeli mengenai lini ini",
+    "belts": [
+      {
+        "q": "Lebar sabuk mana yang sesuai dengan mesin saya?",
+        "a": "Ukuran yang tercatat berkisar dari 533 × 75 mm sampai 2200 × 1330 mm; sabuk ultrawide satu piece di atas 1500 mm menghindari sambungan. Sebutkan mesin, beban, dan hasil finishing agar lebar dipastikan bersama penawaran harga."
+      },
+      {
+        "q": "Rentang grit apa yang dapat saya pesan?",
+        "a": "Grit 40–800 dengan bahan aluminium oksida, zirkonia, dan silikon karbida. Grit kasar memotong material dengan cepat; grit halus membaur dan menyelesaikan permukaan."
+      },
+      {
+        "q": "Apakah Anda menyediakan ukuran khusus?",
+        "a": "Ya. Lebar dan panjang di luar ukuran yang tercatat ditawarkan kasus per kasus; konversi ke ukuran khusus memengaruhi waktu tunggu maupun minimum order quantity."
+      },
+      {
+        "q": "Bagaimana konstruksi sambungan dan tepi?",
+        "a": "Jenis sambungan dan perlakuan tepi ditentukan per referensi. Sampaikan mesin, beban, dan kecepatan Anda agar konstruksi yang tepat dipastikan."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Hook & loop, PSA, atau mesh — mana untuk alat saya?",
+        "a": "Hook & loop cocok untuk pergantian grit rutin pada random-orbit sander, PSA cocok untuk pad datar dan waktu kerja panjang, dan mesh cocok untuk pengumpulan debu."
+      },
+      {
+        "q": "Ukuran dan pola lubang apa yang tercatat?",
+        "a": "Piringan 3, 4, 5, dan 6 inch dengan pola lubang masing-masing referensi; lubang arbor atau lubang tengah harus sama dengan alat Anda."
+      },
+      {
+        "q": "Grit mana untuk pekerjaan saya?",
+        "a": "Grit kasar membersihkan karat dan cat dengan cepat; grit halus membaur permukaan dan menyiapkannya untuk finishing. Sebutkan material dan hasil finishing yang diperlukan."
+      },
+      {
+        "q": "Apakah Anda mendukung pengumpulan debu?",
+        "a": "Format mesh dan dustless berlubang tercatat dalam lini ini; pola perforasi menjaga permukaan tetap terlihat saat penyandingan."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Backing mana yang sesuai dengan aplikasi saya?",
+        "a": "Plastik cocok untuk pengikisan logam umum, baja cocok untuk deburring berat, dan fiberglass cocok untuk keawetan pada kecepatan tinggi; lubang arbor harus sama dengan alat Anda."
+      },
+      {
+        "q": "Untuk apa piringan flap digunakan?",
+        "a": "Mengikis sambungan las, membersihkan karat, membaur permukaan, dan finishing komponen logam — disesuaikan dengan kecepatan nominal alat dengan pelindung terpasang."
+      },
+      {
+        "q": "Apakah Anda menyediakan jumlah besar?",
+        "a": "Ya. Piringan flap dipasok dalam jumlah besar untuk distributor dan bengkel; grit, backing, diameter, dan jumlah ditentukan bersama dalam penawaran harga."
+      },
+      {
+        "q": "Mengapa piringan saya jadi glasir pada mill scale?",
+        "a": "Mill scale membuat abrasive cepat penuh. Pilih grit yang lebih kasar, jaga piringan tetap rata pada benda kerja, dan bersihkan permukaan abrasive saat mulai penuh."
+      }
+    ],
+    "all": [
+      {
+        "q": "Dari mana saya mulai jika aplikasi saya tidak tercantum?",
+        "a": "Kirimkan material, mesin, hasil finishing, dan volume; kami membalas dengan keluarga produk, spesifikasi, dan waktu tunggu yang sesuai."
+      },
+      {
+        "q": "Bisakah saya memesan satu unit setiap referensi terlebih dahulu?",
+        "a": "Sample dari referensi standar tersedia atas permintaan; ketersediaan sample dan syarat pengiriman dipastikan bersama balasan Anda."
+      },
+      {
+        "q": "Apakah Anda menawarkan OEM untuk semua lini?",
+        "a": "Ya. Logo, label, ukuran, dan kemasan ditawarkan berdasarkan tinjauan kelayakan untuk sabuk, piringan, dan piringan flap."
+      },
+      {
+        "q": "Di mana posisi spons amplas dalam rangkaian produk?",
+        "a": "Penyandingan tangan: bantalan lentur untuk lengkungan dan profil, blok busa untuk permukaan rata dan dinding yang telah diperbaiki. Keduanya ditawarkan bersama dimensi, grit, kepadatan busa, dan jumlah."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Bantalan lentur atau blok busa — mana untuk pekerjaan saya?",
+        "a": "Bantalan lentur cocok untuk lengkungan, tepi, dan profil; blok busa cocok untuk permukaan rata, tepi, dan dinding yang telah diperbaiki. Keduanya dapat digunakan kembali setelah dibersihkan."
+      },
+      {
+        "q": "Apakah warna busa menunjukkan grit?",
+        "a": "Tidak. Warna busa bukan penanda tingkat grit maupun kekerasan. Pastikan grit, material abrasive, dan kepadatan busa dalam permintaan Anda dan kami menyesuaikannya dalam penawaran harga."
+      },
+      {
+        "q": "Bisakah Anda die-cut bentuk khusus dan mengemas dengan merek kami?",
+        "a": "Bisa. Kirimkan profil, ketebalan, grit, format kemasan, dan target jumlah Anda; kebutuhan perkakas die-cutting dan desain dipastikan dalam tinjauan."
+      },
+      {
+        "q": "Apakah produk ini dapat dicuci dan digunakan kembali?",
+        "a": "Produk ini dapat dibilas dan dipakai kembali hingga lapisan abrasive habis; masa pakai bergantung pada grit, tekanan, dan permukaan yang dikerjakan."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Spons amplas · Rangkaian penyandingan tangan",
+    "thickness": "Konstruksi",
+    "gritNote": "Warna busa tidak menentukan grit maupun kekerasan. Pastikan dimensi, grit, material abrasive, kepadatan busa, pengemasan, dan jumlah dalam permintaan Anda.",
+    "overviewTitle": "Ikhtisar produk",
+    "overviewBody": "Spons abrasive lentur dan dapat digunakan kembali untuk penyandingan basah atau kering. Busa menyesuaikan diri dengan lengkungan, tepi, dan profil untuk penyandingan tangan yang terkendali.",
+    "checklistTitle": "Pastikan spesifikasi yang tepat",
+    "checklistSub": "Detail ini membantu kami meninjau permintaan Anda. Merupakan hal yang perlu dipastikan, bukan rating produk yang dipublikasikan.",
+    "c1": "Dimensi — sebutkan lebar × panjang dalam mm",
+    "c2": "Grit yang diperlukan — sebutkan tingkat atau hasil finishing yang diperlukan",
+    "c3": "Benda kerja dan mesin — sampaikan material, mesin, dan hasil finishing yang dituju",
+    "c4": "Jumlah dan pengemasan — cantumkan jumlah, kebutuhan pengemasan, dan tujuan pengiriman",
+    "enquiryTitle": "Cara mengajukan permintaan",
+    "enquirySub": "Dari pemilihan produk sampai penawaran harga.",
+    "e1t": "Pilih produk Anda",
+    "e1b": "Telusuri rangkaian spons amplas dan pilih konstruksi yang dibutuhkan aplikasi Anda.",
+    "e2t": "Sampaikan kebutuhan Anda",
+    "e2b": "Tambahkan jumlah, dimensi, grit, dan kebutuhan pengemasan.",
+    "e3t": "Tinjau penawaran harga Anda",
+    "e3b": "Pastikan spesifikasi akhir dan syarat komersial bersama tim kami.",
+    "appsTitle": "Aplikasi spons amplas untuk penyandingan tangan",
+    "appsSub": "Untuk kayu, logam, pengecatan ulang kendaraan, serta permukaan dinding dan grout yang sesuai. Sesuaikan grit dengan material dan uji pada bagian yang tidak mencolok.",
+    "a1t": "Penyandingan kayu",
+    "a1b": "Blok penyanding untuk pekerjaan kayu, termasuk persiapan permukaan dan penyandingan tepi pada furnitur, kabinet, dan komponen kayu lainnya.",
+    "a2t": "Spons amplas drywall",
+    "a2b": "Blok penyanding untuk menghaluskan sambungan drywall, menggerus compound sambungan, dan menyiapkan dinding untuk primer dan cat.",
+    "a3t": "Pembersihan karat",
+    "a3b": "Spons abrasive lentur dan dapat digunakan kembali untuk penyandingan basah atau kering. Busa menyesuaikan diri dengan lengkungan, tepi, dan profil untuk penyandingan tangan yang terkendali.",
+    "faqTitle": "Pertanyaan pembeli",
+    "q1": "Apakah warna menunjukkan jenis abrasive?",
+    "a1": "Tidak. Warna busa bukan penanda tingkat grit maupun kekerasan. Pastikan grit, material abrasive, dan kepadatan busa dalam permintaan Anda.",
+    "q2": "Bagaimana cara mengajukan kemasan OEM?",
+    "a2": "Kirimkan desain label, format kemasan, target jumlah, dan tujuan pengiriman Anda bersama permintaan; ketersediaan OEM dan persyaratan desain dipastikan dalam tinjauan.",
+    "q3": "Apakah mengajukan permintaan penawaran berarti melakukan pemesanan?",
+    "a3": "Tidak. Ini merupakan permintaan grosir. Spesifikasi dan syarat komersial dipastikan dalam penawaran harga sebelum proses produksi dimulai.",
+    "ctaTitle": "Membutuhkan spons amplas dalam jumlah besar?",
+    "ctaSub": "Kirimkan dimensi, grit, jumlah, dan tujuan pengiriman — kami memastikan spesifikasi dan waktu tunggu."
   }
 }

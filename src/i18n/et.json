@@ -54,6 +54,11 @@
       "title": "Kõik tooted",
       "desc": "Kogu MoTai libestusainete kataloog: libestusvööd, liivapaberikettad ja riivikettad tööstuslike ostjate, jaekaubandusettevõtete ja omamärgi brändide jaoks.",
       "label": "Kõik tooted"
+    },
+    "sponge": {
+      "title": "MoTai lihvkäpad",
+      "desc": "Painduvad lihvkinnaste plaadid ja paksmad vahuplokid märja või kuiva kätega lihvimise jaoks kõveratel osadel, servadel, tasapindadel ja renoveeritud seintel. Pärast puhastamist korduvkasutatavad. Ootame hulgimüügi ja OEM päringuid.",
+      "label": "Lihvkäpad"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Spetsifikatsioonid",
     "howTitle": "Kuidas tellimus spetsifitseerida",
     "howBody": "Märkige vöö või ketta suurus, teravuste loetelu, masinatrikk, töökeha materjal ja hulk. Selge spetsifikatsioon aitab meil hinnata sobivust ja koostada kasuliku pakkumise — ärge valiku toodet ainult värvi järgi.",
-    "faqTitle": "Ostjate küsimused"
+    "faqTitle": "Ostjate küsimused",
+    "family": "Tootetüüp"
   },
   "about": {
     "h1": "Ettevõte, mis seisab libestusainete valiku taga",
@@ -264,7 +270,28 @@
     "pr6t": "Saatmine",
     "pr6b": "Koordineri pakendamist ja sihimaanteed.",
     "cta1": "Taota hulgipakkumine",
-    "cta2": "Võtke ühendust WhatsAppi kaudu"
+    "cta2": "Võtke ühendust WhatsAppi kaudu",
+    "faqTitle": "Küsimused, mida OEM-brändid esitavad",
+    "faqSub": "Praktilised punktid, mis määravad OEM-teostatavuse hindamise.",
+    "o1": "Mis on OEM-i minimaalne tellimushulk?",
+    "oa1": "Minimaalsed hulgad sõltuvad tootesarjast, mõõdust, teravuste koosmisest ja pakendusest; need kinnitatakse teostatavuse hindamisel, mis saabub koos teie pakkumisega.",
+    "o2": "Millist graafikat te meilt vajate?",
+    "oa2": "Trükkimiskõlbulikku graafikat teie brändiga, teie kasutatavad etikettide mõõdud ja vajalikud sihtkoha märgid. Graafikanõuded kinnitatakse hindamisel enne tootmiskäiku.",
+    "o3": "Kas ma saan enne otsust võtta näidiseid?",
+    "oa3": "Jah. Standardviidete näidised on hindamiseks saadaval ja OEM-graafika heakskiidud järgnevad kinnitatud spetsifikatsiooni.",
+    "o4": "Kas te pakendate ainult minu brändi alla?",
+    "oa4": "Jah. Omamärgi tellimustel kantakse teie logo, etiketid, mõõdud ja pakend peale; sildid paigaldatakse ja kontrollitakse enne kasti sulgemist, mitte sihtmärki jõudes.",
+    "o5": "Kui kaua OEM-teostatavuse hindamine aega võtab?",
+    "oa5": "Hindamine järgneb kontrollietapile; laoseisus olevad viited saavad vastuse kiiremini, sest nende puhul ei kehti teisendamise tarniaeg.",
+    "specTitle": "Mida OEM-i ülesandekiri sisaldab",
+    "specSub": "Kuus punkti, mis võimaldavad meil anda esimesel ringil kasuliku teostatavuse hindamise.",
+    "checklistTitle": "Enne ülesandekirja saatmist",
+    "c1": "Tootesarja ja spetsifikatsiooni viide, mida te täna ostate",
+    "c2": "Etikettide graafika, trükkimiskõlbulik, koos kasutatavate etikettide mõõtudega",
+    "c3": "Pakendi vorming — kast, sisepakk, jaemüügiüksus",
+    "c4": "Eesmärgihulgad ning mõõtude ja teravuste koosseis",
+    "c5": "Sihtkoht ning vajalikud sihtkoha märgid või dokumendid",
+    "c6": "Ajastus — turuletoomise kuupäev või esimese saadetise aken"
   },
   "applications": {
     "h1": "Libestusained teie tööstusele",
@@ -437,7 +464,49 @@
     "consent": "Ma aktsepteerin privaatsuspoliitikat, kasutustingimusi ja oma andmete kasutamist selle päringu ära vastamiseks. *",
     "btn1": "Taota hulgipakkumine",
     "btn2": "Saada päring WhatsAppi kaudu",
-    "goNote": "Vorm avaneb meie hulgipäringusüsteemis, kus teie toote kontekst on eelnevalt täidetud."
+    "goNote": "Vorm avaneb meie hulgipäringusüsteemis, kus teie toote kontekst on eelnevalt täidetud.",
+    "whyTitle": "Miks ostjad küsivad pakkumist MoTai kaudu",
+    "whySub": "Neli põhjust, miks edasimüüjad ja tootmisettevõtted saadavad oma spetsifikatsiooni meile.",
+    "w1t": "Hinnad otse tehase käest",
+    "w1b": "Teisendamine toimub meie Xianningis, Hubei provintsis asuvas tehas, mistõttu pakkumine lähtub teisenduskulust, mitte vahendajate ahelast.",
+    "w2t": "Spetsifikatsioon kinnitatakse kirjalikult",
+    "w2b": "Teravus, alusmaterjal, mõõdud, pakend ja märgid lepitakse kokku pakkumuses; tellimus kontrollitakse enne saatmist selle vastu.",
+    "w3t": "Standardmõõtude laoseis",
+    "w3b": "Standardlaiused ja karedused on riiulil valmis, mis hoiab täiendustellimused lühikese tähtajaga; kohandatud mõõdud toodetakse siiski teie kinnitatud spetsifikatsiooni järgi.",
+    "w4t": "OEM ja omamärk",
+    "w4b": "Teie logo, etiketid, mõõdud ja pakend — pakkumine teostatavuse hindamise, mitte oletuse alusel.",
+    "stepsTitle": "Kuidas päringust saab kinnitatud tellimus",
+    "stepsSub": "Neli sammu, igaühel kirjalik kontrollpunkt, et miski ei jääks otsustamata alles saatmishetkel.",
+    "p1t": "Te saadate spetsifikatsiooni",
+    "p1b": "Tootekategooria, mudel või viide, suurus, teravus, materjal, hulk, pakend ja sihtkoht — allpool olevad väljad.",
+    "p2t": "Me vaatleme ja vastame",
+    "p2b": "Mõõdusid, klasse, alusmaterjale ja pakendust vaatleme teie rakenduse suhtes; mittevastavus tõstatatakse enne pakkumuse koostamist.",
+    "p3t": "Näidiste heakskiit (kui see on vajalik)",
+    "p3b": "Standardviidete näidised on taotlusel saadaval ja neid hinnatakse enne tootmiskäigu kokkuleppimist.",
+    "p4t": "Tootmine kinnitatud spetsifikatsiooni järgi",
+    "p4b": "Tootmine kulgeb kinnitatud spetsifikatsiooni alusel; seejärel kantakse enne saatmist peale kontrollpunktid, pakendiloetelu ja märgid.",
+    "faqTitle": "Küsimused, mida ostjad enne pakkumise taotlemist esitavad",
+    "faqSub": "Praktilised üksikasjad, mis määravad hinna, tarniaja ja sobivuse.",
+    "q1": "Mis on minimaalne tellimushulk?",
+    "a1": "Minimaalsed hulgad sõltuvad tootesarjast, mõõdust ja pakendusest; need kinnitatakse teie päringu vastuses, mitte avaldatud ühe numbritena.",
+    "q2": "Kui kaua pakkumuse koostamine aega võtab?",
+    "a2": "Vastus spetsifikatsiooni, tarniaja ja hinnaga väljastatakse pärast kontrollietappi; laoseisus olevad viided pakutakse kiiremini, sest teisendamise tarniaeg ei kehti.",
+    "q3": "Kas ma saan kõigepealt näidise?",
+    "a3": "Jah. Standardviidete näidised on taotlusel hindamiseks saadaval; näidiste kättesaadavus ja transporditingimused kinnitatakse koos teie vastusega.",
+    "q4": "Kas te toetate OEM-i ja omamärki?",
+    "a4": "Jah. Saatke oma logo, etikettide graafika, pakendivorming ja eesmärgihulgad; me lisame pakkumisele OEM-teostatavuse hindamise.",
+    "q5": "Milliseid makse- ja tarnetingimusi te kasutate?",
+    "a5": "Kaubanduslikud tingimused kinnitatakse iga päringu puhul pakkumuses, sealhulgas sihtkoht, pakend ja teie määratud kaubandusklausel.",
+    "trustTitle": "Tarne ülevaates",
+    "trustSub": "Teie pakkumise taga olev tehas.",
+    "trustNote": "Numbrid kirjeldavad tootmist; tellimustaseme tingimused kinnitatakse pakkumuses.",
+    "checklistTitle": "Enne saatmist",
+    "checklistSub": "Kui need viis punktid on ette valmis, tuleb esimene vastus oluliselt kiiremini.",
+    "c1": "Rakendus, masin ja vajalik viimistlus",
+    "c2": "Töödeldav materjal (teras, puit, alumiinium, värv, kipsplaat)",
+    "c3": "Teravusaste ja standard, mille järgi te ostate (FEPA või ANSI)",
+    "c4": "Suurus, diameeter, avad ja hulk",
+    "c5": "Sihtriik ning vajalik pakend või märgid"
   },
   "clients": {
     "h1": "Kuhu MoTai saatmised suunduvad",
@@ -445,7 +514,29 @@
     "note": "Allpool on kliendi logo ja soovitused asemikvid — asendage src/data/trust.json avaldatud materjalidega.",
     "placeholderBadge": "Näitlik asemikvis",
     "statsTitle": "Tarnid ülevaates",
-    "statsNote": "Näidatud sertifikaadid on asemikvid, ootel kuni avaldatud sertifikaatide hetkeni."
+    "statsNote": "Näidatud sertifikaadid on asemikvid, ootel kuni avaldatud sertifikaatide hetkeni.",
+    "regionsTitle": "Hubeist teie turule",
+    "regionsSub": "Sama tehas teenib seitset sihtpiirkonda; pakend ja märgid määratakse sihtkoha kaupa.",
+    "logisticsTitle": "Mida me enne saatmist kinnitame",
+    "logisticsSub": "Neli punkti, mis lepitakse kokku pakkumuses, mitte saadetise ukse taga.",
+    "l1": "Pakendiloetelu — pakendi hulgad mõõtude ja teravuste kaupa, vastavalt tellimusele",
+    "l2": "Kastide märgid — teie märgid või standardne komplekt, kokku lepitud enne tootmiskäiku",
+    "l3": "Paalimuster — määratud teie sihtkoha ja käitlusvahendite järgi",
+    "l4": "Sihtkoht ja dokumendid — kokkulepitud koos pakkumisega",
+    "faqTitle": "Küsimused, mida ostjad tarne kohta esitavad",
+    "f1": "Millistesse sihtkohtadesse te tarnite?",
+    "fa1": "Seitse sihtpiirkonda Euroopas, Põhja-Ameerikas, Lähis-Idas ja Aasias; pakend ja märgid määratakse sihtkoha kaupa.",
+    "f2": "Kuidas te kaupa transiidil kaitsete?",
+    "fa2": "Pakend määratakse sihtkoha kaupa ja kinnitatakse pakkumuses; niiskuskaitse ja paalimuster järgnevad teile teatatud transiiditingimustele.",
+    "f3": "Kas sellel lehel olevad kliendilogod on tõelised?",
+    "fa3": "Ei. Need on kohatäitjad. Asendage src/data/trust.json avaldatud materjalidega, enne kui neid viidetena kasutate.",
+    "f4": "Kas loetletud sertifikaadid on kontrollitud?",
+    "fa4": "Sertifikaatide kohad on kohatäitjad, mis on avaldatud sertifikaatide osas ootel; kinnitatuks on ainult näidatud tehase andmed.",
+    "qaTitle": "Mida me teilt vajame",
+    "qaSub": "Kolm punkti, mis võimaldavad meil vastata spetsifikatsiooni, tarniaja ja hinnaga.",
+    "q1": "Rakendus, masin ja vajalik viimistlus",
+    "q2": "Töödeldav materjal ja teravusstandard, mille järgi te ostate (FEPA või ANSI)",
+    "q3": "Hulk, sihtriik ning vajalik pakend või märgid"
   },
   "glossary": {
     "h1": "Libestusainete tingimustik",
@@ -991,6 +1082,11 @@
         "title": "Libestusained hulgimüügis — vööd, kettad ja riivikettad | MoTai",
         "description": "Kogu MoTai libestusainete kataloog: tööstuslikud libestusvööd, liivapaberikettad ja riivikettad jaekaubandusettevõtetele, impordijatele, hulgimüüjatele ja OEM brändidele. Tehasest otse hulgimüük, kohandamine ja ekspord Hiina Hubei provintsist.",
         "keywords": "libestusained, libestusained hulgimüügis, tööstuslikud libestusained, katetud libestusained, libestusained hulgimüügis, libestusainete tehas, libestusainete ekspordija, libestusainete tarnija Hiinas, libestusainete OEM tootja, omamärgi libestusained, kohandatud libestusained, hulkide libestusainete tarned, libestusainete tehas, libestustööriistad, libestusained materjalid, liivimistooted, pindade viimistluse tooted, liivapaber, liivapaberilehed, ümmargune liivapaber, liivapaber hulgimüügis, liivimispadi, kangakinnituse liivimispadi, 5-tolline liivimispadi, 6-tolline liivimispadi, mittepulburi riivirull, libestuskangas, tööstuslik rullharja"
+      },
+      "sponge": {
+        "title": "Lihvkinnaste tootja ja hulgitarnija | MoTai",
+        "description": "Painduvad lihvkinnaste plaadid ja paksmad vahuplokid märja ja kuiva kätega lihvimise jaoks kõveratel osadel, servadel, tasapindadel ja renoveeritud seintel. Korduvkasutatavad, mitme teravusega, die-kärbitud ja OEM-pakendatud. Hulgimüük otse tehase käest.",
+        "keywords": "lihvkäpad, lihvkäpade plokid, lihvkäpade plaadid, abrasiivne lihvkäsn, kätega lihvimise lihvkäsn, lihvkinnaste tootja, lihvkäpad hulgimüügis, die-kärbitud lihvkäpad, OEM-lihvkäpad"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — MoTai tehas- ja tootepildid",
       "description": "Teha- ja tootepilt MoTai Abrasiivide, Xianning, Hubei. {title}",
       "keywords": "{line}, abrasiivi video, abrasiivi tehase pildimaterjal, MoTai video, abrasiivi tootmine, abrasiivi tarnija video"
+    },
+    "sponge": {
+      "title": "MoTai {name} — lihvkinnaste tootja",
+      "description": "MoTai {name}: {summary} Hulgimüük ja OEM-pakend edasimüüjatele ja töökodadele.",
+      "keywords": "lihvkäpad, lihvkäpade plokk, abrasiivne lihvkäsn, kätega lihvimise plaat, lihvkinnaste tootja, lihvkäpad hulgimüügis"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Kuidas seda tootesarja valida",
+    "guideSub": "Neli punkti, mis määravad, milline toode teie rakendusele sobib — kinnitage need pakkumuses.",
+    "specTitle": "Spetsifikatsiooni katvus",
+    "specSub": "Mida tootesarja täna sisaldab — otse tooteandmetest.",
+    "faqTitle": "Küsimused, mida ostjad selle tootesarja kohta esitavad",
+    "belts": [
+      {
+        "q": "Milline vöö laius sobib minu masinaga?",
+        "a": "Dokumenteeritud mõõdud ulatuvad 533 × 75 mm kuni 2200 × 1330 mm; üleri laiad üheosalised vööd üle 1500 mm ei vaja liidet. Määrake masin, koormus ja vajalik viimistlus, et laius kinnitataks pakkumuses."
+      },
+      {
+        "q": "Milliseid teravusi ma saan tellida?",
+        "a": "Teravused 40–800, abrasiiviks alumiiniumoksiid, siirkoonia ja ränikarbiid. Jäme teravus eemaldab materjali kiiresti; peenem teravus ühtlustab pinda ja viimistleb."
+      },
+      {
+        "q": "Kas te tarnite kohandatud mõõdusid?",
+        "a": "Jah. Laiust ja pikkust, mis ületavad dokumenteeritud mõõdusid, pakutakse juhtumi kaupa; kohandatud mõõdu konverteerimine mõjutab nii tarniaega kui minimaalset tellimushulka."
+      },
+      {
+        "q": "Milline on liide ja serva töötlemine?",
+        "a": "Liigenditüüp ja serva töötlus määratakse viite kaupa. Määrake masin, koormus ja kiirus, et õige konstruktsioon kinnitataks."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Kangakinnitus, PSA või võrk — milline sobib minu tööriistale?",
+        "a": "Kangakinnitus sobib töödeks, kus teravust vahetatakse sageli (ekstsenterslihvija); PSA sobib tasastele aluspindadele ja pikkadele töötsüklitele, nõudes puhast padipinda; võrgukettad sobivad tolmueemalduseks."
+      },
+      {
+        "q": "Millised mõõdud ja augumustrid on dokumenteeritud?",
+        "a": "3, 4, 5 ja 6 tollised ketad koos iga viite enda augumustriga; keskel olev ava peab vastama teie tööriistale."
+      },
+      {
+        "q": "Milline teravus sobib tööle?",
+        "a": "Jäme teravus eemaldab kiiresti roostet ja vanu värvikihti; peenem teravus ühtlustab pinda ja valmistab selle ette viimistluseks. Määrake materjal ja vajalik viimistlus."
+      },
+      {
+        "q": "Kas te toetate tolmueemaldust?",
+        "a": "Võrgu- ja augustatud tolmuvabad vormid on selles tootesarjas dokumenteeritud; augustik muster hoiab pinna lihvimise ajal nähtavana."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Milline alusmaterjal sobib minu rakendusele?",
+        "a": "Plast sobib üldiseks metalli lihvimiseks, teras sobib raskete servade töötamiseks ja klaaskiud sobib suure kiirusega töödeks ning paremale kestvusele; keskel olev ava peab vastama tööriistale."
+      },
+      {
+        "q": "Milleks riivikettaid kasutatakse?",
+        "a": "Keevituste lihvimine, rooste eemaldamine, pindade ühtlustamine ja metalliosade viimistlemine — kettaga, mis sobib tööriista nimelkiirusega, ja paigaldatud kaitsekilbiga."
+      },
+      {
+        "q": "Kas te tarnite suuri hulki?",
+        "a": "Jah. Riivikettaid tarnitakse edasimüüjatele ja töökodadele suurtes hulges; teravus, alusmaterjal, diameeter ja hulk määratakse pakkumuses koos."
+      },
+      {
+        "q": "Miks mu ketas valukestel kattuma hakkab?",
+        "a": "Valukest koormab abrasiivterad kiiresti. Valige karedam teravus, hoidke ketast töötüki suhtes tasasena ja puhastage ketta pinda, kui see koormuse kasvades ummistub."
+      }
+    ],
+    "all": [
+      {
+        "q": "Kust ma alustaksin, kui minu rakendus ei ole loetletud?",
+        "a": "Saatke materjal, masin, vajalik viimistlus ja hulk; me vastame sobiva tootesarja, spetsifikatsiooni ja tarniajaga."
+      },
+      {
+        "q": "Kas ma saan kõigepealt iga viidest ühe tellida?",
+        "a": "Standardviidete näidised on taotlusel saadaval; näidiste kättesaadavus ja transporditingimused kinnitatakse koos teie vastusega."
+      },
+      {
+        "q": "Kas te pakute OEM-i kõigis tootesarjades?",
+        "a": "Jah. Logo, etiketid, mõõdud ja pakend pakutakse teostatavuse hindamise alusel nii vööde, ketaste kui riivikettade puhul."
+      },
+      {
+        "q": "Kus valikus paiknevad lihvkäpad?",
+        "a": "Kätega lihvimine: painduvad plaadid kõverate ja profileeritud pindade jaoks, vahuplokid tasapindade ja renoveeritud seinte jaoks. Mõlemad pakutakse koos mõõtude, teravuse, vahu tiheduse ja hulgaga."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Painduvad plaadid või vahuplokid — millised sobivad minu tööle?",
+        "a": "Painduvad plaadid sobivad kõverate osade, servade ja profiilide jaoks; vahuplokid sobivad tasapindade, servade ja renoveeritud seinte jaoks. Mõlemad on pärast puhastamist korduvkasutatavad."
+      },
+      {
+        "q": "Kas vahu värv näitab teravust?",
+        "a": "Ei. Vahu värv ei ole teravuse ega kõvaduse tähis. Kinnitage päringus teravus, abrasiivmaterjal ja vahu tihedus ning me vastame sellele pakkumuses."
+      },
+      {
+        "q": "Kas te die-kärbute kohandatud kujusid ja pakendate minu brändi alla?",
+        "a": "Jah. Saatke oma profiil, paksus, teravus, pakendivorming ja eesmärgihulgad; die-kärbimise ja graafika nõuded kinnitatakse hindamisel."
+      },
+      {
+        "q": "Kas neid saab pesta ja korduvkasutada?",
+        "a": "Neid saab loputada ja kasutada uuesti, kuni abrasiivkiht on kulunud; eluiga sõltub teravusest, surve ja töödeldavast pinnast."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Lihvkäpad · Kätega lihvimise valik",
+    "thickness": "Konstruktsioon",
+    "gritNote": "Vahuvärvid ei määra teravust ega kõvadust. Kinnitage päringus mõõdud, teravus, abrasiivmaterjal, vahu tihedus, pakend ja hulk.",
+    "overviewTitle": "Toote ülevaade",
+    "overviewBody": "Painduvad ja korduvkasutatavad abrasiivkäsnad märja või kuiva lihvimise jaoks. Vahu järsk kohandub kõveratele osadele, servadele ja profiilidele, võimaldades kontrollitud kätega lihvimist.",
+    "checklistTitle": "Kinnitage õige spetsifikatsioon",
+    "checklistSub": "Need üksikasjad aitavad meil teie päringut vaadelda. Need on kinnitatavad nõuded, mitte avaldatud tootenäitajad.",
+    "c1": "Mõõdud — määrake laius × pikkus millimeetrites",
+    "c2": "Vajalik teravus — määrake klass või vajalik viimistlus",
+    "c3": "Töökeha ja masin — jagage materjali, masinat ja kavandatud lõppviimistlust",
+    "c4": "Hulk ja pakend — lisage hulk, pakendivajadused ja tarne sihtkoht",
+    "enquiryTitle": "Kuidas päringut esitada",
+    "enquirySub": "Toote valikust pakkumiseni.",
+    "e1t": "Valige oma toode",
+    "e1b": "Tutvuge lihvkinnaste valikuga ja valige oma rakendusele sobiv konstruktsioon.",
+    "e2t": "Kirjeldage oma nõuded",
+    "e2b": "Lisage hulk, mõõdud, teravus ja pakendinõuded.",
+    "e3t": "Vaadake pakkumine üle",
+    "e3b": "Kinnitage lõplik spetsifikatsioon ja kaubanduslikud tingimused meie meeskonnaga.",
+    "appsTitle": "Lihvkinnaste kasutusvõimalused kätega lihvimisel",
+    "appsSub": "Puidule, metallile, auto remondile ning sobivatele seina- ja liitepindadele. Sobitage teravus materjaliga ja testige mittenähtaval kohal.",
+    "a1t": "Puu lihvimine",
+    "a1b": "Lihvplokid puidutöötlemiseks, sealhulgas pindade ettevalmistus ja servade lihvimine mööblil, kapimööblil ja teistel puidust detailidel.",
+    "a2t": "Lihvkäpad kipsplaatide jaoks",
+    "a2b": "Lihvplokid kipsplaadi liitekohtade silumiseks, liitepaste tasaseks ajamiseks ja seinte ettevalmistamiseks enne krunti ja värvi.",
+    "a3t": "Rooste eemaldamine",
+    "a3b": "Painduvad ja korduvkasutatavad abrasiivkäsnad märga või kuiva lihvimise jaoks. Vahu järsk kohandub kõveratele osadele, servadele ja profiilidele, võimaldades kontrollitud kätega lihvimist.",
+    "faqTitle": "Ostjate küsimused",
+    "q1": "Kas värv näitab abrasiivi tüüpi?",
+    "a1": "Ei. Vahu värv ei ole teravuse ega kõvaduse tähis. Kinnitage päringus teravus, abrasiivmaterjal ja vahu tihedus.",
+    "q2": "Kuidas ma taotlen OEM-pakendit?",
+    "a2": "Saatke päringuga oma etikettide graafika, pakendivorming, eesmärgihulgad ja sihtkoht; OEM kättesaadavus ja graafikanõuded kinnitatakse hindamisel.",
+    "q3": "Kas pakkumise taotlemine teeb tellimuse?",
+    "a3": "Ei. See on hulgipäring. Spetsifikatsioon ja kaubanduslikud tingimused kinnitatakse pakkumuses enne tootmiskäigu algust.",
+    "ctaTitle": "Vajate lihvkärasid suurtes hulges?",
+    "ctaSub": "Saatke mõõdud, teravus, hulk ja sihtkoht — me kinnitame spetsifikatsiooni ja tarniaja."
   }
 }

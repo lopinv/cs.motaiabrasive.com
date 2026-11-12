@@ -54,6 +54,11 @@
       "title": "Tots els productes",
       "desc": "El catàleg complet d'abrasius de MoTai: cintes abrasives, discs d'escarrassament i discs de flocs per a compradors industrials, distribuidors i marques pròpies.",
       "label": "Tots els productes"
+    },
+    "sponge": {
+      "title": "Esponjes de lixat MoTai",
+      "desc": "Taps d'esponja flexibles i blocs d'espuma gruixuts per al lixat manual en humit o en sec de corbes, vores, superfícies planes i parets reparades. Reutilitzables després de rentar-los. Consultes d'engrossista i OEM benvingudes.",
+      "label": "Esponjes de lixat"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Especificacions",
     "howTitle": "Com especificar la teva comanda",
     "howBody": "Inclou la mida de la cinta o del disc, la llista de grans, el model de màquina, el material de la peça i la quantitat. Una especificació clara ens ajuda a revisar l'ajust i a preparar un pressupost útil — evita triar un producte només pel color.",
-    "faqTitle": "Preguntes de compradors"
+    "faqTitle": "Preguntes de compradors",
+    "family": "Tipus de producte"
   },
   "about": {
     "h1": "L'empresa darrere de la gamma d'abrasius",
@@ -264,7 +270,28 @@
     "pr6t": "Expedició",
     "pr6b": "Coordina l'empacament i el destí.",
     "cta1": "Demana un pressupost d'engrossista",
-    "cta2": "Contacta per WhatsApp"
+    "cta2": "Contacta per WhatsApp",
+    "faqTitle": "Preguntes que fan les marques OEM",
+    "faqSub": "Els punts pràctics que deciden una revisió de viabilitat OEM.",
+    "o1": "Quina és la comanda mínima OEM?",
+    "oa1": "Les quantitats mínimes depenen de la línia de producte, la mida, la barreja de grans i l'empacament; es confirmen a la revisió de viabilitat que acompaanya el teu pressupost.",
+    "o2": "Quin artwork necessiteu de nosaltres?",
+    "oa2": "Artwork a punt per imprimir amb la teva marca, les mides d'etiqueta que fas servir i les marques de destí exigides. Els requisits d'artwork es confirmen a la revisió abans d'una tirada.",
+    "o3": "Puc demanar una tirada de mostra abans de comprometre'm?",
+    "oa3": "Sí. Les mostres de referències estàndard es poden obtenir per avaluar-les, i les aprovacions d'artwork OEM segueixen l'especificació confirmada.",
+    "o4": "Empaqueteu només sota la nostra marca?",
+    "oa4": "Sí. Les tirades de marca pròpia apliquen el teu logotip, les etiquetes, les mides i l'empacament; les etiquetes s'apliquen i es verifiquen abans de segellar el cartró, no després que arribi.",
+    "o5": "Quant de temps triga una revisió de viabilitat OEM?",
+    "oa5": "La revisió segueix el pas de comprovació; les referències d'estoc es responen més ràpid perquè no els aplica cap termini de conversió.",
+    "specTitle": "Què inclou un brief OEM",
+    "specSub": "Sis punts que ens permeten retornar una revisió de viabilitat útil al primer pas.",
+    "checklistTitle": "Abans d'enviar el brief",
+    "c1": "Línia de producte i la referència d'especificació que compres avui",
+    "c2": "Artwork d'etiquetes, a punt per imprimir, amb les mides d'etiqueta que fas servir",
+    "c3": "Format d'empacament — cartó, paquet interior, unitat de venda al detall",
+    "c4": "Quantitats objectiu i la barreja de mides / grans",
+    "c5": "Destí i les marques o documents de destí que calguin",
+    "c6": "Calendari — data de llançament o la primera finestra d'enviament"
   },
   "applications": {
     "h1": "Abrasius per al teu sector",
@@ -437,7 +464,49 @@
     "consent": "Accepto la Política de Privadesa, les Condicions d'Ús i la utilització dels meus dades per respondre a aquesta consulta. *",
     "btn1": "Demana un pressupost d'engrossista",
     "btn2": "Envia la consulta per WhatsApp",
-    "goNote": "El formulari s'obre al nostre sistema de consultes d'engrossista amb el context del teu producte omplert prèviament."
+    "goNote": "El formulari s'obre al nostre sistema de consultes d'engrossista amb el context del teu producte omplert prèviament.",
+    "whyTitle": "Per què els compradors demanen pressupost a MoTai",
+    "whySub": "Quatre raons per les quals distribuïdors i tallers de fabricació ens envien la seva especificació.",
+    "w1t": "Preus directes de fàbrica",
+    "w1b": "La conversió es fa a la nostra pròpia planta de Xianning, Hubei, de manera que el pressupost reflecteix el cost de conversió, no pas una cadena d'intermediaris.",
+    "w2t": "Especificació confirmada per escrit",
+    "w2b": "El gran, el suport, les dimensions, l'empacament i les marques s'acorden al pressupost, que és allò contra el qual es comprova la comanda abans de l'expedició.",
+    "w3t": "Estoc per a mides estàndard",
+    "w3b": "Les amplades i els grans estàndard estan emmagatzemats i a punt, cosa que manté curtes les comandes de reposició, mentre que les mides a mida es fabriquen segons l'especificació confirmada.",
+    "w4t": "OEM i marca pròpia",
+    "w4b": "El teu logotip, les etiquetes, les mides i l'empacament, pressupostats a partir d'una revisió de viabilitat i no pas d'una suposició.",
+    "stepsTitle": "Com una consulta es converteix en una comanda confirmada",
+    "stepsSub": "Quatre passos, cadascun amb un punt de control escrit, perquè no quedi res resolt a la porta d'expedició.",
+    "p1t": "Tu envies l'especificació",
+    "p1b": "Categoria de producte, model o referència, mida, gran, material, quantitat, empacament i destí — els camps de sota.",
+    "p2t": "Nosaltres revisem i responem",
+    "p2b": "Mides, grans, suport i empacament revisats respecte a la teva aplicació; qualsevol desajust s'assenyala abans del pressupost.",
+    "p3t": "Aprovació de la mostra (quan cal)",
+    "p3b": "Les mostres de referències estàndard estan disponibles sota petició i s'avaluen abans d'acordar una tirada de producció.",
+    "p4t": "Tirada segons l'especificació confirmada",
+    "p4b": "La producció avança segons l'especificació confirmada; després s'apliquen els punts de control, la llista d'empacament i les marques abans de l'expedició.",
+    "faqTitle": "Preguntes que fan els compradors abans de demanar pressupost",
+    "faqSub": "Els detalls pràctics que deciden el preu, el termini i l'ajust.",
+    "q1": "Quina és la comanda mínima?",
+    "a1": "Les quantitats mínimes depenen de la línia de producte, la mida i l'empacament; es confirmen a la resposta a la teva consulta i no es publiquen com una xifra única.",
+    "q2": "Quant de temps triga un pressupost?",
+    "a2": "Una resposta amb l'especificació, el termini i el preu s'emet després del pas de revisió; les referències d'estoc es pressuposten més ràpid perquè no els aplica cap termini de conversió.",
+    "q3": "Puc obtenir una mostra primer?",
+    "a3": "Sí. Les mostres de referències estàndard estan disponibles per avaluar-les sota petició; la disponibilitat de mostres i les condicions de transport es confirmen amb la teva resposta.",
+    "q4": "Doneu suport a OEM i a marca pròpia?",
+    "a4": "Sí. Envia el logotip, l'artwork de les etiquetes, el format d'empacament i les quantitats objectiu, i et retornem una revisió de viabilitat OEM amb el pressupost.",
+    "q5": "Quines condicions de pagament i d'enviament utilitzeu?",
+    "a5": "Les condicions comercials es confirmen per consulta al pressupost, inclosos el destí, l'empacament i l'Incoterm que especifiquis.",
+    "trustTitle": "El subministrament d'un cop d'ull",
+    "trustSub": "La planta darrere del teu pressupost.",
+    "trustNote": "Les xifres descriuen el lloc de fabricació; les condicions a nivell de comanda es confirmen al pressupost.",
+    "checklistTitle": "Abans d'enviar-ho",
+    "checklistSub": "Tenir preparats aquests cinc punts fa que la primera resposta sigui sensiblement més ràpida.",
+    "c1": "Aplicació, màquina i acabat necessari",
+    "c2": "Material a treballar (acer, fusta, alumini, pintura, pladur)",
+    "c3": "Grau de gran i estàndard al qual comprens (FEPA o ANSI)",
+    "c4": "Mida, diàmetre, forats i quantitat",
+    "c5": "País de destí i empacament o marques necessaris"
   },
   "clients": {
     "h1": "On van els enviaments de MoTai",
@@ -445,7 +514,29 @@
     "note": "Les logotips de clients i els testimonis de sota són llocs reservats — substitueix src/data/trust.json per materials publicats.",
     "placeholderBadge": "Lloc reservat il·lustratiu",
     "statsTitle": "El subministrament de cop d'ull",
-    "statsNote": "Les certificacions mostrades són llocs reservats pendent de certificats publicats."
+    "statsNote": "Les certificacions mostrades són llocs reservats pendent de certificats publicats.",
+    "regionsTitle": "De Hubei al teu mercat",
+    "regionsSub": "La mateixa planta serveix set regions de destí; l'empacament i les marques es defineixen per destí.",
+    "logisticsTitle": "Què confirmem abans de l'expedició",
+    "logisticsSub": "Quatre punts resolts al pressupost, no a la porta d'expedició.",
+    "l1": "Llista d'empacament — quantitats per paquet per mida i gran, d'acord amb la comanda",
+    "l2": "Marcatge de caixons — les teves marques o el conjunt estàndard, acordat abans de la tirada",
+    "l3": "Patró del palet — fixat per al teu destí i el teu equip de manipulació",
+    "l4": "Destí i documents — acordats amb el pressupost",
+    "faqTitle": "Preguntes que fan els compradors sobre el subministrament",
+    "f1": "Quins destins subministreu?",
+    "fa1": "Set regions de destí a Europa, Amèrica del Nord, l'Orient Mitjà i Àsia; l'empacament i les marques es defineixen per destí.",
+    "f2": "Com protegiu la mercaderia durant el trànsit?",
+    "fa2": "L'empacament s'especifica per destí i es confirma al pressupost; la protecció contra la humitat i el patró del palet segueixen les condicions de trànsit que ens indiquis.",
+    "f3": "Els logotips de clients d'aquesta pàgina són reals?",
+    "fa3": "No. Són llocs reservats. Substituïx src/data/trust.json per materials publicats abans de fer-ne servir com a referències.",
+    "f4": "Les certificacions indicades estan verificades?",
+    "fa4": "L'espais de certificació són reservats fins que es publiquin els certificats; només les xifres de planta que es mostren estan confirmades per la fàbrica.",
+    "qaTitle": "Què necessitem de tu",
+    "qaSub": "Tres punts que ens permeten respondre amb l'especificació, el termini i el preu.",
+    "q1": "Aplicació, màquina i acabat necessari",
+    "q2": "Material treballat i l'estàndard de gran al qual comprens (FEPA o ANSI)",
+    "q3": "Quantitat, país de destí i empacament o marques necessaris"
   },
   "glossary": {
     "h1": "Glossari d'abrasius",
@@ -991,6 +1082,11 @@
         "title": "Productes abrasius a l'engrossista — Cintes, discs i discs de flocs | MoTai",
         "description": "El catàleg complet d'abrasius de MoTai: cintes abrasives industrials, discs d'escarrassament i discs de flocs per a distribuidors, importadors, engrossistes i marques OEM. Engrossista directe de fàbrica, personalització i exportació des de Hubei, la Xina.",
         "keywords": "productes abrasius, productes abrasius a l'engrossista, abrasius industrials, abrasius revestits, abrasius a l'engrossista, fàbrica de productes abrasius, exportador de productes abrasius, subministrador d'abrasius a la Xina, fabricant OEM d'abrasius, abrasius de marca pròpia, productes abrasius a mida, subministrament d'abrasius en grans quantitats, fàbrica d'abrasius, eines abrasives, materials abrasius, productes d'escarrassament, productes d'acabat de superfícies, paper d'escarrassar, fulls de paper d'escarrassar, paper d'escarrassar rodó, paper d'escarrassar a l'engrossista, placa d'escarrassar, placa d'escarrassar de velcro, placa d'escarrassar de 5 polzades, placa d'escarrassar de 6 polzades, esmoló de flocs de no teixit, tela abrasiva, escombraixa industrial de roler"
+      },
+      "sponge": {
+        "title": "Fabricant i subministrador majorista d'esponjes de lixat | MoTai",
+        "description": "Taps d'esponja de lixat flexibles i blocs d'espuma gruixuts per al lixat manual en humit o en sec de corbes, vores, superfícies planes i parets reparades. Reutilitzables, multigra, retallats amb matriu i embalatge OEM. Engrossista directe de fàbrica.",
+        "keywords": "esponja de lixat, blocs d'esponja de lixat, taps d'esponja de lixat, esponja abrasiva, esponja de lixat manual, fabricant d'esponjes de lixat, esponjes de lixat a l'engrossista, esponja de lixat retallada amb matriu, esponja de lixat OEM"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — Vídeos de fàbrica i producte de MoTai",
       "description": "Vídeo de fàbrica i producte de MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, vídeo d'abrasius, gravació a la fàbrica d'abrasius, vídeo MoTai, fabricació d'abrasius, vídeo de proveïdor d'abrasius"
+    },
+    "sponge": {
+      "title": "MoTai {name} — Fabricant d'esponjes de lixat",
+      "description": "MoTai {name}: {summary} Subministrament a l'engrossista i embalatge OEM per a distribuïdors i tallers.",
+      "keywords": "esponja de lixat, bloc d'esponja de lixat, esponja abrasiva, esponja de lixat manual, fabricant d'esponjes de lixat, esponjes de lixat a l'engrossista"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Com triar aquesta línia",
+    "guideSub": "Quatre punts que deciden quin producte s'adapta a la teva aplicació — confirma'ls amb el pressupost.",
+    "specTitle": "Cobertura d'especificacions",
+    "specSub": "El que cobreix la línia avui, directament dels registres de producte.",
+    "faqTitle": "Preguntes que fan els compradors sobre aquesta línia",
+    "belts": [
+      {
+        "q": "Quina amplada de cinta convé a la meva màquina?",
+        "a": "Les mides documentades van de 533 × 75 mm a 2200 × 1330 mm; les cintes ultraamples d'una sola peça per sobre de 1500 mm eviten una junta. Indica la màquina, la càrrega i l'acabat perquè l'amplada es confirma amb el pressupost."
+      },
+      {
+        "q": "Quin rang de grans puc demanar?",
+        "a": "Grans 40–800 en gran d'òxid d'alumini, zirconi i carbur de silici. El gran gruixut elimina material ràpid; el gran fi fosa i acaba."
+      },
+      {
+        "q": "Subministreu mides a mida?",
+        "a": "Sí. L'amplada i la longitud més enllà de les mides documentades es pressuposten cas per cas; convertir a una mida a mida afecta tant el termini com la comanda mínima."
+      },
+      {
+        "q": "Quina construcció de junta i de vores fan servir?",
+        "a": "El tipus de junta i el tractament de les vores s'especifiquen per referència. Indica'ns la màquina, la càrrega i la velocitat perquè es confirmi la construcció adequada."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Velcro, PSA o malla — quin per a la meva eina?",
+        "a": "El velcro va bé quan es canvia de gran sovint en una llistadora orbital aleatòria, el PSA va bé per a plaques planes i temps de treball llargs, i la malla va bé per a l'extracció de pols."
+      },
+      {
+        "q": "Quines mides i patrons de forats estan documentats?",
+        "a": "Discs de 3, 4, 5 i 6 polzades amb els patrons de forats de cada referència; el forat central ha de coincidir amb la teva eina."
+      },
+      {
+        "q": "Quin gran per a la feina?",
+        "a": "El gran gruixut elimina òxid i pintura ràpid; el gran fi fosa i prepara la superfície per a l'acabat. Indica el material i l'acabat necessari."
+      },
+      {
+        "q": "Admeteu extracció de pols?",
+        "a": "Els formats de malla i perforats sense pols estan documentats en aquesta línia; el patró perforat manté visible la superfície mentre es lixa."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Quin suport convé a la meva aplicació?",
+        "a": "El plàstic va bé per a l'esmolat general de metall, l'acer per al desbavellat exigent i la fibra de vidre per a la durabilitat a alta velocitat; el forat central ha de coincidir amb l'eina."
+      },
+      {
+        "q": "Per a què serveixen els discs de flocs?",
+        "a": "Esmolat de soldadures, eliminació d'òxid, fusió de superfícies i acabat de peces de metall — amb la velocitat del disc i de l'eina aparellades i el protector col·locat."
+      },
+      {
+        "q": "Subministreu grans quantitats?",
+        "a": "Sí. Els discs de flocs se subministren a granel per a distribuïdors i tallers; el gran, el suport, el diàmetre i la quantitat es fixen conjuntament al pressupost."
+      },
+      {
+        "q": "Per què s'encepa el meu disc sobre l'escata de laminació?",
+        "a": "L'escata de laminació carrega l'abrasiu ràpid. Tria un gran més gruixut, mantén el disc pla sobre la peça i neteja la superfície a mesura que es carrega."
+      }
+    ],
+    "all": [
+      {
+        "q": "Per on començo si la meva aplicació no és a la llista?",
+        "a": "Envia el material, la màquina, l'acabat i el volum; responem amb la família de producte, l'especificació i el termini que s'hi ajustin."
+      },
+      {
+        "q": "Puc demanar primer una unitat de cada referència?",
+        "a": "Les mostres de referències estàndard estan disponibles sota petició; la disponibilitat de mostres i les condicions de transport es confirmen amb la teva resposta."
+      },
+      {
+        "q": "Pressupostau OEM a totes les línies?",
+        "a": "Sí. El logotip, les etiquetes, les mides i l'empacament es pressuposten a partir d'una revisió de viabilitat per a cintes, discs i discs de flocs."
+      },
+      {
+        "q": "On es situen les esponjes de lixat dins la gamma?",
+        "a": "Lixat manual: esponjes flexibles per a corbes i perfils, blocs d'espuma per a superfícies planes i parets reparades. Tots dos es pressuposten amb les dimensions, el gran, la densitat de l'espuma i la quantitat."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Esponjes flexibles o blocs d'espuma — quins per a la meva feina?",
+        "a": "Les esponjes flexibles convenen a corbes, vores i perfils; els blocs d'espuma, a superfícies planes, vores i parets reparades. Els dos es reutilitzen després de rentar-los."
+      },
+      {
+        "q": "El color de l'espuma indica el gran?",
+        "a": "No. El color de l'espuma no és una indicació de gran ni de duresa. Confirma el gran, el material abrasiu i la densitat de l'espuma a la teva consulta i l'ajustem al pressupost."
+      },
+      {
+        "q": "Podeu troquelar formes a mida i empaquetar sota la meva marca?",
+        "a": "Sí. Envia el perfil, el gruix, el gran, el format d'empacament i les quantitats objectiu; el troquel i els requisits d'artwork es confirmen a la revisió."
+      },
+      {
+        "q": "Es poden rentar i reutilitzar?",
+        "a": "Es poden aclarir i reutilitzar fins que la capa abrasiva s'esgota; la vida depèn del gran, la pressió i la superfície treballada."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Esponjes de lixat · Gamma de lixat manual",
+    "thickness": "Construcció",
+    "gritNote": "Els colors de l'espuma no determinen el gran ni la duresa. Confirma les dimensions, el gran, el material abrasiu, la densitat de l'espuma, l'empacament i la quantitat a la teva consulta.",
+    "overviewTitle": "Vista general del producte",
+    "overviewBody": "Esponjes abrasives flexibles i reutilitzables per lixar en humit o en sec. L'espuma s'adapta a corbes, vores i perfils per a un lixat manual controlat.",
+    "checklistTitle": "Confirma l'especificació adequada",
+    "checklistSub": "Aquests detalls ens ajuden a revisar la teva consulta. Són requisits a confirmar, no valors de producte publicats.",
+    "c1": "Dimensions — indica l'amplada × la longitud en mm",
+    "c2": "Gran necessari — indica el grau o l'acabat necessari",
+    "c3": "Peça i màquina — comparteix el material, la màquina i l'acabat previst",
+    "c4": "Quantitat i empacament — inclou la quantitat, les necessitats d'empacament i el destí de lliurament",
+    "enquiryTitle": "Com fer una consulta",
+    "enquirySub": "De la selecció del producte al pressupost.",
+    "e1t": "Tria el producte",
+    "e1b": "Explora la gamma d'esponjes de lixat i tria la construcció que necessita la teva aplicació.",
+    "e2t": "Comparteix els teus requisits",
+    "e2b": "Afegeix la quantitat, les dimensions, el gran i els requisits d'empacament.",
+    "e3t": "Revisa el teu pressupost",
+    "e3b": "Confirma l'especificació final i les condicions comercials amb el nostre equip.",
+    "appsTitle": "Aplicacions de l'esponja de lixat manual",
+    "appsSub": "Per a fusta, metall, repintat automòbil i superfícies adequades de paret i de junta. Ajusta el gran al material i prova en una zona poc visible.",
+    "a1t": "Lixat de fusta",
+    "a1b": "Blocs d'esponja per a fusteria, inclosa la preparació de superfícies i el lixat de vores en mobles, armaris i altres components de fusta.",
+    "a2t": "Esponjes per a pladur",
+    "a2b": "Blocs d'esponja per allisar juntes de pladur, difuminar el màstic de juntes i preparar les parets per a l'imprimació i la pintura.",
+    "a3t": "Eliminació d'òxid",
+    "a3b": "Esponjes abrasives flexibles i reutilitzables per lixar en humit o en sec. L'espuma s'adapta a corbes, vores i perfils per a un lixat manual controlat.",
+    "faqTitle": "Preguntes dels compradors",
+    "q1": "El color identifica el tipus d'abrasiu?",
+    "a1": "No. El color de l'espuma no és una indicació de gran ni de duresa. Confirma el gran, el material abrasiu i la densitat de l'espuma a la teva consulta.",
+    "q2": "Com demano empacament OEM?",
+    "a2": "Envia l'artwork de les etiquetes, el format d'empacament, les quantitats objectiu i el destí juntament amb la consulta; la disponibilitat OEM i els requisits d'artwork es confirmen a la revisió.",
+    "q3": "Demanar un pressupost fà una comanda?",
+    "a3": "No. Això és una consulta d'engrossista. L'especificació i les condicions comercials es confirmen al pressupost abans que comenci cap tirada.",
+    "ctaTitle": "Necessites esponjes de lixat a granel?",
+    "ctaSub": "Envia les dimensions, el gran, la quantitat i el destí — confirmem l'especificació i el termini."
   }
 }

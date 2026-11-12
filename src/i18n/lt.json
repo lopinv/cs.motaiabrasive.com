@@ -54,6 +54,11 @@
       "title": "Visi produktai",
       "desc": "Pilnas MoTai šlifuoskų katalogas: šlifavimo juostos, diskai ir faneruotai diskai pramoniškim nusipirkėjams, platintojams ir savosios prekės ženklų savininkams.",
       "label": "Visi produktai"
+    },
+    "sponge": {
+      "title": "MoTai šlifavimo kempinės",
+      "desc": "Lanksčios šlifavimo kempinių trinkelės ir stori porolono blokai, skirti šlifavimui rankomis drėgnu ir sausu būdu: kreiviems paviršiams, briaunoms, plokštiems paviršiams ir restauruotoms sienoms. Po išplovimo vėl naudojamos. Laukiame didmeninės prekybos ir OEM užklausų.",
+      "label": "Šlifavimo kempinės"
     }
   },
   "cta": {
@@ -179,7 +184,8 @@
     "specTitle": "Specifikacijos",
     "howTitle": "Kaip nurodyti savo užsakymą",
     "howBody": "Įtraukite juostos ar disko dydį, grūdelių sąrašą, mašinos modelį, medžiagą ir kiekį. Aiški specifikacija padeda mums peržiūrėti tinkamumą ir paruošti naudingą kainoraštį — venkite produkto pasirinkimo vien pagal spalvą.",
-    "faqTitle": "Nusipirkėjo klausimai"
+    "faqTitle": "Nusipirkėjo klausimai",
+    "family": "Produkto tipas"
   },
   "about": {
     "h1": "Įmonė, stovinti už šlifuoskų asortimento",
@@ -264,7 +270,28 @@
     "pr6t": "Siuntimas",
     "pr6b": "Koordinuokite pakavimą ir paskirtį.",
     "cta1": "Užsakyti didmeninę kainoraštį",
-    "cta2": "Susisiekite per WhatsApp"
+    "cta2": "Susisiekite per WhatsApp",
+    "faqTitle": "Klausimai, kuriuos užduoda OEM prekės ženklų savininkai",
+    "faqSub": "Praktiniai aspektai, nuo kurių priklauso OEM galimybių įvertis.",
+    "o1": "Koks minimalus OEM užsakymo kiekis?",
+    "oa1": "Minimalūs kiekiai priklauso nuo produkto linijos, dydžio, grūdėtumo derinio ir pakavimo; jie patvirtinami galimybių vertinime, kuris pateikiamas kartu su pasiūlymu.",
+    "o2": "Kokio maketo mums reikia?",
+    "oa2": "Spausdinimui paruošto maketo su jūsų prekės ženklu, naudojamų etikečių dydžiais ir reikiamais paskirties šalies žymėjimais. Maketo reikalavimai patvirtinami peržiūros etape, prieš pradedant partiją.",
+    "o3": "Ar prieš įsipareiodamas galiu gauti bandomąją partiją?",
+    "oa3": "Taip. Standartinių modelių pavyzdžiai pateikiami įvertinimui, o OEM maketų patvirtinimas atitinka patvirtintą specifikaciją.",
+    "o4": "Ar ruošiate pakuotę tik su mūsų prekės ženklu?",
+    "oa4": "Taip. Privataus ženklo partijoms taikome jūsų logotipą, etiketes, dydžius ir pakavimą; etiketės klijuojamos ir tikrinamos prieš dėžės užsandarinimą, o ne krovinį pristatius paskirties vietai.",
+    "o5": "Kiek laiko užima OEM galimybių vertinimas?",
+    "oa5": "Vertinimas atliekamas peržiūros etape; pirmiausiai atsakome į standartinių sandėlio pozicijų užklausas, nes joms netaikomas perdirbimo terminas.",
+    "specTitle": "Ką apima OEM užklausos aprašymas",
+    "specSub": "Šeši punktai, leidžiantys pirmu kartu pateikti naudingą galimybių vertinimą.",
+    "checklistTitle": "Prieš išsiunčiant užklausą",
+    "c1": "Produkto linija ir specifikacijos pozicija, kurią perkate šiandien",
+    "c2": "Etikečių maketas, paruoštas spausdinimui, su naudojamais etikečių dydžiais",
+    "c3": "Pakavimo formatas — dėžė, vidinė pakuotė, mažmeninis vienetas",
+    "c4": "Planuojami kiekiai ir dydžių bei grūdėtumų santykis",
+    "c5": "Paskirties šalis ir reikiamas žymėjimas bei dokumentai",
+    "c6": "Terminai — išleidimo data ar pirmojo pristatymo laikotarpis"
   },
   "applications": {
     "h1": "Šlifuoskos jūsų pramonei",
@@ -437,7 +464,49 @@
     "consent": "Aš sutinku su privatumo politika, naudojimo sąlygomis ir savo detalių naudojimu, atsakyti į šią užklausą. *",
     "btn1": "Užsakyti didmeninę kainoraštį",
     "btn2": "Siųsti užklausą per WhatsApp",
-    "goNote": "Forma atsidaro mūsų didmeninės užklausos sistemoje, su jūsų produkto kontekstu pilnai užpildytu."
+    "goNote": "Forma atsidaro mūsų didmeninės užklausos sistemoje, su jūsų produkto kontekstu pilnai užpildytu.",
+    "whyTitle": "Kodėl perkantieji teikia užklausas per MoTai",
+    "whySub": "Keturios priežastys, dėl kurių platintojai ir apdirbimo dirbtuvės siunčia mums savo specifikaciją.",
+    "w1t": "Kainos tiesiai iš gamyklos",
+    "w1b": "Perdirbimas atliekamas mūsų pačių Xianning, Hubei gamykloje, todėl pasiūlymas atspindi perdirbimo kaštus, o ne tarpininkų grandinę.",
+    "w2t": "Specifikacija patvirtinta raštu",
+    "w2b": "Grūdėtumas, pamušalas, matmenys, pakavimas ir žymėjimas suderinami pasiūlyme; pagal jį užsakymas patikrinamas prieš išsiuntimą.",
+    "w3t": "Standartinių dydžių atsargos",
+    "w3b": "Standartiniai plotčiai ir grūdėtumai laikomi sandėliuje ir paruošti, todėl papildomi užsakymai įvykdomi greičiau, o individualūs dydžiai vis tiek gaminami pagal patvirtintą specifikaciją.",
+    "w4t": "OEM ir privatus prekės ženklas",
+    "w4b": "Jūsų logotipas, etiketės, dydžiai ir pakavimas; pasiūlymas pateikiamas įvertinus galimybes, o ne spėliuojant.",
+    "stepsTitle": "Kaip užklausa tampa patvirtintu užsakymu",
+    "stepsSub": "Keturintos pakopos, kiekviena su rašytiniu patvirtinimu, kad niekas nereikėtų spręsti paskubomis prieš išsiuntimą.",
+    "p1t": "Jūs siunčiate specifikaciją",
+    "p1b": "Produkto kategorija, modelis ar pozicija, matmenys, grūdėtumas, medžiaga, kiekis, pakavimas ir paskirties šalis — laukai pateikti žemiau.",
+    "p2t": "Mes peržiūrime ir atsakome",
+    "p2b": "Matmenys, grūdėtumas, pamušalas ir pakavimas vertinami pagal jūsų naudojimo sritį; neatitikimas pranešamas prieš pateikiant pasiūlymą.",
+    "p3t": "Pavyzdžio patvirtinimas (kai reikia)",
+    "p3b": "Standartinių modelių pavyzdžiai pateikiami pageidavimu ir įvertinami prieš suderiant gamybos partiją.",
+    "p4t": "Gamyba pagal patvirtintą specifikaciją",
+    "p4b": "Gamyba vykdoma pagal patvirtintą specifikaciją; prieš išsiuntimą atliekami kontroliniai patikrinimai, pateikiamas pakavimo sąrašas ir žymėjimas.",
+    "faqTitle": "Klausimai, kuriuos perkantieji užduoda prieš užklausą",
+    "faqSub": "Praktinės detalės, nuo kurių priklauso kaina, terminas ir tinkamumas.",
+    "q1": "Koks minimalus užsakymo kiekis?",
+    "a1": "Minimalūs kiekiai priklauso nuo produkto linijos, dydžio ir pakavimo; jie patvirtinami atsakyme į jūsų užklausą, o ne skelbiami kaip vienas bendras skaičius.",
+    "q2": "Kiek laiko užima kainos pasiūlymas?",
+    "a2": "Atsakymas su specifikacija, terminu ir kaina pateikiamas po peržiūros etapo; greičiausiai pasiūlymą pateikiame standartinėms sandėlio pozicijoms, nes joms netaikomas perdirbimo terminas.",
+    "q3": "Ar pirmiau galėčiau gauti pavyzdį?",
+    "a3": "Taip. Standartinių modelių pavyzdžiai pateikiami įvertinimui pageidavimu; pavyzdžių prieinamumas ir gabenimo sąlygos patvirtinamos kartu su atsakymu.",
+    "q4": "Ar dirbate OEM ir privataus ženklo modeliu?",
+    "a4": "Taip. Atsiųskite logotipą, etikečių maketą, pakavimo formatą ir planuojamus kiekius — kartu su pasiūlymu pateiksime OEM galimybių vertinimą.",
+    "q5": "Kokias mokėjimo ir pristatymo sąlygas taikote?",
+    "a5": "Komercinės sąlygos patvirtinamos kiekvienai užklausai pasiūlyme, įskaitant paskirties šalį, pakavimą ir jūsų nurodytą Incoterms sąlygą.",
+    "trustTitle": "Tiekimas trumpai",
+    "trustSub": "Gamykla, atsakanti už jūsų pasiūlymą.",
+    "trustNote": "Rodmenys apibūdina gamybos įmonę; užsakymo sąlygos patvirtinamos pasiūlyme.",
+    "checklistTitle": "Prieš jį pateikiant",
+    "checklistSub": "Jei šiuos penkis punktus paruošiate iš anksto, pirmas atsakymas pateikiamas žymiai greičiau.",
+    "c1": "Naudojimo sritis, mašina ir reikalinga paviršiaus apdaila",
+    "c2": "Apdorojama medžiaga (plienas, medis, aliuminis, dažai, gipskartonas)",
+    "c3": "Grūdėtumo laipsnis ir standartas, pagal kurį perkate (FEPA ar ANSI)",
+    "c4": "Matmenys, skersmuo, angos ir kiekis",
+    "c5": "Paskirties šalis ir reikalingas pakavimas ar žymėjimas"
   },
   "clients": {
     "h1": "Kur moTtai siuntimai eina",
@@ -445,7 +514,29 @@
     "note": "Žemiau esantys klientų logotipai ir gyvavimo vadovėliai yra laikini užsakymai — pakeiskit src/data/trust.json su publikuotais medžiagais.",
     "placeholderBadge": "Iliustracinis laikinas užsakymas",
     "statsTitle": "Tiekimas trumpai",
-    "statsNote": "Rodomi sertifikatai yra laikini, palaukiant publikuotus sertifikatus."
+    "statsNote": "Rodomi sertifikatai yra laikini, palaukiant publikuotus sertifikatus.",
+    "regionsTitle": "Iš Hubei į jūsų rinką",
+    "regionsSub": "Ta pati gamykla aptarnauja septynias paskirties sritis; pakavimas ir žymėjimas nustatomi pagal kiekvieną paskirtį.",
+    "logisticsTitle": "Ką patvirtiname prieš išsiuntimą",
+    "logisticsSub": "Keturinti punktai, suderinti pasiūlyme, o ne prieš krovimą.",
+    "l1": "Pakavimo sąrašas — kiekiai pagal dydį ir grūdėtumą, atitinkantys užsakymą",
+    "l2": "Žymėjimas ant dėžių — jūsų ar standartinis rinkinys, suderintas prieš partiją",
+    "l3": "Palečių išdėstymas — parenkamas pagal paskirties šalį ir krovimo įrangą",
+    "l4": "Paskirties šalis ir dokumentai — suderinti su pasiūlymu",
+    "faqTitle": "Klausimai apie tiekimą",
+    "f1": "Kurias paskirties šalis aptarnaujate?",
+    "fa1": "Septynios paskirties sritys Europoje, Šiaurės Amerikoje, Artimuosiuose Rytuose ir Azijoje; pakavimas ir žymėjimas nustatomi pagal kiekvieną paskirtį.",
+    "f2": "Kaip apsaugote krovinį pervežimo metu?",
+    "fa2": "Pakavimas parenkamas pagal paskirties šalį ir patvirtinamas pasiūlyme; drėgmės apsauga ir palečių išdėstymas atitinka jūsų nurodytas pervežimo sąlygas.",
+    "f3": "Ar šiame puslapyje rodomi klientų logotipai tikri?",
+    "fa3": "Ne. Tai laisvos vietos. Prieš naudodami jas kaip nuorodas, pakeiskite src/data/trust.json paskelbtais šaltiniais.",
+    "f4": "Ar išvardyti sertifikatai patikrinti?",
+    "fa4": "Sertifikatų laukai kol kas užpildyti kaip laisvos vietos, laukiant paskelbtų sertifikatų; gamykla patvirtina tik parodytus gamybos rodmenis.",
+    "qaTitle": "Ko mums reikia iš jūsų",
+    "qaSub": "Trys punktai, leidžiantys atsakyti specifikacija, terminu ir kaina.",
+    "q1": "Naudojimo sritis, mašina ir reikalinga paviršiaus apdaila",
+    "q2": "Apdorojama medžiaga ir grūdėtumo standartas, pagal kurį perkate (FEPA ar ANSI)",
+    "q3": "Kiekis, paskirties šalis ir reikalingas pakavimas ar žymėjimas"
   },
   "glossary": {
     "h1": "Šlifuoskų terminija",
@@ -991,6 +1082,11 @@
         "title": "Šlifuoskų produktų didmeninė prekyba — juostos, diskai ir faneruotai diskai | MoTai",
         "description": "Pilnas MoTai šlifuoskų katalogas: pramoninės šlifavimo juostos, šlifavimo diskai ir faneruotai diskai, platintojams, importuotojams, didmenininkams ir OEM prekės ženklams. Gamykloje tiesioginė didmeninė, individualizavimas ir eksportas iš Hubei, Kinija.",
         "keywords": "šlifuoskų produktai, šlifuoskų didmeninė prekyba, pramoninės šlifuoskos, padengtos šlifuoskos, didmeninė šlifuoskos, šlifuoskų eksportuotojas, šlifuoskų OEM gamintojas, savosios prekės ženklo šlifuoskos"
+      },
+      "sponge": {
+        "title": "Šlifavimo kempinių gamintojas ir didmeninis tiekėjas | MoTai",
+        "description": "Lanksčios šlifavimo kempinių trinkelės ir stori porolono blokai, skirti šlifavimui rankomis drėgnu būdu arba sausai: kreiviems paviršiams, briaunoms, plokštiems paviršiams ir restauruotoms sienoms. Pakartotinai naudojamos, kelių grūdėtumų, pjaujamos štampais, OEM pakavimas. Tiekimas tiesiai iš gamyklos.",
+        "keywords": "šlifavimo kempinė, šlifavimo kempinių blokai, šlifavimo kempinių trinkelės, abrazyvinė kempinė, kempinė šlifavimui rankomis, šlifavimo kempinių gamintojas, šlifavimo kempinės didmeninė prekyba, štampu pjaujamos šlifavimo kempinės, OEM šlifavimo kempinės"
       }
     },
     "videos": {
@@ -1002,6 +1098,11 @@
       "title": "{title} — MoTai gamyklos ir produktų vaizdo įrašai",
       "description": "Gaminklos ir produkto vaizdo įrašas iš MoTai Abrasives, Xianning, Hubei. {title}",
       "keywords": "{line}, aštriklių video, aštriklių gamyklos kadrai, MoTai video, aštriklių gamyba, aštriklių tiekėjo video"
+    },
+    "sponge": {
+      "title": "MoTai {name} — šlifavimo kempinių gamintojas",
+      "description": "MoTai {name}: {summary} Didmeninis tiekimas ir OEM pakavimas platintojams ir dirbtuvėms.",
+      "keywords": "šlifavimo kempinė, šlifavimo kempinių blokas, abrazyvinė kempinė, šlifavimo pagalvėlė šlifavimui rankomis, šlifavimo kempinių gamintojas, šlifavimo kempinės didmeninė prekyba"
     }
   },
   "quickBar": {
@@ -1414,5 +1515,140 @@
     "brand": "MoTai",
     "sub": "ABRASIVES",
     "company": "Hubei MoTai Abrasives Materials Co., Ltd."
+  },
+  "coltBuy": {
+    "guideTitle": "Kaip pasirinkti šią liniją",
+    "guideSub": "Keturinti punktai, leidžiantys nuspręsti, kuris produktas tinka jūsų užduočiai — patvirtinkite juos pasiūlyme.",
+    "specTitle": "Specifikacijos aprėptis",
+    "specSub": "Ką ši linija apima šiandien — tiesiai iš produktų įrašų.",
+    "faqTitle": "Klausimai apie šią liniją",
+    "belts": [
+      {
+        "q": "Koks diržo plotis tinka mano mašinai?",
+        "a": "Dokumentuoti dydžiai — nuo 533 × 75 mm iki 2200 × 1330 mm; itin platūs, iš vieno gabalo pagaminti diržai, platesnių nei 1500 mm, neturi siūlės. Nurodykite mašiną, apkrovą ir pageidaujamą apdailą, kad plotis būtų patvirtintas pasiūlyme."
+      },
+      {
+        "q": "Kokį grūdėtumo intervalą galiu užsakyti?",
+        "a": "Grūdėtumai nuo 40 iki 800 su aliuminio oksido, cirkonio oksido ir silicio karbido abrazyvu. Šiurkštus grūdėtumas greitai nuima medžiagą; smulkus lygina ir atlieka baigiamąjį šlifavimą."
+      },
+      {
+        "q": "Ar tiekinate individualius dydžius?",
+        "a": "Taip. Plotis ir ilgis, didesni už dokumentuotus dydžius, kainuojami kiekvienu atveju atskirai; perdirbimas į individualų dydį įtakoja terminą ir minimalų užsakymo kiekį."
+      },
+      {
+        "q": "Kokia siūlės ir briaunos konstrukcija?",
+        "a": "Siūlės tipas ir briaunų apdaila nustatomi pagal kiekvieną poziciją. Nurodykite mašiną, apkrovą ir greitį, kad tinkama konstrukcija būtų patvirtinta."
+      }
+    ],
+    "discs": [
+      {
+        "q": "Kokią tvirtinimo sistemą rinktis: „Hook & loop“, PSA ar tinklelį?",
+        "a": "„Hook & loop“ tinka, kai grūdėtumą tenka keisti dažnai — ekscentriniame šlifuoklyje; PSA tinka plokštiems padams ir ilgesniam darbui be pertraukų; tinkliniai diskai — dulkių ištraukimui."
+      },
+      {
+        "q": "Kokie dydžiai ir angų išdėstymai dokumentuoti?",
+        "a": "3, 4, 5 ir 6 colių diskai su kiekvienos pozicijos angų išdėstymu; centrinė (įvažiuojanti) anga turi atitikti jūsų įrankį."
+      },
+      {
+        "q": "Koks grūdėtumas tinka darbui?",
+        "a": "Šiurkštus grūdėtumas greitai pašalina rūdį ir dažus; smulkus lygina ir paruošia paviršių baigiamajam apdailos darbui. Nurodykite medžiagą ir pageidaujamą apdailą."
+      },
+      {
+        "q": "Ar galimas dulkių ištraukimas?",
+        "a": "Šioje linijoje dokumentuoti tinkliniai ir perforuoti „be dulkių“ formatai; perforacijos išdėstymas leidžia matyti paviršių šlifavimo metu."
+      }
+    ],
+    "flap": [
+      {
+        "q": "Koks pamušalas tinka mano užduočiai?",
+        "a": "Plastikas tinka bendram metalo šlifavimui, plienas — didelei briaunų glodinimo apkrovai, o stiklo pluoštas — didelio greičio darbui; centrinė anga turi atitikti įrankį."
+      },
+      {
+        "q": "Kam naudojami flap diskai?",
+        "a": "Suvaryti siūles, pašalinti rūdį, lyginti paviršius ir apdailiauti metalo detales — naudojamus tik leistinu sūkių skaičiumi ir su uždėtu apsaugos gaubtu."
+      },
+      {
+        "q": "Ar tiekinate dideliais kiekiais?",
+        "a": "Taip. Flap diskai tiekiami dideliais kiekiais platintojams ir dirbtuvėms; grūdėtumas, pamušalas, skersmuo ir kiekis nustatomi kartu pasiūlyme."
+      },
+      {
+        "q": "Kodėl mano diskas blizgina valkato paviršiuje?",
+        "a": "Valkatas greitai užkemša abrazyvą. Rinkitės šiurkštesnį grūdėtumą, diską laikykite lygiai prieš ruošinį ir prireikus atnaujinkite abrazyvo paviršių."
+      }
+    ],
+    "all": [
+      {
+        "q": "Nuo ko pradėti, jei mano naudojimo atvejo sąrašo nėra?",
+        "a": "Nurodykite medžiagą, mašiną, pageidaujamą apdailą ir kiekį — atsakysime tinkančia produktų šeima, specifikacija ir terminu."
+      },
+      {
+        "q": "Ar pirmiau galiu užsakyti po vieną kiekvienos pozicijos pavyzdį?",
+        "a": "Standartinių modelių pavyzdžiai pateikiami pageidavimu; pavyzdžių prieinamumas ir gabenimo sąlygos patvirtinamos kartu su atsakymu."
+      },
+      {
+        "q": "Ar OEM pasiūlymus teikiate visose linijose?",
+        "a": "Taip. Logotipas, etiketės, dydžiai ir pakavimas kainuojami įvertinus galimybes — diržams, diskams ir flap diskams."
+      },
+      {
+        "q": "Kur šlifavimo kempinės patenka į asortimentą?",
+        "a": "Šlifavimas rankomis: lanksčios pagalvėlės kreivėms ir profiliams, putų blokai plokštiems paviršiams ir restauruotoms sienoms. Abu variantai kainuojami su matmenimis, grūdėtumu, porolono tankiu ir kiekiu."
+      }
+    ],
+    "sponge": [
+      {
+        "q": "Lanksčios pagalvėlės ar putų blokai — kurie tinka mano darbui?",
+        "a": "Lanksčios pagalvėlės tinka kreivėms, briaunoms ir profiliams; putų blokai — plokštiems paviršiams, briaunoms ir restauruotoms sienoms. Po išplovimo abu vėl naudojami."
+      },
+      {
+        "q": "Ar porolono spalva rodo grūdėtumą?",
+        "a": "Ne. Porolono spalva nėra grūdėtumo ar kietumo įvertis. Nurodykite grūdėtumą, abrazyvo medžiagą ir porolono tankį — juos suderinsime pasiūlyme."
+      },
+      {
+        "q": "Ar galite išpjauti individualias formas ir pakuoti su mano prekės ženklu?",
+        "a": "Taip. Atsiųskite profilį, storį, grūdėtumą, pakavimo formatą ir planuojamus kiekius; pjovimo štampų ir maketo reikalavimus patvirtinsime vertinimo metu."
+      },
+      {
+        "q": "Ar jas galima plauti ir naudoti pakartotinai?",
+        "a": "Jas galima skalauti ir naudoti pakartotinai, kol neišseikėjo abrazyvo sluoksnis; naudojimo laikas priklauso nuo grūdėtumo, spaudimo ir apdirbamo paviršiaus."
+      }
+    ]
+  },
+  "spongePage": {
+    "eyebrow": "Šlifavimo kempinės · šlifavimo rankomis linija",
+    "thickness": "Konstrukcija",
+    "gritNote": "Porolono spalvos nenurodo grūdėtumo ar kietumo. Nurodykite matmenis, grūdėtumą, abrazyvo medžiagą, porolono tankį, pakavimą ir kiekį užklausoje.",
+    "overviewTitle": "Produkto apžvalga",
+    "overviewBody": "Lanksčios, pakartotinai naudojamos abrazyvinės kempinės drėgnam ar sausam šlifavimui. Porolonas priglunda prie kreivių, briaunų ir profilių, todėl šlifavimas rankomis išlieka kontroliuojamas.",
+    "checklistTitle": "Patvirtinkite tinkamą specifikaciją",
+    "checklistSub": "Šios detalės padeda peržiūrėti jūsų užklausą. Tai reikalavimai, kuriuos reikia patvirtinti, o ne viešai paskelbti produkto rodikliai.",
+    "c1": "Matmenys — nurodykite plotį × ilgį milimetrais",
+    "c2": "Reikiamas grūdėtumas — nurodykite laipsnį ar pageidaujamą apdailą",
+    "c3": "Ruošinys ir mašina — nurodykite medžiagą, mašiną ir planuojamą apdailą",
+    "c4": "Kiekis ir pakavimas — nurodykite kiekį, pakavimo poreikius ir pristatymo paskirtį",
+    "enquiryTitle": "Kaip pateikti užklausą",
+    "enquirySub": "Nuo produkto pasirinkimo iki pasiūlymo.",
+    "e1t": "Pasirinkite produktą",
+    "e1b": "Peržiūrėkite šlifavimo kempinių asortimentą ir pasirinkite konstrukciją, reikalingą jūsų užduočiai.",
+    "e2t": "Nurodykite savo reikalavimus",
+    "e2b": "Pridėkite kiekį, matmenis, grūdėtumą ir pakavimo reikalavimus.",
+    "e3t": "Peržiūrėkite pasiūlymą",
+    "e3b": "Patvirtinkite galutinę specifikaciją ir komercines sąlygas su mūsų komanda.",
+    "appsTitle": "Šlifavimo kempinių naudojimo sritys",
+    "appsSub": "Medžiui, metalui, automobilių apdailos atnaujinimui ir tinkamiems sienų bei siūlių paviršiams. Grūdėtumą priderinkite prie medžiagos ir išbandykite nepastebimoje vietoje.",
+    "a1t": "Medžio šlifavimas",
+    "a1b": "Šlifavimo blokai medžio apdirbimui: paviršiaus paruošimas ir briaunų šlifavimas baldams, spintoms ir kitiems medžio komponentams.",
+    "a2t": "Gipskartono šlifavimo kempinės",
+    "a2b": "Šlifavimo blokai gipskartono siūlių lyginimui, siūlių glaišto išlyginimui ir sienų paruošimui gruntui bei dažams.",
+    "a3t": "Rūdžių šalinimas",
+    "a3b": "Lanksčios, pakartotinai naudojamos abrazyvinės kempinės drėgnam ar sausam šlifavimui. Porolonas priglunda prie kreivių, briaunų ir profilių, todėl šlifavimas rankomis išlieka kontroliuojamas.",
+    "faqTitle": "Perkantieji klausia",
+    "q1": "Ar spalva nurodo abrazyvo tipą?",
+    "a1": "Ne. Porolono spalva nėra grūdėtumo ar kietumo įvertis. Nurodykite grūdėtumą, abrazyvo medžiagą ir porolono tankį užklausoje.",
+    "q2": "Kaip paprašyti OEM pakavimo?",
+    "a2": "Pridėkite etikečių maketą, pakavimo formatą, planuojamus kiekius ir paskirties šalį; OEM galimybės ir maketo reikalavimai patvirtinami vertinimo metu.",
+    "q3": "Ar užklausos pateikimas automatiškai tampa užsakymu?",
+    "a3": "Ne. Tai didmeninė užklausa. Specifikacija ir komercinės sąlygos patvirtinamos pasiūlyme prieš pradedant gamybą.",
+    "ctaTitle": "Reikia šlifavimo kempinių dideliais kiekiais?",
+    "ctaSub": "Nurodykite matmenis, grūdėtumą, kiekį ir paskirties šalį — patvirtinsime specifikaciją ir terminą."
   }
 }
