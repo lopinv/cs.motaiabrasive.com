@@ -25,7 +25,7 @@ const discProducts = products.filter((p) => p.category === 'Sanding Discs')
 const items = []
 if (key === 'abrasive-belts' || isAll) {
   items.push(...beltProducts.map((p) => ({ name: p.name, image: p.image, path: `/products/${p.handle}`, sku: p.handle, category: p.category })))
-  if (key === 'abrasive-belts') items.push(...models.map((m) => ({ name: `Abrasive belt model ${m.model}`, image: 'belt-533-75', path: `/model/${m.slug}`, sku: m.model, category: 'Abrasive Belts' })))
+  if (key === 'abrasive-belts') items.push(...models.map((m) => ({ name: `Abrasive belt model ${m.model}`, image: m.image, path: `/model/${m.slug}`, sku: m.model, category: 'Abrasive Belts' })))
 }
 if (key === 'sanding-discs' || isAll) {
   items.push(...discProducts.map((p) => ({ name: p.name, image: p.image, path: `/products/${p.handle}`, sku: p.handle, category: p.category })))
@@ -84,6 +84,11 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
                   <span class="mno">{m.model}</span>
                   <h3>{m.model}</h3>
                   <p>{m.family}</p>
+                  {m.image && (
+                    <div class="model-card-media">
+                      <img src={media(m.image)} alt={m.model} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+                    </div>
+                  )}
                 </a>
               ))}
             </div>
@@ -109,6 +114,11 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
                   <span class="mno">{d.key.toUpperCase()}</span>
                   <h3>{d.title}</h3>
                   <p>{(d.grits ?? []).join(' · ') || pick('meta.diameter')}</p>
+                  {d.image && (
+                    <div class="model-card-media">
+                      <img src={media(d.image)} alt={d.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+                    </div>
+                  )}
                 </a>
               ))}
             </div>

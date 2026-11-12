@@ -1,54 +1,95 @@
 [
-  {
-    "key": "gold8",
-    "title": "5-inch 8-hole Hook & Loop Sanding Discs — Gold",
-    "holes": "8",
-    "diameter": "125 mm / 5 inch",
-    "abrasive": "Aluminium oxide",
-    "attachment": "Hook & loop",
-    "grits": ["P60", "P80", "P100", "P120", "P150", "P180", "P220", "P240", "P320", "P400", "P600", "P800"],
-    "image": "discs"
-  },
-  {
-    "key": "gold17",
-    "title": "6-inch 17-hole Hook & Loop Sanding Discs — Gold",
-    "holes": "17",
-    "diameter": "6 inch — exact diameter settled with the offer",
-    "abrasive": "Aluminium oxide",
-    "attachment": "Hook & loop",
-    "grits": ["P40", "P60", "P80", "P100", "P120", "P150", "P180", "P240", "P320", "P400", "P600", "P800"],
-    "image": "discs"
-  },
-  {
-    "key": "ceramic15",
-    "title": "150 mm 15-hole Ceramic Hook & Loop Sanding Discs",
-    "holes": "15",
-    "diameter": "150 mm",
-    "abrasive": "Ceramic abrasive",
-    "attachment": "Hook & loop",
-    "grits": ["P60", "P80", "P100", "P120", "P150", "P180", "P240", "P320", "P400", "P500", "P600", "P800"],
-    "image": "discs"
-  },
-  {
-    "key": "red8",
-    "title": "8-hole Sanding Discs — Red",
-    "holes": "8",
-    "diameter": "Await confirmation",
-    "abrasive": "Await confirmation",
-    "attachment": "Await confirmation",
-    "grits": [],
-    "pendingNote": "Diameter, abrasive material, attachment and complete grit range await confirmation.",
-    "image": "discs"
-  },
-  {
-    "key": "gray8",
-    "title": "8-hole Fine Sanding Discs — Gray P3000",
-    "holes": "8",
-    "diameter": "Await confirmation",
-    "abrasive": "Await confirmation",
-    "attachment": "Await confirmation",
-    "grits": ["P3000"],
-    "pendingNote": "Diameter, abrasive material and attachment await confirmation.",
-    "image": "discs"
-  }
+ {
+  "key": "gold8",
+  "title": "5-inch 8-hole Hook & Loop Sanding Discs — Gold",
+  "holes": "8",
+  "diameter": "125 mm / 5 inch",
+  "abrasive": "Aluminium oxide",
+  "attachment": "Hook & loop",
+  "grits": [
+   "P60",
+   "P80",
+   "P100",
+   "P120",
+   "P150",
+   "P180",
+   "P220",
+   "P240",
+   "P320",
+   "P400",
+   "P600",
+   "P800"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-gold-8-20261029.jpg"
+ },
+ {
+  "key": "gold17",
+  "title": "6-inch 17-hole Hook & Loop Sanding Discs — Gold",
+  "holes": "17",
+  "diameter": "6 inch — exact diameter settled with the offer",
+  "abrasive": "Aluminium oxide",
+  "attachment": "Hook & loop",
+  "grits": [
+   "P40",
+   "P60",
+   "P80",
+   "P100",
+   "P120",
+   "P150",
+   "P180",
+   "P240",
+   "P320",
+   "P400",
+   "P600",
+   "P800"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-gold-17-hole-white-background-20261029.png"
+ },
+ {
+  "key": "ceramic15",
+  "title": "150 mm 15-hole Ceramic Hook & Loop Sanding Discs",
+  "holes": "15",
+  "diameter": "150 mm",
+  "abrasive": "Ceramic abrasive",
+  "attachment": "Hook & loop",
+  "grits": [
+   "P60",
+   "P80",
+   "P100",
+   "P120",
+   "P150",
+   "P180",
+   "P240",
+   "P320",
+   "P400",
+   "P500",
+   "P600",
+   "P800"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-ceramic-15-20261029.jpg"
+ },
+ {
+  "key": "red8",
+  "title": "8-hole Sanding Discs — Red",
+  "holes": "8",
+  "diameter": "Await confirmation",
+  "abrasive": "Await confirmation",
+  "attachment": "Await confirmation",
+  "grits": [],
+  "pendingNote": "Diameter, abrasive material, attachment and complete grit range await confirmation.",
+  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-red-8-20261029.jpg"
+ },
+ {
+  "key": "gray8",
+  "title": "8-hole Fine Sanding Discs — Gray P3000",
+  "holes": "8",
+  "diameter": "Await confirmation",
+  "abrasive": "Await confirmation",
+  "attachment": "Await confirmation",
+  "grits": [
+   "P3000"
+  ],
+  "pendingNote": "Diameter, abrasive material and attachment await confirmation.",
+  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-gray-8-20261029.jpg"
+ }
 ]

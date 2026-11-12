@@ -713,6 +713,9 @@ body { padding-bottom: var(--quickbar-h); }
 .model-card h3 { margin: 6px 0 4px; }
 .model-card p { font-size: 13px; color: var(--muted); margin: 0; }
 .model-card .mno { font-weight: 800; color: var(--accent); font-size: 15px; }
+/* Thumbnail slot on model/disc cards (model & disc reference cards). */
+.model-card-media { margin: 12px 0 4px; border-radius: 4px; overflow: hidden; background: var(--bg-soft); }
+.model-card-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
 
 /* ============ Responsive — 900px and below ============ */
 @media (width <= 900px) {

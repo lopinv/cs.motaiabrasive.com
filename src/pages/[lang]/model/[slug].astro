@@ -33,7 +33,7 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
     <div>
       <div class="gallery">
         <div class="gallery-main">
-          <img src={media('belt-533-75')} alt={`${m.model} ${pick('modelPage.eyebrow')}`} loading="eager" fetchpriority="high" />
+          <img src={media(m.image ?? 'belt-533-75')} alt={`${m.model} ${pick('modelPage.eyebrow')}`} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
         </div>
       </div>
     </div>
@@ -86,6 +86,11 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
           <span class="mno">{x.model}</span>
           <h3>{x.model}</h3>
           <p>{x.family}</p>
+          {x.image && (
+            <div class="model-card-media">
+              <img src={media(x.image)} alt={x.model} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            </div>
+          )}
         </a>
       ))}
     </div>
