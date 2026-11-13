@@ -264,18 +264,18 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 /* ============ Hero（工厂实拍全屏轮播） ============ */
 /* 结构对齐原站首页 motai-factory-carousel：图片铺满 → 遮罩 → 左侧文案 →
    底部信任点 + 标签带 + 轮播控制。无 JS 时只显示第一张。 */
-.hero--carousel {
+/* 元素同时带 .hero 与 .hero--carousel；下方 section.hero--carousel 提高特异性，
+   确保 padding/min-height 覆盖后面的 .hero 基础规则。 */
+section.hero--carousel {
   position: relative;
   isolation: isolate;
   padding: 0;
   background: var(--ink-900);
   border-bottom: none;
-  /* 高度由内容驱动：顶部留出导航空间，底部留出控制条空间，
-     保证 CTA 与控制条同处首屏。 */
   min-height: min(calc(100vh - 132px), 700px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   overflow: hidden;
 }
 .hero-slides { position: absolute; inset: 0; z-index: 0; }
@@ -295,7 +295,7 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 }
 .hero-body {
   position: relative; z-index: 1;
-  padding-top: clamp(88px, 12vh, 132px);
+  padding-top: 40px;
   padding-bottom: 104px;
 }
 .hero-copy { max-width: 720px; }
@@ -1097,7 +1097,7 @@ body { padding-bottom: var(--quickbar-h); }
 
   /* Hero 轮播：手机端缩短高度，控制条只留必要控件 */
   .hero--carousel { min-height: 70vh; }
-  .hero-body { padding-top: 72px; padding-bottom: 112px; }
+  .hero-body { padding-top: 28px; padding-bottom: 112px; }
   .hero-controls-inner { min-height: 62px; gap: 12px; }
   .hero-tags { display: none; }
   .hero-counter { display: none; }
