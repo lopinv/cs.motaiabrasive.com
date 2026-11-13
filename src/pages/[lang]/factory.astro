@@ -2,11 +2,11 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
-import { breadcrumbJsonLd } from '../../lib/tdk.js'
+import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro'
-import { videosData } from '../../lib/utils.js'
+import { visibleVideos, faq as faqData } from '../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths()
@@ -16,10 +16,16 @@ const { lang } = Astro.params
 const ctx = Astro.params
 const { pick, lu, media, quoteUrl } = usePage(lang)
 const f = pick('factory')
+// 制造页的买家疑问与工厂能力直接相关（MOQ / OEM / 交期 / 包装），复用首页
+// 同一份 faq.json 语料，可见块与 FAQPage schema 同源。
+const q = faqData.faq
+// Freshness 信号，与博客/产品页同一 E-E-A-T 口径。
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date('2026-11-12'))
 const seo = buildSeo(lang, 'factory', {}, [
-  breadcrumbJsonLd(lang, [{ name: pick('nav.manufacturing'), path: `/${lang}/factory` }])
+  breadcrumbJsonLd(lang, [{ name: pick('nav.manufacturing'), path: `/${lang}/factory` }]),
+  faqJsonLd(lang, q)
 ])
-const processVideos = videosData.filter((v) => v.line === 'belts' && v.kind === 'video')
+const processVideos = visibleVideos.filter((v) => v.line === 'belts' && v.kind === 'video')
 const video = processVideos[0]
 const vTitle = video?.youtubeId ? pick(video.titleKey) : ''
 const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
@@ -32,7 +38,9 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
     <h1>{f.h1}</h1>
     <p class="lead">{f.sub}</p>
     <p class="body-narrow mt-12">{f.intro}</p>
-    <a class="button outline dark-outline mt-18" href={quoteUrl()} target="_blank" rel="noopener nofollow">{f.videoLabel} <span aria-hidden="true">↗</span></a>
+    {video?.youtubeId && (
+      <a class="button outline dark-outline mt-18" href={quoteUrl()} target="_blank" rel="noopener nofollow">{f.videoLabel} <span aria-hidden="true">↗</span></a>
+    )}
   </section>
 
   {video?.youtubeId && (
@@ -74,9 +82,29 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
       <div class="step"><b>04</b><div><h3>{f.st4t}</h3><p>{f.st4b}</p></div></div>
     </div>
     <p class="small-note">{f.imgNote}</p>
+    <p class="byline">
+      <span>{pick('article.reviewedBy')}</span>
+      <span aria-hidden="true">·</span>
+      <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+    </p>
   </section>
 
   <section class="section wrap section--soft">
+    <span class="eyebrow">FAQ</span>
+    <h2>{pick('relArticles.faqTitle')}</h2>
+    <p class="text-soft">{pick('relArticles.faqSub')}</p>
+    <div class="faq-list faq-list--2col mt-24">
+      {q.map((item) => (
+        <div class="faq-item">
+          <h3 class="faq-q">{pick(item.qKey)}</h3>
+          <p class="faq-a">{pick(item.aKey)}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <span class="eyebrow">QC</span>
     <SectionHeading title={f.qcTitle} sub={f.qcIntro} />
     <div class="grid grid-3">
       <div class="value-card"><span class="vno">QC-1</span><h3>{f.qc1t}</h3><p>{f.qc1b}</p></div>

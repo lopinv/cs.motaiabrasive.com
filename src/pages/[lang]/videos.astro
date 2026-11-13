@@ -12,11 +12,11 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params
-const { pick, lu, videosData, quoteUrlRaw } = usePage(lang)
+const { pick, lu, visibleVideos, quoteUrlRaw } = usePage(lang)
 const v = pick('videos')
 const seo = buildSeo(lang, 'videos', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.videos'), path: `/${lang}/videos` }]),
-  videoListJsonLd(lang, videosData.map((x) => ({
+  videoListJsonLd(lang, visibleVideos.map((x) => ({
     name: pick(`videos.clip.${x.id}.title`),
     url: `/${lang}/videos/${x.id}`,
     thumbnailUrl: x.thumb,
@@ -31,11 +31,11 @@ const groups = [
   { key: 'sponge', labelKey: 'videos.lineSponge' },
   { key: 'oem', labelKey: 'videos.lineOem' }
 ]
-  .map((l) => ({ ...l, items: videosData.filter((x) => x.line === l.key) }))
+  .map((l) => ({ ...l, items: visibleVideos.filter((x) => x.line === l.key) }))
   .filter((g) => g.items.length)
 const stats = trust.stats.filter((s) => s.status === 'published')
-const longCount = videosData.filter((x) => x.kind === 'video').length
-const shortCount = videosData.filter((x) => x.kind === 'short').length
+const longCount = visibleVideos.filter((x) => x.kind === 'video').length
+const shortCount = visibleVideos.filter((x) => x.kind === 'short').length
 const goQuote = quoteUrlRaw()
 ---
 
@@ -54,15 +54,17 @@ const goQuote = quoteUrlRaw()
   </section>
 
   <section class="section wrap section--soft-tight">
-    <div class="stats-grid">
+    <div class={longCount ? 'stats-grid' : 'stats-grid stats-grid--2'}>
       <div class="value-card value-card--center">
-        <div class="stat-value">{videosData.length}</div>
+        <div class="stat-value">{visibleVideos.length}</div>
         <div class="stat-label">{v.totalLabel}</div>
       </div>
-      <div class="value-card value-card--center">
-        <div class="stat-value">{longCount}</div>
-        <div class="stat-label">{v.longLabel}</div>
-      </div>
+      {longCount > 0 && (
+        <div class="value-card value-card--center">
+          <div class="stat-value">{longCount}</div>
+          <div class="stat-label">{v.longLabel}</div>
+        </div>
+      )}
       <div class="value-card value-card--center">
         <div class="stat-value">{shortCount}</div>
         <div class="stat-label">{v.shortLabel}</div>

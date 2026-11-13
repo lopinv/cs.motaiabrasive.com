@@ -33,6 +33,9 @@ const relatedSlugs = relatedMap.byHandle[p.handle] ?? relatedMap.byCategory[(p.c
 const related = relatedSlugs.map((s) => blogData.find((b) => b.slug === s)).filter(Boolean)
 const alsoLike = products.filter((x) => x.handle !== p.handle && x.category === p.category).slice(0, 3)
 
+// Freshness byline：与博客文章页、model/disc/flap 页同一 E-E-A-T 口径。
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date('2026-11-12'))
+
 const seo = buildSeo(lang, 'product', { handle: p.handle }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.products'), path: `/${lang}/collections/all` },
@@ -97,6 +100,11 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
         <a class="button outline dark-outline wide" href={wa('sample', { name: p.name, grits: (p.grits ?? []).join('–') })} target="_blank" rel="noopener nofollow">{pick('cta.whatsapp')}</a>
         <p class="small-note">{t.sampleNote}</p>
       </div>
+      <p class="byline">
+        <span>{pick('article.reviewedBy')}</span>
+        <span aria-hidden="true">·</span>
+        <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+      </p>
     </div>
   </section>
 

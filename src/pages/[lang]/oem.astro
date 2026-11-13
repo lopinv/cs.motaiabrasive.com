@@ -6,7 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro'
-import { videosData } from '../../lib/utils.js'
+import { visibleVideos } from '../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths()
@@ -28,7 +28,7 @@ const seo = buildSeo(lang, 'oem', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.oem'), path: `/${lang}/oem` }]),
   faqItems.length ? faqJsonLd(lang, faqItems) : null
 ])
-const oemVideo = videosData.find((v) => v.line === 'oem')
+const oemVideo = visibleVideos.find((v) => v.line === 'oem')
 ---
 
 <Shell lang={lang} seo={seo}>

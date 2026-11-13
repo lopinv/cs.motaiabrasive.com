@@ -6,6 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import applicationsData from '../../../data/applications.json'
+import { TRANSLATIONS } from '../../../lib/i18n.js'
 
 export function getStaticPaths() {
   return langPaths(applicationsData.map((a) => ({ slug: a.slug })))
@@ -17,30 +18,43 @@ const { pick, lu, media, applications: appData, faq: faqData, applicationBySlug,
 const a = applicationBySlug(ctx.slug)
 const t = pick('applications')
 const app = appData.find((x) => x.slug === ctx.slug)
-const seo = buildSeo(lang, 'application', { slug: app.slug }, [
-  breadcrumbJsonLd(lang, [
-    { name: pick('nav.knowledge'), path: `/${lang}/applications` },
-    { name: pick(app.titleKey), path: `/${lang}/applications/${app.slug}` }
-  ])
-])
-const rec = pick(app.productsKey)
+// apps.<x>.products 这类键只有部分语种翻译过；缺失时回退 en，否则该页在
+// 那些语种上会因 undefined 直接渲染失败。
+const pickEn = (path) => pick(path) ?? pick(path, TRANSLATIONS.en)
+// Freshness 信号，与博客文章页、产品页同一 E-E-A-T 口径。
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date('2026-11-12'))
+// FAQ 对在 seo 之前解析（同一列表驱动可见块与 FAQPage schema）。
+// faqJsonLd 对 qKey 为空的条目回落到 q/a 字段，所以这里直接带 q/a。
+const faqItems = t.faqs.map((q) => ({ q: q.q, a: q.a }))
+const rec = pickEn(app.productsKey)
 const recProducts = rec.split('·').map((s) => s.trim())
 const matched = recProducts.flatMap((label) => {
   if (/belt/i.test(label)) return products.filter((p) => p.category === 'Abrasive Belts')
   if (/disc/i.test(label)) return products.filter((p) => p.category === 'Sanding Discs')
   return []
 }).slice(0, 4)
-const faqItems = t.faqs.map((q) => ({ q: q.q, a: q.a }))
+const seo = buildSeo(lang, 'application', { slug: app.slug }, [
+  breadcrumbJsonLd(lang, [
+    { name: pick('nav.knowledge'), path: `/${lang}/applications` },
+    { name: pickEn(app.titleKey), path: `/${lang}/applications/${app.slug}` }
+  ]),
+  faqJsonLd(lang, faqItems)
+])
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/applications')}>{pick('nav.knowledge')}</a><span>/</span><span>{pick(app.titleKey)}</span></div>
+  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/applications')}>{pick('nav.knowledge')}</a><span>/</span><span>{pickEn(app.titleKey)}</span></div>
 
   <section class="section wrap">
     <span class="eyebrow">{app.no}</span>
-    <h1>{pick(app.titleKey)}</h1>
-    <p class="lead">{pick(app.introKey)}</p>
-    <p class="uses-line">{pick(app.usesKey)}</p>
+    <h1>{pickEn(app.titleKey)}</h1>
+    <p class="lead">{pickEn(app.introKey)}</p>
+    <p class="uses-line">{pickEn(app.usesKey)}</p>
+    <p class="byline">
+      <span>{pick('article.reviewedBy')}</span>
+      <span aria-hidden="true">·</span>
+      <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+    </p>
   </section>
 
   <section class="section wrap section--soft">
@@ -59,7 +73,7 @@ const faqItems = t.faqs.map((q) => ({ q: q.q, a: q.a }))
 
   <section class="section wrap">
     <SectionHeading title={t.specTitle} />
-    <p class="body-narrow">{pick(app.introKey)} — {pick('home.prepSub')}</p>
+    <p class="body-narrow">{pickEn(app.introKey)} — {pick('home.prepSub')}</p>
     <div class="grid grid-3 mt-20">
       <div class="value-card"><h3>{pick('home.prepDim')}</h3><p>{pick('home.prepDimText')}</p></div>
       <div class="value-card"><h3>{pick('home.prepGrit')}</h3><p>{pick('home.prepGritText')}</p></div>

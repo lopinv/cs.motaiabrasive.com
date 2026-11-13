@@ -5,8 +5,10 @@ import Shell from '../../../components/Shell.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
+import BlogSidebar from '../../../components/BlogSidebar.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
-import { videosData, productByHandle, flapByKey } from '../../../lib/utils.js'
+import { videosData, visibleVideos, productByHandle, flapByKey } from '../../../lib/utils.js'
+import { videoSidebarProducts, defaultProducts } from '../../../lib/blog-products.js'
 
 export function getStaticPaths() {
   return langPaths(videosData.map((v) => ({ id: v.id })))
@@ -18,15 +20,20 @@ const { pick, lu, quoteUrlRaw } = usePage(lang)
 const v = pick('videos')
 const video = videosData.find((x) => x.id === ctx.id)
 const c = pick(`videos.clip.${ctx.id}`)
+// 侧栏商品：先看视频自带的相关产品，再退到中性默认（与文章页同款三级
+// 排序，见 blog-products.js），保证这一块永不空。
+const sideProducts = videoSidebarProducts(video, c)
+const sideList = sideProducts.length ? sideProducts : defaultProducts()
 const specItems = video.specKeys.map((k) => pick(k)).filter(Boolean)
 const faqItems = video.faqKeys.map((f) => ({ qKey: f.q, aKey: f.a, q: pick(f.q), a: pick(f.a) })).filter((f) => f.q && f.a)
 // Related products: "flap.steel" → /flap/steel, otherwise /products/{handle}.
 const related = video.related.map((r) => r.startsWith('flap.')
   ? { href: `/flap/${r.slice(5)}`, label: flapByKey(r.slice(5))?.name ?? r }
   : { href: `/products/${r}`, label: productByHandle(r)?.name ?? r })
-// Other clips from the same product line, excluding this one.
-const moreFromLine = videosData.filter((x) => x.line === video.line && x.id !== video.id).slice(0, 3)
-const moreFromAny = videosData.filter((x) => x.id !== video.id).slice(0, 3)
+// Other clips from the same product line, excluding this one. Hidden clips
+// are never recommended — filter to the visible set.
+const moreFromLine = visibleVideos.filter((x) => x.line === video.line && x.id !== video.id).slice(0, 3)
+const moreFromAny = visibleVideos.filter((x) => x.id !== video.id).slice(0, 3)
 const more = (moreFromLine.length ? moreFromLine : moreFromAny).map((x) => ({
   id: x.id, href: `/videos/${x.id}`, title: pick(`videos.clip.${x.id}.title`), thumb: x.thumb, len: x.durationLabel
 }))
@@ -50,6 +57,9 @@ const videoJsonLd = {
   publisher: { '@id': 'https://cs.motaiabrasive.com/#organization' }
 }
 
+// Hidden clips keep a working URL (direct visits still render, normally
+// indexable) but are excluded from every internal link / list / schema
+// surface, so they drop out of the on-site video graph without a 404.
 const seo = buildSeo(lang, 'video', { id: ctx.id }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.videos'), path: `/${lang}/videos` },
@@ -76,96 +86,102 @@ const seo = buildSeo(lang, 'video', { id: ctx.id }, [
     </div>
   </section>
 
-  <section class="section wrap section--flush-top">
-    <div class="narrow">
-      <YouTubeEmbed video={video} title={c.title} description={c.body} jsonld={false} />
-    </div>
-  </section>
-
-  <section class="section wrap">
-    <SectionHeading title={v.details} />
-    <div class="prose">
-      <p>{c.body}</p>
-      {bullets.length > 1 && (
-        <ul class="value-lines">
-          {bullets.map((text) => <li>{text}</li>)}
-        </ul>
-      )}
-    </div>
-    <div class="video-meta">
-      <span>{v.metaPublished}: <time datetime={isoDate}>{video.publishDate}</time></span>
-      <span>{v.metaLine}: {lineLabel}</span>
-    </div>
-  </section>
-
-  <section class="section wrap section--soft">
-    <SectionHeading eyebrow="SPECIFICATION" title={v.specTitle} sub={v.specIntro} />
-    <div class="grid grid-2">
-      {specItems.map((text) => (
-        <div class="value-card">
-          <p>{text}</p>
+  <div class="section wrap blog-layout">
+    <div class="blog-main">
+      <section class="section--flush-top">
+        <div class="narrow">
+          <YouTubeEmbed video={video} title={c.title} description={c.body} jsonld={false} />
         </div>
-      ))}
-    </div>
-  </section>
+      </section>
 
-  <section class="section wrap">
-    <SectionHeading eyebrow="WHY MOTAI" title={v.whyTitle} />
-    <div class="grid grid-3">
-      <div class="value-card"><span class="vno">01</span><h3>{v.why1t}</h3><p>{v.why1b}</p></div>
-      <div class="value-card"><span class="vno">02</span><h3>{v.why2t}</h3><p>{v.why2b}</p></div>
-      <div class="value-card"><span class="vno">03</span><h3>{v.why3t}</h3><p>{v.why3b}</p></div>
-    </div>
-  </section>
+      <section class="section">
+        <SectionHeading title={v.details} />
+        <div class="prose">
+          <p>{c.body}</p>
+          {bullets.length > 1 && (
+            <ul class="value-lines">
+              {bullets.map((text) => <li>{text}</li>)}
+            </ul>
+          )}
+        </div>
+        <div class="video-meta">
+          <span>{v.metaPublished}: <time datetime={isoDate}>{video.publishDate}</time></span>
+          <span>{v.metaLine}: {lineLabel}</span>
+        </div>
+      </section>
 
-  {faqItems.length > 0 && (
-    <section class="section wrap section--soft">
-      <SectionHeading title={v.faqTitle} sub={v.faqIntro} />
-      <div class="faq-list">
-        {faqItems.map((f) => (
-          <div class="faq-item">
-            <h3 class="faq-q">{f.q}</h3>
-            <p class="faq-a">{f.a}</p>
+      <section class="section section--soft">
+        <SectionHeading eyebrow="SPECIFICATION" title={v.specTitle} sub={v.specIntro} />
+        <div class="grid grid-2">
+          {specItems.map((text) => (
+            <div class="value-card">
+              <p>{text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section class="section">
+        <SectionHeading eyebrow="WHY MOTAI" title={v.whyTitle} />
+        <div class="grid grid-3">
+          <div class="value-card"><span class="vno">01</span><h3>{v.why1t}</h3><p>{v.why1b}</p></div>
+          <div class="value-card"><span class="vno">02</span><h3>{v.why2t}</h3><p>{v.why2b}</p></div>
+          <div class="value-card"><span class="vno">03</span><h3>{v.why3t}</h3><p>{v.why3b}</p></div>
+        </div>
+      </section>
+
+      {faqItems.length > 0 && (
+        <section class="section section--soft">
+          <SectionHeading title={v.faqTitle} sub={v.faqIntro} />
+          <div class="faq-list">
+            {faqItems.map((f) => (
+              <div class="faq-item">
+                <h3 class="faq-q">{f.q}</h3>
+                <p class="faq-a">{f.a}</p>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-    </section>
-  )}
+        </section>
+      )}
 
-  {related.length > 0 && (
-    <section class="section wrap">
-      <SectionHeading title={v.relatedTitle} sub={v.specIntro} />
-      <div class="grid grid-3">
-        {related.map((r) => (
-          <a class="model-card" href={lu(r.href)}>
-            <h3>{r.label}</h3>
-            <p>{pick('meta.availability')}</p>
-            <span class="model-card-cta">{pick('cta.quote')} <span aria-hidden="true">→</span></span>
-          </a>
-        ))}
-      </div>
-    </section>
-  )}
+      {related.length > 0 && (
+        <section class="section">
+          <SectionHeading title={v.relatedTitle} sub={v.specIntro} />
+          <div class="grid grid-3">
+            {related.map((r) => (
+              <a class="model-card" href={lu(r.href)}>
+                <h3>{r.label}</h3>
+                <p>{pick('meta.availability')}</p>
+                <span class="model-card-cta">{pick('cta.quote')} <span aria-hidden="true">→</span></span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
-  <section class="section wrap section--soft">
-    <SectionHeading title={v.moreTitle} sub={v.moreIntro} />
-    <div class="grid grid-3">
-      {more.map((m) => (
-        <a class="video-card" href={lu(m.href)}>
-          <div class="video-card-media">
-            <img src={m.thumb} alt={m.title} loading="lazy" width="480" height="270" />
-            <span class="video-len">{m.len}</span>
-          </div>
-          <div class="video-card-body">
-            <h3>{m.title}</h3>
-            <span class="video-card-cta">{v.readMore} <span aria-hidden="true">→</span></span>
-          </div>
-        </a>
-      ))}
+      <section class="section section--soft">
+        <SectionHeading title={v.moreTitle} sub={v.moreIntro} />
+        <div class="grid grid-3">
+          {more.map((m) => (
+            <a class="video-card" href={lu(m.href)}>
+              <div class="video-card-media">
+                <img src={m.thumb} alt={m.title} loading="lazy" width="480" height="270" />
+                <span class="video-len">{m.len}</span>
+              </div>
+              <div class="video-card-body">
+                <h3>{m.title}</h3>
+                <span class="video-card-cta">{v.readMore} <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <p class="small-note">{v.transcriptNote}</p>
     </div>
-  </section>
 
-  <p class="small-note wrap">{v.transcriptNote}</p>
+    <BlogSidebar lang={lang} products={sideList} moreVideos={more} />
+  </div>
 
   <CtaBand lang={lang} title={v.ctaTitle} body={v.ctaSub} waContext="factory" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
 </Shell>

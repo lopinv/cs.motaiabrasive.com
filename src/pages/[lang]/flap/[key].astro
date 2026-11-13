@@ -2,10 +2,11 @@
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
-import { breadcrumbJsonLd } from '../../../lib/tdk.js'
+import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
+import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
-import { flaps, media, videosData } from '../../../lib/utils.js'
+import { flaps, media, visibleVideos, quoteUrlRaw, faqMap } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths(flaps.map((f) => ({ key: f.key })))
@@ -13,17 +14,27 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, wa, flapByKey, quoteUrl } = usePage(lang)
+const { pick, lu, wa, flapByKey } = usePage(lang)
 const f = flapByKey(ctx.key)
 const t = pick('meta')
 const fp = pick('flapPage')
+const goQuote = quoteUrlRaw({ disc_key: f.key })
+
+// 百叶片导购 FAQ（通用 5 条 + 百叶片品类 4 条），同源驱动可见块与 schema。
+const q = [...faqMap.faq, ...(faqMap.byCategory['flap'] ?? [])]
+// 基体差异说明：三种基体同页可比，帮买家按负载选型。
+const backings = flaps.filter((x) => x.key !== f.key)
+
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date('2026-11-12'))
+
 const seo = buildSeo(lang, 'flap', { key: f.key }, [
   breadcrumbJsonLd(lang, [
     { name: pick('colt.flap.label'), path: `/${lang}/collections/flap-discs` },
     { name: f.name, path: `/${lang}/flap/${f.key}` }
-  ])
+  ]),
+  faqJsonLd(lang, q)
 ])
-const flapVideo = videosData.find((v) => v.youtubeId && v.line === 'flap')
+const flapVideo = visibleVideos.find((v) => v.youtubeId && v.line === 'flap')
 ---
 
 <Shell lang={lang} seo={seo}>
@@ -48,7 +59,9 @@ const flapVideo = videosData.find((v) => v.youtubeId && v.line === 'flap')
       </div>
       <div class="product-description">
         <p>{f.summary}</p>
-        <p class="small-note">{fp.gritNote}</p>
+        {(f.applications ?? []).length > 0 && (
+          <div class="grit-chips">{f.applications.map((a) => <span>{a}</span>)}</div>
+        )}
       </div>
 
       <details class="motai-product-specs" open>
@@ -59,17 +72,56 @@ const flapVideo = videosData.find((v) => v.youtubeId && v.line === 'flap')
             <tr><th scope="row">Color</th><td>{f.color}</td></tr>
           </tbody>
         </table>
+        {f.note && <p class="small-note">{f.note}</p>}
         <p class="small-note">{t.availability}</p>
       </details>
 
-      <a class="button wide" href={quoteUrl({ disc_key: f.key })} target="_blank" rel="noopener nofollow">
+      <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">
         {pick('cta.quote')} <span aria-hidden="true">↗</span>
       </a>
       <div class="motai-b2b-secondary-actions">
         <a class="button outline dark-outline wide" href={wa('disc', { title: f.name })} target="_blank" rel="noopener nofollow">{pick('cta.whatsapp')}</a>
       </div>
+      <p class="byline">
+        <span>{pick('article.reviewedBy')}</span>
+        <span aria-hidden="true">·</span>
+        <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+      </p>
     </div>
   </section>
+
+  {backings.length > 0 && (
+    <section class="section wrap section--soft">
+      <SectionHeading eyebrow={fp.eyebrow} title={pick('colt.flap.title')} />
+      <p class="soft-body">{pick('colt.flap.desc')}</p>
+      <div class="grid grid-3 mt-24">
+        {backings.map((x) => (
+          <a class="model-card" href={lu(`/flap/${x.key}`)}>
+            <span class="mno">{x.backing} {t.backing.toLowerCase()}</span>
+            <h3>{x.name}</h3>
+            <p>{x.summary}</p>
+            <span class="model-card-cta">{pick('cta.quote')} <span aria-hidden="true">→</span></span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {q.length > 0 && (
+    <section class="section wrap">
+      <span class="eyebrow">FAQ</span>
+      <h2>{pick('relArticles.faqTitle')}</h2>
+      <p class="text-soft">{pick('relArticles.faqSub')}</p>
+      <div class="faq-list faq-list--2col mt-24">
+        {q.map((item) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{pick(item.qKey)}</h3>
+            <p class="faq-a">{pick(item.aKey)}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 
   {flapVideo && (
     <section class="section wrap section--soft-tight">

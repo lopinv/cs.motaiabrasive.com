@@ -22,14 +22,17 @@ const t = { title: pick(`colt.${coltKey}.title`), description: pick(`colt.${colt
 const beltProducts = products.filter((p) => p.category === 'Abrasive Belts')
 const discProducts = products.filter((p) => p.category === 'Sanding Discs')
 // Products actually rendered on this collection page, as ItemList entries.
+// Order follows the visible page order: on the belts/discs collection pages
+// the reference-model / variant block comes first, so its entries are pushed
+// first and the ItemList `position` matches what the reader sees.
 const items = []
 if (key === 'abrasive-belts' || isAll) {
-  items.push(...beltProducts.map((p) => ({ name: p.name, image: p.image, path: `/products/${p.handle}`, sku: p.handle, category: p.category })))
   if (key === 'abrasive-belts') items.push(...models.map((m) => ({ name: `Abrasive belt model ${m.model}`, image: m.image, path: `/model/${m.slug}`, sku: m.model, category: 'Abrasive Belts' })))
+  items.push(...beltProducts.map((p) => ({ name: p.name, image: p.image, path: `/products/${p.handle}`, sku: p.handle, category: p.category })))
 }
 if (key === 'sanding-discs' || isAll) {
-  items.push(...discProducts.map((p) => ({ name: p.name, image: p.image, path: `/products/${p.handle}`, sku: p.handle, category: p.category })))
   if (key === 'sanding-discs') items.push(...discViews.map((d) => ({ name: d.title, image: d.image, path: `/disc/${d.key}`, sku: d.key, category: 'Sanding Discs' })))
+  items.push(...discProducts.map((p) => ({ name: p.name, image: p.image, path: `/products/${p.handle}`, sku: p.handle, category: p.category })))
 }
 if (key === 'flap-discs' || isAll) {
   items.push(...flaps.map((f) => ({ name: f.name, image: f.image, path: `/flap/${f.key}`, sku: f.key, category: 'Flap Discs' })))
@@ -69,12 +72,6 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
   <div class="section wrap section--flush-top">
     {(key === 'abrasive-belts' || isAll) && (
       <>
-        <SectionHeading title={`${pick('colt.belts.label')} — ${t.title}`} />
-        <div class="grid grid-4">
-          {beltProducts.map((p) => (
-            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} />
-          ))}
-        </div>
         {key === 'abrasive-belts' && (
           <>
             <SectionHeading title={pick('modelPage.eyebrow')} />
@@ -94,17 +91,17 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
             </div>
           </>
         )}
+        <SectionHeading title={`${pick('colt.belts.label')} — ${t.title}`} />
+        <div class="grid grid-4">
+          {beltProducts.map((p) => (
+            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} />
+          ))}
+        </div>
       </>
     )}
 
     {(key === 'sanding-discs' || isAll) && (
       <>
-        <SectionHeading title={`${pick('colt.discs.label')} — ${t.title}`} />
-        <div class="grid grid-4">
-          {discProducts.map((p) => (
-            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} />
-          ))}
-        </div>
         {key === 'sanding-discs' && (
           <>
             <SectionHeading title={pick('discPage.eyebrow')} />
@@ -124,6 +121,12 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
             </div>
           </>
         )}
+        <SectionHeading title={`${pick('colt.discs.label')} — ${t.title}`} />
+        <div class="grid grid-4">
+          {discProducts.map((p) => (
+            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} />
+          ))}
+        </div>
       </>
     )}
 

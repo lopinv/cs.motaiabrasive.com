@@ -122,3 +122,50 @@ export const defaultProducts = () => [
   byHandle('533x75-abrasive-belt'),
   byHandle('4-inch-psa-sanding-disc')
 ].filter(Boolean)
+
+/**
+ * Video → sidebar products, mirroring sidebarProducts()'s ranking so the
+ * video page and the article page present the same style of hand-off:
+ *
+ *  1. handles listed in videos.json `related` (curated, strongest);
+ *  2. handles named verbatim in the clip copy (localized title + body).
+ *
+ * `clip` is the resolved localized copy ({title, body}); the raw video record
+ * is passed alongside because it carries `related`/`line`, which live in
+ * videos.json only.
+ */
+export function videoSidebarProducts(video, clip, limit = 3) {
+  if (!video) return []
+  const ranked = []
+  const add = (handles, score) => {
+    handles.forEach((h, i) => {
+      if (ranked.some((r) => r.handle === h)) return
+      ranked.push({ handle: h, score: score - i })
+    })
+  }
+  // 1) curated `related`; "flap.steel" style entries resolve to /flap/<key>,
+  // which the sidebar does not link to, so they are dropped here.
+  add((video.related ?? []).filter((h) => handleSet.has(h)), 30)
+  // 2) handles named in the clip copy.
+  const text = [clip?.title, clip?.body].filter(Boolean).join(' ')
+  add(products.filter((p) => text.includes(p.name)).map((p) => p.handle), 12)
+
+  const chosen = ranked
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map((r) => byHandle(r.handle))
+    .filter(Boolean)
+
+  // Top up to `limit` from the first pick's family so the block never renders
+  // a lone card. Written without for-of: the callback form survives the
+  // production build unchanged, while the same for-of in this file was
+  // dropped by the bundler and silently skipped the top-up.
+  const seed = ranked.length ? byHandle(ranked[0].handle) : null
+  if (seed && chosen.length < limit) {
+    products.forEach((p) => {
+      if (chosen.length >= limit) return
+      if (p.category === seed.category && !chosen.some((c) => c.handle === p.handle)) chosen.push(p)
+    })
+  }
+  return chosen
+}

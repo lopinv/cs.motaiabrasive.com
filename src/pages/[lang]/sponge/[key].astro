@@ -6,7 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
-import { sponges, media, spongeByKey, videosData } from '../../../lib/utils.js'
+import { sponges, media, spongeByKey, visibleVideos } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths(sponges.map((s) => ({ key: s.key })))
@@ -32,7 +32,10 @@ const apps = [
   { t: sp.a2t, b: sp.a2b },
   { t: sp.a3t, b: sp.a3b }
 ].filter((a) => a.t && a.b)
-const spongeVideo = videosData.find((v) => v.youtubeId && v.line === 'sponge')
+const spongeVideo = visibleVideos.find((v) => v.youtubeId && v.line === 'sponge')
+
+// Freshness byline：与博客文章页、model/disc/flap 页同一 E-E-A-T 口径。
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date('2026-11-12'))
 
 const seo = buildSeo(lang, 'sponge', { key: s.key }, [
   breadcrumbJsonLd(lang, [
@@ -85,6 +88,11 @@ const seo = buildSeo(lang, 'sponge', { key: s.key }, [
       <div class="motai-b2b-secondary-actions">
         <a class="button outline dark-outline wide" href={wa('contact')} target="_blank" rel="noopener nofollow">{pick('cta.whatsapp')}</a>
       </div>
+      <p class="byline">
+        <span>{pick('article.reviewedBy')}</span>
+        <span aria-hidden="true">·</span>
+        <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+      </p>
     </div>
   </section>
 

@@ -10,7 +10,7 @@ import BlogSidebar from '../../../components/BlogSidebar.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
 import { findArticle, allSlugs, allArticles } from '../../../lib/articles.js'
 import { sidebarProducts, defaultProducts, registerBodies } from '../../../lib/blog-products.js'
-import { media, videosData } from '../../../lib/utils.js'
+import { media, visibleVideos } from '../../../lib/utils.js'
 
 // Route surface: the union of the md corpus and the i18n short articles,
 // resolved per locale at build time.
@@ -37,17 +37,24 @@ const isMd = a.source === 'md'
 // -Hant/-HanS suffix so Intl gets the bare "zh" (long forms throw
 // "Invalid language tag").
 const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date(a.dateModified ?? a.datePublished))
+
+// FAQ schema：仅对结构化短文（i18n 语料，faqPairs 由数据提供）产出，
+// 避免从 md 长文正文正则切分问-答对（脆弱且多语种不可控）。
+const faqPairs = (a.faqPairs ?? []).filter((x) => x?.q && x?.a)
+const faqLd = faqPairs.length ? faqJsonLd(lang, faqPairs) : null
+
 const seo = buildSeo(lang, 'article', { article: { title, intro, metaDescription: a.metaDescription, keywords: a.keywords, slug: a.slug, image: a.image, datePublished: a.datePublished, dateModified: a.dateModified } }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.news'), path: `/${lang}/blog` },
     { name: title, path: `/${lang}/blog/${a.slug}` }
-  ])
-])
+  ]),
+  faqLd
+].filter(Boolean))
 const catKey = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }
 // Article category → video product line, so each article shows a clip that
 // covers the same product family.
 const catVideoLine = { 'selection-guide': 'discs', 'buyer-resources': 'belts', 'application-notes': 'belts', 'oem-guide': 'oem' }
-const relatedVideos = videosData.filter((v) => v.line === catVideoLine[a.categoryKey]).slice(0, 1)
+const relatedVideos = visibleVideos.filter((v) => v.line === catVideoLine[a.categoryKey]).slice(0, 1)
 
 // Sidebar products: article-specific picks when the corpus links or names a
 // product, otherwise the neutral family defaults. Never empty — the module is

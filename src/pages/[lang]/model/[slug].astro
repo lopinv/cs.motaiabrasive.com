@@ -2,9 +2,10 @@
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
-import { breadcrumbJsonLd } from '../../../lib/tdk.js'
+import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
+import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
-import { models, media, quoteUrlRaw } from '../../../lib/utils.js'
+import { models, media, quoteUrlRaw, faqMap } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths(models.map((m) => ({ slug: m.slug })))
@@ -18,11 +19,20 @@ const t = pick('meta')
 const mp = pick('modelPage')
 const goQuote = quoteUrlRaw({ model: m.model })
 const goSample = quoteUrlRaw({ model: m.model, request_type: 'sample' })
+
+// Belt FAQ: 问的是砂带选型的通用疑问，问法与型号页的定位一致。可见块与
+// FAQPage JSON-LD 由同一列表产出，避免两侧不一致。
+const q = [...faqMap.faq, ...(faqMap.byCategory['abrasive belts'] ?? [])]
+
+// Freshness byline，与博客文章页同一个 E-E-A-T 信号源。
+const reviewed = new Intl.DateTimeFormat(lang.replace(/-(Hant|HanS)$/, ''), { dateStyle: 'long' }).format(new Date('2026-11-12'))
+
 const seo = buildSeo(lang, 'model', { slug: m.slug }, [
   breadcrumbJsonLd(lang, [
     { name: pick('colt.belts.label'), path: `/${lang}/collections/abrasive-belts` },
     { name: m.model, path: `/${lang}/model/${m.slug}` }
-  ])
+  ]),
+  faqJsonLd(lang, q)
 ])
 ---
 
@@ -45,13 +55,12 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
         <span>{mp.refLabel}: {m.model}</span>
         <span>{mp.familyLabel}: {m.family}</span>
       </div>
-
-      {m.source && (
-        <div class="product-description">
-          <p>{m.source}</p>
-          {m.sourceUrl && <p class="small-note"><a href={m.sourceUrl} target="_blank" rel="noopener nofollow">Source reference ↗</a></p>}
-        </div>
-      )}
+      <div class="product-description">
+        <p>{m.summary}</p>
+        {(m.applications ?? []).length > 0 && (
+          <div class="grit-chips">{m.applications.map((a) => <span>{a}</span>)}</div>
+        )}
+      </div>
 
       <details class="motai-product-specs" open>
         <summary>{pick('productPage.specTitle')}</summary>
@@ -62,7 +71,8 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
             <tr><th scope="row">{mp.grainBacking}</th><td>{pick('modelPage.disclaimer').split('.')[0]}.</td></tr>
           </tbody>
         </table>
-        <p class="small-note">{mp.disclaimer}</p>
+        {m.note && <p class="small-note">{m.note}</p>}
+        <p class="small-note">{t.availability}</p>
       </details>
 
       <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">
@@ -73,19 +83,38 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
         <a class="button outline dark-outline wide" href={goSample} target="_blank" rel="noopener nofollow">{pick('cta.sample')}</a>
         <a class="button outline dark-outline wide" href={wa('model', { model: m.model })} target="_blank" rel="noopener nofollow">{pick('cta.whatsapp')}</a>
       </div>
+      <p class="byline">
+        <span>{pick('article.reviewedBy')}</span>
+        <span aria-hidden="true">·</span>
+        <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
+      </p>
     </div>
   </section>
 
+  {q.length > 0 && (
+    <section class="section wrap section--soft">
+      <span class="eyebrow">FAQ</span>
+      <h2>{pick('relArticles.faqTitle')}</h2>
+      <p class="text-soft">{pick('relArticles.faqSub')}</p>
+      <div class="faq-list faq-list--2col mt-24">
+        {q.map((item) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{pick(item.qKey)}</h3>
+            <p class="faq-a">{pick(item.aKey)}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
   <section class="section wrap section--soft">
-    <span class="eyebrow">DISCUSS</span>
-    <h2>{pick('home.beltsShowTitle')}</h2>
+    <SectionHeading eyebrow="REFERENCE" title={pick('home.beltsShowTitle')} />
     <p class="soft-body">{mp.discussion}</p>
     <div class="grid grid-3 mt-24">
       {models.slice(0, 6).map((x) => (
         <a class="model-card" href={lu(`/model/${x.slug}`)}>
-          <span class="mno">{x.model}</span>
+          <span class="mno">{x.family}</span>
           <h3>{x.model}</h3>
-          <p>{x.family}</p>
           {x.image && (
             <div class="model-card-media">
               <img src={media(x.image)} alt={x.model} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />

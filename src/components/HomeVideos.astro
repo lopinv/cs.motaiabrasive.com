@@ -1,0 +1,56 @@
+---
+/**
+ * Home page video strip: three clips from the site's video library, linking to
+ * /videos/<id>/. Picks long-form first (they carry the process narrative), then
+ * tops up with shorts so the strip is never thin.
+ */
+import { TRANSLATIONS } from '../lib/i18n.js'
+import { visibleVideos, localizedUrl } from '../lib/utils.js'
+
+const { lang } = Astro.props
+const tr = TRANSLATIONS[lang]
+const h = tr.home
+const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+const lu = (p) => localizedUrl(lang, p)
+
+const long = visibleVideos.filter((v) => v.kind === 'video')
+const shorts = visibleVideos.filter((v) => v.kind === 'short')
+// Long-form first (they carry the process narrative); shorts top the strip up
+// to three cards. When the long set is empty (e.g. temporarily hidden) the
+// strip is filled with shorts so it never collapses to a single card.
+const picks = [...long.slice(0, 2), ...shorts].slice(0, 3).map((v) => ({
+  id: v.id,
+  href: `/videos/${v.id}`,
+  title: pick(`videos.clip.${v.id}.title`),
+  len: v.durationLabel,
+  thumb: v.thumb,
+  kind: v.kind
+}))
+const total = visibleVideos.length
+---
+
+<section class="section wrap section--soft">
+  <div class="section-head section-head--row">
+    <div>
+      {h.videosEyebrow && <span class="eyebrow">{h.videosEyebrow}</span>}
+      <h2>{h.videosTitle}</h2>
+      <p class="section-head-sub">{h.videosSub}</p>
+    </div>
+    <a class="button outline dark-outline" href={lu('/videos')}>{h.videosCta.replace('{count}', total)} <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="grid grid-3">
+    {picks.map((p) => (
+      <a class="video-card" href={lu(p.href)}>
+        <div class="video-card-media">
+          <img src={p.thumb} alt={p.title} loading="lazy" width="480" height="270" />
+          <span class="video-badge">{p.kind === 'video' ? pick('videos.videoLabel') : pick('videos.shortsLabel')}</span>
+          <span class="video-len">{p.len}</span>
+        </div>
+        <div class="video-card-body">
+          <h3>{p.title}</h3>
+          <span class="video-card-cta">{pick('videos.readMore')} <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>

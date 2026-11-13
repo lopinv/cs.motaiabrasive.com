@@ -72,7 +72,7 @@ $bad = @($rules | Where-Object { ($_ -split '\s+')[2] -eq '301' -and -not ($_ -s
 '301 targets slash-terminated: ' + ($bad.Count -eq 0)
 if ($bad.Count) { '  offending: ' + ($bad[0]) }
 
-$csvPath = Join-Path $PSScriptRoot '..\dist\products.csv'
+$csvPath = Join-Path $PSScriptRoot '..\dist\feeds\products.csv'
 $raw = [IO.File]::ReadAllText($csvPath)
 '=== FEED products.csv ==='
 'items: ' + (($raw -split [char]10 | Where-Object { $_.Trim() } | Measure-Object).Count - 1)

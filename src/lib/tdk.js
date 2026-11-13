@@ -37,7 +37,7 @@ function absUrl(lang, path) {
  * validation requires price/priceCurrency or review/aggregateRating; this
  * B2B quote-driven site intentionally publishes neither — a $0.00 or free
  * badge must never render). Google shopping coverage comes from the
- * Merchant Center feed (dist/products.csv, availability=preorder, b2b tag),
+ * Merchant Center feed (dist/feeds/products.csv, availability=preorder, b2b tag),
  * not from page markup. Collection ItemList items use @type WebPage.
  */
 /** Normalize keywords (array or comma string) to an array. */
@@ -152,7 +152,8 @@ export function tdkFor(lang, pageId, ctx = {}) {
       const tpl = tdk.model
       return {
         title: tpl.title.replace('{model}', m?.model ?? ctx.slug),
-        description: tpl.description.replace('{model}', m?.model ?? ctx.slug),
+        // metaDescription 优先（与 product 页同款通道），缺省回落模板串。
+        description: m?.metaDescription ?? tpl.description.replace('{model}', m?.model ?? ctx.slug),
         keywords: kws(tpl.keywords, { model: m?.model ?? ctx.slug }),
         canonicalPath: `/model/${ctx.slug}`,
         ogImage: media('belt-533-75')
@@ -163,7 +164,7 @@ export function tdkFor(lang, pageId, ctx = {}) {
       const tpl = tdk.disc
       return {
         title: tpl.title.replace('{title}', d?.title ?? ctx.key),
-        description: tpl.description.replace('{title}', d?.title ?? ctx.key),
+        description: d?.metaDescription ?? tpl.description.replace('{title}', d?.title ?? ctx.key),
         keywords: kws(tpl.keywords),
         canonicalPath: `/disc/${ctx.key}`,
         ogImage: media(d?.image ?? 'discs')
@@ -172,10 +173,11 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'flap': {
       const f = flaps.find((x) => x.key === ctx.key)
       const tpl = tdk.flap
+      const fName = f ? (lang === 'zh' ? f.nameZh : lang === 'zh-Hant' ? f.nameZhHant : f.name) ?? ctx.key : ctx.key
       return {
-        title: tpl.title.replace('{name}', f?.name ?? ctx.key).replace('{backing}', f?.backing ?? ''),
-        description: tpl.description
-          .replace('{name}', f?.name ?? ctx.key)
+        title: tpl.title.replace('{name}', fName).replace('{backing}', f?.backing ?? ''),
+        description: f?.metaDescription ?? tpl.description
+          .replace('{name}', fName)
           .replace('{backing}', f?.backing ?? ''),
         keywords: kws(tpl.keywords, { backing: f?.backing ?? '' }),
         canonicalPath: `/flap/${ctx.key}`,
@@ -200,10 +202,11 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'sponge': {
       const s = sponges.find((x) => x.key === ctx.key)
       const tpl = tdk.sponge
+      const sName = s ? (lang === 'zh' ? s.nameZh : lang === 'zh-Hant' ? s.nameZhHant : s.name) ?? ctx.key : ctx.key
       return {
-        title: tpl.title.replace('{name}', s?.name ?? ctx.key),
-        description: tpl.description
-          .replace('{name}', s?.name ?? ctx.key)
+        title: tpl.title.replace('{name}', sName),
+        description: s?.metaDescription ?? tpl.description
+          .replace('{name}', sName)
           .replace('{summary}', (s?.summary ?? '').replace(/\.$/, '')),
         keywords: kws(tpl.keywords),
         canonicalPath: `/sponge/${ctx.key}`,
@@ -213,14 +216,18 @@ export function tdkFor(lang, pageId, ctx = {}) {
     case 'article': {
       const a = ctx.article
       const t = a.title
+      // 博客页 TDK 品牌后缀：简/繁中统一「墨泰磨料」，与站点 titleSuffix 一致；
+      // 其余语种沿用英文品牌后缀。
+      const ART_BRAND = { zh: '墨泰磨料知识库', 'zh-Hant': '墨泰磨料知識庫' }[lang] ?? 'MoTai buyer resources'
+      const ART_KWS = { zh: ['磨料指南', '粒度选择', '墨泰磨料'], 'zh-Hant': ['磨料指南', '粒度選擇', '墨泰磨料'] }[lang] ?? ['abrasive guide', 'grit selection', 'MoTai']
       // Long-form articles carry a hand-written metaDescription in their
       // frontmatter (keyword-tuned, 1 sentence); i18n short articles fall
       // back to the intro. keywords likewise come from frontmatter when the
       // article provides them.
       const desc = a.metaDescription || a.intro
-      const kws = Array.isArray(a.keywords) && a.keywords.length ? a.keywords : ['abrasive guide', 'grit selection', 'MoTai']
+      const kws = Array.isArray(a.keywords) && a.keywords.length ? a.keywords : ART_KWS
       return {
-        title: `${t} — MoTai buyer resources`,
+        title: `${t} — ${ART_BRAND}`,
         description: desc,
         keywords: kws,
         canonicalPath: `/blog/${a.slug}`,
@@ -440,7 +447,7 @@ export function termsPageJsonLd(lang) {
 /** FAQPage JSON-LD from i18n faq keys. */
 export function faqJsonLd(lang, items) {
   const tr = TRANSLATIONS[lang]
-  const pick = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+  const pick = (path) => path ? path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr) : undefined
   const mainEntity = items
     .map((it) => ({
       '@type': 'Question',
@@ -456,15 +463,16 @@ export function faqJsonLd(lang, items) {
 export function itemlistJsonLd(lang, items) {
   const tr = TRANSLATIONS[lang]
   const pick = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+  const setName = TRANSLATIONS[lang]?.glossary?.h1 ?? 'Abrasives glossary'
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Abrasives glossary',
+    name: setName,
     itemListElement: items.map((g, i) => ({
       '@type': 'ListItem',
       position: i + 1,
       name: g.term,
-      item: { '@type': 'DefinedTerm', name: g.term, inDefinedTermSet: 'MoTai abrasives glossary' }
+      item: { '@type': 'DefinedTerm', name: g.term, inDefinedTermSet: setName }
     }))
   }
 }

@@ -68,6 +68,8 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 .section--tight { padding: 48px 0; }
 .section--flush-top { padding-top: 0; }
 .section-head { margin-bottom: 36px; }
+/* Section heading with the action link on the right (home video strip). */
+.section-head--row { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px; }
 .section-head-no { font-size: 13px; font-weight: 700; color: var(--muted); display: block; margin-bottom: 6px; }
 .section-head-sub { color: var(--ink-soft); max-width: 640px; margin: 8px 0 0; }
 
@@ -709,6 +711,9 @@ body { padding-bottom: var(--quickbar-h); }
 .stat-value { font-size: 34px; font-weight: 800; color: var(--accent); }
 .stat-label { font-size: 13px; color: var(--ink-soft); }
 .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
+/* Two-column variant: stats rows with an odd card count (e.g. videos page
+   when the long-form strip is empty) instead of a stretched third column. */
+.stats-grid--2 { grid-template-columns: repeat(2, 1fr); }
 .model-card { border: 1px solid var(--line); border-radius: 6px; padding: 18px; background: var(--bg); }
 .model-card h3 { margin: 6px 0 4px; }
 .model-card p { font-size: 13px; color: var(--muted); margin: 0; }

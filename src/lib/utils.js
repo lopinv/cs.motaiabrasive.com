@@ -18,6 +18,10 @@ export const faqMap = (await import('../data/product-faq.json')).default
 export const glossary = (await import('../data/glossary.json')).default
 export const trust = (await import('../data/trust.json')).default
 export const videosData = (await import('../data/videos.json')).default
+/** Videos shown on-site. `hidden` clips keep their URL working (direct visits
+ *  still render) but are excluded from every internal link, list and
+ *  structured-data surface. */
+export const visibleVideos = videosData.filter((v) => !v.hidden)
 
 export function productByHandle(handle) {
   return products.find((p) => p.handle === handle)

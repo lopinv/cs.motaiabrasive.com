@@ -1,88 +1,177 @@
 [
- {
-  "slug": "y399",
-  "model": "Y399",
-  "family": "Abrasive belts",
-  "refNoteKey": "y399",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-y399-model.jpg"
- },
- {
-  "slug": "mt-32",
-  "model": "MT-32",
-  "family": "Abrasive belts",
-  "refNoteKey": "mt-32",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-mt-32-model.jpg"
- },
- {
-  "slug": "gpc71",
-  "model": "GPC71",
-  "family": "Abrasive belts",
-  "refNoteKey": "gpc71",
-  "source": "Henan Wangpai lists GPC71 in its silicon carbide range for wide and narrow belts, with wood panels, non-ferrous metals, glass and ceramics among the listed applications.",
-  "sourceUrl": "https://www.hnwangpai.com/mmc/heitanhuagui.html",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-gpc71-model.jpg"
- },
- {
-  "slug": "y999",
-  "model": "Y999",
-  "family": "Abrasive belts",
-  "refNoteKey": "y999",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-y999-model.jpg"
- },
- {
-  "slug": "gxk-51",
-  "model": "GXK-51",
-  "family": "Abrasive belts",
-  "refNoteKey": "gxk-51",
-  "source": "JinKaiYan describes GXK51 as aluminium oxide on X-weight cloth, closed coated, for light-load narrow belts used on metal and hardwood.",
-  "sourceUrl": "https://www.jkyabrasives.com/?p=7685",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-gxk-51-model.jpg"
- },
- {
-  "slug": "xz-330",
-  "model": "XZ-330",
-  "family": "Abrasive belts",
-  "refNoteKey": "xz-330",
-  "source": "JinKaiYan identifies XZ330 as zirconia abrasive on XA-weight polycotton, for metal grinding, deburring and finishing on stainless and alloy steels, grit range 36–400.",
-  "sourceUrl": "https://www.jkyabrasives.com/?p=7719",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-xz-330-model.jpg"
- },
- {
-  "slug": "kx-167",
-  "model": "KX-167",
-  "family": "Abrasive belts",
-  "refNoteKey": "kx-167",
-  "source": "JinKaiYan lists KX167 as aluminium oxide on X-weight cloth, closed coating, for wood panels, furniture, rattan and ordinary steel, grit range 40–400. This is a source reference, not a MoTai stock list.",
-  "sourceUrl": "https://www.jkyabrasives.com/?p=6173",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-kx-167-model.jpg"
- },
- {
-  "slug": "scy728",
-  "model": "SCY728",
-  "family": "Abrasive belts",
-  "refNoteKey": "scy728",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-scy728-model.jpg"
- },
- {
-  "slug": "rcy97",
-  "model": "RCY97",
-  "family": "Abrasive belts",
-  "refNoteKey": "rcy97",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-rcy97-model.jpg"
- },
- {
-  "slug": "gxk56",
-  "model": "GXK56",
-  "family": "Abrasive belts",
-  "refNoteKey": "gxk56",
-  "source": "Public GXK56 references differ: Little Sun lists calcined aluminium oxide on X-weight polyester with regular grits 24–600; Golden Sun lists aluminium oxide on polycotton. Confirm the raw-material manufacturer, backing and wet/dry suitability before ordering.",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-gxk56-model.jpg"
- },
- {
-  "slug": "ax-168",
-  "model": "AX-168",
-  "family": "Abrasive belts",
-  "refNoteKey": "ax-168",
-  "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-ax-168-model.jpg"
- }
+  {
+    "slug": "y399",
+    "model": "Y399",
+    "family": "Abrasive belts",
+    "refNoteKey": "y399",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-y399-model.jpg",
+    "summary": "Y399 is a widely circulated aluminium-oxide general-purpose belt reference: cloth backing, closed coat, most often used for light- to medium-load thickness sanding of wood and ordinary steel. MoTai does not stock to model numbers - it is listed as a selection reference.",
+    "applications": [
+      "Woodworking",
+      "Metal fabrication",
+      "General-purpose grinding"
+    ],
+    "note": "Width, length, grit range and backing weight for Y399 differ between jumbo converters; confirm against a physical sample or the quotation.",
+    "metaDescription": "Y399 abrasive-belt reference for woodworking and metal fabrication. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirme"
+  },
+  {
+    "slug": "mt-32",
+    "model": "MT-32",
+    "family": "Abrasive belts",
+    "refNoteKey": "mt-32",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-mt-32-model.jpg",
+    "summary": "MT-32 is a narrow-belt aluminium-zirconia reference most often used for metal grinding and deburring where load and service life demand more than a plain aluminium-oxide belt.",
+    "applications": [
+      "Metal grinding",
+      "Deburring",
+      "Stainless steel"
+    ],
+    "note": "Zirconia content and backing weight for MT-32 are confirmed on the quotation; MT-prefixed model numbers are not used consistently across manufacturers.",
+    "metaDescription": "MT-32 abrasive-belt reference for metal grinding and deburring. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirmed wi"
+  },
+  {
+    "slug": "gpc71",
+    "model": "GPC71",
+    "family": "Abrasive belts",
+    "refNoteKey": "gpc71",
+    "source": "Henan Wangpai lists GPC71 in its silicon carbide range for wide and narrow belts, with wood panels, non-ferrous metals, glass and ceramics among the listed applications.",
+    "sourceUrl": "https://www.hnwangpai.com/mmc/heitanhuagui.html",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-gpc71-model.jpg",
+    "summary": "GPC71 is a publicly documented silicon-carbide belt series covering wide and narrow belts, used on wood panels, non-ferrous metals, glass and ceramics.",
+    "applications": [
+      "Woodworking",
+      "Glass",
+      "Ceramics",
+      "Non-ferrous metals"
+    ],
+    "note": "Silicon carbide is hard and friable, suited to brittle materials. Model data here comes from public third-party information; supply specification is confirmed on the quotation.",
+    "metaDescription": "GPC71 abrasive-belt reference for woodworking and glass. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirmed with the "
+  },
+  {
+    "slug": "y999",
+    "model": "Y999",
+    "family": "Abrasive belts",
+    "refNoteKey": "y999",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-y999-model.jpg",
+    "summary": "Y999 is a general-purpose aluminium-oxide belt reference widely used for wood and ordinary-metal sanding and rust removal; it is one of the most circulated model numbers in the market.",
+    "applications": [
+      "Woodworking",
+      "Rust removal",
+      "Metal fabrication"
+    ],
+    "note": "Grit range and coating density for Y999 vary by jumbo supplier; confirm the selection on the quotation.",
+    "metaDescription": "Y999 abrasive-belt reference for woodworking and rust removal. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirmed wit"
+  },
+  {
+    "slug": "gxk-51",
+    "model": "GXK-51",
+    "family": "Abrasive belts",
+    "refNoteKey": "gxk-51",
+    "source": "JinKaiYan describes GXK51 as aluminium oxide on X-weight cloth, closed coated, for light-load narrow belts used on metal and hardwood.",
+    "sourceUrl": "https://www.jkyabrasives.com/?p=7685",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-gxk-51-model.jpg",
+    "summary": "GXK-51 is publicly described as aluminium oxide on X-weight cloth, closed coated, positioned for light-load narrow belts used on metal and hardwood.",
+    "applications": [
+      "Light-load metal grinding",
+      "Hardwood finishing"
+    ],
+    "note": "Sourced from public third-party information, not a MoTai stock list; belt width, length and backing weight are confirmed on the quotation.",
+    "metaDescription": "GXK-51 abrasive-belt reference for light-load metal grinding and hardwood finishing. Compiles public third-party model data rather than a stock list; width, grit range and bac"
+  },
+  {
+    "slug": "xz-330",
+    "model": "XZ-330",
+    "family": "Abrasive belts",
+    "refNoteKey": "xz-330",
+    "source": "JinKaiYan identifies XZ330 as zirconia abrasive on XA-weight polycotton, for metal grinding, deburring and finishing on stainless and alloy steels, grit range 36–400.",
+    "sourceUrl": "https://www.jkyabrasives.com/?p=7719",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-xz-330-model.jpg",
+    "summary": "XZ-330 is publicly described as zirconia abrasive on XA-weight polycotton, for metal grinding, deburring and finishing on stainless and alloy steels, grit range 36-400.",
+    "applications": [
+      "Metal grinding",
+      "Deburring",
+      "Finishing",
+      "Stainless steel"
+    ],
+    "note": "Zirconia holds an edge under medium-heavy load; packaging, joint type and backing weight are confirmed on the quotation.",
+    "metaDescription": "XZ-330 abrasive-belt reference for metal grinding and deburring. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirmed w"
+  },
+  {
+    "slug": "kx-167",
+    "model": "KX-167",
+    "family": "Abrasive belts",
+    "refNoteKey": "kx-167",
+    "source": "JinKaiYan lists KX167 as aluminium oxide on X-weight cloth, closed coating, for wood panels, furniture, rattan and ordinary steel, grit range 40–400. This is a source reference, not a MoTai stock list.",
+    "sourceUrl": "https://www.jkyabrasives.com/?p=6173",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-kx-167-model.jpg",
+    "summary": "KX-167 is publicly listed as aluminium oxide on X-weight cloth, closed coated, for wood panels, furniture, rattan and ordinary steel, grit range 40-400.",
+    "applications": [
+      "Wood panels",
+      "Furniture",
+      "Rattan",
+      "Ordinary steel"
+    ],
+    "note": "A public selection reference, not a MoTai stock list; dry/wet suitability is confirmed on the quotation.",
+    "metaDescription": "KX-167 abrasive-belt reference for wood panels and furniture. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirmed with"
+  },
+  {
+    "slug": "scy728",
+    "model": "SCY728",
+    "family": "Abrasive belts",
+    "refNoteKey": "scy728",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-scy728-model.jpg",
+    "summary": "SCY728 is a publicly circulated silicon-carbide belt reference used for fine-grit sanding of wood, lacquer and brittle materials.",
+    "applications": [
+      "Woodworking",
+      "Lacquer finishing",
+      "Glass"
+    ],
+    "note": "Silicon carbide is not suited to heavy steel work; backing weight and grit range are confirmed on the quotation.",
+    "metaDescription": "SCY728 abrasive-belt reference for woodworking and lacquer finishing. Compiles public third-party model data rather than a stock list; width, grit range and backing are confir"
+  },
+  {
+    "slug": "rcy97",
+    "model": "RCY97",
+    "family": "Abrasive belts",
+    "refNoteKey": "rcy97",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-rcy97-model.jpg",
+    "summary": "RCY97 is a common cloth-backed aluminium-oxide belt reference covering wood, metal and general sanding; it is widely circulated in the market.",
+    "applications": [
+      "Woodworking",
+      "Metal fabrication",
+      "General-purpose grinding"
+    ],
+    "note": "RCY97 specifications differ between jumbo converters; confirm against a physical sample or the quotation.",
+    "metaDescription": "RCY97 abrasive-belt reference for woodworking and metal fabrication. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirm"
+  },
+  {
+    "slug": "gxk56",
+    "model": "GXK56",
+    "family": "Abrasive belts",
+    "refNoteKey": "gxk56",
+    "source": "Public GXK56 references differ: Little Sun lists calcined aluminium oxide on X-weight polyester with regular grits 24–600; Golden Sun lists aluminium oxide on polycotton. Confirm the raw-material manufacturer, backing and wet/dry suitability before ordering.",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-gxk56-model.jpg",
+    "summary": "Public references for GXK56 disagree: Little Sun documents calcined aluminium oxide on X-weight polyester with regular grits 24-600, while Golden Sun documents aluminium oxide on polycotton. We list both sources as they stand so you can compare before asking.",
+    "applications": [
+      "Metal grinding",
+      "Woodworking"
+    ],
+    "note": "Before ordering on GXK56, confirm the actual raw-material manufacturer, the backing and wet/dry suitability; where upstream data disagrees, the upstream technical sheet governs.",
+    "metaDescription": "GXK56 abrasive-belt reference for metal grinding and woodworking. Compiles public third-party model data rather than a stock list; width, grit range and backing are confirmed "
+  },
+  {
+    "slug": "ax-168",
+    "model": "AX-168",
+    "family": "Abrasive belts",
+    "refNoteKey": "ax-168",
+    "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-ax-168-model.jpg",
+    "summary": "AX-168 is a general-purpose aluminium-oxide belt reference widely used for wood and ordinary-metal sanding; it is widely circulated in the market.",
+    "applications": [
+      "Woodworking",
+      "Metal fabrication",
+      "General-purpose grinding"
+    ],
+    "note": "Width, length and grit range for AX-168 are confirmed on the quotation.",
+    "metaDescription": "AX-168 abrasive-belt reference for woodworking and metal fabrication. Compiles public third-party model data rather than a stock list; width, grit range and backing are confir"
+  }
 ]

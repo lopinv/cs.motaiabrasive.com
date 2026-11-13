@@ -39,7 +39,8 @@
     "q": "videos.clip.FdqImhKL29c.q2",
     "a": "videos.clip.FdqImhKL29c.a2"
    }
-  ]
+  ],
+  "hidden": true
  },
  {
   "id": "CJGV6qn3Rf0",
@@ -80,7 +81,8 @@
     "q": "videos.clip.CJGV6qn3Rf0.q2",
     "a": "videos.clip.CJGV6qn3Rf0.a2"
    }
-  ]
+  ],
+  "hidden": true
  },
  {
   "id": "bf5WPCu6HZs",
@@ -119,7 +121,8 @@
     "q": "videos.clip.bf5WPCu6HZs.q2",
     "a": "videos.clip.bf5WPCu6HZs.a2"
    }
-  ]
+  ],
+  "hidden": true
  },
  {
   "id": "ZrYsB2XuR3o",
@@ -159,7 +162,8 @@
     "q": "videos.clip.ZrYsB2XuR3o.q2",
     "a": "videos.clip.ZrYsB2XuR3o.a2"
    }
-  ]
+  ],
+  "hidden": true
  },
  {
   "id": "sdJ-zq2HfjU",
@@ -199,7 +203,8 @@
     "q": "videos.clip.sdJ-zq2HfjU.q2",
     "a": "videos.clip.sdJ-zq2HfjU.a2"
    }
-  ]
+  ],
+  "hidden": true
  },
  {
   "id": "xBcmPjN7um4",
@@ -239,7 +244,8 @@
     "q": "videos.clip.xBcmPjN7um4.q2",
     "a": "videos.clip.xBcmPjN7um4.a2"
    }
-  ]
+  ],
+  "hidden": true
  },
  {
   "id": "rNbh9PMX-Pw",
@@ -280,7 +286,8 @@
     "q": "videos.clip.rNbh9PMX-Pw.q2",
     "a": "videos.clip.rNbh9PMX-Pw.a2"
    }
-  ]
+  ],
+  "hidden": true
  },
  {
   "id": "r0AXUY5EEC8",
@@ -878,6 +885,167 @@
    {
     "q": "videos.clip.ePTtos61dbE.q2",
     "a": "videos.clip.ePTtos61dbE.a2"
+   }
+  ]
+ },
+ {
+  "id": "crIDUwWdKRo",
+  "youtubeId": "crIDUwWdKRo",
+  "titleKey": "videos.clip.crIDUwWdKRo.title",
+  "descriptionKey": "videos.clip.crIDUwWdKRo.body",
+  "line": "belts",
+  "kind": "video",
+  "seconds": 94,
+  "duration": "PT1M34S",
+  "durationLabel": "1:34",
+  "publishDate": "2026-11-09",
+  "thumb": "https://i.ytimg.com/vi/crIDUwWdKRo/hqdefault.jpg",
+  "bodyKey": "videos.clip.crIDUwWdKRo.body",
+  "bulletKeys": [
+   "videos.clip.crIDUwWdKRo.b1",
+   "videos.clip.crIDUwWdKRo.b2",
+   "videos.clip.crIDUwWdKRo.b3",
+   "videos.clip.crIDUwWdKRo.b4"
+  ],
+  "related": [
+   "610x100-abrasive-belt",
+   "2200x1330-abrasive-belt"
+  ],
+  "youtubeUrl": "https://www.youtube.com/watch?v=crIDUwWdKRo",
+  "specKeys": [
+   "videos.clip.crIDUwWdKRo.s1",
+   "videos.clip.crIDUwWdKRo.s2",
+   "videos.clip.crIDUwWdKRo.s3",
+   "videos.clip.crIDUwWdKRo.s4"
+  ],
+  "faqKeys": [
+   {
+    "q": "videos.clip.crIDUwWdKRo.q1",
+    "a": "videos.clip.crIDUwWdKRo.a1"
+   },
+   {
+    "q": "videos.clip.crIDUwWdKRo.q2",
+    "a": "videos.clip.crIDUwWdKRo.a2"
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "id": "Xb9smGUz0UQ",
+  "youtubeId": "Xb9smGUz0UQ",
+  "titleKey": "videos.clip.Xb9smGUz0UQ.title",
+  "descriptionKey": "videos.clip.Xb9smGUz0UQ.body",
+  "line": "sponge",
+  "kind": "short",
+  "seconds": 19,
+  "duration": "PT19S",
+  "durationLabel": "0:19",
+  "publishDate": "2026-11-10",
+  "thumb": "https://i.ytimg.com/vi/Xb9smGUz0UQ/hqdefault.jpg",
+  "bodyKey": "videos.clip.Xb9smGUz0UQ.body",
+  "bulletKeys": [
+   "videos.clip.Xb9smGUz0UQ.b1",
+   "videos.clip.Xb9smGUz0UQ.b2",
+   "videos.clip.Xb9smGUz0UQ.b3",
+   "videos.clip.Xb9smGUz0UQ.b4"
+  ],
+  "related": [],
+  "youtubeUrl": "https://www.youtube.com/watch?v=Xb9smGUz0UQ",
+  "specKeys": [
+   "videos.clip.Xb9smGUz0UQ.s1",
+   "videos.clip.Xb9smGUz0UQ.s2",
+   "videos.clip.Xb9smGUz0UQ.s3",
+   "videos.clip.Xb9smGUz0UQ.s4"
+  ],
+  "faqKeys": [
+   {
+    "q": "videos.clip.Xb9smGUz0UQ.q1",
+    "a": "videos.clip.Xb9smGUz0UQ.a1"
+   },
+   {
+    "q": "videos.clip.Xb9smGUz0UQ.q2",
+    "a": "videos.clip.Xb9smGUz0UQ.a2"
+   }
+  ]
+ },
+ {
+  "id": "hpo4SsvdY1I",
+  "youtubeId": "hpo4SsvdY1I",
+  "titleKey": "videos.clip.hpo4SsvdY1I.title",
+  "descriptionKey": "videos.clip.hpo4SsvdY1I.body",
+  "line": "discs",
+  "kind": "short",
+  "seconds": 20,
+  "duration": "PT20S",
+  "durationLabel": "0:20",
+  "publishDate": "2026-11-09",
+  "thumb": "https://i.ytimg.com/vi/hpo4SsvdY1I/hqdefault.jpg",
+  "bodyKey": "videos.clip.hpo4SsvdY1I.body",
+  "bulletKeys": [
+   "videos.clip.hpo4SsvdY1I.b1",
+   "videos.clip.hpo4SsvdY1I.b2",
+   "videos.clip.hpo4SsvdY1I.b3",
+   "videos.clip.hpo4SsvdY1I.b4"
+  ],
+  "related": [
+   "5-inch-mesh-sanding-disc",
+   "6-inch-mesh-sanding-disc"
+  ],
+  "youtubeUrl": "https://www.youtube.com/watch?v=hpo4SsvdY1I",
+  "specKeys": [
+   "videos.clip.hpo4SsvdY1I.s1",
+   "videos.clip.hpo4SsvdY1I.s2",
+   "videos.clip.hpo4SsvdY1I.s3",
+   "videos.clip.hpo4SsvdY1I.s4"
+  ],
+  "faqKeys": [
+   {
+    "q": "videos.clip.hpo4SsvdY1I.q1",
+    "a": "videos.clip.hpo4SsvdY1I.a1"
+   },
+   {
+    "q": "videos.clip.hpo4SsvdY1I.q2",
+    "a": "videos.clip.hpo4SsvdY1I.a2"
+   }
+  ]
+ },
+ {
+  "id": "hCsd8PlG8b8",
+  "youtubeId": "hCsd8PlG8b8",
+  "titleKey": "videos.clip.hCsd8PlG8b8.title",
+  "descriptionKey": "videos.clip.hCsd8PlG8b8.body",
+  "line": "belts",
+  "kind": "short",
+  "seconds": 20,
+  "duration": "PT20S",
+  "durationLabel": "0:20",
+  "publishDate": "2026-11-09",
+  "thumb": "https://i.ytimg.com/vi/hCsd8PlG8b8/hqdefault.jpg",
+  "bodyKey": "videos.clip.hCsd8PlG8b8.body",
+  "bulletKeys": [
+   "videos.clip.hCsd8PlG8b8.b1",
+   "videos.clip.hCsd8PlG8b8.b2",
+   "videos.clip.hCsd8PlG8b8.b3",
+   "videos.clip.hCsd8PlG8b8.b4"
+  ],
+  "related": [
+   "610x100-abrasive-belt"
+  ],
+  "youtubeUrl": "https://www.youtube.com/watch?v=hCsd8PlG8b8",
+  "specKeys": [
+   "videos.clip.hCsd8PlG8b8.s1",
+   "videos.clip.hCsd8PlG8b8.s2",
+   "videos.clip.hCsd8PlG8b8.s3",
+   "videos.clip.hCsd8PlG8b8.s4"
+  ],
+  "faqKeys": [
+   {
+    "q": "videos.clip.hCsd8PlG8b8.q1",
+    "a": "videos.clip.hCsd8PlG8b8.a1"
+   },
+   {
+    "q": "videos.clip.hCsd8PlG8b8.q2",
+    "a": "videos.clip.hCsd8PlG8b8.a2"
    }
   ]
  }

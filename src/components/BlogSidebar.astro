@@ -1,12 +1,13 @@
 ---
 /**
- * 博客侧栏：商品 + 服务 + 最新文章。
+ * 侧栏：商品 + 服务 +（文章 | 视频）列表。
  *
- * 三个模块都是纯静态内部链接（无 JS、无表单）：
- *  - products  : 由调用方决定展示哪些商品；文章详情页按文章内容关联，
+ * 模块都是纯静态内部链接（无 JS、无表单）：
+ *  - products  : 由调用方决定展示哪些商品；文章/视频详情页按内容关联，
  *                列表页用 defaultProducts 兜底；
  *  - services  : 询盘（原站 quote form）+ OEM + 制造 + 应用四个服务入口；
- *  - latest    : 最新文章列表（详情页传入 excludeSlug 排除当前篇目）。
+ *  - latest    : 文章页 = 最新文章列表（详情页传入 excludeSlug 排除当前篇目）；
+ *  - moreVideos: 视频页 = 同产品线/最近的其它视频，替换 latest 块。
  *
  * 图片一律远程 CDN + lazy + onerror 渐变兜底（硬约束 3）。
  */
@@ -17,10 +18,12 @@ const {
   lang,
   products = [],
   latest = [],
+  moreVideos = [],
   toc = null
 } = Astro.props
 const tr = TRANSLATIONS[lang]
 const s = tr.blogSidebar ?? {}
+const v = tr.videos ?? {}
 const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
 // Directory-style trailing slash on every local route (Cloudflare Pages serves
 // <dir>/index.html only at <dir>/), matching every other page's links.
@@ -91,6 +94,18 @@ const u = (p) => localizedUrl(lang, p)
       <ul class="side-latest">
         {latest.map((a) => (
           <li><a href={u(`/blog/${a.slug}`)}>{a.title}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {moreVideos.length > 0 && (
+    <section class="side-block">
+      <p class="side-eyebrow">{pick('nav.videos')}</p>
+      <h2 class="side-h">{v.moreTitle}</h2>
+      <ul class="side-latest">
+        {moreVideos.map((m) => (
+          <li><a href={u(`/videos/${m.id}`)}>{m.title}</a></li>
         ))}
       </ul>
     </section>

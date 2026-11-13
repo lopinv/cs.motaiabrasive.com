@@ -1,7 +1,7 @@
 import { TRANSLATIONS, LANGS } from './i18n.js'
 import {
   site, media, quoteUrl, waLink, localizedUrl,
-  products, models, discViews, flaps, collections, blog, applications, regions, faq, glossary, trust, videosData, productByHandle, modelBySlug, discByKey, flapByKey, articleBySlug, applicationBySlug
+  products, models, discViews, flaps, collections, blog, applications, regions, faq, glossary, trust, videosData, visibleVideos, productByHandle, modelBySlug, discByKey, flapByKey, articleBySlug, applicationBySlug
 } from './utils.js'
 import { tdkFor, orgJsonLd, faqJsonLd, itemlistJsonLd } from './tdk.js'
 
@@ -18,7 +18,7 @@ export function usePage(lang) {
     lu: (p) => localizedUrl(lang, p),
     localizedUrl,
     quoteUrlRaw: (o) => quoteUrl(o),
-    site, products, models, discViews, flaps, collections, blog, applications, regions, faq, glossary, trust, videosData,
+    site, products, models, discViews, flaps, collections, blog, applications, regions, faq, glossary, trust, videosData, visibleVideos,
     productByHandle, modelBySlug, discByKey, flapByKey, articleBySlug, applicationBySlug,
     org: orgJsonLd()
   }

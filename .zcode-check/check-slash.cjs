@@ -63,7 +63,7 @@ else if (JSON.stringify(smUrls) !== JSON.stringify(stUrlsSorted)) fail('sitemap.
 else console.log(`  ok   sitemap.txt (${stLines} URLs, identical to sitemap.xml)`)
 
 console.log('=== feed products.csv ===')
-const csv = read('products.csv')
+const csv = read('feeds/products.csv')
 audit('feed links', csv, urlPat())
 
 console.log('=== _redirects ===')

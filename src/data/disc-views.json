@@ -1,95 +1,134 @@
 [
- {
-  "key": "gold8",
-  "title": "5-inch 8-hole Hook & Loop Sanding Discs — Gold",
-  "holes": "8",
-  "diameter": "125 mm / 5 inch",
-  "abrasive": "Aluminium oxide",
-  "attachment": "Hook & loop",
-  "grits": [
-   "P60",
-   "P80",
-   "P100",
-   "P120",
-   "P150",
-   "P180",
-   "P220",
-   "P240",
-   "P320",
-   "P400",
-   "P600",
-   "P800"
-  ],
-  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-gold-8-20261029.jpg"
- },
- {
-  "key": "gold17",
-  "title": "6-inch 17-hole Hook & Loop Sanding Discs — Gold",
-  "holes": "17",
-  "diameter": "6 inch — exact diameter settled with the offer",
-  "abrasive": "Aluminium oxide",
-  "attachment": "Hook & loop",
-  "grits": [
-   "P40",
-   "P60",
-   "P80",
-   "P100",
-   "P120",
-   "P150",
-   "P180",
-   "P240",
-   "P320",
-   "P400",
-   "P600",
-   "P800"
-  ],
-  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-gold-17-hole-white-background-20261029.png"
- },
- {
-  "key": "ceramic15",
-  "title": "150 mm 15-hole Ceramic Hook & Loop Sanding Discs",
-  "holes": "15",
-  "diameter": "150 mm",
-  "abrasive": "Ceramic abrasive",
-  "attachment": "Hook & loop",
-  "grits": [
-   "P60",
-   "P80",
-   "P100",
-   "P120",
-   "P150",
-   "P180",
-   "P240",
-   "P320",
-   "P400",
-   "P500",
-   "P600",
-   "P800"
-  ],
-  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-ceramic-15-20261029.jpg"
- },
- {
-  "key": "red8",
-  "title": "8-hole Sanding Discs — Red",
-  "holes": "8",
-  "diameter": "Await confirmation",
-  "abrasive": "Await confirmation",
-  "attachment": "Await confirmation",
-  "grits": [],
-  "pendingNote": "Diameter, abrasive material, attachment and complete grit range await confirmation.",
-  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-red-8-20261029.jpg"
- },
- {
-  "key": "gray8",
-  "title": "8-hole Fine Sanding Discs — Gray P3000",
-  "holes": "8",
-  "diameter": "Await confirmation",
-  "abrasive": "Await confirmation",
-  "attachment": "Await confirmation",
-  "grits": [
-   "P3000"
-  ],
-  "pendingNote": "Diameter, abrasive material and attachment await confirmation.",
-  "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-gray-8-20261029.jpg"
- }
+  {
+    "key": "gold8",
+    "title": "5-inch 8-hole Hook & Loop Sanding Discs — Gold",
+    "holes": "8",
+    "diameter": "125 mm / 5 inch",
+    "abrasive": "Aluminium oxide",
+    "attachment": "Hook & loop",
+    "grits": [
+      "P60",
+      "P80",
+      "P100",
+      "P120",
+      "P150",
+      "P180",
+      "P220",
+      "P240",
+      "P320",
+      "P400",
+      "P600",
+      "P800"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-gold-8-20261029.jpg",
+    "summary": "5-inch 8-hole hook & loop discs on a gold-series aluminium-oxide abrasive, sized for random-orbit machines in medium-load sanding and paint preparation. Hole pattern must match your backup pad.",
+    "applications": [
+      "Random-orbit sanding",
+      "Paint preparation",
+      "Wood finishing"
+    ],
+    "note": "Hole pattern, centre-hole count and grit range follow your pad model and are confirmed on the quotation.",
+    "metaDescription": "5-inch 8-hole Hook & Loop Sanding Discs — Gold - grits P60-P800, hook & loop, for random-orbit and finishing machines. Diameter and abrasive are confirmed with the quotation; "
+  },
+  {
+    "key": "gold17",
+    "title": "6-inch 17-hole Hook & Loop Sanding Discs — Gold",
+    "holes": "17",
+    "diameter": "6 inch — exact diameter settled with the offer",
+    "abrasive": "Aluminium oxide",
+    "attachment": "Hook & loop",
+    "grits": [
+      "P40",
+      "P60",
+      "P80",
+      "P100",
+      "P120",
+      "P150",
+      "P180",
+      "P240",
+      "P320",
+      "P400",
+      "P600",
+      "P800"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-gold-17-hole-white-background-20261029.png",
+    "summary": "6-inch 17-hole hook & loop discs on the same gold-series aluminium-oxide abrasive, with an added hole count to suit larger pads running dust extraction.",
+    "applications": [
+      "Random-orbit sanding",
+      "Dust extraction",
+      "Paint preparation"
+    ],
+    "note": "The 17-hole pattern must match the pad exactly; diameter, grit range and hole layout are confirmed on the quotation.",
+    "metaDescription": "6-inch 17-hole Hook & Loop Sanding Discs — Gold - grits P40-P800, hook & loop, for random-orbit and finishing machines. Diameter and abrasive are confirmed with the quotation;"
+  },
+  {
+    "key": "ceramic15",
+    "title": "150 mm 15-hole Ceramic Hook & Loop Sanding Discs",
+    "holes": "15",
+    "diameter": "150 mm",
+    "abrasive": "Ceramic abrasive",
+    "attachment": "Hook & loop",
+    "grits": [
+      "P60",
+      "P80",
+      "P100",
+      "P120",
+      "P150",
+      "P180",
+      "P240",
+      "P320",
+      "P400",
+      "P500",
+      "P600",
+      "P800"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-ceramic-15-20261029.jpg",
+    "summary": "150 mm 15-hole hook & loop discs on ceramic abrasive, whose self-sharpening behaviour holds the cutting edge longer than aluminium oxide and suits heavier load and longer run times.",
+    "applications": [
+      "Heavy-duty sanding",
+      "Metal grinding",
+      "Long-run machining"
+    ],
+    "note": "Grit steps and hole pattern are confirmed on the quotation; ceramic grades are not suited to fine finishing of soft materials.",
+    "metaDescription": "150 mm 15-hole Ceramic Hook & Loop Sanding Discs - grits P60-P800, hook & loop, for random-orbit and finishing machines. Diameter and abrasive are confirmed with the quotation"
+  },
+  {
+    "key": "red8",
+    "title": "8-hole Sanding Discs — Red",
+    "holes": "8",
+    "diameter": "Await confirmation",
+    "abrasive": "Await confirmation",
+    "attachment": "Await confirmation",
+    "grits": [],
+    "pendingNote": "Diameter, abrasive material, attachment and complete grit range await confirmation.",
+    "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-red-8-20261029.jpg",
+    "summary": "8-hole plain sanding discs in the red series, positioned for general sanding. Diameter, abrasive and attachment are being confirmed upstream.",
+    "applications": [
+      "General sanding",
+      "Paint preparation"
+    ],
+    "note": "Diameter, abrasive material, attachment and the complete grit range are pending confirmation; take the quotation as governing.",
+    "metaDescription": "8-hole Sanding Discs — Red - full grit range, await confirmation, for random-orbit and finishing machines. Diameter and abrasive are confirmed with the quotation; factory-dire"
+  },
+  {
+    "key": "gray8",
+    "title": "8-hole Fine Sanding Discs — Gray P3000",
+    "holes": "8",
+    "diameter": "Await confirmation",
+    "abrasive": "Await confirmation",
+    "attachment": "Await confirmation",
+    "grits": [
+      "P3000"
+    ],
+    "pendingNote": "Diameter, abrasive material and attachment await confirmation.",
+    "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-gray-8-20261029.jpg",
+    "summary": "8-hole ultra-fine sanding discs (grey, P3000), positioned for fine finishing after paint and for polish preparation. Diameter and abrasive are being confirmed upstream.",
+    "applications": [
+      "Fine finishing",
+      "Paint refinishing",
+      "Polishing preparation"
+    ],
+    "note": "Diameter, abrasive material and attachment are pending confirmation; take the quotation as governing.",
+    "metaDescription": "8-hole Fine Sanding Discs — Gray P3000 - grits P3000-P3000, await confirmation, for random-orbit and finishing machines. Diameter and abrasive are confirmed with the quotation"
+  }
 ]

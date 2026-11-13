@@ -5,7 +5,16 @@
     "backing": "Plastic",
     "color": "Reddish Brown",
     "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-flap-plastic-reddish-brown-display.png?v=1793169918",
-    "summary": "Flap disc with plastic backing for general metal grinding, blending and finishing. Confirm grit, size and packaging with the quotation."
+    "summary": "Flap disc with plastic backing for general metal grinding, blending and finishing. Confirm grit, size and packaging with the quotation.",
+    "nameZh": "塑料基材百叶片",
+    "nameZhHant": "塑膠基材百葉片",
+    "applications": [
+      "Metal grinding",
+      "Blending",
+      "Finishing"
+    ],
+    "note": "塑料基体柔韧，适合曲面与轮廓过渡的轻中负荷磨削；磨料粒度、砂纸层数与孔径按报价单确认。",
+    "metaDescription": "MOTAI Plastic Backing Flap Disc - flap disc with a plastic backing for metal grinding and blending. Zirconia and aluminium-oxide grades, wholesale and OEM packaging. Grit, bac"
   },
   {
     "key": "steel",
@@ -13,7 +22,16 @@
     "backing": "Steel",
     "color": "Reddish Brown",
     "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-flap-steel-reddish-brown-display.png?v=1793169943",
-    "summary": "Flap disc with steel backing for demanding metal grinding and deburring applications. Confirm grit, size and packaging with the quotation."
+    "summary": "Flap disc with steel backing for demanding metal grinding and deburring applications. Confirm grit, size and packaging with the quotation.",
+    "nameZh": "钢基材百叶片",
+    "nameZhHant": "鋼基材百葉片",
+    "applications": [
+      "Heavy grinding",
+      "Deburring",
+      "Weld blending"
+    ],
+    "note": "钢基体刚性好、散热快，适合高转速重载磨削；基体厚度与磨料粒度按报价单确认。",
+    "metaDescription": "MOTAI Steel Backing Flap Disc - flap disc with a steel backing for heavy grinding and deburring. Zirconia and aluminium-oxide grades, wholesale and OEM packaging. Grit, backin"
   },
   {
     "key": "fiberglass",
@@ -21,6 +39,15 @@
     "backing": "Fiberglass",
     "color": "Blue",
     "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-flap-fiberglass-blue-display.png?v=1793169979",
-    "summary": "Flap disc with fiberglass backing for durability under high-speed use. Confirm grit, size and packaging with the quotation."
+    "summary": "Flap disc with fiberglass backing for durability under high-speed use. Confirm grit, size and packaging with the quotation.",
+    "nameZh": "玻纤基材百叶片",
+    "nameZhHant": "玻纖基材百葉片",
+    "applications": [
+      "High-speed grinding",
+      "Deburring",
+      "Edge preparation"
+    ],
+    "note": "玻纤基体抗拉强度高，适合长时间高速作业；基体克重、磨料与砂纸层数按报价单确认。",
+    "metaDescription": "MOTAI Fiberglass Backing Flap Disc - flap disc with a fiberglass backing for high-speed grinding and deburring. Zirconia and aluminium-oxide grades, wholesale and OEM packagin"
   }
 ]

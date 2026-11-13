@@ -8,6 +8,7 @@ import Faq from '../Faq.astro'
 import SectionHeading from '../SectionHeading.astro'
 import LocationBlock from '../LocationBlock.astro'
 import BlogHomeArticles from '../BlogHomeArticles.astro'
+import HomeVideos from '../HomeVideos.astro'
 
 const { lang, latestArticles = [] } = Astro.props
 const tr = TRANSLATIONS[lang]
@@ -125,6 +126,9 @@ const wa = (ctx, vars) => waLink(lang, ctx, vars)
     <div class="step"><b>04</b><div><h3>{h.p4t}</h3><p>{h.p4b}</p></div></div>
   </div>
 </section>
+
+<!-- FACTORY & PRODUCT VIDEOS: the process steps above, on camera -->
+<HomeVideos lang={lang} />
 
 <!-- OEM CTA -->
 <section class="section wrap">

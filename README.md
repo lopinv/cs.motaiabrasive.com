@@ -16,7 +16,7 @@ motai-static/
 │  │                   └─ blog/  索引 + page/[n]（分页）+ category/[key] + category/[key]/page/[n]
 │  └─ styles/global.css
 ├─ public/_redirects    旧 Shopify URL 301 兼容（纯静态重定向）
-├─ scripts/gen-feed.mjs 构建后生成 dist/products.csv（Merchant Center b2b feed）
+├─ scripts/gen-feed.mjs 构建后生成 dist/feeds/products.csv（Merchant Center b2b feed）
 ├─ scripts/gen-seo.mjs  构建后生成 dist/robots.txt + dist/sitemap.xml（随 SITE_URL）
 ├─ .zcode-check/        构建门禁（见下方「构建校验」）
 ├─ astro.config.mjs     output: 'static'
@@ -68,7 +68,7 @@ set SITE_LANG=zh && npm run build # Windows cmd
 - 一次构建输出全部 11 个语种的静态路由（`/en/...`、`/zh/...`、`/ar/...` 等），共 640 页（含 /terms 条款页）。
 - `SITE_LANG` 只影响**根路径 `/` 的默认落地语种**，不影响其余语种路由（它们始终全部生成）。
 - `astro build` 成功后自动运行两个纯 Node 脚本（零依赖）：
-  `scripts/gen-feed.mjs`（生成 `dist/products.csv`，Merchant Center b2b feed）与
+  `scripts/gen-feed.mjs`（生成 `dist/feeds/products.csv`，Merchant Center b2b feed）与
   `scripts/gen-seo.mjs`（生成 `dist/robots.txt` + `dist/sitemap.xml`，域名读 `SITE_URL`，
   缺省 `https://motai-abrasives.pages.dev`）。
 - 产物是纯静态 HTML/CSS/JS + CSV/robots/sitemap，**零 Worker、零 Pages Function、零服务端逻辑**。
@@ -105,7 +105,7 @@ set SITE_LANG=zh && npm run build # Windows cmd
   请求 `/en/about` 由 Pages 内置 308 到带斜杠形式。
 - 因此全站规范 URL 一律**带尾斜杠**：canonical、hreflang、站内 `href`
   （`localizedUrl` 单一出口，`src/lib/utils.js`）、JSON-LD（Offer/BreadcrumbList/ItemList，
-  `absUrl` 归一出口，`src/lib/tdk.js`）、`_redirects` 301 目标、`sitemap.xml`、`products.csv` 的 link
+  `absUrl` 归一出口，`src/lib/tdk.js`）、`_redirects` 301 目标、`sitemap.xml`、`feeds/products.csv` 的 link
   全部同形，避免「canonical 无斜杠 vs 实际服务带斜杠」的重复内容冲突。
 - 唯一例外是站点根 `/`（物理 `index.html`，渲染 `SITE_LANG` 默认语种首页），
   其 canonical 指向 `/en/`，不做重定向。
@@ -187,10 +187,10 @@ node .zcode-check\sync-flap.mjs
 - **页面 JSON-LD**：产品/型号/砂纸片/百叶片页的 `Product` 带 `offers`（`availability: PreSale`、
   `itemCondition: New`、落地页 url、品牌 seller，**无 price 字段** → Google 不会显示 $0.00）；
   4 个集合页补了商品型 `ItemList`（每页实际展示的商品 + 本地化链接）。
-- **Merchant feed**：`npm run build` 末尾自动生成 `dist/products.csv`
+- **Merchant feed**：`npm run build` 末尾自动生成 `dist/feeds/products.csv`
   （`scripts/gen-feed.mjs`，30 条商品 = 11 产品 + 11 型号 + 5 砂纸片 + 3 百叶片，
   UTF-8 带 BOM，`availability=preorder`，随 Pages 发布为静态文件）。
-  Merchant Center 数据源填 `<SITE_URL>/products.csv`。
+  Merchant Center 数据源填 `<SITE_URL>/feeds/products.csv`。
 - **robots / sitemap**：`scripts/gen-seo.mjs` 同钩子生成 `dist/robots.txt`（指向 sitemap）
   与全量 `dist/sitemap.xml`（639 URL = 根 `/` + 11 语种 × 58，含 /terms，域名跟随 `SITE_URL`）。
   sitemap 为**纯标准 sitemaps.org urlset**（只含 `<loc>`）——GSC 现行解析器拒收 Google 图片
@@ -198,7 +198,7 @@ node .zcode-check\sync-flap.mjs
   弃用）；商品图收录改走两条现行通道：Merchant feed 的 `image_link` 列 + 页面 `og:image`。
 
 上线步骤（不在代码内）：
-1. Google Merchant Center 建账户 → 数据源 → 选「静态文件 / CSV」，URL 填 `<SITE_URL>/products.csv`。
+1. Google Merchant Center 建账户 → 数据源 → 选「静态文件 / CSV」，URL 填 `<SITE_URL>/feeds/products.csv`。
 2. **给账户打 `b2b` 标签**（Settings → 商店详情 → 标签）：b2b 账户才接受无价格/预售商品，
    否则会被判 missing price 而拒；打标签后 Google 搜索会以「询价」状态展现，不展示价格。
 3. Google Search Console + Bing Webmaster 验证域名并提交 `sitemap.xml`。
