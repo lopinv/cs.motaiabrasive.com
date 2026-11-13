@@ -295,10 +295,16 @@ section.hero--carousel {
 }
 .hero-body {
   position: relative; z-index: 1;
-  padding-top: 40px;
+  width: 100%;
+  /* 贴左上角：顶部 24px；左缘随视口（桌面约 7vw，窄屏最小 24px），
+     替代旧 .wrap 居中约束——原站文案也是按视口左缘排，不随版面居中。 */
+  padding-top: 24px;
+  padding-inline-start: max(24px, 7vw);
+  padding-inline-end: max(24px, 7vw);
   padding-bottom: 104px;
 }
-.hero-copy { max-width: 720px; }
+/* 文案块整体左上对齐：RTL 语种（ar/he/fa）跟随 html[dir=rtl] 自动镜像。 */
+.hero-copy { max-width: 720px; text-align: start; }
 .hero-eyebrow { color: #fff; opacity: .92; }
 .hero-eyebrow::before { background: currentColor; }
 /* 标题控制在两行内：字号上限收窄 + 行高略紧，避免把 CTA 挤出首屏 */

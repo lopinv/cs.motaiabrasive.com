@@ -118,7 +118,8 @@ const script = `;(function () {
     <div class="hero-scrim" aria-hidden="true"></div>
   </div>
 
-  <div class="wrap hero-body">
+  <!-- 文案区脱离 .wrap 居中约束，按视口比例贴左边（对齐原站：左缘约 7vw） -->
+  <div class="hero-body">
     <div class="hero-copy">
       <span class="eyebrow hero-eyebrow">{h.eyebrow}</span>
       <h1 class="hero-title">{h.heroTitle}</h1>
