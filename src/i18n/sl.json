@@ -203,7 +203,11 @@
     "howTitle": "Kako specifikirati naročilo",
     "howBody": "Vključite dimenzije traku ali diska, seznam zrnitosti, model stroja, material delovnega kosa in količino. Jasna specifikacija nam omogoča preverjanje prileganja in pripravo koristne ponudbe — izdelka ne izberite le po barvi.",
     "faqTitle": "Vprašanja kupcev",
-    "family": "Vrsta izdelka"
+    "family": "Vrsta izdelka",
+    "viewFull": "Prikaži v celotni velikosti",
+    "closeViewer": "Zapri predogled",
+    "prevImg": "Prejšnja slika",
+    "nextImg": "Naslednja slika"
   },
   "about": {
     "h1": "Družba za vrsto brušnih izdelkov",

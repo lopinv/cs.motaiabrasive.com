@@ -203,7 +203,11 @@
     "howTitle": "Come specificare il tuo ordine",
     "howBody": "Includi la misura del nastro o del disco, l'elenco delle grane, il modello di macchina, il materiale del pezzo e la quantità. Una specifica chiara ci aiuta a verificare l'adattabilità e preparare un preventivo utile — evita di scegliere il prodotto basandoti solo sul colore.",
     "faqTitle": "Domande degli acquirenti",
-    "family": "Tipologia di prodotto"
+    "family": "Tipologia di prodotto",
+    "viewFull": "Visualizza a dimensione intera",
+    "closeViewer": "Chiudi visualizzatore",
+    "prevImg": "Immagine precedente",
+    "nextImg": "Immagine successiva"
   },
   "about": {
     "h1": "L'azienda dietro la gamma di abrasivi",

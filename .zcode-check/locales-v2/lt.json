@@ -755,5 +755,9 @@
   "home.catSectionTitle": "Produktų kategorijos",
   "home.catSectionSub": "Keturios eksploatacinių medžiagų linijos, dokumentuotos specifikacijos ir tiesioginis tiekimas iš gamyklos importuotojams, distributoriams ir privačių prekės ženklų klientams.",
   "home.catFlapTitle": "Ažurkite MoTai flap diskus",
-  "home.catFlapDesc": "Flap diskų variantai su plastiko, plieno ir stiklo pluošto pagrindu. Pateikite apdirbamą gaminį, reikiamą skersmenį, granutę ir kiekį, kad gautumėte tinkamą pasiūlymą."
+  "home.catFlapDesc": "Flap diskų variantai su plastiko, plieno ir stiklo pluošto pagrindu. Pateikite apdirbamą gaminį, reikiamą skersmenį, granutę ir kiekį, kad gautumėte tinkamą pasiūlymą.",
+  "productPage.viewFull": "Peržiūrėti pilnu dydžiu",
+  "productPage.closeViewer": "Užverti žiūrėtuvą",
+  "productPage.prevImg": "Ankstesnis vaizdas",
+  "productPage.nextImg": "Kitas vaizdas"
 }

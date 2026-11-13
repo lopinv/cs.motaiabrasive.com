@@ -203,7 +203,11 @@
     "howTitle": "Tilauksen määrittely",
     "howBody": "Ilmoittakaa hihnan tai levyn koko, karkeusluettelo, koneen malli, työstettävän materiaali ja määrä. Selkeä erittely helpottaa soveltuvuuden tarkistamista ja hyödyllisen tarjouksen laatimista — välttäkää tuotteen valintaa ainoastaan värin perusteella.",
     "faqTitle": "Ostajien kysymyksiä",
-    "family": "Tuotetyyppi"
+    "family": "Tuotetyyppi",
+    "viewFull": "Näytä kokokoossa",
+    "closeViewer": "Sulje katselin",
+    "prevImg": "Edellinen kuva",
+    "nextImg": "Seuraava kuva"
   },
   "about": {
     "h1": "Hiomatuotteiden takana oleva yritys",

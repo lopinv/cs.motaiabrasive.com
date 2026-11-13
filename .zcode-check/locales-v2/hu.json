@@ -694,5 +694,9 @@
   "home.catSectionTitle": "Termékkategóriák",
   "home.catSectionSub": "Négy fogyasztócikk-sor, dokumentált specifikációk és gyárból közvetlen beszállítás importőrök, forgalmazók és privát márkák számára.",
   "home.catFlapTitle": "Fedezze fel a MoTai lamellás csiszolótárcsákat",
-  "home.catFlapDesc": "Lamellás csiszolótárcsák műanyag, acél és üvegszál hátlapokkal. A megfelelő ajánlat érdekében adja meg a munkadarabot, a szükséges átmérőt, a szemcseméretet és a mennyiséget."
+  "home.catFlapDesc": "Lamellás csiszolótárcsák műanyag, acél és üvegszál hátlapokkal. A megfelelő ajánlat érdekében adja meg a munkadarabot, a szükséges átmérőt, a szemcseméretet és a mennyiséget.",
+  "productPage.viewFull": "Nézet teljes méretben",
+  "productPage.closeViewer": "Megtekintő bezárása",
+  "productPage.prevImg": "Előző kép",
+  "productPage.nextImg": "Következő kép"
 }

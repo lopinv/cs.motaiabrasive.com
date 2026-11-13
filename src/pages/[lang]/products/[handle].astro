@@ -4,6 +4,7 @@ import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import CtaBand from '../../../components/CtaBand.astro'
+import Lightbox from '../../../components/Lightbox.astro'
 import { products, media, faq as faqData, blog as blogData, relatedMap, faqMap } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -14,6 +15,9 @@ const { lang } = Astro.params
 const ctx = Astro.params
 const { pick, lu, wa, productByHandle, quoteUrlRaw } = usePage(lang)
 const p = productByHandle(ctx.handle)
+// 图集 = 主图 + 去重后的细节图（最多 5 张），供缩略切换与灯箱池共用同一序列。
+const galleryImgs = [p.image, ...new Set((p.gallery ?? []).filter((g) => g !== p.image))].slice(0, 5)
+const lbThumbs = galleryImgs.slice(1)
 const t = pick('meta')
 const pp = pick('productPage')
 const pr = pick('purchasing')
@@ -49,17 +53,21 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
 <Shell lang={lang} seo={seo}>
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/all')}>{pick('nav.products')}</a><span>/</span><span>{p.name}</span></div>
 
-  <section class="section wrap product-detail">
+  <section class="section wrap product-detail" data-group="p">
     <div>
       <div class="gallery">
-        <div class="gallery-main">
-          <img src={media(p.image)} alt={p.name} loading="eager" fetchpriority="high" />
+        <div class="gallery-main lb-trigger" data-full={media(galleryImgs[0])}>
+          <img src={media(galleryImgs[0])} alt={p.name} loading="eager" fetchpriority="high" />
         </div>
-        {(p.gallery ?? []).filter((g) => g !== p.image).slice(0, 4).map((g) => (
-          <div class="gallery-thumbs">
-            <img src={media(g)} alt="" loading="lazy" onerror="this.remove()" />
+        {lbThumbs.length > 0 && (
+          <div class="gallery-thumbs" role="group" aria-label={pick('productPage.viewFull')}>
+            {lbThumbs.map((g, i) => (
+              <a class="gallery-thumb" href={media(g)} data-full={media(g)} aria-label={`${p.name} ${i + 2}`}>
+                <img src={media(g)} alt="" loading="lazy" onerror="this.remove()" />
+              </a>
+            ))}
           </div>
-        ))}
+        )}
       </div>
     </div>
 
@@ -184,4 +192,11 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
   </section>
 
   <CtaBand lang={lang} waContext="product" waVars={{ name: p.name, grits: (p.grits ?? []).slice(0, 2).join('–') }} ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+
+  <Lightbox
+    viewFull={pick('productPage.viewFull')}
+    closeViewer={pick('productPage.closeViewer')}
+    prevImg={pick('productPage.prevImg')}
+    nextImg={pick('productPage.nextImg')}
+  />
 </Shell>

@@ -755,5 +755,9 @@
   "home.catSectionTitle": "Kategorije izdelkov",
   "home.catSectionSub": "Štiri linije potrošnega materiala, dokumentirane specifikacije in dobava neposredno iz tovarne za uvoznike, distributerje in lastne znamke.",
   "home.catFlapTitle": "Raziskujte MoTai lopatne diske",
-  "home.catFlapDesc": "Lopatni diski s podlago iz plastike, jekla in steklene fibre. Posredujte obdelovanec, zahtevani premer, zrnatost in količino za ponudbo po meri."
+  "home.catFlapDesc": "Lopatni diski s podlago iz plastike, jekla in steklene fibre. Posredujte obdelovanec, zahtevani premer, zrnatost in količino za ponudbo po meri.",
+  "productPage.viewFull": "Prikaži v celotni velikosti",
+  "productPage.closeViewer": "Zapri predogled",
+  "productPage.prevImg": "Prejšnja slika",
+  "productPage.nextImg": "Naslednja slika"
 }

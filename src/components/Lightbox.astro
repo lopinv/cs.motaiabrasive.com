@@ -1,0 +1,176 @@
+---
+/**
+ * 通用产品图灯箱 + 图集缩略切换。
+ *
+ * 纯客户端、零第三方依赖：
+ *   - 点击 .gallery-thumb（缩略图）→ 切换同组主图 src 与 data-full
+ *   - 点击 .lb-trigger（主图）→ 打开全屏灯箱，←/→ 在同组 data-full 间切换，
+ *     Esc / 点击遮罩 / 关闭钮退出；键盘可达。
+ * 组由 data-group 标识。无 JS 时缩略图与主图仍正常显示，灯箱降级为不可用（不影响内容）。
+ * 文案（aria-label）由调用方以 props 传入本地化字符串，写入 data 属性供脚本读取。
+ */
+const {
+  viewFull = 'View full size',
+  closeViewer = 'Close viewer',
+  prevImg = 'Previous image',
+  nextImg = 'Next image'
+} = Astro.props
+---
+
+<div
+  class="lightbox"
+  hidden
+  role="dialog"
+  aria-modal="true"
+  data-view-full={viewFull}
+  data-close-viewer={closeViewer}
+  data-prev-img={prevImg}
+  data-next-img={nextImg}
+>
+  <button class="lb-close" type="button" data-lb-close>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button class="lb-arrow lb-prev" type="button" data-lb-prev>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <img class="lb-img" alt="" />
+  <button class="lb-arrow lb-next" type="button" data-lb-next>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+  </button>
+  <p class="lb-hint" aria-hidden="true">←  →</p>
+</div>
+
+<style>
+.lightbox {
+  position: fixed; inset: 0; z-index: var(--z-modal, 100);
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(13, 15, 18, .92);
+  backdrop-filter: blur(4px);
+  animation: lb-in var(--dur, .25s) var(--ease-out, ease-out);
+}
+.lightbox[hidden] { display: none; }
+@keyframes lb-in { from { opacity: 0; } to { opacity: 1; } }
+
+.lb-img {
+  max-width: min(90vw, 1200px);
+  max-height: 82vh;
+  object-fit: contain;
+  border-radius: var(--r-md, 8px);
+  box-shadow: 0 24px 80px rgba(0,0,0,.5);
+  background: transparent;
+}
+.lb-arrow, .lb-close {
+  position: absolute;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.3);
+  background: rgba(255,255,255,.1); color: #fff;
+  cursor: pointer;
+  transition: background var(--dur-fast, .15s) var(--ease-out, ease-out);
+}
+.lb-arrow svg, .lb-close svg { width: 18px; height: 18px; }
+.lb-arrow:hover, .lb-close:hover { background: rgba(255,255,255,.25); }
+.lb-prev { left: 20px; top: 50%; transform: translateY(-50%); }
+.lb-next { right: 20px; top: 50%; transform: translateY(-50%); }
+.lb-close { top: 20px; right: 20px; }
+.lb-arrow[disabled] { opacity: .3; cursor: default; }
+.lb-hint {
+  position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%);
+  margin: 0; font-size: 12px; color: rgba(255,255,255,.55);
+  font-family: var(--font-mono, monospace);
+}
+@media (width <= 640px) {
+  .lb-prev, .lb-next { top: auto; bottom: 56px; transform: none; }
+  .lb-prev { left: 14px; }
+  .lb-next { right: 14px; }
+  .lb-img { max-height: 70vh; }
+}
+</style>
+
+<script>
+  const GROUP = 'data-group'
+  const FULL = 'data-full'
+
+  function openLightbox(img, trigger) {
+    const box = document.querySelector('.lightbox')
+    if (!box) return
+    const group = img.closest(`[${GROUP}]`)
+    const pool = group
+      ? [...group.querySelectorAll(`[${FULL}]`)].map((n) => n.getAttribute(FULL)).filter(Boolean)
+      : [img.getAttribute(FULL)]
+    if (!pool.length) return
+    let idx = Math.max(0, pool.indexOf(trigger?.getAttribute(FULL) ?? img.getAttribute(FULL)))
+    const lbImg = box.querySelector('.lb-img')
+    const prevBtn = box.querySelector('[data-lb-prev]')
+    const nextBtn = box.querySelector('[data-lb-next]')
+    const closeBtn = box.querySelector('[data-lb-close]')
+
+    prevBtn.setAttribute('aria-label', box.dataset.prevImg || 'Previous image')
+    nextBtn.setAttribute('aria-label', box.dataset.nextImg || 'Next image')
+    closeBtn.setAttribute('aria-label', box.dataset.closeViewer || 'Close viewer')
+
+    function render() {
+      lbImg.src = pool[idx]
+      lbImg.alt = img.alt || ''
+      lbImg.setAttribute(FULL, pool[idx])
+      const single = pool.length < 2
+      prevBtn.toggleAttribute('disabled', single)
+      nextBtn.toggleAttribute('disabled', single)
+    }
+    function step(d) {
+      if (pool.length < 2) return
+      idx = (idx + d + pool.length) % pool.length
+      render()
+    }
+    function close() {
+      box.hidden = true
+      document.body.style.overflow = ''
+      window.removeEventListener('keydown', onKey, true)
+      const t = trigger || document.activeElement
+      if (t && typeof t.focus === 'function') t.focus({ preventScroll: true })
+    }
+    function onKey(e) {
+      if (e.key === 'Escape') close()
+      if (e.key === 'ArrowLeft' && !prevBtn.hasAttribute('disabled')) step(-1)
+      if (e.key === 'ArrowRight' && !nextBtn.hasAttribute('disabled')) step(1)
+    }
+
+    prevBtn.onclick = () => step(-1)
+    nextBtn.onclick = () => step(1)
+    closeBtn.onclick = close
+    box.onclick = (e) => { if (e.target === box) close() }
+    window.addEventListener('keydown', onKey, true)
+    document.body.style.overflow = 'hidden'
+    box.hidden = false
+    render()
+    closeBtn.focus({ preventScroll: true })
+  }
+
+  // 页面 DOM 就绪后绑定（Astro 打包的模块脚本在 <head> 执行，早于正文）。
+  function init() {
+    document.querySelectorAll('.lb-trigger').forEach((el) => {
+      if (!el.hasAttribute(FULL)) return
+      el.addEventListener('click', (e) => {
+        e.preventDefault()
+        const img = el.tagName === 'IMG' ? el : el.querySelector('img')
+        openLightbox(img, el)
+      })
+    })
+    document.querySelectorAll('.gallery-thumb').forEach((thumb) => {
+      thumb.addEventListener('click', (e) => {
+        e.preventDefault()
+        const full = thumb.getAttribute(FULL)
+        const group = thumb.closest(`[${GROUP}]`)
+        if (!group || !full) return
+        const main = group.querySelector('.gallery-main')
+        const mainImg = main?.querySelector('img')
+        if (mainImg) mainImg.src = full
+        main?.setAttribute(FULL, full)
+        group.querySelectorAll('.gallery-thumb').forEach((t) => t.classList.toggle('is-active', t === thumb))
+      })
+    })
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, false)
+  else init()
+</script>

@@ -203,7 +203,11 @@
     "howTitle": "Cómo especificar su pedido",
     "howBody": "Incluya el tamaño de la cinta o disco, lista de granos, modelo de máquina, material de la pieza y cantidad. Una especificación clara ayuda a revisar compatibilidad y preparar una cotización útil — no elija un producto solo por color.",
     "faqTitle": "Preguntas de compradores",
-    "family": "Tipo de producto"
+    "family": "Tipo de producto",
+    "viewFull": "Ver a tamaño completo",
+    "closeViewer": "Cerrar visor",
+    "prevImg": "Imagen anterior",
+    "nextImg": "Imagen siguiente"
   },
   "about": {
     "h1": "La empresa detrás de la gama abrasiva",

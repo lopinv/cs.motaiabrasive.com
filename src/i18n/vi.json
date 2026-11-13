@@ -203,7 +203,11 @@
     "howTitle": "Cách nêu đơn hàng của bạn",
     "howBody": "Đưa vào kích thước dây băng hoặc đĩa, danh sách cỡ hạt, mã máy, vật liệu chi tiết gia công và số lượng. Thông số kỹ thuật rõ ràng giúp chúng tôi xem xét độ phù hợp và chuẩn bị báo giá hữu ích — tránh chọn sản phẩm chỉ dựa vào màu sắc.",
     "faqTitle": "Câu hỏi của khách mua",
-    "family": "Loại sản phẩm"
+    "family": "Loại sản phẩm",
+    "viewFull": "Xem kích thước đầy đủ",
+    "closeViewer": "Đóng trình xem",
+    "prevImg": "Hình ảnh trước",
+    "nextImg": "Hình ảnh tiếp theo"
   },
   "about": {
     "h1": "Công ty đứng sau dòng vật liệu mài",

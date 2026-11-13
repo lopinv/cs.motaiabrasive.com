@@ -203,7 +203,11 @@
     "howTitle": "Kaip nurodyti savo užsakymą",
     "howBody": "Įtraukite juostos ar disko dydį, grūdelių sąrašą, mašinos modelį, medžiagą ir kiekį. Aiški specifikacija padeda mums peržiūrėti tinkamumą ir paruošti naudingą kainoraštį — venkite produkto pasirinkimo vien pagal spalvą.",
     "faqTitle": "Nusipirkėjo klausimai",
-    "family": "Produkto tipas"
+    "family": "Produkto tipas",
+    "viewFull": "Peržiūrėti pilnu dydžiu",
+    "closeViewer": "Užverti žiūrėtuvą",
+    "prevImg": "Ankstesnis vaizdas",
+    "nextImg": "Kitas vaizdas"
   },
   "about": {
     "h1": "Įmonė, stovinti už šlifuoskų asortimento",

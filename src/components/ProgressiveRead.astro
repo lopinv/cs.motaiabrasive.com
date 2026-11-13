@@ -1,0 +1,83 @@
+---
+/**
+ * 阅读进度条 + 长文 TOC 滚动高亮。
+ *
+ *  - 顶部 3px 阅读进度条：滚动驱动，sticky header 下方，仅长文页挂载；
+ *  - 侧栏 TOC（.side-toc-list）当前章节高亮：IntersectionObserver 跟踪正文
+ *    h2/h3 锚点，滚动到哪个章节，对应 TOC 项亮起来。
+ *
+ * 纯原生 JS，零依赖；无 JS 时进度条隐藏、TOC 保持普通链接（无降级损失）。
+ * 只在有 toc 链接的文章页渲染（调用方判断），避免短文的无效脚本。
+ */
+const script = `;(function () {
+  function init() {
+    var progress = document.querySelector('[data-read-progress]');
+    var tocList = document.querySelector('.side-toc-list');
+
+    // ---- 阅读进度条 ----
+    if (progress) {
+      var bar = progress.querySelector('.read-progress-bar');
+      var ticking = false;
+      function update() {
+        ticking = false;
+        var doc = document.documentElement;
+        var max = doc.scrollHeight - window.innerHeight;
+        var pct = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+        bar.style.transform = 'scaleX(' + pct + ')';
+      }
+      window.addEventListener('scroll', function () {
+        if (!ticking) { ticking = true; requestAnimationFrame(update); }
+      }, { passive: true });
+      update();
+    }
+
+    // ---- TOC 滚动高亮 ----
+    if (!tocList) return;
+    var links = Array.prototype.slice.call(tocList.querySelectorAll('a[href^="#"]'));
+    if (!links.length) return;
+    var targets = links.map(function (a) {
+      var id = a.getAttribute('href').slice(1);
+      return { id: id, el: document.getElementById(id), link: a };
+    }).filter(function (t) { return t.el; });
+    if (!targets.length) return;
+
+    function setActive(id) {
+      var active = false;
+      for (var i = 0; i < targets.length; i++) {
+        var on = targets[i].id === id;
+        targets[i].link.classList.toggle('is-active', on);
+        if (on) active = true;
+      }
+      if (!active) for (var j = 0; j < targets.length; j++) targets[j].link.classList.remove('is-active');
+    }
+
+    if ('IntersectionObserver' in window) {
+      var visible = {};
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { visible[e.target.id] = e.isIntersecting; });
+        // 取当前可见锚点中最靠上的，作为「当前章节」
+        var cur = null;
+        for (var k = 0; k < targets.length; k++) {
+          if (visible[targets[k].id]) { cur = targets[k].id; break; }
+        }
+        if (cur) setActive(cur);
+      }, { rootMargin: '-96px 0px -60% 0px', threshold: 0 });
+      targets.forEach(function (t) { io.observe(t.el); });
+    }
+    // 点击后即时高亮（不等下一次滚动）
+    links.forEach(function (a) {
+      a.addEventListener('click', function () {
+        setActive(a.getAttribute('href').slice(1));
+      });
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, false);
+  else init();
+})();`
+---
+
+<div class="read-progress" data-read-progress aria-hidden="true">
+  <div class="read-progress-bar"></div>
+</div>
+
+<script is:inline set:html={script} />

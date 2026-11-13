@@ -203,7 +203,11 @@
     "howTitle": "Paano isama ang espesipikasyon ng iyong order",
     "howBody": "Isama ang sukat ng belt o disc, listahan ng grit, model ng makina, materyal ng workpiece, at bili. Ang malinaw na espesipikasyon ay matutugon kung paano suriin ang fit at ipangandaring ang kapaki-pakinabang na quotation - huwag pumili ng produkto gamit ang kulay lamang.",
     "faqTitle": "Mga tanong ng manlilíhok",
-    "family": "Uri ng produkto"
+    "family": "Uri ng produkto",
+    "viewFull": "Tingnan sa buong laki",
+    "closeViewer": "Isara ang panonood",
+    "prevImg": "Nakaraang larawan",
+    "nextImg": "Susunod na larawan"
   },
   "about": {
     "h1": "Ang kompanya sa likod ng saklaw ng abrasive",

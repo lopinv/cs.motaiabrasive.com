@@ -755,5 +755,9 @@
   "home.catSectionTitle": "Mga kategorya ng produkto",
   "home.catSectionSub": "Apat na linya ng consumable na may nakalaang espesipikasyon at direktang supply mula sa pabrika para sa mga importer, distributor, at private-label brand.",
   "home.catFlapTitle": "Tuklasin ang mga flap disc ng MoTai",
-  "home.catFlapDesc": "Mga pagpipilian ng flap disc na may plastic, steel, at fiberglass backing. Ibahagi ang workpiece, kinakailangang diameter, grit, at dami para sa tumutugmang quote."
+  "home.catFlapDesc": "Mga pagpipilian ng flap disc na may plastic, steel, at fiberglass backing. Ibahagi ang workpiece, kinakailangang diameter, grit, at dami para sa tumutugmang quote.",
+  "productPage.viewFull": "Tingnan sa buong laki",
+  "productPage.closeViewer": "Isara ang panonood",
+  "productPage.prevImg": "Nakaraang larawan",
+  "productPage.nextImg": "Susunod na larawan"
 }

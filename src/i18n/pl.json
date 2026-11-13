@@ -203,7 +203,11 @@
     "howTitle": "Jak opisać zamówienie",
     "howBody": "Podajcie rozmiar paska lub tarczy, listę gradacji, model maszyny, materiał obrabotku oraz ilość. Jasna specyfikacja ułatwia ocenę dopasowania i przygotowanie użytecznej wyceny — nie dobierajcie produktu wyłącznie na podstawie koloru.",
     "faqTitle": "Pytania kupujących",
-    "family": "Rodzaj produktu"
+    "family": "Rodzaj produktu",
+    "viewFull": "Pokaż w pełnym rozmiarze",
+    "closeViewer": "Zamknij podgląd",
+    "prevImg": "Poprzednie zdjęcie",
+    "nextImg": "Następne zdjęcie"
   },
   "about": {
     "h1": "Firma stojąca za asortymentem ściernym",

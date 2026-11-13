@@ -755,5 +755,9 @@
   "home.catSectionTitle": "Categorii de produse",
   "home.catSectionSub": "Patru linii de consumabile, specificații documentate și livrare directă din fabrică pentru importatori, distribuitori și branduri cu marcă proprie.",
   "home.catFlapTitle": "Descoperiți discurile cu așchie MoTai",
-  "home.catFlapDesc": "Variante de discuri cu așchie cu suport din plastic, oțel și fibră de sticlă. Trimiteți piesa de prelucrat, diametrul necesar, granulația și cantitatea pentru o ofertă potrivită."
+  "home.catFlapDesc": "Variante de discuri cu așchie cu suport din plastic, oțel și fibră de sticlă. Trimiteți piesa de prelucrat, diametrul necesar, granulația și cantitatea pentru o ofertă potrivită.",
+  "productPage.viewFull": "Vizualizează în dimensiune completă",
+  "productPage.closeViewer": "Închide vizualizatorul",
+  "productPage.prevImg": "Imaginea anterioară",
+  "productPage.nextImg": "Imaginea următoare"
 }

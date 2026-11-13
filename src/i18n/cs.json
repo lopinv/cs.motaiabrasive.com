@@ -203,7 +203,11 @@
     "howTitle": "Jak správně specifikovat objednávku",
     "howBody": "Uveďte rozměr pásu nebo kotouče, seznam zrnitostí, model stroje, materiál obrobku a množství. Jasná specifikace nám pomůže posoudit vhodnost a připravit užitečnou nabídku — nevybírejte výrobek pouze podle barvy.",
     "faqTitle": "Dotazy kupujících",
-    "family": "Typ výrobku"
+    "family": "Typ výrobku",
+    "viewFull": "Zobrazit v plném rozměru",
+    "closeViewer": "Zavřít prohlížeč",
+    "prevImg": "Předchozí obrázek",
+    "nextImg": "Další obrázek"
   },
   "about": {
     "h1": "Společnost stojící za sortimentem brusných materiálů",

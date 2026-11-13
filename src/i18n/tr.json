@@ -203,7 +203,11 @@
     "howTitle": "Siparişinizi nasıl belirtmelisiniz",
     "howBody": "Bant veya disk ölçüsünü, grit listesini, makine modelini, iş parçası malzemesini ve miktarı belirtin. Açık bir teknik özellik, uygunluğu incelememize ve faydalı bir teklif hazırlamamıza yardımcı olur; ürünü yalnızca renge göre seçmeyin.",
     "faqTitle": "Alıcı soruları",
-    "family": "Ürün tipi"
+    "family": "Ürün tipi",
+    "viewFull": "Tam boyutta görüntüle",
+    "closeViewer": "Görüntüleyiciyi kapat",
+    "prevImg": "Önceki görüntü",
+    "nextImg": "Sonraki görüntü"
   },
   "about": {
     "h1": "Aşındırıcı ürün gamının arkasındaki şirket",

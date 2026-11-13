@@ -755,5 +755,9 @@
   "home.catSectionTitle": "Productcategorieën",
   "home.catSectionSub": "Vier verbruikslijnen, gedocumenteerde specificaties en directlevering uit de fabriek voor importeurs, distributeurs en private-labelmerken.",
   "home.catFlapTitle": "Ontdek MoTai-lamellenschijven",
-  "home.catFlapDesc": "Lamellenschijven met drager van kunststof, staal en glasvezel. Deel uw werkstuk, gewenste diameter, korrel en hoeveelheid voor een passende offerte."
+  "home.catFlapDesc": "Lamellenschijven met drager van kunststof, staal en glasvezel. Deel uw werkstuk, gewenste diameter, korrel en hoeveelheid voor een passende offerte.",
+  "productPage.viewFull": "In volledige grootte bekijken",
+  "productPage.closeViewer": "Weergave sluiten",
+  "productPage.prevImg": "Vorige afbeelding",
+  "productPage.nextImg": "Volgende afbeelding"
 }

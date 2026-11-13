@@ -203,7 +203,11 @@
     "howTitle": "Comment spécifier votre commande",
     "howBody": "Indiquez la taille du courrois ou du disque, la liste des grains, le modèle de machine, le matériau de la pièce et la quantité. Une spécification claire nous aide à vérifier l'adéquation et à préparer un devis utile — évitez de choisir un produit uniquement sur sa couleur.",
     "faqTitle": "Questions d'acheteurs",
-    "family": "Type de produit"
+    "family": "Type de produit",
+    "viewFull": "Voir en taille complète",
+    "closeViewer": "Fermer le visionneur",
+    "prevImg": "Image précédente",
+    "nextImg": "Image suivante"
   },
   "about": {
     "h1": "L'entreprise derrière la gamme d'abrasifs",

@@ -203,7 +203,11 @@
     "howTitle": "Kā norādīt savu pasūtījumu",
     "howBody": "Iekļaujiet lentas vai diska izmēru, frūzu sarakstu, mašīnas modeli, darba gabala materiālu un daudzumu. Skaidra specifikācija palīdz mums pārskatīt piemērotību un sagatavot noderīgu piedāvājumu — neizvēlieties produktu, balstoties tikai uz krāsu.",
     "faqTitle": "Pirkēju jautājumi",
-    "family": "Produkta tips"
+    "family": "Produkta tips",
+    "viewFull": "Skatīt pilnā izkārtnē",
+    "closeViewer": "Aizvērt skatītāju",
+    "prevImg": "Iepriekšējais attēls",
+    "nextImg": "Nākamais attēls"
   },
   "about": {
     "h1": "Uzņēmums aiz slīfeņu sērijas",

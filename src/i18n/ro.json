@@ -203,7 +203,11 @@
     "howTitle": "Cum specificați comanda",
     "howBody": "Includeți dimensiunea benzii sau a discului, lista de granulații, modelul mașinii, materialul piesei și cantitatea. O specificație clară ne ajută să verificăm potrivirea și să pregătim o ofertă utilă — nu selectați produsul doar după culoare.",
     "faqTitle": "Întrebări de la cumpărători",
-    "family": "Tip de produs"
+    "family": "Tip de produs",
+    "viewFull": "Vizualizează în dimensiune completă",
+    "closeViewer": "Închide vizualizatorul",
+    "prevImg": "Imaginea anterioară",
+    "nextImg": "Imaginea următoare"
   },
   "about": {
     "h1": "Compania din spatele gamei de abrazivi",

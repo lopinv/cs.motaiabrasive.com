@@ -6,6 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import Prose from '../../../components/Prose.astro'
 import CtaBand from '../../../components/CtaBand.astro'
+import ProgressiveRead from '../../../components/ProgressiveRead.astro'
 import BlogSidebar from '../../../components/BlogSidebar.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
 import { findArticle, allSlugs, allArticles } from '../../../lib/articles.js'
@@ -91,6 +92,9 @@ const showToc = hasSubs || toc.length >= 5
 ---
 
 <Shell lang={lang} seo={seo}>
+  <!-- 长文（有 TOC）才挂阅读进度条 + TOC 滚动高亮；短文不注入无意义脚本 -->
+  {showToc && <ProgressiveRead />}
+
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{title}</span></div>
 
   <div class="section wrap blog-layout">

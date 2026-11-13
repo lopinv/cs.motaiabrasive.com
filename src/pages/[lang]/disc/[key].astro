@@ -5,6 +5,7 @@ import Shell from '../../../components/Shell.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
+import Lightbox from '../../../components/Lightbox.astro'
 import { discViews, products, media, quoteUrlRaw, faqMap } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -39,11 +40,11 @@ const seo = buildSeo(lang, 'disc', { key: d.key }, [
 <Shell lang={lang} seo={seo}>
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/sanding-discs')}>{pick('colt.discs.label')}</a><span>/</span><span>{d.title}</span></div>
 
-  <section class="section wrap product-detail">
+  <section class="section wrap product-detail" data-group="d">
     <div>
       <div class="gallery">
-        <div class="gallery-main">
-          <img src={media(d.image)} alt={d.title} loading="eager" fetchpriority="high" />
+        <div class="gallery-main lb-trigger" data-full={media(d.image)}>
+          <img src={media(d.image)} alt={d.title} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
         </div>
       </div>
     </div>
@@ -124,4 +125,11 @@ const seo = buildSeo(lang, 'disc', { key: d.key }, [
   )}
 
   <CtaBand lang={lang} waContext="disc" waVars={{ title: d.title }} ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+
+  <Lightbox
+    viewFull={pick('productPage.viewFull')}
+    closeViewer={pick('productPage.closeViewer')}
+    prevImg={pick('productPage.prevImg')}
+    nextImg={pick('productPage.nextImg')}
+  />
 </Shell>

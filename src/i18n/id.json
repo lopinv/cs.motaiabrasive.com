@@ -203,7 +203,11 @@
     "howTitle": "Cara menentukan spesifikasi order Anda",
     "howBody": "Sertakan ukuran sabuk atau piringan, daftar grit, model mesin, material benda kerja, dan jumlah. Spesifikasi yang jelas membantu kami meninjau kecocokan dan menyiapkan penawaran yang berguna — hindari memilih produk hanya berdasarkan warna.",
     "faqTitle": "Pertanyaan pembeli",
-    "family": "Jenis produk"
+    "family": "Jenis produk",
+    "viewFull": "Lihat dengan ukuran penuh",
+    "closeViewer": "Tutup penampil",
+    "prevImg": "Gambar sebelumnya",
+    "nextImg": "Gambar berikutnya"
   },
   "about": {
     "h1": "Perusahaan di balik rangkaian abrasif",

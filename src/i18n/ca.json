@@ -203,7 +203,11 @@
     "howTitle": "Com especificar la teva comanda",
     "howBody": "Inclou la mida de la cinta o del disc, la llista de grans, el model de màquina, el material de la peça i la quantitat. Una especificació clara ens ajuda a revisar l'ajust i a preparar un pressupost útil — evita triar un producte només pel color.",
     "faqTitle": "Preguntes de compradors",
-    "family": "Tipus de producte"
+    "family": "Tipus de producte",
+    "viewFull": "Veure en mida completa",
+    "closeViewer": "Tancar el visor",
+    "prevImg": "Imatge anterior",
+    "nextImg": "Imatge següent"
   },
   "about": {
     "h1": "L'empresa darrere de la gamma d'abrasius",

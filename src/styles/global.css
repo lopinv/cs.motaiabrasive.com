@@ -717,10 +717,44 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 
 /* ============ Product detail layout ============ */
 .product-detail { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
-.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.gallery-main { grid-column: 1 / -1; }
+.gallery { display: grid; gap: 8px; }
+.gallery-main {
+  position: relative;
+  cursor: zoom-in;
+}
 .gallery-main img { width: 100%; border-radius: 6px; border: 1px solid var(--line); aspect-ratio: 7/5; object-fit: cover; }
-.gallery-thumbs img { width: 100%; height: 70px; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line); }
+/* 主图 hover 提示「点击放大」，提示灯箱可用 */
+.gallery-main.lb-trigger::after {
+  content: "⊕";
+  position: absolute; inset-block-end: 12px; inset-inline-end: 12px;
+  width: 30px; height: 30px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: rgba(13,15,18,.78); color: #fff;
+  font-size: 16px; line-height: 1;
+  opacity: 0; transform: scale(.9);
+  transition: opacity var(--dur-fast, .15s) var(--ease-out, ease-out), transform var(--dur-fast, .15s) var(--ease-out, ease-out);
+  pointer-events: none;
+}
+.gallery-main.lb-trigger:hover::after { opacity: 1; transform: scale(1); }
+.gallery-thumbs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.gallery-thumb {
+  display: block; overflow: hidden;
+  border-radius: var(--radius, 4px);
+  border: 1px solid var(--line);
+  position: relative;
+  transition: border-color var(--dur-fast, .15s) var(--ease-out, ease-out),
+              box-shadow var(--dur-fast, .15s) var(--ease-out, ease-out);
+}
+.gallery-thumb img { width: 100%; height: 70px; object-fit: cover; display: block; }
+.gallery-thumb:hover { border-color: var(--ink, #16181d); }
+.gallery-thumb.is-active {
+  border-color: var(--accent, #b02a1f);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent, #b02a1f) 35%, transparent);
+}
 .product-tags { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0; }
 .product-tags span { border: 1px solid var(--line); border-radius: 999px; font-size: 11.5px; padding: 4px 12px; color: var(--ink-soft); background: var(--bg-soft); }
 .product-description { color: var(--ink-soft); max-width: 520px; }
@@ -931,6 +965,38 @@ body { padding-bottom: var(--quickbar-h); }
 /* Thumbnail slot on model/disc cards (model & disc reference cards). */
 .model-card-media { margin: 12px 0 4px; border-radius: 4px; overflow: hidden; background: var(--bg-soft); }
 .model-card-media img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+
+/* ============ Reading progress + active TOC ============ */
+/* 顶部阅读进度条：固定在视口顶端、sticky header 之上（header 高约 64–96px，
+   进度条压在 header 顶边），随滚动从 0 到满宽。 */
+.read-progress {
+  position: fixed; inset-block-start: 0; inset-inline: 0;
+  height: 3px; z-index: calc(var(--z-header, 60) + 1);
+  background: transparent;
+  pointer-events: none;
+}
+.read-progress-bar {
+  height: 100%;
+  background: var(--accent);
+  transform-origin: left center;
+  transform: scaleX(0);
+  will-change: transform;
+}
+[dir="rtl"] .read-progress-bar { transform-origin: right center; }
+/* TOC 当前章节高亮 */
+.side-toc-list a.is-active {
+  color: var(--accent);
+  font-weight: 600;
+}
+.side-toc-list a.is-active::before {
+  content: "";
+  display: inline-block;
+  width: 3px; height: 12px;
+  background: var(--accent);
+  margin-inline-end: 6px;
+  vertical-align: -1px;
+  border-radius: 2px;
+}
 
 /* ============ Responsive — 900px and below ============ */
 @media (width <= 900px) {

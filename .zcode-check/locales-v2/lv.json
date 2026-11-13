@@ -755,5 +755,9 @@
   "home.catSectionTitle": "Produktu kategorijas",
   "home.catSectionSub": "Četras patērējamo preču līnijas, dokumentētas specifikācijas un piegāde tieši no rūpnīcas importētājiem, izplatītājiem un savu zīmola ražotājiem.",
   "home.catFlapTitle": "Izpētiet MoTai lāpītes diskus",
-  "home.catFlapDesc": "Lāpītes disku varianti ar plastmasas, tērauda un stikla šķiedras pamatni. Dalinieties ar savu darba gabalu, vajadzīgo diametru, grūdījuma klasi un daudzumu, lai saņemtu atbilstošu piedāvājumu."
+  "home.catFlapDesc": "Lāpītes disku varianti ar plastmasas, tērauda un stikla šķiedras pamatni. Dalinieties ar savu darba gabalu, vajadzīgo diametru, grūdījuma klasi un daudzumu, lai saņemtu atbilstošu piedāvājumu.",
+  "productPage.viewFull": "Skatīt pilnā izkārtnē",
+  "productPage.closeViewer": "Aizvērt skatītāju",
+  "productPage.prevImg": "Iepriekšējais attēls",
+  "productPage.nextImg": "Nākamais attēls"
 }

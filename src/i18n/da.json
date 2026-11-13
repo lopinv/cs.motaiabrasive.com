@@ -203,7 +203,11 @@
     "howTitle": "Sådan specificerer du din ordre",
     "howBody": "Angiv bånd- eller pladestørrelse, kornliste, maskinmodel, arbejdsstykkets materiale og mængde. En klar specifikation hjælper os med at vurdere pasningen og udarbejde et nyttigt tilbud — undgå at vælge et produkt ud fra farve alene.",
     "faqTitle": "Køberspørgsmål",
-    "family": "Produkttype"
+    "family": "Produkttype",
+    "viewFull": "Se i fuld størrelse",
+    "closeViewer": "Luk visningen",
+    "prevImg": "Forrige billede",
+    "nextImg": "Næste billede"
   },
   "about": {
     "h1": "Selskabet bag slibemiddelsortimentet",

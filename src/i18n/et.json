@@ -203,7 +203,11 @@
     "howTitle": "Kuidas tellimus spetsifitseerida",
     "howBody": "Märkige vöö või ketta suurus, teravuste loetelu, masinatrikk, töökeha materjal ja hulk. Selge spetsifikatsioon aitab meil hinnata sobivust ja koostada kasuliku pakkumise — ärge valiku toodet ainult värvi järgi.",
     "faqTitle": "Ostjate küsimused",
-    "family": "Tootetüüp"
+    "family": "Tootetüüp",
+    "viewFull": "Vaata täismõõtuna",
+    "closeViewer": "Sule vaates",
+    "prevImg": "Eelmine pilt",
+    "nextImg": "Järgmine pilt"
   },
   "about": {
     "h1": "Ettevõte, mis seisab libestusainete valiku taga",

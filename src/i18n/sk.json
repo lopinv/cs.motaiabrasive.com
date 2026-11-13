@@ -203,7 +203,11 @@
     "howTitle": "Ako špecifikovať objednávku",
     "howBody": "Uveďte veľkosť pásu alebo kotúča, zoznam zrnitostí, model stroja, materiál obrobku a množstvo. Jasná špecifikácia nám umožní posúdiť vhodnosť a pripraviť užitočnú cenovú ponuku — nevybierajte produkt len podľa farby.",
     "faqTitle": "Otázky kupujúcich",
-    "family": "Typ produktu"
+    "family": "Typ produktu",
+    "viewFull": "Zobraziť v plnej veľkosti",
+    "closeViewer": "Zavrieť prezierač",
+    "prevImg": "Predchádzajúci obrázok",
+    "nextImg": "Nasledujúci obrázok"
   },
   "about": {
     "h1": "Spoločnosť stojaca za sortimentom brúsnych produktov",

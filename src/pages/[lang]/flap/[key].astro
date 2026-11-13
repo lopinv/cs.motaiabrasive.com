@@ -6,6 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
+import Lightbox from '../../../components/Lightbox.astro'
 import { flaps, media, visibleVideos, quoteUrlRaw, faqMap } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -40,10 +41,10 @@ const flapVideo = visibleVideos.find((v) => v.youtubeId && v.line === 'flap')
 <Shell lang={lang} seo={seo}>
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/flap-discs')}>{pick('colt.flap.label')}</a><span>/</span><span>{f.name}</span></div>
 
-  <section class="section wrap product-detail">
+  <section class="section wrap product-detail" data-group="f">
     <div>
       <div class="gallery">
-        <div class="gallery-main">
+        <div class="gallery-main lb-trigger" data-full={media(f.image)}>
           <img src={media(f.image)} alt={f.name} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
         </div>
       </div>

@@ -203,7 +203,11 @@
     "howTitle": "Hogyan állítsa össze a rendelését",
     "howBody": "Adj meg szalag vagy korong méretet, szemcse listát, gép modellét, a feldolgozott anyagot és a mennyiséget. Egy tiszta specifikáció segít nekünk áttekinteni a beilleszthetőséget és hasznos ajánlat elkészítését — kerülje a termék színe alapján történő megválaszhatását.",
     "faqTitle": "Vevői kérdések",
-    "family": "Terméktípus"
+    "family": "Terméktípus",
+    "viewFull": "Nézet teljes méretben",
+    "closeViewer": "Megtekintő bezárása",
+    "prevImg": "Előző kép",
+    "nextImg": "Következő kép"
   },
   "about": {
     "h1": "A csiszolószergamok mögötti cég",

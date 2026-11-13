@@ -6,6 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
+import Lightbox from '../../../components/Lightbox.astro'
 import { sponges, media, spongeByKey, visibleVideos } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -49,10 +50,10 @@ const seo = buildSeo(lang, 'sponge', { key: s.key }, [
 <Shell lang={lang} seo={seo}>
   <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/sanding-sponges')}>{pick('colt.sponge.label')}</a><span>/</span><span>{s.name}</span></div>
 
-  <section class="section wrap product-detail">
+  <section class="section wrap product-detail" data-group="s">
     <div>
       <div class="gallery">
-        <div class="gallery-main">
+        <div class="gallery-main lb-trigger" data-full={media(s.image)}>
           <img src={media(s.image)} alt={s.name} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
         </div>
       </div>
@@ -166,4 +167,11 @@ const seo = buildSeo(lang, 'sponge', { key: s.key }, [
   )}
 
   <CtaBand lang={lang} waContext="factory" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
+
+  <Lightbox
+    viewFull={pick('productPage.viewFull')}
+    closeViewer={pick('productPage.closeViewer')}
+    prevImg={pick('productPage.prevImg')}
+    nextImg={pick('productPage.nextImg')}
+  />
 </Shell>

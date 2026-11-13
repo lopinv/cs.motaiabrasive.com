@@ -203,7 +203,11 @@
     "howTitle": "How to specify your order",
     "howBody": "Include the belt or disc size, grit list, machine model, workpiece material and quantity. A clear specification helps us review fit and prepare a useful quotation — avoid selecting a product using colour alone.",
     "faqTitle": "Buyer questions",
-    "family": "Product type"
+    "family": "Product type",
+    "viewFull": "View full size",
+    "closeViewer": "Close viewer",
+    "prevImg": "Previous image",
+    "nextImg": "Next image"
   },
   "about": {
     "h1": "The company behind the abrasive range",

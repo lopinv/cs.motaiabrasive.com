@@ -203,7 +203,11 @@
     "howTitle": "Kako specifikirati narudžbu",
     "howBody": "Uključite veličinu trake ili diska, popis zrnatosti, model stroja, materijal predmeta obrade i količinu. Jasna specifikacija pomaže nam da provjerimo kompatibilnost i pripremimo korisnu ponudu — izbjegavajte odabir proizvoda samo po boji.",
     "faqTitle": "Pitanja kupaca",
-    "family": "Vrsta proizvoda"
+    "family": "Vrsta proizvoda",
+    "viewFull": "Prikazuj u punoj veličini",
+    "closeViewer": "Zatvori preglednik",
+    "prevImg": "Prethodna slika",
+    "nextImg": "Sljedeća slika"
   },
   "about": {
     "h1": "Tvrtka iza opsega abraziva",

@@ -203,7 +203,11 @@
     "howTitle": "Så här specificerar du din order",
     "howBody": "Inkludera band- eller diskstorlek, kornlista, maskinmodell, arbetsstyckets material och mängd. En tydlig specifikation hjälper oss att granska passningen och förbereda en användbar offert — undvik att välja en produkt enbart utifrån färg.",
     "faqTitle": "Frågor från köpare",
-    "family": "Produkttyp"
+    "family": "Produkttyp",
+    "viewFull": "Visa i full storlek",
+    "closeViewer": "Stäng visaren",
+    "prevImg": "Föregående bild",
+    "nextImg": "Nästa bild"
   },
   "about": {
     "h1": "Företaget bakom slipmedelssortimentet",

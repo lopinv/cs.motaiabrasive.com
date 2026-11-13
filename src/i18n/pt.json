@@ -203,7 +203,11 @@
     "howTitle": "Como especificar o seu pedido",
     "howBody": "Indique a dimensão da fita ou do disco, a lista de grãos, o modelo da máquina, o material da peça e a quantidade. Uma especificação clara ajuda-nos a rever a calagem e preparar um orçamento útil — evite selecionar um produto só pela cor.",
     "faqTitle": "Perguntas de compradores",
-    "family": "Tipo de produto"
+    "family": "Tipo de produto",
+    "viewFull": "Ver em tamanho completo",
+    "closeViewer": "Fechar visualizador",
+    "prevImg": "Imagem anterior",
+    "nextImg": "Próxima imagem"
   },
   "about": {
     "h1": "A empresa por trás da gama de abrasivos",

@@ -203,7 +203,11 @@
     "howTitle": "Hoe specificeert u uw order",
     "howBody": "Vermeld de band- of schijfafmeting, korrellijst, machinemodel, werkstukmateriaal en hoeveelheid. Een duidelijke specificatie helpt ons de pasvorm te beoordelen en een bruikbare offerte op te stellen — kies een product nooit alleen op kleur.",
     "faqTitle": "Vragen van kopers",
-    "family": "Producttype"
+    "family": "Producttype",
+    "viewFull": "In volledige grootte bekijken",
+    "closeViewer": "Weergave sluiten",
+    "prevImg": "Vorige afbeelding",
+    "nextImg": "Volgende afbeelding"
   },
   "about": {
     "h1": "Het bedrijf achter het slijpmiddelassortiment",

@@ -694,5 +694,9 @@
   "home.catSectionTitle": "Tootekategooriad",
   "home.catSectionSub": "Neli tarbikute tooteliini, dokumenteeritud spetsifikatsioonid ja otse tehasest tarnimine importijatele, turustajatele ja oma brändi ettevõtetele.",
   "home.catFlapTitle": "Avastage MoTai lamellketased",
-  "home.catFlapDesc": "Lamellketaste variandid plast-, teras- ja klaaskiud-alusega. Jagage oma töödetail, nõutav läbimõõt, lihvkord ja kogus, et saada sobiv pakkumine."
+  "home.catFlapDesc": "Lamellketaste variandid plast-, teras- ja klaaskiud-alusega. Jagage oma töödetail, nõutav läbimõõt, lihvkord ja kogus, et saada sobiv pakkumine.",
+  "productPage.viewFull": "Vaata täismõõtuna",
+  "productPage.closeViewer": "Sule vaates",
+  "productPage.prevImg": "Eelmine pilt",
+  "productPage.nextImg": "Järgmine pilt"
 }

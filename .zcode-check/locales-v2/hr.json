@@ -694,5 +694,9 @@
   "home.catSectionTitle": "Kategorije proizvoda",
   "home.catSectionSub": "Četiri linije potrošnih materijala, dokumentirane specifikacije i izravna opskrba iz tvornice za uvoznike, distributere i privatne marke.",
   "home.catFlapTitle": "Istražite MoTai lamelne diskove",
-  "home.catFlapDesc": "Opcije lamelnih diskova s plastičnom, čeličnom i staklenovlaknatom podlogom. Podijelite svoj obradak, potrebni promjer, zrnatost i količinu za odgovarajuću ponudu."
+  "home.catFlapDesc": "Opcije lamelnih diskova s plastičnom, čeličnom i staklenovlaknatom podlogom. Podijelite svoj obradak, potrebni promjer, zrnatost i količinu za odgovarajuću ponudu.",
+  "productPage.viewFull": "Prikazuj u punoj veličini",
+  "productPage.closeViewer": "Zatvori preglednik",
+  "productPage.prevImg": "Prethodna slika",
+  "productPage.nextImg": "Sljedeća slika"
 }

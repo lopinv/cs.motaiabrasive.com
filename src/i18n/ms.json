@@ -203,7 +203,11 @@
     "howTitle": "Cara menentukan spesifikasi pesanan Anda",
     "howBody": "Nyatakan saiz tali atau cakera, senarai grit, model mesin, bahan kerja dan kuantiti. Spesifikasi yang jelas membantu kami menilai kesesuaian dan menyediakan sebut harga yang berguna — jangan pilih produk berdasarkan warna sahaja.",
     "faqTitle": "Soalan pembeli",
-    "family": "Jenis produk"
+    "family": "Jenis produk",
+    "viewFull": "Lihat saiz penuh",
+    "closeViewer": "Tutup pengecam",
+    "prevImg": "Imej sebelumnya",
+    "nextImg": "Imej seterusnya"
   },
   "about": {
     "h1": "Syarikat di sebalik julat produk abrasif",

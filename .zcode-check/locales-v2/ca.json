@@ -699,5 +699,9 @@
   "home.catSectionTitle": "Categories de producte",
   "home.catSectionSub": "Quatre línies de consumibles, especificacions documentades i subministrament directe de fàbrica per a importadors, distribuïdors i marques pròpies.",
   "home.catFlapTitle": "Exploreu els discs de llapa de MoTai",
-  "home.catFlapDesc": "Opcions de discs de llapa amb suport de plàstic, acer i fibra de vidre. Indiqueu la peça a treballar, el diàmetre requerit, el gra i la quantitat per obtenir una oferta ajustada."
+  "home.catFlapDesc": "Opcions de discs de llapa amb suport de plàstic, acer i fibra de vidre. Indiqueu la peça a treballar, el diàmetre requerit, el gra i la quantitat per obtenir una oferta ajustada.",
+  "productPage.viewFull": "Veure en mida completa",
+  "productPage.closeViewer": "Tancar el visor",
+  "productPage.prevImg": "Imatge anterior",
+  "productPage.nextImg": "Imatge següent"
 }

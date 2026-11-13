@@ -203,7 +203,11 @@
     "howTitle": "So spezifizieren Sie Ihre Bestellung",
     "howBody": "Geben Sie die Band- oder Scheibengröße, die Körnungsliste, das Maschinenmodell, das Werkstückmaterial und die Menge an. Eine klare Spezifikation hilft uns, die Passform zu prüfen und ein nützliches Angebot vorzubereiten — wählen Sie nicht ausschließlich anhand der Farbe.",
     "faqTitle": "Fragen von Käufern",
-    "family": "Produktart"
+    "family": "Produktart",
+    "viewFull": "In voller Größe anzeigen",
+    "closeViewer": "Betrachter schließen",
+    "prevImg": "Vorheriges Bild",
+    "nextImg": "Nächstes Bild"
   },
   "about": {
     "h1": "Das Unternehmen hinter der Abriebsmittel-Range",
