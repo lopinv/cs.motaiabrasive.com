@@ -136,7 +136,12 @@
     "prepGrit": "Gran",
     "prepGritText": "Grau o acabat desitjat.",
     "prepQty": "Quantitat",
-    "prepQtyText": "Volum estimat i empacament."
+    "prepQtyText": "Volum estimat i empacament.",
+    "videosEyebrow": "MIRA COM PASSA",
+    "videosTitle": "Vídeos de la fàbrica i dels productes",
+    "videosSub": "Línees de producció, controls de qualitat i embalatge filmats a la nostra planta de Xianning, Hubei — després pregunteu per l'especificació que heu vist.",
+    "videosCta": "Veure els {count} vídeos",
+    "videosCta2": "Mira la pàgina de fabricació"
   },
   "purchasing": {
     "eyebrow1": "Orientació per a la compra",

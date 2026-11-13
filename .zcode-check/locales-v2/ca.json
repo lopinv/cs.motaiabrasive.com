@@ -638,7 +638,11 @@
   "tdk.privacy.keywords": "política de privadesa, MoTai",
   "tdk.terms.title": "Condicions d'ús — MoTai Abrasives",
   "tdk.terms.description": "Condicions d'aquest lloc B2B d'abrasius: gestió de les consultes, preus basats en pressupost, propietat intel·lectual i llei aplicable.",
-  "tdk.terms.keywords": ["condicions d'ús","MoTai","subministrador d'abrasius B2B"],
+  "tdk.terms.keywords": [
+    "condicions d'ús",
+    "MoTai",
+    "subministrador d'abrasius B2B"
+  ],
   "tdk.shipping.title": "Política d'enviament i devolucions — Comandes d'abrasius | MoTai",
   "tdk.shipping.description": "Política d'enviament i de devolucions d'abrasius de MoTai: termini de producció, empacament d'exportació, Incoterms, documents duaners, expedició i quan es poden tornar o acreditar productes fets sota especificació.",
   "tdk.shipping.keywords": "política d'enviament d'abrasius, política de devolucions d'abrasius, lliurament d'abrasius a l'engrossista, Incoterms d'abrasius, empacament d'exportació, condicions d'enviament",
@@ -677,5 +681,10 @@
   "tdk.colt.all.keywords": "productes abrasius, productes abrasius a l'engrossista, abrasius industrials, abrasius revestits, abrasius a l'engrossista, fàbrica de productes abrasius, exportador de productes abrasius, subministrador d'abrasius a la Xina, fabricant OEM d'abrasius, abrasius de marca pròpia, productes abrasius a mida, subministrament d'abrasius en grans quantitats, fàbrica d'abrasius, eines abrasives, materials abrasius, productes d'escarrassament, productes d'acabat de superfícies, paper d'escarrassar, fulls de paper d'escarrassar, paper d'escarrassar rodó, paper d'escarrassar a l'engrossista, placa d'escarrassar, placa d'escarrassar de velcro, placa d'escarrassar de 5 polzades, placa d'escarrassar de 6 polzades, esmoló de flocs de no teixit, tela abrasiva, escombraixa industrial de roler",
   "quickBar.label": "Contacte ràpid",
   "quickBar.whatsapp": "WhatsApp",
-  "quickBar.quote": "Demana un pressupost"
+  "quickBar.quote": "Demana un pressupost",
+  "home.videosEyebrow": "MIRA COM PASSA",
+  "home.videosTitle": "Vídeos de la fàbrica i dels productes",
+  "home.videosSub": "Línees de producció, controls de qualitat i embalatge filmats a la nostra planta de Xianning, Hubei — després pregunteu per l'especificació que heu vist.",
+  "home.videosCta": "Veure els {count} vídeos",
+  "home.videosCta2": "Mira la pàgina de fabricació"
 }
