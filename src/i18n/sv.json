@@ -141,7 +141,20 @@
     "videosTitle": "Filmer om fabriken och produkterna",
     "videosSub": "Produktionslinjer, kvalitetskontroller och packning filmade i vår anläggning i Xianning, Hubei — fråga sedan oss om den specifikation du såg.",
     "videosCta": "Visa alla {count} filmer",
-    "videosCta2": "Se sidan om tillverkningen"
+    "videosCta2": "Se sidan om tillverkningen",
+    "heroAlt1": "Slipbandskonverteringslinje i MoTai-fabriken",
+    "heroAlt2": "Produktionsverkstad för sliprullar hos MoTai",
+    "heroAlt3": "MoTai-fabrikens utsida i Xianning, Hubei",
+    "heroTagWood": "Trä",
+    "heroTagMetal": "Metall",
+    "heroTagAuto": "Bilindustri",
+    "heroTrust1": "Direktleverans från fabriken",
+    "heroTrust2": "OEM-anpassning tillgänglig",
+    "heroTrust3": "Exportstöd",
+    "catSectionTitle": "Produktkategorier",
+    "catSectionSub": "Fyra förbruksproduktslinjer, dokumenterade specifikationer och direktleverans från fabriken till importörer, distributörer och egna märken.",
+    "catFlapTitle": "Utforska MoTai slipecirklar",
+    "catFlapDesc": "Slipecirklar med bärmaterial i plast, stål och glasfiber. Ange ditt arbetsstycke, önskad diameter, korn och antal för ett anpassat offert."
   },
   "purchasing": {
     "eyebrow1": "Inköpsstöd",

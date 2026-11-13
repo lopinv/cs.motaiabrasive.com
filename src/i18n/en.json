@@ -141,7 +141,20 @@
     "videosTitle": "Factory & product videos",
     "videosSub": "Production lines, quality checks and packing filmed in our Xianning, Hubei plant — then ask about the specification you saw.",
     "videosCta": "View all {count} videos",
-    "videosCta2": "Watch the manufacturing page"
+    "videosCta2": "Watch the manufacturing page",
+    "heroAlt1": "Abrasive belt converting line in the MoTai factory",
+    "heroAlt2": "Abrasive roll production workshop at MoTai",
+    "heroAlt3": "MoTai factory exterior in Xianning, Hubei",
+    "heroTagWood": "Wood",
+    "heroTagMetal": "Metal",
+    "heroTagAuto": "Automotive",
+    "heroTrust1": "Factory-direct supply",
+    "heroTrust2": "OEM customization available",
+    "heroTrust3": "Export support",
+    "catSectionTitle": "Product categories",
+    "catSectionSub": "Four consumable lines, documented specifications and factory-direct supply for importers, distributors and private-label brands.",
+    "catFlapTitle": "Explore MoTai Flap Discs",
+    "catFlapDesc": "Flap disc options in plastic, steel and fiberglass backing. Share your workpiece, required diameter, grit and quantity for a matched quotation."
   },
   "purchasing": {
     "eyebrow1": "Purchasing guidance",

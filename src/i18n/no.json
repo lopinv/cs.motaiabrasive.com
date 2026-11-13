@@ -141,7 +141,20 @@
     "videosTitle": "Videoer fra fabrikken og om produktene",
     "videosSub": "Produksjonslinjer, kvalitetskontroll og pakking filmet i fabrikken vår i Xianning, Hubei — spør deretter om spesifikasjonen du så.",
     "videosCta": "Se alle {count} videoer",
-    "videosCta2": "Se produksjonssiden"
+    "videosCta2": "Se produksjonssiden",
+    "heroAlt1": "Slibebåndkonverteringslinje i MoTai-fabrikken",
+    "heroAlt2": "Produksjonsverksted for sliperuller hos MoTai",
+    "heroAlt3": "Utvendig visning av MoTai-fabrikken i Xianning, Hubei",
+    "heroTagWood": "Tre",
+    "heroTagMetal": "Metall",
+    "heroTagAuto": "Bilindustri",
+    "heroTrust1": "Direkte levering fra fabrikken",
+    "heroTrust2": "OEM-tilpasning tilgjengelig",
+    "heroTrust3": "Eksportstøtte",
+    "catSectionTitle": "Produktkategorier",
+    "catSectionSub": "Fire forbrukslinjer, dokumenterte spesifikasjoner og direkte levering fra fabrikken for importører, distributører og private merker.",
+    "catFlapTitle": "Utforsk MoTai-flapdisker",
+    "catFlapDesc": "Flapdisker med underlag i plast, stål og glassfiber. Del emnet, ønsket diameter, korn og mengde for et tilpasset tilbud."
   },
   "purchasing": {
     "eyebrow1": "Innkjøpsveiledning",

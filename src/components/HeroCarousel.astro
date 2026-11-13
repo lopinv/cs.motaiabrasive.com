@@ -1,0 +1,190 @@
+---
+/**
+ * Hero 轮播：工厂实拍全屏背景 + 遮罩 + 左侧白色文案 + 底部信任点 + 标签带。
+ *
+ * 结构对齐原站首页（motai-factory-carousel）：
+ *   - 3 张工厂实拍图循环轮播，图片铺满整屏，渐变遮罩保证白色文字可读
+ *   - 上一张 / 下一张 / 暂停控制（键盘可达，ARIA 完整）
+ *   - 进度指示器（点），可点击直达
+ *   - 底部标签带（WOOD · METAL · AUTOMOTIVE）与 3 个信任点
+ *
+ * 无 JS 时：仅显示第一张图（其余隐藏），文案与 CTA 仍完全可用。
+ * 轮播脚本用 IntersectionObserver 起停，页面不可见时不占用 CPU。
+ */
+import { TRANSLATIONS } from '../lib/i18n.js'
+import { quoteUrl, waLink, localizedUrl } from '../lib/utils.js'
+import homeData from '../data/home.json'
+
+const { lang } = Astro.props
+const tr = TRANSLATIONS[lang]
+const h = tr.home
+const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+const hero = homeData.hero
+const slides = hero.slides
+const tags = hero.tags.map((k) => pick(k)).filter(Boolean)
+const trust = hero.trust.map((t) => ({ icon: t.icon, label: pick(t.labelKey) })).filter((t) => t.label)
+
+const script = `;(function () {
+  function init() {
+    var root = document.querySelector('[data-hero-carousel]');
+    if (!root) return;
+    var slides = root.querySelectorAll('[data-hero-slide]');
+    if (slides.length < 2) return;
+    var dots = root.querySelectorAll('[data-hero-dot]');
+    var prev = root.querySelector('[data-hero-prev]');
+    var next = root.querySelector('[data-hero-next]');
+    var pause = root.querySelector('[data-hero-pause]');
+    var counter = root.querySelector('[data-hero-counter]');
+    var idx = 0;
+    var timer = null;
+    var DELAY = 6000;
+
+    function show(n) {
+      idx = (n + slides.length) % slides.length;
+      for (var i = 0; i < slides.length; i++) {
+        var on = i === idx;
+        slides[i].classList.toggle('is-active', on);
+        slides[i].setAttribute('aria-hidden', on ? 'false' : 'true');
+      }
+      for (var j = 0; j < dots.length; j++) {
+        var active = j === idx;
+        dots[j].setAttribute('aria-selected', active ? 'true' : 'false');
+        dots[j].classList.toggle('is-active', active);
+      }
+      if (counter) counter.textContent = (idx + 1) + '–' + slides.length;
+    }
+
+    function start() {
+      stop();
+      timer = setInterval(function () { show(idx + 1); }, DELAY);
+      if (pause) pause.setAttribute('aria-pressed', 'false');
+    }
+    function stop() {
+      if (timer) clearInterval(timer);
+      timer = null;
+      if (pause) pause.setAttribute('aria-pressed', 'true');
+    }
+    function toggle() { if (timer) { stop(); } else { start(); } }
+
+    if (next) next.addEventListener('click', function () { show(idx + 1); start(); });
+    if (prev) prev.addEventListener('click', function () { show(idx - 1); start(); });
+    if (pause) pause.addEventListener('click', toggle);
+    for (var k = 0; k < dots.length; k++) {
+      (function (n) {
+        dots[n].addEventListener('click', function () { show(n); start(); });
+      })(k);
+    }
+    document.addEventListener('keydown', function (e) {
+      if (!root.contains(document.activeElement)) return;
+      if (e.key === 'ArrowRight') { show(idx + 1); start(); }
+      if (e.key === 'ArrowLeft') { show(idx - 1); start(); }
+    });
+
+    show(0);
+    start();
+    // 页面滚出视口时停播，回到视口继续
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        for (var e of entries) {
+          if (e.isIntersecting) { if (!timer) start(); }
+          else stop();
+        }
+      }, { threshold: 0.25 }).observe(root);
+    }
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) stop();
+      else if (!timer) start();
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, false);
+  else init();
+})();`
+---
+
+<section class="hero hero--carousel" data-hero-carousel aria-roledescription="carousel" aria-label={h.heroTitle}>
+  <div class="hero-slides">
+    {slides.map((s, i) => (
+      <div class:list={['hero-slide', { 'is-active': i === 0 }]} data-hero-slide aria-hidden={i === 0 ? 'false' : 'true'}>
+        <img
+          class="hero-slide-img"
+          src={s.image}
+          alt={pick(s.altKey) ?? ''}
+          loading={i === 0 ? 'eager' : 'lazy'}
+          fetchpriority={i === 0 ? 'high' : 'auto'}
+          decoding="async"
+        />
+      </div>
+    ))}
+    <div class="hero-scrim" aria-hidden="true"></div>
+  </div>
+
+  <div class="wrap hero-body">
+    <div class="hero-copy">
+      <span class="eyebrow hero-eyebrow">{h.eyebrow}</span>
+      <h1 class="hero-title">{h.heroTitle}</h1>
+      <p class="hero-sub">{h.heroSub}</p>
+      <div class="hero-cta">
+        <a class="button button--accent" href={localizedUrl(lang, '/collections/all')}>
+          {h.cta1} <span aria-hidden="true">↗</span>
+        </a>
+        <a class="button button--ghost" href={quoteUrl()} target="_blank" rel="noopener nofollow">
+          {h.cta2} <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      {trust.length > 0 && (
+        <ul class="hero-trust">
+          {trust.map((t) => (
+            <li class="hero-trust-item">
+              <span class="hero-trust-icon" aria-hidden="true">
+                {t.icon === 'factory' && (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20V9l-6 4V9l-6 4V4H2v16Z"/></svg>
+                )}
+                {t.icon === 'oem' && (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg>
+                )}
+                {t.icon === 'export' && (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>
+                )}
+              </span>
+              <span>{t.label}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </div>
+
+  <div class="hero-controls">
+    <div class="wrap hero-controls-inner">
+      {tags.length > 0 && (
+        <p class="hero-tags" aria-hidden="true">{tags.join(' · ')}</p>
+      )}
+      <div class="hero-nav">
+        <span class="hero-counter" data-hero-counter>1–{slides.length}</span>
+        <div class="hero-dots" role="tablist" aria-label={h.heroTitle}>
+          {slides.map((_, i) => (
+            <button
+              type="button"
+              class:list={['hero-dot', { 'is-active': i === 0 }]}
+              data-hero-dot
+              role="tab"
+              aria-selected={i === 0 ? 'true' : 'false'}
+              aria-label={`${h.heroTitle} ${i + 1}`}
+            ></button>
+          ))}
+        </div>
+        <button type="button" class="hero-arrow" data-hero-prev aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button type="button" class="hero-arrow" data-hero-next aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <button type="button" class="hero-pause" data-hero-pause aria-pressed="false" aria-label={h.videosCta2}>
+          <svg class="hero-pause-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script is:inline set:html={script} />

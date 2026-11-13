@@ -141,7 +141,20 @@
     "videosTitle": "Videi tvornice i proizvoda",
     "videosSub": "Proizvodne linije, kontrole kvalitete i pakiranje — snimljeno u našem postrojenju u Xianningu, Hubei. Zatim nas pitajte o specifikaciji koju ste vidjeli.",
     "videosCta": "Prikaži svih {count} videa",
-    "videosCta2": "Pogledaj stranicu proizvodnje"
+    "videosCta2": "Pogledaj stranicu proizvodnje",
+    "heroAlt1": "Linija za konverziju abrazivnih traka u tvornici MoTai",
+    "heroAlt2": "Radionica za proizvodnju abrazivnih rolova u tvornici MoTai",
+    "heroAlt3": "Vanjski izgled tvornice MoTai u Xianningu, u pokrajini Hubei",
+    "heroTagWood": "Drvo",
+    "heroTagMetal": "Metal",
+    "heroTagAuto": "Automobilska industrija",
+    "heroTrust1": "Izravna opskrba iz tvornice",
+    "heroTrust2": "OEM prilagodba dostupna",
+    "heroTrust3": "Podrška za izvoz",
+    "catSectionTitle": "Kategorije proizvoda",
+    "catSectionSub": "Četiri linije potrošnih materijala, dokumentirane specifikacije i izravna opskrba iz tvornice za uvoznike, distributere i privatne marke.",
+    "catFlapTitle": "Istražite MoTai lamelne diskove",
+    "catFlapDesc": "Opcije lamelnih diskova s plastičnom, čeličnom i staklenovlaknatom podlogom. Podijelite svoj obradak, potrebni promjer, zrnatost i količinu za odgovarajuću ponudu."
   },
   "purchasing": {
     "eyebrow1": "Smjernice za nabavu",

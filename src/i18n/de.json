@@ -141,7 +141,20 @@
     "videosTitle": "Fabrik- und Produktvideos",
     "videosSub": "Produktionslinien, Qualitätsprüfungen und Verpackung, aufgenommen in unserem Werk in Xianning, Hubei – fragen Sie anschließend die gesehene Spezifikation an.",
     "videosCta": "Alle {count} Videos ansehen",
-    "videosCta2": "Fertigungsseite ansehen"
+    "videosCta2": "Fertigungsseite ansehen",
+    "heroAlt1": "Schleifband-Konvertierlinie im MoTai-Werk",
+    "heroAlt2": "Herstellungswerkstatt für Schleifrollen bei MoTai",
+    "heroAlt3": "Außenansicht des MoTai-Werks in Xianning, Hubei",
+    "heroTagWood": "Holz",
+    "heroTagMetal": "Metall",
+    "heroTagAuto": "Automobilbau",
+    "heroTrust1": "Direktbezug ab Werk",
+    "heroTrust2": "OEM-Anpassung möglich",
+    "heroTrust3": "Exportunterstützung",
+    "catSectionTitle": "Produktkategorien",
+    "catSectionSub": "Vier Verbrauchsproduktlinien, dokumentierte Spezifikationen und Direktbezug ab Werk für Importeure, Distributoren und Private-Label-Anbieter.",
+    "catFlapTitle": "MoTai-Flap-Scheiben entdecken",
+    "catFlapDesc": "Flap-Scheiben mit Kunststoff-, Stahl- und Glasfaser-Träger. Teilen Sie uns Ihr Werkstück, den gewünschten Durchmesser, die Körnung und die Menge mit, damit wir Ihnen ein passendes Angebot erstellen können."
   },
   "purchasing": {
     "eyebrow1": "Einkaufsleitung",

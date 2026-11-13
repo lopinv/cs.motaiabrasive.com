@@ -141,7 +141,20 @@
     "videosTitle": "Vidéos d'usine et de produits",
     "videosSub": "Lignes de production, contrôles qualité et conditionnement filmés dans notre usine de Xianning, au Hubei — puis interrogez-nous sur la spécification que vous avez vue.",
     "videosCta": "Voir les {count} vidéos",
-    "videosCta2": "Voir la page Fabrication"
+    "videosCta2": "Voir la page Fabrication",
+    "heroAlt1": "Ligne de conversion de bandes abrasives dans l'usine MoTai",
+    "heroAlt2": "Atelier de production de rouleaux abrasifs chez MoTai",
+    "heroAlt3": "Extérieur de l'usine MoTai à Xianning, Hubei",
+    "heroTagWood": "Bois",
+    "heroTagMetal": "Métal",
+    "heroTagAuto": "Automobile",
+    "heroTrust1": "Approvisionnement direct usine",
+    "heroTrust2": "Personnalisation OEM disponible",
+    "heroTrust3": "Support à l'exportation",
+    "catSectionTitle": "Catégories de produits",
+    "catSectionSub": "Quatre lignes de consommables, des spécifications documentées et un approvisionnement direct usine pour les importateurs, les distributeurs et les marques en marque propre.",
+    "catFlapTitle": "Découvrez les flap discs MoTai",
+    "catFlapDesc": "Options de flap discs avec support en plastique, en acier ou en fibre de verre. Partagez votre pièce à traiter, le diamètre requis, le grain et la quantité pour recevoir un devis adapté."
   },
   "purchasing": {
     "eyebrow1": "Aide à l'achat",

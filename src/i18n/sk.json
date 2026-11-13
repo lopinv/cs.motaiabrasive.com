@@ -141,7 +141,20 @@
     "videosTitle": "Videá z fabriky a o produktoch",
     "videosSub": "Výrobné linky, kontroly kvality a balenie natočené v našom závode v Xiànningu v provincii Chubei — a potom sa opýtajte na špecifikáciu, ktorú ste videli.",
     "videosCta": "Zobraziť všetky videá ({count})",
-    "videosCta2": "Pozrieť stránku o výrobe"
+    "videosCta2": "Pozrieť stránku o výrobe",
+    "heroAlt1": "Výrobná linka na prevádzku brúsnych pásov v závode MoTai",
+    "heroAlt2": "Výrobná dielňa brúsnych rolí v MoTai",
+    "heroAlt3": "Exteriér závodu MoTai v Xianningu v provincii Hubei",
+    "heroTagWood": "Drevo",
+    "heroTagMetal": "Kov",
+    "heroTagAuto": "Automobilový priemysel",
+    "heroTrust1": "Dodávka priamo zo závodu",
+    "heroTrust2": "Možné prispôsobenie pre OEM",
+    "heroTrust3": "Podpora vývozu",
+    "catSectionTitle": "Produktové kategórie",
+    "catSectionSub": "Štyri línie spotrebného materiálu, zdokumentované špecifikácie a dodávka priamo zo závodu pre dovozcov, distribútorov a značky s vlastnou značkou.",
+    "catFlapTitle": "Preskúmať kotúče typu flap značky MoTai",
+    "catFlapDesc": "Kotúče typu flap s podložkou z plastu, ocele a skleneného vlákna. Uveďte obrobok, požadovaný priemer, zrnitosť a množstvo a získate ponuku na mieru."
   },
   "purchasing": {
     "eyebrow1": "Nákupné poradenstvo",

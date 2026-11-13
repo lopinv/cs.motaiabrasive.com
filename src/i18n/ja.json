@@ -141,7 +141,20 @@
     "videosTitle": "工場・製品動画",
     "videosSub": "Xianning、Hubei の自社工場で撮影した生産ライン・品質検査・梱包の様子です。映像で確認した仕様について、そのままお問い合わせください。",
     "videosCta": "全 {count} 本の動画を見る",
-    "videosCta2": "製造工程のページを見る"
+    "videosCta2": "製造工程のページを見る",
+    "heroAlt1": "MoTai工場の研磨ベルト加工ライン",
+    "heroAlt2": "MoTaiの研磨ロール生産工場",
+    "heroAlt3": "湖北省咸寧市のMoTai工場外観",
+    "heroTagWood": "木材",
+    "heroTagMetal": "金属",
+    "heroTagAuto": "自動車",
+    "heroTrust1": "工場直販",
+    "heroTrust2": "OEMカスタマイズ対応",
+    "heroTrust3": "輸出サポート",
+    "catSectionTitle": "製品カテゴリ",
+    "catSectionSub": "輸入業者、ディストリビューター、私的ブランド向けに、消耗品4シリーズ、記録された仕様書、工場直販を提供します。",
+    "catFlapTitle": "MoTaiのフラップディスクを見る",
+    "catFlapDesc": "プラスチック、鋼、ガラス繊維ベースのフラップディスクに対応しています。加工対象、必要な径、粒度、数量をお知らせいただければ、最適な見積書をお送りします。"
   },
   "purchasing": {
     "eyebrow1": "調達ガイド",

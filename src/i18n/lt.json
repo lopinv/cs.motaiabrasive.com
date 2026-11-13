@@ -141,7 +141,20 @@
     "videosTitle": "Gamyklos ir produktų vaizdo įrašai",
     "videosSub": "Gamintojos linijos, kokybės kontrolė ir pakuotė, fiksuotos mūsų gamykloje Xianning mieste (Hubei provincija) — o tada klauskite apie specifikaciją, kurią matėte.",
     "videosCta": "Žiūrėti visus {count} vaizdo įrašus",
-    "videosCta2": "Žiūrėti gamybos puslapį"
+    "videosCta2": "Žiūrėti gamybos puslapį",
+    "heroAlt1": "Šlifavimo diržų konversijos linija MoTai gamykloje",
+    "heroAlt2": "Šlifavimo ritinių gamybos cechas MoTai",
+    "heroAlt3": "MoTai gamyklos pastatas Hubei provincijoje, Xianning mieste",
+    "heroTagWood": "Medis",
+    "heroTagMetal": "Metalas",
+    "heroTagAuto": "Automobiliai",
+    "heroTrust1": "Tiesioginis tiekimas iš gamyklos",
+    "heroTrust2": "Galima OEM individualizacija",
+    "heroTrust3": "Eksporto parama",
+    "catSectionTitle": "Produktų kategorijos",
+    "catSectionSub": "Keturios eksploatacinių medžiagų linijos, dokumentuotos specifikacijos ir tiesioginis tiekimas iš gamyklos importuotojams, distributoriams ir privačių prekės ženklų klientams.",
+    "catFlapTitle": "Ažurkite MoTai flap diskus",
+    "catFlapDesc": "Flap diskų variantai su plastiko, plieno ir stiklo pluošto pagrindu. Pateikite apdirbamą gaminį, reikiamą skersmenį, granutę ir kiekį, kad gautumėte tinkamą pasiūlymą."
   },
   "purchasing": {
     "eyebrow1": "Pirkimo gairės",

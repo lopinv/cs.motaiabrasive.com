@@ -141,7 +141,20 @@
     "videosTitle": "Fabrika ve ürün videoları",
     "videosSub": "Hubei Xianning tesisimizde çekilen üretim hatları, kalite kontrolleri ve paketleme — ardından gördüğünüz spesifikasyonu sorun.",
     "videosCta": "Tüm {count} videoyu görüntüleyin",
-    "videosCta2": "Üretim sayfasını izleyin"
+    "videosCta2": "Üretim sayfasını izleyin",
+    "heroAlt1": "Zımpara bandı dönüşüm hattı MoTai fabrikasında",
+    "heroAlt2": "MoTai'de zımpara rulo üretim atölyesi",
+    "heroAlt3": "Hubei, Xianning'de MoTai fabrikasının dış görünümü",
+    "heroTagWood": "Ahşap",
+    "heroTagMetal": "Metal",
+    "heroTagAuto": "Otomotiv",
+    "heroTrust1": "Fabrika üzerinden doğrudan tedarik",
+    "heroTrust2": "OEM özelleştirme mevcut",
+    "heroTrust3": "İhracat desteği",
+    "catSectionTitle": "Ürün kategorileri",
+    "catSectionSub": "İthalatçılar, distribütörler ve özel markalar için dört sarf malzemesi hattı, belgelenmiş teknik özellikler ve fabrikadan doğrudan tedarik.",
+    "catFlapTitle": "MoTai flap disklerini keşfedin",
+    "catFlapDesc": "Plastik, çelik ve cam elyaf tabanlı flap disk seçenekleri. Uygun teklif için iş parçanızı, gerekli çapı, grit değerini ve miktarı paylaşın."
   },
   "purchasing": {
     "eyebrow1": "Satın alma rehberi",

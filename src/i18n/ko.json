@@ -141,7 +141,20 @@
     "videosTitle": "공장·제품 영상",
     "videosSub": "Hubei, Xianning 공장에서 촬영한 생산 라인, 품질 검사, 포장 장면입니다. 영상에서 확인한 규격으로 바로 문의하세요.",
     "videosCta": "영상 {count}개 전체 보기",
-    "videosCta2": "제조 공정 페이지 보기"
+    "videosCta2": "제조 공정 페이지 보기",
+    "heroAlt1": "모타이 공장의 연마 벨트 가공 라인",
+    "heroAlt2": "모타이의 연마 롤 생산 작업장",
+    "heroAlt3": "후베이성닝시 모타이 공장 외관",
+    "heroTagWood": "목재",
+    "heroTagMetal": "금속",
+    "heroTagAuto": "자동차",
+    "heroTrust1": "공장 직송 공급",
+    "heroTrust2": "OEM 맞춤 제작 가능",
+    "heroTrust3": "수출 지원",
+    "catSectionTitle": "제품 카테고리",
+    "catSectionSub": "수입업체, 유통업체 및 자체 브랜드를 위해 소모품 4개 라인, 문서화된 사양, 공장 직송 공급을 제공합니다.",
+    "catFlapTitle": "모타이 플랩 디스크 살펴보기",
+    "catFlapDesc": "플라스틱, 강, 유리섬유 베이스 플랩 디스크를 제공합니다. 가공물, 필요한 지름, 입도 및 수량을 알려주시면 적합한 견적을 제공해 드립니다."
   },
   "purchasing": {
     "eyebrow1": "구매 가이드",

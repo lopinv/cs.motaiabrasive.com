@@ -141,7 +141,20 @@
     "videosTitle": "Video di fabbrica e prodotto",
     "videosSub": "Linee di produzione, controlli qualità e imballaggio ripresi nel nostro impianto di Xianning, Hubei — poi chiedici la specifica che hai visto.",
     "videosCta": "Guarda tutti i {count} video",
-    "videosCta2": "Guarda la pagina di produzione"
+    "videosCta2": "Guarda la pagina di produzione",
+    "heroAlt1": "Linea di conversione di cinture abrasive nello stabilimento MoTai",
+    "heroAlt2": "Laboratorio di produzione di rotoli abrasivi presso MoTai",
+    "heroAlt3": "Esterno dello stabilimento MoTai a Xianning, Hubei",
+    "heroTagWood": "Legno",
+    "heroTagMetal": "Metallo",
+    "heroTagAuto": "Autoveicoli",
+    "heroTrust1": "Fornitura diretta dalla fabbrica",
+    "heroTrust2": "Personalizzazione OEM disponibile",
+    "heroTrust3": "Supporto alle esportazioni",
+    "catSectionTitle": "Categorie di prodotto",
+    "catSectionSub": "Quattro linee di consumabili, specifiche documentate e fornitura diretta dalla fabbrica per importatori, distributori e marchi private label.",
+    "catFlapTitle": "Scopri i Flap Disc MoTai",
+    "catFlapDesc": "Opzioni di flap disc con supporto in plastica, acciaio e fibra di vetro. Condividi il tuo pezzo da lavorare, il diametro richiesto, la grana e la quantità per ricevere un'offerta su misura."
   },
   "purchasing": {
     "eyebrow1": "Guida all'acquisto",

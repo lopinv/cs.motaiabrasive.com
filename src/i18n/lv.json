@@ -141,7 +141,20 @@
     "videosTitle": "Rūpnīcas un produkta videoklipi",
     "videosSub": "Ražošanas līnijās, kvalitātes kontroles un uzpakošanas process, filmu Xianning, Hubēja rūpnīcā — pēc tam jautājiet par redzamo specifikāciju.",
     "videosCta": "Skatīt visus {count} videoklipus",
-    "videosCta2": "Skatīt ražošanas lapu"
+    "videosCta2": "Skatīt ražošanas lapu",
+    "heroAlt1": "Slīfeņlentes pārstrādes līnija MoTai rūpnīcā",
+    "heroAlt2": "Slīfeņu rulonu ražošanas cehs MoTai",
+    "heroAlt3": "MoTai rūpnīcas ārejais skats Xianningā, Hubējā",
+    "heroTagWood": "Koks",
+    "heroTagMetal": "Metāls",
+    "heroTagAuto": "Automobilindustrija",
+    "heroTrust1": "Piegāde tieši no rūpnīcas",
+    "heroTrust2": "Pieejama OEM pielāgošana",
+    "heroTrust3": "Eksporta atbalsts",
+    "catSectionTitle": "Produktu kategorijas",
+    "catSectionSub": "Četras patērējamo preču līnijas, dokumentētas specifikācijas un piegāde tieši no rūpnīcas importētājiem, izplatītājiem un savu zīmola ražotājiem.",
+    "catFlapTitle": "Izpētiet MoTai lāpītes diskus",
+    "catFlapDesc": "Lāpītes disku varianti ar plastmasas, tērauda un stikla šķiedras pamatni. Dalinieties ar savu darba gabalu, vajadzīgo diametru, grūdījuma klasi un daudzumu, lai saņemtu atbilstošu piedāvājumu."
   },
   "purchasing": {
     "eyebrow1": "Iepirkuma vadlīnijas",

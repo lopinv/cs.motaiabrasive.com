@@ -261,6 +261,216 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 .breadcrumb a:hover { color: var(--ink); }
 .breadcrumb span { margin: 0 8px; color: var(--muted); }
 
+/* ============ Hero（工厂实拍全屏轮播） ============ */
+/* 结构对齐原站首页 motai-factory-carousel：图片铺满 → 遮罩 → 左侧文案 →
+   底部信任点 + 标签带 + 轮播控制。无 JS 时只显示第一张。 */
+.hero--carousel {
+  position: relative;
+  isolation: isolate;
+  padding: 0;
+  background: var(--ink-900);
+  border-bottom: none;
+  /* 高度由内容驱动：顶部留出导航空间，底部留出控制条空间，
+     保证 CTA 与控制条同处首屏。 */
+  min-height: min(calc(100vh - 132px), 700px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero-slides { position: absolute; inset: 0; z-index: 0; }
+.hero-slide {
+  position: absolute; inset: 0;
+  opacity: 0;
+  transition: opacity .9s var(--ease-in-out);
+}
+.hero-slide.is-active { opacity: 1; }
+.hero-slide-img { width: 100%; height: 100%; object-fit: cover; }
+/* 双层遮罩：左侧更暗保证文案对比度，底部收暗托住控制条 */
+.hero-scrim {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(100deg, rgba(13,15,18,.86) 0%, rgba(13,15,18,.62) 42%, rgba(13,15,18,.22) 72%, rgba(13,15,18,.08) 100%),
+    linear-gradient(to top, rgba(13,15,18,.72) 0%, rgba(13,15,18,0) 42%);
+}
+.hero-body {
+  position: relative; z-index: 1;
+  padding-top: clamp(88px, 12vh, 132px);
+  padding-bottom: 104px;
+}
+.hero-copy { max-width: 720px; }
+.hero-eyebrow { color: #fff; opacity: .92; }
+.hero-eyebrow::before { background: currentColor; }
+/* 标题控制在两行内：字号上限收窄 + 行高略紧，避免把 CTA 挤出首屏 */
+.hero--carousel .hero-title {
+  color: #fff;
+  font-size: clamp(34px, 4.2vw, 52px);
+  line-height: 1.12;
+  margin-bottom: 18px;
+  max-width: 22ch;
+  text-shadow: 0 2px 24px rgba(13,15,18,.45);
+}
+.hero--carousel .hero-sub {
+  color: rgba(255,255,255,.88);
+  font-size: clamp(15px, 1.4vw, 17px);
+  max-width: 540px;
+  margin: 0 0 26px;
+}
+.hero--carousel .hero-cta { gap: 14px; }
+/* 深底上的按钮变体 */
+.button--accent { background: var(--accent); border-color: var(--accent); color: #fff; }
+.button--accent:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
+.button--ghost {
+  background: rgba(255,255,255,.1);
+  border-color: rgba(255,255,255,.55);
+  color: #fff;
+  backdrop-filter: blur(4px);
+}
+.button--ghost:hover { background: #fff; border-color: #fff; color: var(--ink-800); }
+
+/* 信任点（工厂直供 / OEM / 出口支持） */
+.hero-trust {
+  list-style: none; margin: 34px 0 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 14px 30px;
+}
+.hero-trust-item {
+  display: inline-flex; align-items: center; gap: 9px;
+  font-size: 13.5px; font-weight: 500; color: rgba(255,255,255,.9);
+}
+.hero-trust-icon { display: inline-flex; color: #fff; flex: 0 0 auto; }
+.hero-trust-icon svg { width: 17px; height: 17px; }
+
+/* 底部控制条：标签带 + 计数 + 圆点 + 箭头 + 暂停
+   抬到全局吸底条（--quickbar-h）之上，避免被遮住。 */
+.hero-controls {
+  position: absolute; inset-inline: 0; bottom: var(--quickbar-h); z-index: 2;
+  border-top: 1px solid rgba(255,255,255,.16);
+  background: rgba(13,15,18,.28);
+  backdrop-filter: blur(6px);
+}
+.hero-controls-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 20px; min-height: 72px; flex-wrap: wrap;
+}
+.hero-tags {
+  margin: 0; font-size: 11px; letter-spacing: .24em; text-transform: uppercase;
+  color: rgba(255,255,255,.7); font-weight: 600;
+}
+.hero-nav { display: flex; align-items: center; gap: 12px; }
+.hero-counter {
+  font-size: 12.5px; color: rgba(255,255,255,.75);
+  font-variant-numeric: tabular-nums; margin-inline-end: 4px;
+}
+.hero-dots { display: flex; align-items: center; gap: 7px; }
+.hero-dot {
+  width: 9px; height: 9px; padding: 0; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.55);
+  background: transparent; cursor: pointer;
+  transition: background var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.hero-dot:hover { background: rgba(255,255,255,.4); }
+.hero-dot.is-active { background: #fff; transform: scale(1.25); }
+.hero-arrow, .hero-pause {
+  width: 38px; height: 38px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%; cursor: pointer;
+  border: 1px solid rgba(255,255,255,.34);
+  background: rgba(255,255,255,.08); color: #fff;
+  transition: background var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+}
+.hero-arrow svg, .hero-pause svg { width: 16px; height: 16px; }
+.hero-arrow:hover, .hero-pause:hover { background: rgba(255,255,255,.2); border-color: rgba(255,255,255,.6); }
+.hero-arrow:disabled { opacity: .35; cursor: default; }
+.hero-arrow--dark {
+  border-color: var(--line-strong); background: var(--bg); color: var(--ink-700);
+}
+.hero-arrow--dark:hover { background: var(--ink-800); border-color: var(--ink-800); color: #fff; }
+
+/* ============ 应用场景轮播 ============ */
+.section--scenes { padding-bottom: 56px; }
+.scene-root { overflow: hidden; }
+.scene-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 1fr);
+  gap: var(--gutter);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 6px;
+  /* 滚动条隐藏（保留滚动能力），与箭头导航一致 */
+  scrollbar-width: none;
+}
+.scene-track::-webkit-scrollbar { display: none; }
+.scene-card {
+  scroll-snap-align: start;
+  display: grid; gap: 12px;
+  border-radius: var(--r-md); overflow: hidden;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
+}
+.scene-card:hover { transform: translateY(-4px); box-shadow: var(--sh-md); border-color: var(--ink-200); }
+.scene-frame { display: block; aspect-ratio: 16/10; overflow: hidden; background: var(--bg-soft); }
+.scene-frame img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--dur-slow) var(--ease-out); }
+.scene-card:hover .scene-frame img { transform: scale(1.05); }
+.scene-title {
+  padding: 0 16px 16px;
+  font-size: var(--fs-md); font-weight: 700; color: var(--ink-800);
+}
+.scene-nav { display: flex; align-items: center; gap: 10px; }
+
+/* ============ 首页产品分类区块 ============ */
+.section--cat { padding-top: 72px; }
+.cat-list { display: grid; gap: var(--sp-16); }
+.cat-block {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: clamp(28px, 4vw, 56px);
+  align-items: center;
+  padding: clamp(24px, 3vw, 40px);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--bg);
+  transition: box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
+}
+.cat-block:hover { box-shadow: var(--sh-md); border-color: var(--ink-200); }
+/* 偶数块左右对调，形成杂志式节奏 */
+.cat-block--flip .cat-copy { order: 2; }
+.cat-block--flip .cat-media { order: 1; }
+.cat-copy { min-width: 0; }
+.cat-copy h3 { font-size: clamp(21px, 2.4vw, 28px); margin-bottom: 12px; }
+.cat-desc { color: var(--text-soft); margin: 0 0 20px; max-width: 560px; }
+.cat-sizes, .cat-links { list-style: none; margin: 0 0 20px; padding: 0; }
+.cat-sizes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.cat-sizes a {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  border: 1px solid var(--line); border-radius: var(--r-md);
+  padding: 10px 14px; font-size: 13.5px; font-weight: 600;
+  color: var(--ink-700); background: var(--bg-soft);
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+.cat-sizes a:hover { border-color: var(--accent); color: var(--accent); }
+.cat-links { display: grid; gap: 6px; }
+.cat-links a {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 14px; font-weight: 600; color: var(--ink-700);
+}
+.cat-links a:hover { color: var(--accent); }
+.cat-thumbs { list-style: none; margin: 0 0 20px; padding: 0; display: flex; gap: 8px; flex-wrap: wrap; }
+.cat-thumbs li { width: 62px; }
+.cat-thumbs img {
+  width: 62px; height: 62px; object-fit: cover;
+  border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--bg-soft);
+}
+.cat-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.cat-media {
+  position: relative; overflow: hidden;
+  border-radius: var(--r-md);
+  aspect-ratio: 4/3;
+  background: linear-gradient(135deg, var(--brand-500), var(--brand-900));
+}
+.cat-media img { width: 100%; height: 100%; object-fit: cover; }
+
 /* ============ Hero ============ */
 .hero { padding: 96px 0 72px; background: var(--bg-soft); border-bottom: 1px solid var(--line); }
 .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; }
@@ -743,6 +953,12 @@ body { padding-bottom: var(--quickbar-h); }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .glossary-dl { grid-template-columns: 1fr; }
 
+  /* 首页分类区块：单列堆叠，flip 不再反转顺序 */
+  .cat-block { grid-template-columns: 1fr; gap: 24px; }
+  .cat-block--flip .cat-copy { order: 1; }
+  .cat-block--flip .cat-media { order: 2; }
+  .scene-track { grid-auto-columns: minmax(220px, 1fr); }
+
   /* header → hamburger */
   .motai-nav-row { flex-wrap: wrap; gap: 8px; }
   .motai-nav-row > .motai-main-nav { display: none; }
@@ -812,4 +1028,23 @@ body { padding-bottom: var(--quickbar-h); }
   /* Quick bar fills the width on small screens; buttons grow to fit labels. */
   .quickbar { gap: 8px; padding: 0 10px; }
   .quickbar-link { flex: 1 1 0; min-width: 0; padding: 9px 12px; font-size: 13px; }
+
+  /* Hero 轮播：手机端缩短高度，控制条只留必要控件 */
+  .hero--carousel { min-height: 70vh; }
+  .hero-body { padding-top: 72px; padding-bottom: 112px; }
+  .hero-controls-inner { min-height: 62px; gap: 12px; }
+  .hero-tags { display: none; }
+  .hero-counter { display: none; }
+  .cat-sizes { grid-template-columns: 1fr; }
+  .cat-block { padding: 20px; }
+}
+
+/* ============ Reduced motion ============
+   尊重系统「减弱动态效果」设置：关闭轮播自动播放与进场动效。 */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hero-slide { transition: none; }
+  .scene-card, .scene-frame img { transition: none; }
+  .scene-card:hover { transform: none; }
+  .scene-card:hover .scene-frame img { transform: none; }
 }

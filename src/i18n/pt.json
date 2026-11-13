@@ -141,7 +141,20 @@
     "videosTitle": "Vídeos da fábrica e dos produtos",
     "videosSub": "Linhas de produção, controlos de qualidade e embalagem filmados na nossa fábrica em Xianning, Hubei — depois consulte a especificação que viu.",
     "videosCta": "Ver os {count} vídeos",
-    "videosCta2": "Ver a página de fabricação"
+    "videosCta2": "Ver a página de fabricação",
+    "heroAlt1": "Linha de conversão de bandas abrasivas na fábrica MoTai",
+    "heroAlt2": "Oficina de produção de rolos abrasivos da MoTai",
+    "heroAlt3": "Fachada da fábrica MoTai em Xianning, Hubei",
+    "heroTagWood": "Madeira",
+    "heroTagMetal": "Metal",
+    "heroTagAuto": "Automotivo",
+    "heroTrust1": "Fornecimento direto da fábrica",
+    "heroTrust2": "Personalização OEM disponível",
+    "heroTrust3": "Suporte à exportação",
+    "catSectionTitle": "Categorias de produtos",
+    "catSectionSub": "Quatro linhas de consumíveis, especificações documentadas e fornecimento direto da fábrica para importadores, distribuidores e marcas próprias.",
+    "catFlapTitle": "Explore os flap discs da MoTai",
+    "catFlapDesc": "Opções de flap disc em suporte de plástico, aço e fibra de vidro. Compartilhe sua peça, diâmetro requerido, grão e quantidade para uma cotação correspondente."
   },
   "purchasing": {
     "eyebrow1": "Orientação de compra",

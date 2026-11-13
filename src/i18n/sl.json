@@ -141,7 +141,20 @@
     "videosTitle": "Videoposnetki iz tovarne in o izdelkih",
     "videosSub": "Proizvodne linije, kontrole kakovosti in pakiranje, posneti v naši tovarni v Xianningu v provinci Hubei — nato pa povprašajte po specifikaciji, ki ste jo videli.",
     "videosCta": "Poglej vse videoposnetke ({count})",
-    "videosCta2": "Poglej stran o proizvodnji"
+    "videosCta2": "Poglej stran o proizvodnji",
+    "heroAlt1": "Linija za obdelavo brušnih trakov v tovarni MoTai",
+    "heroAlt2": "Delavnica za proizvodnjo brušnih zvitkov pri MoTai",
+    "heroAlt3": "Zunanji pogled na tovarno MoTai v Xianningu, Hubei",
+    "heroTagWood": "Les",
+    "heroTagMetal": "Kovina",
+    "heroTagAuto": "Avtomobilska industrija",
+    "heroTrust1": "Dobava neposredno iz tovarne",
+    "heroTrust2": "Na voljo prilagoditev za OEM",
+    "heroTrust3": "Podpora za izvoz",
+    "catSectionTitle": "Kategorije izdelkov",
+    "catSectionSub": "Štiri linije potrošnega materiala, dokumentirane specifikacije in dobava neposredno iz tovarne za uvoznike, distributerje in lastne znamke.",
+    "catFlapTitle": "Raziskujte MoTai lopatne diske",
+    "catFlapDesc": "Lopatni diski s podlago iz plastike, jekla in steklene fibre. Posredujte obdelovanec, zahtevani premer, zrnatost in količino za ponudbo po meri."
   },
   "purchasing": {
     "eyebrow1": "Smernice za nakup",

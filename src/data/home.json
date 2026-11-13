@@ -1,0 +1,103 @@
+{
+  "_comment": "首页数据：Hero 轮播、应用场景实拍图、产品分类区块。图片均为源站 CDN 远程资源（不下载到本地）。i18n 键必须存在于 src/i18n/en.json。",
+  "hero": {
+    "slides": [
+      {
+        "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-belt-converting-hero-v25.jpg",
+        "altKey": "home.heroAlt1"
+      },
+      {
+        "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-workshop-hero-v25.jpg",
+        "altKey": "home.heroAlt2"
+      },
+      {
+        "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-factory-exterior-hero-v25.jpg",
+        "altKey": "home.heroAlt3"
+      }
+    ],
+    "tags": ["home.heroTagWood", "home.heroTagMetal", "home.heroTagAuto"],
+    "trust": [
+      { "icon": "factory", "labelKey": "home.heroTrust1" },
+      { "icon": "oem", "labelKey": "home.heroTrust2" },
+      { "icon": "export", "labelKey": "home.heroTrust3" }
+    ]
+  },
+  "scenes": [
+    {
+      "titleKey": "apps.metal.title",
+      "link": "/collections/flap-discs",
+      "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-application-metal-real-1600.jpg?v=1794206413&width=800"
+    },
+    {
+      "titleKey": "apps.wood.title",
+      "link": "/collections/sanding-discs",
+      "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-application-wood-real-1600.jpg?v=1794206426&width=800"
+    },
+    {
+      "titleKey": "apps.auto.title",
+      "link": "/collections/sanding-discs",
+      "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-application-auto-real-1600.jpg?v=1794206438&width=800"
+    },
+    {
+      "titleKey": "apps.stainless.title",
+      "link": "/collections/all",
+      "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-application-stainless-real-1600.jpg?v=1794206469&width=800"
+    },
+    {
+      "titleKey": "apps.ship.title",
+      "link": "/collections/flap-discs",
+      "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-application-marine-real-1600.jpg?v=1794206481&width=800"
+    },
+    {
+      "titleKey": "apps.surface.title",
+      "link": "/collections/all",
+      "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-application-surface-real-1600.jpg?v=1794206493&width=800"
+    }
+  ],
+  "categories": [
+    {
+      "key": "belts",
+      "labelKey": "colt.belts.label",
+      "titleKey": "colt.belts.title",
+      "descKey": "colt.belts.desc",
+      "href": "/collections/abrasive-belts",
+      "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-gxk-51-model.jpg?v=1792227974&width=900",
+      "items": [
+        { "titleKey": "colt.belts.title", "href": "/collections/abrasive-belts" },
+        { "titleKey": "colt.discs.title", "href": "/collections/sanding-discs" },
+        { "titleKey": "colt.flap.title", "href": "/collections/flap-discs" },
+        { "titleKey": "colt.sponge.title", "href": "/collections/sanding-sponges" }
+      ]
+    },
+    {
+      "key": "flap",
+      "labelKey": "colt.flap.label",
+      "titleKey": "home.catFlapTitle",
+      "descKey": "home.catFlapDesc",
+      "href": "/collections/flap-discs",
+      "image": "https://www.motaiabrasive.com/cdn/shop/files/motai-flap-home-reference-1.png?v=1793192288&width=900",
+      "gallery": [
+        "https://www.motaiabrasive.com/cdn/shop/files/motai-flap-home-reference-1.png?v=1793192288&width=600",
+        "https://www.motaiabrasive.com/cdn/shop/files/motai-flap-home-reference-2.png?v=1793192298&width=600",
+        "https://www.motaiabrasive.com/cdn/shop/files/motai-flap-home-reference-3.png?v=1793192309&width=600",
+        "https://www.motaiabrasive.com/cdn/shop/files/motai-flap-home-reference-4.png?v=1793192330&width=600"
+      ]
+    },
+    {
+      "key": "sponge",
+      "labelKey": "colt.sponge.label",
+      "titleKey": "colt.sponge.title",
+      "descKey": "colt.sponge.desc",
+      "href": "/collections/sanding-sponges",
+      "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-flexible-sanding-sponge-pads-range.jpg?v=1794209447&width=1200"
+    },
+    {
+      "key": "discs",
+      "labelKey": "colt.discs.label",
+      "titleKey": "colt.discs.title",
+      "descKey": "colt.discs.desc",
+      "href": "/collections/sanding-discs",
+      "image": "https://cdn.shopify.com/s/files/1/1004/8870/8415/files/motai-new-disc-gold-8-20261029.jpg?v=20261029&width=900"
+    }
+  ]
+}

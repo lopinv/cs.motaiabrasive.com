@@ -9,6 +9,9 @@ import SectionHeading from '../SectionHeading.astro'
 import LocationBlock from '../LocationBlock.astro'
 import BlogHomeArticles from '../BlogHomeArticles.astro'
 import HomeVideos from '../HomeVideos.astro'
+import HeroCarousel from '../HeroCarousel.astro'
+import SceneCarousel from '../SceneCarousel.astro'
+import ProductCategorySection from '../ProductCategorySection.astro'
 
 const { lang, latestArticles = [] } = Astro.props
 const tr = TRANSLATIONS[lang]
@@ -19,36 +22,14 @@ const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
 const wa = (ctx, vars) => waLink(lang, ctx, vars)
 ---
 
-<!-- HERO -->
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <span class="eyebrow">{h.eyebrow}</span>
-      <h1>{h.heroTitle}</h1>
-      <p class="hero-sub">{h.heroSub}</p>
-      <div class="hero-cta">
-        <a class="button" href={quoteUrl()} target="_blank" rel="noopener nofollow">{h.cta1} <span aria-hidden="true">↗</span></a>
-        <a class="button outline dark-outline" href={wa('generic')} target="_blank" rel="noopener nofollow">{h.cta2}</a>
-      </div>
-    </div>
-    <div class="hero-figure">
-      <img src={media('belt-533-75')} alt={tr.colt.belts.label} loading="eager" fetchpriority="high" />
-    </div>  </div>
-</section>
+<!-- HERO: full-bleed factory photo carousel -->
+<HeroCarousel lang={lang} />
 
-<!-- APPLICATIONS CAROUSEL -->
-<section class="section wrap">
-  <SectionHeading no="01" eyebrow={h.builtTitle} title={h.builtTitle} sub={h.builtSub} />
-  <div class="grid grid-3">
-    {appData.map((a) => (
-      <a class="value-card" href={localizedUrl(lang, `/applications/${a.slug}`)}>
-        <span class="vno">{a.no}</span>
-        <h3>{pick(a.titleKey)}</h3>
-        <p>{pick(a.introKey)}</p>
-      </a>
-    ))}
-  </div>
-</section>
+<!-- APPLICATIONS SCENES: real process photography, horizontal carousel -->
+<SceneCarousel lang={lang} />
+
+<!-- PRODUCT CATEGORIES: belts / flap / sponges / discs, each with real imagery -->
+<ProductCategorySection lang={lang} />
 
 <!-- BELT MODELS SHOWCASE -->
 <section class="section wrap section--soft">

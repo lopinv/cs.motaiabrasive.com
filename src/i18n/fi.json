@@ -141,7 +141,20 @@
     "videosTitle": "Tehtaan ja tuotteiden videot",
     "videosSub": "Tuotantolinjoja, laaduntarkastuksia ja pakkausta kuvattu Xianningissä, Hubeissa sijaitsevassa tehtaassamme — kysykää sen jälkeen siitä määrittelystä, jonka näitte.",
     "videosCta": "Katso kaikki {count} videota",
-    "videosCta2": "Katso valmistussivu"
+    "videosCta2": "Katso valmistussivu",
+    "heroAlt1": "Hiomahihnan muuntolinja MoTain tehtaassa",
+    "heroAlt2": "Hiomarullien tuotantopaja MoTain tehtaassa",
+    "heroAlt3": "MoTain tehtaan ulkoasu Xianningissa, Hubeissa",
+    "heroTagWood": "Puu",
+    "heroTagMetal": "Metalli",
+    "heroTagAuto": "Autoteollisuus",
+    "heroTrust1": "Suora toimitus tehtaalta",
+    "heroTrust2": "OEM-räätälöinti saatavilla",
+    "heroTrust3": "Vientituki",
+    "catSectionTitle": "Tuoteluokat",
+    "catSectionSub": "Neljä kulutustuotelinjaa, dokumentoituja erittelyjä ja suora toimitus tehtaalta tuontijoille, jakelijoille ja oma brändin yrityksille.",
+    "catFlapTitle": "Tutustu MoTai:n lamellilevyihin",
+    "catFlapDesc": "Lamellilevyjen vaihtoehdot muovilla, teräksellä ja lasikuidulla alustalla. Kerrotaan työstettävä kappale, haluttu halkaisija, lihvukarkeus ja määrä, niin saat vaatimuksiin vastaavan tarjouksen."
   },
   "purchasing": {
     "eyebrow1": "Hankintaohje",

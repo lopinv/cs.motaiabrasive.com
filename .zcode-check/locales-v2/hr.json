@@ -240,7 +240,16 @@
   "applications.reqNote": "Orijentacijske obitelji proizvoda za ovo područje. Veličine, zrnatosti i količine potvrđuju se ponudom.",
   "applications.specTitle": "Savjeti za specifikaciju",
   "applications.faqTitle": "Česta pitanja",
-  "applications.faqs": [{"q":"S kojom zrnatosti treba početi?","a":"Počnite od materijala predmeta obrade, dubine defekta i tražene završne obrade — grublji razred brže skida materijal, zatim se korak po korak prelazi na sitnije zrnatosti i na svakoj fazi provjerava se površina."},{"q":"Mogu li u jednoj narudžbi miješati zrnatosti?","a":"Može — navedite zrnatosti i količinu po razredu; dostupnost i rok isporuke vrati se s ponudom."}],
+  "applications.faqs": [
+    {
+      "q": "S kojom zrnatosti treba početi?",
+      "a": "Počnite od materijala predmeta obrade, dubine defekta i tražene završne obrade — grublji razred brže skida materijal, zatim se korak po korak prelazi na sitnije zrnatosti i na svakoj fazi provjerava se površina."
+    },
+    {
+      "q": "Mogu li u jednoj narudžbi miješati zrnatosti?",
+      "a": "Može — navedite zrnatosti i količinu po razredu; dostupnost i rok isporuke vrati se s ponudom."
+    }
+  ],
   "applications.ctaTitle": "Specificirate za svoje područje?",
   "applications.cta1": "Zatražite ponudu za veleprodaju",
   "applications.cta2": "Kontaktirajte putem WhatsAppa",
@@ -629,7 +638,11 @@
   "tdk.privacy.keywords": "politika privatnosti, MoTai",
   "tdk.terms.title": "Uvjeti korištenja — MoTai Abrasives",
   "tdk.terms.description": "Uvjeti za ovu B2B stranicu za abrazive: obrada upita, cijene prema ponudi, intelektualno vlasništvo i nadležno pravo.",
-  "tdk.terms.keywords": ["uvjeti korištenja","MoTai","B2B dobavljač abraziva"],
+  "tdk.terms.keywords": [
+    "uvjeti korištenja",
+    "MoTai",
+    "B2B dobavljač abraziva"
+  ],
   "tdk.shipping.title": "Politika dostave i povrata — narudžbe za abrazive | MoTai",
   "tdk.shipping.description": "MoTai politika dostave i povrata za abrazive: rokovi proizvodnje, izvozno pakiranje, Incoterms, carinski dokumenti, slanje i slučajevi povrata ili krediranja robe po specifikaciji.",
   "tdk.shipping.keywords": "politika dostave za abrazive, politika povrata za abrazive, veleprodajna dostava za abrazive, Incoterms za abrazive, izvozno pakiranje, uvjeti dostave",
@@ -668,5 +681,18 @@
   "tdk.colt.all.keywords": "abrazivni proizvodi, veleprodaja za abrazive, industrijski abrazivi, obloženi abrazivi, vlastiti brend za abrazive, velike količine za abrazive, tvornica za abrazive, alat za abrazive",
   "quickBar.label": "Brzi kontakt",
   "quickBar.whatsapp": "WhatsApp",
-  "quickBar.quote": "Zatraži ponudu"
+  "quickBar.quote": "Zatraži ponudu",
+  "home.heroAlt1": "Linija za konverziju abrazivnih traka u tvornici MoTai",
+  "home.heroAlt2": "Radionica za proizvodnju abrazivnih rolova u tvornici MoTai",
+  "home.heroAlt3": "Vanjski izgled tvornice MoTai u Xianningu, u pokrajini Hubei",
+  "home.heroTagWood": "Drvo",
+  "home.heroTagMetal": "Metal",
+  "home.heroTagAuto": "Automobilska industrija",
+  "home.heroTrust1": "Izravna opskrba iz tvornice",
+  "home.heroTrust2": "OEM prilagodba dostupna",
+  "home.heroTrust3": "Podrška za izvoz",
+  "home.catSectionTitle": "Kategorije proizvoda",
+  "home.catSectionSub": "Četiri linije potrošnih materijala, dokumentirane specifikacije i izravna opskrba iz tvornice za uvoznike, distributere i privatne marke.",
+  "home.catFlapTitle": "Istražite MoTai lamelne diskove",
+  "home.catFlapDesc": "Opcije lamelnih diskova s plastičnom, čeličnom i staklenovlaknatom podlogom. Podijelite svoj obradak, potrebni promjer, zrnatost i količinu za odgovarajuću ponudu."
 }

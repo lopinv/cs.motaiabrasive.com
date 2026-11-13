@@ -141,7 +141,20 @@
     "videosTitle": "工厂与产品视频",
     "videosSub": "我们在湖北咸宁工厂实拍的生产线、质检与包装过程——看到心仪的规格，随时询价。",
     "videosCta": "查看全部 {count} 个视频",
-    "videosCta2": "观看制造工艺页面"
+    "videosCta2": "观看制造工艺页面",
+    "heroAlt1": "墨泰磨料工厂砂带转换生产线",
+    "heroAlt2": "墨泰磨料卷材生产车间",
+    "heroAlt3": "湖北咸宁墨泰磨料工厂外景",
+    "heroTagWood": "木材",
+    "heroTagMetal": "金属",
+    "heroTagAuto": "汽车",
+    "heroTrust1": "工厂直供",
+    "heroTrust2": "支持 OEM 定制",
+    "heroTrust3": "出口支持",
+    "catSectionTitle": "产品分类",
+    "catSectionSub": "四条耗材产品线、规格参数均有文档记录，并为进口商、分销商与自有品牌提供工厂直供。",
+    "catFlapTitle": "了解墨泰磨料百叶片",
+    "catFlapDesc": "百叶片可选塑料、钢材与玻纤背基。请提供工件、所需直径、粒度与数量，我们将为您匹配报价。"
   },
   "purchasing": {
     "eyebrow1": "采购指引",

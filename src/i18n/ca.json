@@ -141,7 +141,20 @@
     "videosTitle": "Vídeos de la fàbrica i dels productes",
     "videosSub": "Línees de producció, controls de qualitat i embalatge filmats a la nostra planta de Xianning, Hubei — després pregunteu per l'especificació que heu vist.",
     "videosCta": "Veure els {count} vídeos",
-    "videosCta2": "Mira la pàgina de fabricació"
+    "videosCta2": "Mira la pàgina de fabricació",
+    "heroAlt1": "Línia de transformació de cintalls abrasius a la fàbrica MoTai",
+    "heroAlt2": "Taller de producció de rotlles abrasius a MoTai",
+    "heroAlt3": "Exterior de la fàbrica MoTai a Xianning, Hubei",
+    "heroTagWood": "Fusta",
+    "heroTagMetal": "Metall",
+    "heroTagAuto": "Automoció",
+    "heroTrust1": "Subministrament directe de fàbrica",
+    "heroTrust2": "Personalització OEM disponible",
+    "heroTrust3": "Suport a l'exportació",
+    "catSectionTitle": "Categories de producte",
+    "catSectionSub": "Quatre línies de consumibles, especificacions documentades i subministrament directe de fàbrica per a importadors, distribuïdors i marques pròpies.",
+    "catFlapTitle": "Exploreu els discs de llapa de MoTai",
+    "catFlapDesc": "Opcions de discs de llapa amb suport de plàstic, acer i fibra de vidre. Indiqueu la peça a treballar, el diàmetre requerit, el gra i la quantitat per obtenir una oferta ajustada."
   },
   "purchasing": {
     "eyebrow1": "Orientació per a la compra",

@@ -141,7 +141,20 @@
     "videosTitle": "Firemní a produktová videa",
     "videosSub": "Výrobní linky, kontroly kvality a balení natočené v našem závodě v Xianning v Hubei — pak se zeptejte na specifikaci, kterou uvidíte.",
     "videosCta": "Zobrazit všech {count} videí",
-    "videosCta2": "Zobrazit stránku výroby"
+    "videosCta2": "Zobrazit stránku výroby",
+    "heroAlt1": "Výrobní linka na převod smirkových pásů ve fabrice MoTai",
+    "heroAlt2": "Dílna výroby smirkových rolí ve firmě MoTai",
+    "heroAlt3": "Exteriér fabriky MoTai v Xianningu v provincii Hubei",
+    "heroTagWood": "Dřevo",
+    "heroTagMetal": "Kov",
+    "heroTagAuto": "Automobilový průmysl",
+    "heroTrust1": "Přímé dodávky z výroby",
+    "heroTrust2": "Možná customizace pro OEM zákazníky",
+    "heroTrust3": "Podpora exportu",
+    "catSectionTitle": "Kategorie produktů",
+    "catSectionSub": "Čtyři řady spotřebního materiálu, dokumentované specifikace a přímé dodávky z výroby pro dovozce, distributory a vlastní značky.",
+    "catFlapTitle": "Prozkoumejte lamelové kotouče MoTai",
+    "catFlapDesc": "Lamelové kotouče s plastovým, ocelovým a skelněným nosičem. Pošlete nám obrobek, požadovaný průměr, zrnitost a množství a získáte odpovídající nabídku."
   },
   "purchasing": {
     "eyebrow1": "Nákupní poradenství",

@@ -141,7 +141,20 @@
     "videosTitle": "Videoclipuri de la fabrică și produse",
     "videosSub": "Linii de producție, controale de calitate și ambalare, filmate în fabrica noastră din Xianning, Hubei — apoi întrebați despre specificația pe care ați văzut-o.",
     "videosCta": "Vezi toate cele {count} videoclipuri",
-    "videosCta2": "Vezi pagina de fabricație"
+    "videosCta2": "Vezi pagina de fabricație",
+    "heroAlt1": "Linie de transformare a benzilor de șlefuire în fabrica MoTai",
+    "heroAlt2": "Atelier de producție a rulourilor abrazive la MoTai",
+    "heroAlt3": "Exteriorul fabricii MoTai din Xianning, Hubei",
+    "heroTagWood": "Lemn",
+    "heroTagMetal": "Metal",
+    "heroTagAuto": "Auto",
+    "heroTrust1": "Livrare directă din fabrică",
+    "heroTrust2": "Personalizare OEM disponibilă",
+    "heroTrust3": "Suport pentru export",
+    "catSectionTitle": "Categorii de produse",
+    "catSectionSub": "Patru linii de consumabile, specificații documentate și livrare directă din fabrică pentru importatori, distribuitori și branduri cu marcă proprie.",
+    "catFlapTitle": "Descoperiți discurile cu așchie MoTai",
+    "catFlapDesc": "Variante de discuri cu așchie cu suport din plastic, oțel și fibră de sticlă. Trimiteți piesa de prelucrat, diametrul necesar, granulația și cantitatea pentru o ofertă potrivită."
   },
   "purchasing": {
     "eyebrow1": "Ghid de achiziții",

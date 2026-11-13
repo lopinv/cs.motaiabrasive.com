@@ -141,7 +141,20 @@
     "videosTitle": "Tehase ja toodete videod",
     "videosSub": "Tootmisliinid, kvaliteedikontrollid ja pakendamine, filmitud meie tehases Xianningis, Hubei provintsis — seejärel küsige nähtud spetsifikatsiooni kohta.",
     "videosCta": "Vaadake kõiki {count} videot",
-    "videosCta2": "Vaadake tootmise lehte"
+    "videosCta2": "Vaadake tootmise lehte",
+    "heroAlt1": "Lihvriba muundamise liin MoTai tehase",
+    "heroAlt2": "Lihvrollide tootmistööpetus MoTais",
+    "heroAlt3": "MoTai tehas Xianningis, Hubei provintsis",
+    "heroTagWood": "Puit",
+    "heroTagMetal": "Metall",
+    "heroTagAuto": "Autotööstus",
+    "heroTrust1": "Otse tehasest tarnimine",
+    "heroTrust2": "OEM-i kohandamine võimalik",
+    "heroTrust3": "Eksporditoetus",
+    "catSectionTitle": "Tootekategooriad",
+    "catSectionSub": "Neli tarbikute tooteliini, dokumenteeritud spetsifikatsioonid ja otse tehasest tarnimine importijatele, turustajatele ja oma brändi ettevõtetele.",
+    "catFlapTitle": "Avastage MoTai lamellketased",
+    "catFlapDesc": "Lamellketaste variandid plast-, teras- ja klaaskiud-alusega. Jagage oma töödetail, nõutav läbimõõt, lihvkord ja kogus, et saada sobiv pakkumine."
   },
   "purchasing": {
     "eyebrow1": "Ostujuhendid",

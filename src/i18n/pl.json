@@ -141,7 +141,20 @@
     "videosTitle": "Filmy z fabryki i o produktach",
     "videosSub": "Linie produkcyjne, kontrole jakości i pakowanie sfilmowane w naszym zakładzie w Xianning w prowincji Hubei — a następnie zapytaj o specyfikację, którą zobaczyłeś.",
     "videosCta": "Zobacz wszystkie filmy ({count})",
-    "videosCta2": "Zobacz stronę o produkcji"
+    "videosCta2": "Zobacz stronę o produkcji",
+    "heroAlt1": "Linia konwersji pasków ściernych w fabryce MoTai",
+    "heroAlt2": "Warsztat produkcji rolek ściernych w MoTai",
+    "heroAlt3": "Zewnętrzny widok fabryki MoTai w Xianning, w prowincji Hubei",
+    "heroTagWood": "Drewno",
+    "heroTagMetal": "Metal",
+    "heroTagAuto": "Motoryzacja",
+    "heroTrust1": "Dostawa bezpośrednio z fabryki",
+    "heroTrust2": "Możliwa personalizacja OEM",
+    "heroTrust3": "Wsparcie eksportowe",
+    "catSectionTitle": "Kategorie produktów",
+    "catSectionSub": "Cztery linie produktów eksploatacyjnych, udokumentowane specyfikacje i dostawa bezpośrednio z fabryki dla importerów, dystrybutorów i marek własnych.",
+    "catFlapTitle": "Poznaj tarcze flap MoTai",
+    "catFlapDesc": "Tarcze flap z podkładką z tworzywa, stali i włókna szklanego. Podajcie materiał obrabiany, wymaganą średnicę, gradację i ilość, aby otrzymać dopasowaną ofertę."
   },
   "purchasing": {
     "eyebrow1": "Wskazówki dotyczące zakupów",
