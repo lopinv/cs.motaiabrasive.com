@@ -2,6 +2,7 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
+import Breadcrumb from '../../components/Breadcrumb.astro'
 import { faqJsonLd, breadcrumbJsonLd, aboutPageJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
@@ -26,7 +27,7 @@ const seo = buildSeo(lang, 'about', {}, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/about')}>{pick('nav.about')}</a></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.about'), href: '/about' }]} />
   <section class="section wrap">
     <span class="eyebrow">ABOUT MOTAI</span>
     <h1>{a.h1}</h1>

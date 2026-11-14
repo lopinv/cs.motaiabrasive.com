@@ -2,9 +2,11 @@
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
+import Breadcrumb from '../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
+import AccordionFaq from '../../../components/AccordionFaq.astro'
 import BlogSidebar from '../../../components/BlogSidebar.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
 import { videosData, visibleVideos, productByHandle, flapByKey } from '../../../lib/utils.js'
@@ -71,9 +73,7 @@ const seo = buildSeo(lang, 'video', { id: ctx.id }, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb">
-    <a href={lu('/')}>Home</a><span>/</span><a href={lu('/videos')}>{pick('nav.videos')}</a><span>/</span><span>{c.title}</span>
-  </div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.videos'), href: '/videos' }, { name: c.title }]} />
 
   <section class="section wrap">
     <span class="eyebrow">{video.kind === 'video' ? v.videoLabel : v.shortsLabel} · {v.metaDuration} {video.durationLabel}</span>
@@ -133,14 +133,7 @@ const seo = buildSeo(lang, 'video', { id: ctx.id }, [
       {faqItems.length > 0 && (
         <section class="section section--soft">
           <SectionHeading title={v.faqTitle} sub={v.faqIntro} />
-          <div class="faq-list">
-            {faqItems.map((f) => (
-              <div class="faq-item">
-                <h3 class="faq-q">{f.q}</h3>
-                <p class="faq-a">{f.a}</p>
-              </div>
-            ))}
-          </div>
+          {faqItems.length > 0 && <AccordionFaq items={faqItems.map((f) => ({ q: f.q, a: f.a })).filter((x) => x.q && x.a)} />}
         </section>
       )}
 

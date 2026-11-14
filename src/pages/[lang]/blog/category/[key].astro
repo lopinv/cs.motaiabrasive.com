@@ -9,6 +9,7 @@
 import { usePage, buildSeo } from '../../../../lib/page.js'
 import { langPaths } from '../../../../lib/paths.js'
 import Shell from '../../../../components/Shell.astro'
+import Breadcrumb from '../../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../../../lib/tdk.js'
 import CtaBand from '../../../../components/CtaBand.astro'
 import BlogIndex from '../../../../components/BlogIndex.astro'
@@ -16,12 +17,9 @@ import { allArticles } from '../../../../lib/articles.js'
 import { defaultProducts } from '../../../../lib/blog-products.js'
 import { BLOG_PAGE_SIZE, BLOG_CATEGORIES, pagerInfo } from '../../../../lib/blog-pager.js'
 
-const BLOG_CATEGORIES = [
-  { key: 'selection-guide', i18n: 'catSelection' },
-  { key: 'buyer-resources', i18n: 'catBuyer' },
-  { key: 'application-notes', i18n: 'catNotes' },
-  { key: 'oem-guide', i18n: 'catOem' }
-]
+// BLOG_CATEGORIES 从 lib/blog-pager.js 导入（唯一事实源）。
+// 曾在此处重复声明 const BLOG_CATEGORIES，与 import 同名遮蔽，
+// const 重声明会抛 SyntaxError 阻断构建 —— 已删除本地副本。
 
 export function getStaticPaths() {
   return langPaths(BLOG_CATEGORIES.map((c) => ({ key: c.key })))
@@ -49,9 +47,7 @@ const categories = BLOG_CATEGORIES.map((c) => ({ key: c.key, count: counts[c.key
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb">
-    <a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{categories.find((c) => c.key === key)?.label}</span>
-  </div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.news'), href: '/blog' }, { name: categories.find((c) => c.key === key)?.label }]} />
 
   <BlogIndex
     lang={lang}

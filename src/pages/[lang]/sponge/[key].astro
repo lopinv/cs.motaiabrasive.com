@@ -2,9 +2,11 @@
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
+import Breadcrumb from '../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
+import AccordionFaq from '../../../components/AccordionFaq.astro'
 import YouTubeEmbed from '../../../components/YouTubeEmbed.astro'
 import Lightbox from '../../../components/Lightbox.astro'
 import { sponges, media, spongeByKey, visibleVideos } from '../../../lib/utils.js'
@@ -48,7 +50,7 @@ const seo = buildSeo(lang, 'sponge', { key: s.key }, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/sanding-sponges')}>{pick('colt.sponge.label')}</a><span>/</span><span>{s.name}</span></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('colt.sponge.label'), href: '/collections/sanding-sponges' }, { name: s.name }]} />
 
   <section class="section wrap product-detail" data-group="s">
     <div>
@@ -147,14 +149,7 @@ const seo = buildSeo(lang, 'sponge', { key: s.key }, [
   {faqItems.length > 0 && (
     <section class="section wrap">
       <SectionHeading title={sp.faqTitle} />
-      <div class="faq-list">
-        {faqItems.map((f) => (
-          <div class="faq-item">
-            <h3 class="faq-q">{f.q}</h3>
-            <p class="faq-a">{f.a}</p>
-          </div>
-        ))}
-      </div>
+      {faqItems.length > 0 && <AccordionFaq items={faqItems.map((f) => ({ q: f.q, a: f.a })).filter((x) => x.q && x.a)} />}
     </section>
   )}
 

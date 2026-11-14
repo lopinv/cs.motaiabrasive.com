@@ -1,0 +1,31 @@
+---
+/**
+ * 面包屑导航（抽取自 26 处内联手写）。
+ *
+ * 统一的「Home / …」结构：
+ *   - 首页文字用 pick('nav.home')（42 语种已翻译，不新增键）
+ *   - 中间层级为链接；末级为纯文本（当前页）
+ *   - 分隔符 '/' 用 <span aria-hidden="true"> 包裹，屏幕阅读器不读
+ *
+ * 用法：<Breadcrumb lang={lang} trail={[{ name, href }, { name }]} />
+ *   trail 最后一项不带 href 即末级；带 href 则渲染为链接（旧内联写法中
+ *   有些把末级也写成链接，此处统一为纯文本，语义更正确）。
+ */
+import { localizedUrl } from '../lib/utils.js'
+import { TRANSLATIONS } from '../lib/i18n.js'
+
+const { lang, trail = [] } = Astro.props
+const homeLabel = TRANSLATIONS[lang]?.nav?.home ?? 'Home'
+---
+
+<nav class="wrap breadcrumb" aria-label={homeLabel}>
+  <a href={localizedUrl(lang, '/')}>{homeLabel}</a>
+  {trail.map((item) => (
+    <>
+      <span aria-hidden="true">/</span>
+      {item.href
+        ? <a href={localizedUrl(lang, item.href)}>{item.name}</a>
+        : <span>{item.name}</span>}
+    </>
+  ))}
+</nav>

@@ -2,6 +2,7 @@
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
+import Breadcrumb from '../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import Prose from '../../../components/Prose.astro'
@@ -95,7 +96,7 @@ const showToc = hasSubs || toc.length >= 5
   <!-- 长文（有 TOC）才挂阅读进度条 + TOC 滚动高亮；短文不注入无意义脚本 -->
   {showToc && <ProgressiveRead />}
 
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{title}</span></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.news'), href: '/blog' }, { name: title }]} />
 
   <div class="section wrap blog-layout">
     <div class="blog-main">

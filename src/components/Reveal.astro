@@ -1,0 +1,67 @@
+---
+/**
+ * 滚动进场动画（全站一条脚本，零标记接入）。
+ *
+ * 挂载于 Shell，对「首屏之后」的区块自动生效：
+ *   - 给每个直接子区块（.section / .cat-block / .product-card / .value-card /
+ *     .model-card / .video-card / .side-block / .faq-item / .blog-grid > *）在
+ *     进入视口时加 .is-reve，CSS 负责过渡。
+ *   - IntersectionObserver 只触发一次（reveal 后 unobserve）。
+ *   - prefers-reduced-motion: reduce 时直接全部视为已 reveal（不动画）。
+ *   - 首屏内的元素（含 hero / LCP 图）一律跳过，避免影响首屏绘制与 LCP。
+ *
+ * 纯原生 JS、零依赖；无 JS 时所有元素本就是可见的（.is-reve 只是增强）。
+ */
+const script = `;(function () {
+  function init() {
+    // 尊重「减弱动态效果」：不加任何隐藏样式，元素保持自然可见
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce || !('IntersectionObserver' in window)) return;
+
+    // 只选首屏之后的子区块（跳过主内容第一个 section 及其内部 hero，避免
+    // 首屏元素被进场动画延迟，伤害 LCP 与首屏观感）
+    var sel = '.cat-block, .product-card, .value-card, .model-card, .video-card, .side-block, .faq-item, .region-card, .scene-card, .step, .gallery-media';
+    var nodes = document.querySelectorAll(sel);
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        var el = e.target;
+        el.classList.add('is-reve');
+        io.unobserve(el);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+
+    for (var i = 0; i < nodes.length; i++) {
+      var el = nodes[i];
+      // 已在首屏视口内的不动画（直接展示）
+      var r = el.getBoundingClientRect();
+      if (r.top < (window.innerHeight || 800) * 0.92) { el.classList.add('is-reve'); continue; }
+      el.classList.add('reveal');
+      io.observe(el);
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, false);
+  else init();
+})();`
+---
+
+<script is:inline set:html={script} />
+
+<style>
+  /* 进场动画：仅对 .reveal 元素（首屏之后的区块）生效；
+     .is-reve 由脚本在进入视口时添加，触发过渡。
+     注意：不要给 hero/LCP 元素加 .reveal —— 脚本已排除首屏内元素。 */
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+      opacity var(--dur-slow) var(--ease-out),
+      transform var(--dur-slow) var(--ease-out);
+  }
+  .reveal.is-reve { opacity: 1; transform: none; }
+
+  <!-- 减弱动态效果：不隐藏、不平移，只保留内容 -->
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+</style>

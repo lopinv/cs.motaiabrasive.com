@@ -2,6 +2,7 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
+import Breadcrumb from '../../components/Breadcrumb.astro'
 import { itemlistJsonLd, breadcrumbJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import { glossary } from '../../lib/utils.js'
@@ -23,7 +24,7 @@ const pickKey = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{g.h1}</span></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: g.h1 }]} />
 
   <section class="section wrap">
     <span class="eyebrow">KNOWLEDGE</span>

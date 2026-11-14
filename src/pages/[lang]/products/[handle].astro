@@ -2,8 +2,10 @@
 import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
+import Breadcrumb from '../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import CtaBand from '../../../components/CtaBand.astro'
+import AccordionFaq from '../../../components/AccordionFaq.astro'
 import Lightbox from '../../../components/Lightbox.astro'
 import { products, media, faq as faqData, blog as blogData, relatedMap, faqMap } from '../../../lib/utils.js'
 
@@ -51,7 +53,7 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/collections/all')}>{pick('nav.products')}</a><span>/</span><span>{p.name}</span></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.products'), href: '/collections/all' }, { name: p.name }]} />
 
   <section class="section wrap product-detail" data-group="p">
     <div>
@@ -166,14 +168,10 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
     <span class="eyebrow">FAQ</span>
     <h2>{ra.faqTitle}</h2>
     <p class="text-soft">{ra.faqSub}</p>
-    <div class="faq-list faq-list--2col mt-24">
-      {q.map((item) => (
-        <div class="faq-item">
-          <h3 class="faq-q">{pick(item.qKey)}</h3>
-          <p class="faq-a">{pick(item.aKey)}</p>
-        </div>
-      ))}
-    </div>
+    <AccordionFaq
+      items={q.map((item) => ({ q: pick(item.qKey), a: pick(item.aKey) })).filter((x) => x.q && x.a)}
+      twoCol
+    />
   </section>
 
   <section class="section wrap">

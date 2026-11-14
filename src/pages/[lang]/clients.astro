@@ -2,9 +2,11 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
+import Breadcrumb from '../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
+import AccordionFaq from '../../components/AccordionFaq.astro'
 import { regions, trust, faq as faqData } from '../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -36,7 +38,7 @@ const qa = [c.q1, c.q2, c.q3].filter(Boolean)
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{c.h1}</span></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: c.h1 }]} />
 
   <section class="section wrap">
     <span class="eyebrow">GLOBAL SUPPLY</span>
@@ -92,14 +94,7 @@ const qa = [c.q1, c.q2, c.q3].filter(Boolean)
   {faqItems.length > 0 && (
     <section class="section wrap section--soft">
       <SectionHeading title={c.faqTitle} />
-      <div class="faq-list">
-        {faqItems.map((f) => (
-          <div class="faq-item">
-            <h3 class="faq-q">{f.q}</h3>
-            <p class="faq-a">{f.a}</p>
-          </div>
-        ))}
-      </div>
+      {faqItems.length > 0 && <AccordionFaq items={faqItems.map((f) => ({ q: f.q, a: f.a })).filter((x) => x.q && x.a)} />}
     </section>
   )}
 

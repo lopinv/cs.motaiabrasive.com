@@ -2,9 +2,11 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
+import Breadcrumb from '../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
+import AccordionFaq from '../../components/AccordionFaq.astro'
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro'
 import { visibleVideos, faq as faqData } from '../../lib/utils.js'
 
@@ -32,7 +34,7 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><a href={lu('/factory')}>{pick('nav.manufacturing')}</a></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.manufacturing'), href: '/factory' }]} />
   <section class="section wrap">
     <span class="eyebrow">MANUFACTURING &amp; QUALITY</span>
     <h1>{f.h1}</h1>
@@ -93,14 +95,10 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
     <span class="eyebrow">FAQ</span>
     <h2>{pick('relArticles.faqTitle')}</h2>
     <p class="text-soft">{pick('relArticles.faqSub')}</p>
-    <div class="faq-list faq-list--2col mt-24">
-      {q.map((item) => (
-        <div class="faq-item">
-          <h3 class="faq-q">{pick(item.qKey)}</h3>
-          <p class="faq-a">{pick(item.aKey)}</p>
-        </div>
-      ))}
-    </div>
+    <AccordionFaq
+      items={q.map((item) => ({ q: pick(item.qKey), a: pick(item.aKey) })).filter((x) => x.q && x.a)}
+      twoCol
+    />
   </section>
 
   <section class="section wrap">

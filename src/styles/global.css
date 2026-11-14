@@ -84,6 +84,21 @@
   /* ---- 布局 ------------------------------------------------------------- */
   --maxw: 1240px;
   --gutter-hero: max(24px, 7vw);
+  --gutter: 20px;
+
+  /* ---- 字号标尺（正文基准 16px） --------------------------------------- */
+  --fs-xs: 12px;
+  --fs-sm: 13px;
+  --fs-md: 15px;
+  --fs-lg: 18px;
+
+  /* ---- 文字色 ----------------------------------------------------------- */
+  --text: var(--ink-800);
+  --text-soft: var(--ink-500);
+  --text-muted: var(--ink-300);
+
+  /* ---- 品牌深阶（渐变终点用） ------------------------------------------ */
+  --brand-900: #4a100c;
 
   /* ==========================================================================
    * 旧变量名别名（兼容既有规则，勿删；新代码请用上面的令牌名）
@@ -104,6 +119,7 @@
   --blog-header-offset: 96px;
   /* documented breakpoints (used literally in the media blocks below): --bp-lg 900px, --bp-md 640px */
   --font: "Inter", "Helvetica Neue", "PingFang SC", "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Consolas, monospace;
 }
 
 * { box-sizing: border-box; }
@@ -361,7 +377,7 @@ section.hero--carousel {
   /* 横向内边距由 hero 统一提供（7vw / 最小 24px），
      文案与控制条共用同一左缘，视觉对齐。
      .hero-body 与 .hero-controls-inner 都不再自设横 padding。 */
-  padding: 0 max(24px, 7vw);
+  padding: 0 var(--gutter-hero);
   background: var(--ink-900);
   border-bottom: none;
   min-height: min(calc(100vh - 132px), 700px);
@@ -522,7 +538,7 @@ section.hero--carousel {
   border: 1px solid var(--line);
   transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
 }
-.scene-card:hover { transform: translateY(-4px); box-shadow: var(--sh-md); border-color: var(--ink-200); }
+.scene-card:hover { transform: translateY(-4px); box-shadow: var(--sh-3); border-color: var(--ink-200); }
 .scene-frame { display: block; aspect-ratio: 16/10; overflow: hidden; background: var(--bg-soft); }
 .scene-frame img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--dur-slow) var(--ease-out); }
 .scene-card:hover .scene-frame img { transform: scale(1.05); }
@@ -546,7 +562,7 @@ section.hero--carousel {
   background: var(--bg);
   transition: box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
 }
-.cat-block:hover { box-shadow: var(--sh-md); border-color: var(--ink-200); }
+.cat-block:hover { box-shadow: var(--sh-3); border-color: var(--ink-200); }
 /* 偶数块左右对调，形成杂志式节奏 */
 .cat-block--flip .cat-copy { order: 2; }
 .cat-block--flip .cat-media { order: 1; }

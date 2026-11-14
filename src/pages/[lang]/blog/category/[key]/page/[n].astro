@@ -6,6 +6,7 @@
 import { usePage, buildSeo } from '../../../../../../lib/page.js'
 import { LANGS } from '../../../../../../lib/i18n.js'
 import Shell from '../../../../../../components/Shell.astro'
+import Breadcrumb from '../../../../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../../../../../lib/tdk.js'
 import CtaBand from '../../../../../../components/CtaBand.astro'
 import BlogIndex from '../../../../../../components/BlogIndex.astro'
@@ -50,9 +51,7 @@ const categories = BLOG_CATEGORIES.map((c) => ({ key: c.key, count: counts[c.key
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb">
-    <a href={lu('/')}>Home</a><span>/</span><a href={lu('/blog')}>{pick('nav.news')}</a><span>/</span><span>{categories.find((c) => c.key === key)?.label}</span>
-  </div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.news'), href: '/blog' }, { name: categories.find((c) => c.key === key)?.label }]} />
 
   <BlogIndex
     lang={lang}

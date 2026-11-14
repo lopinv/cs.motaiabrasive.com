@@ -2,6 +2,8 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
+import Breadcrumb from '../../components/Breadcrumb.astro'
+import AccordionFaq from '../../components/AccordionFaq.astro'
 import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import { trust } from '../../lib/utils.js'
@@ -34,7 +36,7 @@ const go = quoteUrlRaw({})
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{q.h1}</span></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: q.h1 }]} />
 
   <section class="section wrap">
     <span class="eyebrow">WHOLESALE / OEM ENQUIRY</span>
@@ -115,14 +117,7 @@ const go = quoteUrlRaw({})
   {faqItems.length > 0 && (
     <section class="section wrap">
       <SectionHeading title={q.faqTitle} sub={q.faqSub} />
-      <div class="faq-list">
-        {faqItems.map((f) => (
-          <div class="faq-item">
-            <h3 class="faq-q">{f.q}</h3>
-            <p class="faq-a">{f.a}</p>
-          </div>
-        ))}
-      </div>
+      {faqItems.length > 0 && <AccordionFaq items={faqItems.map((f) => ({ q: f.q, a: f.a })).filter((x) => x.q && x.a)} />}
     </section>
   )}
 </Shell>

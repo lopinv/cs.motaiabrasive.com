@@ -2,6 +2,7 @@
 import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
+import Breadcrumb from '../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 
@@ -20,7 +21,7 @@ const sections = ['s1', 's2', 's3', 's4', 's5']
 ---
 
 <Shell lang={lang} seo={seo}>
-  <div class="wrap breadcrumb"><a href={lu('/')}>Home</a><span>/</span><span>{p.h1}</span></div>
+  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: p.h1 }]} />
 
   <section class="section wrap">
     <span class="eyebrow">PRIVACY POLICY</span>

@@ -10,6 +10,8 @@ import QuickContactBar from './QuickContactBar.astro'
 import FloatingChat from './FloatingChat.astro'
 import GoogleAnalytics from './GoogleAnalytics.astro'
 import SeoMeta from './SeoMeta.astro'
+import Reveal from './Reveal.astro'
+import BackToTop from './BackToTop.astro'
 import { TRANSLATIONS } from '../lib/i18n.js'
 import { site } from '../lib/utils.js'
 import '../styles/global.css'
@@ -47,5 +49,7 @@ const lcpPreload = (seo.ogType === 'product' || seo.canonicalPath === '') && seo
     <Footer lang={lang} />
     <QuickContactBar lang={lang} />
     <FloatingChat lang={lang} />
+    <Reveal />
+    <BackToTop lang={lang} />
   </body>
 </html>

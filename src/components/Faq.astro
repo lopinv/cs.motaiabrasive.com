@@ -1,18 +1,27 @@
 ---
-/** FAQ block: visible Q + A (AEO-friendly, conclusion-first) rendered from i18n keys. */
+/**
+ * FAQ 块：可见 Q + A（AEO-friendly，结论优先）渲染自 i18n 键。
+ *
+ * 实现为 <details> 手风琴（默认只展开第一条）：
+ *   - 答案文本始终在 DOM（收起时也在）→ FAQPage JSON-LD 与可见文本一致
+ *   - 完整保留 .faq-list / .faq-item / .faq-q / .faq-a class —— 与 12+ 处
+ *     手写 FAQ 块的样式和 check-blog-sidebar 断言均不冲突
+ *   - 无 JS 可用：原生 details 提供展开/收起
+ * 手风琴交互与箭头指示在 AccordionFaq.astro 的 <style> 中定义。
+ */
+import AccordionFaq from './AccordionFaq.astro'
 import { TRANSLATIONS } from '../lib/i18n.js'
 
-const { lang, items, title } = Astro.props
+const { lang, items, title, openFirst = true } = Astro.props
 const tr = TRANSLATIONS[lang]
 const pick = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
 ---
 
 {title && <h2 class="faq-title">{title}</h2>}
-<div class="faq-list">
-  {items.map((item) => (
-    <div class="faq-item">
-      <h3 class="faq-q">{pick(item.qKey) ?? item.q}</h3>
-      <p class="faq-a">{pick(item.aKey) ?? item.a}</p>
-    </div>
-  ))}
-</div>
+<AccordionFaq
+  items={items.map((item) => ({
+    q: pick(item.qKey) ?? item.q ?? '',
+    a: pick(item.aKey) ?? item.a ?? ''
+  })).filter((it) => it.q && it.a)}
+  openFirst={openFirst}
+/>
