@@ -53,7 +53,7 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.products'), href: '/collections/all' }, { name: p.name }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('nav.products'), href: '/collections/all' }, { name: p.name }]} />
 
   <section class="section wrap product-detail" data-group="p">
     <div>

@@ -73,7 +73,7 @@ const seo = buildSeo(lang, 'video', { id: ctx.id }, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.videos'), href: '/videos' }, { name: c.title }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('nav.videos'), href: '/videos' }, { name: c.title }]} />
 
   <section class="section wrap section--flush-top video-hero">
     <div class="video-hero-grid">

@@ -47,7 +47,7 @@ const categories = BLOG_CATEGORIES.map((c) => ({ key: c.key, count: counts[c.key
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.news'), href: '/blog' }, { name: categories.find((c) => c.key === key)?.label }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('nav.news'), href: '/blog' }, { name: categories.find((c) => c.key === key)?.label }]} />
 
   <BlogIndex
     lang={lang}

@@ -38,7 +38,7 @@ const categories = Object.entries(counts)
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.news'), href: '/blog' }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('nav.news'), href: '/blog' }]} />
 
   <BlogIndex
     lang={lang}

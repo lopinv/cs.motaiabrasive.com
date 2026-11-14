@@ -70,7 +70,7 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('colt.all.label'), href: '/collections/all' }, { name: t.title }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('colt.all.label'), href: '/collections/all' }, { name: t.title }]} />
 
   <PageHero
     lang={lang}

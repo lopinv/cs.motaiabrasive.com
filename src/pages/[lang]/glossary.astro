@@ -27,7 +27,7 @@ const letters = [...new Set(sorted.map((it) => it.term.trim().charAt(0).toUpperC
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: g.h1 }]} />
+  <Breadcrumb lang={lang} trail={[{ name: g.h1 }]} />
 
   <section class="section wrap">
     <span class="eyebrow">KNOWLEDGE</span>
@@ -53,7 +53,12 @@ const letters = [...new Set(sorted.map((it) => it.term.trim().charAt(0).toUpperC
           <dl class="glossary-dl">
             {group.map((item) => (
               <div>
-                <dt>{item.term}</dt>
+                <!-- 术语本身作锚文本链接到相关页面（消除 glossary 只进不出） -->
+                <dt>
+                  {item.link
+                    ? <a href={lu(item.link)} class="glossary-term-link">{item.term}</a>
+                    : item.term}
+                </dt>
                 <dd>{pickKey(item.defKey) ?? item.defKey}</dd>
               </div>
             ))}

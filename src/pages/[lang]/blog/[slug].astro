@@ -96,7 +96,7 @@ const showToc = hasSubs || toc.length >= 5
   <!-- 长文（有 TOC）才挂阅读进度条 + TOC 滚动高亮；短文不注入无意义脚本 -->
   {showToc && <ProgressiveRead />}
 
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.news'), href: '/blog' }, { name: title }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('nav.news'), href: '/blog' }, { name: title }]} />
 
   <div class="section wrap blog-layout">
     <div class="blog-main">

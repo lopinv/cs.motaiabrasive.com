@@ -1196,6 +1196,8 @@ a.region-card:hover,
   border-bottom: 2px solid var(--line);
 }
 .glossary-dl { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px 32px; }
+.glossary-term-link { color: var(--text); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 3px; transition: color var(--dur-fast) var(--ease-out), text-decoration-color var(--dur-fast) var(--ease-out); }
+.glossary-term-link:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .glossary-dl dt { font-weight: 700; margin-bottom: 4px; }
 .glossary-dl dd { margin: 0; color: var(--ink-soft); font-size: 14.5px; }
 

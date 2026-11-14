@@ -35,7 +35,7 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.manufacturing'), href: '/factory' }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('nav.manufacturing'), href: '/factory' }]} />
   <PageHero
     lang={lang}
     eyebrow="MANUFACTURING & QUALITY"

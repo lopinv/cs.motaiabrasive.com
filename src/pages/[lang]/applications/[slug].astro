@@ -51,7 +51,7 @@ const seo = buildSeo(lang, 'application', { slug: app.slug }, [
 ---
 
 <Shell lang={lang} seo={seo}>
-  <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.knowledge'), href: '/applications' }, { name: pickEn(app.titleKey) }]} />
+  <Breadcrumb lang={lang} trail={[{ name: pick('nav.knowledge'), href: '/applications' }, { name: pickEn(app.titleKey) }]} />
 
   <PageHero
     lang={lang}
