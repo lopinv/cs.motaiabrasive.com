@@ -4,7 +4,7 @@ import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
 import Breadcrumb from '../../components/Breadcrumb.astro'
 import { itemlistJsonLd, breadcrumbJsonLd } from '../../lib/tdk.js'
-import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
 import { glossary } from '../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -21,6 +21,9 @@ const seo = buildSeo(lang, 'glossary', {}, [
 ])
 const sorted = [...glossary].sort((a, b) => a.term.localeCompare(b.term))
 const pickKey = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+// A-Z 索引：按词条首字母分组（localeCompare 已排序，同首字母必然相邻）。
+// 字母本身无需本地化（拉丁字母表），sticky 索引条提供锚点跳转。
+const letters = [...new Set(sorted.map((it) => it.term.trim().charAt(0).toUpperCase()))].filter(Boolean)
 ---
 
 <Shell lang={lang} seo={seo}>
@@ -34,14 +37,31 @@ const pickKey = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined
     <p class="small-note">{g.reviewNote}</p>
   </section>
 
+  <nav class="wrap glossary-index" aria-label={g.h1}>
+    {letters.map((L) => (
+      <a class="glossary-index-letter" href={`#gloss-${L}`}>{L}</a>
+    ))}
+  </nav>
+
   <div class="section wrap section--flush-top">
-    <dl class="glossary-dl">
-      {sorted.map((item) => (
-        <div>
-          <dt>{item.term}</dt>
-          <dd>{pickKey(item.defKey) ?? item.defKey}</dd>
-        </div>
-      ))}
-    </dl>
+    {letters.map((L) => {
+      const group = sorted.filter((it) => it.term.trim().charAt(0).toUpperCase() === L)
+      if (!group.length) return null
+      return (
+        <section class="glossary-group" id={`gloss-${L}`}>
+          <h2 class="glossary-group-letter">{L}</h2>
+          <dl class="glossary-dl">
+            {group.map((item) => (
+              <div>
+                <dt>{item.term}</dt>
+                <dd>{pickKey(item.defKey) ?? item.defKey}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )
+    })}
   </div>
+
+  <CtaBand lang={lang} title={g.h1} waContext="contact" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
 </Shell>

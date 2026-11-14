@@ -1141,6 +1141,36 @@ a.region-card:hover,
 .region-card p { margin: 0; color: var(--ink-soft); font-size: 14px; }
 
 /* ============ Glossary ============ */
+/* A-Z 索引条：sticky 于 header 下方，字母锚点跳转到对应分组 */
+.glossary-index {
+  position: sticky;
+  top: var(--blog-header-offset);
+  z-index: var(--z-sticky);
+  display: flex; flex-wrap: wrap; gap: var(--sp-1);
+  padding: var(--sp-3) 0;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: var(--sp-6);
+}
+.glossary-index-letter {
+  min-width: 30px; height: 30px; padding: 0 8px;
+  display: inline-grid; place-items: center;
+  border: 1px solid var(--line); border-radius: var(--r-sm);
+  font-size: var(--fs-sm); font-weight: 700; color: var(--text-soft);
+  background: var(--bg);
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+.glossary-index-letter:hover { border-color: var(--accent); color: var(--accent); }
+/* 分组：字母大标题 + 分隔，sticky 索引跳转后不被 header 盖住 */
+.glossary-group { scroll-margin-top: calc(var(--blog-header-offset) + 48px); }
+.glossary-group + .glossary-group { margin-top: var(--sp-8); }
+.glossary-group-letter {
+  margin: 0 0 var(--sp-4);
+  padding-bottom: var(--sp-2);
+  font-size: var(--fs-xl); font-weight: 800; color: var(--accent);
+  border-bottom: 2px solid var(--line);
+}
 .glossary-dl { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px 32px; }
 .glossary-dl dt { font-weight: 700; margin-bottom: 4px; }
 .glossary-dl dd { margin: 0; color: var(--ink-soft); font-size: 14.5px; }
