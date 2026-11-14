@@ -155,8 +155,10 @@ const script = `;(function () {
     </div>
   </div>
 
+  <!-- 横向内边距由 hero 统一提供；不再套 .wrap（.wrap 的 24px padding
+       会让控制条左缘比标题多出一截，与文案左缘错位） -->
   <div class="hero-controls">
-    <div class="wrap hero-controls-inner">
+    <div class="hero-controls-inner">
       {tags.length > 0 && (
         <p class="hero-tags" aria-hidden="true">{tags.join(' · ')}</p>
       )}

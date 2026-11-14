@@ -269,7 +269,10 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 section.hero--carousel {
   position: relative;
   isolation: isolate;
-  padding: 0;
+  /* 横向内边距由 hero 统一提供（7vw / 最小 24px），
+     文案与控制条共用同一左缘，视觉对齐。
+     .hero-body 与 .hero-controls-inner 都不再自设横 padding。 */
+  padding: 0 max(24px, 7vw);
   background: var(--ink-900);
   border-bottom: none;
   min-height: min(calc(100vh - 132px), 700px);
@@ -298,14 +301,9 @@ section.hero--carousel {
 .hero-body {
   position: relative; z-index: 1;
   width: 100%;
-  /* 贴左下角：左缘随视口（桌面约 7vw，窄屏最小 24px）——原站文案也是按
-     视口左缘排，不随版面居中；顶部大留白让工厂全景露出，文案坐在
-     控制条上方，底部留 32px 间距（不贴死）。 */
+  /* 横向内边距由 hero 统一提供；此处只管纵向：
+     顶部大留白让工厂全景露出，文案坐在控制条上方 16px。 */
   padding-top: clamp(120px, 22vh, 200px);
-  padding-inline-start: max(24px, 7vw);
-  padding-inline-end: max(24px, 7vw);
-  /* 文案坐底：flex-end 已把「文案+控制条」整体推到底部；
-     padding 兜住左侧 7vw 贴边，底部只留呼吸间距。 */
   padding-bottom: 16px;
 }
 /* 文案块整体左对齐（start）：RTL 语种（ar/he/fa）跟随 html[dir=rtl] 自动镜像。
@@ -361,17 +359,21 @@ section.hero--carousel {
 .hero-controls {
   position: relative;
   z-index: 2;
+  width: 100%;
   border-top: 1px solid rgba(255,255,255,.16);
   background: rgba(13,15,18,.28);
   backdrop-filter: blur(6px);
 }
 .hero-controls-inner {
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 20px; min-height: 72px; flex-wrap: wrap;
+  display: flex; align-items: center; gap: 20px; min-height: 72px; flex-wrap: wrap;
+  /* 横向内边距由 hero 统一提供，这里只管布局：
+     标签带独占左端，导航控件紧随其右。 */
+  justify-content: flex-start;
 }
 .hero-tags {
   margin: 0; font-size: 11px; letter-spacing: .24em; text-transform: uppercase;
   color: rgba(255,255,255,.7); font-weight: 600;
+  margin-inline-end: auto;
 }
 .hero-nav { display: flex; align-items: center; gap: 12px; }
 .hero-counter {
@@ -409,10 +411,15 @@ section.hero--carousel {
 .scene-track {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(260px, 1fr);
+  /* 固定卡宽（而非 minmax(…,1fr) 撑满）：桌面 1192px 视口下每屏约 3 张，
+     剩余卡片形成可翻页的溢出区。1fr 会把卡拉到撑满容器，
+     导致 6 张卡一屏放完、无页可翻。 */
+  grid-auto-columns: 300px;
   gap: var(--gutter);
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
+  /* proximity 而非 mandatory：mandatory 下 scrollBy 翻页会被 snap 拉回，
+     造成"箭头点击后弹回原位"的失效观感；proximity 保留吸附但不阻断翻页。 */
+  scroll-snap-type: x proximity;
   padding-bottom: 6px;
   /* 滚动条隐藏（保留滚动能力），与箭头导航一致 */
   scrollbar-width: none;
@@ -1040,7 +1047,7 @@ body { padding-bottom: var(--quickbar-h); }
   .cat-block { grid-template-columns: 1fr; gap: 24px; }
   .cat-block--flip .cat-copy { order: 1; }
   .cat-block--flip .cat-media { order: 2; }
-  .scene-track { grid-auto-columns: minmax(220px, 1fr); }
+  .scene-track { grid-auto-columns: 260px; }
 
   /* header → hamburger */
   .motai-nav-row { flex-wrap: wrap; gap: 8px; }
