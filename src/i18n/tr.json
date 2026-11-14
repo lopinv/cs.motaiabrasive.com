@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Hızlı iletişim",
     "whatsapp": "WhatsApp",
-    "quote": "Teklif İsteyin"
+    "quote": "Teklif İsteyin",
+    "backToTop": "Başa dön"
   },
   "videos": {
     "h1": "Fabrika ve ürün videoları",

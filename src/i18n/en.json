@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Quick contact",
     "whatsapp": "WhatsApp",
-    "quote": "Request a quote"
+    "quote": "Request a quote",
+    "backToTop": "Back to top"
   },
   "videos": {
     "h1": "Factory & product videos",

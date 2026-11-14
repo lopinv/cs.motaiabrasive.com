@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "দ্রুত যোগাযোগ",
     "whatsapp": "WhatsApp",
-    "quote": "কুটেজ চান"
+    "quote": "কুটেজ চান",
+    "backToTop": "উপরে ফিরুন"
   },
   "videos": {
     "h1": "কারখানা ও প্রোডাক্ট ভিডিও",

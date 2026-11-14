@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Брз контакт",
     "whatsapp": "WhatsApp",
-    "quote": "Захтевање понуде"
+    "quote": "Захтевање понуде",
+    "backToTop": "На врх"
   },
   "videos": {
     "h1": "Videi sa fabrike i o proizvodima",

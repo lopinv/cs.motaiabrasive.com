@@ -1123,7 +1123,8 @@
   "quickBar": {
     "label": "Быстрый контакт",
     "whatsapp": "WhatsApp",
-    "quote": "Запросить расчёт"
+    "quote": "Запросить расчёт",
+    "backToTop": "Наверх"
   },
   "relArticles": {
     "title": "Смежные статьи",

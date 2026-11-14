@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Contact rapid",
     "whatsapp": "WhatsApp",
-    "quote": "Solicitați o ofertă"
+    "quote": "Solicitați o ofertă",
+    "backToTop": "Începutul paginii"
   },
   "videos": {
     "h1": "Videoclipuri cu fabrica și produsele",

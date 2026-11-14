@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Brzi kontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Zatraži ponudu"
+    "quote": "Zatraži ponudu",
+    "backToTop": "Na vrh"
   },
   "videos": {
     "h1": "Videi tvornice i proizvoda",

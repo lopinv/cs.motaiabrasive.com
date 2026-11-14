@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Liên hệ nhanh",
     "whatsapp": "WhatsApp",
-    "quote": "Yêu cầu báo giá"
+    "quote": "Yêu cầu báo giá",
+    "backToTop": "Về đầu trang"
   },
   "videos": {
     "h1": "Video nhà máy & sản phẩm",

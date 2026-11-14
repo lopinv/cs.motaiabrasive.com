@@ -1123,7 +1123,8 @@
   "quickBar": {
     "label": "Contact rapide",
     "whatsapp": "WhatsApp",
-    "quote": "Demander un devis"
+    "quote": "Demander un devis",
+    "backToTop": "Retour en haut"
   },
   "relArticles": {
     "title": "Articles associés",

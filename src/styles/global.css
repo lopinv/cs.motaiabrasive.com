@@ -973,20 +973,44 @@ body { padding-bottom: var(--quickbar-h); }
 .quickbar-quote:hover { background: var(--accent-dark); }
 .quickbar-quote > span[aria-hidden] { font-weight: 400; }
 
-/* ============ Floating chat (single round button) ============
-   Sits above the quick bar; the chat window expands upward from the
-   trigger. Fake chat: no server behind it, so "Send" hands the typed
-   message to wa.me (new tab). Inert without JS — the trigger anchor
-   is the fallback. */
+/* ============ Right floating rail (back-to-top + chat) ============
+   A single fixed rail above the quick bar holding two round buttons
+   stacked vertically (10px apart). The chat window expands upward from
+   the rail, anchored to its right edge. Inert without JS — the trigger
+   anchor is still a wa.me link. */
 .fchat { position: fixed; bottom: calc(var(--quickbar-h) + 16px); inset-inline-end: 20px; z-index: var(--z-chat); }
-.fchat-trigger {
+.fchat-rail { display: grid; gap: 10px; justify-items: center; }
+.fchat-btn {
   width: 52px; height: 52px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  background: #1da851; color: #fff;
+  display: grid; place-items: center;
+  cursor: pointer; border: 1px solid transparent;
+  transition:
+    opacity var(--dur) var(--ease-out),
+    transform var(--dur) var(--ease-out),
+    background var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out);
+}
+.fchat-btn svg { width: 22px; height: 22px; }
+/* 返回顶部：浅色圆钮，滚动 600px 后才淡入（aria-hidden + tabindex=-1 同步隐藏） */
+.fchat-top {
+  background: var(--bg);
+  border-color: var(--line-strong);
+  color: var(--ink-700);
+  box-shadow: var(--sh-3);
+  opacity: 0; transform: translateY(8px) scale(.92);
+  pointer-events: none;
+}
+.fchat-top.is-visible { opacity: 1; transform: none; pointer-events: auto; }
+.fchat-top:hover { background: var(--ink-800); border-color: var(--ink-800); color: #fff; }
+.fchat-top:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* WhatsApp 聊天触发：常驻绿色圆钮 */
+.fchat-trigger {
+  background: var(--wa); color: #fff;
   box-shadow: var(--sh-3);
 }
-.fchat-trigger:hover { background: #178f44; }
-.fchat-trigger[aria-expanded="true"] { outline: 2px solid #1da851; outline-offset: 2px; }
+.fchat-trigger:hover { background: var(--wa-dark); }
+.fchat-trigger[aria-expanded="true"] { outline: 2px solid var(--wa); outline-offset: 2px; }
 .fchat-window {
   position: absolute; bottom: calc(100% + 14px); inset-inline-end: 0;
   width: min(320px, calc(100vw - 40px));
@@ -1359,8 +1383,12 @@ a.region-card:hover,
   .cta-band-actions { flex-direction: column; }
   .cta-band-actions .button, .cta-band-actions--auto .button { width: 100%; }
 
+  /* 手机端圆钮缩小：rail 内两个按钮同步，gap 略收紧 */
   .fchat { bottom: calc(var(--quickbar-h) + 10px); inset-inline-end: 14px; }
-  .fchat-trigger { width: 46px; height: 46px; }
+  .fchat-rail { gap: 8px; }
+  .fchat-btn { width: 44px; height: 44px; }
+  .fchat-btn svg { width: 20px; height: 20px; }
+  .fchat-window { width: min(300px, calc(100vw - 28px)); }
 
   /* Quick bar fills the width on small screens; buttons grow to fit labels. */
   .quickbar { gap: 8px; padding: 0 10px; }

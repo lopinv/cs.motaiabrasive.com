@@ -1123,7 +1123,8 @@
   "quickBar": {
     "label": "Schnellkontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Angebot anfordern"
+    "quote": "Angebot anfordern",
+    "backToTop": "Nach oben"
   },
   "relArticles": {
     "title": "Zugehörige Artikel",

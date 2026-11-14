@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Ātra saskaņošana",
     "whatsapp": "WhatsApp",
-    "quote": "Pieprasiet piedāvājumu"
+    "quote": "Pieprasiet piedāvājumu",
+    "backToTop": "Uz augšu"
   },
   "videos": {
     "h1": "Rūpnīcas un produktu video",

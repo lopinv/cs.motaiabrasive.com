@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Hubungan pantas",
     "whatsapp": "WhatsApp",
-    "quote": "Minta tawaran"
+    "quote": "Minta tawaran",
+    "backToTop": "Kembali ke atas"
   },
   "videos": {
     "h1": "Video fabrik & produk",

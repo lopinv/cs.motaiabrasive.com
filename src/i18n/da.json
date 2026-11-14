@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Hurtig kontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Anmod om et tilbud"
+    "quote": "Anmod om et tilbud",
+    "backToTop": "Til toppen"
   },
   "videos": {
     "h1": "Fabriks- og produktvideoer",

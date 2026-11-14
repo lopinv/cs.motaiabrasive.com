@@ -1021,7 +1021,8 @@
   "quickBar": {
     "label": "빠른 문의",
     "whatsapp": "WhatsApp",
-    "quote": "견적 요청"
+    "quote": "견적 요청",
+    "backToTop": "맨 위로"
   },
   "relArticles": {
     "title": "관련 문서",

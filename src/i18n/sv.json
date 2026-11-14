@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Snabbkontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Begär en offert"
+    "quote": "Begär en offert",
+    "backToTop": "Till toppen"
   },
   "videos": {
     "h1": "Fabrik- och produktvideor",

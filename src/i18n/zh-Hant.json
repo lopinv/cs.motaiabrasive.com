@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "快速聯繫",
     "whatsapp": "WhatsApp",
-    "quote": "索取報價"
+    "quote": "索取報價",
+    "backToTop": "回到頂部"
   },
   "videos": {
     "h1": "工廠與產品影片",

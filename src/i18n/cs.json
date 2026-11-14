@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Rychlý kontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Vyžádat nabídku"
+    "quote": "Vyžádat nabídku",
+    "backToTop": "Zpět nahoru"
   },
   "videos": {
     "h1": "Firemní a produktová videa",

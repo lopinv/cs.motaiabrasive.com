@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Kiirkontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Taota pakkumine"
+    "quote": "Taota pakkumine",
+    "backToTop": "Tagasi üles"
   },
   "videos": {
     "h1": "Teha- ja tootepildid",

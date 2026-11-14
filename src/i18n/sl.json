@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Hiter kontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Zahtevajte ponudbo"
+    "quote": "Zahtevajte ponudbo",
+    "backToTop": "Na vrh"
   },
   "videos": {
     "h1": "Tovarni in izdelkovni video posnetki",

@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "צור קשר מהיר",
     "whatsapp": "WhatsApp",
-    "quote": "בקשת הצעת מחיר"
+    "quote": "בקשת הצעת מחיר",
+    "backToTop": "חזרה למעלה"
   },
   "videos": {
     "h1": "סרטוני מפעל ומוצר",

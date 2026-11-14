@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Gyors kapcsolati",
     "whatsapp": "WhatsApp",
-    "quote": "Ajánlatkérés"
+    "quote": "Ajánlatkérés",
+    "backToTop": "Vissza a tetejére"
   },
   "videos": {
     "h1": "Gyári és termékvideók",

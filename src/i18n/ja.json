@@ -1123,7 +1123,8 @@
   "quickBar": {
     "label": "お問い合わせ",
     "whatsapp": "WhatsApp",
-    "quote": "見積もりを依頼"
+    "quote": "見積もりを依頼",
+    "backToTop": "トップへ戻る"
   },
   "relArticles": {
     "title": "関連記事",

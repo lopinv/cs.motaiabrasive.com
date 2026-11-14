@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Mabilis na kontak",
     "whatsapp": "WhatsApp",
-    "quote": "Humingi ng quote"
+    "quote": "Humingi ng quote",
+    "backToTop": "Bumalik sa itaas"
   },
   "videos": {
     "h1": "Mga video ng pabrika at produkto",

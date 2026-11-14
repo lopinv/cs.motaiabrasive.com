@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Contacte ràpid",
     "whatsapp": "WhatsApp",
-    "quote": "Demana un pressupost"
+    "quote": "Demana un pressupost",
+    "backToTop": "Torna a dalt"
   },
   "videos": {
     "h1": "Vídeos de fàbrica i producte",

@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Pikayhteys",
     "whatsapp": "WhatsApp",
-    "quote": "Pyydä tarjous"
+    "quote": "Pyydä tarjous",
+    "backToTop": "Takaisin ylös"
   },
   "videos": {
     "h1": "Tehtaan ja tuotteiden videot",

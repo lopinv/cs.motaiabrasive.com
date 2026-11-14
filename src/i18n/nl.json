@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Snel contact",
     "whatsapp": "WhatsApp",
-    "quote": "Vraag een offerte aan"
+    "quote": "Vraag een offerte aan",
+    "backToTop": "Terug naar boven"
   },
   "videos": {
     "h1": "Video's van de fabriek en producten",

@@ -1123,7 +1123,8 @@
   "quickBar": {
     "label": "快速联系",
     "whatsapp": "WhatsApp",
-    "quote": "请求报价"
+    "quote": "请求报价",
+    "backToTop": "回到顶部"
   },
   "relArticles": {
     "title": "相关文章",

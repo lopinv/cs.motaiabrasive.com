@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Szybki kontakt",
     "whatsapp": "WhatsApp",
-    "quote": "Poproś o wycenę"
+    "quote": "Poproś o wycenę",
+    "backToTop": "Do góry"
   },
   "videos": {
     "h1": "Filmy z fabryki i o produktach",

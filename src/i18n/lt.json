@@ -1130,7 +1130,8 @@
   "quickBar": {
     "label": "Greitas kontaktas",
     "whatsapp": "WhatsApp",
-    "quote": "Užsakyti vertinimą"
+    "quote": "Užsakyti vertinimą",
+    "backToTop": "Į viršų"
   },
   "videos": {
     "h1": "Gaminklos ir produktų vaizdo įrašai",

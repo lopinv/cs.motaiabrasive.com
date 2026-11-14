@@ -1123,7 +1123,8 @@
   "quickBar": {
     "label": "Contatto rapido",
     "whatsapp": "WhatsApp",
-    "quote": "Richiedi un preventivo"
+    "quote": "Richiedi un preventivo",
+    "backToTop": "Torna in cima"
   },
   "relArticles": {
     "title": "Articoli correlati",
