@@ -5,6 +5,7 @@ import Shell from '../../components/Shell.astro'
 import Breadcrumb from '../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd, videoListJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
+import PageHero from '../../components/PageHero.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import { trust } from '../../lib/utils.js'
 
@@ -38,21 +39,29 @@ const stats = trust.stats.filter((s) => s.status === 'published')
 const longCount = visibleVideos.filter((x) => x.kind === 'video').length
 const shortCount = visibleVideos.filter((x) => x.kind === 'short').length
 const goQuote = quoteUrlRaw()
+// 首屏主视觉：第一条长视频的封面（YouTube 缩略图），取不到则留空走无图版式
+const heroThumb = visibleVideos.find((x) => x.kind === 'video')?.thumb
+  ?? visibleVideos[0]?.thumb
+  ?? ''
 ---
 
 <Shell lang={lang} seo={seo}>
   <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.videos') }]} />
 
-  <section class="section wrap">
-    <span class="eyebrow">VIDEO</span>
-    <h1>{v.h1}</h1>
-    <p class="lead">{v.sub}</p>
-    <p class="body-narrow mt-12">{v.intro}</p>
-    <div class="hero-actions">
-      <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">{pick('cta.quote')} <span aria-hidden="true">↗</span></a>
-      <a class="button outline dark-outline wide" href={lu('/factory')}>{v.factoryLink} <span aria-hidden="true">→</span></a>
-    </div>
-  </section>
+  <PageHero
+    lang={lang}
+    eyebrow="VIDEO"
+    title={v.h1}
+    lead={v.sub}
+    body={v.intro}
+    image={heroThumb}
+    imageAlt={v.h1}
+    eager
+    actions={[
+      { label: pick('cta.quote'), href: goQuote, external: true, arrow: true },
+      { label: v.factoryLink, href: lu('/factory'), variant: 'ghost' }
+    ]}
+  />
 
   <section class="section wrap section--soft-tight">
     <div class={longCount ? 'stats-grid' : 'stats-grid stats-grid--2'}>
