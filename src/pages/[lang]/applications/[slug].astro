@@ -7,7 +7,9 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import AccordionFaq from '../../../components/AccordionFaq.astro'
+import PageHero from '../../../components/PageHero.astro'
 import applicationsData from '../../../data/applications.json'
+import homeData from '../../../data/home.json'
 import { TRANSLATIONS } from '../../../lib/i18n.js'
 
 export function getStaticPaths() {
@@ -16,10 +18,14 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, media, applications: appData, faq: faqData, applicationBySlug, products, collections } = usePage(lang)
+const { pick, lu, media, applications: appData, faq: faqData, applicationBySlug, products, collections, quoteUrl, wa } = usePage(lang)
 const a = applicationBySlug(ctx.slug)
 const t = pick('applications')
 const app = appData.find((x) => x.slug === ctx.slug)
+// 首屏工艺实拍：home.json 的 scenes 与 applications.json 的 6 个 slug
+// 一一对应（metal-fabrication…surface-preparation），按索引取图；
+// 取不到则退回该应用的静态 image 键，再不行留空（PageHero 自动转无图版式）。
+const sceneImage = homeData.scenes[appData.indexOf(app)]?.image ?? ''
 // apps.<x>.products 这类键只有部分语种翻译过；缺失时回退 en，否则该页在
 // 那些语种上会因 undefined 直接渲染失败。
 const pickEn = (path) => pick(path) ?? pick(path, TRANSLATIONS.en)
@@ -47,17 +53,20 @@ const seo = buildSeo(lang, 'application', { slug: app.slug }, [
 <Shell lang={lang} seo={seo}>
   <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.knowledge'), href: '/applications' }, { name: pickEn(app.titleKey) }]} />
 
-  <section class="section wrap">
-    <span class="eyebrow">{app.no}</span>
-    <h1>{pickEn(app.titleKey)}</h1>
-    <p class="lead">{pickEn(app.introKey)}</p>
-    <p class="uses-line">{pickEn(app.usesKey)}</p>
-    <p class="byline">
-      <span>{pick('article.reviewedBy')}</span>
-      <span aria-hidden="true">·</span>
-      <span>{pick('article.lastReviewed').replace('{date}', reviewed)}</span>
-    </p>
-  </section>
+  <PageHero
+    lang={lang}
+    eyebrow={app.no}
+    title={pickEn(app.titleKey)}
+    lead={pickEn(app.introKey)}
+    body={pickEn(app.usesKey)}
+    image={sceneImage}
+    imageAlt={pickEn(app.titleKey)}
+    eager
+    actions={[
+      { label: pick('cta.quote'), href: quoteUrl(), external: true, arrow: true },
+      { label: pick('cta.waChat'), href: wa('contact'), external: true, variant: 'ghost' }
+    ]}
+  />
 
   <section class="section wrap section--soft">
     <SectionHeading title={t.reqTitle} sub={t.reqNote} />
