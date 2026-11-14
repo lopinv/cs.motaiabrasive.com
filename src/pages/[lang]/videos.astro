@@ -95,8 +95,8 @@ const heroThumb = visibleVideos.find((x) => x.kind === 'video')?.thumb
     </div>
   </section>
 
-  {groups.map((g) => (
-    <section class="section wrap section--flush-top" id={`line-${g.key}`}>
+  {groups.map((g, gi) => (
+    <section class:list={['section', 'wrap', 'section--flush-top', { 'section--soft': gi % 2 === 0 }]} id={`line-${g.key}`}>
       <SectionHeading title={pick(g.labelKey)} sub={v.countLabel.replace('{count}', g.items.length)} />
       <div class="grid grid-3">
         {g.items.map((item) => {
