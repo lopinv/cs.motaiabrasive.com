@@ -759,5 +759,6 @@
   "productPage.viewFull": "Vizualizează în dimensiune completă",
   "productPage.closeViewer": "Închide vizualizatorul",
   "productPage.prevImg": "Imaginea anterioară",
-  "productPage.nextImg": "Imaginea următoare"
+  "productPage.nextImg": "Imaginea următoare",
+  "quickBar.backToTop": "Începutul paginii"
 }

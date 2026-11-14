@@ -759,5 +759,6 @@
   "productPage.viewFull": "Peržiūrėti pilnu dydžiu",
   "productPage.closeViewer": "Užverti žiūrėtuvą",
   "productPage.prevImg": "Ankstesnis vaizdas",
-  "productPage.nextImg": "Kitas vaizdas"
+  "productPage.nextImg": "Kitas vaizdas",
+  "quickBar.backToTop": "Į viršų"
 }

@@ -703,5 +703,6 @@
   "productPage.viewFull": "Veure en mida completa",
   "productPage.closeViewer": "Tancar el visor",
   "productPage.prevImg": "Imatge anterior",
-  "productPage.nextImg": "Imatge següent"
+  "productPage.nextImg": "Imatge següent",
+  "quickBar.backToTop": "Torna a dalt"
 }

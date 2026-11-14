@@ -759,5 +759,6 @@
   "productPage.viewFull": "Поглед у пуној величини",
   "productPage.closeViewer": "Затвори преглед",
   "productPage.prevImg": "Претходна слика",
-  "productPage.nextImg": "Следећа слика"
+  "productPage.nextImg": "Следећа слика",
+  "quickBar.backToTop": "На врх"
 }

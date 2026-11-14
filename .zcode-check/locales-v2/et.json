@@ -698,5 +698,6 @@
   "productPage.viewFull": "Vaata täismõõtuna",
   "productPage.closeViewer": "Sule vaates",
   "productPage.prevImg": "Eelmine pilt",
-  "productPage.nextImg": "Järgmine pilt"
+  "productPage.nextImg": "Järgmine pilt",
+  "quickBar.backToTop": "Tagasi üles"
 }

@@ -759,5 +759,6 @@
   "productPage.viewFull": "Skatīt pilnā izkārtnē",
   "productPage.closeViewer": "Aizvērt skatītāju",
   "productPage.prevImg": "Iepriekšējais attēls",
-  "productPage.nextImg": "Nākamais attēls"
+  "productPage.nextImg": "Nākamais attēls",
+  "quickBar.backToTop": "Uz augšu"
 }

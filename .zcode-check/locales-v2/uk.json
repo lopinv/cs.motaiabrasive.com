@@ -759,5 +759,6 @@
   "productPage.viewFull": "Переглянути в повному розмірі",
   "productPage.closeViewer": "Закрити перегляд",
   "productPage.prevImg": "Попереднє зображення",
-  "productPage.nextImg": "Наступне зображення"
+  "productPage.nextImg": "Наступне зображення",
+  "quickBar.backToTop": "Вгору"
 }

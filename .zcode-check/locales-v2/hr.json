@@ -698,5 +698,6 @@
   "productPage.viewFull": "Prikazuj u punoj veličini",
   "productPage.closeViewer": "Zatvori preglednik",
   "productPage.prevImg": "Prethodna slika",
-  "productPage.nextImg": "Sljedeća slika"
+  "productPage.nextImg": "Sljedeća slika",
+  "quickBar.backToTop": "Na vrh"
 }

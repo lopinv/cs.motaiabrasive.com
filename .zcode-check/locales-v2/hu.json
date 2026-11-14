@@ -698,5 +698,6 @@
   "productPage.viewFull": "Nézet teljes méretben",
   "productPage.closeViewer": "Megtekintő bezárása",
   "productPage.prevImg": "Előző kép",
-  "productPage.nextImg": "Következő kép"
+  "productPage.nextImg": "Következő kép",
+  "quickBar.backToTop": "Vissza a tetejére"
 }

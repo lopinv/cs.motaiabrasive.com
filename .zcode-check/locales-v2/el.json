@@ -698,5 +698,6 @@
   "productPage.viewFull": "Προβολή σε πλήρες μέγεθος",
   "productPage.closeViewer": "Κλείσιμο προβολέα",
   "productPage.prevImg": "Προηγούμενη εικόνα",
-  "productPage.nextImg": "Επόμενη εικόνα"
+  "productPage.nextImg": "Επόμενη εικόνα",
+  "quickBar.backToTop": "Επιστροφή στην κορυφή"
 }

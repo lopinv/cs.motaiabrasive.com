@@ -759,5 +759,6 @@
   "productPage.viewFull": "Prikaži v celotni velikosti",
   "productPage.closeViewer": "Zapri predogled",
   "productPage.prevImg": "Prejšnja slika",
-  "productPage.nextImg": "Naslednja slika"
+  "productPage.nextImg": "Naslednja slika",
+  "quickBar.backToTop": "Na vrh"
 }

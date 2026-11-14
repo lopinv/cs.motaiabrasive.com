@@ -698,5 +698,6 @@
   "productPage.viewFull": "Преглед в пълен размер",
   "productPage.closeViewer": "Затваряне на прегледача",
   "productPage.prevImg": "Предишно изображение",
-  "productPage.nextImg": "Следващо изображение"
+  "productPage.nextImg": "Следващо изображение",
+  "quickBar.backToTop": "Към началото"
 }

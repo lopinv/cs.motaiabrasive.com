@@ -759,5 +759,6 @@
   "productPage.viewFull": "সম্পূর্ণ আকারে দেখুন",
   "productPage.closeViewer": "ভিউয়ার বন্ধ করুন",
   "productPage.prevImg": "আগের ছবি",
-  "productPage.nextImg": "পরের ছবি"
+  "productPage.nextImg": "পরের ছবি",
+  "quickBar.backToTop": "উপরে ফিরুন"
 }
