@@ -96,7 +96,7 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
         <SectionHeading title={`${pick('colt.belts.label')} — ${t.title}`} />
         <div class="grid grid-4">
           {beltProducts.map((p) => (
-            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} />
+            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} quoteParams={{ product: p.handle }} />
           ))}
         </div>
       </>
@@ -126,7 +126,7 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
         <SectionHeading title={`${pick('colt.discs.label')} — ${t.title}`} />
         <div class="grid grid-4">
           {discProducts.map((p) => (
-            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} />
+            <ProductCard lang={lang} title={p.name} subtitle={p.category} imageKey={p.image} link={lu(`/products/${p.handle}`)} quoteParams={{ product: p.handle }} />
           ))}
         </div>
       </>

@@ -67,6 +67,7 @@ const wa = (ctx, vars) => waLink(lang, ctx, vars)
         subtitle={p.category}
         imageKey={p.image}
         link={localizedUrl(lang, `/products/${p.handle}`)}
+        quoteParams={{ product: p.handle }}
       />
     ))}
   </div>

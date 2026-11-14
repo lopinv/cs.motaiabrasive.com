@@ -42,6 +42,7 @@ const lcpPreload = (seo.ogType === 'product' || seo.canonicalPath === '') && seo
     <SeoMeta lang={lang} {...seo} />
   </head>
   <body>
+    <a class="skip-link" href="#MainContent">{TRANSLATIONS[lang]?.nav?.home ?? 'Skip to content'}</a>
     <Header lang={lang} routePath={seo.canonicalPath ?? ''} />
     <main id="MainContent">
       <slot />

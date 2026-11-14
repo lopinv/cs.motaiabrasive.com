@@ -19,6 +19,9 @@ const { lang } = Astro.props
 const tr = TRANSLATIONS[lang]
 const h = tr.home
 const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+// 箭头 aria-label 复用 blogPager.prev/next（42 语种已译，零新增键）
+const prevLabel = pick('blogPager.prev') ?? 'Previous'
+const nextLabel = pick('blogPager.next') ?? 'Next'
 const hero = homeData.hero
 const slides = hero.slides
 const tags = hero.tags.map((k) => pick(k)).filter(Boolean)
@@ -176,10 +179,10 @@ const script = `;(function () {
             ></button>
           ))}
         </div>
-        <button type="button" class="hero-arrow" data-hero-prev aria-label="Previous">
+        <button type="button" class="hero-arrow" data-hero-prev aria-label={prevLabel}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
         </button>
-        <button type="button" class="hero-arrow" data-hero-next aria-label="Next">
+        <button type="button" class="hero-arrow" data-hero-next aria-label={nextLabel}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </button>
         <button type="button" class="hero-pause" data-hero-pause aria-pressed="false" aria-label={h.videosCta2}>

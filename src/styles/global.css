@@ -147,6 +147,27 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
 
+/* ============ 键盘可达性 ============
+   全局统一焦点环：此前全站仅 .wa-input 一处 :focus，键盘用户几乎不可见。
+   :focus-visible 只在键盘导航时显示（鼠标点击不显示），不影响观感。 */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-xs);
+}
+
+/* 跳转到主内容链接：键盘 Tab 第一站可见，鼠标用户不显示 */
+.skip-link {
+  position: absolute; inset-block-start: -100%; inset-inline-start: 0;
+  z-index: calc(var(--z-modal) + 10);
+  padding: var(--sp-3) var(--sp-5);
+  background: var(--ink-800); color: #fff;
+  font-size: var(--fs-sm); font-weight: 600;
+  border-radius: 0 0 var(--r-md) 0;
+  transition: inset-block-start var(--dur-fast) var(--ease-out);
+}
+.skip-link:focus-visible { inset-block-start: 0; }
+
 /* ============ Eyebrow / headings ============ */
 .eyebrow {
   display: inline-block;
@@ -648,8 +669,9 @@ section.hero--carousel {
   position: absolute; bottom: 8px; font-size: 11px; font-weight: 600; line-height: 1;
   padding: 5px 7px; border-radius: var(--r-xs); color: #fff; background: rgba(22,24,29,.78);
 }
-.video-badge { left: 8px; }
-.video-len { right: 8px; }
+/* RTL 下角标自动镜像到对侧（ar/he/fa 不再贴错边） */
+.video-badge { inset-inline-start: 8px; }
+.video-len { inset-inline-end: 8px; }
 .video-card-body { padding: var(--sp-5); display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .video-card-body h3 { margin: 0; font-size: 16px; }
 .video-card-body p { margin: 0; color: var(--ink-soft); font-size: 14px; }
@@ -1010,6 +1032,27 @@ body { padding-bottom: var(--quickbar-h); }
 
 /* ============ Value cards / steps ============ */
 .value-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-6); background: var(--bg); }
+/* 统一 hover 语言：transform + 阴影 + 边框，与 product-card/scene-card 一致。
+   此前 value-card / model-card / region-card 完全无 hover 反馈，交互体验割裂。
+   value-card 多为静态信息块（不抬升，仅阴影）；model-card / region-card
+   常作可点卡片，抬升 2px + 阴影。 */
+.value-card { transition: box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out); }
+.model-card,
+.region-card {
+  transition:
+    transform var(--dur) var(--ease-out),
+    box-shadow var(--dur) var(--ease-out),
+    border-color var(--dur) var(--ease-out);
+}
+/* a.model-card / a.region-card（可点卡片）才抬升 */
+a.model-card:hover,
+a.region-card:hover,
+.model-card:has(a):hover,
+.region-card:has(a):hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sh-2);
+  border-color: var(--ink-200);
+}
 .value-card .vno { font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: .1em; }
 .value-card h3 { margin: 10px 0 6px; }
 .value-card p { margin: 0; color: var(--ink-soft); font-size: 14.5px; }
@@ -1022,6 +1065,27 @@ body { padding-bottom: var(--quickbar-h); }
 .step { display: grid; grid-template-columns: 56px 1fr; gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--line); }
 .step b { font-size: 22px; color: var(--accent); font-weight: 800; }
 .step p { margin: 0; color: var(--ink-soft); }
+
+/* 此前 8 个页面渲染 .byline 但 CSS 无任何规则（吃 body 继承 16px），
+   E-E-A-T 署名链没有视觉层级 —— 补为小号弱化行。 */
+.byline {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2);
+  margin: var(--sp-4) 0 0;
+  font-size: var(--fs-xs); color: var(--text-muted);
+}
+.byline span[aria-hidden] { color: var(--line-strong); }
+
+/* FAQ 区块标题（Faq.astro 渲染 <h2 class="faq-title">）此前也无规则 */
+.faq-title { margin: 0 0 var(--sp-4); }
+
+/* 数字统一表格数字（等宽字形），多列统计/计数/页码不再参差 */
+.stat-value,
+.stat-label,
+.hero-counter,
+.scene-counter,
+.blog-cat-count,
+.pager-num,
+.video-len { font-variant-numeric: tabular-nums; }
 
 /* ============ Region / application cards ============ */
 .region-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg-soft); }

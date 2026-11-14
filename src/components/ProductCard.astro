@@ -2,16 +2,20 @@
 /**
  * Product card: remote CDN image (lazy, onerror fallback to gradient placeholder)
  * + quote / model / disc / flap context links.
+ *
+ * The image is also a lightbox trigger (data-full on the wrapping anchor),
+ * reusing the global Lightbox script already present on the page — the card
+ * groups with its siblings via data-group so the arrows cycle the row.
  */
 import { media, quoteUrl, waLink, localizedUrl } from '../lib/utils.js'
 import { TRANSLATIONS } from '../lib/i18n.js'
 
-const { lang, title, imageKey, subtitle = '', link, waContext = 'generic', waVars = {}, accent = '#b02a1f' } = Astro.props
+const { lang, title, imageKey, subtitle = '', link, waContext = 'generic', waVars = {}, accent = '#b02a1f', quoteParams = {} } = Astro.props
 const tr = TRANSLATIONS[lang]
 ---
 
 <article class="product-card" style={`--accent:${accent}`}>
-  <a class="product-card-media" href={link} aria-label={title}>
+  <a class="product-card-media lb-trigger" href={link} data-full={media(imageKey)} aria-label={title}>
     <img
       src={media(imageKey)}
       alt={title}
@@ -26,7 +30,7 @@ const tr = TRANSLATIONS[lang]
     <span class="eyebrow">{subtitle}</span>
     <h3 class="product-card-title"><a href={link}>{title}</a></h3>
     <div class="product-card-actions">
-      <a class="button small" href={quoteUrl({})} target="_blank" rel="noopener nofollow">
+      <a class="button small" href={quoteUrl(quoteParams)} target="_blank" rel="noopener nofollow">
         {tr.cta.quote} <span aria-hidden="true">↗</span>
       </a>
     </div>
