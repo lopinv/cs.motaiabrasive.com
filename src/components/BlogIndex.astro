@@ -41,19 +41,26 @@ const pagerBase = canonicalPath.replace(/\/page\/\d+$/, '')
     <p class="lead">{pager.sub}</p>
     <p class="small-note">{pager.governance}</p>
 
-    <nav class="blog-cats" aria-label={pager.catsLabel}>
-      <a class:list={['blog-cat', { 'is-active': !activeCategory }]} href={u('/blog')}>{pager.allLabel}</a>
+    <nav class="blog-cats" aria-label={pager.catsLabel} role="group">
+      <button type="button" class:list={['blog-cat', { 'is-active': !activeCategory }]} data-cat-filter="" aria-pressed={!activeCategory}>
+        {pager.allLabel}
+      </button>
       {categories.map((c) => (
-        <a class:list={['blog-cat', { 'is-active': activeCategory === c.key }]} href={u(`/blog/category/${c.key}`)}>
+        <button
+          type="button"
+          class:list={['blog-cat', { 'is-active': activeCategory === c.key }]}
+          data-cat-filter={c.key}
+          aria-pressed={activeCategory === c.key}
+        >
           {c.label}
           <span class="blog-cat-count">{c.count}</span>
-        </a>
+        </button>
       ))}
     </nav>
 
     <div class="blog-grid mt-24">
       {pageArticles.map((b) => (
-        <a class="product-card" href={u(`/blog/${b.slug}`)}>
+        <a class="product-card" href={u(`/blog/${b.slug}`)} data-cat={b.categoryKey}>
           <div class="product-card-media">
             <img src={media(b.image)} alt={b.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
             <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
@@ -79,3 +86,63 @@ const pagerBase = canonicalPath.replace(/\/page\/\d+$/, '')
 
   <BlogSidebar lang={lang} products={pager.sideProducts} latest={latest} />
 </div>
+
+<script is:inline>
+  ;(function () {
+    function init() {
+      var root = document.querySelector('.blog-main');
+      if (!root) return;
+      var chips = root.querySelectorAll('[data-cat-filter]');
+      var grid = root.querySelector('.blog-grid');
+      if (!chips.length || !grid) return;
+      var cards = grid.querySelectorAll('[data-cat]');
+
+      function labelFor(key) {
+        for (var i = 0; i < chips.length; i++) {
+          if ((chips[i].getAttribute('data-cat-filter') || '') === key) {
+            return (chips[i].textContent || '').replace(/\d+$/, '').trim() || key;
+          }
+        }
+        return key;
+      }
+      function apply(key) {
+        var shown = 0;
+        for (var i = 0; i < cards.length; i++) {
+          var c = cards[i];
+          var on = !key || c.getAttribute('data-cat') === key;
+          c.hidden = !on;
+          if (on) shown++;
+        }
+        for (var j = 0; j < chips.length; j++) {
+          var k = chips[j].getAttribute('data-cat-filter');
+          chips[j].classList.toggle('is-active', (k || '') === (key || ''));
+          chips[j].setAttribute('aria-pressed', String((k || '') === (key || '')));
+        }
+        grid.setAttribute('data-empty', shown === 0 ? '1' : '');
+        // 空态文案用被选分类的本地化名（复用 chips 渲染文本，零新键）
+        grid.setAttribute('data-empty-label', key ? labelFor(key) : '');
+      }
+      for (var m = 0; m < chips.length; m++) {
+        (function (chip) {
+          chip.addEventListener('click', function () {
+            apply(chip.getAttribute('data-cat-filter') || '');
+          });
+        })(chips[m]);
+      }
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, false);
+    else init();
+  })();
+</script>
+
+<style>
+  .blog-cat { cursor: pointer; font: inherit; }
+  .product-card[hidden] { display: none; }
+  .blog-grid[data-empty]::after {
+    content: attr(data-empty-label);
+    display: block; padding: var(--sp-12) var(--sp-5);
+    text-align: center; color: var(--text-muted); font-size: var(--fs-sm);
+    border: 1px dashed var(--line); border-radius: var(--r-md);
+    grid-column: 1 / -1;
+  }
+</style>
