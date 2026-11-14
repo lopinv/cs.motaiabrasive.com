@@ -1115,6 +1115,26 @@ a.region-card:hover,
   .oem-grid { grid-template-columns: 1fr; }
 }
 
+/* ============ 视频详情页首屏（播放器优先） ============ */
+/* 视频页第一眼就应该看到播放器：左侧大播放器 + 右侧文案/CTA。
+   此前首屏只有三行文字，播放器在第二屏。 */
+.video-hero { padding-top: var(--sp-12); }
+.video-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, .65fr);
+  gap: clamp(24px, 3vw, 44px);
+  align-items: start;
+}
+.video-hero-player { min-width: 0; }
+.video-hero-copy { min-width: 0; }
+.video-hero-copy h1 { font-size: clamp(24px, 3vw, 36px); line-height: 1.2; margin: 0 0 12px; }
+.video-hero-copy .lead { font-size: var(--fs-md); margin: 0 0 20px; }
+.video-hero-meta { margin: 20px 0 0; }
+@media (width <= 900px) {
+  .video-hero-grid { grid-template-columns: 1fr; gap: var(--sp-6); }
+  .video-hero { padding-top: var(--sp-8); }
+}
+
 /* ============ Region / application cards ============ */
 .region-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg-soft); }
 .region-card h3 { margin: 0 0 6px; }

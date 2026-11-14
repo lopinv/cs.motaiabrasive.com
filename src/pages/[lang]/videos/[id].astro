@@ -75,25 +75,28 @@ const seo = buildSeo(lang, 'video', { id: ctx.id }, [
 <Shell lang={lang} seo={seo}>
   <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.videos'), href: '/videos' }, { name: c.title }]} />
 
-  <section class="section wrap">
-    <span class="eyebrow">{video.kind === 'video' ? v.videoLabel : v.shortsLabel} · {v.metaDuration} {video.durationLabel}</span>
-    <h1>{c.title}</h1>
-    <p class="lead">{bullets[0]}</p>
-    <p class="body-narrow mt-12">{c.body}</p>
-    <div class="hero-actions">
-      <a class="button wide" href={goQuote} target="_blank" rel="noopener nofollow">{pick('cta.quote')} <span aria-hidden="true">↗</span></a>
-      <a class="button outline dark-outline wide" href={video.youtubeUrl} target="_blank" rel="noopener nofollow">{v.watch} <span aria-hidden="true">↗</span></a>
+  <section class="section wrap section--flush-top video-hero">
+    <div class="video-hero-grid">
+      <div class="video-hero-player">
+        <YouTubeEmbed video={video} title={c.title} description={c.body} jsonld={false} />
+      </div>
+      <div class="video-hero-copy">
+        <span class="eyebrow">{video.kind === 'video' ? v.videoLabel : v.shortsLabel} · {v.metaDuration} {video.durationLabel}</span>
+        <h1>{c.title}</h1>
+        <p class="lead">{bullets[0]}</p>
+        <div class="hero-cta">
+          <a class="button button--accent" href={goQuote} target="_blank" rel="noopener nofollow">{pick('cta.quote')} <span aria-hidden="true">↗</span></a>
+          <a class="button button--ghost-dark" href={video.youtubeUrl} target="_blank" rel="noopener nofollow">{v.watch} <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="video-hero-meta small-note">
+          <time datetime={isoDate}>{video.publishDate}</time> · {lineLabel}
+        </p>
+      </div>
     </div>
   </section>
 
   <div class="section wrap blog-layout">
     <div class="blog-main">
-      <section class="section--flush-top">
-        <div class="narrow">
-          <YouTubeEmbed video={video} title={c.title} description={c.body} jsonld={false} />
-        </div>
-      </section>
-
       <section class="section">
         <SectionHeading title={v.details} />
         <div class="prose">
