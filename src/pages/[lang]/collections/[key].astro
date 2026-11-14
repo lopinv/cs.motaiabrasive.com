@@ -3,11 +3,13 @@ import { usePage, buildSeo } from '../../../lib/page.js'
 import { langPaths } from '../../../lib/paths.js'
 import Shell from '../../../components/Shell.astro'
 import Breadcrumb from '../../../components/Breadcrumb.astro'
+import PageHero from '../../../components/PageHero.astro'
 import { breadcrumbJsonLd, collectionItemListJsonLd, faqJsonLd } from '../../../lib/tdk.js'
 import SectionHeading from '../../../components/SectionHeading.astro'
 import ProductCard from '../../../components/ProductCard.astro'
 import CtaBand from '../../../components/CtaBand.astro'
 import AccordionFaq from '../../../components/AccordionFaq.astro'
+import homeData from '../../../data/home.json'
 import { products, models, discViews, flaps, sponges, media } from '../../../lib/utils.js'
 
 export function getStaticPaths() {
@@ -16,11 +18,15 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, wa } = usePage(lang)
+const { pick, lu, wa, quoteUrl } = usePage(lang)
 const { key } = ctx
 const coltKey = { 'abrasive-belts': 'belts', 'sanding-discs': 'discs', 'flap-discs': 'flap', 'sanding-sponges': 'sponge', all: 'all' }[key]
 const isAll = key === 'all'
 const t = { title: pick(`colt.${coltKey}.title`), description: pick(`colt.${coltKey}.desc`) }
+// 首屏代表图：按分类从 home.json 取（与首页分类区块同源），all 退到砂带
+const coltHeroImage = homeData.categories.find((c) => c.key === coltKey)?.image
+  ?? homeData.categories.find((c) => c.key === 'belts')?.image
+  ?? ''
 const beltProducts = products.filter((p) => p.category === 'Abrasive Belts')
 const discProducts = products.filter((p) => p.category === 'Sanding Discs')
 // Products actually rendered on this collection page, as ItemList entries.
@@ -66,10 +72,19 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
 <Shell lang={lang} seo={seo}>
   <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('colt.all.label'), href: '/collections/all' }, { name: t.title }]} />
 
-  <section class="section wrap">
-    <span class="eyebrow">COLLECTION</span>
-    <h1>{t.title}</h1>
-  </section>
+  <PageHero
+    lang={lang}
+    eyebrow={pick(`colt.${coltKey}.label`)}
+    title={t.title}
+    lead={t.description}
+    image={coltHeroImage}
+    imageAlt={pick(`colt.${coltKey}.label`)}
+    eager
+    actions={[
+      { label: pick('cta.quote'), href: quoteUrl(), external: true, arrow: true },
+      { label: pick('cta.waChat'), href: wa('generic'), external: true, variant: 'ghost' }
+    ]}
+  />
 
   <div class="section wrap section--flush-top">
     {(key === 'abrasive-belts' || isAll) && (

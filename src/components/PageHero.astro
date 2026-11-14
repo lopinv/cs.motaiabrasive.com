@@ -1,0 +1,113 @@
+---
+/**
+ * 通用页首 Hero 带：左文案 + 右实拍图。
+ *
+ * 面向此前首屏只有「eyebrow + h1 + lead」三行文字的内容页
+ * （factory / quote / oem / about / clients / videos …）。
+ * 工业 B2B 的第一眼需要「实物存在感」：右图给真实工厂/产品实拍，
+ * 左栏给标题、导语与主 CTA，符合成交漏斗「先建立信任再给动作」。
+ *
+ * 文案全部由调用方传现成键解析后的字符串；图片走远程 CDN + onerror 渐变兜底。
+ * 零新增 i18n 键（调用方用现有 i18n 值填充 props）。
+ */
+const {
+  lang,
+  eyebrow,
+  title,
+  lead,
+  body = '',
+  image = '',
+  imageAlt = '',
+  actions = [],
+  eager = false
+} = Astro.props
+---
+
+<section class:list={['page-hero', { 'page-hero--no-img': !image }]}>
+  <div class="wrap page-hero-grid">
+    <div class="page-hero-copy">
+      {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+      <h1>{title}</h1>
+      {lead && <p class="page-hero-lead">{lead}</p>}
+      {body && <p class="page-hero-body">{body}</p>}
+      {actions.length > 0 && (
+        <div class="hero-cta">
+          {actions.map((a) => (
+            <a
+              class:list={['button', a.variant === 'ghost' ? 'button--ghost-dark' : 'button--accent']}
+              href={a.href}
+              target={a.external ? '_blank' : undefined}
+              rel={a.external ? 'noopener nofollow' : undefined}
+            >
+              {a.label} {a.arrow && <span aria-hidden="true">↗</span>}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+    {image && (
+      <div class="page-hero-media">
+        <img
+          src={image}
+          alt={imageAlt}
+          loading={eager ? 'eager' : 'lazy'}
+          fetchpriority={eager ? 'high' : 'auto'}
+          decoding="async"
+          onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')"
+        />
+      </div>
+    )}
+  </div>
+</section>
+
+<style>
+  /* 页首 Hero：浅灰底 + 左文右图 + 底部边界线，与产品网格自然衔接。
+     不使用首页那种全屏照片 + 深遮罩 —— 内容页要保持目录感与可读性。 */
+  .page-hero {
+    padding: var(--sp-12) 0;
+    background: var(--bg-soft);
+    border-bottom: 1px solid var(--line);
+  }
+  .page-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
+    gap: clamp(28px, 4vw, 56px);
+    align-items: center;
+  }
+  .page-hero--no-img .page-hero-grid { grid-template-columns: 1fr; }
+  .page-hero-copy { min-width: 0; }
+  .page-hero-lead {
+    color: var(--text-soft);
+    font-size: var(--fs-lg);
+    line-height: var(--lh-normal);
+    max-width: 620px;
+    margin: 0 0 var(--sp-4);
+  }
+  .page-hero-body {
+    color: var(--text-soft);
+    font-size: var(--fs-md);
+    max-width: 620px;
+    margin: 0 0 var(--sp-6);
+  }
+  .page-hero-media {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--brand-500), var(--brand-900));
+    box-shadow: var(--sh-3);
+  }
+  .page-hero-media.img-fallback { min-height: 200px; }
+  .page-hero-media img { width: 100%; height: 100%; object-fit: cover; }
+  .button--ghost-dark {
+    background: var(--bg);
+    border-color: var(--ink-700);
+    color: var(--ink-800);
+  }
+  .button--ghost-dark:hover { background: var(--ink-800); border-color: var(--ink-800); color: #fff; }
+  @media (width <= 900px) {
+    .page-hero { padding: var(--sp-8) 0; }
+    .page-hero-grid { grid-template-columns: 1fr; gap: var(--sp-6); }
+    .page-hero-media { aspect-ratio: 16 / 9; }
+  }
+</style>

@@ -7,8 +7,9 @@ import { breadcrumbJsonLd, faqJsonLd } from '../../lib/tdk.js'
 import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
 import AccordionFaq from '../../components/AccordionFaq.astro'
+import PageHero from '../../components/PageHero.astro'
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro'
-import { visibleVideos, faq as faqData } from '../../lib/utils.js'
+import { visibleVideos, faq as faqData, site } from '../../lib/utils.js'
 
 export function getStaticPaths() {
   return langPaths()
@@ -16,7 +17,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params
 const ctx = Astro.params
-const { pick, lu, media, quoteUrl } = usePage(lang)
+const { pick, lu, media, quoteUrl, wa } = usePage(lang)
 const f = pick('factory')
 // 制造页的买家疑问与工厂能力直接相关（MOQ / OEM / 交期 / 包装），复用首页
 // 同一份 faq.json 语料，可见块与 FAQPage schema 同源。
@@ -35,15 +36,20 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
 
 <Shell lang={lang} seo={seo}>
   <Breadcrumb lang={lang} trail={[{ name: 'Home', href: '/' }, { name: pick('nav.manufacturing'), href: '/factory' }]} />
-  <section class="section wrap">
-    <span class="eyebrow">MANUFACTURING &amp; QUALITY</span>
-    <h1>{f.h1}</h1>
-    <p class="lead">{f.sub}</p>
-    <p class="body-narrow mt-12">{f.intro}</p>
-    {video?.youtubeId && (
-      <a class="button outline dark-outline mt-18" href={quoteUrl()} target="_blank" rel="noopener nofollow">{f.videoLabel} <span aria-hidden="true">↗</span></a>
-    )}
-  </section>
+  <PageHero
+    lang={lang}
+    eyebrow="MANUFACTURING & QUALITY"
+    title={f.h1}
+    lead={f.sub}
+    body={f.intro}
+    image={site.factoryImage}
+    imageAlt={f.h1}
+    eager
+    actions={[
+      { label: f.videoLabel, href: quoteUrl(), external: true, arrow: true },
+      { label: pick('cta.waChat'), href: wa('contact'), external: true, variant: 'ghost' }
+    ]}
+  />
 
   {video?.youtubeId && (
     <section class="section wrap section--soft-tight">

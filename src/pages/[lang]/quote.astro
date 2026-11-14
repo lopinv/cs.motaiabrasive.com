@@ -72,18 +72,34 @@ const go = quoteUrlRaw({})
   </section>
 
   <section class="section wrap section--soft">
-    <SectionHeading title={q.sec1} sub={pick('quotePage.f1')} />
+    <SectionHeading title={q.sec1} sub={q.whySub} />
     <div class="grid grid-2">
       <div class="value-card">
         <span class="vno">01</span>
         <h3>{q.sec1}</h3>
-        <p class="value-lines">{q.f1}<br />{q.f2}<br />{q.f3}<br />{q.f4}<br />{q.f5}<br />{q.f6}: {q.opt1} / {q.opt2} / {q.opt3} / {q.opt4} / {q.opt5} / {q.opt6}</p>
+        <ul class="value-lines">
+          <li>{q.f1}</li>
+          <li>{q.f2}</li>
+          <li>{q.f3}</li>
+          <li>{q.f4}</li>
+          <li>{q.f5}</li>
+        </ul>
+        <div class="grit-chips mt-12">
+          {[q.opt1, q.opt2, q.opt3, q.opt4, q.opt5, q.opt6].filter(Boolean).map((o) => <span>{o}</span>)}
+        </div>
+        <p class="small-note mt-12">{q.f6}</p>
       </div>
       <div class="value-card">
         <span class="vno">02</span>
         <h3>{q.sec2}</h3>
-        <p class="value-lines">{q.f7}<br />{q.f8}<br />{q.f9}<br />{q.f10}<br />{q.f11}<br />{q.f12}<br />{q.f13}<br />{q.f14}<br />{q.f15}<br />{q.f16}</p>
-        <p class="small-note">{q.consent}</p>
+        <ul class="value-lines">
+          <li>{q.f7}: {q.f8}</li>
+          <li>{q.f9}: {q.f10}</li>
+          <li>{q.f11}: {q.f12}</li>
+          <li>{q.f13}: {q.f14}</li>
+          <li>{q.f15}: {q.f16}</li>
+        </ul>
+        <p class="small-note mt-12">{q.consent}</p>
       </div>
     </div>
     <p class="cta-note mt-18">{q.goNote}</p>
