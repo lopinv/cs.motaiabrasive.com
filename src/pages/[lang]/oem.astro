@@ -48,15 +48,18 @@ const oemVideo = visibleVideos.find((v) => v.line === 'oem')
   </section>
 
   <section class="section wrap">
-    <SectionHeading title={o.itemsTitle} />
-    <div class="grid grid-3">
-      {['i1','i2','i3','i4','i5','i6'].map((k) => (
-        <div class="value-card">
-          <h3>{pick(`oem.${k}`)}</h3>
-          <p>{o.itemNote}</p>
-        </div>
+    <SectionHeading title={o.itemsTitle} sub={o.itemNote} />
+    <ol class="oem-grid">
+      {['i1','i2','i3','i4','i5','i6'].map((k, i) => (
+        <li class="oem-item">
+          <span class="oem-no" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <div class="oem-body">
+            <h3>{pick(`oem.${k}`)}</h3>
+            <p>{o.itemNote}</p>
+          </div>
+        </li>
       ))}
-    </div>
+    </ol>
   </section>
 
   {oemVideo && oemVideo.youtubeId && (

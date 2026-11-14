@@ -18,6 +18,7 @@
   --ink-100: #d7d9de;
 
   /* ---- 色阶：品牌红（accent） ------------------------------------------ */
+  --brand-200: #f4c9c1;
   --brand-500: #b02a1f;
   --brand-600: #961f17;
   --brand-700: #7e1d15;
@@ -1086,6 +1087,33 @@ a.region-card:hover,
 .blog-cat-count,
 .pager-num,
 .video-len { font-variant-numeric: tabular-nums; }
+
+/* OEM 能力条目：编号 + 标题 + 说明的两列网格。
+   替代此前的 6 张同文案 value-card（正文完全相同的卡片是纯视觉噪音）。 */
+.oem-grid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-4);
+}
+.oem-item {
+  display: grid; grid-template-columns: 48px minmax(0, 1fr);
+  gap: var(--sp-4); align-items: start;
+  padding: var(--sp-5);
+  border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--bg);
+}
+.oem-no {
+  font-size: 22px; font-weight: 800; line-height: 1;
+  color: var(--brand-200, #f4c9c1);
+  font-variant-numeric: tabular-nums;
+}
+.oem-body { min-width: 0; }
+.oem-body h3 { margin: 0 0 var(--sp-1); font-size: var(--fs-md); }
+.oem-body p { margin: 0; color: var(--text-soft); font-size: var(--fs-sm); line-height: 1.5; }
+@media (width <= 640px) {
+  .oem-grid { grid-template-columns: 1fr; }
+}
 
 /* ============ Region / application cards ============ */
 .region-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg-soft); }
