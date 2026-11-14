@@ -262,8 +262,8 @@ h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 .breadcrumb span { margin: 0 8px; color: var(--muted); }
 
 /* ============ Hero（工厂实拍全屏轮播） ============ */
-/* 结构对齐原站首页 motai-factory-carousel：图片铺满 → 遮罩 → 左侧文案 →
-   底部信任点 + 标签带 + 轮播控制。无 JS 时只显示第一张。 */
+/* 结构对齐原站首页 motai-factory-carousel：图片铺满 → 遮罩 → 底部文案 →
+   控制条 + 信任点。无 JS 时只显示第一张。 */
 /* 元素同时带 .hero 与 .hero--carousel；下方 section.hero--carousel 提高特异性，
    确保 padding/min-height 覆盖后面的 .hero 基础规则。 */
 section.hero--carousel {
@@ -275,7 +275,8 @@ section.hero--carousel {
   min-height: min(calc(100vh - 132px), 700px);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  /* 文案沉到 hero 底部，顶部留空展示工厂实拍全景 */
+  justify-content: flex-end;
   overflow: hidden;
 }
 .hero-slides { position: absolute; inset: 0; z-index: 0; }
@@ -286,31 +287,37 @@ section.hero--carousel {
 }
 .hero-slide.is-active { opacity: 1; }
 .hero-slide-img { width: 100%; height: 100%; object-fit: cover; }
-/* 双层遮罩：左侧更暗保证文案对比度，底部收暗托住控制条 */
+/* 遮罩：文案现在沉在底部，故改为「底部主暗 + 顶部透」——顶部让工厂实拍
+   全景透出，底部 60% 加深保证白字对比度；侧向仅轻压兜住左侧行文。 */
 .hero-scrim {
   position: absolute; inset: 0;
   background:
-    linear-gradient(100deg, rgba(13,15,18,.86) 0%, rgba(13,15,18,.62) 42%, rgba(13,15,18,.22) 72%, rgba(13,15,18,.08) 100%),
-    linear-gradient(to top, rgba(13,15,18,.72) 0%, rgba(13,15,18,0) 42%);
+    linear-gradient(to top, rgba(13,15,18,.90) 0%, rgba(13,15,18,.55) 34%, rgba(13,15,18,.12) 62%, rgba(13,15,18,0) 100%),
+    linear-gradient(100deg, rgba(13,15,18,.55) 0%, rgba(13,15,18,.15) 45%, rgba(13,15,18,0) 78%);
 }
 .hero-body {
   position: relative; z-index: 1;
   width: 100%;
-  /* 贴左上角：顶部 24px；左缘随视口（桌面约 7vw，窄屏最小 24px），
-     替代旧 .wrap 居中约束——原站文案也是按视口左缘排，不随版面居中。 */
-  padding-top: 24px;
+  /* 贴左下角：左缘随视口（桌面约 7vw，窄屏最小 24px）——原站文案也是按
+     视口左缘排，不随版面居中；顶部大留白让工厂全景露出，文案坐在
+     控制条上方，底部留 32px 间距（不贴死）。 */
+  padding-top: clamp(120px, 22vh, 200px);
   padding-inline-start: max(24px, 7vw);
   padding-inline-end: max(24px, 7vw);
-  padding-bottom: 104px;
+  /* 文案坐底：flex-end 已把「文案+控制条」整体推到底部；
+     padding 兜住左侧 7vw 贴边，底部只留呼吸间距。 */
+  padding-bottom: 16px;
 }
-/* 文案块整体左上对齐：RTL 语种（ar/he/fa）跟随 html[dir=rtl] 自动镜像。 */
-.hero-copy { max-width: 720px; text-align: start; }
+/* 文案块整体左对齐（start）：RTL 语种（ar/he/fa）跟随 html[dir=rtl] 自动镜像。
+   底部用正 margin 与控制条保持约 24px 间距（控制条现为文档流 flex 子项）。 */
+.hero-copy { max-width: 720px; text-align: start; margin-bottom: 24px; }
 .hero-eyebrow { color: #fff; opacity: .92; }
 .hero-eyebrow::before { background: currentColor; }
-/* 标题控制在两行内：字号上限收窄 + 行高略紧，避免把 CTA 挤出首屏 */
+/* 标题控制在三行内：贴底布局下方有控制条托底，字号可略放大；行长收窄
+   避免单行过长影响扫读节奏。 */
 .hero--carousel .hero-title {
   color: #fff;
-  font-size: clamp(34px, 4.2vw, 52px);
+  font-size: clamp(38px, 4.6vw, 60px);
   line-height: 1.12;
   margin-bottom: 18px;
   max-width: 22ch;
@@ -336,7 +343,7 @@ section.hero--carousel {
 
 /* 信任点（工厂直供 / OEM / 出口支持） */
 .hero-trust {
-  list-style: none; margin: 34px 0 0; padding: 0;
+  list-style: none; margin: 26px 0 0; padding: 0;
   display: flex; flex-wrap: wrap; gap: 14px 30px;
 }
 .hero-trust-item {
@@ -347,9 +354,13 @@ section.hero--carousel {
 .hero-trust-icon svg { width: 17px; height: 17px; }
 
 /* 底部控制条：标签带 + 计数 + 圆点 + 箭头 + 暂停
-   抬到全局吸底条（--quickbar-h）之上，避免被遮住。 */
+   作为文档流 flex 子项（非绝对定位），使 flex-end 把「文案+控制条」整体推到底部，
+   二者间距由 .hero-copy 的 margin-bottom 直接控制，完全可预测。
+   上沿压在全局吸底条（--quickbar-h）的位置由 hero 自身高度兜住——hero
+   min-height 已按 calc(100vh - 132px) 设计，不会越过 quickbar。 */
 .hero-controls {
-  position: absolute; inset-inline: 0; bottom: var(--quickbar-h); z-index: 2;
+  position: relative;
+  z-index: 2;
   border-top: 1px solid rgba(255,255,255,.16);
   background: rgba(13,15,18,.28);
   backdrop-filter: blur(6px);
@@ -1103,7 +1114,7 @@ body { padding-bottom: var(--quickbar-h); }
 
   /* Hero 轮播：手机端缩短高度，控制条只留必要控件 */
   .hero--carousel { min-height: 70vh; }
-  .hero-body { padding-top: 28px; padding-bottom: 112px; }
+  .hero-body { padding-top: clamp(72px, 14vh, 120px); padding-bottom: 24px; }
   .hero-controls-inner { min-height: 62px; gap: 12px; }
   .hero-tags { display: none; }
   .hero-counter { display: none; }
