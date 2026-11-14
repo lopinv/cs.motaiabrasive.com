@@ -3,6 +3,71 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.4.0] - 2026-11-14
+
+### Added
+
+- 首页「大型企业级工业 B2B」升级：HeroCarousel（3 张工厂实拍全屏轮播 +
+  深色遮罩 + 信任点 + 标签带 + 播放控制）、SceneCarousel（6 张工艺实拍
+  横向轮播，含键盘翻页与页码计数）、ProductCategorySection（砂带 / 百叶片 /
+  海绵 / 砂盘四个分区，真实产品图 + 双 CTA）。
+  Why: 首页此前为浅灰底 + 右置小图，缺少原站的全屏工厂轮播与产品分类区块，
+  观感不达工业 B2B 大型企业级标准。
+- 通用组件：`AccordionFaq.astro`（FAQ 手风琴，默认只展首条，答案文本始终
+  在 DOM 使 FAQPage JSON-LD 与可见文本一致）、`Breadcrumb.astro`（25 处
+  内联面包屑统一，Home 改走 `nav.home` 本地化）、`BackToTop.astro`（返回顶部，
+  定位避开 quickbar 与悬浮聊天钮）、`Reveal.astro`（IntersectionObserver
+  滚动进场，跳过首屏/LCP 元素）、`Lightbox.astro`（产品图集灯箱 + 缩略切换，
+  5 类详情页 + 产品卡片接入）。
+  Why: FAQ 此前 12+ 处手写且全展开，产品页 8-9 条 FAQ 顶掉首屏；面包屑
+  25 处硬编码英文 `Home` 在 42 语种下不可读。
+- 长文阅读体验：`ProgressiveRead.astro`（阅读进度条 + 侧栏 TOC 当前章节
+  高亮，仅长文页挂载）。
+- 键盘可达性：全局 `:focus-visible` 焦点环（此前全站仅 `.wa-input` 一处）、
+  `skip-link` 跳转到主内容（Shell 挂载）。
+- 设计令牌体系：`:root` 重建为色阶（ink-900..100 / brand-500..800）、间距
+  （`--sp-1..24`）、圆角（`--r-xs..pill`）、阴影（`--sh-1..5`）、层级
+  （`--z-*`）、动效（`--ease-*` / `--dur-*`）六套标尺，22 个旧变量名保留为
+  别名（既有规则渲染不变），替换 35 处散落硬编码。
+  Why: 新组件此前引用 `--ink-900` / `--ease-*` 等未定义变量靠 fallback 兜底，
+  阴影/圆角/z-index 硬编码散落，视觉规格无法全局调。
+
+### Fixed
+
+- 应用场景轮播翻页按钮失效：脚本查询根用 `[data-scene-track]` 而箭头按钮
+  渲染在父级 section 头内，`querySelector` 返回 null 导致点击监听从未绑定；
+  计数显示 `'1–' + scenes`（数组 toString 输出一长串 slug）改为按滚动位置
+  计算真实页码；`scroll-snap: mandatory` 改 `proximity`（箭头翻页不被 snap 弹回）；
+  卡片 `minmax(260px,1fr)` 改固定 300px（1fr 撑满容器导致一屏放完无页可翻）。
+- Hero 标签带未左对齐：`.hero-controls-inner` 残留 `.wrap` class，其 24px
+  padding 使标签带左缘比标题多出一截；hero 横向 padding 统一为
+  `var(--gutter-hero)`，文案与控制条共用左缘。
+- 询盘链路丢失产品上下文：`ProductCard` 的询价按钮写 `quoteUrl({})`（裸表单），
+  改为 `quoteParams` prop，collections / Home 共 19 张卡全部带 `?product=<handle>`。
+- RTL（ar/he/fa）错位：`.video-badge` / `.video-len` 与 Lightbox 组件内共 6 处
+  `left`/`right` 硬编码改 `inset-inline-*` 逻辑属性；SceneCarousel 翻页改方向
+  感知（RTL 下视觉下一页在物理左侧）。
+- `.byline` / `.faq-title` 两个 class 被 9 个页面渲染却无任何 CSS 规则，补为
+  小号弱化行样式；统计数字补 `tabular-nums`。
+- 构建阻断缺陷：`blog/category/[key].astro` 局部 `const BLOG_CATEGORIES`
+  遮蔽同名 import（const 重声明 = SyntaxError）；多页 `AccordionFaq` /
+  `Breadcrumb` import 相对层级错误（Module not found）。
+- 翻译管线落盘的 `articles/fr/*.md` frontmatter 前被写入 `<!-- PART 00/5 -->`
+  注释导致 zod schema 校验失败（累计修复 3 批共 20 篇）。
+
+### Changed
+
+- 全站 12 处手写 FAQ 块替换为 `AccordionFaq`，5 个产品详情页首屏不再被
+  8-9 条 FAQ 顶掉；25 处内联面包屑替换为 `Breadcrumb` 组件。
+- `value-card` / `model-card` / `region-card` 补 hover 反馈（此前三个完全
+  无交互反馈）；Hero 轮播与应用轮播箭头 `aria-label` 改走 `blogPager.prev/next`
+  本地化键，FloatingChat 改走 `floatChat.title`。
+- section 垂直节奏令牌化（72px / 48px / 36px 统一标尺），标题 margin 归一。
+- Hero 文案由顶部贴边改为靠左贴底布局（顶部留白展示工厂全景，控制条改为
+  文档流 flex 子项使间距可预测）。
+- 新增构建辅助脚本 `.zcode-check/{tokenize-css,refactor-faq,refactor-breadcrumb,
+  fix-component-imports}.cjs`（一次性重构与 import 自检）。
+
 ## [1.3.0] - 2026-11-09
 
 ### Added
