@@ -3,19 +3,32 @@ import { usePage, buildSeo } from '../../lib/page.js'
 import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
 import Breadcrumb from '../../components/Breadcrumb.astro'
-import { breadcrumbJsonLd, termsPageJsonLd } from '../../lib/tdk.js'
+import { breadcrumbJsonLd, termsPageJsonLd, faqJsonLd } from '../../lib/tdk.js'
+import CtaBand from '../../components/CtaBand.astro'
 
 export function getStaticPaths() {
   return langPaths()
 }
 
 const { lang } = Astro.params
-const ctx = Astro.params
 const { pick, lu } = usePage(lang)
 const p = pick('terms')
+// 关键商务条款 FAQ：复用 faq 块 7 组 Q&A（moq/oem/sizes/samples/lead/
+// packaging/payment，42 语种已译）—— 法务页此前只有 5 段平铺正文，
+// 0 列表 0 表格，此块同时给页面一个结构化「条款速览」并产出 FAQPage
+// JSON-LD（与可见内容同源）。
+const faqKeys = ['moq', 'oem', 'sizes', 'samples', 'lead', 'packaging', 'payment']
+const faqItems = faqKeys.map((k) => ({
+  qKey: `faq.${k}.q`,
+  aKey: `faq.${k}.a`,
+  q: pick(`faq.${k}.q`),
+  a: pick(`faq.${k}.a`)
+})).filter((f) => f.q && f.a)
+
 const seo = buildSeo(lang, 'terms', {}, [
   termsPageJsonLd(lang),
-  breadcrumbJsonLd(lang, [{ name: p.h1, path: `/${lang}/terms` }])
+  breadcrumbJsonLd(lang, [{ name: p.h1, path: `/${lang}/terms` }]),
+  faqItems.length ? faqJsonLd(lang, faqItems) : null
 ])
 const sections = ['s1', 's2', 's3', 's4', 's5']
 ---
@@ -32,12 +45,38 @@ const sections = ['s1', 's2', 's3', 's4', 's5']
   <div class="section wrap section--flush-top">
     <div class="prose">
       {sections.map((s, i) => (
-        <section>
+        <section class="prose-sec">
           <h2>{i + 1}. {pick(`terms.${s}t`)}</h2>
           <p>{pick(`terms.${s}b`)}</p>
         </section>
       ))}
-      <p class="small-note">{p.updated}</p>
     </div>
   </div>
+
+  {faqItems.length > 0 && (
+    <section class="section wrap section--soft">
+      <span class="eyebrow">FAQ</span>
+      <h2>{pick('faq.faqTitle')}</h2>
+      <p class="text-soft">{p.sub}</p>
+      <div class="faq-list faq-list--2col mt-24">
+        {faqItems.map((f) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{f.q}</h3>
+            <p class="faq-a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section wrap">
+    <div class="cta-band-actions cta-band-actions--auto">
+      <a class="button" href={lu('/quote')}>{pick('cta.quote')} <span aria-hidden="true">↗</span></a>
+      <a class="button outline dark-outline" href={lu('/shipping')}>{pick('footer.shipping')} <span aria-hidden="true">→</span></a>
+      <a class="button outline dark-outline" href={lu('/privacy')}>{pick('footer.privacy')} <span aria-hidden="true">→</span></a>
+    </div>
+    <p class="small-note mt-16">{p.updated}</p>
+  </section>
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
 </Shell>

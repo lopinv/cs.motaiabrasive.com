@@ -4,17 +4,19 @@ import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
 import Breadcrumb from '../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../lib/tdk.js'
-import SectionHeading from '../../components/SectionHeading.astro'
 import CtaBand from '../../components/CtaBand.astro'
+import homeData from '../../data/home.json'
 
 export function getStaticPaths() {
   return langPaths()
 }
 
 const { lang } = Astro.params
-const ctx = Astro.params
 const { pick, lu, media, applications } = usePage(lang)
 const a = pick('applications')
+// 首页 scenes 工艺实拍：与 applications.json 的 6 个 slug 一一对应，
+// 索引用实拍图替换静态产品图（CDN 同源、视觉与详情页一致）
+const scenes = homeData.scenes
 const seo = buildSeo(lang, 'applications', {}, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.knowledge'), path: `/${lang}/applications` }])
 ])
@@ -31,10 +33,12 @@ const seo = buildSeo(lang, 'applications', {}, [
 
   <div class="section wrap section--flush-top">
     <div class="grid grid-3">
-      {applications.map((it) => (
+      {applications.map((it, i) => (
         <a class="product-card" href={lu(`/applications/${it.slug}`)}>
           <div class="product-card-media">
-            <img src={media(it.image)} alt={pick(it.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <!-- 用首页 scenes 的工艺实拍替换静态产品图（CDN 同源，
+                 视觉一致性更好；scenes 与 applications 的 slug 一一对应） -->
+            <img src={scenes[i]?.image ?? media(it.image)} alt={pick(it.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
             <span class="img-fallback-text" aria-hidden="true">{it.no}</span>
           </div>
           <div class="product-card-body">
@@ -47,6 +51,26 @@ const seo = buildSeo(lang, 'applications', {}, [
     </div>
     <p class="small-note mt-18">{a.ctaNote}</p>
   </div>
+
+  <section class="section wrap section--soft">
+    <div class="grid grid-3">
+      <a class="value-card" href={lu('/factory')}>
+        <span class="vno">01</span>
+        <h3>{pick('nav.manufacturing')}</h3>
+        <p>{pick('factory.sub')}</p>
+      </a>
+      <a class="value-card" href={lu('/glossary')}>
+        <span class="vno">02</span>
+        <h3>{pick('nav.knowledge')}</h3>
+        <p>{pick('glossary.sub')}</p>
+      </a>
+      <a class="value-card" href={lu('/quote')}>
+        <span class="vno">03</span>
+        <h3>{pick('cta.quote')}</h3>
+        <p>{pick('quote.sub')}</p>
+      </a>
+    </div>
+  </section>
 
   <CtaBand lang={lang} title={a.ctaTitle} waContext="contact" ctaKey1="applications.cta1" ctaKey2="applications.cta2" />
 </Shell>

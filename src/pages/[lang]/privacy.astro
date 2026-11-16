@@ -4,20 +4,26 @@ import { langPaths } from '../../lib/paths.js'
 import Shell from '../../components/Shell.astro'
 import Breadcrumb from '../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../lib/tdk.js'
-import SectionHeading from '../../components/SectionHeading.astro'
+import CtaBand from '../../components/CtaBand.astro'
 
 export function getStaticPaths() {
   return langPaths()
 }
 
 const { lang } = Astro.params
-const ctx = Astro.params
 const { pick, lu } = usePage(lang)
 const p = pick('privacy')
 const seo = buildSeo(lang, 'privacy', {}, [
   breadcrumbJsonLd(lang, [{ name: p.h1, path: `/${lang}/privacy` }])
 ])
 const sections = ['s1', 's2', 's3', 's4', 's5']
+// 政策互链出链：privacy 此前 0 出链（只进不出）
+const policyLinks = [
+  { href: '/terms', label: pick('footer.terms') },
+  { href: '/shipping', label: pick('footer.shipping') },
+  { href: '/quote', label: pick('cta.quote') },
+  { href: '/contact', label: pick('nav.contact') }
+].filter((l) => l.label)
 ---
 
 <Shell lang={lang} seo={seo}>
@@ -32,12 +38,22 @@ const sections = ['s1', 's2', 's3', 's4', 's5']
   <div class="section wrap section--flush-top">
     <div class="prose">
       {sections.map((s, i) => (
-        <section>
+        <section class="prose-sec">
           <h2>{i + 1}. {pick(`privacy.${s}t`)}</h2>
           <p>{pick(`privacy.${s}b`)}</p>
         </section>
       ))}
+
+      <section class="prose-sec">
+        <h2>{pick('nav.contact')}</h2>
+        <ul class="value-lines">
+          {policyLinks.map((l) => <li><a href={lu(l.href)}>{l.label} <span aria-hidden="true">→</span></a></li>)}
+        </ul>
+      </section>
+
       <p class="small-note">{p.updated}</p>
     </div>
   </div>
+
+  <CtaBand lang={lang} waContext="contact" ctaKey1="cta.quote" ctaKey2="cta.waChat" />
 </Shell>
