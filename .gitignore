@@ -17,3 +17,20 @@ Thumbs.db
 # Windows 设备名：重定向误写（如 > nul）会落一个 0 字节同名文件
 nul
 .zcode-check/backup-i18n-*/
+
+# 翻译管线的过程产物（派单/分片/账本/中间稿）——不是站点代码，
+# 历史上曾误提交 3475 个文件，现统一忽略。正式译文会经 merge 脚本
+# 写入 src/i18n/ 与 articles/<lang>/<slug>.md 后才纳入版本控制。
+scripts/pipeline/i18n/tasks/
+scripts/pipeline/i18n/parts/
+scripts/pipeline/i18n/state.json
+scripts/pipeline/en/state.json
+scripts/pipeline/en/batch-queue.json
+scripts/pipeline/i18n/*.json
+scripts/pipeline/i18n/rebook.mjs
+scripts/pipeline/i18n/next-tasks-all.mjs
+scripts/pipeline/i18n/check-he-kw.mjs
+scripts/pipeline/i18n/TASK-BRIEF.md
+# 临时扫描/采集产物
+scripts/data/yt-scan.json
+scripts/data/yt-new-meta.json
