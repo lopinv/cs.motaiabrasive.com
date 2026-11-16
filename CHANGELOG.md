@@ -3,6 +3,50 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.4.2] - 2026-11-16
+
+### Changed
+
+- 页脚「Let's Connect」区块加图标强化视觉：邮箱（信封）、WhatsApp/电话
+  （听筒）、Contact Us（定位销）、公司地址（建筑）四条改为「图标 + 文字」行，
+  图标统一 24×24 / stroke 1.7 线框风格，与 hero-trust、hero-arrow 同一套
+  stroke 体系。图标颜色走 `--muted` 不抢文字对比度，行 hover 时图标随文字
+  一起转 accent；公司地址为静态行（`<p>` 而非 `<a>`），不可点无指针。
+  Why: 原为 4 个裸文本链接，页脚四列里视觉权重最低、扫读成本最高；图标让
+  「联系方式」在一屏内可被识别为联系方式。
+
+### Fixed (构建)
+
+- 修正 3 个 de 译稿的前置注释位置（`how-to-pick-wide-abrasive-belts-*`）：
+  其开头的 `<!-- PART 0x/5 of … -->` 分段稿说明写在 frontmatter 之前，导致
+  Astro glob loader 解析不到 `slug`/`category`/`title` 而中断构建。已把注释
+  移到 frontmatter 之后，内容零改动。Why: 历史翻译会话遗留（同 1.4.1 的
+  同类问题，本次 build 时 `gen-article-locales.mjs` 重新落盘才暴露）。
+
+## [1.4.1] - 2026-11-16
+
+### Fixed
+
+- 首页 Hero 轮播移除第二张图（砂带裁线实拍），保留工厂外景 + 生产车间两张
+  实拍；轮播控件、计数与 dots 均由 `slides` 数组驱动，随数据同步收缩。
+  Why: 三张轮播图首屏停留时长短，工厂外景与车间两张已能表达产能与规模。
+- 首页产品分类区块改为「上图下文」卡片网格，视觉与「Pick the application」
+  场景轮播（scene-card）对齐：边框 / 圆角 / hover 抬升 / 图片轻推近同一套
+  动效语言，双 CTA 钉在卡片底部保证不同长度说明的按钮对齐。
+  Why: 原为「左文案 + 右大图」的横排分区卡片，与首页其它卡片网格视觉割裂。
+- 文章特色图不再使用 5 英寸 PSA 砂盘图：22 个 slug（94 个语种文件，覆盖
+  en/de/he/fr/fa/es/it/ja/ko/da）按文章主题分配到砂带、网纹、砂纸类图片。
+  Why: 一张 5 英寸 PSA 盘图被 22 篇主题横跨木材/汽车/砂纸/砂带的文章共用，
+  「一张图配全部文章」；目标图均已 HEAD 验证为真实资源且内容互异，同一 slug
+  在所有语种保持一致。
+
+### Fixed (构建)
+
+- 修正 3 个 de 译稿被误放在 `articles/de/` 根目录的 `.parts` 分段稿：其开头的
+  `<!-- PART 00/5 of … -->` 注释写在 frontmatter 之前，使 Astro glob loader
+  解析不到 `slug`/`category`/`title` 而中断构建。已将注释移至 frontmatter 之后，
+  内容零改动。Why: 历史会话遗留，非本次三项 UI 调整引入，但阻塞构建验证。
+
 ## [1.4.0] - 2026-11-14
 
 ### Added

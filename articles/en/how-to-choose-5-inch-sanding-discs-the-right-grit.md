@@ -7,7 +7,7 @@ metaDescription: "Choose 5 Inch Sanding Discs by grit and disc form: P80 to P320
 intro: "The decision rule, grit sequence and failure modes for 5-inch sanding discs, including the P150 to P320 finish ladder, tool speed and a pre-purchase checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: discs
 ---
 
 ### The short answer on 5 Inch Sanding Discs

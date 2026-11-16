@@ -7,7 +7,7 @@ metaDescription: "Pick the right grit for Wood Sanding: a full grit ladder, tool
 intro: "The grit, backing and tool match that makes Wood Sanding repeatable, from P80 stock removal to a P3000 polish, with sequences and a buying checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-610-100
 ---
 
 ### The short answer on Wood Sanding 🪵

@@ -7,7 +7,7 @@ metaDescription: "Pick the right round sandpaper or flap disc by matching grit, 
 intro: "A buyer's decision path for round sandpaper and flap discs: grit, grain, format, speed and dust, with worked examples and a checklist before you buy."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: psa-3
 ---
 
 ### The short answer on round sandpaper

@@ -7,7 +7,7 @@ metaDescription: "How to match wide belt sanding grits to the job: the FEPA grit
 intro: "A practical grit-ladder guide to wide belt sanding: grain, backing, speed, dust control and cost, with worked sequences and a pre-purchase checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-1520-630
 ---
 
 ### The short answer on Wide Belt Sanding

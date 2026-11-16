@@ -7,7 +7,7 @@ metaDescription: "How to match a sandpaper grade to furniture sanding: a shop-fl
 intro: "Pick the grit, grain and backing that fit the furniture sanding job, and stop at the scratch depth your finish will tolerate."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-533-75
 ---
 
 ### The short answer on furniture sanding

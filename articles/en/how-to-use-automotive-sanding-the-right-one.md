@@ -7,7 +7,7 @@ metaDescription: "Pick the right grit, disc and tool speed for automotive sandin
 intro: "A field guide to automotive sanding — grit ladders, disc formats, tool speed and dust control, with a buyer checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: mesh-5
 ---
 
 ### The short answer on automotive sanding 🚗

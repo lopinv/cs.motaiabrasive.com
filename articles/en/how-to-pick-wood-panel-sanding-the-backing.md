@@ -7,7 +7,7 @@ metaDescription: "Pick the right backing, grit and grain for wood panel sanding:
 intro: "Backing, grit, grain and pace decide the result; worked sequences, failure modes and a pre-buy checklist for panels."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-533-75
 ---
 
 ### 🧭 The short answer on backing

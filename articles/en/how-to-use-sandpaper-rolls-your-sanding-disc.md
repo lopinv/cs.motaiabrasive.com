@@ -7,7 +7,7 @@ metaDescription: "How to use sandpaper rolls with a sanding disc: grit stages, g
 intro: "A practical guide to using sandpaper rolls with your sanding disc: grit, grain, the cut, tool speed, dust control and a pre-buy checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-2200-1330
 ---
 
 ### The short answer on sandpaper rolls

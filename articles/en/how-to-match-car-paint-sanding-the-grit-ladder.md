@@ -7,7 +7,7 @@ metaDescription: "Match car paint sanding grit by grit: the full ladder from 80 
 intro: "A practical grit-by-grit plan for car paint sanding: where to start, which backing to run, and the mistakes that wreck a finish."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: psa-4
 ---
 
 ### The short answer on Car Paint Sanding

@@ -7,7 +7,7 @@ metaDescription: "Choosing automotive sanding is about backing as much as grit. 
 intro: "Practical guide to choosing the backing and grit sequence for automotive sanding: tool match, worked sequences, failure modes and a pre-purchase checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: mesh-5
 ---
 
 ### The short answer on automotive sanding

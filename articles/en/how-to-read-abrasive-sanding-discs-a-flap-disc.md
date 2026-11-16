@@ -7,7 +7,7 @@ metaDescription: "Learn to read abrasive sanding discs: grit, grain, mounting, p
 intro: "How to read abrasive sanding discs and flap discs — grit, grain, mounting and safety — with worked examples and a pre-purchase checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: mesh-6
 ---
 
 ### The short answer on abrasive sanding discs 📋

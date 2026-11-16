@@ -7,7 +7,7 @@ metaDescription: "Choose automotive surface preparation tools that actually work
 intro: "A selection guide to automotive surface preparation: which grit, grain and disc type for primer, filler and final prep, with dust rules and a checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: psa-4
 ---
 
 ### The short answer on Automotive Surface Preparation

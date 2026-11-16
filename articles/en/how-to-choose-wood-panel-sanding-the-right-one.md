@@ -7,7 +7,7 @@ metaDescription: "A field guide to wood panel sanding: grit ladders, grain, PSA 
 intro: "Pick the grit, grain and disc form for wood panel sanding: sequences by material, wide belt notes, failure modes and a pre-buy checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-610-100
 ---
 
 ### The short answer on Wood Panel Sanding

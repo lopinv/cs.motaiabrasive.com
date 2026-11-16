@@ -7,7 +7,7 @@ metaDescription: "Pick the right round sandpaper: a grit-ladder guide with mater
 intro: "A practical grit-ladder guide to choosing round sandpaper: material sequences, grain picks, safety checks and a pre-purchase checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: psa-3
 ---
 
 ### The short answer on round sandpaper

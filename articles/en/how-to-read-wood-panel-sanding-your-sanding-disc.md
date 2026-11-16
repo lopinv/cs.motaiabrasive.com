@@ -7,7 +7,7 @@ metaDescription: "Read a sanding disc for wood panel sanding: grit sequence, bac
 intro: "How to read your sanding disc for wood panel sanding — grit, backing, size, speed and dust controls, with worked sequences and a pre-purchase checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-533-75
 ---
 
 ### The short answer on Wood Panel Sanding

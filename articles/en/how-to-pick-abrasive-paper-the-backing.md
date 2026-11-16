@@ -7,7 +7,7 @@ metaDescription: "Pick abrasive paper by backing: paper, cloth and PSA forms, gr
 intro: "The rule behind the abrasive paper backing call, the grit and grain that go with it, and the checks to run before the paper ships."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: disc-6-solid
 ---
 
 ### The short answer on Abrasive Paper

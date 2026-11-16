@@ -7,7 +7,7 @@ metaDescription: "How to use furniture sanding discs: pick the right backing, gr
 intro: "Pick the backing, grit and tool fit for furniture sanding, with worked grit sequences, wood-by-wood guidance and a pre-buy checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-610-100
 ---
 
 ### The short answer on Furniture Sanding

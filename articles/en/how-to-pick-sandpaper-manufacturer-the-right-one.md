@@ -7,7 +7,7 @@ metaDescription: "How to pick a sandpaper manufacturer that fits your grits, too
 intro: "A step-by-step method for picking a sandpaper manufacturer that fits your grits, tool, dust rules and MOQ, with P240 sequences and a pre-buy checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: mesh-6
 ---
 
 ### The short answer

@@ -7,7 +7,7 @@ metaDescription: "A shop-floor guide to wood sanding and the right sandpaper gra
 intro: "A practical guide to choosing sandpaper grades for wood sanding, with grit sequences, belt machine fit and a pre-purchase safety checklist."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-610-100
 ---
 
 ### The short answer on Wood Sanding

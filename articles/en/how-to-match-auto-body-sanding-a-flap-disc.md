@@ -7,7 +7,7 @@ metaDescription: "How to match auto body sanding grits, grain and backing to the
 intro: "A shop-floor guide to matching a flap disc or sanding disc to auto body sanding: grit, grain, backing and the finish you are chasing."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: mesh-5
 ---
 
 ### The short answer on Auto Body Sanding

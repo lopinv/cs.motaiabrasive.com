@@ -7,7 +7,7 @@ metaDescription: "Run the grit ladder for Wood Panel Sanding: P80 to P400 steps,
 intro: "The grit ladder for Wood Panel Sanding, step by step, with the grain picks, the belt hand-off and the checks to run before the paper ships."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-610-100
 ---
 
 ### The short answer on Wood Panel Sanding

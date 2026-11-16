@@ -572,55 +572,60 @@ section.hero--carousel {
 
 /* ============ 首页产品分类区块 ============ */
 .section--cat { padding-top: 72px; }
-.cat-list { display: grid; gap: var(--sp-16); }
-.cat-block {
+/* 卡片网格：桌面 4 列（砂带/百叶/海绵/砂盘四条产品线），随 .grid-3 的
+   响应式断点降到 2 列再到 1 列。 */
+.cat-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
-  gap: clamp(28px, 4vw, 56px);
-  align-items: center;
-  padding: clamp(24px, 3vw, 40px);
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  background: var(--bg);
-  transition: box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--gap);
 }
-.cat-block:hover { box-shadow: var(--sh-3); border-color: var(--ink-200); }
-/* 偶数块左右对调，形成杂志式节奏 */
-.cat-block--flip .cat-copy { order: 2; }
-.cat-block--flip .cat-media { order: 1; }
-.cat-copy { min-width: 0; }
-.cat-copy h3 { font-size: clamp(21px, 2.4vw, 28px); margin-bottom: 12px; }
-.cat-desc { color: var(--text-soft); margin: 0 0 20px; max-width: 560px; }
-.cat-sizes, .cat-links { list-style: none; margin: 0 0 20px; padding: 0; }
-.cat-sizes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.cat-sizes a {
-  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+/* 每卡 = 上方实拍图 + 下方文案区。边框/圆角/hover 抬升/图片轻推近
+   刻意沿用 scene-card 的同一套动效语言（见「应用场景轮播」段）。 */
+.cat-card {
+  display: flex; flex-direction: column;
   border: 1px solid var(--line); border-radius: var(--r-md);
-  padding: 10px 14px; font-size: 13.5px; font-weight: 600;
+  background: var(--bg); overflow: hidden;
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
+}
+.cat-card:hover { transform: translateY(-4px); box-shadow: var(--sh-3); border-color: var(--ink-200); }
+.cat-card-media {
+  position: relative; display: block; aspect-ratio: 16/10;
+  overflow: hidden; background: var(--bg-soft);
+}
+.cat-card-media img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+.cat-card:hover .cat-card-media img { transform: scale(1.05); }
+.cat-card-media.img-fallback { min-height: 160px; }
+.cat-card-body { padding: var(--sp-5); display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.cat-card-body .eyebrow { margin: 0; font-size: 10px; }
+.cat-card-body h3 { margin: 0; font-size: 17px; }
+.cat-desc { color: var(--text-soft); font-size: 13.5px; line-height: 1.55; margin: 0; }
+.cat-sizes, .cat-links { list-style: none; margin: 0 0 4px; padding: 0; }
+.cat-sizes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+.cat-sizes a {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  border: 1px solid var(--line); border-radius: var(--r-sm);
+  padding: 7px 10px; font-size: 12px; font-weight: 600;
   color: var(--ink-700); background: var(--bg-soft);
   transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
 }
 .cat-sizes a:hover { border-color: var(--accent); color: var(--accent); }
-.cat-links { display: grid; gap: 6px; }
+.cat-links { display: grid; gap: 4px; }
 .cat-links a {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-size: 14px; font-weight: 600; color: var(--ink-700);
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 600; color: var(--ink-700);
 }
 .cat-links a:hover { color: var(--accent); }
-.cat-thumbs { list-style: none; margin: 0 0 20px; padding: 0; display: flex; gap: 8px; flex-wrap: wrap; }
-.cat-thumbs li { width: 62px; }
+.cat-thumbs { list-style: none; margin: 0 0 4px; padding: 0; display: flex; gap: 6px; flex-wrap: wrap; }
+.cat-thumbs li { width: 46px; }
 .cat-thumbs img {
-  width: 62px; height: 62px; object-fit: cover;
+  width: 46px; height: 46px; object-fit: cover;
   border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--bg-soft);
 }
-.cat-actions { display: flex; flex-wrap: wrap; gap: 12px; }
-.cat-media {
-  position: relative; overflow: hidden;
-  border-radius: var(--r-md);
-  aspect-ratio: 4/3;
-  background: linear-gradient(135deg, var(--brand-500), var(--brand-900));
-}
-.cat-media img { width: 100%; height: 100%; object-fit: cover; }
+/* 双 CTA 钉在卡片底部：不同分类的说明长短不一，按钮必须对齐。 */
+.cat-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 10px; }
 
 /* ============ Hero ============ */
 .hero { padding: 96px 0 72px; background: var(--bg-soft); border-bottom: 1px solid var(--line); }
@@ -941,6 +946,26 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .footer a { display: block; font-size: 14px; color: var(--ink-soft); padding: 4px 0; }
 .footer a:hover { color: var(--accent); }
 .footer p { font-size: 13.5px; color: var(--ink-soft); }
+/* 「Let's Connect」列：图标 + 文字行，比裸链接更好扫读（36px 触达高度）。
+   图标颜色跟随 --muted，行 hover 时整行转 accent —— 图标是视觉层级，
+   不抢文字的对比度。 */
+.footer-contact { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.footer-contact-row {
+  display: flex; align-items: flex-start; gap: 9px;
+  font-size: 13.5px; line-height: 1.5; padding: 6px 0;
+  color: var(--ink-soft); transition: color var(--dur-fast) var(--ease-out);
+}
+.footer-contact-row:hover { color: var(--accent); }
+.footer-contact-icon {
+  width: 16px; height: 16px; flex: 0 0 auto; margin-top: 2px;
+  color: var(--muted); transition: color var(--dur-fast) var(--ease-out);
+}
+/* 静态行（公司地址，非链接）不可点：光标与 hover 均保持默认 */
+.footer-contact-row--static { cursor: default; }
+.footer-contact-row--static:hover { color: var(--ink-soft); }
+.footer-contact-row--static:hover .footer-contact-icon { color: var(--muted); }
+.footer-contact-row:hover .footer-contact-icon { color: var(--accent); }
+.footer-contact-row span { min-width: 0; overflow-wrap: anywhere; }
 .socials { display: flex; gap: 10px; margin-top: 14px; }
 .social-link { border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; display: inline-flex !important; align-items: center; gap: 7px; font-size: 12.5px; color: var(--ink-soft) !important; background: var(--bg); }
 .social-link svg { width: 14px; height: 14px; flex: 0 0 auto; }
@@ -1316,10 +1341,9 @@ a.region-card:hover,
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .glossary-dl { grid-template-columns: 1fr; }
 
-  /* 首页分类区块：单列堆叠，flip 不再反转顺序 */
-  .cat-block { grid-template-columns: 1fr; gap: 24px; }
-  .cat-block--flip .cat-copy { order: 1; }
-  .cat-block--flip .cat-media { order: 2; }
+  /* 首页分类网格：桌面 4 列随 .grid-3 的断点降到 2 列，尺寸改单列 */
+  .cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cat-sizes { grid-template-columns: 1fr; }
   .scene-track { grid-auto-columns: 260px; }
 
   /* header → hamburger */
@@ -1402,8 +1426,9 @@ a.region-card:hover,
   .hero-controls-inner { min-height: 62px; gap: 12px; }
   .hero-tags { display: none; }
   .hero-counter { display: none; }
-  .cat-sizes { grid-template-columns: 1fr; }
-  .cat-block { padding: var(--sp-5); }
+  /* 手机端分类网格单列；卡片内边距收紧 */
+  .cat-grid { grid-template-columns: 1fr; }
+  .cat-card-body { padding: var(--sp-4); }
 }
 
 /* ============ Reduced motion ============

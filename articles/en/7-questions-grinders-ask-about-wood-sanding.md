@@ -7,7 +7,7 @@ metaDescription: "The 7 questions that decide a Wood Sanding job: grit ladders a
 intro: "The seven questions that decide a Wood Sanding job, with grit ladders, belt picks, the fine polish band and the fields to send in the enquiry."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
-image: psa-5
+image: belt-610-100
 ---
 
 ### The seven questions, answered first

@@ -3,7 +3,7 @@
  * 滚动进场动画（全站一条脚本，零标记接入）。
  *
  * 挂载于 Shell，对「首屏之后」的区块自动生效：
- *   - 给每个直接子区块（.section / .cat-block / .product-card / .value-card /
+ *   - 给每个直接子区块（.section / .cat-card / .product-card / .value-card /
  *     .model-card / .video-card / .side-block / .faq-item / .blog-grid > *）在
  *     进入视口时加 .is-reve，CSS 负责过渡。
  *   - IntersectionObserver 只触发一次（reveal 后 unobserve）。
@@ -20,7 +20,7 @@ const script = `;(function () {
 
     // 只选首屏之后的子区块（跳过主内容第一个 section 及其内部 hero，避免
     // 首屏元素被进场动画延迟，伤害 LCP 与首屏观感）
-    var sel = '.cat-block, .product-card, .value-card, .model-card, .video-card, .side-block, .faq-item, .region-card, .scene-card, .step, .gallery-media';
+    var sel = '.cat-card, .product-card, .value-card, .model-card, .video-card, .side-block, .faq-item, .region-card, .scene-card, .step, .gallery-media';
     var nodes = document.querySelectorAll(sel);
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {

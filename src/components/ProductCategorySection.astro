@@ -1,11 +1,11 @@
 ---
 /**
- * 首页产品分类区块：按产品线分区展示，每区 = 左文案 + 右真实产品图 + 双 CTA。
+ * 首页产品分类区块：按产品线展示，每线一张「上图下文」分类卡片。
  *
- * 对齐原站首页的分区结构（Abrasive Belts → Flap Discs → Sanding Sponges）：
- *   - 每区有独立的 eyebrow / 标题 / 说明
- *   - 右侧真实产品实拍（砂带型号图、百叶片图、海绵系列图、砂盘图）
- *   - 底部「Explore 分类」+「Request a Quote」双 CTA
+ * 视觉与「Pick the application」场景卡片（scene-card）刻意对齐，让首页两处
+ * 网格读起来像同一套设计系统：
+ *   - 多列卡片网格，每卡 = 上方实拍图 + 下方文案区
+ *   - 同一套边框 / 圆角 / hover 抬升 / 图片轻推近的动效语言
  *
  * 砂带区额外列出 4 个尺寸链接（原站规格表结构），其余区带图集缩略。
  */
@@ -37,10 +37,19 @@ const beltSizes = [
     </a>
   </div>
 
-  <div class="cat-list">
-    {categories.map((cat, ci) => (
-      <article class:list={['cat-block', { 'cat-block--flip': ci % 2 === 1 }]}>
-        <div class="cat-copy">
+  <div class="cat-grid">
+    {categories.map((cat) => (
+      <article class="cat-card">
+        <a class="cat-card-media" href={localizedUrl(lang, cat.href)} aria-label={pick(cat.labelKey)}>
+          <img
+            src={cat.image}
+            alt={pick(cat.labelKey)}
+            loading="lazy"
+            decoding="async"
+            onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')"
+           width="1200" height="750"/>
+        </a>
+        <div class="cat-card-body">
           <span class="eyebrow">{pick(cat.labelKey)}</span>
           <h3>{pick(cat.titleKey)}</h3>
           <p class="cat-desc">{pick(cat.descKey)}</p>
@@ -63,29 +72,20 @@ const beltSizes = [
 
           {cat.gallery && (
             <ul class="cat-thumbs">
-              {cat.gallery.map((g, gi) => (
+              {cat.gallery.map((g) => (
                 <li><img src={g} alt="" loading="lazy" width="120" height="120" onerror="this.remove()" /></li>
               ))}
             </ul>
           )}
 
           <div class="cat-actions">
-            <a class="button" href={localizedUrl(lang, cat.href)}>
+            <a class="button small" href={localizedUrl(lang, cat.href)}>
               {pick(cat.labelKey)} <span aria-hidden="true">↗</span>
             </a>
-            <a class="button outline dark-outline" href={quoteUrl()} target="_blank" rel="noopener nofollow">
+            <a class="button outline dark-outline small" href={quoteUrl()} target="_blank" rel="noopener nofollow">
               {pick('cta.quote')}
             </a>
           </div>
-        </div>
-        <div class="cat-media">
-          <img
-            src={cat.image}
-            alt={pick(cat.labelKey)}
-            loading="lazy"
-            decoding="async"
-            onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')"
-          />
         </div>
       </article>
     ))}
