@@ -1,0 +1,78 @@
+# Task: translate EN article "how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade" into pt
+
+You are a technical translator for the MoTai Abrasives B2B site. Translate ONE
+article into pt, then validate it, then book it. Repo root:
+D:\Code\shopify\motai-static (run all commands from there).
+
+## Read first
+1. This brief (the contract for THIS file).
+2. The 5 EN part files, in order (do NOT reorder sections between parts):
+   scripts/pipeline/i18n/parts/how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade/00.md … 04.md
+   Part 00 starts with the YAML frontmatter; the last part ends with the
+   "before you buy" section.
+
+## Terminology — use the SITE'S OWN words, NEVER invent one
+The site's product pages for this locale already use these official terms.
+Your article MUST use them too (body and site must never disagree):
+| flap-disc | Flap Discs | Discos de leque |
+| abrasive-belts | Abrasive Belts | Fitas abrasivas |
+| sanding-discs | Sanding Discs | Discos de lixamento |
+| grit | Grit size | Grão |
+| backing | Backing / attachment | Suporte / fixação |
+| diameter | Diameter / nominal size | Diâmetro / dimensão nominal |
+| holes | Holes | Furos |
+| wholesale | Wholesale enquiries | Pedidos de venda por grosso |
+| quote-cta | Request a Wholesale Quote | Pedir orçamento de grosso |
+| metal-fabrication | Metal Fabrication / Abrasive belts | Fabrico de Metais / Fitas abrasivas |
+| woodworking | Woodworking & Furniture | Carpintaria e Mobiliário |
+| automotive | Automotive Repair | Reparação Automóvel |
+| stainless-steel | Stainless Steel Finishing / Abrasive belts | Acabamento de Aço Inoxidável / Fitas abrasivas |
+| shipbuilding | Shipbuilding & Repair | Construção Naval e Reparação |
+| surface-prep | Industrial Surface Preparation | Preparação Industrial de Superfícies |
+Universal tokens stay as-is: FEPA, ISO 848, ANSI, OSHA, PPE, OEM, PSA, grit
+codes (P60…P1500), model codes, mm/inch, rpm.
+
+## Write
+For each part 00..04, WRITE the full translation to
+articles/pt/.parts/how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade/NN.md (create dirs). Keep the leading
+"<!-- PART NN/5 … -->" comment on line 1. Part 00 keeps the frontmatter block:
+translate title/keywords/metaDescription/intro into pt; keep
+slug/category/datePublished/dateModified/image VERBATIM.
+- INTERNAL links: rewrite every /en/… href to /pt/… (same route paths,
+  same count as the EN parts). Translate anchor text.
+- EXTERNAL links: keep the URL byte-for-byte; translate the anchor only.
+- Translate every heading, paragraph, list, FAQ Q&A, checklist into natural
+  fluent pt technical prose (not literal calques).
+
+## Headings (the validator checks these literal strings)
+- FAQ section heading EXACTLY: ### FAQ
+- FINAL "before you buy" heading EXACTLY: ### Antes de comprar  (>= 6 checklist items)
+- No H1/H2 anywhere (only ### / ####).
+
+## Frontmatter
+- title <= 80 chars, contains the primary keyword, no year.
+- keywords 3–5 items, item 1 = primary; pick terms you ACTUALLY use in the body
+  (check: node scripts/pipeline/i18n/count-kw.mjs pt how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade "kw" "kw2").
+- metaDescription / intro: keep reasonable; word-count warnings are ACCEPTABLE
+  — do NOT pad the body to hit a number.
+
+## Rules
+- No banned absolute claims (best/only/guaranteed/permanent/100%/zero-risk/
+  absolutely safe, and their pt equivalents). Translate EN hedges,
+  never drop them.
+- Do NOT fabricate brands, products, institutions, data, or URLs.
+
+## Verify + book
+1. node scripts/pipeline/i18n/merge.mjs pt how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade 5
+2. node scripts/pipeline/i18n/validate.mjs pt how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade
+   - Fix every line starting with "✗". Lines starting with "~" are ACCEPTABLE
+     (word count, secondary-keyword density) — leave them; do not pad.
+   - Re-run until only "~" lines remain.
+3. node scripts/pipeline/i18n/batch.mjs record pt how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade PASS
+   (re-validates on the fly; if it rejects, a ✗ remains — keep fixing).
+
+## Report back (exactly)
+- Final validator line (PASS + any ~ warnings).
+- Internal/external link counts.
+- Terminology used for: flap disc / grit / backing / deburring / stainless steel
+  (so it can be checked against the glossary sheet).

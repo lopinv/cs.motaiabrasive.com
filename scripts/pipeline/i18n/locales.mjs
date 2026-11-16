@@ -25,6 +25,15 @@ export const CJK = new Set(['zh', 'zh-Hant', 'ja', 'ko'])
 export const isCJK = (code) => CJK.has(code)
 
 /**
+ * Spaceless scripts: words are NOT delimited by spaces (Thai, CJK). For these,
+ * "word" counting is meaningless — a whole Thai line is one whitespace token —
+ * so units must be counted as characters and keywords via substring.
+ */
+export const SPACELESS = new Set([...CJK, 'th'])
+
+export const isSpaceless = (code) => SPACELESS.has(code)
+
+/**
  * Heading markers the validator looks for. The translator MUST use these
  * exact strings as the FAQ heading and the final "before you buy" heading.
  * (The EN validator hardcodes English; this is the per-locale equivalent.)

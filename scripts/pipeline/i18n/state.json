@@ -7,55 +7,575 @@
   },
   "de": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T01:41:04.555Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T02:54:15.408Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-12T02:53:31.255Z",
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-12T05:34:58.349Z",
+      "8-questions-grinders-ask-about-sandpaper-wholesale": "2026-11-14T01:36:53.578Z",
+      "aluminum-oxide-abrasive-belts-guide": "2026-11-14T01:58:14.800Z",
+      "automotive-surface-preparation-guide": "2026-11-14T02:13:04.956Z",
+      "fiberglass-backing-flap-discs-guide": "2026-11-14T02:21:56.573Z",
+      "how-to-choose-5-inch-sanding-pad-the-right-grit": "2026-11-14T02:35:09.587Z",
+      "how-to-choose-6-inch-sanding-pad-the-grit-ladder": "2026-11-14T02:49:17.839Z",
+      "how-to-choose-auto-body-sanding-the-backing": "2026-11-14T03:14:44.906Z",
+      "how-to-choose-automotive-sanding-a-sandpaper-grade": "2026-11-14T03:45:03.360Z",
+      "how-to-choose-automotive-sanding-the-backing": "2026-11-14T04:05:17.891Z",
+      "how-to-choose-automotive-sanding-the-grit-ladder": "2026-11-14T04:26:39.265Z",
+      "how-to-choose-automotive-surface-preparation-a-flap-disc": "2026-11-14T04:39:32.023Z",
+      "how-to-choose-hook-and-loop-sanding-discs-the-grit-ladder": "2026-11-14T04:45:39.265Z",
+      "how-to-choose-industrial-sanding-belts-the-backing": "2026-11-14T04:55:16.967Z",
+      "how-to-choose-non-woven-sanding-discs-the-right-one": "2026-11-14T05:05:48.920Z",
+      "how-to-choose-plastic-backing-flap-discs-the-grit-ladder": "2026-11-14T05:12:23.891Z",
+      "how-to-choose-round-sandpaper-an-abrasive-belt": "2026-11-14T05:21:33.514Z",
+      "how-to-choose-round-sandpaper-the-grit-ladder": "2026-11-14T05:25:35.488Z",
+      "how-to-choose-sanding-backing-pad-a-flap-disc": "2026-11-14T05:37:28.808Z",
+      "how-to-choose-sanding-backing-pad-the-backing": "2026-11-14T05:51:37.434Z",
+      "how-to-choose-sanding-pad-manufacturer-the-grit-ladder": "2026-11-14T05:58:18.618Z",
+      "how-to-choose-sanding-pad-manufacturer-the-right-grit": "2026-11-14T06:08:01.973Z",
+      "how-to-choose-sanding-pads-the-right-grit": "2026-11-14T06:34:37.222Z",
+      "how-to-choose-sandpaper-wholesale-a-sandpaper-grade": "2026-11-14T06:40:08.623Z",
+      "how-to-choose-shaped-sandpaper-the-backing": "2026-11-14T06:44:49.886Z",
+      "how-to-choose-stainless-steel-finishing-the-backing": "2026-11-14T06:52:27.480Z",
+      "how-to-choose-stainless-steel-finishing-your-sanding-disc": "2026-11-14T06:58:56.485Z",
+      "how-to-choose-wide-belt-sanding-the-right-one": "2026-11-14T07:04:36.030Z",
+      "how-to-choose-wood-panel-sanding-the-right-one": "2026-11-14T07:08:33.427Z",
+      "how-to-match-6-inch-sanding-discs-an-abrasive-belt": "2026-11-14T07:12:56.092Z",
+      "how-to-match-abrasive-belts-the-grit-ladder": "2026-11-14T07:16:13.794Z",
+      "how-to-match-auto-body-sanding-a-flap-disc": "2026-11-14T07:23:14.386Z",
+      "how-to-match-auto-body-sanding-your-sanding-disc": "2026-11-14T07:28:16.162Z",
+      "how-to-match-automotive-sanding-the-right-grit": "2026-11-14T07:34:51.486Z",
+      "how-to-match-car-paint-sanding-the-grit-ladder": "2026-11-14T07:42:48.901Z",
+      "how-to-match-car-paint-sanding-the-right-one": "2026-11-14T07:54:25.843Z",
+      "how-to-match-car-paint-sanding-your-sanding-disc": "2026-11-14T08:04:02.255Z",
+      "how-to-match-flap-disc-supplier-your-sanding-disc": "2026-11-14T08:11:01.478Z",
+      "how-to-match-furniture-sanding-a-sandpaper-grade": "2026-11-14T08:16:26.494Z",
+      "how-to-match-mdf-sanding-the-backing": "2026-11-14T08:26:03.320Z",
+      "how-to-match-metal-surface-preparation-the-right-grit": "2026-11-14T08:33:39.929Z",
+      "how-to-match-non-woven-sanding-discs-a-sandpaper-grade": "2026-11-14T08:39:02.489Z",
+      "how-to-match-sanding-pad-wholesale-the-backing": "2026-11-14T08:43:59.056Z",
+      "how-to-match-sanding-pads-a-sandpaper-grade": "2026-11-14T08:48:06.180Z",
+      "how-to-match-sandpaper-manufacturer-a-flap-disc": "2026-11-14T09:08:43.964Z",
+      "how-to-match-sandpaper-sheets-a-flap-disc": "2026-11-14T09:19:33.422Z",
+      "how-to-match-sandpaper-sheets-an-abrasive-belt": "2026-11-14T09:24:59.123Z",
+      "how-to-match-stainless-steel-finishing-the-grit-ladder": "2026-11-14T09:37:43.081Z",
+      "how-to-match-steel-backing-flap-discs-the-backing": "2026-11-14T09:45:45.142Z",
+      "how-to-match-wide-abrasive-belts-an-abrasive-belt": "2026-11-14T10:02:30.425Z",
+      "how-to-match-wide-belt-sanding-an-abrasive-belt": "2026-11-14T10:13:15.143Z",
+      "how-to-match-wide-belt-sanding-the-grit-ladder": "2026-11-14T10:36:46.736Z",
+      "how-to-pick-abrasive-belts-a-sandpaper-grade": "2026-11-14T10:49:38.218Z",
+      "how-to-pick-abrasive-paper-a-sandpaper-grade": "2026-11-14T10:58:41.788Z",
+      "how-to-pick-abrasive-paper-the-backing": "2026-11-14T11:17:49.381Z",
+      "how-to-pick-fiberglass-backing-flap-discs-the-right-one": "2026-11-14T11:39:06.957Z",
+      "how-to-pick-flap-disc-manufacturer-an-abrasive-belt": "2026-11-14T11:51:30.596Z",
+      "how-to-pick-industrial-sanding-belts-the-right-grit": "2026-11-14T12:05:11.543Z",
+      "how-to-pick-industrial-sanding-belts-the-right-one": "2026-11-14T12:50:33.904Z",
+      "how-to-pick-mdf-sanding-the-grit-ladder": "2026-11-14T13:04:05.449Z",
+      "how-to-pick-perforated-sanding-discs-an-abrasive-belt": "2026-11-14T14:16:09.754Z",
+      "how-to-pick-random-orbital-sander-pad-your-sanding-disc": "2026-11-14T15:22:43.616Z",
+      "how-to-pick-round-sandpaper-a-flap-disc": "2026-11-16T00:08:34.572Z"
     },
     "fail": {}
   },
   "ja": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-05T11:40:37.290Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-05T11:40:37.290Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-12T02:53:32.177Z"
     },
     "fail": {}
   },
   "ar": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T01:33:18.897Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-09T22:14:43.162Z",
+      "8-questions-grinders-ask-about-sandpaper-wholesale": "2026-11-12T02:26:56.350Z",
+      "automotive-surface-preparation-guide": "2026-11-12T04:24:24.983Z"
     },
     "fail": {}
   },
   "es": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T02:41:41.266Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T02:56:14.381Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-12T02:53:31.483Z",
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-12T03:01:09.220Z"
     },
     "fail": {}
   },
   "fr": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T02:41:41.430Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-10T00:07:14.119Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-12T02:53:31.596Z",
+      "how-to-use-sandpaper-rolls-a-flap-disc": "2026-11-12T04:28:38.315Z",
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-12T05:46:20.202Z",
+      "8-questions-grinders-ask-about-sandpaper-wholesale": "2026-11-13T17:45:12.910Z",
+      "aluminum-oxide-abrasive-belts-guide": "2026-11-13T17:57:45.960Z",
+      "automotive-surface-preparation-guide": "2026-11-13T18:04:40.123Z",
+      "fiberglass-backing-flap-discs-guide": "2026-11-13T18:08:54.872Z",
+      "how-to-choose-5-inch-sanding-pad-the-right-grit": "2026-11-13T18:10:18.809Z",
+      "how-to-choose-6-inch-sanding-pad-the-grit-ladder": "2026-11-13T18:11:28.938Z",
+      "how-to-choose-auto-body-sanding-the-backing": "2026-11-13T18:13:55.089Z",
+      "how-to-choose-automotive-sanding-a-sandpaper-grade": "2026-11-13T18:15:56.466Z",
+      "how-to-choose-automotive-sanding-the-backing": "2026-11-13T18:25:59.298Z",
+      "how-to-choose-automotive-sanding-the-grit-ladder": "2026-11-13T18:29:36.639Z",
+      "how-to-choose-automotive-surface-preparation-a-flap-disc": "2026-11-13T18:38:28.992Z",
+      "how-to-choose-hook-and-loop-sanding-discs-the-grit-ladder": "2026-11-13T18:45:38.385Z",
+      "how-to-choose-industrial-sanding-belts-the-backing": "2026-11-13T18:53:58.158Z",
+      "how-to-choose-non-woven-sanding-discs-the-right-one": "2026-11-13T19:02:05.881Z",
+      "how-to-choose-plastic-backing-flap-discs-the-grit-ladder": "2026-11-13T19:08:50.766Z",
+      "how-to-choose-round-sandpaper-an-abrasive-belt": "2026-11-13T19:14:50.114Z",
+      "how-to-choose-round-sandpaper-the-grit-ladder": "2026-11-13T19:23:02.345Z",
+      "how-to-choose-sanding-backing-pad-a-flap-disc": "2026-11-13T19:54:17.804Z",
+      "how-to-choose-sanding-backing-pad-the-backing": "2026-11-13T20:02:03.342Z",
+      "how-to-choose-sanding-pad-manufacturer-the-grit-ladder": "2026-11-13T20:11:00.230Z",
+      "how-to-choose-sanding-pad-manufacturer-the-right-grit": "2026-11-13T20:16:59.769Z",
+      "how-to-choose-sanding-pads-the-right-grit": "2026-11-13T20:25:19.874Z",
+      "how-to-choose-sandpaper-wholesale-a-sandpaper-grade": "2026-11-13T20:33:21.143Z",
+      "how-to-choose-shaped-sandpaper-the-backing": "2026-11-13T20:36:30.337Z",
+      "how-to-choose-stainless-steel-finishing-the-backing": "2026-11-13T20:39:31.528Z",
+      "how-to-choose-stainless-steel-finishing-your-sanding-disc": "2026-11-13T20:43:33.602Z",
+      "how-to-choose-wide-belt-sanding-the-right-one": "2026-11-13T20:48:42.956Z",
+      "how-to-choose-wood-panel-sanding-the-right-one": "2026-11-13T21:36:29.914Z",
+      "how-to-match-6-inch-sanding-discs-an-abrasive-belt": "2026-11-13T21:43:00.348Z",
+      "how-to-match-abrasive-belts-the-grit-ladder": "2026-11-13T21:51:23.073Z",
+      "how-to-match-auto-body-sanding-a-flap-disc": "2026-11-13T21:54:03.083Z",
+      "how-to-match-auto-body-sanding-your-sanding-disc": "2026-11-13T21:57:56.735Z",
+      "how-to-match-automotive-sanding-the-right-grit": "2026-11-13T22:01:39.411Z",
+      "how-to-match-car-paint-sanding-the-grit-ladder": "2026-11-13T22:17:01.081Z",
+      "how-to-match-car-paint-sanding-the-right-one": "2026-11-13T22:21:36.499Z",
+      "how-to-match-car-paint-sanding-your-sanding-disc": "2026-11-13T22:28:19.814Z",
+      "how-to-match-flap-disc-supplier-your-sanding-disc": "2026-11-13T22:32:20.565Z",
+      "how-to-match-furniture-sanding-a-sandpaper-grade": "2026-11-13T22:36:13.022Z",
+      "how-to-match-mdf-sanding-the-backing": "2026-11-13T22:43:13.966Z",
+      "how-to-match-metal-surface-preparation-the-right-grit": "2026-11-13T23:02:38.525Z",
+      "how-to-match-non-woven-sanding-discs-a-sandpaper-grade": "2026-11-13T23:06:27.733Z",
+      "how-to-match-sanding-pad-wholesale-the-backing": "2026-11-13T23:09:53.597Z",
+      "how-to-match-sanding-pads-a-sandpaper-grade": "2026-11-13T23:25:07.522Z",
+      "how-to-match-sandpaper-manufacturer-a-flap-disc": "2026-11-14T00:03:44.478Z",
+      "how-to-match-sandpaper-sheets-a-flap-disc": "2026-11-14T00:05:30.747Z",
+      "how-to-match-sandpaper-sheets-an-abrasive-belt": "2026-11-14T00:08:48.662Z",
+      "how-to-match-stainless-steel-finishing-the-grit-ladder": "2026-11-14T00:14:40.023Z",
+      "how-to-match-steel-backing-flap-discs-the-backing": "2026-11-14T00:22:35.919Z",
+      "how-to-match-wide-abrasive-belts-an-abrasive-belt": "2026-11-14T00:26:05.392Z",
+      "how-to-match-wide-belt-sanding-an-abrasive-belt": "2026-11-14T00:29:23.885Z",
+      "how-to-match-wide-belt-sanding-the-grit-ladder": "2026-11-14T00:40:47.659Z",
+      "how-to-pick-abrasive-belts-a-sandpaper-grade": "2026-11-14T00:44:56.131Z",
+      "how-to-pick-abrasive-paper-a-sandpaper-grade": "2026-11-14T00:48:40.686Z",
+      "how-to-pick-abrasive-paper-the-backing": "2026-11-14T00:50:56.184Z",
+      "how-to-pick-fiberglass-backing-flap-discs-the-right-one": "2026-11-14T01:01:23.228Z",
+      "how-to-pick-flap-disc-manufacturer-an-abrasive-belt": "2026-11-14T01:03:41.836Z",
+      "how-to-pick-industrial-sanding-belts-the-right-grit": "2026-11-14T01:05:31.674Z",
+      "how-to-pick-industrial-sanding-belts-the-right-one": "2026-11-14T01:18:40.401Z",
+      "how-to-pick-mdf-sanding-the-grit-ladder": "2026-11-14T01:30:02.228Z"
     },
     "fail": {}
   },
   "it": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T02:41:41.616Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:09:40.788Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-12T02:53:32.067Z",
+      "how-to-read-sandpaper-the-backing": "2026-11-12T04:32:42.380Z"
     },
     "fail": {}
   },
   "cs": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T04:36:58.503Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-10T00:07:12.024Z"
     },
     "fail": {}
   },
   "fi": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T05:22:32.760Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-10T00:07:13.545Z"
     },
     "fail": {}
   },
   "da": {
     "done": {
-      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-06T07:50:45.143Z"
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-10T00:07:12.331Z"
+    },
+    "fail": {}
+  },
+  "fa": {
+    "done": {
+      "how-to-read-sandpaper-rolls-a-flap-disc": "2026-11-13T06:29:00.158Z",
+      "how-to-read-sandpaper-sheets-an-abrasive-belt": "2026-11-13T06:29:00.374Z",
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-10T00:07:13.117Z",
+      "8-questions-grinders-ask-about-sandpaper-wholesale": "2026-11-13T06:28:48.685Z",
+      "how-to-pick-abrasive-belts-a-sandpaper-grade": "2026-11-13T06:28:54.554Z",
+      "how-to-choose-automotive-sanding-the-grit-ladder": "2026-11-13T06:28:49.774Z",
+      "how-to-choose-non-woven-sanding-discs-the-right-one": "2026-11-13T06:28:50.158Z",
+      "how-to-choose-round-sandpaper-an-abrasive-belt": "2026-11-13T06:28:50.422Z",
+      "how-to-choose-sanding-backing-pad-a-flap-disc": "2026-11-13T06:28:50.805Z",
+      "how-to-choose-sandpaper-wholesale-a-sandpaper-grade": "2026-11-13T06:28:51.736Z",
+      "how-to-choose-wood-panel-sanding-the-right-one": "2026-11-13T06:28:52.761Z",
+      "how-to-match-car-paint-sanding-the-grit-ladder": "2026-11-13T06:28:53.614Z",
+      "how-to-match-sanding-pad-wholesale-the-backing": "2026-11-13T06:28:54.119Z",
+      "how-to-pick-abrasive-paper-a-sandpaper-grade": "2026-11-13T06:28:54.785Z",
+      "how-to-read-115mm-flap-discs-the-backing": "2026-11-13T06:28:57.383Z",
+      "how-to-read-automotive-sanding-the-right-one": "2026-11-13T06:28:58.855Z",
+      "how-to-read-wide-abrasive-belts-the-backing": "2026-11-13T06:29:01.195Z",
+      "how-to-read-wood-sanding-an-abrasive-belt": "2026-11-13T06:29:01.793Z",
+      "how-to-use-flap-disc-manufacturer-the-backing": "2026-11-13T06:29:02.744Z",
+      "how-to-use-flap-discs-an-abrasive-belt": "2026-11-13T06:29:03.118Z",
+      "how-to-choose-automotive-sanding-a-sandpaper-grade": "2026-11-13T06:28:49.532Z",
+      "how-to-choose-stainless-steel-finishing-the-backing": "2026-11-13T06:28:52.161Z",
+      "how-to-pick-wide-abrasive-belts-the-grit-ladder": "2026-11-13T06:28:56.655Z",
+      "how-to-choose-sanding-pad-manufacturer-the-grit-ladder": "2026-11-13T06:28:51.015Z",
+      "how-to-pick-abrasive-paper-the-backing": "2026-11-13T06:28:55.018Z",
+      "how-to-pick-weld-seam-grinding-the-backing": "2026-11-13T06:28:56.381Z",
+      "how-to-pick-wide-abrasive-belts-your-sanding-disc": "2026-11-13T06:28:56.861Z",
+      "how-to-read-zirconia-flap-discs-a-flap-disc": "2026-11-13T06:29:02.063Z",
+      "how-to-use-6-inch-sanding-discs-your-sanding-disc": "2026-11-13T06:29:02.282Z",
+      "how-to-read-weld-seam-grinding-the-grit-ladder": "2026-11-13T06:29:00.777Z",
+      "how-to-choose-sanding-pads-the-right-grit": "2026-11-13T06:28:51.524Z",
+      "how-to-match-6-inch-sanding-discs-an-abrasive-belt": "2026-11-13T06:28:52.998Z",
+      "how-to-pick-industrial-sanding-belts-the-right-one": "2026-11-13T06:28:55.742Z",
+      "how-to-read-5-inch-sanding-pad-the-right-one": "2026-11-13T06:28:57.892Z",
+      "how-to-read-sanding-pads-the-right-grit": "2026-11-13T06:28:59.943Z",
+      "how-to-use-6-inch-sanding-pad-an-abrasive-belt": "2026-11-13T06:29:02.468Z",
+      "how-to-pick-zirconia-flap-discs-the-grit-ladder": "2026-11-13T06:28:57.110Z",
+      "how-to-read-6-inch-sanding-discs-an-abrasive-belt": "2026-11-13T06:28:58.108Z",
+      "how-to-read-sanding-pad-wholesale-the-backing": "2026-11-13T06:28:59.591Z",
+      "how-to-read-stainless-steel-finishing-a-sandpaper-grade": "2026-11-13T06:29:00.575Z",
+      "how-to-use-flap-disc-supplier-the-backing": "2026-11-13T06:29:02.934Z",
+      "how-to-choose-shaped-sandpaper-the-backing": "2026-11-13T06:28:51.970Z",
+      "how-to-match-car-paint-sanding-the-right-one": "2026-11-13T06:28:53.809Z",
+      "automotive-surface-preparation-guide": "2026-11-13T06:28:48.961Z",
+      "how-to-pick-sanding-pad-wholesale-the-backing": "2026-11-13T06:28:55.952Z",
+      "how-to-choose-stainless-steel-finishing-your-sanding-disc": "2026-11-13T06:28:52.356Z",
+      "how-to-read-plastic-backing-flap-discs-your-sanding-disc": "2026-11-13T06:28:59.386Z",
+      "how-to-read-weld-seam-grinding-the-right-grit": "2026-11-13T06:29:00.974Z",
+      "how-to-choose-sanding-pad-manufacturer-the-right-grit": "2026-11-13T06:28:51.235Z",
+      "how-to-match-sandpaper-sheets-an-abrasive-belt": "2026-11-13T06:28:54.365Z",
+      "how-to-read-abrasive-sanding-discs-a-flap-disc": "2026-11-13T06:28:58.659Z",
+      "how-to-choose-5-inch-sanding-pad-the-right-grit": "2026-11-13T06:28:49.289Z",
+      "how-to-match-abrasive-belts-the-grit-ladder": "2026-11-13T06:28:53.204Z",
+      "how-to-pick-fiberglass-backing-flap-discs-the-right-one": "2026-11-13T06:28:55.274Z",
+      "how-to-pick-industrial-sanding-belts-the-right-grit": "2026-11-13T06:28:55.491Z",
+      "how-to-read-5-inch-sanding-pad-a-sandpaper-grade": "2026-11-13T06:28:57.628Z",
+      "how-to-read-mesh-sanding-discs-a-sandpaper-grade": "2026-11-13T06:28:59.197Z",
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-13T06:28:48.433Z",
+      "how-to-choose-round-sandpaper-the-grit-ladder": "2026-11-13T06:28:50.609Z",
+      "how-to-choose-wide-belt-sanding-the-right-one": "2026-11-13T06:28:52.554Z",
+      "how-to-match-auto-body-sanding-a-flap-disc": "2026-11-13T06:28:53.421Z",
+      "how-to-read-abrasive-belts-a-sandpaper-grade": "2026-11-13T06:28:58.371Z",
+      "how-to-read-wood-panel-sanding-your-sanding-disc": "2026-11-13T06:29:01.457Z",
+      "how-to-use-furniture-sanding-the-backing": "2026-11-13T06:29:03.314Z",
+      "how-to-read-hook-and-loop-sanding-discs-your-sanding-disc": "2026-11-13T08:43:02.020Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-13T08:48:47.586Z",
+      "how-to-choose-industrial-sanding-belts-the-backing": "2026-11-13T09:20:16.770Z",
+      "how-to-pick-sandpaper-manufacturer-the-right-one": "2026-11-13T09:33:37.728Z",
+      "aluminum-oxide-abrasive-belts-guide": "2026-11-13T09:38:13.931Z",
+      "fiberglass-backing-flap-discs-guide": "2026-11-13T09:38:14.088Z",
+      "how-to-choose-auto-body-sanding-the-backing": "2026-11-13T09:38:14.265Z",
+      "how-to-choose-automotive-sanding-the-backing": "2026-11-13T09:38:14.402Z",
+      "how-to-choose-automotive-surface-preparation-a-flap-disc": "2026-11-13T09:38:14.572Z",
+      "how-to-choose-hook-and-loop-sanding-discs-the-grit-ladder": "2026-11-13T09:38:14.689Z",
+      "how-to-choose-plastic-backing-flap-discs-the-grit-ladder": "2026-11-13T09:38:14.845Z",
+      "how-to-match-car-paint-sanding-your-sanding-disc": "2026-11-13T09:38:15.005Z",
+      "how-to-match-metal-surface-preparation-the-right-grit": "2026-11-13T09:38:15.157Z",
+      "how-to-pick-stainless-steel-finishing-a-sandpaper-grade": "2026-11-13T09:38:15.297Z",
+      "how-to-pick-stainless-steel-finishing-the-right-one": "2026-11-13T09:38:15.427Z",
+      "how-to-pick-wide-abrasive-belts-the-backing": "2026-11-13T09:38:15.579Z",
+      "how-to-read-flap-discs-an-abrasive-belt": "2026-11-13T09:38:15.724Z",
+      "how-to-read-wood-sanding-a-flap-disc": "2026-11-13T09:38:15.865Z",
+      "how-to-read-wood-sanding-belts-the-right-one": "2026-11-13T09:38:16.044Z",
+      "how-to-use-automotive-surface-preparation-the-backing": "2026-11-13T09:38:16.234Z",
+      "how-to-use-sanding-discs-a-flap-disc": "2026-11-13T09:51:09.484Z",
+      "how-to-match-steel-backing-flap-discs-the-backing": "2026-11-13T09:56:29.271Z",
+      "how-to-use-wide-belt-sanding-the-backing": "2026-11-13T10:04:19.292Z",
+      "how-to-pick-wide-belt-sanding-a-sandpaper-grade": "2026-11-13T10:08:25.896Z",
+      "how-to-use-sanding-belts-the-right-grit": "2026-11-13T10:20:53.136Z",
+      "how-to-pick-round-sandpaper-a-flap-disc": "2026-11-13T10:28:16.757Z",
+      "how-to-pick-mdf-sanding-the-grit-ladder": "2026-11-13T10:37:40.524Z",
+      "how-to-match-furniture-sanding-a-sandpaper-grade": "2026-11-13T10:41:55.365Z",
+      "how-to-match-non-woven-sanding-discs-a-sandpaper-grade": "2026-11-13T10:49:18.887Z",
+      "how-to-use-sandpaper-rolls-your-sanding-disc": "2026-11-13T11:08:10.139Z",
+      "how-to-choose-6-inch-sanding-pad-the-grit-ladder": "2026-11-13T11:18:06.615Z",
+      "how-to-use-wood-sanding-a-sandpaper-grade": "2026-11-13T11:27:22.905Z",
+      "how-to-use-metal-surface-preparation-the-right-one": "2026-11-13T11:33:52.500Z",
+      "how-to-match-wide-abrasive-belts-an-abrasive-belt": "2026-11-13T11:39:56.730Z",
+      "how-to-match-mdf-sanding-the-backing": "2026-11-13T11:53:43.457Z",
+      "how-to-pick-perforated-sanding-discs-an-abrasive-belt": "2026-11-13T12:01:32.037Z",
+      "how-to-match-wide-belt-sanding-an-abrasive-belt": "2026-11-13T12:10:33.939Z",
+      "how-to-use-weld-seam-grinding-the-backing": "2026-11-13T12:18:16.668Z",
+      "how-to-use-silicon-carbide-abrasive-belts-the-grit-ladder": "2026-11-13T12:30:18.270Z",
+      "how-to-pick-sanding-disc-manufacturer-an-abrasive-belt": "2026-11-13T12:38:20.233Z",
+      "how-to-read-sandpaper-the-backing": "2026-11-13T12:44:47.673Z",
+      "how-to-use-sandpaper-rolls-a-flap-disc": "2026-11-13T12:56:50.048Z",
+      "how-to-use-hook-and-loop-sanding-pad-the-right-one": "2026-11-13T13:03:11.886Z",
+      "how-to-match-automotive-sanding-the-right-grit": "2026-11-13T13:07:13.042Z",
+      "how-to-match-stainless-steel-finishing-the-grit-ladder": "2026-11-13T13:22:34.763Z",
+      "how-to-match-sandpaper-sheets-a-flap-disc": "2026-11-13T13:33:24.144Z",
+      "how-to-use-sandpaper-a-flap-disc": "2026-11-13T13:37:38.391Z",
+      "how-to-match-wide-belt-sanding-the-grit-ladder": "2026-11-13T13:50:56.074Z",
+      "how-to-choose-sanding-backing-pad-the-backing": "2026-11-13T13:55:31.617Z",
+      "how-to-match-auto-body-sanding-your-sanding-disc": "2026-11-13T14:15:20.029Z",
+      "how-to-match-flap-disc-supplier-your-sanding-disc": "2026-11-13T14:27:21.166Z",
+      "how-to-match-sanding-pads-a-sandpaper-grade": "2026-11-13T14:36:25.804Z",
+      "how-to-match-sandpaper-manufacturer-a-flap-disc": "2026-11-13T14:46:41.764Z",
+      "how-to-pick-flap-disc-manufacturer-an-abrasive-belt": "2026-11-13T14:51:41.195Z",
+      "how-to-pick-random-orbital-sander-pad-your-sanding-disc": "2026-11-13T14:55:49.990Z",
+      "how-to-pick-sanding-pad-manufacturer-an-abrasive-belt": "2026-11-13T15:03:38.243Z",
+      "how-to-pick-wide-abrasive-belts-a-sandpaper-grade": "2026-11-13T15:13:32.794Z",
+      "how-to-pick-wood-panel-sanding-the-backing": "2026-11-13T15:20:40.398Z",
+      "how-to-read-flap-disc-manufacturer-an-abrasive-belt": "2026-11-13T15:24:45.846Z",
+      "how-to-use-automotive-sanding-the-right-one": "2026-11-13T15:32:58.332Z",
+      "how-to-use-automotive-surface-preparation-the-right-one": "2026-11-13T15:40:08.673Z",
+      "how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade": "2026-11-13T15:48:31.400Z",
+      "how-to-use-industrial-sanding-belts-your-sanding-disc": "2026-11-13T16:02:28.641Z",
+      "how-to-use-sandpaper-rolls-the-backing": "2026-11-13T16:06:30.606Z",
+      "how-to-use-sandpaper-wholesale-your-sanding-disc": "2026-11-13T16:09:24.017Z",
+      "how-to-use-wood-panel-sanding-the-grit-ladder": "2026-11-13T16:13:00.083Z",
+      "how-to-use-wood-sanding-the-right-grit": "2026-11-13T16:21:20.846Z",
+      "silicon-carbide-abrasive-belts-guide": "2026-11-13T16:26:36.115Z"
+    },
+    "fail": {
+      "7-questions-grinders-ask-about-wood-sanding": "2026-11-13T07:22:27.192Z"
+    }
+  },
+  "hi": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:08:43.643Z"
+    },
+    "fail": {}
+  },
+  "id": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T02:58:24.452Z",
+      "8-questions-grinders-ask-about-sandpaper-wholesale": "2026-11-12T04:36:37.938Z"
+    },
+    "fail": {}
+  },
+  "ko": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-09T22:14:44.750Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-09T22:42:38.683Z",
+      "how-to-match-mdf-sanding-the-backing": "2026-11-12T04:42:53.568Z"
+    },
+    "fail": {}
+  },
+  "he": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-13T06:35:32.984Z",
+      "how-to-use-flap-discs-an-abrasive-belt": "2026-11-13T06:35:39.090Z",
+      "how-to-use-flap-disc-supplier-the-backing": "2026-11-13T06:35:38.891Z",
+      "how-to-use-automotive-surface-preparation-the-backing": "2026-11-13T06:35:38.236Z",
+      "how-to-use-sandpaper-a-flap-disc": "2026-11-13T06:35:41.122Z",
+      "how-to-choose-hook-and-loop-sanding-discs-the-grit-ladder": "2026-11-13T06:35:17.690Z",
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-13T06:35:14.724Z",
+      "7-questions-grinders-ask-about-wood-sanding": "2026-11-13T06:35:14.919Z",
+      "8-questions-grinders-ask-about-sandpaper-wholesale": "2026-11-13T06:35:15.119Z",
+      "aluminum-oxide-abrasive-belts-guide": "2026-11-13T06:35:15.332Z",
+      "automotive-surface-preparation-guide": "2026-11-13T06:35:15.554Z",
+      "how-to-choose-stainless-steel-finishing-the-backing": "2026-11-13T06:35:20.520Z",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit": "2026-11-13T06:35:15.971Z",
+      "how-to-choose-auto-body-sanding-the-backing": "2026-11-13T06:35:16.583Z",
+      "how-to-choose-automotive-sanding-a-sandpaper-grade": "2026-11-13T06:35:16.803Z",
+      "how-to-choose-automotive-surface-preparation-a-flap-disc": "2026-11-13T06:35:17.486Z",
+      "how-to-choose-industrial-sanding-belts-the-backing": "2026-11-13T06:35:17.936Z",
+      "how-to-choose-plastic-backing-flap-discs-the-grit-ladder": "2026-11-13T06:35:18.341Z",
+      "how-to-choose-sanding-backing-pad-the-backing": "2026-11-13T06:35:19.215Z",
+      "how-to-choose-shaped-sandpaper-the-backing": "2026-11-13T06:35:20.324Z",
+      "how-to-choose-wood-panel-sanding-the-right-one": "2026-11-13T06:35:21.191Z",
+      "how-to-match-abrasive-belts-the-grit-ladder": "2026-11-13T06:35:21.668Z",
+      "how-to-match-auto-body-sanding-a-flap-disc": "2026-11-13T06:35:21.871Z",
+      "how-to-match-auto-body-sanding-your-sanding-disc": "2026-11-13T06:35:22.077Z",
+      "how-to-match-car-paint-sanding-the-grit-ladder": "2026-11-13T06:35:22.395Z",
+      "how-to-choose-round-sandpaper-the-grit-ladder": "2026-11-13T06:35:18.739Z",
+      "how-to-choose-wide-belt-sanding-the-right-one": "2026-11-13T06:35:20.973Z",
+      "how-to-match-6-inch-sanding-discs-an-abrasive-belt": "2026-11-13T06:35:21.421Z",
+      "how-to-choose-automotive-sanding-the-backing": "2026-11-13T06:35:17.004Z",
+      "how-to-match-car-paint-sanding-the-right-one": "2026-11-13T06:35:22.617Z",
+      "how-to-choose-non-woven-sanding-discs-the-right-one": "2026-11-13T06:35:18.151Z",
+      "how-to-choose-6-inch-sanding-pad-the-grit-ladder": "2026-11-13T06:35:16.388Z",
+      "how-to-choose-round-sandpaper-an-abrasive-belt": "2026-11-13T06:35:18.534Z",
+      "how-to-choose-stainless-steel-finishing-your-sanding-disc": "2026-11-13T06:35:20.723Z",
+      "how-to-choose-automotive-sanding-the-grit-ladder": "2026-11-13T06:35:17.236Z",
+      "how-to-choose-sanding-pad-manufacturer-the-grit-ladder": "2026-11-13T06:35:19.461Z",
+      "how-to-match-sandpaper-sheets-a-flap-disc": "2026-11-13T06:35:24.846Z",
+      "how-to-choose-sanding-pads-the-right-grit": "2026-11-13T06:35:19.920Z",
+      "fiberglass-backing-flap-discs-guide": "2026-11-13T06:35:15.772Z",
+      "how-to-match-flap-disc-supplier-your-sanding-disc": "2026-11-13T06:35:23.074Z",
+      "how-to-match-furniture-sanding-a-sandpaper-grade": "2026-11-13T06:35:23.319Z",
+      "how-to-match-metal-surface-preparation-the-right-grit": "2026-11-13T06:35:23.778Z",
+      "how-to-match-sanding-pad-wholesale-the-backing": "2026-11-13T06:35:24.212Z",
+      "how-to-match-sandpaper-sheets-an-abrasive-belt": "2026-11-13T06:35:25.062Z",
+      "how-to-match-steel-backing-flap-discs-the-backing": "2026-11-13T06:35:25.527Z",
+      "how-to-match-wide-abrasive-belts-an-abrasive-belt": "2026-11-13T06:35:25.757Z",
+      "how-to-match-wide-belt-sanding-an-abrasive-belt": "2026-11-13T06:35:25.964Z",
+      "how-to-pick-fiberglass-backing-flap-discs-the-right-one": "2026-11-13T06:35:26.901Z",
+      "how-to-pick-wide-abrasive-belts-the-grit-ladder": "2026-11-13T06:35:30.793Z",
+      "how-to-read-6-inch-sanding-discs-an-abrasive-belt": "2026-11-13T06:35:32.581Z",
+      "how-to-choose-sanding-backing-pad-a-flap-disc": "2026-11-13T06:35:18.954Z",
+      "how-to-choose-5-inch-sanding-pad-the-right-grit": "2026-11-13T06:35:16.182Z",
+      "how-to-match-non-woven-sanding-discs-a-sandpaper-grade": "2026-11-13T06:35:23.981Z",
+      "how-to-pick-flap-disc-manufacturer-an-abrasive-belt": "2026-11-13T06:35:27.140Z",
+      "how-to-pick-round-sandpaper-a-flap-disc": "2026-11-13T06:35:28.434Z",
+      "how-to-pick-stainless-steel-finishing-a-sandpaper-grade": "2026-11-13T06:35:29.614Z",
+      "how-to-pick-weld-seam-grinding-the-backing": "2026-11-13T06:35:30.019Z",
+      "how-to-pick-wide-abrasive-belts-your-sanding-disc": "2026-11-13T06:35:31.024Z",
+      "how-to-pick-wide-belt-sanding-a-sandpaper-grade": "2026-11-13T06:35:31.240Z",
+      "how-to-read-flap-discs-an-abrasive-belt": "2026-11-13T06:35:33.888Z",
+      "how-to-read-sandpaper-sheets-an-abrasive-belt": "2026-11-13T06:35:35.336Z",
+      "how-to-read-weld-seam-grinding-the-grit-ladder": "2026-11-13T06:35:36.069Z",
+      "how-to-read-weld-seam-grinding-the-right-grit": "2026-11-13T06:35:36.269Z",
+      "how-to-pick-perforated-sanding-discs-an-abrasive-belt": "2026-11-13T06:35:28.015Z",
+      "how-to-read-abrasive-belts-a-sandpaper-grade": "2026-11-13T06:35:32.796Z",
+      "how-to-read-plastic-backing-flap-discs-your-sanding-disc": "2026-11-13T06:35:34.489Z",
+      "how-to-read-sandpaper-rolls-a-flap-disc": "2026-11-13T06:35:35.110Z",
+      "how-to-match-mdf-sanding-the-backing": "2026-11-13T06:35:23.562Z",
+      "how-to-match-sandpaper-manufacturer-a-flap-disc": "2026-11-13T06:35:24.644Z",
+      "how-to-pick-mdf-sanding-the-grit-ladder": "2026-11-13T06:35:27.803Z",
+      "how-to-pick-random-orbital-sander-pad-your-sanding-disc": "2026-11-13T06:35:28.218Z",
+      "how-to-pick-sanding-disc-manufacturer-an-abrasive-belt": "2026-11-13T06:35:28.649Z",
+      "how-to-pick-stainless-steel-finishing-the-right-one": "2026-11-13T06:35:29.820Z",
+      "how-to-pick-wide-abrasive-belts-the-backing": "2026-11-13T06:35:30.454Z",
+      "how-to-pick-wood-panel-sanding-the-backing": "2026-11-13T06:35:31.473Z",
+      "how-to-pick-zirconia-flap-discs-the-grit-ladder": "2026-11-13T06:35:31.697Z",
+      "how-to-read-5-inch-sanding-pad-a-sandpaper-grade": "2026-11-13T06:35:32.191Z",
+      "how-to-read-flap-disc-manufacturer-an-abrasive-belt": "2026-11-13T06:35:33.653Z",
+      "how-to-read-sanding-pads-the-right-grit": "2026-11-13T06:35:34.910Z",
+      "how-to-read-sandpaper-the-backing": "2026-11-13T06:35:35.557Z",
+      "how-to-read-stainless-steel-finishing-a-sandpaper-grade": "2026-11-13T06:35:35.851Z",
+      "how-to-read-zirconia-flap-discs-a-flap-disc": "2026-11-13T06:35:37.329Z",
+      "how-to-use-6-inch-sanding-pad-an-abrasive-belt": "2026-11-13T06:35:37.784Z",
+      "how-to-use-automotive-surface-preparation-the-right-one": "2026-11-13T06:35:38.438Z",
+      "how-to-use-flap-disc-manufacturer-the-backing": "2026-11-13T06:35:38.658Z",
+      "how-to-pick-abrasive-paper-the-backing": "2026-11-13T06:35:26.701Z",
+      "how-to-read-automotive-sanding-the-right-one": "2026-11-13T06:35:33.449Z",
+      "how-to-read-sanding-pad-wholesale-the-backing": "2026-11-13T06:35:34.709Z",
+      "how-to-match-car-paint-sanding-your-sanding-disc": "2026-11-13T06:35:22.821Z",
+      "how-to-pick-abrasive-paper-a-sandpaper-grade": "2026-11-13T06:35:26.497Z",
+      "how-to-read-wood-sanding-a-flap-disc": "2026-11-13T06:35:36.908Z",
+      "how-to-use-hook-and-loop-sanding-discs-a-sandpaper-grade": "2026-11-13T06:35:39.564Z",
+      "how-to-use-industrial-sanding-belts-your-sanding-disc": "2026-11-13T06:35:40.146Z",
+      "how-to-use-metal-surface-preparation-the-right-one": "2026-11-13T06:35:40.465Z",
+      "how-to-read-abrasive-sanding-discs-a-flap-disc": "2026-11-13T06:35:33.202Z",
+      "how-to-read-wide-abrasive-belts-the-backing": "2026-11-13T06:35:36.487Z",
+      "how-to-read-wood-sanding-belts-the-right-one": "2026-11-13T06:35:37.106Z",
+      "how-to-read-hook-and-loop-sanding-discs-your-sanding-disc": "2026-11-13T06:35:34.091Z",
+      "how-to-read-115mm-flap-discs-the-backing": "2026-11-13T06:35:31.956Z",
+      "how-to-use-sanding-discs-a-flap-disc": "2026-11-13T06:35:40.913Z",
+      "how-to-choose-sanding-pad-manufacturer-the-right-grit": "2026-11-13T06:35:19.706Z",
+      "how-to-match-stainless-steel-finishing-the-grit-ladder": "2026-11-13T06:35:25.315Z",
+      "how-to-pick-sanding-pad-manufacturer-an-abrasive-belt": "2026-11-13T06:35:28.849Z",
+      "how-to-use-sanding-belts-the-right-grit": "2026-11-13T06:35:40.719Z",
+      "how-to-use-weld-seam-grinding-the-backing": "2026-11-13T06:35:42.401Z",
+      "how-to-match-wide-belt-sanding-the-grit-ladder": "2026-11-13T06:35:26.205Z",
+      "how-to-pick-wide-abrasive-belts-a-sandpaper-grade": "2026-11-13T06:35:30.222Z",
+      "how-to-read-mesh-sanding-discs-a-sandpaper-grade": "2026-11-13T06:35:34.288Z",
+      "how-to-use-sandpaper-rolls-a-flap-disc": "2026-11-13T06:35:41.344Z",
+      "how-to-use-sandpaper-wholesale-your-sanding-disc": "2026-11-13T06:35:41.924Z",
+      "silicon-carbide-abrasive-belts-guide": "2026-11-13T06:35:43.179Z",
+      "how-to-match-sanding-pads-a-sandpaper-grade": "2026-11-13T06:35:24.440Z",
+      "how-to-pick-industrial-sanding-belts-the-right-grit": "2026-11-13T06:35:27.352Z",
+      "how-to-pick-industrial-sanding-belts-the-right-one": "2026-11-13T06:35:27.583Z",
+      "how-to-pick-sanding-pad-wholesale-the-backing": "2026-11-13T06:35:29.071Z",
+      "how-to-pick-sandpaper-manufacturer-the-right-one": "2026-11-13T06:35:29.337Z",
+      "how-to-read-5-inch-sanding-pad-the-right-one": "2026-11-13T06:35:32.389Z",
+      "how-to-use-automotive-sanding-the-right-one": "2026-11-13T06:35:38.024Z",
+      "how-to-use-hook-and-loop-sanding-pad-the-right-one": "2026-11-13T06:35:39.814Z",
+      "how-to-use-silicon-carbide-abrasive-belts-the-grit-ladder": "2026-11-13T06:35:42.174Z",
+      "how-to-use-wide-belt-sanding-the-backing": "2026-11-13T06:35:42.645Z",
+      "how-to-use-wood-panel-sanding-the-grit-ladder": "2026-11-13T06:35:42.890Z",
+      "how-to-use-wood-sanding-the-right-grit": "2026-11-13T03:08:17.119Z",
+      "how-to-read-wood-panel-sanding-your-sanding-disc": "2026-11-13T06:35:36.695Z",
+      "how-to-use-6-inch-sanding-discs-your-sanding-disc": "2026-11-13T06:35:37.556Z",
+      "how-to-use-sandpaper-rolls-the-backing": "2026-11-13T06:35:41.590Z",
+      "how-to-use-furniture-sanding-the-backing": "2026-11-13T06:35:39.347Z",
+      "how-to-choose-sandpaper-wholesale-a-sandpaper-grade": "2026-11-13T06:35:20.116Z",
+      "how-to-use-wood-sanding-a-sandpaper-grade": "2026-11-13T16:31:15.189Z",
+      "how-to-pick-abrasive-belts-a-sandpaper-grade": "2026-11-13T16:55:47.324Z",
+      "how-to-read-wood-sanding-an-abrasive-belt": "2026-11-13T17:16:18.920Z",
+      "how-to-use-sandpaper-rolls-your-sanding-disc": "2026-11-13T17:29:30.906Z"
+    },
+    "fail": {}
+  },
+  "no": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T02:57:49.995Z"
+    },
+    "fail": {}
+  },
+  "tr": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:22:10.938Z"
+    },
+    "fail": {}
+  },
+  "ms": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:11:05.483Z"
+    },
+    "fail": {}
+  },
+  "vi": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:24:39.783Z"
+    },
+    "fail": {}
+  },
+  "pl": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:15:32.748Z"
+    },
+    "fail": {}
+  },
+  "pt": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T02:57:50.162Z"
+    },
+    "fail": {}
+  },
+  "ru": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:16:53.563Z"
+    },
+    "fail": {}
+  },
+  "sk": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:17:46.102Z"
+    },
+    "fail": {}
+  },
+  "sv": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T02:57:24.295Z"
+    },
+    "fail": {}
+  },
+  "th": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:49:03.221Z"
+    },
+    "fail": {}
+  },
+  "zh-Hant": {
+    "done": {
+      "how-to-read-abrasive-flap-discs-the-right-grit": "2026-11-12T03:25:42.003Z"
+    },
+    "fail": {}
+  },
+  "bg": {
+    "done": {
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-12T04:01:31.456Z"
+    },
+    "fail": {}
+  },
+  "ca": {
+    "done": {
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-12T04:04:54.056Z"
+    },
+    "fail": {}
+  },
+  "el": {
+    "done": {
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-12T04:14:14.792Z"
+    },
+    "fail": {}
+  },
+  "hr": {
+    "done": {
+      "7-questions-grinders-ask-about-rust-removal": "2026-11-12T04:18:24.100Z"
     },
     "fail": {}
   }

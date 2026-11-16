@@ -9,7 +9,17 @@ import ProductCard from '../components/ProductCard.astro'
 const lang = defaultLang()
 const tr = TRANSLATIONS[lang]
 const base = buildSeo(lang, 'home')
-const seo = { ...base, title: '404 — Page not found', description: `${tr.meta.siteName} — page not found`, canonicalPath: '', jsonld: [] }
+// 404 页必须 noindex：静态托管对所有未匹配路径都返回本页 HTML，
+// index,follow 会让任意错误 URL 被收录（软 404）。
+// description 用 meta.titleSuffix（siteName 键不存在，曾输出字面量 undefined）。
+const seo = {
+  ...base,
+  title: `404 — ${tr.meta.titleSuffix ?? 'MoTai Abrasives'}`,
+  description: `404 — ${tr.meta.titleSuffix ?? 'MoTai Abrasives'}`,
+  canonicalPath: '',
+  robots: 'noindex,follow',
+  jsonld: []
+}
 
 // Recommended products: one representative SKU per product line, straight
 // from products.json (remote CDN images) so the dead-end 404 becomes a
@@ -26,15 +36,13 @@ const featured = [
 <Shell lang={lang} seo={seo}>
   <section class="section wrap page-404">
     <span class="eyebrow">404</span>
-    <h1>Page not found</h1>
-    <p>
-      The page you were looking for does not exist in this language. The default language home is at {localizedUrl(lang, '')}.
-    </p>
+    <h1>{tr.colt.all.title}</h1>
+    <p class="body-narrow">{tr.cta.viewAll} ↓</p>
     <a class="button" href={localizedUrl(lang, '')}>{tr.nav.home}</a>
   </section>
 
   <section class="section wrap">
-    <h2>Popular products</h2>
+    <h2>{tr.colt.all.label}</h2>
     <div class="grid grid-4">
       {featured.map(({ p, colt }) => (
         <ProductCard

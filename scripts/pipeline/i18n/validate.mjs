@@ -38,7 +38,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { INTERNAL, EXTERNAL, BANNED } from '../en/links.mjs'
-import { TARGET_LOCALES, isCJK, MARKERS, LENGTHS, WORD_BAND } from './locales.mjs'
+import { TARGET_LOCALES, isCJK, isSpaceless, MARKERS, LENGTHS, WORD_BAND } from './locales.mjs'
 
 const here = path.dirname(fileURLToPath(import.meta.url)) // scripts/pipeline/i18n
 const root = path.resolve(here, '..', '..', '..') // motai-static
@@ -47,11 +47,13 @@ const INTERNAL_HREFS = new Set(
 )
 const EXTERNAL_URLS = new Set(Object.values(EXTERNAL).map((l) => l.url))
 
-/** Split frontmatter (YAML-ish) from the Markdown body. */
+/** Split frontmatter (YAML-ish) from the Markdown body.
+ *  Strips leading whitespace and HTML comment lines before searching. */
 function splitDoc(raw) {
-  const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
+  let t = raw.replace(/^\s+/, '').replace(/^(?:<!-- .*?-->\n)+/, '')
+  const m = t.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
   if (!m) return { fm: {}, body: raw }
-  const body = raw.slice(m[0].length)
+  const body = t.slice(m[0].length)
   const fm = {}
   for (const line of m[1].split(/\r?\n/)) {
     const kv = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/)
@@ -64,7 +66,9 @@ function splitDoc(raw) {
   return { fm, body }
 }
 
-const CJK_RE = /[\u3040-\u30FF\u4E00-\u9FFF\uAC00-\uD7AF\uF900-\uFAFF]/g
+/** CJK + Thai letters/symbols. Thai has no word spaces, so its letters are
+ *  counted as units exactly like CJK (a spaceless script). */
+const CJK_RE = /[\u3040-\u30FF\u4E00-\u9FFF\uAC00-\uD7AF\uF900-\uFAFF\u0E01-\u0E5B]/g
 
 /** Count "units": CJK characters + non-CJK word tokens (for CJK locales). */
 function unitsOfCJK(md) {
@@ -94,6 +98,7 @@ const stripInline = (h) => h.replace(/[#*_>`~[\]]/g, '').trim()
 
 function validateArticle(code, file) {
   const cjk = isCJK(code)
+  const spaceless = isSpaceless(code) // CJK + Thai: count units by character, keywords by substring
   const markers = MARKERS[code] || { faq: 'FAQ', buy: '' }
   const lengths = LENGTHS(code)
   const raw = readFileSync(file, 'utf8')
@@ -101,12 +106,12 @@ function validateArticle(code, file) {
   const fails = []
   const warns = []
   const allText = body.toLowerCase()
-  const total = cjk ? unitsOfCJK(body) : wordsOf(body)
+  const total = spaceless ? unitsOfCJK(body) : wordsOf(body)
 
   // W1. unit count — pure warning (user instruction: word count is not a gate;
   // quality is judged on terminology accuracy, links, structure, banned claims).
   if (total < WORD_BAND.min || total > WORD_BAND.max)
-    warns.push(`${cjk ? 'unit' : 'word'} count ${total} outside ${WORD_BAND.min}–${WORD_BAND.max}`)
+    warns.push(`${spaceless ? 'unit' : 'word'} count ${total} outside ${WORD_BAND.min}–${WORD_BAND.max}`)
 
   // S1. no H1/H2
   if (/^#{1,2}\s/m.test(body)) fails.push('body contains an H1/H2 heading')
@@ -170,11 +175,11 @@ function validateArticle(code, file) {
   const primaryMax = Math.max(8, Math.ceil(total / 150))
   const secondaryMax = Math.max(4, Math.ceil(total / 400))
   if (p) {
-    const c = countPhrase(allText, kw[0], cjk)
+    const c = countPhrase(allText, kw[0], spaceless)
     if (c < 5 || c > primaryMax) fails.push(`primary keyword "${kw[0]}" appears ${c}× (need 5–${primaryMax})`)
   }
   for (const s of kw.slice(1)) {
-    const c = countPhrase(allText, s, cjk)
+    const c = countPhrase(allText, s, spaceless)
     if (c < 2 || c > secondaryMax) warns.push(`secondary keyword "${s}" appears ${c}× (target 2–${secondaryMax})`)
   }
 
@@ -205,10 +210,10 @@ function validateArticle(code, file) {
     fails.push(`intro ${fm.intro?.length ?? 0} chars (need ${imin}–${imax})`)
 
   // H1. hollow sections
-  const secMin = cjk ? 80 : 120
+  const secMin = spaceless ? 80 : 120
   const parts = body.split(/^###\s+/m)
   for (const part of parts.slice(1)) {
-    const u = cjk ? unitsOfCJK(part) : wordsOf(part)
+    const u = spaceless ? unitsOfCJK(part) : wordsOf(part)
     if (u < secMin) fails.push(`section only ${u} units (< ${secMin})`)
   }
 

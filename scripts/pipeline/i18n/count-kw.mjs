@@ -9,7 +9,7 @@
 import { readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { isCJK } from './locales.mjs'
+import { isSpaceless } from './locales.mjs'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(here, '..', '..', '..')
@@ -18,7 +18,7 @@ if (!code || !slug) { console.log('usage: count-kw.mjs <locale> <slug> [kw …]'
 const file = path.join(root, 'articles', code, slug + '.md')
 const raw = readFileSync(file, 'utf8')
 const body = raw.replace(/^---[\s\S]*?---\r?\n?/, '').toLowerCase()
-const cjk = isCJK(code)
+const cjk = isSpaceless(code)
 function cnt(p) {
   const t = body
   const s = p.toLowerCase()

@@ -10,13 +10,18 @@ const brandSub = tr.brand?.sub ?? 'ABRASIVES'
 const productLinks = [
   { key: 'belts', href: '/collections/abrasive-belts' },
   { key: 'discs', href: '/collections/sanding-discs' },
-  { key: 'flap', href: '/collections/flap-discs' }
+  { key: 'flap', href: '/collections/flap-discs' },
+  { key: 'sponge', href: '/collections/sanding-sponges' }
 ]
 const exploreLinks = [
   { key: 'aboutUs', href: '/about', labelKey: 'footer.aboutUs' },
   { key: 'mfgQ', href: '/factory', labelKey: 'footer.mfgQ' },
   { key: 'oemPl', href: '/oem', labelKey: 'footer.oemPl' },
-  { key: 'newsB', href: '/blog', labelKey: 'footer.newsB' }
+  { key: 'newsB', href: '/blog', labelKey: 'footer.newsB' },
+  // clients / videos 此前全站零入链（孤儿 URL）：从 footer 建立入口。
+  // 文案复用 clients.h1 与 nav.videos（两键均已有 42 语种翻译，零新增键）。
+  { key: 'clients', href: '/clients', label: tr.clients?.h1 },
+  { key: 'videos', href: '/videos', label: tr.nav?.videos }
 ]
 ---
 
@@ -51,7 +56,7 @@ const exploreLinks = [
     </div>
     <div>
       <h3>{f.explore}</h3>
-      {exploreLinks.map((e) => <a href={localizedUrl(lang, e.href)}>{f[e.labelKey.replace('footer.', '')]}</a>)}
+      {exploreLinks.map((e) => <a href={localizedUrl(lang, e.href)}>{e.label ?? f[e.labelKey.replace('footer.', '')]}</a>)}
     </div>
     <div>
       <h3>{f.connect}</h3>

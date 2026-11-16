@@ -1,0 +1,78 @@
+# Task: translate EN article "how-to-read-115mm-flap-discs-the-backing" into fr
+
+You are a technical translator for the MoTai Abrasives B2B site. Translate ONE
+article into fr, then validate it, then book it. Repo root:
+D:\Code\shopify\motai-static (run all commands from there).
+
+## Read first
+1. This brief (the contract for THIS file).
+2. The 5 EN part files, in order (do NOT reorder sections between parts):
+   scripts/pipeline/i18n/parts/how-to-read-115mm-flap-discs-the-backing/00.md … 04.md
+   Part 00 starts with the YAML frontmatter; the last part ends with the
+   "before you buy" section.
+
+## Terminology — use the SITE'S OWN words, NEVER invent one
+The site's product pages for this locale already use these official terms.
+Your article MUST use them too (body and site must never disagree):
+| flap-disc | Flap Discs | Disques à ailettes |
+| abrasive-belts | Abrasive Belts | Courrois abrasifs |
+| sanding-discs | Sanding Discs | Disques de ponçage |
+| grit | Grit size | Grain |
+| backing | Backing / attachment | Support / fixation |
+| diameter | Diameter / nominal size | Diamètre / dimension nominale |
+| holes | Holes | Perforations |
+| wholesale | Wholesale enquiries | Demandes de gros |
+| quote-cta | Request a Wholesale Quote | Demander un devis de gros |
+| metal-fabrication | Metal Fabrication / Abrasive belts | Métallurgie / Courrois abrasifs |
+| woodworking | Woodworking & Furniture | Bois & Menuiserie |
+| automotive | Automotive Repair | Réparation automobile |
+| stainless-steel | Stainless Steel Finishing / Abrasive belts | Finition de l'acier inoxydable / Courrois abrasifs |
+| shipbuilding | Shipbuilding & Repair | Construction navale & Réparation |
+| surface-prep | Industrial Surface Preparation | Préparation de surfaces industrielles |
+Universal tokens stay as-is: FEPA, ISO 848, ANSI, OSHA, PPE, OEM, PSA, grit
+codes (P60…P1500), model codes, mm/inch, rpm.
+
+## Write
+For each part 00..04, WRITE the full translation to
+articles/fr/.parts/how-to-read-115mm-flap-discs-the-backing/NN.md (create dirs). Keep the leading
+"<!-- PART NN/5 … -->" comment on line 1. Part 00 keeps the frontmatter block:
+translate title/keywords/metaDescription/intro into fr; keep
+slug/category/datePublished/dateModified/image VERBATIM.
+- INTERNAL links: rewrite every /en/… href to /fr/… (same route paths,
+  same count as the EN parts). Translate anchor text.
+- EXTERNAL links: keep the URL byte-for-byte; translate the anchor only.
+- Translate every heading, paragraph, list, FAQ Q&A, checklist into natural
+  fluent fr technical prose (not literal calques).
+
+## Headings (the validator checks these literal strings)
+- FAQ section heading EXACTLY: ### FAQ
+- FINAL "before you buy" heading EXACTLY: ### Avant d'acheter  (>= 6 checklist items)
+- No H1/H2 anywhere (only ### / ####).
+
+## Frontmatter
+- title <= 80 chars, contains the primary keyword, no year.
+- keywords 3–5 items, item 1 = primary; pick terms you ACTUALLY use in the body
+  (check: node scripts/pipeline/i18n/count-kw.mjs fr how-to-read-115mm-flap-discs-the-backing "kw" "kw2").
+- metaDescription / intro: keep reasonable; word-count warnings are ACCEPTABLE
+  — do NOT pad the body to hit a number.
+
+## Rules
+- No banned absolute claims (best/only/guaranteed/permanent/100%/zero-risk/
+  absolutely safe, and their fr equivalents). Translate EN hedges,
+  never drop them.
+- Do NOT fabricate brands, products, institutions, data, or URLs.
+
+## Verify + book
+1. node scripts/pipeline/i18n/merge.mjs fr how-to-read-115mm-flap-discs-the-backing 5
+2. node scripts/pipeline/i18n/validate.mjs fr how-to-read-115mm-flap-discs-the-backing
+   - Fix every line starting with "✗". Lines starting with "~" are ACCEPTABLE
+     (word count, secondary-keyword density) — leave them; do not pad.
+   - Re-run until only "~" lines remain.
+3. node scripts/pipeline/i18n/batch.mjs record fr how-to-read-115mm-flap-discs-the-backing PASS
+   (re-validates on the fly; if it rejects, a ✗ remains — keep fixing).
+
+## Report back (exactly)
+- Final validator line (PASS + any ~ warnings).
+- Internal/external link counts.
+- Terminology used for: flap disc / grit / backing / deburring / stainless steel
+  (so it can be checked against the glossary sheet).

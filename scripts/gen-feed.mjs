@@ -2,10 +2,10 @@
  * Build-time Merchant Center feed generator.
  *
  * Emits a B2B "request a quote" products.csv (UTF-8 with BOM, the encoding
- * Google Merchant Center expects) into dist/ so Cloudflare Pages publishes
- * it alongside the site. Zero Workers, zero server code: the CSV is a plain
- * static artifact. Point the Merchant Center b2b data source at
- * <SITE_URL>/products.csv.
+ * Google Merchant Center expects) into dist/feeds/ so the static host
+ * publishes it alongside the site. Zero Workers, zero server code: the CSV
+ * is a plain static artifact. Point the Merchant Center b2b data source at
+ * <SITE_URL>/feeds/products.csv.
  *
  * Why "preorder" availability + no price: the catalog is quote-driven B2B —
  * every source product is price 0 / available false. The feed therefore
@@ -92,7 +92,9 @@ function rowsFor(lang) {
 }
 
 const csvOf = (rows) => COLS.join(',') + '\n' + rows.join('\n') + '\n'
-const outDir = path.join(root, 'dist')
+// Feeds land in a dist/feeds/ subdirectory so the Merchant data source
+// URLs stay grouped under /feeds/ and never shadow a page or product path.
+const outDir = path.join(root, 'dist', 'feeds')
 if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true })
 // 0xFEFF = BOM; Google's CSV parser requires a BOM to detect UTF-8.
 // csvOf prepends the header row and joins the item rows with newlines —
@@ -100,12 +102,12 @@ if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true })
 // collapsing all 30 items onto one line (broke the line count).
 const emit = (file, rows) => writeFileSync(path.join(outDir, file), '\uFEFF' + csvOf(rows), 'utf8')
 
-// Primary feed (the Merchant b2b data source): products.csv, language = mainLang.
+// Primary feed (the Merchant b2b data source): feeds/products.csv, language = mainLang.
 const primaryRows = rowsFor(mainLang)
 emit('products.csv', primaryRows)
-console.log(`[gen-feed] wrote dist/products.csv — ${primaryRows.length} items (availability=preorder, b2b, lang=${mainLang})`)
+console.log(`[gen-feed] wrote dist/feeds/products.csv — ${primaryRows.length} items (availability=preorder, b2b, lang=${mainLang})`)
 
-// Per-language feeds (products.<lang>.csv) for every other locale, so
+// Per-language feeds (feeds/products.<lang>.csv) for every other locale, so
 // Merchant region-specific data sources can point at the matching file.
 let extra = 0
 for (const l of allLangs) {
@@ -113,4 +115,4 @@ for (const l of allLangs) {
   emit(`products.${l}.csv`, rowsFor(l))
   extra++
 }
-console.log(`[gen-feed] wrote ${extra} per-language feeds (products.<lang>.csv, one per locale)`)
+console.log(`[gen-feed] wrote ${extra} per-language feeds (dist/feeds/products.<lang>.csv, one per locale)`)

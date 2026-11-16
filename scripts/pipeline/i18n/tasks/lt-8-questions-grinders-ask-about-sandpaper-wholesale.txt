@@ -1,0 +1,84 @@
+# Task: translate EN article "8-questions-grinders-ask-about-sandpaper-wholesale" into lt
+
+You are a technical translator for the MoTai Abrasives B2B site. Translate ONE
+article into lt, then validate it, then book it. Repo root:
+D:\Code\shopify\motai-static (run all commands from there).
+
+## Read first
+1. This brief (it is the contract for THIS file).
+2. The 5 EN part files, in order (do NOT reorder sections between parts):
+   scripts/pipeline/i18n/parts/8-questions-grinders-ask-about-sandpaper-wholesale/00.md … 04.md
+   Part 00 starts with the YAML frontmatter; the last part ends with the
+   "before you buy" section.
+
+## Terminology — use the SITE'S OWN words, NEVER invent one
+The site's product pages for this locale already use these official terms.
+Your article MUST use them too (so body and site never disagree). From
+glossary/lt.md:
+| flap-disc | Flap Discs | Faneruotai diskai |
+| abrasive-belts | Abrasive Belts | Šlifavimo juostos |
+| sanding-discs | Sanding Discs | Šlifavimo diskai |
+| grit | Grit size | Grūdelių gradacija |
+| backing | Backing / attachment | Pagrindas / pritvirtinimas |
+| diameter | Diameter / nominal size | Skersmuo / vardiklinis dydis |
+| holes | Holes | Angos |
+| wholesale | Wholesale enquiries | Hurtiniai užklausos |
+| quote-cta | Request a Wholesale Quote | Užsakyti didmeninę kainoraštį |
+| metal-fabrication | Metal Fabrication / Abrasive belts | Metalo konstrukcijai / Šlifavimo juostos |
+| woodworking | Woodworking & Furniture | Medžioto ir baldų gamyba |
+| automotive | Automotive Repair | Automobilių remontas |
+| stainless-steel | Stainless Steel Finishing / Abrasive belts | Nerūdijančio plieno apdaila / Šlifavimo juostos |
+| shipbuilding | Shipbuilding & Repair | Laivų statyba ir remontas |
+| surface-prep | Industrial Surface Preparation | Pramoninis paviršio paruošimas |
+Universal tokens stay as-is: FEPA, ISO 848, ANSI, OSHA, PPE, OEM, PSA, grit
+codes (P60…P1500), model codes, mm/inch, rpm.
+
+## Write
+For each part 00..04, WRITE the full translation to
+articles/lt/.parts/8-questions-grinders-ask-about-sandpaper-wholesale/NN.md (create dirs). Keep the leading
+"<!-- PART NN/5 … -->" comment on line 1 of each part. Part 00 keeps the
+frontmatter block: translate title/keywords/metaDescription/intro into lt,
+keep slug/category/datePublished/dateModified/image VERBATIM.
+- INTERNAL links: rewrite every /en/… href to /lt/… (same route paths,
+  same count as the EN parts). Translate the anchor text.
+- EXTERNAL links: keep the URL byte-for-byte, translate the anchor only.
+- Translate every heading, paragraph, list, FAQ Q&A, checklist item into
+  natural fluent lt technical prose (not literal calques).
+
+## Headings (the validator checks these literal strings)
+- The FAQ section heading must be EXACTLY: ### FAQ
+- The FINAL "before you buy" section heading must be EXACTLY: ### 
+  with >= 6 checklist items.
+- No H1/H2 anywhere (only ### / ####).
+
+## Frontmatter
+- title: <= 80 chars, must contain the primary keyword, no year.
+- keywords: 3–5 items, item 1 = primary. Pick them as terms you ACTUALLY USE in
+  the body (run: node scripts/pipeline/i18n/count-kw.mjs lt 8-questions-grinders-ask-about-sandpaper-wholesale "kw" "kw2").
+  Primary should appear 5+ times; secondaries 2–4 times ideally.
+- metaDescription and intro: keep them in a reasonable length (the validator
+  reports if out of band; word-count issues are acceptable — do NOT pad the
+  body just to hit a number).
+
+## Rules
+- No banned absolute claims (the ad-law red lines: "best/only/guaranteed/
+  permanent/100%/zero-risk/absolutely safe" and their lt equivalents).
+  If the EN source hedges ("confirm with sales", "the risk is reduced, not
+  zero"), translate the hedge — do not drop it.
+- Do NOT fabricate brands, products, institutions, data, or URLs.
+
+## Verify + book
+1. node scripts/pipeline/i18n/merge.mjs lt 8-questions-grinders-ask-about-sandpaper-wholesale 5
+2. node scripts/pipeline/i18n/validate.mjs lt 8-questions-grinders-ask-about-sandpaper-wholesale
+   - Fix every line that starts with "✗". Lines starting with "~" (word count,
+     secondary-keyword density) are ACCEPTABLE — leave them, do not pad.
+   - Re-run until the only remaining lines are "~" warnings (or none).
+3. node scripts/pipeline/i18n/batch.mjs record lt 8-questions-grinders-ask-about-sandpaper-wholesale PASS
+   (this re-validates on the fly; if it rejects, your file still has a ✗ — keep
+   fixing. Do NOT stop at INCOMPLETE.)
+
+## Report back (exactly these fields)
+- Final validator line (the "PASS [locale] slug (…)" line, note any ~ warnings).
+- Internal/external link counts.
+- The terminology you used for the key concepts (flap disc / grit / backing /
+  deburring / stainless steel) so it can be checked against the glossary sheet.

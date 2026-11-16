@@ -52,6 +52,6 @@ const out = `---\n${fm}\n---\n\n${bodyParts.join('\n\n')}\n`
 mkdirSync(path.join(root, 'articles', code), { recursive: true })
 const outFile = path.join(root, 'articles', code, slug + '.md')
 writeFileSync(outFile, out)
-rmSync(path.join(root, 'articles', code, '.parts'), { recursive: true, force: true })
+rmSync(path.join(root, 'articles', code, '.parts', slug), { recursive: true, force: true })
 
 console.log(`merged ${files.length} parts → ${path.relative(root, outFile)} (${out.length} bytes)`)

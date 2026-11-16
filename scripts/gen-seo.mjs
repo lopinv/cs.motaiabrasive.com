@@ -46,13 +46,17 @@ const langs = readdirSync(i18nDir)
 // so its whole URL set (root + /page/<n> + /category/<key>[/page/<n>]) comes
 // from blogIndexPaths below.
 const staticRoutes = ['', '/about', '/factory', '/oem', '/applications', '/contact', '/privacy', '/terms', '/shipping', '/quote', '/clients', '/glossary']
-const collections = ['abrasive-belts', 'sanding-discs', 'flap-discs', 'all']
+const collections = ['abrasive-belts', 'sanding-discs', 'flap-discs', 'sanding-sponges', 'all']
 
 // Data-driven routes
 const products = read('products.json')
 const models = read('models.json')
 const discViews = read('disc-views.json')
 const flaps = read('flap.json')
+const sponges = read('sponges.json')
+// 视频只收录 visibleVideos：hidden 剪辑刻意不进 sitemap（与站内链接及
+// /videos/ 索引页 ItemList 的过滤口径一致，只允许直链访问）。
+const visibleVideos = read('videos.json').filter((v) => !v.hidden)
 const blog = read('blog.json')
 const applications = read('applications.json')
 // The long-form blog corpus lives in articles/<lang>/*.md and is registered
@@ -110,6 +114,10 @@ const dataPaths = [
   ...models.map((m) => `/model/${m.slug}`),
   ...discViews.map((d) => `/disc/${d.key}`),
   ...flaps.map((f) => `/flap/${f.key}`),
+  ...sponges.map((s) => `/sponge/${s.key}`),
+  // 只收录 visibleVideos（与站内链接/index ItemList 一致；hidden 剪辑
+  // 刻意不进 sitemap，只允许直链访问）
+  ...visibleVideos.map((v) => `/videos/${v.id}`),
   ...blogSlugs.map((slug) => `/blog/${slug}`),
   ...applications.map((a) => `/applications/${a.slug}`),
   ...blogIndexPaths

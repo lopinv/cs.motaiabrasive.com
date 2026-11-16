@@ -31,8 +31,9 @@ if (!locale) {
 
 const root = path.resolve(__dirname, '..')
 const tails = path.join(root, '.zcode-check', 'tails')
-const srcPath = path.join(tails, locale + '.gap2.json')
-const outPath = path.join(tails, locale + '.gap2.out.json')
+const SUFFIX = process.argv[3] ? '.' + process.argv[3] : '.gap2'
+const srcPath = path.join(tails, locale + SUFFIX + '.json')
+const outPath = path.join(tails, locale + SUFFIX + '.out.json')
 const destPath = path.join(root, 'src', 'i18n', locale + '.json')
 
 const fail = []
