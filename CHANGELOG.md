@@ -5,6 +5,17 @@
 
 ## [1.4.4] - 2026-11-16
 
+### Changed
+
+- 产品线命名去品牌前缀（en）：`colt.flap.title` → "Flap Discs"、
+  `colt.sponge.title` → "Sanding Sponges"、`home.catFlapTitle` → "Explore Flap Discs"
+  （非 en 各语种保留本地化标题形态）
+- Flap Discs 分类代表图换为 `motai-flap-plastic-reddish-brown-display.png`
+  （同源驱动首页分类卡片 + `/collections/flap-discs/` 首屏 hero + og:image），
+  并移除 home.json flap 条目已无消费方的 `gallery` 数组
+- 页脚「Let's Connect」电话号码行图标由电话听筒改为 WhatsApp 实心图标
+  （该行跳转目标本就是 wa.me 链接，图标与目标对齐）
+
 ### Security
 
 - 升级 astro `7.3.3` → `7.4.12`（patch version 精确锁定，无浮动范围），

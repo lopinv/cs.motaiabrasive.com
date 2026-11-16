@@ -23,7 +23,8 @@ const categories = homeData.categories
  * 卡片标题取 colt.*.title 的第一段：各语种的 SEO 长标题都带
  * 「— 批发与 OEM」类后缀（77 个语种×分类组合，形态各异无法统一剥），
  * 按分隔符（— – · | :）切分取首段，得到干净的产品线名。
- * 无分隔符时原样返回（flap/sponge 的 "MoTai Sanding Sponges" 保持不变）。
+ * 无分隔符时原样返回（如 en 的 "Sanding Sponges"；各语种带品牌前缀的
+ * 标题同理原样保留）。
  */
 const shortTitle = (key) => {
   const raw = pick(key) ?? ''

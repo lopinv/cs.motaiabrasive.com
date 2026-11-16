@@ -46,7 +46,7 @@
       "label": "Sanding Discs"
     },
     "flap": {
-      "title": "MOTAI Flap Discs",
+      "title": "Flap Discs",
       "desc": "Flap discs with plastic, steel and fiberglass backing for metal grinding, blending and finishing. Confirm specifications, bulk supply and OEM packaging with the quotation.",
       "label": "Flap Discs"
     },
@@ -56,7 +56,7 @@
       "label": "All Products"
     },
     "sponge": {
-      "title": "MoTai Sanding Sponges",
+      "title": "Sanding Sponges",
       "desc": "Flexible sanding sponge pads and thick foam blocks for wet or dry hand sanding of curves, edges, flat surfaces and repaired walls. Reusable after cleaning. Wholesale and OEM enquiries welcome.",
       "label": "Sanding Sponges"
     }
@@ -153,7 +153,7 @@
     "heroTrust3": "Export support",
     "catSectionTitle": "Product categories",
     "catSectionSub": "Four consumable lines, documented specifications and factory-direct supply for importers, distributors and private-label brands.",
-    "catFlapTitle": "Explore MoTai Flap Discs",
+    "catFlapTitle": "Explore Flap Discs",
     "catFlapDesc": "Flap disc options in plastic, steel and fiberglass backing. Share your workpiece, required diameter, grit and quantity for a matched quotation."
   },
   "purchasing": {
