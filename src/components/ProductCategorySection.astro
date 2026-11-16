@@ -19,6 +19,16 @@ const { lang } = Astro.props
 const tr = TRANSLATIONS[lang]
 const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
 const categories = homeData.categories
+/**
+ * 卡片标题取 colt.*.title 的第一段：各语种的 SEO 长标题都带
+ * 「— 批发与 OEM」类后缀（77 个语种×分类组合，形态各异无法统一剥），
+ * 按分隔符（— – · | :）切分取首段，得到干净的产品线名。
+ * 无分隔符时原样返回（flap/sponge 的 "MoTai Sanding Sponges" 保持不变）。
+ */
+const shortTitle = (key) => {
+  const raw = pick(key) ?? ''
+  return raw.split(/\s*[—–·|:]\s*/)[0].trim() || raw
+}
 ---
 
 <section class="section wrap section--cat" id="product-categories">
@@ -34,7 +44,7 @@ const categories = homeData.categories
   </div>
 
   <div class="cat-grid">
-    {categories.map((cat) => (
+    {categories.map((cat, i) => (
       <article class="cat-card">
         <a class="cat-card-media" href={localizedUrl(lang, cat.href)} aria-label={pick(cat.labelKey)}>
           <img
@@ -46,9 +56,13 @@ const categories = homeData.categories
            width="1200" height="750"/>
         </a>
         <div class="cat-card-body">
-          <span class="eyebrow">{pick(cat.labelKey)}</span>
-          <h3>{pick(cat.titleKey)}</h3>
-<p class="cat-desc">{pick(cat.descKey)}</p>
+          <!-- eyebrow 用两位序号（01–04）建立编号节奏；分类名由 h3 承担，
+               避免 eyebrow 与标题重复同一串文字 -->
+          <span class="eyebrow cat-no">{String(i + 1).padStart(2, '0')}</span>
+          <!-- 卡片标题用 titleKey 首段（剥掉各语种的「— 批发与 OEM」类后缀）；
+                eyebrow 显示分类标签，两者不再重复 -->
+          <h3>{shortTitle(cat.titleKey)}</h3>
+          <p class="cat-desc">{pick(cat.descKey)}</p>
 
           <!-- 双 CTA 固定同行：WhatsApp + Request a quote（沿用吸底条的短标签，4 列
      卡片下两个按钮才能稳定同排；长标签用 cta.waChat / cta.quote 会换行） -->

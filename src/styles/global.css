@@ -599,12 +599,14 @@ section.hero--carousel {
 }
 .cat-card:hover { transform: translateY(-4px); box-shadow: var(--sh-3); border-color: var(--ink-200); }
 /* 图完整显示而非裁切：产品图多为白底 PNG（百叶片/砂盘/海绵），cover 会把
-   上下裁掉一截、留下「断头」观感。contain + 浅色底衬 + 内边距让整图
-   完整落入图区；hover 仍保留轻推近。 */
+   上下裁掉一截、留下「断头」观感。contain + 白色底衬让整图完整落入图区，
+   与图片自身的白底自然融合；hover 仍保留轻推近。 */
 .cat-card-media {
   position: relative; display: block; aspect-ratio: 16/10;
   overflow: hidden;
-  background: var(--bg-soft);
+  /* 统一白色底：四张卡的产品图底色不一（部分浅灰/渐变），
+     白色衬底让四张卡的图区底部视觉一致。 */
+  background: #ffffff;
   /* 给 contain 留出呼吸边，避免图贴边 */
   padding: 10px;
 }
@@ -616,6 +618,12 @@ section.hero--carousel {
 .cat-card-media.img-fallback { min-height: 160px; }
 .cat-card-body { padding: var(--sp-5); display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .cat-card-body .eyebrow { margin: 0; font-size: 10px; }
+/* 分类序号：红色两位数字，建立「01–04」编号节奏（与首页其它区块同语言） */
+.cat-card-body .eyebrow.cat-no {
+  font-size: 11px; letter-spacing: .14em;
+  color: var(--accent); font-weight: 800;
+}
+.cat-card-body .eyebrow.cat-no::before { display: none; }
 .cat-card-body h3 { margin: 0; font-size: 17px; }
 .cat-desc { color: var(--text-soft); font-size: 13.5px; line-height: 1.55; margin: 0; }
 /* 双 CTA 固定同行：WhatsApp（次级）+ Request a quote（主），
