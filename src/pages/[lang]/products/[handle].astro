@@ -59,13 +59,13 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
     <div>
       <div class="gallery">
         <div class="gallery-main lb-trigger" data-full={media(galleryImgs[0])}>
-          <img src={media(galleryImgs[0])} alt={p.name} loading="eager" fetchpriority="high" />
+          <img src={media(galleryImgs[0])} alt={p.name} width="1200" height="857" loading="eager" fetchpriority="high" />
         </div>
         {lbThumbs.length > 0 && (
           <div class="gallery-thumbs" role="group" aria-label={pick('productPage.viewFull')}>
             {lbThumbs.map((g, i) => (
               <a class="gallery-thumb" href={media(g)} data-full={media(g)} aria-label={`${p.name} ${i + 2}`}>
-                <img src={media(g)} alt="" loading="lazy" onerror="this.remove()" />
+                <img src={media(g)} alt="" width="120" height="86" loading="lazy" onerror="this.remove()" />
               </a>
             ))}
           </div>
@@ -149,7 +149,7 @@ const seo = buildSeo(lang, 'product', { handle: p.handle }, [
       {related.map((b) => (
         <a class="product-card" href={lu(`/blog/${b.slug}`)}>
           <div class="product-card-media">
-            <img src={media(b.image)} alt={pick(b.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <img src={media(b.image)} alt={pick(b.titleKey)} width="700" height="525" loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
             <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
           </div>
           <div class="product-card-body">

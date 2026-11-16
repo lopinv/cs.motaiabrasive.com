@@ -46,7 +46,7 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
     <div>
       <div class="gallery">
         <div class="gallery-main lb-trigger" data-full={media(m.image ?? 'belt-533-75')}>
-          <img src={media(m.image ?? 'belt-533-75')} alt={`${m.model} ${pick('modelPage.eyebrow')}`} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
+          <img src={media(m.image ?? 'belt-533-75')} alt={`${m.model} ${pick('modelPage.eyebrow')}`} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')"  width="1200" height="857"/>
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@ const seo = buildSeo(lang, 'model', { slug: m.slug }, [
           <h3>{x.model}</h3>
           {x.image && (
             <div class="model-card-media">
-              <img src={media(x.image)} alt={x.model} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+              <img src={media(x.image)} alt={x.model} loading="lazy" onerror="this.onerror=null;this.style.display='none'"  width="1200" height="857"/>
             </div>
           )}
         </a>

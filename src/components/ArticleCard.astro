@@ -28,7 +28,7 @@ const when = date
 
 <a class="product-card" href={u(`/blog/${article.slug}`)}>
   <div class="product-card-media">
-    <img src={article.image ? media(article.image) : ''} alt={article.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+    <img src={article.image ? media(article.image) : ''} alt={article.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'"  width="700" height="525"/>
     <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
   </div>
   <div class="product-card-body">

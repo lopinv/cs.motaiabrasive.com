@@ -62,7 +62,7 @@ const pagerBase = canonicalPath.replace(/\/page\/\d+$/, '')
       {pageArticles.map((b) => (
         <a class="product-card" href={u(`/blog/${b.slug}`)} data-cat={b.categoryKey}>
           <div class="product-card-media">
-            <img src={media(b.image)} alt={b.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <img src={media(b.image)} alt={b.title} width="700" height="525" loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
             <span class="img-fallback-text" aria-hidden="true">GUIDE</span>
           </div>
           <div class="product-card-body">

@@ -100,7 +100,7 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
                   <p>{m.family}</p>
                   {m.image && (
                     <div class="model-card-media">
-                      <img src={media(m.image)} alt={m.model} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+                      <img src={media(m.image)} alt={m.model} loading="lazy" onerror="this.onerror=null;this.style.display='none'"  width="700" height="525"/>
                     </div>
                   )}
                 </a>
@@ -130,7 +130,7 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
                   <p>{(d.grits ?? []).join(' · ') || pick('meta.diameter')}</p>
                   {d.image && (
                     <div class="model-card-media">
-                      <img src={media(d.image)} alt={d.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+                      <img src={media(d.image)} alt={d.title} loading="lazy" onerror="this.onerror=null;this.style.display='none'"  width="700" height="525"/>
                     </div>
                   )}
                 </a>
@@ -154,7 +154,7 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
           {flaps.map((f) => (
             <a class="product-card" href={lu(`/flap/${f.key}`)}>
               <div class="product-card-media">
-                <img src={media(f.image)} alt={f.name} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+                <img src={media(f.image)} alt={f.name} loading="lazy" onerror="this.onerror=null;this.style.display='none'"  width="700" height="525"/>
                 <span class="img-fallback-text" aria-hidden="true">{f.backing}</span>
               </div>
               <div class="product-card-body">
@@ -175,7 +175,7 @@ const seo = buildSeo(lang, 'collection', { key: isAll ? 'all' : key }, [
           {sponges.map((s) => (
             <a class="product-card" href={lu(`/sponge/${s.key}`)}>
               <div class="product-card-media">
-                <img src={media(s.image)} alt={s.name} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+                <img src={media(s.image)} alt={s.name} loading="lazy" onerror="this.onerror=null;this.style.display='none'"  width="700" height="525"/>
                 <span class="img-fallback-text" aria-hidden="true">{s.family}</span>
               </div>
               <div class="product-card-body">

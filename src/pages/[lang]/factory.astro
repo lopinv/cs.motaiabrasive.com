@@ -63,17 +63,17 @@ const vDesc = video?.youtubeId ? pick(video.descriptionKey) : ''
     <SectionHeading title={f.galleryTitle} sub={f.galleryIntro} />
     <div class="grid grid-3">
       <div class="value-card">
-        <div class="gallery-media"><img src={media('factory')} alt={f.gallery1Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')" /></div>
+        <div class="gallery-media"><img src={media('factory')} alt={f.gallery1Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')"  width="800" height="500"/></div>
         <h3>{f.gallery1Title}</h3>
         <p>{f.gallery1Text}</p>
       </div>
       <div class="value-card">
-        <div class="gallery-media"><img src={media('workshop')} alt={f.gallery2Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')" /></div>
+        <div class="gallery-media"><img src={media('workshop')} alt={f.gallery2Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')"  width="800" height="500"/></div>
         <h3>{f.gallery2Title}</h3>
         <p>{f.gallery2Text}</p>
       </div>
       <div class="value-card">
-        <div class="gallery-media"><img src={media('discs')} alt={f.gallery3Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')" /></div>
+        <div class="gallery-media"><img src={media('discs')} alt={f.gallery3Title} loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('img-fallback')"  width="800" height="500"/></div>
         <h3>{f.gallery3Title}</h3>
         <p>{f.gallery3Text}</p>
       </div>

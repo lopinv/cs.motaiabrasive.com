@@ -38,7 +38,7 @@ const seo = buildSeo(lang, 'applications', {}, [
           <div class="product-card-media">
             <!-- 用首页 scenes 的工艺实拍替换静态产品图（CDN 同源，
                  视觉一致性更好；scenes 与 applications 的 slug 一一对应） -->
-            <img src={scenes[i]?.image ?? media(it.image)} alt={pick(it.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
+            <img src={scenes[i]?.image ?? media(it.image)} alt={pick(it.titleKey)} loading="lazy" onerror="this.onerror=null;this.style.display='none'"  width="800" height="600"/>
             <span class="img-fallback-text" aria-hidden="true">{it.no}</span>
           </div>
           <div class="product-card-body">

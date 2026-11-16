@@ -47,7 +47,7 @@ const flapVideo = visibleVideos.find((v) => v.youtubeId && v.line === 'flap')
     <div>
       <div class="gallery">
         <div class="gallery-main lb-trigger" data-full={media(f.image)}>
-          <img src={media(f.image)} alt={f.name} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')" />
+          <img src={media(f.image)} alt={f.name} loading="eager" fetchpriority="high" onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('img-fallback')"  width="1200" height="857"/>
         </div>
       </div>
     </div>
