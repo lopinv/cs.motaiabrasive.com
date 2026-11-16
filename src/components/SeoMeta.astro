@@ -6,6 +6,7 @@
  */
 import { site, localizedUrl } from '../lib/utils.js'
 import { LANGS, TRANSLATIONS } from '../lib/i18n.js'
+import { hreflangLangs, isTranslated } from '../lib/article-locales.js'
 
 const {
   lang = 'en',
@@ -16,7 +17,8 @@ const {
   ogImage = '',
   ogType = '',
   jsonld = [],
-  robots = 'index,follow'
+  robots = 'index,follow',
+  articleSlug = ''
 } = Astro.props
 
 const meta = TRANSLATIONS[lang]?.meta ?? TRANSLATIONS.en.meta
@@ -31,7 +33,14 @@ const defaultOg = site.logo
 const ogLocaleAlternates = LANGS.filter((l) => l !== lang).map((l) => TRANSLATIONS[l]?.ogLocale ?? (TRANSLATIONS[l]?.htmlLang ?? l))
 // Regional hreflang variants: Google's es-MX / pt-BR region signals point at
 // the existing /es/ and /pt/ sub-sites (no separate localized sub-site).
-const regionVariants = Object.entries({ 'pt-BR': 'pt', 'es-MX': 'es' })
+// 同样受 articleSlug 约束：未译本种不输出区域变体。
+const regionVariants = articleSlug
+  ? Object.entries({ 'pt-BR': 'pt', 'es-MX': 'es' }).filter(([, target]) => isTranslated(target, articleSlug))
+  : Object.entries({ 'pt-BR': 'pt', 'es-MX': 'es' })
+// hreflang 互指范围：非文章页 = 全部语种（UI 文案 42 语种已译）；
+// 文章页 = 只互指确有该 slug 译文的语种（articleSlug 由调用方传入，
+// 未译文条目回退渲染 EN 正文，互指会造成 duplicate content 判定）。
+const altLangs = articleSlug ? [...hreflangLangs(articleSlug)] : LANGS
 ---
 
 <title>{title}</title>
@@ -39,7 +48,7 @@ const regionVariants = Object.entries({ 'pt-BR': 'pt', 'es-MX': 'es' })
 {keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
 <meta name="robots" content={robots} />
 <link rel="canonical" href={canonical} />
-{LANGS.map((l) => (
+{(altLangs ?? LANGS).map((l) => (
   <link
     rel="alternate"
     hreflang={TRANSLATIONS[l].htmlLang}

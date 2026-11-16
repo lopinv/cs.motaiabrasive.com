@@ -4,6 +4,7 @@ import {
   products, models, discViews, flaps, collections, blog, applications, regions, faq, glossary, trust, videosData, visibleVideos, productByHandle, modelBySlug, discByKey, flapByKey, articleBySlug, applicationBySlug
 } from './utils.js'
 import { tdkFor, orgJsonLd, faqJsonLd, itemlistJsonLd } from './tdk.js'
+import { isFallback } from './article-locales.js'
 
 /** Shared helpers for every page body. */
 export function usePage(lang) {
@@ -29,6 +30,13 @@ export function buildSeo(lang, pageId, ctx = {}, extraJsonLd = []) {
   const t = tdkFor(lang, pageId, ctx)
   const jsonld = [orgJsonLd(), ...(t.jsonldExtra ? [t.jsonldExtra] : []), ...extraJsonLd.filter(Boolean)]
   const ogType = ['product', 'model', 'disc', 'flap'].includes(pageId) ? 'product' : pageId === 'article' ? 'article' : 'website'
+  // 未翻译的文章条目：构建时会回退渲染 EN 正文，若仍 index,follow +
+  // 42 语种 hreflang 互指，Google 会判定为 duplicate content（非 en 站
+  // 被整体忽略）。对这类条目改 noindex,follow：URL 仍可访问，只是不参与
+  // 索引与互指。en 是源语种，恒 index。
+  const robots = pageId === 'article' && ctx.article?.slug && isFallback(lang, ctx.article.slug)
+    ? 'noindex,follow'
+    : 'index,follow'
   return {
     lang,
     title: t.title,
@@ -38,7 +46,9 @@ export function buildSeo(lang, pageId, ctx = {}, extraJsonLd = []) {
     ogImage: t.ogImage,
     ogType,
     jsonld,
-    robots: 'index,follow'
+    // 文章 slug 透传给 SeoMeta，用于收窄 hreflang 互指范围
+    articleSlug: pageId === 'article' ? (ctx.article?.slug ?? '') : '',
+    robots
   }
 }
 
