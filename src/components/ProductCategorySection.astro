@@ -7,22 +7,18 @@
  *   - 多列卡片网格，每卡 = 上方实拍图 + 下方文案区
  *   - 同一套边框 / 圆角 / hover 抬升 / 图片轻推近的动效语言
  *
- * 砂带区额外列出 4 个尺寸链接（原站规格表结构），其余区带图集缩略。
+ * 卡片结构保持最小：完整显示的产品图（contain 不裁切）+ 分类标签 + 标题
+ * + 一句说明 + 双 CTA（WhatsApp / Request a quote，固定同行）。
+ * 旧的砂带尺寸链接、分类子列表与图集缩略已按产品决策移除。
  */
 import { TRANSLATIONS } from '../lib/i18n.js'
-import { quoteUrl, localizedUrl } from '../lib/utils.js'
+import { quoteUrl, waLink, localizedUrl } from '../lib/utils.js'
 import homeData from '../data/home.json'
 
 const { lang } = Astro.props
 const tr = TRANSLATIONS[lang]
 const pick = (p) => p.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
 const categories = homeData.categories
-const beltSizes = [
-  { label: '533 × 75 mm', href: '/products/533x75-abrasive-belt' },
-  { label: '610 × 100 mm', href: '/products/610x100-abrasive-belt' },
-  { label: '1520 × 630 mm', href: '/products/1520x630-abrasive-belt' },
-  { label: '2200 × 1330 mm', href: '/products/2200x1330-abrasive-belt' }
-]
 ---
 
 <section class="section wrap section--cat" id="product-categories">
@@ -52,38 +48,16 @@ const beltSizes = [
         <div class="cat-card-body">
           <span class="eyebrow">{pick(cat.labelKey)}</span>
           <h3>{pick(cat.titleKey)}</h3>
-          <p class="cat-desc">{pick(cat.descKey)}</p>
+<p class="cat-desc">{pick(cat.descKey)}</p>
 
-          {cat.key === 'belts' && (
-            <ul class="cat-sizes">
-              {beltSizes.map((s) => (
-                <li><a href={localizedUrl(lang, s.href)}>{s.label} <span aria-hidden="true">↗</span></a></li>
-              ))}
-            </ul>
-          )}
-
-          {cat.items && (
-            <ul class="cat-links">
-              {cat.items.map((it) => (
-                <li><a href={localizedUrl(lang, it.href)}>{pick(it.titleKey)} <span aria-hidden="true">→</span></a></li>
-              ))}
-            </ul>
-          )}
-
-          {cat.gallery && (
-            <ul class="cat-thumbs">
-              {cat.gallery.map((g) => (
-                <li><img src={g} alt="" loading="lazy" width="120" height="120" onerror="this.remove()" /></li>
-              ))}
-            </ul>
-          )}
-
+          <!-- 双 CTA 固定同行：WhatsApp + Request a quote（沿用吸底条的短标签，4 列
+     卡片下两个按钮才能稳定同排；长标签用 cta.waChat / cta.quote 会换行） -->
           <div class="cat-actions">
-            <a class="button small" href={localizedUrl(lang, cat.href)}>
-              {pick(cat.labelKey)} <span aria-hidden="true">↗</span>
+            <a class="button outline dark-outline small" href={waLink(lang, 'generic')} target="_blank" rel="noopener nofollow">
+              {pick('quickBar.whatsapp')}
             </a>
-            <a class="button outline dark-outline small" href={quoteUrl()} target="_blank" rel="noopener nofollow">
-              {pick('cta.quote')}
+            <a class="button small" href={quoteUrl()} target="_blank" rel="noopener nofollow">
+              {pick('quickBar.quote')} <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>

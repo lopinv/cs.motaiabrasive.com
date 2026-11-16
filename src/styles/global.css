@@ -588,44 +588,35 @@ section.hero--carousel {
   transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
 }
 .cat-card:hover { transform: translateY(-4px); box-shadow: var(--sh-3); border-color: var(--ink-200); }
+/* 图完整显示而非裁切：产品图多为白底 PNG（百叶片/砂盘/海绵），cover 会把
+   上下裁掉一截、留下「断头」观感。contain + 浅色底衬 + 内边距让整图
+   完整落入图区；hover 仍保留轻推近。 */
 .cat-card-media {
   position: relative; display: block; aspect-ratio: 16/10;
-  overflow: hidden; background: var(--bg-soft);
+  overflow: hidden;
+  background: var(--bg-soft);
+  /* 给 contain 留出呼吸边，避免图贴边 */
+  padding: 10px;
 }
 .cat-card-media img {
-  width: 100%; height: 100%; object-fit: cover;
+  width: 100%; height: 100%; object-fit: contain;
   transition: transform var(--dur-slow) var(--ease-out);
 }
-.cat-card:hover .cat-card-media img { transform: scale(1.05); }
+.cat-card:hover .cat-card-media img { transform: scale(1.04); }
 .cat-card-media.img-fallback { min-height: 160px; }
 .cat-card-body { padding: var(--sp-5); display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .cat-card-body .eyebrow { margin: 0; font-size: 10px; }
 .cat-card-body h3 { margin: 0; font-size: 17px; }
 .cat-desc { color: var(--text-soft); font-size: 13.5px; line-height: 1.55; margin: 0; }
-.cat-sizes, .cat-links { list-style: none; margin: 0 0 4px; padding: 0; }
-.cat-sizes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
-.cat-sizes a {
-  display: flex; align-items: center; justify-content: space-between; gap: 8px;
-  border: 1px solid var(--line); border-radius: var(--r-sm);
-  padding: 7px 10px; font-size: 12px; font-weight: 600;
-  color: var(--ink-700); background: var(--bg-soft);
-  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+/* 双 CTA 固定同行：WhatsApp（次级）+ Request a quote（主），
+   分类详情入口由图片与标题自身承担（整卡可点区域在标题链接）。
+   不换行、等分列，保证两个按钮永远排在同一行。 */
+.cat-actions {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: auto; padding-top: 12px;
+  flex-wrap: nowrap;
 }
-.cat-sizes a:hover { border-color: var(--accent); color: var(--accent); }
-.cat-links { display: grid; gap: 4px; }
-.cat-links a {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 13px; font-weight: 600; color: var(--ink-700);
-}
-.cat-links a:hover { color: var(--accent); }
-.cat-thumbs { list-style: none; margin: 0 0 4px; padding: 0; display: flex; gap: 6px; flex-wrap: wrap; }
-.cat-thumbs li { width: 46px; }
-.cat-thumbs img {
-  width: 46px; height: 46px; object-fit: cover;
-  border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--bg-soft);
-}
-/* 双 CTA 钉在卡片底部：不同分类的说明长短不一，按钮必须对齐。 */
-.cat-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 10px; }
+.cat-actions .button { flex: 1 1 0; min-width: 0; justify-content: center; white-space: nowrap; }
 
 /* ============ Hero ============ */
 .hero { padding: 96px 0 72px; background: var(--bg-soft); border-bottom: 1px solid var(--line); }
@@ -1341,9 +1332,11 @@ a.region-card:hover,
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .glossary-dl { grid-template-columns: 1fr; }
 
-  /* 首页分类网格：桌面 4 列随 .grid-3 的断点降到 2 列，尺寸改单列 */
+  /* 首页分类网格：桌面 4 列随 .grid-3 的断点降到 2 列 */
   .cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .cat-sizes { grid-template-columns: 1fr; }
+  /* 窄屏按钮文字可能变长，允许降级为竖排两行（仍保持可读） */
+  .cat-actions { flex-wrap: wrap; }
+  .cat-actions .button { flex: 1 1 40%; }
   .scene-track { grid-auto-columns: 260px; }
 
   /* header → hamburger */
