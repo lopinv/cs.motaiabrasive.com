@@ -1,6 +1,6 @@
 {
   "name": "motai-static",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^7.3.3"
+    "astro": "7.4.12"
   },
   "allowScripts": {
     "esbuild@0.28.2": true

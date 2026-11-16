@@ -3,6 +3,24 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.4.4] - 2026-11-16
+
+### Security
+
+- 升级 astro `7.3.3` → `7.4.12`（patch version 精确锁定，无浮动范围），
+  `npm audit` 从 1 moderate 变为 0 vulnerabilities。
+  - 修复 GHSA-mh32-jxcr-mh9f（动态标签名 `<Tag/>` 解析为字符串时，标签名
+    过滤不处理 `/`，可经 `img/src/onerror=…` 注入属性 → 反射/存储 XSS）。
+    本项目三个触发条件均不成立（无动态标签名、无 `.mdx`、`Astro.params`
+    只取静态白名单内的 lang/slug），属预防性升级而非应急修补。
+  - GitHub 提示的另一条 low 未在本仓复现：GHSA-r3h5-4585-7x3w 属于
+    `@astrojs/node`，本项目未安装该 adapter（`output: 'static'`）。
+  - Changelog 审查结论：7.3.4→7.4.12 中仅 7.4.0 为 minor（"Changes for
+    integration authors"，仅影响集成开发者），其余全为 patch，破坏面极小。
+  - 回归验证：build 9914 页（与升级前一致）/ 9535 URL（一致）/ 5 道门禁全绿；
+    本轮三项 UI 改动在升级后产物中逐项复验无变化（Hero 2 图、cat-card 4 张 +
+    4 个上图、footer 4 图标 + 4 行、文章特色图 psa-5 计数 0）。
+
 ## [1.4.3] - 2026-11-16
 
 ### Fixed
