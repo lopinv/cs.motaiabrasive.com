@@ -3,6 +3,19 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.4.3] - 2026-11-16
+
+### Fixed
+
+- 新增构建门禁 `.zcode-check/check-article-frontmatter.cjs`，拦住 frontmatter
+  不在文件最前的文章 .md（历史翻译会话遗留的分段稿说明注释写在 `---` 之前，
+  会让 Astro glob loader 把整篇当正文、schema 报 "slug: Required"，一个坏
+  文件中断 9000+ 页构建，且报错指向最后撞到的那个文件、看不出根因）。门禁
+  排在 build 链最前， astro build 之前执行：直接点名文件 + 给出修复方式。
+  Why: 1.4.1 / 1.4.2 两轮 build 各撞一次同类问题（共 6 个 de 译稿），修文件
+  只是治症状；正规合路 `i18n/merge.mjs` 自身有 frontmatter 保护，坏文件均由
+  绕过 merge 的会话直接落盘，必须有一道前置门禁兜底。
+
 ## [1.4.2] - 2026-11-16
 
 ### Changed
