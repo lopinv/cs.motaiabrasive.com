@@ -46,9 +46,9 @@
   --sp-7: 28px;
   --sp-8: 32px;
   --sp-10: 40px;
-  --sp-12: 48px;
+  --sp-12: 40px;
   --sp-16: 64px;
-  --sp-18: 72px;
+  --sp-18: 56px;
   --sp-20: 80px;
   --sp-24: 96px;
 
@@ -176,14 +176,23 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 16px; height: 2px;
+  background: var(--accent);
+  margin-inline-end: 8px;
+  vertical-align: 2px;
+  border-radius: 1px;
 }
 
 /* 标题节奏统一为间距令牌（视觉值不变，但可全局调整） */
-h1 { font-size: clamp(32px, 5vw, 54px); line-height: 1.08; letter-spacing: -0.015em; margin: 0 0 var(--sp-4); font-weight: 800; }
-h2 { font-size: clamp(24px, 3.2vw, 34px); line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 var(--sp-3); font-weight: 700; }
-h3 { font-size: 18px; margin: 0 0 var(--sp-2); font-weight: 600; }
+h1 { font-size: clamp(30px, 4.6vw, 50px); line-height: 1.08; letter-spacing: -0.02em; margin: 0 0 var(--sp-3); font-weight: 800; }
+h2 { font-size: clamp(22px, 2.8vw, 32px); line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 var(--sp-2); font-weight: 700; }
+h3 { font-size: 17px; margin: 0 0 var(--sp-2); font-weight: 600; line-height: 1.35; }
 
 /* ============ 垂直节奏（section 间距统一标尺） ============
    常规 section 72px、紧凑变体 48px、头部区 36px —— 全站一致，
@@ -194,7 +203,7 @@ h3 { font-size: 18px; margin: 0 0 var(--sp-2); font-weight: 600; }
 .section--soft-tight { background: var(--bg-soft); padding: var(--sp-12) 0; }
 .section--tight { padding: var(--sp-12) 0; }
 .section--flush-top { padding-top: 0; }
-.section-head { margin-bottom: 36px; }
+.section-head { margin-bottom: 24px; }
 /* Section heading with the action link on the right (home video strip). */
 .section-head--row { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px; }
 .section-head-no { font-size: 13px; font-weight: 700; color: var(--muted); display: block; margin-bottom: 6px; }
@@ -207,7 +216,7 @@ h3 { font-size: 18px; margin: 0 0 var(--sp-2); font-weight: 600; }
 .cta-note { color: var(--ink-soft); max-width: 560px; }
 .text-soft { color: var(--ink-soft); }
 .narrow { max-width: 760px; }
-.prose { max-width: 760px; display: grid; gap: 28px; }
+.prose { max-width: 760px; display: grid; gap: 24px; }
 .prose p { color: var(--ink-soft); }
 /* Long-form article structure: H2 section > H3 subsection > H4 item.
    Short 3-section articles render identically (no .prose-sub/.prose-h4). */
@@ -245,21 +254,22 @@ h3 { font-size: 18px; margin: 0 0 var(--sp-2); font-weight: 600; }
   background: var(--ink);
   color: #fff;
   border: 1px solid var(--ink);
-  border-radius: var(--radius);
-  padding: 12px 22px;
+  border-radius: var(--r-md);
+  padding: 11px 22px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: background var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
 }
-.button:hover { background: var(--accent); border-color: var(--accent); }
+.button:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-1px); }
+.button:active { transform: translateY(0); }
 .button.wide { width: 100%; justify-content: center; }
 .button.small { padding: 9px 16px; font-size: 13px; }
 .button.outline { background: transparent; color: var(--ink); }
 .button.outline.dark-outline { border-color: var(--ink); }
 .button.outline:hover { background: var(--ink); color: #fff; }
 .button.outline.dark-outline:hover { background: var(--ink); color: #fff; }
-.cta-band-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+.cta-band-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
 .cta-band-actions .button { flex: 1 1 240px; }
 .cta-band-actions--auto .button,
 .cta-band-actions--auto .button.wide { flex: 0 0 auto; width: auto; }
@@ -383,10 +393,10 @@ h3 { font-size: 18px; margin: 0 0 var(--sp-2); font-weight: 600; }
 .mobile-menu-panel .motai-feedback { display: block; width: 100%; text-align: center; }
 
 /* ============ Breadcrumb ============ */
-.breadcrumb { font-size: 13px; color: var(--muted); padding: 20px 0 0; }
+.breadcrumb { font-size: 13px; color: var(--muted); padding: 14px 0 0; }
 .breadcrumb a { color: var(--ink-soft); }
 .breadcrumb a:hover { color: var(--ink); }
-.breadcrumb span { margin: 0 8px; color: var(--muted); }
+.breadcrumb span { margin: 0 7px; color: var(--ink-200); }
 
 /* ============ Hero（工厂实拍全屏轮播） ============ */
 /* 结构对齐原站首页 motai-factory-carousel：图片铺满 → 遮罩 → 底部文案 →
@@ -533,7 +543,7 @@ section.hero--carousel {
 .hero-arrow--dark:hover { background: var(--ink-800); border-color: var(--ink-800); color: #fff; }
 
 /* ============ 应用场景轮播 ============ */
-.section--scenes { padding-bottom: 56px; }
+.section--scenes { padding-bottom: 40px; }
 .scene-root { overflow: hidden; }
 .scene-track {
   display: grid;
@@ -571,7 +581,7 @@ section.hero--carousel {
 .scene-nav { display: flex; align-items: center; gap: 10px; }
 
 /* ============ 首页产品分类区块 ============ */
-.section--cat { padding-top: 72px; }
+.section--cat { padding-top: 56px; }
 /* 卡片网格：桌面 4 列（砂带/百叶/海绵/砂盘四条产品线），随 .grid-3 的
    响应式断点降到 2 列再到 1 列。 */
 .cat-grid {
@@ -640,7 +650,7 @@ section.hero--carousel {
   background: var(--bg); display: flex; flex-direction: column;
   transition: border-color .15s ease, box-shadow .15s ease;
 }
-.product-card:hover { border-color: var(--ink); box-shadow: var(--sh-2); }
+.product-card:hover { border-color: var(--ink-200); box-shadow: var(--sh-2); transform: translateY(-2px); }
 .product-card-media { position: relative; display: block; background: linear-gradient(135deg, var(--accent), #4a100c); aspect-ratio: 4/3; }
 .product-card-media img { width: 100%; height: 100%; object-fit: cover; }
 .img-fallback-text {
@@ -659,7 +669,7 @@ section.hero--carousel {
   background: var(--bg); display: flex; flex-direction: column;
   transition: border-color .15s ease, box-shadow .15s ease;
 }
-.video-card:hover { border-color: var(--ink); box-shadow: var(--sh-2); }
+.video-card:hover { border-color: var(--ink-200); box-shadow: var(--sh-2); transform: translateY(-2px); }
 .video-card-media { position: relative; aspect-ratio: 16/9; background: var(--bg-soft); }
 .video-card-media img { width: 100%; height: 100%; object-fit: cover; }
 .video-badge, .video-len {
@@ -701,7 +711,7 @@ section.hero--carousel {
 /* ============ Blog index: category chips + card grid + pager ============ */
 /* 分页后每页固定 24 张卡片（3 列 × 8 行），单页 HTML 从 ~215 KB 降到
    ~25 KB。分类用 chips 跳转到 /blog/category/<key>/，详情见 BlogIndex。 */
-.blog-cats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.blog-cats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .blog-cat {
   display: inline-flex; align-items: center; gap: 7px;
   border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px;
@@ -722,7 +732,7 @@ section.hero--carousel {
 
 /* 分页器：范围摘要 + 上一页/页码/下一页，纯静态零 JS。 */
 .blog-pager {
-  margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line);
+  margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line);
   display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px;
 }
 .blog-pager-range { margin: 0; font-size: 13px; color: var(--muted); }
@@ -852,7 +862,7 @@ section.hero--carousel {
 }
 
 /* ============ Details / FAQ ============ */
-.faq-list { display: grid; gap: 14px; }
+.faq-list { display: grid; gap: 12px; }
 /* Product pages carry 8-9 Q&As: two columns keep the block from stretching
    past the other sections' height. Single column below 640px. */
 .faq-list.faq-list--2col { grid-template-columns: 1fr 1fr; }
@@ -922,7 +932,7 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .purchase-steps .s { color: var(--ink-soft); font-size: 14px; }
 
 /* ============ CTA band ============ */
-.cta-band { background: var(--ink); color: #fff; padding: 64px 0; }
+.cta-band { background: var(--ink); color: #fff; padding: 48px 0; }
 .cta-band h2 { color: #fff; }
 .cta-band p { color: #c3c6cd; max-width: 560px; margin: 0 0 6px; }
 .cta-band .button { background: #fff; color: var(--ink); border-color: #fff; }
@@ -931,7 +941,7 @@ details.motai-product-specs summary { cursor: pointer; font-weight: 600; }
 .cta-band .button.outline:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
 /* ============ Footer ============ */
-.footer { background: var(--bg-soft); border-top: 1px solid var(--line); padding: 56px 0 24px; margin-top: 96px; }
+.footer { background: var(--bg-soft); border-top: 1px solid var(--line); padding: 40px 0 24px; margin-top: 48px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: var(--gap-lg); }
 .footer h3 { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
 .footer a { display: block; font-size: 14px; color: var(--ink-soft); padding: 4px 0; }
@@ -1072,12 +1082,12 @@ body { padding-bottom: var(--quickbar-h); }
 .wa-note { margin: 0; padding: 0 12px 10px; font-size: 10.5px; line-height: 1.5; color: var(--muted); }
 
 /* ============ Value cards / steps ============ */
-.value-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-6); background: var(--bg); }
+.value-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg); transition: box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out); }
+.value-card:hover { border-color: var(--ink-200); box-shadow: var(--sh-1); }
 /* 统一 hover 语言：transform + 阴影 + 边框，与 product-card/scene-card 一致。
    此前 value-card / model-card / region-card 完全无 hover 反馈，交互体验割裂。
    value-card 多为静态信息块（不抬升，仅阴影）；model-card / region-card
    常作可点卡片，抬升 2px + 阴影。 */
-.value-card { transition: box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out); }
 .model-card,
 .region-card {
   transition:
@@ -1176,7 +1186,7 @@ a.region-card:hover,
 }
 
 /* ============ Region / application cards ============ */
-.region-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg-soft); }
+.region-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg-soft); transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out); }
 .region-card h3 { margin: 0 0 6px; }
 .region-card p { margin: 0; color: var(--ink-soft); font-size: 14px; }
 
@@ -1271,7 +1281,7 @@ a.region-card:hover,
 /* Two-column variant: stats rows with an odd card count (e.g. videos page
    when the long-form strip is empty) instead of a stretched third column. */
 .stats-grid--2 { grid-template-columns: repeat(2, 1fr); }
-.model-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg); }
+.model-card { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--sp-5); background: var(--bg); transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out); }
 .model-card h3 { margin: 6px 0 4px; }
 .model-card p { font-size: 13px; color: var(--muted); margin: 0; }
 .model-card .mno { font-weight: 800; color: var(--accent); font-size: 15px; }
@@ -1373,11 +1383,11 @@ a.region-card:hover,
   .blog-sidebar { grid-template-columns: 1fr; }
   .side-product { grid-template-columns: 64px minmax(0, 1fr); }
   .faq-list.faq-list--2col { grid-template-columns: 1fr; }
-  .section { padding: 48px 0; }
-  .section--tight { padding: 36px 0; }
+  .section { padding: 36px 0; }
+  .section--tight { padding: 28px 0; }
   .hero { padding: 48px 0 40px; }
   .hero-sub { font-size: 16px; }
-  .section-head { margin-bottom: 28px; }
+  .section-head { margin-bottom: 20px; }
   .breadcrumb { padding-top: 14px; }
 
   .gallery { grid-template-columns: repeat(2, 1fr); }
