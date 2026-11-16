@@ -36,11 +36,28 @@ const mainLang = process.env.FEED_LANG || 'en'
 const i18nDir = path.join(root, 'src/i18n')
 const allLangs = readdirSync(i18nDir).map((f) => f.replace(/\.json$/, '')).filter(Boolean)
 // Google's content_language / locale columns want a bare language code.
-const short = (code) => code.slice(0, 2) // 'zh-Hant' -> 'zh', 'hi' -> 'hi'
+// 'zh-Hant' → 'zh-Hant' (Google supports it; previously sliced to 'zh',
+// colliding with the zh feed's content_language and confusing the locale
+// signal for Traditional Chinese).
+const short = (code) => code
 // Shopify CDN cache-buster constant kept in lockstep with src/lib/utils.js media().
 // Passes absolute http(s) URLs through unchanged (flap images live on the source
 // Shopify CDN, see flap.json); only short asset-library keys get the prefix.
 const media = (key) => (/^https?:\/\//.test(String(key)) ? key : `${site.mediaBase}/${key}.webp?v=183101063718712166531793254213`)
+
+/** 本地化字典：按 lang 读取 i18n JSON（缺失键回退 en）。 */
+const I18N = Object.fromEntries(
+  allLangs.map((l) => [l, JSON.parse(readFileSync(path.join(i18nDir, `${l}.json`), 'utf8'))])
+)
+const dict = (lang) => I18N[lang] ?? I18N.en
+const pick = (lang, dotted) =>
+  dotted.split('.').reduce((c, k) => (c == null ? undefined : c[k]), dict(lang)) ?? ''
+// 品类 → i18n 键前缀（colt.<x>.label/title/desc 42 语种已译）
+const COLT_KEY = { 'Abrasive Belts': 'belts', 'Sanding Discs': 'discs', 'Flap Discs': 'flap', 'Abrasive Sponges': 'sponge' }
+const localizeCategory = (lang, raw) => {
+  const k = COLT_KEY[raw]
+  return k ? pick(lang, `colt.${k}.label`) || raw : raw
+}
 
 /** CSV-safe: always quote, double any embedded quotes. */
 const cell = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`
@@ -52,9 +69,20 @@ const COLS = [
   'additional_item_attribute(sku)'
 ]
 
-/** Build the 30-item row set for one language (link + language columns localized). */
+/**
+ * Build the 30-item row set for one language.
+ * title/description/product_type 用该语种的本地化品类文案（colt.* 42 语种
+ * 已译）+ 通用规格数字；此前所有语种共用英文 name/summary，导致 42 个
+ * feed 逐字节同长、GMC 判定「feed 语言与目标 locale 不符」。
+ */
 function rowsFor(lang) {
   const contentLang = short(lang)
+  // 品类文案取该语种；型号/规格本身是通用数字与代号，保留原值
+  const catLabel = (raw) => localizeCategory(lang, raw)
+  const catDesc = (raw) => {
+    const k = COLT_KEY[raw]
+    return k ? pick(lang, `colt.${k}.desc`) || '' : ''
+  }
   const make = (id, title, description, itemPath, image, category) => [
     cell(id),
     cell(title),
@@ -65,7 +93,7 @@ function rowsFor(lang) {
     cell('new'),
     cell('new'),
     cell('MoTai Abrasives'),
-    cell(category),
+    cell(catLabel(category)),
     // Google category ID for "Tools > Tool Accessories" — verify against the
     // Merchant Center category picker (IDs change occasionally).
     cell('222'),
@@ -76,17 +104,24 @@ function rowsFor(lang) {
 
   const rows = []
   for (const p of products) {
-    rows.push(make(p.handle, p.name, p.summary, `/products/${p.handle}`, p.image, p.category))
+    const label = catLabel(p.category)
+    const desc = catDesc(p.category)
+    // 规格串（尺寸/粒度/材质）是通用数据，拼在本地化描述之后
+    const spec = [(p.sizes ?? []).join(' / '), (p.grits ?? []).length ? `grits ${(p.grits ?? []).join('/')}` : '', p.material].filter(Boolean).join(', ')
+    rows.push(make(p.handle, `${p.name} — ${label}`, `${desc} ${spec}.`.trim(), `/products/${p.handle}`, p.image, p.category))
   }
   for (const m of models) {
-    rows.push(make(m.model, `Abrasive belt model ${m.model}`, m.source || `Reference belt model ${m.model} from the MoTai abrasive range; dimensions, grit and backing are confirmed with the quotation.`, `/model/${m.slug}`, 'belt-533-75', 'Abrasive Belts'))
+    const label = catLabel('Abrasive Belts')
+    rows.push(make(m.model, `${m.model} — ${label}`, `${catDesc('Abrasive Belts')} ${m.model}.`, `/model/${m.slug}`, 'belt-533-75', 'Abrasive Belts'))
   }
   for (const d of discViews) {
+    const label = catLabel('Sanding Discs')
     const spec = [d.diameter, d.abrasive, d.attachment, d.grits?.length ? `grits ${d.grits.join('/').replace(/^P/g, '')}` : ''].filter(Boolean).join(', ')
-    rows.push(make(d.key, d.title, `${d.title}. ${spec}. Confirm grit, size and packaging with the quotation.`, `/disc/${d.key}`, d.image, 'Sanding Discs'))
+    rows.push(make(d.key, `${d.title} — ${label}`, `${catDesc('Sanding Discs')} ${spec}.`, `/disc/${d.key}`, d.image, 'Sanding Discs'))
   }
   for (const f of flaps) {
-    rows.push(make(f.key, f.name, f.summary, `/flap/${f.key}`, f.image, 'Flap Discs'))
+    const label = catLabel('Flap Discs')
+    rows.push(make(f.key, `${f.name} — ${label}`, `${catDesc('Flap Discs')} ${f.backing} backing.`, `/flap/${f.key}`, f.image, 'Flap Discs'))
   }
   return rows
 }

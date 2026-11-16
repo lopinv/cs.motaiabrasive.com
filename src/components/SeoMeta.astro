@@ -41,9 +41,15 @@ const regionVariants = articleSlug
 // 文章页 = 只互指确有该 slug 译文的语种（articleSlug 由调用方传入，
 // 未译文条目回退渲染 EN 正文，互指会造成 duplicate content 判定）。
 const altLangs = articleSlug ? [...hreflangLangs(articleSlug)] : LANGS
+// 品牌后缀统一在此收口：各语种的 tdk 模板串是否带后缀取决于历史写法，
+// 这里保证 <title> 一定以 meta.titleSuffix（42 语种已本地化）结尾——
+// 但模板串已含该后缀时不重复追加（避免 "墨泰磨料 | MoTai 磨料"）。
+const suffix = siteName || ''
+const hasSuffix = !!suffix && (title.includes(suffix) || title.endsWith('| ' + suffix))
+const fullTitle = hasSuffix || !suffix ? title : `${title} | ${suffix}`
 ---
 
-<title>{title}</title>
+<title>{fullTitle}</title>
 <meta name="description" content={description} />
 {keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
 <meta name="robots" content={robots} />
@@ -64,7 +70,7 @@ const altLangs = articleSlug ? [...hreflangLangs(articleSlug)] : LANGS
 ))}
 <link rel="alternate" hreflang="x-default" href={new URL(localizedUrl('en', canonicalPath), Astro.site ?? 'https://example.com').toString()} />
 
-<meta property="og:type" content={ogType || (ogImage ? 'product' : 'website')} />
+<meta property="og:type" content={ogType || 'website'} />
 <meta property="og:site_name" content={meta.titleSuffix} />
 <meta property="og:locale" content={ogLocale} />
 {ogLocaleAlternates.map((alt) => <meta property="og:locale:alternate" content={alt} />)}

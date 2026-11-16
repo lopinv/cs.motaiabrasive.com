@@ -65,12 +65,33 @@ const applications = read('applications.json')
 // union of blog.json slugs and every markdown slug under articles/.
 const articlesDir = path.join(root, 'articles')
 const mdSlugs = new Set()
+// slug → dateModified（ISO yyyy-mm-dd）的 EN 基线索引；译文日期按 lang 覆盖。
+const mdDates = new Map()
+// 构建日（YYYY-MM-DD）：md 之外的 URL（产品/集合/公司页等）用构建日作
+// lastmod —— 每次部署刷新，向 Google 传递「本批页面有更新」的抓取信号。
+const siteBuildDate = new Date().toISOString().slice(0, 10)
+// slug → dateModified（ISO yyyy-mm-dd）。EN 源作为基线，各语种译文若译了
+// 该 slug 则用自己的日期（per-lang 于下方循环中查 articles/<lang>/<slug>.md）。
+// md 之外的所有 URL 用构建日 siteBuildDate 作为 lastmod。
+const readDate = (file) => {
+  if (!existsSync(file)) return null
+  const m = /^dateModified:\s*(.+)$/m.exec(readFileSync(file, 'utf8'))
+  return m ? m[1].trim().replace(/^["']|["']$/g, '') : null
+}
 if (existsSync(articlesDir)) {
   const walk = (dir) => {
     for (const e of readdirSync(dir, { withFileTypes: true })) {
       const p = path.join(dir, e.name)
       if (e.isDirectory()) { if (e.name !== '.parts') walk(p) }
-      else if (e.name.endsWith('.md')) mdSlugs.add(e.name.replace(/\.md$/, ''))
+      else if (e.name.endsWith('.md')) {
+        const slug = e.name.replace(/\.md$/, '')
+        mdSlugs.add(slug)
+        // 仅 en/ 的日期进基线；译文日期在下方按 lang × slug 取
+        if (dir === path.join(articlesDir, 'en')) {
+          const d = readDate(p)
+          if (d) mdDates.set(slug, d)
+        }
+      }
     }
   }
   walk(articlesDir)
@@ -128,17 +149,27 @@ for (const lang of langs) {
   // Canonical convention: directory-style trailing slash for every non-root
   // page (Pages serves <dir>/index.html only at <dir>/, no-slash 308s).
   const p = (tail) => `${base}/${lang}${tail}/`
-  const push = (loc) => {
-    xmlUrls.push(`  <url>\n    <loc>${loc}</loc>\n  </url>`)
+  // lastmod：md 文章页用译文（或 EN 源）的 dateModified；其它 URL 用构建日。
+  const lastmodOf = (tail) => {
+    const m = /^\/blog\/([^/]+)$/.exec(tail)
+    if (m) {
+      const d = readDate(path.join(articlesDir, lang, m[1] + '.md')) ?? mdDates.get(m[1]) ?? siteBuildDate
+      return d
+    }
+    return siteBuildDate
   }
-  for (const r of staticRoutes) push(r === '' ? p('') : p(r))
-  for (const c of collections) push(p(`/collections/${c}`))
-  for (const d of dataPaths) push(p(d))
+  const push = (tail) => {
+    const loc = tail === '' ? p('') : p(tail)
+    xmlUrls.push(`  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastmodOf(tail)}</lastmod>\n  </url>`)
+  }
+  for (const r of staticRoutes) push(r)
+  for (const c of collections) push(`/collections/${c}`)
+  for (const d of dataPaths) push(d)
 }
 // Root index (no lang prefix) renders SITE_LANG build default; list once.
 // (the loop above only emits lang-prefixed URLs, so the root is never duplicated)
 xmlUrls.unshift(
-  `  <url>\n    <loc>${base}/</loc>\n  </url>`
+  `  <url>\n    <loc>${base}/</loc>\n    <lastmod>${siteBuildDate}</lastmod>\n  </url>`
 )
 
 const xml =
@@ -152,10 +183,14 @@ writeFileSync(path.join(root, 'dist/sitemap.xml'), xml)
 /* ---------- sitemap.txt (one URL per line) ---------- */
 // Text sitemap: same URL set as the XML, one <loc> per line. Some crawlers
 // and third-party SEO tools read the plain-text variant directly, and it is
-// a useful human-readable index of the site's 1595 URLs.
-const txtUrls = xmlUrls
-  .map((u) => u.replace(/<[^>]*>/g, '').trim())
-  .filter(Boolean)
+// a useful human-readable index of the site's URLs.
+// 只提取 <loc>（xmlUrls 现在含 <lastmod>，简单剥标签会把日期也变成一行，
+// 破坏与 sitemap.xml 的一一对应）。
+const txtUrls = []
+for (const u of xmlUrls) {
+  const m = /<loc>([^<]+)<\/loc>/.exec(u)
+  if (m) txtUrls.push(m[1])
+}
 if (txtUrls.length !== xmlUrls.length) {
   console.error(`[gen-seo] sitemap.txt URL count mismatch: ${txtUrls.length} vs ${xmlUrls.length}`)
   process.exit(1)
