@@ -130,7 +130,16 @@ set SITE_LANG=zh && npm run build # Windows cmd
 - `src/data/videos.json` 驱动。默认 `youtubeId` 为空 → 视频区块自动隐藏。
 - 填入真实 `youtubeId` 后，/factory、相关博客、集合页自动显示「点击加载」式嵌入
   （`youtube-nocookie.com`，不自动播放、不默认加载 iframe，输出 `VideoObject` JSON-LD）。
-- 增删视频只改 `videos.json` + 各语种 i18n 的 `video.<id>` 文案，不动页面代码。
+- 增删视频走数据管线，不动页面代码：
+  1. `node scripts/fetch-yt-channel.cjs [新视频id...]` 重抓 YouTube 通道（长视频 + Shorts），
+     新 id 的 watch 页元数据写入 `scripts/data/yt-new-meta.json`；
+  2. 在 `scripts/data/yt-meta.json` 并入新视频、`scripts/data/videos-copy.json` 补手写文案
+     （line/related/body/bullets），`scripts/data/videos-extra.json` 补 specs/faq（可选）；
+  3. `node scripts/build-videos.cjs` 重建 `videos.json` + `en.json`（en 文案源）；
+     重复剪辑列入 `scripts/data/videos-hidden.json`（`hidden` 条目不进 sitemap/站内链接，直链保留）；
+  4. `node scripts/gen-video-gap.cjs <locale>` 生成各语种缺口载荷 → 翻译写
+     `.zcode-check/tails/<locale>.videos.gap.out.json` → `node scripts/apply-video-tail.cjs <locale>` 合并；
+  5. `npm run build`（key-parity 门禁要求各语种覆盖 en 键）。
 
 ## 信任占位槽
 

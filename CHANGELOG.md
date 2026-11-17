@@ -3,6 +3,20 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.5.0] - 2026-11-17
+
+### Added
+
+- 视频库重抓 YouTube 通道（8 长视频 + 25 Shorts = 33 条），新增 7 条
+  Shorts（手工接带、分条定制、三参定制砂带、白色漆面细磨盘、百叶片自动产线、
+  海绵块、定制砂带流程）；4 条历史视频回归数据源
+- `build-videos.cjs` 支持 `videos-hidden.json` 的 hidden 标记（8 条重复剪辑不进
+  sitemap/站内链接，直链保留），修复全量重建误删 4 条在线视频 + 丢失 hidden 的回归
+- 7 条新视频 × 41 非 en 语种 i18n 文案（videos.clip 42 键/语种，术语照术语表 +
+  既有 26 条 clip 口径，en 品牌后缀 MoTai 各语种统一）
+- 视频详情页 VideoObject JSON-LD 随新页上线；sitemap URL 9535 → 9829
+  （+42 语种 × 7 新视频）
+
 ## [1.4.4] - 2026-11-16
 
 ### Changed

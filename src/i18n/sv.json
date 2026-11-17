@@ -1595,6 +1595,62 @@
         "a1": "Hetpressning och härdning av fogen. Det är det steg som de flesta köpare aldrig ser och som avgör om bandet går sönder.",
         "q2": "Har ni lager för påfyllnadsorder?",
         "a2": "Ja. Standardbredder och kornstorlekar ligger i lagerhyllan och är redo; specialstorlekar tillverkas enligt bekräftad specifikation."
+      },
+      "V0Y3e9A2X0s": {
+        "title": "Varje slipbandsfog limmas noggrant för hand — en kvalitet du kan lita på",
+        "body": "Överslagsfogen är slipbandets svagaste punkt: en dåligt fogad fog släpper under körning och drar över arbetsstycket. Klippet visar hur fogen limmas och härdas för hand, ett band i taget, innan remsen kapas och skickas. För grossister som beställer band för långa körningar avgör fogkvaliteten om bandet klarar jobbet eller drar sönder sig tidigt.",
+        "b1": "Fogen som avgör bandets livslängd",
+        "b2": "Handlimning och härdning, ett band i taget",
+        "b3": "Varför en dålig fog släpper under körning",
+        "b4": "Kontrollera fogen innan du köper långa band"
+      },
+      "xMMe9Dz0Enk": {
+        "title": "Så slitskär vi slipduk till din exakta bredd — fabriksprocessen",
+        "body": "Master-rullar av slipduk är bredare än vilket färdigt band som helst. Klippet följer en master-rull som slitskärs till angiven bredd: duken mäts längs styrskenan, matas genom slitskären och kontrolleras mot måttband innan den lindras till bandremsa. Poängen för köparen: bredden skärs till din specifikation, inte klippas från en fast lista, så den mått du bekräftar är den som skickas.",
+        "b1": "Från master-rull till färdig bredd",
+        "b2": "Slitskapning till din exakta bandbredd",
+        "b3": "Mot måttband bekräftas bredden",
+        "b4": "Varför skärning till bredd slår fasta listor"
+      },
+      "pTNrvW_n84k": {
+        "title": "Skicka mått, korn och mängd — specialslipband på kort tid",
+        "body": "Ett specialslipband bestäms av tre tal: bredd, kornstorlek och ordermängd. Klippet visar vad vi omvandlar: varje mått och bredd, korn från grovt till fint, rött aluminiumoxid, blå zirkonia och grön silikonkarbid samt flerlageruppbyggnad där tillämpningen kräver det. Skicka de tre talen så lämnar vi offert på ett band som stämmer exakt med dem, inte på närmaste match.",
+        "b1": "Tre tal bestämmer ett specialband",
+        "b2": "Mått, korn och slipmaterialtyper",
+        "b3": "Röd, blå och grön slipbandsuppbyggnad",
+        "b4": "Offerter på din exakta specifikation"
+      },
+      "QXIjANwAcg8": {
+        "title": "Vita slipdiskar för måleriverk och klarlack — fin yta varje gång",
+        "body": "Vita slipdiskar med kroknätsfäste är finslipetappen för måleriverk och klarlack: de skär jämnt utan att släppa djupa repmönster. Klippet visar diskarna fast i en slipplatta som slipar över en målad yta, utan glid och utan virvlar, med en yta redo för nästa lager. Diskarna finns från 4-tumstorlek och uppåt; korn väljs efter måleriverkets steg.",
+        "b1": "Vita diskar för måleriverk och klarlack",
+        "b2": "Jämn skärm utan djupa repor",
+        "b3": "Stannar plant på plattan, inga virvlar",
+        "b4": "Matcha korn till måleriverkets steg"
+      },
+      "GUjrAfcpj0Q": {
+        "title": "Slipeskivor direkt från fabriken — automatisk tillverkning & bulklager redo",
+        "body": "MoTai kör slipeskivlinjen på automatisk utrustning, från slipdukens flippor till färdiga, förpackade skivor redo att skickas — allt i egen regi. Klippet går längs linjen medan flipporna lindras på bärmaterial, skivan klippas och limmet härdas under värme, och därefter räknas och packas färdiga slipeskivor. För bulkköpare är automationen svaret på frågan om en leverantör kan hålla korn och uppbyggnad konsekventa genom en stor order.",
+        "b1": "Slipeskivor på en automatisk linje",
+        "b2": "Lindring, klippning och värmehärdning",
+        "b3": "Konsistent korn genom hela bulkorder",
+        "b4": "Direkt från fabriken, redo att skickas"
+      },
+      "5Fz6chdSZMo": {
+        "title": "Flexibla slipsvampblock — hög elasticitet och snabb återhämtning för böjda ytor",
+        "body": "Slipsvampblock byggs av hög-elastiskt skum: hållbart, flexibelt med snabb återhämtning, så blocken anpassar sig efter böjda ytor och behåller sin form genom upprepad användning. Klippet trycker ett block mot en böjd yta och visar hur det följer konturen sedan återgår till sin form. Plattor och block levereras i flerkorns, dubbelsidiga och utstansade former, och kan återanvändas efter rengöring.",
+        "b1": "Hög-elastiskt skum med snabb återhämtning",
+        "b2": "Anpassar sig efter böjda ytor",
+        "b3": "Flerkorn, dubbelsidigt, utstansat",
+        "b4": "Återanvändbart efter rengöring"
+      },
+      "dtX-jOHM21g": {
+        "title": "Specialslipband — enligt ditt korn och mått | Motai Materials fabrik",
+        "body": "MoTai Materials är en professionell tillverkare av slipband. Klippet går igenom verkstaden: breda slipduksrullar skärs till angiven bredd, korn och bärmaterial kontrolleras, bandremsan färdigställs och lindras, och banden packas för leverans. Banden tillverkas enligt ditt korn och mått, med uppbyggnad i rött aluminiumoxid, blå zirkonia och grön silikonkarbid tillgänglig.",
+        "b1": "Slipband enligt ditt korn och mått",
+        "b2": "Från master-rull till färdigt band",
+        "b3": "Korn och bärmaterial kontrolleras internt",
+        "b4": "Packat och klart för leverans"
       }
     }
   },

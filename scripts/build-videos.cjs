@@ -18,6 +18,9 @@ const root = path.resolve(__dirname, '..')
 const meta = JSON.parse(fs.readFileSync(path.join(root, 'scripts/data/yt-meta.json'), 'utf8'))
 const COPY = JSON.parse(fs.readFileSync(path.join(root, 'scripts/data/videos-copy.json'), 'utf8'))
 const EXTRA = JSON.parse(fs.readFileSync(path.join(root, 'scripts/data/videos-extra.json'), 'utf8'))
+// hidden 剪辑：URL 保留可直链访问，但不进 sitemap / 站内链接 / 列表页
+// （见 src/lib/utils.js 的 visibleVideos 与 gen-seo.mjs 的收录口径）。
+const HIDDEN = new Set(JSON.parse(fs.readFileSync(path.join(root, 'scripts/data/videos-hidden.json'), 'utf8')).map((x) => x.id))
 
 const iso = (s) => 'PT' + (s >= 60 ? Math.floor(s / 60) + 'M' : '') + (s % 60 ? (s % 60) + 'S' : '')
 const pad = (n) => String(n).padStart(2, '0')
@@ -46,7 +49,9 @@ const entries = meta.map((v) => {
     faqKeys: (EXTRA[v.id]?.faq || []).map((_, i) => ({
       q: `videos.clip.${v.id}.q${i + 1}`,
       a: `videos.clip.${v.id}.a${i + 1}`
-    }))
+    })),
+    // 仅 hidden 条目带该字段（与旧 videos.json 口径一致：缺省 = 可见）
+    ...(HIDDEN.has(v.id) ? { hidden: true } : {})
   }
 })
 

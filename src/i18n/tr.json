@@ -1595,6 +1595,62 @@
         "a1": "Ek yerinin sıcak presi ve kürlenmesi. Bu, çoğu alıcının hiç görmediği ve arızayı belirleyen aşamadır.",
         "q2": "Yenileme için stok tutuyor musunuz?",
         "a2": "Evet. Standart genişlikler ve taneler rafa dizilmiş ve hazırdır; özel ölçüler teyit edilen spesifikasyona göre üretilir."
+      },
+      "V0Y3e9A2X0s": {
+        "title": "Her Abrasif Bantta Ek Yeri Elle Dikkatle Yapıştırılır — Güvenebileceğiniz Kalite",
+        "body": "Lap ek yeri, taşlama bandının en zayıf noktasıdır: yetersiz yapışmış bir ek çalışmanın ortasında açılır ve iş parçasını sürükler. Bu klipte ek yerine elle yapıştırma ve kürleme görülüyor; şerit kesilip sevke verilmeden önce her bant tek tek işleniyor. Uzun ömürlü bant siparişi veren dağıtımcılar için yapıştırma, bandın işi bitirip bitirmeyeceğini ya da erken arıza vereceğini belirleyen spesifikasyondur. Bu aşama teklif sırasında referans bazında doğrulanır.",
+        "b1": "Bant ömrünü belirleyen ek yeri",
+        "b2": "El yapıştırma ve kürleme, bant bant",
+        "b3": "Kötü ek neden çalışmanın ortasında açılır",
+        "b4": "Uzun bant alırken neleri kontrol etmelisiniz"
+      },
+      "xMMe9Dz0Enk": {
+        "title": "Abrasif Kumaş Rulolarınızı İstediğiniz Kesit Genişliğine Nasıl Şeritleyecek Ayrıyoruz — Fabrika Süreci",
+        "body": "Abrasif kumaşın ana ruloları, bitmiş herhangi bir banttan daha geniş olur. Bu klipte tek bir ana rulo, belirtilen genişliğe şeritleyecek ayrılırken takip ediliyor: kumaş kılavuz üzerinde ölçülüyor, şeritleyici makineden geçiriliyor ve şeride sarılmadan önce cetvelle karşılaştırılarak doğrulanıyor. Alıcılar için asıl nokta şu: genişlik sizin spesifikasyonunuza göre kesiliyor, sabit listeden kırpılmıyor; yani onayladığınız boyut, sevk edilen boyuttur.",
+        "b1": "Ana rulodan bitmiş genişliğe",
+        "b2": "İstediğiniz bant boyutuna şeritleme",
+        "b3": "Genişlik, cetvelle doğrulanıyor",
+        "b4": "Genişliğe kesim, sabit listeden neden iyi"
+      },
+      "pTNrvW_n84k": {
+        "title": "Boyut + Grit + Miktarınızı Gönderin — Özel Abrasif Bantları Hızla Alın",
+        "body": "Özel abrasif bantlar üç rakama indirgenir: genişlik, grit ve miktar. Bu klip, dönüştürdüğümüz aralığı baştan sona ortaya koyuyor: her boyut ve genişlik, kabadan inceye tüm gritler; kırmızı alüminyum oksit, mavi zirkonya ve yeşil silisyum karbür grenleri, uygulamanın gerektirdiği yerlerde çok katmanlı yapılar. Üç rakamı gönderin; teklif, en yakın eşleşme değil, onlara birebir uyan banda karşı verilir.",
+        "b1": "Üç rakam, özel bir bant belirler",
+        "b2": "Boyutlar, gritler ve abrasif türleri",
+        "b3": "Kırmızı, mavi ve yeşil abrasif yapılar",
+        "b4": "Teklif, spesifikasyonunuza göre verilir"
+      },
+      "QXIjANwAcg8": {
+        "title": "Boya ve Cila İçin Beyaz Zımpara Diskleri — Her Zaman İnce Bitiş",
+        "body": "Beyaz velcro zımpara diskleri, boya ve cila için ince aşama diskleridir: dengeli keser, derin çizik izleri atmaz. Bu klipte diskler, zımparalamanın pedine yapıştırılmış hâlde boyalı bir yüzeyde çalışıyor; kayma yok, gölge (swirl) yok, yüzey bir sonraki kat için hazır geliyor. Diskler 4 inç ve üzeri boyutlarda; grit, boya işinin aşamasına göre seçilir.",
+        "b1": "Boya ve cila için beyaz diskler",
+        "b2": "Derin çizik olmadan dengeli kesim",
+        "b3": "Pede düz oturur, girdap izi bırakmaz",
+        "b4": "Griti boya aşamasıyla eşleştirin"
+      },
+      "GUjrAfcpj0Q": {
+        "title": "Fabrikadan Doğrudan Flap Diskleri — Otomatik Üretim ve Toplu Stok Hazır",
+        "body": "MoTai, flap disk hattını abrasif kumaş yapraklarından sevke hazır paketlenmiş bitmiş disklere kadar tamamen otomatik ekipmanlarla ve tamamen kendi tesisinde yürütür. Bu kliple hat boyunca ilerliyoruz: yapraklar taşıyıcı plaka üzerine sarılıyor, disk tıraşlanıyor ve yapıştırıcı ısı altında kürleniyor; ardından bitmiş flap diskler sayılıp paketleniyor. Toplu alıcılar için otomasyon, bir tedarikçinin büyük bir sipariş boyunca gren ve yapıyı tutarlı tutup tutamayamayacağı sorusunun cevabıdır.",
+        "b1": "Otomatik hatta flap diskler",
+        "b2": "Sarım, tıraşlama ve ısıyla kürleme",
+        "b3": "Toplu üretim boyunca tutarlı gren",
+        "b4": "Fabrikadan doğrudan, sevk hazır"
+      },
+      "5Fz6chdSZMo": {
+        "title": "Esnek Zımpara Sünger Blokları — Yüksek Elastikiyet, Eğri Yüzeylerde Hızlı Geri Dönüş",
+        "body": "Zımpara sünger blokları, yüksek elastikiyetli köpükten üretilir: dayanıklı, esnek ve hızlı geri dönüşlü; eğrilere uyum sağlar ve tekrarlı kullanımda şeklini korur. Bu klipte blok, eğri bir yüzeye bastırılarak konturunu nasıl izlediğini ve geri nasıl açıldığını gösteriyor. Ped ve bloklar çok grenli, çift yüzlü ve kalıpla kesim formatlarında tedarik edilir; temizlendikten sonra yeniden kullanılabilir.",
+        "b1": "Geri dönüşlü yüksek elastikiyetli köpük",
+        "b2": "Eğri yüzeylere uyum sağlar",
+        "b3": "Çok grenli, çift yüzlü, kalıpla kesim",
+        "b4": "Temizlendikten sonra yeniden kullanılabilir"
+      },
+      "dtX-jOHM21g": {
+        "title": "Özel Zımpara Bantları — İstediğiniz Grit ve Boyutta | Motai Malzemeler Fabrikası",
+        "body": "MoTai Malzemeler, profesyonel bir abrasif bant üreticisidir. Bu klip atölyeyi adım adım gezdiriyor: geniş abrasif kumaş ruloları belirtilen genişliğe şeritleyecek ayrılıyor, gren ve taşıyıcı kontrol ediliyor, şerit bitirip sarılıyor ve bantlar sevke hazır hâle getirilip paketleniyor. Bantlar, sizin grit ve boyutunuza göre üretilir; kırmızı alüminyum oksit, mavi zirkonya ve yeşil silisyum karbür yapıları kullanılabilir.",
+        "b1": "İstediğiniz grit ve boyutta zımpara bantları",
+        "b2": "Ana rulodan bitmiş şeride",
+        "b3": "Gren ve taşıyıcı tesiste kontrol edilir",
+        "b4": "Sevke hazır paketlenir"
       }
     }
   },

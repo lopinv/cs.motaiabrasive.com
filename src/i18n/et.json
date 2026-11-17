@@ -1595,6 +1595,62 @@
         "a1": "Liidese kuumtrükk ja kõvastamine. See on etapp, mida enimik ostjaid kunagi ei näe, ja see, mis otsustab, kas sihm peab või puruneb.",
         "q2": "Kas teil on varud täiendustellimuste jaoks?",
         "a2": "Jah. Standardlaiused ja -teravused on riiulil ja valmis; kohandatud mõõdud toodetakse kinnitatud spetsifikatsiooni järgi."
+      },
+      "V0Y3e9A2X0s": {
+        "title": "Iga libestusvöö ületusliites liimitakse hoolikalt käega — kvaliteet, millele saate loota",
+        "body": "Ületusliites on libestusvöö nõrgim koht: halvasti liidetud õmblus rebeneb töö käigus ja kriimustab töödeldavat pinda. Selles lõigus näidatakse, kuidas iga vöö ületusliites liimitakse ja kureeritakse üksikult käelt, enne kui riba lõigatakse ja saadetakse. Edasimüüjate jaoks, kes tellivad pikalt töötavaid vöödeid, on liimside spetsifikatsioon, mis otsustab, kas vööt jõuab töö lõpuni või rikneb varakult.",
+        "b1": "Õmblus, mis määrab vöö eluea",
+        "b2": "Käeline liitmine ja kureerimine, vööt kaupa",
+        "b3": "Miks nõrk liites rebeneb töö käigus",
+        "b4": "Mida kontrollida pikaste vööde ostmisel"
+      },
+      "xMMe9Dz0Enk": {
+        "title": "Kuidas lõikame abrasiivi kanga rullid teie täpse laiuse järgi — tehase protsess",
+        "body": "Abrasiivi kanga suurrullid on laiemad kui ükskõik milline valmis libestusvöö. See lõik jälgib ühe suurrulli lõikamist määratletud laiusele: kangas mõõdetakse juhisel, saadetakse läbi ristlõikuri ja kontrollitakse joone järgi, enne kui see rullitakse ribaks. Ostjale oluline on see, et laius lõigatakse teie spetsifikatsiooni järgi, mitte fikseeritud nimekirjast, seega kinnitatud mõõt ongi see, mida saadetakse.",
+        "b1": "Suurrullist valmismõõduni",
+        "b2": "Ristlõikamine teie täpse vöö mõõdu järgi",
+        "b3": "Laiuse kontrollimine joone järgi",
+        "b4": "Miks laiusse lõikamine on parem fikseeritud nimekirjast"
+      },
+      "pTNrvW_n84k": {
+        "title": "Saage oma mõõt + teravusaste + kogus — kohandatud libestusvööd kiiresti",
+        "body": "Kohandatud libestusvööd taanduvad kolme numbrini: laius, teravusaste ja kogus. See lõik käib läbi kogu tootmiskava — iga mõõt ja laius, teravusastmed karedast peenimale, punane alumiiniumoksiid, sinine tserooniumoksiid ja rohelised ränikarbid, samuti mitmekihilised vööstruktuurid, kus rakendus seda vajab. Saadage kolm numbrit ja pakkumine koostatakse täpselt neile sobiva vööt, mitte ligikaudse variandi põhjal.",
+        "b1": "Kolm numbrit määrab kohandatud vööt",
+        "b2": "Mõõdud, teravusastmed ja abrasiivi tüübid",
+        "b3": "Punased, sinised ja rohelised vööstruktuurid",
+        "b4": "Pakkumine teie täpse spetsifikatsiooni järgi"
+      },
+      "QXIjANwAcg8": {
+        "title": "Valged liivapaberikettad värvile ja lakile — iga kord peen viimistlus",
+        "body": "Valged hook-and-loop liivapaberikettad on peen töö etapi kettad värvimise ja lakkimise jaoks: need lihvivad ühtlaselt, ilma et jääksid sügavad kriimujäljed. Lõigus näidatakse kettasid, mis on kinnitatud lihvimisalusele ja töötavad värvitud pinnal — ilma libisemiseta, ilma sõõpudeta, ja pind on valmis järgmise kihiliseks tööks. Kettad on saadaval 4-tollisesse ja suuremates mõõdetesse; teravusaste valitakse vastavalt värvitöö etapile.",
+        "b1": "Valged kettad värvile ja lakile",
+        "b2": "Ühtlane lihvimine sügavate kriimudeta",
+        "b3": "Püsib alusel tasapal, ilma sõõpudeta",
+        "b4": "Valige teravusaste vastavalt värvitöö etapile"
+      },
+      "GUjrAfcpj0Q": {
+        "title": "Riivikettad otse toodjast — automaatne tootmine ja valmis hulgivarud",
+        "body": "MoTai toodab riivikettasid automatiseeritud varustusega — abrasiivi kanga riividest valmisenud ja pakendatud, saatmiseks valmis ketaseni, kõik enda tootmises. See lõik liigub tootmislääne mööda: riivid rullitakse alusmaterjali peale, ketas trimmitakse ja kleebi kuivatatakse kuumuses, seejärel valmid riivikettad loevad ja pakitakse. Hulgiklientide jaoks on automaatika vastus küsimusele, kas tarnija suudab suure tellimuse kohal hoida teravusastet ja vööstruktuuri ühtlasena.",
+        "b1": "Riivikettad automatiseeritud tootmisläänel",
+        "b2": "Rullimine, trimmimine ja kuumkuivatamine",
+        "b3": "Ühtlane teravusaste suures mahus",
+        "b4": "Otse toodjast, valmis saatmiseks"
+      },
+      "5Fz6chdSZMo": {
+        "title": "Paindlikud lihvimiskäsnad — kõrge elastsus ja kiire taastuvus kõverpindade jaoks",
+        "body": "Lihvimiskäsnad on valmistatud kõrge elastsusega vahtust: vastupidavad, paindlikud ja kiire taastuvusga, mistõttu kumavad nad kõverpindadele kokku ja säilitavad kuju korduvat kasutamist. Lõigus surutakse käsn kõverpinna vastu, et näidata, kuidas see kontuuri järgib ja taastub algkuju. Padjad ja käsnad tarnitakse mitme teravusastmega, kahepoolsete ja vormilõigatud kujundina ning neid saab pärast puhastamist uuesti kasutada.",
+        "b1": "Kõrge elastsusega vaht, mis taastub",
+        "b2": "Kumab kõverpindadele kokku",
+        "b3": "Mitme teravusastmega, kahepoolne, vormilõigatud",
+        "b4": "Uuesti kasutatav pärast puhastamist"
+      },
+      "dtX-jOHM21g": {
+        "title": "Kohandatud libestusvööd — teie teravusastme ja mõõdu järgi | Motai Materials tehas",
+        "body": "MoTai Materials on professionaalne libestusvööde tootja. See lõik ringkäigab tootmispinnases: laiad abrasiivi kanga rullid lõigatakse määratletud laiusele, libestusgraanid ja alusmaterjal kontrollitakse, riba viimistletakse ja rullitakse ning vöödid pakitakse saatmiseks valmis. Vöödid toodetakse teie teravusastme ja mõõdu järgi, valikuga punane alumiiniumoksiid, sinine tserooniumoksiid ja rohelised ränikarbid.",
+        "b1": "Lihvimisvööd teie teravusastme ja mõõdu järgi",
+        "b2": "Suurrullist valmisenud ribani",
+        "b3": "Graanid ja alusmaterjal kontrollitakse kohapeal",
+        "b4": "Pakitud ja valmis saatmiseks"
       }
     }
   },
