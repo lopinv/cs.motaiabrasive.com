@@ -1,5 +1,3 @@
-<!-- PART 00/5 of how-to-choose-5-inch-sanding-pad-the-right-grit -->
-<!-- Frontmatter (translate title/keywords/metaDescription/intro; keep slug/category/dates/image verbatim) -->
 ---
 slug: how-to-choose-5-inch-sanding-pad-the-right-grit
 category: selection-guide

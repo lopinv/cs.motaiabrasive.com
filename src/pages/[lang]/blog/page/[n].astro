@@ -14,7 +14,7 @@ import Breadcrumb from '../../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../../../lib/tdk.js'
 import CtaBand from '../../../../components/CtaBand.astro'
 import BlogIndex from '../../../../components/BlogIndex.astro'
-import { allArticles } from '../../../../lib/articles.js'
+import { allArticles, blogRouteLangs } from '../../../../lib/articles.js'
 import { defaultProducts } from '../../../../lib/blog-products.js'
 import { BLOG_PAGE_SIZE, BLOG_PAGER_MAX, pagerInfo } from '../../../../lib/blog-pager.js'
 
@@ -39,7 +39,7 @@ const sideProducts = defaultProducts()
 
 // ctx.pager 必须是页码数字（不是 pagerInfo 对象）：tdk.js 的 case 'blog'
 // 读 ctx.pager 判断是否分页页，并据此拼 canonical 的 /page/<n> 段。
-const seo = buildSeo(lang, 'blog', { pager: pager.current, pagerTotal: pager.pages }, [
+const seo = buildSeo(lang, 'blog', { pager: pager.current, pagerTotal: pager.pages, switcherLangs: await blogRouteLangs({ page: pager.current }) }, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.news'), path: `/${lang}/blog` }])
 ])
 const CAT_KEYS = { 'selection-guide': 'catSelection', 'buyer-resources': 'catBuyer', 'application-notes': 'catNotes', 'oem-guide': 'catOem' }

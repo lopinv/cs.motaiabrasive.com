@@ -4,7 +4,6 @@ import {
   products, models, discViews, flaps, collections, blog, applications, regions, faq, glossary, trust, videosData, visibleVideos, productByHandle, modelBySlug, discByKey, flapByKey, articleBySlug, applicationBySlug
 } from './utils.js'
 import { tdkFor, orgJsonLd, faqJsonLd, itemlistJsonLd } from './tdk.js'
-import { isFallback } from './article-locales.js'
 
 /** Shared helpers for every page body. */
 export function usePage(lang) {
@@ -30,17 +29,13 @@ export function buildSeo(lang, pageId, ctx = {}, extraJsonLd = []) {
   const t = tdkFor(lang, pageId, ctx)
   const jsonld = [orgJsonLd(), ...(t.jsonldExtra ? [t.jsonldExtra] : []), ...extraJsonLd.filter(Boolean)]
   // og:type：只有 /products/<handle>/ 真商品页用 product（配 og:image，
-// 价格经 Merchant feed 承载）；model/disc/flap/sponge/collections 是
-// 规格参考页而非电商商品，标 product 会让 FB/LinkedIn 抓价格/库存失败
-// 而降级卡片，故一律 website；文章页 article。
-const ogType = pageId === 'product' ? 'product' : pageId === 'article' ? 'article' : 'website'
-  // 未翻译的文章条目：构建时会回退渲染 EN 正文，若仍 index,follow +
-  // 42 语种 hreflang 互指，Google 会判定为 duplicate content（非 en 站
-  // 被整体忽略）。对这类条目改 noindex,follow：URL 仍可访问，只是不参与
-  // 索引与互指。en 是源语种，恒 index。
-  const robots = pageId === 'article' && ctx.article?.slug && isFallback(lang, ctx.article.slug)
-    ? 'noindex,follow'
-    : 'index,follow'
+  // 价格经 Merchant feed 承载）；model/disc/flap/sponge/collections 是
+  // 规格参考页而非电商商品，标 product 会让 FB/LinkedIn 抓价格/库存失败
+  // 而降级卡片，故一律 website；文章页 article。
+  const ogType = pageId === 'product' ? 'product' : pageId === 'article' ? 'article' : 'website'
+  // 文章页一律 index,follow：未译 slug 的路由已不再生成（mdArticles 只返回
+  // 本语种自有译文），不存在「EN 克隆 + 外语 hreflang」的 duplicate content
+  // 面，因此不再需要 per-slug 的 noindex 判定。
   return {
     lang,
     title: t.title,
@@ -52,7 +47,10 @@ const ogType = pageId === 'product' ? 'product' : pageId === 'article' ? 'articl
     jsonld,
     // 文章 slug 透传给 SeoMeta，用于收窄 hreflang 互指范围
     articleSlug: pageId === 'article' ? (ctx.article?.slug ?? '') : '',
-    robots
+    // 语种切换器的合法目标：默认全部 42 语种；博客列表/分页/分类与文章详情
+    // 的集合随该语种实际内容收缩，由页面显式传入。
+    switcherLangs: ctx.switcherLangs ?? LANGS,
+    robots: 'index,follow'
   }
 }
 

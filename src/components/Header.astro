@@ -1,7 +1,20 @@
 ---
 import { TRANSLATIONS, LANGS } from '../lib/i18n.js'
 import { site, quoteUrl, localizedUrl } from '../lib/utils.js'
-const { lang, routePath = '' } = Astro.props
+// Language-switcher targets: same route, other locale (keeps the user on
+// the equivalent page, matching hreflang semantics). Home route ('') -> /.
+// switcherLangs 由页面按实际路由存在性算好（博客路由随该语种内容收缩），
+// 未提供的页面喂全部 42 语种。缺译的语种在面板里直接不出现——与
+// hreflang 互指范围同源，两者都是「只指向真实存在的页面」。
+const { lang, routePath = '', switcherLangs } = Astro.props
+const activeSet = switcherLangs ? new Set(switcherLangs) : new Set(LANGS)
+const langOpts = LANGS.filter((code) => activeSet.has(code)).map((code) => ({
+  code,
+  codeLabel: TRANSLATIONS[code].codeLabel,
+  name: TRANSLATIONS[code].name,
+  href: localizedUrl(code, routePath),
+  selected: code === lang
+}))
 const tr = TRANSLATIONS[lang]
 // Brand name is localized: 简体/繁體中文 render 墨泰磨料 instead of MoTai.
 const brand = tr.brand?.brand ?? site.brand
@@ -33,15 +46,6 @@ const l = {
   ...tr.nav,
   ...Object.fromEntries(products.map((p) => [p.key, tr.colt[p.key.replace('colt.', '')].label]))
 }
-// Language-switcher targets: same route, other locale (keeps the user on
-// the equivalent page, matching hreflang semantics). Home route ('') -> /.
-const langOpts = LANGS.map((code) => ({
-  code,
-  codeLabel: TRANSLATIONS[code].codeLabel,
-  name: TRANSLATIONS[code].name,
-  href: localizedUrl(code, routePath),
-  selected: code === lang
-}))
 ---
 
 <div class="motai-contact-bar">

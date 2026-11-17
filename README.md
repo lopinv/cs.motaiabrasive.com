@@ -6,8 +6,8 @@
 motai-static/
 ├─ src/
 │  ├─ data/*.json      语种中性数据（产品/型号/变体/百叶片/博客/指南/行业/区域/FAQ/术语表/信任槽/视频/站点配置）
-│  ├─ i18n/*.json      27 语种翻译（en/zh/zh-Hant/ja/ko/es/fr/de/it/pt/ru/ar/he/fa/hi/th/vi/
-│  │                   id/ms/cs/sk/pl/da/sv/no/fi/tr）
+│  ├─ i18n/*.json      42 语种翻译（en/zh/zh-Hant/ja/ko/es/fr/de/it/pt/ru/ar/he/fa/hi/th/vi/
+│  │                   id/ms/cs/sk/pl/da/sv/no/fi/tr + lt/lv/et/sl/hr/sr/ca/nl/uk/el/hu/ro/bg/tl/bn）
 │  ├─ lib/             i18n、数据、TDK、WhatsApp 链接、路径工具、博客分页参数（blog-pager.js）、
 │  │                   博客↔商品关联（blog-products.js）
 │  ├─ components/      Shell/Header/Footer/FloatingContact/ProductCard/CtaBand/Faq/SectionHeading/
@@ -31,12 +31,34 @@ motai-static/
 `check-blog-sidebar.cjs` 会交叉校验 sitemap 与实际页面）。列表页与文章详情页共用
 两栏布局：右栏 `BlogSidebar` 常驻商品/服务/最新文章。
 
+## 文章路由：只生成本语种确有译文的页面
+
+`articles/<lang>/*.md` 长文语料的路由集合**按语种收缩**，这是有意为之：
+
+- `src/lib/articles.js` 的 `mdArticles(lang)` 只返回该语种**自有**的 md 文件，
+  **不再回落 EN 正文**。因此 `/<lang>/blog/<slug>/` 仅在该语种确有该 slug 译文
+  时才存在，未译 slug 不出现在路由集合、列表、侧栏「最新文章」、语种切换器、
+  hreflang 或 sitemap。
+- Why：曾经的兜底让 42 语种 × 133 篇全部落地，其中 4852 个 URL（84.8%）是
+  非 en 站点的英文克隆页——正是 scaled content abuse 政策针对的形态。按用户要求
+  用「删除路由」而非 noindex 掩盖。
+- 站内链接同样收窄，避免指向不存在的目标：`BlogPager`/`allArticles(lang)` 天然
+  逐语种算页数；语种切换器由页面通过 `buildSeo(..., { switcherLangs })` 传入
+  合法语种集（`blogRouteLangs()` 算列表/分页页，`hreflangLangs()` 算文章页）；
+  glossary 术语外链只在目标文章本语种有译文时保留链接。
+- `blog.json` 的 6 篇短文例外：正文存 i18n 表、42 语种全译，因此在每个语种都路由、
+  都参与 hreflang 互指（`article-locales.js` 对它们特判）。
+- 回归门禁：`check-blog-clone.cjs` 逐语种断言语义（磁盘页数 == 自有译稿 + 短文、
+  与 sitemap 一致、无 404 链接、无 noindex），把克隆面或断链放回来会直接拦下。
+- 要补某语种的缺口：走翻译管线生成 `articles/<lang>/<slug>.md`，路由/hreflang/
+  分页/侧栏随文件自动恢复，无需改代码。
+
 ## 首页最新文章模块
 
 首页底部（定位区之后、最终 CTA 之前）渲染「最新文章」模块：3 张与
 `/blog/` 第 1 页同源同序的文章卡片（`allArticles(lang)` 的 dateModified
 倒序前 3 篇）+「浏览全部指南」入口，卡片用共用的 `ArticleCard.astro`。
-文案键组 `home.articlesEyebrow/Title/Sub/Cta`（27 语种）。
+文案键组 `home.articlesEyebrow/Title/Sub/Cta`（42 语种）。
 `check-blog-sidebar.cjs` 逐语种校验模块标题、卡片 3 张、且顺序与
 `/blog/` 第 1 页一致。
 
@@ -48,10 +70,11 @@ motai-static/
 |------|------|
 | `check-template-comments.cjs` | 阻断 Astro 模板区 JS 块注释被当作文本渲染（曾导致产品页露出注释原文） |
 | `check-static-paths-tdz.cjs` | 阻断 `getStaticPaths` 引用定义在其后的顶层 const（bundler 提升导致的 TDZ 崩溃） |
-| `key-parity.cjs` | 27 语种 i18n 键与 en.json 一致 |
+| `key-parity.cjs` | 42 语种 i18n 键与 en.json 一致 |
 | `audit-terms.cjs` | 术语审计（机翻造词检测） |
 | `check-slash.cjs` | canonical/hreflang/JSON-LD、sitemap、_redirects 全站尾斜杠约定 |
 | `check-blog-sidebar.cjs` | 侧栏四模块完整、分页卡片数与链接形态、sitemap 与磁盘页面一一对应、首页文章模块与 /blog/ 第 1 页顺序一致 |
+| `check-blog-clone.cjs` | 博客路由无克隆/无断链：逐语种磁盘文章页数 == 自有译稿 + 短文、磁盘与 sitemap 一致、无指向 404 的 blog 链接、无 noindex 掩盖 |
 
 ## 构建
 
@@ -65,8 +88,9 @@ set SITE_LANG=zh && npm run build # Windows cmd
 ```
 
 说明：
-- 一次构建输出全部 11 个语种的静态路由（`/en/...`、`/zh/...`、`/ar/...` 等），共 640 页（含 /terms 条款页）。
-- `SITE_LANG` 只影响**根路径 `/` 的默认落地语种**，不影响其余语种路由（它们始终全部生成）。
+- 一次构建输出全部 42 个语种的静态路由（`/en/...`、`/zh/...`、`/ar/...` 等），共约 4965 页（含 /terms 条款页）。
+  博客文章页只生成本语种确有译文的 URL（见「文章路由」节），所以各语种页数不同。
+- `SITE_LANG` 只影响**根路径 `/` 的默认落地语种**，不影响其余语种路由（按各自实有内容生成）。
 - `astro build` 成功后自动运行两个纯 Node 脚本（零依赖）：
   `scripts/gen-feed.mjs`（生成 `dist/feeds/products.csv`，Merchant Center b2b feed）与
   `scripts/gen-seo.mjs`（生成 `dist/robots.txt` + `dist/sitemap.xml`，域名读 `SITE_URL`，
@@ -114,7 +138,8 @@ set SITE_LANG=zh && npm run build # Windows cmd
 
 ## 多语言机制
 
-- 11 语种一次构建全部输出；顶栏语种切换器为静态链接跳转同路径其余语种。
+- 42 语种一次构建全部输出；顶栏语种切换器为静态链接跳转同路径其余语种，
+  **但博客路由只在目标语种确有该内容时才出现在切换器里**（见「文章路由」节）。
 - 阿拉伯语 `ar` 自动 `<html dir="rtl">` 镜像布局。
 - 扩展语种：新增 `src/i18n/xx.json`（拷贝任一语种改翻译）即可，`import.meta.glob` 自动发现，
   会同步进入语种切换器与所有 `getStaticPaths`，无需改页面代码。
@@ -201,7 +226,8 @@ node .zcode-check\sync-flap.mjs
   UTF-8 带 BOM，`availability=preorder`，随 Pages 发布为静态文件）。
   Merchant Center 数据源填 `<SITE_URL>/feeds/products.csv`。
 - **robots / sitemap**：`scripts/gen-seo.mjs` 同钩子生成 `dist/robots.txt`（指向 sitemap）
-  与全量 `dist/sitemap.xml`（639 URL = 根 `/` + 11 语种 × 58，含 /terms，域名跟随 `SITE_URL`）。
+  与全量 `dist/sitemap.xml`（约 4580 URL 横跨 42 语种；博客文章/分页/分类链**逐语种**
+  按实有译稿数计算，未译 slug 不占位，见「文章路由」节）。
   sitemap 为**纯标准 sitemaps.org urlset**（只含 `<loc>`）——GSC 现行解析器拒收 Google 图片
   sitemap 扩展命名空间（报 `Failed to parse QName 'image:'`，图片 sitemap 扩展已被 Google
   弃用）；商品图收录改走两条现行通道：Merchant feed 的 `image_link` 列 + 页面 `og:image`。
@@ -219,9 +245,9 @@ node .zcode-check\sync-flap.mjs
   以及 sitemap/robots/feed 里的绝对地址——`gen-seo.mjs`/`gen-feed.mjs` 都读 `SITE_URL`）。
 - **Google Search Console**：验证 `<SITE_URL>` 域名（DNS 或 HTML 标签）→ 依次提交：
   1. 站点地图：Sitemaps → 添加 `<SITE_URL>/sitemap.xml`（构建期已生成，
-     纯标准 urlset 共 639 URL，无 `image:` 扩展命名空间——GSC 拒收图片
+     纯标准 urlset 约 4580 URL，无 `image:` 扩展命名空间——GSC 拒收图片
      sitemap 扩展，图片收录走 Merchant feed `image_link` + 页面 `og:image`）；
-  2. 网址检查（URL Inspection）抽查 1-2 个产品页，确认 canonical 与 11 条 hreflang 被接受；
+  2. 网址检查（URL Inspection）抽查 1-2 个产品页，确认 canonical 与 42 条 hreflang 被接受；
   3. 之后每次部署含新增页面时，GSC 会按 robots 里的 `Sitemap:` 声明自动抓取更新，无需重新提交。
 - **Bing Webmaster Tools**：添加站点后同样提交 `<SITE_URL>/sitemap.xml`
   （纯标准 urlset，Bing 直接接受；图片收录同样走 feed `image_link` + 页面 `og:image`）。

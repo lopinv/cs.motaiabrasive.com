@@ -6,6 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro'
 import { itemlistJsonLd, breadcrumbJsonLd } from '../../lib/tdk.js'
 import CtaBand from '../../components/CtaBand.astro'
 import { glossary } from '../../lib/utils.js'
+import { allSlugs } from '../../lib/articles.js'
 
 export function getStaticPaths() {
   return langPaths()
@@ -21,6 +22,15 @@ const seo = buildSeo(lang, 'glossary', {}, [
 ])
 const sorted = [...glossary].sort((a, b) => a.term.localeCompare(b.term))
 const pickKey = (path) => path.split('.').reduce((c, k) => (c ? c[k] : undefined), tr)
+// 术语词条的外链只指向该语种真实存在的文章页：md 语料已按「本语种自有
+// 译文」收缩路由集合，跨语种点进去只会拿到 404。未译语种改成纯词条
+// （仍可读定义，只是不再当锚文本）。
+const routable = new Set(await allSlugs(lang))
+const articleLink = (link) => {
+  const m = /^\/blog\/([^/]+)$/.exec(link ?? '')
+  if (!m) return link
+  return routable.has(m[1]) ? link : null
+}
 // A-Z 索引：按词条首字母分组（localeCompare 已排序，同首字母必然相邻）。
 // 字母本身无需本地化（拉丁字母表），sticky 索引条提供锚点跳转。
 const letters = [...new Set(sorted.map((it) => it.term.trim().charAt(0).toUpperCase()))].filter(Boolean)
@@ -51,17 +61,20 @@ const letters = [...new Set(sorted.map((it) => it.term.trim().charAt(0).toUpperC
         <section class="glossary-group" id={`gloss-${L}`}>
           <h2 class="glossary-group-letter">{L}</h2>
           <dl class="glossary-dl">
-            {group.map((item) => (
+            {group.map((item) => {
+              const link = articleLink(item.link)
+              return (
               <div>
                 <!-- 术语本身作锚文本链接到相关页面（消除 glossary 只进不出） -->
                 <dt>
-                  {item.link
-                    ? <a href={lu(item.link)} class="glossary-term-link">{item.term}</a>
+                  {link
+                    ? <a href={lu(link)} class="glossary-term-link">{item.term}</a>
                     : item.term}
                 </dt>
                 <dd>{pickKey(item.defKey) ?? item.defKey}</dd>
               </div>
-            ))}
+              )
+            })}
           </dl>
         </section>
       )

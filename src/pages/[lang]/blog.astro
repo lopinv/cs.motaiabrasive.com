@@ -10,7 +10,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../lib/tdk.js'
 import CtaBand from '../../components/CtaBand.astro'
 import BlogIndex from '../../components/BlogIndex.astro'
-import { allArticles } from '../../lib/articles.js'
+import { allArticles, blogRouteLangs } from '../../lib/articles.js'
 import { defaultProducts } from '../../lib/blog-products.js'
 import { BLOG_PAGE_SIZE, pagerInfo } from '../../lib/blog-pager.js'
 
@@ -25,7 +25,7 @@ const articles = await allArticles(lang)
 const pager = pagerInfo(articles.length, 1)
 const sideProducts = defaultProducts()
 
-const seo = buildSeo(lang, 'blog', {}, [
+const seo = buildSeo(lang, 'blog', { switcherLangs: await blogRouteLangs({ page: 1 }) }, [
   breadcrumbJsonLd(lang, [{ name: pick('nav.news'), path: `/${lang}/blog` }])
 ])
 // 分类：按文章数降序，供筛选 chips 与卡片标签共用。

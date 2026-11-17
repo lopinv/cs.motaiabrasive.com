@@ -11,7 +11,7 @@ import FloatingChat from './FloatingChat.astro'
 import GoogleAnalytics from './GoogleAnalytics.astro'
 import SeoMeta from './SeoMeta.astro'
 import Reveal from './Reveal.astro'
-import { TRANSLATIONS } from '../lib/i18n.js'
+import { TRANSLATIONS, LANGS } from '../lib/i18n.js'
 import { site } from '../lib/utils.js'
 import '../styles/global.css'
 
@@ -42,7 +42,7 @@ const lcpPreload = (seo.ogType === 'product' || seo.canonicalPath === '') && seo
   </head>
   <body>
     <a class="skip-link" href="#MainContent">{TRANSLATIONS[lang]?.nav?.home ?? 'Skip to content'}</a>
-    <Header lang={lang} routePath={seo.canonicalPath ?? ''} />
+    <Header lang={lang} routePath={seo.canonicalPath ?? ''} switcherLangs={seo.switcherLangs ?? LANGS} />
     <main id="MainContent">
       <slot />
     </main>

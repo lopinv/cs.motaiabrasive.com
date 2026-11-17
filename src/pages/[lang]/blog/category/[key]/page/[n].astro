@@ -10,7 +10,7 @@ import Breadcrumb from '../../../../../../components/Breadcrumb.astro'
 import { breadcrumbJsonLd } from '../../../../../../lib/tdk.js'
 import CtaBand from '../../../../../../components/CtaBand.astro'
 import BlogIndex from '../../../../../../components/BlogIndex.astro'
-import { allArticles } from '../../../../../../lib/articles.js'
+import { allArticles, blogRouteLangs } from '../../../../../../lib/articles.js'
 import { defaultProducts } from '../../../../../../lib/blog-products.js'
 import { BLOG_PAGE_SIZE, BLOG_PAGER_MAX, BLOG_CATEGORIES, pagerInfo } from '../../../../../../lib/blog-pager.js'
 
@@ -38,7 +38,7 @@ const pager = pagerInfo(articles.length, page)
 const sideProducts = defaultProducts()
 
 // ctx.pager 传页码数字：tdk.js 读它判断分页页并拼 canonical 的 /page/<n> 段。
-const seo = buildSeo(lang, 'blog', { category: key, pager: pager.current, pagerTotal: pager.pages }, [
+const seo = buildSeo(lang, 'blog', { category: key, pager: pager.current, pagerTotal: pager.pages, switcherLangs: await blogRouteLangs({ page: pager.current, category: key }) }, [
   breadcrumbJsonLd(lang, [
     { name: pick('nav.news'), path: `/${lang}/blog` },
     { name: pick(`article.${cat.i18n}`), path: `/${lang}/blog/category/${key}` }

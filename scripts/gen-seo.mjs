@@ -96,38 +96,41 @@ if (existsSync(articlesDir)) {
   }
   walk(articlesDir)
 }
-const blogSlugs = [...new Set([...blog.map((b) => b.slug), ...mdSlugs])]
+// 每语种实有译文的 slug 集合。md 路由已按「本语种自有译文」收口
+// （src/lib/articles.js 的 mdArticles），sitemap 必须同口径：只列该语种
+// 真有文件的 md slug + 全语种共有的 blog.json 短文；不再为未译 slug 生成
+// 英文克隆 URL。gen-article-locales.mjs 已写 src/data/article-locales.json，
+// 是同一判据（articles/<lang>/<slug>.md 存在）的单一事实源。
+const mdSlugsByLang = read('article-locales.json').locales
 
 // Blog index pagination: the flat /blog index is split into 24-card pages at
 // /blog/page/<n>/ (page 1 stays at /blog/), plus one chain per article
 // category at /blog/category/<key>/page/<n>/. Mirrors BLOG_PAGE_SIZE in
 // src/lib/blog-pager.js — keep the two in sync when either changes.
+// 每语种独立计算：路由集合 = 该语种自有 md 译文 + 全语种 blog.json 短文，
+// 与 allArticles(lang) 同口径（未译文种不再摊到 133 篇的英文克隆集）。
 const BLOG_PAGE_SIZE = 24
 const CATEGORIES = ['selection-guide', 'buyer-resources', 'application-notes', 'oem-guide']
-const blogTotal = blogSlugs.length
-const blogPages = Math.max(1, Math.ceil(blogTotal / BLOG_PAGE_SIZE))
-const catCounts = {}
+const shortByCat = {}
 for (const b of blog) {
   const c = b.categoryKey ?? 'selection-guide'
-  catCounts[c] = (catCounts[c] ?? 0) + 1
+  shortByCat[c] = (shortByCat[c] ?? 0) + 1
 }
-// md corpus categories come from each file's frontmatter; read them so the
-// category chains mirror what Astro actually renders.
-for (const slug of mdSlugs) {
-  const f = path.join(articlesDir, 'en', slug + '.md')
-  if (!existsSync(f)) continue
-  const m = /^category:\s*(.+)$/m.exec(readFileSync(f, 'utf8'))
-  if (m) {
-    const c = m[1].trim()
-    if (CATEGORIES.includes(c)) catCounts[c] = (catCounts[c] ?? 0) + 1
+// 分类计数同样按语种：md 译文的分类来自 frontmatter，逐语种读取。
+const langSlugSet = (lang) => (lang === 'en' ? mdSlugs : new Set(mdSlugsByLang[lang] ?? []))
+const langSlugCount = (lang) => blog.length + langSlugSet(lang).size
+const catCountByLang = (lang) => {
+  const counts = { ...shortByCat }
+  for (const slug of langSlugSet(lang)) {
+    const f = path.join(articlesDir, lang, slug + '.md')
+    if (!existsSync(f)) continue
+    const m = /^category:\s*(.+)$/m.exec(readFileSync(f, 'utf8'))
+    if (m) {
+      const c = m[1].trim()
+      if (CATEGORIES.includes(c)) counts[c] = (counts[c] ?? 0) + 1
+    }
   }
-}
-const blogIndexPaths = ['/blog']
-for (let n = 2; n <= blogPages; n++) blogIndexPaths.push(`/blog/page/${n}`)
-for (const c of CATEGORIES) {
-  const pages = Math.max(1, Math.ceil((catCounts[c] ?? 0) / BLOG_PAGE_SIZE))
-  blogIndexPaths.push(`/blog/category/${c}`)
-  for (let n = 2; n <= pages; n++) blogIndexPaths.push(`/blog/category/${c}/page/${n}`)
+  return counts
 }
 
 const dataPaths = [
@@ -139,9 +142,7 @@ const dataPaths = [
   // 只收录 visibleVideos（与站内链接/index ItemList 一致；hidden 剪辑
   // 刻意不进 sitemap，只允许直链访问）
   ...visibleVideos.map((v) => `/videos/${v.id}`),
-  ...blogSlugs.map((slug) => `/blog/${slug}`),
-  ...applications.map((a) => `/applications/${a.slug}`),
-  ...blogIndexPaths
+  ...applications.map((a) => `/applications/${a.slug}`)
 ]
 
 const xmlUrls = []
@@ -165,6 +166,22 @@ for (const lang of langs) {
   for (const r of staticRoutes) push(r)
   for (const c of collections) push(`/collections/${c}`)
   for (const d of dataPaths) push(d)
+  // 文章详情：本语种自有 md 译文 + 全语种 blog.json 短文。未译 slug 不再
+  // 出现在任何语种的路由/sitemap（原 42×133 的英文克隆面已整体移除）。
+  const slugs = langSlugSet(lang)
+  for (const s of slugs) push(`/blog/${s}`)
+  for (const b of blog) push(`/blog/${b.slug}`)
+  // 博客索引分页链：每语种按自身文章数独立算页数（与 allArticles(lang) 同口径）。
+  const total = langSlugCount(lang)
+  const blogPages = Math.max(1, Math.ceil(total / BLOG_PAGE_SIZE))
+  push('/blog')
+  for (let n = 2; n <= blogPages; n++) push(`/blog/page/${n}`)
+  const catCounts = catCountByLang(lang)
+  for (const c of CATEGORIES) {
+    const pages = Math.max(1, Math.ceil((catCounts[c] ?? 0) / BLOG_PAGE_SIZE))
+    push(`/blog/category/${c}`)
+    for (let n = 2; n <= pages; n++) push(`/blog/category/${c}/page/${n}`)
+  }
 }
 // Root index (no lang prefix) renders SITE_LANG build default; list once.
 // (the loop above only emits lang-prefixed URLs, so the root is never duplicated)

@@ -13,7 +13,8 @@
  * distinct publications and are never shadowed.
  */
 import { getCollection } from 'astro:content'
-import { TRANSLATIONS } from './i18n.js'
+import { TRANSLATIONS, LANGS } from './i18n.js'
+import { BLOG_PAGE_SIZE } from './blog-pager.js'
 
 export const blogShort = (await import('../data/blog.json')).default
 
@@ -68,16 +69,21 @@ function mdRecord(entry, lang) {
   }
 }
 
-/** md corpus for one locale: its own translations, else the en reference. */
+/**
+ * md corpus for one locale: ONLY that locale's own translations.
+ *
+ * 曾经的兜底是「未译 slug 回落渲染 EN 正文」，那会在 /<lang>/blog/<slug>/
+ * 造出与 EN 站内容相同的克隆页（4852 个 = 84.8% 的文章 URL），Google 按
+ * scaled content abuse 判罚。现在这些 URL 直接不生成：未译 slug 不出现在
+ * 路由集合、列表、侧栏「最新文章」或 sitemap 里。要恢复某个语种的文章，
+ * 走翻译管线补 articles/<lang>/<slug>.md，路由随文件自动回来。
+ */
 export async function mdArticles(lang) {
   const [en, i18n] = await Promise.all([getCollection('articles-en'), getCollection('articles-i18n')])
-  const bySlog = new Map()
-  for (const e of en) bySlog.set(e.data.slug, mdRecord(e, 'en'))
-  for (const e of i18n) {
-    if (!e.id.startsWith(lang + '/')) continue
-    bySlog.set(e.data.slug, mdRecord(e, lang))
+  if (lang === 'en') {
+    return en.map((e) => mdRecord(e, 'en'))
   }
-  return [...bySlog.values()]
+  return i18n.filter((e) => e.id.startsWith(lang + '/')).map((e) => mdRecord(e, lang))
 }
 
 /** i18n short articles (blog.json) resolved through the locale's strings. */
@@ -112,8 +118,40 @@ export async function findArticle(lang, slug) {
   return all.find((a) => a.slug === slug)
 }
 
-/** Every slug the blog can route (union of md corpus and blog.json). */
-export async function allSlugs() {
-  const [en] = await Promise.all([getCollection('articles-en')])
-  return [...new Set([...en.map((e) => e.data.slug), ...blogShort.map((b) => b.slug)])]
+/**
+ * Every slug the blog can route for a given locale.
+ *
+ * The route surface used to be the union over ALL locales, which meant every
+ * language generated /<lang>/blog/<slug>/ for every EN source slug — the
+ * 4852-page English-clone surface now being removed. With mdArticles() scoped
+ * to a locale's own files, the slug set follows the same rule: a slug is
+ * routable in <lang> only when <lang> actually has an md file for it.
+ * blog.json slugs are locale-independent (their text lives in the i18n table
+ * for all 42 languages), so they stay routable everywhere.
+ */
+export async function allSlugs(lang = 'en') {
+  const [md, short] = await Promise.all([mdArticles(lang), Promise.resolve(i18nArticles(lang))])
+  return [...new Set([...md.map((a) => a.slug), ...short.map((b) => b.slug)])]
+}
+
+/**
+ * Languages that actually generate /<lang>/blog[/page/n|/category/<key>/page/n].
+ *
+ * The pagination route surface shrank with the article corpus: a language with
+ * 6 short articles has one /blog/ page and no /page/2, /category/x/page/2 …
+ * The language switcher must only offer targets that exist, so each blog page
+ * computes the set from the same numbers its own getStaticPaths used.
+ *
+ * `pages` is the route's page count in each language and `categoryPages` maps
+ * category key → page count; pass 0 to probe "does this route exist at all".
+ */
+export async function blogRouteLangs({ page, category } = {}) {
+  const out = []
+  for (const lang of LANGS) {
+    const all = await allArticles(lang)
+    const list = category ? all.filter((a) => (a.categoryKey || 'selection-guide') === category) : all
+    const pages = Math.max(1, Math.ceil(list.length / BLOG_PAGE_SIZE))
+    if (pages >= page) out.push(lang)
+  }
+  return out
 }

@@ -3,6 +3,51 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.5.1] - 2026-11-18
+
+### Removed
+
+- **撤销「未译文章回落 EN 正文」的克隆面**：未译语种的博客文章页不再生成
+  路由（`mdArticles` 只返回本语种自有译文，未译 slug 不出现在路由集合、
+  列表、侧栏「最新文章」、语种切换器、hreflang 或 sitemap）。此前 42 语种
+  × 133 篇全部落地，其中 4852 个 URL（占全部文章 URL 的 84.8%）是非 en
+  站点的英文克隆页。
+  Why: Google 的 scaled content abuse 政策针对「同一内容跨大量 URL/子域名
+  重复发布」，这批页无论 noindex 与否都在制造被判定为批量低质内容的风险面。
+  按用户要求改用**删除路由**而非 noindex 掩盖——克隆面整体消失，sitemap 从
+  9829 → 4586 URL，文章 URL 5838 → 965。要恢复某语种的文章，补
+  `articles/<lang>/<slug>.md` 即可，路由与 hreflang 随文件自动回来。
+
+### Removed (内容)
+
+- 删除 11 篇重复 intent 的英文源文章及 37 篇对应译稿：同一产品名词下，
+  `the-right-grit`/`the-right-one` 这类**无实质决策面的泛化后缀**与已有
+  `the-backing`/`the-grit-ladder`/`a-sandpaper-grade` 等真实角度篇并存，
+  多个 slug 抢同一个搜索意图（topic cannibalization），如
+  `automotive-sanding` 6 篇里 3 篇是 `*-the-right-grit/one`。判据：组内
+  已有实质角度篇 + 该篇译稿数低于组内最高（永不移除投资最高的页面）。
+  Why: 实测 133 篇正文 5-gram Jaccard 中位仅 0.015（抹掉全部主题词后降到
+  0.010），**不是**换名词 spintax，逐篇都有实质内容差异——所以不按「近重复」
+  批量删，只删同一意图下的多余篇目。EN 源 133 → 122 篇。
+
+### Fixed
+
+- 路由收缩后同步收窄三类站内链接，消除断链：语种切换器新增
+  `switcherLangs` prop（由页面按实际路由存在性算好，博客列表/分页/分类/
+  文章详情各自的合法语种集），glossary 术语外链只在目标文章本语种有译文时
+  保留（否则退化为纯词条），共修复 51776 → 0 处指向 404 的 blog 链接
+- `mdArticles` 去掉 EN 兜底时同步修正 `allSlugs()`：按语种返回该语种可路由
+  的 slug 集合，并新增 `blogRouteLangs()` 供列表/分页页计算合法语种
+- `gen-seo.mjs` sitemap 与分页常量改为逐语种计算（此前是全语种统一的
+  133 篇），与 `allArticles(lang)` 同源，防止列出 404
+
+### Added
+
+- 构建门禁 `.zcode-check/check-blog-clone.cjs`（接入 `npm run build` 链尾）：
+  断言①逐语种磁盘文章页数 == 自有译稿 + 6 篇短文；②磁盘页数与 sitemap
+  条目逐语种一致；③站内无指向 404 的 blog 链接；④无任何博客页用
+  noindex 掩盖。防止未来改动把克隆面或断链悄悄放回来
+
 ## [1.5.0] - 2026-11-17
 
 ### Added
