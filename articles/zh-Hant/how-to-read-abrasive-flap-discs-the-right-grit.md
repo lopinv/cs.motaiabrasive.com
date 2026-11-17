@@ -3,7 +3,7 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "如何讀懂研磨百葉片：選對粒度"
 keywords: [研磨百葉片, 不鏽鋼, 集塵, 呼吸防護]
-metaDescription: "學會讀懂研磨百葉片。粒度、基體、尺寸、中心孔與安全規範皆有實例解說，助您精準規格採購、安心下單。"
+metaDescription: "學會如何讀懂研磨百葉片的粒度階梯與選購方法：基體材質、尺寸、中心孔與安全規範皆有實例解說，並涵蓋不鏽鋼打磨、焊縫打磨與除毛邊等常見應用，助您精準規格下單、安心採購。"
 intro: "快速現場指南：解碼研磨百葉片——粒度、基體、尺寸與中心孔，附實例與採購前安全檢核表。"
 datePublished: 2026-11-04
 dateModified: 2026-11-04

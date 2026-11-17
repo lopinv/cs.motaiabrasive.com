@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T04:03:35.307Z",
+  "generated": "2026-11-17T04:11:23.969Z",
   "enSlugs": [
     "7-questions-grinders-ask-about-rust-removal",
     "7-questions-grinders-ask-about-wood-sanding",
@@ -137,8 +137,12 @@
   ],
   "locales": {
     "ar": [
+      "7-questions-grinders-ask-about-rust-removal",
       "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
       "automotive-surface-preparation-guide",
+      "fiberglass-backing-flap-discs-guide",
+      "how-to-choose-5-inch-sanding-discs-the-right-grit",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "bg": [
@@ -230,7 +234,33 @@
       "how-to-pick-wide-abrasive-belts-the-backing",
       "how-to-pick-wide-abrasive-belts-the-grit-ladder",
       "how-to-pick-wide-abrasive-belts-your-sanding-disc",
-      "how-to-read-abrasive-flap-discs-the-right-grit"
+      "how-to-pick-wide-belt-sanding-a-sandpaper-grade",
+      "how-to-pick-wood-panel-sanding-the-backing",
+      "how-to-pick-zirconia-flap-discs-the-grit-ladder",
+      "how-to-read-115mm-flap-discs-the-backing",
+      "how-to-read-5-inch-sanding-pad-a-sandpaper-grade",
+      "how-to-read-5-inch-sanding-pad-the-right-one",
+      "how-to-read-6-inch-sanding-discs-an-abrasive-belt",
+      "how-to-read-abrasive-belts-a-sandpaper-grade",
+      "how-to-read-abrasive-flap-discs-the-right-grit",
+      "how-to-read-abrasive-sanding-discs-a-flap-disc",
+      "how-to-read-automotive-sanding-the-right-one",
+      "how-to-read-flap-disc-manufacturer-an-abrasive-belt",
+      "how-to-read-flap-discs-an-abrasive-belt",
+      "how-to-read-hook-and-loop-sanding-discs-your-sanding-disc",
+      "how-to-read-mesh-sanding-discs-a-sandpaper-grade",
+      "how-to-read-plastic-backing-flap-discs-your-sanding-disc",
+      "how-to-read-sanding-pad-wholesale-the-backing",
+      "how-to-read-sanding-pads-the-right-grit",
+      "how-to-read-sandpaper-rolls-a-flap-disc",
+      "how-to-read-sandpaper-sheets-an-abrasive-belt",
+      "how-to-read-sandpaper-the-backing",
+      "how-to-read-stainless-steel-finishing-a-sandpaper-grade",
+      "how-to-read-weld-seam-grinding-the-grit-ladder",
+      "how-to-read-weld-seam-grinding-the-right-grit",
+      "how-to-read-wide-abrasive-belts-the-backing",
+      "how-to-read-wood-panel-sanding-your-sanding-disc",
+      "how-to-read-wood-sanding-a-flap-disc"
     ],
     "el": [
       "7-questions-grinders-ask-about-rust-removal"
@@ -722,7 +752,10 @@
     ],
     "hu": [],
     "id": [
+      "7-questions-grinders-ask-about-rust-removal",
       "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "it": [
@@ -732,10 +765,17 @@
     ],
     "ja": [
       "7-questions-grinders-ask-about-rust-removal",
+      "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-choose-5-inch-sanding-discs-the-right-grit",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "ko": [
+      "7-questions-grinders-ask-about-rust-removal",
+      "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-choose-5-inch-sanding-discs-the-right-grit",
       "how-to-match-mdf-sanding-the-backing",
       "how-to-read-abrasive-flap-discs-the-right-grit"
@@ -743,6 +783,10 @@
     "lt": [],
     "lv": [],
     "ms": [
+      "7-questions-grinders-ask-about-rust-removal",
+      "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "nl": [],
@@ -769,6 +813,10 @@
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "th": [
+      "7-questions-grinders-ask-about-rust-removal",
+      "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "tl": [],
@@ -777,12 +825,24 @@
     ],
     "uk": [],
     "vi": [
+      "7-questions-grinders-ask-about-rust-removal",
+      "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "zh": [
+      "7-questions-grinders-ask-about-rust-removal",
+      "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ],
     "zh-Hant": [
+      "7-questions-grinders-ask-about-rust-removal",
+      "8-questions-grinders-ask-about-sandpaper-wholesale",
+      "aluminum-oxide-abrasive-belts-guide",
+      "automotive-surface-preparation-guide",
       "how-to-read-abrasive-flap-discs-the-right-grit"
     ]
   }

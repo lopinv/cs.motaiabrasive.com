@@ -3,8 +3,8 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Cara Membaca Piringan Flap Abrasif: Ukuran Grit yang Tepat"
 keywords: [Piringan Flap Abrasif, Baja Tahan Karat, Ekstraksi Debu, Respirator]
-metaDescription: "Pelajari cara membaca piringan flap abrasif. Grit, backing, ukuran, lubang tengah, dan keselamatan dijelaskan dengan contoh praktis, sehingga Anda dapat menspesifikasikan piringan yang tepat dan membeli dengan percaya diri."
-intro: "Panduan lapangan ringkas untuk mendekode piringan flap abrasif — grit, backing, ukuran, dan lubang tengah — dengan contoh praktis dan daftar periksa keselamatan sebelum membeli."
+metaDescription: "Pelajari cara membaca piringan flap abrasif: grit, backing, lubang tengah dan keselamatan lewat contoh praktis, agar Anda bisa menspesifikasikan piringan yang tepat."
+intro: "Panduan lapangan singkat untuk membaca piringan flap abrasif — grit, backing, ukuran, dan lubang tengah — dengan contoh praktis dan checklist keselamatan."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic

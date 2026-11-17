@@ -3,8 +3,8 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Cara Membaca Cakera Flap Abrasif: Saiz Grit yang Betul"
 keywords: [Cakera Flap Abrasif, Keluli Tahan Karat, Pengeluaran Debu, Respiratori]
-metaDescription: "Ketahui cara membaca cakera flap abrasif. Saiz grit, pangkalan, saiz, arbor dan keselamatan diterangkan dengan contoh praktikal, supaya anda boleh menentukan cakera yang betul dan beli dengan keyakinan."
-intro: "Panduan ringkas untuk mengkodkan cakera flap abrasif — saiz grit, pangkalan, saiz dan arbor — dengan contoh praktikal dan senarai semak keselamatan sebelum membeli."
+metaDescription: "Pelajari membaca cakera flap abrasif: saiz grit, pangkalan, lubang tengah dan keselamatan dengan contoh amali, supaya anda tentukan cakera yang tepat."
+intro: "Panduan lapang ringkas untuk menafsir cakera flap abrasif — saiz grit, pangkalan, saiz dan lubang tengah — dengan contoh dan senarai semak keselamatan."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic
@@ -166,7 +166,7 @@ Potongan di bawah adalah keluhan sunyi, kerana cakera kelihatan baik dan bunyi m
 - **Kelajuan alat terlalu rendah.** **Cakera flap** mahu memutar. Di bawah kelajuan reka bentuk cakera ia memotong lembut dan perlahan; semak kelajuan tanpa beban dan kekalkan cakera dalam julat ia direka.
 - **Grit terlalu halus untuk kerja.** Grit halus pada tugas kasar meminta cakera untuk memoles bukannya buang. Turun satu grit dan potongan kembali.
 
-Untuk setiap satu ini, [julat cakera flap abrasif](/ms/collections/flap-discs) menunjukkan grit dan pangkalan untuk ke arah, [nota aplikasi pembuatan logam](/ms/applications/metal-fabrication) memberi jujukan mengikut bahan, dan [glosari abrasif](/ms/glosari) mengekalkan istilah lurus supaya anda dan pasukan anda mendiagnosis masalah yang sama. Benang yang menjalani kesemua lima ialah potongan di bawah hampir sentiasa masalah padanan, bukan cakera rosak; betulkan grit, biji, pangkalan atau kelajuan dan potongan kembali.
+Untuk setiap satu ini, [julat cakera flap abrasif](/ms/collections/flap-discs) menunjukkan grit dan pangkalan untuk ke arah, [nota aplikasi pembuatan logam](/ms/applications/metal-fabrication) memberi jujukan mengikut bahan, dan [glosari abrasif](/ms/glossary) mengekalkan istilah lurus supaya anda dan pasukan anda mendiagnosis masalah yang sama. Benang yang menjalani kesemua lima ialah potongan di bawah hampir sentiasa masalah padanan, bukan cakera rosak; betulkan grit, biji, pangkalan atau kelajuan dan potongan kembali.
 
 ### Kesilapan biasa dan cara membetulkannya
 
@@ -178,10 +178,10 @@ Penyelesaian biasanya lebih murah daripada kesilapan. Ini adalah apa yang keliha
 - **Memuatkan dan mengilap.** Cakera tersumbat dan berhenti memotong apabila muka biji dipenuhi bahan lembut atau apabila grit telah mengilap rata; langkah ke grit lebih halus, tukar ke biji yang tidak selembut bahan kerja, dan bersihkan flap.
 - **Haba pada bahagian nipis.** Grit kasar pada tumpul nipis membina haba yang memengkung bahagian; turun satu grit dan kekalkan cakera bergerak bukannya menekan ke dalam.
 
-Untuk mana-mana ini, [julat cakera flap abrasif](/ms/collections/flap-discs) dan [nota aplikasi pembuatan logam](/ms/applications/metal-fabrication) memberi grit dan pangkalan untuk ke arah, dan [glosari abrasif](/ms/glosari) mentakrifkan istilah supaya anda dan pasukan anda membaca label yang sama. Benang tunggal yang menjalani kesemua lima ialah cakera hanya sebaik grit, pangkalan, arbor dan kelajuan yang anda padankan dengannya sebelum kerja bermula; kebanyakan keluhan sebenarnya adalah keluhan ketidakpadanan memakai nama grit.
+Untuk mana-mana ini, [julat cakera flap abrasif](/ms/collections/flap-discs) dan [nota aplikasi pembuatan logam](/ms/applications/metal-fabrication) memberi grit dan pangkalan untuk ke arah, dan [glosari abrasif](/ms/glossary) mentakrifkan istilah supaya anda dan pasukan anda membaca label yang sama. Benang tunggal yang menjalani kesemua lima ialah cakera hanya sebaik grit, pangkalan, arbor dan kelajuan yang anda padankan dengannya sebelum kerja bermula; kebanyakan keluhan sebenarnya adalah keluhan ketidakpadanan memakai nama grit.
 
 
-### FAQ
+### Soalan lazim
 
 **Grit apa yang saya mulakan untuk **kisar** am?** Dalam kebanyakan kes P80 hingga P120 meliputi **kisar** harian dan **penggilingan** pada keluli, kemudian turun ke P240 atau P400 untuk menggabung dan siap. Mulakan kasar, kerja ke halus, dan tidak pernah melompat dua langkah sekaligus.
 
