@@ -14,7 +14,7 @@ image: belt-1520-630
 
 Here is the rule that governs nearly every wide abrasive belts decision: **match the grit to how much stock you are removing, size the loop to the platen, and keep the machine's line speed at or below the belt's rated maximum.** A coarse belt such as P60 or P80 takes stock fast but leaves deep, visible scratches; P120 is the leveling step; P240 to P400 prepare the surface; and 1200 is the fine pre-coat step on surfaces that are already near their final state. On the machine side, a 1520 × 630 mm loop belongs on a wide belt sander, while a 610 × 100 mm loop suits a smaller frame or a bench setup. Two scenarios where the simple rule bends: very soft, gummy stock where even P80 packs the face and you open at P120 instead, and thin veneered panels where even P60 cuts too deep at the edge. If your job is everyday panel and board sanding, start at P80 to P120 on wide abrasive belts, confirm the loop size fits the machine, and check the rated line speed against the specific model before the first panel. For the loops and grits we supply, see [the abrasive belt range](/collections/abrasive-belts) and keep the [abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits that turn this from guesswork into a repeatable spec: always name the grit standard you are buying to (FEPA or ISO 848), and never assume the rated line speed — confirm it against the model with the supplier, because that number has to come from the belt, not from a guess. A shop we work with built its whole belt program on exactly those two habits, and the two most expensive complaints we still see — a surface full of coarser scratches than the last grit should have removed, and a belt that is simply too fast for the machine it is on — are both prevented by them.
+What keeps the Wide Abrasive Belts sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P400 band, the backing and belt sander are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. They are the reason the surface, not the disc, ends up on the job sheet.
 
 ### How the construction works: grain, backing, bond 🧱
 
@@ -112,7 +112,7 @@ On lead time, two things set it, and both are yours to control when you send the
 
 ### Common mistakes and the fixes that move the problem ⚠️
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on wide belt lines, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Wide Abrasive Belts line at P400, and the correction that moves the surface for each: None of them needs a new disc; each needs the right one first.
 
 - **Loading.** The face packs with soft material and stops cutting; the machine sounds fine and the part does not go. Move to an open grain in the same grit, or open up a grade, and keep the belt moving rather than pressing in.
 - **Glazing.** The worn face has gone flat and skims instead of cuts. Step down a grade and let the coarser belt cut again; a glazed face is not fixed with a finer belt, because a finer face glazes sooner.
@@ -142,7 +142,7 @@ For any of these, [the abrasive belt range](/collections/abrasive-belts) shows t
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these machines is reduced but not zero.
+A purchasing and compliance checklist for Wide Abrasive Belts, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P400 pass is reduced, not removed. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your machine's belt speed, read at no load, is at or below the belt's rated line speed before every use; where the model does not print the rating, confirm it against the model with the supplier.
 - Check the loop size is exactly the one the machine takes, and that the tension and tracking are set for that loop before the first panel.
@@ -154,4 +154,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the install and tracking notes for the machine, and check the part and the belt for heat and scratch depth on thin or soft material before you commit a run.
 - Confirm lead time, minimum order and packing for any bulk or private label run, and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pick the grit and the construction to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Wide Abrasive Belts. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P400. The fields are short on purpose — the sequence is where the length goes.

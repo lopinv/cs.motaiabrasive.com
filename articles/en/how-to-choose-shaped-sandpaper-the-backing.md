@@ -175,11 +175,11 @@ The thread running through all six: the sheet is only as good as the match you s
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced but not zero.
+Before you buy Shaped Sandpaper: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P400 risk, never to zero. Run the list once before the first order, then once per repeat run.
 
 - Confirm your tool's maximum speed is below the disc's printed rated speed before every use; where either number is missing, confirm the rated speed against the model.
 - Check the disc size against the pad or block it will run on, keep any guard and flange fitted, and make sure the hook-and-loop face is clean and fully engaged.
-- Wear eye and face protection on every pass, and add respiratory protection where the dust load is high; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132).
+- Eye and face protection on every Shaped Sandpaper pass, dust extraction with the filter for the material, and the respiratory protection matched to the load when the extraction is not at the face. The protection is the habit, not the gear.
 - Run dust extraction at the work, with a filter suited to the material, and plan the control before the pass on material that can generate silica.
 - Name the grit standard, FEPA or ISO 848, in every enquiry so two suppliers do not quietly ship you two different grits.
 - Ask for the inspection report a responsible abrasive factory keeps on the grain and bond batch, and check the label fields: grain, grit, diameter and rated speed.

@@ -14,7 +14,7 @@ image: belt-610-100
 
 The rule that governs nearly every wood sanding decision: **match the grit to how much material you are removing, then match the grain and the backing to how the wood behaves under it.** A coarse open grit in the P80 to P120 band flattens a rough surface fast but leaves deep, visible scratches; a mid grit from P150 to P180 levels the board, opens the pores and blends the surface; a fine grit from P220 to P400 clears the surface and prepares it for the finish coat. On wood the grit is the one number you keep in your hand, and you rarely skip a grit step, because the grain of the timber and the stain or paint layer on top both reveal any coarse scratch you did not level out. Two scenarios where the rule bends: a very dense hardwood where even P80 leaves a scratch you can feel, so you open a little coarser and let that grit break in; and a soft board, a thin veneer or a re-sanded piece where you start finer so the cut stays shallow and the surface does not dip between passes. If your job is everyday furniture sanding and cabinet work, start in the P120 to P150 band, keep the belt or the disc moving, and confirm the tool's speed against the product's rated speed before the first pass. The grits and backings we supply are visible in [the abrasive belt range](/collections/abrasive-belts) and [the sanding disc range](/collections/sanding-discs), and every label term is explained in [the abrasives glossary](/glossary).
 
-Two habits turn this from guesswork into a spec you can repeat: name the grit standard you are buying to (FEPA or ISO 848, which is what most international buyers quote), and confirm the machine's rated speed against the belt or disc before it spins. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P150, backing, belt sander — happens before the first pass, not after the surface has moved. Neither habit is exotic; both are checked off on the job sheet.
 
 ### How Wood Sanding actually works
 
@@ -126,7 +126,7 @@ When you move from buying a few sheets to a regular run, the conversation shifts
 - **Belt size or disc diameter** — the 533 × 75, 610 × 100, 1520 × 630 or 2200 × 1330 belt, or the 3, 4, 5 or 6 inch disc, matched to the platen or the tool.
 - **Rated surface speed** — confirmed against the model, never assumed, because the number has to come from the belt or the disc and the tool has to stay below it.
 - **Label and packing** — for a private label run, your logo, your part code and the spec sheet you want on the box.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — for Wood Sanding, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. Get the two right and the rest of the order is mechanical.
 
 A good way to sanity-check a spec sheet before you send it is to read it back as a machine operator would. If the sheet says P120 on a wide-belt frame, the operator should be able to tell you whether that grit is coarse enough for the feed and whether the backing is heavy enough for the platen. If the operator has to guess, the sheet is missing a field. Send those six fields and the order becomes a conversation instead of a gamble. The [request a quotation](/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect on the floor.
 
@@ -148,7 +148,7 @@ A good way to sanity-check a spec sheet before you send it is to read it back as
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Wood Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P150 risk is cut by the right protection, not eliminated. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your belt or disc tool's maximum speed is at or below the belt's printed rated surface speed before every run, and keep the tool below it.
 - Check the belt is the right size for the platen and is seated and tensioned to the tool's spec, not just wrapped on.
@@ -156,7 +156,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Wear eye and face protection, and run dust extraction at the work with the right respiratory protection for the wood dust load.
 - Name the grit standard (FEPA or ISO 848), the grain, the backing and the belt size in every order so you do not mix grit scales.
 - Confirm the grit sequence for the job against the material, and check the panel or board for heat and scratch depth on thin or soft wood before you commit the run.
-- Keep a record of the PPE and controls you rely on; the U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup side is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction Wood Sanding depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. The record is the control that outlives the shift.
 - For a [wide belt](/products/2200x1330-abrasive-belt) frame, a [sanding belt](/products/610x100-abrasive-belt) tool or a private label run, confirm the minimum order, the lead time and the packing on the [request a quotation](/quote) form before you place it.
 
 If you tell us the wood species, the finish you are aiming for and the tool you run, we can help you pick the grit, the grain and the backing to start from. Send the three and the team will work the sequence with you on the [request a quotation](/quote) page.

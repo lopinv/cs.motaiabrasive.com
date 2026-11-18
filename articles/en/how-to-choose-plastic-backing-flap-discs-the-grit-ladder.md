@@ -14,7 +14,7 @@ image: flap-plastic
 
 🛠️ The direct rule: **plastic backing flap discs are the pick for cooler, more predictable work on the P80 to P400 band, and the governing number is the grit that matches how far the surface already is from its finish line, not the grit that removes the most metal.** Steel backings do the heavy cap and burr work, and fiberglass backings carry the high-speed or heat-heavy jobs, so plastic is the general finishing position on most benches. Two scenarios where that rule bends: very thin sheet, where even a cool disc can build enough heat to warp the part, and long uninterrupted high-speed passes, where the flexible backing flexes and the cut softens. When in doubt, name the standard you are buying to (FEPA or ISO 848) and confirm the tool speed against the disc label before the disc ever goes on the machine. The range is on [the flap disc range](/en/collections/flap-discs), and the terms are defined in [the abrasives glossary](/en/glossary).
 
-Two habits that turn this from guesswork into a repeatable spec: match the finish stage first and the grit second, and keep the disc moving. A plastic disc that is held in one spot behaves worse than a steel disc that is moving, because the flex that makes the finish nicer is the same flex that lets heat and loading build. The rest of this piece is the grit ladder, the construction behind it, and the failure modes that show up when the disc is not matched to the job.
+Make the Plastic Backing Flap Discs spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P220 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. One minute of habit, saved in every pass after the first.
 
 ### How a plastic backing actually works
 
@@ -170,7 +170,7 @@ For any of these, the [metal fabrication abrasive use](/en/applications/metal-fa
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+The Plastic Backing Flap Discs checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P220 work goes down but never to zero. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - ✅ Confirm your tool's maximum no-load speed is below the disc's printed maximum working speed for that diameter, before the first pass, and confirm the rated speed against the model.
 - 🔩 Check the arbor hole and the flange are the correct size, and use a rated adapter where the hole does not match, never a filed or ground larger hole.
@@ -181,4 +181,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - 🗃️ Store the discs dry and off the floor, out of the sun, and keep the labels legible, because the grit, the backing and the speed all have to be readable when the disc goes on the tool.
 - 🚚 Confirm lead time, minimum order quantity and packing for any [flap disc range](/en/collections/flap-discs) bulk order or [private label run](/en/oem), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish line and the tool you run, we can help you pick the grit and the backing to start from. Send the three and the team will work the sequence with you on the [request a quotation](/en/quote) page.
+The three fields to start a Plastic Backing Flap Discs order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P220 downward, to the job instead of the nearest stock. The fields are short on purpose — the sequence is where the length goes.

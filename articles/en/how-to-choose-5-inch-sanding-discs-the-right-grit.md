@@ -120,7 +120,7 @@ When you move from buying a handful of discs to a wholesale or OEM run, the conv
 - **Pad pairing** — hook on the pad or loop on the pad, so the disc and the sander agree on which side is which.
 - **Grit standard** — FEPA or ISO 848, written on the order so the stock does not mix scales.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a branded run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of 5 Inch Sanding Discs needed and the date it is needed by; together they decide stock versus make-to-run. Both travel on the order, not on the phone.
 
 Send those six fields and the order is a conversation instead of a gamble. The [quotation form](/en/quote) is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the form and the label all match what you expect.
 
@@ -146,7 +146,7 @@ For any of these, the [sanding disc range](/en/collections/sanding-discs) shows 
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on 5-inch work:
+The 5 Inch Sanding Discs mistake costs more the longer it rides. What shows up most on the P80 line, and the correction that actually moves the cut: None of them needs a new disc; each needs the right one first.
 
 - **Skipping grits.** P80 to P320 leaves the P80 scratches under the top coat; add the P150 and P240 steps in between.
 - **Glazing on hard material.** A face that burns instead of cuts wants a coarser grit or a cleaner grain, and lighter pressure, not more of the same.
@@ -177,7 +177,7 @@ When you are not sure which grit to start on, the [sanding disc range](/en/colle
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Before you buy 5 Inch Sanding Discs: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P80 risk, never to zero. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your tool's maximum no-load speed is below the disc's rated maximum working speed before every use, and where the disc does not print a number, confirm the rating against the model.
 - Check the pad or holder matches the disc form: hook on the sander meets loop on the disc, or loop on the sander meets hook, and the 8-hole disc clamps onto a flap disc holder, not a PSA pad.
@@ -189,4 +189,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the disc maker's install notes, and check the part and the disc for heat and scratch depth on thin or soft material before you change grits.
 - Confirm lead time, minimum order and packing for any wholesale or [private label](/en/oem) run, and start the order at the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for, the tool you run and the grit standard you buy to, the team can pre-select the grit band and the disc form from the 5 Inch Sanding Discs range to start from. Send the four and the sequence comes back with the order.
+The three fields to start a 5 Inch Sanding Discs order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P80 downward, to the job instead of the nearest stock. The fields are short on purpose — the sequence is where the length goes.

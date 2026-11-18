@@ -14,7 +14,7 @@ image: belt-2200-1330
 
 Here is the rule that governs nearly every abrasive belts decision: **match the grit to how much material you are removing, and match the belt size to your sander — then check one number before the belt ever touches a part: the maximum line speed printed on the belt.** A coarse grit like P60 or P80 removes stock fast and leaves deep, visible scratches; P120 to P180 is the everyday band for most wood and metal sanding; P240 to P400 cleans up and blends; and P600 sits on the fine end, used to de-raise a surface before paint or clear coat. The governing number is line speed in metres per second, not the tool's RPM: a wider belt on the same motor reaches a higher line speed, so the same sander can be fine with a 533×75 belt and too fast for a 2200×1330 belt. The one governing rule, then: **the tool's no-load speed must stay below the belt's printed maximum line speed.** Two scenarios where the simple "start coarse, finish fine" plan bends: very soft, short grain woods where even P80 leaves scratches the next coat has to fight, and thin or long workpieces where heat from a coarse grit and heavy pressure can warp the part. For the full range of sizes we supply, see [the abrasive belt range](/en/collections/abrasive-belts) and keep [the abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the belt width matches your sander's platen before the belt is cut or spliced. Everything below is the reasoning behind those two moves.
+Make the Abrasive Belts spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P240 band against the tool you actually run (hand sander) before the first cut. The rest of this page is why those two moves earn their keep. The two habits are the difference between a spec and a guess.
 
 ### How a belt actually cuts: grain, backing and bond
 
@@ -85,9 +85,9 @@ On lead time, three things set it. In stock sizes and common grits ship fast. A 
 
 Under cutting is the quiet complaint, because the belt looks fine, the machine sounds fine, but the panel is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into the belt makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving belt, not a coarser grit.
+- **Pressure, not grit.** Pushing on the hand sander packs the face and stops the Abrasive Belts cut; the remedy is less pressure and a moving part, not a step up in grit. The glaze is the tell, not the cut.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like zirconia alumina on a material that loads aluminium oxide.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the belt to polish instead of remove. Step a grit back and the cut comes back.
+- **Grit too fine for the job.** The fine grit asks the Abrasive Belts part to be polished where it should be cut; one grit lower and it is removing again. Down one rung and the removal resumes.
 - **Machine speed too low for the belt.** Below the belt's design speed the cut goes soft and slow; check the no load speed and keep the machine in the range the belt was made for.
 - **Heat on a long pass.** A coarse grit held on a small area builds heat that burns the wood and packs the coat; keep the belt moving and drop a grit rather than adding pressure.
 
@@ -95,7 +95,7 @@ For each of these, [the abrasive belt range](/en/collections/abrasive-belts) sho
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on the floor, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Abrasive Belts. These are the errors that surface most at P240, and the move that actually changes the result: None of them needs a new disc; each needs the right one first.
 
 - **Skipping grits.** Going from P120 straight to P400 leaves the P120 scratch pattern under the finish; add the P240 step and the surface clears.
 - **Splicing mismatched ends.** A joint between two grits or two unpaired ends makes the belt walk and the face go uneven; pair the ends by their label code and keep them clean before the splice.
@@ -169,7 +169,7 @@ The habit underneath the four is that the surface is the record, and the fix is 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these machines is reduced but not zero.
+The Abrasive Belts checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P240 work goes down but never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm the machine's no-load speed is below the belt's printed maximum line speed before every use.
 - Check the belt width against the platen and confirm the machine is set up for that width, with the guard in place.
@@ -182,4 +182,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Confirm the certification you are relying on is in force; U.S. PPE requirements are a useful baseline at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 - Confirm lead time, minimum order and packing for a bulk or private label run on the [request a quotation](/en/quote) page.
 
-If you tell us the material, the finish line you are aiming for and the machine you run, we can help you pick the grit, the grain and the size to start from. Send the three and we will work the sequence with you on the [quotation page](/en/quote).
+The three fields to start a Abrasive Belts order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P240 downward, to the job instead of the nearest stock. Those three are the fields a buyer should never have to chase a second time.

@@ -16,7 +16,7 @@ Here is the rule that governs nearly every MDF sanding decision: **the grit deci
 
 Two scenarios where the rule bends. The first is heavy stock removal on MDF where someone reaches for a fine grit: the belt loads and glazes instead of cutting, and the pass stops making progress while the face looks like it is still working. The second is a final finishing pass where a coarse grit runs too deep: it tears the pressed fibres, leaves scratches the next grit cannot close, and the panel is back in the machine for another pass. If the job is everyday furniture MDF work, the starting point is a P120 to P150 face pass on a cloth-backed sanding belt, a P240 to P320 paper-backed pass to bring the panel even, and a fine finishing pass above P400 where the finish demands it. On the panel line, the 1520 × 630 or 2200 × 1330 belt does most of the face cutting; on a hand-fed finishing machine, the 533 × 75 mm or 610 × 100 mm belt does. Confirm the rated speed against the model you are running, keep the machine below it, and match the [abrasive belt range](/en/collections/abrasive-belts) to the tools you actually own.
 
-Two habits that make the choice repeatable instead of a guess: always state the grit standard you are buying to, and always match the backing to the grit before you match the grit to the job. If you work panels on a line, the belt line does the heaviest face passes and the hand-fed machine takes the rest; if you work the whole job by hand, the 533 × 75 mm and 610 × 100 mm belts do everything. Confirm the rated speed against the model you are running, keep the machine below it, and match the [abrasive belt range](/en/collections/abrasive-belts) to the tools you actually own.
+What keeps the MDF Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P120 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Do them once per job and the rest of the sequence holds together.
 
 What to decide, in order:
 
@@ -102,7 +102,7 @@ For each of these, the [abrasive belt range](/en/collections/abrasive-belts) sho
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on MDF work, with the move that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the MDF Sanding line at P120, and the correction that moves the surface for each: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Skipping grits** 📏 — going from P80 straight to P400 leaves P80 scratches under the finish; add the P150 to P240 steps and the panel clears. The sequence is the product; the belt is the tool.
 - **One grit for two jobs** ⚙️ — a grit that removes stock and then does the final pass leaves deep scratches under the coat and a face that shows every one of them. Split the job: the removal grit and the finish grit are different belts, usually with a different backing.
@@ -155,11 +155,11 @@ The reason the routine matters more on MDF than on a harder material is that the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of this work is reduced but not zero.
+A purchasing and compliance checklist for MDF Sanding, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P120 pass is reduced, not removed. Each item below is one you can check against the delivery in hand.
 
 - Confirm your machine's speed is below the rated speed of the belt or disc for the model you are running, and keep the machine card carrying that number.
 - Check the fit before the panel goes in: belt tracking on the machine, the disc fully seated on the flange, and the guard in place, because the guard is the first barrier against a failure.
-- Wear eye and face protection on every pass, and use respiratory protection sized to the dust load; the PPE selection baseline is at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132).
+- On every MDF Sanding pass: eye and face protection, the dust extraction with the filter for the material, and the respiratory protection matched to whatever the extraction leaves at the face. It is the step the next trade takes over from.
 - Run dust extraction at the point of work, not just the room, and keep the floor of the sanding bay clear of the dust that becomes the next pass's problem.
 - Name the grit standard (FEPA or ISO 848), the grit, the belt size and the build in every enquiry, so the order does not arrive as a different grit than the one you tested.
 - Ask for the inspection report or certificate that comes with the model you are standardising on, and check storage: belts kept off the floor, away from heat and out of the sun, with the roll standing or laid as the maker's notes say.

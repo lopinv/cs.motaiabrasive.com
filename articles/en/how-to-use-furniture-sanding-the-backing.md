@@ -14,7 +14,7 @@ image: belt-610-100
 
 Here is the rule that governs nearly every furniture sanding decision: **match the backing to the tool and the wood, then set the grit to the job.** For most furniture work, that means a paper-backed (PSA) or mesh disc in 5-inch or 6-inch, running P80 to P120 for stock removal and stepping up through the sequence to leave a uniform, finish-ready surface. A hook-and-loop disc on a reusable pad is the slow, controlled option for hand and detail work; a belt is the fast option for wide boards. Two scenarios where that rule bends: very soft, end-grain or figured wood where even P80 leaves visible gouges and you should start at P100 or P120, and large flat panels where skipping a grit step lets coarse scratches sit under the finish and show through it. If your job is everyday furniture sanding on hardwood and softwood casework, start in the P80 to P120 band and work finer, never coarser. The concrete range we supply is sanding discs in 3, 4, 5 and 6-inch sizes, hook-and-loop in the same four sizes, 5-inch and 6-inch mesh, grits from 60 to 5000, and abrasive belts in 533 × 75, 610 × 100, 1520 × 630 and 2200 × 1330 mm. For the wood-specific side of these choices, see [woodworking sanding use](/applications/woodworking), and keep the [abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: state the grit standard you are buying to (FEPA or ISO 848) in every enquiry, and confirm the disc diameter against your pad before it touches wood. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P120, backing, random orbit sander — happens before the first pass, not after the surface has moved. Do them once per job and the rest of the sequence holds together.
 
 ### How furniture sanding actually works
 
@@ -124,7 +124,7 @@ On lead time, two things set it. In stock grits and common sizes usually ship fa
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on furniture work, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P120 on Furniture Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: Each item names the check that catches it before the surface is gone.
 
 - **Skipping grits.** Going from P80 straight to P220 leaves P80 scratches under the finish; add the P120 and 150 steps and the surface clears.
 - **Pressing in.** A disc held in one spot with heavy pressure loads and glazes, which is the opposite of cutting more. Light pressure and a moving disc, and the cut comes back.
@@ -139,8 +139,8 @@ The single thread through all six: the disc is only as good as the backing, grit
 
 Under cutting on wood is the quiet complaint: the disc looks fine, the tool sounds fine, but the panel is not going. The causes are usually one of these, and each has a different fix.
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
-- **Grit too fine for the job.** A 150 grit disc on a stock-removal task is asking a fine disc to polish instead of remove. Step down a grit and the cut comes back.
+- **Pressure, not grit.** A leaned-in pass glazes the face and the face stops taking; on Furniture Sanding at P120, if the cut dropped, ease off and keep it moving rather than reaching for a coarser grit. That is the whole of the pressure rule.
+- **Grit too fine for the job.** P120 on a Furniture Sanding stripping task smears rather than removes; drop a grit and the cut returns. One rung is the whole fix.
 - **Grain that loads the wood.** A tight bond on soft, sugary pine or MDF packs and stops. Move to an open coat or a mesh backing, which throws the dust through as it works instead of holding it in the face.
 - **The disc is spent.** A disc that has run through its grain face cuts soft and slow; swap it before you chase the problem with a coarser grit.
 - **Tool speed too low.** A disc wants to move. If the tool is running slow, the disc does not open up and the cut stays closed; check the tool speed and keep the disc in the range it was made for.
@@ -165,7 +165,7 @@ For each of these, the [sanding disc range](/collections/sanding-discs) shows th
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Furniture Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm the tool maximum speed is at or below the disc or belt rated speed before every use, and confirm the rated speed against your model, not a guess.
 - Check the disc diameter matches the pad or the belt width matches the machine, and use a rated adapter or the correct size rather than forcing a mismatch.
@@ -175,6 +175,6 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Ask for the inspection report or cert against the run you are ordering, and keep the paperwork with the part for the record.
 - Store discs and belts flat, dry and off the floor, and check the packing before a long transit, because a crushed belt or a wet disc is one you will not use.
 - Follow the install notes for the tool and the disc together, and re-check the fit each shift, not just at the start of the job.
-- Keep a record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a record of the PPE and controls the Furniture Sanding job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The record is what survives the shop change.
 
 If you tell us the wood you are working, the finish you are aiming for and the tool you run, we can help you pick the backing and the grit to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.

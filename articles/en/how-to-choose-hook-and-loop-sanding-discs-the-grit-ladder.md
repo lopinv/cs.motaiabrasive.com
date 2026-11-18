@@ -16,7 +16,7 @@ Choosing hook and loop sanding discs is a match problem with three moving parts:
 
 The two scenarios where that rule bends: very thin sheet, where a coarse grit builds heat that ripples the panel, and dense, sugary filler, where even P80 loads fast and you are better off at P120 with a moving disc. If your job is everyday panel work, body filler or furniture, start in the P80 to P120 band, step down one rung at a time, and confirm the pad diameter against the machine before the disc touches stock. For the range we ship, see [the sanding disc range](/en/collections/sanding-discs) and keep [the abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: name the grit standard (FEPA or ISO 848) in every enquiry, and match the disc diameter to the pad and to the machine's centre hole before the order ships. Everything below is the reasoning behind those two moves.
+Two habits make the Hook and Loop Sanding Discs spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P120 band and the tool speed before the first pass. Everything below is the reasoning behind those two moves. Both habits cost a minute and buy back the whole pass.
 
 ### How a hook and loop disc is built 🧩
 
@@ -53,7 +53,7 @@ Material moves the starting grit even when the machine is the same. The list bel
 - **Automotive panels, primered** 🚗 — P80 to P120 to level the primer, P180 to P240 to blend, P320 to P400 to clean up before the next coat. The worked sequence is walked through in the [automotive repair sanding use](/en/applications/automotive) notes, and the discipline of one rung at a time is what keeps the panel from showing a scratch line at the paint booth.
 - **Bare steel ahead of primer** 🏗️ — P80 to open the surface, P120 to flatten it, then P240 to P320 to leave the face matte and even for the primer to grab. The goal here is a uniform texture, not a mirror, and the coarser start is the right one for it.
 - **Furniture and solid wood** 🪵 — P120 to P180 for the working sand, P220 to P320 for the finish, and a moving disc on the edges, because held pressure on soft wood checks it with heat. The sequences live in the [woodworking sanding use](/en/applications/woodworking) notes.
-- **Aluminium and soft alloys** 🟦 — P120 to P240 to prep, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving rather than leaning in.
+- **Aluminium and soft alloy** 🟦 — the soft metal wants P120 to open and the fine rung to close Hook and Loop Sanding Discs; a coarse grit digs past what the part can forgive, so start low and move. The scratch, not the shine, is the target.
 - **Castings and rough surfaces** 🧱 — P60 to P80 to open the face, P100 to P120 to flatten it, then step down through the prep band. A rough casting packs a fine grit, so you work coarse to fine in steps instead of jumping to a fine disc.
 
 A worked example that shows the whole logic: an automotive door with a high filler spot. The P80 face on the heavy spot takes the filler down to roughly flush in one pass, and the P120 across the whole door evens out the P80 marks so the light does not pick them up. The P180 to P240 step blends the transition where the repair stops and the panel starts, and the P320 to P400 clean up opens the face for the base coat. Every rung is finer than the one before it, and the total is four discs, not one. Do the same job with a single P150 disc and you spend three times the machine time and still show the filler line, because the fine grit is asking to polish a surface that still wants removing.
@@ -110,7 +110,7 @@ When the order moves from a handful of pouches to a wholesale or private label r
 - **Disc face and diameter** — the hook-and-loop face, the size, and the hole count, matched to the pads and the machines the buyer actually runs.
 - **Rated speed** — confirmed against the model, never assumed, because the number has to come from the disc and its paperwork.
 - **Label and packing** — the logo, the part code and any spec sheet wanted on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it has to be on the shelf, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — the number of Hook and Loop Sanding Discs needed and the date it is needed by; together they decide stock versus make-to-run. They are the last two fields to be filled on a clean enquiry.
 
 Send those five fields and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if this is the first branded run, ask for a sample against the spec before the full order, so the grit, the face and the label all match what the bench expects. On lead time, two things set it: in stock grits and common sizes ship fast, while off grid grits or a face not held in the same run take longer, because the grain, the loop strip and the backing all have to line up. A short note on the numbers we share: we list grit, size and face as standard, and we confirm the rated speed against each model before an order ships, because that number has to come from the disc, not from a guess.
 
@@ -118,17 +118,17 @@ Send those five fields and the order is a conversation instead of a gamble. The 
 
 Under cutting is the quiet complaint, because the disc looks fine and the machine sounds fine, but the panel is not going. Most of the time it is a match problem, not a bad disc. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc packs the face and stops the Hook and Loop Sanding Discs cut; the remedy is less pressure and a moving part, not a step up in grit. It reads as a disc fault but is a hand fault.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like zirconia alumina on a material that loads aluminium oxide, and the face stays open longer.
 - **Disc face not seated on the pad.** A disc that has not fully snapped onto the loop strip walks and peels at the edge, and the edge is where the cut drops. Match the disc diameter to the pad, the hole to the centre, and press it flat before you spin.
 - **Machine speed too low.** A disc wants to spin. Below the machine's useful speed it cuts soft and slow; check the no load speed and keep the disc in the range it was made for.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a rung on the ladder and the cut comes back.
+- **Grit too fine for the job.** A fine grit on a coarse Hook and Loop Sanding Discs task makes the disc polish instead of remove; step the grit down and the cut comes back. It is the grit, not the effort, that matters.
 
 For each of these, [the sanding disc range](/en/collections/sanding-discs) shows the grit and size to reach for, and [the abrasives glossary](/en/glossary) keeps the terms straight so you and the team are diagnosing the same problem. The thread that runs through all five is that under cutting and fast wear are almost always a match problem, not a bad disc: fix the grit, the grain, the seating or the speed and the cut returns.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on the floor, with the fix that actually moves the problem:
+The Hook and Loop Sanding Discs mistake costs more the longer it rides. What shows up most on the P120 line, and the correction that actually moves the cut: Fix the match and the list gets shorter on the next job.
 
 - **Skipping rungs.** Going from P80 straight to P320 leaves P80 scratches under the finish; add the P120 and P180 steps and the surface clears. One rung at a time is not a suggestion, it is the sequence.
 - **Disc not seated.** A disc that has not fully snapped onto the loop strip walks at speed; press it flat and confirm the hole matches the pad centre before you spin the machine.
@@ -158,7 +158,7 @@ Buying the wrong grit on a wholesale tier is the one mistake that costs the most
 
 ### Before you buy ✅
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not removed.
+Before you buy Hook and Loop Sanding Discs: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your machine's no load speed sits below the disc's rated speed before every use, and keep the disc on a pad that matches the machine's centre hole.
 - Check the disc diameter against the pad and the disc's centre hole against the pad's centre, and use the right size instead of forcing a mismatch.
@@ -169,4 +169,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store the discs dry and flat, away from the heat and the dust, and transport them so the faces do not pick up packed grit.
 - Confirm lead time, minimum order and packing for any bulk or private label order on the [sanding disc range](/en/collections/sanding-discs), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can pre select the grit and the pad for hook and loop sanding discs. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The three fields to start a Hook and Loop Sanding Discs order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P120 downward, to the job instead of the nearest stock. No template is attached; the three fields travel in the message itself.

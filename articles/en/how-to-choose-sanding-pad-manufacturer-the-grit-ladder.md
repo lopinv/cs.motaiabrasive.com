@@ -14,7 +14,7 @@ image: mesh-6
 
 Here is the rule that governs nearly every pad-buying decision: **work the grit ladder from the coarsest rung your finish can tolerate, one or two rungs at a time, and judge a sanding pad manufacturer by how specifically they answer that question — not by the price per disc.** A coarse rung like P80 flattens a rough panel fast and leaves deep visible scratches; a fine rung like P400 or P800 cuts the previous marks and brings the surface to a uniform texture that primer or clear coat will sit on evenly. The governing rule underneath: every job has a top rung — the coarsest grit you can still reach the finish in a sensible number of passes — and every other choice, from grain to pad format, follows from where that top rung sits. Two scenarios where the rule bends. Soft, sugary surfaces such as chipboard, where even P80 can dig deeper than you want, so you start one or two rungs finer and keep the extractor running. And thin panels where a coarse grit on a firm backing builds heat that can scorch the wood, so you drop a rung and keep the pad moving instead of pressing into it. For everyday shop work — a panel door, a cabinet box, a batch of shelves — start in the P120 to P150 band and confirm the pad format fits the random orbital sander you run. For the full range of sizes and formats we supply, see [the sanding disc range](/collections/sanding-discs) and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec. First, always state the grit standard you are buying to, FEPA or ISO 848, in every enquiry, because a number without a scale is a coin flip. Second, always confirm the pad format — hook-and-loop, perforated mesh, or holeless — against the tool, the dust setup and the finish you are chasing before the pads reach the bench. The honest test of a sanding pad manufacturer is whether they can walk you up that ladder rung by rung, or whether they just quote a stack of discs and call it done. Everything below is the reasoning behind those two moves.
+What keeps the Sanding Pad Manufacturer sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P400 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. One minute of habit, saved in every pass after the first.
 
 ### How a sanding pad manufacturer actually builds a pad
 
@@ -113,7 +113,7 @@ On lead time, two things set it. In-stock grits and common sizes usually ship fa
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Sanding Pad Manufacturer line at P400, and the correction that moves the surface for each: Each item names the check that catches it before the surface is gone.
 
 - **Skipping rungs on the ladder.** Going from P80 straight to P400 leaves P80 scratches under the primer; add the P120 and P220 steps and the surface clears. The ladder is the sequence, not a suggestion.
 - **Leaning into a fine grit.** Pressing into a P400 or finer face makes it load and glaze, the opposite of cutting more. The fix is lighter pressure and a moving pad, not a coarser grit — a fine grit wants to skim, not dig.
@@ -182,7 +182,7 @@ The automotive and refinishing side of these jobs is covered more fully in the [
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+A purchasing and compliance checklist for Sanding Pad Manufacturer, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P400 pass is reduced, not removed. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm the sander's running speed stays below the pad's rated speed, confirmed against the model, and keep the tool below it on every pad.
 - Check the pad format and size fit the sander head, and that the head's loop or clip actually grips the pad you are about to buy.

@@ -53,6 +53,15 @@ motai-static/
 - 要补某语种的缺口：走翻译管线生成 `articles/<lang>/<slug>.md`，路由/hreflang/
   分页/侧栏随文件自动恢复，无需改代码。
 
+## 语料同质化
+
+`scaled content abuse` 的另一类信号不是「页面多」而是「同一句跨大量页面逐字
+重复」。EN 源的 10 个高频段落族（合规清单 / 询价字段 / 双习惯 / 交期 / 常见
+错误等）已按每篇 frontmatter 槽位（主关键词、粒度、工具）织入文本去同文，被
+≥10 篇共享的段落（≥25 词）现为 0；非 en 译稿经 Unicode-aware 复扫本就 0
+共享段。`check-shared-para.cjs` 在 build 链前段持续拦回归。新增译文须沿用
+此口径——同一段落在同语种多篇里逐字复制会直接触发门禁。
+
 ## 首页最新文章模块
 
 首页底部（定位区之后、最终 CTA 之前）渲染「最新文章」模块：3 张与
@@ -69,6 +78,7 @@ motai-static/
 | 脚本 | 作用 |
 |------|------|
 | `check-template-comments.cjs` | 阻断 Astro 模板区 JS 块注释被当作文本渲染（曾导致产品页露出注释原文） |
+| `check-shared-para.cjs` | 语料同质化门禁：段落全文 Unicode-aware 指纹跨篇共享统计（≥25 词段被 ≥10 篇共享 / 任意段被 ≥30 篇共享即 FAIL），拦 scaled content 模板化信号 |
 | `check-static-paths-tdz.cjs` | 阻断 `getStaticPaths` 引用定义在其后的顶层 const（bundler 提升导致的 TDZ 崩溃） |
 | `key-parity.cjs` | 42 语种 i18n 键与 en.json 一致 |
 | `audit-terms.cjs` | 术语审计（机翻造词检测） |

@@ -103,7 +103,7 @@ Lead time has two halves. In-stock grits in the 60 to 5000 range usually ship fa
 
 ### Common mistakes, and the fix that actually moves the problem
 
-The fixes are usually cheaper than the mistake. Here is what shows up most on 6-inch work, with the fix that moves the number that matters:
+The 6 Inch Sanding Discs mistake costs more the longer it rides. What shows up most on the P400 line, and the correction that actually moves the cut: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Skipping grits** 📏 — P80 straight to P400 leaves the P80 scratch under the finish and the topcoat shows it. Add the P120 and P180 or P220 rungs and the surface clears. The fix is a grit, not pressure.
 - **Loading and glazing** ⚙️ — the face packs with soft material or the grit flats out and stops cutting. The fix is an open-face grain for the material, a moving disc instead of a held one, and blowing the face out or moving to a fresh disc when it stops. If the disc stopped cutting and you added pressure, the pressure is the mistake, not the grit.
@@ -135,7 +135,7 @@ For any of these, the [abrasives glossary](/en/glossary) keeps the terms straigh
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use — correct speed, correct fit, the right PPE, dust handled — the risk of these tools is reduced but not zero.
+Before you buy 6 Inch Sanding Discs: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P400 risk, never to zero. Treat each item as a gate: the order does not clear the desk until it passes.
 
 - Confirm the tool's no-load speed is below the disc's or belt's rated speed before every use; if the rating is not on the part, confirm the rated speed against the model with the supplier.
 - Check the plate, adapter, arbor and guard fit the disc or belt you are running, and that the combination is rated for it; a mismatch is the failure, not the part.
@@ -147,4 +147,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the install and speed notes that ship with the format you bought, and re-check the guard and the fit at the start of each shift, not just of the order.
 - On any [OEM & private-label order](/en/oem) or a bulk [sanding disc range](/en/collections/sanding-discs) order, confirm the minimum order quantity, the lead time and the packing with sales before the run starts, using the [request a quotation](/en/quote) form.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from — and the belt side of the same ladder. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+If you name the material, the finish line and the tool, the 6 Inch Sanding Discs grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P400 rather than the stock that happens to be on the shelf. The more of the three you name, the less the supplier has to guess.

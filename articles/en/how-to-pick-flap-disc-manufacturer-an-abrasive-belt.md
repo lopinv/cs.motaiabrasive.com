@@ -20,7 +20,7 @@ Two scenarios where the rule bends. The first is a small one-off job: one part, 
 
 Then there is the sibling category to decide at the same time, and it is the reason this piece keeps coming back to it: the abrasive belt. Long straight-line removal, heavy deburring on a flat, and big panels are jobs a belt does faster and more evenly than any disc, and the same due diligence you run on a flap disc manufacturer is the one you run on a belt supplier, because both products come off the same coated-abrasive lines. The shape of that choice — disc for contour, belt for the run — is a decision list a few sections down.
 
-Two habits turn all of this from guesswork into a checklist: state the grit standard in every enquiry, and confirm the rated speed against the model before anything goes on the machine. The full range we supply and the terms on every label are at [the flap disc range](/en/collections/flap-discs) and [the abrasives glossary](/en/glossary).
+Two habits make the Flap Disc Manufacturer spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P120 band and the tool speed before the first pass. Everything below is the reasoning behind those two moves. Neither habit is exotic; both are checked off on the job sheet.
 
 ### What a flap disc manufacturer actually makes
 
@@ -172,7 +172,7 @@ For any of these, the [abrasives glossary](/en/glossary) keeps the terms straigh
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+Before you buy Flap Disc Manufacturer: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your tool's maximum speed is below the rated speed printed on the disc or belt before every use, and keep the machine below that number.
 - Check that the arbor hole and the flange are the right size, and use a rated adapter where needed; on a belt, check the loop tension and the guard at the start of each run.
@@ -183,4 +183,4 @@ A short compliance and purchasing checklist. It is a reminder, not a substitute 
 - Store the stock dry and out of the heat, move it in the original carton, and follow the maker's install notes on the loop and on the flaps before the first cut on a new source.
 - On a bulk or branded order, confirm the MOQ, the lead time and the packing, and start the conversation on the [quotation form](/en/quote).
 
-If you tell us the material you are working, the finish you are after and the tool you run, we will work the grit-plus-backing sequence with you — disc or belt — and confirm the rated speed against the model before anything ships. Start on the [request a quotation](/en/quote) page and send the three; that is how the pre-selection lands on the right grit the first time.
+If you name the material, the finish line and the tool, the Flap Disc Manufacturer grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P120 rather than the stock that happens to be on the shelf. Three fields, one message, and the order stops needing follow-up calls.

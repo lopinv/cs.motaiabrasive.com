@@ -16,7 +16,7 @@ image: flap-fiberglass
 
 The one number that has to clear before any of it: the disc's printed maximum line speed. The tool's no-load RPM times the disc diameter must stay under it, and that is where backing choice and tool choice meet, because a hotter, faster tool points to a stiffer, more heat resistant backing, while a slower tool can get away with a lighter plate. It is also a portable power tool requirement you can read at [OSHA 1910.244 (portable power tools)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.244). If you want the grit and backing chosen for your material, tool and finish instead of a generic start, the [metal fabrication abrasive use](/applications/metal-fabrication) notes walk through the full sequences by material.
 
-Two habits do more for weld seam grinding than anything else. One: always state the grit scale in the order, FEPA or ISO 848, so the P80 you get is the P80 you priced. Two: keep a dedicated set of discs for the coarse removal passes and a clean set for the finish passes, because embedded mild steel dust is what starts rust spots on any stainless that follows the same bench.
+What keeps the Weld Seam Grinding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P80 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. One minute of habit, saved in every pass after the first.
 
 ### ⚙️ How weld seam grinding actually works
 
@@ -147,7 +147,7 @@ For any of these, the [metal fabrication abrasive use](/applications/metal-fabri
 
 ### 🔧 Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most on seam work, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Weld Seam Grinding line at P80, and the correction that moves the surface for each: Fix the match and the list gets shorter on the next job.
 
 - **Skipping grits.** Going from P80 straight to P400 leaves P80 scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Over pressing the fine grit.** Pressing into P240 or P400 makes it load and glaze, which is the opposite of cutting more. Light pressure and a moving disc are the fix, not a coarser grit.
@@ -178,7 +178,7 @@ For any of these, the [metal fabrication abrasive use](/applications/metal-fabri
 
 ### ✅ Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for Weld Seam Grinding, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P80 pass is reduced, not removed. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's maximum speed is below the disc's printed maximum working speed before every use; run the tool under that number, not at it.
 - Check the arbor hole and flange are the correct size, use a rated adapter where needed, and keep the tool guard fitted for every pass.
@@ -190,4 +190,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the disc maker's install notes, and on thin or soft material check the part and the disc for heat and scratch depth before you press in.
 - Confirm lead time, minimum order and packing for any [flap disc range](/collections/flap-discs) wholesale or [private label order](/oem), and keep a record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can pre-select the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Weld Seam Grinding. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P80. No template is attached; the three fields travel in the message itself.

@@ -16,7 +16,7 @@ The rule that governs nearly every Wood Sanding Belts decision: **pick the grit 
 
 Two scenarios where the rule bends: soft, resinous woods like pine and cedar, where even coarse grits load up fast and you stay one band coarser than you think, and long continuous runs on wide panel or moulding lines, where heat build-up matters more than raw removal, so a finer grit on a slower pass beats a coarse grit pressed hard. If you are doing ordinary board-by-board finishing on a drum or wide belt, start in P180 to P240, keep the belt moving, and state the grit standard in every enquiry. The full range of sizes and models we supply is at [the abrasive belt range](/collections/abrasive-belts), and the [woodworking sanding use](/applications/woodworking) notes show which grits run where on the wood side.
 
-Two habits turn this from guesswork into a repeatable spec: name the grit standard you are buying to (FEPA or ISO 848), and check the belt size against the machine before it goes on the drum. Everything below is the reasoning behind those two moves.
+Make the Wood Sanding Belts spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P80 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. One minute of habit, saved in every pass after the first.
 
 ### How a wood sanding belt is built
 
@@ -99,7 +99,7 @@ Belt life is where the grit and the species pull apart most, and it is worth a w
 
 Under cutting is the quiet complaint on the wood side: the belt looks fine, the machine sounds fine, but the board is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a belt makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving belt, not a coarser grit.
+- **Pressure, not grit.** More pressure is not more cut: it loads and glazes the face. When the Wood Sanding Belts cut fell at P80, the answer is a lighter hand, not a heavier grit. The glaze is the tell, not the cut.
 - **Grain glazed for the species.** Soft, resinous woods glaze aluminium oxide fast. Move the grit up one band and the cut comes back; staying on the same grit and pressing harder is the wrong move.
 - **Resin bond too tight for the job.** A finishing belt on a roughing job holds the spent grain too long and stops cutting. Confirm with sales which resin bond grade is on the belt, and move to the grade that sheds grain sooner for the removal pass.
 - **Line speed too low.** A belt wants to run at or near its design speed. Below that, the cut goes soft and slow; check the no-load speed of the machine and keep the belt in the range it was made for.
@@ -109,7 +109,7 @@ For each of these, [the abrasive belt range](/collections/abrasive-belts) shows 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on the wood side, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Wood Sanding Belts. These are the errors that surface most at P80, and the move that actually changes the result: Fix the match and the list gets shorter on the next job.
 
 - **Skipping grits.** Going from P80 straight to P400 leaves P80 scratches under the finish; add the P120 and P180 to P240 steps and the surface clears.
 - **Belts too short for the drum.** A belt cut a millimetre short will not seat and will walk and burn. Order the size the machine spec lists, not the closest one on the shelf.
@@ -151,7 +151,7 @@ If you are not sure which size a machine actually runs, the model is the answer:
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these machines is reduced but not zero.
+The Wood Sanding Belts checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P80 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm the machine's maximum belt speed is below the belt's printed maximum line speed before every run; if the number is not printed, confirm the rated speed with the model and ask the supplier before you run it.
 - Check the belt size against the machine's drum and track spec exactly; a belt cut short will not seat and a belt cut long will not seat, so the size has to match the spec, not the shelf.

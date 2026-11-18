@@ -187,7 +187,7 @@ The glass disc is the default for the fast, hot, firm-cut job, and that is a wid
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for Fiberglass Backing Flap Discs, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P120 pass is reduced, not removed. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's no-load speed is below the disc's printed maximum line speed before every use; the number comes from the label, not the memory.
 - Check the arbor hole and the flange are the correct size, and use a rated adapter where the two do not match.
@@ -195,7 +195,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Wear eye and face protection, and use dust extraction and the right respiratory protection for the dust load on the material you are grinding.
 - Confirm grit, backing, diameter, arbor and the grit standard (FEPA or ISO 848) in every order, so a P120 on one scale does not arrive as a coarser P120 on another.
 - Follow the disc maker's install notes, and check the part for heat and scratch depth on thin or soft material before you commit to the sequence.
-- Keep a record of the PPE and the controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and the setup side is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction Fiberglass Backing Flap Discs depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. The record is the control that outlives the shift.
 - Confirm lead time, minimum order and packing for any [flap discs wholesale](/en/collections/flap-discs) or private-label run, and start the order on the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for, and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Fiberglass Backing Flap Discs. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P120. Those three are the fields a buyer should never have to chase a second time.

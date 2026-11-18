@@ -166,7 +166,7 @@ Lead time splits two ways. In-stock grits and the standard bodies ship fast. A b
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most on stainless work:
+Cheap to fix, expensive to leave: that is the rule at P60 on Stainless Steel Finishing. Here is the short list of errors that surface most, and the move that fixes each one at the root: Every one is a match problem wearing another problem's name.
 
 - ⚠️ **Grit skips.** P60 to P400 leaves the P60 scratch under the bright finish; add the P120 and P240 steps in between and the surface clears.
 - 🔥 **Holding one spot.** A face parked on one place on stainless turns the finish locally, and the heat mark will not move with the grit. Keep the tool moving through every pass.
@@ -197,11 +197,11 @@ For any of these, the [abrasives glossary](/glossary) keeps the terms straight s
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Keep this Stainless Steel Finishing checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P60 risk is cut by the right protection, not eliminated. Run the list once before the first order, then once per repeat run.
 
 - Confirm your tool's maximum no-load speed clears the disc's rated maximum working speed before every use, and where the disc does not print a number, confirm the rating against the model.
 - Check the arbor and the hub match the disc's bore, and keep the guard fitted on every pass; the guard is the first defence against a disc failure.
-- Wear eye and face protection on every pass, and match the respiratory protection to the dust load when the extraction is not at the face.
+- Wear eye and face protection on every pass of the Stainless Steel Finishing work, run the extraction with the right filter, and add the respiratory protection where the dust load sits at the face. It is the habit that keeps the face safe on every pass.
 - Run dust extraction with the right filter for the metal, and keep the waste in a sealed bin rather than swept to the corner of the floor.
 - Name the grit, the grain, the backing and the grit standard (FEPA, ISO 848) in every enquiry, so the order does not mix scales.
 - Keep the removal grits and the brightening grits in separate stock, because a disc that has touched rust or mild steel will stain a bright finish.
@@ -209,4 +209,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store the discs away from heat and damp, and ship them in the packing they come in; a warped or wet disc does not cut the way the spec says.
 - Follow the maker's install notes on the hub and on the tool pairing, and check the rated speed against the tool before the first pass.
 
-If you tell us the material, the condition of the surface, the finish you are aiming for, the tool you run and the grit standard you buy to, the team can pre-select the grit band and the backing from the Stainless Steel Finishing range to start from. Send the five and the sequence comes back with the order — the full list is at [request a quotation](/quote), and the terms behind it are at [the abrasives glossary](/glossary).
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Stainless Steel Finishing. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P60. The more of the three you name, the less the supplier has to guess.

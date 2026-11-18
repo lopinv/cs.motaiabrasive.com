@@ -16,7 +16,7 @@ In most auto body sanding work, the governing rule is short: **match the backing
 
 The one number that governs the decision is which backing the tool actually runs: a PSA pad, a mesh plate, or a hook-and-loop platen. Buy the disc to the tool you stand at, not the tool you would like. For the full set we supply — paper, mesh and hook-and-loop in 3, 4, 5 and 6 inch, grits 60 to 5000 — see [the sanding disc range](/en/collections/sanding-discs), and the [automotive repair sanding use](/en/applications/automotive) notes walk the panel stages in more depth.
 
-Two habits make the choice repeatable instead of a guess: state the grit standard, FEPA or ISO 848, in every enquiry, and confirm the tool's rated speed stays below the disc's rated speed before the job. Everything below is the reasoning behind those two moves, and the checklist at the end of the article turns the whole decision into one order that lands right.
+Make the Auto Body Sanding spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. One minute of habit, saved in every pass after the first.
 
 ### How auto body sanding actually works ⚙️
 
@@ -156,7 +156,7 @@ For any of these, the [sanding disc range](/en/collections/sanding-discs) shows 
 
 ### Before you buy 🧤
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and under compliant use, with the guard fitted and the right protection in place, the risk of these tools is reduced but not zero.
+The Auto Body Sanding checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm the tool's rated speed stays below the disc's rated speed before every job; confirm the number against the model, not the bench, and re-check when the tool or the disc changes.
 - Match the disc to the platen — a PSA pad, a mesh plate or a hook-and-loop platen — and the diameter to the tool; use a rated adapter where one is needed, and check the platen at the start of the shift.

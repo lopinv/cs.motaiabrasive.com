@@ -14,7 +14,7 @@ image: belt-610-100
 
 Here is the rule that governs most grit-sequence decisions: **match the grit sequence to the material and to the finish you are holding, size the loop to the platen, and keep the tool at or below the belt's rated line speed.** A coarse grit like P60 or P80 removes stock fast but leaves a visible scratch; a P120 pass is the reference step that levels the panel; P240 takes the surface to pre-finish condition; P400 and P600 do the between-coat and polish work on surfaces that already carry a finish. Two scenarios where that rule bends: thin veneered panels, where even P60 cuts too deep at the edge and you start at P120 instead; and very soft woods, where a coarse grit digs ruts instead of smoothing, so you open at P80 or P120 and move through the ladder in smaller steps. Where to start: identify the widest loop that fits the machine, list the grits you will run in sequence, and confirm the loop's rated line speed against the tool before the first panel. For the loops and grits we stock, browse [the abrasive belt range](/en/collections/abrasive-belts) and look at [the 610 × 100 mm abrasive belt](/en/products/610x100-abrasive-belt) for the mid size that most bench and narrow-platen setups run.
 
-Two habits that turn this from guesswork into a repeatable spec: name the grit standard you are buying to (FEPA or ISO 848, so a P120 from one supplier means the same as a P120 from another), and confirm the loop size and the rated line speed against the machine model, not against habit. Everything below is the reasoning behind those two moves.
+What keeps the Wide Belt Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P120 band, the backing and belt sander are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. That order is why the next order lands the same way as this one.
 
 ### How the operation actually works
 
@@ -127,7 +127,7 @@ Lead time has two parts. In-stock loop sizes and common grits ship fast; an off-
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most on wide belt sanding, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P120 on Wide Belt Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: In each case the surface gives the tell before the cost does.
 
 - **Skipping a grit step** 🪚 — running P240 straight over a P60 scratch leaves the coarse texture under the fine grit and the finish shows it. Get the P120 step back into the sequence and the surface clears.
 - **Platen pressure too heavy on a fine grit** 🧊 — a fine loop held still by a heavy platen loads, shuts off and burns the surface. Lighten the platen on the two fine grits in the sequence, and the cut comes back.
@@ -158,7 +158,7 @@ For each of these, the grit, backing and loop to reach for is in [the abrasive b
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these machines is reduced but not eliminated.
+Keep this Wide Belt Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Run the list once before the first order, then once per repeat run.
 
 - Confirm your tool's operating line speed is at or below the loop's rated line speed before every run, and confirm the rated speed against the loop model rather than from habit.
 - Check the loop size fits the platen width and the machine envelope, and re-track the loop before the first panel.
@@ -166,7 +166,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Wear eye and face protection, run the dust extractor at the work, and use the right respiratory protection for the dust load.
 - Confirm the loop size, the grain, the backing grade, the FEPA or ISO 848 grit and the machine model in every order, so the two do not quietly get mixed between suppliers.
 - Follow the belt maker's install notes, and check the panel and the loop for heat and scratch depth on thin veneered or soft stock.
-- Keep a record of the PPE and dust controls you rely on; the PPE baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup read is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a record of the PPE and controls the Wide Belt Sanding job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). It is the line the next person reads first.
 - Confirm lead time, minimum order quantity and packing for a [wide belt order](/en/collections/abrasive-belts) or a [private label run](/en/oem), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are holding and the sander you run, we can help you pick the loop, the backing and the grit sequence to start from. Send those three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The Wide Belt Sanding enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P120 — is worked out with you, not copied from a shelf list. That is the whole exchange; the grit choice is the one that takes the work.

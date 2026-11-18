@@ -18,7 +18,7 @@ Two scenarios where that rule bends: thin soft sheet, where even an 80 grit disc
 
 For the full set of backings and shapes we supply, see [the flap disc range](/collections/flap-discs), and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and confirm the arbor hole plus the rated speed against the specific model before the disc ships. Everything below is the reasoning behind those two moves.
+Make the Flap Disc Manufacturer spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. One minute of habit, saved in every pass after the first.
 
 ### How the backing, grain and bond work together
 
@@ -53,7 +53,7 @@ Material changes the starting grit even when the tool is the same. The reference
 
 - **Mild steel** ⚙️ — P60 to P80 to remove, P120 to P240 to blend. The everyday range where most flap discs spend their life.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc dedicated or swap grits before you move from a steel job to a stainless one, because embedded mild steel particles seed rust spots later.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — P120 to prepare and a finer rung to finish Flap Disc Manufacturer; the alloy scratches deeper than steel, so start finer and keep the disc moving. The alloy is the reason the starting grit is lower.
 - **Castings and rough surfaces** 🧱 — P40 to P60 to open the face, then P80 to P120. A rough casting packs a fine grit, so you work coarse to fine in steps instead of jumping.
 - **Welds on mild or stainless** 🛠️ — cap reduction first, then blending; the sequence below is the one we spec most often.
 - **Non ferrous and slick surfaces** ✅ — silicon carbide grain, finer grits, lighter pressure; the slick surface wants a hard grain that cuts without loading.
@@ -105,13 +105,13 @@ On lead time, two things set it. In stock grits and common diameters usually shi
 - **Diameter and arbor** — the disc diameter and the centre hole, matched to the tool and flange you actually run.
 - **Rated speed** — confirmed against the model, never assumed, because it must come from the disc.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of Flap Disc Manufacturer needed and the date it is needed by; together they decide stock versus make-to-run. They are the last two fields to be filled on a clean enquiry.
 
 Send those six fields and the order becomes a conversation instead of a gamble. The [OEM & private-label service page](/oem) covers what we can put on the packaging and how minimum order quantities work, and [request a quotation](/quote) is where the numbers get confirmed — including the MOQ and lead time for your run, which we state before you commit rather than after. One closing habit that protects the money: store the discs dry, cool and away from solvents, note the storage and transport conditions on the delivery note, and check the inspection report against the spec sheet when the carton arrives — the report is what keeps the disc on your shelf the same disc the factory built.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most on the floor, with the move that actually moves the problem:
+The repair is usually cheaper than the damage on Flap Disc Manufacturer. These are the errors that surface most at P120, and the move that actually changes the result: Each item names the check that catches it before the surface is gone.
 
 - **Loading.** What you see: the face turns dark, the cut slows, the disc starts sliding instead of biting. Cause: soft material packs into the grain and buries the edges. Fix: step to a tougher grain — zirconia alumina where aluminium oxide is packing — open the face on a coarser grit first, and keep the disc moving instead of holding it in one spot.
 - **Glazing.** What you see: the face goes shiny and flat, the disc looks mirror-bright and stops leaving scratch. Cause: a fine grit running on a smooth surface burns the grain flat faster than the flaps roll fresh grit forward. Fix: drop a grit to re-open the face, lighten the pressure, and remember a glazed disc wants to skim, not dig.
@@ -159,7 +159,7 @@ Two habits from the bands. First, when the finish line is a coating, the last tw
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+The Flap Disc Manufacturer checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - **Confirm the tool speed first.** Your tool's maximum no load speed has to sit below the disc's printed maximum working speed; where it is not printed, confirm the rated speed against the model and keep the tool below it.
 - **Check the arbor, flange and guard.** The centre hole matches the flange exactly — or a rated adapter fits both, never a filed hole — and the guard is fitted and the correct size for the disc, every time.

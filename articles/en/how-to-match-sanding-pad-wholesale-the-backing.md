@@ -16,7 +16,7 @@ Here is the rule that governs nearly every sanding pad wholesale decision: **mat
 
 Two scenarios where that rule bends. On very delicate substrates, such as thin veneer or a finished surface, a backing that tracks the surface too eagerly can leave uneven low spots, and stepping to the next coarser grit is sometimes the right answer rather than pressing harder. On jobs with heavy stock to remove, no pad selection beats a flap disc or a belt, because pads are built for preparation and finishing work, not for bulk removal; when the job is really grinding, put the pad down and pick the grinding tool instead. In practice the pairing lands somewhere between those two edges: pick the backing that fits the machine, step the grits in single stages, and keep the pad moving. The pad shapes and grits we supply, from grit 60 to 5000 across the hook-and-loop, PSA, mesh and solid lines, are listed in [the sanding disc range](/en/collections/sanding-discs).
 
-Two habits that turn this from guesswork into a repeatable spec: state the grit standard (FEPA or ISO 848) and the backing type in every sanding pad wholesale enquiry, and confirm the pad mounts on your actual tool before it cuts anything. Everything below is the reasoning behind those two moves.
+Two habits make the Sanding Pad Wholesale spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P120 band and the tool speed before the first pass. Everything below is the reasoning behind those two moves. The two habits are the difference between a spec and a guess.
 
 ### What a sanding pad actually is
 
@@ -110,7 +110,7 @@ When you move from buying a handful of pads to a full sanding pad wholesale or p
 - **Tool and rated speed** 🌀 — the named machine and its no-load speed, confirmed against the pad and never assumed; if the speed is not printed, confirm it with sales and keep the tool below it.
 - **Bond character** 🧲 — the bond you want against the material: a harder, open bond on dense hardwood, a flexible, open bond on soft and sugary board.
 - **Label and packing** 📋 — for a private label run, your logo, your part code and any spec sheet on the box, so the pad on the shelf is your pad, not the supplier's.
-- **Quantity and lead time** ✅ — the order quantity and how fast it has to be on the line, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of Sanding Pad Wholesale needed and the date it is needed by; together they decide stock versus make-to-run. Say the two out loud and the make-to-run question answers itself.
 
 The grit standard is the one field that quietly ships you two different pads from two suppliers if you leave it out, because a P320 on one scale is not the same grain size as a 320 on another; name the scale in every enquiry and the mix-up does not happen. The scale itself is set out at [the FEPA grit standard (ISO 848)](https://en.wikipedia.org/wiki/FEPA), and the standards body behind it is at [ISO standards](https://www.iso.org/). The terms that name each field on the sheet are at [the abrasives glossary](/en/glossary), and the sheet is a field-by-field run through on the [request a quotation](/en/quote) page, so if you are new to a branded run, ask for a sample against the spec before the full order and check that the grit, the backing and the label all match what the sheet said.
 
@@ -118,7 +118,7 @@ The grit standard is the one field that quietly ships you two different pads fro
 
 Under cutting is the quiet complaint, because the pad looks fine and the machine sounds fine, but the surface is not going. In practice the first time we watched a line stall like this, the cause was almost never the grit; it was one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a pad loads it and glazes it, which is the opposite of cutting more. If the cut dropped when the operator leaned in, the fix is lighter pressure and a moving pad, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc packs the face and stops the Sanding Pad Wholesale cut; the remedy is less pressure and a moving part, not a step up in grit. Keep the face moving and the cut stays open.
 - **Grain too soft for the material.** A grain that is as soft as the board packs and stops cutting; move to a tougher grain or a coarser grit and the cut comes back.
 - **Wrong backing for the tool.** A PSA pad on a random orbit machine or a loose hook-and-loop pad on a vacuum sander is a mismatch that the grit cannot hide; the backing limits the cut before the grain does.
 - **Tool speed too low.** A pad wants to move; below the tool's designed speed it cuts soft and slow. Check the no-load speed and keep the tool in the range it was built for.
@@ -128,7 +128,7 @@ For each of these, the grit and backing to reach for are in [the sanding disc ra
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The Sanding Pad Wholesale mistake costs more the longer it rides. What shows up most on the P120 line, and the correction that actually moves the cut: Every one is a match problem wearing another problem's name.
 
 - **Skipping grits.** Going from P120 straight to P320 leaves P120 scratches under the finish; add the P180 step and the surface clears, and the finish sits evenly over it.
 - **Pressing into the pad.** The harder the lean, the more the face loads and the less it cuts; lighter pressure and a moving pad cut more than heavy pressure ever will.
@@ -158,7 +158,7 @@ For any of these, the grit and backing to reach for are in [the sanding disc ran
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Before you buy Sanding Pad Wholesale: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's rated no-load speed is at or below what the pad is rated for before every run; if the speed is not printed, confirm the rated speed with sales and keep the tool below it.
 - Match the backing to the machine: hook-and-loop to a random orbital, PSA to a vacuum or orbital mandrel, solid to a belt finishing machine, mesh to a light finishing pass.
@@ -167,8 +167,6 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - State the grit standard (FEPA or ISO 848), the backing and the diameter in every order so you do not mix scales or shapes between suppliers.
 - Ask for the certificate or inspection report on the lot, and for any private label run, confirm the label, the packing and the spec sheet on the box before the order is cut.
 - Store pads dry and cool, away from direct sun and heat, and check the face for warp or lift before the run; follow the maker's install notes on the mandrel or the belt, not the habit.
-- For a bulk or branded run, confirm lead time, minimum order and the packing spec, and start with [the quotation form](/en/quote) so the grit, the backing and the box all match the sheet you sent.
+- For a bulk or branded run, confirm lead time, minimum order and the packing spec, and start with [the quotation form](/en/quote) so the grit, the backing and the box all match the sheet you sent.Keep a line in the job record for the PPE and Sanding Pad Wholesale controls; the U.S. requirement is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup reading at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The record is the control that outlives the shift.
 
-Keep a record of the PPE and controls you rely on; the U.S. PPE baseline is at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup reading is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels), and the scale you buy to is set out at [the FEPA grit standard (ISO 848)](https://en.wikipedia.org/wiki/FEPA).
-
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page, so the pads that ship on a sanding pad wholesale run are the pads your line actually needs.
+The three fields to start a Sanding Pad Wholesale order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P120 downward, to the job instead of the nearest stock. Those three are the fields a buyer should never have to chase a second time.

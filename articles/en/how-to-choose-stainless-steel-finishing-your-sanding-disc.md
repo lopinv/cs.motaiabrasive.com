@@ -16,7 +16,7 @@ Here is the rule that governs nearly every stainless steel finishing decision: *
 
 Two scenarios where that rule bends. Thin sheet metal, where a coarse grit builds heat that can warp the panel, and a bright, tight finish line where you start finer than you would on a rough casting so you do not chase deep scratches all the way down. For everyday work on a stainless panel, start in the P100 to P120 band, step down in order, and confirm the disc fits the tool and the arbor before you cut into stock.
 
-Two habits turn this from guesswork into a spec. Always name the grit standard you are buying to, FEPA or ISO 848, and always confirm the disc diameter, arbor and maximum working speed against the tool. A habit that pays off across the whole run of stainless work is to write the sequence down on the job ticket, grit by grit, so the team working the part at shift change is not guessing where the surface sits in the order. The full picture is in the [stainless steel finishing use notes](/en/applications/stainless-steel), and the grits and backings we stock are on [the flap disc range](/en/collections/flap-discs).
+Make the Stainless Steel Finishing spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P400 band against the tool you actually run (angle grinder) before the first cut. The rest of this page is why those two moves earn their keep. One minute of habit, saved in every pass after the first.
 
 ### Why stainless behaves differently from mild steel
 
@@ -135,7 +135,7 @@ For OEM or private label work, the [OEM and private-label service page](/en/oem)
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on a stainless job, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Stainless Steel Finishing. These are the errors that surface most at P400, and the move that actually changes the result: Fix the match and the list gets shorter on the next job.
 
 - **Skipping a grit.** Going from P80 straight to P400 leaves P80 lines under the finish; add the P240 step in between and the surface clears.
 - **Contamination from a steel disc.** Fine steel dust packed in the grain starts a rust mark on the part; use a dedicated disc for stainless or clean it before it moves.
@@ -156,7 +156,7 @@ When you move from a handful of discs to a regular or branded run, the conversat
 - **Diameter and pad or arbor** — matched to the tool and the setup you actually run.
 - **Maximum working speed** — confirmed against the model, never assumed, because it has to come from the disc.
 - **Label and packing** — your logo, your part code and any spec sheet on the box for a branded run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the Stainless Steel Finishing order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. They are the last two fields to be filled on a clean enquiry.
 
 Send those six fields and the order becomes a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec so the grit, the backing and the label all match what you expect before the full order.
 
@@ -182,7 +182,7 @@ Send those six fields and the order becomes a conversation instead of a gamble. 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+The Stainless Steel Finishing checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P400 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's no load speed is below the disc's printed maximum working speed before every use.
 - Check the pad, flange or adapter is the correct size and the disc seats fully; use a rated adapter, never grind the hole larger.
@@ -191,7 +191,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Keep the disc clean and dedicated to stainless, or clean it before it moves from a steel job, so you do not seed a contamination mark.
 - Confirm the grain, the grit, the backing, the diameter and the grit standard (FEPA or ISO 848) in every order so you do not mix scales.
 - Follow the disc maker's install notes, and check the part for heat and scratch depth on thin or soft material.
-- Keep a record of the PPE and controls you rely on; a useful U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Log the PPE and dust controls the Stainless Steel Finishing work actually uses; the U.S. reference is [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the practical read is [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). It is the one line that survives a shop change.
 - Confirm lead time, minimum order and packing for any bulk or branded run, and start with the [request a quotation](/en/quote) form.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit, the grain and the backing to start from, and work the whole stainless steel finishing sequence with you on the [request a quotation](/en/quote) page.
+If you name the material, the finish line and the tool, the Stainless Steel Finishing grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P400 rather than the stock that happens to be on the shelf. The fields are short on purpose — the sequence is where the length goes.

@@ -18,7 +18,7 @@ Where the rule bends is two places. Very soft or sugary wood can pack the face a
 
 The phrase "sandpaper grade" comes up in a lot of enquiries, and it is the right instinct: a belt is a sandpaper grade, wrapped into a loop, and cut on a machine that carries it across the surface at a controlled speed. So the selection problem is the sandpaper problem with two added variables — the width of the loop and the speed of the drive. Nail the grade to the material, size the loop to the machine, and keep the machine under the belt's rated speed, and most of the "wrong belt" complaints disappear.
 
-Two habits keep this from being guesswork. Name the grit standard — FEPA or ISO 848 — in every enquiry, and confirm the tool's actual line speed against the belt's rated speed before the belt goes on the drum. Everything below is the reasoning behind those two moves, and the [abrasives glossary](/glossary) is worth keeping open whenever a label term is unfamiliar to you.
+Two habits make the Abrasive Belts spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P120 band and the belt sander before the first pass. Everything below is the reasoning behind those two moves. That order is why the next order lands the same way as this one.
 
 ### How an abrasive belt actually works
 
@@ -73,7 +73,7 @@ Material moves the starting grit even when the machine is the same. The quick re
 - **MDF and engineered board** 📐 — a coarse grit and a moving machine beat a fine grit held in one spot; P80 to P120 for removal, P150 to P240 to bring it even.
 - **Mild steel** ⚙️ — P36 to P60 to strip and open the surface, P80 to P120 to clean it up before primer or paint.
 - **Stainless** 🧊 — P80 to P120 to prepare, P180 to P400 to clean. Keep the belt dedicated to stainless, because mild steel particles embedded in a belt that has run on carbon steel are the seed of rust spots on the stainless part later.
-- **Aluminium and soft alloys** 🟦 — slick, so start finer than you would on steel, P120 to P240, and keep the face moving so it does not dig a swirl mark.
+- **Aluminium and soft alloy** 🟦 — the soft metal wants P120 to open and the fine rung to close Abrasive Belts; a coarse grit digs past what the part can forgive, so start low and move. The alloy forgives a fine start, not a coarse one.
 
 Two worked examples, because the sequence is where the money is:
 
@@ -122,7 +122,7 @@ When you move from buying a loop or two to a [wide sanding belt](/collections/ab
 - **Backing and bond** — the cloth build and the bond strength, chosen for the machine speed and the load the loop takes; the two are a spec pair, not a coin flip.
 - **Rated speed** — confirmed against the model, never assumed, because the number has to come from the loop, not from a guess.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the Abrasive Belts order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. They are the pair that decides which shelf the lot comes off.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) page is where to start, and for a private label run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect on the shelf.
 
@@ -138,7 +138,7 @@ Storage is where a belt quietly dies. A loop kept against a hot window, or in a 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The Abrasive Belts mistake costs more the longer it rides. What shows up most on the P120 line, and the correction that actually moves the cut: All of them are cheaper on the bench than on the finished panel.
 
 - **Skipping grits.** Going from P60 straight to P400 leaves P60 scratches under the finish; add the P120 and P180 steps and the surface clears.
 - **Pressing into a glazed face.** A face that has packed or glazed stops cutting, and more pressure makes it worse. Step to the next grit, move the machine, and if the material packs, change to a grain that is not as soft as the workpiece.
@@ -168,7 +168,7 @@ For any of these, [the abrasive belt range](/collections/abrasive-belts) is wher
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these machines is reduced, not eliminated.
+Before you buy Abrasive Belts: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. Each item below is one you can check against the delivery in hand.
 
 - Confirm the sander's real line speed is under the belt's rated speed before every use, and where the rated speed is not in front of you, confirm it against the model and keep the tool below it.
 - Check the loop size matches the drum, and that the tracking and the guard are set, before the loop goes on.

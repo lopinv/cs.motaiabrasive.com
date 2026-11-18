@@ -16,7 +16,7 @@ The one rule that decides most non-woven sanding discs selections: **match the g
 
 Two scenarios where the rule bends. Very soft materials — thin laminates, painted thin wall, softwood — where even P80 digs deeper than the layer you are trying to move, so you start finer and keep the disc moving. And heat sensitive work, where a coarse grit held in one spot builds heat that glazes the surface or warps a thin part. In both cases the answer is a finer starting grit and lighter pressure, not more of the same.
 
-Two habits that keep this repeatable. State the grit standard you are buying to — FEPA or ISO 848 — in every enquiry, and confirm the attachment format and the rated speed against your pad or machine before the disc touches the part. Everything below is the reasoning behind those moves, and the full range we supply is on [the sanding disc range](/collections/sanding-discs) page, with the terms defined at [the abrasives glossary](/glossary).
+Make the Non-Woven Sanding Discs spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P400 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### How non-woven sanding discs are built
 
@@ -51,7 +51,7 @@ Material moves the starting grit even when the tool stays the same. The list bel
 - **Wood and MDF** 🪵 — P80 to P120 to remove stock, P240 to P400 to bring the surface even. MDF and softwood load a disc fast because they are soft and sugary, so a moving disc and a coarser grit beat a fine grit held in one spot; switch to a cleaner face when the clog shows.
 - **Painted and primed metal** 🚗 — P240 to P400 to break the gloss and open the surface, P800 to P1000 to level between coats, P1500 to P2000 right before a top coat. Automotive repair is the sequence that uses the whole range most, and the [automotive repair sanding use](/applications/automotive) notes walk through which grit sits at which stage.
 - **Mild steel and castings** ⚙️ — P40 to P60 to open a rough face, P80 to P120 to remove stock, then P240 to P400 to blend. A rough casting packs a fine grit, so you work coarse to fine in steps rather than jumping to a fine disc.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — P400 to prepare and a finer rung to finish Non-Woven Sanding Discs; the alloy scratches deeper than steel, so start finer and keep the disc moving. The scratch depth is what the grit is managing.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc clean and dedicated, or change grits between a steel job and a stainless one, because embedded mild steel particles seed rust spots on the stainless part later; the [stainless steel finishing notes](/applications/stainless-steel) cover the sequence in more detail.
 
 The rule underneath the list is always the same: grit to the material and the finish, grain to how the cut has to feel. Aluminum oxide is the grain to default to on wood, painted metal and general steel; ceramic grain earns its place where the volume is steady and the cost per finished surface is the number you manage; silicon carbide is the pick for the soft, slick materials where aluminum oxide would burnish.
@@ -112,17 +112,17 @@ Disc life is where the two ends of the grit range pull apart most. A coarse grit
 
 Under cutting is the quiet complaint, because the disc looks fine and the machine sounds fine, but the surface is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** More pressure is not more cut: it loads and glazes the face. When the Non-Woven Sanding Discs cut fell at P400, the answer is a lighter hand, not a heavier grit. The move, not the grit, is the correction.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like ceramic grain on a material that loads a softer grain.
 - **Wrong attachment for the pad.** A disc that does not sit flat on the pad works the outer edge harder and the center not at all; check the attachment and the size before you change grits.
 - **Tool speed off.** A disc wants to be in the range it was made for. Too slow and it cuts soft; past the rated speed and the bond is under stress it was not set for. Keep the tool below the rated speed and confirm the rating against the model.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** The fine grit asks the Non-Woven Sanding Discs part to be polished where it should be cut; one grit lower and it is removing again. It is the first grit to question.
 
 For each of these, the [sanding disc range](/collections/sanding-discs) shows the grit and attachment to reach for, and the [abrasives glossary](/glossary) keeps the terms straight so you and your team are diagnosing the same problem. The thread that runs through all five is that under cutting is almost always a match problem, not a bad disc; fix the grit, the grain, the attachment or the speed and the cut returns.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Non-Woven Sanding Discs. These are the errors that surface most at P400, and the move that actually changes the result: Every one is a match problem wearing another problem's name.
 
 - **Skipping grits.** Going from P120 straight to P1000 leaves P120 scratches under the finish; add the P240, P400 and P800 steps and the surface clears.
 - **Pressing in on a fine grit.** Fine grits want to skim, not dig; the hard press glazes the face and the disc stops opening the surface. Light pressure and a moving disc are the fix.
@@ -166,7 +166,7 @@ When a job moves from a handful of discs to a regular run or a branded one, the 
 - **Size and attachment** — 3-inch, 4-inch, 5-inch or 6-inch, PSA, hook-and-loop or perforated center-hole, matched to the pad and the machine the shop runs.
 - **Rated speed** — confirmed against the model and the pad the order will run on; where the rating is not printed, confirm it with sales before the order ships.
 - **Label and packing** — the logo, the part code and the spec sheet on the box for a private label run, which is the scope of the [OEM and private label service page](/oem).
-- **Quantity and lead time** — the order quantity and how fast it has to be on the shelf, which sets whether the order ships from stock or gets cut on the run; the minimum order quantity is the number to [confirm with sales](/quote) before you commit.
+- **Quantity and lead time** — the Non-Woven Sanding Discs order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. Say the two out loud and the make-to-run question answers itself.
 
 Send those six fields and the order has a shape. For a new branded run, the move that saves the most rework is a sample against the spec before the full order, so the grain, the grit and the label all match what the bench expects; the [request a quotation](/quote) form is where that sample starts, and the [sanding disc range](/collections/sanding-discs) is where you check the sizes and attachments against the pads you actually run.
 
@@ -190,7 +190,7 @@ Send those six fields and the order has a shape. For a new branded run, the move
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant speed, correct fit and the right protection the risk of these tools is reduced but not zero.
+The Non-Woven Sanding Discs checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P400 work goes down but never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm the tool no-load speed is below the disc rated maximum working speed before every use; where the rating is not printed on the model, confirm it with sales and keep the tool below it.
 - Check the attachment and the pad or arbor fit the disc size, and use the pad the disc was cut for rather than forcing a mismatch.
@@ -202,4 +202,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the pad maker install notes for the attachment, and check the part and the disc for heat and scratch depth on thin or soft material between steps.
 - Confirm lead time, minimum order and packing for a [sanding disc range](/collections/sanding-discs) or [private label order](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the grain to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Non-Woven Sanding Discs grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P400 rather than the stock that happens to be on the shelf. The more of the three you name, the less the supplier has to guess.

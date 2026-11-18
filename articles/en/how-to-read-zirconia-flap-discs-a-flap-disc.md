@@ -46,7 +46,7 @@ This is where the grit and the grain are matched to the substrate, and it is whe
 - **Mild steel, everyday grinding and deburring** — P80 to P100 zirconia to remove, P180 to P240 to blend; this is the bread and butter of a zirconia disc on steel.
 - **Stainless steel** — P100 to P120 zirconia to work the weld, P320 to P400 to clean; keep the disc clean and dedicated, because embedded carbon steel particles are the seed of rust spots later, and the [stainless steel finishing use](/applications/stainless-steel) notes cover the dedicated-disc practice in more detail.
 - **Castings and rough, scale-heavy surfaces** — P60 to P80 to open the face, then step down; a rough casting will pack any fine grit, so the sequence is coarse to fine in steps, never a jump.
-- **Aluminium and soft alloys** — start at P120 to P180 and keep the disc moving; softer than steel, so a coarse zirconia grit will scratch deeper and build more heat than the part wants.
+- **Aluminium and soft alloy** 🟦 — P1800 for the open on Zirconia Flap Discs, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the disc keeps moving. One rung lower and the metal keeps its finish.
 - **Heavy rust and oxide on industrial prep work** — P60 to P100 zirconia for the removal, with [industrial surface preparation use](/applications/surface-preparation) as the sequence reference for the prep stages.
 
 The worked example that ties it together: a fillet weld on 6 mm mild steel that has to go into paint. Start P100 zirconia on a steel backing to take the cap down to roughly flush, P180 to even out the ground patch, P320 to blend the transition so there is no visible line where the weld stops and the plate starts, and P400 to clean up before the primer. Each step keeps the scratch finer than the one before; skip the P180 step and the P100 scratches show through the finish, which is the single most common reason a ground weld looks wrong under the coat. For the full sequence by material and by finish line, the [metal fabrication application notes](/applications/metal-fabrication) and the [abrasives glossary](/glossary) are the two references to keep open, so the grit numbers and the label terms mean the same thing on the shop floor as they do in the spec sheet.
@@ -103,11 +103,11 @@ For any of these, the [metal fabrication application notes](/applications/metal-
 
 Under cutting is the quiet complaint, because the disc looks fine and the machine sounds fine, but the part is not moving. The causes are usually one of these five, and each has a different fix, so the diagnosis is worth doing before the next disc is ordered:
 
-- **Pressure, not grit.** Pressing into a zirconia disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when the operator leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Leaning into the face loads and glazes it, the opposite of more cut on Zirconia Flap Discs. If the cut dropped when you leaned in, the fix is a lighter hand and a moving disc, not a coarser grit. It reads as a disc fault but is a hand fault.
 - **Grain wrong for the material.** A zirconia grain on a soft, slick material will pack instead of cut; the fix is a grain match, not a grit change.
 - **Wrong backing for the speed.** A zirconia disc running hot and flexing is a backing that suits a slower tool; the backing limits the cut before the grit does, and the fix is the backing that suits the tool speed.
 - **Tool speed too low.** A flap disc wants to spin; below its design speed it cuts soft and slow, and on zirconia the cut loss is more noticeable because the grain is built to work at speed.
-- **Grit too fine for the job.** A P1800 zirconia disc on a P60 scratch is polishing instead of removing; step back up the ladder and the cut comes back.
+- **Grit too fine for the job.** P1800 on a Zirconia Flap Discs stripping task smears rather than removes; drop a grit and the cut returns. It is the grit, not the effort, that matters.
 
 For each of these, the [flap disc range](/collections/flap-discs) shows the grit and backing to reach for next, and the [metal fabrication application notes](/applications/metal-fabrication) give the sequence by material, so the fix is a known step rather than a guess. The thread that runs through all five is that under cutting on a zirconia disc is almost always a match problem, not a bad disc; fix the grit, the grain, the backing or the speed and the cut returns, and the disc is only as good as the four things you matched it to before the job started.
 
@@ -133,7 +133,7 @@ For each of these, the [flap disc range](/collections/flap-discs) shows the grit
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection in place, the risk of these tools is reduced but not zero.
+Keep this Zirconia Flap Discs checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P1800 risk is cut by the right protection, not eliminated. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool maximum speed is below the disc printed maximum working speed before every use, and confirm the rated speed with sales if it is not printed on the model you are running.
 - Check the arbor hole and the flange are the correct size for each other, and fit and keep the tool guard on at all times; it is the first defence against a disc failure.
@@ -143,7 +143,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Check the certification or the inspection report against your own site requirements before the order is confirmed, and ask for the report with the batch.
 - Store the discs dry and out of direct heat, and rotate stock so the oldest discs go first, because a hot warehouse bakes the disc face before the disc ever runs.
 - Follow the disc maker install notes, and check the part and the disc for heat and scratch depth on thin or soft material before the next pass.
-- Keep a record of the PPE and the controls you rely on, with the U.S. baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction Zirconia Flap Discs depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. Keep it on the job sheet, not in a binder.
 - For a [flap discs wholesale](/collections/flap-discs) or [private-label order](/oem), confirm lead time, minimum order and packing, and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from, and confirm the lead time for the run. Send those three and we will work the zirconia sequence with you on the [request a quotation](/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Zirconia Flap Discs. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P1800. Send all three at once and the quote comes back as a finished plan.

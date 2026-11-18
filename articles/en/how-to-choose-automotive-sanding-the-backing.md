@@ -16,7 +16,7 @@ Most of the time spent arguing about automotive sanding is spent on grit, and gr
 
 Two scenarios bend the rule, and both show up in enquiries. The first is tight, small-radius work — door pockets, rockers, around a wheel arch — where a 6-inch disc physically cannot get into the curve no matter how fine the grit is; the answer there is a smaller diameter (4 inch or 3 inch), not a finer grit on an oversized disc. The second is thin sheet with a light filler build: a coarse grit pressed hard builds enough heat to colour or curl the backing, so you either drop a grit and lighten the pressure, or switch to a mesh backing that flexes with the panel and spreads the load. The shapes we supply sit within a defined range — 3, 4, 5 and 6-inch PSA, 5 and 6-inch mesh, and 6-inch non-hole, with grits running 60 to 5000 — and the full set is visible at [the sanding disc range](/collections/sanding-discs). If your tool is a DA sander, [the 6-inch 17-hole hook-and-loop disc](/disc/gold17) is a good reference for how a panel-stage disc is meant to look and behave.
 
-Two habits to keep for every order that follows, at any shop scale: state the grit standard you are buying to (FEPA or ISO 848) so two suppliers do not quietly ship two different grain sizes for one number, and confirm each tool's rated speed against the disc before the first pass. If the job is a full automotive sanding sequence across bodywork — filler, primer, and the surface ahead of clear — the worked sequence below is the one to keep open at the bench, and the grit ladder for each stage is the second thing to check against the stock you actually have. Where a label term is unfamiliar — bond, perforations, PSA — keep [the abrasives glossary](/glossary) open; it is short and worth reading once.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P320, backing, belt sander — happens before the first pass, not after the surface has moved. One minute of habit, saved in every pass after the first.
 
 ### What a disc is actually made of
 
@@ -138,15 +138,15 @@ The thread through all five is that the disc is rarely the problem, and the matc
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+Keep this Automotive Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P320 risk is cut by the right protection, not eliminated. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm the tool's rated speed against the disc rating before the first pass, and keep the tool below the disc's number; the rated speed comes from the disc, not from a guess.
 - Check the interface the tool offers — the pad, the mandrel or the belt class — and match the backing to it, because a backing on the wrong interface is the most common cause of a panel that comes out wrong.
 - Keep the tool guard fitted where the tool has one, and check the guard size against the disc before the job, because the guard is the first defence against a disc that fails at speed.
-- Wear eye and face protection on every pass, and use the respiratory protection and the dust extraction matched to the dust load, which on primer and filler work is a load that is not trivial.
+- Wear eye and face protection on every pass of the Automotive Sanding work, run the extraction with the right filter, and add the respiratory protection where the dust load sits at the face. It is the step the next trade takes over from.
 - Name the grit standard (FEPA or ISO 848), the grit, the backing form, the diameter and the tool in every order, so two suppliers do not ship two different discs under one part number.
 - Follow the maker's install notes for the disc and the tool, and on thin or sealed panel work, check the panel and the disc for heat and scratch depth before the next stage.
-- Keep a record of the PPE and the controls the shop relies on; the U.S. baseline for PPE is at [OSHA 29 CFR 1910.132 — PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), the portable tool side is at [OSHA 29 CFR 1910.244 — portable power tools](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.244), and the setup and check side is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction Automotive Sanding depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. The record is what survives the shop change.
 - Confirm the minimum order, the lead time and the packing for any [OEM & private-label service](/oem) or [request a quotation](/quote) order, and start the conversation with the grit, the backing, the diameter and the standard on the table.
 
 If you send the material, the finish you are aiming for and the tool you run, the grit and the backing to start from can be picked before the order is placed. Send the three and the sequence is worked out with you on the [request a quotation](/quote) page, and the backing is matched to the tool so the panel does not come out wrong.

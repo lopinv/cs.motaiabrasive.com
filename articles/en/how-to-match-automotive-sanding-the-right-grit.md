@@ -140,7 +140,7 @@ The [request a quotation](/quote) page is where the numbers start, because a quo
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on body benches, with the fix that moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P180 on Automotive Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: In each case the surface gives the tell before the cost does.
 
 - **Skipping grits** 🕳️ — going from P80 straight to P400 leaves P80 scratches under the top coat, and they read in direct sun. Add the P120 and P180 steps and the surface clears; the skipped grit is always the expensive one.
 - **Too coarse for pre-paint** 🎯 — P150 under a thin single-stage top coat telegraphs; the pre-paint band for a fine film is P240 to P320, and the coating's data sheet sets the maximum scratch it will flow over. Step the grit down one band when the coat is thin.

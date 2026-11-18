@@ -16,7 +16,7 @@ The rule that decides nearly every sheet-versus-disc question: **match the form 
 
 Two scenarios bend the rule, and both show up in shops we work with. First, a very rough casting: even its "finishing" stage is still too heavy a cut for paper, so the disc does the first two steps and the sheet takes over near the end. Second, a very thin panel: the removal rate of a disc is too aggressive for it, so paper handles every step instead. Where your job is everyday grinding plus a clean finish, start the sequence on a disc at P60–P80, hand off to paper in the P120–P240 band, and close out at P320–P400.
 
-Two habits turn this into a repeatable spec: state the grit standard in every enquiry (FEPA or ISO 848), and keep every tool at or below its rated speed. For the shapes and grits we supply, start at [the sanding disc range](/en/collections/sanding-discs) and keep [the abrasives glossary](/en/glossary) open whenever a label term is new to you.
+Make the Sandpaper Sheets spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P80 band against the tool you actually run (angle grinder) before the first cut. The rest of this page is why those two moves earn their keep. Both habits cost a minute and buy back the whole pass.
 
 ### What a Sandpaper Sheet and a PSA Disc Are
 
@@ -78,7 +78,7 @@ Material shifts the starting grit even when the tool stays the same. The list be
 
 - **Mild steel** ⚙️ — P60–P80 on a disc to remove, P120–P240 on paper to blend. The bread and butter range where most abrasive life is spent.
 - **Stainless** 🧊 — P80–P120 to remove, P240–P400 to clean. Keep the abrasive clean and dedicated to the material; a mild steel particle left in the grain becomes a rust spot later.
-- **Aluminium and soft alloy** 🟦 — P120–P240 to prepare, P320–P400 to finish. Softer than steel, so start finer and keep the tool moving; a coarse grit on it scratches deeper than you want.
+- **Aluminium and soft alloy** 🟦 — P80 to prepare and a finer rung to finish Sandpaper Sheets; the alloy scratches deeper than steel, so start finer and keep the angle grinder moving. One rung lower and the metal keeps its finish.
 - **Wood and MDF** 🪵 — P80–P120 for stock, P180–P240 to bring it even. MDF loads paper fast because it is soft and sugary, so a moving tool beats a held one.
 - **Castings and rough surfaces** 🧱 — P40–P60 on a disc to open the face, then P80–P120. A rough casting packs a fine grit, so work coarse to fine in steps.
 
@@ -116,7 +116,7 @@ Life is where the two backings pull apart most. A steel-backing disc on an aggre
 
 ### Common Mistakes and How to Fix Them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the move that actually moves the problem:
+The repair is usually cheaper than the damage on Sandpaper Sheets. These are the errors that surface most at P80, and the move that actually changes the result: Each item names the check that catches it before the surface is gone.
 
 - **Skipping grits at the handoff.** Going from P80 straight to P400 leaves the P80 scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Running a PSA disc on a die grinder or a high speed tool.** The speed and the pressure are past what the paper backing is meant to see; the disc loads, glazes, and the bond fails. Move the disc to a tool that suits it.
@@ -136,7 +136,7 @@ When you move from buying a handful to a bulk or branded order, the conversation
 - **Size and arbor** — the diameter and the centre hole, matched to the tool and flange you run.
 - **Maximum working speed** — confirmed against the model, never assumed, because it has to come from the part.
 - **Label and packing** — your logo, your part code, and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the Sandpaper Sheets order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. Name both and the routing of the order takes care of itself.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect. The minimum order quantity and the lead time for a branded run are the two numbers to confirm with sales before you commit, because they set the whole schedule.
 
@@ -182,7 +182,7 @@ The [request a quotation](/en/quote) page asks for most of these fields, and the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection, the risk of these tools is reduced, not zero.
+The Sandpaper Sheets checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P80 work goes down but never to zero. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm the tool maximum speed is at or below the part's printed maximum working speed before every use; the number has to come from the part.
 - Check the arbor hole and the flange are the correct size, keep the guard on and the correct size for the disc, and use a rated adapter where needed.
@@ -194,4 +194,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the install notes for the tool, and check the part and the abrasive for heat and scratch depth on thin or soft material before the next pass.
 - For any [flap discs wholesale](/en/collections/flap-discs) or [private label order](/en/oem), confirm the minimum order quantity and the lead time with sales, and start with the [quotation form](/en/quote); the manufacturing and quality detail is on the [manufacturing & quality page](/en/factory).
 
-If you tell us the material, the finish you are aiming for, and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the handoff sequence with you on the [request a quotation](/en/quote) page.
+If you name the material, the finish line and the tool, the Sandpaper Sheets grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P80 rather than the stock that happens to be on the shelf. No template is attached; the three fields travel in the message itself.

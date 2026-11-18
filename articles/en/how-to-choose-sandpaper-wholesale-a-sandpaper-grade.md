@@ -16,7 +16,7 @@ The rule that governs almost every sandpaper wholesale order is short: **match t
 
 Two scenarios where that rule bends. The first is very soft, sugary material where even P60 packs the grain quickly and wants an open, coarser grit that keeps cutting instead of loading. The second is curved panel work, where backing flexibility matters more than grit, because a stiff disc skips over the curve and hollows the part. If your work is everyday automotive and workshop sanding, start in the P120 to P240 band, confirm the FEPA number against what is already on the bench, and check the disc fits the pad before it touches the work. For the range we ship, see [the sanding disc range](/collections/sanding-discs) and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits that turn this from guesswork into a repeatable spec. Always state the grit standard in every sandpaper wholesale enquiry, FEPA or ISO 848, and always name the format and size the tool or pad actually takes. Everything below is the reasoning behind those two moves.
+Two habits make the Sandpaper Wholesale spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P120 band and the random orbit sander before the first pass. Everything below is the reasoning behind those two moves. Do them once per job and the rest of the sequence holds together.
 
 ### What the grit number on a label really means
 
@@ -60,7 +60,7 @@ Material moves the starting grit even when the tool is the same. The lists below
 - **Automotive body filler and primer** 🚗 — P80 to P120 to shape, P180 to P240 to prepare for top coat. This is the sequence the [automotive repair sanding use](/applications/automotive) notes walk through, and it is where the P180 to P240 band does most of its work.
 - **Mild steel** ⚙️ — P60 to P80 to remove stock, P120 to P240 to smooth. The bread-and-butter range for any workshop bench.
 - **MDF and particle board** 🪵 — P120 to P150 to open, P240 to P320 to clean. MDF dust is fine and sticky, so a dry hand pass throws more into the air than you think; extract it at the source.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit digs deeper and clogs faster; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — the soft metal wants P120 to open and the fine rung to close Sandpaper Wholesale; a coarse grit digs past what the part can forgive, so start low and move. One rung lower and the metal keeps its finish.
 - **Stainless** 🧊 — P120 to P240 to remove, P320 and finer to clean. Keep the grit dedicated to stainless, or swap discs before you move it back to steel, because embedded steel particles start rust spots on the part later.
 
 Worked example, a workshop door: the job is to resand a primed door to a paint-ready state. Start on P120 to take out the deepest scratches and any uneven area, move to P180 to even the whole face, then P240 to de-raise and leave a uniform low scratch before the coat. If you skip the middle step, the P120 scratches show through the top coat after it cures and the door comes off and starts again, which is exactly the failure mode the grit sequence rule exists to prevent. For the disc formats that suit each step, the [hook-and-loop sanding discs](/products/hook-loop-sanding-discs) are the practical pick on a random orbit sander, and the grit band we hold, 60 to 5000, is visible across the [sandpaper disc range](/collections/sanding-discs).
@@ -113,7 +113,7 @@ When you move from buying a handful of discs to a full line, the conversation sh
 
 - **Grain and grit** — the grain, aluminium oxide, zirconia alumina, silicon carbide or ceramic, and the FEPA or ISO 848 grit, stated on the same scale you shop to.
 - **Format and size** — PSA, mesh, hook-and-loop or a 6-inch solid, and the diameter, matched to the pad or the machine you run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of Sandpaper Wholesale needed and the date it is needed by; together they decide stock versus make-to-run. Name both and the routing of the order takes care of itself.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private-label run.
 - **Material and finish** — what you are sanding and the finish you are aiming for, so the grain and the grit are chosen against the job, not against a habit.
 
@@ -127,7 +127,7 @@ On the bench, the handling rule is shorter. Pull the format you will use and lea
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The Sandpaper Wholesale mistake costs more the longer it rides. What shows up most on the P120 line, and the correction that actually moves the cut: Each item names the check that catches it before the surface is gone.
 
 - **Skipping grits.** Going from P80 straight to P240 leaves P80 scratches under the finish; add the P120 and P180 steps and the surface clears.
 - **Loading and glazing.** A face that is packed with soft material or glazed flat stops cutting; step to a finer grit, change to a grain that is not as soft as the workpiece, and clean the face between passes.
@@ -158,15 +158,15 @@ For any of these, the [sandpaper disc range](/collections/sanding-discs) shows t
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Before you buy Sandpaper Wholesale: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your tool maximum speed is below the disc rated speed before every use; where the rated speed is not on the label, confirm it against the model with sales.
 - Check the disc fits the pad or machine: correct diameter, correct backing type, and the guard fitted where the machine has one.
-- Wear eye and face protection on every pass, and use respiratory protection that suits the dust load, not a loose mask.
+- Eye and face protection on every Sandpaper Wholesale pass, dust extraction with the filter for the material, and the respiratory protection matched to the load when the extraction is not at the face. Worn on every pass, not just the first.
 - Run dust extraction at the source, suited to the material, and keep the waste out of the walkway rather than swept to the corner.
 - Name the grit standard, FEPA or ISO 848, in every enquiry so two scales are not mixed on the shelf.
 - Ask for an inspection report or a batch check against your spec for the line you are ordering, and keep the reference with the order.
 - Store the paper dry and away from heat, and transport it so the backs do not lift and the grit does not work loose in the carton.
 - Follow the install and fit notes for the format: seat a hook-and-loop disc on the pad before the first pass, and confirm the pad diameter matches the disc.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from, and the [request a quotation](/quote) page is where that conversation begins.
+The three fields to start a Sandpaper Wholesale order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P120 downward, to the job instead of the nearest stock. Three fields, one message, and the order stops needing follow-up calls.

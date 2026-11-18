@@ -14,7 +14,7 @@ image: psa-4
 
 Here is the rule that governs nearly every decision on the floor with sanding discs: **pick the disc type for the job, set the grit to the cut, and keep the tool below the disc's rated speed.** A coarse P80 to P120 disc removes stock fast but leaves a visible scratch; a P240 to P400 disc blends and prepares; a fine P1500 disc de-raises rather than digs. A flat PSA disc on a palm sander gives even, controlled work over large faces; a quick-swap loop disc lets you change grits between stages without re-rigging the pad; a flap disc on an angle grinder does the heavy metal work that a flat disc should not do. Two scenarios where the rule bends: on very soft materials, even P60 to P80 can dig too deep, so you start finer; and on thin sheet or panel, heat build-up from a coarse grit can warp the part, so you step down a grit and keep the disc moving instead of pressing in. For everyday steel and automotive prep, start in the P80 to P120 band and work finer to the finish you are aiming for.
 
-Two habits turn this from guesswork into a repeatable spec. First, always state the grit standard you are buying to — FEPA (ISO 848) — because the same number on two different scales can land as two different grain sizes, and a whole bench of stock can sit on two quiet, separate scales. Second, always confirm the fit before the disc touches the part: the size for the tool, the mount or arbor that lines up, and the rated speed of the disc sitting above the tool speed. The full lineup, from 3-inch to 6-inch sizes and grits 60 to 5000, sits in [the sanding disc range](/collections/sanding-discs), and any label term that feels off is defined in [the abrasives glossary](/glossary). Everything below is the reasoning behind those two moves, with worked grit sequences, failure modes and a pre-purchase checklist.
+Two habits make the Sanding Discs spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P80 band and the angle grinder before the first pass. Everything below is the reasoning behind those two moves. Do them once per job and the rest of the sequence holds together.
 
 ### The five types, and where the flap disc fits
 
@@ -87,7 +87,7 @@ The rule underneath all three sequences is the same: every layer of scratch must
 
 - **Mild steel** ⚙️ — P60 to P80 to remove, P120 to P240 to blend. The bread and butter range.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean; keep the disc dedicated or swap grits, because embedded mild steel particles start rust spots later.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish; softer than steel, so a coarse grit scratches deeper than you want.
+- **Aluminium and soft alloy** 🟦 — the soft metal wants P80 to open and the fine rung to close Sanding Discs; a coarse grit digs past what the part can forgive, so start low and move. Softer metal, finer start — that is the rule.
 - **MDF and engineered wood** 🪵 — P80 to P120 to remove, P240 to P400 to bring even; MDF loads a fine grit fast, so a coarser grit and a moving disc beat a fine grit held still.
 - **Castings and rough surfaces** 🧱 — P40 to P60 to open the face, then P80 to P120; work coarse to fine in steps rather than jumping to a fine disc.
 
@@ -185,7 +185,7 @@ On lead time, two things set it. In-stock grits and common sizes usually ship fa
 
 ### Common mistakes at the bench, and the fixes
 
-The fixes are usually cheaper than the mistake. What shows up most often, with the fix that actually moves the problem:
+The Sanding Discs mistake costs more the longer it rides. What shows up most on the P80 line, and the correction that actually moves the cut: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Skipping grits** — going from P80 straight to P400 leaves the P80 scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Line-speed mismatch** — a flap disc spinning past its printed maximum will separate at the flaps; lower the tool speed or fit a smaller disc, and confirm the rating against the model before the first pass.
@@ -214,7 +214,7 @@ The thread through all six is that a disc is only as good as the grit, the backi
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+Before you buy Sanding Discs: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P80 risk, never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's maximum speed is below the disc's printed maximum working speed before every use, and confirm the rating against the model.
 - Check the arbor, flange, pad or plate are the right size for the disc, and use a rated adapter where a disc needs one.
@@ -226,4 +226,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes, and on thin or soft material, check the part for heat and scratch depth as you go, not after.
 - Confirm lead time, minimum order and packing for any volume or private label order, starting at [the OEM & private-label service page](/oem) and the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit, the type and the backing to start from — send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Sanding Discs grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P80 rather than the stock that happens to be on the shelf. No template is attached; the three fields travel in the message itself.

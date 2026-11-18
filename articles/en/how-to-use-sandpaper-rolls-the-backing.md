@@ -16,7 +16,7 @@ Here is the rule that governs nearly every sandpaper rolls decision: **match the
 
 Two scenarios where that rule bends. A very hard, slick surface — glass, polished stone, a sealed board — where even P60 will glaze and you reach for a wet-dry grain instead of a dry cloth roll; and a thin or large panel where a coarse grit builds heat and warps the work, so you drop a grit and keep the roll moving instead of pressing. If your job is everyday panel and furniture sanding, start in the P80 to P120 band and confirm the backing suits the tool you run before the roll touches stock.
 
-Two habits turn this from guesswork into a repeatable spec. Always name the grit standard you are buying to — FEPA or ISO 848 — and always confirm the backing, cloth or paper or hook-and-loop or non-woven, against the tool. Everything below is the reasoning behind those two moves, and the ways a roll behaves differently from a disc or a loose sheet. For the range of roll and disc forms we supply, look at [the sanding disc range](/collections/sanding-discs), keep [the abrasives glossary](/glossary) open when a label term is unfamiliar, and start a spec on [request a quotation](/quote) when you are ready to commit.
+Make the Sandpaper Rolls spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P80 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. Both habits cost a minute and buy back the whole pass.
 
 A short list of what to have on the bench before you open a roll:
 
@@ -127,7 +127,7 @@ When you move from buying a reel to a run of sandpaper rolls for a workshop or a
 - **Backing and form** — cloth, paper, hook-and-loop, non-woven or wet-dry, plus the roll width and the working length you are buying, because the backing is what sets how the roll feeds and how it re-opens.
 - **Maximum working speed** — the outer edge speed the run is rated for, confirmed against the model and never assumed, because the guard and the tool speed have to sit below it.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private-label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of Sandpaper Rolls needed and the date it is needed by; together they decide stock versus make-to-run. Name both and the routing of the order takes care of itself.
 
 Send those five fields and the order is a conversation instead of a gamble, and the distributor who can answer them against a panel you have in hand is the one worth building a regular order with. The [the OEM & private-label service page](/oem) walks through what can go on the packaging and how minimum order quantities work, and the [the abrasive belt range](/collections/abrasive-belts) shows the continuous forms when the run is long enough that a roll is the right feed. For a spot or detail panel that the roll leaves to the machine, the [5-inch 8-hole hook-and-loop disc](/disc/gold8) is the grit to match, and the [request a quotation](/quote) page is where the five fields start. If you are new to a branded run, ask for a sample reel against the spec before the full order, so the grain, the backing and the label all match what you expect on the panel.
 
@@ -161,7 +161,7 @@ For each of these, [the sanding disc range](/collections/sanding-discs) shows th
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not removed.
+The Sandpaper Rolls checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P80 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's maximum speed is below the roll or disc rated speed before every use, and keep the tool under that number.
 - Check the fit — arbor, pad, bar or clamp — and the guard are the correct size, and use a rated adapter where the hole or bore differs.
@@ -172,4 +172,4 @@ A short compliance and purchasing checklist. It is a reminder, not a substitute 
 - Follow the maker's install and tension notes, and check the part for heat and scratch depth on thin or soft material.
 - For a branded or wholesale run, confirm lead time, minimum order and packing on the [the OEM & private-label service page](/oem), and start the order on the [request a quotation](/quote) page.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send those three and we will work the sequence with you on the [request a quotation](/quote) page.
+The three fields to start a Sandpaper Rolls order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P80 downward, to the job instead of the nearest stock. No template is attached; the three fields travel in the message itself.

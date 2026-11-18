@@ -157,7 +157,7 @@ On lead time, two things set it. Stocked grits in the sizes we hold usually move
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the fix that actually moves the problem:
+The Industrial Sanding Belts mistake costs more the longer it rides. What shows up most on the P80 line, and the correction that actually moves the cut: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Skipping a grit step.** 🚫 Going from P80 straight to P400 leaves P80 scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Loading and glazing.** ⚠️ The face stops cutting and burns in where the grain packs or flattens. Clean the face with a belt cleaner, drop the pressure, and step to the next grit.
@@ -188,15 +188,15 @@ For any of these, [the abrasive belt range](/en/collections/abrasive-belts) show
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these machines is reduced, not removed.
+Before you buy Industrial Sanding Belts: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P80 risk, never to zero. Each item below is one you can check against the delivery in hand.
 
 - Confirm your machine's no-load speed at the wheel size you use is below the belt's rated maximum line speed, before every run.
 - Confirm the belt width and loop length fit the machine, the drive wheels are in spec, and the platen guard is on.
-- Wear eye and face protection on every pass, and match the respiratory protection to the dust load the grit and the material put up.
+- Eye and face protection on every Industrial Sanding Belts pass, dust extraction with the filter for the material, and the respiratory protection matched to the load when the extraction is not at the face. The protection is what makes the fine grit safe.
 - Run dust extraction at the point of generation, with a filter for the material, and keep the waste in a bin, not on the floor.
 - Name the grit standard — FEPA or ISO 848 — next to every grit in the enquiry, so the order cannot be mixed with a different scale.
 - Ask for the lot inspection report and confirm which certifications your market requires from an abrasive belt supplier; check them against [the manufacturing & quality page](/en/factory) before the order.
 - Store loops flat, dry and out of the sun, and transport them without kinks.
 - Follow the install notes: set the tension, check the wheel alignment, and confirm the splice style suits the grit and the load.
 
-If you tell us the material, the finish you are after and the machine you run, we can pre-select a grit and a backing grade to start from — send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The three fields to start a Industrial Sanding Belts order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P80 downward, to the job instead of the nearest stock. Skip the back-and-forth: the sequence comes back with the first answer.

@@ -131,7 +131,7 @@ When the job moves from a handful of pads to a bulk or branded run, the conversa
 - **Interface** — what the tool wants on the reverse: hook-and-loop, and whether the shop runs the loop face or the hook face on the pad.
 - **Rated speed** — confirmed per model, never assumed, because it has to come from the pad.
 - **Label and packing** — the logo, part code and any spec sheet on the box for a private-label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — how many 6 Inch Sanding Pad pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. Name both and the routing of the order takes care of itself.
 
 Send those and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the form and the label all match what you expect.
 
@@ -176,7 +176,7 @@ For any of these, [the sanding disc range](/en/collections/sanding-discs) shows 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant speed, correct fit and PPE the risk of these tools is reduced, not zero.
+A purchasing and compliance checklist for 6 Inch Sanding Pad, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P320 pass is reduced, not removed. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your tool's no-load speed is below the pad's rated maximum working speed before every use; confirm the rated speed against the model with sales, and never assume it.
 - Check the flange, adapter, or pad interface fits the tool's bore, and that the pad sits fully on it, not on the edge; a walking pad is a separate, preventable failure.
@@ -187,4 +187,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Confirm minimum order quantity, lead time, and packing for any [sanding disc order](/en/collections/sanding-discs) or [private label run](/en/oem), and start with the [quotation form](/en/quote).
 - Follow the pad maker's install notes, and check the panel for burn marks and scratch depth on thin or soft material before the next coat goes on, because those are the two defects the next coat will not hide.
 
-If you tell us the material, the finish you are aiming for, and the tool you run, we can help you pick the grit and the form to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The 6 Inch Sanding Pad enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P320 — is worked out with you, not copied from a shelf list. The fields are short on purpose — the sequence is where the length goes.

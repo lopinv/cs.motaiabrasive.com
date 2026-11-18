@@ -145,7 +145,7 @@ For any of these, the [woodworking sanding notes](/applications/woodworking) run
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistake. What shows up most on 6 inch work:
+The repair is usually cheaper than the damage on 6 Inch Sanding Pad. These are the errors that surface most at P80, and the move that actually changes the result: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - ⚠️ **Skipping grits.** P80 to P320 leaves the coarse scratch under the top coat; the P150 and P240 steps in between are the surface, not an extra pass.
 - 🔥 **Holding one spot on the panel.** A random orbital parked on one place burns a soft wood and turns a fill; keep the tool moving through the pass, and the perforated form is the one for the dirty passes.
@@ -174,12 +174,12 @@ For the terms, [the abrasives glossary](/glossary) keeps bench and office descri
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+The 6 Inch Sanding Pad checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P80 work goes down but never to zero. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm the tool's maximum no-load speed clears the pad's rated maximum working speed before every use, and where the pad does not print a number, confirm the rating against the model.
 - Check the arbor, the holder and the pad form agree: a holeless pad on a 6 inch holder, a perforated pad on a matching pad, and the belt's grit one or two bands coarser than the first pad grit.
 - Keep the tool guard fitted on every pass; it is the first defence against a pad or disc failure.
-- Wear eye and face protection on every pass, and match the respiratory protection to the dust load when the extraction is not at the face.
+- Every 6 Inch Sanding Pad pass carries eye and face protection, the extraction filter is chosen for the material, and the respirator is sized to the load that stays at the face. It is the step the next trade takes over from.
 - Run dust extraction with the right filter for the material, and keep the waste in a sealed bin rather than swept to the corner.
 - Name the grit, the pad form and the grit standard (FEPA, ISO 848) in every enquiry, so the order does not mix scales.
 - Ask for the inspection report or certificate against the batch you are ordering, and get it on the order, not after it.

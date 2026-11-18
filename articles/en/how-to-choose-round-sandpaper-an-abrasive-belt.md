@@ -62,7 +62,7 @@ Material and finish decide the sequence even when the pad and the tool stay the 
 - **MDF and engineered wood** 🪵 — P80 to P120 for the stock removal, P180 to P220 to level, P400 to clean up. MDF is sugary and loads discs fast, so the cut wants a moving disc and a coarser starting point than steel needs.
 - **Mild steel** ⚙️ — P80 to P120 to deburr and prepare, P180 to P220 to level, P400 to clean before paint or coating. This is the everyday band; the [metal fabrication abrasive use](/en/applications/metal-fabrication) notes carry the sequences by material.
 - **Stainless steel** 🧊 — P120 to P180 for the light prep, P220 to P400 for the finish. Keep the disc dedicated or swap grits between a mild steel job and a stainless one, because embedded steel particles are the seed of rust spots on the stainless part later; the [stainless steel finishing use](/en/applications/stainless-steel) notes cover the dedicated-disc habit.
-- **Aluminium and soft alloys** 🟦 — start finer than you would on steel, P120 to P240, because a coarse grit scratches deeper than the material wants; keep the disc moving and avoid pressing.
+- **Aluminium and soft alloy** 🟦 — P220 to prepare and a finer rung to finish Round Sandpaper; the alloy scratches deeper than steel, so start finer and keep the belt sander moving. The scratch, not the shine, is the target.
 - **Composites and slick surfaces** 🧊 — where an oxide grain would load, reach for silicon carbide, which cuts softer, slicker materials without packing. Confirm the grain on the disc before the job; the [abrasives glossary](/en/glossary) keeps the grain terms straight.
 
 The rule underneath the list is always the same: the sequence is coarse-to-fine, one step at a time, and the last stage is set by the finish you are aiming for.
@@ -139,7 +139,7 @@ For each of these, the [sanding disc range](/en/collections/sanding-discs) shows
 
 ### Common mistakes and how to fix them 🛠️
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often:
+The repair is usually cheaper than the damage on Round Sandpaper. These are the errors that surface most at P220, and the move that actually changes the result: Fix the match and the list gets shorter on the next job.
 
 - **Disc edges lifting and peeling** 📄 — round discs that are stored wet, left loose or cut on a pad that does not fit will curl and peel at the edge, and a peeling edge is the first thing that fails under pressure. Keep the stock dry, keep the disc on the pad it is made for, and check the edge of every disc before it goes on.
 - **Skipping grits** ⏭️ — going from P100 straight to P320 leaves P100 scratches underneath; add the P150 and P220 steps and the surface clears.
@@ -157,7 +157,7 @@ When you move from buying a handful of discs to a stock order or a branded run, 
 - **Grain and grit** — the grain (aluminum oxide, silicon carbide, ceramic) and the FEPA grit, both on the scale the shop shops to. For a body filler run, that usually means aluminum oxide from P80 through P400, with P220 stocked as its own line, not a step people run out of.
 - **Format** — hook-and-loop, PSA, mesh or solid, chosen against the pad the tool runs, as the format section above sets out. A P220 hook-and-loop disc is a different spec from a P220 mesh disc, and the pad decides which one the shop can actually run.
 - **Diameter** — 3, 4, 5 or 6 inch, matched to the pad, never to a wish. If the shop runs two pad sizes, the spec carries two diameters, and the P220 stage is the one that usually gets ordered in both.
-- **Quantity and lead time** — the order quantity and how fast it has to be on the shelf, which sets whether the order ships from stock or gets made to the run.
+- **Quantity and lead time** — the Round Sandpaper order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. They are the last two fields to be filled on a clean enquiry.
 - **Label and packing** — for a branded run, the logo, the part code and any spec sheet on the box.
 
 Send those fields and the order is a conversation instead of a gamble. Start with the [request a quotation](/en/quote) page, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the format and the label all match. One floor note: shops that standardize on one scale and one attach format cut the order down to grit, diameter and quantity, and that is the state the spec is worth working toward, because every field left open is a field a supplier can fill in a different way.
@@ -180,7 +180,7 @@ Send those fields and the order is a conversation instead of a gamble. Start wit
 
 ### Before you buy ✅
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant speed, correct fit and the right protection the risk of these tools is reduced, not zero.
+The Round Sandpaper checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P220 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm the tool's rated speed against the pad you are fitting before every session, and keep the tool below whatever the pad and disc are rated for.
 - Confirm the pad diameter matches the tool's pad diameter; a 5-inch disc on a 6-inch pad is not a fit, and do not improvise a disc onto a tool that was not designed for the format.
@@ -192,4 +192,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes for the pad and the tool, and re-check the fit each shift, not just at the start of the day.
 - For a bulk or [private label](/en/oem) order, confirm the minimum order quantity, the lead time and the packing detail against the order on the [request a quotation](/en/quote) page, and start with the [sanding disc range](/en/collections/sanding-discs) to map which grits are stocked in which format.
 
-If you tell us the material, the finish you are aiming for and the tool and pad you run, we can help you pick the grit, the format and the sequence to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+If you name the material, the finish line and the tool, the Round Sandpaper grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P220 rather than the stock that happens to be on the shelf. The fields are short on purpose — the sequence is where the length goes.

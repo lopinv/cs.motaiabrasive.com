@@ -160,7 +160,7 @@ A short compliance and purchasing checklist to run before the faces hit the benc
 - Confirm the perforated pad choice against the machine's dust ports before the order; a face that fights the machine's dust path blinds early and the cut goes soft.
 - Check the machine's no-load speed against any rated speed on the disc or its data sheet, keep the tool below it, and confirm the rated speed with sales where the face carries no marking.
 - Check the backing plate fit and condition before the job: the hooks are not worn out, lint is brushed from under the face, and the machine's shrouds and clamps are in place, because a loose or missing part is the first thing that goes wrong.
-- Wear eye and face protection on every pass, and use respiratory protection for the dust load; hardwood dusts in particular are a health hazard, not just a mess.
+- Wear eye and face protection on every pass of the Random Orbital Sander Pad work, run the extraction with the right filter, and add the respiratory protection where the dust load sits at the face. The protection is the habit, not the gear.
 - Run dust extraction at the source for the whole fine end of the ladder, and plan the sweep of the dust floor into the shift, not around it.
 - Name the grit standard in every enquiry — FEPA or ISO 848 — so the two scales do not quietly land on the shelf as the same number.
 - Ask for the inspection report or certificate on the lot you are buying; a factory-direct supplier can share it, and it is the document that says what the cloth, the grain and the bond on that lot actually are.

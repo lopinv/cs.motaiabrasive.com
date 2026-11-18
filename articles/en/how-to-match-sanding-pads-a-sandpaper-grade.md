@@ -16,7 +16,7 @@ The decision rule is two moves, in this order: **match the pad to your tool firs
 
 Two scenarios where the rule bends: a very flat, very wide panel, where a fixed body with the holeless family outcuts anything the orbital can do on a long straight path, and a job where dust capture is the real constraint, because the fine grits throw the lightest dust and the finish fails if the work gets dusty. If your job is ordinary wood prep, start the pair at P80 to P120 and keep the pad's disc family matched to the sander it sits on; the pad and disc families we supply are in [the sanding disc range](/collections/sanding-discs).
 
-Two habits make this repeatable instead of a guess: name the grit standard you are buying to (FEPA or ISO 848), and confirm the pad actually fits the tool's plate before the paper ever touches wood. That second habit is what separates sanding pads that cut clean from the ones that swirl, skip or burn, and everything below is the reasoning behind those two moves. The habit is cheap. The cost of skipping it shows up in a finish that is sanded, re-sanded and still dull under the coat.
+What keeps the Sanding Pads sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P2000 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. The two habits are the difference between a spec and a guess.
 
 ### How a sanding pad and its paper work together
 
@@ -179,4 +179,4 @@ A short compliance and purchasing checklist for the pair. This is a reminder, no
 - 📦 Keep the pads and the papers dry and flat in storage, away from the heat that softens the bond, and follow the pad maker's install notes for the body you are running.
 - 📮 Confirm lead time, minimum order and packing for a [sanding disc range](/collections/sanding-discs) or [private label order](/oem), and start the conversation with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the pad family to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page, and we will confirm the disc's rated speed against the model before it ships.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Sanding Pads. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P2000. Send all three at once and the quote comes back as a finished plan.

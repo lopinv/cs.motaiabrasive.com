@@ -14,7 +14,7 @@ image: belt-2200-1330
 
 Here is the rule that governs nearly every wide abrasive belts decision: **match the grit to the material and the finish you are leaving behind, then let the finish line decide where the ladder stops.** Wide belts earn their place on big surface areas — panels, boards, wide stock — where grit, width and machine speed all have to line up, because a belt that cuts on a 200 mm drum does not cut the same on a 500 mm drum. The one number that governs the rest is the **maximum line speed of the belt on the machine you run**: line speed comes from drum diameter and RPM, and when you step up to a wider belt or a bigger machine, the speed changes with it. Two scenarios where the standard grit ladder bends: sugary or resinous soft woods that load even a mid grit (in many cases you drop to a coarser one and move the belt), and thin veneered panels where a coarse grit builds heat that moves the part. If your line is everyday panel and board finishing, start in the P80 to P120 band, step down to P240 to P400 for the finish, and confirm the machine line speed against the belt label before the first meter. For the sizes we stock and where each fits, see the size guide at [the 2200 x 1330 mm wide belt](/en/products/2200x1330-abrasive-belt) and browse the full set in [the abrasive belt range](/en/collections/abrasive-belts).
 
-Two habits keep this from turning into guesswork: always name the grit standard you are buying to (FEPA or ISO 848), and always confirm the rated line speed with sales and keep the machine below it. Everything below is the reasoning behind those two moves, and the [GXK-51 abrasive belt](/en/model/gxk-51) is a good concrete model to hold while you read the grain and grit sections.
+Make the Wide Abrasive Belts spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P80 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### What is actually inside a wide belt
 
@@ -132,7 +132,7 @@ The number that decides which belt to buy is the cost per surface finished, not 
 - **Grain and grit** — the grain and the grit, on the same standard you shop to.
 - **Width and format** — the width against the work, and the format against the machine.
 - **Label and packing** — your code, your label, and the spec sheet on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — for Wide Abrasive Belts, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. Say the two out loud and the make-to-run question answers itself.
 
 For a private label run, the label, the packing and any spec sheet you want on the box add their own lead time, which is the conversation on [the OEM and private label service page](/en/oem). For the bulk and wholesale side, the [request a quotation](/en/quote) form is where the numbers come back, and the [the abrasive belt range](/en/collections/abrasive-belts) is where the width and grit conversation starts. Lead time has two drivers: in-stock grits and widths ship fast, and an off-grid grit or a width you do not hold takes longer, because the backing, the bond and the grain all have to line up for the run.
 
@@ -191,7 +191,7 @@ The move that stops it: a shift check that walks the drum, the belt, the pressur
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+Keep this Wide Abrasive Belts checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P80 risk is cut by the right protection, not eliminated. Run the list once before the first order, then once per repeat run.
 
 - **Confirm the machine's no-load speed is below the belt's maximum rated line speed** before every run; the number comes from the belt label, not from a guess.
 - **Check the belt width and the drum fit** — the loop must span the work and sit true on the drum, and the splice and tension are checked against the maker's install notes.

@@ -157,7 +157,7 @@ A short compliance and purchasing checklist for the shelf. This is a reminder, n
 - Confirm your tool's no-load speed is at or below the disc's printed maximum working speed before every use, and confirm the rated speed against the model when the number is not on the disc.
 - Check the disc diameter and arbor hole against the tool and the guard, and use a rated adapter where the sizes do not line up, never a hole that has been made larger.
 - Fit and keep the tool guard on at all times; it is the first defence against a disc failure at speed.
-- Wear eye and face protection on every pass, and use dust extraction plus the right respiratory protection for the dust load, with the material safety data for the primer and filler confirmed before the first flap goes on a panel.
+- Every Automotive Surface Preparation pass carries eye and face protection, the extraction filter is chosen for the material, and the respirator is sized to the load that stays at the face. It is the habit that keeps the face safe on every pass.
 - Name the grit standard — FEPA or ISO 848 — in every order, with the grit, the format, the backing where it applies and the arbor, so the scale is not mixed with another supplier's.
 - Confirm lead time, minimum order quantity and packing for any bulk or private-label run, against the [OEM and private-label service page](/en/oem), starting from the [request a quotation](/en/quote) page.
 - Store the discs flat, dry and out of the sun, and keep the grits banded by stage on the shelf so the sequence is not rebuilt from memory on a panel.

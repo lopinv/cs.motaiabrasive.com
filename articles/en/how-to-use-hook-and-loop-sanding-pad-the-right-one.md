@@ -83,10 +83,10 @@ The practical read: name the grit band first, then the dust. A P120 on dense har
 
 Undercutting is the quiet complaint, because the disc looks fine and the tool sounds fine, but the part is not moving. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a fine pad makes the grain glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving pad, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc packs the face and stops the Hook and Loop Sanding Pad cut; the remedy is less pressure and a moving part, not a step up in grit. It reads as a disc fault but is a hand fault.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like zirconia alumina on a material that packs aluminium oxide.
 - **Coupling not seated.** A dirty or worn hook face will not hold the disc flat, so the disc walks and the cut thins out. Clean the plate with a hook comb and re-seat, and the cut comes back.
-- **Grit too fine for the job.** A P320 pad on a P150 job asks the pad to finish instead of remove. Step down a grit and the cut returns.
+- **Grit too fine for the job.** A fine grit on a coarse Hook and Loop Sanding Pad task makes the disc polish instead of remove; step the grit down and the cut comes back. It is the grit, not the effort, that matters.
 - **Tool speed out of band.** These pads are made for a speed window and a pad run well below it cuts soft and slow. Check the no-load speed of the tool and keep the pad in the range it was made for.
 
 For each of these, [the sanding disc range](/collections/sanding-discs) shows the grit and face to reach for, [woodworking sanding use](/applications/woodworking) gives the sequence by material, and [the abrasives glossary](/glossary) keeps the terms straight so you and your team are diagnosing the same problem. The thread that runs through all five is that under-cutting is almost always a match problem, not a bad pad; fix the grit, the grain, the coupling or the speed and the cut returns.
@@ -109,7 +109,7 @@ On bulk and branded orders, the fields that make an order clean are:
 - **Face diameter** — 3, 4, 5 or 6 inch, matched to the back-plate the bench already runs.
 - **Pad style** — perforated or holeless, chosen for the grit band and the dust as above.
 - **Coupling** — the hook-and-loop format the tool already runs, so the disc will mount.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf.
+- **Quantity and lead time** — the number of Hook and Loop Sanding Pad needed and the date it is needed by; together they decide stock versus make-to-run. They are the last two fields to be filled on a clean enquiry.
 
 Send those five fields and the order is a conversation instead of a gamble. The grits on these pads run P60 to P5000, and most shops hold P60 to P400 in band with P800 to P1500 called for on the top-coat work. The [request a quotation](/quote) page is where to start, and the [OEM and private-label service page](/oem) is where the label, the packing and the spec-sheet details are worked through for a branded run.
 

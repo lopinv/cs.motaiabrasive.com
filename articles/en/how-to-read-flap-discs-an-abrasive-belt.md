@@ -16,7 +16,7 @@ Here is the rule that governs nearly every flap disc purchase: **match the grit 
 
 Two scenarios where that rule bends. Thin sheet metal, where even P60 builds heat that warps the part, so you drop a grit and keep the disc moving; and very soft or porous materials, where P60 leaves scratches too deep for anything that follows, so you start finer than instinct says. If your work is everyday steel grinding, blending and deburring, start in the P100 to P120 band and check the arbor hole before you cut.
 
-Two habits turn this from guesswork into a repeatable spec. Name the grit standard you are buying to — FEPA or ISO 848 — in every enquiry, and confirm the arbor hole before the disc reaches the machine. Everything below is the reasoning behind those two moves. Start your walk through the full range at [the flap disc range](/en/collections/flap-discs), and keep [the abrasives glossary](/en/glossary) open whenever a label term is unfamiliar; label language is where most mis-orders start.
+Make the Flap Discs spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. Neither habit is exotic; both are checked off on the job sheet.
 
 ### How Flap Discs actually works
 
@@ -107,7 +107,7 @@ Material moves the starting grit even when the tool is the same, so a quick refe
 
 - **Mild steel** ⚙️ — P60 to P80 to remove stock or take down weld caps, P100 to P120 to even the area, P240 to P400 to blend and clean; a steel backing disc is the default on the heavy passes.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean, and keep the disc dedicated or swap grits before moving from a steel job, because embedded mild steel particles seed rust spots on stainless later; that care sits in our [stainless steel finishing use](/en/applications/stainless-steel) notes.
-- **Aluminium and soft alloys** 🟦 — softer than steel, so a coarse grit scratches deeper than you want; start in P120 to P240 and finish P320 to P400, keep the disc moving, and move to a tougher grain if the face packs.
+- **Aluminium and soft alloy** 🟦 — P120 to prepare and a finer rung to finish Flap Discs; the alloy scratches deeper than steel, so start finer and keep the disc moving. The alloy forgives a fine start, not a coarse one.
 - **Castings and rough surfaces** 🧱 — P40 to P60 to open the face, then P80 to P120; a rough casting packs a fine grit, so work coarse to fine in steps rather than jumping to a fine disc.
 - **Wood and MDF** 🪵 — P80 to P120 to remove stock, P240 to P400 to bring it even; MDF loads fast because it is soft and sugary, so a moving disc beats a held one.
 
@@ -135,7 +135,7 @@ On lead time, two things set it. In-stock grits and common diameters ship fast; 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Flap Discs. These are the errors that surface most at P120, and the move that actually changes the result: All of them are cheaper on the bench than on the finished panel.
 
 - **Skipping grits** ⏫ — going from P60 straight to P400 leaves P60 scratches under the finish; add the P120 and P240 rungs and the surface clears.
 - **Wrong arbor** ⚠️ — a disc that does not sit fully on the flange walks at speed; buy the right hole or a rated adapter, and never file the hole larger.
@@ -166,7 +166,7 @@ For any of these, [the flap disc range](/en/collections/flap-discs) shows the gr
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+The Flap Discs checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. Each item below is one you can check against the delivery in hand.
 
 - Confirm your tool's no-load speed is below the disc's printed maximum working speed, and the belt's line speed below its rated maximum, before every use.
 - Check the arbor hole and the flange are the correct size and that the disc sits fully on the flange; use a rated adapter where needed, never a filed hole.
@@ -179,4 +179,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 
 The U.S. requirements are a useful baseline at [OSHA 29 CFR 1910.132 — PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and the setup side of abrasive wheels is at [CCOHS "Abrasive Wheels" occupational health answers](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we will work the grit sequence with you and pre-select the grit plus the backing to start from — disc or belt, the vocabulary is the same. Send the three details and start on the [request a quotation](/en/quote) page.
+The three fields to start a Flap Discs order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P120 downward, to the job instead of the nearest stock. Skip the back-and-forth: the sequence comes back with the first answer.

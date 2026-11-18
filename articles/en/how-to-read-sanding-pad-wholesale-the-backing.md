@@ -119,7 +119,7 @@ On lead time, two things set it. In-stock grits and backings ship fast; off-grid
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the fix that actually moves the problem:
+The Sanding Pad Wholesale mistake costs more the longer it rides. What shows up most on the P2000 line, and the correction that actually moves the cut: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Pressing into the pad** 🛠️ — loading and glazing is the opposite of cutting more; lighter contact and a moving pad bring the cut back, and a coarser band if the grain is as soft as the work.
 - **Edge peel on the pad** ⚠️ — when the abrasive starts to lift at the edge, retire the pad and buy one with the firmer bond; a pad that has peeled at the edge is not going to stay on the sleeve.
@@ -138,7 +138,7 @@ When a shop moves from buying a case of pads to a bulk or a private label run, t
 - **Diameter** — the pad diameter, matched to the tool head and the sleeve, and to the machine for the mesh line.
 - **Rated speed** — confirmed against the model, never assumed, because it comes from the pad or the maker, not from the tool.
 - **Label and packing** — the shop's logo, its part code, and any spec sheet that has to ride on the case for a private label run.
-- **Quantity and lead time** — the order count and how fast it has to be on the shelf, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — the Sanding Pad Wholesale order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. The lot only gets built once the two agree with the job.
 
 Send those six fields and the order is a conversation instead of a gamble. The [5-inch mesh sanding discs](/en/products/5-inch-mesh-sanding-disc) and [the 6-inch non-hole sanding disc](/en/products/6-inch-solid-sanding-disc) pages are where to confirm the two non-PSA backings against the spec, and the [request a quotation](/en/quote) form is where the six fields land on our side of the order.
 
@@ -160,7 +160,7 @@ Send those six fields and the order is a conversation instead of a gamble. The [
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Before you buy Sanding Pad Wholesale: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P2000 risk, never to zero. Treat each item as a gate: the order does not clear the desk until it passes.
 
 - Confirm the tool's rated speed against the pad's printed rated speed before every run, and keep the tool below it.
 - Check the arbor, the flange and the hook-and-loop sleeve fit the pad, and use the right head for the diameter, not a padded or modified sleeve.
@@ -172,4 +172,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes for the sleeve and the head, and re-seat the pad when the sleeve shows wear, not when the pad starts to lift.
 - For a bulk or a branded order, confirm the MOQ, the lead time and the packing on the [OEM & private-label service page](/en/oem), and start with the [request a quotation](/en/quote) form.
 
-If you tell us the material you are running, the finish you are aiming for and the tool and the pad backing on your bench, we can help you pick the grit band and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page, and the [sanding disc range](/en/collections/sanding-discs) is where to confirm the diameter and the backing before the order ships.
+If you name the material, the finish line and the tool, the Sanding Pad Wholesale grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P2000 rather than the stock that happens to be on the shelf. The more of the three you name, the less the supplier has to guess.

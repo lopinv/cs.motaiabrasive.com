@@ -14,7 +14,7 @@ image: belt-2200-1330
 
 The rule that governs most wide abrasive belts decisions: **pick the backing to carry the width, then pick the grit to do the cut.** A wide belt spans a long open space between the platen and the edge, and the backing is what stops that span from fluttering, cambering and peeling off the machine at speed. The one governing number is the backing weight class, not the grit: the grit decides how the surface turns out, and the backing decides whether the belt tracks true across the full width at all. Two scenarios where that rule bends: narrow belts, where the machine's platen takes up most of the support and a light backing carries the job, and wet or damp grinding, where paper backings weaken and a polyester backing is the safer call. If your job is finishing wide boards on a wide belt sander, start from the 1520 × 630 mm or the 2200 × 1330 mm sizes we carry, match the heavier backing class to the wider size, and confirm the belt's rated line speed against your machine before the first run.
 
-Two habits that turn this from guesswork into a repeatable spec: always state the grit standard you are buying to, FEPA or ISO 848, and always confirm the belt's rated line speed against the machine it will run on. Everything below is the reasoning behind those two moves, and the [abrasives glossary](/glossary) is worth keeping open whenever a label term is unfamiliar. For the full range of widths and backings we supply, see [the abrasive belt range](/collections/abrasive-belts) and the [1520 × 630 mm abrasive belt](/products/1520x630-abrasive-belt) page for the spec a quotation would be built against.
+Make the Wide Abrasive Belts spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P60 band against the tool you actually run (belt sander) before the first cut. The rest of this page is why those two moves earn their keep. Neither habit is exotic; both are checked off on the job sheet.
 
 ### How a wide belt is built: grain, bond and backing
 
@@ -117,7 +117,7 @@ For each of these, [the abrasive belt range](/collections/abrasive-belts) shows 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on wide machines, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Wide Abrasive Belts. These are the errors that surface most at P60, and the move that actually changes the result: All of them are cheaper on the bench than on the finished panel.
 
 - **Skipping grits.** P40 straight to P120 leaves the P40 line under the finish; add the P60 and P80 steps and the face clears. The belt is not the problem, the sequence is.
 - **Running past the rated line speed.** The belt is worked harder than it was made for, and the edge is the first to fail. Lower the machine speed, or confirm the rated speed against the model and keep the machine below it.
@@ -147,7 +147,7 @@ For any of these, [the abrasive belt range](/collections/abrasive-belts) and the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use, with the right protection, the risk of these machines is reduced, not zero.
+The Wide Abrasive Belts checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P60 work goes down but never to zero. Each item below is one you can check against the delivery in hand.
 
 - Confirm your machine's maximum speed is below the belt's rated line speed before every run, and confirm the rated speed against the model you are buying.
 - Check the platen, the carry rollers and the edge guard fit the width you are running; the guard stays on, and it is the first defence at the moving edge.
@@ -159,4 +159,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install and tension notes for your sander, and check the tracking before the first part goes across the width.
 - Confirm lead time, minimum order and packing for any bulk or private label order, and start with the [request a quotation](/quote) page or the [OEM & private label service page](/oem).
 
-If you tell us the material, the finish line you are aiming for, and the machine and width you run, we can help you pick the grit and the backing to start from. Send the three, and the team will work the sequence with you on the [request a quotation](/quote) page.
+The three fields to start a Wide Abrasive Belts order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P60 downward, to the job instead of the nearest stock. Skip the back-and-forth: the sequence comes back with the first answer.

@@ -16,7 +16,7 @@ The rule that governs how sandpaper rolls work is simple: **pick the grit from h
 
 Two scenarios bend that rule. Thin panel and sheet work, where a coarse grit held in one spot builds heat and warps the part; and the final polish band, where a fine flap disc carries the surface more evenly than a paper edge. For everyday paint repair and panel prep, start in the P120 to P240 band, keep the tool under the printed maximum speed of the abrasive, and confirm the grit standard before you order. The choices live in [the sanding disc range](/collections/sanding-discs), and any unfamiliar label term is in [the abrasives glossary](/glossary).
 
-Two habits turn this from guesswork into a repeatable spec. Always name the grit standard you are buying to, FEPA or ISO 848, so two suppliers cannot quietly hand you two different discs for the same number. Always confirm the machine fit, the pad diameter, the roll width, the mandrel or the back-roller, before the first pass. Everything below is the reasoning behind those two moves.
+Make the Sandpaper Rolls spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P240 band against the tool you actually run (angle grinder) before the first cut. The rest of this page is why those two moves earn their keep. Both habits cost a minute and buy back the whole pass.
 
 ### What a sandpaper roll actually is made of
 
@@ -69,7 +69,7 @@ The material moves the starting grit even when the machine is the same. A grit t
 - **MDF and engineered wood** 🪵 — P80 to P120 to remove, P240 to P400 to even out. MDF loads a face fast because it is soft and sugary, so a coarser grit and a moving face beat a fine grit held in one spot.
 - **Mild steel** ⚙️ — P60 to P80 to remove, P120 to P240 to blend. This is the bread-and-butter band, and the place most rolls spend their life.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the abrasive dedicated to stainless, or swap grits between jobs, because embedded mild-steel particles seed rust spots on the stainless part later.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prep, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want. Start finer and keep the face moving.
+- **Aluminium and soft alloy** 🟦 — P240 to prepare and a finer rung to finish Sandpaper Rolls; the alloy scratches deeper than steel, so start finer and keep the angle grinder moving. One rung lower and the metal keeps its finish.
 - **Paint, primer and clear** 🚗 — P800 to P1200 to knock down the high spots, P1500 to P2000 to open the surface before clear, and a 5000 grit for the last band on a surface that is already close.
 
 The rule underneath the list is always the same: every scratch layer must be finer than the one before it. The moment you jump two steps, the coarser scratch survives under the next coat and shows through, and the surface looks ground but not finished. That is the single most common reason a panel comes off the bench with a visible line where one grit ended and the next began.
@@ -128,7 +128,7 @@ Three things do most of the work: an extractor with the right filter for the mat
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Sandpaper Rolls. These are the errors that surface most at P240, and the move that actually changes the result: Each item names the check that catches it before the surface is gone.
 
 - **Glazing** 🧊 — the face goes flat and stops cutting. The grit is loaded, or the grain is as soft as the workpiece. Move to a tougher grain or a coarser grit, and keep the face moving instead of pressing in.
 - **Loading** 📦 — the face clogs with soft material, usually on wood or a gummy alloy. A coarser grit or an open grain keeps the face open, and the face gets cleaned between jobs.
@@ -153,7 +153,7 @@ On cost, people usually buy the cheapest roll per metre and end up paying for it
 - **Backing** — paper, cloth, hook-and-loop, mesh or non-woven, chosen for the machine and the job.
 - **Size** — the roll width for a feed-through machine, the disc diameter for a pad, matched to what you run.
 - **Standard** — the grit scale named in the order, so two orders do not quietly come back as two different grits.
-- **Quantity and lead time** — how many metres or discs, and how fast they need to be on the shelf. In-stock grits and common sizes ship fast; off-grid grits or a backing not held in the same run take longer. Confirm the minimum order and the lead time with sales on anything you are not sure of.
+- **Quantity and lead time** — the Sandpaper Rolls order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. Name both and the routing of the order takes care of itself.
 - **Label and packing** — your logo, your part code, and any spec sheet you want on the box for a private-label run.
 
 The numbers we share on every order: grit, backing and size come standard, and the maximum working speed is confirmed against each model before an order ships, because that number has to come from the abrasive, not from a guess. For a buyer weighing a standing stock against a factory run, the [about MoTai](/about) page covers how the factory works, and [all abrasive products](/collections/all) is the full catalogue the spec sheet can point at. If you are planning a regular order or a branded run, the [request a quotation](/quote) page is where to start, and a sample against the spec before the full order is the move that keeps the grit, the backing and the label all matching what you expect.
@@ -176,7 +176,7 @@ The numbers we share on every order: grit, backing and size come standard, and t
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+The Sandpaper Rolls checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P240 work goes down but never to zero. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your tool maximum speed is below the abrasive's printed maximum working speed before every use, and keep the tool below it; when the number is not on the label, confirm the rated speed with the supplier.
 - Check the pad, the arbor or the mandrel, and the guards, are the correct size for the abrasive, and use a rated adapter where needed; a face that does not sit fully on the pad will walk at speed.

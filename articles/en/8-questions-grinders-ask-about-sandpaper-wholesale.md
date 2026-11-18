@@ -98,7 +98,7 @@ The fields are the order, and the supplier who answers all of them is the one to
 - **Grit and the standard** — the grit, and the FEPA or ISO 848 scale on the same one the shop buys to.
 - **Grain and the charge** — the grain, and the charge when comparing two discs that both say the same grit.
 - **Form and the face** — the paper, the open-web or the hole form, and the dry or water-resistant face, chosen to the tool and the process as above.
-- **Quantity and lead time** — the order quantity and the shelf date, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — how many Sandpaper Wholesale pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. Both travel on the order, not on the phone.
 - **Label and packing** — the logo, the part code and the spec sheet on the box for a branded run.
 - **The finish line** — the spec the sequence ends at, because the grit the next trade wants is the grit the order builds to.
 
@@ -125,7 +125,7 @@ The day is where the Sandpaper Wholesale discipline shows up as a habit rather t
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on the wholesale shelf:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Sandpaper Wholesale line at P2000, and the correction that moves the surface for each: None of them needs a new disc; each needs the right one first.
 
 - **Buying the removal band deep and the finish band thin** 📦 — the shelf runs out on the fine grits and the surface goes back for the re-sand it already paid for; the sequence buys in one order, and the finish band is where it earns its keep.
 - **The scale mixing on the shelf** ⚖️ — two suppliers, two scales, and the 150 that is not the 150; the standard is named on the order and the shop holds one scale so the grits are comparable.
@@ -156,16 +156,16 @@ When you are not sure which grit to start on, the [sanding disc range](/collecti
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+A purchasing and compliance checklist for Sandpaper Wholesale, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P2000 pass is reduced, not removed. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's maximum no-load speed sits below the disc's rated maximum before every use, and where the number is not printed, confirm the rating against the model.
 - Check the form matches the tool: the paper form on the orbital, the open-web form on the dust-heavy job, and the hole form on the grinder holder, with the pairing on the shelf label.
 - Fit and keep the tool guard on at all times; it is the first defence against a disc that releases its face.
-- Wear eye and face protection on every pass, run dust extraction with the right filter for the material, and match the respiratory protection to the dust load when the extraction is not at the face.
+- On every Sandpaper Wholesale pass: eye and face protection, the dust extraction with the filter for the material, and the respiratory protection matched to whatever the extraction leaves at the face. The gear matters less than wearing it every pass.
 - Name the grit standard — FEPA or ISO 848 — and the face — dry or water-resistant — in every enquiry, so the order does not mix scales or faces.
 - Confirm the grain against the material: the general grain for the everyday work, the heat-tough grain for the demanding passes, and the slick-surface grain where the face would burn.
 - Store the discs flat, away from heat and damp; a warped face does not hold the way the new one does, and the disc shows the fault before the box does.
 - Run the sample against the scrap sheet before the bulk ships, because the two that survive the sheet are the two the bulk earns.
 - For a wholesale or [private label](/oem) run, confirm the minimum order, the sequence and the lead time, and start the order at the [quotation form](/quote).
 
-If you tell us the material, the finish line, the tool you run and the grit standard you buy to, the team can pre-select the grit band, the form and the grain from the Sandpaper Wholesale range to start from. Send the four and the sequence comes back with the order.
+The Sandpaper Wholesale enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P2000 — is worked out with you, not copied from a shelf list. Those three are the fields a buyer should never have to chase a second time.

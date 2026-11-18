@@ -75,7 +75,7 @@ The other material patterns, with the starting grits that hold up in practice:
 
 - **Mild steel** ⚙️ — P80 to P120 for removal, P240 to P400 to clean. The bread and butter range, and the place most fiberglass-backed discs spend their working life.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. One extra rule: keep the disc dedicated or swap grits when you move from a carbon steel job to a stainless one, because embedded steel particles in the grain are the seed of rust spots on the stainless part later. The [stainless steel finishing use](/en/applications/stainless-steel) notes cover that in more detail, and the same rule applies on a fiberglass board as on any other — the board does not clean the grain for you.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; keep the pressure light, keep the disc moving, and on a slow tool a plastic backing is the better board for these passes.
+- **Aluminium and soft alloy** 🟦 — P120 for the open on Fiberglass Backing Flap Discs, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the disc keeps moving. The alloy is the reason the starting grit is lower.
 - **Castings and rough faces** 🧱 — P60 to open the face, then P80 to P120 to even it. A rough casting packs a fine grit, so you work coarse to fine in steps rather than starting on P120 and watching the face glaze.
 - **Non ferrous and hard surfaced jobs** 🔧 — silicon carbide grain on P80 to P120 where aluminium oxide loads; the grain does the work, and the backing just has to hold up.
 - **Sustained heavy pressure or very hot, long jobs** 🛠️ — step to a [steel-backing flap disc](/en/flap/steel); the fiberglass board is doing its best, but the job is asking for more rigidity than it gives.
@@ -122,7 +122,7 @@ On lead time, two things set it. In stock grits and common diameters ship fast; 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. The patterns that show up most on fiberglass-backed work:
+Cheap to fix, expensive to leave: that is the rule at P120 on Fiberglass Backing Flap Discs. Here is the short list of errors that surface most, and the move that fixes each one at the root: In each case the surface gives the tell before the cost does.
 
 - **Loading and glazing** 🧯 — the disc clogs and stops cutting when the face packs with soft material or the grit flattens. The fix is a finer grit, a tougher grain, and keeping the disc moving — pressing harder into a glazed face does the opposite of what you want.
 - **Pressing too hard on thin sheet** 📐 — a coarse grit on thin material builds heat that warps the part; drop a grit and keep the disc moving instead of leaning in.
@@ -153,7 +153,7 @@ For any of these, the [fiberglass-backing flap disc](/en/flap/fiberglass) page s
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not removed.
+Keep this Fiberglass Backing Flap Discs checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Run the list once before the first order, then once per repeat run.
 
 - Confirm your tool's no-load speed is below the disc's printed maximum surface speed before every use, and confirm that speed against the specific model you are buying.
 - Check the arbor hole and flange are the correct size for each other, and use a rated adapter where needed — never file the hole larger.
@@ -166,4 +166,4 @@ A short compliance and purchasing checklist. It is a reminder, not a substitute 
 - On silica-capable materials, plan the dust control before the first pass, not after the complaint.
 - Confirm lead time, minimum order quantity and packing for any [flap discs wholesale](/en/collections/flap-discs) or [private label order](/en/oem), and start the conversation on the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we will work the grit and backing to start from with you — pre-selected from the [fiberglass backing flap discs](/en/flap/fiberglass) we carry, matched to the job. Send the three and we will build the sequence on the [request a quotation](/en/quote) page.
+The Fiberglass Backing Flap Discs enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P120 — is worked out with you, not copied from a shelf list. That is the whole exchange; the grit choice is the one that takes the work.

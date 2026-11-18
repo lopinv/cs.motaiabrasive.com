@@ -14,7 +14,7 @@ image: disc-6-solid
 
 The one number that governs nearly every mesh sanding discs decision is the sandpaper grade, and the rule to keep is simple: **match the grade to the stage of the job, match the disc size to the tool, then match the grain to the material.** A coarse grade like P80 or P100 removes material fast and levels high spots; a mid grade like P180 to P220 brings the surface even; a fine grade like P320 to P400 cleans up and preps for primer or top coat; and P1500 does the final de-raise and leveling on a surface that is already close to its finished state. Two scenarios where that rule bends: very soft, sugary materials where even a coarse grade loads and clogs the face fast, and thin or heat sensitive panels where a coarse grade pressed in hard builds heat and warps the part. If your job is everyday prep on wood, panel or filler, start in the P80 to P120 band, step down through P180 to P320, and confirm the disc fits your sander's flange before you run it on stock. For the full range of sizes and backings we ship, see [the sanding disc range](/collections/sanding-discs) and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits that turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the disc size and the flange fit before the disc goes on the machine. Everything below is the reasoning behind those two moves.
+What keeps the Mesh Sanding Discs sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P400 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Do them once per job and the rest of the sequence holds together.
 
 ### How mesh sanding discs actually work
 
@@ -148,13 +148,13 @@ When you move from buying a handful of discs to a wholesale or private label run
 - **Diameter and mounting hole** — the disc diameter and the hole, matched to the flange and tool you run; for the mesh style, whether it is trimmed to shape in your shop.
 - **Maximum working speed** — confirmed against the model, do not assume it, because it has to come from the disc.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — how many Mesh Sanding Discs pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. Get the two right and the rest of the order is mechanical.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grade, the backing and the label all match what you expect.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Mesh Sanding Discs line at P400, and the correction that moves the surface for each: In each case the surface gives the tell before the cost does.
 
 - **Skipping grades.** Going from P80 straight to P400 leaves P80 scratches under the finish; add the P120 and P220 steps and the surface clears.
 - **Wrong flange or hole.** A disc that does not sit fully on the flange walks at speed; buy the right hole or a rated adapter, do not force a larger fit.
@@ -185,7 +185,7 @@ For any of these, [the sanding disc range](/collections/sanding-discs) shows the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for Mesh Sanding Discs, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P400 pass is reduced, not removed. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your tool maximum speed is below the disc printed maximum working speed before every use.
 - Check the mounting hole and flange are the correct size, and use a rated adapter where needed.
@@ -195,7 +195,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Ask for the certificate or inspection report for the lot you are buying, and check that it matches the model and the grade on the label.
 - Store the discs away from moisture, heat and solvents, and keep spare stock in their packing until you use it.
 - Follow the disc maker install notes, and check the part and the disc for heat and scratch depth on thin or soft material.
-- Keep a record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS "Abrasive Wheels" occupational health answers](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a record of the PPE and controls the Mesh Sanding Discs job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The record is the control that outlives the shift.
 - Confirm lead time, minimum order and packing for any [sanding discs wholesale](/collections/sanding-discs) or [private label order](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grade and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+The Mesh Sanding Discs enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P400 — is worked out with you, not copied from a shelf list. Three fields, one message, and the order stops needing follow-up calls.

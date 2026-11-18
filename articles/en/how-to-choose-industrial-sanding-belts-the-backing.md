@@ -58,7 +58,7 @@ Before a belt goes on a machine, read the whole label, not just the grit. A typi
 - **Maximum line speed** — the number the tool's nameplate must not exceed; confirm it against the belt label, not a guess.
 - **Splice type** — the seam that closes the belt into a loop; it is the weakest point on a fast tool and the first thing to inspect at the start of a shift.
 
-Two habits do most of the work here. First, name the grit standard in every enquiry, so the grit on your shelves is one comparable scale. Second, keep the maximum line speed from the label next to the machine's nameplate, so the two numbers are checked against each other before the first cut. The belt splices you will meet are usually a woven seam, a taped seam, or a hook-and-loop seam, and the splice is the first thing to check on every shift, because it is the weakest point on a fast tool and it fails first when the belt has been driven past its class. For the smaller bench sizes, the [533 × 75 mm abrasive belt](/products/533x75-abrasive-belt) shows the label fields on one of the sizes we ship, and the [abrasives glossary](/glossary) is where the backing codes and grit terms are defined, so you and your team are reading the same label.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P80, backing, belt sander — happens before the first pass, not after the surface has moved. Both habits cost a minute and buy back the whole pass.
 
 ### 🪵 Choosing by material and the finish line
 
@@ -151,7 +151,7 @@ For any of these, the [abrasive belt range](/collections/abrasive-belts) shows t
 
 ### ✅ Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant speed, correct fit and PPE, the risk of belt work is reduced but not zero.
+Keep this Industrial Sanding Belts checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P80 risk is cut by the right protection, not eliminated. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm the tool's rated line speed against the belt's rated line speed for every size the machine takes, and keep the tool at or below the belt rating.
 - Check that the belt fully covers the platen or wheel, that the guards are on at all times, and that any fit issue is fixed with the right size or a rated adapter, never with a belt forced onto a too-small setup.
@@ -162,4 +162,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the belt maker's install notes for fit, tension and tracking, and inspect the splice and the edge at the start of every shift.
 - Confirm lead time, minimum order quantity and label and packing for any [abrasive belt range](/collections/abrasive-belts) or [OEM & private-label service](/oem) run, and start with the [quotation form](/quote).
 
-If you tell us the material you are running, the finish you are aiming for and the tool you own, we can help you pick the grit and the backing to start from. Send those three and we will work the sequence with you at [request a quotation](/quote).
+The Industrial Sanding Belts enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P80 — is worked out with you, not copied from a shelf list. No template is attached; the three fields travel in the message itself.

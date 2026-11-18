@@ -16,7 +16,7 @@ Here is the rule that runs through every sandpaper backing decision: **match the
 
 Two scenarios where the rule bends. Very soft, sugary materials — MDF, some woods, plastic stock — clog a fine, closed backing fast, and there the self-cleaning character of a mesh beats a plain paper at the same grit. Thin sheet metal is the other bend: heat matters more than stiffness, and a backing that spreads the load and runs cool beats a stiff one that concentrates the heat into one spot. If your job is everyday sanding and light finishing, start in the P80 to P120 band and step down from there, and check the tool, the pad, the mandrel and the guard before the disc touches the part.
 
-Two habits turn this from guesswork into a repeatable spec: state the grit standard, FEPA or ISO 848, in every enquiry, and confirm the backing actually fits the tool you run. For the full set of shapes and backings we supply, start at the [sanding disc range](/en/collections/sanding-discs), and keep [the abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
+Two habits make the Sandpaper spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P150 band and the random-orbital before the first pass. Everything below is the reasoning behind those two moves. One minute of habit, saved in every pass after the first.
 
 ### How sandpaper actually works ⚙️
 
@@ -126,7 +126,7 @@ For a branded or steady-volume order, the fields shift to a spec sheet: the grai
 
 ### Common mistakes and how to fix them 🛠️
 
-The fixes are usually cheaper than the mistakes. What shows up most often, with the fix that actually moves the problem:
+The Sandpaper mistake costs more the longer it rides. What shows up most on the P150 line, and the correction that actually moves the cut: None of them needs a new disc; each needs the right one first.
 
 - **Grit-sequence skip** — jumping from an 80 grit straight to P400 leaves the 80's scratches under the finish; add the P150 and P320 steps and the surface clears.
 - **Wrong backing for the tool** — a stiff film disc on a hand block, or a soft paper disc on a random-orbital that wants a pad; the backing limits the cut before the grit does. Match the backing to the tool, then set the grit.
@@ -168,4 +168,4 @@ A short checklist before you buy sandpaper, and a reminder, not a substitute for
 - Follow the maker's install notes, and check the part and the disc for heat and scratch depth on thin or soft material.
 - For a wholesale or branded run, confirm the minimum order, the lead time and the packing with sales, and start at the [request a quotation](/en/quote) page.
 
-If you tell us the material, the finish you are aiming for, and the tool you run, we can help you pick the grit and the backing to start from. Send the three, and we will work the sequence with you.
+The three fields to start a Sandpaper order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P150 downward, to the job instead of the nearest stock. The fields are short on purpose — the sequence is where the length goes.

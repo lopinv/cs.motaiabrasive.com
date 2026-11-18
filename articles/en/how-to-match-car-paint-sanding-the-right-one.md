@@ -184,7 +184,7 @@ For each of these, [the sanding disc range](/en/collections/sanding-discs) shows
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own shop rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+The Car Paint Sanding checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your sander's no-load speed is below the disc's rated maximum working speed before every new disc, and keep the tool below that figure.
 - Check the backing pad is clean and the disc is seated evenly on it, before every PSA pass.
@@ -193,6 +193,6 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Ask for the inspection report or certificate for the grit band you are ordering, so the grain and the bond are confirmed against the spec before the panel work starts.
 - Store discs dry and sealed, away from the shop dust, and follow the maker's install notes for the format you are buying.
 - Confirm the rated speed of the model against your sander with sales, and confirm lead time, minimum order and packing for any [sanding disc](/en/collections/sanding-discs) or [private label](/en/oem) order, starting with the [quotation form](/en/quote).
-- Keep a record of the PPE and controls you rely on; the U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and the setup side is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Log the PPE and dust controls the Car Paint Sanding work actually uses; the U.S. reference is [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the practical read is [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The log is the discipline the label cannot carry.
 
 If you tell us the paint stage, the panel shape and the sander you run, we can help you pick the grit and the format to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.

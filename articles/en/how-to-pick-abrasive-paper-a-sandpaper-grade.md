@@ -14,7 +14,7 @@ image: psa-3
 
 Here is the rule that governs most abrasive paper decisions: **pick the grain for the material, the grit for the cut, and the backing for how the job is actually run.** One number drives most of the choice, and that is the grit: in the FEPA or ISO 848 system a higher number means a finer grain, a shallower cut and a lighter scratch mark. P80 and P120 remove stock and open up a surface; P400 cleans up and prepares a face for coating; P1500 smooths a surface that is already close to final; P2000 and P3000 are the polish and cleanup band, the last light touches on a cured or nearly finished surface. Two scenarios where this rule bends: on very soft, sugary boards such as MDF, even a P400 or P80 face loads fast because the dust packs the grain, so a coarser grit with a moving pad beats a fine grit held in one spot; and on cured topcoats the rule inverts, because P2000 on paint is a de-raising pass, and running it too hard glazes the finish instead of smoothing it. If your work is everyday wood, panel or light metal finishing, start at P120 or P180, work down one step at a time, and confirm that the disc format fits your tool before you cut into stock. For the shapes we supply in paper form, look at the [sanding disc range](/collections/sanding-discs) and the [all abrasive products](/collections/all) page, and keep the [abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec. Always name the grit standard you are buying to, because a P120 on one scale is not a 120 grit on another; and always confirm the backing format, the disc size and the tool speed together, because a mismatch on any one of those three shows up on the part, not on the label. Everything below is the reasoning behind those two moves. The grit scale itself is explained plainly at [the FEPA grit standard (ISO 848)](https://en.wikipedia.org/wiki/FEPA), and that one reference stops most mix-ups at the enquiry stage.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P2000, backing, random orbit sander — happens before the first pass, not after the surface has moved. They are the reason the surface, not the disc, ends up on the job sheet.
 
 ### How abrasive paper actually works
 
@@ -168,7 +168,7 @@ The thread through all seven is the same one the whole article runs on: most of 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Abrasive Paper checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P2000 risk is cut by the right protection, not eliminated. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm the tool pad speed and the disc surface speed: run the tool at no load, work out the surface speed for the size you are fitting, and keep it below the printed maximum working speed. Where a disc does not print a speed for that size, confirm the rated speed against the model.
 - Check the backing format and the pad face match, and that the disc sits fully and flat on the pad; a wrong or undersized pad is the setup behind most edge chatter.
@@ -179,4 +179,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Check the certificate or inspection report you rely on for the run, and the storage and transport state of the paper before you trust a face on a part you care about.
 - Follow the maker's install and handling notes, and for a [hook-and-loop sanding discs](/products/hook-loop-sanding-discs) or [OEM & private-label service](/oem) order, confirm the MOQ, the packing and the lead time with sales through the [request a quotation](/quote) page.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit, the grain and the backing to start from, and we will pre-select a sequence against it on the [request a quotation](/quote) page. Send the three and we will work the grit ladder with you from P120 to the P2000 finish.
+The Abrasive Paper enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P2000 — is worked out with you, not copied from a shelf list. Send all three at once and the quote comes back as a finished plan.

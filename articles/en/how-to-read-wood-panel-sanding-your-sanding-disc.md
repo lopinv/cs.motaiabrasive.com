@@ -154,10 +154,10 @@ Send those four fields and the order is a conversation instead of a gamble. The 
 
 Under-cutting is the quiet complaint, because the disc looks fine, the machine sounds fine, but the panel is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc packs the face and stops the Wood Panel Sanding cut; the remedy is less pressure and a moving part, not a step up in grit. No grit change fixes a pressure error.
 - **Grain too soft for the board.** A grain that is as soft as the panel packs and stops. Move to a tougher grain, like silicon carbide on a board that loads aluminium oxide.
 - **Wrong backing for the speed.** A disc running hot and flexing is a soft backing on a job that wants a firm one; the backing limits the cut before the grit does.
-- **Grit too fine for the job.** A fine grit on a stock-removal task asks the disc to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** The fine grit asks the Wood Panel Sanding part to be polished where it should be cut; one grit lower and it is removing again. Step it and the cut returns.
 - **The face is sealed.** A closed coat on a heavy-dust board packs and glazes; the open coat keeps cutting through that load for longer.
 
 For each of these, [the sanding disc range](/collections/sanding-discs) shows the grit and backing to reach for, and [woodworking sanding use](/applications/woodworking) gives the sequence by board. The thread through all five: under-cutting is almost always a match problem, not a bad disc; fix the grit, grain, backing or pressure and the cut returns.
@@ -173,7 +173,7 @@ On bulk and OEM work, the conversation shifts to a spec sheet. The fields that k
 - **Grain and grit range** — aluminium oxide for the general panel band, the grit range you sequence through, and the grit standard, named.
 - **Backing and size** — hook-and-loop, PSA, mesh or solid, and the sizes the bench actually runs.
 - **Label and packing** — your part code, your logo and any spec sheet you want on the box, which is what [the OEM & private-label service page](/oem) is set up for.
-- **Quantity and lead time** — the order quantity and the shelf date, which together set whether the run ships from stock or gets made to your order.
+- **Quantity and lead time** — the number of Wood Panel Sanding needed and the date it is needed by; together they decide stock versus make-to-run. The two numbers are the ones the factory sees before anything else.
 
 Minimum order quantity and lead time are the two numbers to confirm with sales before you commit, and the [request a quotation](/quote) page is where a panel-line conversation starts. If the bench also runs belts for edges, [the 533 × 75 mm abrasive belt](/products/533x75-abrasive-belt) and [the 610 × 100 mm abrasive belt](/products/610x100-abrasive-belt) in [the abrasive belt range](/collections/abrasive-belts) are the two sizes that pair with the disc grits above.
 
@@ -215,7 +215,7 @@ A short compliance and purchasing checklist for a panel bench. This is a reminde
 
 - Confirm the tool's maximum speed is below the disc's printed rated working speed before every panel pass.
 - Confirm the pad, mandrel and guard are the right size for the disc you are running, that the disc seats fully on the pad, and that the belt guards are on at both infeed and outfeed on a belt station.
-- Wear eye and face protection on every pass, and match the respiratory protection to the dust load of the board in front of you — hardwood, MDF and melamine are different loads.
+- Eye and face protection on every Wood Panel Sanding pass, dust extraction with the filter for the material, and the respiratory protection matched to the load when the extraction is not at the face. The gear matters less than wearing it every pass.
 - Run dust extraction at the point of sanding, not just a general-room fan, and plan where the collected dust goes.
 - Name the grit standard in every order — FEPA or ISO 848 — so two suppliers do not quietly ship two different grain sizes.
 - Ask for the certification or inspection report that sits behind the disc lot you are buying, and keep it with the order.

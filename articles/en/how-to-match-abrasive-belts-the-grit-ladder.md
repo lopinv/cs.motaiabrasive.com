@@ -158,7 +158,7 @@ When you move from buying a handful of belts to a wholesale or private label run
 - **Belt size and machine** — the size and the machine it will run on, so the line speed is confirmed against both before the order ships.
 - **Maximum line speed** — confirmed against the model, never assumed, because it has to come from the belt and the machine.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — for Abrasive Belts, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. Get the two right and the rest of the order is mechanical.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect. That sample is the cheapest insurance in the whole order, and the one most shops skip.
 
@@ -182,7 +182,7 @@ Send those six fields and the order is a conversation instead of a gamble. The [
 
 ### Before you buy ✅
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Abrasive Belts checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm the machine's no-load speed is under the belt's printed maximum line speed before every use.
 - Check the belt size matches the platen, and the tracking wings are set so the belt runs centered.
@@ -194,4 +194,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Confirm the PPE and control baseline with [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 - Confirm lead time, minimum order and packing for any [flap discs wholesale](/en/collections/flap-discs) or [private label order](/en/oem), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for, and the machine you run, we can help you pick the grain, the belt size and the start grit to begin from. Send the three and we will work the ladder with you on the [request a quotation](/en/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Abrasive Belts. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P120. Skip the back-and-forth: the sequence comes back with the first answer.

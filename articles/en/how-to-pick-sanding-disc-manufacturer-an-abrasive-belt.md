@@ -162,7 +162,7 @@ The rule: **name the grit standard and the quantity up front, and the lead time 
 
 ### Common mistakes, and the fix that actually moves it
 
-The fixes are usually cheaper than the mistake. Here is what shows up most on the bench, with the change that actually moves the problem rather than the one that just masks it.
+The Sanding Disc Manufacturer mistake costs more the longer it rides. What shows up most on the P120 line, and the correction that actually moves the cut: None of them needs a new disc; each needs the right one first.
 
 - **Skipping grits.** Going from P120 straight to P400 leaves the P120 scratch under the coat; add the P240 step and the surface clears. The rule is one rung at a time, each finer than the last, and a skip is the single fastest way to a swirl.
 - **Over-pressing.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit, and the disc will come back to cutting.
@@ -195,7 +195,7 @@ A wrong call does not announce itself as a bad disc. It announces itself as a sl
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not gone.
+Before you buy Sanding Disc Manufacturer: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your tool's maximum speed is below the part's printed maximum line speed, on every use; confirm the rated speed against the model, do not infer it, and drop the format rather than the speed if the tool is too fast.
 - Check the arbor, pad and backing plate are the correct size for the disc, and use a rated adapter where the fit is not exact, because a loose or shifted disc is how the edge catches at speed.

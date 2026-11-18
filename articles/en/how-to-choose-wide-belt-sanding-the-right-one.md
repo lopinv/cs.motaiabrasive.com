@@ -22,7 +22,7 @@ The decision is really three moves:
 
 Two scenarios where the rule bends. One: you are chasing a very fine satin finish, where the final grit and the number of passes matter more than removal speed, and a coarser first pass with a finer last belt beats two passes of one middle grit. Two: your sander table is narrow for a genuinely wide panel, so the belt span you can actually run is capped by the machine, not by your preference — in that case the size is fixed and the grit choice carries the whole decision.
 
-Two habits turn this from guesswork into a repeatable spec: name the grit standard (FEPA or ISO 848) in every enquiry, and read the belt label for grit, size and maximum working speed before it goes on the machine. If a label term is unfamiliar, keep the [abrasives glossary](/glossary) open — it keeps you and your team reading the same label. The [woodworking sanding use](/applications/woodworking) notes cover typical sequences by material, and the [abrasive belt range](/collections/abrasive-belts) shows the belt sizes we stock. One last point that separates a production shop from a hobby one: on a line that runs stock all day, cost per square metre of sanded surface, not sticker price, is the number you manage. That is the thinking the [OEM & private-label service page](/oem) carries for steady production lines.
+What keeps the Wide Belt Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P240 band, the backing and belt sander are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Both habits cost a minute and buy back the whole pass.
 
 ### What a wide belt sander actually does 🪵
 
@@ -186,7 +186,7 @@ A short compliance and purchasing checklist for wide belt sanding. It is a remin
 - Confirm the machine's actual line speed is at or below the belt's printed maximum working speed; if the rating is not printed, confirm it with sales and keep the machine below it.
 - Check the belt size against the table span and the contact platen, and the tracking and platen pressure against the belt, before the first board of the shift.
 - Fit the guards, and keep the platen and the table gaps in the state the machine's manual wants them in.
-- Wear eye and face protection on every pass, and run dust extraction at the source with the right filter for the material, plus respiratory protection matched to the dust load.
+- On every Wide Belt Sanding pass: eye and face protection, the dust extraction with the filter for the material, and the respiratory protection matched to whatever the extraction leaves at the face. The habit is the part that does not slip.
 - State the grit standard (FEPA or ISO 848), the size, the coating class and the model in every order so two suppliers do not quote two different things.
 - Keep a belt log: grit, size, model, changeover date and the stock it cut, so the next order is a decision instead of a guess.
 - Follow the install and feed notes for the machine, and check the stock for heat and scratch depth after the first pass of a new belt.

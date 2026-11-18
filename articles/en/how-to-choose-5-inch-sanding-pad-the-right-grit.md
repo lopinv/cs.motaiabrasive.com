@@ -25,7 +25,7 @@ Here is what that looks like in practice, as a grit ladder for the band most sho
 
 The ladder is the heart of the 5-inch pad choice, because every step on it is a different pad face. Two scenarios where the rule bends: paint-filled repairs on painted metal, where you work back and forth between filling and sanding, and very soft woods where even P120 leaves deep lines, where you start finer and use less pressure. When you are unsure, the safe default is one more grit step than you planned. An extra 20 minutes of sanding costs far less than a finish failure.
 
-Two habits make the whole thing repeatable: name the grit standard in every order, because FEPA P1000 and an old-scale 1000 are not always the same grain size (the reference is at [the FEPA grit standard](https://en.wikipedia.org/wiki/FEPA)), and confirm the pad mounting against the sander you run, because a hook-and-loop ring has to match the sander pad it pulls onto. For the 5-inch options we ship, start from [the 5-inch PSA sanding disc](/en/products/5-inch-psa-sanding-disc), keep the [abrasives glossary](/en/glossary) open when a label term is new to you, and if the job is on the bench right now, the [request a quotation](/en/quote) form is where you confirm the stock against your grit. Everything below is the reasoning behind those two moves.
+What keeps the 5 Inch Sanding Pad sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P1000 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Both habits cost a minute and buy back the whole pass.
 
 ### What makes a 5 inch pad work
 
@@ -110,7 +110,7 @@ The transport side is where a bulk order shows its handling. A run of 5-inch pad
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on 5-inch pads, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the 5 Inch Sanding Pad line at P1000, and the correction that moves the surface for each: Each item names the check that catches it before the surface is gone.
 
 - **Skipping grits.** Going from P240 straight to P1000 leaves P240 scratches under the P1000 line. Add the P400 step and the surface clears.
 - **Glazing on a fine pad.** A P1000 pad that you press into a surface stops cutting and starts to pack. Lighter pressure, a moving pad, and the cut comes back. A silicon carbide pad on a fine grit glazes slower, so it is the right grain when you are on the fine end.
@@ -141,7 +141,7 @@ For any of these, the [woodworking sanding use](/en/applications/woodworking) no
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for 5 Inch Sanding Pad, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P1000 pass is reduced, not removed. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your tool maximum speed is below the pad printed maximum speed before every use, and keep the sander below it.
 - Check the sander pad diameter against the pad ring; a 5-inch pad ring on a 6-inch sander pad is a mismatch, not a fit.
@@ -149,7 +149,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Confirm grit, grain, format, ring width, and the grit standard (FEPA or ISO 848) in every order so you do not mix scales.
 - Follow the pad maker install notes, and check the part and the pad for edge peel and heat on thin or soft material.
 - Confirm storage and transport keep the pad face clean and the ring un-stretched; a pad that has been sitting in a hot, damp store glazes when it first goes to work.
-- Keep a record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction 5 Inch Sanding Pad depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. Keep it on the job sheet, not in a binder.
 - Confirm lead time, minimum order, and packing for any bulk or [private label order](/en/oem), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for, and the sander you run, we can help you pick the grit and the pad format to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for 5 Inch Sanding Pad. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P1000. Three fields, one message, and the order stops needing follow-up calls.

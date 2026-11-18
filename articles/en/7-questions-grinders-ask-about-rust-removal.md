@@ -93,7 +93,7 @@ The fields are the order, and the supplier who answers all of them is the one to
 - **Backing** — the light base, the steel base or the glass base, chosen to the tool and the heat as above.
 - **Diameter and the tool check** — the disc size the tool takes, and the rated speed of the disc against the tool's no-load speed.
 - **The finish line** — the paint spec or the weld spec that the grit sequence ends at, because the sequence is built to the trade's call.
-- **Quantity and lead time** — the order quantity and the shelf date, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — the Rust Removal order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. Both travel on the order, not on the phone.
 - **Label and packing** — the logo, the part code and the spec sheet on the box for a branded run.
 
 Send those fields and the order is a conversation instead of a gamble. The [OEM and private-label service page](/oem) walks the branded run in more detail, and it is where the label and the spec sheet get built, and the [quotation form](/quote) takes the fields so the order starts with the ones that make or break it. One note on the numbers we share: we list the grain, the backing, the grit and the standard as standard, and we confirm the rated speed against each model before an order ships, because that number has to come from the disc, not from a guess. For the wholesale side, the fields are the same whether the run is a sample or the shelf, and the [quotation form](/quote) is the one place the six get sent together, because the split across emails is where a field gets dropped and the order ships wrong.
@@ -129,7 +129,7 @@ Lead time splits two ways: the in-stock grains and the common backings ship fast
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on the stripping job:
+The Rust Removal mistake costs more the longer it rides. What shows up most on the P150 line, and the correction that actually moves the cut: None of them needs a new disc; each needs the right one first.
 
 - **Skipping the bridge step** 🔧 — the scratch from the opening grits shows through the paint; add the step and the surface clears.
 - **The light base on the long, hot pass** — the face wobbles and the flaps lift; the steel base or the glass base is the match, and the light base stays with the cooler work.
@@ -158,16 +158,16 @@ When you are not sure which grain to reach for, the [flap disc range](/collectio
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Before you buy Rust Removal: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P150 risk, never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's maximum no-load speed sits below the disc's rated maximum before every use, and where the number is not printed, confirm the rating against the model.
 - Check the backing matches the tool heat: the light base for the cooler work, the steel base for the long, hot passes, the glass base for the high-speed face.
 - Fit and keep the tool guard on at all times, and check the arbor and the flanges for a true fit; the guard is the first defence against a disc that releases its face.
-- Wear eye and face protection on every pass, run dust extraction with the right filter for the material, and match the respiratory protection to the rust dust load when the extraction is not at the face.
+- Every Rust Removal pass carries eye and face protection, the extraction filter is chosen for the material, and the respirator is sized to the load that stays at the face. The habit is the part that does not slip.
 - Name the grit standard — FEPA or ISO 848 — in every enquiry, so the order does not mix scales and two suppliers do not ship two different bridge grits.
 - Confirm the grain against the job: the heat-tough grain for the long, hot pass, and the dedicated disc for any stainless work, because the iron contamination is the trap the shelf discipline prevents.
 - Store the discs and belts flat, away from heat and damp; a warped base does not hold the way the new one does, and the flaps show it before the base does.
 - Follow the maker's install notes, and check the disc and the tool for heat and face wear before the next pass on a long job.
 - For a wholesale or [private label](/oem) run, confirm the minimum order, the structure and the lead time, and start the order at the [quotation form](/quote).
 
-If you tell us the material under the rust, the finish line, the tool you run and the grit standard you buy to, the team can pre-select the grain, the backing and the grit band from the Rust Removal range to start from. Send the four and the sequence comes back with the order.
+If you name the material, the finish line and the tool, the Rust Removal grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P150 rather than the stock that happens to be on the shelf. Those three are the fields a buyer should never have to chase a second time.

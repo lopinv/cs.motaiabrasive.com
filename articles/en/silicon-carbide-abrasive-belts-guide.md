@@ -41,7 +41,7 @@ Grain decides how the belt behaves; grit decides how much it removes; the materi
 
 **Automotive sheet and refinish prep, on a bench or a small frame.** Body and panel work is where a long, continuous pass matters more than a fast one, because the finish has to read even under light. The sequence we spec for removing topcoat and prepping a panel: P80 to P120 to strip the coat and open the face, P180 to P240 to even the whole panel, P320 to P400 to clean up and bring the face up to a filler or primer-ready state. The belt does the long panels; the edges and the tight curves are where a disc takes over, because a straight belt cannot follow a compound curve the way a small, flexible disc can. The same grit scale carries across both tools, so the sequences stay comparable when the shop runs belts and discs side by side. The automotive side is walked through at [automotive repair sanding use](/applications/automotive), and the bench sizes that do most of this work are the 533 × 75 and 610 × 100 mm lines in [the abrasive belt range](/collections/abrasive-belts).
 
-Two habits that keep these sequences honest. First, keep the belt moving on every pass; a fine silicon carbide belt held in one spot on soft material will burn and glaze, and the burn shows through the next coat. Second, keep the grit step to one step at a time even when the schedule is tight; the rush to skip P240 is the step that ends up coming back as a second sanding round.
+What keeps the Silicon Carbide Abrasive Belts sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P120 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. That order is why the next order lands the same way as this one.
 
 **Wood and engineered panels, for furniture or cabinetry.** Here silicon carbide is also the common choice, because the grain cuts cleanly without packing the soft fibre the way a hard oxide grain can, and it leaves an even, low scratch the next sanding pass likes. A typical move: P80 or P120 for stock removal and even-up, P240 for blend, P320 or P400 for the last pass before finish. If the panel is MDF or sugary engineered board, a coarser grit and a moving part beat a fine grit held still, and dust extraction matters more on wood than on metal because the load is heavier. The finer detail of wood sequences is at [woodworking sanding use](/applications/woodworking), which pairs well with the bench sizes of [the 610 × 100 mm abrasive belt](/products/610x100-abrasive-belt).
 
@@ -144,7 +144,7 @@ Lead time on a silicon carbide order has two parts. In-stock grits and common si
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on belt lines, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Silicon Carbide Abrasive Belts line at P120, and the correction that moves the surface for each: Every one is a match problem wearing another problem's name.
 
 - **Skipping grits.** Going from P40 straight to P400 leaves the P40 scratch under the whole surface and the next coat shows it; add the P120 and P240 steps and the face clears. The ladder is the rule, and the one-step-at-a-time habit is the habit.
 - **Line-speed mismatch.** A belt run past its rated speed separates, and a belt run well below its design speed glazes instead of cuts. Confirm the rated speed against the model, run the machine below it, and if the cut has gone soft, check the speed before you reach for a coarser grit.
@@ -173,16 +173,16 @@ For each of these, [the abrasive belt range](/collections/abrasive-belts) is whe
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these machines is reduced but not zero.
+A purchasing and compliance checklist for Silicon Carbide Abrasive Belts, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P120 pass is reduced, not removed. Run the list once before the first order, then once per repeat run.
 
 - Confirm the machine's line speed at your wheel size is below the belt's rated line speed, and confirm that rated speed against the model before the belt goes on the machine.
 - Check the belt size fits the wheels and frame, set the tracking so the belt runs dead centre, and keep the machine guard fitted and the right size for the belt.
-- Wear eye and face protection on every pass, and use respiratory protection matched to the dust load of the material you are running.
+- Wear eye and face protection on every pass of the Silicon Carbide Abrasive Belts work, run the extraction with the right filter, and add the respiratory protection where the dust load sits at the face. It is the habit that keeps the face safe on every pass.
 - Run dust extraction at the belt's contact point with a filter matched to the material, and keep a store bin for the waste that is not swept to the corner.
 - Name the grit standard — FEPA (ISO 848) — next to the grit, grain, size and backing in every order, so the fill does not come back on a different scale.
 - Check the run's inspection or test record with the supplier before a volume order, so the lot you are running against is the lot that was checked.
 - Store belts flat or rolled, off the floor and away from heat and moisture, and check the packing on arrival so a damaged lot is not the lot that gets run.
 - Follow the maker's install and tracking notes for the machine, and re-check the tracking after the belt has warmed, because a cold and a warm belt track slightly differently.
-- Keep a record of the PPE and controls the team relies on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a record of the PPE and controls the Silicon Carbide Abrasive Belts job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The log is the discipline the label cannot carry.
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pick the grain, the grit ladder and the belt size to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page, and any branded or volume run can be built around it with the [OEM and private label service](/oem).
+The Silicon Carbide Abrasive Belts enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P120 — is worked out with you, not copied from a shelf list. That is the whole exchange; the grit choice is the one that takes the work.

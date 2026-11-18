@@ -14,7 +14,7 @@ image: belt-610-100
 
 Here is the rule that governs nearly every MDF sanding decision: **start coarse enough to flatten, then take exactly one step finer at a time, until the scratch you leave is the one the next coat of paint or finish wants to sit on.** A P80 or P100 pass knocks down saw marks and flattens proud areas; a P150 or P180 pass cleans up and prepares; a P240 pass brings the surface to a fine, even scratch before priming; P320 and up is where you only go if the finish is going on clear and you need a very soft surface. Two scenarios where that rule bends: very thin panels, where a P80 with pressure can load the abrasive and burn the face, and paper-faced MDF, where the surface skin cuts completely differently from the core and you should open coarser but finish a step finer than you think. If your job is everyday furniture production, start the ladder at P100, clean up at P180, and stop at P240 unless a clear coat is coming on top. For the tooling side of this, the [woodworking sanding use](/en/applications/woodworking) notes show which machines and abrasives we see on MDF runs, and the detail work on flat parts fits [5-inch PSA sanding discs](/en/products/5-inch-psa-sanding-disc) against the belt work.
 
-Two habits that turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and always check the machine speed against the belt rating before the first panel goes under it. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P180, backing, speed margin — happens before the first pass, not after the surface has moved. One minute of habit, saved in every pass after the first.
 
 ### How MDF sanding actually works
 
@@ -100,7 +100,7 @@ Belt life on MDF is where the loading story from the top of this article pays of
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on MDF runs, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P180 on MDF Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: None of them needs a new disc; each needs the right one first.
 
 - **Skipping a rung.** Going from P100 straight to P180 leaves P100 scratches under the P180 pass; add P150 between them and the surface clears.
 - **A grit that is too fine for the job.** Running P240 over a face still carrying P120 scratch asks the fine grit to do coarse work; it loads, glazes and stops. Step back a rung and clear the coarse scratch first, then come forward.
@@ -139,7 +139,7 @@ When you move from buying a handful of belts to a wholesale or private label ord
 - **Construction and size** — the belt size (610 × 100 mm is the mid-volume MDF size, and the [Y399 abrasive belt](/en/model/y399) is the model it maps to), the loop length, and the construction, confirmed against the machine.
 - **Grit standard** — FEPA or ISO 848, named on the spec so the stock and the order are on the same scale.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — how many MDF Sanding pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. They are the last two fields to be filled on a clean enquiry.
 - **The rung it will run** — the grit this belt is doing on the ladder, so the label and the grit on the shelf are not out of step with the panel work.
 
 Send those fields and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the label and the panel work all match what you expect.
@@ -164,7 +164,7 @@ Send those fields and the order is a conversation instead of a gamble. The [requ
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this MDF Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P180 risk is cut by the right protection, not eliminated. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your machine's no-load speed and the belt's maximum line speed at the loop length you are running, and keep the machine at or under the belt's rated speed.
 - Check the belt is fully seated on the platen, the loop length is set for the machine, and the guards are in place and in good condition.
@@ -172,7 +172,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Confirm the grit standard (FEPA or ISO 848), the grit, the size, the construction and the loop length in every order so you do not mix scales or sizes.
 - Check the certs and the inspection report for the belt before the first run on a new machine, and follow the belt maker's install notes for the loop and the tracking.
 - Store the belts away from the dust and the heat of the table, and plan the storage and transport so the face is not loaded before the run.
-- Keep a record of the PPE and the controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and [OSHA portable power tools](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.244), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a record of the PPE and controls the MDF Sanding job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). It is the one line that survives a shop change.
 - Confirm lead time, minimum order and packing for any bulk or [private label order](/en/oem), and start with the [quotation form](/en/quote).
 
 If you tell us the finish line on the panel, the machine you run and the grit standard you shop to, we can help you pick the rung sequence and the construction to start from. Send the three and we will work the ladder with you on the [request a quotation](/en/quote) page.

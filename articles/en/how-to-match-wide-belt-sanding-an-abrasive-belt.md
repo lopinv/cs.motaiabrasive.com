@@ -14,7 +14,7 @@ image: belt-610-100
 
 The rule that governs nearly every wide belt sanding decision is width first, grit second, speed last: **the belt width has to fit the machine it wraps, the grit has to match the material and the finish you are leaving behind, and the surface speed of the belt must stay below the belt's printed maximum line speed.** A 1520 × 630 mm belt wraps a wide-platen line and carries the cut across the full board; a 2200 × 1330 mm belt serves the widest floor and panel lines; a 610 × 100 mm belt is the bench and small-drum class; a 533 × 75 mm belt suits hand tools and the smallest benches. Two scenarios where the rule bends: thin or soft boards, where a coarse grit at a fast line speed digs in and burns, and long straight runs, where the wide belt leaves a long, uniform scratch that the next grit has to take out. If your job is everyday hardwood roughing on a wide line, start at P80 to P100, step down through P150, P220 and P320, and confirm the machine's plate speed before the belt goes on the line. The full set of widths we ship is on [the abrasive belt range](/collections/abrasive-belts), and [the Y399 abrasive belt](/model/y399) is a useful reference for what a stock wide-format belt looks like on the site.
 
-Two habits turn this from guesswork into a repeatable spec. Always state the grit standard you are buying to — FEPA or ISO 848 — in every order, and always check the width and the wrap against the machine's data sheet before the belt ships. Everything below is the reasoning behind those two moves.
+Make the Wide Belt Sanding spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run (belt sander) before the first cut. The rest of this page is why those two moves earn their keep. That order is why the next order lands the same way as this one.
 
 ### What wide belt sanding actually is 🪵
 
@@ -117,7 +117,7 @@ The thread through all five is that the belt is doing its job; the mismatch is i
 
 ### Common mistakes and how to fix them 🧰
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on wide lines, with the move that actually moves the problem:
+The repair is usually cheaper than the damage on Wide Belt Sanding. These are the errors that surface most at P120, and the move that actually changes the result: All of them are cheaper on the bench than on the finished panel.
 
 - **Wrong width for the platen.** A belt a little wide hangs an edge into the air and a belt a little narrow leaves an uncut band; order the size the machine maker lists and the mismatch goes away.
 - **Running the line above the belt's rated speed.** The belt overheats and the finish shows it; check the plate and the belt's printed maximum, and keep the machine below the belt's number.
@@ -152,7 +152,7 @@ The label on a wide-belt box is the whole spec in one place, and reading it in o
 
 ### Before you buy 🧾
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these machines is reduced, not zero.
+The Wide Belt Sanding checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. Treat each item as a gate: the order does not clear the desk until it passes.
 
 - Confirm the machine's maximum surface speed against the belt's printed maximum line speed before every run, and keep the machine below the belt's number; confirm the rating with sales where the belt's print is not in hand.
 - Check the fit: the belt width against the platen, the belt length against the wrap, and the machine's guards and covers in place for the belt size that goes on.
@@ -163,4 +163,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store the belts on their ends, dry and out of the sun, and transport them the way the maker's notes say, because a belt that has taken moisture or heat will not hold the cut it should.
 - Confirm lead time and the minimum order for a stocked or a branded run on the [quotation form](/quote), and keep the [abrasive belt range](/collections/abrasive-belts) open while you spec the grit and the width.
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Wide Belt Sanding grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P120 rather than the stock that happens to be on the shelf. That is the whole exchange; the grit choice is the one that takes the work.

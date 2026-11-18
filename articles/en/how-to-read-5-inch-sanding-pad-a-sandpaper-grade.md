@@ -14,7 +14,7 @@ image: mesh-5
 
 The direct rule: **step grits in sequence and never skip more than one band at a time, then pick the backing style to the dust load and the tool.** A 5 inch sanding pad is the standard round-disc size for detail sanding, orbital finishing and flat belt feeding, and one pad with the right grit sequence will beat four pads bought at random. Two governing numbers: the grit on the face (P60 up to P5000, stated on the FEPA or ISO 848 scale) and the backing style — a perforated pad sheds dust through its holes, a holeless pad trades that for a more uniform cut on light work, and a mesh pad sheds dust continuously but wears faster. Two scenarios where this rule bends: very soft substrates that tear at coarse grits and want a finer start, and tight contours where a 5 inch face is simply too large and a smaller pad takes over. If your job is everyday panel, cabinet or detail work, start in the P120 to P240 band, keep the grits moving coarser to finer, and confirm the tool speed against the pad rating before you start. For the full set of shapes we supply, browse [the sanding disc range](/collections/sanding-discs) and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to, and always confirm the backing against the tool before the disc touches a part. Everything below is the reasoning behind those two moves.
+Make the 5 Inch Sanding Pad spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P400 band against the tool you actually run (belt sander) before the first cut. The rest of this page is why those two moves earn their keep. That order is why the next order lands the same way as this one.
 
 ### 🧱 How a 5 inch pad actually works
 
@@ -115,7 +115,7 @@ On lead time, two things set it. Grits and backings we hold in stock ship fast; 
 - **Grain and grit** — aluminium oxide, zirconia alumina, silicon carbide or ceramic, and the FEPA or ISO 848 grit stated on the scale you shop to.
 - **Backing style** — perforated, holeless or mesh, chosen for the dust load and the tool as above.
 - **Diameter and fitting** — 5 inch, the tool plate or flange it runs on, and the hook-and-loop or PSA bond.
-- **Quantity and lead time** — how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of 5 Inch Sanding Pad needed and the date it is needed by; together they decide stock versus make-to-run. They are the pair that decides which shelf the lot comes off.
 - **Label and packing** — your part code and any spec sheet on the box for a private label run.
 
 Send those fields and the order moves. The [request a quotation](/quote) form is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect. One note on the numbers we share: we list grit, backing and diameter as standard, and we confirm the maximum working speed against each model before an order ships, because that number has to come from the pad, not from a guess.
@@ -134,11 +134,11 @@ For an OEM or private label build, the storage guidance travels with the packing
 
 Under cutting is the quiet complaint: the pad looks fine and the tool sounds fine, but the part is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a pad makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving pad, not a coarser grit.
+- **Pressure, not grit.** Pushing on the belt sander packs the face and stops the 5 Inch Sanding Pad cut; the remedy is less pressure and a moving part, not a step up in grit. Keep the face moving and the cut stays open.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like zirconia alumina on a material that packs aluminium oxide.
 - **Wrong backing for the tool speed.** A paper-backed disc running hot and glazing on a high-speed orbital is a mesh-or-perforated job, not a holeless one; the backing limits the cut before the grit does.
 - **Tool speed out of range.** Below the speed the pad was built for, it cuts soft and slow. Check the no-load speed and keep the pad in the range it was made for.
-- **Grit too fine for the job.** A P400 on a P120 task asks the pad to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** The fine grit asks the 5 Inch Sanding Pad part to be polished where it should be cut; one grit lower and it is removing again. A coarser task wants a coarser grit.
 
 For each of these, [the sanding disc range](/collections/sanding-discs) shows the grit and backing to reach for, [woodworking sanding use](/applications/woodworking) gives the sequence by material, and [the abrasives glossary](/glossary) keeps the terms straight so you and your team are diagnosing the same problem. The thread through all five is that under cutting is almost always a match problem, not a bad pad.
 
@@ -146,7 +146,7 @@ One diagnosis habit that pays off: before you change the pad, note the scratch i
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on 5 Inch Sanding Pad. These are the errors that surface most at P400, and the move that actually changes the result: Every one is a match problem wearing another problem's name.
 
 - **Skipping grits.** P80 straight to P400 leaves P80 scratches under the finish; add the P180 and P220 steps and the surface clears.
 - **Edge peel.** A hook-and-loop disc whose edges lift and dig at the panel edge; the fix is a fresh disc and even pressure, not more of it.
@@ -175,7 +175,7 @@ For any of these, the [sanding disc range](/collections/sanding-discs) gives the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+The 5 Inch Sanding Pad checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P400 work goes down but never to zero. Run the list once before the first order, then once per repeat run.
 
 - Confirm your tool maximum speed is below the pad printed maximum working speed before every use; confirm the rated speed against the model when in doubt.
 - Check the pad diameter and the tool plate or flange are the correct size, and use the backing system the tool was built for.
@@ -183,7 +183,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Run dust extraction at the work, with a filter suited to the material, and a sealed waste path for the dust.
 - Confirm grit, backing style, diameter and the grit standard (FEPA or ISO 848) in every order so you do not mix scales.
 - Follow the pad maker install notes, and check the part and the pad for heat and scratch depth on thin or soft material.
-- Keep a record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a line in the job record for the PPE and 5 Inch Sanding Pad controls; the U.S. requirement is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup reading at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). Write it where the next person actually looks.
 - Confirm lead time, minimum order and packing for any [sanding discs wholesale](/collections/sanding-discs) or [private label order](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+The three fields to start a 5 Inch Sanding Pad order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P400 downward, to the job instead of the nearest stock. That is the whole exchange; the grit choice is the one that takes the work.

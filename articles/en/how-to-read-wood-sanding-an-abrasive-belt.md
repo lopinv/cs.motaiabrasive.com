@@ -16,7 +16,7 @@ Here is the rule that governs nearly every wood sanding call on a belt machine: 
 
 If your line is everyday doors, panels and furniture components, start the coarse pass in P80 to P120 and confirm the belt size against your platen before you cut stock. Most of the abrasive belts a wood line uses come in one of four sizes, and the range we supply — 533 × 75, 610 × 100, 1520 × 630 and 2200 × 1330 mm, all in aluminium oxide — starts at [the abrasive belt range](/en/collections/abrasive-belts), with the most stocked small machine size at [the 610 × 100 mm abrasive belt](/en/products/610x100-abrasive-belt). Sequences by wood type sit at [woodworking sanding use](/en/applications/woodworking).
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to — FEPA or ISO 848 — and always confirm the belt's rated line speed against the model plate before it goes on the machine. Everything below is the reasoning behind those two moves.
+What keeps the Wood Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P400 band, the backing and panel sander are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. That order is why the next order lands the same way as this one.
 
 ### How an abrasive belt for wood sanding works
 
@@ -119,7 +119,7 @@ On lead time, two things set it. The grits and sizes a factory holds on the shel
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on wood lines, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Wood Sanding line at P400, and the correction that moves the surface for each: Every one is a match problem wearing another problem's name.
 
 - **Loading and glazing on MDF and boards** 💨 — the belt stops cutting on a face that still needs work. The cause is a fine grit on a soft, sugary board, not a bad belt: go one grit coarser on the board, keep the panel moving, and let the bond do its job instead of fighting it.
 - **Skipping grits** 📏 — a P80 to P400 jump leaves the P80 scratches under the finish, and they show through. Add the P150 or P180 and P240 steps between, and the face clears in order.
@@ -151,7 +151,7 @@ For any of these, the [abrasive belt range](/en/collections/abrasive-belts) show
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection, the risk of belt work is reduced, not zero.
+A purchasing and compliance checklist for Wood Sanding, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P400 pass is reduced, not removed. Run the list once before the first order, then once per repeat run.
 
 - Confirm the machine's working line speed is below the belt's rated maximum before the belt goes on, and re check it whenever the platen or the motor changes.
 - Check the platen and the belt width match, set the tracking, and keep every platen cover and guard fitted, on every pass.

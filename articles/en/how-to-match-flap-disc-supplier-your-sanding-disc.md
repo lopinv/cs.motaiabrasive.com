@@ -72,7 +72,7 @@ The supplier match is the spec-sheet match, and the fields are the ones below. A
 - **Backing** — the light base, the steel base or the glass base, chosen to the tool and the heat as above.
 - **Diameter and the tool check** — the disc size the tool takes, and the rated speed of the disc against the tool's no-load speed.
 - **Structure and charge** — the flap structure and the grain charge, because that is where two P-numbers from two makers pull apart on the first panel.
-- **Quantity and lead time** — the order quantity and the shelf date, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — the number of Flap Disc Supplier needed and the date it is needed by; together they decide stock versus make-to-run. The lot only gets built once the two agree with the job.
 - **Label and packing** — the logo, the part code and the spec sheet on the box for a branded run.
 
 Send those six fields and the order is a conversation instead of a gamble. The [quotation form](/quote) is where to start, and for a first branded run, ask for a sample against the spec before the full order, so the grain, the backing and the label all match what you expect before the shelf does. The [OEM and private-label service page](/oem) walks the branded run in more detail, and it is where the label and the spec sheet get built. One note on the numbers we share: we list the grain, the backing, the grit and the standard as standard, and we confirm the rated speed against each model before an order ships, because that number has to come from the disc, not from a guess.
@@ -130,7 +130,7 @@ Lead time splits two ways: the in-stock grains and the common backings ship fast
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on flap disc work:
+The repair is usually cheaper than the damage on Flap Disc Supplier. These are the errors that surface most at P220, and the move that actually changes the result: None of them needs a new disc; each needs the right one first.
 
 - **Skipping the 220 bridge step** 🔧 — the scratch from the opening grits shows through the final coat; add the bridge step and the surface clears.
 - **The light base on the fast tool** — the face wobbles and the flaps lift; the glass base is the match for the high RPM, and the light base stays with the cooler work.
@@ -160,16 +160,16 @@ When you are not sure which grain to reach for, the [flap disc range](/collectio
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+The Flap Disc Supplier checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P220 work goes down but never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's maximum no-load speed sits below the disc's rated maximum before every use, and where the number is not printed, confirm the rating against the model.
 - Check the backing matches the tool heat: the light base for the cooler work, the steel base for the demanding passes, the glass base for the high-speed, hot face.
 - Fit and keep the tool guard on at all times; it is the first defence against a disc that releases its face.
-- Wear eye and face protection on every pass, run dust extraction with the right filter for the material, and match the respiratory protection to the dust load when the extraction is not at the face.
+- Eye and face protection on every Flap Disc Supplier pass, dust extraction with the filter for the material, and the respiratory protection matched to the load when the extraction is not at the face. Worn on every pass, not just the first.
 - Name the grit standard — FEPA or ISO 848 — in every enquiry, so the order does not mix scales and two suppliers do not ship two different cuts.
 - Confirm the grain against the job: the heat-tough grain for the heavy, heat-heavy work, the general grain for the mixed work, and the slick-surface grain where the face would burn.
 - Store the discs flat, away from heat and damp; a warped base does not hold the way the new one does, and the flaps show it before the base does.
 - Follow the maker's install notes, and check the disc and the tool for heat and face wear before the next pass on a long job.
 - For a wholesale or [private label](/oem) run, confirm the minimum order, the structure and the lead time, and start the order at the [quotation form](/quote).
 
-If you tell us the material, the tool you run, the heat of the job and the grit standard you buy to, the team can pre-select the grain, the backing and the grit band from the Flap Disc Supplier range to start from. Send the four and the sequence comes back with the order.
+The three fields to start a Flap Disc Supplier order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P220 downward, to the job instead of the nearest stock. Those three are the fields a buyer should never have to chase a second time.

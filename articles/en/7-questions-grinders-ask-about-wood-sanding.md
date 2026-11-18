@@ -91,7 +91,7 @@ The fields are the order, and the supplier who answers all of them is the one to
 - **Grit and the standard** — the grit, and the FEPA or ISO 848 scale on the same one the shop buys to.
 - **Grain and the charge** — the grain, and the charge when comparing two belts that both say the same grit.
 - **Form and the width** — the disc, the belt or the sheet, and the width on the belt, chosen to the tool and the face as above.
-- **Quantity and lead time** — the order quantity and the shelf date, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — how many Wood Sanding pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. Both travel on the order, not on the phone.
 - **Label and packing** — the logo, the part code and the spec sheet on the box for a branded run.
 - **The finish line** — the spec the sequence ends at, because the grit the next trade wants is the grit the order builds to.
 
@@ -130,7 +130,7 @@ Lead time splits two ways: the in-stock grains and the common widths ship fast, 
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on the wood line:
+Cheap to fix, expensive to leave: that is the rule at P5000 on Wood Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Skipping the bridge step** 🔧 — the scratch from the opening grits shows through the finish; add the step and the surface clears.
 - **The closed charge on the gummy wood** — the face glazes by the second board and the cut drops; the open charge is the pick, and the charge follows the grain.
@@ -159,12 +159,12 @@ When you are not sure which grit to start on, the [abrasive belt range](/collect
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Keep this Wood Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P5000 risk is cut by the right protection, not eliminated. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm your machine's maximum line speed sits below the belt's rated maximum before every run, and where the number is not printed, confirm the rating against the model.
 - Check the width matches the machine: the bench sander takes the 533 by 75 and the 610 by 100, and the wide machine takes the 1520 by 630 and the 2200 by 1330, with the pairing on the shelf label.
 - Fit and keep the machine guard on at all times; it is the first defence against a belt that releases its edge.
-- Wear eye and face protection on every pass, run dust extraction with the right filter for the wood, and match the respiratory protection to the dust load when the extraction is not at the face.
+- Wear eye and face protection on every pass of the Wood Sanding work, run the extraction with the right filter, and add the respiratory protection where the dust load sits at the face. Worn on every pass, not just the first.
 - Name the grit standard — FEPA or ISO 848 — and the charge — open for the gummy wood — in every enquiry, so the order does not mix scales or charges.
 - Confirm the grain against the wood: the general grain for the clean-cutting board, and the open charge for the resin-heavy one, because the packed face is the fault the charge prevents.
 - Store the belts and discs flat, away from heat and damp; a warped belt does not cut the way the new one does, and the surface shows it before the belt does.

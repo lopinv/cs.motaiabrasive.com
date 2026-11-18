@@ -134,13 +134,13 @@ When the conversation moves from a handful of pads to a wholesale or OEM run, th
 - **The pairing** — hook to loop, loop to hook, or the matching mesh pair, so the pad and the disc agree on which side is which.
 - **The disc spec on the disc side** — grain, grit and the FEPA or ISO 848 standard, written on the same scale the shop buys to.
 - **Label and packing** — your logo, your part code and the spec sheet on the box for a branded run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — how many Sanding Backing Pad pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. The two numbers are the ones the factory sees before anything else.
 
 Send those fields and the order is a conversation instead of a gamble. The [quotation form](/quote) is where to start, and for a first branded run, ask for a sample against the spec before the full order, so the face, the pairing and the label all match what you expect before the shelf does. One note on the numbers we share: we list the diameter, the face and the pairing as standard, and we confirm the rated speed against each model before an order ships, because that number has to come from the pad, not from a guess.
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on pad work:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Sanding Backing Pad line at 848, and the correction that moves the surface for each: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **The hook-to-hook pairing** 🔧 — hook side to hook side, and the disc sits loose; check the pairing once, write it on the shelf label, and the Hook and Loop mismatch stops showing up as "the disc just does not hold."
 - **A Perforated Pad on a dry, low-dust finishing job** — paying for slots the dust does not need; the solid face is the cheaper, faster cut when the extraction is doing its job.
@@ -178,16 +178,16 @@ Where the two shelves touch is at the 5-inch size, which appears on both tools, 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+A purchasing and compliance checklist for Sanding Backing Pad, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the 848 pass is reduced, not removed. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's maximum no-load speed sits below the pad-and-disc pair's rated maximum before every use, and where the number is not printed, confirm the rating against the model.
 - Check the pad face matches the disc form: hook to loop or loop to hook, the perforated face under the open disc, the solid face under the holeless disc, and the mesh pair kept to its own shelf.
 - Fit and keep the tool guard on at all times; it is the first defence against a disc that releases its edge.
-- Wear eye and face protection on every pass, run dust extraction with the right filter for the material, and match the respiratory protection to the dust load when the extraction is not at the face.
+- On every Sanding Backing Pad pass: eye and face protection, the dust extraction with the filter for the material, and the respiratory protection matched to whatever the extraction leaves at the face. That is the three that stay on for the whole run.
 - Name the grit standard — FEPA or ISO 848 — in every enquiry, so the order does not mix scales and two suppliers do not ship two different cuts.
 - Confirm the face type against the dust load: the open face for the dirty job, the solid face where the extraction does the work.
 - Store the pads flat, away from heat and damp; a warped face does not hold the way the new one does, and the disc shows it before the pad does.
 - Follow the maker's install notes, and check the pad face for lumps, torn loops and wear rings before every session; the swap is cheap next to the disc it is protecting.
 - For a wholesale or [private label](/oem) run, confirm the minimum order, the pairing and the lead time, and start the order at the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for, the tool you run and the grit standard you buy to, the team can pre-select the face and the pad size from the Sanding Backing Pad range to start from. Send the four and the pairing comes back with the order.
+The Sanding Backing Pad enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around 848 — is worked out with you, not copied from a shelf list. No template is attached; the three fields travel in the message itself.

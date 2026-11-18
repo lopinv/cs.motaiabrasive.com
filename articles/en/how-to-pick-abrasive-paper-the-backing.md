@@ -140,7 +140,7 @@ Lead time splits two ways. In-stock grits and the common backings ship fast; a b
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistake. What shows up most on sheet and paper work:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Abrasive Paper line at P3000, and the correction that moves the surface for each: Fix the match and the list gets shorter on the next job.
 
 - ⚠️ **Skipping grits.** P80 to P320 leaves the coarse scratch under the film; the P150 and P240 steps in between are the surface, not an extra pass.
 - 🔥 **Holding one spot on the work.** A paper parked on one place burns a soft surface and turns a fill; keep the tool or the hand moving through the pass, and the cloth face is the one for the dirty passes.
@@ -169,12 +169,12 @@ For the terms, [the abrasives glossary](/glossary) keeps bench and office descri
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+A purchasing and compliance checklist for Abrasive Paper, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P3000 pass is reduced, not removed. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm the tool's maximum no-load speed clears the paper's rated maximum working speed before every use, and where the paper does not print a number, confirm the rating against the model.
 - Check the arbor, the holder and the backing agree: a PSA face on a matching sander's pad, a cloth face on a fine grit, and the belt's grit one or two bands coarser than the first paper grit.
 - Keep the tool guard fitted on every machine pass; it is the first defence against a disc failure.
-- Wear eye and face protection on every pass, and match the respiratory protection to the dust load when the extraction is not at the face.
+- On every Abrasive Paper pass: eye and face protection, the dust extraction with the filter for the material, and the respiratory protection matched to whatever the extraction leaves at the face. It is the habit that keeps the face safe on every pass.
 - Run dust extraction with the right filter for the material, and keep the waste in a sealed bin rather than swept to the corner.
 - Name the grit, the grain, the backing and the grit standard (FEPA, ISO 848) in every enquiry, so the order does not mix scales.
 - Ask for the inspection report or certificate against the batch you are ordering, and get it on the order, not after it.

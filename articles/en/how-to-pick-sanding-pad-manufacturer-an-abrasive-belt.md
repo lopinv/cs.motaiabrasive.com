@@ -18,7 +18,7 @@ The one number that governs the rest is the grit the maker prints, and the stand
 
 Two scenarios where the belt test does not apply. First, a pad-only maker with no belt line: you judge on bond samples, a grit tolerance check and a trial run on your own tool. Second, a maker whose belt line runs on a different grain source or in a different plant than the pad line: the belts are not telling you anything about the pads, and you ask for a pad sample on your own machine before you commit. Both cases are answerable with one question: "Do you run belts and pads on the same pressing line, with the same grain?"
 
-Two habits turn this from guesswork into a spec: ask for grit and bond samples from the same lot you will buy, and ask which grit standard the maker runs. If he cannot name the standard, name one for him. The pad styles a maker should be able to talk about in detail — hook and loop, mesh, perforated, holeless — you can walk through yourself in [the sanding disc range](/collections/sanding-discs).
+Make the Sanding Pad Manufacturer spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the 1910 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. The two habits are the difference between a spec and a guess.
 
 ### What a Sanding Pad Manufacturer actually ships
 
@@ -160,7 +160,7 @@ Two last cost habits from the floor. Keep one scale and one mount per station, b
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Sanding Pad Manufacturer. These are the errors that surface most at 1910, and the move that actually changes the result: None of them needs a new disc; each needs the right one first.
 
 - **Skipping grits** 🪜 — going from P80 straight to P400 leaves P80 scratches under the finish; add the P150 and P220 steps and the surface clears.
 - **Wrong mount** — a PSA pad on a loop-only mandrel, or a loop pad on a paper-only mandrel; check the mandrel before the first pass, and the mix-up disappears.
@@ -190,7 +190,7 @@ The thread through all seven: most of the complaints are match problems, not bad
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and in compliant use, with the right protection, the risk of these tools is reduced, not removed.
+The Sanding Pad Manufacturer checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this 1910 work goes down but never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - 🧤 **Confirm the tool's max speed against the product's rated speed** before every use; where the number is not printed, confirm it with sales and keep the tool below it.
 - **Check the mandrel and the mount fit**, PSA face to paper, loop to hook, and keep the tool's guard on at all times.
@@ -202,4 +202,4 @@ A short compliance and purchasing checklist. It is a reminder, not a substitute 
 - **Follow the maker's install notes** for the mount and the speed, and re-check the guard and the mandrel each shift; setup practice is at [CCOHS "Abrasive Wheels" occupational health answers](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 - **Start the order on the quotation page**: confirm MOQ, lead time and packing for any [private label run](/oem), and begin on [request a quotation](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three, and we will work the sequence with you on the [request a quotation](/quote) page.
+The three fields to start a Sanding Pad Manufacturer order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from 1910 downward, to the job instead of the nearest stock. Those three are the fields a buyer should never have to chase a second time.

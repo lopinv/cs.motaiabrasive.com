@@ -14,7 +14,7 @@ image: flap-steel
 
 The governing rule for weld seam grinding is one number and one material: **match the backing to how hard and how fast the weld job is, then match the grit to how much cap you are removing.** A weld cap on steel plate is high, loaded and uneven, so the rough cap reduction wants a rigid backing that holds the flaps under pressure, while the light finishing passes where the disc is spinning fast and heat is the worry want a backing that resists flex and temperature. In practice that points to a steel-backing flap disc for the rough removal and blend, and a fiberglass-backing flap disc for the faster, hotter finishing passes. Two scenarios where the rule bends: thin sheet and soft materials, where even a medium grit builds enough heat to warp the part, so you drop a grit and keep the disc moving; and a very dense field of welds on one plate, where the cap is so tall you open with an even coarser grit before you reach the everyday band. If your job is everyday weld seam grinding on mild or stainless plate, start in the P80 to P120 band on a steel backing and confirm the disc fits your grinder arbor before you cut into the cap. For the full set of shapes and backings we supply, see [the flap disc range](/collections/flap-discs) and keep [the abrasives glossary](/glossary) open when a label term is unfamiliar.
 
-Two habits turn this from guesswork into a spec you can write on an order: always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the arbor hole and the printed maximum working speed before the disc goes on the machine. Everything below is the reasoning behind those two moves, and why the backing is usually the decision that actually decides the job.
+Two habits make the Weld Seam Grinding spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P120 band and the tool speed before the first pass. Everything below is the reasoning behind those two moves. Do them once per job and the rest of the sequence holds together.
 
 ### How a flap disc removes a weld
 
@@ -70,7 +70,7 @@ Material shifts the starting grit even when the tool is the same:
 
 - **Mild steel plate** ⚙️ — P60 to P80 to remove, P120 to P240 to blend. The bread-and-butter band where most weld grinding lives.
 - **Stainless** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc dedicated or swap grits before you move from a steel job to a stainless one, because embedded steel particles are the seed of rust spots on the stainless later.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — the soft metal wants P120 to open and the fine rung to close Weld Seam Grinding; a coarse grit digs past what the part can forgive, so start low and move. Softer metal, finer start — that is the rule.
 - **Castings and rough weld metal** 🧱 — P40 to P60 to open the face, then P80 to P120. A rough, high-porosity cap packs a fine grit, so you work coarse to fine in steps rather than jumping straight to the finish disc.
 
 For the metal side of these jobs, the [metal fabrication application notes](/applications/metal-fabrication) walk through typical sequences by material, and the [stainless steel finishing notes](/applications/stainless-steel) cover the dedicated-disc habit that keeps stainless clean. The grit number itself is a FEPA or ISO 848 designation, and the reference is at [the FEPA grit standard](https://en.wikipedia.org/wiki/FEPA); name that standard in every order so two suppliers do not quietly ship you two different cuts.
@@ -110,7 +110,7 @@ On lead time, two things set it. Stock grits and common diameters usually ship f
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. This is what shows up most on a weld grinding bench, with the change that actually moves the problem:
+The Weld Seam Grinding mistake costs more the longer it rides. What shows up most on the P120 line, and the correction that actually moves the cut: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Skipping grits.** Going from P60 straight to P400 leaves P60 scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Wrong arbor.** A disc that does not sit fully on the flange walks at speed; buy the right hole or a rated adapter, never file the hole larger.
@@ -161,7 +161,7 @@ Where the job is genuinely a disc job and you are just not sure which one, the [
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Before you buy Weld Seam Grinding: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool maximum speed is below the disc printed maximum working speed before every use; confirm the rated speed against your model with sales.
 - Check the arbor hole and flange are the correct size, and use a rated adapter where needed; never file the hole larger.
@@ -173,4 +173,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the disc maker install notes and the tool maker run notes before each job, and check the part and the scratch depth on thin or soft material.
 - Confirm lead time, minimum order and packing for any bulk or private-label order, and keep the PPE baseline in view at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help pre-select the grit and the backing to start from. Send the three and we will work the weld sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Weld Seam Grinding grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P120 rather than the stock that happens to be on the shelf. No template is attached; the three fields travel in the message itself.

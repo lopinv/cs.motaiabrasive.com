@@ -114,7 +114,7 @@ When the conversation moves from a handful of discs to a regular supply line —
 - **Backing** 📐 — paper, cloth, or the hook-and-loop disc format, chosen for the tool and the stage the way the decision list above runs it.
 - **Size** 📏 — the disc diameter and the pad it mounts to, or the roll width and the machine it feeds; a size that does not fit the pad or the machine is not a grit problem, it is a setup problem that arrives looking like one.
 - **Rated speed** ⚙️ — confirmed against the model, never assumed, because the backing's maximum is the number that keeps the tool and the machine inside the safe setup.
-- **Quantity and lead time** 📦 — how much, and how fast it has to be on the shelf, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — the Sandpaper Rolls order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. The two numbers are the ones the factory sees before anything else.
 - **Label and packing** ✅ — for a branded order, your logo, your part code and any spec sheet you want on the box; that is the private label side, and it is where the [OEM and private label service page](/oem) carries the conversation.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) page is where to start it, and if you are new to a branded run, ask for a sample against the spec before the full order, so the grit, the backing and the label all match what you expect on the shelf. The [about MoTai](/about) page is where the factory-direct side of that sample conversation is explained, and it is the place to look when an abrasive distributor's shelf is not holding the grade you need on the timeline you have.
@@ -150,7 +150,7 @@ For any of these, the fix is a match, not a stronger press. The [sanding disc ra
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+The Sandpaper Rolls checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. Each item below is one you can check against the delivery in hand.
 
 - Confirm your tool's maximum speed is below the product's rated maximum before every use; the rated speed is confirmed with sales against the model you run, not assumed.
 - Check the backing, the disc size and the pad or flange are the correct match for the tool, and fit the guard where the tool has one.
@@ -161,4 +161,4 @@ A short compliance and purchasing checklist. It is a reminder, not a substitute 
 - Follow the maker's install notes for the disc or the roll, and check the part for heat and scratch depth on thin or soft material as you go.
 - For a regular or branded order, confirm lead time, minimum order and packing on the [OEM and private label service page](/oem), and start the conversation at [request a quotation](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three, and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Sandpaper Rolls grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P120 rather than the stock that happens to be on the shelf. Three fields, one message, and the order stops needing follow-up calls.

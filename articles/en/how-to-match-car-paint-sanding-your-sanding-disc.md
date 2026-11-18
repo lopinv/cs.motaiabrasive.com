@@ -14,7 +14,7 @@ image: mesh-5
 
 Start with one governing rule: **match the grit to the state of the surface, keep the steps between grits small, and let the fine grit follow the coarse one before any painted layer goes on.** In car paint sanding, coarse grits such as P80 to P120 remove and level; P180 to P240 even out the surface; and P320 is the grit band most body shops treat as the reference finish pass over primer and filler before base coat. The second rule: the attachment has to fit the tool and mandrel you actually run, so most panel work sits on a hook-and-loop disc that matches the mandrel diameter, and the disc stays inside the tool's rated speed for the whole sequence. Two scenarios where the standard rule bends: sanding through an existing finish, where you stop the moment you reach base coat and drop to P400 and finer with light pressure; and very flat, open panels, where a mesh system out-cuts a round disc on consistency. For the grit, attachment and mesh options we ship, see [the sanding disc range](/collections/sanding-discs) and keep [the abrasives glossary](/glossary) open when a label term is unfamiliar.
 
-Two habits keep this from becoming guesswork: state the grit standard you are buying to, and check the tool's rated speed before the disc goes on the mandrel. Everything below is the reasoning behind those two moves.
+What keeps the Car Paint Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P320 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. The two habits are the difference between a spec and a guess.
 
 ### How car paint sanding actually works
 
@@ -137,7 +137,7 @@ When you move from buying a handful of discs to a bulk or private-label run, the
 - **Diameter** — matched to the mandrel and the panel area, not to what is already on the shelf.
 - **Rated speed** — confirmed against the model, never assumed, because it has to come from the disc.
 - **Label and packing** — the logo, the part code and any spec sheet you want on the box for a private-label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — for Car Paint Sanding, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. The lot only gets built once the two agree with the job.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec first so the grit, the attachment and the label all match what you expect. For what we can put on the packaging, the [OEM and private-label service page](/oem) is the reference.
 
@@ -174,7 +174,7 @@ The thread that runs through all of them is that a bad panel finish is almost al
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for Car Paint Sanding, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P320 pass is reduced, not removed. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm the tool's rated speed against the model and keep every disc below its printed maximum working speed for each use.
 - Confirm the mandrel arbor and the disc backing match, and that the guard or tool setup is in place for the disc size.
@@ -183,6 +183,6 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Seat the hook and loop disc flat on the mandrel before every pass, so the edge cannot lift and wrap at a panel corner.
 - Check storage and transport for any bulk order: grit and attachment that arrive crushed or contaminated lose their cut, so confirm how the supplier packs and ships.
 - Follow the maker's install notes for the attachment, and check the panel and the disc for heat and scratch depth on thin or soft material.
-- Keep a record of the PPE and extraction controls you rely on; the U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and the wheel setup is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction Car Paint Sanding depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. Write it where the next person actually looks.
 
 If you tell us the panel material, the finish you are aiming for and the tool you run, we will work the sequence with you on the [request a quotation](/quote) page. For the grit and attachment to start from, the [sanding disc range](/collections/sanding-discs) is the full set, and the [OEM and private-label service page](/oem) covers the branded run.

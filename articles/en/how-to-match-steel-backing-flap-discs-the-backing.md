@@ -16,7 +16,7 @@ Here is the rule that governs nearly every match: **reach for steel backing flap
 
 In practice, a fabrication shop running weld grinding on structural mild steel or thick stainless starts on a steel backing flap disc at P80 to P120 to move stock, then steps down a grit to blend and clean. If the tool spins fast and the sheet is thin, steel can overheat and warp the part, and the fix is to switch the backing rather than the grit. Steel is the workhorse of the demanding end of the line, and most of the matching work happens in choosing the grit and the grain to go on that rigid plate, not in doubting the backing itself. If you are new to specing these, compare [the steel-backing flap disc](/en/flap/steel) against [the fiberglass-backing flap disc](/en/flap/fiberglass) and note how the stiffness and the heat behaviour differ before you commit to a grit.
 
-Two habits turn this from guesswork into a repeatable spec. First, always state the grit standard you are buying to, FEPA or ISO 848, in every enquiry. Second, always confirm the arbor hole and the rated working speed against the tool before the disc touches the part. Everything in this guide is the reasoning behind those two moves, written for the buyer who wants to match a steel backing flap disc to the job on the bench rather than buy on a colour and a price.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P120, backing, angle grinder — happens before the first pass, not after the surface has moved. Do them once per job and the rest of the sequence holds together.
 
 ### How Steel Backing Flap Discs actually work
 
@@ -77,7 +77,7 @@ When a steel-backing run goes from a handful of discs to a regular or branded or
 - **Diameter and arbor** ⚙️ — the disc diameter and the centre hole, matched to the tool and flange that actually run it.
 - **Maximum working speed** ⚡ — confirmed against the model, never assumed, because it has to come from the disc label.
 - **Label and packing** 🏷️ — the logo, the part code and any spec sheet on the box for a private-label run.
-- **Quantity and lead time** 📦 — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to the run.
+- **Quantity and lead time** — for Steel Backing Flap Discs, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. The two numbers are the ones the factory sees before anything else.
 
 Send those six fields and the order is a conversation instead of a gamble, and the [request a quotation](/en/quote) page is where to start. For any branded steel-backing run, ask for a sample against the spec before the full order so the grit, the grain, the backing and the label all match what the bench expects.
 
@@ -127,7 +127,7 @@ If the part is thinner than 10 mm, the same run changes at step one: the demandi
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on steel-backing work, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P120 on Steel Backing Flap Discs. Here is the short list of errors that surface most, and the move that fixes each one at the root: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Skipping grits** 🔩 — going from P60 straight to P400 leaves P60 scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Wrong arbor** ⚙️ — a disc that does not sit fully on the flange walks at speed; buy the right hole or a rated adapter, never file the hole larger.
@@ -164,7 +164,7 @@ The reason deburring pulls toward a steel backing is that it is a demanding, pre
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not removed.
+Keep this Steel Backing Flap Discs checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's no-load speed is below the disc's printed maximum working speed before every use; we confirm the rated speed against the model, so keep the tool under it.
 - Check the arbor hole and the flange are the correct size and the disc sits fully on the flange, never on the edge; use a rated adapter where needed.
@@ -172,7 +172,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Wear eye and face protection, and use dust extraction plus the right respiratory protection for the load.
 - Name the grit standard (FEPA or ISO 848), the grit, the backing, the diameter and the arbor in every order so the scales do not mix.
 - Check the disc and the part for heat and scratch depth on thin or soft material, and follow the maker's install notes.
-- Keep a record of the PPE and controls you rely on; the U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), setup guidance is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels), and grit scale reference is at [the FEPA grit standard](https://en.wikipedia.org/wiki/FEPA).
+- Note down the PPE and the extraction Steel Backing Flap Discs depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. It is the line the next person reads first.
 - Confirm storage and transport keep the discs dry and the flaps clean, and confirm MOQ, lead time and packing for any [flap disc wholesale](/en/collections/flap-discs) or [private label order](/en/oem), starting from the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page, and the [about MoTai](/en/about) page is where to see how the steel-backing runs are built and checked.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Steel Backing Flap Discs. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P120. Three fields, one message, and the order stops needing follow-up calls.

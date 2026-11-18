@@ -173,4 +173,4 @@ A short compliance and purchasing checklist for wide abrasive belts. This is a r
 - Follow the maker's install and tracking notes for the specific model, and confirm the loop is seating fully on both drums before the first pass.
 - For a [flap and belt wholesale](/collections/abrasive-belts) or [private label order](/oem), confirm the minimum order, the lead time and the packing on the same thread, and start with the [request a quotation](/quote) page.
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pre-select the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+The three fields to start a Wide Abrasive Belts order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P120 downward, to the job instead of the nearest stock. Those three are the fields a buyer should never have to chase a second time.

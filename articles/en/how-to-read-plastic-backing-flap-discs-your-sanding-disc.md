@@ -16,7 +16,7 @@ Here is the rule that governs nearly every plastic backing flap discs decision: 
 
 The default pick, when the job is everyday work on mild steel: a P100 to P120 grit on the plastic backing for blending and light deburring, stepping down to P240 to bring the surface even. If the weld cap is tall, start on a P60 to P80 on a steel backing, then move to the plastic disc at P120 once the area is roughly flush. For a closer look at the sizes and grits in this line, open [the plastic-backing flap disc page](/en/flap/plastic), and keep [the flap disc range](/en/collections/flap-discs) next to it when you are comparing grits across backings.
 
-Two habits turn this from guesswork into a repeatable spec: state the grit standard — FEPA or ISO 848 — in every enquiry, and confirm the arbor hole against your tool before the disc ever goes on. Everything below is the reasoning behind those two moves, and when a label term is unfamiliar, the definitions are in [the abrasives glossary](/en/glossary).
+What keeps the Plastic Backing Flap Discs sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P120 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. One minute of habit, saved in every pass after the first.
 
 ### How a plastic backing flap disc actually works ⚙️
 
@@ -82,7 +82,7 @@ By material, the starting points:
 
 - **Mild steel** ⚙️ — P60 to P80 to remove, P120 to P240 to blend. The bread-and-butter range where most plastic backing flap discs spend their life.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc dedicated or swap grits before moving from a steel job, because embedded mild-steel particles in the grain are the seed of rust spots on the part later. The details are in the [stainless steel finishing notes](/en/applications/stainless-steel).
-- **Aluminium and soft alloys** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — open at P120 on Plastic Backing Flap Discs and work the finish rung; softer metal takes a deeper scratch from a coarse grit, so start the rung lower and keep it moving. The alloy is the reason the starting grit is lower.
 - **Castings and rough surfaces** 🧱 — P40 to P60 to open the face, then P80 to P120. A rough casting packs a fine grit, so you work coarse to fine in steps rather than jumping to a fine disc.
 
 The metal side of all of this — typical sequences by material and joint — is walked through in the [metal fabrication abrasive use notes](/en/applications/metal-fabrication), and the grit and backing to reach for on each band is visible in [the flap disc range](/en/collections/flap-discs).
@@ -129,7 +129,7 @@ On lead time, two things set it. In-stock grits and common diameters ship fast; 
 
 ### Common mistakes and how to fix them 🔧
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Plastic Backing Flap Discs line at P120, and the correction that moves the surface for each: Each item names the check that catches it before the surface is gone.
 
 - **Pressing when the grit is too fine.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a grit and the cut comes back — leaning in is not the answer, because leaning in makes the disc load and glaze, which is the opposite of more cut.
 - **Grain too soft for the material.** A grain as soft as the workpiece packs and stops. Move to a tougher grain — zirconia is the usual upgrade where the cap packs the aluminium oxide face.
@@ -159,7 +159,7 @@ For any of these, the [flap disc range](/en/collections/flap-discs) shows the gr
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for Plastic Backing Flap Discs, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P120 pass is reduced, not removed. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your tool's maximum speed is below the disc's printed rated line speed before every use; where the rating is not on the label you hold, confirm it with sales.
 - Check the arbor hole and flange are the correct size, fit the guard for the disc, and use a rated adapter where sizes differ — never file a hole.
@@ -170,4 +170,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store and transport discs upright, dry and out of the sun — a softened or damp disc loses bond before it ever reaches the grinder.
 - Follow the maker's install notes on fit, speed and guards, and re-check the guard and arbor at the start of each shift.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from — and flag whether the plastic backing is the right plate for that speed. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page, and keep the [flap disc range](/en/collections/flap-discs) open for the grit and backing you end up ordering.
+The Plastic Backing Flap Discs enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P120 — is worked out with you, not copied from a shelf list. The fields are short on purpose — the sequence is where the length goes.

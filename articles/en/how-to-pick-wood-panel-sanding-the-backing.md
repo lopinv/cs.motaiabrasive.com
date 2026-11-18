@@ -166,7 +166,7 @@ For any of these, the [abrasive belt range](/en/collections/abrasive-belts) and 
 
 ### 🧾 Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Wood Panel Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P150 risk is cut by the right protection, not eliminated. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your machine's no-load pace is at or below the belt's rated line speed before every run, and confirm the rating against the model, not against the machine placard.
 - Check the belt width matches the platen and the backroll, and the splice or stitch is intact and seated, with no edge peel at the backing.
@@ -174,7 +174,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Wear face and eye protection, and use dust extraction and the right respiratory protection for the dust load on the panel line.
 - Confirm the grit, the backing, the grain and the grit standard (FEPA/ISO 848 or ANSI) in every order so the two suppliers do not ship two different belts.
 - Follow the belt maker's install notes, and check the panel and the belt for heat and for scratch depth on a thin or soft panel before you commit the grit.
-- Keep a record of the PPE and the controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup and dust guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction Wood Panel Sanding depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. Keep it on the job sheet, not in a binder.
 - Store belts flat or on a shelf, out of the sun and the dust, and confirm the transport and the storage against the supplier's notes, because a belt that is folded or that has a spot of moisture in it is a belt that is going to fail at the splice.
 - Confirm lead time, minimum order quantity and the packing for any [OEM & private-label run](/en/oem) or a bulk [abrasive belt](/en/collections/abrasive-belts) order, and start with the [request a quotation](/en/quote) form.
 

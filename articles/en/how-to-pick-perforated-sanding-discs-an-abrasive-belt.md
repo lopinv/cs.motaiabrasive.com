@@ -16,7 +16,7 @@ The rule that governs the decision for perforated sanding discs is short: **pick
 
 Two scenarios where a punched disc is not the tool at all. The first is heavy stock removal across a big area, where the belt side of the range takes over: a loop on an orbital sander removes material in a fraction of the passes a disc takes, and the [abrasive belt range](/en/collections/abrasive-belts) carries the four loop sizes from 533 × 75 mm up to 2200 × 1330 mm for that work. The second is a long, straight, fast pass, where a wide belt holds a line that a disc would show a round tool path in. Everything in between — body prep, blending, finish on wood, metal, fiberglass repair and painted surfaces — is a random orbit job, and that is where [the sanding disc range](/en/collections/sanding-discs) earns its keep. For the everyday automotive prep, start in the P80 to P120 band, step through one grit at a time, and keep the whole sequence on a single grit standard: name FEPA or ISO 848 in every enquiry, because a number on one scale is not the same cut as the same number on the other.
 
-Two habits make the choice repeatable instead of guesswork. State the grit standard you are buying to — FEPA, which is what most international buyers quote, is the reference at [the FEPA grit standard (ISO 848)](https://en.wikipedia.org/wiki/FEPA) — and confirm the tool's no-load speed against the part's rated speed before the first cut. Grit and grain are not interchangeable levers: the grit sets how deep the cut goes, the grain sets how it gets through the material, and the holes set how much of the by-product reaches the air. Keep the three separated in your head and the rest of this guide is the reasoning behind each of them: how the disc is built, how to match grit and grain to the material, where the belt takes over from the disc, and what goes wrong when the two sides of the choice get mixed up on the bench.
+Make the Perforated Sanding Discs spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run (random orbit sander) before the first cut. The rest of this page is why those two moves earn their keep. Both habits cost a minute and buy back the whole pass.
 
 ### How Perforated Sanding Discs actually work
 
@@ -130,7 +130,7 @@ For any of these, [the sanding disc range](/en/collections/sanding-discs) and [t
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+The Perforated Sanding Discs checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's maximum speed is below the disc or loop's rated working speed before every use, and keep the tool below it; confirm the rated speed against the model before you order, because the number has to come from the part.
 - Check that the platen, the pad, the loop size and the guard all fit the machine: a 5-inch disc on a 4-inch platen is the wrong pair, not a fixable pair, and the loop has to be the loop the sander takes.

@@ -16,7 +16,7 @@ Pick wide abrasive belts by three numbers, in this order: **the grit for the dep
 
 The two scenarios where that rule bends: **very soft, sugary woods** that load a belt even at coarse grits (the fix is coarser grit, open grain and constant movement, not more pressure), and **thin or heat sensitive stock** where a coarse grit can mark, burn or warp the part (the fix is one or two grits finer and a moving belt). If your job is everyday stock removal or surface prep on steel or hardwood at a wide belt sander, start in the P40 to P120 band, step down through the ladder, and confirm the width and rated line speed against your machine before anything touches the platen. For the sizes we stock, see [the abrasive belt range](/en/collections/abrasive-belts) and keep [the abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this into a repeatable spec: always name the grit standard (FEPA or ISO 848) in the enquiry, and always confirm the belt width against the machine and the rated speed against the tool's maximum.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P120, backing, belt sander — happens before the first pass, not after the surface has moved. That order is why the next order lands the same way as this one.
 
 ### How a wide abrasive belt actually works
 
@@ -147,7 +147,7 @@ When the conversation moves from one loop to a branded line, the fields on the s
 - **Backing class** — the fabric, standard polyester or reinforced, chosen for the speed and the heat of the machine that will run it.
 - **Rating** — the maximum line speed, confirmed against the model and printed on the loop, because it is the number the machine has to stay under.
 - **Label and packing** — your logo, your part code, the spec sheet on the box, and the batch marking so a loop can be traced back to the lot it ran on.
-- **Quantity and lead time** — the standing order quantity and the shelf date, which decide whether the run ships from stock or is built to your order.
+- **Quantity and lead time** — how many Wide Abrasive Belts pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. They are the pair that decides which shelf the lot comes off.
 
 Send the six fields and the order is a conversation instead of a guess: the [OEM & private-label service page](/en/oem) is where a branded loop run is quoted, the [manufacturing & quality page](/en/factory) covers how the loop is built and checked, and the [request a quotation](/en/quote) form is where the six fields go down on paper.
 
@@ -203,7 +203,7 @@ For each of these, [the abrasive belt range](/en/collections/abrasive-belts) sho
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules and your own risk assessment, and under compliant speed, correct tracking, the guard in place and PPE on, the risk of these machines is reduced but not removed.
+Keep this Wide Abrasive Belts checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Run the list once before the first order, then once per repeat run.
 
 - Confirm the tool's maximum speed and line speed are at or below the belt's rated maximum before every loop change; if the number is not in front of you, confirm the rated speed against the model and keep the tool below it.
 - Check the platen, tracking roller and guard are the right size and condition for the loop width you are running, and set the tracking for the loop before you load the machine.
@@ -214,4 +214,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Keep a written record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and the setup reading is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 - Confirm stock availability, minimum order, lead time and packing for any [wide abrasive belts](/en/collections/abrasive-belts) or [branded loop order](/en/oem), and start from the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the machine you run, we will work the grit sequence, the backing and the loop sizes with you and pre-select the starting grit against your stock. Send the three, and we pick the belt to match on the [request a quotation](/en/quote) page.
+The Wide Abrasive Belts enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P120 — is worked out with you, not copied from a shelf list. That is the whole exchange; the grit choice is the one that takes the work.

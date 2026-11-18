@@ -16,7 +16,7 @@ Here is the decision rule up front: **the backing, the pad and the grit sequence
 
 Two situations where that rule bends: on thin sheet or a plastic panel where your tool speed is high, heat is the limit, so you take material with a coarser grit and less dwell instead of pressing a fine disc in; and on a soft coat where even P320 leaves a visible scratch, so you step up to P400 or P500 rather than hold the grit. For the shapes and backings we supply against this work, start at [the sanding disc range](/en/collections/sanding-discs) and the [5-inch mesh sanding discs](/en/products/5-inch-mesh-sanding-disc) page before you commit.
 
-Two habits keep this a repeatable spec instead of guesswork: name the grit standard you are buying to, FEPA or ISO 848, and confirm the pad or backing matches the sander's rated speed and torque before the disc ever touches the panel. Everything below is the reasoning behind those two moves, mapped onto how [automotive repair sanding use](/en/applications/automotive) actually runs on a shop floor.
+Make the Automotive Surface Preparation spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P320 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. The two habits are the difference between a spec and a guess.
 
 ### What a sanding backing is made of
 

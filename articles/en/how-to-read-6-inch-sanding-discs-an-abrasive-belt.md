@@ -14,7 +14,7 @@ image: mesh-6
 
 Here is the rule that governs nearly every 6 inch sanding discs decision: **match the grit to how much material you are removing, then match the disc format to how large and how flat the area is.** A coarse grit such as P80 takes stock fast but leaves visible marks; a fine grit such as P320 to P400 cleans up and prepares a surface for paint, coating or inspection. The 6-inch (150 mm) size sits at the sweet spot of a dual action or random orbital sander for panels, doors, hoods and other medium-sized areas: big enough to cover ground quickly, small enough to follow a moderate curve. Two scenarios where that rule bends. First, a long open flat area — a trailer floor, a wide sheet of board, a large flat panel — where an abrasive belt moving over a long contact length will beat any disc on pure material removal. Second, very soft or sugary material, where even a coarse grit can clog if you press into it instead of letting the tool move. If your job is everyday panel prep and resprays, start in the P80 to P120 band and work down the grits in steps instead of jumping them, and confirm the disc's pad, hole pattern and tool speed before it touches a part.
 
-Two habits turn this from guesswork into a repeatable spec. Always state the grit standard you are buying to, because a number on one scale is not the same cut as the same number on another scale. And always confirm the fit: the pad diameter, the hole pattern, and the tool's maximum speed against the product's rated speed. The full range, including 6-inch PSA, mesh, non-hole and hook-and-loop formats, is in [the sanding disc range](/collections/sanding-discs), and the 6-inch mesh format that suits dust-heavy and flexible work is at [6-inch mesh sanding discs](/products/6-inch-mesh-sanding-disc). Keep the [abrasives glossary](/glossary) open whenever a label term is unfamiliar — most buying problems start with two people reading the same label two different ways.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P80, backing, speed margin — happens before the first pass, not after the surface has moved. One minute of habit, saved in every pass after the first.
 
 ### How 6 inch sanding discs are actually built
 
@@ -146,7 +146,7 @@ If your shop already runs a flap discs wholesale program for grinding, the same 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P80 on 6 Inch Sanding Discs. Here is the short list of errors that surface most, and the move that fixes each one at the root: None of them needs a new disc; each needs the right one first.
 
 - **Skipping grits.** Going from P80 straight to P400 leaves P80 scratches under the finish; add the P120, 180 and P320 steps and the surface clears.
 - **Loading and glazing.** The disc clogs and stops cutting when the grain face is packed with soft material, or when the grit has glazed flat on a hard, slick surface. Move to a tougher grain such as zirconia alumina, step to a finer grit, and keep the disc moving instead of pressing in.
@@ -176,7 +176,7 @@ For any of these, the [sanding disc range](/collections/sanding-discs) shows the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this 6 Inch Sanding Discs checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P80 risk is cut by the right protection, not eliminated. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your tool's maximum speed is at or below the disc's rated speed before every use, and keep the tool below it where the rating is not printed.
 - Check the pad diameter and the hole pattern match the disc, and that a hook-and-loop disc sits fully on the pad, not just on its edge.
@@ -184,7 +184,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Wear eye and face protection, and use extraction at the pad plus the right respiratory protection for the dust load.
 - Confirm the grit, the grain, the format, the diameter, the hole pattern and the grit standard (FEPA or ISO 848) in every order so you do not mix scales.
 - Follow the maker's installation notes, and on thin or soft material check the part for heat and for scratch depth after the coarse pass.
-- Keep a record of the PPE and the dust controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a record of the PPE and controls the 6 Inch Sanding Discs job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). It is the one line that survives a shop change.
 - Confirm lead time, minimum order and packing for any wholesale or private label run, and start with the [quotation form](/quote) and the [OEM & private label service page](/oem).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit, the grain and the format to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+The 6 Inch Sanding Discs enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P80 — is worked out with you, not copied from a shelf list. The fields are short on purpose — the sequence is where the length goes.

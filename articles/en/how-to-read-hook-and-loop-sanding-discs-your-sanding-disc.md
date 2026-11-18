@@ -16,7 +16,7 @@ Here is the rule that governs nearly every hook and loop sanding discs decision:
 
 Two scenarios where the rule bends. First, heavy structural stock removal — knocking several millimetres off a casting or grinding a weld cap flat — is not what a paper-backed disc is for; that belongs to a flap disc, a coarse mesh disc or a grinding wheel, and forcing a hook and loop sanding disc into that role burns through discs and overheats the part. Second, very delicate final polishing where a cloth wheel or fine abrasive film does better work than any paper disc will, because the paper edge chatter shows up under the clear coat. If your job sits between those two poles — finishing, blending, prepping and light removal on wood, automotive panels, castings and non-ferrous metal — start in the P120 to P240 band, confirm the disc snaps onto your pad, and check the tool's maximum speed against the disc's printed rated speed before the first pass. For the full set of shapes we supply, see [the sanding disc range](/en/collections/sanding-discs), and keep the [abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec. Always state the grit standard you are buying to — FEPA or ISO 848 — and always confirm the attachment: the loop face on the disc and the hook face on the pad have to be clean and correctly matched, or the disc will wander at the edges. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P400, backing, speed margin — happens before the first pass, not after the surface has moved. Do them once per job and the rest of the sequence holds together.
 
 ### How a hook and loop disc actually works
 
@@ -132,7 +132,7 @@ For a private-label line, the conversation moves from grit to a spec sheet, and 
 - **Diameter and hole pattern**, matched to the pad and the machine the end user runs.
 - **Model code**, so your shelves and your POs quote the same part.
 - **Label and packing**, your logo, your part code, and any spec sheet you want on the box.
-- **Quantity and lead time**, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — how many Hook and Loop Sanding Discs pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. The two numbers are the ones the factory sees before anything else.
 - **Attachment confirmation**, loops on the disc against the hook face the end user already owns, or the pad supplied to match.
 
 For a branded run, ask for a sample against the spec before the full order, so the grit, the grain and the label all match what you expect on the box. Minimum order quantities and lead times on a private-label run are confirmed with sales, because they move with the grade and the quantity.
@@ -158,7 +158,7 @@ The sequence underneath all of it is: machine sets the diameter, diameter sets t
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, and the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P400 on Hook and Loop Sanding Discs. Here is the short list of errors that surface most, and the move that fixes each one at the root: Each item names the check that catches it before the surface is gone.
 
 - **Grit sequence skipped.** Going from P120 straight to P400 leaves P120 scratches under the finish; add the P240 step and the surface clears.
 - **Dirty or glitted pad.** Swarf packs the hook face, the disc does not seat flat, the edge drags and the finish cups. Blow the pad, clean the hooks, re-check the seat.
@@ -188,7 +188,7 @@ For any of these, [the sanding disc range](/en/collections/sanding-discs) shows 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Hook and Loop Sanding Discs checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P400 risk is cut by the right protection, not eliminated. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your tool's maximum speed is at or below the disc's printed maximum working speed before every use; when in doubt, run the tool at no load and count the RPM.
 - Check the pad and the disc seat together, the hook face and the loop face are clean, and any guard or guard plate the tool carries is fitted and the right size for the disc.
@@ -199,4 +199,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes for the pad on the machine, and check the part and the disc for heat and scratch depth on thin or soft material before you commit to a long pass.
 - Confirm lead time, minimum order and packing for any wholesale or private-label run, and start the order from the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can pre-select the grit and the backing pattern to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page, and keep the [abrasives glossary](/en/glossary) open for any term the team sends over.
+The Hook and Loop Sanding Discs enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P400 — is worked out with you, not copied from a shelf list. Three fields, one message, and the order stops needing follow-up calls.

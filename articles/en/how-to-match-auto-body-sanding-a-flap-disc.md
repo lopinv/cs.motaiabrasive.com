@@ -112,7 +112,7 @@ Disc life is where the two faces pull apart most. A cutting face on an aggressiv
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on the body, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at 240 on Auto Body Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Skipping grits** 🧱 — going from 100 straight to 600 leaves the 100 scratch under the finish; add the 240, 400 steps and the surface clears.
 - **Wrong face for the step** 🎯 — a cutting face on a finish step leaves a swirl and a deep line; move to the flat face for the blend and the finish.
@@ -154,13 +154,13 @@ When you move from buying a handful of faces to a wholesale or private label run
 - **Diameter and hole or pad** — the face diameter and the centre hole, matched to the tool and the pad or adapter you run.
 - **Rated speed** — confirmed against the model, never assumed, because it has to come from the disc.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — for Auto Body Sanding, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. The lot only gets built once the two agree with the job.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the face and the label all match what you expect.
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Auto Body Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the 240 risk is cut by the right protection, not eliminated. Treat each item as a gate: the order does not clear the desk until it passes.
 
 - Confirm your tool maximum speed is below the disc rated speed before every use, and keep it there; never run a face past its printed maximum.
 - Check the backing plate, the hook and loop adapter or the pad is the correct size for the disc, so the disc sits fully on the face, not just on the edge.
@@ -170,7 +170,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Ask for the inspection report or the certificates you need for your market, and confirm them against the order.
 - Check storage and transport: keep the faces dry and the grit standard labelled, so a mixed pallet does not land two scales in one box.
 - Follow the disc maker install notes, and check the panel and the scratch depth on thin or soft material before you commit a grit.
-- Keep a record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Note down the PPE and the extraction Auto Body Sanding depends on; [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) is the floor and [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) is where the setup detail lives. It is the one line that survives a shop change.
 - Confirm lead time, minimum order and packing for any [wholesale sanding faces](/collections/sanding-discs) or [private label order](/oem), and start with the [quotation form](/quote).
 
 If you tell us the panel material, the finish you are aiming for and the tool you run, we can help you pick the grit and the face to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.

@@ -177,7 +177,7 @@ The failures on a sanding line are usually cheaper to fix than the mistakes that
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not removed.
+A purchasing and compliance checklist for Sanding Pad Wholesale, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P2400 pass is reduced, not removed. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's no-load speed is at or below the pad's rated maximum speed for the model you are ordering; check the pad's rated speed against the tool before the first panel.
 - Check the pad diameter and the mounting fit against the tool, and the tool's guard or dust port where it has one.

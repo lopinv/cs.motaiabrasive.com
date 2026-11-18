@@ -16,7 +16,7 @@ The governing rule for round sandpaper is simple: grit sets how much material yo
 
 Two scenarios where the rule needs a second reading. Very soft materials — new aluminium panel, soft thermoplastics, waxy lacquer — take deep scratches even at P120, so the ladder starts finer and moves slower. High-speed tooling is the other one: a bench disc sander or a high RPM orbital is not the right carrier for every disc form, because paper and hook-and-loop backs behave differently than mesh and solid backs at speed. If the job is everyday prep on wood, steel or a painted panel, start in the P120 to P240 band, confirm the disc form fits the tool, and keep the tool below the disc rated speed. The full format range is on [the sanding disc range](/en/collections/sanding-discs), and quick-change set-ups can use [hook-and-loop sanding discs](/en/products/hook-loop-sanding-discs) instead.
 
-Two habits make the whole process repeatable. State the grit standard you are buying to — FEPA or ISO 848 — in every enquiry, and match the backing form to the tool before you match the grit to the material. Everything below is the reasoning behind those two moves, with sequences you can copy for the materials you actually sand. If a label term is unfamiliar, keep [the abrasives glossary](/en/glossary) open while you read.
+Two habits make the Round Sandpaper spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P240 band and the disc sander before the first pass. Everything below is the reasoning behind those two moves. That order is why the next order lands the same way as this one.
 
 ### How round sandpaper actually works
 
@@ -68,7 +68,7 @@ Grit tells you the depth; the material tells you where on the ladder to start. T
 - **Bare wood and varnish** 🪵 — P120 to P180 to remove the finish without over-rounding edges, P240 to P400 to bring it even, P600 to P1500 where a stain or clear is going on top, and 2000 where a high-gloss clear needs the last of the marks pulled down. Wood is soft and sugary; it loads a fine grit fast, so keep the disc moving and let it cut without pressure.
 - **Mild steel** ⚙️ — P80 to P120 to remove, P180 to P240 to blend, P400 to P800 for the cleanup band. This is the bread and butter range where most round sandpaper spends its life.
 - **Stainless steel** 🧊 — P120 to P240 to remove, P400 to P800 to clean, dedicated discs or a grit swap between jobs so embedded steel does not seed rust spots later.
-- **Aluminium and soft alloy** 🟦 — P180 to P240 to prepare, P400 to P800 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — the soft metal wants P240 to open and the fine rung to close Round Sandpaper; a coarse grit digs past what the part can forgive, so start low and move. The alloy is the reason the starting grit is lower.
 - **Paint, primer and filler on panels** 🚗 — P180 to P240 for shape, P400 for the bridge, P800 to P1500 for the fine band. The automotive repair notes walk the same sequence in more detail.
 - **Castings and rough surfaces** 🧱 — P60 to open the face, P120 to P180 to follow. A rough casting packs a fine grit, so you work coarse to fine in steps, not by jumping.
 
@@ -138,7 +138,7 @@ One number to keep off the sticker and on the label: cost per finished surface. 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the fix that actually moves the problem:
+The Round Sandpaper mistake costs more the longer it rides. What shows up most on the P240 line, and the correction that actually moves the cut: In each case the surface gives the tell before the cost does.
 
 - **Skipping grits.** Going from P60 straight to P400 leaves P60 crosshatch under the finish; add the P120 and P240 steps and the surface clears.
 - **Loading and glazing.** A disc clogs and stops cutting when the grain face is packed with soft material or when the grit has glazed flat; step to a finer grit, change to a grain that is not as soft as the workpiece, and let the disc cut without pressure.
@@ -153,11 +153,11 @@ For any of these, the [sanding disc range](/en/collections/sanding-discs) shows 
 
 Under-cutting is the quiet complaint, because the disc looks fine and the machine sounds fine, but the part is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc sander packs the face and stops the Round Sandpaper cut; the remedy is less pressure and a moving part, not a step up in grit. No grit change fixes a pressure error.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain — zirconia alumina where aluminium oxide loads, or ceramic where volume makes the cost-per-surface matter.
 - **Wrong backing for the speed.** A disc running hot and flexing is a paper or hook-and-loop back on a job that needs a solid back; the backing limits the cut before the grit does.
 - **Tool speed too low.** Below the disc design speed it cuts soft and slow; check the no-load speed and keep the disc in the range it was made for.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** A fine grit on a coarse Round Sandpaper task makes the disc sander polish instead of remove; step the grit down and the cut comes back. Step it and the cut returns.
 
 For each of these, the [5-inch PSA sanding disc](/en/products/5-inch-psa-sanding-disc) page shows the grit and grain options in one format, the [OEM and private-label page](/en/oem) is where a steady job gets its own spec sheet, and the [request a quotation](/en/quote) form is where the grit, grain and backing are confirmed before the order ships.
 
@@ -181,7 +181,7 @@ For each of these, the [5-inch PSA sanding disc](/en/products/5-inch-psa-sanding
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+Before you buy Round Sandpaper: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P240 risk, never to zero. Run the list once before the first order, then once per repeat run.
 
 - Confirm the tool maximum speed is below the disc printed maximum rated speed before every use, and keep the tool below it.
 - Check the arbor, pad or flange is the correct size for the disc, and use a rated adapter where needed; never grind the hole larger.
@@ -192,4 +192,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store discs away from moisture and direct heat, and follow the maker install notes for the backing form you are running.
 - Confirm lead time, minimum order and packing for any [sanding discs wholesale](/en/collections/sanding-discs) or [private-label order](/en/oem), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can pre-select the grit and the backing to start from. Send the three and we will work the grit ladder with you on the [request a quotation](/en/quote) page.
+The three fields to start a Round Sandpaper order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P240 downward, to the job instead of the nearest stock. That is the whole exchange; the grit choice is the one that takes the work.

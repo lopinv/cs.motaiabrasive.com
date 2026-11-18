@@ -21,7 +21,7 @@ So the governing numbers are two:
 
 The rule underneath both: each grit in the sequence should be at most two steps finer than the previous one, so that every layer of scratch stays finer than the one before it. Two scenarios where P120 as a starter does not apply: **thin sheet**, where heat and scratch depth matter more than removal, and **a surface that is already close to its final state**, where you start two or three grits finer instead of forcing a coarse pass.
 
-Two habits that keep the whole plan straight, whichever route you take:
+What keeps the Stainless Steel Finishing sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P120 band, the backing and belt sander are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Do them once per job and the rest of the sequence holds together.
 
 - **Name the grit standard in every enquiry.** The FEPA or ISO 848 scale is what most international buyers quote, and the same number on an older scale is a different grain size, so read [the FEPA grit standard](https://en.wikipedia.org/wiki/FEPA) before you mix scales on a shelf.
 - **Confirm the tool and guard before you confirm the grit.** Diameter, speed rating and arbor fit are what make a grit usable; keep [the abrasives glossary](/en/glossary) open for the label terms, then check the disc against the tool before the first pass.
@@ -160,7 +160,7 @@ The [OEM and private label service page](/en/oem) is where the branded run conve
 
 ### Common mistakes and how to fix them ⚠️
 
-The fixes are usually cheaper than the mistake. What shows up most often on stainless jobs, and the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Stainless Steel Finishing line at P120, and the correction that moves the surface for each: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Grit sequence skips.** Going from P80 straight to P400 leaves P80 scratches under the finish; add the middle steps and the surface clears. Every grit in the sequence is at most two steps from the previous one.
 - **Cross contamination.** A grit that has touched carbon steel carries iron particles into the stainless part, and the embedded iron works against the part for weeks. Keep the grit dedicated, or swap grits before you move from a steel job to a stainless one.
@@ -171,11 +171,11 @@ The fixes are usually cheaper than the mistake. What shows up most often on stai
 
 And when the disc cuts less than expected — it looks fine, the machine sounds fine, but the part is not going — the cause is one of five:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, the opposite of cutting more; the fix is lighter pressure and a moving tool, not a coarser grit.
+- **Pressure, not grit.** Leaning into the face loads and glazes it, the opposite of more cut on Stainless Steel Finishing. If the cut dropped when you leaned in, the fix is a lighter hand and a moving belt sander, not a coarser grit. It is the mistake that shows up on every grit.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops; move to a tougher grain.
 - **Wrong backing for the speed.** A disc running hot and flexing is on the wrong backing; the backing limits the cut before the grit does.
 - **Tool speed too low.** Below the disc design speed it cuts soft and slow; check the no load speed and keep the disc in the range it was made for.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove; step down a grit and the cut comes back.
+- **Grit too fine for the job.** A soft cut on a heavy Stainless Steel Finishing task is the fine grit working against you; the fix is the grit down, not the pressure up. One rung is the whole fix.
 
 For any of these, the [metal fabrication abrasive use](/en/applications/metal-fabrication) notes walk through the sequence by material, and the [abrasives glossary](/en/glossary) keeps the terms straight so you and your team are diagnosing the same problem. The thread that runs through all of it is that the abrasive is only as good as the grit, the backing, the arbor and the speed you matched it with before the job started; most of the complaints on stainless are mismatch complaints wearing a grit's name, and the [flap disc range](/en/collections/flap-discs) is where you confirm the grit and the backing before the order ships.
 
@@ -209,4 +209,4 @@ A short compliance and purchasing checklist for a stainless steel finishing orde
 - Follow the disc maker's install notes for the arbor, the flange and the guard, and re-check the fit at every disc change.
 - Keep a grit dedicated to stainless work, or swap grits before moving from carbon steel to stainless, so the rust risk stays out of the sequence.
 
-If you tell us the material, the starting condition, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the four and we will work the sequence with you on the [request a quotation](/en/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Stainless Steel Finishing. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P120. Skip the back-and-forth: the sequence comes back with the first answer.

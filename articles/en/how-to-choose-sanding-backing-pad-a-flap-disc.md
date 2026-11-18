@@ -169,7 +169,7 @@ For each of these, [the sanding disc range](/en/collections/sanding-discs) is wh
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not removed.
+Keep this Sanding Backing Pad checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P240 risk is cut by the right protection, not eliminated. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm the tool's maximum speed or no-load speed against the disc's printed maximum working speed, and keep the tool below it on every pass, because the speed is the number that protects the operator.
 - Check the pad diameter against the mandrel, the disc attachment type against the pad face, and the flap disc's arbor against the flange, and use a rated adapter where one is needed, not a filed hole.

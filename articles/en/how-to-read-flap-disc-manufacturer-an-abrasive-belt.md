@@ -14,7 +14,7 @@ image: flap-steel
 
 Here is the rule that governs nearly every flap disc decision: **match the grit to how much material you are removing, match the backing to how hard the job is, and never trust a spec that does not print a speed rating.** You read an abrasive belt the same way — a 610 × 100 belt and a 100 mm flap disc both carry a grain, a grit, a width or diameter, and a maximum line speed, and you make the same three calls on each label. A P80 takes weld cap fast and leaves marks; a P240 blends the ground area into the plate; the P320 to P400 band cleans up before coating. A steel backing earns heavy deburring, a fiberglass backing earns high-speed work where heat builds, and a plastic backing stays cooler on lighter finishing. Two scenarios bend the rule: very soft material, where even a coarse flap leaves deeper scratches than you want, and thin sheet, where heat from an aggressive grit can warp the part. For everyday grinding, blending and light finishing, start in the P80 to P120 band, confirm the disc fits your grinder's arbor and stays below its printed speed, and you are inside the range a competent flap disc manufacturer would spec for the job. The full set of shapes and backings we supply is at [the flap disc range](/collections/flap-discs), and any label term that is new to you is defined at [the abrasives glossary](/glossary).
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the arbor hole before the disc goes on the machine. Both are the same moves you would make on a belt order, and both are where most bad orders start.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P120, backing, speed margin — happens before the first pass, not after the surface has moved. One minute of habit, saved in every pass after the first.
 
 ### What a flap disc label actually says
 
@@ -72,7 +72,7 @@ Material moves the starting grit even when the tool does not change, and a worke
 
 - **Mild steel, fillet weld** ⚙️ — P60 to P80 to take the cap down to roughly flush on a steel backing; P100 to P120 to even out the ground area; P240 to blend the transition into the plate; P320 to P400 to clean up before coating. Each layer of scratch is finer than the one before it, and that is the whole method.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean, with a dedicated disc kept for stainless. Embedded mild-steel particles in the grain are the seed of rust spots on the stainless part later, so the discipline is disc hygiene, not grit.
-- **Aluminium and soft alloys** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — P120 for the open on Flap Disc Manufacturer, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the disc keeps moving. The rung, not the tool, is the move.
 - **Castings and rough faces** 🧱 — P40 to P60 to open the face, then P80 to P120 in steps. A rough casting packs a fine grit, so you work coarse to fine rather than jumping to it.
 - **Coated or painted surface prep** 🪜 — P80 to P120 for knock-down where the coat is thick, P180 to P240 where the finish line is a clear coat; confirm the target scratch with whoever owns the finish.
 
@@ -116,11 +116,11 @@ If you are planning a regular order or a branded run, the [OEM and private-label
 
 Under cutting is the quiet complaint, because the disc looks fine and the machine sounds fine, but the part is not going. The causes are usually one of five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Leaning into the face loads and glazes it, the opposite of more cut on Flap Disc Manufacturer. If the cut dropped when you leaned in, the fix is a lighter hand and a moving disc, not a coarser grit. That is the whole of the pressure rule.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like zirconia alumina on a material that loads aluminium oxide.
 - **Wrong backing for the speed.** A disc running hot and flexing is a plastic backing on a job that needs fiberglass or steel; the backing limits the cut before the grit does.
 - **Tool speed too low.** A flap disc wants to spin. Below the speed it was made for, it cuts soft and slow; check the no-load speed and keep the disc inside the range the label points to.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** P120 on a Flap Disc Manufacturer stripping task smears rather than removes; drop a grit and the cut returns. One rung is the whole fix.
 
 The same diagnosis works on the in-line sander, which is why the two products are read together: a belt running through the same line and the flap disc finishing the transition areas share the failure modes. If the belt face glazes on a soft part, the disc on that part will too. For each of these, the [flap disc range](/collections/flap-discs) shows the grit and backing to reach for, and the [533 belt product page](/products/533x75-abrasive-belt) is where you check the belt side of the line against what the disc is doing.
 
@@ -132,7 +132,7 @@ The minimum order for a private-label run varies by the grain, backing and packa
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on the floor, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P120 on Flap Disc Manufacturer. Here is the short list of errors that surface most, and the move that fixes each one at the root: Fix the match and the list gets shorter on the next job.
 
 - **Loading and glazing** — the face packs with soft material or the grit lays flat and stops cutting. Step to a finer grit, change to a grain tougher than the workpiece, and keep the disc moving instead of pressing into it.
 - **Skipping grits** — going from P60 straight to P400 leaves P60 scratches under the finish. Add the P120 and P240 steps and the surface clears.
@@ -163,7 +163,7 @@ The thread through all six: the disc is only as good as the grit, grain, backing
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Keep this Flap Disc Manufacturer checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm the tool's maximum speed is below the disc's printed maximum working speed before every use; if the quotation does not print a speed, confirm the rated speed against the model first.
 - Check the arbor hole and flange are the correct size, and use a rated adapter where needed — never an enlarged hole.

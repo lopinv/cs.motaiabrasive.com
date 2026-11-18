@@ -14,7 +14,7 @@ image: mesh-6
 
 Here is the rule that governs most decisions when you spec abrasive sanding discs: **pick the grit from the surface you want to leave, then pick the disc type — PSA, hook-and-loop, mesh or solid — from the tool, the dust load and how often you change discs.** A coarse grit like P60 or P80 strips old coating and cuts back heavy stock, but it leaves a deep mark behind. A fine grit like P400 or P600 blends a repair into its surroundings and prepares a surface for coating. The grit decides what the surface will look like. The disc type decides how it mounts, how dust escapes and how often the disc comes off the mandrel in a shift. Two scenarios where this rule bends: a tool that runs very fast can make a coarse grit glaze and run hot sooner than you expect, and on soft material a grit that is routine on steel can be far too aggressive on the substrate. If your job is everyday shop work — stripping, blending, prepping a surface — start in the P80 to P120 band for removal and the P220 to P320 band for blending, and confirm which mandrel your tool takes before the first disc arrives. The full range we supply, from 3- to 6-inch PSA, 5- and 6-inch mesh, hook-and-loop in the same four sizes, with grits from 60 to 5000. The range is at [the sanding disc range](/collections/sanding-discs), and every label word that does not make sense is defined at [the abrasives glossary](/glossary).
 
-Two habits turn this from guesswork into a repeatable spec: always name the grit standard you are buying to, FEPA or ISO 848, and always confirm the mounting type against the tool before the order ships. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P120, backing, speed margin — happens before the first pass, not after the surface has moved. That order is why the next order lands the same way as this one.
 
 ### What a sanding disc actually is
 
@@ -141,7 +141,7 @@ The same P120 disc behaves differently on three common surfaces, and the differe
 
 - **Wood** 🪵 — soft and fast. A grit that is routine on steel takes a deeper cut on timber, so the hands go lighter and the disc stays moving; held in one spot, P120 will hollow out a face that a coarser grit on steel would just even out.
 - **Mild steel** ⚙️ — the reference material. The grit bands in the ladder are quoted to how they run on mild steel, which is why it is the material a shop standardises on.
-- **Aluminium and soft alloy** 🟦 — loads fast. A standard aluminium oxide coat seals on these surfaces quicker than on steel; the moves are a finer start grit, a moving disc, and a silicon carbide grain where the job is the soft metal itself.
+- **Aluminium and soft alloy** 🟦 — P120 for the open on Abrasive Sanding Discs, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the disc keeps moving. The alloy forgives a fine start, not a coarse one.
 
 The hands matter as much as the disc. A light, moving disc cuts the same scratch pattern as a heavier disc pressed into the surface, with less heat, less loading and a face that lives longer. If the scratch from one disc is showing up under the next grit, the answer is almost always the previous grit and the pressure on it, not the disc in hand.
 
@@ -173,7 +173,7 @@ For OEM or private-label work, add time for the label, the packing and any spec 
 
 ### Common mistakes, and the fix that actually moves
 
-The fixes are usually cheaper than the mistake. What shows up most on a sanding floor:
+Cheap to fix, expensive to leave: that is the rule at P120 on Abrasive Sanding Discs. Here is the short list of errors that surface most, and the move that fixes each one at the root: All of them are cheaper on the bench than on the finished panel.
 
 - **Loading and glazing** — the disc clogs with soft material or seals itself flat and stops cutting. Lighter pressure, a moving disc, and a grain that is not as soft as the workpiece; if the material packs the coat, step to a tougher grain or a coarser grit that sheds it.
 - **Skipping grits** — a P60 straight to P400 leaves P60 scratches under the finish. Add the middle rungs, P120 and P220, and the surface clears.
@@ -187,11 +187,11 @@ The thread through all five: a sanding complaint is almost always a match proble
 
 Undercutting is the quiet complaint, because the disc looks fine and the machine sounds fine, but the surface is not going. The causes are usually one of these, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Leaning into the face loads and glazes it, the opposite of more cut on Abrasive Sanding Discs. If the cut dropped when you leaned in, the fix is a lighter hand and a moving disc, not a coarser grit. Keep the face moving and the cut stays open.
 - **Grain too soft for the material.** A grain as soft as the workpiece packs and stops. Move to a tougher grain — zirconia alumina or ceramic on a material that loads the aluminium oxide — and the cut comes back.
 - **Wrong type for the tool.** A PSA disc on a smooth, worn mandrel will walk; the type has to match the mounting before the grit is even a variable.
 - **Tool speed off the design range.** A paper disc on a tool that spins past what the bond was made for seals fast; check the no-load speed and keep the disc in the range it was made for.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a grit and the cut returns.
+- **Grit too fine for the job.** P120 on a Abrasive Sanding Discs stripping task smears rather than removes; drop a grit and the cut returns. A coarser task wants a coarser grit.
 
 The thread through all five is that an underperforming disc is almost always a match problem, not a bad disc. Fix the grain, the grit, the type, the mounting or the speed, and the cut returns. For the grit and type to reach for, the [sanding disc range](/collections/sanding-discs) and the [woodworking sanding use](/applications/woodworking) and [metal fabrication abrasive use](/applications/metal-fabrication) notes give the sequences by material, and the [abrasives glossary](/glossary) keeps the terms straight so you and your team are diagnosing the same problem.
 
@@ -215,16 +215,16 @@ The thread through all five is that an underperforming disc is almost always a m
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant speed, correct fit and PPE the risk of these tools is reduced but not zero.
+Keep this Abrasive Sanding Discs checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Each item below is one you can check against the delivery in hand.
 
 - Confirm your tool's maximum speed is below the disc's printed maximum working speed before every use, and keep the tool below it.
 - Check the mandrel or arbor fit and the disc type: a PSA disc on a bare mandrel, a hook-and-loop disc on a loop mandrel, and for flap discs the correct arbor hole with a rated adapter where needed.
 - Keep the guard fitted on any grinding tool at all times; it is the first defence against a disc that fails.
-- Wear eye and face protection on every pass, and use the right respiratory protection for the dust load, with dust extraction running at the work.
+- Wear eye and face protection on every pass of the Abrasive Sanding Discs work, run the extraction with the right filter, and add the respiratory protection where the dust load sits at the face. It is the habit that keeps the face safe on every pass.
 - Name the grit standard, FEPA or ISO 848, in every abrasive sanding discs order, with grain, grit, diameter, mounting and quantity on the same line.
 - Ask for the inspection report or certificate of conformity for the run, and keep it with the order record.
 - Store discs away from heat and moisture and keep them in their packaging until use; a grain that is bruised or damp before the job is a disc that will not run as quoted.
 - Follow the maker's install notes for the type you bought, and on thin or soft material check the part for heat and scratch depth as you go.
 - Plan the dust side with the grit: coarse removal on a dusty substrate wants extraction set up before the first pass, not after the complaint.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the disc type to start from. Send those three and the team will work the sequence with you on the [request a quotation](/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Abrasive Sanding Discs. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P120. That is the whole exchange; the grit choice is the one that takes the work.

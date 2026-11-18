@@ -21,7 +21,7 @@ The one rule that governs automotive surface preparation: **every grit you use m
 
 Most auto body sequences run from 80 grit opening the panel up to the 400s before paint, and that whole range is the working band of a body shop. Two scenarios where the rule bends. On very thin aluminum panels and on glass, even P80 can dig too deep and leave a visible mark, so you start finer, keep the disc moving, and never let it sit in one spot. And on a panel that is already close to its final state, you skip the coarse grits entirely and start from P320 upward instead of restarting from P80. For the backings we stock against each grit, see [the sanding disc range](/en/collections/sanding-discs), and keep [the abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and keep a separate disc for each stage. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P80, backing, speed margin — happens before the first pass, not after the surface has moved. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### How automotive surface preparation actually works
 
@@ -151,7 +151,7 @@ When a shop moves from buying a handful of discs to a wholesale or private label
 - **Disc size and centre fit** — the disc diameter and the centre hole or loop area, matched to the random or detailer and its backing plate.
 - **Maximum operating speed** — confirmed against the model, never assumed, because it has to come from the disc label.
 - **Label and packing** — your logo, your part code and any spec sheet on the box for a private label run.
-- **Quantity and lead time** — the order quantity and when it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — how many Automotive Surface Preparation pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. Say the two out loud and the make-to-run question answers itself.
 
 Send those six fields and the order is a conversation instead of a gamble. The [OEM & private-label service page](/en/oem) walks through the label and packing side, and [request a quotation](/en/quote) is where to start; if you are new to a branded run, ask for a sample against the spec so the grit, the backing and the label all match what you expect before the full order is placed.
 
@@ -173,7 +173,7 @@ Send those six fields and the order is a conversation instead of a gamble. The [
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Automotive Surface Preparation checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P80 risk is cut by the right protection, not eliminated. Treat each item as a gate: the order does not clear the desk until it passes.
 
 - Confirm your tool's no-load speed is at or below the disc's printed maximum operating speed before every use; if you are unsure, confirm the rated speed against the model and keep the tool below it.
 - Check the disc size and the centre fit or loop area match the tool and its backing plate, and that the disc is seated fully on the pad, not just on the edge.
@@ -182,6 +182,6 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Name the grit standard (FEPA or ISO 848), the grit, the backing and the disc size in every order so you do not mix two different scales across suppliers.
 - Ask for the inspection report or certificate for any batch you rely on in a production sequence, and check storage — discs kept damp or stacked on their faces lose their face faster than ones kept dry and flat.
 - Follow the disc maker's install notes for the backing system, and check the panel and the disc for heat and scratch depth on thin or soft materials before you commit to a stage.
-- Keep a record of the PPE and controls you rely on; the U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a record of the PPE and controls the Automotive Surface Preparation job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The record is the control that outlives the shift.
 
 If you tell us the panel material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.

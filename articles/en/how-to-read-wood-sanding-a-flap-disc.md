@@ -18,7 +18,7 @@ Two scenarios where the rule bends. First, soft board and sugary faces, where ev
 
 If your job is the hand side of a wood shop — edges, furniture frames, awkward shapes, large flat areas by hand, and stripping an old finish before a re-coat — start the coarse pass in P80 to P120 and confirm the disc's diameter and arbor against your grinder before you cut into stock. The flap disc range we supply, with its plastic, steel and fiberglass backings, starts at [the flap disc range](/collections/flap-discs), and the grit sequences by wood type sit at [woodworking sanding use](/applications/woodworking). One honesty note before you read on: a flap disc is a hand tool's grit, not a panel line's grit. The big, flat, production-rate faces belong to a sanding belt on a machine, and that split is made in the tool-choice section below — so do not assume a flap disc replaces the whole sanding plan. The belt side is covered at [the abrasive belt range](/collections/abrasive-belts).
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to — FEPA or ISO 848 — and always confirm the disc's rated speed against the tool before the pass starts. Everything below is the reasoning behind those two moves.
+What keeps the Wood Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P400 band, the backing and panel sander are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### How a wood sanding flap disc works
 
@@ -127,7 +127,7 @@ On lead time, two things set it. The grits and backings a factory holds on the s
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on a wood flap disc, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Wood Sanding line at P400, and the correction that moves the surface for each: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Loading and glazing on soft board** 💨 — the disc stops cutting on a face that still needs work. The cause is a fine grit on a sugary board, not a bad disc: go one grit coarser on the board, keep the face moving, and let the bond do its job instead of fighting it.
 - **Skipping grits** 📏 — a P80 to P400 jump leaves the P80 scratches under the finish, and they show through. Add the P150 or P240 step between, and the face clears in order.
@@ -159,7 +159,7 @@ For any of these, [the abrasives glossary](/glossary) keeps the grain, backing a
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection, the risk of the tool is reduced, not zero.
+A purchasing and compliance checklist for Wood Sanding, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P400 pass is reduced, not removed. Treat each item as a gate: the order does not clear the desk until it passes.
 
 - Confirm the tool's no load speed is below the disc's printed maximum speed before every use, and re check it whenever the diameter or the tool changes.
 - Check the diameter, the arbor hole and the flange match the tool and the guard, and fit a rated adapter where the hole differs — never file a hole larger.

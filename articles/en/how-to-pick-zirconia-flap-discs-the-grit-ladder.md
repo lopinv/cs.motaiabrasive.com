@@ -23,7 +23,7 @@ Two scenarios where the rule bends:
 
 For everyday grinding, weld cap reduction and deburring on steel, start in the P80 to P120 band, choose the backing from your tool's speed, and confirm the arbor hole and the printed maximum speed against the machine before the first pass. The diameters and backings we ship are on [the flap disc range](/collections/flap-discs), and any label term that is not clear is defined in [the abrasives glossary](/glossary).
 
-Two habits keep this from becoming guesswork. Name the grit standard you are buying to, FEPA or ISO 848, in every order. And check the arbor and the speed on the disc against the tool before it goes on the machine. Everything below is the reasoning behind those two moves, with the worked sequences to copy and the failure modes to keep off the part.
+Make the Zirconia Flap Discs spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. The two habits are the difference between a spec and a guess.
 
 ### What makes zirconia grain different
 
@@ -143,7 +143,7 @@ On lead time, two things set it. Common grits and diameters ship fast from stock
 
 Under cutting is the quiet complaint on zirconia flap discs: the disc looks fine, the machine sounds fine, and the part is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into the disc makes it load, and loading is the opposite of cutting more. If the cut dropped when you leaned in, the fix is a lighter hand and a moving disc, not a coarser grit, and that is true on every grain.
+- **Pressure, not grit.** More pressure is not more cut: it loads and glazes the face. When the Zirconia Flap Discs cut fell at P120, the answer is a lighter hand, not a heavier grit. Keep the face moving and the cut stays open.
 - **The grain is too soft for the material.** If a face that should be open is packing, the workpiece is the thing closing the grain; move to a tougher grain, which is usually the reason a zirconia disc was specified in the first place.
 - **The backing does not fit the speed.** A disc running hot and flexing on a fast tool is the wrong backing for the speed, and the backing limits the cut before the grit does; the move is a faster-compatible backing, not a grit change.
 - **The tool is too slow.** A flap disc wants to spin, and below the speed the disc was built for it cuts soft and slow; check the no-load speed and keep the disc in the range it was made for.
@@ -177,7 +177,7 @@ A short compliance and purchasing checklist for zirconia flap discs. This is a r
 
 - Confirm your tool maximum speed is below the disc printed maximum working speed before every use, and read both numbers on the machine, not from memory.
 - Check the arbor hole and the flange are the correct size, use a rated adapter where needed, and fit the guard at the right size for the disc.
-- Wear eye and face protection on every pass, and use respiratory protection matched to the dust load on dry grinding.
+- Every Zirconia Flap Discs pass carries eye and face protection, the extraction filter is chosen for the material, and the respirator is sized to the load that stays at the face. That is the three that stay on for the whole run.
 - Run dust extraction at the work on a filter matched to the material, and keep a bin for the waste.
 - Name the grit standard, FEPA or ISO 848, in every order so two suppliers cannot ship two scales.
 - Ask for the batch certificate or inspection report with a bulk order, and confirm with sales what is issued against the lot you are buying.
@@ -187,4 +187,4 @@ A short compliance and purchasing checklist for zirconia flap discs. This is a r
 
 The baseline for the PPE and the controls on that list is at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and the setup side is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 
-If you tell us the material, the finish the surface has to reach, and the tool you run, we can pre-select the grit and the backing to start from. Send the three, and the sequence is worked out on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Zirconia Flap Discs grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P120 rather than the stock that happens to be on the shelf. Those three are the fields a buyer should never have to chase a second time.

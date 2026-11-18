@@ -16,7 +16,7 @@ Here is the rule that governs nearly every decision between **Sandpaper Sheets**
 
 Two scenarios where the simple "start coarse, finish fine" plan bends. First, thin or heat-sensitive parts, where a coarse grit running fast under heavy pressure can warp the panel before it removes the material — drop a grit and keep the tool moving instead of leaning in. Second, very long straight runs, where the directional scratch lines a belt leaves will show under a clear coat unless you cross them with a finer grit in a different direction. For everyday steel deburring, start somewhere in P80 to P120; for solid wood, P120 to P150 is the everyday band. Name the grit standard you are buying to (FEPA or ISO 848), and confirm the format fits the machine before the grit touches stock. For the formats we supply, see [the abrasive belt range](/collections/abrasive-belts) on the loop side and [the sanding disc range](/collections/sanding-discs) on the sheet side, and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: state the grit standard in every enquiry, and check the machine's rated speed against the belt's printed maximum before the loop is spliced. Everything below is the reasoning behind those two moves, and when you are ready to order, the [request a quotation](/quote) page is where to start.
+Two habits make the Sandpaper Sheets spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P120 band and the belt sander before the first pass. Everything below is the reasoning behind those two moves. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### How Sandpaper Sheets actually work: grain, backing and bond
 
@@ -144,7 +144,7 @@ One short note on the numbers we share: we list grit, grain, format and coat as 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on the floor, with the fix that actually moves the problem:
+The Sandpaper Sheets mistake costs more the longer it rides. What shows up most on the P120 line, and the correction that actually moves the cut: Every one is a match problem wearing another problem's name.
 
 - **Loading and glazing** 🧱 — a soft grain or a packed face stops cutting. Drop a grit, move to a tougher or more open cut, and clean the face; the cut comes back.
 - **Skipping grit steps** 📏 — P80 straight to P400 leaves P80 scratches under the finish. Put the P180 to P240 step back in and the surface clears.
@@ -177,7 +177,7 @@ For any of these, [the abrasive belt range](/collections/abrasive-belts) shows t
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Before you buy Sandpaper Sheets: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P120 risk, never to zero. Run the list once before the first order, then once per repeat run.
 
 - Confirm the machine's rated speed is below the belt's printed maximum line speed before every use, and check the tool's RPM against the sheet and disc format the same way.
 - Check the belt width against the platen and confirm the machine is set up for that width, with the guard in place and the correct size for the loop.
@@ -188,4 +188,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the machine maker's install notes for the splice, the platen and the guard, and check the part for heat and scratch depth on thin or soft material before the finish pass.
 - Confirm lead time, minimum order and packing for a bulk or private label run on the [OEM & private-label service page](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit, the backing and the format to start from — belt for the removal, sheet for the finish, and the grits in between. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Sandpaper Sheets grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P120 rather than the stock that happens to be on the shelf. That is the whole exchange; the grit choice is the one that takes the work.

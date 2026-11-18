@@ -14,7 +14,7 @@ image: flap-fiberglass
 
 Here is the governing rule: **every finishing pass must be finer than the one before it, and on stainless, P100 is the grit that most jobs pass through.** It is the reference point of the sequence — coarse enough that it actually cuts, fine enough that its own marks hide at arm's length. Two scenarios where the rule bends: heavy work with weld cap or mill scale still on the part, where P80 or coarser has to do the removing first, and a part that is already near its final finish, where you start at P240 to P400 instead and never bring P100 back into it. If your job is everyday stainless cleaning, weld work and blending, plan around a P80 to P400 run with P100 in the middle, and confirm the disc or sheet fits your tool before it touches the part. The fundamentals of the material side — how chromium keeps a clean surface in practice, and why contamination shows up later — are covered plainly at [stainless steel finishing fundamentals](https://en.wikipedia.org/wiki/Stainless_steel), and a short reference at [the abrasives glossary](/en/glossary) keeps the label terms straight so you and your team read the same sheet.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to — FEPA (ISO 848) in most export work — and always confirm the backing and tool speed before the disc or sheet goes on. Everything below is the reasoning behind those two moves.
+Two habits make the Stainless Steel Finishing spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P100 band and the tool speed before the first pass. Everything below is the reasoning behind those two moves. The two habits are the difference between a spec and a guess.
 
 ### What P100 does, and what it does not
 
@@ -148,7 +148,7 @@ When the order becomes an OEM or private-label run, the conversation shifts from
 - **Backing** — chosen for the speed and the job, as the speed section above walks through.
 - **Maximum working speed** — confirmed against the model, never assumed, because it has to come from the product.
 - **Label and packing** — your logo, part code and any spec sheet you want on the box.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of Stainless Steel Finishing needed and the date it is needed by; together they decide stock versus make-to-run. Say the two out loud and the make-to-run question answers itself.
 
 Lead time has three parts. In-stock grits and common diameters ship fast; off-grid grits or a backing you do not hold in the same run take longer, because the grain, the backing and the label all have to line up. And OEM or private-label work adds time for the label, the packing and any spec sheet you want on the box, with minimum order quantities that are set per item — confirm the MOQ and the lead time with sales before you plan a shelf around them. The [request a quotation](/en/quote) form is where that conversation starts, and [the manufacturing & quality page](/en/factory) is where the inspection side of an order is described. One rule on the numbers we share: we list grit, backing and diameter as standard, and we confirm maximum working speed against each model before an order ships, because that number has to come from the product, not from a guess.
 
@@ -156,11 +156,11 @@ Lead time has three parts. In-stock grits and common diameters ship fast; off-gr
 
 Under-cutting is the quiet complaint: the sheet looks fine, the tool sounds fine, but the part is not moving. On a P100 grit the causes are usually one of five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into the pad makes the grain load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving pad, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc packs the face and stops the Stainless Steel Finishing cut; the remedy is less pressure and a moving part, not a step up in grit. Keep the face moving and the cut stays open.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops; on a material that loads aluminium oxide, move to zirconia alumina and the cut comes back.
 - **Wrong backing for the speed.** A pad running hot and flexing is a soft backing on a job that needs a firmer one; the backing limits the cut before the grit does.
 - **Tool speed too low.** The abrasive wants to spin; below the speed it was made for, it cuts soft and slow. Check the no-load speed and keep the tool in its design range.
-- **Grit too fine for the job.** A P100 on heavy stock is a finishing grit asked to remove; step down to P80 and the removal comes back.
+- **Grit too fine for the job.** A fine grit on a coarse Stainless Steel Finishing task makes the disc polish instead of remove; step the grit down and the cut comes back. A coarser task wants a coarser grit.
 
 For any of these, the [sanding disc range](/en/collections/sanding-discs) shows the grit and backing to reach for, and the [abrasives glossary](/en/glossary) keeps the terms straight so you and your team are diagnosing the same problem. The thread through all five is that under-cutting is almost always a match problem, not a bad sheet — fix the grain, the backing, the speed or the pressure, and the cut returns.
 
@@ -197,7 +197,7 @@ Each of these has a reference point: the [stainless finishing notes](/en/applica
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection, the risk of these tools is reduced but not zero.
+Before you buy Stainless Steel Finishing: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P100 risk, never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's maximum speed is below the abrasive's printed maximum working speed before every use; when the two do not match, the fix is a smaller disc or a slower tool, and the rated speed is confirmed against the model, never assumed.
 - Check the guard, the backing and any adapter are the correct size for the disc, and fit the guard every time the tool goes on a job.
@@ -207,8 +207,8 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Ask for certifications and an inspection report for any bulk or OEM order, and confirm them against the material before the shelf does.
 - Store abrasives away from moisture and heat, in the packing they came in, and transport them the same way, because a soft sheet glues itself back to its neighbour.
 - Follow the maker's install notes on tool speed, backing and fitting, and re-check them on a new tool before the first pass.
-- Keep a record of the PPE and controls you rely on; the U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a line in the job record for the PPE and Stainless Steel Finishing controls; the U.S. requirement is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup reading at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The record is the control that outlives the shift.
 - Confirm lead time, minimum order quantity and packing for any bulk or branded run, starting with the [quotation form](/en/quote).
 - For a private-label or OEM order, check [the OEM & private-label service page](/en/oem) for what we can put on the label, the packing and the spec sheet.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pre-select the grit and the backing to start from — and if the job is a Stainless Steel Finishing run on a plate joint, we will lay out the P80 to P400 sequence with the grain and backing for each step. Send the three details and we will work it with you on the [request a quotation](/en/quote) page.
+The three fields to start a Stainless Steel Finishing order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P100 downward, to the job instead of the nearest stock. Those three are the fields a buyer should never have to chase a second time.

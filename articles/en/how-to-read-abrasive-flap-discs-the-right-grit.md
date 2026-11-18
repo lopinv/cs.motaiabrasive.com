@@ -14,7 +14,7 @@ image: flap-plastic
 
 Here is the rule that governs nearly every abrasive flap discs decision: **match the grit to how much material you are removing, then match the backing to how hard the job is.** A coarse grit like P60 or P80 removes stock fast but leaves visible marks; a fine grit like P320 to P400 cleans up and blends; a heavy disc on a steel backing handles rough deburring and weld seam grinding, while a lighter disc on a plastic backing is better for finishing where the disc is spinning fast. Two scenarios where that rule bends: very soft materials where even P60 leaves too deep a scratch, and thin sheet where heat build-up from a coarse grit can warp the part. If your job is everyday metal grinding, blending and light finishing, start in the P80 to P120 band and confirm the disc fits your grinder's arbor before you cut into stock. For the full range of shapes and backings we supply, see the abrasive flap discs range at [the abrasive flap disc range](/en/collections/flap-discs) and keep the [abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
 
-Two habits that turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the arbor hole before the disc goes on the machine. Everything below is the reasoning behind those two moves.
+Make the Abrasive Flap Discs spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P1500 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. They are the reason the surface, not the disc, ends up on the job sheet.
 
 ### What a flap disc actually is
 
@@ -121,7 +121,7 @@ Material changes the starting grit even when the tool is the same. The table bel
 - **MDF and engineered wood** 🪵 — P80 to P120 to remove stock, P240 to P400 to bring it even. MDF loads a disc fast because it is soft and sugary, so a coarser grit and a moving disc beat a fine grit held in one spot.
 - **Mild steel** ⚙️ — P60 to P80 to remove, P120 to P240 to blend. This is the bread and butter range and the place most abrasive flap discs spend their life.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc dedicated or swap grits, because embedded mild steel particles start rust spots on stainless later.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — P1500 to prepare and a finer rung to finish Abrasive Flap Discs; the alloy scratches deeper than steel, so start finer and keep the disc moving. The rung, not the tool, is the move.
 - **Castings and rough surfaces** 🧱 — P40 to P60 to open the face, then P80 to P120. A rough casting packs a fine grit, so you work coarse to fine in steps rather than jumping to a fine disc.
 
 The rule underneath the table is always the same: match the grit to the material and the finish, and let the grain decide how the cut feels. Aluminium oxide is the grain to default to on steel and stainless, zirconia alumina is the pick when the material packs the grain, and silicon carbide is the one for non ferrous metal where a softer, slicker surface is the target. For the grains we stock against each backing, the [abrasive flap disc range](/en/collections/flap-discs) and the [metal fabrication application notes](/en/applications/metal-fabrication) are where to confirm before you order.
@@ -141,7 +141,7 @@ When you move from buying a handful of discs to a [flap discs wholesale](/en/col
 - **Diameter and arbor** — the disc diameter and the centre hole, matched to the tool and flange you run.
 - **Maximum working speed** — confirmed against the model, never assumed, because it must come from the disc.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of Abrasive Flap Discs needed and the date it is needed by; together they decide stock versus make-to-run. Both travel on the order, not on the phone.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect.
 
@@ -149,17 +149,17 @@ Send those six fields and the order is a conversation instead of a gamble. The [
 
 Under cutting is the quiet complaint, because the disc looks fine and the machine sounds fine, but the part is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc packs the face and stops the Abrasive Flap Discs cut; the remedy is less pressure and a moving part, not a step up in grit. It reads as a disc fault but is a hand fault.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like zirconia alumina on a material that loads aluminium oxide.
 - **Wrong backing for the speed.** A disc running hot and flexing is a plastic backing on a job that needs fiberglass or steel; the backing limits the cut before the grit does.
 - **Tool speed too low.** A flap disc wants to spin. Below the disc design speed it cuts soft and slow; check the no load speed and keep the disc in the range it was made for.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** The fine grit asks the Abrasive Flap Discs part to be polished where it should be cut; one grit lower and it is removing again. It is the grit, not the effort, that matters.
 
 For each of these, the [abrasive flap disc range](/en/collections/flap-discs) shows the grit and backing to reach for, the [metal fabrication application notes](/en/applications/metal-fabrication) give the sequence by material, and the [abrasives glossary](/en/glossary) keeps the terms straight so you and your team are diagnosing the same problem. The thread that runs through all five is that under cutting is almost always a match problem, not a bad disc; fix the grit, grain, backing or speed and the cut returns.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Abrasive Flap Discs. These are the errors that surface most at P1500, and the move that actually changes the result: Fix the match and the list gets shorter on the next job.
 
 - **Skipping grits.** Going from P60 straight to P400 leaves P60 scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Wrong arbor.** A disc that does not sit fully on the flange walks at speed; buy the right hole or a rated adapter, never file the hole larger.
@@ -189,7 +189,7 @@ For any of these, the [abrasive flap disc range](/en/collections/flap-discs) and
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+The Abrasive Flap Discs checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P1500 work goes down but never to zero. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm your tool maximum speed is below the disc printed maximum working speed before every use.
 - Check the arbor hole and flange are the correct size, and use a rated adapter where needed.
@@ -197,7 +197,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Wear eye and face protection, and use dust extraction and the right respiratory protection for the dust load.
 - Confirm grit, backing, diameter, arbor and the grit standard (FEPA or ISO 848) in every order so you do not mix scales.
 - Follow the disc maker install notes, and check the part and the disc for heat and scratch depth on thin or soft material.
-- Keep a record of the PPE and controls you rely on; U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a line in the job record for the PPE and Abrasive Flap Discs controls; the U.S. requirement is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup reading at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). Keep it on the job sheet, not in a binder.
 - Confirm lead time, minimum order and packing for any [flap discs wholesale](/en/collections/flap-discs) or [private label order](/en/oem), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The three fields to start a Abrasive Flap Discs order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P1500 downward, to the job instead of the nearest stock. Send all three at once and the quote comes back as a finished plan.

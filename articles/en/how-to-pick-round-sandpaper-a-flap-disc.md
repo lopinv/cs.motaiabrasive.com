@@ -16,7 +16,7 @@ The decision rule: **pick the format that matches your tool's attachment, then s
 
 Two scenarios where the rule bends. First, very soft or sugary materials where even a coarse round disc loads and stops cutting before it should, so the fine grit you planned is the wrong answer and a coarser, open cloth is the right one. Second, thin sheet metal where heat build-up from a coarse grit on a fast tool warps the panel before the scratch depth is even right. If your job is everyday sanding and blending, start in the P120 to P240 band and confirm the disc fits the pad or the arbor before you cut into stock. The full set of formats we supply — PSA, hook-and-loop, mesh and flap — is at [the sanding disc range](/en/collections/sanding-discs), and it pays to keep [the abrasives glossary](/en/glossary) open when a label term is unfamiliar, because half of every mis-order we see traces back to one unfamiliar word on a label.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA, ISO 848), and always confirm the attachment — pad, arbor, flange — before the disc goes on the tool. In a shop we work with, writing those two lines on the bin card ended the long-running mix-up where two "P120" shelves quietly held different grits from two suppliers. Everything below is the reasoning behind those two moves, and the sections are ordered the way the decision actually happens on the floor: format first, grit second, grain third, and the safety and cost questions only once the three are picked.
+What keeps the Round Sandpaper sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P120 band, the backing and angle grinder are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. One minute of habit, saved in every pass after the first.
 
 ### How round sandpaper actually works
 
@@ -105,14 +105,14 @@ The fields that make an order a conversation instead of a gamble:
 
 - **Grain and grit** — aluminium oxide, zirconia alumina, the hard sharp grain or ceramic, at the exact FEPA or ISO 848 grit, on the scale you shop to.
 - **Format and diameter** — PSA, hook-and-loop, mesh or flap; 3 / 4 / 5 / 6 inch where it matters; the pair of pad and disc on the same size.
-- **Quantity and lead time** — how many and when they need to be on the shelf, which sets stock versus made-to-run.
+- **Quantity and lead time** — for Round Sandpaper, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. They are the last two fields to be filled on a clean enquiry.
 - **Label and packing** — your logo, your part code, the spec sheet, on a private-label run.
 
 Send those and the order is a spec, not a guess. The [5-inch 8-hole hook-and-loop disc](/en/disc/gold8) is the format most finish lines standardize on, and [request a quotation](/en/quote) is where a bulk or branded order starts.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. What shows up most often, and the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Round Sandpaper line at P120, and the correction that moves the surface for each: Fix the match and the list gets shorter on the next job.
 
 - **Skipping grits** ⏭️ — P60 straight to P400 leaves P60 scratches under the finish; add the P120 and P240 rungs and the surface clears. This is the most expensive mistake on the list because it hides until the coat goes on, and the coat is the point of no return on the panel.
 - **Mixing sources and scales** 🎲 — a P120 from one supplier and a "120" from another quietly end up as two different grain sizes; name the FEPA or ISO 848 scale on every order and shop one scale. The two shelves will look identical to anyone who has not read the standard off both labels.
@@ -141,7 +141,7 @@ The thread through all six: the disc is only as good as the grit, grain, format 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection, the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for Round Sandpaper, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P120 pass is reduced, not removed. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm the tool's maximum speed is below the disc's printed rated speed before every use, and keep it there; a disc is only as safe as the speed it is run at.
 - Check the pad, arbor and flange fit the disc, and that the disc seats fully; use a rated adapter where needed, never a modified fit.
@@ -152,4 +152,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes, and on thin or soft material, check the part for heat and scratch depth as you go; thin panel is the material that punishes a hot, held disc the fastest.
 - Confirm lead time, MOQ and packing for any bulk or private-label run, through the [quotation form](/en/quote), and match the order date to the shelf, not the shelf to the order date.
 
-If you tell us the material, the finish line you are aiming at, and the tool you run, we can pre-select the grit, the grain and the backing to start from. Send the three and we will work the sequence with you on [request a quotation](/en/quote).
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Round Sandpaper. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P120. No template is attached; the three fields travel in the message itself.

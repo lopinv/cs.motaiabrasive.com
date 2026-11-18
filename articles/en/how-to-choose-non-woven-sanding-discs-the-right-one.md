@@ -18,7 +18,7 @@ The rule bends in two scenarios. First, very soft fillers and wax-type surface l
 
 If your job is everyday preparation, blending and spot finishing across wood, primer and filler, P120 to P180 is the band most benches live in. State the grit standard (FEPA or ISO 848) in the order, confirm the backing format against your tool, and check the rated speed before the disc goes on the machine. For the range we stock, see [the sanding disc range](/en/collections/sanding-discs) and compare [hook-and-loop sanding discs](/en/products/hook-loop-sanding-discs) against PSA discs if your pad takes either.
 
-Two habits make this repeatable. On the buying side, always state grit, format, diameter and the grit standard in one line. On the bench side, always confirm the tool speed is below the disc's rated speed. Everything below is the reasoning behind those two moves, worked example by worked example.
+Two habits make the Non-Woven Sanding Discs spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P180 band and the tool speed before the first pass. Everything below is the reasoning behind those two moves. They are the reason the surface, not the disc, ends up on the job sheet.
 
 ### How non-woven sanding discs actually work
 
@@ -168,17 +168,17 @@ For the panel-line side of these, the [automotive repair sanding use](/en/applic
 
 Under cutting is the quiet complaint. The disc looks fine, the sander sounds fine, but the surface is not going, or the finish is worse than the grit should give. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and choke, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Pushing on the disc packs the face and stops the Non-Woven Sanding Discs cut; the remedy is less pressure and a moving part, not a step up in grit. A light hand is worth two grits.
 - **Grain too soft for the material.** A grain as soft as the workpiece packs and stops. Move to a tougher grain — zirconia alumina or ceramic over a material that chokes the standard face.
 - **Wrong format for the dust load.** A solid face on a fine grit over filler will choke; the perforated or mesh format is the one that keeps the dust moving on that job.
 - **Tool speed too low.** A disc that wants to spin cuts soft and slow below its design range; check the no-load speed of the tool and keep the disc in the range it was made for.
-- **Grit too fine for the job.** P2800 over P320 scratches does not cut them away; it smears them. Step the grit and the cut comes back.
+- **Grit too fine for the job.** A fine grit on a coarse Non-Woven Sanding Discs task makes the disc polish instead of remove; step the grit down and the cut comes back. The fine grit is the wrong tool here.
 
 For a panel-line read of these same failure modes, the [automotive repair sanding use](/en/applications/automotive) notes walk the sequence by material, and the [abrasives glossary](/en/glossary) keeps the terms straight so you and your team are diagnosing the same problem, not two different ones. The thread through all five is that under cutting is almost always a match problem, not a bad disc; fix the grit, the grain, the format or the speed, and the cut returns.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. What shows up most on the bench, with the fix that actually moves the problem:
+The Non-Woven Sanding Discs mistake costs more the longer it rides. What shows up most on the P180 line, and the correction that actually moves the cut: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Skipping grits.** P180 straight to P400 buries the P180 scratches under the next coat; add the P320 step and the surface clears.
 - **PSA disc on a hook-and-loop pad.** The face will not bond, the disc will not sit, and the first pass will teach the operator why the format and the pad must match. Pick the disc to the pad, not the other way round.
@@ -207,7 +207,7 @@ For the terms behind each of these, the [abrasives glossary](/en/glossary) defin
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not removed.
+Before you buy Non-Woven Sanding Discs: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P180 risk, never to zero. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm the tool's rated speed is below the disc's rated speed for the model you are actually ordering; where the model does not print a maximum, confirm the rated speed with sales before it ships.
 - Check the arbor, pad or mandrel fit, and that the disc format — PSA, mesh, non-hole or hook-and-loop — matches what the tool actually takes.
@@ -220,4 +220,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 
 U.S. PPE requirements are a useful baseline at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and a practical reading of spinning-abrasive setup is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit, the grain and the format to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The three fields to start a Non-Woven Sanding Discs order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P180 downward, to the job instead of the nearest stock. Send all three at once and the quote comes back as a finished plan.

@@ -16,7 +16,7 @@ Here is the rule that governs most sanding pad decisions: **match the grit to ho
 
 The one number that governs everything downstream is the **FEPA / ISO 848 grit**, because the grit number means nothing unless you know which scale it is on. The second number is the pad diameter and how it attaches — 3, 4, 5 or 6 inch pads, in PSA (peel-and-stick) or hook-and-loop (velcro style) — because a grit you cannot fit to your tool is not a grit you can buy. If your job is everyday panel work, cabinetry or painted metal, start in the P150 to P240 band, confirm the pad fits your sander's attachment system, and confirm the tool's rated speed against the pad before it spins. For the shapes and grits we supply, see [the sanding disc range](/collections/sanding-discs), and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: always name the grit standard (FEPA or ISO 848) in the enquiry, and always match the pad attachment to the sander before the first cut. On every bulk order, whether you are buying a handful or a run for a private label, state the grit, the scale, the diameter, the attachment and the layout to the **sanding pad manufacturer** — that single line prevents most of the mismatches this page covers. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P400, backing, speed margin — happens before the first pass, not after the surface has moved. Neither habit is exotic; both are checked off on the job sheet.
 
 ### What a sanding pad manufacturer actually produces
 
@@ -142,7 +142,7 @@ Pad life is where the two attachment styles pull apart most. A **PSA pad** on a 
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P400 on Sanding Pad Manufacturer. Here is the short list of errors that surface most, and the move that fixes each one at the root: In each case the surface gives the tell before the cost does.
 
 - **Skipping grits.** Going from P120 straight to P400 leaves P120 scratches under the finish; add the P180 and P240 steps and the surface clears. A two-band jump is the single most common reason a face still shows scratches after a full sequence.
 - **Holding the pad in one spot.** A fine grit held still glazes and loads, which is the opposite of cutting more. Keep the pad moving, and if the cut dropped when you leaned in, the fix is lighter pressure and a moving pad, not a coarser grit.
@@ -173,7 +173,7 @@ For any of these, [the sanding disc range](/collections/sanding-discs) shows the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Sanding Pad Manufacturer checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P400 risk is cut by the right protection, not eliminated. Tick every item before the first order, and re-tick on every repeat run.
 
 - Confirm your tool's maximum speed is below the pad's rated speed before every use, and confirm the rated speed against the model before you order.
 - Check that the pad attachment — PSA or hook-and-loop — matches the sander's platen, and that the platen is clean before the shift.
@@ -184,4 +184,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store the pads in a dry, cool place away from direct heat, and follow the install notes for the attachment before the first cut.
 - Confirm lead time, minimum order and packing for any bulk or private label order, and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the pad style to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Sanding Pad Manufacturer. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P400. Skip the back-and-forth: the sequence comes back with the first answer.

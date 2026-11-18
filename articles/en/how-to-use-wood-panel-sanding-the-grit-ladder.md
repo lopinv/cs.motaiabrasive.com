@@ -130,7 +130,7 @@ Lead time splits two ways. In-stock grits and the common backings ship fast; a b
 
 ### Common mistakes, with the fix that actually moves it
 
-The fixes are usually cheaper than the mistake. What shows up most on panel work:
+Cheap to fix, expensive to leave: that is the rule at P80 on Wood Panel Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - ⚠️ **Skipping rungs.** P80 to P320 leaves the coarse scratch under the next coat; the P150 and P240 rungs in between are the surface, not an extra pass, and the coarse scratch is the one nobody catches until the film is on.
 - 🔥 **Holding one spot on the panel.** A random orbital parked on one place burns a soft wood and turns a fill; keep the tool moving through the pass, and the open face is the one for the dirty rungs, because the face that stays open is the one that keeps cutting.
@@ -159,12 +159,12 @@ For the terms, [the abrasives glossary](/glossary) keeps bench and office descri
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Keep this Wood Panel Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P80 risk is cut by the right protection, not eliminated. Each item below is one you can check against the delivery in hand.
 
 - Confirm the tool's maximum no-load speed clears the paper's rated maximum working speed before every use, and where the paper does not print a number, confirm the rating against the model.
 - Check the arbor, the holder and the backing agree: a PSA face on a matching sander's pad, a cloth face on a fine rung, and the belt's grit one or two bands coarser than the first paper rung.
 - Keep the tool guard fitted on every machine pass; it is the first defence against a disc failure, and the guard is the field that catches a rim failure before it flies.
-- Wear eye and face protection on every pass, and match the respiratory protection to the dust load when the extraction is not at the face.
+- On every Wood Panel Sanding pass: eye and face protection, the dust extraction with the filter for the material, and the respiratory protection matched to whatever the extraction leaves at the face. Worn on every pass, not just the first.
 - Run dust extraction with the right filter for the wood, and keep the waste in a sealed bin rather than swept to the corner of the floor.
 - Name the grit, the grain, the backing and the grit standard (FEPA, ISO 848) in every enquiry, so the order does not mix scales, and a 180 on one scale does not arrive as a 180 on the other.
 - Ask for the inspection report or certificate against the batch you are ordering, and get it on the order, not after it, because the report is the field that confirms the batch cuts the way the spec says it will.

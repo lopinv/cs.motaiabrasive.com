@@ -14,7 +14,7 @@ image: psa-3
 
 The rule that governs almost every sandpaper sheets versus abrasive belt decision: **the grit decides how much comes off; the format decides where and how it comes off.** A sheet in your hand or on a disc works over curves, corners and contoured areas; a continuous-loop belt works fast over flat, open surfaces; and whichever format you use, the final pass of the whole job is always the finer grit. So when a job needs both, you spec them as one sequence — a coarser belt for the removal work, a finer sandpaper sheet grit for the finish — and you never let the belt's scratch direction be the last thing on the surface. Two scenarios where the rule bends: thin, heat-sensitive parts, where a coarse belt running fast can warp the stock before it removes it, and very long straight runs, where the directional scratch pattern a belt leaves will show under a clear coat unless you cross it with a finer grit in a different direction. Start most metal jobs somewhere in P80 to P120 and most wood jobs in P120 to P180, and confirm the grit standard (FEPA or ISO 848) before you compare numbers across formats. For the formats and grits we supply, see [the abrasive belt range](/collections/abrasive-belts), a hook-and-loop example at [the 5-inch 8-hole hook-and-loop disc](/disc/gold8) and the sheet and disc side at [the sanding disc range](/collections/sanding-discs), with any label term you are not sure about in [the abrasives glossary](/glossary).
 
-Two habits keep this from turning into guesswork: name the grit standard in every enquiry, and always check the tool speed against the belt's rated speed before the job. Everything below is the reasoning behind those two moves.
+Make the Sandpaper Sheets spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P80 band against the tool you actually run (belt sander) before the first cut. The rest of this page is why those two moves earn their keep. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### How the two formats actually work
 
@@ -209,7 +209,7 @@ For any of these, [the abrasive belt range](/collections/abrasive-belts) shows t
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+The Sandpaper Sheets checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P80 work goes down but never to zero. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's maximum speed is below the belt's rated maximum working speed, from the belt's own label, before every use.
 - Check that the belt size and loop format fit the machine, and that the guard and platen are the correct size for that belt.
@@ -220,4 +220,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the install notes for your machine, and check the part for heat and scratch depth on thin or soft material before the finish pass.
 - Confirm lead time, minimum order and packing for a [flap discs wholesale](/collections/flap-discs) or [private label order](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the format to start from — belt for the removal, sheet for the finish, and the grits in between. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Sandpaper Sheets grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P80 rather than the stock that happens to be on the shelf. The more of the three you name, the less the supplier has to guess.

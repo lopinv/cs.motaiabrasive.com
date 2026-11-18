@@ -16,7 +16,7 @@ The one governing rule behind Stainless Steel Finishing is a two-part one: **bui
 
 The rule bends in two places. Thick 10 mm steel plate that only needs deburring and is going to be coated does not need the fine end of the ladder at all, and a high grade hairline or mirror on a small area does need the very fine end, P2400 and beyond, to keep the scratch pattern even. In practice, a welded stainless joint starts around P120, blends through P240, and cleans up on P400, with the finishing grit chosen against how the customer inspects: raking light, hand across the surface, or clear coat. Start with that spine of the ladder, confirm the disc fits your grinder's arbor and the tool stays under the disc's printed maximum speed, and the sequence does the rest. For the shapes and backings we supply, start from [the flap disc range](/en/collections/flap-discs), and keep the [abrasives glossary](/en/glossary) open whenever a label term is new to you.
 
-Two habits turn this from guesswork into a repeatable spec: always name the grit standard (FEPA / ISO 848) in the enquiry, and never run a carbon steel job and a stainless job on the same grit without a full swap. The reference point for the standard is [the FEPA grit standard](https://en.wikipedia.org/wiki/FEPA), and the next sections are the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P240, backing, angle grinder — happens before the first pass, not after the surface has moved. The two habits are the difference between a spec and a guess.
 
 #### How to read the model numbers
 
@@ -131,7 +131,7 @@ Material changes the starting grit even when the tool and the target finish are 
 
 - **Carbon steel plate** ⚙️ — start P80, ladder P80 to P240, cleanup P400 where the part is visible. The same tools and discs can run this set, because there is no contamination constraint of the stainless kind.
 - **Stainless steel** 🧊 — start P120 on a dedicated disc, ladder P120 to P240, cleanup P400. The disc never touches a carbon job, and that rule is the whole game.
-- **Aluminium and soft alloys** 🟦 — P120 to P240 for stock, P320 to P400 for finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — P240 for the open on Stainless Steel Finishing, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the angle grinder keeps moving. The scratch depth is what the grit is managing.
 - **Castings and rough surfaces** 🧱 — P40 to P60 to open the face, then P80 to P120. A rough surface packs a fine grit, so you work coarse to fine in steps rather than jumping.
 
 For stainless work the extra rule is the dedicated set, which you can see applied step by step in the [stainless steel finishing notes](/en/applications/stainless-steel). If the part is a carbon steel plate feeding into a Stainless job, or a heavy plate deburring run ahead of the finish, the grit and backing for the two sides of that line is exactly what to settle before the job starts, and the [metal fabrication abrasive use page](/en/applications/metal-fabrication) covers the sequence on the carbon side.
@@ -193,7 +193,7 @@ When you move from a single disc to a branded finishing set, the conversation sh
 - **Diameter and arbor** — the disc diameter and the centre hole, matched to the tool and flange you run.
 - **Maximum working speed** — confirmed against the model, because it has to come from the disc, not from a guess.
 - **Label and packing** — your logo, your part code and any spec sheet on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — how many Stainless Steel Finishing pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. The lot only gets built once the two agree with the job.
 
 Send those fields and the order is a conversation instead of a gamble, and the [request a quotation](/en/quote) page is where to start.
 
@@ -237,7 +237,7 @@ The very fine end of the band, the 2400 finishing disc in P2400, is in [the flap
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Stainless Steel Finishing checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P240 risk is cut by the right protection, not eliminated. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your tool's maximum speed is below the disc's printed maximum working speed before every run; when in doubt, run no-load and measure.
 - Check the arbor hole and the flange are the right size, and use a rated adapter where the hole does not match, never a modified one.
@@ -249,4 +249,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes on the flange, the guard and the disc seating, and re-check the guard and the arbor each shift on a shop with several tools.
 - Confirm lead time and minimum order quantity against any [flap discs wholesale](/en/collections/flap-discs) or [private label order](/en/oem), and start from the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we will help you pick the grit and the backing to start from. Send the three and the team will work the sequence with you on the [request a quotation](/en/quote) page, and the [abrasives glossary](/en/glossary) is there to keep the terms straight from the first enquiry to the last disc on the shelf.
+The Stainless Steel Finishing enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P240 — is worked out with you, not copied from a shelf list. Those three are the fields a buyer should never have to chase a second time.

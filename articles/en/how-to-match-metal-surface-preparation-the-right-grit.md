@@ -16,7 +16,7 @@ The rule that governs nearly every metal surface preparation decision: **match t
 
 Two scenarios where that rule bends. Thin panel: a coarse grit held in one spot builds heat that can warp the part, so you drop a grit and keep the disc moving instead of pressing. Soft alloy such as aluminium: even P60 can scratch deeper than the final finish allows, so you start finer and remove less. If your everyday job is flat steel prep, blending and light finishing, start the sequence at P120, keep the grit standard named (FEPA or ISO 848), and check the disc fits the tool arbor before you cut. For the full range of backings, grains and grits we supply, start from all abrasive products at [all abrasive products](/en/collections/all), and the step by step material sequences live in the [metal fabrication abrasive use](/en/applications/metal-fabrication) notes.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to, and always confirm the tool speed against the disc rating before the job starts. Everything below is the reasoning behind those two moves.
+Make the Metal Surface Preparation spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run (angle grinder) before the first cut. The rest of this page is why those two moves earn their keep. One minute of habit, saved in every pass after the first.
 
 ### How the grit ladder actually works
 
@@ -43,7 +43,7 @@ Material changes the starting grit even when the tool is the same. The list belo
 
 - **Mild steel, including steel plate** ⚙️ — P60 to P100 to open up the surface, P120 to even out, P240 to P400 before coating. This is the everyday band where most preparation work on steel plate and other mild steel stock lives, and the grits we see most on our orders.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean and blend. One extra rule: keep the disc dedicated, or change grits before moving from a steel job to a stainless one, because steel particles left in the grain show up later as dark spots on the part. The full sequence is in the [stainless steel finishing use](/en/applications/stainless-steel) notes.
-- **Aluminium and soft alloys** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than the finish allows; start finer, keep the disc moving, and do not press.
+- **Aluminium and soft alloy** 🟦 — P120 to prepare and a finer rung to finish Metal Surface Preparation; the alloy scratches deeper than steel, so start finer and keep the angle grinder moving. The scratch, not the shine, is the target.
 - **Castings and rough stock** 🧱 — P40 to P60 to open the face, then step through P100 to P240. A rough casting packs a fine grit, so you work coarse to fine in steps instead of jumping; zirconia alumina is a strong option here because the structure stays open.
 - **Painted surfaces, for stripping** 🎨 — P60 to P100 on a flap or belt with pressure, moving to blend. What comes after decides how far the sequence goes: if the surface goes back to bare metal, stop at the blend; if it is repainted, continue to P240.
 
@@ -138,7 +138,7 @@ A short comparison of the three cost levers, because they pull in different dire
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most on metal surface preparation work, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Metal Surface Preparation. These are the errors that surface most at P120, and the move that actually changes the result: Fix the match and the list gets shorter on the next job.
 
 - **Loading and glazing** 🧯 — the disc clogs when the grain face packs with soft material, or glazes flat when the grit has cut down to a dull edge. The fix is lighter pressure, a moving disc, a finer grit step, or a grain that is not as soft as the workpiece, and a cleaned or fresh disc if the face is packed past helping.
 - **Skipping grits** 🪜 — P60 straight to P400 leaves the P60 swirls under the finish; add the P120 and P240 steps and the surface clears. Every step has to remove the scratch of the one before.
@@ -171,7 +171,7 @@ For any of these, the [flap disc range](/en/collections/flap-discs) shows the gr
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own site rules, and under compliant speed, correct fit and PPE the risk of these tools is reduced, not zero.
+The Metal Surface Preparation checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's no load maximum speed is below the disc's printed maximum working speed before every use, and confirm the rated speed against the model if you are comparing.
 - Check the arbor hole and flange are the correct size for the disc, and use a rated adapter where the setup differs — never a ground out hole.
@@ -179,7 +179,7 @@ A short compliance and purchasing checklist. It is a reminder, not a substitute 
 - Wear eye and face protection on all dry grinding, and match the respiratory protection to the dust load; keep extraction running at the point of generation.
 - Name the grit standard (FEPA or ISO 848) in every enquiry, along with the grit, the backing, the diameter and the arbor, so two scales never mix on the shelf.
 - Check the surface against any inspection or coating spec it must meet, and look for heat marks and scratch depth between grits, especially on thin or soft material.
-- Keep a record of the PPE and controls your team relies on; the U.S. PPE general requirements at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup guidance at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) are a solid baseline.
+- Log the PPE and dust controls the Metal Surface Preparation work actually uses; the U.S. reference is [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the practical read is [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). It is the one line that survives a shop change.
 - Confirm certificates and inspection reports for any compliance file your customer asks for, storage and transport conditions for the stock you are building, and follow the install notes on each disc or belt you run.
 - Confirm lead time, minimum order quantity and packing for any [flap discs wholesale](/en/collections/flap-discs) or [private label order](/en/oem), and start from [request a quotation](/en/quote).
 

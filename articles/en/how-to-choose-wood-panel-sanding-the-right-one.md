@@ -14,7 +14,7 @@ image: belt-610-100
 
 Here is the rule that governs nearly every wood panel sanding decision: **match the grit to the finish line you are leaving the panel on, and match the abrasive form to how the panel moves.** A panel heading to paint wants a remove-then-smooth sequence: P80 or P100 to knock down raw or old-finish faces, P180 or P220 to even out the whole surface, and P320 to land on before primer or paint goes on. A panel going to a sprayed clear coat starts finer, P150 or P180, and lands on P320 to P400 so the first coat sits on an even, low scratch. A panel moving through a wide belt line takes a belt for the flat faces and a short disc pass for the edges, because a belt does not wrap an edge radius and the edge is where most of the hand work ends up. Three places this rule bends: soft, sugary MDF, where even P120 loads fast and a coarser open-cut grit with a moving disc beats a fine grit held in one spot; thin veneered panels, where a coarse grit can tear the face veneer, so you start at P150 or finer and skim the surface instead of digging; and melamine or pre-coated surfaces, where you want a sharp, hard grain at a fine grit to knock down without tearing.
 
-Two habits turn this from guesswork into a repeatable spec: name the grit standard in every enquiry (FEPA or ISO 848), and confirm the abrasive form fits the tool you actually run (PSA, mesh, hook-and-loop or belt). Everything below is the reasoning behind those two moves. For the shapes and grits we supply, start from [the abrasive belt range](/en/collections/abrasive-belts), read the [woodworking sanding use notes](/en/applications/woodworking), and keep the [abrasives glossary](/en/glossary) open whenever a label term is unfamiliar.
+Make the Wood Panel Sanding spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P320 band against the tool you actually run (belt sander) before the first cut. The rest of this page is why those two moves earn their keep. Both habits cost a minute and buy back the whole pass.
 
 ### How Wood Panel Sanding Actually Works
 
@@ -138,7 +138,7 @@ On lead time, two things set it. In stock grits and common sizes ship fast; a co
 
 ### Common Mistakes and How to Fix Them
 
-The fixes are usually cheaper than the mistake. These are the ones that show up most often on panel work, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Wood Panel Sanding. These are the errors that surface most at P320, and the move that actually changes the result: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Skipping a grit step.** Going from P100 straight to P320 leaves P100 scratches under the coat; add the P180 or P220 in between and the surface clears. The skip is visible at a raking light, and the re-sand is the real cost of the shortcut.
 - **Holding a fine grit still on MDF.** A P320 held in one spot on an MDF face packs, glazes and burns a patch on the panel; the open-cut grit and the moving disc are the fix, not a coarser grit and more pressure.

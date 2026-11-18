@@ -14,7 +14,7 @@ image: flap-fiberglass
 
 Here is the decision rule that settles most flap disc supplier conversations: **pick the backing for how hard the job is and how fast the tool runs, then let the grit do the finish work.** A steel plate takes pressure and survives the demanding and deburring passes; a fiberglass plate resists flex and heat, so it suits the faster tools; a plastic plate is the light, cooler choice for general and finishing work. The one number that governs the whole pick is the disc's maximum line (surface) speed: the tool has to stay under it, and a supplier who will not confirm the rated speed for the model you want has failed the first test of a useful one. Two scenarios where the rule bends: thin sheet, where even the cooler backings build enough heat to warp the part and you need a finer grit and a moving disc instead, and a very fast tool, where a stiff plate keeps the disc flat enough to cut honestly. If your job is everyday grinding and blending, the [abrasives glossary](/en/glossary) is the reference to keep open for the label terms, and the [flap disc range](/en/collections/flap-discs) shows which backings we stock against each grit band.
 
-Two habits that turn this from guesswork into a repeatable spec: always state the grit standard you are buying to, FEPA or ISO 848, and always confirm the rated speed against the model before the order ships. A P1500 finish disc bought without those two fields is how a well-intended order arrives at the bench as the wrong disc. Everything below is the reasoning behind those two moves. The rest of the article is the working method: how the three parts of a disc trade against each other, how to run a grit sequence by material, the speed and dust checks, what cost-per-part looks like on paper, and the mistakes that show up most on the floor.
+What keeps the Flap Disc Supplier sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P1500 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. One minute of habit, saved in every pass after the first.
 
 ### How a flap disc actually works
 
@@ -124,7 +124,7 @@ Softening cuts have an order to check in, and following it saves the round trips
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant speed, correct fit and PPE the risk of these tools is reduced, not zero. Run it before the first disc of the new order hits the bench, and again at the start of every shift, because the checks that held at order time are the ones the floor forgets by the second day.
+A purchasing and compliance checklist for Flap Disc Supplier, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P1500 pass is reduced, not removed. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm the tool's no-load speed is below the disc's rated maximum line speed for the diameter you are running; we confirm the rated speed against each model, never from memory.
 - Check the arbor hole, the flange and the guard are the correct sizes for the disc, and use a rated adapter where there is a mismatch.
@@ -135,4 +135,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes for arbor, flange and guard fit on every tool you put the disc on.
 - Confirm lead time, minimum order quantity and packing with the supplier before the order ships; for a bulk or private-label run, start at the [flap disc range](/en/collections/flap-discs) and send the fields on the [request a quotation](/en/quote) page.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pre-select the grit and the backing to start from. Send those three and we will work the sequence with you, and we will confirm the rated speed against the model before anything ships.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Flap Disc Supplier. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P1500. No template is attached; the three fields travel in the message itself.

@@ -18,7 +18,7 @@ Two scenarios where the rule bends. Very soft alloys: even a coarse grit leaves 
 
 Browse [all abrasive products](/en/collections/all) to see which shapes carry the grits you need, and keep [the abrasives glossary](/en/glossary) open while the label terms are unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the tool's maximum speed before the disc goes on. Everything below is the reasoning behind those two moves.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P400, backing, speed margin — happens before the first pass, not after the surface has moved. One minute of habit, saved in every pass after the first.
 
 ### How Metal Surface Preparation actually works
 
@@ -51,7 +51,7 @@ Material moves the starting grit even when the tool is the same. The decision li
 
 - **Mild steel plate** 🪛 — P60 to P80 to knock off mill scale or light oxide, P120 to P240 to even out the ground area, P320 to P400 to bring the whole surface into one band of scratch before coating. This is the everyday band of metal surface preparation.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc dedicated, or swap grits before moving from a steel job to a stainless one, because embedded steel particles in the grain are the seed of oxide spots on the part later. The [stainless steel finishing notes](/en/applications/stainless-steel) walk through that material care in more detail.
-- **Aluminium and soft alloys** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than the finish forgives; start finer, keep the disc moving, and lean on the cut instead of pressure.
+- **Aluminium and soft alloy** 🟦 — P400 for the open on Metal Surface Preparation, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the disc keeps moving. It is the material that sets the rung.
 - **Castings and rough stock** 🧱 — P40 to P60 to open the face, then P80 to P120 in steps. A rough casting packs a fine grit, so the work moves coarse to fine rather than jumping straight to a finishing grit.
 - **Rework and blend in** 📏 — P150 to P240, with the disc moving so the ground area dissolves into the surrounding plate and there is no visible line where the work stops.
 
@@ -138,7 +138,7 @@ On lead time, two things set it. Stock grits and common diameters usually ship f
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most, with the move that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P400 on Metal Surface Preparation. Here is the short list of errors that surface most, and the move that fixes each one at the root: None of them needs a new disc; each needs the right one first.
 
 - **Skipping grits** ❌ — a P60 to P400 jump leaves P60 scratches under the finish. Add the P120 and P240 rungs and the surface clears; the cost is two grits, not a re coat.
 - **Loading and glazing** 🫧 — the face packs and stops cutting when the grain is as soft as the workpiece, or when pressure is held in one spot. Step the grit, move to a tougher grain on a packing material, and keep the disc moving instead of leaning in.
@@ -167,7 +167,7 @@ For any of these, the [flap disc range](/en/collections/flap-discs) shows the gr
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+Keep this Metal Surface Preparation checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P400 risk is cut by the right protection, not eliminated. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm the tool's maximum speed against the disc's printed maximum working speed before every use; where the maximum is not printed, confirm the rated speed against the model and keep the tool below it.
 - Check the arbor and the flange are the right size, and use a rated adapter where needed; fit the guard that matches the disc diameter and keep it on for every pass.

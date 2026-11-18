@@ -86,7 +86,7 @@ Two belt-specific failure modes to keep in mind with the dust: a belt that is lo
 
 Under cutting is the quiet complaint on a belt line, because the machine sounds fine and the belt looks fine, but the part is not going at the rate it should. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a belt makes it load and glaze, which is the opposite of cutting more. If the cut dropped when the operator leaned in, the fix is lighter pressure and a belt that is moving, not a coarser grit.
+- **Pressure, not grit.** Pushing on the belt sander packs the face and stops the Sanding Belts cut; the remedy is less pressure and a moving part, not a step up in grit. It reads as a disc fault but is a hand fault.
 - **Grain as soft as the material.** A grain that is not harder than the workpiece packs and stops cutting. Move to a tougher, semi open grain on a material that packs the face — the move most shops make on gummy woods — and the cut comes back.
 - **Line speed above the belt's rating.** A belt running past its rated speed runs hot and loads; drop the machine speed to under the rated number or move to a belt made for the higher speed class.
 - **Wrong backing for the load.** A light construction on a heavy job wears through faster than the grain wants to, so the belt looks spent when it is really just out of its class; the fix is the heavier construction for that pressure.
@@ -96,7 +96,7 @@ For each of these, [the abrasive belt range](/en/collections/abrasive-belts) sho
 
 ### Common mistakes and how to fix them ⚠️
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often, with the move that actually moves the problem:
+The Sanding Belts mistake costs more the longer it rides. What shows up most on the P150 line, and the correction that actually moves the cut: Fix the match and the list gets shorter on the next job.
 
 - **Skipping grits.** Going from P80 straight to P240 leaves P80 scratches under the finish; add the P120 and P150 steps and the surface clears.
 - **Running the belt too fast.** A belt past its rated line speed runs hot and loads; drop the machine speed or move to the belt made for the speed class, not to a coarser grit.
@@ -156,7 +156,7 @@ For the sizes we make against these machine classes, the [1520 × 630 mm abrasiv
 
 ### Before you buy ✅
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these machines is reduced but not zero.
+Before you buy Sanding Belts: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P150 risk, never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your machine's belt speed, read at no load, is at or below the belt's rated line speed before every use; where the model does not print the rating, confirm it against the model with the supplier.
 - Check the loop size is the one the machine is built for, and that the belt is tracking true before the work is loaded.
@@ -167,4 +167,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store belts on their roll, in a dry, moderate-temperature store, and keep the transport and the store away from heat and damp.
 - Confirm lead time, minimum order and packing for any bulk or [OEM order](/en/quote), and start with the [request a quotation](/en/quote) form.
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pick the grit, the grain and the loop size to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The three fields to start a Sanding Belts order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P150 downward, to the job instead of the nearest stock. No template is attached; the three fields travel in the message itself.

@@ -81,7 +81,7 @@ Material changes the starting grit even when the belt size is the same. The list
 - **MDF and engineered board** 📐 — P120 to P240. MDF loads a belt fast because it is soft and sugary, so a coarser grit with the belt moving across the surface beats a fine grit held in one spot.
 - **Mild steel** ⚙️ — P60 to P80 for stock removal, P120 to P240 for blending, P320 for cleanup before coating. This is the bread and butter band where most aluminum oxide abrasive belts spend their working life.
 - **Stainless steel** 🧊 — P180 to P320, with a dedicated or cleaned belt for the stainless pass. Embedded mild steel particles in the grain start rust spots on the stainless part later, so a shop running both materials keeps a belt for each.
-- **Aluminium and soft alloy** 🟦 — P240 to P400. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the belt moving.
+- **Aluminium and soft alloy** 🟦 — P320 for the open on Aluminum Oxide Abrasive Belts, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the hand sander keeps moving. The scratch depth is what the grit is managing.
 - **Castings and rough surfaces** 🧱 — P40 to P80 to open the face, then P120. A rough casting packs a fine grit, so you work coarse to fine in steps. If the casting keeps loading the belt, move to **zirconia alumina**, the tougher, more open grain that keeps cutting where standard aluminum oxide packs.
 
 The thread through the list: **match the grain to the material first, then set the grit to the cut.** Aluminum oxide is the default all-rounder on steel, hardwoods and most composites; the tougher, more open grain is the pick when the material packs the face and you need it to stay open; silicon carbide shows up on some non-ferrous and composite work where a softer, slicker surface is the target. For the grains we stock on each belt size, [the abrasive belt range](/en/collections/abrasive-belts) is where you confirm before you commit a grit, and the [metal fabrication abrasive use](/en/applications/metal-fabrication) notes cover the steel-side sequences in more detail.
@@ -119,7 +119,7 @@ When you move from buying a handful of belts to a bulk or private label order, t
 - **Backing** — cotton fabric for general work, fiberglass for the high-speed side, and the bond grade the job needs.
 - **Rated maximum line speed** — confirmed against the model, never assumed, because it has to come from the belt, not from a guess.
 - **Label and packing** — for a private label run, your logo, your part code and any spec sheet you want on the box; the [OEM & private-label service page](/en/oem) walks through what we can put on the packaging.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — how many Aluminum Oxide Abrasive Belts pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. The lot only gets built once the two agree with the job.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect. That sample step keeps a quality issue from hiding inside a larger order, and it is the habit a good distributor or OEM partner builds into their own process for you.
 
@@ -164,7 +164,7 @@ For any of these, [the abrasive belt range](/en/collections/abrasive-belts) is w
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Aluminum Oxide Abrasive Belts checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P320 risk is cut by the right protection, not eliminated. The list is short on purpose — five checks you can run in under a minute.
 
 - Confirm your machine's maximum line speed is below the belt's rated maximum line speed before every use; if the belt's rated speed is not printed on the belt, confirm the rated speed with sales and keep the machine below it.
 - Check the mandrel or arbor diameter and the belt width are the correct size for your machine, and that the belt wraps the mandrel at the length the machine's travel was designed for.
@@ -174,7 +174,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Check the maker's inspection report or quality note for the belt model you are ordering, and confirm the backing and bond grade match the job.
 - Store belts flat, away from heat and moisture, and transport them in a way that does not crease the backing; a creased backing is a weak point that shows up at the mandrel.
 - Follow the maker's install notes for the specific belt model, and re-check the belt, the guard and the mandrel each shift.
-- Keep a record of the PPE and the controls you rely on; the U.S. requirements are a useful baseline at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and a practical reading of portable abrasive tools is at [OSHA 29 CFR 1910.244](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.244).
+- Keep a record of the PPE and controls the Aluminum Oxide Abrasive Belts job relies on; the baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), with setup guidance at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). Write it where the next person actually looks.
 - Confirm lead time, minimum order and packing for any [OEM & private-label order](/en/oem) or bulk order, and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pick the grit band, the belt size and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The Aluminum Oxide Abrasive Belts enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P320 — is worked out with you, not copied from a shelf list. Those three are the fields a buyer should never have to chase a second time.

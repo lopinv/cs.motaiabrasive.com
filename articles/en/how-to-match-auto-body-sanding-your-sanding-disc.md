@@ -137,7 +137,7 @@ For a private-label or bulk run, the [OEM & private-label service page](/en/oem)
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on a panel, with the fix that actually moves the problem:
+The Auto Body Sanding mistake costs more the longer it rides. What shows up most on the P220 line, and the correction that actually moves the cut: None of them needs a new disc; each needs the right one first.
 
 - **Skipping grits** — going from P80 straight to P220 leaves P80 scratches under the topcoat. Add the P120 and P180 steps and the panel clears.
 - **Pressing into the panel** — pressing into a disc packs the grit and glazes it, which is the opposite of cutting more. Lighter pressure and a moving pad bring the cut back.
@@ -166,7 +166,7 @@ For any of these, [the sanding disc range](/en/collections/sanding-discs) shows 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Before you buy Auto Body Sanding: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P220 risk, never to zero. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your tool's maximum speed is below the disc's rated speed, and keep the tool under that limit on every panel.
 - Check the pad size and the disc backing match: a hook-and-loop disc needs a matching pad, and a mesh disc needs the pad that fits the weave.
@@ -177,4 +177,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the install notes for the pad and the tool, and check the panel for heat and scratch depth on thin metal before the next grit.
 - For a bulk or private-label run, confirm the minimum order quantity and the lead time on the [OEM & private-label service page](/en/oem), and start with the [request a quotation](/en/quote) form.
 
-If you tell us the material on the panel, the finish you are aiming for, and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/en/quote) page.
+The three fields to start a Auto Body Sanding order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P220 downward, to the job instead of the nearest stock. The fields are short on purpose — the sequence is where the length goes.

@@ -20,7 +20,7 @@ The rule that decides most jobs with 115mm flap discs: **match the backing to ho
 
 A grit 400 disc does a different job on each of those backings: on plastic it is the quiet final cleanup pass, on steel it is a firmer cut for a surface that still wants to lose material. Two scenarios where the rule bends: thin sheet, where even a moderate grit with pressure builds heat that warps the part, and very soft materials, where a coarse grit scratches deeper than you want. For everything else, pick the backing by job, then confirm the arbor hole and the tool's no-load speed before the disc ever touches steel.
 
-Two habits turn this from guesswork into a repeatable spec. Always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the arbor hole before the disc goes on the machine. The full range of shapes and backings we supply is visible in [the flap disc range](/collections/flap-discs), and the [abrasives glossary](/glossary) keeps the label terms straight whenever one of them is unfamiliar.
+Make the 115mm Flap Discs spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P240 band against the tool you actually run (angle grinder) before the first cut. The rest of this page is why those two moves earn their keep. One minute of habit, saved in every pass after the first.
 
 ### How a 115 mm flap disc actually works
 
@@ -49,7 +49,7 @@ Material shifts the starting grit even when the tool stays the same. The lists b
 
 - **Mild steel** ⚙️ — P60 to P80 to remove, P100 to P120 to even out, P240 to blend. This is where most of the 115 mm range spends its life.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc dedicated to stainless, or change grits before you move from a steel job, because embedded steel particles are the seed of rust spots on the stainless part later. The [stainless steel finishing notes](/applications/stainless-steel) cover the material care side in more detail.
-- **Aluminium and soft alloys** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — P240 to prepare and a finer rung to finish 115mm Flap Discs; the alloy scratches deeper than steel, so start finer and keep the angle grinder moving. The alloy is the reason the starting grit is lower.
 - **Castings and rough surfaces** 🧱 — P40 to P60 to open the face, then P80 to P120 in steps. A rough casting packs a fine grit fast, so you work coarse to fine rather than jumping straight to a finishing disc.
 
 The sequences match what the [metal fabrication abrasive use](/applications/metal-fabrication) notes walk through by material.
@@ -90,7 +90,7 @@ When you move from buying a handful of discs to a bulk or private-label run, the
 - **Diameter and arbor** — the disc diameter and the centre hole, matched to the tool and flange you run.
 - **Maximum working speed** — confirmed against the model, not assumed, because it has to come from the disc's label.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a branded run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of 115mm Flap Discs needed and the date it is needed by; together they decide stock versus make-to-run. They are the last two fields to be filled on a clean enquiry.
 
 The [OEM & private-label service page](/oem) walks through what we can put on the packaging and how minimum order quantities work, and the [request a quotation](/quote) page is where to start the order. For a new branded run, ask for a sample against the spec before the full order, so the grit, the backing and the label all match what you expect.
 
@@ -160,17 +160,17 @@ The maximum working speed is confirmed against the model before an order ships, 
 
 Under-cutting is the quiet complaint: the disc looks fine, the machine sounds fine, but the part is not going. The causes are usually one of these five, and each has a different fix:
 
-- **Pressure, not grit.** Pressing into a disc makes it load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving disc, not a coarser grit.
+- **Pressure, not grit.** Pushing on the angle grinder packs the face and stops the 115mm Flap Discs cut; the remedy is less pressure and a moving part, not a step up in grit. That is the whole of the pressure rule.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to the tougher, fracturing grain on a material that packs the default.
 - **Wrong backing for the speed.** A disc running hot and flexing is a plastic backing on a job that needs fiberglass or steel; the backing limits the cut before the grit does.
 - **Tool speed too low.** A flap disc wants to spin. Below the speed it was designed for, it cuts soft and slow; check the no-load speed and keep the disc in the range it was made for.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the disc to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** The fine grit asks the 115mm Flap Discs part to be polished where it should be cut; one grit lower and it is removing again. One rung is the whole fix.
 
 For each of these, the [flap disc range](/collections/flap-discs) shows the grit and backing to reach for, and the [metal fabrication abrasive use](/applications/metal-fabrication) notes give the sequence by material. The thread that runs through all five is that under-cutting is almost always a match problem, not a bad disc; fix the grit, grain, backing or speed and the cut returns.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on the 115 mm bench, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on 115mm Flap Discs. These are the errors that surface most at P240, and the move that actually changes the result: Each item names the check that catches it before the surface is gone.
 
 - **Grit-sequence skips** — going from P60 straight to P400 leaves coarse scratches under the finish; add the P120 and P240 steps and the surface clears.
 - **Forced arbors** — a disc that does not sit fully on the flange walks at speed. Buy the right hole or a rated adapter, and do not file the hole larger.
@@ -201,7 +201,7 @@ For any of these, the [flap disc range](/collections/flap-discs) and the [metal 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not eliminated.
+The 115mm Flap Discs checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P240 work goes down but never to zero. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm your tool's no-load speed stays under the disc's printed maximum working speed before every use, and re-check when a new grinder lands on the bench.
 - Check the arbor hole and the flange are the correct size for the tool, and use a rated adapter where the sizes differ — do not file the hole larger.

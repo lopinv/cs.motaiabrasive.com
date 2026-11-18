@@ -175,7 +175,7 @@ The one that runs through all of them: the job name tells you the grit band, and
 
 ### Common mistakes and the fixes that actually move the problem
 
-The fixes are usually cheaper than the mistake. Here is what shows up most on the floor, with the fix that actually moves the problem:
+The Hook and Loop Sanding Discs mistake costs more the longer it rides. What shows up most on the P600 line, and the correction that actually moves the cut: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Over-pressing a fine grit** 🚫 — pressing into a P400 or P600 disc makes it glaze, which is the opposite of cutting more. Lighter pressure and a moving pad, not a coarser grit, is the fix.
 - **Skipping grits** ⏭️ — P80 straight to P400 leaves P80 scratches under the finish; add the P120 and P240 steps and the surface clears.
@@ -207,15 +207,15 @@ For any of these, the [sandpaper grit standards page](https://en.wikipedia.org/w
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Before you buy Hook and Loop Sanding Discs: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P600 risk, never to zero. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm your tool's maximum speed is below the disc's printed rated maximum working speed before every use; when in doubt, confirm the rated speed against your specific model with sales.
 - Check the pad diameter and the disc diameter match, and that the pad's loop side is clean and in shape, or the disc will edge-peel.
-- Wear eye and face protection on every pass, and use dust extraction and the right respiratory protection for the dust load, especially on the fine grits.
+- Every Hook and Loop Sanding Discs pass carries eye and face protection, the extraction filter is chosen for the material, and the respirator is sized to the load that stays at the face. That is the three that stay on for the whole run.
 - Confirm the grit standard (FEPA or ISO 848) in every order, so the P600 you order is the P600 you get.
 - Ask for the inspection report or certificate for a bulk or branded run, and check the storage and transport notes so the discs are not damp or crushed on arrival.
 - Follow the disc maker's install notes, and check the part for heat and scratch depth on thin or soft material.
-- Keep a record of the PPE and controls you rely on; the U.S. baseline is [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and setup guidance is at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a line in the job record for the PPE and Hook and Loop Sanding Discs controls; the U.S. requirement is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup reading at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). Write it where the next person actually looks.
 - Confirm lead time, minimum order and packing for any [sanding discs wholesale](/en/collections/sanding-discs) or [private-label order](/en/oem), and start with the [quotation form](/en/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the hook and loop sanding discs sequence with you on the [request a quotation](/en/quote) page, and the [automotive repair sanding use](/en/applications/automotive) notes are where a body-work sequence is worked out in full.
+The three fields to start a Hook and Loop Sanding Discs order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P600 downward, to the job instead of the nearest stock. Send all three at once and the quote comes back as a finished plan.

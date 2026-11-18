@@ -16,7 +16,7 @@ Here is the rule that decides nearly every wide abrasive belts order: **match th
 
 Two scenarios where that rule bends: very soft, sugary materials that load a fine grit fast, where a coarser grit and a moving belt do the job better than a fine belt held in one place; and thin panels where a coarse grit and heavy pressure build the heat that warps the part. If your job is everyday furniture, doors, flooring or shop casework, start in the 80 to 150 grit band, step down one grit at a time, and let the final pass sit in the 320 to 400 range before anything finer is added.
 
-Two habits turn this from guesswork into a repeatable spec. One: name the grit standard you are buying to, FEPA or ISO 848, in every enquiry, so a number on the label means the same cut at your shop and at the factory. Two: when you spec wide abrasive belts, confirm the loop length and the width against your machine before anything ships, because the machine, not the stock shelf, is what the belt has to match. The sizes we stock are at [the abrasive belt range](/en/collections/abrasive-belts), and any label term that is unfamiliar is defined at [the abrasives glossary](/en/glossary).
+Make the Wide Abrasive Belts spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P150 band against the tool you actually run (belt sander) before the first cut. The rest of this page is why those two moves earn their keep. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### How wide abrasive belts actually cut
 
@@ -145,7 +145,7 @@ Moving from a stock loop to an OEM or private-label run is a move from grit to s
 - **Backing** — the polyester backing cloth the loop is built on, and the width that sits on the platen with both edges clear.
 - **Rated speed** — confirmed against the model and the machine, never assumed, because the number has to come from the belt.
 - **Label and packing** — the logo, the part code and the spec sheet the box carries, on a private-label run.
-- **Quantity and lead time** — the order quantity and when the loop has to be on the shelf, which decides whether it ships from stock or gets cut for the run.
+- **Quantity and lead time** — the Wide Abrasive Belts order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. Say the two out loud and the make-to-run question answers itself.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/en/quote) page is where it starts, and the habit that keeps the run clean is the sample: ask for a loop cut to the spec, run it on the machine, and only then commit the full run, so the grain, the joint and the label all match what the surface is asking for. The minimum order and the lead time for a branded run are confirmed against the order, and the [request a quotation](/en/quote) form is where that confirmation happens.
 
@@ -153,7 +153,7 @@ Send those six fields and the order is a conversation instead of a gamble. The [
 
 Under cutting is the quiet complaint, because the belt looks right, the machine sounds right, and the panel is not moving. The causes are one of five, and each has its own fix:
 
-- **Pressure, not grit.** Pressing into a belt makes it load, and the face packs instead of cutting. If the cut dropped when the operator leaned in, the fix is lighter pressure and a moving belt, not a coarser grit. The pressure is the symptom, and the grain is what stopped.
+- **Pressure, not grit.** More pressure is not more cut: it loads and glazes the face. When the Wide Abrasive Belts cut fell at P150, the answer is a lighter hand, not a heavier grit. The move, not the grit, is the correction.
 - **The grain is as soft as the workpiece.** A grain that the material can pack stops doing the cutting, and the face glazes to a dull shine. The fix is a grain that will not load on that material, and the grain change is the one that moves the cut back.
 - **The bond is holding the grain too long.** On a fine pass, a resin bond that is too strong keeps the deep scratches under the face, and the surface shows them. The fix is a grade that drops the grain sooner, and the grit is not the one that is wrong.
 - **The joint is re-scratching the face.** A lap joint on the final grit puts a step into the cut every revolution, and the face carries a faint line. The fix is the loop on that step, and the grit is not the one that is at fault.
@@ -191,4 +191,4 @@ A short compliance and purchasing checklist, as a reminder and not a substitute 
 - Follow the maker's install notes for tension and tracking, and set both at speed, not at rest.
 - Keep the PPE and the controls on record; the U.S. baseline is at [OSHA 29 CFR 1910.132 — PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132), and the machine set-up side is at [CCOHS "Abrasive Wheels" occupational health answers](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pick the grit, the joint and the loop to start from, and the [request a quotation](/en/quote) page is where that conversation starts. Send the three, and the sequence is worked with you against [the abrasive belt range](/en/collections/abrasive-belts).
+If you name the material, the finish line and the tool, the Wide Abrasive Belts grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P150 rather than the stock that happens to be on the shelf. The more of the three you name, the less the supplier has to guess.

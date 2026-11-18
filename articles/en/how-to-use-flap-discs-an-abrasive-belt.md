@@ -47,7 +47,7 @@ The material list that carries most enquiries:
 
 - **Mild steel** ⚙️ — P80 to P120 to remove, P240 to P400 to blend. The everyday range where most flap discs spend their working life.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the disc dedicated or swap grits between steel and stainless jobs.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer metal, so a coarse grit scratches deeper than you want; start finer and keep the disc moving.
+- **Aluminium and soft alloy** 🟦 — P120 for the open on Flap Discs, the fine rung for the close; the alloy marks deeper than steel, so the starting grit is finer and the belt sander keeps moving. It is the material that sets the rung.
 - **Castings and rough surfaces** 🧱 — P60 to P80 to open the face, then P120. A rough face packs a fine grit, so work coarse to fine in steps.
 
 Grain follows material: aluminium oxide is the default on steel and stainless, zirconia alumina is the pick where the face packs and the job is rough, and silicon carbide is the one for non ferrous metal where the surface is soft and slick. The sequences by material are in the [metal fabrication abrasive use](/applications/metal-fabrication) notes, and the grit and backing for each band is on [the flap disc range](/collections/flap-discs).
@@ -122,7 +122,7 @@ When you move from buying a handful of discs to a bulk or private label order, t
 - **Diameter and arbor** — the disc diameter and the centre hole, matched to the tool and flange you run.
 - **Maximum working speed** — confirmed against the model, and not assumed, because it has to come from the disc.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — for Flap Discs, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. Say the two out loud and the make-to-run question answers itself.
 
 Send those six and the order is a conversation instead of a gamble. Where you are new to a branded run, ask for a sample against the spec before the full order, so the grit, the backing and the label all match what you expect on the shelf. The [OEM & private-label service page](/oem) covers what goes on the box, and the batch documentation — the certification and the inspection report behind the run — is what you should confirm against before it ships; the standard practice and what is checked here is on the [manufacturing & quality page](/factory).
 
@@ -160,7 +160,7 @@ For each of these, the grit and backing to reach for is on [the flap disc range]
 
 ### Before you buy ✅
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+Keep this Flap Discs checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P120 risk is cut by the right protection, not eliminated. Run the list once before the first order, then once per repeat run.
 
 - 🛠️ Confirm your tool's maximum speed sits below the disc's printed maximum working speed before every use; where the two do not line up, drop the tool speed or the disc diameter.
 - 🧩 Check the arbor hole and the flange are the correct size, use a rated adapter where needed, and keep the guard fitted and the right size for the disc on every pass.
@@ -172,4 +172,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - 🧯 Follow the install notes on the disc and the tool: guard size, flange and rotation direction all matter on the first fit.
 - Confirm lead time, minimum order quantity and packing for any bulk or branded run, and start on the [request a quotation](/quote) page.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Flap Discs. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P120. The more of the three you name, the less the supplier has to guess.

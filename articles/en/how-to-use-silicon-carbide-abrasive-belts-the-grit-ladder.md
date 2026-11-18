@@ -16,7 +16,7 @@ The decision rule for silicon carbide abrasive belts is short: **pick the grit b
 
 Two scenarios where this rule bends. The first is heavy stock removal on steel: silicon carbide tends to load and glaze on ferrous work, and an aluminium oxide or zirconia alumina belt is usually the better first choice there. The second is very soft materials — soft plastics, some soft wood, some composites — where even a coarse SiC belt can dig deeper than you want and lay down a rough scratch. When you are in neither of those corners, and most silicon carbide abrasive belt work sits here, the ladder runs P40 up to P1800 and the whole job is to walk it one step at a time. Start at the grit that removes what you need to remove, step one grit finer at each pass, keep the tool at or below the belt's rated speed, and the surface finishes itself.
 
-Two habits turn that into a repeatable spec instead of guesswork. State the grit standard you are buying to (FEPA or ISO 848) in every enquiry, and read the whole belt label — the size, the backing, the bond, and the maximum line speed — before it goes on the machine. If you are new to this range, browse [the abrasive belt range](/collections/abrasive-belts) first and note which grits and backings are in stock against your size before you write the order.
+Two habits make the Silicon Carbide Abrasive Belts spec repeatable: state the grit standard you are buying to (FEPA or ISO 848), and check the backing, the P40 band and the belt sander before the first pass. Everything below is the reasoning behind those two moves. Both habits cost a minute and buy back the whole pass.
 
 ### What makes silicon carbide a different grain
 
@@ -165,7 +165,7 @@ The thread through all six is that the belt is as good as the match it was built
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced, not zero.
+Before you buy Silicon Carbide Abrasive Belts: a compact checklist of the compliance and ordering points. Treat it as a reminder, not a stand-in for your own site rules — the right protection reduces the P40 risk, never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's maximum no-load speed is at or below the belt's printed rated maximum working speed before the belt goes on; where a speed is not printed, confirm the rated speed against the model and keep the tool below it.
 - Check the belt size, the wheel size and the guard are sized to one another, and the guard that is fitted for the belt size stays on every time.
@@ -176,4 +176,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the belt maker's install notes for the machine, and the splice that is walked flat is the one that does not mark the work.
 - Confirm lead time, minimum order and packing for any bulk or [OEM private-label order](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can pre-select the grain, the grit and the backing to start from, and work the ladder with you on the [request a quotation](/quote) page.
+The three fields to start a Silicon Carbide Abrasive Belts order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P40 downward, to the job instead of the nearest stock. No template is attached; the three fields travel in the message itself.

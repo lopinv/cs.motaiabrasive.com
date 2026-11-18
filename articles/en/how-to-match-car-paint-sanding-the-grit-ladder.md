@@ -14,7 +14,7 @@ image: psa-4
 
 Here is the rule that governs nearly all of car paint sanding: **start one grit coarser than the deepest mark already on the surface, and work down the ladder one step at a time.** That one rule covers leveling filler on a door, cutting back a flat spot on clear coat, or removing swirls ahead of a final polish. For a typical primed or filled panel it puts you in the P80 to P150 band for material removal, then P240 before topcoat, then P600 and P800 wet on the finished coat, then P1500 and finer for the last defect work. The one number that governs the whole job is the scratch pattern: every grit leaves a pattern of micro scratches, and the next grit you run has to be fine enough to close the last one. Miss that, and the coarser scratches survive under the next coat and show up as dull patches, ripples, or a crazed look once the clear coat dries. Two scenarios where the rule bends: a heavy strip to bare metal, where the pattern is already broken and you open the surface on P80 or coarser, and the final stage on a deep gloss, where you drop into P1500 to P3000 on a water film, which is a polishing-grade cut, not a filler-grade cut. Everything else is the same ladder with the same step discipline. If a label term is unfamiliar, keep [the abrasives glossary](/glossary) open while you read, and see the full set of sizes and grits we ship at [the sanding disc range](/collections/sanding-discs).
 
-Two habits turn the ladder from a diagram into a spec you can send to a supplier: state the grit standard you are buying to (FEPA or ISO 848, so a P240 from two suppliers means the same cut), and pick the disc type by the tool you are actually holding — a loop-backed disc for a random orbital, a mesh disc for spot work. The sections below are the reasoning behind the rule: how the disc is built, the ladder step by step, the backing choice, the cost math, and the dust and speed side that protects the operator. The 150 step is the one most panel sanding plans pivot on, so it is worth treating it on its own later.
+The calls get sharper when two habits are kept: the grit is always named on the standard you are buying to, and the tool check — P600, backing, speed margin — happens before the first pass, not after the surface has moved. One minute of habit, saved in every pass after the first.
 
 ### What a car panel sanding disc is built from
 
@@ -121,14 +121,14 @@ When a shop moves from buying grits job by job to a standing order, or to a bran
 - **Size and backing** 📐 — 3, 4, 5 or 6 inch, and the backing per step of the ladder: loop for the orbital rail, mesh for the spot and fine rail, solid for the flat zones.
 - **The standard, named** 🏷️ — FEPA or ISO 848, on every line of the order, so two suppliers do not quietly ship two different cuts.
 - **Label and packing** 📦 — your logo, your part codes and the spec sheet on the box, for a private-label run; the details of what can go where are at [the OEM & private-label service page](/oem).
-- **Quantity and lead time** 📅 — the order quantity per grit and how fast it has to be on the shelf, which sets whether it ships from stock or gets made into the run.
+- **Quantity and lead time** — how many Car Paint Sanding pieces, and how fast the order needs to be on the shelf; that call decides stock ship or made-to-run. They are the last two fields to be filled on a clean enquiry.
 - **Certifications and inspection** ✅ — which reports you want against the lot, and the minimum order that comes with a branded run; confirm both with sales before the order is cut.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) form is where to start, and for a first branded run, ask for a sample against the spec so the grit, the backing and the label all match what the shop expects before the full order is made.
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often on a car panel, with the move that actually moves the problem:
+Cheap to fix, expensive to leave: that is the rule at P600 on Car Paint Sanding. Here is the short list of errors that surface most, and the move that fixes each one at the root: None of them needs a new disc; each needs the right one first.
 
 - **Skipping two grits at once.** P80 straight to P600 leaves the P80 pattern under everything you put on the panel after; add the middle steps — P150, P240, the wet ladder — and the surface clears instead of just looking sanded.
 - **Holding the disc in one spot.** A divot is a disc that stopped moving; the orbital does the work when it is moving, and a spot that is lower than the rest of the panel is a disc that was held, not a grit that was wrong.
@@ -158,12 +158,12 @@ The thread through all seven is the same one the ladder is built on: the surface
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for your own shop rules, and under compliant use with the right PPE the risk of these tools is reduced, not zero.
+Keep this Car Paint Sanding checklist to two uses: a compliance reminder and a purchasing check. It does not replace your own site rules, and the P600 risk is cut by the right protection, not eliminated. If one item fails, the answer is a re-order on the corrected spec, not a compromise.
 
 - Confirm the sander's rated speed against the model and keep the tool at or below it; do not run a disc past the tool limit, and confirm any disc-specific speed with sales before the job.
 - Check the fit: the disc size to the pad or the mandrel, and the backing to the tool — loop, mesh or solid, not a mismatched backing that does not seat.
 - Keep the tool guard on where the tool carries one, and start each grit step with a clean, dry face on the disc.
-- Wear eye and face protection on every pass, and on dry sanding run a respirator matched to the dust and a dust extractor at the work; the U.S. baseline is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup guidance is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Wear eye and face protection on every pass of the Car Paint Sanding work, run the extraction with the right filter, and add the respiratory protection where the dust load sits at the face. It is the step the next trade takes over from.
 - Name the grit standard (FEPA or ISO 848) in every order so two suppliers do not quietly ship two different cuts, and check the grit, the size and the backing against the ladder step you are actually running.
 - Ask the supplier for the inspection report against the lot, and confirm which certifications the lot carries before you commit a run; the details are at [the manufacturing & quality page](/factory).
 - Store the discs dry, out of direct sun and away from heat — the loop and mesh backings fail early in a hot, damp store — and transport them flat, not folded.

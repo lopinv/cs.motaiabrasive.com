@@ -53,7 +53,7 @@ A coated disc's label is the spec sheet you are buying, and most of the mismatch
 - **Maximum working speed** — the ceiling for the disc. It is not a target to run at; it is the number the tool has to stay under, and it is confirmed against the model you order.
 - **Format** — PSA, hook-and-loop, mesh or non-hole, and it is the match to the tool head, not to the catalogue.
 
-Two habits from the shop floor. One: read the whole label before the disc goes on the machine, because the speed and the fit are the two fields that protect the operator. Two: keep one grit scale across the shelf, so a repack of P240 behaves like the last P240 you used. If a label you are comparing against does not name its scale, ask the supplier; that is the question that keeps a mixed-scale order from quietly shipping two different cuts. For the terms on the label, bond, duty and grit, the [abrasives glossary](/glossary) is the reference to keep open.
+What keeps the Sandpaper Wholesale sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P400 band, the backing and the machine are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Neither habit is exotic; both are checked off on the job sheet.
 
 ### Disc formats: PSA, hook-and-loop, mesh, non-hole
 
@@ -159,7 +159,7 @@ The shape of a wholesale programme is the same one that keeps the spec honest:
 - **One grit scale** across the programme, FEPA or ISO 848, so every repack matches the last.
 - **A fixed sequence** per job, so the shelf holds the grits the sequence needs and nothing else.
 - **Formats matched to the tooling** in the shop, not the tooling the catalogue shows.
-- **Quantity and lead time** set by the run: stocked grits and common formats ship from stock, an off-grid grit or a private label run takes longer because the grain, the bond and the label all have to line up.
+- **Quantity and lead time** — for Sandpaper Wholesale, the quantity sets the lot and the deadline sets the route: from the shelf, or made to the run. Get the two right and the rest of the order is mechanical.
 
 On a panel programme, the 1200 to 2000 blocking band is the grit where the surface either looks flat or looks hazy, and it is the one worth managing as a standing line item rather than a spot buy, because the quality of that pass shows on every panel. For an OEM or private label run, add time for the label, the packing and any spec sheet on the box, and ask for a sample against the spec before the full order so the grit, the grain and the label all match what you expect. The [OEM & private label service page](/oem) is where that conversation starts, and the [request a quotation](/quote) page is where a regular order is confirmed, including the fields that make a wholesale order a spec instead of a gamble:
 
@@ -185,7 +185,7 @@ For a private label run, add the label, the packing and the spec sheet you want 
 
 ### Common mistakes, and the fix that moves the problem
 
-The fixes are usually cheaper than the mistakes. What we see most often, in the order we see them:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Sandpaper Wholesale line at P400, and the correction that moves the surface for each: In each case the surface gives the tell before the cost does.
 
 - **Skipping grits** 📉 — going P120 to P800 leaves the P120 scratch under the coat; add the P320 to P400 step and the surface clears. This is the one that shows through the most, because the scratch is finer than the removal grit and coarser than the finish grit, so it is the one the eye catches.
 - **A coarser grit than the panel can take** 🚗 — a P80 on a thin aluminium panel digs in and leaves a mark the next coat cannot fully hide; drop to P150 and add a pass instead.
@@ -216,7 +216,7 @@ For any of these, the [automotive repair sanding use](/applications/automotive) 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+A purchasing and compliance checklist for Sandpaper Wholesale, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P400 pass is reduced, not removed. Run the list once before the first order, then once per repeat run.
 
 - 🔢 Confirm the tool's no-load speed is at or below the disc's rated maximum working speed before the first pass, and confirm the rated speed against the model you are ordering, not against a similar one on the shelf.
 - ⚙️ Check the tool head and disc format match: hook-and-loop on a loop patch, PSA on a clean head, mesh or non-hole on the head it is cut for. A disc that does not sit fully on the head is the failure mode that starts at the bench.
@@ -228,4 +228,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - 🔩 Follow the install notes on the format you buy, and check the patch or the head wear before a long run, because a worn patch is the quiet way a disc rides loose at speed.
 - 💧 If the sequence uses a water step, confirm the water-graded stock for that step and keep it off the dry-grit shelf, so the water-graded disc and the dry disc do not get mixed on repack.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit, the grain and the format to start from. Send the three, name the grit standard you buy to, and we will work the sequence and the spec with you on the [request a quotation](/quote) page.
+Send us the material, the finish you are aiming for and the tool you run, and we will work out the grit and backing to start from for Sandpaper Wholesale. The three fields get answered on the [request a quotation](/quote) page, and the sequence is built around P400. That is the whole exchange; the grit choice is the one that takes the work.

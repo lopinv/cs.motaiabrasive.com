@@ -14,7 +14,7 @@ image: mesh-5
 
 Here is the rule that governs nearly every sanding pads decision: **match the grit to how much material you are removing, and match the pad type to what the machine does to it.** An orbital sander with a hook-and-loop pad removes stock fast and leaves a controlled cross-hatch, so P80 to P120 covers most stock removal, and P180 to P320 covers most blending and prep. A mesh, perforated or solid pad on a die-grinder style spigot wants a lighter cut and a finer step, because the smaller pad footprint puts more pressure on the grain. Two scenarios where the rule bends: very soft woods and soft plastics where even a coarse grit digs deep scratches that the next coat has to fight, and thin sheet work where heat build-up from a coarse grit, held in one spot, can warp the part. If your job is everyday wood, fill or light metal prep, start in the P80 to P120 band and confirm the pad fits your machine's backing plate before you cut into stock. For the full set of formats we supply, see [the sanding disc range](/collections/sanding-discs), which lists the PSA, mesh and non-hole discs, and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits turn this from guesswork into a repeatable spec: always state the grit standard you are buying to (FEPA or ISO 848), and always confirm the pad's backing, diameter and arbor against the machine before the first pass. Everything below is the reasoning behind those two moves.
+Make the Sanding Pads spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P80 band against the tool you actually run  before the first cut. The rest of this page is why those two moves earn their keep. The two habits are the difference between a spec and a guess.
 
 ### How sanding pads actually work
 
@@ -82,11 +82,11 @@ The working speed is the number that really protects the operator on a pad. Ever
 
 A pad that suddenly cuts less, or cuts with a different texture than before, is usually one of a handful of things, and each has a different fix. The five below cover most of the shop floor:
 
-- **Pressure, not grit.** Pressing into a pad makes it load and glaze, which is the opposite of cutting more. If the cut dropped the moment you leaned in, the fix is lighter pressure and a moving pad, not a coarser grit.
+- **Pressure, not grit.** More pressure is not more cut: it loads and glazes the face. When the Sanding Pads cut fell at P80, the answer is a lighter hand, not a heavier grit. Keep the face moving and the cut stays open.
 - **Grain too soft for the material.** A grain that is as soft as the workpiece packs and stops. Move to a tougher grain, like silicon carbide on soft slick materials that load aluminium oxide.
 - **Wrong pad type for the tool.** A hook-and-loop pad on a high-speed spigot, or a solid pad where the tool wants a vented one, puts the backing against the job before the grit does; the backing limits the cut before the grit does.
 - **Tool speed too low.** A pad wants to move. Below the speed it was made for it cuts soft and slow; check the no-load speed and keep the pad in the band it was designed for.
-- **Grit too fine for the job.** A fine grit on a coarse task asks the pad to polish instead of remove. Step down a grit and the cut comes back.
+- **Grit too fine for the job.** The fine grit asks the Sanding Pads part to be polished where it should be cut; one grit lower and it is removing again. A coarser task wants a coarser grit.
 
 For each of these, [the sanding disc range](/collections/sanding-discs) shows the grit and backing to reach for, the [woodworking sanding use](/applications/woodworking) notes give the sequence by wood, and the [automotive repair sanding use](/applications/automotive) notes cover the fill-and-primer side. The thread running through all five is that under-cutting is almost always a match problem, not a bad pad; fix the grit, the grain, the pad type or the speed, and the cut returns.
 
@@ -125,7 +125,7 @@ Pad life is where the three backings pull apart most. A hook-and-loop pad on an 
 
 ### Common mistakes and how to fix them 🛠️
 
-The fixes are usually cheaper than the mistake. Here is what shows up most often, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Sanding Pads. These are the errors that surface most at P80, and the move that actually changes the result: The common thread: the error shows up in the cut long before it shows up in the invoice.
 
 - **Skipping grits.** Going from P80 straight to P320 leaves P80 scratches under the finish; add the P120 and P180 steps and the surface clears.
 - **Pressing into the pad.** Pressing makes the grain load and glaze, which is the opposite of cutting more. If the cut dropped when you leaned in, the fix is lighter pressure and a moving pad, not a coarser grit.
@@ -144,7 +144,7 @@ When you move from buying a handful of sanding pads to a bulk or private-label r
 - **Pad type and diameter** — hook-and-loop, perforated or holeless, and the 3, 4, 5 or 6 inch size the machine wants, because the backing has to match the machine, not just the grit.
 - **Backing and fit** — the backing material and the arbor or spigot fit, confirmed against the machine before the first order.
 - **Label and packing** — your logo, your part code and any spec sheet you want on the box for a private-label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the Sanding Pads order size plus the shelf date, which fixes whether the lot ships from stock or is built for the run. The lot only gets built once the two agree with the job.
 
 Send those five fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the pad type and the label all match what you expect.
 
@@ -166,7 +166,7 @@ Send those five fields and the order is a conversation instead of a gamble. The 
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+The Sanding Pads checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P80 work goes down but never to zero. Every item is phrased so the buyer, not the supplier, is the one doing the checking.
 
 - Confirm the machine's rated speed is below the pad's rated speed before every use; if the number is not printed, confirm it with sales against the specific pad and keep the tool below it.
 - Check the backing, arbor or spigot fit and the pad diameter match the machine, and use the right backing for the pad type — a hook-and-loop pad wants a matching PSA disc, a perforated pad wants a matching spigot.
@@ -177,4 +177,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Keep the pads stored dry and away from heat, and note how they travel — a soft grain in a hot, damp store loses life before it ever reaches the machine.
 - Confirm lead time, minimum order and packing for any bulk or [private-label order](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the machine you run, we can help you pick the grit and the pad type to start from. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Sanding Pads grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P80 rather than the stock that happens to be on the shelf. Those three are the fields a buyer should never have to chase a second time.

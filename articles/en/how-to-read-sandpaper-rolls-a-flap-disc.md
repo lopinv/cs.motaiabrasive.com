@@ -16,7 +16,7 @@ The rule that governs nearly every label you will read on a roll, a sheet or a f
 
 On a flap disc the same grit numbers run coarser in practice, because the flaps keep rolling back and exposing fresh grit, so the mid band on a roll is roughly the coarse band on the disc. Two scenarios where the rule bends. Very soft materials, like MDF or aluminium, take deep scratches from a grit that is fine on steel, so you start finer and keep the abrasive moving. And thin sheet builds heat fast on any coarse grit, so a coarser grit warps the part before it cleans it. If your job is everyday sanding, blending and light finishing, start in the P120 to P220 band, confirm the backing suits the tool, and check that the disc or roll actually fits the machine before it touches stock.
 
-Two habits turn this from guesswork into a repeatable spec. Name the grit scale in every enquiry, and confirm the backing and the rated speed before the abrasive goes on the machine. The [sanding disc range](/collections/sanding-discs) shows what a roll gets cut into on the finished-product side, and [the abrasives glossary](/glossary) keeps the label terms straight when you and a supplier talk past each other. Everything below is the reasoning behind those two moves, and it applies to rolls, discs and flap discs because the label logic is the same family.
+Make the Sandpaper Rolls spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run (disc sander) before the first cut. The rest of this page is why those two moves earn their keep. Neither habit is exotic; both are checked off on the job sheet.
 
 ### How a roll of sandpaper is built
 
@@ -87,7 +87,7 @@ Material changes the starting grit even when the tool stays the same, and the fi
 - **Automotive bodywork** 🚗 — P80 to P120 under primer, 180 to 240 to wet-sand filler, P600 to P1500 to take the scratches out of a clear coat, P3000 and finer to polish. This is the sequence the [automotive repair sanding use](/applications/automotive) notes walk through, and it is the one where skipping a grit shows up the fastest, because every coarse scratch left in the filler prints itself through the next coat.
 - **Mild steel** ⚙️ — P60 to P120 to remove, P120 to P240 to blend, P320 to P400 to clean before coating. This is the bread and butter band, and it is the place most abrasive stock spends its life; the [metal fabrication abrasive use](/applications/metal-fabrication) notes carry the sequences by joint and by thickness.
 - **Stainless steel** 🧊 — P80 to P120 to remove, P240 to P400 to clean. Keep the abrasive dedicated to the material or swap grits between a steel job and a stainless one, because embedded mild-steel particles in the grain are the seed of rust spots on the part later. The [stainless steel finishing use](/applications/stainless-steel) notes cover the scratch-line direction for the finish, which matters on any surface that will be seen.
-- **Aluminium and soft alloy** 🟦 — P120 to P240 to prepare, P320 to P400 to finish. Softer than steel, so a coarse grit scratches deeper than you want; start finer, keep the abrasive moving, and reach for SiC on the fine end where the slick surface loads the coarser grains.
+- **Aluminium and soft alloy** 🟦 — P120 to prepare and a finer rung to finish Sandpaper Rolls; the alloy scratches deeper than steel, so start finer and keep the disc sander moving. The alloy is the reason the starting grit is lower.
 
 Underneath the list is one rule: match the grain to the material, then set the grit to the cut, and change one deliberately while keeping the other fixed, or you are solving two problems at once and you will not learn which one moved. Aluminum oxide is the grain to default to on steel and stainless, silicon carbide is the one for the soft non ferrous and slick work, and zirconia alumina is the pick where the material packs the face. If you are stuck between two materials on one line, the safe move is the finer grit, because the cost of a scratch is always higher than the cost of an extra pass.
 
@@ -134,7 +134,7 @@ The OEM side is where the saving scales. A branded run means your logo, your par
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. Here is what shows up most often on the bench, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Sandpaper Rolls. These are the errors that surface most at P120, and the move that actually changes the result: In each case the surface gives the tell before the cost does.
 
 - **Skipping grits** ⛔ — going from P60 straight to P400 leaves the P60 scratches under the finish. Add the P120 and P240 steps and the surface clears, because every layer of scratch has to be finer than the one before it.
 - **Loading and glazing** 🧱 — a roll or a flap disc stops cutting when the grain face packs with soft material or the grit wears flat. The fix is lighter pressure and a moving abrasive, a grain that is not as soft as the workpiece, or a step down a grit, not a coarser one held harder.
@@ -163,7 +163,7 @@ For any of these, the [sanding disc range](/collections/sanding-discs) shows the
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and in compliant use with the right protection the risk of these tools is reduced but not zero.
+The Sandpaper Rolls checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. Run the list once before the first order, then once per repeat run.
 
 - Confirm your tool's no-load speed is below the part's printed maximum working speed before every use, and confirm the rated speed with sales where the label is not in hand.
 - Check the arbor hole, the flange and the guard are the correct size and fitted, and use a rated adapter where needed, never a ground-out hole.
@@ -174,4 +174,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the maker's install notes for the backing and the machine, and check the part for heat and scratch depth on thin or soft material before you commit the pass.
 - Confirm lead time, minimum order and packing for any wholesale or [private label order](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from — whether it is sandpaper rolls cut to width or a flap disc line for the grinder. Send the three and we will work the sequence with you on the [request a quotation](/quote) page.
+If you name the material, the finish line and the tool, the Sandpaper Rolls grit and backing picks follow from those three answers. Send them via the [request a quotation](/quote) page and the sequence is built around P120 rather than the stock that happens to be on the shelf. Skip the back-and-forth: the sequence comes back with the first answer.

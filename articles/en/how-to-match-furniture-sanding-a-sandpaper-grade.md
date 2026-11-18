@@ -16,7 +16,7 @@ The decision rule for matching a sandpaper grade to furniture sanding is one sen
 
 Two scenarios where the rule bends. Heavily scarred or old painted pieces, where the coarse grits do most of the real removal and the coarse grit stays on the panel longer than the sequence suggests. And thin veneer or very soft, figured wood, where even P120 is too aggressive and the run starts at P150 or P180 instead. For everyday casegoods, desks and tabletops, a workable default sequence is P80 or P120 to remove, P180 to P220 to level, P240 to final prep for most matte and oil finishes, and P400 to P600 where the finish is hard and clear.
 
-Two habits keep this from being guesswork. Name the grit standard, FEPA or ISO 848, in every enquiry, because a grit number means nothing without its scale. And match the backing to the tool you actually run: a random orbital wants a PSA or hook-and-loop disc, a dust-collecting sander wants mesh, a belt sander wants a loop. The deeper reasoning is in the [woodworking sanding use](/applications/woodworking) notes, and any label term that is not clear is in [the abrasives glossary](/glossary).
+What keeps the Furniture Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P240 band, the backing and belt sander are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. One minute of habit, saved in every pass after the first.
 
 ### How furniture sanding actually works
 
@@ -174,7 +174,7 @@ The fields that make or break that conversation:
 
 ### Common mistakes and how to fix them
 
-The fixes are usually cheaper than the mistakes. What turns up most on furniture lines, with the fix that actually moves the problem:
+Fixing it early costs less than paying for it later. The errors below are the ones that turn up most on the Furniture Sanding line at P240, and the correction that moves the surface for each: Fix the match and the list gets shorter on the next job.
 
 - **Skipping a grit step.** P80 straight to P400 leaves the P80 scratches under the coat. What it looks like: a finish that is rough in places that should be smooth. Add the middle grits and the surface clears.
 - **Sanding in circles.** Swirl marks under a stain or clear coat. What it looks like: concentric rings in raking light. Sand in one direction, with the grain, and the finish lands even.
@@ -205,7 +205,7 @@ The thread through all eight is that the abrasive is as good as the grit, backin
 
 ### Before you buy
 
-A short compliance and purchasing checklist. It is a reminder, not a substitute for the site's own rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+A purchasing and compliance checklist for Furniture Sanding, kept short. It is a reminder rather than a substitute for your site's own rules: with compliant use and the right protection the hazard of the P240 pass is reduced, not removed. The items below are the ones to tick before the first order and again on every repeat.
 
 - 🛡️ Confirm the tool's maximum speed sits at or below the printed rated speed of the disc or belt being bought, and keep the tool below that number.
 - ⚙️ Confirm the fit: the disc or belt has to match the tool, mandrel or platen it will run on, and where the sizes differ, a rated adapter goes on, not a modified one.

@@ -14,7 +14,7 @@ image: flap-fiberglass
 
 The rule that governs nearly every weld seam grinding decision is: **match the grit to how much material you are removing, then match the backing to how hard the job is.** A coarse grit, P60 to P80, takes the raised cap down fast and leaves deep marks; a mid grit, P120 to P240, evens the ground area and blends it into the surrounding metal; a fine grit, P320 to P400, cleans up and leaves a uniform fine scratch before coating or inspection. Run the heavy cap removal on a steel or fiberglass backing, and the finishing passes on a cooler, more forgiving backing. Two scenarios where that rule bends: thin sheet where a coarse grit builds heat that can warp the part, and very soft materials where even a coarse grit scratches deeper than the target finish. If the joint sits on thicker stock, start in the P80 band, step down one rung at a time, and confirm the arbor hole fits your flange before the disc touches metal. For the range we supply against these jobs, start from [the fiberglass-backing flap disc](/flap/fiberglass) and keep [the abrasives glossary](/glossary) open whenever a label term is unfamiliar.
 
-Two habits make the whole thing repeatable instead of a guess. First, read the weld seam grinding task as a ladder, not a single grit: every step must hide the scratch band of the step before it. Second, name the grit standard you are buying to (FEPA or ISO 848) and confirm the arbor hole against the tool, because a mismatched hole is how a disc comes loose at speed. Everything below is the reasoning behind those two moves, rung by rung.
+Make the Weld Seam Grinding spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P400 band against the tool you actually run (angle grinder) before the first cut. The rest of this page is why those two moves earn their keep. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### What actually happens at the joint
 
@@ -137,7 +137,7 @@ When you move from buying a handful of discs to a bulk or private label order, t
 - **Diameter and arbor** — the disc diameter and the centre hole, matched to the tool and flange you run.
 - **Maximum working speed** — confirmed against the model, never assumed, because it has to come from the disc.
 - **Label and packing** — your logo, your part code, and any spec sheet you want on the box for a private label run.
-- **Quantity and lead time** — the order quantity and how fast it needs to be on the shelf, which sets whether it ships from stock or gets made to your run.
+- **Quantity and lead time** — the number of Weld Seam Grinding needed and the date it is needed by; together they decide stock versus make-to-run. Say the two out loud and the make-to-run question answers itself.
 
 Send those six fields and the order is a conversation instead of a gamble. The [request a quotation](/quote) page is where to start, and if you are new to a branded run, ask for a sample against the spec before the full order so the grit, the backing and the label all match what you expect. The manufacturing side — how a run is built, inspected and packed — is described on [the manufacturing & quality page](/factory).
 
@@ -173,7 +173,7 @@ For each of these, [the flap disc range](/collections/flap-discs) shows the grit
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+The Weld Seam Grinding checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P400 work goes down but never to zero. Treat each item as a gate: the order does not clear the desk until it passes.
 
 - Confirm your tool's no-load speed is below the maximum working speed printed on the disc, and confirm that number against the model before the disc goes on.
 - Check the arbor hole and flange are the correct size; use a rated adapter where needed, never file the hole larger.
@@ -184,7 +184,7 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Store discs away from heat and damp, and keep the transport dry; the grit and the backing both age out in a wet bay.
 - Follow the disc maker's install notes on the label and the box before the first run.
 - On stock that saw corrosion work, inspect the ground area after the cap is down and keep that disc off clean and stainless work.
-- Keep a record of the PPE and controls you rely on; the U.S. baseline is [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and setup guidance is at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels).
+- Keep a line in the job record for the PPE and Weld Seam Grinding controls; the U.S. requirement is at [OSHA PPE general requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup reading at [CCOHS: Abrasive Wheels](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels). The log is the discipline the label cannot carry.
 - Confirm lead time, minimum order and packing for any bulk or [private label order](/oem), and start from the [request a quotation](/quote) page.
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can help you pick the grit and the backing to start from. Send the three and we will work the weld seam grinding sequence with you on the [request a quotation](/quote) page.
+The three fields to start a Weld Seam Grinding order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P400 downward, to the job instead of the nearest stock. The more of the three you name, the less the supplier has to guess.

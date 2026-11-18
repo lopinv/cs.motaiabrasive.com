@@ -16,7 +16,7 @@ The governing rule of automotive sanding is a single one: **work the grits in a 
 
 Two scenarios where the ladder rule bends. Scuffing, or deglossing, before a refinish is a one-rung job by design: P400 opens up the old clear so paint will bite, and stepping down a rung would dig too deep for what the finish needs. Wet sanding and polishing after the top coat sits at the other end of the scale: P800 to P2400 and finer, where the work is leveling and brightening, not removing stock, and the finish you are protecting matters more than the cut you are making.
 
-Two habits turn this into a repeatable spec. Name the grit standard in every enquiry, because FEPA, the ISO 848 scale that most automotive sanding workflows quote, is the one where P180 and P180 actually mean the same grain, and confirm the tool's rated speed against the disc's before it ever starts. Every grit in our range, 60 to 5000, lives on that one FEPA scale, and the formats that carry it are the hook-and-loop, mesh and solid discs in [the sanding disc range](/en/collections/sanding-discs), with the label terms pinned down in [the abrasives glossary](/en/glossary).
+What keeps the Automotive Sanding sequence repeatable is two habits: the grit is always stated on the standard you buy to, and the P180 band, the backing and angle grinder are confirmed against the job sheet first. The sections that follow are the reasoning behind that order. Skip either one and the failure shows up two weeks later, not on the bench.
 
 ### How automotive sanding actually works
 
@@ -154,4 +154,4 @@ A short compliance and purchasing checklist, a reminder rather than a substitute
 - Store the discs flat, dry and away from heat, and follow the maker's install and use notes for the format you are running.
 - For a bulk or branded run, confirm the minimum order quantity and the lead time with sales, and start with the [request a quotation](/en/quote) page.
 
-If you tell us the material, the finish you are aiming for and the tool you run, the team will pre-select the grit and the backing with you before the order is placed. Send the three and the sequence is worked out with you on the [request a quotation](/en/quote) page, with the format and the rung called out so the panel lands on the finish line you set.
+The Automotive Sanding enquiry needs three things: material, the finish you want to reach and the tool you run. Put them on the [request a quotation](/quote) page and the grit sequence — usually opening around P180 — is worked out with you, not copied from a shelf list. The more of the three you name, the less the supplier has to guess.

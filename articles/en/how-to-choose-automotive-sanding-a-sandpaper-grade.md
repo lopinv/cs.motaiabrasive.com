@@ -16,7 +16,7 @@ The rule that governs nearly every automotive sanding decision: **match the grit
 
 Two scenarios where the rule bends. First, a badly out of line panel or a heavy filler build: you skip the ladder and remove material with the coarsest grit available, or with a P60 to P80 flap disc on an angle grinder to clean rust and weld texture before any paper touches the panel. Second, a wet-sanding pass on a cured clearcoat, where the grit is so fine that a dry sheet will glaze and cut unevenly, and the cut needs water to keep the face open and moving. For the everyday repair job — a scratch filled with body filler, a panel blended before respraying, a light cut back over old basecoat — start at P120 over filler and primer, step down one band at a time, and confirm the disc or sheet fits your tool before the pad comes out of the drawer. The grit range we stock, P60 to P5000 across paper discs, mesh and hook-and-loop, is on [the sanding disc range](/collections/sanding-discs), and every term in this article stays plain because the [abrasives glossary](/glossary) defines each one.
 
-Two habits turn this from guesswork into a repeatable spec. State the grit standard you are buying to — FEPA or ISO 848 — in every enquiry, because a number on one scale is not the same cut as the same number on another scale. And match the backing to the tool in your hand, not to the picture on the label. Everything below is the reasoning behind those two moves, and the places where they break.
+Make the Automotive Sanding spec hold across jobs with two habits: put the grit standard (FEPA or ISO 848) in writing, and verify the P120 band against the tool you actually run (angle grinder) before the first cut. The rest of this page is why those two moves earn their keep. Both habits cost a minute and buy back the whole pass.
 
 ### How a grit actually cuts ⚙️
 
@@ -164,7 +164,7 @@ Storage is the quiet cost saver nobody budgets for. Keep the grits dry and away 
 
 ### Common mistakes and how to fix them 🔍
 
-The fixes are usually cheaper than the mistake. What shows up most on a panel shop bench, with the fix that actually moves the problem:
+The repair is usually cheaper than the damage on Automotive Sanding. These are the errors that surface most at P120, and the move that actually changes the result: The pattern underneath is the same in every case: a mismatch, not a bad disc.
 
 - **Skipping a grit band.** Jumping from P120 to P400 leaves the P120 scratch under the top coat, and it shows at raking light; add the P320 band between them and the surface clears.
 - **Holding the pad in one spot.** A loaded, glazed face is what a stationary, pressed pad makes; the fix is lighter pressure, a moving pad, and an open coat on the soft filler, not a coarser grit.
@@ -193,7 +193,7 @@ The thread through all six is that the panel is only as good as the match you ma
 
 ### Before you buy
 
-A short compliance and purchasing checklist. This is a reminder, not a substitute for your own site rules, and under compliant use with the right protection the risk of these tools is reduced, not zero.
+The Automotive Sanding checklist that follows is a compliance and purchasing reminder, not a replacement for your own site rules. Used compliantly with the right protection, the risk of this P120 work goes down but never to zero. The items below are the ones to tick before the first order and again on every repeat.
 
 - Confirm your tool's no-load speed is below the disc's rated speed, and check the rated speed against the model before the disc goes on the machine.
 - On an angle grinder: guard fitted, flange the correct size, and the disc diameter within the tool rating, every pass.
@@ -206,4 +206,4 @@ A short compliance and purchasing checklist. This is a reminder, not a substitut
 - Follow the pad and backing install notes for your tool, and keep the guard re-checked each shift; the baseline at [OSHA 29 CFR 1910.132](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132) and the setup read at [CCOHS "Abrasive Wheels"](https://www.ccohs.ca/oshanswers/safety_haz/abrasive_wheels) are worth the ten minutes.
 - For any bulk or branded run, confirm lead time, minimum order and packing on the [OEM and private-label page](/oem), and start with the [quotation form](/quote).
 
-If you tell us the material, the finish you are aiming for and the tool you run, we can pre-select a grit and a backing for you before the order is placed. Send the three and we will work the sequence with you on the [quotation page](/quote).
+The three fields to start a Automotive Sanding order are the material, the target finish and the tool in your hand. Send them through the [request a quotation](/quote) page and we will match the grit, from P120 downward, to the job instead of the nearest stock. No template is attached; the three fields travel in the message itself.
