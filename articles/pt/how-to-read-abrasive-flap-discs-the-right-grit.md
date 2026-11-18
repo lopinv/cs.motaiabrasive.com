@@ -3,8 +3,8 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Como Ler Discos de Leque Abrasivos: O Grão Certo"
 keywords: [Discos de Leque Abrasivos, Aço Inoxidável, Extração de Pó, Respiratório]
-metaDescription: "Aprenda a ler discos de leque abrasivos. Grão, suporte, tamanho, furo central e segurança explicados com exemplos práticos, para que possa especificar o disco certo e comprar com confiança."
-intro: "Um guia de campo rápido para decodificar discos de leque abrasivos — grão, suporte, tamanho e furo central — com exemplos práticos e uma lista de verificação de segurança antes da compra."
+metaDescription: "Aprenda a ler discos de leque abrasivos: grão, suporte, furo central e segurança explicados com exemplos, para especificar o disco certo e comprar com confiança."
+intro: "Guia de campo rápido para decodificar discos de leque abrasivos — grão, suporte, tamanho e furo central — com exemplos e checklist de segurança."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic

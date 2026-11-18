@@ -3,8 +3,8 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Ako čítať abrazívne kotúče typu flap: správna zrniosť"
 keywords: [Kotúče typu flap, Nerezová oceľ, Odber prachu, Dýchacia ochrana]
-metaDescription: "Naučte sa čítať kotúče typu flap. Zrnitosť, podložka, veľkosť, uholová diera a bezpečnosť vysvetlené na príkladoch, aby ste mohli špecifikovať správny kotúč a kúpiť s istotou."
-intro: "Rýchly terénny sprievodca dekódovaním abrazívnych kotúčov typu flap — zrniosť, podložka, veľkosť a uholová diera — s vypracovanými príkladmi a kontrolným zoznamom bezpečnosti pred nákupom."
+metaDescription: "Naučte sa čítať kotúče typu flap: zrnitosť, podložka, priemer a stredová diera — s príkladmi, aby ste si poriadne specifikovali kotúč a nakúpili s istotou."
+intro: "Kratký poľovodnía pre čítanie kotúčov typu flap — zrnitosť, podložka, priemer a stredová diera — s príkladmi a checklistom bezpečnosti pred nákupom."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic
@@ -19,11 +19,11 @@ Dva návyky, ktoré to menia z hadania na opakovateľnú špecifikáciu: vždy u
 
 ### Čo je to vlastne kotúč typu flap
 
-Kotúč typu flap je abrazív s prekrývajúcimi sa lamelami, postavený z podložkovej dosky, na ktorej je v spirále ušitých alebo nalepených desiatky krátkych prekrývajúcich sa lamelov abrazívneho sukná, ako listy knihy rozsypané do leפה. Každý lamel stojí pod uhlom, kým sa kotúč točí, takže režné hrany sú vždy samoostrihovacie: opotrebovaná hrana sa zohne späť a odhalí čerstvé zrná, preto tieto kotúče dlhšie a chladnejšie brúsia ako by to urobil jednvrstvový papierový kotúč na rovnakej práci. Lamely sú zvyčajne zrnami z **oxidu hlinitého** alebo **zirkónia aloxu**, a kotúč je montovaný na brúsku cez **stredovú dieru**. Táto konštrukcia je dôvodom, prečo kotúč typu flap vie brúsiť aj dokončovať v jednom priebehu, čo je presne dôvod, prečo sa stal predvolbou pre brúsenie zvarov, odstraňovanie zgrzebín a zladovanie povrchov v výrobnách.
+Kotúč typu flap je abrazív s prekrývajúcimi sa lamelami, postavený z podložkovej dosky, na ktorej je v spirále ušitých alebo nalepených desiatky krátkych prekrývajúcich sa lamelov abrazívneho sukná, ako rozložené listy knihy. Každý lamel stojí pod uhlom, kým sa kotúč točí, takže režné hrany sú vždy samoostrihovacie: opotrebovaná hrana sa zohne späť a odhalí čerstvé zrná, preto tieto kotúče dlhšie a chladnejšie brúsia ako by to urobil jednvrstvový papierový kotúč na rovnakej práci. Lamely sú zvyčajne zrnami z **oxidu hlinitého** alebo **zirkónia aloxu**, a kotúč je montovaný na brúsku cez **stredovú dieru**. Táto konštrukcia je dôvodom, prečo kotúče typu flap vie brúsiť aj dokončovať v jednom priebehu, čo je presne dôvod, prečo sa stal predvolbou pre brúsenie zvarov, odstraňovanie zgrzebín a zladovanie povrchov v výrobnách.
 
 Väčšina skladových línií ponúka tri typy podložiek, a práve podložka je miesto, kde sa dejí väčšina voľby. **Oceľová podložka** je tuhá a drží lamely pevne, takže prenáša vyššiu brúsiacu silu a vydrží agresívne odstraňovanie zgrzebín; je to voľba pre ťažké odstraňovanie materiálu. **Plastová podložka** je ľahšia a o niečo flexibilnejšia, takže beží chladnejšie a šetrí diel pri dodatočných prechodoch. **Skelnovláknová podložka** sedí niekde uprostred: lepšie odoláva ohnutiu a teplu ako plast, čo slúži na vysokorychlostné použitie, kde sa kotúč môže zahriať. Kompromis je jednoduchý — čím tuhšia podložka, tým viac môžete od kotúča žiadať, a tým menej je odpúšťajúci na citlivú prácu. Ak ste v špecifikácii týchto kotúčov noví, porovnajte [kotúč typu flap s oceľovou podložkou](/sk/flap/steel) s [kotúčom typu flap so skelnovláknovou podložkou](/sk/flap/fiberglass) a všimnite si, ako sa líšia farba a tuhost podložky, než sa upevnite v zrnosti.
 
-Ešte jeden konštrukčný detail, ktorý treba pochopiť: prekrytie lamelov nie je len kozmetické. Prekrývajúce sa lamely udržujú reznú plochu spojitú, kedykoľvek sa jednotlivé lamely opotrebujú, takže kotúč nenastane náhle prestane brúsiť v momente, keď je jeden lamel spotrebovaný. Opotrebováva sa stupňovo, preto dobrý kotúč typu flap dáva dlhšiu, rovnomernú rezu a predvídateľný život. Kotúč s ubohým prekryтием bude pôsobiať, ako by sa menil charakter v strede prechodu; to je signál konštrukčnej kvality viac ako signál zrnosti.
+Ešte jeden konštrukčný detail, ktorý treba pochopiť: prekrytie lamelov nie je len kozmetické. Prekrývajúce sa lamely udržujú reznú plochu spojitú, kedykoľvek sa jednotlivé lamely opotrebujú, takže kotúč nenastane náhle prestane brúsiť v momente, keď je jeden lamel spotrebovaný. Opotrebováva sa stupňovo, preto dobré kotúče typu flap dávajú dlhšiu, rovnomernú rezu a predvídateľný život. Kotúč s ubohým prekryтием bude pôsobiať, ako by sa menil charakter v strede prechodu; to je signál konštrukčnej kvality viac ako signál zrnosti.
 
 
 ### Ako čítať číslo zrnosti
@@ -181,7 +181,7 @@ Opravy sú zvyčajne lacnejšie ako chyby. Tu je to, čo sa objavuje najčastej�
 Pre akúkoľvek z týchto, [ponuka abrazívnych kotúčov typu flap](/sk/collections/flap-discs) a [aplikačné poznámky pre kovovú výrobu](/sk/applications/metal-fabrication) dávajú zrnosť a podložku, na ktorú sa poľahnúť, a [glosár abrazívov](/sk/glossary) definuje termíny tak, aby ste a váš tím čítali rovnaký štítok. Nit, ktorá prechádza cez všetky päť, je tá, že kotúč je iba tak dobrý, ako je zrnosť, podložka, uholová diera a rýchlosť, ktoré ste mu priradili predtým, ako sa práca začala; väčšina sťažností sú v skutočnosti chyby zhodnotenia v mene zrnosti.
 
 
-### Často kladené otázky
+### FAQ
 
 **Akú zrnosť mám začať pre bežné brúsenie?** V mnohých prípadoch P80 až P120 pokrýva bežné brúsenie a odstraňovanie zgrzebín na oceľi, potom krokniete dolu na P240 alebo P400 pre zladenie a dokončenie. Začnite hrubým, idite jemnejšie, a nikdy nepreskočte dva kroky naraz.
 

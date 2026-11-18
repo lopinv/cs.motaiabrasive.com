@@ -3,8 +3,8 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Så läser du abrasiva slipeskivor: rätt kornstorlek"
 keywords: [Abrasiva slipeskivor, Rostfritt stål, Dammutdragning, Respiratoriskt]
-metaDescription: "Lär dig läsa abrasiva slipeskivor. Kornstorlek, bärmaterial, dimension, centrumhål och säkerhet förklaras med genomgångna exempel, så att du kan speca rätt skiva och köpa med förtroende."
-intro: "En snabb fältguide till att avkoda abrasiva slipeskivor — kornstorlek, bärmaterial, dimension och centrumhål — med genomgångna exempel och en inköpschecklista för säkerhet."
+metaDescription: "Lär dig läsa abrasiva slipeskivor: kornstorlek, bärmaterial, centrumhål och säkerhet förklaras med exempel, så att du speckar rätt skiva och köper med förtroende."
+intro: "Snabb fältguide för att läsa abrasiva slipeskivor: kornstorlek, bärmaterial, dimension och centrumhål — med exempel och inköpschecklista."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic

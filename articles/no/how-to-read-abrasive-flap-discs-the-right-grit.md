@@ -3,8 +3,8 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Slik leser du abrasive slipflatter: riktig gritsstørrelse"
 keywords: [Slipflatter, Rustfritt stål, Støvuttrekning, Respiratorisk]
-metaDescription: "Lær å lese abrasive slipflatter. Gritsstørrelse, bakgrunn, størrelse, sentrumshull og sikkerhet forklart med arbeidseksempler, slik at du kan spesifisere riktig flat og kjøpe med trygghet."
-intro: "En rask felthåndbok for avkoding av abrasive slipflatter — gritsstørrelse, bakgrunn, størrelse og sentrumshull — med arbeidseksempler og en sikkerhetsjekkliste før kjøp."
+metaDescription: "Lær å lese abrasive slipflatter. Gritsstørrelse, bakgrunn, sentrumshull og sikkerhet forklart med eksempler, slik at du spesifiserer riktig disc og kjøper trygt."
+intro: "Rask felthåndbok for å avkode abrasive slipflatter — gritsstørrelse, bakgrunn, størrelse og sentrumshull — med eksempler og sikkerhetsjekkliste."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic

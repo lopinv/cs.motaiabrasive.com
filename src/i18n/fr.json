@@ -1622,6 +1622,22 @@
         "b2": "De la bobine mère à la bande finie",
         "b3": "Grain et support contrôlés en interne",
         "b4": "Emballés, prêts à l'expédition"
+      },
+      "6fqlzRvmrwo": {
+        "title": "Disques à lamelles en direct de l'usine — spécifications sur mesure, gros stock, performance constante",
+        "body": "Une quinzaine de secondes consacrées aux disques à lamelles MoTai : un agencement régulier des lamelles pour une coupe constante et une longue durée de vie, des dimensions, grains et plaques de support sur mesure disponibles, et un gros stock prêt pour une expédition rapide en gros volumes. Ces disques sont conçus pour le meulage du métal et le lissage des soudures, la dépose de la rouille et de la peinture, et la fabrication en acier inoxydable ; ils s'utilisent sur meuleuses d'angle.",
+        "b1": "Un agencement régulier des lamelles pour une coupe constante",
+        "b2": "Dimensions, grains et plaques de support sur mesure",
+        "b3": "Gros stock pour une expédition rapide en gros volumes",
+        "b4": "Pour le meulage du métal, la dépose de la rouille et les travaux en inox"
+      },
+      "paQ16Aq0F3g": {
+        "title": "Découpe de précision automatisée — la fabrication de nos bandes de ponçage",
+        "body": "Dix-sept secondes dans notre découpe automatisée de bandes : une bobine large d'abrasif à la zircone est alimentée, la machine est réglée via le panneau de contrôle tactile, et la toile est découpée et façonnée selon vos dimensions exactes ; chaque largeur terminée est ensuite mesurée et vérifiée avant l'assemblage de la bande. Résultat : une bande de ponçage finie et constante pour le bois, le métal et les composites.",
+        "b1": "Bobine d'abrasif brute prête à être transformée",
+        "b2": "Réglage au panneau tactile et découpe de précision automatique",
+        "b3": "Chaque largeur terminée est mesurée et vérifiée",
+        "b4": "Des bandes constantes pour le bois, le métal et les composites"
       }
     },
     "specTitle": "Ce que nous vérifions par rapport à votre demande",

@@ -1234,5 +1234,59 @@
     "a": "videos.clip.hCsd8PlG8b8.a2"
    }
   ]
+ },
+ {
+  "id": "6fqlzRvmrwo",
+  "youtubeId": "6fqlzRvmrwo",
+  "titleKey": "videos.clip.6fqlzRvmrwo.title",
+  "descriptionKey": "videos.clip.6fqlzRvmrwo.body",
+  "line": "flap",
+  "kind": "short",
+  "seconds": 15,
+  "duration": "PT15S",
+  "durationLabel": "0:15",
+  "publishDate": "2026-11-18",
+  "thumb": "https://i.ytimg.com/vi/6fqlzRvmrwo/hqdefault.jpg",
+  "bodyKey": "videos.clip.6fqlzRvmrwo.body",
+  "bulletKeys": [
+   "videos.clip.6fqlzRvmrwo.b1",
+   "videos.clip.6fqlzRvmrwo.b2",
+   "videos.clip.6fqlzRvmrwo.b3",
+   "videos.clip.6fqlzRvmrwo.b4"
+  ],
+  "related": [
+   "flap.steel",
+   "flap.fiberglass"
+  ],
+  "youtubeUrl": "https://www.youtube.com/watch?v=6fqlzRvmrwo",
+  "specKeys": [],
+  "faqKeys": []
+ },
+ {
+  "id": "paQ16Aq0F3g",
+  "youtubeId": "paQ16Aq0F3g",
+  "titleKey": "videos.clip.paQ16Aq0F3g.title",
+  "descriptionKey": "videos.clip.paQ16Aq0F3g.body",
+  "line": "belts",
+  "kind": "short",
+  "seconds": 17,
+  "duration": "PT17S",
+  "durationLabel": "0:17",
+  "publishDate": "2026-11-17",
+  "thumb": "https://i.ytimg.com/vi/paQ16Aq0F3g/hqdefault.jpg",
+  "bodyKey": "videos.clip.paQ16Aq0F3g.body",
+  "bulletKeys": [
+   "videos.clip.paQ16Aq0F3g.b1",
+   "videos.clip.paQ16Aq0F3g.b2",
+   "videos.clip.paQ16Aq0F3g.b3",
+   "videos.clip.paQ16Aq0F3g.b4"
+  ],
+  "related": [
+   "1520x630-abrasive-belt",
+   "610x100-abrasive-belt"
+  ],
+  "youtubeUrl": "https://www.youtube.com/watch?v=paQ16Aq0F3g",
+  "specKeys": [],
+  "faqKeys": []
  }
 ]

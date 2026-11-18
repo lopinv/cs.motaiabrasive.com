@@ -3,7 +3,7 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Jak czytać tarcze flap ścierne: odpowiednia gradacja ziarna"
 keywords: [Tarcze flap, Stal nierdzewna, Wyrównywanie pyłu, Ochrona dróg oddechowych]
-metaDescription: "Naucz się czytać tarcze flap ścierne. Gradacja ziarna, podkład, rozmiar, otwór centralny i bezpieczeństwo wytłumaczone na przykładach, abyś mógł dobrać właściwą tarczę i kupować z pewnością."
+metaDescription: "Naucz się czytać tarcze flap ścierne: gradacja ziarna, podkład, otwór centralny i bezpieczeństwo wytłumaczone na przykładach, doborze właściwej tarczy i zakupie."
 intro: "Szybki przewodnik po odczytywaniu tarcz flap ściernych — gradacja ziarna, podkład, rozmiar i otwór centralny — z przykładami i listą kontrolną przed zakupem."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
@@ -19,7 +19,7 @@ Dwa nawyki, które zamieniają to w powtarzalną specyfikację: zawsze podawaj s
 
 ### Czym tak naprawdę jest tarcza flap
 
-Tarcza flap to narzędzie ścierne pokryte, zbudowane z płytki podkładowej z dziesiątkami krótkich, nachodzących na siebie płatków z tkaniny ściernej, zszytych lub sklejonych spiralnie, jak rozłożone strony książki. Każdy płatek ustawia się pod kątem podczas obrotu tarczy, dzięki czemu ostre krawędzie zawsze są samoostrzające: zużyta krawędź oddala się i odsłania nowe ziarno, dlatego te tarcze cięcej dłużej i chłodniej niż jednopoziomowa tarcza papierowa na tym samym zadaniu. Płatki zazwyczaj wykonane są z ziarna **tlenku aluminium** lub **zirkonii aluminy**, a tarcza montowana jest na szlifierce przez **otwór centralny**. Ta konstrukcja jest powodem, dla którego tarcza flap potrafi zarówno szlifować, jak i wykańczać w jednym przejściu, co sprawiło, że stała się domyślnym wyborem do szlifowania spawów, usuwania zgrzebin i łączenia powierzchni w warsztatach spawalniczych.
+Tarcza flap to narzędzie ścierne pokryte, zbudowane z płytki podkładowej z dziesiątkami krótkich, nachodzących na siebie płatków z tkaniny ściernej, zszytych lub sklejonych spiralnie, jak rozłożone strony książki. Każdy płatek ustawia się pod kątem podczas obrotu tarczy, dzięki czemu ostre krawędzie zawsze są samoostrzające: zużyta krawędź oddala się i odsłania nowe ziarno, dlatego te tarcze cięcej dłużej i chłodniej niż jednopoziomowa tarcza papierowa na tym samym zadaniu. Płatki zazwyczaj wykonane są z ziarna **tlenku aluminium** lub **zirkonii aluminy**, a tarcza montowana jest na szlifierce przez **otwór centralny**. Ta konstrukcja jest powodem, dla którego tarcze flap potrafią zarówno szlifować, jak i wykańczać w jednym przejściu, co sprawiło, że stała się domyślnym wyborem do szlifowania spawów, usuwania zgrzebin i łączenia powierzchni w warsztatach spawalniczych.
 
 W większości ofert spotkasz trzy rodzaje płytki podkładowej, a podkład to właśnie tutaj większość wyboru faktycznie się dzieje. **Podkład stalowy** jest sztywny i mocno trzyma płatki, więc wytrzymuje większą siłę szlifowania i przeżywa agresywne usuwanie zgrzebin; to wybór do ciężkiego usuwania materiału. **Podkład plastikowy** jest lżejszy i nieco bardziej elastyczny, więc pracuje chłodniej i jest łagodniejszy dla elementu przy przejściach wykończeniowych. **Podkład z włóknistym** mieści się między nimi: lepiej odporny na uginanie i ciepło niż plastik, co nadaje się do pracy przy wysokich obrotach, gdzie tarcza może nagrzewać się. Kompromis jest prosty — im sztywniejszy podkład, tym więcej możesz wymagać od tarczy, i tym mniej wybacza ona błędy w delikatnej pracy. Jeśli dopiero zaczynasz specyfikować te narzędzia, porównaj [tarczę flap na podkładzie stalowym](/pl/flap/steel) z [tarczą flap na podkładzie z włóknistym](/pl/flap/fiberglass) i zwróć uwagę, jak różnią się kolor i sztywność podkładu, zanim zobowiązujesz się do gradacji.
 
@@ -62,7 +62,7 @@ Gdzie P1500 nie należy, to jako pierwszy przejazd. Jeśli zaczynasz od P1500 na
 
 ### Szlifowanie spawów: praktyczna sekwencja
 
-Praca ze spawami to moment, gdzie tarcze flap okazują swoją wartość, i gdzie pomijanie gradacji najszybciej widać. Ten sam spaw, który czysto i szybko się szlifuje, staje się postrzępiony, trudny do połączenia powierzchnią, gdy ktoś ma na blacie tylko jedną gradację. Sekwencja, która działa dla spawu kątowego lub stykowego na stali łagodnej lub nierdzewnej, to:
+Praca ze spawami to moment, gdzie Tarcze flap okazują swoją wartość, i gdzie pomijanie gradacji najszybciej widać. Ten sam spaw, który czysto i szybko się szlifuje, staje się postrzępiony, trudny do połączenia powierzchnią, gdy ktoś ma na blacie tylko jedną gradację. Sekwencja, która działa dla spawu kątowego lub stykowego na stali łagodnej lub nierdzewnej, to:
 
 - **P60 – P80** by zsuwać kapę i wrócić do stanu mniej więcej równego. Tu pracuje podkład stalowy; chcesz nacisk i ruch materiału.
 - **P100 – P120** by wyrównać szlifowany obszar i zacząć go łączyć z materiałem bazowym.

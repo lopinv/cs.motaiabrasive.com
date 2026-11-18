@@ -3,6 +3,23 @@
 本文件遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 格式，
 版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [1.7.0] - 2026-11-18
+
+### Added
+
+- **视频通道 +2 Shorts（共 35 条）**：`6fqlzRvmrwo`（百叶盘 15s）与
+  `paQ16Aq0F3g`（砂带自动切割 17s）入 `yt-meta.json` + 手写文案
+  `videos-copy.json`；41 非 en 语种各 12 条新视频 i18n 文案本地化
+  （`apply-video-tail` 逐语种合并，key-parity 41/41 全绿）
+- **多语种博客译文资产入库**：zh 122 / ar 66 / hi 37 / ko 7 / ja 6 /
+  vi 5 / th 5 / ms 5 / zh-Hant 5 篇等 24 语种新增译文 + 9 篇返工修订，
+  `article-locales.json` 数据层自动再生（5159 页 / 4780 URLs）
+
+### Changed
+
+- `apply-video-tail.cjs` 读取优先级改为 `new12.out` → `gap.out` → `out`，
+  防止旧 42 键 gap 文件抢读新批次 12 键 payload
+
 ## [1.6.0] - 2026-11-18
 
 ### Changed

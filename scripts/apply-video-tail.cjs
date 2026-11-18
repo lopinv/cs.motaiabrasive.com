@@ -24,7 +24,9 @@ if (!locale) {
 const root = path.resolve(__dirname, '..')
 // Gap payload (only the keys still missing) is preferred; fall back to a
 // full-scope payload. Both are flat dotted-key → text maps.
-const candidates = [locale + '.videos.gap.out.json', locale + '.videos.out.json']
+// A newer payload is preferred so a fresh 12-key batch wins over a stale
+// gap file left by an earlier run.
+const candidates = [locale + '.videos.new12.out.json', locale + '.videos.gap.out.json', locale + '.videos.out.json']
 const srcPath = candidates.map((n) => path.join(root, '.zcode-check', 'tails', n))
   .find((p) => fs.existsSync(p))
 const destPath = path.join(root, 'src', 'i18n', locale + '.json')

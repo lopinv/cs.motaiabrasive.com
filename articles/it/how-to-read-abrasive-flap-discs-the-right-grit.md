@@ -3,8 +3,8 @@ slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
 title: "Come leggere i dischi a patta abrasivi: la grana giusta"
 keywords: [Dischi a patta abrasivi, Acciaio inox, Estrazione polveri, Respiratorio]
-metaDescription: "Impara a leggere i dischi a patta abrasivi. Grana, supporto, dimensioni, foro centrale e sicurezza spiegati con esempi pratici, per specificare il disco giusto e acquistare con fiducia."
-intro: "Una guida rapida per decodificare i dischi a patta abrasivi — grana, supporto, dimensioni e foro centrale — con esempi pratici e una checklist di sicurezza pre-acquisto."
+metaDescription: "Impara a leggere i dischi a patta abrasivi: grana, supporto, foro centrale e sicurezza spiegati con esempi, per specificare il disco giusto e acquistare con fiducia."
+intro: "Guida rapida per decodificare i dischi a patta abrasivi — grana, supporto, dimensioni e foro centrale — con esempi e checklist di sicurezza."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic

@@ -1,10 +1,10 @@
 ---
 slug: how-to-read-abrasive-flap-discs-the-right-grit
 category: selection-guide
-title: "Aşındırıcı Flap Diskleri Nasıl Okunur: Doğru Tane Boyutu"
-keywords: [Aşındırıcı Flap Diskler, Paslanmaz Çelik, Toz Emme, Solunum]
-metaDescription: "Aşındırıcı flap diskleri okumayı öğrenin. Tane boyutu, yastık/bağlantı, çap, merkez deliği ve güvenlik, doğru disk belirtip güvenle satın almanızı sağlayacak çalışılmış örneklerle açıklanmıştır."
-intro: "Aşındırıcı flap disklerini — tane boyutu, yastık/bağlantı, çap ve merkez deliği — çözmek için hızlı bir sahada rehberi, çalışılmış örnekler ve satın alma öncesi güvenlik kontrol listesi ile."
+title: "Flap Diskleri Nasıl Okunur: Doğru Tane Boyutu"
+keywords: [Flap Diskleri, Paslanmaz Çelik, Toz Emme, Solunum]
+metaDescription: "Aşındırıcı flap diskleri okumayı öğrenin: tane, yastık, çap, merkez deliği ve güvenlik çalışılmış örneklerle, doğru disk belirtip güvenle almanızı sağlar."
+intro: "Aşındırıcı flap disklerini — tane, yastık, çap ve merkez deliği — hızlı saha rehberiyle çözün, çalışılmış örnek ve güvenlik kontrol listesiyle."
 datePublished: 2026-11-04
 dateModified: 2026-11-04
 image: flap-plastic
@@ -181,7 +181,7 @@ Düzeltmeler genellikle hatadan daha ucuzdur. En sık görülenler ve aslında s
 Bunların herhangi birinde, [aşındırıcı flap diskleri aralığı](/tr/collections/flap-discs) ve [metal imalat uygulama notları](/tr/applications/metal-fabrication) ulaşılacak tane boyutunu ve yastığı verir, ve [aşındırıcılar sözlüğü](/tr/glossary) terimleri tanımlar ki siz ve ekibiniz aynı etiketi okuyunuz. Beşin üzerinden giren tek tek, disk sadece iş başlamadan önce eşleştirdiğiniz tane boyutu, yastık, merkez ve hızdan kadar iyidir; şikayetlerin çoğu aslında bir tane boyutu adı taşıyan uyumsuzluk şikayetleridir.
 
 
-### SSS
+### Sıkça Sorulan Sorular
 
 **Genel aşındırma için hangi tane boyutuyla başlarım?** Çoğu durumda P80 ila P120 çelikte günlük aşındırmayı ve bürünme gidermeyi kapsar, sonra homojenleştirme ve bitiş için P240 veya P400'e inersiniz. Kaba başlayın, inceye inin, ve asla bir seferde iki basamak atlamayın.
 
@@ -200,7 +200,7 @@ Bunların herhangi birinde, [aşındırıcı flap diskleri aralığı](/tr/colle
 **Paslanmaz çelik kaynağında alüminyum oksit mi sirkonyum alüminyum mu?** Alüminyum oksit çok yönlü ve güvenli varsayılandır; sirkonyum alüminyum kepçe taneyi paklediğinde ve açık kalan bir kesim istediğinizde seçenektir. Taneyi malzemeye göre seçin, sonra tane boyutunu kesime göre ayarlayın.
 
 
-### Satın almadan önce
+### Başlamadan önce
 
 Kısa bir uyumluluk ve satın alma kontrol listesi. Bu bir hatırlatmadır, kendi kurallarınızın yerine geçmez, ve doğru korumayla uyumlu kullanımda bu araçların riski azalır ama sıfır olmaz.
 
