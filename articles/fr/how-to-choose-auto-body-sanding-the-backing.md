@@ -1,7 +1,7 @@
 ---
 slug: how-to-choose-auto-body-sanding-the-backing
 category: selection-guide
-title: "Choisir le ponçage automobile : le support"
+title: "Choisir le ponçage carrosserie : le support"
 keywords: [Ponçage automobile, Disques de ponçage treillis, Disques de ponçage, Crochet et boucle]
 metaDescription: "Choisir le support pour le ponçage automobile : disques treillis, papier ou crochet et boucle, séquences de grain par étape de panneau, outil, poussière et checklist."
 intro: "Le support décide du ponçage automobile : treillis, papier ou crochet et boucle, choisi selon l'outil et l'étape, standard de grain nommé à la commande."
