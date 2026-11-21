@@ -1,0 +1,4 @@
+# MoTai Abrasives — static showcase site
+User-agent: *
+Allow: /
+Sitemap: https://cs.motaiabrasive.com/sitemap.xml
