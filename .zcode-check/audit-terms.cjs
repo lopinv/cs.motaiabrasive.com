@@ -14,8 +14,9 @@
 const fs = require('fs')
 const path = require('path')
 
-const DIR = path.join(__dirname, 'locales-v2')
-const en = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'i18n', 'en.json'), 'utf8'))
+const DIR = path.join(__dirname, '..', 'src', 'i18n')
+const en = JSON.parse(fs.readFileSync(path.join(DIR, 'en.json'), 'utf8'))
+const IS_SRC_I18N = true // now reads from src/i18n directly, not locales-v2 payloads
 
 // dotted leaf paths (arrays atomic)
 function leafPaths(o, p = '', out = []) {
@@ -219,8 +220,9 @@ for (const { file, code, dir } of targets) {
   // 6) Nordic letters sanity (must contain some å/ä/ö/æ/ø in Latin locales)
   if (['sv', 'da', 'no'].includes(code) && !/[åäöæø]/i.test(raw)) issues.push('SCRIPT no Scandinavian letters found (fully anglicised?)')
   // 7) FULL-locale completeness (payloads only; a tail file is partial by design)
+  // For src/i18n nested objects, flat keys != leaf paths; key-parity.cjs already validates this
   const leaves = (() => { let n = 0; (function w(x) { for (const v of Object.values(x)) { if (typeof v === 'object' && v !== null && !Array.isArray(v)) w(v); else n++ } })(obj); return n })()
-  if (dir === DIR && leaves >= 579 && !flat.every((k) => enSet.has(k) || ['code', 'name', 'codeLabel', 'htmlLang', 'ogLocale', 'rtl'].includes(k))) {
+  if (!IS_SRC_I18N && dir === DIR && leaves >= 579 && !flat.every((k) => enSet.has(k) || ['code', 'name', 'codeLabel', 'htmlLang', 'ogLocale', 'rtl'].includes(k))) {
     issues.push('SHAPE FULL payload has keys not present in en.json')
   }
 
